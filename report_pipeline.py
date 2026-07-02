@@ -34,6 +34,19 @@ load_dotenv(dotenv_path=ENV_FILE)
 
 
 @dataclass(frozen=True)
+class SourceDocument:
+    doc_type: str
+    source_pdf: Path
+
+
+BUNDLE_SECTION_HEADERS = {
+    "Press Release": "PRESS RELEASE",
+    "Earnings Presentation": "EARNINGS PRESENTATION",
+    "Earnings Call Transcript": "EARNINGS CALL TRANSCRIPT",
+}
+
+
+@dataclass(frozen=True)
 class ReportSpec:
     issuer: str
     company: str
@@ -42,12 +55,16 @@ class ReportSpec:
     report_type: str
     fiscal_period: str
     report_date: str
-    source_pdf: Path
+    documents: tuple[SourceDocument, ...]
     document_id: str
 
     @property
     def output_stem(self) -> str:
         return sanitize_filename(self.document_id)
+
+    @property
+    def primary_source_pdf(self) -> Path:
+        return self.documents[0].source_pdf
 
 
 @dataclass(frozen=True)
@@ -68,7 +85,10 @@ def report_metadata(report: ReportSpec) -> dict[str, Any]:
         "report_type": report.report_type,
         "fiscal_period": report.fiscal_period,
         "report_date": report.report_date,
-        "source_pdf": str(report.source_pdf),
+        "documents": [
+            {"doc_type": doc.doc_type, "source_pdf": str(doc.source_pdf)}
+            for doc in report.documents
+        ],
         "document_id": report.document_id,
     }
 
@@ -107,15 +127,25 @@ def json_dumps_line(payload: dict[str, Any]) -> str:
     return json.dumps(payload, ensure_ascii=True) + "\n"
 
 
+def _resolve_path(path: Path) -> Path:
+    if not path.is_absolute():
+        path = (BASE_DIR / path).resolve()
+    return path
+
+
 def load_manifest(manifest_path: Path) -> list[ReportSpec]:
     raw = json.loads(manifest_path.read_text(encoding="utf-8"))
     reports = raw["reports"] if isinstance(raw, dict) else raw
     loaded_reports = []
 
     for entry in reports:
-        source_pdf = Path(entry["source_pdf"])
-        if not source_pdf.is_absolute():
-            source_pdf = (BASE_DIR / source_pdf).resolve()
+        documents = tuple(
+            SourceDocument(
+                doc_type=doc["doc_type"],
+                source_pdf=_resolve_path(Path(doc["source_pdf"])),
+            )
+            for doc in entry["documents"]
+        )
         loaded_reports.append(
             ReportSpec(
                 issuer=entry["issuer"],
@@ -125,7 +155,7 @@ def load_manifest(manifest_path: Path) -> list[ReportSpec]:
                 report_type=entry["report_type"],
                 fiscal_period=entry["fiscal_period"],
                 report_date=entry["report_date"],
-                source_pdf=source_pdf,
+                documents=documents,
                 document_id=entry["document_id"],
             )
         )
@@ -370,6 +400,48 @@ def extract_doc_text(pdf_path: Path) -> ExtractionResult:
     )
 
 
+def build_bundle_text(report: ReportSpec) -> tuple[str, list[dict[str, Any]], list[str]]:
+    """Extracts each source document and concatenates them into one labeled text
+    block for a single LLM call per quarter. A sub-document that fails extraction
+    (e.g. trips MIN_EXTRACTED_TEXT_CHARS) is dropped with a warning rather than
+    failing the whole bundle - a partial bundle is still a usable signal."""
+    sections: list[str] = []
+    per_doc_meta: list[dict[str, Any]] = []
+    combined_warnings: list[str] = []
+
+    for doc in report.documents:
+        header = BUNDLE_SECTION_HEADERS.get(doc.doc_type, doc.doc_type.upper())
+        try:
+            extraction = extract_doc_text(doc.source_pdf)
+        except ValueError as exc:
+            combined_warnings.append(f"{doc.doc_type}: extraction_failed: {exc}")
+            per_doc_meta.append({"doc_type": doc.doc_type, "source_pdf": str(doc.source_pdf), "error": str(exc)})
+            continue
+
+        sections.append(f"=== {header} ===\n\n{extraction.text}")
+        per_doc_meta.append(
+            {
+                "doc_type": doc.doc_type,
+                "source_pdf": str(doc.source_pdf),
+                "page_count": extraction.page_count,
+                "extracted_characters": extraction.extracted_characters,
+                "extractor_used": extraction.extractor_used,
+                "warnings": extraction.warnings,
+            }
+        )
+        # The transcript-oriented "Earnings Call" keyword / speaker-label checks
+        # inside extract_doc_text always trip on press releases and slide decks,
+        # so only surface them for the doc type they're actually meaningful for.
+        if doc.doc_type == "Earnings Call Transcript":
+            combined_warnings.extend(f"{doc.doc_type}: {warning}" for warning in extraction.warnings)
+
+    if not sections:
+        raise ValueError(f"All source documents failed extraction for {report.document_id}")
+
+    combined_text = "\n\n".join(sections)
+    return combined_text, per_doc_meta, combined_warnings
+
+
 def strip_json_fences(raw_text: str) -> str:
     clean_text = raw_text.strip()
     if clean_text.startswith("```"):
@@ -425,7 +497,7 @@ def call_llm(
         "ticker": report.ticker,
         "fiscal_period": report.fiscal_period,
         "report_date": report.report_date,
-        "source_pdf": str(report.source_pdf),
+        "source_pdf": str(report.primary_source_pdf),
         "model": response.model,
         "input_tokens": response.usage.prompt_tokens,
         "output_tokens": response.usage.completion_tokens,
@@ -510,7 +582,7 @@ def build_result_payload(
         "timestamp": cost_log["timestamp"],
         "model": cost_log["model"],
         "cached_input": cost_log["cached_input"],
-        "source_pdf": str(report.source_pdf),
+        "source_pdf": str(report.primary_source_pdf),
         "extracted_text_path": str(extraction_target),
     }
     if extraction_meta is not None:

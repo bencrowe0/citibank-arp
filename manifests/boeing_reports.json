@@ -1,0 +1,65 @@
+{
+  "issuer": "boeing",
+  "reports": [
+    {
+      "issuer": "boeing",
+      "company": "The Boeing Company",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-23",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/boeing/Q1/1Q25-Press-Release.pdf"},
+        {"doc_type": "Earnings Presentation", "source_pdf": "docs/boeing/Q1/1Q25-Presentation.pdf"},
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/boeing/Q1/Transcript-Q1-2025-Earnings-Call.pdf"}
+      ],
+      "document_id": "BA_FQ1_2025"
+    },
+    {
+      "issuer": "boeing",
+      "company": "The Boeing Company",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/boeing/Q2/2Q25-Press-Release.pdf"},
+        {"doc_type": "Earnings Presentation", "source_pdf": "docs/boeing/Q2/2Q25-Presentation.pdf"},
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/boeing/Q2/Transcript.pdf"}
+      ],
+      "document_id": "BA_FQ2_2025"
+    },
+    {
+      "issuer": "boeing",
+      "company": "The Boeing Company",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/boeing/Q3/3Q25-Press-Release.pdf"},
+        {"doc_type": "Earnings Presentation", "source_pdf": "docs/boeing/Q3/3Q25-Presentation.pdf"},
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/boeing/Q3/Transcript.pdf"}
+      ],
+      "document_id": "BA_FQ3_2025"
+    },
+    {
+      "issuer": "boeing",
+      "company": "The Boeing Company",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-27",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/boeing/Q4/Press-Release.pdf"},
+        {"doc_type": "Earnings Presentation", "source_pdf": "docs/boeing/Q4/Presentation.pdf"},
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/boeing/Q4/Transcript.pdf"}
+      ],
+      "document_id": "BA_FQ4_2025"
+    }
+  ]
+}

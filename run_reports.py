@@ -11,12 +11,12 @@ from report_pipeline import (
     BASE_DIR,
     OUTPUTS_DIR,
     ReportSpec,
+    build_bundle_text,
     build_result_payload,
     build_doc_params,
     build_user_message,
     call_llm,
     consistency_check,
-    extract_doc_text,
     json_dumps_line,
     load_manifest,
     sanitize_filename,
@@ -231,16 +231,10 @@ def process_report(
             )
         report_text = load_extracted_text(extraction_target)
     else:
-        extraction = extract_doc_text(report.source_pdf)
-        extraction_target.write_text(extraction.text, encoding="utf-8")
-        report_text = extraction.text
-        report_output["warnings"].extend(extraction.warnings)
-        report_output["extraction"] = {
-            "page_count": extraction.page_count,
-            "extracted_characters": extraction.extracted_characters,
-            "extractor_used": extraction.extractor_used,
-            "target_path": str(extraction_target),
-        }
+        report_text, per_doc_meta, bundle_warnings = build_bundle_text(report)
+        extraction_target.write_text(report_text, encoding="utf-8")
+        report_output["warnings"].extend(bundle_warnings)
+        report_output["extraction"] = {"documents": per_doc_meta, "target_path": str(extraction_target)}
 
     doc_params = build_doc_params(
         report,
@@ -348,7 +342,7 @@ def main() -> int:
     failures = 0
 
     for index, report in enumerate(reports, start=1):
-        print(f"\n[{index}/{len(reports)}] {report.document_id} - {report.source_pdf.name}")
+        print(f"\n[{index}/{len(reports)}] {report.document_id} - {report.primary_source_pdf.name}")
         try:
             outcome = process_report(
                 report,
@@ -390,7 +384,7 @@ def main() -> int:
                 "ticker": report.ticker,
                 "fiscal_period": report.fiscal_period,
                 "report_date": report.report_date,
-                "source_pdf": str(report.source_pdf),
+                "source_pdf": str(report.primary_source_pdf),
                 "error": str(exc),
             }
             append_jsonl(first_run_log_path(output_dirs), failure_log)

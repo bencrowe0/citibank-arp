@@ -14,6 +14,7 @@ from pathlib import Path
 from report_pipeline import (
     OUTPUTS_DIR,
     ReportSpec,
+    SourceDocument,
     build_doc_params,
     build_user_message,
     call_llm,
@@ -57,7 +58,7 @@ EXAMPLE_REPORT = ReportSpec(
     report_type="Earnings Call Transcript",
     fiscal_period="Q3 2024",
     report_date="2024-10-30",
-    source_pdf=Path("example"),
+    documents=(SourceDocument(doc_type="Earnings Call Transcript", source_pdf=Path("example")),),
     document_id="META_Q3_2024_EXAMPLE",
 )
 
