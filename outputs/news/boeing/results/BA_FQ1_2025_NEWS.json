@@ -3,18 +3,18 @@
   "base_document_id": "BA_FQ1_2025",
   "issuer": "boeing",
   "sentiment": {
-    "score": 0.1,
-    "rationale": "The document reports a 62.4% EPS beat and an 18% revenue increase year-on-year, but forward guidance is only reaffirmed (Boeing still expects to deliver around 400 737s and approximately 80 787s this year) with no upward revision. Management tone is not directly quoted, but the mention of potential China tariff impact and the reaffirmation of existing delivery targets suggest a neutral-to-slightly-positive forward outlook. The score is slightly above zero because the strong start to the year and the F-47 program win provide some positive momentum, but the lack of raised guidance keeps it below +0.15."
+    "score": 0.3,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects that analyst expectations heading into the print are depressed: the consensus loss estimate had widened significantly in the prior 60 days, and the Zacks quantitative model flagged a positive Earnings ESP of +12.7%, indicating a low bar that raises the odds of a positive surprise. The digest also notes that Q1 is seen as 'an early data point in a multi-year recovery story, not a make-or-break quarter,' which further reduces the risk of a severe negative reaction."
   },
   "signal": {
-    "direction": "HOLD",
+    "direction": "BUY",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "none — HOLD band"
+    "boundary_crossed": "upper"
   },
   "cost_log": {
-    "run_id": "20260702T125550Z",
-    "timestamp": "2026-07-02T12:56:00Z",
+    "run_id": "20260702T133210Z",
+    "timestamp": "2026-07-02T13:32:25Z",
     "status": "success",
     "document_id": "BA_FQ1_2025_NEWS",
     "issuer": "boeing",
@@ -24,14 +24,14 @@
     "report_date": "2025-04-23",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ1_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2461,
-    "output_tokens": 1249,
-    "total_tokens": 3710,
+    "input_tokens": 3845,
+    "output_tokens": 2068,
+    "total_tokens": 5913,
     "cached_input": false,
-    "estimated_cost_usd": 0.002038,
-    "latency_seconds": 9.43,
-    "signal": "HOLD",
-    "sentiment_score": 0.1,
+    "estimated_cost_usd": 0.003313,
+    "latency_seconds": 14.29,
+    "signal": "BUY",
+    "sentiment_score": 0.3,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

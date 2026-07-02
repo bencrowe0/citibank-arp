@@ -1,15 +1,13 @@
 JPMorgan Chase (JPM) - News coverage digest, FQ4 2025 earnings (report date 2026-01-13)
-Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
 
-Profit fell 7% to $13.03 billion, or $4.63 per share, because of a preannounced $2.2 billion reserve tied to the takeover of the Apple Card loan portfolio from Goldman Sachs. Excluding the 60 cent per share hit from that transaction, adjusted earnings came in at $5.23 and topped analysts' expectations. Companywide revenue rose 7% to $46.77 billion as net interest income climbed 7% to $25.1 billion, roughly matching analyst expectations.
+Ahead of the January 13, 2026 report, consensus expected JPMorgan EPS of about $4.93, up roughly 2.5% from $4.81 in the year-ago quarter. On net interest income, management's own guidance (reiterated in prior-quarter commentary) called for full-year 2025 NII of about $96 billion, with Q4 NII expected to come in near $25 billion - consistent with the sell-side consensus estimate of about $24.9 billion for the quarter, implying full-year NII of approximately $95.8 billion. Management had also guided to fourth-quarter markets revenue growth in the low-teens percentage range, with consensus modeling equities markets revenue of roughly $2.82 billion, which analysts noted would be a roughly 38% year-over-year jump if achieved.
 
-Results were mixed across business units: equities trading revenue surged 40% to $2.9 billion, about $350 million more than analysts expected, citing strength catering to hedge funds. Fixed income trading revenue rose 7% to $5.4 billion, about $110 million more than expected. Investment banking, however, disappointed, with fees falling 5% to $2.3 billion, roughly $210 million below estimate.
-
-The bank guided to full-year 2026 net interest income of about $103 billion and adjusted expenses of roughly $105 billion, though both measures are described as "market dependent."
-
-Analysts continued to view JPMorgan's stock as attractive, trading below intrinsic value, with earnings estimates being raised and a recent upgrade to a Buy rating.
+Beyond the headline numbers, preview coverage framed the release as much about CEO Jamie Dimon's outlook commentary as the Q4 results themselves, given it was the last big-bank print of the season and the first extended read on 2026. Analysts were looking for an early view on how the Federal Reserve's ongoing rate-cut cycle would affect 2026 lending margins and deposit betas, alongside color on JPMorgan's roughly $2 billion in annual AI/technology spending, which Dimon has described as just the "tip of the iceberg" for future efficiency gains. Coverage also noted Dimon's characteristically cautious tone in prior commentary - frequently flagging geopolitical tension or labor-market cooling even during strong results - as a factor that could shape the stock's reaction independent of the headline beat/miss, and separately cited JPMorgan's own Global Market Strategy team's 2026 S&P 500 target of 7,500 with expected market-wide earnings growth of 13-15% over the following two years as part of the broader sentiment backdrop heading into bank earnings season.
 
 Sources:
-- https://www.cnbc.com/2026/01/13/jpmorgan-chase-jpm-earnings-q4-2025.html
-- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-q4-210104066.html
-- https://finance.yahoo.com/news/heres-key-metrics-tell-us-143002753.html
+- https://finance.yahoo.com/news/jpmorgan-q4-preview-eyes-dimons-114658607.html ("JPMorgan Q4 Preview: All Eyes on Dimon's 2026 Outlook" - published prior to the January 13, 2026 report)
+- https://finance.yahoo.com/news/jpm-q4-earnings-deck-buy-140000742.html ("JPM Q4 Earnings on Deck: Buy, Sell or Hold the Stock Ahead of Results?" - published prior to the January 13, 2026 report)
+- https://finance.yahoo.com/news/know-ahead-jpmorgan-chases-earnings-112251139.html ("What You Need to Know Ahead of JPMorgan Chase's Earnings Release" - published prior to the January 13, 2026 report)
+
+Note: exact publish timestamps for these three preview articles could not be independently confirmed beyond "prior to the January 13, 2026 report" (search snippets did not surface day-level dates); all three are earnings-preview pieces framed entirely in future tense ahead of the release and contain no reported results or post-earnings reaction language, consistent with pre-earnings coverage.

@@ -3,18 +3,18 @@
   "base_document_id": "BA_FQ4_2025",
   "issuer": "boeing",
   "sentiment": {
-    "score": 0.5,
-    "rationale": "The document reports a strong quarter with revenue and cash flow beating expectations, but the key forward-looking signal is the CEO's explicit guidance for positive free cash flow between $1 billion and $3 billion for 2026, which represents a raised forward expectation compared to the prior period. The document also notes Wall Street analysts are highly optimistic with a 'Strong Buy' rating, and JPMorgan raised its price target, indicating improved forward sentiment. However, the CEO also mentions 'headwinds that we have to cash flow in the near term,' which tempers the score from being higher."
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the sentiment score reflects market expectations rather than guidance changes. The document describes a stock that has already rallied 16% year-to-date heading into the report, with options markets pricing a swing of roughly 5.08% (above the four-quarter average of 4.1%), and analyst estimates revised down 2.9% over the trailing 30 days. This combination of an elevated stock price and a modest downward revision to estimates suggests a somewhat stretched bar, increasing the risk of a negative surprise even on decent results, warranting a mildly bearish score."
   },
   "signal": {
-    "direction": "BUY",
+    "direction": "SELL",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "upper"
+    "boundary_crossed": "lower"
   },
   "cost_log": {
-    "run_id": "20260702T125622Z",
-    "timestamp": "2026-07-02T12:56:32Z",
+    "run_id": "20260702T133248Z",
+    "timestamp": "2026-07-02T13:33:00Z",
     "status": "success",
     "document_id": "BA_FQ4_2025_NEWS",
     "issuer": "boeing",
@@ -24,14 +24,14 @@
     "report_date": "2026-01-27",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ4_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2442,
-    "output_tokens": 1559,
-    "total_tokens": 4001,
+    "input_tokens": 3862,
+    "output_tokens": 1665,
+    "total_tokens": 5527,
     "cached_input": false,
-    "estimated_cost_usd": 0.002374,
-    "latency_seconds": 10.72,
-    "signal": "BUY",
-    "sentiment_score": 0.5,
+    "estimated_cost_usd": 0.002874,
+    "latency_seconds": 12.24,
+    "signal": "SELL",
+    "sentiment_score": -0.15,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

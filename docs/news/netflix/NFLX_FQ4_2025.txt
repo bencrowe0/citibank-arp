@@ -1,15 +1,14 @@
 Netflix (NFLX) - News coverage digest, FQ4 2025 earnings (report date 2026-01-20)
-Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: pre-earnings coverage strictly before report_date, no post-earnings content.
 
-Netflix reported fourth-quarter 2025 earnings of 56 cents per share, beating the Zacks Consensus Estimate by 1.82%, up 30.2% from the year-ago quarter. While the Q4 results were strong, 2026 guidance was seen as slightly softer than street expectations.
+Going into the January 20 report, the Zacks consensus estimate (average of nine analysts) was for EPS of $0.55, up about 27.9% year-over-year from $0.43, on revenue of roughly $11.97 billion, implying growth of about 16.8%. Analysts projected a continued, more modest rise in earnings and revenue versus prior quarters, driven mainly by steady international subscriber growth, higher subscription pricing, and further ramp in advertising revenue.
 
-There were downward price target revisions across almost all firms covering the stock, including Bernstein and Goldman Sachs, who lowered targets by 8%-10%. The average price target fell 8.2%, with reduced earnings forecasts tied to a lower valuation estimate. KeyBanc downgraded its price target from $139 to $110 (keeping Overweight), citing uncertainty around the Warner Bros. Discovery deal and concerns about lapping 2025's content slate.
-
-Some analysts remained constructive: Guggenheim Partners maintained a buy rating with a price target of $130 (down from $145), noting engagement trends and 2026 profit guidance temper enthusiasm, and that the path to conclusion on the WBD bid will likely keep share appreciation limited over the next three months.
-
-The Warner Bros. Discovery acquisition and softer 2026 guidance were the primary concerns weighing on sentiment.
+The dominant story overhanging the quarter was Netflix's pending acquisition of Warner Bros. Discovery's studio and streaming assets. On December 5, 2025, Netflix and WBD announced a definitive agreement for Netflix to acquire Warner Bros., including its film and television studios and HBO/HBO Max, in a cash-and-stock transaction valued at $27.75 per WBD share (total enterprise value near $82.7 billion, equity value about $72 billion). Coverage through December noted regulatory-path uncertainty for the deal and reported that Netflix had refinanced part of a $59 billion bridge loan tied to the transaction (December 22, 2025). Rival bidder Paramount Skydance's competing, higher hostile offer for WBD was also an active overhang, with investors watching for updates on deal financing and structure as a key swing factor for the print, independent of the underlying quarterly operating results.
 
 Sources:
-- https://www.cnbc.com/2026/01/20/netflix-nflx-earnings-q4-2025.html
-- https://www.cnbc.com/2026/01/21/netflixs-fourth-quarter-results-left-the-street-disappointed-where-analysts-see-the-stock-going.html
-- https://finance.yahoo.com/news/analysts-share-mixed-remarks-netflix-180851120.html
+- Netflix and Capital One Financial are part of Zacks Earnings Preview - finance.yahoo.com/news/netflix-capital-one-financial-part-134300846.html (published the week of the report, before 2026-01-20, pre-earnings)
+- Netflix to buy Warner Bros. film and streaming assets in $72 billion deal - cnbc.com/2025/12/05/neflix-warner-bros-discovery-deal.html (published 2025-12-05, pre-earnings)
+- The regulatory path ahead for a Netflix and Warner Bros. deal could get dicey - cnbc.com/2025/12/05/netflix-warner-bros-deal-regulatory-questions.html (published 2025-12-05, pre-earnings)
+- Netflix refinances part of $59 billion bridge loan tied to Warner Bros Discovery deal - cnbc.com/2025/12/22/netflix-warner-bros-discovery-bridge-loan.html (published 2025-12-22, pre-earnings)
+
+Note: coverage focuses on pre-report analyst consensus estimates and the pending Warner Bros. Discovery acquisition context available before the report; the "amends offer to all cash" CNBC piece dated 2026-01-20 was deliberately excluded because its exact same-day timing relative to the report could not be confirmed as strictly pre-market-close, and the hard rule requires strictly-before-report_date sourcing. No figures or reactions from the actual January 20 release are included.

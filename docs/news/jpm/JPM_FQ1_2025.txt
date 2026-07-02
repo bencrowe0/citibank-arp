@@ -1,15 +1,16 @@
 JPMorgan Chase (JPM) - News coverage digest, FQ1 2025 earnings (report date 2025-04-11)
-Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
 
-JPMorgan Chase reported results that topped estimates on higher-than-expected revenue, helped by booming equity trading activity and higher asset management and investment banking fees. Revenue hit $46.01 billion versus expected $44.11 billion, and first-quarter profit rose 9% to $14.64 billion, or $5.07 a share.
+Heading into the April 11 report, Wall Street consensus called for JPMorgan EPS of roughly $4.61-$5.46 and revenue near $48.2-$48.6 billion, which analysts noted would represent high-single-digit year-over-year growth on both lines; one widely cited estimate had the consensus EPS figure revised about 3% lower over the prior 30 days. Analysts' key-metric models pointed to net interest income (FTE) near $25.5 billion versus $23.4 billion a year earlier, noninterest revenue around $23.4 billion, and markets estimates of roughly $4.8 billion in equities revenue (up about 25% year-over-year) and $6.8 billion in fixed income (up about 16%). This pre-earnings estimate backdrop built on guidance CFO Jeremy Barnum had given in January alongside Q4 2024 results, when he told reporters he expected full-year 2025 net interest income of about $94 billion.
 
-Revenue exceeded analyst estimates by 2.7% and EPS surpassed analyst estimates by 9.2%. Excluding a one-time gain of 16 cents per share tied to its First Republic acquisition, JPMorgan earned $4.91 per share, compared with the LSEG estimate of $4.61.
+The dominant theme in pre-earnings coverage was macro uncertainty rather than company-specific concerns. President Trump's tariff announcements triggered sharp market volatility in the days before the report: on April 7 JPMorgan's own economists said they were bracing for a possible recession if the full slate of tariff threats took effect, and on April 9 - two days before JPM reported - CEO Jamie Dimon told Fox Business that a recession was "probably a likely outcome" of the escalating U.S.-China trade war, citing JPMorgan house economists' call for a mild U.S. GDP contraction in 2025. Analysts flagged this volatile geopolitical backdrop as a key swing factor for the print, alongside JPM's premium valuation (forward P/E of roughly 13.5x versus an industry average near 12.8x, and a premium to peers Citigroup and Bank of America).
 
-Equities trading was the quarter's standout, with revenue surging 48% to $3.8 billion. Commercial & Investment Bank revenue was $19.7 billion, up 12% year on year, while Asset & Wealth Management revenue was $5.7 billion, up 12% year on year.
-
-Analysts described JPMorgan's stock as remaining attractive, trading below intrinsic value, with earnings estimates being raised, leading to a recent upgrade to a Buy rating.
+Ahead of the report, sentiment on the stock itself was mixed-to-cautious rather than bullish: coverage described JPM as more likely to deliver a "modest" quarter after a strong Q4 2024, with commentary advising investors to watch management's comments on the 2025 net interest income trajectory and investment banking outlook during the call before drawing conclusions. Existing shareholders were generally advised to hold given the bank's competitive positioning, while prospective buyers were cautioned about valuation and macro risk.
 
 Sources:
-- https://www.cnbc.com/2025/04/11/jpmorgan-chase-jpm-earnings-q1-2025.html
-- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-q1-070045658.html
-- https://finance.yahoo.com/news/jpmorgan-chase-first-quarter-2025-184304626.html
+- https://finance.yahoo.com/markets/stocks/articles/gear-jpmorgan-chase-co-jpm-131502386.html (Zacks, "Gear Up for JPMorgan Chase & Co. (JPM) Q1 Earnings: Wall Street Estimates for Key Metrics" - published prior to April 11, 2025 report)
+- https://finance.yahoo.com/markets/stocks/articles/jpm-buy-q1-earnings-volatile-121500652.html (Zacks, "Is JPM a Buy Before Q1 Earnings in a Volatile Geopolitical Backdrop?" - published prior to April 11, 2025 report)
+- https://finance.yahoo.com/news/jpmorgan-set-report-q1-earnings-144500246.html (Zacks, "JPMorgan Set Report Q1 Earnings Next Week: How to Play JPM Stock?" - published approximately one week before the April 11, 2025 report, i.e. early April 2025)
+- https://www.cnbc.com/2025/04/09/jamie-dimon-says-a-recession-is-likely-outcome-from-trumps-tariff-turmoil.html (published April 9, 2025)
+- https://www.cnbc.com/2025/04/07/wall-street-economists-are-bracing-for-a-recession-if-full-tariff-threats-take-effect.html (published April 7, 2025)
+- https://www.cnbc.com/2025/01/15/jpmorgan-chase-jpm-earnings-q4-2024.html (CFO Barnum's ~$94B 2025 NII guidance, published January 15, 2025, i.e. prior-quarter earnings call, well before the FQ1 2025 report window)

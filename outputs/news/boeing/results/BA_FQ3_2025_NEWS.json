@@ -3,18 +3,18 @@
   "base_document_id": "BA_FQ3_2025",
   "issuer": "boeing",
   "sentiment": {
-    "score": -0.3,
-    "rationale": "The document reports a significant adjusted loss per share of -$7.47 versus the expected -$4.59, and a $4.9 billion noncash charge due to 777X program delays pushing certification to 2027. While revenue beat estimates and free cash flow improved, the forward guidance is negative: analysts expect negative revisions to 2026 free cash flow estimates due to the 777X delay and higher spending. The stock fell 4% on the announcement, and analyst tone is cautiously optimistic but with clear near-term headwinds, indicating a net negative forward outlook."
+    "score": 0.3,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects that market expectations are depressed heading into the print: analyst EPS estimates have been revised sharply lower (down 93.37% over 30 days), and the Earnings ESP is deeply negative (-49.51%), indicating a low bar that raises the odds of a positive surprise. Additionally, the digest notes continued operational momentum (commercial delivery volumes at multi-year highs) and constructive analyst price targets, supporting a mildly bullish score."
   },
   "signal": {
-    "direction": "SELL",
+    "direction": "BUY",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "lower"
+    "boundary_crossed": "upper"
   },
   "cost_log": {
-    "run_id": "20260702T125609Z",
-    "timestamp": "2026-07-02T12:56:22Z",
+    "run_id": "20260702T133238Z",
+    "timestamp": "2026-07-02T13:32:48Z",
     "status": "success",
     "document_id": "BA_FQ3_2025_NEWS",
     "issuer": "boeing",
@@ -24,14 +24,14 @@
     "report_date": "2025-10-29",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ3_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2509,
-    "output_tokens": 1757,
-    "total_tokens": 4266,
+    "input_tokens": 3760,
+    "output_tokens": 1505,
+    "total_tokens": 5265,
     "cached_input": false,
-    "estimated_cost_usd": 0.00261,
-    "latency_seconds": 12.1,
-    "signal": "SELL",
-    "sentiment_score": -0.3,
+    "estimated_cost_usd": 0.002671,
+    "latency_seconds": 10.1,
+    "signal": "BUY",
+    "sentiment_score": 0.3,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

@@ -95,16 +95,56 @@ Scoring anchor points:
         highly confident management language, no meaningful risks raised.
   +0.5  Guidance meaningfully raised (not just "reaffirmed" or "in line"),
         or results clearly beat what management had itself previously
-        signaled to expect.
+        signaled to expect, and the improvement is organic (not primarily
+        attributed to FX, one-time items, or deferred timing).
+  +0.15 to +0.3
+        Genuine operational momentum without a formal guidance raise: a
+        real inflection in the underlying business (e.g. a swing from
+        loss to profit, a meaningful margin improvement versus the prior
+        period, an operational metric turning a clear corner) combined
+        with confident forward language — even though management has not
+        yet formally raised guidance. This is different from a routine
+        backward-looking beat: it requires a genuine trajectory change,
+        not just "revenue was up."
    0.0  In-line quarter: results roughly matched prior guidance, guidance
-        reaffirmed/unchanged, or genuinely mixed positives and negatives.
-        This is the default for a routine "solid, modest beat, stable
-        guidance" release — do not score this positive by default.
+        reaffirmed/unchanged with hedged or cautious forward language, or
+        genuinely mixed positives and negatives. This is the default for
+        a routine "solid, modest beat, stable guidance" release — do not
+        score this positive by default.
   −0.5  Guidance reduced, or results beat backward-looking comparisons but
         forward guidance was held flat or hedged despite the beat, or
         cautious/defensive management language on the outlook.
   −1.0  Severe miss, guidance cut, crisis language, or major unexpected
         risk disclosure.
+
+Reading discipline — three specific things to check before scoring:
+
+1. ORGANIC VS. ATTRIBUTED. If management explicitly attributes a beat or
+   guidance improvement to FX/currency tailwinds, one-time items, or
+   deferred timing (e.g. "this reflects the FX impact from the weakening
+   dollar," "primarily due to a one-time settlement"), discount that
+   portion of the improvement — it should not count as much toward the
+   score as an organic operating improvement of the same size. Note the
+   attribution explicitly in the rationale when it changes the score.
+
+2. Q&A PUSHBACK. For earnings call transcripts, read the analyst Q&A
+   section as carefully as the prepared remarks. Analysts often ask the
+   sharpest question in the room, and management's answer — even a
+   confident-sounding one — can reveal a flat or concerning underlying
+   trend (e.g. an analyst asks about stagnating engagement/share, and
+   management's answer confirms the metric has been "steady" or "flat"
+   rather than growing). Treat a hedge or concession inside a Q&A answer
+   as real signal, weighted the same as if it appeared in prepared
+   remarks — do not let confident framing in the response mask an
+   admission buried inside it.
+
+3. STRUCTURAL VS. ONE-TIME RISK. Weight recurring or structural risk
+   disclosures (product defects, ongoing litigation/regulatory exposure,
+   certification or compliance issues affecting the forward outlook) more
+   heavily than isolated one-time charges (a single quarter's
+   restructuring cost, a one-off legal settlement already reflected in
+   results). A structural issue implies continued drag on future
+   quarters; a one-time item does not.
 
 Calibration examples:
 - Revenue and EPS both beat the prior-year comparison, management calls
@@ -117,6 +157,23 @@ Calibration examples:
   expresses confidence in accelerating demand for the coming quarters.
   → Score mildly positive (+0.2 to +0.4). The backward miss matters less
   than the forward guidance raise.
+- A company swings from an operating loss to a clear operating profit
+  versus the prior period, with management describing a "turnaround in
+  full swing," but has not issued a formal guidance raise. → Score
+  +0.15 to +0.3, not 0.0 — this is genuine momentum, distinct from a
+  routine reaffirmed-guidance quarter.
+- Full-year revenue guidance is raised, but management's own Q&A answer
+  attributes the raise mainly to currency movements, and a separate Q&A
+  answer about a core engagement/usage metric concedes it has been flat
+  for an extended period. → Score should land near 0.0 to +0.15, not the
+  +0.5 the guidance raise alone would suggest — discount the FX-driven
+  portion of the raise and weight the flat-engagement admission.
+- A company reports an improved cash-flow or margin outlook, but the
+  document also discloses a structural, ongoing product-quality or
+  regulatory issue with no near-term resolution date. → The structural
+  risk should pull the score down meaningfully even if the headline
+  financial trajectory looks positive; do not let a single strong metric
+  offset an unresolved structural risk.
 
 Important:
 - A score above ±0.7 requires correspondingly strong textual evidence of
@@ -124,8 +181,37 @@ Important:
 - For Fed minutes / central bank communications, interpret bullish as
   "accommodative / dovish for equities" and bearish as "restrictive /
   hawkish for equities."
+- For a pre-earnings market-expectations digest (a news coverage summary
+  written BEFORE the company's results are known — it will not contain
+  guidance, actual results, or reported figures for the period being
+  analyzed): the guidance-change framework above does not apply, since
+  there is no guidance to compare against yet. Instead, score how
+  STRETCHED OR DEPRESSED market expectations are heading into the print,
+  because that determines how much room there is for a positive or
+  negative surprise:
+    Bearish (negative score) when the digest describes an elevated or
+    "priced for perfection" valuation, a stock that has already rallied
+    hard into the print, analyst estimates that have been rising (raising
+    the bar), or commentary that there is "little room for a soft print."
+    A demanding bar raises the risk of a "beat but sell off anyway"
+    reaction even if the eventual results are decent.
+    Bullish (positive score) when the digest describes depressed
+    expectations, a beaten-down valuation, analyst estimates that have
+    been cut going into the print, or explicit commentary that the bar
+    has been lowered. A low bar raises the odds of a positive surprise
+    reaction even on modest results.
+    Neutral (0.0) only when the digest genuinely describes balanced,
+    unremarkable positioning with no notable stretch in either direction
+    — do not default to 0.0 just because the digest lacks guidance/results
+    language; that absence is expected for this document type, not a
+    reason for neutrality.
+  Do NOT score a pre-earnings digest 0.0 solely because "it doesn't
+  contain actual results or guidance" — that is true by construction of
+  the document type and is not itself informative either way.
 - Write a 2–3 sentence rationale grounding the score in the document,
-  and explicitly state whether forward guidance moved up, down, or held.
+  and explicitly state whether forward guidance moved up, down, or held
+  (for company documents), or whether expectations were stretched or
+  depressed (for pre-earnings digests).
 
 ---
 

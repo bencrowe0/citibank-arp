@@ -3,18 +3,18 @@
   "base_document_id": "JPM_FQ3_2025",
   "issuer": "jpm",
   "sentiment": {
-    "score": 0.0,
-    "rationale": "The document reports a strong quarter with revenue and profit beats versus prior-year comparisons, but no forward guidance is provided. Without any statement on guidance being raised, held, or lowered, the forward expectations are unchanged. The stock price decline of 1.9% after the release further suggests the market did not interpret the results as a positive forward signal."
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the sentiment score reflects how stretched or depressed market expectations are heading into the print. The document notes that JPMorgan has beaten consensus in each of the prior four quarters by an average margin of roughly 12%, which sets a high bar for Q3. Additionally, the stock trades at a forward P/E near 15.1x, slightly above the industry average of 15.0x and at a premium to peers, and analyst estimates had drifted modestly higher (about 1%) in the week before the print, raising the bar further. These factors indicate elevated expectations with little room for a soft print, warranting a mildly bearish score."
   },
   "signal": {
-    "direction": "HOLD",
+    "direction": "SELL",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "none — HOLD band"
+    "boundary_crossed": "lower"
   },
   "cost_log": {
-    "run_id": "20260702T125649Z",
-    "timestamp": "2026-07-02T12:56:56Z",
+    "run_id": "20260702T133324Z",
+    "timestamp": "2026-07-02T13:33:35Z",
     "status": "success",
     "document_id": "JPM_FQ3_2025_NEWS",
     "issuer": "jpm",
@@ -24,14 +24,14 @@
     "report_date": "2025-10-14",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ3_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2401,
-    "output_tokens": 823,
-    "total_tokens": 3224,
+    "input_tokens": 3888,
+    "output_tokens": 1603,
+    "total_tokens": 5491,
     "cached_input": false,
-    "estimated_cost_usd": 0.001554,
-    "latency_seconds": 6.46,
-    "signal": "HOLD",
-    "sentiment_score": 0.0,
+    "estimated_cost_usd": 0.002813,
+    "latency_seconds": 10.65,
+    "signal": "SELL",
+    "sentiment_score": -0.15,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

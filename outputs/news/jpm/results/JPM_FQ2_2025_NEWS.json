@@ -3,8 +3,8 @@
   "base_document_id": "JPM_FQ2_2025",
   "issuer": "jpm",
   "sentiment": {
-    "score": 0.0,
-    "rationale": "The document reports that JPMorgan Chase beat analysts' estimates on revenue and EPS for FQ2 2025, with strong fixed income trading and investment banking results. However, there is no mention of any change in forward guidance — no raised, lowered, or reaffirmed guidance is stated. Without any forward-looking guidance shift, the sentiment score defaults to 0.0, as the beat is backward-looking and does not alter forward expectations."
+    "score": -0.1,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, expectations heading into the print appear slightly stretched: consensus EPS estimates are up modestly (1.6% YoY) and the document notes coverage was 'moderately thin,' but the key themes—net interest income resilience, wage inflation, tech spending, and CEO Dimon's recession warnings—are framed as risks rather than tailwinds. The bar is not 'priced for perfection,' but the elevated recession odds and tariff concerns suggest a mildly demanding setup, warranting a slightly negative score."
   },
   "signal": {
     "direction": "HOLD",
@@ -13,8 +13,8 @@
     "boundary_crossed": "none — HOLD band"
   },
   "cost_log": {
-    "run_id": "20260702T125641Z",
-    "timestamp": "2026-07-02T12:56:49Z",
+    "run_id": "20260702T133313Z",
+    "timestamp": "2026-07-02T13:33:24Z",
     "status": "success",
     "document_id": "JPM_FQ2_2025_NEWS",
     "issuer": "jpm",
@@ -24,14 +24,14 @@
     "report_date": "2025-07-15",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ2_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2437,
-    "output_tokens": 1106,
-    "total_tokens": 3543,
+    "input_tokens": 3909,
+    "output_tokens": 1485,
+    "total_tokens": 5394,
     "cached_input": false,
-    "estimated_cost_usd": 0.001875,
-    "latency_seconds": 8.45,
+    "estimated_cost_usd": 0.002689,
+    "latency_seconds": 11.1,
     "signal": "HOLD",
-    "sentiment_score": 0.0,
+    "sentiment_score": -0.1,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

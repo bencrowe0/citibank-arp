@@ -3,18 +3,18 @@
   "base_document_id": "NFLX_FQ1_2026",
   "issuer": "netflix",
   "sentiment": {
-    "score": -0.3,
-    "rationale": "The document reports strong backward-looking results (revenue beat, net income nearly doubled) but the market reaction was sharply negative, with shares falling nearly 10% due to 'investor concerns around forward trajectory rather than past execution.' Although full-year free cash flow guidance was raised, the document does not state that revenue or earnings guidance was raised; instead, it mentions 'weak guidance shook investor confidence.' The negative market reaction and explicit forward-looking concerns outweigh the positive backward-looking beat and FCF guidance raise, resulting in a mildly bearish score."
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the sentiment score reflects whether market expectations are stretched or depressed. The document describes a stock with a Zacks Rank #2 (Buy) and a positive Earnings ESP of +1.69%, indicating elevated expectations. It also flags three key metrics that could move the stock, with specific downside risks: weak ad numbers combined with other soft metrics could pressure the stock, and the operating margin target is already viewed as below some analysts' expectations, making any further downward revision a key risk. This suggests a demanding bar with little room for error, warranting a slightly negative score."
   },
   "signal": {
-    "direction": "SELL",
+    "direction": "HOLD",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "lower"
+    "boundary_crossed": "none — HOLD band"
   },
   "cost_log": {
-    "run_id": "20260702T125732Z",
-    "timestamp": "2026-07-02T12:57:43Z",
+    "run_id": "20260702T133415Z",
+    "timestamp": "2026-07-02T13:34:26Z",
     "status": "success",
     "document_id": "NFLX_FQ1_2026_NEWS",
     "issuer": "netflix",
@@ -24,14 +24,14 @@
     "report_date": "2026-04-16",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\netflix\\NFLX_FQ1_2026.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2470,
-    "output_tokens": 1587,
-    "total_tokens": 4057,
+    "input_tokens": 3900,
+    "output_tokens": 1755,
+    "total_tokens": 5655,
     "cached_input": false,
-    "estimated_cost_usd": 0.002413,
-    "latency_seconds": 10.95,
-    "signal": "SELL",
-    "sentiment_score": -0.3,
+    "estimated_cost_usd": 0.002984,
+    "latency_seconds": 11.24,
+    "signal": "HOLD",
+    "sentiment_score": -0.15,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

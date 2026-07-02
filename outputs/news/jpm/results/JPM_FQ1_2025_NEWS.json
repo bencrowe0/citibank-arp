@@ -3,18 +3,18 @@
   "base_document_id": "JPM_FQ1_2025",
   "issuer": "jpm",
   "sentiment": {
-    "score": 0.0,
-    "rationale": "The document reports a strong quarter with revenue and EPS beats versus analyst estimates, but it does not mention any forward guidance from management. Without any statement on whether guidance was raised, held, or lowered, the forward expectations are unchanged. Therefore the score is neutral at 0.0."
+    "score": -0.25,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are. The document describes a stock with a premium valuation (forward P/E of ~13.5x vs industry ~12.8x), analyst estimates revised 3% lower over the prior 30 days, and a cautious/mixed sentiment heading into the print. The dominant theme is macro uncertainty, with CEO Dimon stating a recession is 'probably a likely outcome' and JPMorgan's own economists bracing for a possible recession. This combination of elevated valuation and heightened macro risk suggests a demanding bar, making a negative surprise more likely, hence a mildly bearish score."
   },
   "signal": {
-    "direction": "HOLD",
+    "direction": "SELL",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "none — HOLD band"
+    "boundary_crossed": "lower"
   },
   "cost_log": {
-    "run_id": "20260702T125632Z",
-    "timestamp": "2026-07-02T12:56:41Z",
+    "run_id": "20260702T133300Z",
+    "timestamp": "2026-07-02T13:33:13Z",
     "status": "success",
     "document_id": "JPM_FQ1_2025_NEWS",
     "issuer": "jpm",
@@ -24,14 +24,14 @@
     "report_date": "2025-04-11",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ1_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2441,
-    "output_tokens": 1227,
-    "total_tokens": 3668,
+    "input_tokens": 4182,
+    "output_tokens": 1823,
+    "total_tokens": 6005,
     "cached_input": false,
-    "estimated_cost_usd": 0.002009,
-    "latency_seconds": 8.7,
-    "signal": "HOLD",
-    "sentiment_score": 0.0,
+    "estimated_cost_usd": 0.003134,
+    "latency_seconds": 12.47,
+    "signal": "SELL",
+    "sentiment_score": -0.25,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

@@ -4,7 +4,7 @@
   "issuer": "jpm",
   "sentiment": {
     "score": 0.1,
-    "rationale": "The document reports a 7% profit decline due to a one-time reserve, but adjusted EPS beat expectations and revenue grew 7%. Forward guidance for 2026 NII of ~$103 billion and adjusted expenses of ~$105 billion is described as 'market dependent,' indicating no material raise or reduction relative to prior guidance. The overall tone is neutral with mixed results, so the score is slightly positive but below the BUY threshold."
+    "rationale": "This is a pre-earnings digest, so no actual results or guidance changes are available. The document describes consensus EPS expectations up ~2.5% year-over-year and NII guidance reiterated, which suggests a modestly positive but not stretched bar. However, it also highlights cautious management tone and geopolitical risks, which temper expectations. Overall, expectations appear balanced with a slight positive tilt, but not depressed enough for a strong bullish signal."
   },
   "signal": {
     "direction": "HOLD",
@@ -13,8 +13,8 @@
     "boundary_crossed": "none — HOLD band"
   },
   "cost_log": {
-    "run_id": "20260702T125656Z",
-    "timestamp": "2026-07-02T12:57:06Z",
+    "run_id": "20260702T133335Z",
+    "timestamp": "2026-07-02T13:33:45Z",
     "status": "success",
     "document_id": "JPM_FQ4_2025_NEWS",
     "issuer": "jpm",
@@ -24,12 +24,12 @@
     "report_date": "2026-01-13",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ4_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2471,
-    "output_tokens": 1465,
-    "total_tokens": 3936,
+    "input_tokens": 3949,
+    "output_tokens": 1541,
+    "total_tokens": 5490,
     "cached_input": false,
-    "estimated_cost_usd": 0.002279,
-    "latency_seconds": 10.08,
+    "estimated_cost_usd": 0.002761,
+    "latency_seconds": 10.47,
     "signal": "HOLD",
     "sentiment_score": 0.1,
     "hold_upper": 0.15,

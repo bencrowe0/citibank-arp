@@ -1,13 +1,11 @@
 JPMorgan Chase (JPM) - News coverage digest, FQ3 2025 earnings (report date 2025-10-14)
-Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
 
-JPMorgan Chase topped analysts' estimates for the third quarter as trading and investment banking generated about $700 million more revenue than expected. Profit jumped 12% to $14.39 billion, or $5.07 per share, from a year earlier. Revenue rose 9% to $47.12 billion, versus $45.4 billion expected.
+Ahead of the October 14 report, Wall Street consensus centered on EPS of roughly $4.83-$4.87 (implying about 9-11% year-over-year growth from the year-ago quarter) on revenue estimates clustered around $44.7-$45.5 billion, representing mid-single-digit to 7% year-over-year top-line growth. The consensus EPS estimate had drifted modestly higher (about 1%) in the week before the print. Coverage noted JPMorgan's strong recent track record, having beaten the consensus estimate in each of the prior four quarters by an average margin of roughly 12%, which set a high bar for the Q3 print. Valuation was flagged as a swing factor: JPM traded at a forward P/E near 15.1x versus an industry average of about 15.0x, and at a premium to peers Citigroup (~10.6x) and Bank of America (~12.2x).
 
-Corporate & Investment Bank revenue was up 17% year on year to $19.9 billion, while Asset & Wealth Management revenue was up 12% year on year to $6.1 billion.
-
-Despite the better-than-expected results, shares of JPM tumbled 1.9% after the release. Analysts remain optimistic about JPMorgan's prospects; the stock has a consensus "Moderate Buy" rating overall, with 13 out of 27 analysts recommending "Strong Buy," three "Moderate Buy," 10 "Hold," and one "Strong Sell."
+The dominant focus area was the Federal Reserve's rate-cutting cycle, which had begun in September 2025 with additional 25-basis-point cuts anticipated before year-end; analysts and commentary framed JPMorgan's print as an early read on how the easing cycle was feeding through to credit demand, loan growth, and net interest margins. A second major theme was the rebound in investment banking activity - global M&A had recovered notably in Q3 from the lows seen in April-May 2025 following the "Liberation Day" tariff announcements, as corporates adjusted to the shifting trade and macro backdrop, and analysts expected this to support advisory and underwriting fees. As in prior quarters, CEO Jamie Dimon's commentary was expected to draw attention for insight into consumer health, equity market valuations, and the bank's stance on AI adoption and technology investment.
 
 Sources:
-- https://www.cnbc.com/2025/10/14/jpmorgan-chase-jpm-earnings-q3-2025.html
-- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-q3-190058385.html
-- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-tops-114001120.html
+- https://finance.yahoo.com/news/jpmorgan-q3-earnings-preview-loan-121244579.html ("JPMorgan Q3 Earnings Preview: Loan Growth and Rate Cuts in Focus" - published prior to the October 14, 2025 report)
+- https://finance.yahoo.com/news/jpm-stock-q3-earnings-buy-142100688.html / https://www.zacks.com/stock/news/2763668/jpm-stock-before-q3-earnings-should-you-buy-now-or-wait-for-results (Zacks, "JPM Stock Before Q3 Earnings: Should You Buy Now or Wait for Results?" - published prior to the October 14, 2025 report)
+- https://finance.yahoo.com/news/expect-jpmorgan-chases-next-quarterly-060815055.html ("What to Expect From JPMorgan Chase's Next Quarterly Earnings Report" - published prior to the October 14, 2025 report)

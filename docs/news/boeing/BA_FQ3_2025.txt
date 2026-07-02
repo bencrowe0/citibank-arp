@@ -1,14 +1,12 @@
 Boeing (BA) - News coverage digest, FQ3 2025 earnings (report date 2025-10-29)
-Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
 
-Boeing reported Q3 revenue of $23.27 billion, up 30% from $17.84 billion a year ago and ahead of analysts' estimates. However, on an adjusted basis, the company reported a loss of $7.47 per share, compared unfavorably to the loss of $4.59 expected by analysts. Boeing recorded a $4.9 billion noncash charge due to delays in the 777X program; certification and first delivery of the 777-9 have been delayed to 2027.
+Heading into the October 29, 2025 report, Boeing's Q3 setup looked notably weaker on the bottom line than prior quarters despite continued top-line growth. Zacks (Oct 24) pegged the consensus at a loss of $2.46 per share on revenue of $21.92 billion, implying 22.9% revenue growth year-over-year. A separate Zacks piece (Oct 22) cited a similar but slightly different consensus of a $1.83 per-share loss on $21.64 billion revenue (up 21.3% year-over-year), noting the EPS consensus had been revised sharply lower - down 93.37% - over the preceding 30 days, signaling analysts had turned meaningfully more cautious into the print.
 
-On a positive note, Boeing's adjusted free cash flow came in at negative $238 million, compared to the negative $884.1 million estimated - a major improvement. Boeing delivered more commercial airplanes by August 2025 than in all of 2024, and generated positive free cash flow for the first time since 2023.
+Boeing's earnings-surprise track record heading into Q3 was mixed: two beats and two misses over the trailing four quarters, with an average surprise of just 0.87%. Zacks' quantitative model did not predict a beat this time, citing a deeply negative Earnings ESP of -49.51% - a marked contrast to the positive setups seen ahead of Q1 and Q2. This reflected growing Street concern about cost pressures and program-level charges (notably ongoing scrutiny of the 777X program's certification timeline) weighing on near-term profitability even as commercial delivery volumes continued to recover.
 
-Boeing stock fell 4% on the announcement. Analysts at Bernstein argued that investor worries around Boeing's capital expenditures and cash flow implications have dented sentiment, with near-term cash flow expected to be down due to the 777X delay and higher spending, indicating negative revisions to 2026 free cash flow estimates. Analysts remain cautiously optimistic with a $243.91 average target implying 21% upside.
+Despite the cautious earnings setup, underlying operational momentum remained a bright spot analysts were watching closely: commercial delivery volumes had been running at multi-year highs, and investors were focused on whether free cash flow trends would continue improving toward breakeven as guided by CEO Kelly Ortberg's turnaround plan. Analyst sentiment on the stock itself stayed constructive despite the cautious EPS outlook, with price targets in the mid-$200s reflecting continued confidence in the multi-year recovery story even as the immediate quarter's profitability was expected to disappoint.
 
 Sources:
-- https://www.cnbc.com/2025/10/29/boeing-ba-3q-2025-earnings.html
-- https://finance.yahoo.com/news/boeing-posts-q3-revenue-beat-improving-cash-flow-burn-rate-as-ceo-ortbergs-turnaround-plan-takes-off-114417219.html
-- https://finance.yahoo.com/news/bernstein-breaks-down-why-boeing-135946833.html
-- https://finance.yahoo.com/news/boeing-co-ba-q3-2025-195705789.html
+- https://finance.yahoo.com/news/position-boeing-stock-ahead-q3-125500207.html (Zacks via Yahoo Finance, published October 24, 2025)
+- https://finance.yahoo.com/news/boeing-ba-report-negative-earnings-140004535.html (Zacks via Yahoo Finance, published October 22, 2025)

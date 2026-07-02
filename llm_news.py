@@ -1,14 +1,20 @@
 """
 llm_news.py
-Route B news layer - scores a locally-stored news coverage digest per
-company/quarter with the same prompt structure, REPORT_TYPE="News Article".
+Route B news layer - scores a locally-stored pre-earnings market-expectations
+digest per company/quarter with the same prompt structure,
+REPORT_TYPE="Pre-Earnings Market Expectations Digest".
 
-Digests are fetched ahead of time via web search across free outlets (source
-URLs recorded inline in each digest for auditability) and stored as plain
-text under docs/news/<issuer>/<document_id>.txt - this script only reads that
-local text and calls the LLM, same local-first split as llm_macro.py. Digests
-are plain synthesized text, not raw PDF/HTML, so they're read directly rather
-than routed through extract_doc_text's PDF/HTML extraction pipeline.
+Digests are fetched ahead of time via web search across free outlets, strictly
+from articles dated BEFORE each report_date (source URLs + publish dates
+recorded inline for auditability) - this window is intentional, not
+incidental: an earlier "earnings date and following" window let post-earnings
+stock-reaction language leak into the digest text, which would have let the
+news layer partially read the answer it's meant to predict. Digests are
+stored as plain text under docs/news/<issuer>/<document_id>.txt - this script
+only reads that local text and calls the LLM, same local-first split as
+llm_macro.py. Digests are plain synthesized text, not raw PDF/HTML, so
+they're read directly rather than routed through extract_doc_text's PDF/HTML
+extraction pipeline.
 """
 
 from __future__ import annotations
@@ -50,7 +56,7 @@ def _news_report_spec(base_report: ReportSpec) -> ReportSpec:
         company=base_report.company,
         ticker=base_report.ticker,
         sector=base_report.sector,
-        report_type="News Article",
+        report_type="Pre-Earnings Market Expectations Digest",
         fiscal_period=base_report.fiscal_period,
         report_date=base_report.report_date,
         documents=(SourceDocument(doc_type="News Article", source_pdf=news_path),),

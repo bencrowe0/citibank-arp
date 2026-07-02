@@ -3,8 +3,8 @@
   "base_document_id": "BA_FQ2_2025",
   "issuer": "boeing",
   "sentiment": {
-    "score": 0.3,
-    "rationale": "The document reports a strong Q2 with revenue up 35% and a narrower-than-expected loss, but forward guidance is not explicitly raised or lowered; the only forward-looking statement is a cautious analyst note pushing the 47-aircraft-per-month target to mid-2026. The consensus 'Strong Buy' rating and price target increases from Bank of America and Susquehanna indicate positive forward expectations, but the lack of explicit management guidance change and the cautious analyst view prevent a higher score."
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects whether market expectations are stretched or depressed. The digest describes a stock that has already rallied 6% on the prior Q1 beat, with 19 of 24 analysts rating it 'Strong Buy' and a mean price target implying upside, indicating elevated expectations. However, the consensus loss estimate of $0.92 per share (GuruFocus) or $1.47 (Zacks) suggests a low bar relative to the prior year's $2.90 loss, and the digest notes that the bottom-line estimate had deteriorated in the prior 60 days, which lowers the bar further. The net effect is mildly positive: the bar is low enough that even a modest beat could surprise positively, but the stock's recent run-up and bullish analyst consensus limit upside. Score is +0.20."
   },
   "signal": {
     "direction": "BUY",
@@ -13,8 +13,8 @@
     "boundary_crossed": "upper"
   },
   "cost_log": {
-    "run_id": "20260702T125600Z",
-    "timestamp": "2026-07-02T12:56:09Z",
+    "run_id": "20260702T133225Z",
+    "timestamp": "2026-07-02T13:32:38Z",
     "status": "success",
     "document_id": "BA_FQ2_2025_NEWS",
     "issuer": "boeing",
@@ -24,14 +24,14 @@
     "report_date": "2025-07-29",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ2_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2508,
-    "output_tokens": 1237,
-    "total_tokens": 3745,
+    "input_tokens": 3832,
+    "output_tokens": 1646,
+    "total_tokens": 5478,
     "cached_input": false,
-    "estimated_cost_usd": 0.002038,
-    "latency_seconds": 9.58,
+    "estimated_cost_usd": 0.002845,
+    "latency_seconds": 13.12,
     "signal": "BUY",
-    "sentiment_score": 0.3,
+    "sentiment_score": 0.2,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }
