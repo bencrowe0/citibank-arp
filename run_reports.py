@@ -10,6 +10,8 @@ from typing import Any
 from report_pipeline import (
     BASE_DIR,
     OUTPUTS_DIR,
+    PROMPT_TEMPLATE_FILE,
+    PromptPack,
     ReportSpec,
     build_bundle_text,
     build_result_payload,
@@ -17,6 +19,7 @@ from report_pipeline import (
     build_user_message,
     call_llm,
     consistency_check,
+    ensemble_llm,
     json_dumps_line,
     load_manifest,
     sanitize_filename,
@@ -67,6 +70,30 @@ def parse_args() -> argparse.Namespace:
         help="Model name for DeepSeek's OpenAI-compatible API.",
     )
     parser.add_argument(
+        "--prompt",
+        type=Path,
+        default=PROMPT_TEMPLATE_FILE,
+        help="Prompt template file. Defaults to the default template.",
+    )
+    parser.add_argument(
+        "--ensemble",
+        type=int,
+        default=1,
+        help=(
+            "Runs per document. Above 1, the headline score is the mean "
+            "across runs and the signal is derived from it. Default: 1"
+        ),
+    )
+    parser.add_argument(
+        "--variant",
+        default="",
+        help=(
+            "Optional label appended to the output folder, e.g. 'v2' writes "
+            "to outputs/<issuer>_v2/ so runs with different prompts or "
+            "settings never overwrite each other."
+        ),
+    )
+    parser.add_argument(
         "--hold-upper",
         type=float,
         default=0.15,
@@ -79,6 +106,13 @@ def parse_args() -> argparse.Namespace:
         help="SELL threshold. Default: -0.15",
     )
     return parser.parse_args()
+
+
+def resolve_args(args: argparse.Namespace) -> argparse.Namespace:
+    if not args.prompt.is_absolute():
+        args.prompt = (BASE_DIR / args.prompt).resolve()
+    args.output_label = args.issuer + (f"_{args.variant}" if args.variant else "")
+    return args
 
 
 def ensure_output_dirs(issuer: str) -> dict[str, Path]:
@@ -180,6 +214,7 @@ def write_summary_csv(path: Path, rows: list[dict[str, Any]]) -> None:
         "report_date",
         "source_pdf",
         "model",
+        "prompt",
         "input_tokens",
         "output_tokens",
         "total_tokens",
@@ -187,7 +222,9 @@ def write_summary_csv(path: Path, rows: list[dict[str, Any]]) -> None:
         "estimated_cost_usd",
         "latency_seconds",
         "signal",
+        "signal_mismatch",
         "sentiment_score",
+        "ensemble_runs",
         "status",
     ]
 
@@ -213,6 +250,7 @@ def process_report(
     run_id: str,
     args: argparse.Namespace,
     first_report: bool,
+    prompts: PromptPack,
 ) -> dict[str, Any]:
     report_output = {
         "report": report,
@@ -251,15 +289,32 @@ def process_report(
         }
         return report_output
 
-    user_message = build_user_message(doc_params)
-    llm_output = call_llm(
-        user_message,
-        doc_params,
-        report,
-        run_id,
-        cached_input=not first_report,
-        model=args.model,
-    )
+    user_message = build_user_message(doc_params, template=prompts.user_template)
+    if args.ensemble > 1:
+        llm_output = ensemble_llm(
+            user_message,
+            doc_params,
+            report,
+            run_id,
+            n_runs=args.ensemble,
+            model=args.model,
+            system_prompt=prompts.system_prompt,
+            prompt_name=prompts.name,
+        )
+        for run_log in llm_output["run_logs"]:
+            append_jsonl(first_run_log_path(output_dirs), run_log)
+            append_jsonl(archived_first_run_log_path(run_output_dirs), run_log)
+    else:
+        llm_output = call_llm(
+            user_message,
+            doc_params,
+            report,
+            run_id,
+            cached_input=not first_report,
+            model=args.model,
+            system_prompt=prompts.system_prompt,
+            prompt_name=prompts.name,
+        )
 
     result_payload = build_result_payload(
         llm_output["result"],
@@ -280,8 +335,9 @@ def process_report(
         encoding="utf-8",
     )
 
-    append_jsonl(first_run_log_path(output_dirs), llm_output["cost_log"])
-    append_jsonl(archived_first_run_log_path(run_output_dirs), llm_output["cost_log"])
+    if args.ensemble <= 1:
+        append_jsonl(first_run_log_path(output_dirs), llm_output["cost_log"])
+        append_jsonl(archived_first_run_log_path(run_output_dirs), llm_output["cost_log"])
     report_output["first_run_log"] = llm_output["cost_log"]
     report_output["result_path"] = str(result_target)
     report_output["archived_result_path"] = str(archived_target)
@@ -295,6 +351,8 @@ def process_report(
             run_id,
             n_runs=args.consistency_runs,
             model=args.model,
+            system_prompt=prompts.system_prompt,
+            prompt_name=prompts.name,
         )
         for cost_log in consistency["cost_logs"]:
             append_jsonl(consistency_log_path(output_dirs), cost_log)
@@ -318,13 +376,14 @@ def load_reports(args: argparse.Namespace) -> list[ReportSpec]:
 
 
 def main() -> int:
-    args = parse_args()
+    args = resolve_args(parse_args())
+    prompts = PromptPack(args.prompt)
     reports = load_reports(args)
     if not reports:
         print(f"No reports found for issuer '{args.issuer}' in {args.manifest}")
         return 1
 
-    output_dirs = ensure_output_dirs(args.issuer)
+    output_dirs = ensure_output_dirs(args.output_label)
     run_id = utc_run_id()
     run_output_dirs = ensure_run_output_dirs(output_dirs, run_id)
 
@@ -332,6 +391,9 @@ def main() -> int:
     print(f"LLM Report Batch Runner - issuer={args.issuer} - run_id={run_id}")
     print("=" * 72)
     print(f"Manifest: {args.manifest}")
+    print(f"Model / prompt: {args.model} / {prompts.name}")
+    print(f"Ensemble runs per doc: {args.ensemble}")
+    print(f"Output folder: {output_dirs['root']}")
     print(f"Reports queued: {len(reports)}")
     print(f"Dry run: {args.dry_run}")
     print(f"Skip extract: {args.skip_extract}")
@@ -351,6 +413,7 @@ def main() -> int:
                 run_id,
                 args,
                 first_report=(index == 1),
+                prompts=prompts,
             )
             for warning in outcome["warnings"]:
                 print(f"  Warning: {warning}")
@@ -391,10 +454,10 @@ def main() -> int:
             print(f"  Failed: {exc}")
 
     if first_run_rows:
-        summary_target = first_run_summary_path(output_dirs, args.issuer)
+        summary_target = first_run_summary_path(output_dirs, args.output_label)
         write_summary_csv(summary_target, first_run_rows)
         archived_summary_target = archived_first_run_summary_path(
-            run_output_dirs, args.issuer, run_id
+            run_output_dirs, args.output_label, run_id
         )
         write_summary_csv(archived_summary_target, first_run_rows)
         print(f"\nFirst-run summary written to {summary_target}")
@@ -402,10 +465,10 @@ def main() -> int:
 
     if consistency_rows:
         summary_payload = {"run_id": run_id, "issuer": args.issuer, "reports": consistency_rows}
-        consistency_target = consistency_summary_path(output_dirs, args.issuer)
+        consistency_target = consistency_summary_path(output_dirs, args.output_label)
         write_json(consistency_target, summary_payload)
         archived_consistency_target = archived_consistency_summary_path(
-            run_output_dirs, args.issuer, run_id
+            run_output_dirs, args.output_label, run_id
         )
         write_json(archived_consistency_target, summary_payload)
         print(f"Consistency summary written to {consistency_target}")
@@ -419,15 +482,18 @@ def main() -> int:
         "skip_extract": args.skip_extract,
         "consistency_runs": args.consistency_runs,
         "model": args.model,
+        "prompt": str(args.prompt.name),
+        "ensemble": args.ensemble,
+        "variant": args.variant,
         "hold_upper": args.hold_upper,
         "hold_lower": args.hold_lower,
         "reports_queued": [report.document_id for report in reports],
         "failures": failures,
         "first_run_summary_path": (
-            str(first_run_summary_path(output_dirs, args.issuer)) if first_run_rows else ""
+            str(first_run_summary_path(output_dirs, args.output_label)) if first_run_rows else ""
         ),
         "consistency_summary_path": (
-            str(consistency_summary_path(output_dirs, args.issuer)) if consistency_rows else ""
+            str(consistency_summary_path(output_dirs, args.output_label)) if consistency_rows else ""
         ),
     }
     write_json(run_output_dirs["root"] / "batch_metadata.json", batch_metadata)

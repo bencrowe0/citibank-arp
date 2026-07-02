@@ -1,10 +1,10 @@
 {
   "issuers": [
-    "boeing",
-    "jpm",
-    "netflix"
+    "boeing_ensemble3",
+    "jpm_ensemble3",
+    "netflix_ensemble3"
   ],
-  "generated_at": "2026-07-02T19:47:27Z",
+  "generated_at": "2026-07-02T19:38:24Z",
   "outcome_thresholds": {
     "outcome_upper": 0.03,
     "outcome_lower": -0.03
@@ -34,12 +34,12 @@
       },
       {
         "held_out_document_id": "BA_FQ2_2025",
-        "tuned_hold_upper": 0.15,
-        "tuned_hold_lower": -0.15,
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
         "outcome_label": "HOLD",
-        "tuned_prediction": "BUY",
+        "tuned_prediction": "HOLD",
         "default_prediction": "BUY",
-        "correct_tuned": false,
+        "correct_tuned": true,
         "correct_default": false
       },
       {
@@ -78,9 +78,9 @@
         "tuned_hold_lower": -0.3,
         "outcome_label": "HOLD",
         "tuned_prediction": "HOLD",
-        "default_prediction": "HOLD",
+        "default_prediction": "BUY",
         "correct_tuned": true,
-        "correct_default": true
+        "correct_default": false
       },
       {
         "held_out_document_id": "JPM_FQ3_2025",
@@ -88,9 +88,9 @@
         "tuned_hold_lower": -0.3,
         "outcome_label": "HOLD",
         "tuned_prediction": "HOLD",
-        "default_prediction": "HOLD",
+        "default_prediction": "BUY",
         "correct_tuned": true,
-        "correct_default": true
+        "correct_default": false
       },
       {
         "held_out_document_id": "JPM_FQ4_2025",
@@ -108,7 +108,7 @@
         "tuned_hold_lower": -0.3,
         "outcome_label": "SELL",
         "tuned_prediction": "HOLD",
-        "default_prediction": "HOLD",
+        "default_prediction": "BUY",
         "correct_tuned": false,
         "correct_default": false
       },
@@ -134,8 +134,8 @@
       },
       {
         "held_out_document_id": "NFLX_FQ4_2025",
-        "tuned_hold_upper": 0.15,
-        "tuned_hold_lower": -0.15,
+        "tuned_hold_upper": 0.25,
+        "tuned_hold_lower": -0.25,
         "outcome_label": "HOLD",
         "tuned_prediction": "BUY",
         "default_prediction": "BUY",
@@ -143,8 +143,8 @@
         "correct_default": false
       }
     ],
-    "tuned_accuracy": 0.4166666666666667,
-    "default_accuracy": 0.5,
+    "tuned_accuracy": 0.5,
+    "default_accuracy": 0.3333333333333333,
     "modal_tuned_hold_upper": 0.3,
     "modal_tuned_hold_lower": -0.3
   },
@@ -258,16 +258,16 @@
       {
         "held_out_document_id": "JPM_FQ4_2025",
         "tuned_weights": [
+          0.2,
           0.0,
-          0.0,
-          1.0
+          0.8
         ],
-        "tuned_hold_upper": 0.1,
-        "tuned_hold_lower": -0.1,
+        "tuned_hold_upper": 0.05,
+        "tuned_hold_lower": -0.05,
         "outcome_label": "HOLD",
-        "tuned_prediction": "HOLD",
+        "tuned_prediction": "BUY",
         "default_prediction": "HOLD",
-        "correct_tuned": true,
+        "correct_tuned": false,
         "correct_default": true
       },
       {
@@ -331,7 +331,7 @@
         "correct_default": false
       }
     ],
-    "tuned_accuracy": 0.25,
+    "tuned_accuracy": 0.16666666666666666,
     "default_accuracy": 0.4166666666666667,
     "modal_tuned_weights": [
       0.0,

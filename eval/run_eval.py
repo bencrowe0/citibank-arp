@@ -57,9 +57,21 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def _base_issuer(issuer: str) -> str:
+    """Map an output-folder label like 'boeing_ensemble3' back to the real
+    issuer name ('boeing') so macro/news lookups (which are keyed by the
+    manifest issuer, not the output folder) still resolve for --variant
+    output folders used to A/B test a prompt or ensemble setting."""
+    for known in ALL_ISSUERS:
+        if issuer == known or issuer.startswith(f"{known}_"):
+            return known
+    return issuer
+
+
 def build_documents_for_issuer(issuer: str, window_trading_days: int, outcome_upper: float, outcome_lower: float):
     results_dir = OUTPUTS_DIR / issuer / "results"
     outcomes = collect_outcomes_for_issuer(issuer, results_dir, window_trading_days, outcome_upper, outcome_lower)
+    news_issuer = _base_issuer(issuer)
 
     pairs = []
     for outcome in outcomes:
@@ -70,7 +82,7 @@ def build_documents_for_issuer(issuer: str, window_trading_days: int, outcome_up
         macro_result = llm_macro.get_macro_score_for_date(report_date)
         macro_score = macro_result["sentiment"]["score"] if macro_result else None
 
-        news_result = llm_news.get_news_score(issuer, outcome.document_id)
+        news_result = llm_news.get_news_score(news_issuer, outcome.document_id)
         news_score = news_result["sentiment"]["score"] if news_result else None
 
         document = Document(

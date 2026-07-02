@@ -93,8 +93,8 @@ def report_metadata(report: ReportSpec) -> dict[str, Any]:
     }
 
 
-def load_prompt_sections() -> tuple[str, str]:
-    template_text = PROMPT_TEMPLATE_FILE.read_text(encoding="utf-8")
+def load_prompt_sections(prompt_file: Path = PROMPT_TEMPLATE_FILE) -> tuple[str, str]:
+    template_text = prompt_file.read_text(encoding="utf-8")
     fenced_blocks = [
         block.strip()
         for index, block in enumerate(template_text.split("```"))
@@ -102,12 +102,21 @@ def load_prompt_sections() -> tuple[str, str]:
     ]
     if len(fenced_blocks) < 2:
         raise ValueError(
-            f"Expected at least two fenced code blocks in {PROMPT_TEMPLATE_FILE}"
+            f"Expected at least two fenced code blocks in {prompt_file}"
         )
     return fenced_blocks[0], fenced_blocks[1]
 
 
 SYSTEM_PROMPT, USER_MESSAGE_TEMPLATE = load_prompt_sections()
+
+
+class PromptPack:
+    """One loaded prompt file, so a run can pin which prompt version it used."""
+
+    def __init__(self, prompt_file: Path = PROMPT_TEMPLATE_FILE):
+        self.path = prompt_file
+        self.name = prompt_file.name
+        self.system_prompt, self.user_template = load_prompt_sections(prompt_file)
 
 
 def sanitize_filename(value: str) -> str:
@@ -163,7 +172,7 @@ def load_manifest(manifest_path: Path) -> list[ReportSpec]:
     return loaded_reports
 
 
-def build_user_message(params: dict[str, Any]) -> str:
+def build_user_message(params: dict[str, Any], template: str | None = None) -> str:
     placeholder_map = {
         "COMPANY": params["company"],
         "TICKER": params["ticker"],
@@ -176,7 +185,7 @@ def build_user_message(params: dict[str, Any]) -> str:
         "HOLD_LOWER": params["hold_lower"],
     }
 
-    user_message = USER_MESSAGE_TEMPLATE
+    user_message = template if template is not None else USER_MESSAGE_TEMPLATE
     for key, value in placeholder_map.items():
         user_message = user_message.replace(f"{{{{{key}}}}}", str(value))
     return user_message
@@ -454,6 +463,30 @@ def strip_json_fences(raw_text: str) -> str:
     return clean_text
 
 
+def derive_signal(score: float, hold_upper: float, hold_lower: float) -> str:
+    if score > hold_upper:
+        return "BUY"
+    if score < hold_lower:
+        return "SELL"
+    return "HOLD"
+
+
+def validate_result(result: dict[str, Any]) -> None:
+    missing = [key for key in ("sentiment", "signal", "summary", "evidence") if key not in result]
+    if missing:
+        raise ValueError(f"LLM response missing required keys: {missing}")
+    float(result["sentiment"]["score"])
+
+
+def cache_hit_tokens(usage: Any, cached_input: bool) -> int:
+    # DeepSeek reports actual cache hits in usage; trust that over the
+    # batch-order guess when it is present.
+    reported = getattr(usage, "prompt_cache_hit_tokens", None)
+    if reported is not None:
+        return int(reported)
+    return usage.prompt_tokens if cached_input else 0
+
+
 def call_llm(
     user_message: str,
     doc_params: dict[str, Any],
@@ -461,6 +494,9 @@ def call_llm(
     run_id: str,
     cached_input: bool = False,
     model: str = "deepseek-chat",
+    system_prompt: str | None = None,
+    prompt_name: str = PROMPT_TEMPLATE_FILE.name,
+    max_attempts: int = 3,
 ) -> dict[str, Any]:
     api_key = os.environ.get("DEEPSEEK_API_KEY")
     if not api_key:
@@ -469,23 +505,44 @@ def call_llm(
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
     start_time = time.time()
 
-    response = client.chat.completions.create(
-        model=model,
-        max_tokens=4096,
-        temperature=0,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_message},
-        ],
-    )
+    last_error: Exception | None = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                max_tokens=4096,
+                temperature=0,
+                messages=[
+                    {"role": "system", "content": system_prompt or SYSTEM_PROMPT},
+                    {"role": "user", "content": user_message},
+                ],
+            )
+            raw_text = response.choices[0].message.content or ""
+            result = json.loads(strip_json_fences(raw_text))
+            validate_result(result)
+            break
+        except Exception as exc:
+            last_error = exc
+            if attempt == max_attempts:
+                raise RuntimeError(
+                    f"LLM call failed after {max_attempts} attempts: {last_error}"
+                ) from last_error
+            time.sleep(2**attempt)
 
     elapsed = time.time() - start_time
-    raw_text = response.choices[0].message.content or ""
-    result = json.loads(strip_json_fences(raw_text))
 
-    input_price = (
-        DEEPSEEK_CACHED_PRICE_PER_M if cached_input else DEEPSEEK_INPUT_PRICE_PER_M
-    )
+    # Recompute the signal from the score so the score-to-signal mapping is
+    # deterministic, rather than trusting the model's own arithmetic. The
+    # model's stated direction is kept and any disagreement is flagged.
+    score = float(result["sentiment"]["score"])
+    derived = derive_signal(score, doc_params["hold_upper"], doc_params["hold_lower"])
+    model_stated = result["signal"]["direction"]
+    result["signal"]["direction"] = derived
+    result["signal"]["model_stated_direction"] = model_stated
+    result["signal"]["signal_mismatch"] = model_stated != derived
+
+    hit_tokens = cache_hit_tokens(response.usage, cached_input)
+    miss_tokens = response.usage.prompt_tokens - hit_tokens
 
     cost_log = {
         "run_id": run_id,
@@ -499,12 +556,15 @@ def call_llm(
         "report_date": report.report_date,
         "source_pdf": str(report.primary_source_pdf),
         "model": response.model,
+        "prompt": prompt_name,
         "input_tokens": response.usage.prompt_tokens,
+        "cache_hit_tokens": hit_tokens,
         "output_tokens": response.usage.completion_tokens,
         "total_tokens": response.usage.total_tokens,
         "cached_input": cached_input,
         "estimated_cost_usd": round(
-            (response.usage.prompt_tokens * input_price / 1_000_000)
+            (miss_tokens * DEEPSEEK_INPUT_PRICE_PER_M / 1_000_000)
+            + (hit_tokens * DEEPSEEK_CACHED_PRICE_PER_M / 1_000_000)
             + (
                 response.usage.completion_tokens
                 * DEEPSEEK_OUTPUT_PRICE_PER_M
@@ -513,13 +573,85 @@ def call_llm(
             6,
         ),
         "latency_seconds": round(elapsed, 2),
+        "attempts": attempt,
         "signal": result["signal"]["direction"],
-        "sentiment_score": result["sentiment"]["score"],
+        "signal_mismatch": result["signal"]["signal_mismatch"],
+        "sentiment_score": score,
         "hold_upper": doc_params["hold_upper"],
         "hold_lower": doc_params["hold_lower"],
     }
 
     return {"result": result, "cost_log": cost_log}
+
+
+def ensemble_llm(
+    user_message: str,
+    doc_params: dict[str, Any],
+    report: ReportSpec,
+    run_id: str,
+    n_runs: int,
+    model: str = "deepseek-chat",
+    system_prompt: str | None = None,
+    prompt_name: str = PROMPT_TEMPLATE_FILE.name,
+) -> dict[str, Any]:
+    """Run the same document n times and predict from the mean score.
+
+    Repeated calls hit DeepSeek's prompt cache, so the extra runs are cheap.
+    The mean smooths run-to-run wobble on borderline documents and the final
+    signal is derived from the mean score with the same fixed thresholds.
+    """
+    outputs = []
+    for index in range(n_runs):
+        output = call_llm(
+            user_message,
+            doc_params,
+            report,
+            run_id,
+            cached_input=index > 0,
+            model=model,
+            system_prompt=system_prompt,
+            prompt_name=prompt_name,
+        )
+        output["cost_log"]["ensemble_run_index"] = index + 1
+        outputs.append(output)
+
+    scores = [out["cost_log"]["sentiment_score"] for out in outputs]
+    signals = [out["cost_log"]["signal"] for out in outputs]
+    mean_score = round(sum(scores) / n_runs, 3)
+    final_signal = derive_signal(
+        mean_score, doc_params["hold_upper"], doc_params["hold_lower"]
+    )
+
+    # First run's full output is kept as the representative result, with the
+    # ensemble aggregate written over the headline score and signal.
+    result = outputs[0]["result"]
+    result["sentiment"]["score"] = mean_score
+    result["signal"]["direction"] = final_signal
+    result["ensemble"] = {
+        "n_runs": n_runs,
+        "scores": scores,
+        "signals": signals,
+        "mean_score": mean_score,
+        "score_range": round(max(scores) - min(scores), 3),
+        "signal_agreement": len(set(signals)) == 1,
+    }
+
+    cost_log = dict(outputs[0]["cost_log"])
+    cost_log["sentiment_score"] = mean_score
+    cost_log["signal"] = final_signal
+    cost_log["ensemble_runs"] = n_runs
+    cost_log["estimated_cost_usd"] = round(
+        sum(out["cost_log"]["estimated_cost_usd"] for out in outputs), 6
+    )
+    cost_log["latency_seconds"] = round(
+        sum(out["cost_log"]["latency_seconds"] for out in outputs), 2
+    )
+
+    return {
+        "result": result,
+        "cost_log": cost_log,
+        "run_logs": [out["cost_log"] for out in outputs],
+    }
 
 
 def consistency_check(
@@ -529,6 +661,8 @@ def consistency_check(
     run_id: str,
     n_runs: int,
     model: str = "deepseek-chat",
+    system_prompt: str | None = None,
+    prompt_name: str = PROMPT_TEMPLATE_FILE.name,
 ) -> dict[str, Any]:
     signals = []
     scores = []
@@ -542,6 +676,8 @@ def consistency_check(
             run_id,
             cached_input=True,
             model=model,
+            system_prompt=system_prompt,
+            prompt_name=prompt_name,
         )
         signals.append(output["result"]["signal"]["direction"])
         scores.append(output["result"]["sentiment"]["score"])
@@ -581,6 +717,7 @@ def build_result_payload(
         "run_id": cost_log["run_id"],
         "timestamp": cost_log["timestamp"],
         "model": cost_log["model"],
+        "prompt": cost_log.get("prompt"),
         "cached_input": cost_log["cached_input"],
         "source_pdf": str(report.primary_source_pdf),
         "extracted_text_path": str(extraction_target),
