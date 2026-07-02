@@ -1,0 +1,212 @@
+{
+  "document_id": "JPM_FQ2_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The document reports strong quarterly results with net income of $15.0 billion, EPS of $5.24, and an ROTCE of 21%. Management raised NII ex. Markets guidance to ~$92B and total NII to ~$95.5B, while maintaining a confident tone about the business outlook. However, the score is tempered by explicit mentions of significant risks including tariffs, trade uncertainty, geopolitical conditions, and high fiscal deficits, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "summary": {
+    "revenue": "Reported revenue of $44.9 billion; managed revenue of $45.7 billion, down 10% year-on-year.",
+    "eps": "Reported EPS of $5.24; excluding a significant item, EPS of $4.96.",
+    "guidance": "FY2025 NII ex. Markets expected to be approximately $92B; total NII expected to be approximately $95.5B; FY2025 adjusted expense expected to be about $95.5B; FY2025 Card Services NCO rate expected to be approximately 3.6%.",
+    "margin": "Reported overhead ratio of 53%; managed overhead ratio of 52%; ROTCE of 21% (20% excluding significant item).",
+    "key_risks": [
+      "Significant risks persist – including from tariffs and trade uncertainty, worsening geopolitical conditions, high fiscal deficits and elevated asset prices.",
+      "The environment remains extremely dynamic, and navigating uncertainty is the norm.",
+      "Tail risks are all still there, quite prominently, and in many cases, in the daily news flow."
+    ],
+    "key_opportunities": [
+      "The finalization of tax reform and potential deregulation are positive for the economic outlook.",
+      "IB pipeline remains robust, and the outlook, along with the market tone and sentiment, is notably more upbeat.",
+      "Strong net inflows and higher market levels driving growth in AWM.",
+      "Opportunities to deploy capital and other resources in Markets business contributing to durability."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes the quarter as 'another quarter of strong results' and expresses confidence in the business outlook, with Jamie Dimon stating 'we hope for the best but prepare the Firm for a wide range of scenarios.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $44.9 billion; managed revenue of $45.7 billion, down 10% year-on-year.",
+      "quote": "Net revenue - reported $44,912 ... Net revenue - managed 45,680 ... down 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS of $5.24; excluding a significant item, EPS of $4.96.",
+      "quote": "Earnings per share - diluted $5.24 ... Excluding this item resulted in a decrease of $774 million (after tax) to reported net income from $15.0 billion to $14.2 billion and a decrease of $0.28 per share to reported EPS from $5.24 to $4.96.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 NII ex. Markets expected to be approximately $92B; total NII expected to be approximately $95.5B.",
+      "quote": "Expect FY2025 net interest income of ~$95.5B, market dependent. Expect FY2025 net interest income excluding Markets of ~$92B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 adjusted expense expected to be about $95.5B.",
+      "quote": "Expect FY2025 adjusted expense of ~$95.5B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Card Services NCO rate expected to be approximately 3.6%.",
+      "quote": "Expect FY2025 Card Services NCO rate of ~3.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 53%; managed overhead ratio of 52%.",
+      "quote": "Expense of $23.8 billion; reported overhead ratio of 53% and managed overhead ratio of 52%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 21% (20% excluding significant item).",
+      "quote": "ROTCE 21% ... Excluding this item resulted in a decrease of 1% to ROTCE from 21% to 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Significant risks persist – including from tariffs and trade uncertainty, worsening geopolitical conditions, high fiscal deficits and elevated asset prices.",
+      "quote": "The U.S. economy remained resilient in the quarter. The finalization of tax reform and potential deregulation are positive for the economic outlook, however, significant risks persist – including from tariffs and trade uncertainty, worsening geopolitical conditions, high fiscal deficits and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The environment remains extremely dynamic, and navigating uncertainty is the norm.",
+      "quote": "So reflecting on the quarter, while the environment remains extremely dynamic, in many ways navigating uncertainty is the norm for both us and our clients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tail risks are all still there, quite prominently, and in many cases, in the daily news flow.",
+      "quote": "all the tail risks are all still there, quite prominently, and in many cases, in the daily news flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The finalization of tax reform and potential deregulation are positive for the economic outlook.",
+      "quote": "The finalization of tax reform and potential deregulation are positive for the economic outlook",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "IB pipeline remains robust, and the outlook, along with the market tone and sentiment, is notably more upbeat.",
+      "quote": "Our pipeline remains robust, and the outlook, along with the market tone and sentiment, is notably more upbeat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong net inflows and higher market levels driving growth in AWM.",
+      "quote": "Revenue of $5.8 billion, up 10% year-on-year, driven by growth in management fees on strong net inflows and higher average market levels, as well as higher brokerage activity and higher deposit balances.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Opportunities to deploy capital and other resources in Markets business contributing to durability.",
+      "quote": "we are seeing opportunities to deploy capital and other resources; and yeah, maybe at the margin that does contribute a little bit to durability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management describes the quarter as 'another quarter of strong results'.",
+      "quote": "We reported another quarter of strong results, generating net income of $15.0 billion or net income of $14.2 billion excluding a significant item.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the business outlook.",
+      "quote": "we hope for the best but prepare the Firm for a wide range of scenarios.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 is based on strong results and raised guidance, but tempered by explicit risk mentions. Reviewer should confirm the balance is appropriate given the positive tone and guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-07-15",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-earnings-call-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T115920Z",
+    "timestamp": "2026-07-02T12:00:02Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 25716,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 21946,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-earnings-call-transcript.pdf",
+        "page_count": 25,
+        "extracted_characters": 110990,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2025.txt"
+  }
+}

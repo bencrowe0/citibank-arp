@@ -1,0 +1,250 @@
+{
+  "document_id": "BA_FQ2_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The document shows significant improvement in key metrics: revenue up 35% to $22.7B, core loss per share narrowed from ($2.90) to ($1.24), and operating cash flow turned positive at $0.2B versus a large outflow last year. Management expresses confidence in the recovery plan, with progress on production rates and a positive free cash flow outlook for Q4. However, the company still reports a GAAP net loss, faces risks from tariffs and certification delays, and guidance is cautiously optimistic rather than strongly raised, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "summary": {
+    "revenue": "$22.7 billion, up 35% from $16.9 billion in Q2 2024, primarily reflecting 150 commercial deliveries.",
+    "eps": "GAAP diluted loss per share of ($0.92) compared to ($2.33) in Q2 2024; core loss per share (non-GAAP) of ($1.24) compared to ($2.90) in Q2 2024.",
+    "guidance": "Third quarter free cash flow expected to be more or less in line with Q2 usage before any DOJ payment, setting up for positive free cash flow in Q4. Full-year free cash flow expected around ($3) billion. BCA margins expected to be negative for the year but improving quarter by quarter. 737 deliveries expected to be a little better than 400 for the full year; 787 deliveries at the high end of the 70-80 range.",
+    "margin": "GAAP operating margin of (0.8)% compared to (6.5)% in Q2 2024; core operating margin (non-GAAP) of (1.9)% compared to (8.3)% in Q2 2024.",
+    "key_risks": [
+      "Potential $700 million one-time payment related to the DOJ non-prosecution agreement in Q3.",
+      "Certification delays for 737-7 and 737-10, now expected in 2026.",
+      "Dynamic global trade environment and potential tariff impacts, though some agreements are resolving.",
+      "Work stoppage risk from a strike involving about 3,200 employees in St. Louis and St. Charles.",
+      "Remaining work on fixed-price development programs in Defense, Space & Security."
+    ],
+    "key_opportunities": [
+      "Strong market demand with total company backlog of $619 billion, including over 5,900 commercial airplanes.",
+      "Planned production rate increases for 737 (to 42 per month) and 787 (beyond 7 per month).",
+      "Recent large orders including 120 787 and 30 777-9 for Qatar Airways and 32 787-10 for British Airways.",
+      "Defense wins including a $2.8 billion contract from U.S. Space Force and increased national defense spending from the Reconciliation Bill.",
+      "Favorable trade deals (e.g., US-EU agreement) that could reduce tariff impacts."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'our recovery plan is taking hold' and 'we're starting to see real momentum,' while acknowledging remaining work, reflecting a confident but measured tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue increased to $22.7 billion, up 35% year-over-year.",
+      "quote": "Revenue increased to $22.7 billion primarily reflecting 150 commercial deliveries.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($0.92), improved from ($2.33) in Q2 2024.",
+      "quote": "GAAP loss per share of ($0.92) and core loss per share (non-GAAP)* of ($1.24).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core loss per share (non-GAAP) was ($1.24), improved from ($2.90) in Q2 2024.",
+      "quote": "Core loss per share (non-GAAP) of ($1.24).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flow was $0.2 billion, a significant improvement from ($3.9) billion in Q2 2024.",
+      "quote": "Operating cash flow of $0.2 billion and free cash flow (non-GAAP)* of ($0.2) billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin improved to (0.8)% from (6.5)% in Q2 2024.",
+      "quote": "Operating margins (0.8) % (6.5) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin (non-GAAP) improved to (1.9)% from (8.3)% in Q2 2024.",
+      "quote": "Core operating margins (1.9) % (8.3) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter free cash flow expected to be more or less in line with Q2 usage before any DOJ payment.",
+      "quote": "We expect third quarter free cash flow to be more or less in line with the second quarter usage before any impact from a potential onetime DOJ payment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year free cash flow expected around ($3) billion.",
+      "quote": "I think your number there of $3 billion is pretty reasonable for the full year.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BCA margins expected to be negative for the year but improving quarter by quarter.",
+      "quote": "BCA margins are expected to be negative for the year, as we've said before, although less so as we go quarter by quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 deliveries expected to be a little better than 400 for the full year.",
+      "quote": "We've delivered 209 airplanes in the first half... we're poised to do a little better than the 400 for the full year, as you mentioned.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 deliveries at the high end of the 70-80 range.",
+      "quote": "We had always thought the range was 70 to 80 for the year. So, we're at the high end of that range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential $700 million one-time payment related to the DOJ non-prosecution agreement in Q3.",
+      "quote": "In the third quarter, there's a potential for a $700 million one-time payment related to the DOJ nonprosecution case.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Certification delays for 737-7 and 737-10, now expected in 2026.",
+      "quote": "Work on the solution is taking longer than expected, and we now are expecting certification in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dynamic global trade environment and potential tariff impacts, though some agreements are resolving.",
+      "quote": "We continue to simultaneously monitor policy developments while mitigating the potential impacts of tariffs as trade negotiations continue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Work stoppage risk from a strike involving about 3,200 employees.",
+      "quote": "It's about 3,200 employees. They build the fighters, mechanics, they build the fighters and our munitions business in St. Louis and St. Charles.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Remaining work on fixed-price development programs in Defense, Space & Security.",
+      "quote": "On our fixed price development programs that represent the remaining 15% of revenue, we continue to work to stabilize and mature these programs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong market demand with total company backlog of $619 billion.",
+      "quote": "Total company backlog at quarter end was $619 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Planned production rate increases for 737 (to 42 per month) and 787 (beyond 7 per month).",
+      "quote": "We expect to be in a position to request approval from the FAA in the coming months to increase to 42 aircraft per month.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recent large orders including 120 787 and 30 777-9 for Qatar Airways and 32 787-10 for British Airways.",
+      "quote": "Commercial Airplanes booked 455 net orders in the quarter, including 120 787 and 30 777-9 airplanes for Qatar Airways and 32 787-10 airplanes for British Airways.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense wins including a $2.8 billion contract from U.S. Space Force.",
+      "quote": "We recently captured an important win with the US Space Force awarding Boeing a $2.8 billion contract for the development and production of two satellites.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Favorable trade deals (e.g., US-EU agreement) that could reduce tariff impacts.",
+      "quote": "We applaud President Trump and the EU Commission President Ursula von der Leyen for reaching a negotiated agreement that will be good for the aerospace industry in the US and Europe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, stating 'our recovery plan is taking hold' and 'we're starting to see real momentum.'",
+      "quote": "It's clear our recovery plan is taking hold. We're making steady progress to stabilize our business... We're starting to see real momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "guidance",
+      "reason": "Full-year free cash flow estimate of ($3) billion is based on an analyst's suggestion that management agreed was 'pretty reasonable,' not a formal guidance figure. The exact number may be subject to interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-07-29",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q2\\2Q25-Press-Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q2\\2Q25-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q2\\Transcript.pdf"
+      }
+    ],
+    "document_id": "BA_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T115743Z",
+    "timestamp": "2026-07-02T11:58:24Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q2\\2Q25-Press-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q2\\2Q25-Press-Release.pdf",
+        "page_count": 13,
+        "extracted_characters": 26345,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q2\\2Q25-Presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 8368,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q2\\Transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 64919,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2025.txt"
+  }
+}

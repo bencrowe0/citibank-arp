@@ -1,0 +1,206 @@
+{
+  "document_id": "BA_FQ1_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports improved operational performance, revenue growth of 18%, and a significant reduction in GAAP and core losses year-over-year. Management expresses confidence in the recovery plan and production rate increases, while acknowledging headwinds from tariffs and China delivery uncertainty. The overall tone is cautiously optimistic, with solid execution offset by external risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "summary": {
+    "revenue": "$19.5 billion, up 18% year-over-year, primarily reflecting higher commercial delivery volume.",
+    "eps": "GAAP loss per share of ($0.16) and core (non-GAAP) loss per share of ($0.49), both improved from ($0.56) and ($1.13) respectively in the prior year.",
+    "guidance": "Management maintains a conservative plan for 2025, expects 737 production to reach 38 per month and 787 to increase to 7 per month. Free cash flow is expected to turn positive in the second half. The company expects to largely offset any cash flow impact from China deliveries and higher input costs from tariffs.",
+    "margin": "GAAP operating margin of 2.4% (improved from -0.5% in 1Q24); core operating margin of 1.0% (improved from -2.3%).",
+    "key_risks": [
+      "Approximately 50 China deliveries at risk due to retaliatory tariffs; customers have indicated they will not take delivery.",
+      "Net annual impact of higher tariffs on input costs is less than $500 million, but manageable.",
+      "Seat certification issues affecting some 787 deliveries expected to be a challenge for the balance of the year.",
+      "Potential for tariff impacts to expand beyond China, which would create additional pressure.",
+      "Pending acquisition of Spirit AeroSystems and associated risks."
+    ],
+    "key_opportunities": [
+      "F-47 win secures fighter franchise for decades and is a transformational accomplishment.",
+      "Planned divestiture of portions of Digital Aviation Solutions business for $10.55 billion provides significant cash infusion.",
+      "Strong demand environment with backlog of $545 billion and key commercial programs sold out into the next decade.",
+      "Production rate increases on 737 (to 38/month) and 787 (to 7/month) expected to drive cash generation.",
+      "BDS expected to return to historical high single-digit margins over time."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Kelly Ortberg stated 'our recovery plan is in full swing and showing signs that it's being effective' and 'I do like what I'm seeing,' reflecting a confident tone despite acknowledged challenges."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $19.5 billion, up 18% year-over-year.",
+      "quote": "Revenue increased to $19.5 billion primarily reflecting 130 commercial deliveries",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share of ($0.16) and core loss per share of ($0.49).",
+      "quote": "GAAP loss per share of ($0.16) and core (non-GAAP)* loss per share of ($0.49)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin improved to 2.4% from -0.5%.",
+      "quote": "Operating margins 2.4 % (0.5) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin improved to 1.0% from -2.3%.",
+      "quote": "Core operating margins 1.0 % (2.3) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management maintains a conservative plan for 2025.",
+      "quote": "We set a conservative plan for the year and had a strong start operationally, which we believe puts us in a position to largely offset any potential cash flow impact of China deliveries this year as well as higher expected input costs due to tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately 50 China deliveries at risk due to retaliatory tariffs.",
+      "quote": "We have approximately 50 China deliveries in our plan for the balance of the year. We are in close communication with our China customers and we're actively assessing options for remarketing already built or in-process airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net annual impact of higher tariffs on input costs is less than $500 million.",
+      "quote": "On the supply chain side, the net annual impact of higher tariffs on our input costs is manageable. And within our plan, it's less than $500 million annually.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Seat certification issues affecting some 787 deliveries expected to be a challenge for the balance of the year.",
+      "quote": "As we highlighted last quarter, we continue to work through seat certification issues affecting some deliveries, and I expect this will be a challenge for us for the balance of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "F-47 win secures fighter franchise for decades.",
+      "quote": "To be selected the contractor for the world's first sixth-generation fighter is a testament to our focused investment in some pretty difficult time and to our dedicated team. This will secure our fighter franchise for decades to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Planned divestiture of Digital Aviation Solutions for $10.55 billion.",
+      "quote": "As you saw yesterday, we entered into an agreement to sell portions of our Digital Aviation Solutions business for $10.55 billion, which is an important component of our strategy to focus on our core businesses and strengthen the balance sheet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backlog is $545 billion.",
+      "quote": "Total company backlog at quarter end was $545 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "our recovery plan is in full swing and showing signs that it's being effective",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was a usage of $2.3 billion in the quarter.",
+      "quote": "Free cash flow was a usage of $2.3 billion in the quarter, reflecting higher commercial deliveries and a working capital usage that improved compared to both the prior year and quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS expected to return to historical high single-digit margins over time.",
+      "quote": "Overall, the defense portfolio is well positioned for the future and we still expect the business to return to historical performance levels as we continue to stabilize production, execute on development programs and transition to new contracts with tighter underwriting standards.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.key_risks",
+      "reason": "The risk of tariff impacts expanding beyond China is mentioned but not quantified; the reviewer may want to assess materiality."
+    },
+    {
+      "field": "summary.key_opportunities",
+      "reason": "The claim that BDS will return to historical high single-digit margins is aspirational and not yet supported by current performance (2.5% margin)."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-04-23",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\Transcript-Q1-2025-Earnings-Call.pdf"
+      }
+    ],
+    "document_id": "BA_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T115743Z",
+    "timestamp": "2026-07-02T11:58:01Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf",
+        "page_count": 12,
+        "extracted_characters": 23791,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 8519,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\Transcript-Q1-2025-Earnings-Call.pdf",
+        "page_count": 19,
+        "extracted_characters": 73007,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2025.txt"
+  }
+}
