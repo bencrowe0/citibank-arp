@@ -1,0 +1,14 @@
+Boeing (BA) - News coverage digest, FQ3 2025 earnings (report date 2025-10-29)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+Boeing reported Q3 revenue of $23.27 billion, up 30% from $17.84 billion a year ago and ahead of analysts' estimates. However, on an adjusted basis, the company reported a loss of $7.47 per share, compared unfavorably to the loss of $4.59 expected by analysts. Boeing recorded a $4.9 billion noncash charge due to delays in the 777X program; certification and first delivery of the 777-9 have been delayed to 2027.
+
+On a positive note, Boeing's adjusted free cash flow came in at negative $238 million, compared to the negative $884.1 million estimated - a major improvement. Boeing delivered more commercial airplanes by August 2025 than in all of 2024, and generated positive free cash flow for the first time since 2023.
+
+Boeing stock fell 4% on the announcement. Analysts at Bernstein argued that investor worries around Boeing's capital expenditures and cash flow implications have dented sentiment, with near-term cash flow expected to be down due to the 777X delay and higher spending, indicating negative revisions to 2026 free cash flow estimates. Analysts remain cautiously optimistic with a $243.91 average target implying 21% upside.
+
+Sources:
+- https://www.cnbc.com/2025/10/29/boeing-ba-3q-2025-earnings.html
+- https://finance.yahoo.com/news/boeing-posts-q3-revenue-beat-improving-cash-flow-burn-rate-as-ceo-ortbergs-turnaround-plan-takes-off-114417219.html
+- https://finance.yahoo.com/news/bernstein-breaks-down-why-boeing-135946833.html
+- https://finance.yahoo.com/news/boeing-co-ba-q3-2025-195705789.html

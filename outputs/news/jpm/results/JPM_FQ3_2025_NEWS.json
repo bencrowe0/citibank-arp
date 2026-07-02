@@ -1,0 +1,38 @@
+{
+  "document_id": "JPM_FQ3_2025_NEWS",
+  "base_document_id": "JPM_FQ3_2025",
+  "issuer": "jpm",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports that JPMorgan Chase topped analysts' estimates with profit jumping 12% and revenue rising 9% to $47.12 billion, beating expectations of $45.4 billion. However, shares fell 1.9% after the release, and the document does not include any management commentary or guidance, limiting the bullish signal. The positive earnings beat is tempered by the negative market reaction and lack of forward-looking statements, resulting in a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "cost_log": {
+    "run_id": "20260702T115427Z",
+    "timestamp": "2026-07-02T11:54:35Z",
+    "status": "success",
+    "document_id": "JPM_FQ3_2025_NEWS",
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 2028,
+    "output_tokens": 1206,
+    "total_tokens": 3234,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001874,
+    "latency_seconds": 8.08,
+    "signal": "BUY",
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

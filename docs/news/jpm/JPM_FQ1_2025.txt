@@ -1,0 +1,15 @@
+JPMorgan Chase (JPM) - News coverage digest, FQ1 2025 earnings (report date 2025-04-11)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+JPMorgan Chase reported results that topped estimates on higher-than-expected revenue, helped by booming equity trading activity and higher asset management and investment banking fees. Revenue hit $46.01 billion versus expected $44.11 billion, and first-quarter profit rose 9% to $14.64 billion, or $5.07 a share.
+
+Revenue exceeded analyst estimates by 2.7% and EPS surpassed analyst estimates by 9.2%. Excluding a one-time gain of 16 cents per share tied to its First Republic acquisition, JPMorgan earned $4.91 per share, compared with the LSEG estimate of $4.61.
+
+Equities trading was the quarter's standout, with revenue surging 48% to $3.8 billion. Commercial & Investment Bank revenue was $19.7 billion, up 12% year on year, while Asset & Wealth Management revenue was $5.7 billion, up 12% year on year.
+
+Analysts described JPMorgan's stock as remaining attractive, trading below intrinsic value, with earnings estimates being raised, leading to a recent upgrade to a Buy rating.
+
+Sources:
+- https://www.cnbc.com/2025/04/11/jpmorgan-chase-jpm-earnings-q1-2025.html
+- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-q1-070045658.html
+- https://finance.yahoo.com/news/jpmorgan-chase-first-quarter-2025-184304626.html

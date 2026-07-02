@@ -1,0 +1,13 @@
+Netflix (NFLX) - News coverage digest, FQ2 2025 earnings (report date 2025-07-17)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+Netflix posted an earnings beat, as revenue grew 16% during the second quarter of 2025. EPS came in at $7.19, topping Netflix's forecast of $7.03 and up from $4.88 a year ago. The company raised its full-year revenue forecast to $44.8-$45.2 billion, up from $43.5-$44.5 billion.
+
+Despite the strong earnings beat, shares dipped around 1% in after-hours trading. Analysts attributed this mixed reaction to elevated expectations - trading at nearly 50 times earnings, the stock was "priced to perfection."
+
+Overall, Netflix stock is a "Moderate Buy" on Wall Street. Of 45 analysts covering the stock, 27 recommend "Strong Buy," three "Moderate Buy," and 15 suggest holding. Member growth accelerated toward the end of the quarter, exceeding internal forecasts, while the advertising business continues gaining traction with expectations to roughly double ad revenues in 2025.
+
+Sources:
+- https://www.cnbc.com/2025/07/17/netflix-nflx-earnings-q2-2025.html
+- https://finance.yahoo.com/news/netflix-earnings-top-estimates-but-stock-slips-on-elevated-expectations-133606430.html
+- https://finance.yahoo.com/news/netflix-q2-earnings-beat-squid-144700088.html

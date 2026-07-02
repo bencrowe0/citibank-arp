@@ -1,0 +1,38 @@
+{
+  "document_id": "BA_FQ2_2025_NEWS",
+  "base_document_id": "BA_FQ2_2025",
+  "issuer": "boeing",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The document reports a 35% revenue increase and a narrower-than-expected loss, with a 63% jump in airplane deliveries. Analyst sentiment is largely bullish, with Bank of America and Susquehanna raising price targets and maintaining positive ratings, and a consensus 'Strong Buy' rating. However, one analyst cautions that the production ramp-up may be more gradual than previously expected, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "cost_log": {
+    "run_id": "20260702T115345Z",
+    "timestamp": "2026-07-02T11:53:53Z",
+    "status": "success",
+    "document_id": "BA_FQ2_2025_NEWS",
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-29",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 2135,
+    "output_tokens": 1239,
+    "total_tokens": 3374,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001939,
+    "latency_seconds": 8.4,
+    "signal": "BUY",
+    "sentiment_score": 0.55,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

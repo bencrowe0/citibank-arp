@@ -1,0 +1,38 @@
+{
+  "document_id": "JPM_FQ1_2025_NEWS",
+  "base_document_id": "JPM_FQ1_2025",
+  "issuer": "jpm",
+  "sentiment": {
+    "score": 0.75,
+    "rationale": "The document reports that JPMorgan Chase beat revenue and EPS estimates, with revenue of $46.01 billion versus expected $44.11 billion and EPS of $5.07 versus $4.61 (adjusted). Equities trading revenue surged 48%, and analysts upgraded the stock to Buy, indicating strong positive sentiment."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "cost_log": {
+    "run_id": "20260702T115411Z",
+    "timestamp": "2026-07-02T11:54:19Z",
+    "status": "success",
+    "document_id": "JPM_FQ1_2025_NEWS",
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-11",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 2068,
+    "output_tokens": 1234,
+    "total_tokens": 3302,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001916,
+    "latency_seconds": 8.37,
+    "signal": "BUY",
+    "sentiment_score": 0.75,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

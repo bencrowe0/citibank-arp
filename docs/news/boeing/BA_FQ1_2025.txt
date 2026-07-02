@@ -1,0 +1,14 @@
+Boeing (BA) - News coverage digest, FQ1 2025 earnings (report date 2025-04-23)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+Boeing released first quarter results that topped expectations on Wednesday, as the company's turnaround got a boost from higher deliveries. The company achieved adjusted EPS of -$0.49 versus analyst estimates of -$1.30, representing a 62.4% beat, though revenue of $19.5 billion fell short of analyst estimates of $19.66 billion, representing a 0.8% miss.
+
+Boeing's first-quarter loss narrowed to $31 million and it burned less cash than analysts estimated, while airplane deliveries rose close to 60% from a year ago as the company worked to stabilize production. Revenue increased 18% year-on-year, driven by higher commercial delivery volume.
+
+Boeing still expects to deliver around 400 737s and approximately 80 787s this year, and despite the potential impact of China tariffs, Boeing had a strong start to the year, which should help offset any delivery pressures. The company won the F-47 program, securing its position in the sixth-generation fighter market.
+
+Sources:
+- https://www.cnbc.com/2025/04/23/boeing-ba-1q-2025-earnings.html
+- https://finance.yahoo.com/news/boeing-co-ba-q1-2025-070545947.html
+- https://finance.yahoo.com/news/boeing-nyse-ba-reports-sales-114053044.html
+- https://finance.yahoo.com/markets/article/boeing-q1-earnings-preview-jet-deliveries-improve-as-ceo-ortberg-tries-to-flip-cash-burn-173026777.html

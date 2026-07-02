@@ -1,0 +1,38 @@
+{
+  "document_id": "JPM_FQ2_2025_NEWS",
+  "base_document_id": "JPM_FQ2_2025",
+  "issuer": "jpm",
+  "sentiment": {
+    "score": 0.65,
+    "rationale": "The document reports that JPMorgan Chase topped analysts' estimates on better-than-expected revenue and EPS, with fixed income trading revenue jumping 14% and investment banking fees rising 7%. An analyst raised the price target and highlighted strong organic growth, while 15 out of 26 analysts are bullish. No risks or negative commentary are mentioned, supporting a positive but not maximally bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "cost_log": {
+    "run_id": "20260702T115419Z",
+    "timestamp": "2026-07-02T11:54:27Z",
+    "status": "success",
+    "document_id": "JPM_FQ2_2025_NEWS",
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 2064,
+    "output_tokens": 1142,
+    "total_tokens": 3206,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001813,
+    "latency_seconds": 7.61,
+    "signal": "BUY",
+    "sentiment_score": 0.65,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

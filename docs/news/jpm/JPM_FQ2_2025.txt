@@ -1,0 +1,15 @@
+JPMorgan Chase (JPM) - News coverage digest, FQ2 2025 earnings (report date 2025-07-15)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+JPMorgan Chase topped analysts' estimates on better-than-expected revenue from fixed income trading and investment banking. The company posted revenues of $44.91 billion for the quarter, surpassing the Zacks Consensus Estimate by 2.52%. EPS surpassed analyst estimates by 17%.
+
+Fixed income trading revenue jumped 14% to $5.7 billion, topping the StreetAccount estimate by roughly $500 million, thanks to activity in currencies, rates and commodities. Investment banking fees rose 7% to $2.5 billion on higher debt underwriting and advisory activity.
+
+Analyst Mike Mayo, who has an overweight rating on the "best-in-class" bank, raised his price target to $325 from $320, pointing out that the bank's second-quarter results showcased internal organic growth continuing to outperform, with 500,000 net new checking accounts and record asset and wealth management revenues.
+
+Fifteen out of 26 analysts are currently bullish on JPMorgan, having strong buy or buy ratings. Nine analysts are neutral with a hold rating.
+
+Sources:
+- https://www.cnbc.com/2025/07/15/jpmorgan-chase-jpm-earnings-q2-2025.html
+- https://www.cnbc.com/2025/07/16/jpmorgan-chase-has-more-room-for-growth-after-latest-earnings-says-analyst-mike-mayo.html
+- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-beats-114002480.html

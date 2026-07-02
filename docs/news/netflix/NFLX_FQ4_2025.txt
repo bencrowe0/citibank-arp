@@ -1,0 +1,15 @@
+Netflix (NFLX) - News coverage digest, FQ4 2025 earnings (report date 2026-01-20)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+Netflix reported fourth-quarter 2025 earnings of 56 cents per share, beating the Zacks Consensus Estimate by 1.82%, up 30.2% from the year-ago quarter. While the Q4 results were strong, 2026 guidance was seen as slightly softer than street expectations.
+
+There were downward price target revisions across almost all firms covering the stock, including Bernstein and Goldman Sachs, who lowered targets by 8%-10%. The average price target fell 8.2%, with reduced earnings forecasts tied to a lower valuation estimate. KeyBanc downgraded its price target from $139 to $110 (keeping Overweight), citing uncertainty around the Warner Bros. Discovery deal and concerns about lapping 2025's content slate.
+
+Some analysts remained constructive: Guggenheim Partners maintained a buy rating with a price target of $130 (down from $145), noting engagement trends and 2026 profit guidance temper enthusiasm, and that the path to conclusion on the WBD bid will likely keep share appreciation limited over the next three months.
+
+The Warner Bros. Discovery acquisition and softer 2026 guidance were the primary concerns weighing on sentiment.
+
+Sources:
+- https://www.cnbc.com/2026/01/20/netflix-nflx-earnings-q4-2025.html
+- https://www.cnbc.com/2026/01/21/netflixs-fourth-quarter-results-left-the-street-disappointed-where-analysts-see-the-stock-going.html
+- https://finance.yahoo.com/news/analysts-share-mixed-remarks-netflix-180851120.html

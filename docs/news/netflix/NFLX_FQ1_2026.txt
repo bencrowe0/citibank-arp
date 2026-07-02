@@ -1,0 +1,15 @@
+Netflix (NFLX) - News coverage digest, FQ1 2026 earnings (report date 2026-04-16)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+Netflix beat Wall Street expectations for revenue, reporting $12.25 billion for the first quarter, above the $12.18 billion expected and 16% higher than the year-ago quarter. Net income was $5.28 billion, or $1.23 per share, nearly double the $2.89 billion, or 66 cents per share, from the same period last year.
+
+Despite the strong results, the market reaction was negative: shares fell from $107.99 at filing to $97.86 within an hour, slipping nearly 10%, reflecting investor concerns around forward trajectory rather than past execution.
+
+JPMorgan reiterated an "Overweight" rating with a $118 price target, as a broad set of analysts stepped in to defend the bullish case even as weak guidance shook investor confidence. Laura Martin of Needham maintained a "Buy" rating and $120 price target, arguing the bigger story lies in Netflix's expansion into complementary verticals like podcasts, gaming, and other IP-led ecosystems.
+
+Netflix raised full-year free cash flow guidance to $12.5B from $11B, while advertising revenue is on track to roughly double to $3B with advertiser count up 70% YoY to over 4,000 clients.
+
+Sources:
+- https://www.cnbc.com/2026/04/16/netflix-nflx-earnings-q1-2026.html
+- https://finance.yahoo.com/markets/stocks/articles/netflix-just-raised-guidance-market-153610147.html
+- https://finance.yahoo.com/markets/stocks/articles/buy-dip-netflix-stock-now-202903794.html

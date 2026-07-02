@@ -1,0 +1,13 @@
+JPMorgan Chase (JPM) - News coverage digest, FQ3 2025 earnings (report date 2025-10-14)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+JPMorgan Chase topped analysts' estimates for the third quarter as trading and investment banking generated about $700 million more revenue than expected. Profit jumped 12% to $14.39 billion, or $5.07 per share, from a year earlier. Revenue rose 9% to $47.12 billion, versus $45.4 billion expected.
+
+Corporate & Investment Bank revenue was up 17% year on year to $19.9 billion, while Asset & Wealth Management revenue was up 12% year on year to $6.1 billion.
+
+Despite the better-than-expected results, shares of JPM tumbled 1.9% after the release. Analysts remain optimistic about JPMorgan's prospects; the stock has a consensus "Moderate Buy" rating overall, with 13 out of 27 analysts recommending "Strong Buy," three "Moderate Buy," 10 "Hold," and one "Strong Sell."
+
+Sources:
+- https://www.cnbc.com/2025/10/14/jpmorgan-chase-jpm-earnings-q3-2025.html
+- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-q3-190058385.html
+- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-tops-114001120.html

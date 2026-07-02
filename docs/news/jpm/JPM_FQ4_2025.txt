@@ -1,0 +1,15 @@
+JPMorgan Chase (JPM) - News coverage digest, FQ4 2025 earnings (report date 2026-01-13)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+Profit fell 7% to $13.03 billion, or $4.63 per share, because of a preannounced $2.2 billion reserve tied to the takeover of the Apple Card loan portfolio from Goldman Sachs. Excluding the 60 cent per share hit from that transaction, adjusted earnings came in at $5.23 and topped analysts' expectations. Companywide revenue rose 7% to $46.77 billion as net interest income climbed 7% to $25.1 billion, roughly matching analyst expectations.
+
+Results were mixed across business units: equities trading revenue surged 40% to $2.9 billion, about $350 million more than analysts expected, citing strength catering to hedge funds. Fixed income trading revenue rose 7% to $5.4 billion, about $110 million more than expected. Investment banking, however, disappointed, with fees falling 5% to $2.3 billion, roughly $210 million below estimate.
+
+The bank guided to full-year 2026 net interest income of about $103 billion and adjusted expenses of roughly $105 billion, though both measures are described as "market dependent."
+
+Analysts continued to view JPMorgan's stock as attractive, trading below intrinsic value, with earnings estimates being raised and a recent upgrade to a Buy rating.
+
+Sources:
+- https://www.cnbc.com/2026/01/13/jpmorgan-chase-jpm-earnings-q4-2025.html
+- https://finance.yahoo.com/news/jpmorgan-chase-co-jpm-q4-210104066.html
+- https://finance.yahoo.com/news/heres-key-metrics-tell-us-143002753.html

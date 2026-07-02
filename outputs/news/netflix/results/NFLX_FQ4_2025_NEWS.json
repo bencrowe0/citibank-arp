@@ -1,0 +1,38 @@
+{
+  "document_id": "NFLX_FQ4_2025_NEWS",
+  "base_document_id": "NFLX_FQ4_2025",
+  "issuer": "netflix",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "The document reports a Q4 earnings beat (56 cents per share, up 30.2% year-over-year) but highlights that 2026 guidance was seen as slightly softer than street expectations. Downward price target revisions across almost all firms and concerns about the Warner Bros. Discovery acquisition and lapping 2025's content slate weigh on sentiment, resulting in a moderately bearish overall tone."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower"
+  },
+  "cost_log": {
+    "run_id": "20260702T115502Z",
+    "timestamp": "2026-07-02T11:55:10Z",
+    "status": "success",
+    "document_id": "NFLX_FQ4_2025_NEWS",
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-20",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\netflix\\NFLX_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 2082,
+    "output_tokens": 1168,
+    "total_tokens": 3250,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001847,
+    "latency_seconds": 7.43,
+    "signal": "SELL",
+    "sentiment_score": -0.35,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,13 @@
+Netflix (NFLX) - News coverage digest, FQ3 2025 earnings (report date 2025-10-21)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: earnings date and following days.
+
+Netflix shares were down 9% in morning trading after the company posted a third-quarter earnings miss, with the stock ultimately declining by up to 12% following the announcement. Netflix reported Q3 EPS of $5.87 versus analyst expectations of $6.97, while revenue met expectations at $11.51 billion. The EPS miss was primarily due to a $619 million charge related to a Brazilian Supreme Court ruling on technology transfer taxes.
+
+Analyst reactions were split: Laurent Yoon from Bernstein reiterated a Buy rating with a $1,390 price target, saying Bernstein was puzzled by the negative market reaction. UBS kept its buy rating and lifted its price forecast to $1,495 from $1,450. Morgan Stanley stood by its overweight rating and $1,500 price target. More cautiously, Citi kept a neutral rating and $1,280 price forecast.
+
+Netflix said it posted its best ad sales quarter ever during the period, and achieved record share of TV time in Q3 2025 in both the US and UK.
+
+Sources:
+- https://www.cnbc.com/2025/10/21/netflix-nflx-earnings-q3-2025.html
+- https://www.cnbc.com/2025/10/22/netflix-delivered-a-third-quarter-earnings-miss-heres-how-analysts-reacted.html
+- https://finance.yahoo.com/news/wall-street-thinks-netflix-nflx-151801827.html

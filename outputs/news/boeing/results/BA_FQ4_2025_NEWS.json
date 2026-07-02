@@ -1,0 +1,38 @@
+{
+  "document_id": "BA_FQ4_2025_NEWS",
+  "base_document_id": "BA_FQ4_2025",
+  "issuer": "boeing",
+  "sentiment": {
+    "score": 0.7,
+    "rationale": "The document reports a strong beat on revenue (57% increase, topping expectations) and cash flow (double expectations), with the highest airplane deliveries since 2018. Management provided positive free cash flow guidance for 2026 and analysts are highly optimistic with a 'Strong Buy' rating. The tone is very positive, though some headwinds are mentioned, preventing a maximum score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "cost_log": {
+    "run_id": "20260702T115402Z",
+    "timestamp": "2026-07-02T11:54:11Z",
+    "status": "success",
+    "document_id": "BA_FQ4_2025_NEWS",
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-27",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 2069,
+    "output_tokens": 1373,
+    "total_tokens": 3442,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002069,
+    "latency_seconds": 8.85,
+    "signal": "BUY",
+    "sentiment_score": 0.7,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}
