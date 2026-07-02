@@ -3,8 +3,8 @@
   "meeting_dates": "2025-05-06/07",
   "minutes_release_date": "2025-05-28",
   "sentiment": {
-    "score": -0.35,
-    "rationale": "The FOMC minutes reveal a markedly cautious and uncertain outlook. While the Committee held rates steady, it acknowledged that downside risks to employment and upside risks to inflation have risen, primarily due to tariff increases. The staff projection shows weaker GDP growth, higher inflation, and a rising unemployment rate, with recession risk almost as likely as the baseline. This combination of stagflationary risks and heightened uncertainty is bearish for equities."
+    "score": -0.3,
+    "rationale": "The FOMC held rates steady but significantly downgraded the forward outlook: the staff projection for GDP growth was weaker, the unemployment rate was forecast to rise above its natural rate, and inflation was projected to be boosted markedly by tariffs. The Committee acknowledged that downside risks to employment and upside risks to inflation had risen, and that uncertainty was unusually elevated. This cautious, risk-aware tone with a worsened forward guidance on growth and employment justifies a mildly bearish score."
   },
   "signal": {
     "direction": "SELL",
@@ -13,8 +13,8 @@
     "boundary_crossed": "lower"
   },
   "cost_log": {
-    "run_id": "20260702T114726Z",
-    "timestamp": "2026-07-02T11:47:42Z",
+    "run_id": "20260702T125417Z",
+    "timestamp": "2026-07-02T12:54:34Z",
     "status": "success",
     "document_id": "FOMC_2025-05-07",
     "issuer": "macro",
@@ -24,14 +24,14 @@
     "report_date": "2025-05-28",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\macro\\fomc_minutes\\2025-05-07.html",
     "model": "deepseek-v4-flash",
-    "input_tokens": 12262,
-    "output_tokens": 2303,
-    "total_tokens": 14565,
+    "input_tokens": 12635,
+    "output_tokens": 2452,
+    "total_tokens": 15087,
     "cached_input": false,
-    "estimated_cost_usd": 0.005844,
-    "latency_seconds": 15.6,
+    "estimated_cost_usd": 0.006109,
+    "latency_seconds": 16.44,
     "signal": "SELL",
-    "sentiment_score": -0.35,
+    "sentiment_score": -0.3,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

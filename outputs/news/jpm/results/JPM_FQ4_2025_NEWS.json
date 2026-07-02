@@ -3,18 +3,18 @@
   "base_document_id": "JPM_FQ4_2025",
   "issuer": "jpm",
   "sentiment": {
-    "score": 0.3,
-    "rationale": "The document reports a headline profit decline of 7% due to a one-time reserve, but adjusted earnings beat expectations and revenue grew 7%. Equities and fixed income trading revenues exceeded estimates, though investment banking fees fell short. The overall tone is positive but tempered by mixed segment results and market-dependent guidance."
+    "score": 0.1,
+    "rationale": "The document reports a 7% profit decline due to a one-time reserve, but adjusted EPS beat expectations and revenue grew 7%. Forward guidance for 2026 NII of ~$103 billion and adjusted expenses of ~$105 billion is described as 'market dependent,' indicating no material raise or reduction relative to prior guidance. The overall tone is neutral with mixed results, so the score is slightly positive but below the BUY threshold."
   },
   "signal": {
-    "direction": "BUY",
+    "direction": "HOLD",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "upper"
+    "boundary_crossed": "none — HOLD band"
   },
   "cost_log": {
-    "run_id": "20260702T115435Z",
-    "timestamp": "2026-07-02T11:54:45Z",
+    "run_id": "20260702T125656Z",
+    "timestamp": "2026-07-02T12:57:06Z",
     "status": "success",
     "document_id": "JPM_FQ4_2025_NEWS",
     "issuer": "jpm",
@@ -24,14 +24,14 @@
     "report_date": "2026-01-13",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ4_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2098,
-    "output_tokens": 1455,
-    "total_tokens": 3553,
+    "input_tokens": 2471,
+    "output_tokens": 1465,
+    "total_tokens": 3936,
     "cached_input": false,
-    "estimated_cost_usd": 0.002167,
-    "latency_seconds": 9.67,
-    "signal": "BUY",
-    "sentiment_score": 0.3,
+    "estimated_cost_usd": 0.002279,
+    "latency_seconds": 10.08,
+    "signal": "HOLD",
+    "sentiment_score": 0.1,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

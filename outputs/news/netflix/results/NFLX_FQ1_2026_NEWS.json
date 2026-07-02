@@ -3,18 +3,18 @@
   "base_document_id": "NFLX_FQ1_2026",
   "issuer": "netflix",
   "sentiment": {
-    "score": 0.3,
-    "rationale": "The document reports a revenue beat ($12.25B vs $12.18B expected) and net income nearly doubling, but the market reaction was sharply negative with shares falling nearly 10% due to weak guidance. Analysts remain bullish with reiterated buy ratings and raised free cash flow guidance, creating a mixed but slightly positive overall signal."
+    "score": -0.3,
+    "rationale": "The document reports strong backward-looking results (revenue beat, net income nearly doubled) but the market reaction was sharply negative, with shares falling nearly 10% due to 'investor concerns around forward trajectory rather than past execution.' Although full-year free cash flow guidance was raised, the document does not state that revenue or earnings guidance was raised; instead, it mentions 'weak guidance shook investor confidence.' The negative market reaction and explicit forward-looking concerns outweigh the positive backward-looking beat and FCF guidance raise, resulting in a mildly bearish score."
   },
   "signal": {
-    "direction": "BUY",
+    "direction": "SELL",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "upper"
+    "boundary_crossed": "lower"
   },
   "cost_log": {
-    "run_id": "20260702T115510Z",
-    "timestamp": "2026-07-02T11:55:19Z",
+    "run_id": "20260702T125732Z",
+    "timestamp": "2026-07-02T12:57:43Z",
     "status": "success",
     "document_id": "NFLX_FQ1_2026_NEWS",
     "issuer": "netflix",
@@ -24,14 +24,14 @@
     "report_date": "2026-04-16",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\netflix\\NFLX_FQ1_2026.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2097,
-    "output_tokens": 1332,
-    "total_tokens": 3429,
+    "input_tokens": 2470,
+    "output_tokens": 1587,
+    "total_tokens": 4057,
     "cached_input": false,
-    "estimated_cost_usd": 0.002031,
-    "latency_seconds": 8.9,
-    "signal": "BUY",
-    "sentiment_score": 0.3,
+    "estimated_cost_usd": 0.002413,
+    "latency_seconds": 10.95,
+    "signal": "SELL",
+    "sentiment_score": -0.3,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

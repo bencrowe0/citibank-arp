@@ -3,8 +3,8 @@
   "base_document_id": "BA_FQ2_2025",
   "issuer": "boeing",
   "sentiment": {
-    "score": 0.55,
-    "rationale": "The document reports a 35% revenue increase and a narrower-than-expected loss, with a 63% jump in airplane deliveries. Analyst sentiment is largely bullish, with Bank of America and Susquehanna raising price targets and maintaining positive ratings, and a consensus 'Strong Buy' rating. However, one analyst cautions that the production ramp-up may be more gradual than previously expected, preventing a higher score."
+    "score": 0.3,
+    "rationale": "The document reports a strong Q2 with revenue up 35% and a narrower-than-expected loss, but forward guidance is not explicitly raised or lowered; the only forward-looking statement is a cautious analyst note pushing the 47-aircraft-per-month target to mid-2026. The consensus 'Strong Buy' rating and price target increases from Bank of America and Susquehanna indicate positive forward expectations, but the lack of explicit management guidance change and the cautious analyst view prevent a higher score."
   },
   "signal": {
     "direction": "BUY",
@@ -13,8 +13,8 @@
     "boundary_crossed": "upper"
   },
   "cost_log": {
-    "run_id": "20260702T115345Z",
-    "timestamp": "2026-07-02T11:53:53Z",
+    "run_id": "20260702T125600Z",
+    "timestamp": "2026-07-02T12:56:09Z",
     "status": "success",
     "document_id": "BA_FQ2_2025_NEWS",
     "issuer": "boeing",
@@ -24,14 +24,14 @@
     "report_date": "2025-07-29",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ2_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2135,
-    "output_tokens": 1239,
-    "total_tokens": 3374,
+    "input_tokens": 2508,
+    "output_tokens": 1237,
+    "total_tokens": 3745,
     "cached_input": false,
-    "estimated_cost_usd": 0.001939,
-    "latency_seconds": 8.4,
+    "estimated_cost_usd": 0.002038,
+    "latency_seconds": 9.58,
     "signal": "BUY",
-    "sentiment_score": 0.55,
+    "sentiment_score": 0.3,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

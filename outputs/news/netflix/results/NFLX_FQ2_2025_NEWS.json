@@ -4,7 +4,7 @@
   "issuer": "netflix",
   "sentiment": {
     "score": 0.5,
-    "rationale": "The document reports an earnings beat with revenue growth of 16% and EPS of $7.19 topping the forecast of $7.03, along with a raised full-year revenue forecast. However, shares dipped about 1% in after-hours trading due to elevated expectations, and the stock is trading at nearly 50 times earnings, which tempers the positive news. Overall, the results are solid and guidance is raised, but the market reaction and valuation concerns prevent a higher score."
+    "rationale": "The document reports that Netflix raised its full-year revenue forecast to $44.8-$45.2 billion from $43.5-$44.5 billion, a meaningful upward revision of the company's own prior guidance. This forward-looking raise, combined with an earnings beat (EPS $7.19 vs. forecast $7.03) and accelerating member growth, justifies a positive score. The slight after-hours dip is attributed to elevated expectations, not to any reduction in guidance or cautious language."
   },
   "signal": {
     "direction": "BUY",
@@ -13,8 +13,8 @@
     "boundary_crossed": "upper"
   },
   "cost_log": {
-    "run_id": "20260702T115445Z",
-    "timestamp": "2026-07-02T11:54:54Z",
+    "run_id": "20260702T125706Z",
+    "timestamp": "2026-07-02T12:57:15Z",
     "status": "success",
     "document_id": "NFLX_FQ2_2025_NEWS",
     "issuer": "netflix",
@@ -24,12 +24,12 @@
     "report_date": "2025-07-17",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\netflix\\NFLX_FQ2_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2044,
-    "output_tokens": 1377,
-    "total_tokens": 3421,
+    "input_tokens": 2417,
+    "output_tokens": 1223,
+    "total_tokens": 3640,
     "cached_input": false,
-    "estimated_cost_usd": 0.002067,
-    "latency_seconds": 8.74,
+    "estimated_cost_usd": 0.001998,
+    "latency_seconds": 9.07,
     "signal": "BUY",
     "sentiment_score": 0.5,
     "hold_upper": 0.15,

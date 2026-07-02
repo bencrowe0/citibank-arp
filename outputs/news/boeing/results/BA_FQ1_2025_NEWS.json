@@ -3,18 +3,18 @@
   "base_document_id": "BA_FQ1_2025",
   "issuer": "boeing",
   "sentiment": {
-    "score": 0.35,
-    "rationale": "The document reports a significant EPS beat (adjusted EPS -$0.49 vs. -$1.30 estimate) and a narrowed loss, with revenue up 18% year-on-year and deliveries rising nearly 60%. However, revenue slightly missed estimates and the company still reported a loss, while guidance is maintained but not raised, resulting in a moderately positive but not strongly bullish sentiment."
+    "score": 0.1,
+    "rationale": "The document reports a 62.4% EPS beat and an 18% revenue increase year-on-year, but forward guidance is only reaffirmed (Boeing still expects to deliver around 400 737s and approximately 80 787s this year) with no upward revision. Management tone is not directly quoted, but the mention of potential China tariff impact and the reaffirmation of existing delivery targets suggest a neutral-to-slightly-positive forward outlook. The score is slightly above zero because the strong start to the year and the F-47 program win provide some positive momentum, but the lack of raised guidance keeps it below +0.15."
   },
   "signal": {
-    "direction": "BUY",
+    "direction": "HOLD",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "upper"
+    "boundary_crossed": "none — HOLD band"
   },
   "cost_log": {
-    "run_id": "20260702T115337Z",
-    "timestamp": "2026-07-02T11:53:45Z",
+    "run_id": "20260702T125550Z",
+    "timestamp": "2026-07-02T12:56:00Z",
     "status": "success",
     "document_id": "BA_FQ1_2025_NEWS",
     "issuer": "boeing",
@@ -24,14 +24,14 @@
     "report_date": "2025-04-23",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ1_2025.txt",
     "model": "deepseek-v4-flash",
-    "input_tokens": 2088,
-    "output_tokens": 1143,
-    "total_tokens": 3231,
+    "input_tokens": 2461,
+    "output_tokens": 1249,
+    "total_tokens": 3710,
     "cached_input": false,
-    "estimated_cost_usd": 0.001821,
-    "latency_seconds": 8.2,
-    "signal": "BUY",
-    "sentiment_score": 0.35,
+    "estimated_cost_usd": 0.002038,
+    "latency_seconds": 9.43,
+    "signal": "HOLD",
+    "sentiment_score": 0.1,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

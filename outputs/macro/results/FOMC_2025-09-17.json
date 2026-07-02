@@ -4,7 +4,7 @@
   "minutes_release_date": "2025-10-08",
   "sentiment": {
     "score": 0.3,
-    "rationale": "The FOMC cut rates by 25bp, signaling a shift toward easing amid rising downside risks to employment, which is dovish and supportive for equities. However, inflation remains elevated and upside risks persist, tempering the bullishness. The overall tone is cautiously accommodative, with a balanced approach to the dual mandate."
+    "rationale": "The FOMC cut the federal funds rate by 25 basis points, which is accommodative for equities. Forward guidance indicates further easing is likely, with most participants judging it appropriate to ease policy further over the remainder of the year. However, upside risks to inflation remain elevated, tempering the dovish signal."
   },
   "signal": {
     "direction": "BUY",
@@ -13,8 +13,8 @@
     "boundary_crossed": "upper"
   },
   "cost_log": {
-    "run_id": "20260702T114809Z",
-    "timestamp": "2026-07-02T11:48:18Z",
+    "run_id": "20260702T125501Z",
+    "timestamp": "2026-07-02T12:55:10Z",
     "status": "success",
     "document_id": "FOMC_2025-09-17",
     "issuer": "macro",
@@ -24,12 +24,12 @@
     "report_date": "2025-10-08",
     "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\macro\\fomc_minutes\\2025-09-17.html",
     "model": "deepseek-v4-flash",
-    "input_tokens": 10876,
-    "output_tokens": 1342,
-    "total_tokens": 12218,
+    "input_tokens": 11249,
+    "output_tokens": 1275,
+    "total_tokens": 12524,
     "cached_input": false,
-    "estimated_cost_usd": 0.004413,
-    "latency_seconds": 9.39,
+    "estimated_cost_usd": 0.00444,
+    "latency_seconds": 9.3,
     "signal": "BUY",
     "sentiment_score": 0.3,
     "hold_upper": 0.15,

@@ -80,24 +80,52 @@ Assign a single float on the scale −1.0 (maximally bearish) to +1.0
 (maximally bullish), representing the document's overall signal from
 the perspective of an equity investor in {{COMPANY}}.
 
+The score must track CHANGE IN FORWARD EXPECTATIONS, not the absolute
+quality of the quarter. Nearly every earnings release describes itself as
+a "solid quarter with modest beats and stable guidance" — that framing is
+the norm, not a positive signal, and must not by itself pull the score
+above 0.0. What actually moves the score is whether GUIDANCE (forward
+revenue/earnings/growth outlook) was raised, held, or lowered relative to
+the company's OWN prior guidance as stated or referenced in this document
+— not whether this quarter's results beat this quarter's own prior-year
+comparison.
+
 Scoring anchor points:
-  +1.0  Unambiguously strong beat on all key metrics, raised guidance,
+  +1.0  Guidance raised materially above the company's own prior guidance,
         highly confident management language, no meaningful risks raised.
-  +0.5  Solid results, modest beat or in-line, stable or slightly raised
-        guidance, positive but measured tone.
-   0.0  Genuinely mixed: material positives and negatives roughly balanced,
-        or insufficient signal to lean either way.
-  −0.5  Below expectations on key metrics, reduced or withdrawn guidance,
-        cautious or defensive management language.
+  +0.5  Guidance meaningfully raised (not just "reaffirmed" or "in line"),
+        or results clearly beat what management had itself previously
+        signaled to expect.
+   0.0  In-line quarter: results roughly matched prior guidance, guidance
+        reaffirmed/unchanged, or genuinely mixed positives and negatives.
+        This is the default for a routine "solid, modest beat, stable
+        guidance" release — do not score this positive by default.
+  −0.5  Guidance reduced, or results beat backward-looking comparisons but
+        forward guidance was held flat or hedged despite the beat, or
+        cautious/defensive management language on the outlook.
   −1.0  Severe miss, guidance cut, crisis language, or major unexpected
         risk disclosure.
 
+Calibration examples:
+- Revenue and EPS both beat the prior-year comparison, management calls
+  it a "strong quarter," but full-year guidance is reaffirmed unchanged
+  and management flags "continued caution given the operating
+  environment." → Score near 0.0, NOT +0.5. The beat is backward-looking;
+  the forward signal (unchanged guidance, explicit caution) is flat.
+- Revenue missed the prior-year comparison and management acknowledges a
+  "challenging quarter," but full-year guidance is raised and management
+  expresses confidence in accelerating demand for the coming quarters.
+  → Score mildly positive (+0.2 to +0.4). The backward miss matters less
+  than the forward guidance raise.
+
 Important:
-- A score above ±0.7 requires correspondingly strong textual evidence.
+- A score above ±0.7 requires correspondingly strong textual evidence of
+  a genuine forward-guidance shift, not just strong absolute results.
 - For Fed minutes / central bank communications, interpret bullish as
   "accommodative / dovish for equities" and bearish as "restrictive /
   hawkish for equities."
-- Write a 2–3 sentence rationale grounding the score in the document.
+- Write a 2–3 sentence rationale grounding the score in the document,
+  and explicitly state whether forward guidance moved up, down, or held.
 
 ---
 
