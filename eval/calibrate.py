@@ -48,6 +48,7 @@ WEIGHT_GRID = _weight_grid()
 @dataclass(frozen=True)
 class Document:
     document_id: str
+    issuer: str
     outcome_label: str
     micro_score: float
     macro_score: float | None

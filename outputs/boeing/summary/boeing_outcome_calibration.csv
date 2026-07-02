@@ -1,5 +1,0 @@
-document_id,ticker,report_date,micro_score,macro_score,news_score,forward_return,window_trading_days,outcome_label,predicted_signal_default,correct_default,predicted_signal_tuned,correct_tuned,tuned_hold_upper,blend_predicted_signal_default,blend_correct_default,blend_predicted_signal_tuned,blend_correct_tuned,blend_tuned_weights
-BA_FQ1_2025,BA,2025-04-23,0.3,-0.3,0.35,0.063062,5,BUY,BUY,True,BUY,True,0.15,BUY,True,BUY,True,"(0.6, 0.2, 0.2)"
-BA_FQ2_2025,BA,2025-07-29,0.35,0.1,0.55,-0.005396,5,HOLD,BUY,False,BUY,False,0.15,BUY,False,BUY,False,"(0.6, 0.2, 0.2)"
-BA_FQ3_2025,BA,2025-10-29,-0.35,0.3,-0.1,-0.074726,5,SELL,SELL,True,SELL,True,0.15,SELL,True,SELL,True,"(0.6, 0.2, 0.2)"
-BA_FQ4_2025,BA,2026-01-27,0.55,0.3,0.7,-0.046655,5,SELL,BUY,False,BUY,False,0.15,BUY,False,BUY,False,"(0.6, 0.2, 0.2)"

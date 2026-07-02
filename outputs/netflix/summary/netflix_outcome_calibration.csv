@@ -1,5 +1,0 @@
-document_id,ticker,report_date,micro_score,macro_score,news_score,forward_return,window_trading_days,outcome_label,predicted_signal_default,correct_default,predicted_signal_tuned,correct_tuned,tuned_hold_upper,blend_predicted_signal_default,blend_correct_default,blend_predicted_signal_tuned,blend_correct_tuned,blend_tuned_weights
-NFLX_FQ1_2026,NFLX,2026-04-16,0.7,0.3,0.3,-0.138881,5,SELL,BUY,False,BUY,False,0.15,BUY,False,BUY,False,"(0.2, 0.2, 0.6)"
-NFLX_FQ2_2025,NFLX,2025-07-17,0.65,0.1,0.5,-0.07331,5,SELL,BUY,False,BUY,False,0.15,BUY,False,BUY,False,"(0.2, 0.2, 0.6)"
-NFLX_FQ3_2025,NFLX,2025-10-21,0.35,0.3,-0.35,-0.111854,5,SELL,BUY,False,BUY,False,0.15,BUY,False,HOLD,False,"(0.4, 0.2, 0.4)"
-NFLX_FQ4_2025,NFLX,2026-01-20,0.7,0.3,-0.35,-0.019253,5,HOLD,BUY,False,BUY,False,0.15,BUY,False,HOLD,True,"(0.2, 0.2, 0.6)"

@@ -1,12 +1,17 @@
 """
 eval/run_eval.py
-CLI: python -m eval.run_eval --issuer <issuer>
+CLI: python -m eval.run_eval [--issuers boeing,jpm,netflix]
+
+Pools documents across ALL issuers before calibrating - the sentiment
+threshold and blend weights are meant to be one shared answer applied to
+every company, not tuned separately per issuer (which would overfit even
+harder at N=4/issuer than the already-small pooled N).
 
 Fetches actual price outcomes, joins them with already-computed micro/macro/
 news scores, runs both the threshold-only and blend-weight+threshold LOOCV
-calibrations, and writes:
-  outputs/<issuer>/summary/<issuer>_outcome_calibration.csv  (per-document rows)
-  outputs/<issuer>/summary/<issuer>_calibration_summary.json (LOOCV aggregate)
+calibrations over the pooled set, and writes:
+  outputs/global/summary/global_outcome_calibration.csv  (per-document rows, tagged by issuer)
+  outputs/global/summary/global_calibration_summary.json (LOOCV aggregate)
 """
 
 from __future__ import annotations
@@ -31,19 +36,28 @@ from eval.outcomes import (
 import llm_macro
 import llm_news
 
+ALL_ISSUERS = ["boeing", "jpm", "netflix"]
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Calibrate the sentiment threshold and blend weights against actual price outcomes."
+        description=(
+            "Calibrate the sentiment threshold and blend weights against actual price "
+            "outcomes, pooled across issuers so the result is one shared answer."
+        )
     )
-    parser.add_argument("--issuer", required=True)
+    parser.add_argument(
+        "--issuers",
+        default=",".join(ALL_ISSUERS),
+        help=f"Comma-separated issuers to pool. Default: {','.join(ALL_ISSUERS)}",
+    )
     parser.add_argument("--window-trading-days", type=int, default=DEFAULT_WINDOW_TRADING_DAYS)
     parser.add_argument("--outcome-upper", type=float, default=OUTCOME_UPPER_DEFAULT)
     parser.add_argument("--outcome-lower", type=float, default=OUTCOME_LOWER_DEFAULT)
     return parser.parse_args()
 
 
-def build_documents(issuer: str, window_trading_days: int, outcome_upper: float, outcome_lower: float):
+def build_documents_for_issuer(issuer: str, window_trading_days: int, outcome_upper: float, outcome_lower: float):
     results_dir = OUTPUTS_DIR / issuer / "results"
     outcomes = collect_outcomes_for_issuer(issuer, results_dir, window_trading_days, outcome_upper, outcome_lower)
 
@@ -61,6 +75,7 @@ def build_documents(issuer: str, window_trading_days: int, outcome_upper: float,
 
         document = Document(
             document_id=outcome.document_id,
+            issuer=issuer,
             outcome_label=outcome.outcome_label,
             micro_score=micro_score,
             macro_score=macro_score,
@@ -82,9 +97,17 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 def main() -> int:
     args = parse_args()
-    pairs = build_documents(args.issuer, args.window_trading_days, args.outcome_upper, args.outcome_lower)
+    issuers = [issuer.strip() for issuer in args.issuers.split(",") if issuer.strip()]
+
+    pairs = []
+    for issuer in issuers:
+        issuer_pairs = build_documents_for_issuer(
+            issuer, args.window_trading_days, args.outcome_upper, args.outcome_lower
+        )
+        pairs.extend(issuer_pairs)
+
     if not pairs:
-        print(f"No documents with usable outcomes for issuer '{args.issuer}'")
+        print(f"No documents with usable outcomes for issuers {issuers}")
         return 1
 
     outcomes = [pair[0] for pair in pairs]
@@ -93,13 +116,14 @@ def main() -> int:
     threshold_result = loocv_threshold_only(documents)
     blend_result = loocv_blend(documents)
 
-    summary_dir = OUTPUTS_DIR / args.issuer / "summary"
+    summary_dir = OUTPUTS_DIR / "global" / "summary"
     summary_dir.mkdir(parents=True, exist_ok=True)
 
     csv_rows = []
     for outcome, doc, t_fold, b_fold in zip(outcomes, documents, threshold_result["folds"], blend_result["folds"]):
         csv_rows.append(
             {
+                "issuer": doc.issuer,
                 "document_id": doc.document_id,
                 "ticker": outcome.ticker,
                 "report_date": outcome.report_date,
@@ -121,11 +145,11 @@ def main() -> int:
                 "blend_tuned_weights": b_fold["tuned_weights"],
             }
         )
-    csv_path = summary_dir / f"{args.issuer}_outcome_calibration.csv"
+    csv_path = summary_dir / "global_outcome_calibration.csv"
     write_csv(csv_path, csv_rows)
 
     summary_payload = {
-        "issuer": args.issuer,
+        "issuers": issuers,
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "outcome_thresholds": {"outcome_upper": args.outcome_upper, "outcome_lower": args.outcome_lower},
         "outcome_window_trading_days": args.window_trading_days,
@@ -136,9 +160,11 @@ def main() -> int:
             "news": DEFAULT_WEIGHTS[2],
         },
         "note": (
-            "N is very small (one LOOCV fold per quarter) - this yields a tuned choice "
-            "per fold, not one frozen answer. Modal values are the 'if you had to pick "
-            "one' choice; the tuned-vs-default accuracy comparison is the primary result."
+            "Pooled across all issuers so the tuned threshold/weights are one shared "
+            "answer, not overfit per issuer. Still LOOCV at a small pooled N (one fold "
+            "per document) - a tuned choice per fold, not one frozen answer. Modal values "
+            "are the 'if you had to pick one' choice; the tuned-vs-default accuracy "
+            "comparison is the primary result."
         ),
         "threshold_only": {
             "loocv_folds": threshold_result["folds"],
@@ -157,9 +183,12 @@ def main() -> int:
         },
         "n_documents": threshold_result["n_documents"],
     }
-    json_path = summary_dir / f"{args.issuer}_calibration_summary.json"
+    json_path = summary_dir / "global_calibration_summary.json"
     json_path.write_text(json.dumps(summary_payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
+    print(
+        f"Pooled across {issuers} (N={threshold_result['n_documents']})"
+    )
     print(
         f"Threshold-only LOOCV: tuned_accuracy={threshold_result['tuned_accuracy']:.2f} "
         f"default_accuracy={threshold_result['default_accuracy']:.2f}"
