@@ -27,7 +27,7 @@ See [README.md](README.md) for the micro-layer run commands. For the macro/news/
 python llm_macro.py                        # score all 2025 FOMC minutes (cached, idempotent)
 python llm_news.py                          # score all pre-fetched news digests (cached, idempotent)
 python blend.py <issuer>                    # blend micro+macro+news for one issuer's quarters
-python -m eval.run_eval --issuer <issuer>   # calibrate against actual price outcomes
+python -m eval.run_eval                     # calibrate threshold + blend weights, pooled across ALL issuers
 ```
 
 ## Two distinct threshold concepts - do not conflate
@@ -39,6 +39,6 @@ Never reuse the `hold_*` names for the outcome-side threshold or vice versa.
 
 ## Known limitations
 
-- **Small-N calibration.** `eval/calibrate.py` runs leave-one-out cross-validation across 4 quarters/issuer - a "tuned" threshold or weight triple is a per-fold choice, not a single validated answer. Treat calibration results as directional evidence, not a settled parameter.
+- **Small-N calibration.** `eval/run_eval.py` pools all issuers before running leave-one-out cross-validation (N=12 documents, not 4/issuer) so the tuned threshold/weights are one shared answer rather than three separately overfit ones - but N=12 is still small, and a "tuned" value is a per-fold choice, not a single validated answer. In the current run, the joint blend-weight+threshold search actually scored *worse* out-of-sample than the untuned default (0.08 vs 0.17 accuracy) - a real signal that the joint search space is too large to calibrate reliably at this N, not a bug to paper over.
 - **News layer source bias.** Digests are pulled from a small set of free outlets (CNBC, Yahoo Finance) in a fixed date window around each report. This is auditable (source URLs are recorded) but not a guarantee against selection or outlet bias.
 - **Long filings excluded by design.** 10-K/10-Q filings and JPMC's financial supplement are stored but never fed to any layer. If a future phase wants deeper regulatory/financial-statement context, this is the obvious extension point.
