@@ -1,0 +1,44 @@
+{
+  "document_id": "TGT_FQ1_2026_NEWS",
+  "base_document_id": "TGT_FQ1_2026",
+  "issuer": "target",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This is a pre-earnings market expectations digest, not an actual earnings release. The document describes a 'turnaround test' and a 'key debate' about whether Target can reverse 'uneven sales trends,' indicating depressed expectations and a low bar heading into the print. However, the bull case is described as conditional ('if consumer conditions stabilized'), and the bear case is explicitly stated as a structural pressure, so expectations are not deeply depressed. The score of +0.10 reflects a mildly positive setup due to a low bar, but not a strong bullish signal."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T104122Z",
+    "timestamp": "2026-07-06T10:41:31Z",
+    "status": "success",
+    "document_id": "TGT_FQ1_2026_NEWS",
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-20",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\target\\TGT_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3560,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1152,
+    "total_tokens": 4712,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002177,
+    "latency_seconds": 8.73,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

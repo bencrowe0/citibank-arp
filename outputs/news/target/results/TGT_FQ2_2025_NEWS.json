@@ -1,0 +1,44 @@
+{
+  "document_id": "TGT_FQ2_2025_NEWS",
+  "base_document_id": "TGT_FQ2_2025",
+  "issuer": "target",
+  "sentiment": {
+    "score": -0.25,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations rather than guidance changes. The document describes a 'fragile' market setup, with Target having already reduced full-year expectations earlier in 2025, and investors looking for signs of recovery amid tariff worries, weaker consumer sentiment, and a prolonged discretionary-spending slowdown. This indicates depressed expectations, which could raise the odds of a positive surprise, but the overall tone is cautious and the bar is low, not stretched, so a mildly bearish score is appropriate."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T104102Z",
+    "timestamp": "2026-07-06T10:41:11Z",
+    "status": "success",
+    "document_id": "TGT_FQ2_2025_NEWS",
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-20",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\target\\TGT_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3603,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1211,
+    "total_tokens": 4814,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002254,
+    "latency_seconds": 9.2,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,9 @@
+Walt Disney (DIS) - News coverage digest, FQ4 2025 earnings (report date 2025-11-13)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of Disney's fiscal Q4 2025 results before market open on Thursday, analysts expected modest year-over-year revenue growth and focused on whether streaming, theme parks, and sports could offset continued linear-network weakness. Visible Alpha consensus called for adjusted EPS of $1.04 and revenue of $22.75 billion, with direct-to-consumer, Experiences, and Sports seen as the growth drivers while traditional linear networks were expected to decline. All six currently rated analysts tracked by Visible Alpha rated Disney a Buy, with a mean target near $146, implying about 25% upside from the prior close.
+
+Citi had recently raised its DIS target to $145 from $140, highlighting the direct-to-consumer outlook after Disney's October price increases and investor sensitivity to any consumer response from the temporary Jimmy Kimmel cancellation. The unresolved YouTube TV carriage dispute was another focal point, because ESPN, ABC and other Disney channels had gone dark on YouTube TV subscribers since late October. Despite those catalysts, Disney's stock had lagged the broader market, up about 5% year-to-date versus roughly 17% for the S&P 500, so the report carried a clear "prove it" setup around streaming profitability, parks resilience, and sports distribution.
+
+Sources:
+- https://www.investopedia.com/disney-is-set-to-report-earnings-thursday-here-is-what-you-need-to-know-11848307 (Investopedia, updated November 12, 2025)

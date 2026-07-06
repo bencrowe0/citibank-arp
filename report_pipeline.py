@@ -37,6 +37,7 @@ load_dotenv(dotenv_path=ENV_FILE)
 class SourceDocument:
     doc_type: str
     source_pdf: Path
+    pub_date: str | None = None
 
 
 BUNDLE_SECTION_HEADERS = {
@@ -86,7 +87,7 @@ def report_metadata(report: ReportSpec) -> dict[str, Any]:
         "fiscal_period": report.fiscal_period,
         "report_date": report.report_date,
         "documents": [
-            {"doc_type": doc.doc_type, "source_pdf": str(doc.source_pdf)}
+            {"doc_type": doc.doc_type, "source_pdf": str(doc.source_pdf), "pub_date": doc.pub_date}
             for doc in report.documents
         ],
         "document_id": report.document_id,
@@ -142,6 +143,15 @@ def _resolve_path(path: Path) -> Path:
     return path
 
 
+def _assert_no_future_documents(report_date: str, documents: tuple[SourceDocument, ...], document_id: str) -> None:
+    for doc in documents:
+        if doc.pub_date is not None and doc.pub_date > report_date:
+            raise ValueError(
+                f"{document_id} includes future document {doc.source_pdf.name}: "
+                f"pub_date={doc.pub_date} report_date={report_date}"
+            )
+
+
 def load_manifest(manifest_path: Path) -> list[ReportSpec]:
     raw = json.loads(manifest_path.read_text(encoding="utf-8"))
     reports = raw["reports"] if isinstance(raw, dict) else raw
@@ -152,9 +162,11 @@ def load_manifest(manifest_path: Path) -> list[ReportSpec]:
             SourceDocument(
                 doc_type=doc["doc_type"],
                 source_pdf=_resolve_path(Path(doc["source_pdf"])),
+                pub_date=doc.get("pub_date"),
             )
             for doc in entry["documents"]
         )
+        _assert_no_future_documents(entry["report_date"], documents, entry["document_id"])
         loaded_reports.append(
             ReportSpec(
                 issuer=entry["issuer"],

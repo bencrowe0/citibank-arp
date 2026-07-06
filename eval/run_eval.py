@@ -36,7 +36,7 @@ from eval.outcomes import (
 import llm_macro
 import llm_news
 
-ALL_ISSUERS = ["boeing", "jpm", "netflix"]
+ALL_ISSUERS = ["boeing", "jpm", "netflix", "bank_of_america", "disney", "target"]
 
 
 def parse_args() -> argparse.Namespace:

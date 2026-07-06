@@ -1,0 +1,44 @@
+{
+  "document_id": "DIS_FQ3_2025_NEWS",
+  "base_document_id": "DIS_FQ3_2025",
+  "issuer": "disney",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations rather than guidance changes. The document describes a broadly bullish analyst consensus (six of seven Buy ratings, average price target implying ~17% upside), a constructive setup after a prior beat and guidance raise, and specific positive catalysts (UBS price target increase, Jefferies upgrade). However, the stock had already gained ~8% YTD, and the digest notes investor focus on risks like macro pressure and Epic Universe competition, which temper the bullishness. Overall, expectations are moderately elevated but not stretched to a 'priced for perfection' level, supporting a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T104033Z",
+    "timestamp": "2026-07-06T10:40:44Z",
+    "status": "success",
+    "document_id": "DIS_FQ3_2025_NEWS",
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-08-06",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\disney\\DIS_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3591,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1409,
+    "total_tokens": 5000,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002468,
+    "latency_seconds": 10.94,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

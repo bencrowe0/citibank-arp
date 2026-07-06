@@ -1,0 +1,57 @@
+{
+  "issuer": "disney",
+  "reports": [
+    {
+      "issuer": "disney",
+      "company": "The Walt Disney Company",
+      "ticker": "DIS",
+      "sector": "Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-02-05",
+      "documents": [
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/disney/Q1/Transcript-Q1-FY25.pdf"}
+      ],
+      "document_id": "DIS_FQ1_2025"
+    },
+    {
+      "issuer": "disney",
+      "company": "The Walt Disney Company",
+      "ticker": "DIS",
+      "sector": "Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-05-07",
+      "documents": [
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/disney/Q2/Transcript-Q2-FY25.pdf"}
+      ],
+      "document_id": "DIS_FQ2_2025"
+    },
+    {
+      "issuer": "disney",
+      "company": "The Walt Disney Company",
+      "ticker": "DIS",
+      "sector": "Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-08-06",
+      "documents": [
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/disney/Q3/Transcript-Q3-FY25.pdf"}
+      ],
+      "document_id": "DIS_FQ3_2025"
+    },
+    {
+      "issuer": "disney",
+      "company": "The Walt Disney Company",
+      "ticker": "DIS",
+      "sector": "Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-11-13",
+      "documents": [
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/disney/Q4/Transcript-Q4-FY25.pdf"}
+      ],
+      "document_id": "DIS_FQ4_2025"
+    }
+  ]
+}

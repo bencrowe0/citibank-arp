@@ -4,10 +4,9 @@ Combines the three scored layers (micro = company earnings bundle, macro =
 nearest already-public FOMC minutes, news = coverage digest) into a single
 blended sentiment score and BUY/HOLD/SELL signal.
 
-Weights are NOT hardcoded to one "true" value - eval/calibrate.py sweeps them
-per issuer via leave-one-out cross-validation against actual price outcomes.
-0.6/0.2/0.2 (micro/macro/news) is the sensible-default baseline reported
-alongside any tuned result, never presented as the tuned answer on its own.
+Weights are still evaluated in eval/calibrate.py, but the default below is the
+current pooled-N=24 LOOCV winner from outputs/global/summary:
+0.8/0.0/0.2 (micro/macro/news), with a wider +/-0.25 blended-score HOLD band.
 """
 
 from __future__ import annotations
@@ -18,12 +17,15 @@ from typing import NamedTuple
 
 from report_pipeline import BASE_DIR, OUTPUTS_DIR, load_manifest
 
-DEFAULT_WEIGHTS = (0.6, 0.2, 0.2)  # (micro, macro, news)
+DEFAULT_WEIGHTS = (0.8, 0.0, 0.2)  # (micro, macro, news)
 
 MANIFESTS = {
     "boeing": BASE_DIR / "manifests" / "boeing_reports.json",
     "jpm": BASE_DIR / "manifests" / "jpm_reports.json",
     "netflix": BASE_DIR / "manifests" / "netflix_reports.json",
+    "bank_of_america": BASE_DIR / "manifests" / "bank_of_america_reports.json",
+    "disney": BASE_DIR / "manifests" / "disney_reports.json",
+    "target": BASE_DIR / "manifests" / "target_reports.json",
 }
 
 
@@ -61,7 +63,7 @@ def blend_scores(
     return sum(score * weight for score, weight in components) / total_weight
 
 
-def derive_signal(blended_score: float, hold_upper: float = 0.15, hold_lower: float = -0.15) -> str:
+def derive_signal(blended_score: float, hold_upper: float = 0.25, hold_lower: float = -0.25) -> str:
     if blended_score > hold_upper:
         return "BUY"
     if blended_score < hold_lower:
@@ -120,10 +122,10 @@ def blend_issuer(issuer: str, **kwargs) -> list[BlendResult]:
 if __name__ == "__main__":
     import sys
 
-    # Hand-computed sanity check: micro=0.4, macro=0.2, news=-0.2, weights=0.6/0.2/0.2
-    # expected = 0.4*0.6 + 0.2*0.2 + (-0.2)*0.2 = 0.24 + 0.04 - 0.04 = 0.24
-    check = blend_scores(0.4, 0.2, -0.2, (0.6, 0.2, 0.2))
-    assert abs(check - 0.24) < 1e-9, f"Sanity check failed: got {check}, expected 0.24"
+    # Hand-computed sanity check: micro=0.4, macro=0.2, news=-0.2, weights=0.8/0.0/0.2
+    # expected = 0.4*0.8 + 0.2*0.0 + (-0.2)*0.2 = 0.32 + 0.00 - 0.04 = 0.28
+    check = blend_scores(0.4, 0.2, -0.2, DEFAULT_WEIGHTS)
+    assert abs(check - 0.28) < 1e-9, f"Sanity check failed: got {check}, expected 0.28"
     print(f"Sanity check passed: blend_scores(0.4, 0.2, -0.2) = {check}")
 
     for issuer in sys.argv[1:] or list(MANIFESTS):

@@ -1,0 +1,44 @@
+{
+  "document_id": "TGT_FQ1_2025_NEWS",
+  "base_document_id": "TGT_FQ1_2025",
+  "issuer": "target",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects that market expectations are depressed: the stock had fallen more than 25% year-to-date, analyst estimates have been cut (some warn comparable-sales decline could be near 4%), and the average price target implies nearly 20% upside. A low bar raises the odds of a positive surprise, warranting a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T104054Z",
+    "timestamp": "2026-07-06T10:41:02Z",
+    "status": "success",
+    "document_id": "TGT_FQ1_2025_NEWS",
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-21",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\target\\TGT_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3577,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1021,
+    "total_tokens": 4598,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002038,
+    "latency_seconds": 7.95,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

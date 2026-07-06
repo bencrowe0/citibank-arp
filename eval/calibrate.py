@@ -26,13 +26,14 @@ from typing import Any
 from blend import DEFAULT_WEIGHTS, blend_scores, derive_signal
 
 THRESHOLD_CANDIDATES = [0.05, 0.10, 0.15, 0.20, 0.25, 0.30]
-DEFAULT_HOLD_UPPER = 0.15
-DEFAULT_HOLD_LOWER = -0.15
+DEFAULT_HOLD_UPPER = 0.25
+DEFAULT_HOLD_LOWER = -0.25
 WEIGHT_STEP = 0.2
 
 
 def _weight_grid() -> list[tuple[float, float, float]]:
-    steps = [round(i * WEIGHT_STEP, 1) for i in range(11)]
+    n_steps = int(round(1.0 / WEIGHT_STEP))
+    steps = [round(i * WEIGHT_STEP, 1) for i in range(n_steps + 1)]
     grid = []
     for w_micro in steps:
         for w_macro in steps:
@@ -130,9 +131,15 @@ def sweep_blend(calibration_docs: list[Document]) -> tuple[tuple[float, float, f
             predictions = []
             labels = []
             for doc in calibration_docs:
-                blended = blend_scores(doc.micro_score, doc.macro_score, doc.news_score, weights)
+                try:
+                    blended = blend_scores(doc.micro_score, doc.macro_score, doc.news_score, weights)
+                except ValueError:
+                    predictions = []
+                    break
                 predictions.append(derive_signal(blended, threshold, -threshold))
                 labels.append(doc.outcome_label)
+            if not predictions:
+                continue
             accuracy = _accuracy(predictions, labels)
 
             distance_from_default = sum(abs(w - d) for w, d in zip(weights, DEFAULT_WEIGHTS)) + abs(
@@ -152,9 +159,15 @@ def loocv_blend(documents: list[Document]) -> dict[str, Any]:
         calibration_set = documents[:index] + documents[index + 1 :]
         tuned_weights, tuned_upper, tuned_lower, _ = sweep_blend(calibration_set)
 
-        held_out_blended_tuned = blend_scores(
-            held_out.micro_score, held_out.macro_score, held_out.news_score, tuned_weights
-        )
+        try:
+            held_out_blended_tuned = blend_scores(
+                held_out.micro_score, held_out.macro_score, held_out.news_score, tuned_weights
+            )
+        except ValueError:
+            held_out_blended_tuned = blend_scores(
+                held_out.micro_score, held_out.macro_score, held_out.news_score, DEFAULT_WEIGHTS
+            )
+            tuned_weights = DEFAULT_WEIGHTS
         held_out_blended_default = blend_scores(
             held_out.micro_score, held_out.macro_score, held_out.news_score, DEFAULT_WEIGHTS
         )

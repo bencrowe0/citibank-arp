@@ -1,0 +1,61 @@
+{
+  "issuer": "target",
+  "reports": [
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-21",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/target/Q1/2025-05-21-TGT-FQ1-2025-Press-Release.pdf"},
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/target/Q1/2025-05-21-TGT-FQ1-2025-Transcript.pdf"}
+      ],
+      "document_id": "TGT_FQ1_2025"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-20",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/target/Q2/2025-08-20-TGT-FQ2-2025-Press-Release.pdf"},
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/target/Q2/2025-08-20-TGT-FQ2-2025-Transcript.pdf"}
+      ],
+      "document_id": "TGT_FQ2_2025"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-19",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/target/Q3/2025-11-19-TGT-FQ3-2025-Press-Release.pdf"},
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/target/Q3/2025-11-19-TGT-FQ3-2025-Transcript.pdf"}
+      ],
+      "document_id": "TGT_FQ3_2025"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-20",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/target/Q4/2026-05-20-TGT-FQ1-2026-Press-Release.pdf"},
+        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/target/Q4/2026-05-20-TGT-FQ1-2026-Transcript.pdf"}
+      ],
+      "document_id": "TGT_FQ1_2026"
+    }
+  ]
+}

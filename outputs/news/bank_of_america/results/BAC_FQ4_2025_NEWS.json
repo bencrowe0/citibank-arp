@@ -1,0 +1,44 @@
+{
+  "document_id": "BAC_FQ4_2025_NEWS",
+  "base_document_id": "BAC_FQ4_2025",
+  "issuer": "bank_of_america",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations rather than guidance. The document describes a stock that has rallied 21.2% over the trailing year and is near its 52-week high, with analyst estimates having been raised (multiple target price increases). This elevated bar increases the risk of a negative surprise even on decent results. Additionally, Berkshire Hathaway's pattern of trimming its stake is noted as a closely watched risk, and the stock was down 1.1% the day before the report, suggesting some pre-print caution."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260706T103952Z",
+    "timestamp": "2026-07-06T10:40:03Z",
+    "status": "success",
+    "document_id": "BAC_FQ4_2025_NEWS",
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-14",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\bank_of_america\\BAC_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3766,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1529,
+    "total_tokens": 5295,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002648,
+    "latency_seconds": 11.31,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -42,6 +42,9 @@ MANIFESTS = {
     "boeing": BASE_DIR / "manifests" / "boeing_reports.json",
     "jpm": BASE_DIR / "manifests" / "jpm_reports.json",
     "netflix": BASE_DIR / "manifests" / "netflix_reports.json",
+    "bank_of_america": BASE_DIR / "manifests" / "bank_of_america_reports.json",
+    "disney": BASE_DIR / "manifests" / "disney_reports.json",
+    "target": BASE_DIR / "manifests" / "target_reports.json",
 }
 
 
