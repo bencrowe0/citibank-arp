@@ -1,0 +1,45 @@
+{
+  "document_id": "TGT_FQ1_2025_QUANT",
+  "base_document_id": "TGT_FQ1_2025",
+  "issuer": "target",
+  "ticker": "TGT",
+  "sector": "Consumer Discretionary",
+  "report_date": "2025-05-21",
+  "sentiment": {
+    "score": -0.160812
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.05824,
+      "window_start_date": "2025-04-21",
+      "window_end_date": "2025-05-20",
+      "score": 0.369863,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.315957,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -21.27,
+      "matched_earnings_date": "2025-05-21",
+      "score": -0.691487,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 20.87,
+      "vix_score": -0.124025,
+      "tnx_change": 0.207,
+      "tnx_score": -0.391864,
+      "score": -0.257945,
+      "available": true
+    },
+    "quant_score": -0.160812,
+    "quant_score_with_macro": -0.209378
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

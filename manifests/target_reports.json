@@ -10,8 +10,14 @@
       "fiscal_period": "FQ1 2025",
       "report_date": "2025-05-21",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/target/Q1/2025-05-21-TGT-FQ1-2025-Press-Release.pdf"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/target/Q1/2025-05-21-TGT-FQ1-2025-Transcript.pdf"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/Q1/2025-05-21-TGT-FQ1-2025-Press-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/Q1/2025-05-21-TGT-FQ1-2025-Transcript.pdf"
+        }
       ],
       "document_id": "TGT_FQ1_2025"
     },
@@ -24,8 +30,14 @@
       "fiscal_period": "FQ2 2025",
       "report_date": "2025-08-20",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/target/Q2/2025-08-20-TGT-FQ2-2025-Press-Release.pdf"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/target/Q2/2025-08-20-TGT-FQ2-2025-Transcript.pdf"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/Q2/2025-08-20-TGT-FQ2-2025-Press-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/Q2/2025-08-20-TGT-FQ2-2025-Transcript.pdf"
+        }
       ],
       "document_id": "TGT_FQ2_2025"
     },
@@ -38,8 +50,14 @@
       "fiscal_period": "FQ3 2025",
       "report_date": "2025-11-19",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/target/Q3/2025-11-19-TGT-FQ3-2025-Press-Release.pdf"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/target/Q3/2025-11-19-TGT-FQ3-2025-Transcript.pdf"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/Q3/2025-11-19-TGT-FQ3-2025-Press-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/Q3/2025-11-19-TGT-FQ3-2025-Transcript.pdf"
+        }
       ],
       "document_id": "TGT_FQ3_2025"
     },
@@ -52,10 +70,214 @@
       "fiscal_period": "FQ1 2026",
       "report_date": "2026-05-20",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/target/Q4/2026-05-20-TGT-FQ1-2026-Press-Release.pdf"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/target/Q4/2026-05-20-TGT-FQ1-2026-Transcript.pdf"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/Q4/2026-05-20-TGT-FQ1-2026-Press-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/Q4/2026-05-20-TGT-FQ1-2026-Transcript.pdf"
+        }
       ],
       "document_id": "TGT_FQ1_2026"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2022",
+      "report_date": "2023-02-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2022-Q4/2023-02-28-TGT-FQ1-2023-Press-Release.html",
+          "pub_date": "2023-02-28"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2022-Q4/2023-02-28-TGT-FQ1-2023-Transcript.pdf",
+          "pub_date": "2023-02-28"
+        }
+      ],
+      "document_id": "TGT_FQ4_2022"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2023",
+      "report_date": "2023-05-17",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2023-Q1/2023-05-17-TGT-FQ2-2023-Press-Release.html",
+          "pub_date": "2023-05-17"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2023-Q1/2023-05-17-TGT-FQ2-2023-Transcript.pdf",
+          "pub_date": "2023-05-17"
+        }
+      ],
+      "document_id": "TGT_FQ1_2023"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2023",
+      "report_date": "2023-08-16",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2023-Q2/2023-08-16-TGT-FQ3-2023-Press-Release.html",
+          "pub_date": "2023-08-16"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2023-Q2/2023-08-16-TGT-FQ3-2023-Transcript.pdf",
+          "pub_date": "2023-08-16"
+        }
+      ],
+      "document_id": "TGT_FQ2_2023"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2023",
+      "report_date": "2023-11-15",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2023-Q3/2023-11-15-TGT-FQ4-2023-Press-Release.html",
+          "pub_date": "2023-11-15"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2023-Q3/2023-11-15-TGT-FQ4-2023-Transcript.pdf",
+          "pub_date": "2023-11-15"
+        }
+      ],
+      "document_id": "TGT_FQ3_2023"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2023",
+      "report_date": "2024-03-05",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2023-Q4/tgt-4q23-press-release.html",
+          "pub_date": "2024-03-05"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2023-Q4/tgt-4q23-transcript.html",
+          "pub_date": "2024-03-05"
+        }
+      ],
+      "document_id": "TGT_FQ4_2023"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2024",
+      "report_date": "2024-05-22",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2024-Q1/tgt-1q24-press-release.html",
+          "pub_date": "2024-05-22"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2024-Q1/tgt-1q24-transcript.html",
+          "pub_date": "2024-05-22"
+        }
+      ],
+      "document_id": "TGT_FQ1_2024"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2024",
+      "report_date": "2024-08-21",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2024-Q2/tgt-2q24-press-release.html",
+          "pub_date": "2024-08-21"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2024-Q2/tgt-2q24-transcript.html",
+          "pub_date": "2024-08-21"
+        }
+      ],
+      "document_id": "TGT_FQ2_2024"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2024",
+      "report_date": "2024-11-20",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2024-Q3/tgt-3q24-press-release.html",
+          "pub_date": "2024-11-20"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2024-Q3/tgt-3q24-transcript.html",
+          "pub_date": "2024-11-20"
+        }
+      ],
+      "document_id": "TGT_FQ3_2024"
+    },
+    {
+      "issuer": "target",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Consumer Discretionary",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2024",
+      "report_date": "2025-03-04",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/CY2024-Q4/tgt-4q24-press-release.html",
+          "pub_date": "2025-03-04"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/CY2024-Q4/tgt-4q24-transcript.html",
+          "pub_date": "2025-03-04"
+        }
+      ],
+      "document_id": "TGT_FQ4_2024"
     }
   ]
 }

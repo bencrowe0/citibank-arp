@@ -31,15 +31,20 @@ DEFAULT_HOLD_LOWER = -0.25
 WEIGHT_STEP = 0.2
 
 
-def _weight_grid() -> list[tuple[float, float, float]]:
+def _weight_grid() -> list[tuple[float, float, float, float]]:
+    """Enumerate (micro, macro, news, quant) weights on a WEIGHT_STEP grid that
+    sum to 1.0. Adding the quant dimension grows the search space (21 -> 56
+    combos at step 0.2), so overfitting risk rises at this N - that is exactly
+    what the LOOCV held-out comparison is there to catch."""
     n_steps = int(round(1.0 / WEIGHT_STEP))
     steps = [round(i * WEIGHT_STEP, 1) for i in range(n_steps + 1)]
     grid = []
     for w_micro in steps:
         for w_macro in steps:
-            w_news = round(1.0 - w_micro - w_macro, 1)
-            if 0.0 <= w_news <= 1.0:
-                grid.append((w_micro, w_macro, w_news))
+            for w_news in steps:
+                w_quant = round(1.0 - w_micro - w_macro - w_news, 1)
+                if 0.0 <= w_quant <= 1.0:
+                    grid.append((w_micro, w_macro, w_news, w_quant))
     return grid
 
 
@@ -54,6 +59,7 @@ class Document:
     micro_score: float
     macro_score: float | None
     news_score: float | None
+    quant_score: float | None = None
 
 
 def _accuracy(predictions: list[str], labels: list[str]) -> float:
@@ -132,7 +138,9 @@ def sweep_blend(calibration_docs: list[Document]) -> tuple[tuple[float, float, f
             labels = []
             for doc in calibration_docs:
                 try:
-                    blended = blend_scores(doc.micro_score, doc.macro_score, doc.news_score, weights)
+                    blended = blend_scores(
+                        doc.micro_score, doc.macro_score, doc.news_score, doc.quant_score, weights
+                    )
                 except ValueError:
                     predictions = []
                     break
@@ -161,15 +169,18 @@ def loocv_blend(documents: list[Document]) -> dict[str, Any]:
 
         try:
             held_out_blended_tuned = blend_scores(
-                held_out.micro_score, held_out.macro_score, held_out.news_score, tuned_weights
+                held_out.micro_score, held_out.macro_score, held_out.news_score,
+                held_out.quant_score, tuned_weights
             )
         except ValueError:
             held_out_blended_tuned = blend_scores(
-                held_out.micro_score, held_out.macro_score, held_out.news_score, DEFAULT_WEIGHTS
+                held_out.micro_score, held_out.macro_score, held_out.news_score,
+                held_out.quant_score, DEFAULT_WEIGHTS
             )
             tuned_weights = DEFAULT_WEIGHTS
         held_out_blended_default = blend_scores(
-            held_out.micro_score, held_out.macro_score, held_out.news_score, DEFAULT_WEIGHTS
+            held_out.micro_score, held_out.macro_score, held_out.news_score,
+            held_out.quant_score, DEFAULT_WEIGHTS
         )
 
         tuned_prediction = derive_signal(held_out_blended_tuned, tuned_upper, tuned_lower)

@@ -1,0 +1,45 @@
+{
+  "document_id": "DIS_FQ1_2023_QUANT",
+  "base_document_id": "DIS_FQ1_2023",
+  "issuer": "disney",
+  "ticker": "DIS",
+  "sector": "Communication Services",
+  "report_date": "2023-02-08",
+  "sentiment": {
+    "score": 0.813838
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.188565,
+      "window_start_date": "2023-01-06",
+      "window_end_date": "2023-02-07",
+      "score": 0.850262,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.267769,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 25.97,
+      "matched_earnings_date": "2023-02-08",
+      "score": 0.777414,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 19.63,
+      "vix_score": -0.041975,
+      "tnx_change": 0.136,
+      "tnx_score": -0.265485,
+      "score": -0.15373,
+      "available": true
+    },
+    "quant_score": 0.813838,
+    "quant_score_with_macro": 0.330054
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

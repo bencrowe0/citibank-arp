@@ -1,0 +1,45 @@
+{
+  "document_id": "BAC_FQ4_2025_QUANT",
+  "base_document_id": "BAC_FQ4_2025",
+  "issuer": "bank_of_america",
+  "ticker": "BAC",
+  "sector": "Financials",
+  "report_date": "2026-01-14",
+  "sentiment": {
+    "score": 0.04326
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.000367,
+      "window_start_date": "2025-12-11",
+      "window_end_date": "2026-01-13",
+      "score": -0.002444,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.188526,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 2.23,
+      "matched_earnings_date": "2026-01-14",
+      "score": 0.088964,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.75,
+      "vix_score": 0.148885,
+      "tnx_change": -0.054,
+      "tnx_score": 0.107582,
+      "score": 0.128233,
+      "available": true
+    },
+    "quant_score": 0.04326,
+    "quant_score_with_macro": 0.085747
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

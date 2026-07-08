@@ -10,7 +10,10 @@
       "fiscal_period": "FQ2 2025",
       "report_date": "2025-07-17",
       "documents": [
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/netflix/FQ2 25.pdf"}
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/FQ2 25.pdf"
+        }
       ],
       "document_id": "NFLX_FQ2_2025"
     },
@@ -23,7 +26,10 @@
       "fiscal_period": "FQ3 2025",
       "report_date": "2025-10-21",
       "documents": [
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/netflix/FQ3 25.pdf"}
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/FQ3 25.pdf"
+        }
       ],
       "document_id": "NFLX_FQ3_2025"
     },
@@ -36,7 +42,10 @@
       "fiscal_period": "FQ4 2025",
       "report_date": "2026-01-20",
       "documents": [
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/netflix/FQ4 25.pdf"}
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/FQ4 25.pdf"
+        }
       ],
       "document_id": "NFLX_FQ4_2025"
     },
@@ -49,9 +58,165 @@
       "fiscal_period": "FQ1 2026",
       "report_date": "2026-04-16",
       "documents": [
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/netflix/FQ1 26.pdf"}
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/FQ1 26.pdf"
+        }
       ],
       "document_id": "NFLX_FQ1_2026"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ4 2022",
+      "report_date": "2023-01-19",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2022-Q4/nflx-4q22-transcript.pdf",
+          "pub_date": "2023-01-19"
+        }
+      ],
+      "document_id": "NFLX_FQ4_2022"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ1 2023",
+      "report_date": "2023-04-18",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2023-Q1/nflx-1q23-transcript.html",
+          "pub_date": "2023-04-18"
+        }
+      ],
+      "document_id": "NFLX_FQ1_2023"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ2 2023",
+      "report_date": "2023-07-19",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2023-Q2/nflx-2q23-transcript.html",
+          "pub_date": "2023-07-19"
+        }
+      ],
+      "document_id": "NFLX_FQ2_2023"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ3 2023",
+      "report_date": "2023-10-18",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2023-Q3/nflx-3q23-transcript.html",
+          "pub_date": "2023-10-18"
+        }
+      ],
+      "document_id": "NFLX_FQ3_2023"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ4 2023",
+      "report_date": "2024-01-23",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2023-Q4/nflx-4q23-transcript.html",
+          "pub_date": "2024-01-23"
+        }
+      ],
+      "document_id": "NFLX_FQ4_2023"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ1 2024",
+      "report_date": "2024-04-18",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2024-Q1/nflx-1q24-transcript.html",
+          "pub_date": "2024-04-18"
+        }
+      ],
+      "document_id": "NFLX_FQ1_2024"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ2 2024",
+      "report_date": "2024-07-18",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2024-Q2/nflx-2q24-transcript.html",
+          "pub_date": "2024-07-18"
+        }
+      ],
+      "document_id": "NFLX_FQ2_2024"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ3 2024",
+      "report_date": "2024-10-17",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2024-Q3/nflx-3q24-transcript.html",
+          "pub_date": "2024-10-17"
+        }
+      ],
+      "document_id": "NFLX_FQ3_2024"
+    },
+    {
+      "issuer": "netflix",
+      "company": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "sector": "Communication Services",
+      "report_type": "Earnings Call Transcript",
+      "fiscal_period": "FQ4 2024",
+      "report_date": "2025-01-21",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/CY2024-Q4/nflx-4q24-transcript.html",
+          "pub_date": "2025-01-21"
+        }
+      ],
+      "document_id": "NFLX_FQ4_2024"
     }
   ]
 }

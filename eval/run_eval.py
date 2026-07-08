@@ -35,6 +35,7 @@ from eval.outcomes import (
 
 import llm_macro
 import llm_news
+import quant_layer
 
 ALL_ISSUERS = ["boeing", "jpm", "netflix", "bank_of_america", "disney", "target"]
 
@@ -85,6 +86,9 @@ def build_documents_for_issuer(issuer: str, window_trading_days: int, outcome_up
         news_result = llm_news.get_news_score(news_issuer, outcome.document_id)
         news_score = news_result["sentiment"]["score"] if news_result else None
 
+        quant_result = quant_layer.get_quant_score(news_issuer, outcome.document_id)
+        quant_score = quant_result["sentiment"]["score"] if quant_result else None
+
         document = Document(
             document_id=outcome.document_id,
             issuer=issuer,
@@ -92,6 +96,7 @@ def build_documents_for_issuer(issuer: str, window_trading_days: int, outcome_up
             micro_score=micro_score,
             macro_score=macro_score,
             news_score=news_score,
+            quant_score=quant_score,
         )
         pairs.append((outcome, document))
     return pairs
@@ -142,6 +147,7 @@ def main() -> int:
                 "micro_score": doc.micro_score,
                 "macro_score": doc.macro_score,
                 "news_score": doc.news_score,
+                "quant_score": doc.quant_score,
                 "forward_return": outcome.forward_return,
                 "window_trading_days": outcome.window_trading_days,
                 "outcome_label": outcome.outcome_label,
@@ -170,6 +176,7 @@ def main() -> int:
             "micro": DEFAULT_WEIGHTS[0],
             "macro": DEFAULT_WEIGHTS[1],
             "news": DEFAULT_WEIGHTS[2],
+            "quant": DEFAULT_WEIGHTS[3],
         },
         "note": (
             "Pooled across all issuers so the tuned threshold/weights are one shared "
