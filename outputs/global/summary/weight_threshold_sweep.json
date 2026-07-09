@@ -1,0 +1,118 @@
+{
+  "n_documents": 131,
+  "weight_step": 0.05,
+  "threshold_grid": {
+    "upper": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ],
+    "lower": [
+      -0.05,
+      -0.1,
+      -0.15,
+      -0.2,
+      -0.25,
+      -0.3,
+      -0.35,
+      -0.4
+    ],
+    "asymmetric": true
+  },
+  "combos_per_variant": 113344,
+  "default_config": {
+    "weights": [
+      0.8,
+      0.0,
+      0.2,
+      0.0
+    ],
+    "hold_upper": 0.25,
+    "hold_lower": -0.25
+  },
+  "variants": {
+    "quant_score": {
+      "global_best": {
+        "accuracy": 0.4656,
+        "weights": [
+          0.8,
+          0.0,
+          0.2,
+          0.0
+        ],
+        "hold_upper": 0.25,
+        "hold_lower": -0.25,
+        "n_tied": 11
+      },
+      "loocv_tuned_accuracy": 0.458,
+      "loocv_default_accuracy": 0.4656,
+      "n": 131
+    },
+    "quant_score_with_macro": {
+      "global_best": {
+        "accuracy": 0.4656,
+        "weights": [
+          0.8,
+          0.0,
+          0.2,
+          0.0
+        ],
+        "hold_upper": 0.25,
+        "hold_lower": -0.25,
+        "n_tied": 11
+      },
+      "loocv_tuned_accuracy": 0.458,
+      "loocv_default_accuracy": 0.4656,
+      "n": 131
+    },
+    "quant_score_with_fred": {
+      "global_best": {
+        "accuracy": 0.4656,
+        "weights": [
+          0.8,
+          0.0,
+          0.2,
+          0.0
+        ],
+        "hold_upper": 0.25,
+        "hold_lower": -0.25,
+        "n_tied": 11
+      },
+      "loocv_tuned_accuracy": 0.458,
+      "loocv_default_accuracy": 0.4656,
+      "n": 131
+    },
+    "quant_score_with_macro_fred": {
+      "global_best": {
+        "accuracy": 0.4656,
+        "weights": [
+          0.8,
+          0.0,
+          0.2,
+          0.0
+        ],
+        "hold_upper": 0.25,
+        "hold_lower": -0.25,
+        "n_tied": 11
+      },
+      "loocv_tuned_accuracy": 0.458,
+      "loocv_default_accuracy": 0.4656,
+      "n": 131
+    }
+  },
+  "fed_ablation_note": "Compare quant_score (plain) vs quant_score_with_fred / _with_macro / _with_macro_fred. If none lifts global_best or LOOCV accuracy over plain, the Fed/macro-numeric sub-components do not earn weight - a stable negative, consistent with macro/news at earlier N.",
+  "significance": {
+    "accuracy": 0.4656,
+    "n": 131,
+    "majority_label": "HOLD",
+    "majority_rate": 0.3817,
+    "binomial_p_vs_majority": 0.03048,
+    "permutation_p_vs_shuffled_labels": 0.0014,
+    "verdict": "blend 0.4656 vs majority 0.3817 - statistically significant (binomial p=0.03048, permutation p=0.0014) at N=131"
+  }
+}

@@ -13,7 +13,7 @@
       "raw_return": -0.029906,
       "window_start_date": "2023-07-17",
       "window_end_date": "2023-08-15",
-      "score": -0.196771,
+      "score": -0.19677,
       "available": true
     },
     "volatility": {
@@ -34,8 +34,21 @@
       "score": -0.293687,
       "available": true
     },
+    "fred_macro": {
+      "ffr_level": 5.33,
+      "ffr_change": 0.25,
+      "ffr_score": -0.462117,
+      "ffr_as_of": "2023-08-15",
+      "curve_spread": -0.71,
+      "curve_score": -0.610677,
+      "curve_as_of": "2023-08-15",
+      "score": -0.536397,
+      "available": true
+    },
     "quant_score": 0.297096,
-    "quant_score_with_macro": 0.001705
+    "quant_score_with_macro": 0.001705,
+    "quant_score_with_fred": -0.11965,
+    "quant_score_with_macro_fred": -0.177663
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,

@@ -34,8 +34,21 @@
       "score": -0.098126,
       "available": true
     },
+    "fred_macro": {
+      "ffr_level": 4.83,
+      "ffr_change": 0.25,
+      "ffr_score": -0.462117,
+      "ffr_as_of": "2023-04-17",
+      "curve_spread": -0.58,
+      "curve_score": -0.522665,
+      "curve_as_of": "2023-04-17",
+      "score": -0.492391,
+      "available": true
+    },
     "quant_score": 0.235202,
-    "quant_score_with_macro": 0.068538
+    "quant_score_with_macro": 0.068538,
+    "quant_score_with_fred": -0.128595,
+    "quant_score_with_macro_fred": -0.118438
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,

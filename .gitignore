@@ -4,3 +4,9 @@ __pycache__/
 .venv/
 .claude/
 .agents/
+
+# untracked working folders (teammate syncs, archived forks, local scratch)
+OneDrive_2026-07-06/
+_archive/
+data/quantitative/price_cache/
+data/quantitative/earnings_cache/

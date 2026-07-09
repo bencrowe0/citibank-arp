@@ -6,14 +6,14 @@
   "sector": "Financials",
   "report_date": "2023-07-14",
   "sentiment": {
-    "score": 0.591176
+    "score": 0.591178
   },
   "quant_metrics": {
     "momentum": {
-      "raw_return": 0.063066,
+      "raw_return": 0.063067,
       "window_start_date": "2023-06-12",
       "window_end_date": "2023-07-13",
-      "score": 0.397302,
+      "score": 0.397305,
       "available": true
     },
     "volatility": {
@@ -34,8 +34,21 @@
       "score": 0.200184,
       "available": true
     },
-    "quant_score": 0.591176,
-    "quant_score_with_macro": 0.39568
+    "fred_macro": {
+      "ffr_level": 5.08,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2023-07-13",
+      "curve_spread": -0.83,
+      "curve_score": -0.680476,
+      "curve_as_of": "2023-07-13",
+      "score": -0.340238,
+      "available": true
+    },
+    "quant_score": 0.591178,
+    "quant_score_with_macro": 0.395681,
+    "quant_score_with_fred": 0.12547,
+    "quant_score_with_macro_fred": 0.150375
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,

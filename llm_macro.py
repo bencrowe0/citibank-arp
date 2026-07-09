@@ -29,7 +29,7 @@ from report_pipeline import (
     utc_run_id,
 )
 
-MACRO_MANIFEST = BASE_DIR / "manifests" / "macro_fomc_2025.json"
+MACRO_MANIFEST = BASE_DIR / "manifests" / "macro_fomc.json"
 MACRO_RESULTS_DIR = OUTPUTS_DIR / "macro" / "results"
 
 

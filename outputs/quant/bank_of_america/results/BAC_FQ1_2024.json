@@ -6,14 +6,14 @@
   "sector": "Financials",
   "report_date": "2024-04-16",
   "sentiment": {
-    "score": -0.012468
+    "score": -0.012469
   },
   "quant_metrics": {
     "momentum": {
       "raw_return": 0.007285,
       "window_start_date": "2024-03-14",
       "window_end_date": "2024-04-15",
-      "score": 0.048531,
+      "score": 0.048529,
       "available": true
     },
     "volatility": {
@@ -34,8 +34,21 @@
       "score": -0.285349,
       "available": true
     },
-    "quant_score": -0.012468,
-    "quant_score_with_macro": -0.148908
+    "fred_macro": {
+      "ffr_level": 5.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2024-04-15",
+      "curve_spread": -0.3,
+      "curve_score": -0.291313,
+      "curve_as_of": "2024-04-15",
+      "score": -0.145656,
+      "available": true
+    },
+    "quant_score": -0.012469,
+    "quant_score_with_macro": -0.148909,
+    "quant_score_with_fred": -0.079063,
+    "quant_score_with_macro_fred": -0.147825
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,

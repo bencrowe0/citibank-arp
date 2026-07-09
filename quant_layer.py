@@ -36,6 +36,12 @@ Sub-metrics and their priors:
   * macro_num (kept as a SEPARATE, toggleable sub-component so eval/ can test
     it on its own): elevated ^VIX -> risk-off (-); rising 10Y yield (^TNX,
     21d change) -> headwind (-).
+  * fred_macro (Round 5; also SEPARATE/toggleable): real Fed data via FRED's
+    key-free CSV endpoint - trailing federal-funds-rate change (tightening ->
+    headwind, -) and 10Y-2Y curve slope (inversion -> risk-off, -). Chosen to
+    not duplicate ^TNX. Dated STRICTLY BEFORE report_date (FRED publishes ~1
+    business day late). Whether it earns blend weight is decided by ablation in
+    eval/, same as macro/news historically.
 
   realized volatility is computed and stored for audit but is NOT directional,
   so it is deliberately kept OUT of the composite (inventing a sign for it
@@ -69,6 +75,12 @@ from report_pipeline import BASE_DIR, OUTPUTS_DIR, load_manifest
 
 QUANT_RESULTS_DIR = OUTPUTS_DIR / "quant"
 DATA_DIR = BASE_DIR / "data" / "quantitative"
+# Raw yfinance pulls are cached to disk (CSV, replication-friendly) so repeated
+# quant/eval runs over the same quarters do zero redundant network calls.
+# Historical price/earnings data is immutable for a fixed window, so the cache
+# is permanent; delete the folder to force a refresh.
+PRICE_CACHE_DIR = DATA_DIR / "price_cache"
+EARNINGS_CACHE_DIR = DATA_DIR / "earnings_cache"
 
 MANIFESTS = {
     "boeing": BASE_DIR / "manifests" / "boeing_reports.json",
@@ -90,6 +102,22 @@ TNX_CHANGE_WINDOW_DAYS = 21
 TNX_CHANGE_SCALE = 0.5           # 0.5 percentage-point 21d move maps to ~tanh(1)
 EARNINGS_MATCH_TOLERANCE_DAYS = 5
 
+# --- Federal Reserve (FRED) sub-component ------------------------------------
+# Real Fed data, pulled key-free from the FRED CSV endpoint (fredgraph.csv), so
+# it keeps the layer's "free, no API key" property. Chosen to be NON-redundant
+# with the yfinance macro_numeric above: policy-rate CHANGE (DFF) and yield-curve
+# SLOPE (T10Y2Y) are Fed signals ^VIX/^TNX don't carry (DGS10 is deliberately
+# NOT used - it just duplicates ^TNX). Leakage discipline: these series publish
+# ~1 business day late, so we take the last observation STRICTLY BEFORE
+# report_date (stricter than macro_numeric's on/before, which is fine for
+# intraday-available market quotes but not for next-day-released Fed data).
+FRED_CSV_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={series}"
+FRED_FFR_SERIES = "DFF"          # Federal Funds Effective Rate (daily)
+FRED_CURVE_SERIES = "T10Y2Y"     # 10Y-2Y Treasury spread (daily); <0 == inverted
+FRED_FFR_CHANGE_WINDOW_DAYS = 63  # ~one fiscal quarter of trailing policy drift
+FRED_FFR_CHANGE_SCALE = 0.5      # a 50bp quarterly move in the policy rate -> ~tanh(1)
+FRED_CURVE_SCALE = 1.0           # a 100bp curve slope -> ~tanh(1)
+
 
 def _clamp(x: float) -> float:
     return max(-1.0, min(1.0, x))
@@ -107,15 +135,45 @@ def _to_naive_date_index(frame: pd.DataFrame) -> pd.DataFrame:
     return frame
 
 
+def _safe_ticker(ticker: str) -> str:
+    return ticker.replace("^", "").replace("/", "_").replace("\\", "_")
+
+
 def _fetch_price_history(ticker: str, report_date: str, lookback_days: int = 90) -> pd.DataFrame:
     report_dt = datetime.strptime(report_date, "%Y-%m-%d")
     start = (report_dt - timedelta(days=lookback_days)).strftime("%Y-%m-%d")
     # +1 day so an on-date close is included when we need on/before semantics.
     end = (report_dt + timedelta(days=1)).strftime("%Y-%m-%d")
+
+    PRICE_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache_path = PRICE_CACHE_DIR / f"{_safe_ticker(ticker)}_{start}_{end}.csv"
+    if cache_path.exists():
+        cached = pd.read_csv(cache_path, index_col=0, parse_dates=True)
+        return cached  # stored already tz-naive
+
     history = yf.Ticker(ticker).history(start=start, end=end)
     if history.empty:
-        return history
-    return _to_naive_date_index(history)
+        return history  # never cache empties - could be a transient fetch failure
+    history = _to_naive_date_index(history)
+    history.to_csv(cache_path)
+    return history
+
+
+def _fetch_earnings_dates(ticker: str, limit: int = 40) -> pd.DataFrame | None:
+    """Cached per-ticker get_earnings_dates. Historical surprise values are
+    stable, so caching is safe; delete EARNINGS_CACHE_DIR to refresh."""
+    EARNINGS_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache_path = EARNINGS_CACHE_DIR / f"{_safe_ticker(ticker)}_earnings.csv"
+    if cache_path.exists():
+        return pd.read_csv(cache_path, index_col=0, parse_dates=True)
+
+    earnings = yf.Ticker(ticker).get_earnings_dates(limit=limit)
+    if earnings is None or earnings.empty:
+        return earnings  # don't cache empties
+    earnings = earnings.copy()
+    earnings.index = pd.to_datetime(earnings.index).tz_localize(None)
+    earnings.to_csv(cache_path)
+    return earnings
 
 
 def _closes_strictly_before(history: pd.DataFrame, report_date: str) -> pd.Series:
@@ -166,14 +224,17 @@ def compute_eps_surprise(ticker: str, report_date: str) -> dict[str, Any]:
     Positive prior: post-earnings-announcement drift."""
     report_dt = pd.Timestamp(report_date)
     try:
-        earnings = yf.Ticker(ticker).get_earnings_dates(limit=40)
+        earnings = _fetch_earnings_dates(ticker, limit=40)
     except Exception as exc:  # noqa: BLE001 - degrade gracefully if lxml/data missing
         return {"surprise_pct": None, "score": None, "available": False, "error": str(exc)}
     if earnings is None or earnings.empty or "Surprise(%)" not in earnings.columns:
         return {"surprise_pct": None, "score": None, "available": False}
 
     earnings = earnings.copy()
-    earnings.index = pd.to_datetime(earnings.index).tz_localize(None)
+    idx = pd.to_datetime(earnings.index)
+    if idx.tz is not None:  # fresh yfinance pull is tz-aware; cached read is already naive
+        idx = idx.tz_localize(None)
+    earnings.index = idx
     deltas = (earnings.index - report_dt).to_series(index=earnings.index).abs()
     nearest_idx = deltas.idxmin()
     if abs((nearest_idx - report_dt).days) > EARNINGS_MATCH_TOLERANCE_DAYS:
@@ -222,11 +283,86 @@ def compute_macro_numeric(report_date: str) -> dict[str, Any]:
     }
 
 
+def _fetch_fred_series(series_id: str) -> pd.Series | None:
+    """Full FRED series (key-free CSV endpoint), cached to disk as a naive-indexed
+    Series. '.' missing markers are dropped. Returns None on any fetch failure so
+    the caller can degrade gracefully."""
+    FRED_CACHE_DIR = DATA_DIR / "fred_cache"
+    FRED_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache_path = FRED_CACHE_DIR / f"{series_id}.csv"
+    try:
+        if cache_path.exists():
+            frame = pd.read_csv(cache_path, index_col=0, parse_dates=True)
+        else:
+            frame = pd.read_csv(FRED_CSV_URL.format(series=series_id))
+            date_col, val_col = frame.columns[0], frame.columns[1]
+            frame[val_col] = pd.to_numeric(frame[val_col], errors="coerce")
+            frame = frame.dropna(subset=[val_col])
+            frame.index = pd.to_datetime(frame[date_col])
+            frame = frame[[val_col]]
+            frame.to_csv(cache_path)
+    except Exception:  # noqa: BLE001 - network/parse failure -> layer unavailable
+        return None
+    if frame.empty:
+        return None
+    series = frame.iloc[:, 0]
+    series.index = pd.to_datetime(series.index)
+    return series
+
+
+def compute_fred_macro(report_date: str) -> dict[str, Any]:
+    """Fed-policy sub-score from FRED: trailing federal-funds-rate change (rising
+    policy rate -> tightening headwind, negative prior) and yield-curve slope
+    (inverted 10Y-2Y -> risk-off, negative prior). Both standardized to fixed
+    scales, signs from stated priors, NOT fit to outcomes. Kept separate and
+    toggleable like macro_numeric so eval/ can ablate it on its own."""
+    report_dt = pd.Timestamp(report_date)
+    ffr = _fetch_fred_series(FRED_FFR_SERIES)
+    curve = _fetch_fred_series(FRED_CURVE_SERIES)
+
+    sub_scores = []
+    out: dict[str, Any] = {}
+
+    if ffr is not None:
+        ffr_before = ffr[ffr.index < report_dt]
+        if len(ffr_before) > FRED_FFR_CHANGE_WINDOW_DAYS:
+            latest = float(ffr_before.iloc[-1])
+            earlier = float(ffr_before.iloc[-(FRED_FFR_CHANGE_WINDOW_DAYS + 1)])
+            ffr_change = latest - earlier
+            ffr_score = -_tanh_scale(ffr_change, FRED_FFR_CHANGE_SCALE)
+            out.update({
+                "ffr_level": round(latest, 4),
+                "ffr_change": round(ffr_change, 6),
+                "ffr_score": round(ffr_score, 6),
+                "ffr_as_of": str(ffr_before.index[-1].date()),
+            })
+            sub_scores.append(ffr_score)
+
+    if curve is not None:
+        curve_before = curve[curve.index < report_dt]
+        if not curve_before.empty:
+            spread = float(curve_before.iloc[-1])
+            curve_score = _tanh_scale(spread, FRED_CURVE_SCALE)
+            out.update({
+                "curve_spread": round(spread, 6),
+                "curve_score": round(curve_score, 6),
+                "curve_as_of": str(curve_before.index[-1].date()),
+            })
+            sub_scores.append(curve_score)
+
+    if not sub_scores:
+        return {"score": None, "available": False}
+    out["score"] = round(sum(sub_scores) / len(sub_scores), 6)
+    out["available"] = True
+    return out
+
+
 def compute_quant_metrics(ticker: str, report_date: str) -> dict[str, Any]:
     momentum = compute_momentum(ticker, report_date)
     volatility = compute_volatility(ticker, report_date)
     eps_surprise = compute_eps_surprise(ticker, report_date)
     macro_numeric = compute_macro_numeric(report_date)
+    fred_macro = compute_fred_macro(report_date)
 
     # Composite = equal-weight mean of available DIRECTIONAL company sub-scores
     # (momentum, eps_surprise). Macro numeric is stored but kept OUT of the
@@ -239,13 +375,22 @@ def compute_quant_metrics(ticker: str, report_date: str) -> dict[str, Any]:
     with_macro = [s for s in (company_score, macro_numeric.get("score")) if s is not None]
     company_plus_macro_score = round(sum(with_macro) / len(with_macro), 6) if with_macro else None
 
+    # "With Fed data" ablation arms - also kept OUT of the headline score.
+    with_fred = [s for s in (company_score, fred_macro.get("score")) if s is not None]
+    company_plus_fred_score = round(sum(with_fred) / len(with_fred), 6) if with_fred else None
+    with_macro_fred = [s for s in (company_score, macro_numeric.get("score"), fred_macro.get("score")) if s is not None]
+    company_plus_macro_fred_score = round(sum(with_macro_fred) / len(with_macro_fred), 6) if with_macro_fred else None
+
     return {
         "momentum": momentum,
         "volatility": volatility,
         "eps_surprise": eps_surprise,
         "macro_numeric": macro_numeric,
+        "fred_macro": fred_macro,
         "quant_score": company_score,
         "quant_score_with_macro": company_plus_macro_score,
+        "quant_score_with_fred": company_plus_fred_score,
+        "quant_score_with_macro_fred": company_plus_macro_fred_score,
     }
 
 
@@ -305,7 +450,7 @@ def main() -> int:
             print(
                 f"{result['base_document_id']}: quant={result['sentiment']['score']} "
                 f"(mom={m['momentum'].get('score')} eps={m['eps_surprise'].get('score')} "
-                f"macro={m['macro_numeric'].get('score')})"
+                f"macro={m['macro_numeric'].get('score')} fred={m.get('fred_macro', {}).get('score')})"
             )
     return 0
 

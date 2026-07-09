@@ -10,7 +10,7 @@
   },
   "quant_metrics": {
     "momentum": {
-      "raw_return": -0.039299,
+      "raw_return": -0.039298,
       "window_start_date": "2025-07-07",
       "window_end_date": "2025-08-05",
       "score": -0.256156,
@@ -34,8 +34,21 @@
       "score": 0.259471,
       "available": true
     },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-08-05",
+      "curve_spread": 0.5,
+      "curve_score": 0.462117,
+      "curve_as_of": "2025-08-05",
+      "score": 0.231059,
+      "available": true
+    },
     "quant_score": 0.083693,
-    "quant_score_with_macro": 0.171582
+    "quant_score_with_macro": 0.171582,
+    "quant_score_with_fred": 0.157376,
+    "quant_score_with_macro_fred": 0.191408
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,

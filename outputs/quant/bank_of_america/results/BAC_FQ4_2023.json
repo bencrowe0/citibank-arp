@@ -17,7 +17,7 @@
       "available": true
     },
     "volatility": {
-      "annualized_vol": 0.292449,
+      "annualized_vol": 0.292448,
       "available": true
     },
     "eps_surprise": {
@@ -34,8 +34,21 @@
       "score": 0.434216,
       "available": true
     },
+    "fred_macro": {
+      "ffr_level": 5.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2024-01-11",
+      "curve_spread": -0.28,
+      "curve_score": -0.272905,
+      "curve_as_of": "2024-01-11",
+      "score": -0.136453,
+      "available": true
+    },
     "quant_score": -0.244808,
-    "quant_score_with_macro": 0.094704
+    "quant_score_with_macro": 0.094704,
+    "quant_score_with_fred": -0.19063,
+    "quant_score_with_macro_fred": 0.017652
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,

@@ -6,14 +6,14 @@
   "sector": "Consumer Discretionary",
   "report_date": "2023-05-17",
   "sentiment": {
-    "score": 0.168422
+    "score": 0.168423
   },
   "quant_metrics": {
     "momentum": {
       "raw_return": -0.029056,
       "window_start_date": "2023-04-17",
       "window_end_date": "2023-05-16",
-      "score": -0.191323,
+      "score": -0.191321,
       "available": true
     },
     "volatility": {
@@ -34,8 +34,21 @@
       "score": 0.061527,
       "available": true
     },
-    "quant_score": 0.168422,
-    "quant_score_with_macro": 0.114974
+    "fred_macro": {
+      "ffr_level": 5.08,
+      "ffr_change": 0.5,
+      "ffr_score": -0.761594,
+      "ffr_as_of": "2023-05-16",
+      "curve_spread": -0.52,
+      "curve_score": -0.4777,
+      "curve_as_of": "2023-05-16",
+      "score": -0.619647,
+      "available": true
+    },
+    "quant_score": 0.168423,
+    "quant_score_with_macro": 0.114975,
+    "quant_score_with_fred": -0.225612,
+    "quant_score_with_macro_fred": -0.129899
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,
