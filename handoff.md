@@ -3,7 +3,7 @@
 ## Goal
 Improve the Citibank APR earnings-prediction pipeline: add a free quantitative layer, grow the calibration sample N by backfilling earlier quarters, test per-sector vs pooled calibration, track API cost, and organize data for replication - without overfitting or data leakage.
 
-## Current State - ALL BACKLOG ITEMS DONE, NOTHING COMMITTED YET
+## Current State - ALL BACKLOG ITEMS DONE AND COMMITTED (16f756a)
 - **Quant layer**: `quant_layer.py` built and integrated as 4th blend layer (default weight 0.0, verified byte-identical blend behavior).
 - **Backfill complete for all 6 issuers**, 2022-2024, 9 quarters each: jpm, bank_of_america, boeing, disney, target, netflix. N grew **24 -> 78**. Total backfill LLM cost this session: **~$0.47** (BAC $0.165, Boeing $0.081, Disney $0.084, Target $0.089, Netflix $0.052; JPM's $0.087 was prior session).
 - **Pooled result at N=78**: threshold-only default=tuned=**0.51**, blend default=tuned=**0.54**. The tuned/default overfitting gap seen at every earlier N has closed - all 78 LOOCV folds independently pick the exact default weights (0.8/0.0/0.2/0.0). Quant still earns 0 weight (same story as macro at earlier N) - reported honestly, not hidden.
@@ -11,7 +11,7 @@ Improve the Citibank APR earnings-prediction pipeline: add a free quantitative l
 - **Cost ledger built**: `build_cost_ledger.py` (new, read-only, no API calls) aggregates all existing per-call cost logs into `outputs/global/summary/api_cost_ledger.csv`. Total logged cost across the whole project: **~$0.68** (micro $0.557, news $0.065, macro $0.055; quant is free).
 - **`data/backfill_provenance.csv` filled**: 122 rows, one per backfilled document, with source URL + verification status.
 - **CLAUDE.md refreshed**: Architecture/Manifest/Known-limitations sections updated to 6 issuers/4 layers/N=78, plus a new "Round 4" section documenting everything above in full (methodology, honest negatives, what wasn't done).
-- **Nothing committed to git yet** - user must review and approve.
+- **Committed**: `16f756a` on `task/task` - 414 files (all manifests, docs, outputs, quant_layer.py, build_cost_ledger.py, CLAUDE.md). Not pushed to remote.
 
 ## Files in Flight (new/modified this session)
 - `manifests/bank_of_america_reports.json`, `boeing_reports.json`, `disney_reports.json`, `target_reports.json`, `netflix_reports.json` - each grew from 4 to 13 entries (9 backfilled + 4 pre-existing 2025 quarters).
@@ -41,4 +41,4 @@ User asked for the "absolutely optimal" pooled weights. Ran a standalone finer g
 Continuous/finer weight sweep (previously item 3) is DONE - see above.
 
 ## Next Step
-All requested work is complete and CLAUDE.md is current. Ready to commit: `quant_layer.py`, `build_cost_ledger.py`, modified `blend.py`/`eval/calibrate.py`/`eval/run_eval.py`, all 6 issuers' manifests, all new `docs/` source files, all new `outputs/` artifacts, `data/backfill_provenance.csv`, and `CLAUDE.md`. `docs/`/`outputs/` are already tracked in git history (confirmed via `git ls-files`), so no gitignore decision needed - staying consistent with existing practice.
+Everything above is committed (`16f756a`, not pushed). Pick up from the Open Backlog above - most promising: (1) grow Financials N further to resolve the 0.62-vs-0.54 ambiguity, or (2) re-source news digests for the 54 backfilled quarters (biggest remaining data gap). Nothing is blocking; this is discretionary next-phase work.
