@@ -69,9 +69,10 @@ def _base_issuer(issuer: str) -> str:
     return issuer
 
 
-def build_documents_for_issuer(issuer: str, window_trading_days: int, outcome_upper: float, outcome_lower: float):
+def build_documents_for_issuer(issuer: str, window_trading_days: int, outcome_upper: float, outcome_lower: float,
+                               exit_on_open: bool = False):
     results_dir = OUTPUTS_DIR / issuer / "results"
-    outcomes = collect_outcomes_for_issuer(issuer, results_dir, window_trading_days, outcome_upper, outcome_lower)
+    outcomes = collect_outcomes_for_issuer(issuer, results_dir, window_trading_days, outcome_upper, outcome_lower, exit_on_open)
     news_issuer = _base_issuer(issuer)
 
     pairs = []

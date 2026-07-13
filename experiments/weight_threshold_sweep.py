@@ -24,6 +24,7 @@ Out:  outputs/global/summary/weight_threshold_sweep.json
 """
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -60,13 +61,16 @@ def weight_grid(step: float) -> np.ndarray:
     return np.array(combos, dtype=float)  # [nw,4] each row sums to 1.0
 
 
-def load_pooled():
+def load_pooled(window_trading_days: int = DEFAULT_WINDOW_TRADING_DAYS,
+                outcome_upper: float = OUTCOME_UPPER_DEFAULT,
+                outcome_lower: float = OUTCOME_LOWER_DEFAULT,
+                exit_on_open: bool = False):
     """Reuse the production loader; also pull the alternative quant variants from
     each quant payload so we can ablate the Fed / macro-numeric sub-components."""
     docs = []
     for issuer in ALL_ISSUERS:
         for outcome, doc in build_documents_for_issuer(
-            issuer, DEFAULT_WINDOW_TRADING_DAYS, OUTCOME_UPPER_DEFAULT, OUTCOME_LOWER_DEFAULT
+            issuer, window_trading_days, outcome_upper, outcome_lower, exit_on_open
         ):
             qpayload = quant_layer.get_quant_score(issuer, doc.document_id)
             qmetrics = (qpayload or {}).get("quant_metrics", {})
@@ -100,8 +104,10 @@ def build_layer_matrices(docs, quant_variant):
 
 
 def correctness_tensor(S, M, W, labels_idx):
-    """Return C [ncombo, ndoc] uint8 correctness and a combo index -> (weights, hu, hl) map.
-    Blend uses the same missing-layer redistribution as blend.blend_scores."""
+    """Return C [ncombo, ndoc] uint8 correctness, a combo index -> (weights, hu, hl)
+    map, and P [ncombo, ndoc] int8 predicted-label indices (for permutation-testing a
+    tuned model's chosen predictions). Blend uses the same missing-layer
+    redistribution as blend.blend_scores."""
     num = W @ S.T                      # [nw,ndoc]
     den = W @ M.T                      # [nw,ndoc]
     den = np.where(den == 0, np.nan, den)
@@ -110,6 +116,7 @@ def correctness_tensor(S, M, W, labels_idx):
 
     combos_meta = []
     C_blocks = []
+    P_blocks = []
     for hu in THRESH_UPPER:
         for hl in THRESH_LOWER:
             pred = np.full((nw, ndoc), LABEL_IDX["HOLD"], dtype=np.int8)
@@ -119,51 +126,101 @@ def correctness_tensor(S, M, W, labels_idx):
             # a doc with no usable weight (blended NaN) is scored wrong for that combo
             correct[np.isnan(blended)] = 0
             C_blocks.append(correct)
+            P_blocks.append(pred)
             for wi in range(nw):
                 combos_meta.append((wi, hu, hl))
     C = np.concatenate(C_blocks, axis=0)  # [ncombo, ndoc]
-    return C, combos_meta
+    P = np.concatenate(P_blocks, axis=0)  # [ncombo, ndoc]
+    return C, combos_meta, P
 
 
 def dist_from_default(w, hu, hl):
     return sum(abs(a - b) for a, b in zip(w, DEFAULT_WEIGHTS)) + abs(hu - DEFAULT_HOLD_UPPER) + abs(hl - DEFAULT_HOLD_LOWER)
 
 
-def evaluate_variant(docs, quant_variant, W):
+def onehot(labels_idx, n_classes=3):
+    L = np.zeros((len(labels_idx), n_classes))
+    L[np.arange(len(labels_idx)), labels_idx] = 1.0
+    return L
+
+
+def balanced_accuracy_from_correct(correct_vec, labels_idx, n_classes=3):
+    """Mean per-class recall. Classes with zero members in this slice are skipped
+    (relevant for LOOCV folds where removing one doc can empty a rare class)."""
+    correct = np.asarray(correct_vec)
+    labels = np.asarray(labels_idx)
+    totals = np.bincount(labels, minlength=n_classes).astype(float)
+    class_correct = np.array([correct[labels == c].sum() if totals[c] > 0 else 0.0 for c in range(n_classes)])
+    valid = totals > 0
+    return float((class_correct[valid] / totals[valid]).mean())
+
+
+def majority_balanced_accuracy(labels_idx, n_classes=3):
+    """Balanced accuracy of an always-predict-the-majority-class classifier - a fixed
+    1/n_classes floor regardless of label skew, unlike majority-class raw accuracy."""
+    labels = np.asarray(labels_idx)
+    totals = np.bincount(labels, minlength=n_classes).astype(float)
+    majority = int(totals.argmax())
+    correct = (labels == majority).astype(np.uint8)
+    return balanced_accuracy_from_correct(correct, labels, n_classes)
+
+
+def evaluate_variant(docs, quant_variant, W, metric="accuracy"):
     labels_idx = np.array([LABEL_IDX[d["label"]] for d in docs])
     S, M = build_layer_matrices(docs, quant_variant)
-    C, meta = correctness_tensor(S, M, W, labels_idx)     # [ncombo,ndoc]
+    C, meta, P = correctness_tensor(S, M, W, labels_idx)  # [ncombo,ndoc]
     ncombo, ndoc = C.shape
     per_combo_correct = C.sum(axis=1)                     # [ncombo]
 
+    L = onehot(labels_idx)                                 # [ndoc,3]
+    class_totals = L.sum(axis=0)                           # [3]
+    class_correct = C @ L                                  # [ncombo,3]
+    denom = np.where(class_totals == 0, np.nan, class_totals)
+    balanced_acc = np.nanmean(class_correct / denom, axis=1)   # [ncombo]
+
+    selection_score = balanced_acc if metric == "balanced_accuracy" else per_combo_correct
+
     # --- global best-fit (fit on all docs; tie-break toward the default config) ---
-    best_acc = per_combo_correct.max()
-    tied = np.where(per_combo_correct == best_acc)[0]
+    best_score = selection_score.max()
+    tied = np.where(selection_score == best_score)[0]
     best_ci = min(tied, key=lambda ci: dist_from_default(W[meta[ci][0]], meta[ci][1], meta[ci][2]))
     bw, bhu, bhl = W[meta[best_ci][0]], meta[best_ci][1], meta[best_ci][2]
     global_best = {
-        "accuracy": round(best_acc / ndoc, 4),
+        "accuracy": round(float(per_combo_correct[best_ci] / ndoc), 4),
+        "balanced_accuracy": round(float(balanced_acc[best_ci]), 4),
         "weights": [round(x, 4) for x in bw.tolist()],
         "hold_upper": bhu, "hold_lower": bhl,
         "n_tied": int(len(tied)),
     }
 
-    # --- LOOCV: for each held-out doc, best combo on the OTHER docs, tie-break to default ---
+    # --- LOOCV: for each held-out doc, best combo on the OTHER docs (by `metric`), tie-break to default ---
     default_ci = _default_combo_index(meta, W)
-    loocv_tuned_correct = 0
+    held_correct = np.zeros(ndoc, dtype=np.uint8)
+    loocv_tuned_pred = np.zeros(ndoc, dtype=np.int8)
     for i in range(ndoc):
-        loo_correct = per_combo_correct - C[:, i]        # correct count without doc i
-        m = loo_correct.max()
-        tied_i = np.where(loo_correct == m)[0]
+        if metric == "balanced_accuracy":
+            loo_class_correct = class_correct - np.outer(C[:, i], L[i])
+            loo_class_totals = class_totals - L[i]
+            loo_denom = np.where(loo_class_totals == 0, np.nan, loo_class_totals)
+            loo_score = np.nanmean(loo_class_correct / loo_denom, axis=1)
+        else:
+            loo_score = per_combo_correct - C[:, i]      # correct count without doc i
+        m = loo_score.max()
+        tied_i = np.where(loo_score == m)[0]
         ci = min(tied_i, key=lambda ci: dist_from_default(W[meta[ci][0]], meta[ci][1], meta[ci][2]))
-        loocv_tuned_correct += int(C[ci, i])
+        held_correct[i] = C[ci, i]
+        loocv_tuned_pred[i] = P[ci, i]
+    loocv_tuned_correct = int(held_correct.sum())
     loocv_default_correct = int(C[default_ci].sum())
 
     return {
         "global_best": global_best,
         "loocv_tuned_accuracy": round(loocv_tuned_correct / ndoc, 4),
+        "loocv_tuned_balanced_accuracy": round(balanced_accuracy_from_correct(held_correct, labels_idx), 4),
         "loocv_default_accuracy": round(loocv_default_correct / ndoc, 4),
+        "loocv_default_balanced_accuracy": round(balanced_accuracy_from_correct(C[default_ci], labels_idx), 4),
         "default_correct_vector": C[default_ci].tolist(),
+        "loocv_tuned_pred": loocv_tuned_pred.tolist(),
         "labels_idx": labels_idx.tolist(),
         "n": ndoc,
     }
@@ -217,19 +274,59 @@ def permutation_test(default_pred, labels, seed=RNG_SEED, perms=PERMUTATIONS):
     return round((ge + 1) / (perms + 1), 5)
 
 
+def permutation_test_balanced(default_pred, labels, seed=RNG_SEED, perms=PERMUTATIONS, n_classes=3):
+    """Same idea as permutation_test but on balanced accuracy: hold predictions FIXED,
+    shuffle true labels, recompute balanced accuracy each time (grouping by the
+    shuffled label, since that's the reshuffled 'true' class for that draw)."""
+    rng = np.random.default_rng(seed)
+    obs_correct = (default_pred == labels).astype(np.uint8)
+    obs = balanced_accuracy_from_correct(obs_correct, labels, n_classes)
+    ge = 0
+    for _ in range(perms):
+        shuffled = rng.permutation(labels)
+        shuffled_correct = (default_pred == shuffled).astype(np.uint8)
+        ge += int(balanced_accuracy_from_correct(shuffled_correct, shuffled, n_classes) >= obs)
+    return round((ge + 1) / (perms + 1), 5)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--window-trading-days", type=int, default=DEFAULT_WINDOW_TRADING_DAYS,
+                         help="Outcome window in trading days (ground-truth forward-return horizon). "
+                              "Default 5 (production). Use 1 for next-day close-to-close.")
+    parser.add_argument("--outcome-upper", type=float, default=OUTCOME_UPPER_DEFAULT)
+    parser.add_argument("--outcome-lower", type=float, default=OUTCOME_LOWER_DEFAULT)
+    parser.add_argument("--exit-on-open", action="store_true",
+                         help="Score against the close-to-OPEN overnight gap (next-day Open vs report-date "
+                              "Close) instead of close-to-close. With --window-trading-days 1 and "
+                              "--outcome-upper/-lower 0.02 this is the group Google Sheet's exact ground "
+                              "truth (Actual Direction bucketed at Settings!B3=2%).")
+    parser.add_argument("--optimize-metric", choices=["accuracy", "balanced_accuracy"], default="accuracy",
+                         help="Selection objective for global-best and LOOCV combo search. Default 'accuracy' "
+                              "(production/committed 5-day behavior). Use 'balanced_accuracy' (mean per-class "
+                              "recall) when the label distribution is skewed (e.g. short outcome windows), since "
+                              "raw accuracy's majority-class baseline moves with the skew while balanced "
+                              "accuracy's floor is a fixed 1/n_classes.")
+    return parser.parse_args()
+
+
 def main() -> int:
-    print("Loading pooled documents...")
-    docs = load_pooled()
+    args = parse_args()
+    print(f"Loading pooled documents (window_trading_days={args.window_trading_days}, "
+          f"exit_on_open={args.exit_on_open})...")
+    docs = load_pooled(args.window_trading_days, args.outcome_upper, args.outcome_lower, args.exit_on_open)
     W = weight_grid(WEIGHT_STEP)
     ncombo = W.shape[0] * len(THRESH_UPPER) * len(THRESH_LOWER)
     print(f"N={len(docs)} docs | weight grid={W.shape[0]} x thresholds={len(THRESH_UPPER)*len(THRESH_LOWER)} = {ncombo} combos/variant")
 
     variants = {}
     for v in QUANT_VARIANTS:
-        variants[v] = evaluate_variant(docs, v, W)
+        variants[v] = evaluate_variant(docs, v, W, metric=args.optimize_metric)
         gb = variants[v]["global_best"]
-        print(f"  [{v}] global_best acc={gb['accuracy']} w={gb['weights']} thr=({gb['hold_upper']},{gb['hold_lower']}) "
-              f"| LOOCV tuned={variants[v]['loocv_tuned_accuracy']} default={variants[v]['loocv_default_accuracy']}")
+        print(f"  [{v}] global_best acc={gb['accuracy']} bal_acc={gb['balanced_accuracy']} w={gb['weights']} "
+              f"thr=({gb['hold_upper']},{gb['hold_lower']}) | LOOCV tuned acc={variants[v]['loocv_tuned_accuracy']} "
+              f"bal_acc={variants[v]['loocv_tuned_balanced_accuracy']} | default acc={variants[v]['loocv_default_accuracy']} "
+              f"bal_acc={variants[v]['loocv_default_balanced_accuracy']}")
 
     # significance on the primary (headline quant) default model
     primary = variants["quant_score"]
@@ -244,13 +341,51 @@ def main() -> int:
           f"| binomial p={sig['binomial_p_vs_majority']} | permutation p={sig['permutation_p_vs_shuffled_labels']}")
     print(f"VERDICT: {sig['verdict']}")
 
+    majority_bal_baseline = majority_balanced_accuracy(labels_idx)
+    default_correct = np.array(primary["default_correct_vector"], dtype=np.uint8)
+    # LOOCV-tuned-for-balanced-accuracy predictions (the skew-aware model): each doc's
+    # prediction comes from a config fit on the OTHER docs, so holding these fixed and
+    # shuffling labels is a valid (slightly conservative) permutation null.
+    loocv_tuned_pred = np.array(primary["loocv_tuned_pred"], dtype=np.int8)
+    bal_sig = {
+        "default_balanced_accuracy": round(balanced_accuracy_from_correct(default_correct, labels_idx), 4),
+        "default_permutation_p_balanced": permutation_test_balanced(default_pred, labels_idx),
+        "loocv_tuned_balanced_accuracy": primary["loocv_tuned_balanced_accuracy"],
+        "loocv_tuned_permutation_p_balanced": permutation_test_balanced(loocv_tuned_pred, labels_idx),
+        "majority_balanced_accuracy_baseline": round(majority_bal_baseline, 4),
+        "optimize_metric": args.optimize_metric,
+    }
+    # Headline = the model actually selected by --optimize-metric. When optimizing for
+    # balanced accuracy this is the LOOCV-tuned skew-aware model; otherwise the default.
+    if args.optimize_metric == "balanced_accuracy":
+        head_ba = bal_sig["loocv_tuned_balanced_accuracy"]; head_p = bal_sig["loocv_tuned_permutation_p_balanced"]
+        head_name = "LOOCV-tuned skew-aware"
+    else:
+        head_ba = bal_sig["default_balanced_accuracy"]; head_p = bal_sig["default_permutation_p_balanced"]
+        head_name = "default"
+    bal_verdict_pass = head_ba > majority_bal_baseline and head_p < 0.05
+    bal_sig["verdict"] = (
+        f"{head_name} balanced_accuracy {head_ba} vs majority-only floor "
+        f"{round(majority_bal_baseline, 4)} - "
+        f"{'BEATS' if bal_verdict_pass else 'does NOT beat'} the skew-proof baseline "
+        f"(permutation p={head_p}) at N={len(labels_idx)}"
+    )
+    print(f"\nBalanced-accuracy significance: {bal_sig['verdict']}")
+
     out = {
         "n_documents": len(docs),
+        "window_trading_days": args.window_trading_days,
+        "exit_on_open": args.exit_on_open,
+        "outcome_thresholds": {"outcome_upper": args.outcome_upper, "outcome_lower": args.outcome_lower},
+        "optimize_metric": args.optimize_metric,
         "weight_step": WEIGHT_STEP,
         "threshold_grid": {"upper": THRESH_UPPER, "lower": THRESH_LOWER, "asymmetric": True},
         "combos_per_variant": ncombo,
         "default_config": {"weights": list(DEFAULT_WEIGHTS), "hold_upper": DEFAULT_HOLD_UPPER, "hold_lower": DEFAULT_HOLD_LOWER},
-        "variants": {v: {k: r[k] for k in ("global_best", "loocv_tuned_accuracy", "loocv_default_accuracy", "n")}
+        "majority_balanced_accuracy_baseline": round(majority_bal_baseline, 4),
+        "variants": {v: {k: r[k] for k in (
+                "global_best", "loocv_tuned_accuracy", "loocv_tuned_balanced_accuracy",
+                "loocv_default_accuracy", "loocv_default_balanced_accuracy", "n")}
                      for v, r in variants.items()},
         "fed_ablation_note": (
             "Compare quant_score (plain) vs quant_score_with_fred / _with_macro / _with_macro_fred. "
@@ -258,10 +393,14 @@ def main() -> int:
             "do not earn weight - a stable negative, consistent with macro/news at earlier N."
         ),
         "significance": sig,
+        "significance_balanced": bal_sig,
     }
     summary_dir = OUTPUTS_DIR / "global" / "summary"
     summary_dir.mkdir(parents=True, exist_ok=True)
-    path = summary_dir / "weight_threshold_sweep.json"
+    suffix = "" if args.window_trading_days == DEFAULT_WINDOW_TRADING_DAYS else f"_window{args.window_trading_days}"
+    suffix += "_gap" if args.exit_on_open else ""
+    suffix += "" if args.optimize_metric == "accuracy" else "_bal"
+    path = summary_dir / f"weight_threshold_sweep{suffix}.json"
     path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\nWrote {path}")
     return 0

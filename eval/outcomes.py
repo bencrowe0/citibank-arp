@@ -18,6 +18,14 @@ confused:
 Entry price is the next trading-day CLOSE on/after report_date (conservative:
 avoids assuming same-day intraday reaction is fully captured, since some
 reports release after market close).
+
+Overnight-gap mode (exit_on_open=True): exit price is the OPEN of the
+window_trading_days-th session after entry, instead of its Close. With
+window_trading_days=1 this is the group Google Sheet's ground-truth convention -
+(next_day_open - report_date_close) / report_date_close - i.e. the close-to-open
+overnight gap the sheet's Actual-Direction formula buckets against Settings!B3.
+It matches export_sheet_rows.fetch_prices (prior_close=Close iloc[0],
+next_day_open=Open iloc[1]) exactly, so eval and the pasted sheet rows agree.
 """
 
 from __future__ import annotations
@@ -68,6 +76,7 @@ def fetch_forward_return(
     window_trading_days: int = DEFAULT_WINDOW_TRADING_DAYS,
     outcome_upper: float = OUTCOME_UPPER_DEFAULT,
     outcome_lower: float = OUTCOME_LOWER_DEFAULT,
+    exit_on_open: bool = False,
 ) -> ForwardReturn | None:
     report_dt = datetime.strptime(report_date, "%Y-%m-%d")
     # Pull a wide-enough window to guarantee window_trading_days of trading
@@ -82,7 +91,9 @@ def fetch_forward_return(
     entry_row = history.iloc[0]
     exit_row = history.iloc[window_trading_days]
     entry_price = float(entry_row["Close"])
-    exit_price = float(exit_row["Close"])
+    # exit_on_open: use the session's OPEN (close-to-open overnight gap, the group
+    # sheet's convention); otherwise its CLOSE (default close-to-close forward return).
+    exit_price = float(exit_row["Open"] if exit_on_open else exit_row["Close"])
     forward_return = (exit_price - entry_price) / entry_price
 
     return ForwardReturn(
@@ -105,6 +116,7 @@ def collect_outcomes_for_issuer(
     window_trading_days: int = DEFAULT_WINDOW_TRADING_DAYS,
     outcome_upper: float = OUTCOME_UPPER_DEFAULT,
     outcome_lower: float = OUTCOME_LOWER_DEFAULT,
+    exit_on_open: bool = False,
 ) -> list[ForwardReturn]:
     outcomes: list[ForwardReturn] = []
     for result_path in sorted(results_dir.glob("*.json")):
@@ -118,7 +130,7 @@ def collect_outcomes_for_issuer(
             continue
 
         outcome = fetch_forward_return(
-            document_id, ticker, report_date, window_trading_days, outcome_upper, outcome_lower
+            document_id, ticker, report_date, window_trading_days, outcome_upper, outcome_lower, exit_on_open
         )
         if outcome is None:
             print(f"  Skipping {document_id}: no price data available for {ticker} around {report_date}")
