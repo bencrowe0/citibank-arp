@@ -201,14 +201,23 @@ def load_sheet_predictions(path: Path):
                 q = parts[1].replace("FQ", "Q"); yr = parts[2]
                 date_lookup[(r["ticker"].upper(), yr, q)] = r["report_date"]
 
+    def _norm(s: str) -> str:
+        # header matching is whitespace/case-insensitive: the live group sheet's
+        # real headers ("PriorClose ($)", "Next DayOpen ($)", "Decision(BUY/HOLD/SELL)",
+        # "Type(Human/LLM)") don't space consistently around words/parens, so exact
+        # phrase matching silently dropped prior_close/next_day_open/decision on a
+        # real export - match by squashing all whitespace instead.
+        return "".join(s.lower().split())
+
     with open(path, encoding="utf-8-sig") as fh:
         reader = csv.DictReader(fh, delimiter=delim)
-        cols = {c.lower().strip(): c for c in reader.fieldnames or []}
+        cols = {_norm(c): c for c in reader.fieldnames or []}
 
         def get(row, *names):
             for n in names:
-                if n in cols:
-                    return row[cols[n]]
+                key = _norm(n)
+                if key in cols:
+                    return row[cols[key]]
             return None
 
         for row in reader:
@@ -217,25 +226,38 @@ def load_sheet_predictions(path: Path):
                 continue
             ticker = (get(row, "ticker") or "").upper()
             year = get(row, "year"); quarter = get(row, "quarter")
+            prior_close = _num(get(row, "prior close ($)", "prior close", "prior_close"))
+            next_day_open = _num(get(row, "next day open ($)", "next day open", "next_day_open"))
             rdate = get(row, "report date", "report_date")
             if not rdate and ticker and year and quarter:
                 rdate = date_lookup.get((ticker, str(year), str(quarter)))
+            if not rdate and year and quarter and prior_close is not None and next_day_open is not None:
+                # ticker outside the LLM's 6-issuer/131-quarter calibration set (e.g. a
+                # human rater's Nvidia/Amazon/McDonald's calls) - no real report_date to
+                # look up, but the row already carries its own prices, so a sortable
+                # "YYYY-QN" stand-in is enough for total return/hit rate (equity-curve
+                # ordering is the only thing that loses precision here).
+                rdate = f"{year}-{quarter}"
             if not rdate:
                 continue
             yield Prediction(
                 rater=(get(row, "rater") or "Unknown").strip(),
-                kind=(get(row, "type (human/lm)", "type") or "Human").strip(),
+                kind=(get(row, "type (human/lm)", "type (human/llm)", "type") or "Human").strip(),
                 ticker=ticker, report_date=rdate, decision=decision,
-                prior_close=_num(get(row, "prior close ($)", "prior close", "prior_close")),
-                next_day_open=_num(get(row, "next day open ($)", "next day open", "next_day_open")),
+                prior_close=prior_close, next_day_open=next_day_open,
             )
 
 
 def by_rater(preds):
+    # group case-insensitively (e.g. "ABDUL" vs "Abdul") - matches how the group
+    # sheet's own COUNTIF-based Summary dashboard already merges rater names.
     groups: dict[str, list] = {}
+    canonical: dict[str, str] = {}
     for p in preds:
-        groups.setdefault(p.rater, []).append(p)
-    return groups
+        key = p.rater.strip().lower()
+        canonical.setdefault(key, p.rater.strip())
+        groups.setdefault(key, []).append(p)
+    return {canonical[k]: v for k, v in groups.items()}
 
 
 # --------------------------------------------------------------------------- #
