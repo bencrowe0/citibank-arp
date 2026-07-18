@@ -55,6 +55,25 @@ Run the 4 Netflix reports for real:
 C:\Users\bencr\OneDrive\Personal\Computing\Business Analytics\Citibank APR\.venv\Scripts\python.exe run_reports.py --issuer netflix
 ```
 
+## Backtest (P&L evaluation)
+
+Evaluates any predictor's calls as an overnight-gap trading strategy (BUY -> long into
+the report-date close, exit next open; SELL -> short; HOLD -> no trade), net of
+transaction costs. This is the money-based scorecard that complements raw 3-class
+accuracy - see CLAUDE.md "Round 8" for why accuracy alone understates a trading signal.
+
+```powershell
+python backtest.py                       # LLM signal, overnight-gap trades, net of 10 bps round-trip
+python backtest.py --sensitivity         # + total return across several cost levels
+python backtest.py --sheet export.csv     # add every HUMAN rater from a group-sheet CSV/TSV export
+python backtest.py --cost-bps 20 --short-borrow-bps 5   # custom cost assumptions
+```
+
+`--sheet` takes any CSV/TSV in the group-sheet schema (columns `Ticker, Year, Quarter,
+Rater, Type (Human/LM), Decision (BUY/HOLD/SELL), Prior Close ($), Next Day Open ($)`),
+so each human rater is scored on the identical strategy and joins the comparison. Writes
+the per-trade equity curve to `outputs/global/summary/backtest_equity.csv`.
+
 ## Notes
 
 - `.env` should contain `DEEPSEEK_API_KEY=...`
