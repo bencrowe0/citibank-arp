@@ -1,0 +1,53 @@
+{
+  "issuer": "p2_disney",
+  "reports": [
+    {
+      "document_id": "DIS_FQ1_2025",
+      "issuer": "p2_disney",
+      "company": "Disney",
+      "ticker": "DIS",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-07",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/disney/phase2/CY2025-Q1/q1-fy25-earnings-transcriptpdf.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "DIS_FQ3_2025",
+      "issuer": "p2_disney",
+      "company": "Disney",
+      "ticker": "DIS",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-13",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/disney/phase2/CY2025-Q3/q3-fy25-earnings-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "DIS_FQ4_2025",
+      "issuer": "p2_disney",
+      "company": "Disney",
+      "ticker": "DIS",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-02",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/disney/phase2/CY2025-Q4/q4-fy25-earnings-transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

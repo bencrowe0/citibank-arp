@@ -1,0 +1,167 @@
+{
+  "document_id": "TGT_FQ3_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: full-year adjusted EPS range was narrowed and moved to the bottom half of the prior range, from a prior range of $7.00-$8.00 (implied midpoint $7.50) to the same range but 'bottom half' (implied midpoint ~$7.25). Management explicitly cited 'continued softness on the top line, volatility in weekly and monthly trends, and uncertainty in external environment' and noted consumer sentiment is at a three-year low. The tone is cautious and defensive, with repeated admissions of being 'not satisfied' and 'far from satisfied.' This constitutes a guidance reduction, warranting a score of -0.50."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 net sales were 1.5% lower than a year ago. Comparable sales were down 2.7%.",
+    "eps": "Q3 GAAP EPS of $1.51 compared with $1.85 a year ago. Adjusted EPS was $1.78, about 4% lower than a year ago.",
+    "guidance": "Full-year adjusted EPS range narrowed to $7 to $8, moved to the bottom half of the prior range. Q4 comparable sales expected to decline low-single digits, in line with year-to-date performance.",
+    "margin": "Q3 gross margin rate of 28.2% was about 10 basis points lower than last year. SG&A expense rate of 21.9% was about 60 basis points higher than a year ago, but excluding one-time transformation costs, it was approximately flat.",
+    "key_risks": [
+      "Continued softness in discretionary categories like Home and Apparel.",
+      "Volatility in weekly and monthly sales trends.",
+      "Consumer sentiment at a three-year low amid concerns about jobs, affordability, and tariffs.",
+      "Unusually warm weather in September hampered Apparel sales.",
+      "Higher markdowns pressuring gross margin by about 1 percentage point.",
+      "Uncertainty in the external environment, including tariffs."
+    ],
+    "key_opportunities": [
+      "Strong performance in Fun 101, with toys comp nearly 10% and double-digit growth in music, video games, and sporting equipment.",
+      "More than 35% growth in same-day delivery powered by Target Circle 360.",
+      "Nearly 50% growth in GMV of Target Plus marketplace and mid-teens growth in Roundel ad sales.",
+      "Meaningful progress in on-shelf availability of top 5,000 items, with a 150-basis-point improvement.",
+      "Planned $5 billion CapEx for 2026, up $1 billion, to invest in new stores, remodels, and technology.",
+      "Introduction of 20,000 new items for holiday, twice as many as last year, with over half exclusive to Target."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly stated they are 'not satisfied' with current results and used cautious language such as 'we're far from satisfied,' 'we have much more room to improve,' and 'we'll continue to exercise caution in our repurchase program in the face of continued uncertainty.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 net sales were 1.5% lower than a year ago.",
+      "quote": "Third-quarter net sales were 1.5% lower than a year ago, slightly better than our year-to-date performance, but about 60 basis points softer than in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales were down 2.7%.",
+      "quote": "Q3 comp sales were down 2.7%, reflecting continued softness in discretionary categories like Home and Apparel, partially offset by growth in Food & Beverage and Fun 101.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 GAAP EPS of $1.51 compared with $1.85 a year ago.",
+      "quote": "On the bottom line, our business delivered third-quarter GAAP EPS of $1.51 compared with $1.85 a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $1.78, about 4% lower than a year ago.",
+      "quote": "Adjusted EPS, which excluded business transformation costs, was $1.78 in the third quarter, about 4% lower than a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS range narrowed to $7 to $8, moved to the bottom half of the prior range.",
+      "quote": "On the adjusted EPS line, our updated range is from $7 to $8 for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 comparable sales expected to decline low-single digits.",
+      "quote": "On the top line for the fourth quarter, we're continuing to expect a low-single-digit decline in our comparable sales, in line with our year-to-date performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 gross margin rate of 28.2% was about 10 basis points lower than last year.",
+      "quote": "On the gross margin line, our Q3 rate of 28.2% was about 10 basis points lower than last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SG&A expense rate of 21.9% was about 60 basis points higher than a year ago, but excluding one-time transformation costs, it was approximately flat.",
+      "quote": "Our SG&A expense rate of 21.9% was about 60 basis points higher than a year ago. However, this rate reflected about 60 basis points of impact from one-time business transformation costs. Excluding these costs, our third-quarter SG&A expense rate was approximately flat to last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "We're far from satisfied with our current results, and we won't be satisfied until we're operating at our full potential.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance was reduced.",
+      "quote": "We've narrowed our full-year EPS ranges and moved our adjusted EPS range to the bottom half of the prior range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer sentiment is at a three-year low.",
+      "quote": "Sentiment is at a three-year low amid concerns about jobs, affordability, and tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited continued softness and volatility.",
+      "quote": "Our financial results in Q3 were in line with our expectations, as our team continues to focus on what we can control and manage the business with discipline, despite continued softness on the top line, volatility in weekly and monthly trends, and uncertainty in external environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance reduction is explicit but the magnitude of the reduction (narrowed to bottom half of prior range) is modest; a score of -0.50 may be slightly aggressive. Reviewer should confirm the prior range midpoint and the new implied midpoint to ensure the reduction is material enough for -0.50."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2025-11-19",
+  "report_metadata": {
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-19",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q3\\TGT-Transcript-2025-11-19-2.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TGT_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214935Z",
+    "timestamp": "2026-07-18T21:50:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q3\\TGT-Transcript-2025-11-19-2.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q3\\TGT-Transcript-2025-11-19-2.pdf",
+        "page_count": 18,
+        "extracted_characters": 71504,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ3_2025.txt"
+  }
+}

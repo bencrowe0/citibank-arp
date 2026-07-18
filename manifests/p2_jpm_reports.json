@@ -1,0 +1,69 @@
+{
+  "issuer": "p2_jpm",
+  "reports": [
+    {
+      "document_id": "JPM_FQ1_2025",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-11",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2025-Q1/1q25-earnings-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JPM_FQ2_2025",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-15",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2025-Q2/jpm-2q25-earnings-call-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JPM_FQ3_2025",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-14",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2025-Q3/jpm-3q25-earnings-call-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JPM_FQ4_2025",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-13",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2025-Q4/jpm-4q25-earnings-call-transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "document_id": "META_FQ1_2026",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance on capex was raised again, which the document notes is 'the exact move the market has been punishing.' Revenue guidance for Q2 2026 is $58B to $61B, but the document does not state whether this is a raise or hold relative to prior guidance. The raised capex and multiyear infrastructure commitments ($107B increase in the quarter) represent a structural spending increase that has historically been punished, and the document explicitly flags legal/regulatory headwinds and higher component costs as risks. The tax benefit flatters EPS but is a one-time item. The overall forward outlook is negative due to the spending trajectory and risk disclosures."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$56.3B, up 33% year over year. Family of Apps ad revenue $55.0B, up 33%. Reality Labs $402M, down 2%.",
+    "eps": "$10.44 EPS including an $8.03B tax benefit. Excluding it, $7.31 EPS.",
+    "guidance": "Q2 2026 revenue guided to $58B to $61B. 2026 capex raised to $125B to $145B from $120B to $135B. Expenses unchanged at $162B to $169B. Multiyear infrastructure commitments grew by $107B in the quarter alone.",
+    "margin": "Operating margin 41%.",
+    "key_risks": [
+      "Legal and regulatory headwinds in the EU and US could significantly impact results.",
+      "Higher component costs, especially memory, are driving the capex increases.",
+      "A sequential dip in daily active people from Iran internet disruptions and Russia WhatsApp restrictions."
+    ],
+    "key_opportunities": [
+      "Revenue up 33% year over year, indicating strong ad demand.",
+      "We are already training even more advanced models – AI ambition as a growth driver."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in AI investment ('We have continued to underestimate our compute needs even as we have been ramping') but also acknowledges headwinds and raised capex, which the document notes has been punished by the market."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $56.3B, up 33% year over year.",
+      "quote": "Revenue $56.3B, up 33% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $10.44 including an $8.03B tax benefit; excluding it, $7.31.",
+      "quote": "Net income $26.8B ($10.44 EPS) including an $8.03B tax benefit. Excluding it, $18.7B ($7.31 EPS).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 revenue guidance is $58B to $61B.",
+      "quote": "Q2 2026 revenue guided to $58B to $61B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 capex raised to $125B to $145B from $120B to $135B.",
+      "quote": "2026 capex raised again, to $125B to $145B from $120B to $135B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Multiyear infrastructure commitments grew by $107B in the quarter alone.",
+      "quote": "Multiyear infrastructure commitments grew by $107B in the quarter alone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin is 41%.",
+      "quote": "Operating margin 41%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Legal and regulatory headwinds in the EU and US could significantly impact results.",
+      "quote": "Legal and regulatory headwinds in the EU and US could significantly impact results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher component costs, especially memory, are driving the capex increases.",
+      "quote": "Higher component costs, especially memory, are driving the capex increases.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A sequential dip in daily active people from Iran internet disruptions and Russia WhatsApp restrictions.",
+      "quote": "A sequential dip in daily active people from Iran internet disruptions and Russia WhatsApp restrictions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with confident AI language but acknowledged headwinds.",
+      "quote": "We have continued to underestimate our compute needs even as we have been ramping – Li, Q&A (capex).",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The raised capex is the exact move the market has been punishing.",
+      "quote": "Raised again, the exact move the market has been punishing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The tax benefit flatters EPS and is worth stripping out.",
+      "quote": "The tax benefit flatters EPS and is worth stripping out.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Family of Apps ad revenue was $55.0B, up 33%.",
+      "quote": "Family of Apps ad revenue $55.0B, up 33%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reality Labs revenue was $402M, down 2%.",
+      "quote": "Reality Labs $402M, down 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expenses unchanged at $162B to $169B.",
+      "quote": "Expenses unchanged at $162B to $169B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The document does not explicitly state whether Q2 revenue guidance is a raise or hold relative to prior guidance. The sentiment score assumes the capex raise is negative, but the revenue guidance could be positive. A human reviewer should verify the prior guidance baseline."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document does not state whether Q2 revenue guidance is a raise or hold relative to prior guidance. The summary reports the figures as stated but cannot confirm the direction of change."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "META_Bundled Earnings Report_2026-04-29",
+  "report_metadata": {
+    "issuer": "p2_meta",
+    "company": "Meta",
+    "ticker": "META",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2026-Q1\\13 meta q1 2026 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "META_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T214541Z",
+    "timestamp": "2026-07-18T21:46:22Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2026-Q1\\13 meta q1 2026 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2026-Q1\\13 meta q1 2026 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6116,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ1_2026.txt"
+  }
+}

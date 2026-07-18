@@ -1,0 +1,197 @@
+{
+  "document_id": "JPM_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance for NII ex. Markets was held at $90 billion, but management explicitly noted that lower expected front-end rates are a headwind, and the unchanged number is only due to offsets like removing the Card late fee rule placeholder. The full-year Card net charge-off rate guidance of ~3.6% was reaffirmed, but Jamie Dimon stated 'We should have not given you that forecast. We don't know what the number is going to be,' indicating deep uncertainty. Management adopted a cautious stance on the Investment Banking outlook, citing that conversion of the pipeline requires a reduction in current uncertainty. The overall tone is cautious and defensive, with significant risks highlighted."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$46 billion, up $3.5 billion or 8% year-on-year.",
+    "eps": "$5.07.",
+    "guidance": "NII ex. Markets expected to be approximately $90 billion (unchanged). Firmwide NII outlook increased to about $94.5 billion, reflecting an increase in Markets NII. Adjusted expense outlook continues to be about $95 billion. Card net charge-off rate expected to be approximately 3.6% (unchanged).",
+    "margin": "ROTCE of 21%.",
+    "key_risks": [
+      "Elevated uncertainty and significantly elevated risks due to tariff policy and geopolitical situation.",
+      "Potential recession: Michael Feroli sees about 50-50 chance of recession.",
+      "Lower expected front-end rates are a headwind for NII ex. Markets.",
+      "Cautious stance on Investment Banking outlook; conversion of pipeline requires reduction in uncertainty.",
+      "Credit costs could rise if economy worsens; Jamie Dimon noted credit losses will go up in a recession.",
+      "Structural issues in regulatory framework (SLR, G-SIFI, CCAR, Basel III, LCR) could constrain market intermediation.",
+      "Potential for clients to take a wait-and-see attitude, affecting M&A, hiring, and investment."
+    ],
+    "key_opportunities": [
+      "Record performance in Equities and strong Markets revenue (up 21% year-on-year) benefiting from elevated volatility.",
+      "Strong net inflows in Asset & Wealth Management ($54 billion long-term, $36 billion liquidity).",
+      "Potential regulatory reform could free up capital and liquidity for lending and reduce costs.",
+      "Consumer spending frontloading ahead of expected tariff-driven price increases is supportive in the near term.",
+      "Banking system positioned as a source of strength to support clients through turbulence."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasized 'unusually uncertain' conditions, adopted a 'cautious stance on the Investment Banking outlook,' and Jamie Dimon stated 'We don't know what the number is going to be' regarding the Card charge-off forecast."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $46 billion, up 8% year-on-year.",
+      "quote": "The Firm reported revenue of $46 billion, up $3.5 billion, or 8% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $5.07.",
+      "quote": "the Firm reported net income of $14.6 billion, EPS of $5.07 on revenue of $46 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex. Markets guidance held at approximately $90 billion.",
+      "quote": "We continue to expect NII ex. Markets to be approximately $90 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Firmwide NII outlook increased to about $94.5 billion.",
+      "quote": "The Firmwide NII outlook has increased to about $94.5 billion, reflecting an increase in Markets NII, which you should think of as being primarily offset in NIR.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted expense outlook continues to be about $95 billion.",
+      "quote": "Our adjusted expense outlook continues to be about $95 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card net charge-off rate guidance of approximately 3.6% was reaffirmed.",
+      "quote": "on credit, we expect the Card net charge-off rate to be in line with our previous guidance of approximately 3.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Jamie Dimon expressed uncertainty about the Card charge-off forecast.",
+      "quote": "We should have not given you that forecast. We don't know what the number is going to be.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management adopted a cautious stance on the Investment Banking outlook.",
+      "quote": "In light of market conditions, we are adopting a cautious stance on the Investment Banking outlook. While client engagement and dialog is quite elevated, both the conversion of the existing pipeline and origination of new activity will require a reduction in the current levels of uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE was 21%.",
+      "quote": "with an ROTCE of 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower expected front-end rates are a headwind for NII ex. Markets.",
+      "quote": "the drop in the weighted-average IORB, which is about 22 basis points, should produce a notable headwind in our NII ex. Markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Michael Feroli sees about 50-50 chance of recession.",
+      "quote": "I called him this morning, specifically to ask him, how they're looking at their forecast today, they think it's about 50-50 for a recession.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record performance in Equities and Markets revenue up 21% year-on-year.",
+      "quote": "Markets revenue was up $1.7 billion, or 21%. ... reflecting record performance in Equities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong net inflows in Asset & Wealth Management.",
+      "quote": "Long-term net inflows were $54 billion for the quarter, primarily driven by Equity and Fixed Income. In liquidity, we saw net inflows of $36 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential regulatory reform could free up capital and liquidity.",
+      "quote": "If you do all – you have to fix LCR, G-SIFI, CCAR, SLR, and I think would free up hundreds of billions of dollars for JPMorgan annually of various types of lending to the system.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer spending frontloading ahead of tariffs is supportive near term.",
+      "quote": "the main thing that we see there, what would appear to be a certain amount of frontloading of spending ahead of people expecting price increases from tariffs. So ironically, that's actually somewhat supportive, all else equal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Banking system positioned as a source of strength.",
+      "quote": "we believe the banking system will be a source of strength in this dynamic environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "the focus right now is on the future, which is obviously unusually uncertain.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is driven by cautious forward guidance and explicit uncertainty, but the strong Markets performance and record Equities revenue could be seen as a positive offset. A reviewer may consider whether the negative weight is too high given the strong current quarter results."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-04-11",
+  "report_metadata": {
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-11",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q1\\1q25-earnings-transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JPM_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213513Z",
+    "timestamp": "2026-07-18T21:35:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q1\\1q25-earnings-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q1\\1q25-earnings-transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 96629,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ1_2025.txt"
+  }
+}

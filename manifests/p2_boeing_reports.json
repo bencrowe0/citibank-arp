@@ -1,0 +1,69 @@
+{
+  "issuer": "p2_boeing",
+  "reports": [
+    {
+      "document_id": "BA_FQ1_2025",
+      "issuer": "p2_boeing",
+      "company": "Boeing",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-23",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q1/1Q25-Presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q1/1Q25-Press-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q1/Transcript-Q1-2025-Earnings-Call.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BA_FQ2_2025",
+      "issuer": "p2_boeing",
+      "company": "Boeing",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q2/2Q25-Presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q2/2Q25-Press-Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BA_FQ3_2025",
+      "issuer": "p2_boeing",
+      "company": "Boeing",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q3/3Q25-Presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q3/3Q25-Press-Release.pdf"
+        }
+      ]
+    }
+  ]
+}

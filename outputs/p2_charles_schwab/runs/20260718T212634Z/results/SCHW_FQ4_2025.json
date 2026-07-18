@@ -1,0 +1,217 @@
+{
+  "document_id": "SCHW_FQ4_2025",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Management provided explicit 2026 guidance implying upper-teen EPS growth ($5.70-$5.80 vs. $4.87 in 2025), representing a meaningful raise from the prior year's results. The guidance is based on organic momentum (5% organic asset growth, 9.5%-10.5% revenue growth) and is not attributed to one-time items or FX. The tone is confident, with no structural risks disclosed that would offset the forward improvement."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total net revenues reached a record $23.9 billion for the year, up 22% from 2024. Fourth-quarter total revenue was $6.3 billion, up 19% year over year.",
+    "eps": "Adjusted earnings per share hit a record $4.87, increasing 50% year over year and exceeding the upper end of previously updated guidance ranges.",
+    "guidance": "2026 scenario: total revenue growth of 9.5%-10.5%, full-year organic asset growth around 5%, net interest margin between 2.85%-2.95%, expense growth 5.5%-6.5%, and adjusted EPS of $5.70-$5.80 (upper-teen percentage earnings growth).",
+    "margin": "Adjusted pretax profit margin reached just over 52% in the fourth quarter and 50% for the full year, representing an expansion of nearly 800 basis points. 2026 scenario implies further pretax margin expansion into the low 50s.",
+    "key_risks": [
+      "Scenario assumes 225 basis points in Fed funds rate cuts and 6.5% equity market returns; actual rates or market conditions may differ.",
+      "2026 scenario allows for a slight pullback in trading volumes to roughly 7.4 million daily average trades from record 2025 levels.",
+      "Capital return levels may vary over time, though expected to remain a meaningful part of the growth story."
+    ],
+    "key_opportunities": [
+      "Managed investing net flows grew 36% to nearly $70 billion, nearly quadrupling since 2022, with low penetration (5% of retail households) and high client satisfaction.",
+      "Bank lending balances reached an all-time high of $58 billion, up 28% year over year, with PAL originations growing 85% and low penetration (9% of ultra-high net worth retail, 23% of RIA clients).",
+      "Alternatives platform expansion via Forge acquisition and Qapita investment targets higher net worth clients; less than 40% of RIA clients currently allocated to alternatives.",
+      "Spot Bitcoin and Ethereum trading planned for launch within the year; Schwab clients hold roughly 20% share of spot crypto ETPs.",
+      "AI adoption (over 220 use cases) contributing to 20% reduction in cost per account over five years and EOCA decline from 15 bps to 11 bps."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described 2025 as 'a record year for Schwab' and stated 'we are entering 2026 in a leading competitive position and our momentum is strong,' with explicit guidance for continued earnings growth."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total net revenues reached a record $23.9 billion for the year, up 22% from 2024.",
+      "quote": "Total net revenues reached a new record high of $23.9 billion, and we delivered record adjusted earnings of $4.87, up 50% over last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS hit a record $4.87, increasing 50% year over year and exceeding the upper end of previously updated guidance ranges.",
+      "quote": "Adjusted earnings per share reaching a record $4.87, representing year-over-year earnings growth of 50% and putting earnings above the upper end of the updated scenario range we shared during the fall business update in October.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance implies upper-teen EPS growth to $5.70-$5.80.",
+      "quote": "This full year scenario implies potential adjusted earnings of around the $5.70 to $5.80 range, which would represent year-over-year earnings growth in the upper teens.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario includes total revenue growth of 9.5%-10.5%.",
+      "quote": "Under this scenario, we would expect total revenue growth of 9.5% to 10.5% in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario includes full-year organic asset growth around 5%.",
+      "quote": "We expect to sustain our momentum from 2025 into the new year with strong new account formation and full year organic asset growth of around 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario includes net interest margin between 2.85%-2.95%.",
+      "quote": "Full year net interest margin expands to a range of 2.85% to 2.95% with average 4Q 2026 NIM expected to finish above 2.9% despite assuming the Fed funds rate comes down by another 50 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario includes expense growth of 5.5%-6.5%.",
+      "quote": "Within this financial scenario for 2026, we anticipate annual expense growth to range from 5.5% to 6.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pretax profit margin reached just over 52% in Q4 and 50% for the full year, expanding nearly 800 bps.",
+      "quote": "Adjusted pretax profit margin of just over 52% in the fourth quarter and 50% for the full year, representing an expansion of nearly 800 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario implies further pretax margin expansion into the low 50s.",
+      "quote": "The combination of strong top line growth and balanced expense management implies meaningful operating leverage within this scenario with further pretax margin expansion into the low 50s.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Scenario assumes 225 bps in Fed funds rate cuts and 6.5% equity market returns.",
+      "quote": "Our 2026 financial scenario assumes interest rates follow the current forward curve expectations, which call for 225 basis point cuts to the Fed's target rate, bringing the funds rate down to 3.25% by the end of 2026 and 6.5% equity market returns, which is consistent with the long-term average.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario allows for a slight pullback in trading volumes to roughly 7.4 million daily average trades.",
+      "quote": "Given the record volumes we supported last year, our 2026 scenario does allow for a slight pullback in volumes to roughly 7.4 million daily average trades for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital return levels may vary but remain a meaningful part of the growth story.",
+      "quote": "While the absolute level of capital return may vary over time, we believe capital return will continue to be a meaningful part of our through-the-cycle financial growth story.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Managed investing net flows grew 36% to nearly $70 billion, nearly quadrupling since 2022.",
+      "quote": "Managed investing net flows grew 36% over 2024, achieving a new record. ... Managed investing net flows have nearly quadrupled since 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Bank lending balances reached an all-time high of $58 billion, up 28% year over year.",
+      "quote": "Bank lending balances reached an all-time high of $58 billion, up 28% year over year, with pledged asset line originations growing 85% over the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PAL penetration is low: 9% of ultra-high net worth retail clients and 23% of RIA clients.",
+      "quote": "Within retail, only 9% of ultra-high net worth clients have originated a PAL. In AS, 23% have a PAL.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Less than 40% of RIA clients have an allocation to alternatives.",
+      "quote": "Today, less than 40% of our RIA clients have an allocation to alts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Spot Bitcoin and Ethereum trading planned for launch within the year.",
+      "quote": "We remain on track to launch spot trading on Bitcoin and Ethereum in the first half of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Schwab clients hold roughly 20% share of spot crypto ETPs.",
+      "quote": "Schwab clients hold about a 20% share of spot crypto exchange-traded products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over 220 AI use cases adopted, contributing to 20% reduction in cost per account over five years.",
+      "quote": "With more than 220 use cases, we are leveraging artificial intelligence to help our professionals serve clients more efficiently. ... Our scale, combined with our expense discipline have allowed us to decrease our cost per account 20% over the last 5 years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EOCA declined from 15 bps in 2020 to about 11 bps currently.",
+      "quote": "On an adjusted basis, EOCA has decreased from about 15 basis points in 2020 to about 11 basis points today.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "2025 was a record year for Schwab. ... We are entering 2026 in a leading competitive position and our momentum is strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit and organic, but the score of 0.50 is slightly below the +0.5 anchor because the guidance is a scenario, not a formal commitment, and includes assumptions (rate cuts, market returns) that could change. A human reviewer may wish to confirm the weighting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2026-01-21",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q4\\SCHW-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212634Z",
+    "timestamp": "2026-07-18T21:27:29Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q4\\SCHW-Q4-2025-earnings-call-transcript-MotleyFool.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q4\\SCHW-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 62948,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ4_2025.txt"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "document_id": "KO_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Full-year comparable EPS guidance was raised from 7%-8% to 8%-9% versus $3 in 2025, which is a meaningful upward revision. However, the raise is explicitly attributed to a lower effective tax rate (19.9% vs. prior estimate), not to improved underlying operational performance. Organic revenue guidance (4%-5%) and currency-neutral EPS guidance (6%-7%) were reaffirmed unchanged. Management also flagged persistent commodity headwinds and geopolitical uncertainty. The net effect is a modestly positive score: the guidance raise is real but mechanically driven, and the reaffirmed core outlook with explicit risks prevents a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Organic revenue growth of 10% in Q1 2026, driven by 3% unit case growth and positive pricing, partially offset by mix headwinds.",
+    "eps": "Comparable EPS of $0.86, up 18% year-over-year, helped by a 3% currency tailwind and higher equity income.",
+    "guidance": "Full-year 2026: organic revenue growth expected in the 4%-5% range; comparable currency-neutral EPS growth (ex-acquisitions and divestitures) of 6%-7%; comparable EPS growth now guided to 8%-9% versus $3 in 2025, up from prior 7%-8% estimate due to a reduced effective tax rate of 19.9%.",
+    "margin": "Comparable gross margin declined approximately 30 basis points due to commodity pressures and inventory timing; comparable operating margin expanded approximately 70 basis points due to operating expense efficiencies.",
+    "key_risks": [
+      "Commodity pressures in tea and coffee and inventory timing expected to persist through the year.",
+      "Geopolitical tensions and regional conflict causing March volume decline in Eurasia and Middle East; uncertainty may cause outlook to change.",
+      "Divestitures (Coca-Cola Beverages Africa sale) expected to create a 4-point headwind to comparable net revenues and a 1-point headwind to comparable EPS.",
+      "Calendar shift: Q4 will have 6 fewer days compared to Q4 2025."
+    ],
+    "key_opportunities": [
+      "Strong brand activation and innovation (Coca-Cola Zero-Zero, Sprite, Fuze Tea) driving volume growth.",
+      "System added more than 600,000 outlets and placed over 340,000 units of cold drink equipment, expanding points of interruption.",
+      "FIFA World Cup activations and digital engagement (connected packaging) expected to drive consumer engagement and transactions.",
+      "Pending sale of Coca-Cola Beverages Africa expected to improve overall company margin profile in the second half of 2026."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management stated 'we are well positioned to deliver on our updated 2026 guidance' and described the quarter as 'a great start of the year' with confidence in the balanced growth algorithm."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year comparable EPS guidance was raised from 7%-8% to 8%-9%.",
+      "quote": "All in, we now expect comparable earnings per share growth of 8% to 9% versus $3 in 2025, which is an increase from our prior estimate of 7% to 8% due to the lower effective tax rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is attributed to a lower effective tax rate, not operational improvement.",
+      "quote": "Based on the latest analysis of our global operations, our underlying effective tax rate for 2026 is now expected to be 19.9%, which is a 1 point reduction versus our previous estimate. All in, we now expect comparable earnings per share growth of 8% to 9% versus $3 in 2025, which is an increase from our prior estimate of 7% to 8% due to the lower effective tax rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue guidance was reaffirmed unchanged.",
+      "quote": "We continue to expect organic revenue growth of 4% to 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable currency-neutral EPS guidance was reaffirmed unchanged.",
+      "quote": "We now expect growth in comparable currency-neutral earnings per share, excluding acquisitions and divestitures of 6% to 7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 organic revenue growth was 10%.",
+      "quote": "We grew organic revenues 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 comparable EPS was $0.86, up 18%.",
+      "quote": "First quarter comparable EPS of $0.86 increased 18% year-over-year, helped by 3% currency tailwinds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable gross margin declined approximately 30 basis points.",
+      "quote": "Comparable gross margin declined approximately 30 basis points, stemming primarily from commodity pressures in our tea and coffee businesses, phasing of inventory costs and timing of trade spend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable operating margin expanded approximately 70 basis points.",
+      "quote": "Comparable operating margin increased approximately 70 basis points, as we've realized operating expense efficiencies while investing further behind our brands.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commodity pressures in tea and coffee are expected to persist.",
+      "quote": "We have had commodity pressures in the tea and coffee space, and that's going to continue somewhat through the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical tensions may cause the outlook to change.",
+      "quote": "However, uncertainty stemming from geopolitical tensions may cause this outlook to change.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Divestitures expected to create a 4-point headwind to comparable net revenues and a 1-point headwind to comparable EPS.",
+      "quote": "Divestitures are expected to continue to be an approximate 4-point headwind to comparable net revenues and an approximate 1 point headwind to comparable earnings per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "March volume declined in Eurasia and Middle East after onset of conflict.",
+      "quote": "In Eurasia and the Middle East, we gained better share. While we grew volume for the quarter, our volume declined in March after the onset of the conflict.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "System added more than 600,000 outlets and placed over 340,000 units of cold drink equipment.",
+      "quote": "In the past year, our system added more than 600,000 outlets, which increased outlet coverage. ... To drive transactions our system also placed over 340,000 units of cold drink equipment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are off to a good start this year. We delivered strong first quarter results despite a complex external environment. ... I'm confident we are well positioned to deliver on our updated 2026 guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 will have 6 fewer days compared to Q4 2025.",
+      "quote": "As a reminder, due to a calendar shift, the fourth quarter will have 6 fewer days compared to the fourth quarter of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicitly attributed to a lower tax rate, not operational improvement. The score of 0.30 reflects a modest positive for the raise itself, but a reviewer may wish to confirm that the mechanical nature of the raise is appropriately discounted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KO_Bundled Earnings Report_2026-04-28",
+  "report_metadata": {
+    "issuer": "p2_coca_cola",
+    "company": "Coca-Cola",
+    "ticker": "KO",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KO_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T213355Z",
+    "timestamp": "2026-07-18T21:34:42Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 57481,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

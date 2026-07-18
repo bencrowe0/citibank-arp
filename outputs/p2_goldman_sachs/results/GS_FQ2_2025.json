@@ -1,0 +1,184 @@
+{
+  "document_id": "GS_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum with record revenues in equities and financing, a 71% YoY advisory revenue increase, and a 33% dividend increase. However, forward guidance is not formally raised; management expects AWM results in H2 2025 to be 'more muted' and flags ongoing geopolitical and trade uncertainty. The score reflects genuine momentum without a formal guidance raise, tempered by cautious forward language on certain segments."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues of $14.6 billion for Q2 2025, reflecting performance across all major business segments.",
+    "eps": "Earnings per share of $10.91 for Q2 2025, after a $0.33 reduction from selected items disclosed by management.",
+    "guidance": "Management expects AWM results in H2 2025 to be 'more muted relative to our medium-term run rate expectations.' No formal full-year guidance raise was provided. The board approved a 33% dividend increase to $4 per share, effective Q3 2025.",
+    "margin": "AWM segment generated a 22% pre-tax margin in H1 2025; firm-wide pre-tax margin not explicitly stated.",
+    "key_risks": [
+      "Modest net losses in private portfolio driven by markdowns in relation to certain real estate positions.",
+      "Provision for credit losses of $384 million primarily from charge-offs in the credit card portfolio, reflecting ongoing credit risk in consumer exposures.",
+      "Geopolitical concerns have intensified in many regions, notably in the Middle East.",
+      "Uncertainty around trade agreements and the ultimate impact on growth from higher tariffs.",
+      "Management expects AWM results in H2 2025 to be more muted relative to medium-term run rate expectations."
+    ],
+    "key_opportunities": [
+      "Advisory backlog rose for a fifth consecutive quarter and is notably higher than 2024 year-end levels, supporting forward revenue visibility.",
+      "Equities net revenues reached a record $4.3 billion in Q2 2025, with intermediation up 45% YoY and financing up 23% YoY.",
+      "Total financing revenues set a new record for a sixth consecutive quarter, now comprising over one-third of fixed and equities revenues.",
+      "Assets under supervision reached a record $3.3 trillion, with $17 billion in long-term net inflows, marking the thirtieth consecutive quarter of fee-based net inflows.",
+      "AI initiatives: rollout of GS AI assistant to the entire firm and piloting of Devan agentic AI to accelerate software development, cited as 'a big opportunity to automate processes, create efficiency and productivity.'",
+      "Improved capital flexibility from CCAR stress test results (SCB reduced to 3.4%) and proposed recalibration of enhanced SLR."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "David Solomon stated, 'Our global client franchise has never been stronger,' and 'I feel very confident about the forward trajectory of Goldman Sachs,' reflecting a confident tone despite acknowledged uncertainties."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues were $14.6 billion for Q2 2025.",
+      "quote": "Net revenues of $14.6 billion for Q2 2025, reflecting performance across all major business segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share were $10.91 for Q2 2025, after a $0.33 reduction from selected items.",
+      "quote": "Earnings per share of $10.91 for Q2 2025, after a $0.33 reduction from selected items disclosed by management.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advisory revenues were $1.2 billion, up 71% year over year.",
+      "quote": "Advisory revenues of $1.2 billion for Q2 2025, up 71% year over year, driven by strength in the Americas and EMEA regions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equities net revenues reached a record $4.3 billion in Q2 2025.",
+      "quote": "Equities net revenues reached a record $4.3 billion in Q2 2025, with equities intermediation revenues up 45% year over year and equities financing revenues up 23% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total financing revenues set a new record for a sixth consecutive quarter at $2.8 billion.",
+      "quote": "Total financing revenues were $2.8 billion for Q2 2025, up 23% year over year, setting a new record for a sixth consecutive quarter and now accounting for over one-third of fixed and equities revenues.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Assets under supervision reached a record $3.3 trillion.",
+      "quote": "Assets under supervision reached $3.3 trillion for Q2 2025, boosted by $115 billion in market appreciation and $17 billion in long-term net inflows, marking the thirtieth consecutive quarter of fee-based net inflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The board approved a 33% increase in the quarterly dividend to $4 per share.",
+      "quote": "The board approved a 33% increase in the quarterly dividend to $4 per share, effective beginning in Q3 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects AWM results in H2 2025 to be more muted relative to medium-term run rate expectations.",
+      "quote": "Given the more challenging harvesting environment, we expect results in the second half of 2025 to be more muted relative to our medium-term run rate expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses of $384 million was driven primarily by charge-offs in the credit card portfolio.",
+      "quote": "Provision for credit losses of $384 million was driven primarily by charge-offs in the credit card portfolio, reflecting ongoing credit risk in consumer exposures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical concerns have intensified, notably in the Middle East.",
+      "quote": "Geopolitical concerns have intensified in many regions, notably in the Middle East.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "David Solomon stated, 'Our global client franchise has never been stronger,' and 'I feel very confident about the forward trajectory of Goldman Sachs.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advisory backlog rose for a fifth consecutive quarter and is notably higher than 2024 year-end levels.",
+      "quote": "Advisory backlog rose for a fifth consecutive quarter through Q2 2025 and is notably higher than 2024 year-end levels, supporting forward revenue visibility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI initiatives are a big opportunity to automate processes and create efficiency.",
+      "quote": "Rollout of the GS AI assistant to the entire firm and piloting of Cognition Labs' Devan agentic AI to accelerate software development, with management citing AI as 'a big opportunity to automate processes, create efficiency and productivity.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Improved capital flexibility from CCAR stress test results (SCB reduced to 3.4%).",
+      "quote": "Solomon highlighted the company's significant improvement in our expected stress capital buffer to 3.4% as a result of this year's CCAR stress test.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM segment generated a 22% pre-tax margin in H1 2025.",
+      "quote": "The firm achieved a 22% pre-tax margin and approximately 9% ROE in AWM for the first half of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on strong operational momentum and confident language, but no formal guidance raise was provided. The score may be slightly optimistic given the cautious forward language on AWM and geopolitical risks. A human reviewer should confirm the balance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2025-07-16",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-16",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q2\\GS-Q2-2025-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213655Z",
+    "timestamp": "2026-07-18T21:37:21Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q2\\GS-Q2-2025-earnings-call-transcript-MotleyFool.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q2\\GS-Q2-2025-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 68359,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ2_2025.txt"
+  }
+}

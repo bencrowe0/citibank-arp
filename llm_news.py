@@ -113,7 +113,9 @@ def score_all_news(issuer: str, **kwargs: Any) -> list[dict[str, Any]]:
 
 
 def get_news_score(issuer: str, document_id: str) -> dict[str, Any] | None:
-    manifest_path = MANIFESTS[issuer]
+    manifest_path = MANIFESTS.get(issuer)
+    if manifest_path is None:
+        return None  # issuer has no news-layer manifest registered - no digests, no news score
     reports = [r for r in load_manifest(manifest_path) if r.document_id == document_id]
     if not reports:
         return None

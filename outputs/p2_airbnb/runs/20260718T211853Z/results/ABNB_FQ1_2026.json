@@ -1,0 +1,201 @@
+{
+  "document_id": "ABNB_FQ1_2026",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Full-year 2026 revenue guidance was raised to 'low- to mid-teens' growth from a prior unspecified level, and adjusted EBITDA margin guidance was raised to 'at least 35%'. The raise is attributed to organic momentum in growth initiatives, not primarily FX or one-time items. Management expresses strong confidence in the outlook, citing 'meaningful progress across our growth initiatives and improvements to monetization'. The score is anchored at +0.5 because guidance was meaningfully raised and the improvement is organic."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q1 2026 revenue grew 18% year-over-year to $2.7 billion, exceeding the high end of guidance.",
+    "eps": "Net income was $160 million; EPS not explicitly stated. Net income was negatively impacted by a one-time adjustment of approximately $70 million to deferred tax assets.",
+    "guidance": "Full-year 2026 revenue growth raised to low- to mid-teens year-over-year; adjusted EBITDA margin expected to be at least 35%. Q2 2026 revenue expected to be $3.54 billion to $3.6 billion (14-16% growth).",
+    "margin": "Adjusted EBITDA margin expected to be at least 35% for full year 2026. Q1 2026 adjusted EBITDA was $519 million, up 24% year-over-year.",
+    "key_risks": [
+      "Conflict in the Middle East causing an approximate 100-basis-point headwind to nights and seats booked growth in Q1 and expected to continue in Q2.",
+      "Macroeconomic and geopolitical uncertainty, including tariff uncertainty affecting travel patterns.",
+      "Tougher comps in the back half of 2026 against the rollout of Reserve Now, Pay Later."
+    ],
+    "key_opportunities": [
+      "Reserve Now, Pay Later expansion driving longer lead times, higher ADR, and a meaningful lift to all booking metrics.",
+      "World Cup expected to be the largest event in Airbnb's history, with over 100,000 new listings attracted so far.",
+      "AI initiatives: 60% of code written by AI, AI Assistant resolving over 40% of customer issues without human agent, cost per booking down ~10% year-over-year.",
+      "Hotel pilot scaling: hotel nights growing more than double the rate of the overall business, with 55% of hotel bookers returning to book a home.",
+      "Expansion markets (Brazil, Japan, India) growing at roughly twice the rate of core markets.",
+      "First-time booker growth accelerating to 10%, highest since 2022.",
+      "Monetization initiatives (simplified fee structure, insurance programs) expected to lift full-year take rate."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'strong start to 2026', 'momentum is showing up across every part of the business', and 'we're raising our guidance for 2026' — all indicating strong confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2026 revenue grew 18% year-over-year to $2.7 billion, exceeding the high end of guidance.",
+      "quote": "Revenue grew 18% year-over-year to $2.7 billion, which exceeded the high end of our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 revenue guidance raised to low- to mid-teens growth.",
+      "quote": "We're raising our guidance for 2026 and now expect year-over-year revenue growth to accelerate to low- to mid-teens.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin guidance raised to at least 35%.",
+      "quote": "We anticipate our adjusted EBITDA margin to be at least 35%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 adjusted EBITDA was $519 million, up 24% year-over-year.",
+      "quote": "adjusted EBITDA was $519 million, up 24% year-over-year, also exceeding guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income was $160 million, negatively impacted by a one-time adjustment of approximately $70 million to deferred tax assets.",
+      "quote": "Net income was $160 million, while adjusted EBITDA was $519 million... Net income was negatively impacted by a onetime adjustment of approximately $70 million to certain deferred tax assets as a result of changes to the US Corporate Alternative Minimum Tax effective in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Conflict in the Middle East caused an approximate 100-basis-point headwind to nights and seats booked growth in Q1.",
+      "quote": "nights and seats booked grew 9% after accounting for an approximate 100-basis-point headwind from the conflict in the Middle East.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reserve Now, Pay Later expansion is driving longer lead times, higher ADR, and a meaningful lift to all booking metrics.",
+      "quote": "Reserve Now, Pay Later is driving a meaningful lift to all booking metrics, net of cancellations. We believe this is a longer term competitive benefit, locking in earlier calendar share and better aligning our payment options with guest preferences.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "World Cup expected to be the largest event in Airbnb's history, with over 100,000 new listings attracted.",
+      "quote": "The World Cup is the next chapter in our events strategy, and we expect to host more guests than any event in Airbnb's history. Since we started outreach in October, over 100,000 homes have listed on Airbnb for the first time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI initiatives: 60% of code written by AI, AI Assistant resolving over 40% of customer issues without human agent, cost per booking down ~10% year-over-year.",
+      "quote": "Nearly 60% of the code our engineers produce is now written by AI... when guests contact us through our AI Assistant, over 40% of issues are now resolved without a human agent... We've seen the cost per booking decrease about 10% year-over-year in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hotel nights growing more than double the rate of the overall business.",
+      "quote": "all the top line metrics for hotels are growing more than double that of the entire business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "55% of hotel bookers return to book a home.",
+      "quote": "roughly 55% of guests who book a hotel on Airbnb come back and they book a home.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion markets growing at roughly twice the rate of core markets.",
+      "quote": "net nights for expansion markets grew at roughly twice the rate of our core markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First-time booker growth accelerating to 10%, highest since 2022.",
+      "quote": "Growth in first-time bookers also accelerated to 10%. Now, this is the highest growth rate since 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Monetization initiatives expected to lift full-year take rate.",
+      "quote": "The upward revision to our revenue outlook reflects meaningful progress across our growth initiatives and improvements to monetization through a simplified fee structure and our insurance programs, which are expected to lift our full year take rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Airbnb had a strong start to 2026... the momentum is showing up across every part of the business... we're raising our guidance for 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 revenue expected to be $3.54 billion to $3.6 billion (14-16% growth).",
+      "quote": "In Q2, we expect to generate revenue of $3.54 billion to $3.6 billion, representing year-over-year growth of 14% to 16%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tougher comps in the back half of 2026 against the rollout of Reserve Now, Pay Later.",
+      "quote": "We remain optimistic about our continued momentum, even as we face tougher comps in the back half of this year against the rollout of Reserve Now, Pay Later and current headwinds from the Middle East.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macroeconomic and geopolitical uncertainty, including tariff uncertainty.",
+      "quote": "all this is happening against the backdrop of macroeconomic and geopolitical uncertainty... When tariff uncertainty led to fewer people traveling to the US last year, they came to Airbnb and found somewhere else to go, and we're seeing a similar dynamic now.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.eps",
+      "reason": "EPS not explicitly stated; net income of $160 million is provided but diluted share count is not disclosed, so EPS cannot be calculated from the document alone."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ABNB_Bundled Earnings Report_2026-05-07",
+  "report_metadata": {
+    "issuer": "p2_airbnb",
+    "company": "Airbnb",
+    "ticker": "ABNB",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-07",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2026-Q1\\Airbnb-Q1-26-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ABNB_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T211853Z",
+    "timestamp": "2026-07-18T21:20:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2026-Q1\\Airbnb-Q1-26-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_airbnb\\extracted\\ABNB_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2026-Q1\\Airbnb-Q1-26-Earnings-Call-Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 79017,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_airbnb\\extracted\\ABNB_FQ1_2026.txt"
+  }
+}

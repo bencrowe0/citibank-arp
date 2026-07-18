@@ -1,0 +1,235 @@
+{
+  "document_id": "MCD_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows strong Q4 2025 results with global comparable sales up 5.7% and U.S. comps up 6.8%, both above prior-year comparisons. Management raised capital expenditure guidance for 2026 to $3.7-$3.9 billion (from $3.4 billion in 2025) and expects operating margin to expand from 46.9% in 2025 to mid-to-high 40% range in 2026, indicating confidence in forward growth. However, management explicitly expects Q1 2026 comp sales to decelerate sequentially due to weather impacts and macro pressures, and the guidance raise is primarily on capex and margin expansion rather than a formal revenue/EPS guidance increase, so the score is moderately positive but not above +0.3."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 consolidated revenues $7,009 million, up 10% (6% in constant currencies). Full year 2025 consolidated revenues $26,885 million, up 4% (2% in constant currencies).",
+    "eps": "Q4 2025 diluted EPS $3.03, up 8% (5% in constant currencies). Adjusted diluted EPS $3.12, up 10% (7% in constant currencies) excluding charges. Full year 2025 diluted EPS $11.95, up 5% (4% in constant currencies). Adjusted full year diluted EPS $12.20, up 4% (3% in constant currencies).",
+    "guidance": "2026 operating margin expected in mid- to high 40% range and to expand from 46.9% in 2025. Capital expenditures expected $3.7-$3.9 billion. Net restaurant expansion expected to contribute approximately 2.5% to system-wide sales growth. G&A as a percentage of system-wide sales targeted at about 2.2%. Interest expense expected to increase 4%-6%. Effective tax rate expected 21%-23%. Foreign currency expected to be a $0.20-$0.30 per share tailwind to 2026 EPS. Net income to free cash flow conversion rate targeted low to mid-80% range.",
+    "margin": "Full year 2025 adjusted operating margin 46.9%. Management expects 2026 operating margin to be in the mid- to high 40% range and to expand from 2025 level.",
+    "key_risks": [
+      "Challenging QSR industry environment expected to persist in U.S. and many markets in 2026",
+      "Severe weather impacts in U.S. in late January 2026 estimated to be about 100 basis points drag on Q1 2026 comps",
+      "Continued macro pressures in markets like China and parts of Latin America",
+      "GLP-1 drug adoption potentially changing consumer behavior (though no material impact seen yet)",
+      "Higher average interest rates expected to increase interest expense 4%-6% in 2026"
+    ],
+    "key_opportunities": [
+      "Accelerating new restaurant openings: targeting approximately 2,600 gross openings in 2026, on track for 50,000 restaurants by end of 2027",
+      "Loyalty program growth: 210 million 90-day active users, targeting 250 million by end of 2027; U.S. loyalty members visit 2.5x more frequently after enrollment",
+      "Beverage category expansion: new McCafe-branded beverage lineup launching in U.S. in 2026, tested successfully in 500+ restaurants",
+      "Best Burger rollout now in more than 85 markets, on track for nearly all markets by end of 2026",
+      "Chicken category share growth: targeting at least 1 percentage point market share increase by end of 2026 vs December 2023",
+      "Digital and technology investments including AI-enabled tools, common global tech stack, and Ready on Arrival deployment"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'we remain confident in our strategy and our ability to outperform our competitors in any operating environment' and 'we believe we are well positioned to deliver solid results in 2026,' indicating a confident forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 global comparable sales increased 5.7%.",
+      "quote": "Global comparable sales in the fourth quarter increased 5.7%, with positive global comparable guest counts and strong comparable sales growth across all segments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 U.S. comparable sales increased 6.8%.",
+      "quote": "U.S. increased 6.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 consolidated revenues were $7,009 million, up 10% (6% in constant currencies).",
+      "quote": "Consolidated revenues increased 10% (6% in constant currencies).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 diluted EPS was $3.03, up 8% (5% in constant currencies).",
+      "quote": "Diluted earnings per share was $3.03, an increase of 8% (5% in constant currencies).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 adjusted operating margin was 46.9%.",
+      "quote": "Our total adjusted operating margin for the full year was 46.9%, in line with our expectations and reflecting the strength of our business model and the resilience of our system.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects 2026 operating margin to be in the mid- to high 40% range and to expand from 2025.",
+      "quote": "We expect our operating margin to be in the mid- to high 40% range and to expand from our 46.9% adjusted operating margin in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital expenditures expected to be $3.7-$3.9 billion in 2026, up from $3.4 billion in 2025.",
+      "quote": "We expect our capital expenditure spend to be between $3.7 billion and $3.9 billion this year, with the majority invested in new unit openings across our U.S. and IOM segments. This increase in CapEx versus the prior year of $3.4 billion is in line with the targeted increase of about $300 million to $500 million that we outlined at our December '23 Investor Day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net restaurant expansion expected to contribute approximately 2.5% to system-wide sales growth in 2026.",
+      "quote": "We expect that net restaurant expansion in 2026, along with restaurants we opened in 2025, will contribute approximately 2.5% to system-wide sales growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects Q1 2026 comp sales to decelerate sequentially from Q4 2025 levels.",
+      "quote": "I think we would say we expect Q1 comp sales growth to decelerate sequentially from the 6.8% in Q4 that you saw. I think there are 2 key reasons for that. One is Q4 growth was particularly strong, obviously driven by 2 really strong activations in MONOPOLY and Grinch. And then as is well known, you've heard from many others, obviously, we had severe weather impacts in the U.S. kind of beginning in late January that pressured the industry traffic, pressured our traffic, obviously, and caused quite a few restaurants to close or reduce hours for a number of days.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Weather impact estimated at about 100 basis points for Q1 2026.",
+      "quote": "We estimate that weather impact to be about 100 basis points for the full quarter just when you look at kind of the drag that we saw in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loyalty program has 210 million 90-day active users, targeting 250 million by end of 2027.",
+      "quote": "we almost doubled those sales with nearly 210 million 90-day active users across 70 markets. And we're on track to reach our target of 250 million 90-day active users by the end of 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. loyalty members visit 2.5x more frequently after enrollment.",
+      "quote": "if you look at our U.S. business as an example, a customer in the 12 months -- an average customer in the 12 months before they joined our loyalty program visited us 10.5x. In the 12 months after they became a loyalty member, they visited us 26x. So we increased their frequency of visit by more than 2.5x, and they also spend more with us over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we remain confident in our strategy and our ability to outperform our competitors in any operating environment by focusing on what we can control and by leveraging our global scale and financial strength.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: challenging QSR industry environment expected to persist.",
+      "quote": "We believe the underlying assumptions for our 2026 outlook are prudent and reflect our expectations that the QSR industry environments in the U.S. and across many markets will remain challenging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: continued macro pressures in China and Latin America.",
+      "quote": "It's really just driven by, I would say, the kind of continued macro pressures in markets like China and parts of Latin America.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: beverage category expansion with new McCafe lineup in 2026.",
+      "quote": "We are excited about the global beverage opportunity of more than $100 billion. You can expect to see new offerings in the U.S. as well as select international markets in 2026. Designed to capture share of this large and fast-growing category, we're exploring energy, indulgent iced coffees, fruity refreshers and crafted sodas. We're thrilled to launch our new U.S. beverage lineup later this year under the McCafe brand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: chicken category share growth target of at least 1 percentage point by end of 2026 vs December 2023.",
+      "quote": "We grew our chicken category share across our top 10 markets in 2025 and believe we're well on our way to increasing our share by at least 1 percentage point by the end of 2026 versus where we were in December 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: GLP-1 drug adoption potentially changing consumer behavior.",
+      "quote": "we're certainly spending a lot of time and paying close attention to it. I can tell you right now, we've looked pretty hard, and we don't yet see evidence of it really having a material impact on our business. Now that said, as you noted, pill form has just become available. We know the pill form has had pretty strong adoption in the early weeks. Lilly will come out with a pill form of their own sometime in probably Q1, Q2. And so certainly, our view is that adoption is going to continue to grow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: higher average interest rates expected to increase interest expense 4%-6% in 2026.",
+      "quote": "we expect interest expense to increase between 4% to 6% from the prior year, primarily due to higher average interest rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 diluted EPS was $11.95, up 5% (4% in constant currencies).",
+      "quote": "Diluted earnings per share was $11.95, an increase of 5% (4% in constant currencies).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 consolidated revenues were $26,885 million, up 4% (2% in constant currencies).",
+      "quote": "Consolidated revenues increased 4% (2% in constant currencies).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 is based on capex and margin guidance expansion rather than a formal revenue/EPS guidance raise. A human reviewer should confirm this is appropriately calibrated given the explicit expectation of Q1 deceleration."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MCD_Bundled Earnings Report_2026-02-11",
+  "report_metadata": {
+    "issuer": "p2_mcdonalds",
+    "company": "McDonald's",
+    "ticker": "MCD",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-11",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2025-Q4\\Q4 2025 - numbers.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MCD_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213931Z",
+    "timestamp": "2026-07-18T21:40:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2025-Q4\\Q4 2025 - numbers.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_mcdonalds\\extracted\\MCD_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2025-Q4\\Q4 2025 - numbers.pdf",
+        "page_count": 9,
+        "extracted_characters": 15739,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 64854,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_mcdonalds\\extracted\\MCD_FQ4_2025.txt"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "document_id": "SCHW_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Management raised full-year 2025 revenue growth guidance to 18.5%-19.5% (from an initial scenario that implied lower growth), and EPS guidance to $4.55-$4.65, representing ~48% YoY growth. The guidance raise is organic, driven by strong client growth, NNA acceleration, and expense discipline, not attributed to one-time items. Management expresses high confidence ('our competitive position has never been stronger, and our confidence has never been higher'). The score is capped at +0.30 because the guidance raise is expressed as an updated scenario rather than a formal explicit raise, and some tailwinds (trading volumes, market levels) are macro-dependent."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 2025 total revenue of $5.9 billion, up 25% year-over-year.",
+    "eps": "Q2 2025 adjusted EPS of $1.14, up 56% year-over-year.",
+    "guidance": "Full-year 2025 revenue growth of 18.5%-19.5%, NIM of 2.65%-2.75%, expenses up 4.75%-5.25%, pretax margins in the very high 40s, and adjusted EPS of $4.55-$4.65 (excluding incremental buybacks).",
+    "margin": "Adjusted pretax profit margin of 50.1% for Q2 2025; full-year pretax margins expected in the very high 40s.",
+    "key_risks": [
+      "Macroeconomic factors and market sentiment can change quickly, influencing client cash allocations and trading volumes.",
+      "Interest rate forward curve currently calls for two 25bp cuts before year-end, which could pressure NIM.",
+      "SEC reduced exchange processing fees to $0 beginning mid-May (though P&L neutral).",
+      "Client trading volumes may pull back in the second half."
+    ],
+    "key_opportunities": [
+      "Core net new assets of $218 billion in H1 2025, up 39% YoY, with continued acceleration.",
+      "Managed investing net flows up 37% YoY; record flows for first half.",
+      "Spot trading in Bitcoin and Ethereum expected to launch, seen as a meaningful growth driver.",
+      "PAL originations up >100% YoY; lending balances growing.",
+      "40 AI use cases in development to drive efficiency and personalization.",
+      "Continued reduction of high-cost supplemental borrowings (down >70% from peak)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'our competitive position has never been stronger, and our confidence has never been higher' and describes the firm as 'playing offense' and 'well positioned to continue growing on all fronts.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 total revenue was $5.9 billion, up 25% year-over-year.",
+      "quote": "total revenue for the second quarter was $5.9 billion, up 25% over the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 adjusted EPS was $1.14, up 56% year-over-year.",
+      "quote": "Q2 2025 adjusted earnings per share reached $1.14, a 56% increase over the second quarter of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue growth guidance raised to 18.5%-19.5%.",
+      "quote": "we would expect total revenue growth of 18.5% to 19.5% for the full year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance of $4.55-$4.65.",
+      "quote": "this full year scenario implies potential adjusted earnings in the $4.55 to $4.65 area excluding the impact of any incremental buybacks in the second half, representing potential year-over-year earnings growth into the very high 40% zone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year NIM guidance of 2.65%-2.75%.",
+      "quote": "Full year net interest margin of 2.65% to 2.75%, which is up slightly from the January scenario due to the pace of paydowns, year-to-date transactional sweep cash trends and a recent pickup in securities lending activity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year expense growth guidance of 4.75%-5.25%.",
+      "quote": "Full year 2025 expenses are still trending towards the mid-single-digit zone though we slightly — with a slightly tighter range of 4.75% to 5.25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year pretax margins expected in the very high 40s.",
+      "quote": "the combination of strong top line growth and balanced expense management implies pretax margins in the very high 40s for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 adjusted pretax profit margin was 50.1%.",
+      "quote": "adjusted pretax profit margin reached 50.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core net new assets in H1 2025 were $218 billion, up 39% YoY.",
+      "quote": "Core net new assets reached $218 billion in the half of the year, up 39%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Managed investing net flows up 37% YoY in Q2.",
+      "quote": "Managed investing net flows increased 37% year-over-year for the second quarter, and we reached an all-time record level of flows for the first 6 months of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Spot crypto trading in Bitcoin and Ethereum expected to be a meaningful growth driver.",
+      "quote": "we are working on launching Bitcoin and Ethereum. When those launch, I expect those to be a meaningful — a meaningful growth driver.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PAL originations up more than 100% YoY.",
+      "quote": "Our PAL pledged asset line originations are up more than 100%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "40 AI use cases in development.",
+      "quote": "Today, we have 40 AI use cases in various stages of development, including in use.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "High-cost supplemental borrowings reduced by $10 billion in Q2, down >70% from peak.",
+      "quote": "we reduced the balances by another $10 billion during the second quarter of '25, bringing the outstanding balance as of June 30 to $27.7 billion or down more than 70% from the peak.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "our competitive position has never been stronger, and our confidence has never been higher",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk: Macro factors and market sentiment can change quickly.",
+      "quote": "we plan to keep a close eye in a range of macro factors as shift in market sentiment tend to influence client cash allocations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk: Interest rate forward curve calls for two 25bp cuts before year-end.",
+      "quote": "The interest rate forward curve currently calls for two 25 basis point cuts before year-end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk: SEC reduced exchange processing fees to $0 (P&L neutral).",
+      "quote": "the SEC's decision to lower exchange processing fees to 0 beginning in mid-May. Of course, this rate change is P&L neutral as there is a corresponding decrease in the other expense line as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk: Client trading volumes may pull back in second half.",
+      "quote": "the updated scenario allows for some pullback in volumes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise is expressed as an updated scenario rather than a formal explicit raise; score may be slightly conservative or aggressive depending on interpretation of 'scenario' vs 'guidance.'"
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2025-07-18",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-18",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q2\\SCHW-Q2-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212634Z",
+    "timestamp": "2026-07-18T21:27:03Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q2\\SCHW-Q2-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q2\\SCHW-Q2-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 64263,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ2_2025.txt"
+  }
+}

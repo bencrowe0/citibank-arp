@@ -514,7 +514,7 @@ def call_llm(
     if not api_key:
         raise RuntimeError("DEEPSEEK_API_KEY is not set in the environment or .env")
 
-    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com", timeout=120.0)
     start_time = time.time()
 
     last_error: Exception | None = None

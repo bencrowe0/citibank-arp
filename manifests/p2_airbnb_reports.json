@@ -1,0 +1,69 @@
+{
+  "issuer": "p2_airbnb",
+  "reports": [
+    {
+      "document_id": "ABNB_FQ2_2025",
+      "issuer": "p2_airbnb",
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-06",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/airbnb/CY2025-Q2/Airbnb-Q2-25-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "ABNB_FQ3_2025",
+      "issuer": "p2_airbnb",
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-06",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/airbnb/CY2025-Q3/Airbnb-Q3-2025-Earnings-Call-6-November-2025-5_00-PM-ET.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "ABNB_FQ4_2025",
+      "issuer": "p2_airbnb",
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-12",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/airbnb/CY2025-Q4/Airbnb-Q4-25-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "ABNB_FQ1_2026",
+      "issuer": "p2_airbnb",
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-07",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/airbnb/CY2026-Q1/Airbnb-Q1-26-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

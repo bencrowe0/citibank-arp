@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_mcdonalds",
+  "reports": [
+    {
+      "document_id": "MCD_FQ4_2024",
+      "issuer": "p2_mcdonalds",
+      "company": "McDonald's",
+      "ticker": "MCD",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2024",
+      "report_date": "2025-02-10",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/mcdonalds/CY2024-Q4/Q4 2024 Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/mcdonalds/CY2024-Q4/Q4 2024-numbers.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MCD_FQ4_2025",
+      "issuer": "p2_mcdonalds",
+      "company": "McDonald's",
+      "ticker": "MCD",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-11",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/mcdonalds/CY2025-Q4/Q4 2025 - numbers.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/mcdonalds/CY2025-Q4/Q4 2025 Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MCD_FQ1_2026",
+      "issuer": "p2_mcdonalds",
+      "company": "McDonald's",
+      "ticker": "MCD",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-07",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/mcdonalds/CY2026-Q1/Q1 2026 Earnings Transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/mcdonalds/CY2026-Q1/Q1 2026- numbers.pdf"
+        }
+      ]
+    }
+  ]
+}

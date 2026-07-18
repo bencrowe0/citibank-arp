@@ -1,0 +1,267 @@
+{
+  "document_id": "C_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum with record revenues in all five businesses and positive operating leverage for the firm and each business for the second straight year. Management explicitly raised the 2026 NII ex-Markets guidance to 5-6% growth (from a prior expectation of a slowdown) and targets a ~60% efficiency ratio and another year of positive operating leverage. The CEO states they are 'committed to reaching our target of 10-11% RoTCE for the year' and enter 2026 with 'visible momentum.' While the Q4 reported results were mixed due to a large Russia-related notable item, the adjusted results and forward guidance represent a meaningful upward trajectory. The score is capped at +0.30 because the formal 2026 RoTCE target of 10-11% was previously stated and is being reaffirmed, not raised, and the efficiency ratio target was slightly softened from 'below 60%' to 'around 60%' to allow for continued investment."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 reported revenues of $19.9 billion, up 2% YoY. Excluding the Russia notable item, revenues were up 8% to $21.0 billion. Full year 2025 reported revenues of $85.2 billion, up 6% YoY. Excluding notable items, revenues were $86.4 billion, up 7% YoY.",
+    "eps": "Q4 2025 diluted EPS of $1.19, down 11% YoY from $1.34. Excluding the Russia notable item, EPS was $1.81. Full year 2025 diluted EPS of $6.99, up 18% YoY from $5.94. Excluding notable items, full year EPS was $7.97.",
+    "guidance": "Management expects 2026 NII ex-Markets to be up 5-6% YoY. They target a ~60% efficiency ratio and another year of positive operating leverage. They reaffirm the target of 10-11% RoTCE for 2026. They expect card NCLs to remain within the 2025 ranges (Branded Cards: 3.50%-4.00%; Retail Services: 5.75%-6.25%). They will continue to buy back shares against the $20 billion buyback program.",
+    "margin": "Efficiency ratio (total operating expenses/total revenues, net) was 69.6% in Q4 2025, up 250 bps YoY. For the full year 2025, the efficiency ratio was 64.7%, improving 170 bps YoY. On an adjusted basis (excluding notable items), the full year 2025 efficiency ratio was 63.0%. Management targets an efficiency ratio of ~60% for 2026.",
+    "key_risks": [
+      "Russia notable item: A $1.2 billion pre-tax loss ($1.1 billion after-tax) related to the held-for-sale accounting treatment of Citi's plan to sell AO Citibank in Russia.",
+      "Macroeconomic uncertainty: The document notes potential impacts from slowing economic growth, elevated unemployment, inflation, changes in interest rates, and geopolitical tensions.",
+      "Regulatory risk: The consent order from the OCC remains in place, and the timing of its closure is uncertain and 'up to the regulators.'",
+      "Credit risk: Corporate non-accrual loans increased 45% YoY to $2.0 billion, driven by idiosyncratic downgrades in Banking and Services. Consumer non-accrual loans increased 24% YoY to $1.6 billion.",
+      "Competitive gap: The CEO acknowledged a gap versus best-in-class peers in Investment Banking and capital markets, requiring continued investment."
+    ],
+    "key_opportunities": [
+      "Record revenues in all five businesses (Services, Markets, Banking, Wealth, USPB) in 2025.",
+      "Strong momentum in Services with 8% revenue growth (ex-notable item), driven by higher deposit balances and fee growth.",
+      "Banking had a record year for M&A revenues and gained wallet share, with a rich pipeline entering 2026.",
+      "Wealth delivered 14% revenue growth and 8% organic NNIA growth, with a long-term EBT margin target of 25-30%.",
+      "USPB returns more than doubled to mid-teens, driven by product innovation and customer engagement.",
+      "Capital return: Returned over $17.5 billion to shareholders in 2025, with plans to continue buybacks against a $20 billion program.",
+      "Transformation progress: Over 80% of programs are at or near target state, with the OCC removing Article 17 of the Consent Order, signaling improved safety and soundness.",
+      "AI deployment: Over 180K colleagues using AI tools, generating 100K hours of capacity weekly, expected to drive future efficiencies."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "The CEO states 'We enter 2026 with visible momentum across the firm' and 'we are committed to reaching our target of 10-11% RoTCE for the year,' while the CFO describes the firm as being 'on the upswing with nothing but upside from here.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 reported revenues were $19.9 billion, up 2% YoY.",
+      "quote": "Citigroup Inc. today reported net income for the fourth quarter 2025 of $2.5 billion, or $1.19 per diluted share, on revenues of $19.9 billion. This compares to net income of $2.9 billion, or $1.34 per diluted share, on revenues of $19.5 billion for the fourth quarter 2024. Revenues increased 2% from the prior-year period, on a reported basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding the Russia notable item, Q4 revenues were up 8% to $21.0 billion.",
+      "quote": "Excluding the Russia-related notable item (1), revenues were up 8%. 4Q Revenues $19.9B Ex. Notable Item $21.0B(1)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 reported revenues were $85.2 billion, up 6% YoY.",
+      "quote": "For the full year 2025, Citigroup reported net income of $14.3 billion on revenue of $85.2 billion, compared to net income of $12.7 billion on revenue of $80.7 billion for the full year 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 diluted EPS was $1.19, down 11% YoY.",
+      "quote": "Earnings per share of $1.19 decreased from $1.34 per diluted share in the prior-year period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding the Russia notable item, Q4 EPS was $1.81.",
+      "quote": "Excluding the Russia-related notable item(1), earnings per share was $1.81.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 diluted EPS was $6.99, up 18% YoY.",
+      "quote": "2025 EPS $6.99 Ex. Notable Items $7.97(1)(4)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects 2026 NII ex-Markets to be up 5-6% YoY.",
+      "quote": "Following solid growth of nearly 6% in 2025, we expect NII ex -Markets to be up between 5% and 6% in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management targets a ~60% efficiency ratio for 2026.",
+      "quote": "We expect our disciplined expense management, combined with top -line revenue momentum, will drive another year of positive operating leverage as we target an efficiency ratio of around 60% for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirms the 10-11% RoTCE target for 2026.",
+      "quote": "We enter 2026 with visible momentum across the firm and are committed to reaching our target of 10-11% RoTCE for the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The full year 2025 efficiency ratio improved 170 bps YoY to 64.7%.",
+      "quote": "Efficiency ratio (total operating expenses/total revenues, net) 67.1% 62.2% 62.7% 64.7% 69.6% 490 bps 250 bps 66.4% 64.7% (170) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Russia notable item was a $1.2 billion pre-tax loss.",
+      "quote": "In 4Q25, Citigroup recognized an approximately $1.2 billion loss recorded in revenue (approximately $1.1 billion after tax) related to the loss on sale of the announced move to held-for-sale of A.O. Citibank (Russia).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Corporate non-accrual loans increased 45% YoY.",
+      "quote": "Total non-accrual loans increased $0.9 billion, or 35% from the prior-year period to $3.6 billion. Corporate non -accrual loans increased $0.6 billion, or 45% from the prior-year period to $2.0 billion, driven by idiosyncratic downgrades in Banking and Services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The OCC removed Article 17 of the Consent Order.",
+      "quote": "I am very pleased with how far we have come as evidenced by the OCCs removal of Article 17 of the Consent Order in December.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over 80% of transformation programs are at or near target state.",
+      "quote": "Over 80% of our Transformation programs are at or nearly at Citi's target-state.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We enter 2026 with visible momentum across the firm and are committed to reaching our target of 10-11% RoTCE for the year and positioning Citi for improved returns above that level in the years ahead",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The efficiency ratio target was softened from 'below 60%' to 'around 60%'.",
+      "quote": "I thought the last look was efficiency ratio below 60%, and now we are targeting around 60%. ... what you have highlighted as a less than 60%, moving to an around 60% is giving us the flexibility to ensure that where we see the opportunities to invest beyond 2026, that we are taking advantage of those.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The CEO acknowledged a gap versus best-in-class peers.",
+      "quote": "One of the concerns investors have is, Citi was behind the curve in terms of franchise investments... How would you respond to that there is a gap between Citi and best -in-class peers? ... Jane Fraser: So you are right. Over the past five years, not only have we been investing in technology and the transformation, but also in innovations and making sure that we are positioned to drive our growth and our returns and our competitive position.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The timing of the consent order closure is uncertain.",
+      "quote": "Ultimately, the timing is up to the regulators. Getting the work completed is just the beginning of the end as it were, and we need to get comfortable that the work has delivered its desired outcomes, it needs to get validated by our independent audit function and then the regulators go through their assessment and closure process. That all takes time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a positive forward outlook based on raised NII guidance and confident management language, but the formal RoTCE target was reaffirmed, not raised, and the efficiency ratio target was slightly softened. A reviewer should confirm this calibration is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "C_Bundled Earnings Report_2026-01-14",
+  "report_metadata": {
+    "issuer": "p2_citigroup",
+    "company": "Citigroup",
+    "ticker": "C",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-14",
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025fsqtr4rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025prqtr4rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025psqtr4-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025psqtr4rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\4Q25-supp-web.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "C_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212910Z",
+    "timestamp": "2026-07-18T21:33:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025fsqtr4rslt.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025fsqtr4rslt.pdf",
+        "page_count": 31,
+        "extracted_characters": 106529,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025prqtr4rslt.pdf",
+        "page_count": 12,
+        "extracted_characters": 43588,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025psqtr4-transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 74283,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025psqtr4rslt.pdf",
+        "page_count": 42,
+        "extracted_characters": 84595,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\4Q25-supp-web.pdf",
+        "page_count": 58,
+        "extracted_characters": 224560,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ4_2025.txt"
+  }
+}

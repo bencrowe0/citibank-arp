@@ -1,0 +1,240 @@
+{
+  "document_id": "CVS_FQ1_2026",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "CVS Health raised its full-year 2026 adjusted EPS guidance from $7.00-$7.20 to $7.30-$7.50, a $0.30 increase, and raised its Health Care Benefits segment AOI guidance by $420 million. The guidance raise is organic, driven by strong underlying performance and favorable prior-year development, not attributed to one-time items or FX. Management expressed confidence in the trajectory, with the CEO stating 'another quarter of excellent performance' and the CFO noting 'tremendous earning power at Aetna' and a clear path to target margins by 2028."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Over $100 billion in Q1 2026, an increase of over 6% year-over-year, driven by growth across all operating segments.",
+    "eps": "Adjusted EPS of $2.57, a meaningful increase of over 14% from the prior-year quarter.",
+    "guidance": "Full-year 2026 adjusted EPS guidance raised to $7.30-$7.50 from $7.00-$7.20. Full-year revenue guidance raised to at least $405 billion. Health Care Benefits AOI guidance raised to $4.0-$4.34 billion. Pharmacy & Consumer Wellness AOI guidance raised to at least $6.18 billion. Enterprise AOI guidance raised to $15.53-$15.87 billion. Cash flow from operations guidance raised to at least $9.5 billion.",
+    "margin": "Health Care Benefits segment MBR was 84.6% in Q1 2026, better than expectations. Full-year MBR guidance maintained at 90.5% plus-or-minus 50 basis points.",
+    "key_risks": [
+      "Medicare Advantage final rate notice insufficient to offset underlying medical cost trends.",
+      "Health Services segment AOI decreased 7% year-over-year due to continued pharmacy client price improvements.",
+      "Pharmacy & Consumer Wellness segment AOI decreased 9% year-over-year due to milder seasonal illness and greater weather disruption.",
+      "Tennessee state legislation that could raise costs and threaten pharmacy access; company evaluating options including potential legal action.",
+      "Medical cost trends remain above historical levels and continue to pressure the industry."
+    ],
+    "key_opportunities": [
+      "Strong momentum and execution across the enterprise, with Q1 results exceeding expectations.",
+      "Aetna margin recovery on track, with a clear path to target margins by 2028.",
+      "Launch of Health100, an AI-native technology platform, later this year to connect consumers across the healthcare ecosystem.",
+      "Exclusion of branded Stelara from commercial formularies in favor of biosimilars, expected to drive significant savings.",
+      "Leadership in prior authorization standardization, with 88% of procedures standardized at Aetna.",
+      "Growth in Oak Street Health and value-based care model.",
+      "CostVantage pricing model neutralizing margin pressure on GLP-1s and other drugs.",
+      "TrueCost net cost model driving transparency and consumer savings."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "The CEO stated 'another quarter of excellent performance' and the CFO said 'we remain confident that 2026 will be another year of meaningful progress,' reflecting a confident tone throughout the call."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "CVS Health raised its full-year 2026 adjusted EPS guidance from $7.00-$7.20 to $7.30-$7.50.",
+      "quote": "Our strong first quarter performance gave us the confidence to increase our full-year 2026 adjusted earnings per share guidance to a range of $7.30 to $7.50, up from the previous range of $7 to $7.20.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue was over $100 billion, an increase of over 6% year-over-year.",
+      "quote": "We generated over $100 billion of revenue, an increase of over 6% over the prior-year quarter, driven by growth across all operating segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 adjusted EPS was $2.57, an increase of over 14% year-over-year.",
+      "quote": "We delivered adjusted EPS of $2.57, a meaningful increase of over 14% from the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Health Care Benefits segment MBR was 84.6% in Q1 2026.",
+      "quote": "Adjusted operating income in the quarter was approximately $3 billion, and our medical benefit ratio was 84.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year MBR guidance maintained at 90.5% plus-or-minus 50 basis points.",
+      "quote": "We continue to expect a full-year MBR within our previous guidance range of 90.5% plus-or-minus 50 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Health Care Benefits AOI guidance raised to $4.0-$4.34 billion.",
+      "quote": "In our Health Care Benefits segment, we now expect full-year adjusted operating income to be in a range of approximately $4 billion to $4.34 billion, an increase of $420 million relative to our prior guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pharmacy & Consumer Wellness AOI guidance raised to at least $6.18 billion.",
+      "quote": "In our Pharmacy & Consumer Wellness segment, we now expect full-year adjusted operating income of at least $6.18 billion, an increase of approximately $90 million from our prior guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Enterprise AOI guidance raised to $15.53-$15.87 billion.",
+      "quote": "In aggregate, we now expect full-year enterprise adjusted operating income to be in the range of $15.53 billion to $15.87 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash flow from operations guidance raised to at least $9.5 billion.",
+      "quote": "We are also updating our outlook for full-year cash flow from operations to at least $9.5 billion, reflecting improved underlying performance primarily related to working capital.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our strong first quarter performance gave us the confidence to increase our full-year 2026 adjusted earnings per share guidance... We remain confident that 2026 will be another year of meaningful progress as we continue to deliver on the tremendous amount of earnings opportunity ahead of us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicare Advantage final rate notice insufficient to offset medical cost trends.",
+      "quote": "The final rate notice that came out in April represented a step in the right direction towards greater sustainability, but it remains insufficient to offset underlying medical cost trends.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Health Services segment AOI decreased 7% year-over-year.",
+      "quote": "We delivered adjusted operating income of approximately $1.5 billion in the quarter, a decrease of approximately 7% from the prior-year quarter, primarily driven by continued pharmacy client price improvements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pharmacy & Consumer Wellness segment AOI decreased 9% year-over-year.",
+      "quote": "Adjusted operating income decreased approximately 9% from the prior year to approximately $1.2 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tennessee legislation poses a risk; company evaluating options including legal action.",
+      "quote": "We're disappointed with the direction that Tennessee has chosen... The good news is we have time. It doesn't take effect until the middle of 2028. We're evaluating our options, which include potentially taking legal action like we did in other states.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medical cost trends remain above historical levels.",
+      "quote": "These trends remain above historical levels, and for the past several years have pressured the entire industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of Health100 platform later this year.",
+      "quote": "Later this year, we will be launching Health100, an AI-native, state-of-the-art technology and service platform that allows for any payer, PBM, pharmacy, or provider to seamlessly connect.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Exclusion of branded Stelara from commercial formularies in favor of biosimilars.",
+      "quote": "We recently announced that on July 1, 2026, we will exclude branded Stelara from our commercial template formularies to be replaced with the low-cost effective biosimilars.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Aetna has the fewest medical services subject to prior authorization in the industry.",
+      "quote": "Aetna has the fewest medical services subject to prior authorization in the industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "88% of procedures standardized at Aetna.",
+      "quote": "Aetna is well ahead of the industry standard, with 88% of procedures standardized today.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Oak Street Health driving growth in Health Care Delivery.",
+      "quote": "Total revenues grew over 15% compared to the same quarter last year, primarily driven by Oak Street Health.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CostVantage model neutralized margin pressure on GLP-1s.",
+      "quote": "Our migration to the CostVantage price model has neutralized that. So while we're not losing money, we're not overearning on the category either.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TrueCost model driving transparency.",
+      "quote": "We launched TrueCost over two years ago, which is our PBM offering, where we continue to provide that transparency to our customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance raise is organic, not attributed to one-time items or FX.",
+      "quote": "Our strong first quarter performance gave us the confidence to increase our full-year 2026 adjusted earnings per share guidance... The strength of our results in the first quarter demonstrates the discipline with which we are managing the enterprise.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Aetna has a clear path to target margins by 2028.",
+      "quote": "We see a pathway back to target margins, as you mentioned, by 2028. Our goal remains to get back to target margins as quickly possible.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is clear and organic, but the score of 0.50 reflects a meaningful raise; a reviewer may consider whether the ongoing risks (medical cost trends, Tennessee legislation) warrant a slightly lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CVS_Bundled Earnings Report_2026-05-06",
+  "report_metadata": {
+    "issuer": "p2_cvs_health",
+    "company": "CVS Health",
+    "ticker": "CVS",
+    "sector": "Healthcare/Consumer",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2026-Q1\\CVS-Health-Q1-2026-Earnings-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CVS_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T212611Z",
+    "timestamp": "2026-07-18T21:26:32Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2026-Q1\\CVS-Health-Q1-2026-Earnings-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_cvs_health\\extracted\\CVS_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2026-Q1\\CVS-Health-Q1-2026-Earnings-Transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 75589,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_cvs_health\\extracted\\CVS_FQ1_2026.txt"
+  }
+}

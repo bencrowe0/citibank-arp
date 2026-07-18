@@ -1,0 +1,177 @@
+{
+  "document_id": "GS_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Management raised the pretax margin target for Asset and Wealth Management to 30% (from 25% achieved in 2025) and introduced a new 5% long-term fee-based net inflow target for wealth management, signaling a clear upward shift in forward expectations for that segment. The firm also reaffirmed its mid-teens firm-wide ROE target while stating that near-term catalysts position it to exceed that target. Although the Apple Card transition had a net positive one-time EPS impact, the guidance raise is organic and structural, not attributed to one-time items."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenues of $13.5 billion; full-year 2025 record Global Banking and Markets revenues of $41.5 billion, up 18% year over year.",
+    "eps": "Q4 2025 EPS of $14.01; full-year 2025 EPS of $51.32, a 27% increase versus 2024.",
+    "guidance": "Management reaffirmed mid-teens firm-wide ROE targets and introduced a higher 30% pretax margin target for Asset and Wealth Management (up from 25% in 2025). Also introduced a new 5% long-term fee-based net inflow target for wealth management. Management stated near-term catalysts position the firm to exceed its return target.",
+    "margin": "Asset and Wealth Management pretax margin was 25% for 2025; new medium-term target increased to 30%.",
+    "key_risks": [
+      "Economic growth, policy uncertainty, geopolitical developments, and market volatility are factors the firm continues to monitor closely.",
+      "Potential for an exogenous event or macro event to change sentiment and slow M&A activity.",
+      "NIM compression expected in the Marcus deposit portfolio and private banking/lending due to rate cycle expectations.",
+      "Apple Card portfolio transition will leave only the Apple high-yield savings program remaining; related deposits are a 'small fraction' of total funding base."
+    ],
+    "key_opportunities": [
+      "Highest investment banking backlog in four years, with seventh consecutive quarterly increase, primarily driven by advisory.",
+      "Expectation of accelerating M&A and capital markets activity in 2026, supported by corporate focus on scale, AI investment, and sponsor activity.",
+      "Record $115 billion in alternative fundraising in 2025; target to raise $75-$100 billion annually on a sustainable basis.",
+      "Growth in durable financing revenues (17% CAGR since 2021) and expansion of asset and wealth management margins.",
+      "Regulatory tailwinds: more balanced regulatory regime, potential recalibration of GSIB surcharge and stress capital buffer, freeing capital for growth investments.",
+      "New opportunities in tokenization and prediction markets, with management actively exploring capabilities and partnerships."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "David Solomon stated, 'We are very pleased with our strong performance' and 'we are confident that we will continue to deliver on these [targets]' and that 'our catalysts position us to exceed our return target.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenues were $13.5 billion.",
+      "quote": "In the fourth quarter, we generated revenues of $13.5 billion, earnings per share of $14.01, an ROE of 16%, and an RoTE of 17.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 EPS was $51.32, a 27% increase versus 2024.",
+      "quote": "For the full year, we delivered earnings per share of $51.32, a 27% increase versus last year, and ROE of 15% and ROTE of 16%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Banking and Markets full-year 2025 revenues were a record $41.5 billion, up 18% year over year.",
+      "quote": "Global Banking and Markets produced record revenues of $41.5 billion for the year, up 18% amid broad-based strength versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asset and Wealth Management pretax margin target raised to 30% from 25%.",
+      "quote": "We are increasing our pretax margin target to 30%, which will help drive high-teen returns in AWM over the medium term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New 5% long-term fee-based net inflow target for wealth management introduced.",
+      "quote": "To sharpen our focus on future growth in wealth management, we are introducing a new target of 5% long-term fee-based net inflows annually from the platform.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking backlog is at its highest level in four years, with seventh consecutive quarterly increase.",
+      "quote": "Even with very strong accruals in the fourth quarter, our investment banking backlog rose for a seventh consecutive quarter to a four-year high, primarily driven by advisory.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed mid-teens firm-wide ROE targets and stated near-term catalysts position the firm to exceed them.",
+      "quote": "Given the successful execution against our strategic priorities, we are confident that we will continue to deliver on these. And in the near term, we believe that our catalysts position us to exceed our return target.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Apple Card transition had a net positive impact of $0.46 to EPS and 50 basis points to ROE in the quarter.",
+      "quote": "For the quarter, the transition had a net positive impact of $0.46 to EPS and 50 basis points to ROE, as a $2.3 billion revenue reduction was more than offset by a $2.5 billion reserve release upon moving the portfolio to held for sale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include economic growth, policy uncertainty, geopolitical developments, and market volatility.",
+      "quote": "Economic growth, policy uncertainty, geopolitical developments, and market volatility are factors we continue to monitor closely.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "David Solomon stated, 'We are very pleased with our strong performance' and 'we are confident that we will continue to deliver on these [targets]' and that 'our catalysts position us to exceed our return target.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record $115 billion in alternative fundraising in 2025.",
+      "quote": "Gross third-party fundraising was $45 billion in the fourth quarter and $115 billion for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Durable financing revenues grew at a 17% CAGR since 2021.",
+      "quote": "Since 2021, these have increased at a 17% CAGR.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects NIM compression in the Marcus deposit portfolio.",
+      "quote": "Private banking and lending revenues rose 5% year over year to $776 million, as higher results from lending and deposits related to wealth management clients were partially offset by NIM compression in the Marcus deposit portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Apple Card transition leaves only the Apple high-yield savings program; related deposits are a 'small fraction' of total funding.",
+      "quote": "Management confirmed that the Apple Card portfolio transition will leave only the Apple high-yield savings program remaining and described related deposits as a 'small fraction' of the total funding base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a guidance raise (AWM margin target to 30%) and confident forward language, but the Apple Card one-time EPS benefit could be seen as inflating the quarter's results. A reviewer may want to confirm the organic nature of the guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2026-01-15",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-15",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q4\\GS-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213632Z",
+    "timestamp": "2026-07-18T21:37:21Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q4\\GS-Q4-2025-earnings-call-transcript-MotleyFool.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q4\\GS-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 87195,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ4_2025.txt"
+  }
+}

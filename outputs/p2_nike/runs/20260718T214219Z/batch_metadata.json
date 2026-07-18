@@ -1,0 +1,22 @@
+{
+  "run_id": "20260718T214219Z",
+  "issuer": "p2_nike",
+  "manifest": "C:\\Users\\bencr\\Documents\\Citibank APR\\manifests\\p2_nike_reports.json",
+  "dry_run": false,
+  "skip_extract": false,
+  "consistency_runs": 0,
+  "model": "deepseek-chat",
+  "prompt": "llm_analysis_prompt_template.md",
+  "ensemble": 1,
+  "variant": "",
+  "hold_upper": 0.15,
+  "hold_lower": -0.15,
+  "reports_queued": [
+    "NKE_FQ1_2025",
+    "NKE_FQ2_2025",
+    "NKE_FQ3_2025"
+  ],
+  "failures": 0,
+  "first_run_summary_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\summary\\p2_nike_first_run_summary.csv",
+  "consistency_summary_path": ""
+}

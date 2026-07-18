@@ -1,0 +1,162 @@
+{
+  "document_id": "TSLA_FQ3_2025",
+  "sentiment": {
+    "score": 0.6,
+    "rationale": "The document reports record automotive revenue up 29%, record energy storage deployments and margins, and record free cash flow of about $4B. Forward guidance includes a concrete robotaxi timeline (no safety drivers in parts of Austin by year end) and a substantial capex increase for AI initiatives, indicating raised forward expectations. Tariff impacts of over $400M and rising opex are noted but do not offset the strong operational momentum and forward-looking autonomy catalyst."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Automotive revenue up 29%, with deliveries up across regions (Greater China and APAC +33%, North America +28%, EMEA +25%).",
+    "eps": "Not disclosed",
+    "guidance": "Capex about $9B this year with a substantial increase expected in 2026 for AI initiatives including Optimus. Robotaxi expansion targeted, with safety drivers removed in parts of Austin by year end.",
+    "margin": "Automotive margin excluding credits rose from 15% to 15.4%.",
+    "key_risks": [
+      "Tariff impacts above $400M in the quarter across autos and energy.",
+      "Intensifying competition and cost pressure in energy storage.",
+      "Rising opex from R&D, legal proceedings and AI-linked equity awards."
+    ],
+    "key_opportunities": [
+      "Energy storage set records on deployments, gross profit and margins.",
+      "Robotaxi expansion targeted, with safety drivers removed in parts of Austin by year end.",
+      "AI initiatives including Optimus driving substantial capex increase in 2026."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses high confidence in autonomy, e.g., 'Essentially, 100% confident that we can solve unsupervised full self-driving at a safety level much greater than human' and provides concrete timelines for robotaxi deployment."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Automotive revenue up 29%.",
+      "quote": "Automotive revenue up 29%, with deliveries up across regions (Greater China and APAC +33%, North America +28%, EMEA +25%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Automotive margin excluding credits rose from 15% to 15.4%.",
+      "quote": "Automotive margin excluding credits rose from 15% to 15.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Energy storage set records on deployments, gross profit and margins.",
+      "quote": "Energy storage set records on deployments, gross profit and margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record free cash flow of about $4B.",
+      "quote": "Record free cash flow of about $4B, with cash and investments above $41B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance includes capex about $9B this year with substantial increase expected in 2026 for AI initiatives including Optimus.",
+      "quote": "Capex about $9B this year with a substantial increase expected in 2026 for AI initiatives including Optimus.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robotaxi expansion targeted, with safety drivers removed in parts of Austin by year end.",
+      "quote": "Robotaxi expansion targeted, with safety drivers removed in parts of Austin by year end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff impacts above $400M in the quarter across autos and energy.",
+      "quote": "Total tariff impacts for Q3 for both businesses were in excess of $400 million – Taneja, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intensifying competition and cost pressure in energy storage.",
+      "quote": "Intensifying competition and cost pressure in energy storage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rising opex from R&D, legal proceedings and AI-linked equity awards.",
+      "quote": "Rising opex from R&D, legal proceedings and AI-linked equity awards.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses high confidence in autonomy.",
+      "quote": "Essentially, 100% confident that we can solve unsupervised full self-driving at a safety level much greater than human – Musk, Q&A.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Concrete robotaxi timeline: no safety drivers in parts of Austin by year end.",
+      "quote": "We are expecting to have no safety drivers in at least large parts of Austin by the end of this year – Musk, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.60 is based on the document's forward guidance and record results, but the document also notes tariff impacts and rising opex. A human reviewer should verify that the positive weight on autonomy and cash flow is appropriate relative to the disclosed risks."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS is not disclosed in the document; this may be an omission in the source material."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "TSLA_Bundled Earnings Report_2025-10-22",
+  "report_metadata": {
+    "issuer": "p2_tesla",
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-22",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q3\\20 tesla q3 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TSLA_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T215054Z",
+    "timestamp": "2026-07-18T21:51:07Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q3\\20 tesla q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q3\\20 tesla q3 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6210,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ3_2025.txt"
+  }
+}

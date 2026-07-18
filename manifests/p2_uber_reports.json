@@ -1,0 +1,69 @@
+{
+  "issuer": "p2_uber",
+  "reports": [
+    {
+      "document_id": "UBER_FQ1_2025",
+      "issuer": "p2_uber",
+      "company": "Uber",
+      "ticker": "UBER",
+      "sector": "Technology/Transportation",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-07",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/uber/CY2025-Q1/uber-q1-25-earnings-call-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "UBER_FQ2_2025",
+      "issuer": "p2_uber",
+      "company": "Uber",
+      "ticker": "UBER",
+      "sector": "Technology/Transportation",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-06",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/uber/CY2025-Q2/uber-q2-25-earnings-call-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "UBER_FQ4_2025",
+      "issuer": "p2_uber",
+      "company": "Uber",
+      "ticker": "UBER",
+      "sector": "Technology/Transportation",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-04",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/uber/CY2025-Q4/Uber-Q4-25-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "UBER_FQ1_2026",
+      "issuer": "p2_uber",
+      "company": "Uber",
+      "ticker": "UBER",
+      "sector": "Technology/Transportation",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-06",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/uber/CY2026-Q1/Uber-Q1-26-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

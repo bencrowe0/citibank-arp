@@ -1,0 +1,171 @@
+{
+  "document_id": "DIS_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: DTC profitability is strong and full-year guidance was raised (Hugh: 'raised full year guidance that we saw there'), and the NFL/WWE deals are described as accretive and strategically significant. However, formal FY2026 guidance was deferred to the Q4 call, and management explicitly declined to update prior double-digit EPS growth guidance for FY2026, saying 'if we had something of substance in terms of a change to that, we'd be sharing that with you right now. The fact that we're not sharing with that should tell you that we don't see it as materially different.' This holds back the score from a higher positive level. The score reflects a real inflection in streaming and sports strategy, but with forward guidance held flat for the next fiscal year."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed (no specific revenue figure reported in the transcript).",
+    "eps": "Not disclosed (no specific EPS figure reported in the transcript).",
+    "guidance": "Full-year FY2025 EPS guidance raised to $5.85 (Hugh: 'all of that is considered in the guide that we gave you of $5.85 for the overall company for the year'). FY2026 double-digit EPS growth and low single-digit OI growth at Sports guidance from prior calls remains intact; management declined to update it, saying it is not materially different. DTC margin target of 10% remains, with no update.",
+    "margin": "DTC segment reported 6% operating margins (Peter Supino: 'your DTC segment reported 6% operating margins'). Management stated they do not intend to stop at 10% margin, seeing further opportunity.",
+    "key_risks": [
+      "China consumer per caps stress: 'China, as we've noted on past calls, is a little bit challenged, not so much from an attendance perspective, but from per caps perspective, as there is some stress with the China consumer.'",
+      "Competitive park openings: 'In light of the fact that there's a competitive offering in the marketplace, the fact that attendance came in as well as it did is something that we feel terrific about.'",
+      "Tough comps from Inside Out 2 in Q4: 'we will be overlapping Inside Out 2 from last year, which is obviously a tough comp.'"
+    ],
+    "key_opportunities": [
+      "Full integration of Hulu into Disney+ to lower churn, increase engagement, and improve advertising revenue: 'By creating a differentiated streaming offering, we will be providing subscribers tremendous choice, convenience, quality, and enhanced personalization, while at the same time continuing to grow profitability and margins.'",
+      "ESPN DTC launch on August 21st with enhanced features and NFL deal: 'The enhanced ESPN App will be a sports fan’s dream...' and 'the result of these agreements will give ESPN more games – more NFL games – than they've ever had before.'",
+      "Cruise ship expansion: 'Disney Cruise Line continues to grow, as we prepare for the launch of two new ships later this year... bringing our fleet to a total of eight cruise ships.'",
+      "International DTC growth: 'we probably will invest in very selected markets internationally where we really feel there's a potential to grow our bottom line.'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Bob Iger states 'we are operating from a position of strength and building across our company with a continued focus on quality and innovation' and 'we’re not done building, and we remain optimistic about the company’s trajectory.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year FY2025 EPS guidance was raised to $5.85.",
+      "quote": "Hugh Johnston: 'all of that is considered in the guide that we gave you of $5.85 for the overall company for the year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 double-digit EPS growth and low single-digit OI growth at Sports guidance remains intact; management declined to update it.",
+      "quote": "Hugh Johnston: 'if we had something of substance in terms of a change to that, we'd be sharing that with you right now. The fact that we're not sharing with that should tell you that we don't see it as materially different.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC segment reported 6% operating margins.",
+      "quote": "Peter Supino: 'your DTC segment reported 6% operating margins.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management stated they do not intend to stop at 10% margin, seeing further opportunity.",
+      "quote": "Hugh Johnston: 'we certainly don't intend to stop at 10[%] margin. We think there's still lots of margin opportunity once we hit double digits.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China consumer per caps stress is a risk.",
+      "quote": "Hugh Johnston: 'China, as we've noted on past calls, is a little bit challenged, not so much from an attendance perspective, but from per caps perspective, as there is some stress with the China consumer.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive park openings are a risk.",
+      "quote": "Hugh Johnston: 'In light of the fact that there's a competitive offering in the marketplace, the fact that attendance came in as well as it did is something that we feel terrific about.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tough comps from Inside Out 2 in Q4 are a risk.",
+      "quote": "Hugh Johnston: 'we will be overlapping Inside Out 2 from last year, which is obviously a tough comp.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full integration of Hulu into Disney+ is an opportunity to lower churn, increase engagement, and improve advertising revenue.",
+      "quote": "Bob Iger: 'By creating a differentiated streaming offering, we will be providing subscribers tremendous choice, convenience, quality, and enhanced personalization, while at the same time continuing to grow profitability and margins in our entertainment streaming business through expected higher engagement, lower churn, operational efficiencies, and greater advertising revenue potential.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN DTC launch and NFL deal are opportunities.",
+      "quote": "Bob Iger: 'the result of these agreements will give ESPN more games – more NFL games – than they've ever had before.' and 'The enhanced ESPN App will be a sports fan’s dream...'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cruise ship expansion is an opportunity.",
+      "quote": "Bob Iger: 'Disney Cruise Line continues to grow, as we prepare for the launch of two new ships later this year – the Disney Destiny and the Disney Adventure, our largest ship ever and the first to be docked in Asia – bringing our fleet to a total of eight cruise ships operating around the globe.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International DTC growth is an opportunity.",
+      "quote": "Bob Iger: 'we probably will invest in very selected markets internationally where we really feel there's a potential to grow our bottom line – to grow subs, to grow advertising revenue, and to grow our bottom line.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Bob Iger: 'we are operating from a position of strength and building across our company with a continued focus on quality and innovation' and 'we’re not done building, and we remain optimistic about the company’s trajectory.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No specific revenue figure was reported in the transcript; only qualitative commentary on growth drivers."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "No specific EPS figure was reported in the transcript; only a full-year EPS guidance figure of $5.85."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2025-11-13",
+  "report_metadata": {
+    "issuer": "p2_disney",
+    "company": "Disney",
+    "ticker": "DIS",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-13",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q3\\q3-fy25-earnings-transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DIS_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213543Z",
+    "timestamp": "2026-07-18T21:36:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q3\\q3-fy25-earnings-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_disney\\extracted\\DIS_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q3\\q3-fy25-earnings-transcript.pdf",
+        "page_count": 29,
+        "extracted_characters": 46989,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_disney\\extracted\\DIS_FQ3_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

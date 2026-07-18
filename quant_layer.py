@@ -91,6 +91,22 @@ MANIFESTS = {
     "target": BASE_DIR / "manifests" / "target_reports.json",
 }
 
+# Phase 2: separate human-comparison track (104 quarters humans actually
+# evaluated, ~28 issuers), kept out of the production 6-issuer pipeline above.
+# "p2_" prefix (not suffix) deliberately avoids eval.run_eval._base_issuer()'s
+# f"{known}_" prefix fold for the 6 issuers that also exist in ALL_ISSUERS.
+PHASE2_ISSUERS = [
+    "airbnb", "amazon", "amd", "apple", "cvs_health", "charles_schwab",
+    "citigroup", "coca_cola", "coinbase", "eli_lilly", "goldman_sachs",
+    "ibm", "lowes", "lululemon", "maersk", "mcdonalds", "meta", "nike",
+    "nvidia", "tesla", "uber", "walmart",
+    "bank_of_america", "boeing", "disney", "jpm", "netflix", "target",
+]
+MANIFESTS.update({
+    f"p2_{name}": BASE_DIR / "manifests" / f"p2_{name}_reports.json"
+    for name in PHASE2_ISSUERS
+})
+
 # --- Fixed normalization scales (typical market magnitudes, NOT outcome-fit) ---
 MOMENTUM_WINDOW_DAYS = 21          # ~1 trading month into the print
 MOMENTUM_SCALE = 0.15              # a ~15% monthly move maps to ~tanh(1)
@@ -443,7 +459,10 @@ def score_all_quant(issuer: str) -> list[dict[str, Any]]:
 
 
 def main() -> int:
-    for issuer in MANIFESTS:
+    # bare `python quant_layer.py` (no args) must keep scoring only the original
+    # 6 production issuers, not the phase2 track that got added to MANIFESTS above.
+    default_issuers = ["boeing", "jpm", "netflix", "bank_of_america", "disney", "target"]
+    for issuer in sys.argv[1:] or default_issuers:
         print(f"\n=== {issuer} ===")
         for result in score_all_quant(issuer):
             m = result["quant_metrics"]

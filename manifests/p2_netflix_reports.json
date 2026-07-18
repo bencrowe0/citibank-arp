@@ -1,0 +1,105 @@
+{
+  "issuer": "p2_netflix",
+  "reports": [
+    {
+      "document_id": "NFLX_FQ4_2024",
+      "issuer": "p2_netflix",
+      "company": "Netflix",
+      "ticker": "NFLX",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2024",
+      "report_date": "2025-01-21",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/netflix/phase2/CY2024-Q4/netflix q4 2024 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NFLX_FQ1_2025",
+      "issuer": "p2_netflix",
+      "company": "Netflix",
+      "ticker": "NFLX",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-17",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q1/Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NFLX_FQ2_2025",
+      "issuer": "p2_netflix",
+      "company": "Netflix",
+      "ticker": "NFLX",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-17",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q2/Netflix-Inc-_Earnings-Call_2026-01-20_English-1.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NFLX_FQ3_2025",
+      "issuer": "p2_netflix",
+      "company": "Netflix",
+      "ticker": "NFLX",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-21",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q3/netflix q3 2025 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NFLX_FQ4_2025",
+      "issuer": "p2_netflix",
+      "company": "Netflix",
+      "ticker": "NFLX",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-20",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q4/Netflix Q1-Q4 2025 - Dragos manual baseline.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q4/netflix q4 2025 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NFLX_FQ1_2026",
+      "issuer": "p2_netflix",
+      "company": "Netflix",
+      "ticker": "NFLX",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-16",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/phase2/CY2026-Q1/Netflix-Inc-_Earnings-Call_2026-04-16T00_00_00_English-1.pdf"
+        }
+      ]
+    }
+  ]
+}

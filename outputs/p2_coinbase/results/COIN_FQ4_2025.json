@@ -1,0 +1,180 @@
+{
+  "document_id": "COIN_FQ4_2025",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "Forward guidance was lowered: Q1 2026 transaction revenue guided to about $420M through 10 February, and subscription and services guided down to $550M-$630M on lower crypto prices, rates and rewards. The GAAP net loss of $667M was driven by unrealized crypto losses, and crypto market cap fell 11% in the quarter. Against this, expenses were held flat and full-year volume and share doubled, but the lowered forward guide and cautious language on the outlook push the score slightly negative."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 revenue $1.8B, down 5% quarter over quarter. Full-year 2025 revenue $7.2B, up 9%.",
+    "eps": "Not disclosed",
+    "guidance": "Q1 2026 transaction revenue about $420M through 10 February amid heightened volatility. Q1 subscription and services guided down to $550M to $630M on lower crypto prices, rates and rewards. Expenses held flat quarter over quarter.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Crypto market cap fell 11% in the quarter and the softness is reflected in the subscription guide.",
+      "Brief platform interruptions affected core buy, sell and transfer functions.",
+      "A $718M unrealized loss on the crypto portfolio plus $395M on strategic investments including Circle."
+    ],
+    "key_opportunities": [
+      "Global trading volume and market share both doubled year over year to all-time highs.",
+      "We store 12% of all crypto in the world, more than the next four competitors combined.",
+      "Q4 marked our ninth consecutive quarter of native unit inflows."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management highlights record volume and market share (positive) but also guides subscription revenue lower and acknowledges a GAAP loss and platform interruptions (negative), creating a mixed tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenue was $1.8B, down 5% quarter over quarter.",
+      "quote": "Q4 revenue $1.8B, down 5% quarter over quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue was $7.2B, up 9%.",
+      "quote": "Full-year 2025 revenue $7.2B, up 9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 transaction revenue guided to about $420M through 10 February.",
+      "quote": "Q1 2026 transaction revenue about $420M through 10 February amid heightened volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 subscription and services guided down to $550M to $630M.",
+      "quote": "Q1 subscription and services guided down to $550M to $630M on lower crypto prices, rates and rewards.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expenses held flat quarter over quarter.",
+      "quote": "Expenses held flat quarter over quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Crypto market cap fell 11% in the quarter.",
+      "quote": "Crypto market cap fell 11% in the quarter and the softness is reflected in the subscription guide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brief platform interruptions affected core functions.",
+      "quote": "Brief platform interruptions affected core buy, sell and transfer functions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A $718M unrealized loss on the crypto portfolio plus $395M on strategic investments including Circle.",
+      "quote": "A $718M unrealized loss on the crypto portfolio plus $395M on strategic investments including Circle.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global trading volume and market share both doubled year over year to all-time highs.",
+      "quote": "Global trading volume and market share both doubled year over year to all-time highs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "We store 12% of all crypto in the world, more than the next four competitors combined.",
+      "quote": "We store 12% of all crypto in the world, more than the next four competitors combined.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 marked our ninth consecutive quarter of native unit inflows.",
+      "quote": "Q4 marked our ninth consecutive quarter of native unit inflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net loss was $667M, driven by unrealized crypto losses.",
+      "quote": "GAAP net loss $667M, driven by unrealized crypto losses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with both positive and negative signals.",
+      "quote": "Q4 revenue $1.8B, down 5% quarter over quarter. ... Global trading volume and market share both doubled year over year to all-time highs. ... Q1 subscription and services guided down to $550M to $630M on lower crypto prices, rates and rewards.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance was lowered relative to the prior quarter.",
+      "quote": "Q1 subscription and services guided down to $550M to $630M on lower crypto prices, rates and rewards.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.10 is based on lowered forward guidance and a GAAP loss, but the document also notes record volume and market share. The balance may be debatable; a human reviewer should confirm the weight given to the lowered guide versus the positive volume metrics."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS is not disclosed in the document; the GAAP net loss is given but no per-share figure. This is a notable omission for an earnings report."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "COIN_Bundled Earnings Report_2026-02-12",
+  "report_metadata": {
+    "issuer": "p2_coinbase",
+    "company": "Coinbase",
+    "ticker": "COIN",
+    "sector": "Financials/Crypto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-12",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q4\\09 coinbase q4 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COIN_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213514Z",
+    "timestamp": "2026-07-18T21:35:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q4\\09 coinbase q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q4\\09 coinbase q4 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6323,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ4_2025.txt"
+  }
+}

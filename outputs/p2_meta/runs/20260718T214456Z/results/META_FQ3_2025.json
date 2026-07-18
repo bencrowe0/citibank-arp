@@ -1,0 +1,173 @@
+{
+  "document_id": "META_FQ3_2025",
+  "sentiment": {
+    "score": -0.45,
+    "rationale": "Forward guidance on costs is negative: capex raised to $70B-$72B for 2025 and flagged as 'notably larger' in 2026, while full-year expenses guided to $116B-$118B. Revenue guidance for Q4 2025 ($56B-$59B) is not compared to prior guidance, so it does not offset the cost concern. The one-time tax charge is a structural risk due to new US tax law, not a one-off, and regulatory/litigation risks are structural. The score is negative because the forward cost outlook is worse than previously signaled, and structural risks are disclosed."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$51.2B, up 26% year over year. Family of Apps revenue $50.8B, up 26%. Reality Labs $470M, up 74%.",
+    "eps": "Reported $1.05 EPS after a one-time tax charge. Excluding it, $7.25 EPS.",
+    "guidance": "Q4 2025 revenue guided to $56B to $59B. 2025 capex raised to $70B to $72B, and capex dollar growth in 2026 flagged as notably larger. Full-year 2025 expenses $116B to $118B.",
+    "margin": "Operating margin 40%.",
+    "key_risks": [
+      "EU regulatory risk, with the Commission possibly imposing further changes that could have a significant negative impact.",
+      "US youth-safety litigation with trials scheduled for 2026 that may result in a material loss.",
+      "Elevated tax rate from the one-time deferred tax asset reduction under the new US tax law."
+    ],
+    "key_opportunities": [
+      "Impression growth was healthy across all regions driven by engagement.",
+      "Reality Labs revenue up 74%."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in revenue growth ('We’re really able to continue to grow the absolute dollars of revenue growth') but also signals aggressive spending ('We are sort of perennially operating . . . in a compute starved state'), creating a mixed tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $51.2B, up 26% year over year.",
+      "quote": "Revenue $51.2B, up 26% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $1.05 after a one-time tax charge; excluding it, $7.25 EPS.",
+      "quote": "Reported net income $2.7B ($1.05 EPS) after a one-time tax charge. Excluding it, $18.6B ($7.25 EPS).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue guided to $56B to $59B.",
+      "quote": "Q4 2025 revenue guided to $56B to $59B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 capex raised to $70B to $72B, and capex dollar growth in 2026 flagged as notably larger.",
+      "quote": "2025 capex raised to $70B to $72B, and capex dollar growth in 2026 flagged as notably larger.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 expenses guided to $116B to $118B.",
+      "quote": "Full-year 2025 expenses $116B to $118B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 40%.",
+      "quote": "Operating margin 40%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EU regulatory risk could have a significant negative impact.",
+      "quote": "EU regulatory risk, with the Commission possibly imposing further changes that could have a significant negative impact.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US youth-safety litigation with trials in 2026 may result in a material loss.",
+      "quote": "US youth-safety litigation with trials scheduled for 2026 that may result in a material loss.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Elevated tax rate from the one-time deferred tax asset reduction under new US tax law.",
+      "quote": "The elevated tax rate from the one-time deferred tax asset reduction under the new US tax law.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Impression growth was healthy across all regions driven by engagement.",
+      "quote": "Impression growth was healthy across all regions driven by engagement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reality Labs revenue up 74%.",
+      "quote": "Reality Labs $470M, up 74%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident on revenue growth but aggressive on spending.",
+      "quote": "We’re really able to continue to grow the absolute dollars of revenue growth – Li, Q&A. We are sort of perennially operating . . . in a compute starved state – Zuckerberg, Q&A.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sentiment score is negative due to forward cost guidance and structural risks.",
+      "quote": "What drags the score is the optics, a one-time tax charge crushing reported EPS, another capex raise and a promise that 2026 spending grows notably larger.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The document's own worksheet scored sentiment at +0.45, but the task's forward-guidance framework yields a negative score because the capex raise and structural risks dominate. Human reviewer should verify the score is consistent with the task's scoring rules."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Q4 2025 revenue guidance is stated but not compared to prior guidance, so it is unclear if it represents a raise, hold, or cut. Human reviewer should check if prior guidance is available externally."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "META_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_meta",
+    "company": "Meta",
+    "ticker": "META",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q3\\14 meta q3 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "META_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214456Z",
+    "timestamp": "2026-07-18T21:45:10Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q3\\14 meta q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q3\\14 meta q3 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6205,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ3_2025.txt"
+  }
+}

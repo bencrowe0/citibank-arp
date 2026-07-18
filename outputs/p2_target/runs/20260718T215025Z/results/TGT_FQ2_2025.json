@@ -1,0 +1,211 @@
+{
+  "document_id": "TGT_FQ2_2025",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "Full-year guidance was maintained (not raised) at GAAP EPS of $8 to $10 and adjusted EPS of $7 to $9, with management explicitly citing 'highly volatile and uncertain environment' and taking a 'cautious approach' for the back half. Q2 results showed sequential improvement (comp sales -1.9% vs -3.9% in Q1) but still negative, and EPS declined year-over-year ($2.05 vs $2.57). The tone is cautiously optimistic about progress but far from satisfied, with no upward revision to forward expectations."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales were down 0.9% from a year ago; comparable sales were down 1.9%.",
+    "eps": "GAAP and adjusted EPS of $2.05 in Q2 compared with $2.57 a year ago.",
+    "guidance": "Maintaining full year guidance: low single-digit decline in comparable sales, GAAP EPS of $8 to $10, adjusted EPS of approximately $7 to $9.",
+    "margin": "Q2 gross margin rate was 1 percentage point lower than a year ago, driven by ~210 bps of merchandising pressure (inventory adjustment costs and tariff-related costs) partially offset by ~130 bps of benefit from lower shrink.",
+    "key_risks": [
+      "Tariff environment remains challenging and highly uncertain, with potential for further policy changes.",
+      "Consumer spending pressure due to inflation and uncertainty around tariffs.",
+      "Current performance is far short of aspirations; negative comparable sales in Q2.",
+      "Inventory adjustment costs and tariff-related costs impacted Q2 earnings significantly.",
+      "Uncertainty in the back half of the year, leading to cautious guidance maintenance."
+    ],
+    "key_opportunities": [
+      "Sequential improvement in traffic and comp trends from Q1 to Q2, particularly in stores.",
+      "Strong performance in FUN 101 (hardlines) with 5%+ comp growth, driven by trading cards and Nintendo Switch 2.",
+      "Digital channel comparable sales grew 4.3%, with same-day delivery via Target Circle 360 growing more than 25%.",
+      "Roundel, Target Plus, and membership all delivered double-digit growth.",
+      "Back-to-school and back-to-college seasons off to encouraging starts.",
+      "New Champion for Target collaboration showing better-than-expected initial sales.",
+      "Enterprise Acceleration Office focused on removing barriers and improving speed and agility.",
+      "AI deployment: more than 10,000 new AI licenses deployed since last earnings call.",
+      "Shrink improvement expected to provide ~80 bps of operating margin rate benefit for the full year."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses cautious optimism about sequential progress ('we saw clear indications of progress') but repeatedly states dissatisfaction ('we are far from satisfied with where our business is performing today') and maintains a cautious forward outlook ('we believe it's prudent to maintain a cautious approach in the back half of the year')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year guidance was maintained (not raised) at GAAP EPS of $8 to $10 and adjusted EPS of $7 to $9.",
+      "quote": "Looking ahead, we're maintaining our full year guidance, which anticipates a low single-digit decline in our comparable sales, GAAP EPS of $8 to $10 and adjusted EPS of approximately $7 to $9.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management explicitly cites a 'highly volatile and uncertain environment' and takes a 'cautious approach' for the back half.",
+      "quote": "While our Q2 performance reinforced our confidence that we can deliver on that guidance, we're still facing a highly volatile and uncertain environment and believe it's prudent to maintain a cautious approach in the back half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 comparable sales were down 1.9%, a nearly 2-percentage-point improvement from Q1.",
+      "quote": "In total, for the second quarter, comparable sales were down 1.9%, a nearly 2-percentage-point improvement to Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net sales were down 0.9% from a year ago.",
+      "quote": "In the second quarter, net sales were down 0.9% from a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP and adjusted EPS was $2.05 in Q2 compared with $2.57 a year ago.",
+      "quote": "At the bottom of the P&L, the business generated GAAP and adjusted EPS of $2.05 in the second quarter compared with $2.57 a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 gross margin rate was 1 percentage point lower than a year ago.",
+      "quote": "Our second quarter gross margin rate was 1-percentage-point lower than a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin pressure was driven by ~210 bps of merchandising pressure partially offset by ~130 bps of shrink benefit.",
+      "quote": "This decline was primarily the result of about 210 basis points of pressure within merchandising, reflecting inventory adjustment costs related to the slowdown in our first quarter sales combined with the tariff-related pressures including purchase order cancellation costs. These pressures were partially offset by improvements in inventory shrink worth about 130 basis points of benefit in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff environment remains challenging and highly uncertain.",
+      "quote": "While the tariff environment remains challenging and highly uncertain -- the team has made significant progress in mitigating their impact on the P&L, while maintaining our focus on value by limiting the impact on our pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Current performance is far short of aspirations; negative comparable sales in Q2.",
+      "quote": "While our current performance is far short of our aspirations, we are pleased with the sequential improvement we saw across each of our six core categories from the first to second quarter, led primarily by improvements in store traffic trends.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FUN 101 (hardlines) delivered 5%+ comp growth, driven by trading cards and Nintendo Switch 2.",
+      "quote": "In Q2, performance was led by Fun 101, our updated approach to bringing greater style and cultural relevance to our hardlines assortment. With this new approach, we saw growth of more than 5% in Q2, our strongest quarterly comp in this category since 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital channel comparable sales grew 4.3%, with same-day delivery via Target Circle 360 growing more than 25%.",
+      "quote": "Sales trends were strongest in the digital channel, where comparable sales grew 4.3% with notable strength in same-day delivery powered by Target Circle 360, which grew more than 25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Roundel, Target Plus, and membership all delivered double-digit growth.",
+      "quote": "And within our non-merchandise sales, Roundel, Target Plus and membership all delivered double-digit growth compared with last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Back-to-school and back-to-college seasons are off to encouraging starts.",
+      "quote": "While a lot of the season is still ahead of us, both back-to-school and back to college are off to encouraging starts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New Champion for Target collaboration showing better-than-expected initial sales.",
+      "quote": "Having launched just over a week ago, early signs suggest this is going to be very popular with our guests and initial sales trends are better than we originally expected, including more than 500 stylish sports-inspired items across apparel, accessories, footwear and sporting goods for kids through adults, this collection is designed exclusively for Target and blends Champion's iconic heritage with the modern design and premium fabrics consumers expect from Target.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Enterprise Acceleration Office focused on removing barriers and improving speed and agility.",
+      "quote": "Included in this work is the Enterprise Acceleration Office that we launched last quarter and which Michael will continue to lead. The team is building out specific plans to address the attributes of our working model that slow us down in an environment that demands more speed and agility than ever before.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI deployment: more than 10,000 new AI licenses deployed since last earnings call.",
+      "quote": "Since our last earnings call, we've deployed more than 10,000 new AI licenses across our team, and there's more to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shrink improvement expected to provide ~80 bps of operating margin rate benefit for the full year.",
+      "quote": "For the full year, we continue to expect about 80 basis points of operating margin rate benefit from lower shrink, which when combined with the 40 basis points of benefit last year, will bring this year's shrink rate down to pre-pandemic levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses cautious optimism about sequential progress but states dissatisfaction.",
+      "quote": "While we are far from satisfied with this performance, we were encouraged to see improvements in our share performance in the latter part of the quarter, giving us confidence that trends have stabilized and are positioned to move in the right direction.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management maintains a cautious forward outlook.",
+      "quote": "While our Q2 performance reinforced our confidence that we can deliver on that guidance, we're still facing a highly volatile and uncertain environment and believe it's prudent to maintain a cautious approach in the back half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is 0.00 despite sequential improvement in comps and some positive operational momentum. The guidance was maintained, not raised, and management explicitly cautious. Reviewer should confirm that the lack of a guidance raise and cautious tone justify a neutral score rather than a slightly positive one."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2025-08-20",
+  "report_metadata": {
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q2\\2025-august-20-tgt-transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TGT_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T215025Z",
+    "timestamp": "2026-07-18T21:51:07Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q2\\2025-august-20-tgt-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q2\\2025-august-20-tgt-transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 71223,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ2_2025.txt"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "document_id": "TGT_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Guidance was reduced: adjusted EPS guidance was lowered to $7-$9 from a prior range (not explicitly stated in this document but implied as lower than previous expectations). Sales guidance was set at low single-digit decline for the full year, reflecting continued top-line pressure. Management explicitly stated they are 'not satisfied' with performance and described the environment as 'exceptionally challenging' with multiple headwinds including tariffs and declining consumer confidence. The cautious forward outlook and explicit guidance reduction drive a clearly bearish sentiment."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q1 net sales down 2.8%, comparable sales decline of 3.8% (traffic -2.4%, average ticket -1.4%).",
+    "eps": "Q1 GAAP EPS $2.27 (includes $0.97 benefit from litigation settlement). Adjusted EPS $1.30 vs $2.03 last year.",
+    "guidance": "Full-year adjusted EPS guidance updated to $7-$9 (from prior range, not explicitly stated). Full-year sales expected low single-digit decline. GAAP EPS guidance $8-$10.",
+    "margin": "Q1 gross margin rate 28.2%, down ~60 bps YoY. Operating margin rate 6.2% (includes ~250 bps benefit from legal settlements).",
+    "key_risks": [
+      "Continued top-line pressure expected in near term",
+      "Tariff uncertainty and potential impact on costs and pricing",
+      "Declining consumer confidence",
+      "Inventory up 11% over last year due to slower sales, leading to markdowns and receipt adjustment costs",
+      "Uncertainty regarding economy and consumer spending"
+    ],
+    "key_opportunities": [
+      "Mid-single-digit growth in first-party digital business, led by 36% growth in same-day delivery (Target Circle 360)",
+      "Double-digit growth in Roundel (retail ad business) and Target Plus (third-party marketplace)",
+      "Progress on inventory shrink, rates moderating from extreme levels",
+      "Strong returns on store remodels (2-4% comp lift in year following remodel)",
+      "Successful limited-time design partnership with Kate Spade (strongest in a decade)",
+      "Nintendo Switch 2 launch expected to drive traffic"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly stated they are 'not satisfied' with performance, described the environment as 'exceptionally challenging,' and adopted a 'prudent' planning approach expecting continued pressure, while also highlighting bright spots and confidence in long-term strategy."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 net sales down 2.8%, comparable sales decline of 3.8%",
+      "quote": "Sales declined 2.8% as a comparable sales decline of 3.8% was partially offset by the benefit of new store sales and double-digit growth in nonmerchandise sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 GAAP EPS $2.27, adjusted EPS $1.30 vs $2.03 last year",
+      "quote": "First quarter GAAP EPS was $2.27 and included $0.97 of benefit from the favorable resolution of interchange fee litigation for which we were the plaintiff. Adjusted EPS, which excludes that $0.97 benefit, was $1.30 compared to $2.03 last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS guidance updated to $7-$9",
+      "quote": "Altogether, we've updated our adjusted EPS guidance to an expected range of about $7 to $9 for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year sales expected low single-digit decline",
+      "quote": "For the full year, we believe it's prudent to plan for a low single-digit decline in our sales in line with our first quarter performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 gross margin rate 28.2%, down ~60 bps YoY",
+      "quote": "On the gross margin line, our Q1 rate of 28.2% was about 60 basis points lower than last year, reflecting about 1 point of pressure in merchandising driven primarily by higher markdowns, along with about 80 basis points of pressure from digital fulfillment and supply chain, partially offset by about 120 basis points of favorability from lower inventory shrink.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin rate 6.2% (includes ~250 bps benefit from legal settlements)",
+      "quote": "Altogether, our Q1 operating margin rate was 6.2%, including about 250 basis points of benefit from the legal settlements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious",
+      "quote": "I want to be clear that we're not satisfied with this performance, and we're moving with urgency to navigate through this period of volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: continued top-line pressure expected in near term",
+      "quote": "In planning for the remainder of the year, we believe it's prudent to expect that current top line pressures will continue in the near term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: tariff uncertainty",
+      "quote": "This wider range reflects the expected impact of tariffs and heightened uncertainty regarding the economy and consumer spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: declining consumer confidence",
+      "quote": "we faced several additional headwinds this quarter, including five consecutive months of declining consumer confidence, uncertainty regarding the impact of potential tariffs and the reaction to the updates we shared on belonging in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: inventory up 11% over last year, leading to markdowns",
+      "quote": "One additional note on inventory, which was up 11% over last year, given slower-than-expected sales, we are taking actions to right size inventory, which put some profit pressure on the business in Q1 and will likely lead to some incremental markdowns and receipt adjustment costs in the second quarter as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: digital growth led by same-day delivery",
+      "quote": "we saw mid-single-digit growth in our first-party digital business this quarter, led by 36% growth in same-day delivery powered by Target Circle 360.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: double-digit growth in Roundel and Target Plus",
+      "quote": "they also fuel the growth of profitable services like Roundel, our retail ad business; and Target Plus, our third-party digital marketplace, both of which saw double-digit growth in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: progress on inventory shrink",
+      "quote": "Progress on inventory shrink was another bright spot in the quarter as rates continue to moderate from extreme levels we encountered in 2022 and 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: strong returns on store remodels",
+      "quote": "for the store remodels we've completed in recent years, we've seen strong comp lifts following the completion of these projects of 2% to 4% in the year following a remodel and a nearly 3% incremental lift in year two as well",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: successful Kate Spade partnership",
+      "quote": "sales results from the Kate Spade partnership were the strongest we've seen in a decade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Nintendo Switch 2 launch",
+      "quote": "Given our strong affinity with the Nintendo brand, we're excited for this summer's arrival of the Nintendo Switch 2. We're one of the top retailers in the US for this launch",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance was reduced (adjusted EPS lowered)",
+      "quote": "Altogether, we've updated our adjusted EPS guidance to an expected range of about $7 to $9 for the full year. This wider range reflects the expected impact of tariffs and heightened uncertainty regarding the economy and consumer spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The prior adjusted EPS guidance range was not explicitly stated in the document, so the magnitude of the reduction is inferred from context. A human reviewer should confirm the prior guidance to validate the score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2025-05-21",
+  "report_metadata": {
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q1\\2025-May-21-TGT-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TGT_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T215025Z",
+    "timestamp": "2026-07-18T21:50:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q1\\2025-May-21-TGT-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q1\\2025-May-21-TGT-Transcript.pdf",
+        "page_count": 16,
+        "extracted_characters": 68568,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ1_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

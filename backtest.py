@@ -184,7 +184,7 @@ def _num(x):
         return None
 
 
-def load_sheet_predictions(path: Path):
+def load_sheet_predictions(path: Path, calibration_csv: Path = CALIBRATION_CSV):
     """Load predictions from a CSV/TSV export of the group sheet. Expected columns
     (case-insensitive, extra columns ignored): Ticker, Year, Quarter, Rater,
     Type (Human/LM), Decision (BUY/HOLD/SELL), Prior Close ($), Next Day Open ($).
@@ -193,7 +193,7 @@ def load_sheet_predictions(path: Path):
     delim = "\t" if path.suffix.lower() in (".tsv", ".txt") else ","
     # build (ticker, year, quarter) -> report_date from the calibration CSV
     date_lookup = {}
-    with open(CALIBRATION_CSV, encoding="utf-8") as fh:
+    with open(calibration_csv, encoding="utf-8") as fh:
         for r in csv.DictReader(fh):
             did = r["document_id"]  # e.g. BA_FQ1_2025
             parts = did.split("_")
@@ -312,18 +312,24 @@ def parse_args() -> argparse.Namespace:
                     help="Extra per-night borrow cost on SELL trades (default 0).")
     ap.add_argument("--sensitivity", action="store_true",
                     help="Print total return of the LLM across several cost levels.")
+    ap.add_argument("--calibration-csv", type=Path, default=CALIBRATION_CSV,
+                    help="Alternate global_outcome_calibration.csv (e.g. a phase2/"
+                    "variant-track run) instead of the production default.")
+    ap.add_argument("--equity-csv", type=Path, default=EQUITY_CSV,
+                    help="Alternate output path for the equity curve CSV, so an "
+                    "alternate-track run never overwrites the production one.")
     return ap.parse_args()
 
 
 def main() -> int:
     args = parse_args()
-    llm = list(llm_predictions())
+    llm = list(llm_predictions(args.calibration_csv))
 
     named = {}
     named["LLM (DeepSeek)"] = simulate(llm, args.cost_bps, args.short_borrow_bps)
 
     if args.sheet:
-        for rater, preds in by_rater(load_sheet_predictions(args.sheet)).items():
+        for rater, preds in by_rater(load_sheet_predictions(args.sheet, args.calibration_csv)).items():
             # skip an LM row in the sheet - we already score the LLM from the calibration CSV
             if preds and preds[0].kind.upper() in ("LM", "LLM"):
                 continue
@@ -338,7 +344,7 @@ def main() -> int:
     report(named, args.cost_bps, args.short_borrow_bps)
     print("\nlegend: C/F/W = correct-direction / bet-on-a-flat / wrong-direction trades;"
           " wrongP&L = P&L from the wrong-direction bets only.")
-    write_equity_csv(named)
+    write_equity_csv(named, args.equity_csv)
 
     if args.sensitivity:
         print("\n=== LLM total return vs round-trip cost ===")

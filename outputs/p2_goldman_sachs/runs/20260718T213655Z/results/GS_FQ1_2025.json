@@ -1,0 +1,241 @@
+{
+  "document_id": "GS_FQ1_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports strong Q1 results (EPS $14.12 vs. expectations $12.32, net revenues $15.1B) and a record $40B share repurchase authorization, but forward guidance is not formally raised. Management expresses caution about the macroeconomic environment, noting 'the prospect of a recession has increased' and 'uncertainty around the path forward' has constrained client decisions. The backlog is up for the fourth consecutive quarter, but execution depends on market conditions. The score is mildly positive due to the strong quarter and capital return, but tempered by cautious forward language and no explicit guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues of $15.1 billion for Q1 2025.",
+    "eps": "Earnings per share of $14.12, beating expectations of $12.32.",
+    "guidance": "Not formally raised. Backlog up for fourth consecutive quarter, but execution dependent on market conditions. Full-year tax rate expected approximately 21%. Expect high single-digit annual growth in durable revenues (Management and other fees and Private banking and lending) over time. Expect progress on $1 billion annual incentive fees over medium term. Fundraising expected to be in line with recent years, though could be impacted by market conditions.",
+    "margin": "ROE of 16.9%, ROTE of 18%. Global Banking & Markets ROE over 20%. AWM pre-tax margin 21%, ROE roughly 10%. Efficiency ratio 60.6%. Compensation ratio net of provisions 33%.",
+    "key_risks": [
+      "Prospect of recession has increased with growing indications of economic slowing around the world.",
+      "Uncertainty around trade policy and the path forward constraining client decisions.",
+      "Market volatility likely to continue until further clarity on policies.",
+      "Execution on backlog dependent on market conditions.",
+      "Potential impact of market conditions on fundraising outlook.",
+      "Credit card portfolio net charge-offs partially offset by seasonal paydowns."
+    ],
+    "key_opportunities": [
+      "Record assets under supervision of $3.2 trillion, 29th consecutive quarter of long-term fee-based net inflows.",
+      "Alternatives fundraising of $19 billion in the quarter, total $342 billion since 2019.",
+      "Wealth Management revenue grew 11% year-over-year to $2.2 billion, client assets record $1.6 trillion.",
+      "Record FICC financing revenues of $1 billion, record equities financing revenues of $1.6 billion.",
+      "Record common stock repurchases of $4.4 billion and new $40 billion multi-year share repurchase program.",
+      "Backlog up for fourth consecutive quarter, driven by notable increase in advisory.",
+      "Potential regulatory tailwinds from SLR reform, Basel III, CCAR transparency, and supervisory changes.",
+      "AI adoption expected to drive further efficiencies."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the firm's positioning and results ('we produced very strong results') but also explicitly cautions about the macroeconomic outlook ('the prospect of a recession has increased', 'uncertainty around the path forward')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues were $15.1 billion for Q1 2025.",
+      "quote": "In the first quarter, we generated net revenues of $15.1 billion, earnings per share of $14.12, an ROE of 16.9% and an ROTE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $14.12, beating expectations of $12.32.",
+      "quote": "The Goldman Sachs Group, Inc. beats earnings expectations. Reported EPS is $14.12, expectations were $12.32.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backlog is up for the fourth consecutive quarter.",
+      "quote": "As we stand today, our client dialogues remain elevated and our backlog is up for the fourth consecutive quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Execution on the backlog is dependent on market conditions.",
+      "quote": "That being said, our ability to execute on these transactions will, of course, be dependent on market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The prospect of a recession has increased.",
+      "quote": "The prospect of a recession has increased with growing indications that economic activity is slowing down around the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertainty around trade policy is constraining client decisions.",
+      "quote": "This uncertainty around the path forward and fears over the potentially escalating effects of the trade war have created material risks to the US and global economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record assets under supervision of $3.2 trillion.",
+      "quote": "This quarter, our assets under supervision rose to a record of $3.2 trillion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Alternatives fundraising was $19 billion in the quarter.",
+      "quote": "We raised another $19 billion in the quarter, bringing our total fundraising of alternatives since 2019 to $342 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth Management revenue grew 11% year-over-year to $2.2 billion.",
+      "quote": "Total Wealth Management revenue grew 11% year-over-year to $2.2 billion, while client assets reached another record of $1.6 trillion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record FICC financing revenues of $1 billion.",
+      "quote": "We produced record FICC financing revenues of $1 billion, driven by solid performance in mortgages and structured lending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record equities financing revenues of $1.6 billion.",
+      "quote": "Record equities financing revenues of $1.6 billion were higher year-over-year on better portfolio financing results and record average prime balances for the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record common stock repurchases of $4.4 billion.",
+      "quote": "In the quarter, we returned $5.3 billion to common shareholders, including record common stock repurchases of $4.4 billion and common stock dividends of $976 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New $40 billion multi-year share repurchase program authorized.",
+      "quote": "Importantly, our Board recently authorized a multi-year share repurchase program of up to $40 billion, providing us increased capital management flexibility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE was 16.9%, ROTE was 18%.",
+      "quote": "In the first quarter, we generated net revenues of $15.1 billion, earnings per share of $14.12, an ROE of 16.9% and an ROTE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Banking & Markets ROE over 20%.",
+      "quote": "Global Banking & Markets produced revenues of $10.7 billion in the first quarter and generated an ROE of over 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM pre-tax margin 21%, ROE roughly 10%.",
+      "quote": "In the AWM segment, we generated 21% pre-tax margin and roughly 10% ROE.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio 60.6%.",
+      "quote": "Total quarterly operating expenses were $9.1 billion, resulting in an efficiency ratio of 60.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Compensation ratio net of provisions was 33%.",
+      "quote": "Our compensation ratio net of provisions, was 33%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year tax rate expected approximately 21%.",
+      "quote": "For the full year, we expect a tax rate of approximately 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect high single-digit annual growth in durable revenues over time.",
+      "quote": "We continue to expect high single-digit annual growth in these lines over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect progress on $1 billion annual incentive fees over medium term.",
+      "quote": "We expect to make progress on our target of $1 billion in annual incentive fees over the medium term, supported by an estimated $4.1 billion of unrecognized incentive fees as of year-end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fundraising expected to be in line with recent years, though could be impacted by market conditions.",
+      "quote": "We continue to expect fundraising to be in line with recent years, though this outlook could be impacted by market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit card portfolio net charge-offs partially offset by seasonal paydowns.",
+      "quote": "Our provision for credit losses of $287 million, primarily reflects net provisions related to the credit card portfolio, which were driven by net charge-offs, partially offset by releases following a seasonal paydown of card balances.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident in results but cautious on outlook.",
+      "quote": "In a highly dynamic environment, we produced very strong results. ... The prospect of a recession has increased with growing indications that economic activity is slowing down around the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is mildly positive (0.10) but the document contains both strong backward-looking results and cautious forward language. A reviewer may wish to assess whether the caution should weigh more heavily, potentially lowering the score toward 0.0."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2025-04-14",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213655Z",
+    "timestamp": "2026-07-18T21:37:10Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 69233,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ1_2025.txt"
+  }
+}

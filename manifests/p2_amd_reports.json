@@ -1,0 +1,53 @@
+{
+  "issuer": "p2_amd",
+  "reports": [
+    {
+      "document_id": "AMD_FQ2_2025",
+      "issuer": "p2_amd",
+      "company": "AMD",
+      "ticker": "AMD",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-05",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amd/CY2025-Q2/05 amd q2 2025 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "AMD_FQ4_2025",
+      "issuer": "p2_amd",
+      "company": "AMD",
+      "ticker": "AMD",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-03",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amd/CY2025-Q4/06 amd q4 2025 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "AMD_FQ1_2026",
+      "issuer": "p2_amd",
+      "company": "AMD",
+      "ticker": "AMD",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-05",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amd/CY2026-Q1/04 amd q1 2026 david.pdf"
+        }
+      ]
+    }
+  ]
+}

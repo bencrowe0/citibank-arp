@@ -1,0 +1,246 @@
+{
+  "document_id": "BAC_FQ4_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports strong full-year 2025 results (net income $30.5B, EPS +19% YoY) and provides explicit 2026 guidance: NII (FTE) expected to grow 5% to 7% YoY, operating leverage of ~200 bps, and 1Q26 NII up ~7% YoY. This constitutes a meaningful forward guidance raise relative to the prior year's performance. Management tone is confident ('bullish on the U.S. economy in 2026'). However, the guidance is conditional on the January 9, 2026 forward curve materializing, and the document also notes a 100 bps rate shock could reduce NII by $2.0B over 12 months, introducing some uncertainty. The score is positive but tempered by these dependencies."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FY2025 total revenue, net of interest expense, was $113.1B, up 7% YoY. 4Q25 revenue was $28.4B, up 7% YoY.",
+    "eps": "FY2025 diluted EPS was $3.81, up 19% YoY. 4Q25 diluted EPS was $0.98, up 18% YoY.",
+    "guidance": "Expect FY26 NII (FTE) to grow 5% to 7% YoY. Expect 1Q26 NII (FTE) up ~7% YoY. Expect to deliver ~200 bps of operating leverage in 2026. Expect 1Q26 operating leverage with noninterest expense up ~4% YoY. Expect other income of $100MM to $300MM per quarter. Expect FY26 effective tax rate of ~20%.",
+    "margin": "FY2025 efficiency ratio improved to 62% from 63% in 2024. 4Q25 efficiency ratio improved to 61% from 63% in 4Q24. FY2025 ROA was 0.89% (up 7 bps YoY), ROE was 10.6% (up 106 bps YoY), ROTCE was 14.2% (up 128 bps YoY).",
+    "key_risks": [
+      "100 bps parallel shift below the December 31, 2025 forward interest rate yield curve is estimated to reduce net interest income relative to the baseline forecast by $2.0B over the next 12 months.",
+      "Forward-looking statements are subject to risks including interest rate fluctuations, inflation, trade policies, geopolitical instability, and potential credit losses higher than expected.",
+      "The CET1 ratio decreased to 11.4% from 11.6% in 3Q25, partly due to a change in accounting method.",
+      "Nonperforming loans increased $0.5B from 3Q25 to $5.8B."
+    ],
+    "key_opportunities": [
+      "Expect FY26 NII (FTE) to grow 5% to 7% YoY, driven by fixed-rate asset repricing and deposit and loan growth.",
+      "Record sales and trading revenue in 2025, with 15 consecutive quarters of YoY growth.",
+      "Consumer investment assets of $599B, up 16% YoY, with $19B in net client flows since 4Q24.",
+      "Average loans grew 8% YoY in 4Q25, with growth across every business segment.",
+      "CEO Brian Moynihan stated: 'we are bullish on the U.S. economy in 2026.'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated: 'we are bullish on the U.S. economy in 2026' and 'we feel confident in our ability to maintain this momentum in 2026 and beyond.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FY2025 total revenue was $113.1B, up 7% YoY.",
+      "quote": "Revenue $113.1B4 +7% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 diluted EPS was $3.81, up 19% YoY.",
+      "quote": "Full-Year 2025 Net Income of $30.5 Billion; EPS of $3.81, Up 19% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "4Q25 revenue was $28.4B, up 7% YoY.",
+      "quote": "Total revenue, net of interest expense $28.4 $29.0 ($0.7) (2) % $26.5 $1.9 7 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "4Q25 diluted EPS was $0.98, up 18% YoY.",
+      "quote": "Diluted earnings per share $0.98 $1.04 ($0.06) (6) $0.83 $0.15 18",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 NII (FTE) guidance: 5% to 7% YoY growth.",
+      "quote": "Expect FY26 NII (FTE) to grow 5% to 7% YoY1",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "1Q26 NII (FTE) guidance: up ~7% YoY.",
+      "quote": "Expect 1Q26 NII (FTE) up ~7% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect ~200 bps of operating leverage in 2026.",
+      "quote": "Expect to deliver ~200 bps of operating leverage in 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 efficiency ratio improved to 62% from 63%.",
+      "quote": "Efficiency ratio 62% improved 146 bps YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "4Q25 efficiency ratio improved to 61% from 63%.",
+      "quote": "Efficiency ratio improved 194 bps to 61%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 ROA was 0.89%, up 7 bps YoY.",
+      "quote": "0.89% ROA +7 bps YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 ROE was 10.6%, up 106 bps YoY.",
+      "quote": "10.6% ROE +106 bps YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 ROTCE was 14.2%, up 128 bps YoY.",
+      "quote": "14.2% ROTCE8 +128 bps YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "100 bps rate shock could reduce NII by $2.0B over 12 months.",
+      "quote": "100 bps parallel shift below the December 31, 2025, forward interest rate yield curve is estimated to reduce net interest income relative to the baseline forecast by $2.0B over the next 12 months2",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio decreased to 11.4% from 11.6% in 3Q25.",
+      "quote": "CET1 ratio of 11.4% decreased 23 bps vs. 3Q253 (-12 bp impact from change in accounting method)4",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nonperforming loans increased $0.5B from 3Q25 to $5.8B.",
+      "quote": "Nonperforming loans of $5.8B increased $0.5B from 3Q25 and decreased $0.2B from 4Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record sales and trading revenue in 2025, 15 consecutive quarters of YoY growth.",
+      "quote": "Record sales and trading revenue 15 consecutive quarters of YoY sales and trading revenue growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer investment assets of $599B, up 16% YoY.",
+      "quote": "Consumer investment assets of $599B,2 up 16% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average loans grew 8% YoY in 4Q25.",
+      "quote": "Average loans and leases of $1.17T increased $90B, or 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CEO is bullish on the U.S. economy in 2026.",
+      "quote": "we are bullish on the U.S. economy in 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in maintaining momentum.",
+      "quote": "we feel confident in our ability to maintain this momentum in 2026 and beyond",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit but conditional on the forward curve materializing. The score of 0.20 reflects this conditionality; a reviewer may consider whether the conditionality warrants a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2026-01-14",
+  "report_metadata": {
+    "issuer": "p2_bank_of_america",
+    "company": "Bank of America",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Presentation Materials_4Q25_ADA.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Press Release_4Q25_ADA.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Supplemental Information_4Q25_ADA.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BAC_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212243Z",
+    "timestamp": "2026-07-18T21:25:17Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Presentation Materials_4Q25_ADA.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_bank_of_america\\extracted\\BAC_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Presentation Materials_4Q25_ADA.pdf",
+        "page_count": 31,
+        "extracted_characters": 62370,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Press Release_4Q25_ADA.pdf",
+        "page_count": 19,
+        "extracted_characters": 65370,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Supplemental Information_4Q25_ADA.pdf",
+        "page_count": 32,
+        "extracted_characters": 89850,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_bank_of_america\\extracted\\BAC_FQ4_2025.txt"
+  }
+}

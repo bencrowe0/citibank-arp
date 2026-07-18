@@ -1,0 +1,221 @@
+{
+  "document_id": "NVDA_FQ3_2025",
+  "sentiment": {
+    "score": 0.6,
+    "rationale": "Forward guidance was raised materially: Q3 revenue guided to $54B ±2% vs $53.1B consensus, above the street and above the prior quarter's $46.7B, while assuming zero H20 China revenue (making the raise organic). Management expressed high confidence ('demand is extraordinary,' 'record quarter,' 'industrial revolution'). The only deductions are a second consecutive slight Data Center miss ($41.1B vs $41.34B) and growth deceleration to +56% YoY, but the guide and bullish long-term framing ($3-4T by decade end) dominate."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$46.7 billion, a record, up 56% year-over-year.",
+    "eps": "Non-GAAP EPS $1.05 vs $1.01 consensus; GAAP EPS $1.08.",
+    "guidance": "Q3 revenue expected to be $54.0 billion ±2%, above consensus of $53.1B, assuming zero H20 shipments to China.",
+    "margin": "Non-GAAP gross margin 72.7% (72.3% excluding a $180M H20 reserve release); Q3 guided to 73.5% ±50bps; expect to exit year in mid-70s.",
+    "key_risks": [
+      "Data Center revenue of $41.1B slightly below StreetAccount consensus of $41.34B, the second consecutive optical miss.",
+      "Zero H20 shipments to China assumed in Q3 outlook; geopolitical issues unresolved.",
+      "USG has expressed expectation of receiving 15% of revenue from licensed H20 sales, but regulation not yet codified.",
+      "Inventory increased 33% sequentially to $15.0B; purchase commitments $45.8B.",
+      "Growth deceleration to +56% YoY, the slowest in the nine-quarter >50% streak.",
+      "ASIC competition and power constraints raised in Q&A."
+    ],
+    "key_opportunities": [
+      "Blackwell Ultra (GB300) ramping at full speed, producing ~1,000 racks per week, demand described as 'extraordinary.'",
+      "Networking record revenue of $7.3B, +98% YoY; Spectrum-X Ethernet annualized revenue exceeding $10B.",
+      "Sovereign AI revenue on track to exceed $20B this year, more than double last year.",
+      "China market opportunity estimated at 'above $50 billion' this year, growing ~50%/year if addressable.",
+      "Long-term AI infrastructure spend seen at $3-4 trillion by end of decade.",
+      "Rubin platform chips in fab, on schedule for volume production next year.",
+      "Gaming record $4.3B, +49% YoY; RTX PRO servers poised to become multi-billion-dollar product line.",
+      "$60B share repurchase authorization added; $10B returned in Q2."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jensen Huang stated 'Blackwell is the AI platform the world has been waiting for... demand is extraordinary,' and Colette Kress described 'the beginning of an industrial revolution.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was a record $46.7 billion, up 56% year-over-year.",
+      "quote": "Total revenue was $46.7 billion, exceeded our outlook as we grew sequentially across all market platforms. Data center revenue grew 56% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $1.05 vs $1.01 consensus.",
+      "quote": "Non-GAAP EPS $1.05 vs $1.01 LSEG — beat ($1.04 excluding a $180M H20 reserve release).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 revenue guidance is $54.0 billion ±2%, above consensus of $53.1B, assuming zero H20 shipments to China.",
+      "quote": "Total revenue is expected to be $54 billion plus or minus 2%. This represents over $7 billion in sequential growth. Again, we do not assume any H20 shipments to China customers in our outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP gross margin was 72.7% (72.3% excluding a $180M H20 reserve release); Q3 guided to 73.5% ±50bps; expect to exit year in mid-70s.",
+      "quote": "GAAP gross margin was 72.4% and non-GAAP gross margin was 72.7%. These figures include a $180 million, or 40 basis point benefit from releasing previously reserved H20 inventory. Excluding this benefit, non-GAAP gross margins would have been 72.3%, still exceeding our outlook. GAAP and non-GAAP gross margins are expected to be 73.3%, 73.5%, respectively, plus or minus 50 basis points. We continue to expect to exit the year with non-GAAP gross margins in the mid-70s.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data Center revenue of $41.1B slightly below StreetAccount consensus of $41.34B.",
+      "quote": "Data Center $41.1B vs $41.34B StreetAccount consensus — a slight optical miss, the second straight.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Zero H20 shipments to China assumed in Q3 outlook; geopolitical issues unresolved.",
+      "quote": "We have not included H20 in our Q3 outlook as we continue to work through geopolitical issues.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "USG has expressed expectation of receiving 15% of revenue from licensed H20 sales, but regulation not yet codified.",
+      "quote": "USG officials have expressed an expectation that the USG will receive 15% of the revenue generated from licensed H20 sales, but to date, the USG has not published a regulation codifying such a requirement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory increased 33% sequentially to $15.0B; purchase commitments $45.8B.",
+      "quote": "To support the ramp of Blackwell and Blackwell Ultra, inventory increased sequentially from $11 billion to $15 billion in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growth deceleration to +56% YoY, the slowest in the nine-quarter >50% streak.",
+      "quote": "Growth overall decelerating — +56% YoY is the slowest in the nine-quarter >50% streak.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Blackwell Ultra (GB300) ramping at full speed, producing ~1,000 racks per week, demand described as 'extraordinary.'",
+      "quote": "The current run rate is back at full speed, producing approximately 1,000 racks per week. This output is expected to accelerate even further throughout the third quarter as additional capacity comes online. Production of Blackwell Ultra is ramping at full speed, and demand is extraordinary.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Networking record revenue of $7.3B, +98% YoY; Spectrum-X Ethernet annualized revenue exceeding $10B.",
+      "quote": "Networking delivered record revenue of $7.3 billion, and escalating demands of AI compute clusters necessitate high efficiency and low latency networking. This represents a 46% sequential and 98% year-on-year increase. Spectrum-X Ethernet delivered double-digit sequential and year-over-year growth with annualized revenue exceeding $10 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sovereign AI revenue on track to exceed $20B this year, more than double last year.",
+      "quote": "We are on track to achieve over $20 billion in sovereign AI revenue this year, more than double than that of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China market opportunity estimated at 'above $50 billion' this year, growing ~50%/year if addressable.",
+      "quote": "The China market I've estimated to be above $50 billion of opportunity for us this year. If we were able to address it with competitive products and if it's $50 billion this year, you would expect it to grow, say 50% per year, as the rest of the world's AI market is growing as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term AI infrastructure spend seen at $3-4 trillion by end of decade.",
+      "quote": "We see $3 trillion to $4 trillion in AI infrastructure spend by the end of the decade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rubin platform chips in fab, on schedule for volume production next year.",
+      "quote": "The chips of the Rubin platform are in fab: the Vera CPU, Rubin GPU CX9 Super NIC, NVLink 144 scale upswitch, Spectrum-X scale-out, and scale across switch, and the silicon photonics processor. Rubin remains on schedule for volume production next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gaming record $4.3B, +49% YoY; RTX PRO servers poised to become multi-billion-dollar product line.",
+      "quote": "Our gaming revenue was a record $4.3 billion, a 14% sequential increase and a 49% jump year-on-year. As enterprises modernize data centers, RTX PRO servers are poised to become a multi-billion-dollar product line.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "$60B share repurchase authorization added; $10B returned in Q2.",
+      "quote": "Our Board of Directors recently approved a $60 billion share repurchase authorization to add to our remaining $14.7 billion of authorization at the end of Q2. While we prioritize funding our growth and strategic initiatives in Q2, we returned $10 billion to shareholders through share repurchases and cash dividends.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Jensen Huang stated 'Blackwell is the AI platform the world has been waiting for... demand is extraordinary,' and Colette Kress described 'the beginning of an industrial revolution.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.60 is based on a strong guidance raise and confident tone, but the second consecutive Data Center miss and growth deceleration could warrant a slightly lower score. A human reviewer should verify the weighting of these offsetting factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NVDA_Bundled Earnings Report_2025-11-19",
+  "report_metadata": {
+    "issuer": "p2_nvidia",
+    "company": "Nvidia",
+    "ticker": "NVDA",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-19",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q3\\NVDA-Q2FY26-earnings-call-transcript-AlphaStreet.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q3\\NVIDIA Q3 2025 - Dragos manual baseline.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NVDA_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214812Z",
+    "timestamp": "2026-07-18T21:49:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q3\\NVDA-Q2FY26-earnings-call-transcript-AlphaStreet.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nvidia\\extracted\\NVDA_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q3\\NVDA-Q2FY26-earnings-call-transcript-AlphaStreet.html",
+        "page_count": 1,
+        "extracted_characters": 49925,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q3\\NVIDIA Q3 2025 - Dragos manual baseline.pdf",
+        "page_count": 5,
+        "extracted_characters": 9332,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nvidia\\extracted\\NVDA_FQ3_2025.txt"
+  }
+}

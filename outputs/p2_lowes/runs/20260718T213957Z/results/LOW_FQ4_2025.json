@@ -1,0 +1,220 @@
+{
+  "document_id": "LOW_FQ4_2025",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "The company reported a solid Q4 with positive comps and EPS growth, but the forward guidance for FY2026 is cautious and essentially flat relative to the prior year's performance. Management explicitly states the outlook 'remains cautious given the persistent volatility in housing macro' and forecasts the home improvement market to be 'roughly flat this year in a range of down 1% to up 1%'. The guidance range for comparable sales (flat to up 2%) and adjusted EPS ($12.25-$12.75) does not represent a material raise from the prior year's $12.28 adjusted EPS, and management highlights multiple headwinds including tariffs, elevated mortgage rates, and cautious consumer spending. The score is slightly negative because the forward outlook is hedged and cautious despite a decent backward-looking quarter."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 sales were $20.6 billion, comparable sales increased 1.3%. FY2025 sales were $86.3 billion, positive comparable sales of 0.2%.",
+    "eps": "Q4 GAAP diluted EPS of $1.78; adjusted diluted EPS of $1.98. FY2025 adjusted EPS of $12.28, a 2% increase over last year.",
+    "guidance": "FY2026 sales range $92 billion to $94 billion, comparable sales flat to up 2%. Adjusted diluted EPS approximately $12.25 to $12.75. Operating margin 11.2% to 11.4%, adjusted operating margin 11.6% to 11.8%.",
+    "margin": "Q4 adjusted gross margin 32.7%, down 18 bps. Adjusted operating margin 9%, down 41 bps. FY2025 adjusted operating margin 12.1%, flat to prior year excluding acquisitions.",
+    "key_risks": [
+      "Persistent volatility in housing macro and elevated mortgage rates creating a lock-in effect.",
+      "Consumer reluctance to make significant big-ticket discretionary DIY investments.",
+      "Unpredictable tariffs and fluid tariff policy.",
+      "Uncertainty around how much tax refunds will be spent on home improvement.",
+      "Q1 comp sales expected below the midpoint of full year guide due to severe winter storm activity."
+    ],
+    "key_opportunities": [
+      "Pro business growth driven by expanded salesforce, Pro Extended Aisle, and new AI-enabled Pro Companion.",
+      "Online sales growth of 10.5% in Q4, with record Black Friday/Cyber Monday.",
+      "Home services high single-digit growth.",
+      "Acquisitions of FBM and ADG expected to be accretive to adjusted EPS and provide cross-selling opportunities.",
+      "Structural demand drivers: record home equity, aging homes (average 44 years), and need for 16 million new homes over next decade.",
+      "Lowe's Media Network growth contributing to productivity."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly uses phrases like 'outlook for 2026 remains cautious given the persistent volatility in housing macro' and 'we are cautiously optimistic just because there's lots of uncertainty out there.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 sales were $20.6 billion with comparable sales up 1.3%.",
+      "quote": "In the fourth quarter, sales were $20.6 billion and comparable sales increased 1.3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 sales were $86.3 billion with positive comparable sales of 0.2%.",
+      "quote": "For fiscal year 2025, we delivered sales of $86.3 billion, positive comparable sales of 0.2% and adjusted operating margin of 12.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 adjusted EPS was $12.28, a 2% increase over last year.",
+      "quote": "This led to adjusted earnings per share of $12.28, a 2% increase over last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP diluted EPS was $1.78; adjusted diluted EPS was $1.98.",
+      "quote": "we generated GAAP diluted earnings per share of $1.78. ... we delivered strong results for the quarter, with adjusted diluted earnings per share of $1.98.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 guidance: sales $92B-$94B, comps flat to up 2%, adjusted EPS $12.25-$12.75.",
+      "quote": "we are expecting 2026 sales ranging from $92 billion to $94 billion with comparable sales in a range of flat to up 2%. ... We expect adjusted diluted earnings per share of approximately $12.25 to $12.75.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 adjusted gross margin was 32.7%, down 18 bps.",
+      "quote": "For the fourth quarter, adjusted gross margin was 32.7%, down 18 basis points as the dilutive impact of FBM and ADG was nearly offset by higher credit revenue, multiple PPI initiatives and favorable product mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 adjusted operating margin was 9%, down 41 bps.",
+      "quote": "Adjusted operating margin rate of 9% was down 41 basis points versus prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 adjusted operating margin was 12.1%, flat to prior year excluding acquisitions.",
+      "quote": "This led to adjusted earnings per share of $12.28, a 2% increase over last year. Despite a challenging industry backdrop, our relentless focus on expense management allowed us to hold adjusted operating margins flat to the prior year when excluding the impact of our recent acquisitions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management outlook is cautious due to persistent housing macro volatility.",
+      "quote": "While our outperformance in the fourth quarter demonstrates our team's disciplined execution, our outlook for 2026 remains cautious given the persistent volatility in housing macro.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: elevated mortgage rates and lock-in effect pressuring housing turnover.",
+      "quote": "mortgage rates remain elevated. As a result, a persistent lock-in effect remains in place keeping housing turnover and new home starts under pressure",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: consumer reluctance on big-ticket discretionary DIY projects.",
+      "quote": "This uncertainty continues to pressure big-ticket discretionary DIY projects as many consumers are reluctant to make significant investments in their homes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: unpredictable tariffs.",
+      "quote": "I think it's pretty obvious, and I'll state the obvious that this is a pretty unique environment with unpredictable tariffs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: uncertainty around tax refund spending on home improvement.",
+      "quote": "And while many homeowners will receive larger refunds this year, it is unclear how much of that will be spent on home improvement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Q1 comps expected below midpoint of full year guide due to winter storms.",
+      "quote": "Given severe winter storm activity in February, we are now expecting Q1 comp sales to be below the midpoint of our full year guide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Pro business growth with expanded salesforce and new tools.",
+      "quote": "We are building on our momentum by expanding our Pro salesforce, which allows us to reach new customers while also bringing share of wallet with existing Pros including in their planned spend. And with the recent rollout of our new AI-enabled Pro Companion, we're giving our Pro sales teams even more opportunities for success.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: online sales growth of 10.5% in Q4.",
+      "quote": "We delivered a 10.5% growth this quarter and set new sales records this holiday season on both Black Friday and Cyber Monday.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: home services high single-digit growth.",
+      "quote": "Now turning to home services, where we delivered high single-digit growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: FBM and ADG acquisitions accretive to adjusted EPS.",
+      "quote": "Consistent with our expectations, FBM and ADG operating results were accretive to adjusted EPS for the fourth quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: structural demand drivers (home equity, aging homes, housing shortage).",
+      "quote": "the structural demand drivers of the home improvement industry remain strong with home equity setting new record levels and homes continuing to age averaging 44-years old. And with the chronic supply demand imbalance in housing analysts continue to expect that approximately 16 million new homes will be needed in the United States over the next decade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Lowe's Media Network growth contributing to productivity.",
+      "quote": "the benefits of Media Network, the advertising revenue, the growth is reflected in our expectation of $1 billion of productivity into 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "While our outperformance in the fourth quarter demonstrates our team's disciplined execution, our outlook for 2026 remains cautious given the persistent volatility in housing macro.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.15) but the guidance range for adjusted EPS ($12.25-$12.75) is roughly in line with the prior year's $12.28, not a clear cut. The cautious language is strong, but the guidance is not formally reduced. A human reviewer should confirm whether the flat-to-slightly-higher guidance range combined with cautious language warrants a score of 0.0 or -0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LOW_Bundled Earnings Report_2026-02-25",
+  "report_metadata": {
+    "issuer": "p2_lowes",
+    "company": "Lowe's",
+    "ticker": "LOW",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-25",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q4\\low-usq-transcript_2026-02-25.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LOW_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213957Z",
+    "timestamp": "2026-07-18T21:40:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q4\\low-usq-transcript_2026-02-25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lowes\\extracted\\LOW_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q4\\low-usq-transcript_2026-02-25.pdf",
+        "page_count": 18,
+        "extracted_characters": 64593,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lowes\\extracted\\LOW_FQ4_2025.txt"
+  }
+}

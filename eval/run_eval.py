@@ -55,6 +55,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--window-trading-days", type=int, default=DEFAULT_WINDOW_TRADING_DAYS)
     parser.add_argument("--outcome-upper", type=float, default=OUTCOME_UPPER_DEFAULT)
     parser.add_argument("--outcome-lower", type=float, default=OUTCOME_LOWER_DEFAULT)
+    parser.add_argument(
+        "--output-suffix",
+        default="",
+        help=(
+            "Optional suffix appended to the output filenames, e.g. 'phase2' writes "
+            "global_outcome_calibration_phase2.csv / global_calibration_summary_phase2.json "
+            "instead of the production defaults, so an alternate-track run never "
+            "overwrites the production calibration files."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -164,7 +174,8 @@ def main() -> int:
                 "blend_tuned_weights": b_fold["tuned_weights"],
             }
         )
-    csv_path = summary_dir / "global_outcome_calibration.csv"
+    suffix = f"_{args.output_suffix}" if args.output_suffix else ""
+    csv_path = summary_dir / f"global_outcome_calibration{suffix}.csv"
     write_csv(csv_path, csv_rows)
 
     summary_payload = {
@@ -203,7 +214,7 @@ def main() -> int:
         },
         "n_documents": threshold_result["n_documents"],
     }
-    json_path = summary_dir / "global_calibration_summary.json"
+    json_path = summary_dir / f"global_calibration_summary{suffix}.json"
     json_path.write_text(json.dumps(summary_payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
     print(

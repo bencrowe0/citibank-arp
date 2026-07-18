@@ -1,0 +1,144 @@
+{
+  "document_id": "NFLX_FQ2_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The document reports that Netflix met or exceeded all financial objectives in 2025, with 16% revenue growth and roughly 30% operating profit growth. Forward guidance for 2026 is raised: revenue forecast of $51 billion (14% year-on-year growth) and operating margin guidance of 31.5% (up 2 points, or 2.5 points excluding M&A drag). Management expresses strong confidence in organic growth, citing massive headroom in TV time and ad spend, and the ad business is expected to roughly double to $3 billion. The tone is consistently optimistic and confident, with no material risks or hedges raised."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "2025 revenue growth of 16%; 2026 revenue forecast of $51 billion, up 14% year-on-year.",
+    "eps": "Not disclosed (no explicit EPS figure for the quarter or year in the document).",
+    "guidance": "2026 revenue forecast of $51 billion (14% year-on-year growth); operating margin guidance of 31.5% (up 2 points, or 2.5 points excluding M&A drag); ad revenue expected to roughly double to about $3 billion.",
+    "margin": "Operating margin guidance for 2026 is 31.5%, up 2 points year-on-year (or 2.5 points excluding M&A expenses).",
+    "key_risks": [
+      "Content amortization growth forecast of 10% in 2026 implies acceleration from 2025.",
+      "M&A expenses expected to create a 0.5 percentage point drag on operating margin expansion."
+    ],
+    "key_opportunities": [
+      "Massive headroom: under 10% of TV time in all major markets, hundreds of millions of households still to sign up, only about 7% of addressable consumer and ad spend market.",
+      "Ad business expected to roughly double in 2026 to about $3 billion.",
+      "Expansion into live events, video podcasts, cloud-first gaming, and new content categories.",
+      "Warner Bros. acquisition seen as a strategic accelerant, providing 100 years of IP, a theatrical business, and complementary HBO brand.",
+      "Improving ad tech stack, new ad formats, and better measurement driving higher fill rates and ad ARM growth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'we feel great about our organic growth outlook,' 'we're very excited about the business,' and 'we're as energized as ever,' conveying strong confidence in the forward trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "2025 revenue growth was 16%.",
+      "quote": "We delivered 16% revenue growth, roughly 30% operating profit growth, expanding margins, growing free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 revenue forecast is $51 billion, up 14% year-on-year.",
+      "quote": "We forecast 2026 revenue at $51 billion, which is up 14% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin guidance for 2026 is 31.5%, up 2 points.",
+      "quote": "We're targeting 31.5% operating margins for 2026. That's up 2 points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad revenue expected to roughly double in 2026 to about $3 billion.",
+      "quote": "We expect that business to roughly double again in 2026 to about $3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses strong confidence in organic growth.",
+      "quote": "We feel great about our organic growth outlook. I hope you see that on our top and bottom line guide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Massive headroom: under 10% of TV time, hundreds of millions of households still to sign up, only about 7% of addressable market.",
+      "quote": "We are still under 10% of TV time in all major markets which we compete. We've got hundreds of millions of households around the world still to sign up. We're just about 7% of the addressable market in terms of consumer and ad spend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content amortization growth forecast of 10% in 2026 implies acceleration.",
+      "quote": "The content amortization growth forecast of 10% in your earnings letter implies a bit of an acceleration from 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "M&A expenses expected to create a 0.5 percentage point drag on operating margin expansion.",
+      "quote": "This guide at 2 percentage points, that actually includes about 0.5 percentage point drag from the expected M&A expenses that we referenced in the letter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel great about our organic growth outlook. I hope you see that on our top and bottom line guide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.eps",
+      "reason": "No explicit EPS figure for the quarter or year is provided in the document; only consensus and surprise percentages are shown in the table, but no actual EPS number is stated in the text."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 9,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2025-07-17",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q2\\Netflix-Inc-_Earnings-Call_2026-01-20_English-1.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214107Z",
+    "timestamp": "2026-07-18T21:41:38Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q2\\Netflix-Inc-_Earnings-Call_2026-01-20_English-1.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q2\\Netflix-Inc-_Earnings-Call_2026-01-20_English-1.pdf",
+        "page_count": 15,
+        "extracted_characters": 46974,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ2_2025.txt"
+  }
+}

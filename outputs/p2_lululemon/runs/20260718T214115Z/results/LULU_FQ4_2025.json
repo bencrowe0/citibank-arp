@@ -1,0 +1,195 @@
+{
+  "document_id": "LULU_FQ4_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: full-year 2026 EPS guided to $12.10-$12.30 versus $13.26 in 2025, and operating margin expected to decrease by approximately 250 basis points. Management explicitly stated that 'an improvement in overall trends in North America will likely progress over the course of the year and into 2027,' indicating a prolonged recovery. The gross margin decline of 550 basis points in Q4 and continued margin pressure in 2026, combined with tariff headwinds, support a bearish outlook."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total net revenue $3.6 billion, up 1% (6% excluding 53rd week); constant currency revenue rose 4%; comparable sales increased 2%.",
+    "eps": "Net income $587 million, $5.01 per diluted share, compared to $6.14 per diluted share in prior period.",
+    "guidance": "Full-year 2026 revenue $11.35B-$11.5B (2%-4% growth); EPS $12.10-$12.30 vs $13.26 in 2025; North America revenue down 1%-3%; China Mainland up ~20%; Rest of World up mid-teens.",
+    "margin": "Q4 gross margin 54.9% vs 60.4% prior year (down 550 bps); operating margin 22.3% vs 28.9% prior year; 2026 gross margin expected to decrease ~120 bps; operating margin expected to decrease ~250 bps.",
+    "key_risks": [
+      "Tariffs: gross tariff cost $275M in 2025, forecast $380M in 2026 with $160M offsets; 520 bps negative impact in Q4.",
+      "North America top-line challenges: revenue projected to decline 1%-3% in 2026; improvement expected to progress into 2027.",
+      "Gross margin decline: 550 bps drop in Q4 driven by product margin, tariffs, and higher markdowns.",
+      "SG&A deleverage: 130 bps expected for full year 2026 due to labor, incentive comp, and proxy contest costs.",
+      "Inventory dollar growth: 18% increase in Q4, above unit growth due to tariffs and FX."
+    ],
+    "key_opportunities": [
+      "International growth: China Mainland revenue up 28% in Q4, expected up ~20% in 2026; Rest of World up 12% in Q4, expected mid-teens.",
+      "Product innovation: new launches (Unrestricted Power, ShowZero, ThermoZen) positively received; new style penetration increased to 35% in North America.",
+      "Full-price sales improvement: management targeting return to full-price growth in North America, with Q2 expected flat and second half positive.",
+      "Store expansion: 40-45 net new stores planned in 2026; new stores returning above 100% ROI with payback less than a year.",
+      "Enterprise efficiency initiatives: targeting meaningful savings through inventory management, supply chain, and AI opportunities."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management acknowledged that 'an improvement in overall trends in North America will likely progress over the course of the year and into 2027,' and guided for lower EPS and margins, reflecting a guarded outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Forward guidance was reduced: full-year 2026 EPS guided to $12.10-$12.30 versus $13.26 in 2025.",
+      "quote": "For the fiscal year 2026, we expect diluted earnings per share in the range of $12.10 to $12.30 versus EPS of $13.26 in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin expected to decrease by approximately 250 basis points in 2026.",
+      "quote": "When looking at operating margins for the full year 2026, we expect it to decrease by approximately 250 basis points versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Improvement in North America trends will likely progress into 2027.",
+      "quote": "I want to also acknowledge that an improvement in overall trends in North America will likely progress over the course of the year and into 2027 as we return to a healthier baseline of full-price sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross margin declined 550 basis points to 54.9% from 60.4%.",
+      "quote": "Gross profit for the fourth quarter was $2 billion or 54.9% of net revenue compared to 60.4% in Q4 2024. Our gross margin decreased 550 basis points relative to last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs had a 520 basis point negative impact on Q4 gross margin.",
+      "quote": "Tariffs had a gross negative impact of 520 basis points in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total net revenue was $3.6 billion, up 1% (6% excluding 53rd week).",
+      "quote": "Total net revenue rose 1% to $3.6 billion. Excluding the 53rd week in Q4 of 2024, net revenue rose 6% or 4% on a constant currency basis and comparable sales increased 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income was $587 million, EPS $5.01, compared to $6.14 prior year.",
+      "quote": "Net income for the quarter was $587 million or $5.01 per diluted share compared to earnings per diluted share of $6.14 for the fourth quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 revenue guidance $11.35B-$11.5B, 2%-4% growth.",
+      "quote": "We expect revenue to be in the range of $11.35 billion to $11.5 billion, representing growth of 2% to 4% relative to 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America revenue expected down 1%-3% in 2026.",
+      "quote": "By region, we expect revenue in North America to be down 1% to 3%, with the U.S. down 1% to 3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China Mainland revenue up 28% in Q4, expected up ~20% in 2026.",
+      "quote": "In China Mainland, revenue increased 28% with comparable sales increasing 26%. ... We expect revenue in China Mainland to be up approximately 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New style penetration increased to 35% in North America.",
+      "quote": "In North America, with our new spring merchandise that is already hitting our stores and website, we have increased our new style penetration to approximately 35%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "I want to also acknowledge that an improvement in overall trends in North America will likely progress over the course of the year and into 2027 as we return to a healthier baseline of full-price sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross tariff cost for 2025 was $275 million; 2026 forecast $380 million.",
+      "quote": "For reference, in 2025, gross tariff costs were $275 million. ... Looking to 2026, we anticipate gross tariff impact of approximately $380 million with offsets from our enterprise efficiency initiatives of approximately $160 million within gross margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SG&A deleverage of 130 basis points expected for full year 2026.",
+      "quote": "We expect deleverage of approximately 130 basis points versus 2025 as we continue to strategically invest in our business to support future growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory dollars up 18% in Q4, units up 6%.",
+      "quote": "Inventory at the end of Q4 was $1.7 billion, an increase of 18% on a dollar basis. On a unit basis, inventory increased approximately 6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New stores returning above 100% ROI with payback less than a year.",
+      "quote": "NSOs are returning at above 100% ROI across both North America and the international markets. So representing a payback period of less than a year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "40-45 net new company-operated stores planned in 2026.",
+      "quote": "Globally, we expect to open approximately 40 to 45 net new company-operated stores in 2026 and complete approximately 35 optimizations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on reduced EPS guidance and cautious language, but the document also shows strong international growth and product innovation momentum. A reviewer may consider whether the international strength partially offsets the North America headwinds, potentially warranting a less negative score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LULU_Bundled Earnings Report_2026-03-17",
+  "report_metadata": {
+    "issuer": "p2_lululemon",
+    "company": "Lululemon",
+    "ticker": "LULU",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-03-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LULU_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214115Z",
+    "timestamp": "2026-07-18T21:41:52Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lululemon\\extracted\\LULU_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 64430,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lululemon\\extracted\\LULU_FQ4_2025.txt"
+  }
+}

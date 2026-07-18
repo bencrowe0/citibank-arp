@@ -1,0 +1,202 @@
+{
+  "document_id": "BA_FQ2_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows a clear operational turnaround: revenue surged 35% YoY, core loss per share narrowed from ($2.90) to ($1.24), and free cash flow improved from ($4.3B) to ($0.2B). The 737 production rate increased to 38/month with a plan to stabilize before moving to 42/month, and the 787 rate is now at 7/month. However, the company remains in a GAAP loss position, and management's forward language is hedged ('focused on restoring trust and making continued progress in our recovery while operating in a dynamic global environment'), with no formal guidance raise. The structural risk from the $445M DOJ non-prosecution agreement charge and ongoing quality/certification issues tempers the positive trajectory. Score reflects genuine operational momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$22.7 billion, up 35% from $16.9 billion in Q2 2024, primarily reflecting improved operational performance and commercial delivery volume.",
+    "eps": "GAAP diluted loss per share of ($0.92) compared to ($2.33) in Q2 2024; core loss per share (non-GAAP) of ($1.24) compared to ($2.90) in Q2 2024.",
+    "guidance": "Not disclosed. No formal forward revenue or earnings guidance provided. Management states: 'As we look to the second half of the year, we remain focused on restoring trust and making continued progress in our recovery while operating in a dynamic global environment.'",
+    "margin": "GAAP operating margin of (0.8)% compared to (6.5)% in Q2 2024; core operating margin (non-GAAP) of (1.9)% compared to (8.3)% in Q2 2024.",
+    "key_risks": [
+      "Ongoing quality and certification issues: 'the overall health of our aircraft production system, production quality issues, commercial airplane production rates, our ability to successfully develop and certify new aircraft or new derivative aircraft'",
+      "Pending acquisition of Spirit AeroSystems: 'realizing the anticipated benefits of mergers, acquisitions, joint ventures/strategic alliances or divestitures, including anticipated synergies and quality improvements related to our pending acquisition of Spirit'",
+      "DOJ non-prosecution agreement charge: 'Unallocated items, eliminations and other includes an earnings charge of $445 million resulting from the May 2025 non-prosecution agreement with the U.S. Department of Justice.'",
+      "Dependence on government contracts and fixed-price contracts: 'our reliance on fixed-price contracts' and 'our dependence on U.S. government contracts'",
+      "Supply chain and labor risks: 'our dependence on our subcontractors and suppliers, as well as the availability of highly skilled labor and raw materials' and 'work stoppages or other labor disruptions'",
+      "Tariffs and trade restrictions: 'our non-U.S. operations and sales to non-U.S. customers, including tariffs, trade restrictions and government actions'"
+    ],
+    "key_opportunities": [
+      "Increased commercial deliveries: 'Commercial Airplanes second quarter revenue of $10.9 billion and operating margin of (5.1) percent primarily reflect higher deliveries.' Deliveries rose 63% YoY to 150.",
+      "Production rate increases: '737 increased production rate to 38 per month and plans to stabilize before next rate increase' and '787 production rate is now at 7 per month'",
+      "Strong backlog: 'Backlog of $522B; over 5,900 airplanes' and 'Total company backlog grew to $619 billion'",
+      "Defense segment turning profitable: 'Defense, Space & Security second quarter operating margin of 1.7 percent reflects stabilizing operational performance.'",
+      "Global Services continued strong performance: 'Global Services second quarter operating margin of 19.9 percent reflects favorable performance and mix.'"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Kelly Ortberg states: 'Our fundamental changes to strengthen safety and quality are producing improved results as we stabilize our operations and deliver higher quality airplanes, products and services to our customers.' This language conveys optimism about the trajectory, though tempered with caution about the dynamic environment."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue increased 35% year-over-year to $22.7 billion.",
+      "quote": "Second quarter revenue of $22.7 billion, GAAP loss per share of ($0.92) and core loss per share (non-GAAP)* of ($1.24). The company reported operating cash flow of $0.2 billion and free cash flow (non-GAAP)* of ($0.2) billion. Results primarily reflect improved operational performance and commercial delivery volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core loss per share narrowed from ($2.90) to ($1.24).",
+      "quote": "Core loss per share (non-GAAP) ($1.24) ($2.90)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow improved from ($4.3B) to ($0.2B).",
+      "quote": "Free cash flow (non-GAAP)* of ($0.2) billion. ... Free cash flow (non-GAAP) ($200) ($4,327)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production rate increased to 38 per month with plan to stabilize before moving to 42.",
+      "quote": "737 increased production rate to 38 per month and plans to stabilize before next rate increase ... The 737 program increased the production rate to 38 per month in the quarter and plans to stabilize at that rate before requesting approval to increase to 42 per month later this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 production rate is now at 7 per month.",
+      "quote": "787 production rate is now at 7 per month",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog grew to $619 billion.",
+      "quote": "Total company backlog at quarter end was $619 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin improved from (6.5)% to (0.8)%.",
+      "quote": "Operating margins (GAAP) (0.8) % (6.5) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin improved from (8.3)% to (1.9)%.",
+      "quote": "Core operating margins (non-GAAP) (1.9) % (8.3) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes deliveries rose 63% to 150.",
+      "quote": "Deliveries 150 92 63%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security segment turned profitable with 1.7% operating margin.",
+      "quote": "Defense, Space & Security second quarter operating margin of 1.7 percent reflects stabilizing operational performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin improved to 19.9%.",
+      "quote": "Global Services second quarter operating margin of 19.9 percent reflects favorable performance and mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is a $445 million earnings charge from the DOJ non-prosecution agreement.",
+      "quote": "Unallocated items, eliminations and other includes an earnings charge of $445 million resulting from the May 2025 non-prosecution agreement with the U.S. Department of Justice.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "Our fundamental changes to strengthen safety and quality are producing improved results as we stabilize our operations and deliver higher quality airplanes, products and services to our customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal forward guidance was provided.",
+      "quote": "As we look to the second half of the year, we remain focused on restoring trust and making continued progress in our recovery while operating in a dynamic global environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural risks include quality issues, Spirit AeroSystems acquisition, and supply chain dependencies.",
+      "quote": "the overall health of our aircraft production system, production quality issues, commercial airplane production rates, our ability to successfully develop and certify new aircraft or new derivative aircraft ... our pending acquisition of Spirit AeroSystems Holdings, Inc. (Spirit), including the satisfaction of closing conditions in the expected timeframe or at all ... our dependence on our subcontractors and suppliers, as well as the availability of highly skilled labor and raw materials",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.20 reflects genuine operational momentum without a formal guidance raise. A reviewer may want to assess whether the structural risks (DOJ charge, quality issues) should pull the score lower, or whether the strong trajectory warrants a higher score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-07-29",
+  "report_metadata": {
+    "issuer": "p2_boeing",
+    "company": "Boeing",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q2\\2Q25-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q2\\2Q25-Press-Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BA_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212518Z",
+    "timestamp": "2026-07-18T21:25:57Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q2\\2Q25-Presentation.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_boeing\\extracted\\BA_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q2\\2Q25-Presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 8368,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q2\\2Q25-Press-Release.pdf",
+        "page_count": 13,
+        "extracted_characters": 26345,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_boeing\\extracted\\BA_FQ2_2025.txt"
+  }
+}

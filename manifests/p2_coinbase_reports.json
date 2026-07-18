@@ -1,0 +1,53 @@
+{
+  "issuer": "p2_coinbase",
+  "reports": [
+    {
+      "document_id": "COIN_FQ3_2025",
+      "issuer": "p2_coinbase",
+      "company": "Coinbase",
+      "ticker": "COIN",
+      "sector": "Financials/Crypto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-30",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/coinbase/CY2025-Q3/08 coinbase q3 2025 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "COIN_FQ4_2025",
+      "issuer": "p2_coinbase",
+      "company": "Coinbase",
+      "ticker": "COIN",
+      "sector": "Financials/Crypto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-12",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/coinbase/CY2025-Q4/09 coinbase q4 2025 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "COIN_FQ1_2026",
+      "issuer": "p2_coinbase",
+      "company": "Coinbase",
+      "ticker": "COIN",
+      "sector": "Financials/Crypto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-07",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/coinbase/CY2026-Q1/07 coinbase q1 2026 david.pdf"
+        }
+      ]
+    }
+  ]
+}

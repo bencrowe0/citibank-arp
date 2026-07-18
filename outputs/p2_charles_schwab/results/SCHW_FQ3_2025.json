@@ -1,0 +1,151 @@
+{
+  "document_id": "SCHW_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Management raised the forward earnings outlook relative to the July scenario, stating that assuming continued client engagement, earnings could be 'up 2% or a bit better relative to the upper end of the financial scenario range we shared back at the July business update.' This is a formal guidance raise, not just a reaffirmation. The improvement is organic, driven by strong client engagement and favorable markets, not attributed to one-time items. The tone is confident, with no material risks raised that would offset this positive forward signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record $6.1 billion, up 27% year-over-year.",
+    "eps": "Record adjusted EPS of $1.31, up 70% year-over-year, including a $0.03 benefit from state tax matters.",
+    "guidance": "Assuming continued client engagement, earnings could be 'up 2% or a bit better relative to the upper end of the financial scenario range we shared back at the July business update.' Full-year 2025 revenue and earnings expansion expected. More detailed 2026 scenario to be provided in January.",
+    "margin": "Adjusted pretax profit margin reached 51.3%.",
+    "key_risks": [
+      "Potential shifts in sentiment and engagement levels in the evolving macroeconomic environment.",
+      "The last couple of weeks remind us the environment can shift quickly.",
+      "Interest rate cuts could impact net interest margin, though management expects meaningful offsets."
+    ],
+    "key_opportunities": [
+      "Strong organic growth momentum with core net new assets of $138 billion in Q3, up 44% year-over-year.",
+      "Continued upside from legacy Ameritrade clients, who are becoming net positive contributors to NNA.",
+      "Planned launch of spot crypto in first half of 2026, starting with Bitcoin and Ethereum.",
+      "Growing younger client base: nearly 1/3 of new-to-firm retail households are Gen Z.",
+      "Expansion of lending, wealth management, and trading solutions."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'we are playing offense,' 'we are in a strong competitive position,' and 'we think the future is incredibly bright,' reflecting strong confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was a record $6.1 billion, up 27% year-over-year.",
+      "quote": "Revenue increased 27% year-over-year to a record $6.1 billion for 3Q, the fourth consecutive quarter of double-digit year-over-year growth across all major line items.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was a record $1.31, up 70% year-over-year, including a $0.03 benefit from state tax matters.",
+      "quote": "Quarterly adjusted earnings per share equaled a record $1.31, a year-over-year increase of 70%. Note that 3Q EPS included a $0.03 benefit related to state tax matters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management raised the forward earnings outlook relative to the July scenario.",
+      "quote": "Assuming this engagement persists, we could see a lift in earnings of around 2% or a bit better relative to the upper end of the financial scenario range we shared back at the July business update.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pretax profit margin reached 51.3%.",
+      "quote": "Schwab's adjusted pretax profit margin reached 51.3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core net new assets were $138 billion in Q3, up 44% year-over-year.",
+      "quote": "clients opened up 1.1 million new brokerage accounts and trusted Schwab at approximately $138 billion in core net new assets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are playing offense with ongoing investments that will continue to drive profitable growth through the cycle.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Legacy Ameritrade clients are becoming net positive contributors to NNA.",
+      "quote": "If you look at over the last 18, 24 months, they've gone from being net negative contributors to NNA to being net positive.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Spot crypto launch is on track for first half of 2026.",
+      "quote": "We remain on track to launch spot crypto in the first half of 2026, starting with Bitcoin and Ethereum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nearly 1/3 of new-to-firm retail households are Gen Z.",
+      "quote": "This year, nearly 1/3 of new-to-firm retail households at Schwab are Gen Zers, investors between the ages of 13 and 28.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The environment can shift quickly, posing a risk.",
+      "quote": "However, the last couple of weeks remind us the environment can shift quickly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is modest (2% or a bit better) and conditional on continued client engagement. The score of 0.30 reflects this, but a reviewer may consider whether the conditional nature warrants a slightly lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2025-10-16",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-16",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q3\\SCHW-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212634Z",
+    "timestamp": "2026-07-18T21:27:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q3\\SCHW-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q3\\SCHW-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 66322,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ3_2025.txt"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "issuer": "p2_walmart",
+  "reports": [
+    {
+      "document_id": "WMT_FQ1_2025",
+      "issuer": "p2_walmart",
+      "company": "Walmart",
+      "ticker": "WMT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-15",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/walmart/CY2025-Q1/q1-fy26-earnings-call-transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/walmart/CY2025-Q1/q1-fy26-earnings-presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/walmart/CY2025-Q1/q1-fy26-earnings-release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "WMT_FQ2_2025",
+      "issuer": "p2_walmart",
+      "company": "Walmart",
+      "ticker": "WMT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-21",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/walmart/CY2025-Q2/q2-fy26-earnings-call-transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/walmart/CY2025-Q2/q2-fy26-earnings-presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/walmart/CY2025-Q2/q2-fy26-earnings-release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "WMT_FQ3_2025",
+      "issuer": "p2_walmart",
+      "company": "Walmart",
+      "ticker": "WMT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-20",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/walmart/CY2025-Q3/q3-fy26-earnings-call-transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/walmart/CY2025-Q3/q3-fy26-earnings-presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/walmart/CY2025-Q3/q3-fy26-earnings-release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "WMT_FQ4_2025",
+      "issuer": "p2_walmart",
+      "company": "Walmart",
+      "ticker": "WMT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-19",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/walmart/CY2025-Q4/q4-fy26-earnings-call-transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/walmart/CY2025-Q4/q4-fy26-earnings-presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/walmart/CY2025-Q4/q4-fy26-earnings-release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "WMT_FQ1_2026",
+      "issuer": "p2_walmart",
+      "company": "Walmart",
+      "ticker": "WMT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-21",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/walmart/CY2026-Q1/q1-fy27-earnings-call-transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/walmart/CY2026-Q1/q1-fy27-earnings-presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/walmart/CY2026-Q1/q1-fy27-earnings-release.pdf"
+        }
+      ]
+    }
+  ]
+}

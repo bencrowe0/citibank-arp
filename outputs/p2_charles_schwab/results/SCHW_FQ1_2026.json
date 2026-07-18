@@ -1,0 +1,176 @@
+{
+  "document_id": "SCHW_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports record financial results and strong operational metrics, but the key forward-looking signal is that management explicitly stated they are 'tracking higher than the $5.70 to $5.80 EPS range' implied by their prior scenario, which constitutes a meaningful upward revision to their own prior guidance. This is an organic improvement driven by strong client engagement and favorable rate assumptions, not attributed to one-time items. The score is capped at +0.30 because the guidance raise is qualitative ('tracking higher') rather than a precise new range, and management will provide a full update in July, introducing some uncertainty."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record $6.5 billion, up 16% year-over-year.",
+    "eps": "Record $1.43, up 38% year-over-year, beating expectations of $1.40.",
+    "guidance": "Tracking higher than the $5.70 to $5.80 EPS range implied by the scenario shared at the winter business update in January (excluding buybacks and Forge). Full 2026 financial scenario update to be provided in July.",
+    "margin": "Adjusted pretax profit margin of 51.4%.",
+    "key_risks": [
+      "Continued market volatility could influence client cash allocations.",
+      "Typical seasonal drawdown in client cash due to tax payments in April.",
+      "Potential evolution of cash sweep monetization and competitive landscape changes."
+    ],
+    "key_opportunities": [
+      "Record client growth: 1.3 million new brokerage accounts, $158 billion in core net new assets.",
+      "AI acceleration: launching AI assistants, portfolio insights, and generative search in 2026.",
+      "Spot crypto offering (bitcoin and ether) launching to clients in coming weeks.",
+      "ETF monetization strategy expected to be in place by end of 2026.",
+      "Expansion of lending solutions (bank lending up 29% YoY, record pledged asset lines).",
+      "Forge acquisition providing access to pre-IPO company shares."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'strong momentum,' 'record financial results,' and 'we are tracking higher than the $5.70 to $5.80 EPS range,' indicating confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was a record $6.5 billion, up 16% year-over-year.",
+      "quote": "Revenue increased 16% year-over-year to a record $6.5 billion for 1Q",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was a record $1.43, up 38% year-over-year, beating expectations of $1.40.",
+      "quote": "first quarter adjusted earnings per share reached a record $1.43, a year-over-year increase of 38%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is tracking higher than the $5.70 to $5.80 EPS range implied by its prior scenario.",
+      "quote": "we are tracking higher than the $5.70 to $5.80 EPS range implied by the scenario we shared back at the winter business update in January, which excluded the impact of buybacks and Forge.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pretax profit margin was 51.4%.",
+      "quote": "resulted in an adjusted pretax profit margin of 51.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we are tracking higher than the $5.70 to $5.80 EPS range implied by the scenario we shared back at the winter business update in January",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: continued market volatility could influence client cash allocations.",
+      "quote": "Beyond seasonal considerations, continued market volatility could influence client cash allocations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: typical seasonal drawdown in client cash due to tax payments in April.",
+      "quote": "For the second quarter, we still anticipate the typical drawdown in client cash due to tax payments in April.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: potential evolution of cash sweep monetization and competitive landscape changes.",
+      "quote": "I was just curious how you monitor and assess the scope for changes in customer behavior and preferences around that? And how might the competitive landscape? And technology advances maybe impact that.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote is from an analyst question, not management's own risk disclosure, but management's lengthy response acknowledges the topic as a risk."
+    },
+    {
+      "claim": "Key opportunity: record client growth with 1.3 million new brokerage accounts and $158 billion in core net new assets.",
+      "quote": "Clients opened 1.3 million brokerage accounts up 10% over last year. Excluding a onetime mutual fund clearing outflow, we attracted $158 billion in core net new assets, a first quarter record",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: AI acceleration with launches in 2026.",
+      "quote": "Starting over the summer, we will introduce the first of several AI assistants that will enable our clients to interact with chat and voice to address their most frequent service and support needs. Our first iteration of the investor AI assistant will launch in June.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: spot crypto offering launching to clients in coming weeks.",
+      "quote": "I'm excited to share that the employee pilot is underway, and we expect the phased client rollout will begin in the coming weeks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: ETF monetization strategy expected by end of 2026.",
+      "quote": "So we feel really good about by the end of the year, having an ETF monetization strategy in place and live.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: expansion of lending solutions with bank lending up 29% YoY.",
+      "quote": "Bank lending was up 29% year-over-year with bank product balances and pledged asset line balances reaching all-time records.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Forge acquisition providing access to pre-IPO company shares.",
+      "quote": "We completed the acquisition of Forge, which will allow us to provide clients with direct and indirect access to shares of pre-IPO companies",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is qualitative ('tracking higher') rather than a precise new range; the exact magnitude of the raise is not quantified, so the score is based on the direction of the change rather than its size."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 1,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2026-04-16",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-16",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2026-Q1\\SCHW-Q1-2026-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T212634Z",
+    "timestamp": "2026-07-18T21:27:42Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2026-Q1\\SCHW-Q1-2026-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2026-Q1\\SCHW-Q1-2026-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 66059,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ1_2026.txt"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "document_id": "GS_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum with record AUS, record alternatives fundraising, and a backlog at its highest level in three years. Management raised its full-year alternatives fundraising guidance from ~$65B to ~$100B, a material upward revision. The tone is confident, with explicit optimism about M&A and regulatory tailwinds, though some caution is noted regarding market exuberance and disciplined risk management."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues of $15.2 billion in Q3 2025.",
+    "eps": "Earnings per share of $12.25, beating expectations of $11.03.",
+    "guidance": "Full-year alternatives fundraising guidance raised to approximately $100 billion, substantially exceeding prior expectations. Management expects growth in management and other fees and private banking and lending in the high single digits on an annual basis over the medium term. The quarter-end backlog is at its highest level in three years. Management expects a constructive M&A environment through 2026.",
+    "margin": "Year-to-date compensation ratio net of provisions is 32.5%, a 100 basis point improvement year-over-year. AWM segment pre-tax margin of 23% for the year to date (approximately 150 bps higher excluding HPI).",
+    "key_risks": [
+      "Investor exuberance and record-high equity markets could lead to a divergence where some ventures falter.",
+      "Potential credit cycle headwinds for all banks if a downturn occurs.",
+      "Near-term policy considerations still relevant.",
+      "Higher transaction-based costs, charitable giving, and litigation expenses drove non-compensation expenses up 14% year-over-year."
+    ],
+    "key_opportunities": [
+      "Number one M&A franchise with $1 trillion in announced M&A volumes year-to-date, $220 billion ahead of next competitor.",
+      "Record $3.5 trillion assets under supervision and record $33 billion quarterly alternatives fundraising.",
+      "Acquisition of Industry Ventures to enhance VC investment capabilities.",
+      "Strategic collaboration with T. Rowe Price to deliver public and private market solutions.",
+      "One Goldman Sachs 3.0 propelled by AI to drive efficiencies and create capacity for growth.",
+      "Improving regulatory backdrop expected to improve competitive position and allow capital redeployment.",
+      "Sponsor activity tracking 40% higher versus last year with over $1 trillion of dry powder.",
+      "Expected rate cuts in the U.S. constructive for corporates."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "David Solomon states 'We delivered very strong results' and expresses confidence in the forward outlook, saying 'we are confident in the outlook for our businesses' and 'we remain confident in our ability to continue to deliver for shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues were $15.2 billion in Q3 2025.",
+      "quote": "We delivered very strong results in the third quarter and generated net revenues of $15.2 billion, earnings per share of $12.25, an ROE of 14.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share was $12.25, beating expectations of $11.03.",
+      "quote": "Reported EPS is $12.25, expectations were $11.03.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year alternatives fundraising guidance raised to approximately $100 billion, substantially exceeding prior expectations.",
+      "quote": "We now expect to raise approximately $100 billion in alternatives this year, substantially exceeding our prior full-year fundraising expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The quarter-end backlog is at its highest level in three years.",
+      "quote": "Across investment banking, we continue to see strong momentum, with our quarter-end backlog at its highest level in three years despite very strong accruals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects growth in management and other fees and private banking and lending in the high single digits on an annual basis over the medium term.",
+      "quote": "We continue to expect growth in the high single digits on an annual basis over the medium term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Year-to-date compensation ratio net of provisions is 32.5%, a 100 basis point improvement year-over-year.",
+      "quote": "Our year to date compensation ratio net of provisions is 32.5% and represents our best estimate for the full year inclusive of higher severance costs. The 100 basis point improvement year over year reflects stronger revenue performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM segment pre-tax margin of 23% for the year to date (approximately 150 bps higher excluding HPI).",
+      "quote": "In the AWM segment, we generated a 23% pre-tax margin and a 10.5% ROE for the year to date. Excluding the impact of HPI and its $3.6 billion of average attributed equity, our pre-tax margin and ROE would have been approximately 150 and 250 basis points higher, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investor exuberance and record-high equity markets could lead to a divergence where some ventures falter.",
+      "quote": "Taking a step back, there is no question that there is a fair amount of investor exuberance at the moment, with U.S. equity markets consistently hitting record highs over the last several months. ... As students of history, we know that following periods of broad-based excitement around new technologies, there will ultimately be a divergence where some ventures thrive and others falter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential credit cycle headwinds for all banks if a downturn occurs.",
+      "quote": "Obviously, if you got into a period where we had a credit cycle, which we have not had in quite some time, there'd be headwinds for all the banks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher transaction-based costs, charitable giving, and litigation expenses drove non-compensation expenses up 14% year-over-year.",
+      "quote": "Quarterly non-compensation expenses of $4.8 billion rose 14% year over year, driven by higher transaction-based costs as well as charitable giving and higher litigation expenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Number one M&A franchise with $1 trillion in announced M&A volumes year-to-date, $220 billion ahead of next competitor.",
+      "quote": "Recently, we hit the milestone of advising on over $1 trillion in announced M&A volumes for 2025 year to date. This is $220 billion ahead of our next closest competitor and underscores our dominant position as the advisor of choice for clients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record $3.5 trillion assets under supervision and record $33 billion quarterly alternatives fundraising.",
+      "quote": "Assets under supervision rose to a record $3.5 trillion. ... In private banking and lending in alternatives, we raised a record $33 billion in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Acquisition of Industry Ventures to enhance VC investment capabilities.",
+      "quote": "Yesterday we announced the acquisition of Industry Ventures, a leading venture capital platform with a track record of strong investment performance and the proven ability to invest across all stages of the VC life cycle.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strategic collaboration with T. Rowe Price to deliver public and private market solutions.",
+      "quote": "Additionally, last month we announced a strategic collaboration with T. Rowe Price to deliver a range of public and private market solutions designed for the unique needs of retirement and wealth investors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "One Goldman Sachs 3.0 propelled by AI to drive efficiencies and create capacity for growth.",
+      "quote": "To this end, earlier this morning we announced to our people the launch of One Goldman Sachs 3.0 propelled by AI. This is a new, more centralized operating model that we expect to drive efficiencies and create capacity for future growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Improving regulatory backdrop expected to improve competitive position and allow capital redeployment.",
+      "quote": "I absolutely think that the regulatory direction of travel is improving our competitive position significantly ... I do think this improves our competitive position relative to others that are outside of the regulatory landscape.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sponsor activity tracking 40% higher versus last year with over $1 trillion of dry powder.",
+      "quote": "We're encouraged by the steady build in sponsor activity, which is now tracking 40% higher versus last year. Considering that sponsors have over $1 trillion of dry powder and $4 trillion of private equity assets in their portfolios",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expected rate cuts in the U.S. constructive for corporates.",
+      "quote": "coupled with the expected rate cuts in the U.S., the setup remains constructive for corporates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered very strong results ... we are confident in the outlook for our businesses ... we remain confident in our ability to continue to deliver for shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a guidance raise (alternatives fundraising) and strong backlog, but the overall revenue/EPS guidance for the firm is not explicitly raised. The score may be slightly optimistic given the cautious remarks about market exuberance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2025-10-14",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q3\\GS-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213655Z",
+    "timestamp": "2026-07-18T21:37:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q3\\GS-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q3\\GS-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 62160,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ3_2025.txt"
+  }
+}

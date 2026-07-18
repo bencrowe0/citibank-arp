@@ -1,0 +1,21 @@
+{
+  "issuer": "p2_cvs_health",
+  "reports": [
+    {
+      "document_id": "CVS_FQ1_2026",
+      "issuer": "p2_cvs_health",
+      "company": "CVS Health",
+      "ticker": "CVS",
+      "sector": "Healthcare/Consumer",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-06",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/cvs_health/CY2026-Q1/CVS-Health-Q1-2026-Earnings-Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

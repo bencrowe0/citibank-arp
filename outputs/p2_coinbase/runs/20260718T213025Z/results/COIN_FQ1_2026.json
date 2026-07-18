@@ -1,0 +1,155 @@
+{
+  "document_id": "COIN_FQ1_2026",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: Q2 subscription and services revenue guided to $565M-$645M, down from Q1's $584M (which itself was down 16% QoQ). The company also guided full-year 2026 adjusted expenses to $4.3B-$4.6B, with $50M-$60M of restructuring charges, indicating cost-cutting rather than growth. The revenue miss ($1.4B vs ~$1.56B expected) and GAAP net loss of $394M further support a negative outlook. Management's tone is defensive, focusing on cost discipline and market share in a declining market, not raising forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue $1.4B, down 21% quarter over quarter, below the roughly $1.56B expected.",
+    "eps": "GAAP net loss $394M and EPS of -$1.49 against a small positive consensus.",
+    "guidance": "Q2 subscription and services guided to $565M to $645M. Tech, development and G&A expenses guided down 4% to 9% quarter over quarter, with $50M to $60M of restructuring charges. Full-year 2026 adjusted expenses $4.3B to $4.6B.",
+    "margin": "Not disclosed.",
+    "key_risks": [
+      "Total crypto market cap and trading volumes both fell more than 20% quarter over quarter.",
+      "Institutional transaction revenue dropped 27% as low volatility cut hedging demand at Deribit.",
+      "Long-term fee compression acknowledged as a risk, with diversification the stated answer."
+    ],
+    "key_opportunities": [
+      "We reached an all-time high in Coinbase crypto trading volume market share in Q1.",
+      "This is our 13th consecutive quarter of positive adjusted EBITDA."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management guided expenses down and acknowledged fee compression as a risk, while focusing on cost discipline and market share gains in a declining market, indicating a cautious rather than confident outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $1.4B, down 21% quarter over quarter, below the roughly $1.56B expected.",
+      "quote": "Total revenue $1.4B, down 21% quarter over quarter, below the roughly $1.56B expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net loss was $394M and EPS was -$1.49 against a small positive consensus.",
+      "quote": "GAAP net loss $394M and EPS of -$1.49 against a small positive consensus.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 subscription and services revenue guided to $565M to $645M, down from Q1's $584M.",
+      "quote": "Q2 subscription and services guided to $565M to $645M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 adjusted expenses guided to $4.3B to $4.6B with $50M to $60M of restructuring charges.",
+      "quote": "Full-year 2026 adjusted expenses $4.3B to $4.6B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total crypto market cap and trading volumes both fell more than 20% quarter over quarter.",
+      "quote": "Total crypto market cap and trading volumes both fell more than 20% quarter over quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Institutional transaction revenue dropped 27% as low volatility cut hedging demand at Deribit.",
+      "quote": "Institutional transaction revenue dropped 27% as low volatility cut hedging demand at Deribit.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term fee compression acknowledged as a risk.",
+      "quote": "Long-term fee compression acknowledged as a risk, with diversification the stated answer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Coinbase reached an all-time high in crypto trading volume market share in Q1.",
+      "quote": "We reached an all-time high in Coinbase crypto trading volume market share in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "This is the 13th consecutive quarter of positive adjusted EBITDA.",
+      "quote": "This is our 13th consecutive quarter of positive adjusted EBITDA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious, focusing on cost discipline and market share in a declining market.",
+      "quote": "Tech, development and G&A expenses guided down 4% to 9% quarter over quarter, with $50M to $60M of restructuring charges.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on guidance reduction and revenue miss, but the document also notes positive adjusted EBITDA and record market share, which could argue for a less negative score. A human reviewer should verify the balance."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "Margin commentary is not disclosed in the document; this is correctly marked as 'Not disclosed' but a reviewer may want to confirm no margin data exists elsewhere."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "COIN_Bundled Earnings Report_2026-05-07",
+  "report_metadata": {
+    "issuer": "p2_coinbase",
+    "company": "Coinbase",
+    "ticker": "COIN",
+    "sector": "Financials/Crypto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-07",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2026-Q1\\07 coinbase q1 2026 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COIN_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T213025Z",
+    "timestamp": "2026-07-18T21:30:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2026-Q1\\07 coinbase q1 2026 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2026-Q1\\07 coinbase q1 2026 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6214,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ1_2026.txt"
+  }
+}

@@ -32,6 +32,20 @@ MANIFESTS = {
     "target": BASE_DIR / "manifests" / "target_reports.json",
 }
 
+# Phase 2: separate human-comparison track, see quant_layer.py's identical block
+# for the "p2_" prefix rationale (avoids eval.run_eval._base_issuer()'s fold).
+PHASE2_ISSUERS = [
+    "airbnb", "amazon", "amd", "apple", "cvs_health", "charles_schwab",
+    "citigroup", "coca_cola", "coinbase", "eli_lilly", "goldman_sachs",
+    "ibm", "lowes", "lululemon", "maersk", "mcdonalds", "meta", "nike",
+    "nvidia", "tesla", "uber", "walmart",
+    "bank_of_america", "boeing", "disney", "jpm", "netflix", "target",
+]
+MANIFESTS.update({
+    f"p2_{name}": BASE_DIR / "manifests" / f"p2_{name}_reports.json"
+    for name in PHASE2_ISSUERS
+})
+
 
 class BlendResult(NamedTuple):
     document_id: str
@@ -142,7 +156,10 @@ if __name__ == "__main__":
     assert abs(check - 0.28) < 1e-9, f"Sanity check failed: got {check}, expected 0.28"
     print(f"Sanity check passed: blend_scores(0.4, 0.2, -0.2, 0.5) = {check}")
 
-    for issuer in sys.argv[1:] or list(MANIFESTS):
+    # bare `python blend.py` (no args) must keep blending only the original 6
+    # production issuers, not the phase2 track that got added to MANIFESTS above.
+    default_issuers = ["boeing", "jpm", "netflix", "bank_of_america", "disney", "target"]
+    for issuer in sys.argv[1:] or default_issuers:
         print(f"\n=== {issuer} ===")
         for result in blend_issuer(issuer):
             print(

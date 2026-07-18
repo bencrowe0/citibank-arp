@@ -1,0 +1,181 @@
+{
+  "document_id": "DIS_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong Q1 with streaming profitability growth and Experiences revenue above expectations, but full-year guidance for Experiences (up 6-8%) and DTC (over $1 billion operating profit) is reaffirmed, not raised. Management expresses increased confidence but explicitly states it is 'premature to be changing guide' and flags 'rapidly evolving macro environment' as a reason for holding guidance. The score reflects genuine operational momentum (streaming profitability swing, strong Experiences start) without a formal guidance raise, landing at the lower end of the positive range due to the cautious forward stance."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Not disclosed",
+    "eps": "Not disclosed",
+    "guidance": "Experiences segment guided to be up 6-8% for the full year; DTC streaming expected to achieve over $1 billion in operating profit for the full year; fiscal 2026 ESPN low single-digit operating income growth reaffirmed.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Rapidly evolving macro environment cited as reason for not raising guidance despite strong Q1.",
+      "Potential impact of cord-cutting on linear networks, though management views current linear networks as an asset.",
+      "NBA rights cost step-up next year, though management expresses confidence in offsetting factors."
+    ],
+    "key_opportunities": [
+      "Streaming profitability growth: DTC operating profit of $300 million in Q1, on track for over $1 billion for the year.",
+      "ESPN flagship launch in fall 2025 expected to drive sports business growth and bundling with Disney+ and Hulu.",
+      "Technological enhancements including paid sharing, personalization, and dynamic home screen to drive subscriber growth and reduce churn.",
+      "Strong content pipeline with theatrical releases tied to popular IP and movie slate from back half of 2024 driving streaming subs.",
+      "Experiences segment: strong Q1 performance, Disney Treasure cruise ship off to 'spectacular start', summer bookings up."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'very encouraged by our results this quarter' (Bob Iger) and 'level of confidence in the Experiences guide is high' (Hugh Johnston), while also acknowledging macro uncertainty and holding guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year Experiences guidance is reaffirmed at up 6-8%.",
+      "quote": "We had said Experiences would be up six to eight on the year. The strong Q1 increases our level of confidence in the guide, for sure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year DTC streaming operating profit guidance is over $1 billion.",
+      "quote": "We made $300 million in the quarter. For the full year, our expectation is to be a little over $1 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management explicitly states it is premature to raise guidance despite strong Q1.",
+      "quote": "It's premature to be thinking about raising guidance, in my opinion, after just one quarter results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cites 'rapidly evolving macro environment' as a reason for not changing guidance.",
+      "quote": "given the rapidly evolving macro environment, we think it would be premature at this point to change the guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC streaming achieved $300 million operating profit in Q1.",
+      "quote": "We made $300 million in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences Q1 performance was above expectations.",
+      "quote": "we were able to power through with stronger performance than our expectations were for Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses high confidence in Experiences guidance.",
+      "quote": "level of confidence in the Experiences guide is high.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Overall, we're very encouraged by our results this quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN flagship is expected to launch in fall 2025.",
+      "quote": "The plan will be to launch it sometime toward the -- in the fall of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Summer bookings for Experiences are up.",
+      "quote": "bookings are up in the summer right now.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney Treasure cruise ship is off to a 'spectacular start'.",
+      "quote": "Disney Treasure is off to spectacular start.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 ESPN low single-digit operating income growth is reaffirmed.",
+      "quote": "we mentioned low single digits next year. We're still very much committed to that",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NBA rights cost step-up is expected next year but management sees offsetting factors.",
+      "quote": "there are a lot of variables that go into ESPN's P&L, including the advertising market for live sports, which is obviously very, very strong. It's also in terms of aggregate cost management",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management views linear networks as an asset, not a burden.",
+      "quote": "the linear networks in our company are not a burden at all. They're actually an asset.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Technological enhancements including paid sharing and personalization are expected to drive subscriber growth.",
+      "quote": "paid sharing starts to take hold, and as we add more of the movie slate... we think that content will drive sub growth as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is at the exact boundary of the BUY threshold. A human reviewer should confirm whether the operational momentum (streaming profitability swing, Experiences beat) outweighs the lack of a formal guidance raise and the cautious macro language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 3
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2025-05-07",
+  "report_metadata": {
+    "issuer": "p2_disney",
+    "company": "Disney",
+    "ticker": "DIS",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-07",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q1\\q1-fy25-earnings-transcriptpdf.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DIS_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213100Z",
+    "timestamp": "2026-07-18T21:31:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q1\\q1-fy25-earnings-transcriptpdf.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_disney\\extracted\\DIS_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q1\\q1-fy25-earnings-transcriptpdf.pdf",
+        "page_count": 2,
+        "extracted_characters": 36379,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_disney\\extracted\\DIS_FQ1_2025.txt"
+  }
+}

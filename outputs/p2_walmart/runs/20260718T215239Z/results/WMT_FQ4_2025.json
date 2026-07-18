@@ -1,0 +1,233 @@
+{
+  "document_id": "WMT_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: adjusted operating income grew 10.5% (cc), faster than sales, and eCommerce profitability has been achieved. However, full-year FY27 guidance for operating income growth of 6-8% (cc) is only modestly above the prior year's 5.4% adjusted growth, and management explicitly states they are taking a 'measured approach' and want to 'maintain maximum flexibility,' which tempers the positive signal. The score reflects genuine momentum without a formal, material guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 FY26 consolidated revenue $190.7 billion, up 5.6% reported, up 4.9% in constant currency. Full-year FY26 revenue $713.2 billion, up 4.7% reported, up 5.1% in constant currency.",
+    "eps": "Q4 FY26 GAAP EPS $0.53, down 18.5% YoY; Adjusted EPS $0.74, up 12.1% YoY. Full-year FY26 GAAP EPS $2.73, up 13.3% YoY; Adjusted EPS $2.64.",
+    "guidance": "FY27: Net sales growth 3.5% to 4.5% (cc); adjusted operating income growth 6.0% to 8.0% (cc); adjusted EPS $2.75 to $2.85. Q1 FY27: Net sales growth 3.5% to 4.5% (cc); operating income growth 4.0% to 6.0% (cc); adjusted EPS $0.63 to $0.65.",
+    "margin": "Q4 FY26 consolidated gross profit rate 24.0%, +13 bps YoY. Adjusted operating expenses leveraged 19 bps to 20.3% of net sales. Operating income rate 4.6%, +20 bps YoY.",
+    "key_risks": [
+      "Tariff environment remains 'bumpy' and is a headwind; Q1 OI growth impacted by year-over-year tariff impacts starting in Q2 last year.",
+      "Maximum Fair Pricing legislation on drugs expected to be a ~100 bps headwind to full-year sales growth.",
+      "Consumer health risks: lower-income households 'stretched' and living paycheck-to-paycheck; potential headwinds from a 'hiring recession,' subdued consumer sentiment, and student loan delinquencies.",
+      "Claims expense was a 300 bps headwind to operating income growth in FY26.",
+      "Currency fluctuations: if current rates hold, a ~70 bps benefit to sales and ~120 bps benefit to OI for FY27, implying underlying growth is lower."
+    ],
+    "key_opportunities": [
+      "eCommerce momentum: global eCommerce sales grew 24% in Q4, now 23% of total sales mix, up 550 bps from 2 years ago.",
+      "High-margin profit streams: advertising ($6.4B globally, +46% FY) and membership fees ($4.3B) represented nearly one-third of Q4 operating income.",
+      "Supply chain automation benefits: ~60% of stores receiving automated freight, ~50% of eCommerce FC volume automated, driving inventory efficiency and labor productivity.",
+      "Agentic commerce (Sparky): customers using Sparky have 35% higher average order value; roughly half of app users have used it.",
+      "New $30B share repurchase authorization, largest to-date, signaling confidence in cash flow generation."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'our strategy is working,' 'we are playing offense,' and 'we feel great about our future,' while also acknowledging a 'measured approach' to guidance, indicating confidence tempered with prudence."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 FY26 consolidated revenue was $190.7 billion, up 5.6% reported, up 4.9% in constant currency.",
+      "quote": "Total revenues grew 5.6% to $190.7 billion, up 4.9% (cc)1 excluding a $1.3 billion impact from currency fluctuations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 revenue was $713.2 billion, up 4.7% reported, up 5.1% in constant currency.",
+      "quote": "Revenue of $713.2 billion, up 4.7%, or 5.1% (cc) 1",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY26 GAAP EPS was $0.53, down 18.5% YoY; Adjusted EPS was $0.74, up 12.1% YoY.",
+      "quote": "GAAP EPS of $0.53; Adjusted EPS 1 of $0.74 ... Adjusted EPS1 of $0.74, up 12.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 GAAP EPS was $2.73, up 13.3% YoY; Adjusted EPS was $2.64.",
+      "quote": "Diluted net income per common share attributable to Walmart ... 2.73 ... 13.3% ... Adjusted EPS $2.64",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY27 guidance: net sales growth 3.5-4.5% (cc), adjusted operating income growth 6-8% (cc), adjusted EPS $2.75-$2.85.",
+      "quote": "Full year constant currency sales are expected to grow between 3.5% and 4.5%. And operating income is expected to grow between 6% and 8%, with EPS in the range of $2.75 to $2.85.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY26 consolidated gross profit rate was 24.0%, +13 bps YoY.",
+      "quote": "Gross profit rate +13 bps to 24.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating expenses leveraged 19 bps to 20.3% of net sales.",
+      "quote": "Adjusted operating expenses as a percentage of net sales1, -19 bps to 20.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff environment is a headwind; Q1 OI growth impacted by year-over-year tariff impacts.",
+      "quote": "Q1 operating income growth is expected to be lower than any other quarter in FY 2027 due in part to timing of expenses and the year-over-year tariff impacts that started in last year's second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Maximum Fair Pricing legislation on drugs expected to be a ~100 bps headwind to full-year sales growth.",
+      "quote": "the Maximum Fair Pricing legislation around drugs. We expect to contribute to about a 100-basis point headwind for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower-income households are 'stretched' and living paycheck-to-paycheck.",
+      "quote": "For households earning below $50,000, we continue to see that wallets are stretched and, in some cases, people are managing spending paycheck to paycheck.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Claims expense was a 300 bps headwind to operating income growth in FY26.",
+      "quote": "we grew adjusted operating income 5.4% even with a 300-basispoint headwind from increased claims expenses and navigating a bumpy tariff environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global eCommerce sales grew 24% in Q4, now 23% of total sales mix.",
+      "quote": "Global eCommerce net sales grew 24%; representing 23% of total net sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising and membership fees represented nearly one-third of Q4 operating income.",
+      "quote": "the combination of advertising income and membership fees represented nearly one-third of our operating income this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global advertising business grew 46% to $6.4 billion in FY26.",
+      "quote": "Our advertising businesses globally were up 46% this year to $6.4 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customers using Sparky have 35% higher average order value.",
+      "quote": "the customers who use Sparky have an average order value that's about 35% higher than non-Sparky customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Board authorized a new $30 billion share repurchase program.",
+      "quote": "our board authorized a $30 billion share repurchase program, our largest to-date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, using phrases like 'our strategy is working' and 'we are playing offense.'",
+      "quote": "Our strategy is working, and we are excited about the opportunities ahead. ... We are playing offense by reinforcing our customer and member value proposition",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is taking a 'measured approach' to guidance, wanting to 'maintain maximum flexibility.'",
+      "quote": "we are taking a measured approach with the outlook. ... we want to maintain maximum flexibility as we sit here at this point in the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a balance between strong operational momentum and a cautious, measured guidance posture. A reviewer may wish to assess whether the guidance raise (from 5.4% adjusted OI growth in FY26 to 6-8% in FY27) is material enough to warrant a higher score, or whether the explicit conservatism and risk factors justify a lower one."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "WMT_Bundled Earnings Report_2026-02-19",
+  "report_metadata": {
+    "issuer": "p2_walmart",
+    "company": "Walmart",
+    "ticker": "WMT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-19",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q4\\q4-fy26-earnings-call-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q4\\q4-fy26-earnings-presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q4\\q4-fy26-earnings-release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "WMT_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T215239Z",
+    "timestamp": "2026-07-18T21:54:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q4\\q4-fy26-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_walmart\\extracted\\WMT_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q4\\q4-fy26-earnings-call-transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 81079,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q4\\q4-fy26-earnings-presentation.pdf",
+        "page_count": 36,
+        "extracted_characters": 55249,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q4\\q4-fy26-earnings-release.pdf",
+        "page_count": 19,
+        "extracted_characters": 46993,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_walmart\\extracted\\WMT_FQ4_2025.txt"
+  }
+}

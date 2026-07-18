@@ -1,0 +1,182 @@
+{
+  "document_id": "TSLA_FQ1_2026",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The document reports a beat on both revenue ($22.4B vs ~$21.9B expected) and EPS ($0.41 vs ~$0.35-$0.37 expected), with auto margins improving sequentially from 17.9% to 19.2%. However, the margin improvement was helped by ~$230M of warranty true-downs, energy storage deployments fell 38% sequentially, and forward guidance includes negative free cash flow for the rest of the year with capex above $25B. The forward outlook is mixed: EMEA demand is surging and order backlog is the highest in over two years, but the company frames 2026 as a transition year and unsupervised FSD is pushed to Q4. The score is positive but tempered by the mixed quality of the beat and cautious forward guidance."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$22.4B against roughly $21.9B expected.",
+    "eps": "$0.41 against $0.35 to $0.37 expected.",
+    "guidance": "2026 capex above $25B, with negative free cash flow expected for the rest of the year. Unsupervised FSD framed as probably a fourth-quarter event. A transition year on the company's own framing.",
+    "margin": "Auto margins excluding credits 19.2%, up from 17.9%, helped by about $230M of warranty true-downs. Energy storage at a 39.5% gross margin including about $250M of tariff benefits.",
+    "key_risks": [
+      "Battery pack capacity called the biggest limiter on production growth.",
+      "Negative free cash flow through 2026 during the investment phase.",
+      "Robotaxi complexity issues, including vehicles behaving over-cautiously and expansion limited beyond Texas cities.",
+      "Hardware 3 does not have the capability to achieve unsupervised FSD.",
+      "Energy storage deployments down 38% sequentially."
+    ],
+    "key_opportunities": [
+      "EMEA deliveries surged, with France and Germany up over 150% quarter over quarter.",
+      "Highest Q1 order backlog in over two years.",
+      "Optimus will be our biggest product... probably the biggest product ever."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "The tone is mixed: positive on the beat and EMEA demand, but cautious on the cash flow outlook and autonomy timeline, with the company framing 2026 as a transition year."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $22.4B against roughly $21.9B expected.",
+      "quote": "Revenue $22.4B against roughly $21.9B expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $0.41 against $0.35 to $0.37 expected.",
+      "quote": "EPS $0.41 against $0.35 to $0.37 expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Auto margins excluding credits improved sequentially from 17.9% to 19.2%.",
+      "quote": "Auto margins excluding credits 19.2%, up from 17.9%, helped by about $230M of warranty true-downs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Energy storage deployments fell 38% sequentially.",
+      "quote": "Energy storage 8.8 GWh deployed, down 38% sequentially, at a 39.5% gross margin including about $250M of tariff benefits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance includes negative free cash flow for the rest of the year and capex above $25B.",
+      "quote": "2026 capex above $25B, with negative free cash flow expected for the rest of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unsupervised FSD is pushed to Q4.",
+      "quote": "Unsupervised FSD . . . probably in the fourth quarter – Musk, Q&A.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Battery pack capacity is the biggest limiter on production growth.",
+      "quote": "Battery pack capacity called the biggest limiter on production growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robotaxi complexity issues include vehicles behaving over-cautiously and expansion limited beyond Texas cities.",
+      "quote": "Robotaxi complexity issues, including vehicles behaving over-cautiously and expansion limited beyond Texas cities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hardware 3 does not have the capability to achieve unsupervised FSD.",
+      "quote": "Hardware 3 . . . does not have the capability to achieve unsupervised FSD – Musk, Q&A.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA deliveries surged, with France and Germany up over 150% quarter over quarter.",
+      "quote": "EMEA deliveries surged, with France and Germany up over 150% quarter over quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Highest Q1 order backlog in over two years.",
+      "quote": "Highest Q1 order backlog in over two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Optimus is framed as potentially the biggest product ever.",
+      "quote": "Optimus will be our biggest product . . . probably the biggest product ever – Musk, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company frames 2026 as a transition year.",
+      "quote": "A transition year on the company's own framing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The margin improvement was helped by warranty true-downs and tariff benefits.",
+      "quote": "Auto margins excluding credits 19.2%, up from 17.9%, helped by about $230M of warranty true-downs. Energy storage at a 39.5% gross margin including about $250M of tariff benefits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.35 is based on the analyst's own scoring in the document, which may incorporate subjective judgment. The forward guidance is mixed (negative cash flow but strong EMEA demand), so the score could be debated."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance field combines multiple forward-looking statements; the document does not provide a single explicit guidance figure for revenue or earnings, only capex and cash flow commentary."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TSLA_Bundled Earnings Report_2026-04-22",
+  "report_metadata": {
+    "issuer": "p2_tesla",
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-22",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2026-Q1\\19 tesla q1 2026 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TSLA_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T215147Z",
+    "timestamp": "2026-07-18T21:52:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2026-Q1\\19 tesla q1 2026 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2026-Q1\\19 tesla q1 2026 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 6114,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ1_2026.txt"
+  }
+}

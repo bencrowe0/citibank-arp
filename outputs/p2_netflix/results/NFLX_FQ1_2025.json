@@ -1,0 +1,158 @@
+{
+  "document_id": "NFLX_FQ1_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: ad revenue is on track to more than double in 2025, engagement reached record TV share in the U.S. and U.K., and management expressed strong confidence in the growth trajectory. However, full-year 2026 guidance was explicitly deferred to the next call, and the Q3 EPS missed consensus by 15.78% due to a one-time Brazilian tax charge. The forward outlook is positive but not formally raised, so the score is moderately positive but below the +0.5 threshold."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 revenue of $11,510.31 million, in line with consensus of $11,511.20 million (0.01% miss).",
+    "eps": "Q3 2025 EPS normalized of $5.87, missing consensus of $6.97 by 15.78%.",
+    "guidance": "Full-year 2026 guidance deferred to next call in January. No formal guidance raise for 2025 or 2026 provided. Management stated financial objectives unchanged: sustain healthy revenue growth, expand margins, increase free cash flow.",
+    "margin": "Operating income would have exceeded forecast absent the Brazilian tax matter. No specific margin percentage disclosed.",
+    "key_risks": [
+      "Brazilian tax matter (CIDE) resulted in a one-time charge of approximately $0.9 billion (implied from EPS miss) recorded in cost of revenues, covering periods 2022–2025.",
+      "Potential ongoing exposure to the Brazilian tax if future payments are subject to the same ruling, though management does not expect material impact going forward.",
+      "Competitive landscape with potential industry consolidation (e.g., Warner Bros. Discovery) could reshape competition, though management views this as manageable."
+    ],
+    "key_opportunities": [
+      "Advertising revenue on track to more than double in 2025, with strong growth in programmatic and upfront commitments.",
+      "Engagement reached record TV share in the U.S. (8.6%) and U.K. (9.4%) in Q3 2025.",
+      "Live events (e.g., Canelo-Crawford fight, NFL Christmas games, WWE, FIFA Women's World Cup) driving outsized acquisition and retention.",
+      "Games and interactivity (e.g., party games on TV, real-time voting) expanding engagement and retention.",
+      "Content slate for 2026 includes major returning series and films (e.g., Stranger Things finale, Narnia, Peaky Blinders movie).",
+      "Only 7% of addressable market in consumer spending and 10% of TV time in biggest market, indicating large room for growth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly used phrases like 'the business is very healthy,' 'we feel great about the business,' and 'we are as energized as ever,' indicating strong confidence in the outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 revenue was $11,510.31 million, in line with consensus.",
+      "quote": "We had a good Q3. We had revenue in line with expectations. Our operating income would have exceeded our forecast absent the Brazilian tax matter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 EPS normalized missed consensus by 15.78%.",
+      "quote": "FQ3 2025 EPS Normalized 6.97 5.87 (15.78 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance was deferred to the next call.",
+      "quote": "We'll issue a full year 2026 guidance on our next call in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue is on track to more than double in 2025.",
+      "quote": "We are now on track to more than double ad revenue this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement reached record TV share in the U.S. (8.6%) and U.K. (9.4%) in Q3 2025.",
+      "quote": "In Q3, we achieved our highest quarterly view share ever in the United States at 8.6%. And then the U.K. at 9.4% according to Nielsen and Barb, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Brazilian tax matter caused a one-time charge recorded in cost of revenues.",
+      "quote": "We recorded the expense as a component of our cost of revenues. ... the expense we booked in this quarter, it covers the periods from 2022 through Q3 of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed strong confidence in the business.",
+      "quote": "We think the business is very healthy. We feel good about our progress on our key initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Only 7% of addressable market in consumer spending and 10% of TV time in biggest market.",
+      "quote": "We continue to have a massive opportunity since we're only about 7% of the addressable market, in terms of consumer spending and only about 10% of time spent on TV in our biggest market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live events like Canelo-Crawford fight had outsized impact on acquisition and retention.",
+      "quote": "These events typically have outsized positives for conversation for acquisition, and we strongly suspect retention.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games and interactivity are expanding engagement and retention.",
+      "quote": "It drives engagement, drives retention, and therefore supports the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel great about the business. And as Greg said, we are as energized as ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on strong operational momentum but no formal guidance raise. A human reviewer should confirm that the absence of 2026 guidance and the EPS miss due to a one-time charge are appropriately weighted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2025-04-17",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214623Z",
+    "timestamp": "2026-07-18T21:46:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf",
+        "page_count": 15,
+        "extracted_characters": 45719,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ1_2025.txt"
+  }
+}

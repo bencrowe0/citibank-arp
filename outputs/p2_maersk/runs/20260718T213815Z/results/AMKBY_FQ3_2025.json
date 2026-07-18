@@ -1,0 +1,215 @@
+{
+  "document_id": "AMKBY_FQ3_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The full-year 2025 guidance was meaningfully raised: underlying EBIT guidance was narrowed from $2.0-3.5bn to $3.0-3.5bn, and underlying EBITDA guidance was raised from $8.0-9.5bn to $9.0-9.5bn. The improvement is organic, driven by strong volume performance, Gemini cooperation cost savings, and operational efficiencies across all segments, not attributed to one-time items or FX. Management expressed confidence in sustained demand and the trajectory of cost savings, supporting a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 revenue was USD 14,206 million, down 9.9% year-on-year from USD 15,762 million.",
+    "eps": "Q3 2025 earnings per share were USD 69, down from USD 193 in Q3 2024.",
+    "guidance": "Full-year 2025 guidance refined: underlying EBITDA raised to $9.0-9.5bn (from $8.0-9.5bn), underlying EBIT raised to $3.0-3.5bn (from $2.0-3.5bn), free cash flow raised to $1.0bn or higher (from -$1.0bn or higher). Global container market volume growth revised to around 4% (previously 2-4%).",
+    "margin": "Q3 2025 EBIT margin was 9.0%, up 2.6 percentage points sequentially from 6.4% in Q2 2025, but down from 21.0% in Q3 2024.",
+    "key_risks": [
+      "Ocean freight rates declined 31% year-on-year, reflecting ongoing market pressure.",
+      "The order book to fleet ratio for the container shipping industry is at 32%, the highest since the global financial crisis, posing potential future capacity challenges.",
+      "Increased trade imbalances leading to higher empty container repositioning and handling costs.",
+      "The IMO Net Zero Framework adoption was delayed by a year, losing momentum in global decarbonisation efforts.",
+      "Geopolitical environment remains fraught, with the Red Sea disruption expected to last for the full year."
+    ],
+    "key_opportunities": [
+      "Gemini cooperation delivered cost benefits of approximately $225 million in Q3, with annualised savings of $720-950 million, exceeding original targets.",
+      "Strong volume growth in Ocean (7.0% year-on-year) and high utilisation of 94%.",
+      "Terminals delivered record-high volumes, revenue, EBITDA, and EBIT, with ROIC reaching 17.2%.",
+      "Logistics & Services EBIT margin improved to 5.5%, driven by operational improvements and cost control.",
+      "Continued strong demand, especially from China, with global container market volume growth expected around 4% for 2025."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described 'strong execution across all businesses' and 'strong performance in the third quarter with good progress across all segments,' and raised guidance, reflecting confidence in the trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 underlying EBIT guidance was raised from $2.0-3.5bn to $3.0-3.5bn.",
+      "quote": "EBIT Underlying (6 February: 0.0-3.0) (7 August: 2.0-3.5) 3.0-3.5",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 underlying EBITDA guidance was raised from $8.0-9.5bn to $9.0-9.5bn.",
+      "quote": "EBITDA Underlying (6 February: 6.0-9.0) (7 August: 8.0-9.5) 9.0-9.5",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 revenue was USD 14,206 million, down 9.9% year-on-year.",
+      "quote": "Revenue amounted to USD 14.2bn (USD 15.8bn), down by 9.9% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 earnings per share were USD 69, down from USD 193 in Q3 2024.",
+      "quote": "Earnings per share, USD 69 193",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 EBIT margin was 9.0%, up 2.6 percentage points sequentially from 6.4% in Q2 2025.",
+      "quote": "The EBIT margin reached 9.0%, reflecting a 2.6 percentage point improvement from 6.4% in Q2 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ocean freight rates declined 31% year-on-year.",
+      "quote": "Loaded freight rates declined 31% compared to Q3 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The order book to fleet ratio for the container shipping industry is at 32%, the highest since the global financial crisis.",
+      "quote": "we've seen in a container shipping, the order book to fleet ratio for the industry is around 32% now, which I believe is the highest since the global financial crisis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gemini cooperation delivered cost benefits of approximately $225 million in Q3, with annualised savings of $720-950 million.",
+      "quote": "Overall across ocean and terminal, therefore we have generated about $225 million in cost benefits in the third quarter, or $720 to $950 million in annual savings compared to our previously announced targets of about $500 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Terminals delivered record-high volumes, revenue, EBITDA, and EBIT.",
+      "quote": "Terminals delivered another record-high quarter with a significant increase in profitability",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Logistics & Services EBIT margin improved to 5.5%.",
+      "quote": "Logistics & Services continued to increase profitability and reported a 0.4 percentage point improvement in EBIT margin year-on-year landing at 5.5% (5.1%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global container market volume growth revised to around 4% for 2025.",
+      "quote": "The expected global container market volume growth has also been revised to be around 4% (previously between 2% and 4%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are pleased with the strong execution shown during the quarter in all businesses. We improved our performance across the board and delivered on an ABITda of $2.7 billion and an ABIT of $1.3 billion up from the previous quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Red Sea disruption is expected to last for the full year.",
+      "quote": "The Red Sea disruption is expected to last for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The IMO Net Zero Framework adoption was delayed by a year.",
+      "quote": "On October 17, at the IMO Marine Environment Protection Committee's (MEPC) second extraordinary meeting, member states voted to adjourn the meeting for formally adopting the global greenhouse gas emissions pricing framework agreed by the member states back in April 2025. The potential adoption will now take place in a year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increased trade imbalances lead to higher empty container repositioning and handling costs.",
+      "quote": "the increased trade imbalance that it is causing which over time will lead to higher production costs and lower asset intensity for the industry.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.35 is based on a guidance raise, but the year-on-year decline in revenue and EPS is significant. A reviewer may want to assess whether the forward momentum fully offsets the backward-looking decline."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMKBY_Bundled Earnings Report_2025-11-06",
+  "report_metadata": {
+    "issuer": "p2_maersk",
+    "company": "Maersk",
+    "ticker": "AMKBY",
+    "sector": "Industrials/Shipping",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-06",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q3\\Maersk Q3 2025 Interim Report.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q3\\Maersk Q3 2025 Investor Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q3\\Q3 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMKBY_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213815Z",
+    "timestamp": "2026-07-18T21:39:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q3\\Maersk Q3 2025 Interim Report.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_maersk\\extracted\\AMKBY_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q3\\Maersk Q3 2025 Interim Report.pdf",
+        "page_count": 25,
+        "extracted_characters": 76138,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q3\\Maersk Q3 2025 Investor Presentation.pdf",
+        "page_count": 27,
+        "extracted_characters": 2247,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q3\\Q3 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf",
+        "page_count": 22,
+        "extracted_characters": 58460,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_maersk\\extracted\\AMKBY_FQ3_2025.txt"
+  }
+}

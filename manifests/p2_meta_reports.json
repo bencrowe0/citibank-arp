@@ -1,0 +1,53 @@
+{
+  "issuer": "p2_meta",
+  "reports": [
+    {
+      "document_id": "META_FQ3_2025",
+      "issuer": "p2_meta",
+      "company": "Meta",
+      "ticker": "META",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/meta/CY2025-Q3/14 meta q3 2025 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "META_FQ4_2025",
+      "issuer": "p2_meta",
+      "company": "Meta",
+      "ticker": "META",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-28",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/meta/CY2025-Q4/15 meta q4 2025 david.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "META_FQ1_2026",
+      "issuer": "p2_meta",
+      "company": "Meta",
+      "ticker": "META",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/meta/CY2026-Q1/13 meta q1 2026 david.pdf"
+        }
+      ]
+    }
+  ]
+}

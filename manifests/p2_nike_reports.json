@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_nike",
+  "reports": [
+    {
+      "document_id": "NKE_FQ1_2025",
+      "issuer": "p2_nike",
+      "company": "Nike",
+      "ticker": "NKE",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-03-20",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/nike/CY2025-Q1/Q1 2025 - numbers.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nike/CY2025-Q1/Q1 2025 Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NKE_FQ2_2025",
+      "issuer": "p2_nike",
+      "company": "Nike",
+      "ticker": "NKE",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-06-26",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/nike/CY2025-Q2/Q2 2025 - numbers.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nike/CY2025-Q2/Q2 2025 Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NKE_FQ3_2025",
+      "issuer": "p2_nike",
+      "company": "Nike",
+      "ticker": "NKE",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-09-30",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/nike/CY2025-Q3/Q3 2025 - numbers.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nike/CY2025-Q3/Q3 2025 Earnings Call Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

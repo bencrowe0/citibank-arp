@@ -1,0 +1,522 @@
+{
+  "AAPL_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-07-31",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "AAPL_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "nearest_real_earnings_date(gap=0d)"
+  },
+  "AAPL_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-01-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "ABNB_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-06",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "ABNB_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-06",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "ABNB_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-12",
+    "source": "nearest_real_earnings_date(gap=13d)"
+  },
+  "ABNB_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-07",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "AMD_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-05",
+    "source": "nearest_real_earnings_date(gap=6d)"
+  },
+  "AMD_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-03",
+    "source": "nearest_real_earnings_date(gap=4d)"
+  },
+  "AMD_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-05",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "AMKBY_2025_Q1": {
+    "confidence": "low",
+    "report_date": "2025-02-05",
+    "source": "nearest_real_earnings_date(gap=84d)"
+  },
+  "AMKBY_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-07",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "AMKBY_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-06",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "AMKBY_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-05",
+    "source": "nearest_real_earnings_date(gap=6d)"
+  },
+  "AMZN_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "nearest_real_earnings_date(gap=0d)"
+  },
+  "AMZN_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-05",
+    "source": "nearest_real_earnings_date(gap=6d)"
+  },
+  "AMZN_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "BAC_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "BAC_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-16",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "BAC_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "BAC_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-14",
+    "source": "nearest_real_earnings_date(gap=16d)"
+  },
+  "BA_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-23",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "BA_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "BA_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "BA_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-27",
+    "source": "nearest_real_earnings_date(gap=3d)"
+  },
+  "COIN_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "nearest_real_earnings_date(gap=0d)"
+  },
+  "COIN_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-12",
+    "source": "nearest_real_earnings_date(gap=13d)"
+  },
+  "COIN_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-07",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "CVS_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-06",
+    "source": "nearest_real_earnings_date(gap=6d)"
+  },
+  "C_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "C_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "C_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-14",
+    "source": "nearest_real_earnings_date(gap=16d)"
+  },
+  "C_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-14",
+    "source": "nearest_real_earnings_date(gap=16d)"
+  },
+  "DIS_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-07",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "DIS_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-13",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "DIS_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-02",
+    "source": "nearest_real_earnings_date(gap=3d)"
+  },
+  "GS_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-14",
+    "source": "nearest_real_earnings_date(gap=16d)"
+  },
+  "GS_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-16",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "GS_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-14",
+    "source": "nearest_real_earnings_date(gap=16d)"
+  },
+  "GS_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "GS_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-13",
+    "source": "nearest_real_earnings_date(gap=17d)"
+  },
+  "GS_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2026-07-14",
+    "source": "nearest_real_earnings_date(gap=16d)"
+  },
+  "IBM_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-23",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "IBM_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-28",
+    "source": "nearest_real_earnings_date(gap=2d)"
+  },
+  "IBM_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-22",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "JPM_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-11",
+    "source": "nearest_real_earnings_date(gap=19d)"
+  },
+  "JPM_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "JPM_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-14",
+    "source": "nearest_real_earnings_date(gap=16d)"
+  },
+  "JPM_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-13",
+    "source": "nearest_real_earnings_date(gap=17d)"
+  },
+  "JPM_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-14",
+    "source": "nearest_real_earnings_date(gap=16d)"
+  },
+  "KO_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-22",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "KO_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-10",
+    "source": "nearest_real_earnings_date(gap=11d)"
+  },
+  "KO_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-28",
+    "source": "nearest_real_earnings_date(gap=2d)"
+  },
+  "LLY_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "nearest_real_earnings_date(gap=0d)"
+  },
+  "LLY_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-04",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "LLY_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-30",
+    "source": "nearest_real_earnings_date(gap=0d)"
+  },
+  "LOW_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-21",
+    "source": "nearest_real_earnings_date(gap=9d)"
+  },
+  "LOW_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-20",
+    "source": "filename_literal_date"
+  },
+  "LOW_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-19",
+    "source": "filename_literal_date"
+  },
+  "LOW_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-25",
+    "source": "filename_literal_date"
+  },
+  "LOW_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-20",
+    "source": "filename_literal_date"
+  },
+  "LULU_2025_Q3": {
+    "confidence": "medium",
+    "report_date": "2025-12-11",
+    "source": "nearest_real_earnings_date(gap=42d)"
+  },
+  "LULU_2025_Q4": {
+    "confidence": "low",
+    "report_date": "2026-03-17",
+    "source": "nearest_real_earnings_date(gap=46d)"
+  },
+  "LULU_2026_Q1": {
+    "confidence": "medium",
+    "report_date": "2026-06-04",
+    "source": "nearest_real_earnings_date(gap=35d)"
+  },
+  "MCD_2024_Q4": {
+    "confidence": "high",
+    "report_date": "2025-02-10",
+    "source": "nearest_real_earnings_date(gap=11d)"
+  },
+  "MCD_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-11",
+    "source": "nearest_real_earnings_date(gap=12d)"
+  },
+  "MCD_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-07",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "META_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "META_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-28",
+    "source": "nearest_real_earnings_date(gap=2d)"
+  },
+  "META_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "NFLX_2024_Q4": {
+    "confidence": "high",
+    "report_date": "2025-01-21",
+    "source": "nearest_real_earnings_date(gap=9d)"
+  },
+  "NFLX_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-17",
+    "source": "nearest_real_earnings_date(gap=13d)"
+  },
+  "NFLX_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-17",
+    "source": "nearest_real_earnings_date(gap=13d)"
+  },
+  "NFLX_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-21",
+    "source": "nearest_real_earnings_date(gap=9d)"
+  },
+  "NFLX_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-20",
+    "source": "nearest_real_earnings_date(gap=10d)"
+  },
+  "NFLX_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-16",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "NKE_2025_Q1": {
+    "confidence": "medium",
+    "report_date": "2025-03-20",
+    "source": "nearest_real_earnings_date(gap=41d)"
+  },
+  "NKE_2025_Q2": {
+    "confidence": "medium",
+    "report_date": "2025-06-26",
+    "source": "nearest_real_earnings_date(gap=34d)"
+  },
+  "NKE_2025_Q3": {
+    "confidence": "medium",
+    "report_date": "2025-09-30",
+    "source": "nearest_real_earnings_date(gap=30d)"
+  },
+  "NVDA_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-28",
+    "source": "nearest_real_earnings_date(gap=2d)"
+  },
+  "NVDA_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-27",
+    "source": "nearest_real_earnings_date(gap=3d)"
+  },
+  "NVDA_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-19",
+    "source": "nearest_real_earnings_date(gap=11d)"
+  },
+  "NVDA_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-25",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "SCHW_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-17",
+    "source": "nearest_real_earnings_date(gap=13d)"
+  },
+  "SCHW_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-18",
+    "source": "nearest_real_earnings_date(gap=12d)"
+  },
+  "SCHW_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-16",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "SCHW_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-21",
+    "source": "nearest_real_earnings_date(gap=9d)"
+  },
+  "SCHW_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-16",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "TGT_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-21",
+    "source": "filename_literal_date"
+  },
+  "TGT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-20",
+    "source": "filename_literal_date"
+  },
+  "TGT_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-19",
+    "source": "filename_literal_date"
+  },
+  "TGT_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-20",
+    "source": "filename_literal_date"
+  },
+  "TSLA_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-22",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "TSLA_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-28",
+    "source": "nearest_real_earnings_date(gap=2d)"
+  },
+  "TSLA_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-22",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "UBER_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-07",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "UBER_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-06",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "UBER_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-04",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "UBER_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-06",
+    "source": "nearest_real_earnings_date(gap=6d)"
+  },
+  "WMT_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "WMT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-21",
+    "source": "nearest_real_earnings_date(gap=9d)"
+  },
+  "WMT_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-20",
+    "source": "nearest_real_earnings_date(gap=10d)"
+  },
+  "WMT_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-19",
+    "source": "nearest_real_earnings_date(gap=11d)"
+  },
+  "WMT_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-21",
+    "source": "nearest_real_earnings_date(gap=9d)"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "document_id": "UBER_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong Q1 2026 results with gross bookings up 21% YoY and non-GAAP EPS up 44% YoY, both at or above the high end of guidance. Management explicitly raised confidence in US Mobility acceleration for the remainder of 2026, citing insurance cost savings and improved pricing elasticity. While formal numerical guidance was not raised in the transcript, the language is confident and points to a genuine operational inflection, particularly in US Mobility and Delivery growth, warranting a score above 0.15 but below 0.5 due to the absence of a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Gross bookings were up 21% year on year. Non-GAAP EPS increased 44% year over year.",
+    "eps": "Non-GAAP EPS increased 44% year over year, more than twice as fast as bookings growth.",
+    "guidance": "Management expressed confidence in continued US Mobility acceleration in 2026, stating 'we feel even more confident today than we did in December or January.' They also noted 'our guidance reflects continued momentum, disciplined capital allocation, and a clear focus on durable, profitable growth.'",
+    "margin": "Mobility gross bookings accelerated to 20% with record margins. Delivery grew 23%, led by grocery and retail and supported by strong retention.",
+    "key_risks": [
+      "Complex backdrop marked by war and weather.",
+      "AV scaling requires time for regulatory dialogue and fleet management.",
+      "Competitive intensity from DoorDash and others in Europe.",
+      "AI investment budget was underestimated and re-upped, potentially impacting margins."
+    ],
+    "key_opportunities": [
+      "Insurance cost savings expected to drive US Mobility acceleration.",
+      "Uber One membership reached 50 million members, growing 50% year-on-year, with members spending 3x more.",
+      "AV Mobility trips grew more than 10x year-on-year, with plans to be in up to 15 cities by year end.",
+      "Expansion into sparse markets (suburban) showing 2x faster trip growth.",
+      "New hotel booking service via Expedia partnership, offering 10% Uber credits to Uber One members.",
+      "AI and agentic tools driving cross-platform usage and personalization."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Dara Khosrowshahi stated 'Uber had an exceptional start to 2026' and Balaji Krishnamurthy said 'we feel even more confident today than we did in December or January' regarding US Mobility acceleration."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Gross bookings were up 21% year on year.",
+      "quote": "Gross bookings were up 21% year on year, reflecting the durability of our platform, and that growth was once again trip and audience led with our audience growing 17% alongside strong engagement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS increased 44% year over year.",
+      "quote": "Non-GAAP EPS increased 44% year over year, more than twice as fast as our bookings growth, driven by disciplined cost management and operating leverage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in continued US Mobility acceleration in 2026.",
+      "quote": "And we expect to see this translating to accelerating US business growth in 2026 as we've previously said, and we feel even more confident today than we did in December or January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mobility gross bookings accelerated to 20% with record margins.",
+      "quote": "Mobility gross bookings accelerated to 20% with record margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Delivery grew 23%, led by grocery and retail and supported by strong retention.",
+      "quote": "Delivery grew 23%, led by grocery and retail and supported by strong retention.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uber One membership reached 50 million members, growing 50% year-on-year.",
+      "quote": "We've now surpassed 50 million Uber One members... It's 50 million members. It accounts for over 50% of our bookings now and growing 50% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AV Mobility trips grew more than 10x year-on-year.",
+      "quote": "AV Mobility trips grew more than 10x year-on-year, and we remain on track to be live in up to 15 cities by the end of the year, including new deployments in the US.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Insurance cost savings expected to drive US Mobility acceleration.",
+      "quote": "And as a result of that, we are seeing really good elasticity. And as we would have expected, we've seen that price reduction translate to acceleration in trip growth. And the overall California market growth has accelerated.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Uber had an exceptional start to 2026, driven by strong execution and a continued focus on product innovation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Complex backdrop marked by war and weather.",
+      "quote": "Despite the complex backdrop marked by war and weather, we delivered top line and profitability at or above the high end of our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive intensity from DoorDash and others in Europe.",
+      "quote": "In international markets, we are very much on an offensive footing. So if you think about Europe, where we are seeing an incremental level of competitive intensity from both DoorDash and [indiscernible] as they have expanded into the market, we've held our own quite well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI investment budget was underestimated and re-upped.",
+      "quote": "I would say candidly, when we set our budgets for 2026 in November, we underestimated the amount of impact the AI tools could have. And obviously in December we had new models come in. So we've re-upped our investment here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion into sparse markets showing 2x faster trip growth.",
+      "quote": "we're seeing that trip growth rates are growing 2x faster generally in Mobility and Delivery in these sparse markets versus the core urban markets where kind of we grew up as a company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New hotel booking service via Expedia partnership.",
+      "quote": "So now we've got 700,000 hotels available on Uber as we speak. And we've taken most of the economics of that deal, and we are giving it back to our Uber One members. Uber One members get 10% Uber credits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AV scaling requires time for regulatory dialogue.",
+      "quote": "But this is going to take time, both in terms of scaling the business, fleet management, financing, insurance, and also making sure that we have the right dialogue with regulators on a local basis and all the constituents that are going to be affected by these changes in our society.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on confident forward language and operational momentum, but no formal numerical guidance raise was provided. A reviewer may want to assess whether the absence of a formal raise should cap the score lower."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UBER_Bundled Earnings Report_2026-05-06",
+  "report_metadata": {
+    "issuer": "p2_uber",
+    "company": "Uber",
+    "ticker": "UBER",
+    "sector": "Technology/Transportation",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2026-Q1\\Uber-Q1-26-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UBER_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T215225Z",
+    "timestamp": "2026-07-18T21:53:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2026-Q1\\Uber-Q1-26-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2026-Q1\\Uber-Q1-26-Earnings-Call-Transcript.pdf",
+        "page_count": 14,
+        "extracted_characters": 55883,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ1_2026.txt"
+  }
+}

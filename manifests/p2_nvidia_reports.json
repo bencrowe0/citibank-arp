@@ -1,0 +1,85 @@
+{
+  "issuer": "p2_nvidia",
+  "reports": [
+    {
+      "document_id": "NVDA_FQ1_2025",
+      "issuer": "p2_nvidia",
+      "company": "Nvidia",
+      "ticker": "NVDA",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-28",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nvidia/CY2025-Q1/NVDA-Q4FY25-earnings-call-transcript-MotleyFool.html"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/nvidia/CY2025-Q1/NVIDIA Q1 2025 - Dragos manual baseline.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NVDA_FQ2_2025",
+      "issuer": "p2_nvidia",
+      "company": "Nvidia",
+      "ticker": "NVDA",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-27",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nvidia/CY2025-Q2/NVDA-Q1FY26-earnings-call-transcript-AlphaStreet.html"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/nvidia/CY2025-Q2/NVIDIA Q2 2025 - Dragos manual baseline.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NVDA_FQ3_2025",
+      "issuer": "p2_nvidia",
+      "company": "Nvidia",
+      "ticker": "NVDA",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-19",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nvidia/CY2025-Q3/NVDA-Q2FY26-earnings-call-transcript-AlphaStreet.html"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/nvidia/CY2025-Q3/NVIDIA Q3 2025 - Dragos manual baseline.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NVDA_FQ4_2025",
+      "issuer": "p2_nvidia",
+      "company": "Nvidia",
+      "ticker": "NVDA",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-25",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nvidia/CY2025-Q4/NVDA-Q3FY26-earnings-call-transcript-MotleyFool.html"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/nvidia/CY2025-Q4/NVIDIA Q4 2025 - Dragos manual baseline.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "document_id": "LOW_FQ1_2025",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The company reported Q1 sales and EPS in line with expectations, and full-year guidance was reaffirmed unchanged. Management noted ongoing pressure from DIY big-ticket discretionary demand and a cautious consumer, with no inflection expected in 2025. The forward outlook is flat, with no guidance raise or material positive surprise, resulting in a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q1 sales of $20.9 billion, comparable sales down 1.7% (in line with expectations).",
+    "eps": "Diluted EPS of $2.92, in line with expectations.",
+    "guidance": "Affirmed fiscal 2025 outlook: sales $83.5B-$84.5B, comp sales flat to up 1%, operating margin 12.3%-12.4%, diluted EPS ~$12.15-$12.40. Q2 comp sales expected ~150 bps above bottom end of full-year guide.",
+    "margin": "Gross margin 33.4%, up 19 bps YoY. Operating margin 11.9%, down 50 bps YoY. Full-year gross margin expected roughly flat.",
+    "key_risks": [
+      "Ongoing pressure in DIY bigger ticket discretionary demand",
+      "Slower start to spring due to unfavorable weather",
+      "Elevated mortgage rates and affordability challenges",
+      "Uncertain macro environment and cautious consumer",
+      "Tariff impacts expected to be more concentrated in second half of the year"
+    ],
+    "key_opportunities": [
+      "Mid-single-digit Pro sales growth in Q1",
+      "Online sales up 6% driven by traffic and conversion",
+      "Acquisition of Artisan Design Group to expand Pro penetration in new home construction",
+      "Launch of product marketplace with Mirakl to scale extended aisle",
+      "Mylow AI-powered virtual advisor and Mylow Companion for associates",
+      "Strong spring in-stock positions and customer satisfaction scores up 100 bps"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in execution and strategic initiatives ('we remain confident in our team's ability to execute at a high level') but also acknowledged ongoing headwinds ('bigger ticket project spend remains under pressure') and reaffirmed rather than raised guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 sales of $20.9 billion, comparable sales down 1.7% (in line with expectations).",
+      "quote": "In the first quarter, we delivered sales of $20.9 billion with comparable sales down 1.7%, in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $2.92, in line with expectations.",
+      "quote": "Diluted earnings per share of $2.92 were in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance reaffirmed unchanged.",
+      "quote": "today we are affirming our fiscal 2025 outlook. We continue to expect sales ranging from $83.5 billion to $84.5 billion with comparable sales in a range of flat to up 1%. We expect operating margin in a range of 12.3% to 12.4% and full year diluted earnings per share of approximately $12.15 to $12.40.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin 33.4%, up 19 bps YoY.",
+      "quote": "Gross margin was 33.4% of sales in the first quarter, up 19 basis points from last year, driven by multiple PPI initiatives as well as some modest improvement in Shrink and Credit revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin 11.9%, down 50 bps YoY.",
+      "quote": "Operating margin rate of 11.9% declined 50 basis points versus prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing pressure in DIY bigger ticket discretionary demand.",
+      "quote": "our financial results also reflect ongoing pressure in DIY bigger ticket discretionary demand",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Slower start to spring due to unfavorable weather.",
+      "quote": "a slower start to spring versus last year with exceptionally unfavorable weather across much of the country in February.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Elevated mortgage rates and affordability challenges.",
+      "quote": "the affordability challenge remains the primary concern, inflation rates, as Marvin mentioned, rates still hovering 30-year mortgage around 7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertain macro environment and cautious consumer.",
+      "quote": "we continue to deliver operational excellence combined with value and outstanding service to our customers. This dedication drove an increase in our customer satisfaction scores",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff impacts expected to be more concentrated in second half of the year.",
+      "quote": "we do expect any incremental impact that we see to be more concentrated in the second half of our year, and that's baked into the expectation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mid-single-digit Pro sales growth in Q1.",
+      "quote": "our ability to deliver mid-single-digit growth in Pro sales comp in Q1 is a reflection that our strategy is working.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Online sales up 6% driven by traffic and conversion.",
+      "quote": "In the first quarter, online sales were up 6% driven by increases in both traffic and conversion rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Acquisition of Artisan Design Group to expand Pro penetration in new home construction.",
+      "quote": "we announced a deal in April to acquire Artisan Design Group, or ADG, which is a leading provider of design, distribution, and installation services for interior surface finishes, including flooring, countertops, and cabinets. ADG serves national, regional and local homebuilders as well as property managers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of product marketplace with Mirakl to scale extended aisle.",
+      "quote": "we recently partnered with Mirakl, a global leader in marketplace technology to help us scale even faster. Through Mirakl, trusted marketplace sellers will be able to easily manage their catalogs on lowes.com.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mylow AI-powered virtual advisor and Mylow Companion for associates.",
+      "quote": "we launched Mylow, the first AI-powered Home Improvement Virtual Advisor. ... we've also released Mylow Companion for our store associates built on the same technology.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong spring in-stock positions and customer satisfaction scores up 100 bps.",
+      "quote": "Their efforts are paying off with customer satisfaction scores up 100 basis points over last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed.",
+      "quote": "we remain confident in our team's ability to execute at a high level and manage through this challenging environment as well as any team in retail. ... bigger ticket project spend remains under pressure in interior categories like flooring and kitchens and bath, with many customers still choosing to delay those larger purchases.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.00 because guidance was reaffirmed unchanged and the quarter was in line. However, the company did report mid-single-digit Pro growth and online growth, which could be seen as slightly positive. The score is neutral but a reviewer may consider a small positive adjustment."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LOW_Bundled Earnings Report_2025-05-21",
+  "report_metadata": {
+    "issuer": "p2_lowes",
+    "company": "Lowe's",
+    "ticker": "LOW",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q1\\low-q1-2025-transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LOW_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214029Z",
+    "timestamp": "2026-07-18T21:40:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q1\\low-q1-2025-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lowes\\extracted\\LOW_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q1\\low-q1-2025-transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 66708,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lowes\\extracted\\LOW_FQ1_2025.txt"
+  }
+}

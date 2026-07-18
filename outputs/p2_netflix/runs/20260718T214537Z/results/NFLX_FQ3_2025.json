@@ -1,0 +1,179 @@
+{
+  "document_id": "NFLX_FQ3_2025",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document shows strong operational momentum (record ad sales, record TV time share, 17% revenue growth) but the headline EPS miss due to a one-time Brazil tax charge and the absence of any formal 2026 guidance (deferred to January) leave forward expectations unchanged. Management's confident language ('feeling good about our growth trajectory') is not backed by a guidance raise, and the structural risk of the Brazil tax continuing (though small) and the lack of concrete 2026 numbers keep the score neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$11.51B, up 17% year-over-year.",
+    "eps": "$5.87 versus roughly $6.96 consensus, an optical miss attributable to the Brazil charge.",
+    "guidance": "No full-year 2026 guidance given, deferred to the January call. No 2026 advertising revenue guidance provided.",
+    "margin": "Operating margin 28%, down from 30% a year earlier and below the 31.5% guidance, driven by a $619M Brazil tax expense.",
+    "key_risks": [
+      "The EPS/margin miss itself, even if one-time.",
+      "The Brazil Supreme Court ruled against Netflix 7–4 on the tax scope.",
+      "No 2026 numbers on the table yet, with the market asked to wait until January.",
+      "Intensifying live-sports competition (Apple F1, Paramount UFC).",
+      "WBD / Warner Bros. acquisition rumours in the background (regulatory and execution overhang)."
+    ],
+    "key_opportunities": [
+      "Record share of TV time in Q3: 8.6% in the U.S. and 9.4% in the U.K.",
+      "Best ad-sales quarter ever, on track to more than double ad revenue in 2025.",
+      "Canelo-Crawford fight drew 41M+ live viewers and ranked top 10 in 91 countries.",
+      "Approaching 1 billion people globally for programming, still only ~7% of addressable consumer-spend market and ~10% of TV time in biggest markets."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management stated 'feeling good about our growth trajectory' and 'a pretty great 2026 coming up after this phenomenal Q4,' indicating confidence despite the one-time charge."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $11.51B, up 17% year-over-year.",
+      "quote": "Q3 2025 revenue $11.51B, up 17% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $5.87 versus roughly $6.96 consensus, an optical miss attributable to the Brazil charge.",
+      "quote": "Reported EPS $5.87 versus a roughly $6.96 consensus, an optical miss attributable to the Brazil charge.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No full-year 2026 guidance given, deferred to the January call.",
+      "quote": "No full-year 2026 guidance given, deferred to the January call (a timing change vs 2025, when the guide came in Q3) (Neumann, Q&A).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 28%, down from 30% a year earlier and below the 31.5% guidance, driven by a $619M Brazil tax expense.",
+      "quote": "Operating margin 28%, down from 30% a year earlier and below the 31.5% guidance. The margin shortfall is driven by a $619M expense tied to an ongoing Brazil tax dispute (a 10% levy on certain outbound payments), covering 2022–2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The EPS/margin miss itself, even if one-time, is a risk.",
+      "quote": "The EPS/margin miss itself, even if one-time. The Brazil Supreme Court ruled against Netflix 7–4 on the tax scope.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No 2026 numbers on the table yet, with the market asked to wait until January.",
+      "quote": "No 2026 numbers on the table yet, with the market asked to wait until January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intensifying live-sports competition (Apple F1, Paramount UFC) is a risk.",
+      "quote": "Intensifying live-sports competition (Apple F1, Paramount UFC) (Sarandos, Q&A).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "WBD / Warner Bros. acquisition rumours in the background (regulatory and execution overhang) is a risk.",
+      "quote": "WBD / Warner Bros. acquisition rumours in the background (regulatory and execution overhang).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record share of TV time in Q3: 8.6% in the U.S. and 9.4% in the U.K.",
+      "quote": "Record share of TV time in Q3: 8.6% in the U.S. and 9.4% in the U.K. (Peters, prepared).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Best ad-sales quarter ever, on track to more than double ad revenue in 2025.",
+      "quote": "Best ad-sales quarter ever, on track to more than double ad revenue in 2025 (Peters, prepared).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Canelo-Crawford fight drew 41M+ live viewers and ranked top 10 in 91 countries.",
+      "quote": "Canelo-Crawford fight drew 41M+ live viewers and ranked top 10 in 91 countries (Sarandos, Q&A).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approaching 1 billion people globally for programming, still only ~7% of addressable consumer-spend market and ~10% of TV time in biggest markets.",
+      "quote": "Approaching 1 billion people globally for programming. Still only ~7% of the addressable consumer-spend market and ~10% of TV time in its biggest markets (Sarandos / Peters).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Management tone forward-looking and confident: 'feeling good about our growth trajectory,' and 'a pretty great 2026 coming up after this phenomenal Q4' (Peters / Sarandos, Q&A).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.00 because forward guidance was not raised and the EPS miss was one-time.",
+      "quote": "No full-year 2026 guidance given, deferred to the January call (a timing change vs 2025, when the guide came in Q3) (Neumann, Q&A).",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.00 may underweight the strong operational momentum (record ad sales, record TV share) which could be seen as a positive trajectory change by some analysts. The document's own scoring worksheet gave +0.50, indicating a more bullish read. A human reviewer should assess whether the lack of formal guidance raise fully offsets the operational strength."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2025-10-21",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q3\\netflix q3 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214537Z",
+    "timestamp": "2026-07-18T21:46:36Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q3\\netflix q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q3\\netflix q3 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 10042,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ3_2025.txt"
+  }
+}

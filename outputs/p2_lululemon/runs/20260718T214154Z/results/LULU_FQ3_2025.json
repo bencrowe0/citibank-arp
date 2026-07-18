@@ -1,0 +1,233 @@
+{
+  "document_id": "LULU_FQ3_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Full-year revenue guidance was narrowed but not raised (range $10.96B-$11.05B, representing 4% growth), and EPS guidance was lowered from $14.64 in 2024 to $12.92-$13.02. Q4 revenue guidance is negative 3% to negative 1% versus last year, and Q4 operating margin is expected to deleverage by 680 basis points. Management explicitly stated that 'the negatives will outweigh the positives' for 2026 operating margin, citing a full year of increased tariffs and removal of de minimis provision, and noted a pullback in demand post-Thanksgiving. These forward-looking reductions and cautious language drive a clearly negative sentiment."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$2.6 billion, up 7% on both reported and constant currency basis.",
+    "eps": "$2.59 per diluted share, down from $2.87 in Q3 2024.",
+    "guidance": "Full-year revenue expected $10.96B-$11.05B (4% growth); Q4 revenue expected $3.5B-$3.59B (negative 3% to negative 1% vs last year); full-year diluted EPS expected $12.92-$13.02, down from $14.64 in 2024.",
+    "margin": "Q3 gross margin 55.6%, down 290 bps; full-year gross margin expected to decrease ~270 bps; Q4 gross margin expected to decrease ~580 bps; full-year operating margin expected to decrease ~390 bps.",
+    "key_risks": [
+      "Tariffs and removal of de minimis provision causing significant margin pressure (410 bps in Q4).",
+      "U.S. revenue decline (down 3% in Q3) and soft demand post-Thanksgiving.",
+      "Elevated markdowns (90 bps increase in Q3, 100 bps expected in Q4).",
+      "Inventory growth outpacing sales (11% increase vs 7% revenue growth).",
+      "CEO transition and leadership uncertainty.",
+      "Full-year 2026 operating margin expected to be pressured, with negatives outweighing positives."
+    ],
+    "key_opportunities": [
+      "China Mainland revenue up 46% and expected at or above high end of 20%-25% annual growth.",
+      "Rest of World revenue up 19% in constant currency.",
+      "Product innovation pipeline with new style penetration targeted at 35% for spring 2026.",
+      "Improved speed to market (chase capabilities within 6-8 weeks, product development reduced to 12-14 months).",
+      "Digital revenue up 13% and record Black Friday e-commerce sales.",
+      "Strong balance sheet with $1 billion cash and no debt, $1.6 billion share repurchase authorization."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly hedged forward expectations, stating 'it is fair to assume that the negatives will outweigh the positives' for 2026 operating margin and noting 'we have seen some pullback in demand post Thanksgiving in terms of traffic. We've reflected that in our guidance.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 revenue was $2.6 billion, up 7% on both reported and constant currency basis.",
+      "quote": "Total net revenue rose 7% to $2.6 billion on both a reported and constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 EPS was $2.59 per diluted share, down from $2.87 in Q3 2024.",
+      "quote": "Net income for the quarter was $307 million or $2.59 per diluted share compared to $2.87 for the third quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year revenue guidance is $10.96B-$11.05B, representing 4% growth.",
+      "quote": "We now expect revenue to be in the range of $10.96 billion to $11.05 billion. This range represents growth of 4% relative to 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 revenue guidance is $3.5B-$3.59B, representing negative 3% to negative 1% versus last year.",
+      "quote": "Looking at Q4, we expect revenue in the range of $3.5 billion to $3.59 billion. This represents a range of negative 3% to negative 1% relative to 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year EPS guidance is $12.92-$13.02, down from $14.64 in 2024.",
+      "quote": "For the fiscal year 2025, we now expect diluted earnings per share in the range of $12.92 to $13.02 versus our prior guidance of $12.77 to $12.97 and EPS of $14.64 in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 gross margin was 55.6%, down 290 bps.",
+      "quote": "Gross profit for the third quarter was $1.43 billion or 55.6% of net revenue compared to 58.5% in Q3 2024. The gross profit rate in Q3 decreased 290 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year gross margin expected to decrease ~270 bps.",
+      "quote": "For the full year, we now expect gross margin to decrease approximately 270 basis points versus 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross margin expected to decrease ~580 bps.",
+      "quote": "We expect gross margin in Q4 to decrease approximately 580 basis points relative to Q4 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating margin expected to decrease ~390 bps.",
+      "quote": "When looking at operating margin for the full year 2025, we now expect a decrease of approximately 390 basis points versus 2024, in line with our prior guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs and de minimis removal will cause 410 bps of margin pressure in Q4.",
+      "quote": "The impact from tariffs and de minimis combined will be approximately 410 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. revenue declined 3% in Q3.",
+      "quote": "By country, revenue decreased 3% in the U.S.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Demand softened post-Thanksgiving.",
+      "quote": "We have seen some pullback in demand post Thanksgiving in terms of traffic. We've reflected that in our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markdowns increased 90 bps in Q3 and are expected to increase 100 bps in Q4.",
+      "quote": "Markdowns increased 90 basis points. ... We expect markdowns to be 100 basis points higher than 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory increased 11% to $2 billion.",
+      "quote": "Inventory increased 11% and was $2 billion at the end of Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China Mainland revenue grew 46% and is expected at or above high end of 20%-25% annual growth.",
+      "quote": "China Mainland revenue increased 46% or 47% in constant currency. ... We now expect China Mainland to be at or above the high end of our guidance range of 20% to 25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rest of World revenue grew 19% in constant currency.",
+      "quote": "In the Rest of World, revenue grew by 19% on a reported and constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New style penetration targeted at 35% for spring 2026.",
+      "quote": "We are increasing the frequency and breadth of new styles and remain on track to bring new style penetration to 35% next spring.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chase capabilities allow replenishment in 6-8 weeks.",
+      "quote": "This includes our chase capabilities, which will allow us to get back into select strong performing styles within 6 to 8 weeks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital revenue up 13% and record Black Friday e-commerce sales.",
+      "quote": "In our digital channel, revenues increased 13% and contributed $1.1 billion of top line or 42% of total revenue. ... Black Friday was still our biggest volume day ever on our e-commerce sites.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company has $1 billion cash and no debt, with $1.6 billion share repurchase authorization.",
+      "quote": "We benefit from strong cash flow generation and a balance sheet with $1 billion in cash and no debt. ... we now have approximately $1.6 billion in capacity to repurchase shares.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management stated 'the negatives will outweigh the positives' for 2026 operating margin.",
+      "quote": "it is fair to assume that the negatives will outweigh the positives for operating margin in 2026, citing a full year of increased tariffs, removal of de minimis provision, and 'some pressure next year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CEO transition announced with Calvin McDonald stepping down on January 31.",
+      "quote": "Calvin McDonald will step down as CEO on January 31, with Meghan Frank and Andre Maestrini serving as interim co-CEOs and Marti Morbtt as Executive Chair.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "it is fair to assume that the negatives will outweigh the positives for operating margin in 2026 ... We have seen some pullback in demand post Thanksgiving in terms of traffic. We've reflected that in our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on clear guidance reductions and cautious language, but the company also raised its EPS guidance range slightly from prior ($12.77-$12.97 to $12.92-$13.02) and improved gross margin guidance from -300 bps to -270 bps. A reviewer may consider whether these small improvements warrant a slightly less negative score, though the overall forward outlook remains clearly negative."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LULU_Bundled Earnings Report_2025-12-11",
+  "report_metadata": {
+    "issuer": "p2_lululemon",
+    "company": "Lululemon",
+    "ticker": "LULU",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-12-11",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q3\\Q3 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LULU_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214154Z",
+    "timestamp": "2026-07-18T21:42:14Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q3\\Q3 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lululemon\\extracted\\LULU_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q3\\Q3 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 61413,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lululemon\\extracted\\LULU_FQ3_2025.txt"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "document_id": "WMT_FQ1_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a solid Q1 with revenue and operating income beating expectations, and eCommerce achieving global profitability for the first time. However, full-year guidance is reaffirmed unchanged, and management explicitly flags significant uncertainty from tariffs, with a wide range of possible outcomes and a cautious tone on near-term visibility. The forward outlook is therefore flat to slightly positive, not a clear inflection."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues of $165.6 billion, up 2.5% reported, up 4.0% in constant currency. Walmart US comp sales +4.5% ex fuel.",
+    "eps": "GAAP EPS of $0.56; Adjusted EPS of $0.61, up 1.7% year-over-year and above the guided range.",
+    "guidance": "Full-year FY26 guidance reaffirmed unchanged: net sales (cc) +3.0% to +4.0%, adjusted operating income (cc) +3.5% to +5.5%, adjusted EPS $2.50 to $2.60. Q2 net sales (cc) guided +3.5% to +4.5%; no Q2 operating income or EPS guidance provided due to wide uncertainty.",
+    "margin": "Consolidated gross margin rate +12 bps to 24.2%. Walmart US gross margin +25 bps. Operating income +4.3% reported, +3.0% adjusted (cc).",
+    "key_risks": [
+      "Tariff cost pressure, especially from China, with cost increases starting in late April and accelerating in May.",
+      "Uncertainty around tariff levels and duration; if elevated tariffs persist, 'the impact on our financials could be significant and even jeopardize our ability to grow earnings year-over-year.'",
+      "Higher casualty claims expense expected to persist for at least a few quarters.",
+      "Wide range of possible outcomes for Q2 operating income due to tariff timing and retail accounting methods (RIM and LIFO).",
+      "General merchandise sales slightly negative with softness in electronics, home, and sporting goods.",
+      "Currency headwinds: $2.4 billion impact on reported sales, ~120 bps headwind to Q2 reported sales growth at current rates."
+    ],
+    "key_opportunities": [
+      "Global eCommerce achieved profitability for the first time, an important milestone.",
+      "Advertising business grew 50% globally (including VIZIO); Walmart Connect US up 31%.",
+      "Membership income grew 14.8% globally, with strong growth across all segments.",
+      "More than two-thirds of US sales are made/assembled/grown in the US, providing a sourcing advantage.",
+      "History of gaining share during economic uncertainty; management expects this period to be no different.",
+      "Strong inventory position entering Q2, with inventory up only 3.8% despite 4% sales growth."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the long-term strategy and ability to navigate tariffs ('we are positioned to manage this as well or better than anyone'), but also repeatedly emphasizes the high uncertainty and wide range of outcomes, and declines to provide Q2 operating income guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues were $165.6 billion, up 2.5% reported and 4.0% in constant currency.",
+      "quote": "Total revenues $165.6 billion, up 2.5%, or 4.0% (cc)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $0.61, above the guided range.",
+      "quote": "Adjusted EPS of $0.61 was higher than our guided range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 guidance is reaffirmed unchanged.",
+      "quote": "The Company’s outlook for fiscal year 2026 remains unchanged from prior guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No Q2 operating income or EPS guidance was provided due to wide uncertainty.",
+      "quote": "Given the dynamic nature of the backdrop, and the range of near-term outcomes being exceedingly wide and difficult to predict, we felt it best to hold from providing a specific range of guidance for operating income growth and EPS for the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consolidated gross margin rate increased 12 basis points.",
+      "quote": "consolidated gross margin increased 12 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global eCommerce achieved profitability for the first time.",
+      "quote": "We achieved eCommerce profitability, both in the US as well as for the global enterprise in Q1 for the first time, an important milestone for our company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff cost pressure started in late April and accelerated in May.",
+      "quote": "The cost pressure from all the tariff impacted markets started in late April, and it accelerated in May.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "If elevated tariffs persist, the impact could be significant and jeopardize earnings growth.",
+      "quote": "However, if we see a restoration of dramatically higher tariff levels, the impact on our financials could be significant and even jeopardize our ability to grow earnings year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher casualty claims expense is expected to persist for at least a few quarters.",
+      "quote": "We experienced higher-than-expected casualty claims expense. We're accruing a higher rate for claims cost based on the industry trends that point to higher risk adjustment factors. We expect this trend to persist for at least a few quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising business grew 50% globally, Walmart Connect US up 31%.",
+      "quote": "Our advertising business across markets increased 50%, including VIZIO. Walmart Connect in the US, which doesn't include VIZIO, grew 31%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Membership income grew 14.8% globally.",
+      "quote": "Membership fee income was up nearly 15% across the enterprise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "More than two-thirds of US sales are made/assembled/grown in the US.",
+      "quote": "more than two-thirds of what we sell in the US is made, assembled, or grown here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident in long-term strategy but cautious on near-term uncertainty.",
+      "quote": "We are positioned to manage this as well or better than anyone. ... the range of possible outcomes is much greater than when we originally provided our annual guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "General merchandise sales were slightly negative with softness in electronics, home, and sporting goods.",
+      "quote": "general merchandise sales declined slightly with softness in electronics, home products and sporting goods.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency headwinds reduced reported sales by $2.4 billion.",
+      "quote": "Currency headwinds reduced reported sales results by $2.4 billion, or 150 basis points of growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 reported sales growth expected to face ~120 bps currency headwind at current rates.",
+      "quote": "if current exchange rates were to stay where they are right now for the entire second quarter, we would expect a headwind of approximately 120 basis points to reported sales growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory is well-managed, up 3.8%.",
+      "quote": "our inventory is at a healthy level, up 3.8%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to gain share during economic uncertainty.",
+      "quote": "We've seen during periods of economic uncertainty in the past, we tend to gain share and come out of the other side in an even stronger position. We expect this period to be no different.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is near the HOLD/BUY boundary. A reviewer may wish to assess whether the eCommerce profitability milestone and strong Q1 beat warrant a slightly higher score despite unchanged guidance and tariff uncertainty."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "WMT_Bundled Earnings Report_2025-05-15",
+  "report_metadata": {
+    "issuer": "p2_walmart",
+    "company": "Walmart",
+    "ticker": "WMT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-15",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q1\\q1-fy26-earnings-call-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q1\\q1-fy26-earnings-presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q1\\q1-fy26-earnings-release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "WMT_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214745Z",
+    "timestamp": "2026-07-18T21:48:12Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q1\\q1-fy26-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_walmart\\extracted\\WMT_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q1\\q1-fy26-earnings-call-transcript.pdf",
+        "page_count": 23,
+        "extracted_characters": 88286,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q1\\q1-fy26-earnings-presentation.pdf",
+        "page_count": 37,
+        "extracted_characters": 53517,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q1\\q1-fy26-earnings-release.pdf",
+        "page_count": 18,
+        "extracted_characters": 40209,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_walmart\\extracted\\WMT_FQ1_2025.txt"
+  }
+}

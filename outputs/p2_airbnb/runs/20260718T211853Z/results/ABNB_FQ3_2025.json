@@ -1,0 +1,182 @@
+{
+  "document_id": "ABNB_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports a strong Q3 with revenue at the high end of guidance and record adjusted EBITDA, but the forward guidance for Q4 revenue growth (7-10%) is roughly in line with the prior year's growth rate and management explicitly notes tougher comps. The full-year adjusted EBITDA margin guidance was raised from a floor of 34.5% to approximately 35%, a modest improvement. The tone is confident, and management discusses multiple growth initiatives (Reserve Now Pay Later, international expansion, experiences, hotels, AI) that could drive future acceleration, but no formal revenue or EPS guidance raise was provided. The score reflects genuine operational momentum and a slight margin guidance improvement, but not a material upward revision to the overall growth outlook."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$4.1 billion, up 10% year-over-year, landing at the high end of guidance.",
+    "eps": "$2.21, growing 4% year-over-year.",
+    "guidance": "Q4 2025 revenue expected to be $2.66 billion to $2.72 billion, representing 7% to 10% year-over-year growth. Full-year adjusted EBITDA margin expected to be approximately 35%, up from the 34.5% floor previously shared.",
+    "margin": "Adjusted EBITDA margin of 50% in Q3. Full-year 2025 adjusted EBITDA margin expected to be approximately 35%.",
+    "key_risks": [
+      "Tougher year-over-year comps in Q4 2025.",
+      "One-time $213 million valuation allowance related to Corporate Alternative Minimum Tax credits impacting net income.",
+      "Policy constraints in some markets limiting supply growth (e.g., New York City)."
+    ],
+    "key_opportunities": [
+      "Reserve Now, Pay Later offering driving US bookings and to be rolled out more broadly next year.",
+      "International expansion: average nights booked in expansion markets growing at double the rate of core markets.",
+      "Services and Experiences: new product category attracting new users and could become material in 3-5 years.",
+      "Hotels pilot in LA, New York City, and Madrid to fill supply gaps.",
+      "AI integration: AI customer support reducing need for human agents by 15%, AI-powered search rolling out next year.",
+      "Share repurchase program: $6.6 billion remaining on authorization, reducing diluted share count by 8% since 2022."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes Q3 as 'another strong quarter' and states they are 'encouraged by the continued momentum' for Q4, with a clear focus on growth initiatives and a positive outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $4.1 billion, up 10% year-over-year, at the high end of guidance.",
+      "quote": "Revenue increased 10% year-over-year, landing at the high end of our guidance. ... Revenue for the quarter was $4.1 billion, up 10% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $2.21, growing 4% year-over-year.",
+      "quote": "net income was $1.4 billion, while EPS was $2.21, growing 4% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue guidance is $2.66 billion to $2.72 billion, representing 7% to 10% year-over-year growth.",
+      "quote": "In Q4, we expect to generate revenue of $2.66 billion to $2.72 billion, representing year-over-year growth of 7% to 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EBITDA margin guidance raised to approximately 35% from a 34.5% floor.",
+      "quote": "On profitability, we now expect our full year adjusted EBITDA margin to be approximately 35%, up from the 34.5% floor previously shared.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 adjusted EBITDA margin was 50%.",
+      "quote": "we generated $2.1 billion of adjusted EBITDA, representing a 50% EBITDA margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tougher year-over-year comps in Q4 are a risk.",
+      "quote": "Despite more difficult year-over-year comps, we're seeing strength in longer lead time bookings...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A one-time $213 million valuation allowance impacted net income.",
+      "quote": "Net income was impacted by a one-time $213 million valuation allowance related to Corporate Alternative Minimum Tax credits as a result of the enactment of the One Big Beautiful Bill Act on July 4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Policy constraints in some markets limit supply growth.",
+      "quote": "The only type of maturity is when there's a policy constraint, and there's just limits to how much supply you can add. And then you really are looking to supplement it with hotels.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reserve Now, Pay Later is driving US bookings and will be rolled out more broadly.",
+      "quote": "We introduced Reserve Now, Pay Later in the United States. And not unexpectedly, this helped drive nights and seats booked in Q3. So, we're going to continue to roll this out more broadly next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International expansion is a growth driver: expansion markets growing at double the rate of core markets.",
+      "quote": "Over the past 12 months, average nights booked in our expansion markets have grown at double the rate of our core markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services and Experiences are attracting new users and could become material in 3-5 years.",
+      "quote": "almost half of the people who booked an experience did not have an Airbnb stay. ... it's going to take three to five years, I think, for services, experiences to become a material part of our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hotels pilot is underway in LA, New York City, and Madrid to fill supply gaps.",
+      "quote": "We started with a hotel pilot in LA, New York City, and Madrid, and we're partnering directly with both boutique and independent hotels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI customer support reduced need for human agents by 15% in the US.",
+      "quote": "it's already reduced people's need to contact a human agent by 15%. So now we're going to expand it to more countries in more languages...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share repurchase program has $6.6 billion remaining and has reduced diluted share count by 8% since 2022.",
+      "quote": "As of the end of Q3, we still had $6.6 billion remaining on our repurchase authorization. Since introducing our share repurchase program in 2022, we've reduced our fully diluted share count by 8%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I am excited to share that Airbnb had another strong quarter. ... As we start the fourth quarter, we're encouraged by the continued momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a modest margin guidance raise and strong operational momentum, but no formal revenue or EPS guidance raise. A reviewer may consider whether the lack of a top-line guidance raise warrants a lower score closer to 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ABNB_Bundled Earnings Report_2025-11-06",
+  "report_metadata": {
+    "issuer": "p2_airbnb",
+    "company": "Airbnb",
+    "ticker": "ABNB",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-06",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q3\\Airbnb-Q3-2025-Earnings-Call-6-November-2025-5_00-PM-ET.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ABNB_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T211853Z",
+    "timestamp": "2026-07-18T21:19:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q3\\Airbnb-Q3-2025-Earnings-Call-6-November-2025-5_00-PM-ET.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_airbnb\\extracted\\ABNB_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q3\\Airbnb-Q3-2025-Earnings-Call-6-November-2025-5_00-PM-ET.pdf",
+        "page_count": 21,
+        "extracted_characters": 82383,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_airbnb\\extracted\\ABNB_FQ3_2025.txt"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "document_id": "LLY_FQ4_2025",
+  "sentiment": {
+    "score": 0.8,
+    "rationale": "The document reports full-year 2025 revenue of $65.2B (up 45%) and non-GAAP EPS of $24.21 (up 86%), with Q4 revenue up 43% and key products up 91%. Forward guidance for 2026 revenue of $80B to $83B (about 25% growth at the midpoint) and EPS of $33.50 to $35.00 represents a material raise relative to the prior year's performance, supported by the launch of Foundayo (orforglipron) and supply expansion. Pricing drag and Medicaid coverage losses are noted as secondary concerns but do not offset the strong forward trajectory."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full-year 2025 revenue $65.2B, up 45%. Q4 revenue up 43%, with key products above $13B in the quarter, up 91%.",
+    "eps": "Non-GAAP EPS $24.21, up 86%.",
+    "guidance": "2026 revenue guided to $80B to $83B, about 25% growth at the midpoint. 2026 EPS guided to $33.50 to $35.00. Performance margin guided to 46% to 47.5%.",
+    "margin": "Gross margin 83.2%. Non-GAAP performance margin 47.2%.",
+    "key_risks": [
+      "Pricing expected to drag growth by a low to mid-teens percentage, with US realized prices down 7% in Q4.",
+      "California and other states removing Medicaid obesity coverage in 2026.",
+      "Execution risk on the orforglipron launch across more than 40 countries."
+    ],
+    "key_opportunities": [
+      "Foundayo (orforglipron) approved and launching with supply already doubled.",
+      "Incretin franchise still compounding, with key products up 91% in Q4.",
+      "2026 revenue guided to about 25% growth at the midpoint."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'We delivered robust financial performance in 2025' and 'We exceeded our goal to produce 1.8 times the number of incretin doses,' indicating strong confidence in execution and outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 revenue was $65.2B, up 45%.",
+      "quote": "Full-year 2025 revenue $65.2B, up 45%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $24.21, up 86%.",
+      "quote": "Non-GAAP EPS $24.21, up 86%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 revenue up 43%, with key products above $13B in the quarter, up 91%.",
+      "quote": "Q4 revenue up 43%, with key products above $13B in the quarter, up 91%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 revenue guided to $80B to $83B, about 25% growth at the midpoint.",
+      "quote": "2026 revenue guided to $80B to $83B, about 25% growth at the midpoint.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 EPS guided to $33.50 to $35.00.",
+      "quote": "2026 EPS guided to $33.50 to $35.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin 83.2%.",
+      "quote": "Gross margin 83.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP performance margin 47.2%.",
+      "quote": "Non-GAAP performance margin 47.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pricing expected to drag growth by a low to mid-teens percentage, with US realized prices down 7% in Q4.",
+      "quote": "Pricing expected to drag growth by a low to mid-teens percentage, with US realized prices down 7% in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "California and other states removing Medicaid obesity coverage in 2026.",
+      "quote": "California and other states removing Medicaid obesity coverage in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Execution risk on the orforglipron launch across more than 40 countries.",
+      "quote": "Execution risk on the orforglipron launch across more than 40 countries.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foundayo approved and launching with supply already doubled.",
+      "quote": "Foundayo approved and launching with supply already doubled.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Incretin franchise still compounding, with key products up 91% in Q4.",
+      "quote": "Incretin franchise. Still compounding, with key products up 91% in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered robust financial performance in 2025 . . . 45% compared to 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We exceeded our goal to produce 1.8 times the number of incretin doses",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for 2026 performance margin is 46% to 47.5%.",
+      "quote": "Performance margin guided to 46% to 47.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.80 is based on the forward guidance raise and strong results, but the document also notes pricing drag and Medicaid coverage losses as risks. A human reviewer should confirm that these risks do not warrant a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LLY_Bundled Earnings Report_2026-02-04",
+  "report_metadata": {
+    "issuer": "p2_eli_lilly",
+    "company": "Eli Lilly",
+    "ticker": "LLY",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-04",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2025-Q4\\12 eli lilly q4 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LLY_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213205Z",
+    "timestamp": "2026-07-18T21:32:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2025-Q4\\12 eli lilly q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_eli_lilly\\extracted\\LLY_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2025-Q4\\12 eli lilly q4 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5957,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_eli_lilly\\extracted\\LLY_FQ4_2025.txt"
+  }
+}

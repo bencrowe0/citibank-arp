@@ -1,0 +1,228 @@
+{
+  "document_id": "AMKBY_FQ2_2025",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Maersk raised its full-year 2025 underlying EBIT guidance from $0-3bn to $2-3.5bn and underlying EBITDA guidance from $6-9bn to $8-9.5bn, a material upward revision. The guidance raise is attributed to more resilient market demand outside North America and a strong first-half performance, not to one-time items or FX. Management language is confident, citing strong execution and operational improvements across all segments, though geopolitical uncertainty and the Red Sea disruption remain as noted risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 2025 consolidated revenue of USD 13,130m, up 2.8% year-on-year (USD 12,771m).",
+    "eps": "Q2 2025 earnings per share of USD 38 (Q2 2024: USD 51).",
+    "guidance": "Full-year 2025 underlying EBITDA raised to $8.0-9.5bn (previously $6.0-9.0bn), underlying EBIT raised to $2.0-3.5bn (previously $0.0-3.0bn), free cash flow raised to -$1.0bn or higher (previously -$3.0bn or higher). Global container market volume growth revised to 2%-4% (previously -1% to 4%).",
+    "margin": "Q2 2025 EBITDA margin 17.5% (Q2 2024: 16.8%), EBIT margin 6.4% (Q2 2024: 7.5%), underlying EBIT margin 6.2% (Q2 2024: 5.9%).",
+    "key_risks": [
+      "Unprecedented geopolitical volatility and low visibility into macroeconomic factors.",
+      "Continued pressure on loaded freight rates due to supply-demand imbalance.",
+      "Red Sea disruption expected to last for the full year, adding network costs.",
+      "Uncertainty around US trade policy and tariffs.",
+      "Logistics & Services North America revenue down 8% year-on-year.",
+      "Ocean EBIT margin declined sequentially from 8.3% in Q1 2025 to 2.7% in Q2 2025."
+    ],
+    "key_opportunities": [
+      "Gemini cooperation successfully phased in, achieving >90% schedule reliability and on track for cost savings.",
+      "Terminals delivered record-high volumes and ROIC of 15.4%, well above 9% target.",
+      "Logistics & Services EBIT margin improved to 4.8% (3.5% year-on-year), trending toward 6% target.",
+      "Strong volume growth in Ocean (4.2% year-on-year, 10% sequentially) and high utilization of 94%.",
+      "More resilient market demand outside North America supporting guidance raise."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'strong performance in a volatile external environment' and 'we are well prepared to manage these ongoing challenges,' while raising guidance and highlighting successful execution of strategic initiatives like Gemini."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 underlying EBIT guidance was raised from $0-3bn to $2-3.5bn.",
+      "quote": "EBIT Underlying (Previously: 0.0-3.0) 2.0-3.5",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 underlying EBITDA guidance was raised from $6-9bn to $8-9.5bn.",
+      "quote": "EBITDA Underlying (Previously: 6.0-9.0) 8.0-9.5",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global container market volume growth guidance was revised to 2%-4% from -1% to 4%.",
+      "quote": "The expected global container market volume growth has been revised to between 2% and 4% (previously between -1% and 4%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 consolidated revenue was USD 13,130m, up 2.8% year-on-year.",
+      "quote": "Revenue increased by 2.8% or USD 359m to USD 13.1bn (USD 12.8bn)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 EPS was USD 38, down from USD 51 in Q2 2024.",
+      "quote": "Earnings per share, USD 38 51",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 EBITDA margin was 17.5%, up from 16.8% in Q2 2024.",
+      "quote": "EBITDA margin 17.5% (16.8%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 EBIT margin was 6.4%, down from 7.5% in Q2 2024.",
+      "quote": "EBIT margin 6.4% (7.5%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying EBIT margin improved to 6.2% from 5.9% in Q2 2024.",
+      "quote": "The underlying EBIT margin increased by 0.3 percentage points to 6.2% (5.9%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is attributed to more resilient market demand outside North America and strong first-half performance.",
+      "quote": "Given the more resilient market demand outside of North America, A.P. Moller - Maersk (Maersk) raises its full-year 2025 financial guidance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical volatility and low macroeconomic visibility are key risks.",
+      "quote": "The results came on the back of continued focus on execution and operational improvements, despite the unprecedented geopolitical volatility and low visibility into macroeconomic developments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Red Sea disruption is expected to last for the full year.",
+      "quote": "At this time, the disruption in the Red Sea is still expected to last for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gemini cooperation achieved >90% schedule reliability and is on track for cost savings.",
+      "quote": "June 2025 marked the first month of the Gemini cooperation being successfully phased in and it is on track to deliver the reliability and cost-saving ambitions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Terminals delivered record-high volumes and ROIC of 15.4%.",
+      "quote": "Terminals showed strong results from record-high volume, higher revenue per move supported by storage income... ROIC (LTM) increased to 15.4% (12.2%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Logistics & Services EBIT margin improved to 4.8% from 3.5% year-on-year.",
+      "quote": "Logistics & Services showed continued progress with an EBIT margin improvement to 4.8%, driven by growth in key products, cost control and operational improvements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ocean EBIT margin declined sequentially from 8.3% in Q1 2025 to 2.7% in Q2 2025.",
+      "quote": "Sequentially, EBIT decreased by USD 514m from USD 743m in Q1 2025, and the EBIT margin decreased by 5.6 percentage points from 8.3% in Q1 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Logistics & Services North America revenue declined 8% year-on-year.",
+      "quote": "Regional revenue in North America was down 8% year on year for the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We demonstrated strong financial performance in a volatile external environment. We delivered EBITDA $2.3 billion and an EBIT of $845 million driven by strong execution across all our businesses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.50 reflects a material guidance raise, but the sequential decline in Ocean EBIT margin and ongoing geopolitical risks could warrant a slightly lower score. A human reviewer should confirm the weighting of these offsetting factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMKBY_Bundled Earnings Report_2025-08-07",
+  "report_metadata": {
+    "issuer": "p2_maersk",
+    "company": "Maersk",
+    "ticker": "AMKBY",
+    "sector": "Industrials/Shipping",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-07",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q2\\Maersk Q2 2025 Interim Report.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q2\\Maersk Q2 2025 Investor Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q2\\Q2 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMKBY_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213815Z",
+    "timestamp": "2026-07-18T21:38:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q2\\Maersk Q2 2025 Interim Report.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_maersk\\extracted\\AMKBY_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q2\\Maersk Q2 2025 Interim Report.pdf",
+        "page_count": 25,
+        "extracted_characters": 76245,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q2\\Maersk Q2 2025 Investor Presentation.pdf",
+        "page_count": 27,
+        "extracted_characters": 2055,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q2\\Q2 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf",
+        "page_count": 23,
+        "extracted_characters": 68141,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_maersk\\extracted\\AMKBY_FQ2_2025.txt"
+  }
+}

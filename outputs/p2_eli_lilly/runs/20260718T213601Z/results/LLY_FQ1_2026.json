@@ -1,0 +1,168 @@
+{
+  "document_id": "LLY_FQ1_2026",
+  "sentiment": {
+    "score": 0.85,
+    "rationale": "The document reports a massive revenue beat ($19.8B vs ~$17.6B expected) and EPS more than doubled year-over-year. Critically, full-year 2026 revenue guidance was raised by $2B at both ends to $82B-$85B, and EPS guidance was raised by $2.00 at both ends to $35.50-$37.00, representing a 28% growth midpoint. This is a material upward revision to the company's own prior guidance, supported by strong volume from the incretin franchise and a successful launch of Foundayo, with no meaningful risks raised that offset the positive forward outlook."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$19.8B, up 56% year over year, against roughly $17.6B expected.",
+    "eps": "Non-GAAP EPS $8.55 against $3.34 a year earlier.",
+    "guidance": "2026 revenue raised $2B at both ends to $82B to $85B. 2026 EPS raised $2.00 at both ends to $35.50 to $37.00, a 28% growth midpoint.",
+    "margin": "Gross margin 82.6%, down about a point.",
+    "key_risks": [
+      "Pricing headwinds expected in the low to mid teens for the full year.",
+      "Loss of Medicaid access in some states dented Q1 Zepbound prescription growth.",
+      "Seasonal softness observed in the second half, including holiday-driven drug holidays in Europe."
+    ],
+    "key_opportunities": [
+      "Mounjaro and Zepbound combined global revenue $12.8B.",
+      "Foundayo pill launch ramping, with over 20,000 patients treated to date, 80% of whom are new to class.",
+      "Estimated market share of 60% in Brazil and Korea for Mounjaro."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management raised full-year guidance materially after a single quarter and described Foundayo as 'highly effective for weight management,' indicating strong confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $19.8B, up 56% year over year, beating expectations of roughly $17.6B.",
+      "quote": "Revenue $19.8B, up 56% year over year, against roughly $17.6B expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $8.55, more than double the prior year's $3.34.",
+      "quote": "Non-GAAP EPS $8.55 against $3.34 a year earlier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 revenue guidance was raised by $2B at both ends to $82B-$85B.",
+      "quote": "2026 revenue raised $2B at both ends to $82B to $85B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 EPS guidance was raised by $2.00 at both ends to $35.50-$37.00, representing 28% growth midpoint.",
+      "quote": "2026 EPS raised $2.00 at both ends to $35.50 to $37.00, a 28% growth midpoint.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin was 82.6%, down about a point.",
+      "quote": "Gross margin 82.6%, down about a point.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pricing headwinds are expected in the low to mid teens for the full year.",
+      "quote": "Pricing headwinds expected in the low to mid teens for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loss of Medicaid access in some states dented Q1 Zepbound prescription growth.",
+      "quote": "Loss of Medicaid access in some states dented Q1 Zepbound prescription growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Seasonal softness is expected in the second half, including holiday-driven drug holidays in Europe.",
+      "quote": "Seasonal softness observed in the second half, including holiday-driven drug holidays in Europe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mounjaro and Zepbound combined global revenue was $12.8B.",
+      "quote": "Mounjaro and Zepbound combined global revenue $12.8B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foundayo has treated over 20,000 patients, 80% of whom are new to class.",
+      "quote": "Over 20,000 patients have been treated to date, 80% of whom are new to class.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mounjaro has an estimated 60% market share in Brazil and Korea.",
+      "quote": "We currently have an estimated market share of 60% in Brazil and Korea for Mounjaro.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, as evidenced by the guidance raise and positive language about Foundayo.",
+      "quote": "Foundayo has been proven highly effective for weight management, offering benefits of GLP1 therapy in pill form.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.85 is based on the document's own scoring worksheet, which may reflect the author's subjective judgment. The evidence for a material guidance raise is strong, but the score is at the high end of the scale; a reviewer may want to confirm that no hidden risks or Q&A concessions were overlooked."
+    },
+    {
+      "field": "summary.management_tone",
+      "reason": "The tone label 'confident' is inferred from the guidance raise and positive language, but the document does not explicitly describe management's demeanor. A reviewer may want to verify against the full transcript."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LLY_Bundled Earnings Report_2026-04-30",
+  "report_metadata": {
+    "issuer": "p2_eli_lilly",
+    "company": "Eli Lilly",
+    "ticker": "LLY",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2026-Q1\\10 eli lilly q1 2026 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LLY_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T213601Z",
+    "timestamp": "2026-07-18T21:36:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2026-Q1\\10 eli lilly q1 2026 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_eli_lilly\\extracted\\LLY_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2026-Q1\\10 eli lilly q1 2026 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 5952,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_eli_lilly\\extracted\\LLY_FQ1_2026.txt"
+  }
+}

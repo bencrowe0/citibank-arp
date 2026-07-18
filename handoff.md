@@ -1,36 +1,38 @@
 # Handoff
 
 ## Goal
-Give Citibank a version of the earnings-prediction tool that beats the always-FLAT baseline on the group's overnight close-to-open gap — then, when that proved impossible on accuracy, shift the scorecard from raw 3-class accuracy to a costs-aware P&L backtest that any rater (LLM or human) can be judged on.
+Compare the LLM's stock-prediction pipeline against the human raters on an apples-to-apples basis (same 104 company+quarter combos the humans actually evaluated), then push the LLM's average P&L per trade up toward the deployed model's ~2.5%/trade benchmark.
 
 ## Current State
-- **Proven (again, across all thresholds):** overnight-gap raw accuracy CANNOT beat the always-FLAT baseline. Swept B3 in {1,1.5,2,2.5,3}% × {overnight, 5-day}, LOOCV-honest. Overnight dead at every threshold (default & tuned lose, binom p 0.83→1.0). 5-day WINS and is significant at ±2.5% (0.435 vs 0.351, p=0.029) and ±3% (0.466 vs 0.382, p=0.031); default beats tuned everywhere.
-- **New metric shipped:** `backtest.py` — predictor-agnostic overnight-gap P&L backtest (BUY→long, SELL→short, HOLD→flat; P&L = position×gap − costs). Deployed LLM, net 10 bps: 44 trades, 59% hit, **+173% total ($1→$2.73)**, +2.5%/trade, Sharpe/trade 2.48, max DD 6.5%; direction breakdown 11 correct / 29 flat / **only 4 wrong-direction**. Always-long LOSES (−16%, 50.8% DD); always-flat = 0. Robust to 50 bps cost (+129%).
-- **Reframe (the headline insight):** accuracy penalizes a bet-on-a-flat the same as a bet-in-the-wrong-direction; P&L doesn't. Same LLM fails the accuracy test (0.55 vs 0.69) but wins the money test.
-- **Docs updated:** CLAUDE.md "Round 8" added + run block + Known-Limitations pointer; README.md "Backtest (P&L evaluation)" section added.
-- **Shareable deliverable published:** equity-curve report Artifact → https://claude.ai/code/artifact/e88a0810-f670-497e-89c7-d8bce933522e
-- **Nothing committed to git yet this session.** Branch: task/task.
+Phase 2 track is fully built and run. 28 new issuers (`p2_<slug>` manifests/outputs, kept deliberately separate from the production 6-issuer/`ALL_ISSUERS` pipeline) cover 102 of the 104 human-evaluated quarters (`BA_2025_Q4`, `JPM_2026_Q1` have zero documents in the new `OneDrive_2026-07-18` drop - skipped, not fabricated). Full pipeline run end-to-end: manifests → real DeepSeek LLM calls (102/102 succeeded, ~$1.49 total) → quant_layer → blend (deployed default weights `0.8/0.0/0.2/0.0`, `±0.15`, untouched - no re-sweep) → eval (101/102 got a resolved forward-return outcome; `GS_FQ2_2026` reported 2026-07-14, too recent for a full forward window yet) → backtest.
+
+**Phase2 backtest result**: 68/101 trades, +41.32% total return, 60.3% hit rate, Sharpe 0.99, max drawdown 27.3%, **avg 0.657%/trade**. Compare to the original deployed model (same weights, different 6-issuer/N=131 quarter set, reference only): 44/131 trades, +173%, Sharpe 2.48, **avg 2.504%/trade**. Full technical detail, methodology, and all the numbers are in `CLAUDE.md`'s "Phase 2: apples-to-apples human-comparison track" section and matching History bullet - read that before doing anything else, don't re-derive it.
+
+Two git commits are about to land: (1) pre-existing sheet-parsing fixes to `backtest.py --sheet` that were already uncommitted before this session started (case/whitespace-insensitive matching, synthetic date fallback, case-insensitive rater grouping - unrelated to Phase 2), (2) this session's full Phase 2 build. If a later session says "the commit," check `git log` - there will be two recent ones, and Phase 2 is the more recent of the pair.
 
 ## Files in Flight
-- `backtest.py` — committed successor: P&L engine + LLM adapter + `--sheet` human adapter + costs + equity curve + direction breakdown. NEW.
-- `outputs/global/summary/backtest_equity.csv` — per-trade equity curve output. NEW.
-- `CLAUDE.md`, `README.md` — updated with Round 8 / backtest usage.
-- `docs/news/jpm/JPM_FQ4_2020.txt` — one leak-free news digest written before the backfill was deprioritized. NEW.
-- `~/.claude/plans/this-is-the-current-iterative-hennessy.md` — the approved plan.
-- Throwaway diagnostics in session scratchpad (not committed): `b3_window_sweep.py`, `overnight_pnl.py`, `backtest_report.html` (the Artifact source).
+- `phase2/data_entry_rows.tsv` - 102 paste-ready rows for the live group sheet's `Data Entry` tab (`Rater=Ben/DeepSeek`, `Type=LLM`). Not yet pasted in by the user.
+- `phase2/coverage_report.json` - per-combo document coverage/status (`OK` / `THIN(1 doc)` / `MISSING`), used by everything downstream.
+- `phase2/report_dates.json` - resolved report_date per combo (confidence-tagged: 92 `high` via human-price match against real yfinance closes, rest `medium`/`low` via nearest-real-earnings-date or naive fiscal estimate).
+- `phase2/triage_docs.py`, `phase2/build_manifests.py`, `phase2/resolve_report_dates.py`, `phase2/export_rows.py` - the scripts that built all of the above; rerunnable if more documents get added later.
 
 ## Changed
-- Added `backtest.py` (P&L metric, humans + LLM, costs, equity curve).
-- Added Round 8 section to CLAUDE.md; added backtest lines to its run block; added P&L pointer to the last Known-Limitations bullet.
-- Added "Backtest (P&L evaluation)" section to README.md.
-- Wrote `outputs/global/summary/backtest_equity.csv`.
-- Wrote one news digest `docs/news/jpm/JPM_FQ4_2020.txt` (backfill then paused).
-- Published equity-curve Artifact.
+- Built `manifests/p2_<slug>_reports.json` for 28 issuers; copied source docs into `docs/<slug>/CY<FY>-Q<FQ>/` (new issuers) or `docs/<slug>/phase2/CY<FY>-Q<FQ>/` (the 6 issuers that already have a production manifest, so canonical docs were never touched).
+- `quant_layer.py` / `blend.py`: added a `PHASE2_ISSUERS`-driven `p2_` block to their `MANIFESTS` dicts (prefix, not suffix - avoids `eval.run_eval._base_issuer()`'s variant-folding); restricted their bare-CLI default issuer list back to the original 6 so `python blend.py` / `python quant_layer.py` with no args still only touches production.
+- `llm_news.get_news_score()`: now returns `None` for an issuer missing from its `MANIFESTS` dict instead of raising `KeyError` (phase2 has no news digests at all - this made that degrade gracefully like any other missing layer).
+- `report_pipeline.py`: added `timeout=120.0` to the DeepSeek OpenAI client (was unbounded - a hung request could block up to ~30 min across retries; found this the hard way mid-pipeline-run).
+- `eval/run_eval.py`: added `--output-suffix` so a phase2 run writes `global_outcome_calibration_phase2.csv` / `global_calibration_summary_phase2.json` instead of overwriting the production files.
+- `backtest.py`: added `--calibration-csv` / `--equity-csv` flags for the same reason.
+- Deleted `OneDrive_2026-07-02/` (empty) and `OneDrive_2026-07-06/` (byte-identical subset of the newer drop).
+- `.gitignore`: replaced the stale `OneDrive_2026-07-06/` entry with `OneDrive_2026-07-18/`, added `data/quantitative/sheet_export_cache/` (matches the existing `price_cache`/`earnings_cache` convention) and the three live-sheet export filenames (real rater names - kept local only, not in git).
+- `CLAUDE.md`: full "Phase 2" section + History bullet documenting all of the above in technical detail.
 
 ## Failed Attempts
-- **107-quarter news backfill (Phase 1 of approved plan)** — started (1 digest), then DEPRIORITIZED: the B3×window diagnostic showed backfill (est ~0.684) cannot clear the 0.687 overnight baseline, so it is not the lever for the overnight goal. Old-quarter web sourcing also came back thin/contaminated (wrong-year, post-earnings) — real leak risk, slow.
-- **Options-implied move / analyst-estimate dispersion (Phase 2)** — dropped: yfinance has no as-of-date historical options/estimates, so they can't be backtested on the 131 historical quarters with free data. Could be added as forward/live-only signals.
-- **Beating overnight raw accuracy by any tuning** — impossible at every integer/half-integer B3; confirmed 4 ways prior + this round's full sweep.
+- **Positional "last N real earnings dates = last N target combos" date alignment** - silently wrong whenever the human dataset lags the single most-recent real print (it did, for most tickers): shifted every resolved date forward by a whole quarter. No exception raised - looked fine until spot-checked against known real earnings calendars.
+- **Open-window Close-price matching for report_date** (matching a human's typed Prior Close against yfinance history with no window restriction) - a stock can revisit a similar price level a year later, so this silently matched the right price on the wrong year for several tickers (JPM, Walmart both did this). Fixed by restricting the search to a fiscal-year-aware window before price-matching.
+- **"Thinner documents caused the lower phase2 avg P&L/trade" hypothesis** - tested directly: THIN(1-doc) trades averaged +1.45%/trade vs OK(2+ doc) trades' -0.89%/trade, the *opposite* of the hypothesis (though only 45 vs 23 trades, don't over-trust either direction). Document richness is not the explanation for the P&L gap - see Next Step.
+- **Doc-triage script calling the real `extract_doc_text()` (pypdf+pdfplumber) for every file just to get a char count** - correct but far too slow (some real PDFs are 500K+ chars); switched to a file-size-only heuristic for triage, since real extraction happens for real during the actual pipeline run anyway.
+- **A `OneDrive\Personal\Computing\Business Analytics\Citibank APR` path used early in the session** - turned out to be a OneDrive-dependent alias that went fully inaccessible partway through (OneDrive client process not running - user mentioned OneDrive had hit its storage limit). Caused ~2 hours of apparent random hangs/timeouts before the cause was found. The real, stable project path is `C:\Users\bencr\Documents\Citibank APR` (same git repo, no OneDrive dependency) - use this one, don't reintroduce the OneDrive path.
 
 ## Next Step
-Get the group sheet exported as CSV (columns `Rater, Type, Ticker, Year, Quarter, Decision, Prior Close, Next Day Open`) and run `python backtest.py --sheet <export.csv>` to score every HUMAN rater on the identical strategy — then optionally build the "common-quarters mode" (score all raters only on prints every rater covered) so human-vs-LLM totals are strictly apples-to-apples. Also decide whether to `git commit` this session's work (backtest.py + doc updates) on branch task/task.
+Run a threshold-tightened phase2 backtest: sweep `hold_upper`/`hold_lower` upward from the deployed `±0.15` until phase2's trade-taking rate drops to roughly match the deployed model's ~34% (44/131) selectivity, and see how much of the 0.657%→2.504% avg-per-trade gap closes. This isolates "phase2 trades too many marginal-conviction calls" from "phase2's 28-company universe (crypto/autos/semis/high-beta retail) is just structurally harder to call than the original 6 (financials/industrials/media)" - the two live hypotheses, per the user's explicit ask at end of last session. After that: (a) bulk up the 64/102 `THIN(1 doc)` phase2 quarters with more sourced documents (the original ask, descoped last session - `phase2/coverage_report.json`'s `status` field flags exactly which ones), especially AMD/Amazon/Coinbase/Eli Lilly/Meta's ~5-6K-char single-document quarters, and re-measure; (b) consider running a P&L-objective weight/threshold sweep (`experiments/pnl_weight_threshold_sweep.py`-style, DSR-checked) on the phase2 set - only an accuracy-based LOOCV tuning check was run last session, and it showed clear overfitting (quant jumping to 80% weight, contradicting the extensively-validated production finding that quant is inert at N=131), so don't trust that check, but a P&L-objective one hasn't been tried yet.
