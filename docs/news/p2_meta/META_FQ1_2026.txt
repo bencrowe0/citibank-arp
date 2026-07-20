@@ -1,0 +1,8 @@
+Meta (META) - News coverage digest, FQ1 2026 earnings (report date 2026-04-29)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 29, 2026 report, consensus was revenue near $55.5 billion (+31% YoY) and EPS around $6.70-$6.82. Meta had not missed sales expectations since Q2 2022 (a 14-quarter beat streak), and ratings were the most uniformly bullish among the day's earnings batch (42 of 50 analysts Buy, 8 Hold, 0 Sell). The three variables coverage flagged as most likely to drive the stock reaction were advertising revenue versus the top of guidance ($56.5B), operating margin versus Q4 2025's 41% level, and management commentary on the $115-135B 2026 capex trajectory - i.e. the bar was set above simple beat/miss given the long beat streak.
+
+Sources:
+- https://247wallst.com/investing/2026/04/29/meta-platforms-meta-q1-2026-earnings-preview-what-wall-street-is-watching-tonight/ (24/7 Wall St., "Meta Platforms (META) Q1 2026 Earnings Preview: What Wall Street Is Watching Tonight" - published prior to the April 29, 2026 report)
+- https://parameter.io/meta-platforms-meta-q1-2026-earnings-preview-what-analysts-are-watching/ (Parameter, "Meta Platforms (META) Q1 2026 Earnings Preview: What Analysts Are Watching" - published prior to the report)

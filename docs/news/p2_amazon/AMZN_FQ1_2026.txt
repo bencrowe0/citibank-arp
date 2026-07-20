@@ -1,0 +1,8 @@
+Amazon (AMZN) - News coverage digest, FQ1 2026 earnings (report date 2026-04-29)
+Fetched via web search across free financial outlets (S&P Global, public.com aggregator). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 29, 2026 report, FactSet consensus expected Q1 revenue of $177.2 billion (up ~13-14% YoY) and adjusted EPS around $1.61-$1.63. AWS consensus was about $36.8 billion, with AWS growth expected in the mid-20% range; advertising was expected to reach a $16-17 billion quarterly run rate. North America retail operating margin estimates were unusually wide (0.9%-7.8%, consensus 6.5%), signaling real analyst disagreement on retail profitability that quarter, while AWS margin was expected near 35.7%. Analyst sentiment was solidly positive (41 analysts, 46% strong buy / 49% buy, consensus target $287.24) but coverage flagged capex as the dominant swing factor once again - FY2026 capex estimates had risen to nearly $200 billion (from $52.7 billion in FY2023), and analysts were watching Q2 guidance and AI-investment commentary closely, meaning a "clean beat" on revenue/EPS alone might not be sufficient to satisfy the market if capex/margin commentary disappointed.
+
+Sources:
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/04/amazon-earnings-preview-q1-2026 (S&P Global Market Intelligence, "Amazon earnings preview: Q1 2026" - published prior to the April 29, 2026 report)
+- https://www.tradingkey.com/analysis/stocks/us-stocks/261823532-amazon-q1-2026-earnings-report-preview-tradingkey (TradingKey, "Amazon 2026 Q1 Earnings Preview" - published prior to the report)

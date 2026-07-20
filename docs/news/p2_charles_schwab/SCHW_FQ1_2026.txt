@@ -1,0 +1,8 @@
+Charles Schwab (SCHW) - News coverage digest, FQ1 2026 earnings (report date 2026-04-16)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 16, 2026 report, consensus EPS estimates ranged $1.35-$1.39 (about 30-34% YoY growth) on revenue estimates of $6.39-$6.49 billion (roughly 14-16% YoY growth). Growth was expected to be broad-based: net interest revenue $3.19 billion (+18%) on average interest-earning assets of $439.6 billion, trading revenue $1.08 billion (+18.4%), and asset management fees $1.74 billion (+14%). Total client assets had reached a record $12.22 trillion in February 2026 (+19% YoY). Coverage noted Schwab's exceptionally strong recent beat record - EPS estimates beaten 100% of the time and revenue estimates 75% of the time over the prior two years - setting a high bar of "expected to beat" heading into the print.
+
+Sources:
+- https://tickeron.com/blogs/charles-schwab-schw-q1-2026-earnings-preview-and-what-investors-should-watch-12537/ (Tickeron, "Charles Schwab (SCHW): Q1 2026 Earnings Preview and What Investors Should Watch" - published prior to the April 16, 2026 report)
+- https://www.indexbox.io/blog/charles-schwab-q1-2026-earnings-preview-revenue-growth-expected/ (IndexBox, "Charles Schwab Q1 2026 Earnings Report: Analysis & Market Expectations" - published prior to the report)

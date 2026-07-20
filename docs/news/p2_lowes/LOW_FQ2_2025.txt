@@ -1,0 +1,7 @@
+Lowe's (LOW) - News coverage digest, FQ2 2025 earnings (report date 2025-08-20)
+Fetched via web search across free financial outlets (Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the August 20, 2025 report, consensus EPS was $4.24 (+3.4% YoY) on revenue of $23.99-$24.02 billion (+1.7-1.9% YoY). The consensus EPS estimate had actually been revised slightly lower (-0.2%) over the prior 30 days, a mild negative-momentum signal, though Lowe's had a trailing four-quarter earnings surprise of +3.2% on average. Positive factors cited: product innovation, the MyLowe's Rewards loyalty program, digital expansion, and resilient Pro-segment demand.
+
+Sources:
+- https://finance.yahoo.com/news/lowes-q2-2025-earnings-preview-123000861.html (Yahoo Finance, "Lowe's Q2 2025 Earnings Preview: Is LOW Ready to Surprise the Street?" - published prior to the August 20, 2025 report)

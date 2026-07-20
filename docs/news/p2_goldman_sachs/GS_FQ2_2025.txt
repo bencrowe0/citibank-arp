@@ -1,0 +1,7 @@
+Goldman Sachs (GS) - News coverage digest, FQ2 2025 earnings (report date 2025-07-16)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 16, 2025 report, consensus estimates were EPS of $14.48 on revenue of $16.13 billion, with Global Banking & Markets revenue estimated at $12.11 billion and investment banking fees at $2.9 billion. Analysts had generally reconfirmed rather than revised their estimates over the prior 30 days, and coverage noted Goldman's history of exceeding Wall Street expectations. The average analyst price target heading in was $1,019 versus a share price of $1,057 - i.e. the stock was trading modestly above the average target, a mildly stretched setup relative to where sell-side models saw fair value.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/expect-goldman-sachs-gs-q2-031652167.html (Yahoo Finance/StockStory, "What To Expect From Goldman Sachs's (GS) Q2 Earnings" - published prior to the July 16, 2025 report)

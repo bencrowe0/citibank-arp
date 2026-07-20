@@ -1,0 +1,227 @@
+{
+  "n_documents": 101,
+  "window_trading_days": 1,
+  "exit_on_open": true,
+  "objective": "total_return",
+  "quant_variant": "quant_score (single variant only - production already established quant is inert)",
+  "cost_bps": 10.0,
+  "short_borrow_bps": 0.0,
+  "weight_step": 0.05,
+  "threshold_grid": {
+    "upper": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ],
+    "lower": [
+      -0.05,
+      -0.1,
+      -0.15,
+      -0.2,
+      -0.25,
+      -0.3,
+      -0.35,
+      -0.4
+    ],
+    "asymmetric": true
+  },
+  "combos": 113344,
+  "n_trials_corrected_for_dsr": 113344,
+  "default_config": {
+    "weights": [
+      0.8,
+      0.0,
+      0.2,
+      0.0
+    ],
+    "hold_upper": 0.25,
+    "hold_lower": -0.25
+  },
+  "global_best": {
+    "total_return_pct": 143.94,
+    "avg_net_per_trade_pct": 1.5852,
+    "sharpe_per_trade": 2.358,
+    "n_trades": 62,
+    "weights": [
+      0.3,
+      0.0,
+      0.65,
+      0.05
+    ],
+    "hold_upper": 0.05,
+    "hold_lower": -0.2,
+    "n_tied": 2,
+    "deflated_sharpe": {
+      "sr0_expected_max_under_null": 3.1151,
+      "skew": 0.4273,
+      "kurtosis": 3.6977,
+      "psr": 0.0011,
+      "n_trials_corrected_for": 113344
+    }
+  },
+  "top_k": [
+    {
+      "weights": [
+        0.3,
+        0.0,
+        0.65,
+        0.05
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.15,
+      "total_return_pct": 143.94,
+      "sharpe_per_trade": 2.358,
+      "n_trades": 62
+    },
+    {
+      "weights": [
+        0.3,
+        0.0,
+        0.65,
+        0.05
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.2,
+      "total_return_pct": 143.94,
+      "sharpe_per_trade": 2.358,
+      "n_trades": 62
+    },
+    {
+      "weights": [
+        0.25,
+        0.15,
+        0.5,
+        0.1
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.05,
+      "total_return_pct": 133.38,
+      "sharpe_per_trade": 2.395,
+      "n_trades": 70
+    },
+    {
+      "weights": [
+        0.3,
+        0.1,
+        0.55,
+        0.05
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.15,
+      "total_return_pct": 132.72,
+      "sharpe_per_trade": 2.394,
+      "n_trades": 62
+    },
+    {
+      "weights": [
+        0.15,
+        0.15,
+        0.45,
+        0.25
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.05,
+      "total_return_pct": 132.51,
+      "sharpe_per_trade": 2.111,
+      "n_trades": 80
+    },
+    {
+      "weights": [
+        0.25,
+        0.15,
+        0.45,
+        0.15
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.05,
+      "total_return_pct": 131.4,
+      "sharpe_per_trade": 2.413,
+      "n_trades": 73
+    },
+    {
+      "weights": [
+        0.3,
+        0.2,
+        0.45,
+        0.05
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.1,
+      "total_return_pct": 130.95,
+      "sharpe_per_trade": 2.322,
+      "n_trades": 66
+    },
+    {
+      "weights": [
+        0.25,
+        0.0,
+        0.6,
+        0.15
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.1,
+      "total_return_pct": 130.1,
+      "sharpe_per_trade": 2.247,
+      "n_trades": 67
+    },
+    {
+      "weights": [
+        0.25,
+        0.05,
+        0.55,
+        0.15
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.1,
+      "total_return_pct": 129.4,
+      "sharpe_per_trade": 2.241,
+      "n_trades": 66
+    },
+    {
+      "weights": [
+        0.2,
+        0.15,
+        0.5,
+        0.15
+      ],
+      "hold_upper": 0.05,
+      "hold_lower": -0.05,
+      "total_return_pct": 128.13,
+      "sharpe_per_trade": 2.344,
+      "n_trades": 72
+    }
+  ],
+  "loocv": {
+    "total_return_pct": -43.85,
+    "avg_net_per_trade_pct": -0.7572,
+    "hit_rate": 0.4921,
+    "n_trades": 63,
+    "sharpe_per_trade": -1.089
+  },
+  "deployed_default_on_phase2": {
+    "total_return_pct": 30.2,
+    "avg_net_per_trade_pct": 0.711,
+    "sharpe_per_trade": 0.815,
+    "n_trades": 51
+  },
+  "significance": {
+    "permutation_p_vs_gap_shuffles": 0.20156,
+    "note": "Positions held fixed, overnight gap shuffled across documents 5000x; p = fraction of shuffles whose best achievable total return >= the observed best."
+  },
+  "vs_backtest_py": {
+    "backtest_py_reported": {
+      "n_trades": 51,
+      "total_return_pct": 30.16,
+      "avg_net_per_trade_pct": 0.7105,
+      "sharpe_per_trade": 0.815,
+      "max_drawdown_pct": 33.3
+    },
+    "self_check_match": true
+  },
+  "deployment_note": "Candidate output only - blend.py's DEFAULT_WEIGHTS is untouched pending review. Compare global_best/loocv against production's own P&L-sweep winner ([micro=0.2, macro=0.0, news=0.75, quant=0.05], PSR=0.02) for context, but this is phase2's own independently-fit and independently-DSR-checked result."
+}

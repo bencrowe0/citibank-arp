@@ -1,0 +1,44 @@
+{
+  "document_id": "SCHW_FQ1_2025_NEWS",
+  "base_document_id": "SCHW_FQ1_2025",
+  "issuer": "p2_charles_schwab",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings market expectations digest, not an earnings release. It describes consensus estimates and expected drivers (solid trading activity, growth in NIR) but does not indicate whether expectations are stretched or depressed. There is no mention of elevated valuation, beaten-down stock, or analyst estimate revisions that would suggest a high or low bar. Therefore the score is neutral (0.0) as the document provides no signal about the stretch of market expectations heading into the print."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161701Z",
+    "timestamp": "2026-07-20T16:17:09Z",
+    "status": "success",
+    "document_id": "SCHW_FQ1_2025_NEWS",
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-17",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_charles_schwab\\SCHW_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3450,
+    "cache_hit_tokens": 256,
+    "output_tokens": 863,
+    "total_tokens": 4313,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00183,
+    "latency_seconds": 7.22,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

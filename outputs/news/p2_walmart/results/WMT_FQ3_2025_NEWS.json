@@ -1,0 +1,44 @@
+{
+  "document_id": "WMT_FQ3_2025_NEWS",
+  "base_document_id": "WMT_FQ3_2025",
+  "issuer": "p2_walmart",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are heading into the print. The document notes that consensus EPS was revised up 0.2% in the prior 30 days, indicating a slightly elevated bar. More importantly, it flags tariff-driven cost pressure as the key risk, with CEO Doug McMillon noting retailers are running out of pre-tariff cheaper inventory and new shipments costing more. This suggests a demanding setup with a real cost headwind, raising the risk of a negative surprise even if results are decent. The score is set at -0.15, just below the HOLD band, reflecting a mildly stretched expectation with a notable risk factor."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162533Z",
+    "timestamp": "2026-07-20T16:25:42Z",
+    "status": "success",
+    "document_id": "WMT_FQ3_2025_NEWS",
+    "issuer": "p2_walmart",
+    "company": "Walmart",
+    "ticker": "WMT",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-20",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_walmart\\WMT_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3452,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1175,
+    "total_tokens": 4627,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002173,
+    "latency_seconds": 8.78,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "TSLA_FQ4_2025_NEWS",
+  "base_document_id": "TSLA_FQ4_2025",
+  "issuer": "p2_tesla",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so the score reflects whether market expectations are stretched or depressed. The document describes depressed expectations: revenue expected down ~3% YoY, EPS down 30-40% YoY, deliveries down ~16% YoY, and automotive gross margin expected to fall further. A bright spot is record energy-storage deployment. The low bar raises the odds of a positive surprise, warranting a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162422Z",
+    "timestamp": "2026-07-20T16:24:33Z",
+    "status": "success",
+    "document_id": "TSLA_FQ4_2025_NEWS",
+    "issuer": "p2_tesla",
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_tesla\\TSLA_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3655,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1419,
+    "total_tokens": 5074,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002497,
+    "latency_seconds": 10.49,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,8 @@
+Coca-Cola (KO) - News coverage digest, FQ1 2026 earnings (report date 2026-04-28)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 28, 2026 report, analysts expected Q1 EPS of $0.81 (up from $0.73 YoY) and revenue of $12.26 billion (~10% YoY growth, range $12.01-$12.62 billion). Full-year 2026 guidance already on the table was 4%-5% organic revenue growth and 7%-8% comparable EPS growth. Investors were watching unit case volume, price/mix, and North American/emerging-market trends; the quarter also included six extra days versus the prior year, a technical factor coverage flagged as likely to boost reported volume/revenue. Analyst commentary in the weeks before the print was bullish: UBS raised its target to $90 (Buy) on April 7, with J.P. Morgan and RBC Capital reiterating Buy ratings April 22 and 24, both framing KO as a defensive/volatility hedge.
+
+Sources:
+- https://www.tradingkey.com/analysis/stocks/us-stocks/261823681-coca-cola-stock-earnings-braun-ai-dividend-buffett-pricing-power-moat-tradingkey (TradingKey, "Coca-Cola Earnings Preview: Moat Remains Robust" - published prior to the April 28, 2026 report)
+- https://tickeron.com/blogs/coca-cola-ko-what-to-watch-ahead-of-q1-2026-earnings-12328/ (Tickeron, "Coca-Cola (KO): What to Watch Ahead of Q1 2026 Earnings" - published prior to the report)

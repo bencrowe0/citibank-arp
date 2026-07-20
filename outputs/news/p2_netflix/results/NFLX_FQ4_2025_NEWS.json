@@ -1,0 +1,44 @@
+{
+  "document_id": "NFLX_FQ4_2025_NEWS",
+  "base_document_id": "NFLX_FQ4_2025",
+  "issuer": "p2_netflix",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the document describes elevated market uncertainty and a demanding bar: options markets priced a ~7% possible swing either direction, signaling real market uncertainty, and coverage was dominated by a major M&A overhang (the pending ~$82.7B acquisition of Warner Bros. Discovery), not typical subscriber-growth-driven coverage. This suggests stretched expectations and a higher risk of a negative surprise, warranting a mildly bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162829Z",
+    "timestamp": "2026-07-20T16:28:40Z",
+    "status": "success",
+    "document_id": "NFLX_FQ4_2025_NEWS",
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-20",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_netflix\\NFLX_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3462,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1380,
+    "total_tokens": 4842,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002402,
+    "latency_seconds": 11.51,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

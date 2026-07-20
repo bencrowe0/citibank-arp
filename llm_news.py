@@ -47,6 +47,20 @@ MANIFESTS = {
     "target": BASE_DIR / "manifests" / "target_reports.json",
 }
 
+# Phase 2: separate human-comparison track, see blend.py's identical block for
+# the "p2_" prefix rationale (avoids eval.run_eval._base_issuer()'s fold).
+PHASE2_ISSUERS = [
+    "airbnb", "amazon", "amd", "apple", "cvs_health", "charles_schwab",
+    "citigroup", "coca_cola", "coinbase", "eli_lilly", "goldman_sachs",
+    "ibm", "lowes", "lululemon", "maersk", "mcdonalds", "meta", "nike",
+    "nvidia", "tesla", "uber", "walmart",
+    "bank_of_america", "boeing", "disney", "jpm", "netflix", "target",
+]
+MANIFESTS.update({
+    f"p2_{name}": BASE_DIR / "manifests" / f"p2_{name}_reports.json"
+    for name in PHASE2_ISSUERS
+})
+
 
 def _news_doc_path(issuer: str, document_id: str) -> Path:
     return BASE_DIR / "docs" / "news" / issuer / f"{document_id}.txt"
@@ -123,8 +137,12 @@ def get_news_score(issuer: str, document_id: str) -> dict[str, Any] | None:
 
 
 def main() -> int:
+    # bare `python llm_news.py` (no args) must keep scoring only the original 6
+    # production issuers, not the phase2 track added to MANIFESTS above -
+    # matches blend.py's / quant_layer.py's identical bare-CLI convention.
+    default_issuers = ["boeing", "jpm", "netflix", "bank_of_america", "disney", "target"]
     total_cost = 0.0
-    for issuer in MANIFESTS:
+    for issuer in sys.argv[1:] or default_issuers:
         print(f"\n=== {issuer} ===")
         for result in score_all_news(issuer):
             print(f"{result['document_id']}: {result['signal']['direction']} (score {result['sentiment']['score']})")

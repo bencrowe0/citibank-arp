@@ -1,0 +1,44 @@
+{
+  "document_id": "C_FQ1_2025_NEWS",
+  "base_document_id": "C_FQ1_2025",
+  "issuer": "p2_citigroup",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes a consensus EPS estimate of $1.84 (+16.46% YoY) and revenue of $23.71 billion (+9.8% YoY), with a prior quarter beat of 7.20%. There is no mention of stretched valuations, a rally into the print, or rising estimates that would raise the bar. The expectations appear moderately positive but not elevated to a 'priced for perfection' level, so the bar is not demanding enough to be bearish, nor depressed enough to be strongly bullish. A slightly positive score reflects a neutral-to-modestly favorable setup."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161746Z",
+    "timestamp": "2026-07-20T16:17:54Z",
+    "status": "success",
+    "document_id": "C_FQ1_2025_NEWS",
+    "issuer": "p2_citigroup",
+    "company": "Citigroup",
+    "ticker": "C",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_citigroup\\C_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3487,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1031,
+    "total_tokens": 4518,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002024,
+    "latency_seconds": 7.61,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

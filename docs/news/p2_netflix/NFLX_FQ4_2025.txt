@@ -1,0 +1,6 @@
+Netflix (NFLX) - News digest, FQ4 2025 (report date 2026-01-20). Pre-earnings only, via web search.
+
+Consensus: revenue ~$11.96-11.97B (+17% YoY), EPS ~$0.55. Coverage was dominated by Netflix's pending ~$82.7B acquisition of Warner Bros. Discovery (announced December 2025) - a major structural/M&A overhang, not typical subscriber-growth-driven pre-earnings coverage. Options markets priced a ~7% possible swing either direction, signaling real market uncertainty heading into the print (elevated relative to Netflix's more recent, more uniformly-bullish quarters in this set).
+
+Sources:
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/netflix-post-earnings-review-q4-2025-and-outlook (S&P Global, WBD-deal and consensus context - pre-earnings figures as tracked ahead of the January 20, 2026 report)

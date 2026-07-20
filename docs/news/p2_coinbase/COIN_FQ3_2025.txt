@@ -1,0 +1,8 @@
+Coinbase (COIN) - News coverage digest, FQ3 2025 earnings (report date 2025-10-30)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 30, 2025 report, estimates varied by source: one consensus put EPS at $1.19 on revenue of $1.81 billion (+49.6% YoY); another put EPS at $1.06 (+71% YoY) on revenue of $1.74 billion (+44.1% YoY). Segment detail: subscription/services revenue estimated at $712.26 million (+28.1% YoY), transaction revenue at $939.45 million (+64.1% YoY), institutional transaction revenue at $77.94 million (+41% YoY). Analyst sentiment was bullish heading in, citing expected subscription/services growth, rising adoption of US Bitcoin and Ethereum ETPs, and strong institutional interest - offset by an acknowledged risk of volatile trading volume as the main swing factor for a crypto-exchange name.
+
+Sources:
+- https://seekingalpha.com/news/4510299-coinbase-q3-2025-earnings-preview---what-to-expect (Seeking Alpha, "Coinbase Q3 2025 Earnings Preview - What to Expect" - published prior to the October 30, 2025 report)
+- https://www.nasdaq.com/articles/coinbase-global-coin-q3-earnings-preview-what-you-should-know-beyond-headline-estimates (Nasdaq, "Coinbase Global (COIN) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates" - published prior to the report)

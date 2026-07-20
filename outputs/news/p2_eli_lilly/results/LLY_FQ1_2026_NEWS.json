@@ -1,0 +1,44 @@
+{
+  "document_id": "LLY_FQ1_2026_NEWS",
+  "base_document_id": "LLY_FQ1_2026",
+  "issuer": "p2_eli_lilly",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations rather than guidance changes. The document describes a mixed setup: analyst revisions have trended favorably (upward revenue estimate changes), but it also flags that Lilly has missed revenue targets several times over the past two years, adding genuine uncertainty. The mention of a 1.5% stock slide against a surging pharma sector suggests some negative momentum, and the bar is not described as depressed or beaten-down, so expectations are not low enough to be bullish. The overall picture is slightly stretched with downside risk, warranting a mildly bearish score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T161928Z",
+    "timestamp": "2026-07-20T16:19:39Z",
+    "status": "success",
+    "document_id": "LLY_FQ1_2026_NEWS",
+    "issuer": "p2_eli_lilly",
+    "company": "Eli Lilly",
+    "ticker": "LLY",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-30",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_eli_lilly\\LLY_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3571,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1323,
+    "total_tokens": 4894,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002368,
+    "latency_seconds": 10.4,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

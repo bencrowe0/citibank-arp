@@ -1,0 +1,44 @@
+{
+  "document_id": "ABNB_FQ3_2025_NEWS",
+  "base_document_id": "ABNB_FQ3_2025",
+  "issuer": "p2_airbnb",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes a setup where the Zacks Consensus Estimate for revenue ($4.08B) is near the middle of Airbnb's own guidance range ($4.02-$4.10B), indicating 'relatively low ambiguity between company guidance and analyst consensus.' This suggests balanced, unremarkable positioning with no notable stretch in either direction, leading to a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161505Z",
+    "timestamp": "2026-07-20T16:15:12Z",
+    "status": "success",
+    "document_id": "ABNB_FQ3_2025_NEWS",
+    "issuer": "p2_airbnb",
+    "company": "Airbnb",
+    "ticker": "ABNB",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-06",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_airbnb\\ABNB_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3483,
+    "cache_hit_tokens": 256,
+    "output_tokens": 986,
+    "total_tokens": 4469,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001974,
+    "latency_seconds": 6.92,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

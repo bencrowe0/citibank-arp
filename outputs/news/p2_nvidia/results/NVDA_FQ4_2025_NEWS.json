@@ -1,0 +1,44 @@
+{
+  "document_id": "NVDA_FQ4_2025_NEWS",
+  "base_document_id": "NVDA_FQ4_2025",
+  "issuer": "p2_nvidia",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are heading into the print. The document describes a wide dispersion in estimates (revenue $57B to $66B, EPS $1.46-$1.53) and notes that forward guidance is the 'real event,' implying elevated uncertainty. There is no explicit language about a beaten-down valuation or depressed expectations; instead, the wide range and focus on guidance suggest a demanding bar, leaning slightly bearish."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T162402Z",
+    "timestamp": "2026-07-20T16:24:12Z",
+    "status": "success",
+    "document_id": "NVDA_FQ4_2025_NEWS",
+    "issuer": "p2_nvidia",
+    "company": "Nvidia",
+    "ticker": "NVDA",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-25",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_nvidia\\NVDA_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3591,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1074,
+    "total_tokens": 4665,
+    "cached_input": false,
+    "estimated_cost_usd": 0.0021,
+    "latency_seconds": 9.61,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

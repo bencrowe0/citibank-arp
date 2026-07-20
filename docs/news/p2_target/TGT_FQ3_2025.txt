@@ -1,0 +1,6 @@
+Target (TGT) - News digest, FQ3 2025 (report date 2025-11-19). Pre-earnings only, via web search.
+
+Consensus: EPS $1.77 (-4.3% YoY) - another expected decline, unchanged over the prior 30 days. Unlike the prior quarter's mildly-positive ESP, this time the Earnings ESP was negative (-5.23%), meaning analysts closest to the company had turned more bearish than broad consensus - a genuinely deteriorating sentiment signal heading into the print, not a repeat of Q2's mixed setup.
+
+Sources:
+- https://finance.yahoo.com/news/earnings-preview-target-tgt-q3-150003425.html (Yahoo Finance/Zacks, "Earnings Preview: Target (TGT) Q3 Earnings Expected to Decline" - published prior to the November 19, 2025 report)

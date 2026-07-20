@@ -1,0 +1,7 @@
+Charles Schwab (SCHW) - News coverage digest, FQ3 2025 earnings (report date 2025-10-16)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 16, 2025 pre-market report, consensus EPS estimate was $1.25 (+62.3% YoY), with revenue consensus of $6.02 billion (+24.1% YoY). Analyst ratings were reasonably bullish: of 22 analysts, 13 rated the stock Strong Buy, 4 Moderate Buy, 3 Hold, 1 Moderate Sell and 1 Strong Sell, with an average price target of $108 implying ~16.5% upside. Coverage noted Schwab had consistently beaten Wall Street's EPS estimate over its last four quarterly reports - a strong recent beat streak heading into this print, raising the bar for what would be read as a "clean" result.
+
+Sources:
+- https://markets.financialcontent.com/stocks/article/stockstory-2025-10-15-what-to-expect-from-charles-schwabs-schw-q3-earnings (StockStory via FinancialContent, "What To Expect From Charles Schwab's (SCHW) Q3 Earnings" - published October 15, 2025, one day before the report)

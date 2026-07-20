@@ -1,0 +1,8 @@
+Coinbase (COIN) - News coverage digest, FQ4 2025 earnings (report date 2026-02-12)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 12, 2026 report, analysts projected revenue would decline 19.2% YoY to $1.84 billion, with adjusted EPS forecast at $0.99. A separate estimate put total revenue at $1.77 billion, down 5% sequentially from Q3's $1.87 billion, as lower trading volumes and asset prices were expected to offset growth in derivatives trading and USDC. This was a notably bearish pre-print setup relative to Coinbase's typical growth narrative - a rare quarter where consensus itself modeled a YoY revenue decline, reflecting a weaker crypto-market backdrop heading into the print.
+
+Sources:
+- https://www.indexbox.io/blog/coinbase-q4-2025-earnings-preview-analysts-project-revenue-decline-amid-market-volatility/ (IndexBox, "Coinbase Earnings Forecast: Q4 2025 Revenue Expected to Fall 19.2% Year-on-Year" - published prior to the February 12, 2026 report)
+- https://finance.yahoo.com/markets/crypto/articles/coinbase-global-earnings-preview-expect-112658563.html (Yahoo Finance, "Coinbase Global Earnings Preview: What to Expect" - published prior to the report)

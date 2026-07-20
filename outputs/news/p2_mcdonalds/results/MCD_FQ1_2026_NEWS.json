@@ -1,0 +1,44 @@
+{
+  "document_id": "MCD_FQ1_2026_NEWS",
+  "base_document_id": "MCD_FQ1_2026",
+  "issuer": "p2_mcdonalds",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This is a pre-earnings digest, so no actual results or guidance are available. The document describes a mild positive momentum in EPS estimates (revised 0.6% higher over 30 days) and solidly positive analyst ratings (18 Buy, 8 Hold, 0 Sell), which suggests expectations are not stretched to a bearish extreme. However, it also notes some analysts trimming same-store-sales forecasts due to softer consumer demand and macro pressure, indicating a split that prevents a strongly bullish score. Overall, expectations are mildly positive but not elevated enough to be a clear positive surprise catalyst, so the score is slightly above neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162224Z",
+    "timestamp": "2026-07-20T16:22:34Z",
+    "status": "success",
+    "document_id": "MCD_FQ1_2026_NEWS",
+    "issuer": "p2_mcdonalds",
+    "company": "McDonald's",
+    "ticker": "MCD",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-07",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_mcdonalds\\MCD_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3493,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1104,
+    "total_tokens": 4597,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002106,
+    "latency_seconds": 9.64,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

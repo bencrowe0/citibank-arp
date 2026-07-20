@@ -1,0 +1,44 @@
+{
+  "document_id": "NVDA_FQ2_2025_NEWS",
+  "base_document_id": "NVDA_FQ2_2025",
+  "issuer": "p2_nvidia",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings market expectations digest, so the guidance-change framework does not apply. Instead, the score reflects how stretched or depressed expectations are heading into the print. The document notes that Nvidia had topped estimates in three of the prior four quarters but the one miss (Q1's $0.81 vs. forecast, a 4.7% shortfall) is 'still fresh in investor memory,' and that this keeps expectations 'somewhat tempered rather than uniformly euphoric.' This suggests a moderately low bar, which is mildly positive, but the miss is recent and the beat record is not unblemished, so the score is slightly negative to reflect the risk of a repeat miss."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162341Z",
+    "timestamp": "2026-07-20T16:23:51Z",
+    "status": "success",
+    "document_id": "NVDA_FQ2_2025_NEWS",
+    "issuer": "p2_nvidia",
+    "company": "Nvidia",
+    "ticker": "NVDA",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-27",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_nvidia\\NVDA_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3480,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1172,
+    "total_tokens": 4652,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002178,
+    "latency_seconds": 9.7,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

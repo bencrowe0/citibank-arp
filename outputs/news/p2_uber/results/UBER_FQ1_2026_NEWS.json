@@ -1,0 +1,44 @@
+{
+  "document_id": "UBER_FQ1_2026_NEWS",
+  "base_document_id": "UBER_FQ1_2026",
+  "issuer": "p2_uber",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are. The digest describes a 'profitability test meets robotaxi momentum' setup, with EPS expected to decline 14.5% YoY, and the stock having rallied into the print. This suggests elevated expectations and a demanding bar, raising the risk of a negative surprise even on decent results. The score is slightly negative because the bar appears high, but not extremely stretched."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T162507Z",
+    "timestamp": "2026-07-20T16:25:17Z",
+    "status": "success",
+    "document_id": "UBER_FQ1_2026_NEWS",
+    "issuer": "p2_uber",
+    "company": "Uber",
+    "ticker": "UBER",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_uber\\UBER_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3578,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1305,
+    "total_tokens": 4883,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00235,
+    "latency_seconds": 9.8,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

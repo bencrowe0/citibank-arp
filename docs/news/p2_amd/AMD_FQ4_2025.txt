@@ -1,0 +1,8 @@
+AMD - News coverage digest, FQ4 2025 earnings (report date 2026-02-03)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 3, 2026 report, consensus/company-aligned projections implied Q4 revenue of ~$9.65-9.67 billion and adjusted EPS of ~$1.31-$1.32, with EBIT modeled near $2.43 billion. The prevailing analyst view anticipated solid YoY revenue and EPS growth in line with consensus, with sentiment skewed positive - coverage flagged data-center as the key driver, citing hyperscaler adoption of AMD's newer accelerator platforms and continued server-CPU share gains as catalysts. AMD was widely expected to at least modestly beat revenue expectations, with data center, client/gaming and embedded segments all showing momentum (portfolio diversification cited as a positive theme, not a single-segment story).
+
+Sources:
+- https://www.moomoo.com/community/feed/advanced-micro-devices-amd-us-will-report-fiscal-q4-2025-115988910178310 (Moomoo community preview, consensus/guidance compilation - published prior to the February 3, 2026 report)
+- https://www.tradingkey.com/analysis/stocks/us-stocks/261541845-amd-q4-2025-earnings-preview-tradingkey (TradingKey, "AMD Q4 Earnings Preview: A Script This Perfect" - published prior to the report)

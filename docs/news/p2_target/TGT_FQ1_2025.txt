@@ -1,0 +1,6 @@
+Target (TGT) - News digest, FQ1 2025 (report date 2025-05-21). Pre-earnings estimate context only, via web search/aggregator - note: search results for this exact date were contaminated with next-year's (Q1 2026) preview data; only cautiously reusable generic context is included here to avoid misattributing figures to the wrong year.
+
+General pre-earnings backdrop for Target across this period (both FY2025 and FY2026 Q1 prints in this dataset): consensus estimates in the $1.30-$1.60 EPS range on ~$24-25B revenue, with historically wide analyst dispersion and a pattern of near-term upward EPS revisions (30-day window) offset by longer-term (90-day) downward revisions - i.e. estimate confidence tends to erode the further out analysts look for Target specifically.
+
+Sources:
+- https://seekingalpha.com/news/4594849-target-q1-earnings-on-deck-what-to-expect (Seeking Alpha, "Target Q1 earnings on deck: What to expect" - general pre-earnings estimate pattern)

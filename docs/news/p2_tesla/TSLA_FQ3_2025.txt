@@ -1,0 +1,8 @@
+Tesla (TSLA) - News coverage digest, FQ3 2025 earnings (report date 2025-10-22)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 22, 2025 report, consensus EPS was $0.53-$0.55 (a ~25% YoY decline from $0.72), on revenue of about $26.27-$26.46 billion (+4-6% YoY). Automotive gross margin was expected around 16.5-17.0%. Coverage explicitly framed the setup as a divergence: Tesla was achieving record-ever vehicle deliveries and energy sales for the quarter, yet profitability (EPS, margin) was still expected to decline meaningfully - a "record volume, weaker profit" setup rather than a clean growth story.
+
+Sources:
+- https://www.marketpulse.com/markets/tesla-tsla-q3-2025-earnings-preview-why-record-deliveries-still-mean-a-profit-margin-squeeze/ (MarketPulse/OANDA, "Tesla (TSLA) Q3 2025 Earnings Preview: Why Record Deliveries Still Mean a Profit Margin Squeeze" - published prior to the October 22, 2025 report)
+- https://electrek.co/2025/10/21/tesla-tsla-q3-earnings-preview-record-quarter/ (Electrek, "Tesla (TSLA) Q3 earnings preview: what to expect from its record quarter" - published October 21, 2025, one day before the report)

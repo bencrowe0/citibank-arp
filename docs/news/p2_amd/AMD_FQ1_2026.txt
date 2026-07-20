@@ -1,0 +1,8 @@
+AMD - News coverage digest, FQ1 2026 earnings (report date 2026-05-05)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the May 5, 2026 report, analysts expected Q1 revenue of ~$9.84 billion (up ~32-33% YoY) and adjusted EPS of ~$1.28-$1.30, with AMD guiding non-GAAP gross margin near 55%. Data-center revenue consensus (Zacks) was $5.56 billion, up 51.5% YoY. Ratings sentiment was strongly positive (31 of 41 analysts Buy/Strong Buy, 10 Hold, 0 Sell) but not unanimous: HSBC downgraded to Hold just ahead of earnings (while raising its price target to $340), citing limited upside and dependence on TSMC manufacturing capacity as a genuine risk flag. Coverage explicitly noted the stock's elevated valuation (59% YTD rally referenced in one preview) set "a high bar" for a positive post-earnings reaction - i.e. strong growth was already priced in, raising the bar for what would count as a good-enough print.
+
+Sources:
+- https://coindcx.com/blog/us-stock/amd-q1-2026-earnings-preview/ (CoinDCX, "AMD Q1 2026 Earnings Preview: Date, Expectations & Key Watchpoints" - published prior to the May 5, 2026 report)
+- https://news.alphastreet.com/amd-amd-q1-2026-earnings-preview-data-center-momentum-faces-a-high-bar-after-59-ytd-rally/ (AlphaStreet, "AMD Q1 2026 Earnings Preview: Data Center Momentum Faces a High Bar After 59% YTD Rally" - published prior to the report)

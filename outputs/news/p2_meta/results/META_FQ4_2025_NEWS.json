@@ -1,0 +1,44 @@
+{
+  "document_id": "META_FQ4_2025_NEWS",
+  "base_document_id": "META_FQ4_2025",
+  "issuer": "p2_meta",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes a strong growth setup (revenue +21% YoY, EPS +9% YoY, AI-driven ad growth) but flags a key overhang: management's pre-earnings comment that 2026 capex 'will increase significantly in dollar terms,' which analysts see as the key risk. This creates a stretched bar where the strong growth is already priced in, and the capex concern raises the risk of a negative surprise even on decent results. The score is slightly negative because the digest explicitly highlights the capex overhang as a concern that could weigh on the stock, making expectations somewhat elevated and fragile."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162246Z",
+    "timestamp": "2026-07-20T16:22:56Z",
+    "status": "success",
+    "document_id": "META_FQ4_2025_NEWS",
+    "issuer": "p2_meta",
+    "company": "Meta",
+    "ticker": "META",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_meta\\META_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3477,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1275,
+    "total_tokens": 4752,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00229,
+    "latency_seconds": 10.18,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "AMKBY_FQ3_2025_NEWS",
+  "base_document_id": "AMKBY_FQ3_2025",
+  "issuer": "p2_maersk",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document is a pre-earnings digest, so the guidance-change framework does not apply. Instead, expectations heading into the print appear somewhat elevated: the Street consensus for full-year 2025 underlying EBITDA ($9.11bn) was already running above the low end of management's own guided range ($8bn), and the company had recently raised guidance in Q2 2025 on stronger-than-expected demand. This suggests a moderately stretched bar, reducing the room for a positive surprise, but the digest does not describe a 'priced for perfection' scenario or a stock that has already rallied hard. The score is mildly positive because the digest notes a recent positive-surprise pattern (guidance raised in Q2) and the consensus is above the low end of guidance, but the elevated bar tempers the upside."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162159Z",
+    "timestamp": "2026-07-20T16:22:09Z",
+    "status": "success",
+    "document_id": "AMKBY_FQ3_2025_NEWS",
+    "issuer": "p2_maersk",
+    "company": "Maersk",
+    "ticker": "AMKBY",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-06",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_maersk\\AMKBY_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3602,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1037,
+    "total_tokens": 4639,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002062,
+    "latency_seconds": 9.02,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

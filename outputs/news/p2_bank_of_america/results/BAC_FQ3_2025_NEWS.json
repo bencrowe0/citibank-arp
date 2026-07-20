@@ -1,0 +1,44 @@
+{
+  "document_id": "BAC_FQ3_2025_NEWS",
+  "base_document_id": "BAC_FQ3_2025",
+  "issuer": "p2_bank_of_america",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings market expectations digest that contains only consensus estimates (EPS $0.95, revenue $27.5B) and notes that both were later beaten. No information is provided about whether expectations were stretched or depressed heading into the print; the digest simply tracks standard consensus without any commentary on valuation, analyst estimate revisions, or market positioning. Therefore, the score is neutral (0.0) as there is no evidence of elevated or depressed expectations."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162617Z",
+    "timestamp": "2026-07-20T16:26:24Z",
+    "status": "success",
+    "document_id": "BAC_FQ3_2025_NEWS",
+    "issuer": "p2_bank_of_america",
+    "company": "Bank of America",
+    "ticker": "BAC",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_bank_of_america\\BAC_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3387,
+    "cache_hit_tokens": 256,
+    "output_tokens": 786,
+    "total_tokens": 4173,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001728,
+    "latency_seconds": 6.48,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

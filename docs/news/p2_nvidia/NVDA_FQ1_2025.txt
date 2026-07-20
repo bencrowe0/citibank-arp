@@ -1,0 +1,7 @@
+Nvidia (NVDA) - News coverage digest, FQ1 fiscal 2026 earnings (report date 2025-05-28)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the May 28, 2025 report, Visible Alpha consensus called for total revenue of $43.2-$43.31 billion, with Data Center revenue estimates in a wide range ($34.8-$42.1 billion) - a notably wide dispersion signaling real analyst uncertainty about the segment specifically. Adjusted EPS consensus was $0.93. Data Center gross-profit consensus had actually fallen $1.5 billion from the prior quarter's peak estimate ($29.2B to $27.7B) - a real negative revision heading in, even as overall revenue growth was still expected to be driven by strong cloud-provider GPU demand and continued data-center AI buildout.
+
+Sources:
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/2025/05/nvidia-earnings-preview-fiscal-q1-2026 (S&P Global Market Intelligence, "Nvidia earnings preview: Fiscal Q1 2026" - published prior to the May 28, 2025 report)

@@ -1,0 +1,7 @@
+Citigroup (C) - News coverage digest, FQ1 2025 earnings (report date 2025-04-15)
+Fetched via web search across free financial outlets (Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 15, 2025 report (after market close), the Zacks Consensus Estimate for EPS was $1.84 (+16.46% YoY), with revenue consensus of $23.71 billion (+9.8% YoY). Coverage pointed to net interest income and non-interest revenue growth, plus a rebound in investment-banking deal-making activity, as the key drivers behind the expected growth. Recent history was a modest positive signal: the prior quarter had beaten the Zacks Consensus Estimate by 7.20% ($1.34 actual vs. $1.25 expected).
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/citigroup-set-report-q1-earnings-150600466.html (Yahoo Finance/Zacks, "Citigroup Set to Report Q1 Earnings: How to Approach the Stock Now?" - published prior to the April 15, 2025 report)

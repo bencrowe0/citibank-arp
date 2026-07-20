@@ -1,0 +1,44 @@
+{
+  "document_id": "DIS_FQ3_2025_NEWS",
+  "base_document_id": "DIS_FQ3_2025",
+  "issuer": "p2_disney",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This is a pre-earnings digest, so no guidance is available. The document describes that expectations are already elevated heading into the print: the prior quarter was a beat-and-raise, and full-year guidance was raised to $5.85 adjusted EPS. This sets a high bar, increasing the risk of a negative surprise even if results are decent. The elevated expectations warrant a mildly bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162702Z",
+    "timestamp": "2026-07-20T16:27:11Z",
+    "status": "success",
+    "document_id": "DIS_FQ3_2025_NEWS",
+    "issuer": "p2_disney",
+    "company": "Disney",
+    "ticker": "DIS",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-13",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_disney\\DIS_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3465,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1036,
+    "total_tokens": 4501,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002024,
+    "latency_seconds": 8.22,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

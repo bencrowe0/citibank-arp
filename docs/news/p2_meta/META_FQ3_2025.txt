@@ -1,0 +1,8 @@
+Meta (META) - News coverage digest, FQ3 2025 earnings (report date 2025-10-29)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 29, 2025 report, analysts expected revenue of $49.4 billion (+21.6% YoY) and EPS of $6.74 (+11.8% YoY), with net income forecast at $17.0 billion (+8.5% YoY) and operating margin expected at 38.7% (down from 42.7% a year earlier - margin compression already priced into the consensus). Coverage centered on AI-monetization progress and ROI concerns around Meta's heavy AI/infrastructure capex - the dominant pre-earnings theme was whether ad-revenue growth could justify the spending pace, not whether the core ad business itself would grow.
+
+Sources:
+- https://www.ig.com/en/news-and-trade-ideas/Meta-Q32025-earnings-251022 (IG International, "Meta Q3 2025 earnings preview: AI monetisation and ROI concerns" - published prior to the October 29, 2025 report)
+- https://finance.yahoo.com/news/heres-expect-meta-platforms-next-124958338.html (Yahoo Finance, "Here's What to Expect From Meta Platforms' Next Earnings Report" - published prior to the report)

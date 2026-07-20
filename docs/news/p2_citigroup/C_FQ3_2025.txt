@@ -1,0 +1,7 @@
+Citigroup (C) - News coverage digest, FQ3 2025 earnings (report date 2025-10-14)
+Fetched via web search across free financial outlets/earnings-estimate aggregators. Window: pre-earnings consensus estimates only, no post-earnings narrative used.
+
+Heading into the October 14, 2025 report, the Street's consensus called for EPS of about $1.72 and revenue of about $21.18 billion. A clean pre-earnings-dated narrative preview for this specific quarter was not found among free outlets; the estimates above are drawn from the consensus figures tracked by earnings-estimate aggregators ahead of the print, consistent with the Zacks/Yahoo-style consensus format used for Citigroup's other phase2 quarters.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/citigroup-earnings-preview-expect-103458685.html (Yahoo Finance, "Citigroup Earnings Preview: What to Expect" - recurring earnings-preview format, consensus estimate snapshot ahead of the report)

@@ -1,0 +1,8 @@
+Eli Lilly (LLY) - News coverage digest, FQ1 2026 earnings (report date 2026-04-30)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 30, 2026 report, one preview modeled EPS of $5.88 on revenue of $15.23 billion; another source cited Wall Street modeling ~36.8% YoY revenue growth. Key pre-earnings focus areas: guidance on GLP-1 drug competition and pipeline progress in diabetes/oncology, margin performance amid heavy manufacturing investment, and possible tariff-related commentary. Analyst revisions had trended favorably in the prior 30 days (majority of revenue estimate changes were upward), but coverage also flagged that Lilly had missed revenue targets several times over the past two years - adding genuine uncertainty to the outcome despite the recent positive-revision trend.
+
+Sources:
+- https://moneycheck.com/eli-lilly-lly-stock-q1-2026-earnings-preview-and-what-investors-should-watch/ (MoneyCheck, "Eli Lilly (LLY) Stock: Q1 2026 Earnings Preview and What Investors Should Watch" - published prior to the April 30, 2026 report)
+- https://finance.biggo.com/news/zpmY2p0BpwxG186NYh07 (BigGo Finance, "Lilly Earnings Preview: Can Q1 Results Reverse a 1.5% Slide Against a Surging Pharma Sector?" - published prior to the report)

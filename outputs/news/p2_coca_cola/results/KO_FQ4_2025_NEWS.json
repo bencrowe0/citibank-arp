@@ -1,0 +1,44 @@
+{
+  "document_id": "KO_FQ4_2025_NEWS",
+  "base_document_id": "KO_FQ4_2025",
+  "issuer": "p2_coca_cola",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations rather than guidance changes. The document describes a 'strong beat streak' and estimates that have been 'reconfirmed (not revised)' over the prior 30 days, indicating a neutral-to-slightly-elevated bar. However, the revenue consensus growth of 4.8%-5.2% YoY is an improvement from the prior year's 4.2% growth, suggesting modestly positive momentum. The bar is not described as 'priced for perfection' or depressed, so a mildly positive score is warranted."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161825Z",
+    "timestamp": "2026-07-20T16:18:34Z",
+    "status": "success",
+    "document_id": "KO_FQ4_2025_NEWS",
+    "issuer": "p2_coca_cola",
+    "company": "Coca-Cola",
+    "ticker": "KO",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_coca_cola\\KO_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3579,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1275,
+    "total_tokens": 4854,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002318,
+    "latency_seconds": 9.13,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "SCHW_FQ4_2025_NEWS",
+  "base_document_id": "SCHW_FQ4_2025",
+  "issuer": "p2_charles_schwab",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This is a pre-earnings digest, so no guidance is available. The document describes elevated expectations: the consensus EPS estimate was revised upward 3.3% over the prior 30 days, and the consensus for net new client assets ($133.72 billion) is well above the prior-year quarter ($108.40 billion), setting a meaningfully higher bar. This stretched bar increases the risk of a negative surprise even on decent results, warranting a mildly bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161728Z",
+    "timestamp": "2026-07-20T16:17:37Z",
+    "status": "success",
+    "document_id": "SCHW_FQ4_2025_NEWS",
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-21",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_charles_schwab\\SCHW_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3574,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1093,
+    "total_tokens": 4667,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002116,
+    "latency_seconds": 8.49,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

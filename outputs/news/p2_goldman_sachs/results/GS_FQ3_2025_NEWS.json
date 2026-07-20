@@ -1,0 +1,44 @@
+{
+  "document_id": "GS_FQ3_2025_NEWS",
+  "base_document_id": "GS_FQ3_2025",
+  "issuer": "p2_goldman_sachs",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes analyst estimates that have been revised upward 2.9% over the prior 30 days, which raises the bar for a positive surprise and makes a beat harder to achieve. However, the digest also notes that this upward revision is 'a mild positive-momentum signal heading into the print,' suggesting expectations are not stretched to an extreme degree. Overall, the bar is moderately elevated but not 'priced for perfection,' so the score is mildly positive but capped at 0.20."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161956Z",
+    "timestamp": "2026-07-20T16:20:05Z",
+    "status": "success",
+    "document_id": "GS_FQ3_2025_NEWS",
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_goldman_sachs\\GS_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3548,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1024,
+    "total_tokens": 4572,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002033,
+    "latency_seconds": 8.09,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

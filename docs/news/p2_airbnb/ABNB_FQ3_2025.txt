@@ -1,0 +1,7 @@
+Airbnb (ABNB) - News coverage digest, FQ3 2025 earnings (report date 2025-11-06)
+Fetched via web search across free financial outlets (Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Airbnb was scheduled to report Q3 2025 results on Thursday, November 6. The Zacks Consensus Estimate for revenue was $4.08 billion, implying 9.5% year-over-year growth, with a consensus EPS estimate of $2.29. Airbnb's own guidance range for the quarter was $4.02-$4.10 billion (8-10% YoY), putting the Street estimate near the middle of management's own range - a setup with relatively low ambiguity between company guidance and analyst consensus, unlike prints where the two diverge meaningfully.
+
+Sources:
+- https://finance.yahoo.com/news/airbnb-set-report-q3-earnings-181600069.html (Zacks/Yahoo Finance, "Airbnb Set to Report Q3 Earnings: What's in the Cards for the Stock?" - published prior to the November 6, 2025 report)

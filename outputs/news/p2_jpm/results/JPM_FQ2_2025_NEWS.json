@@ -1,0 +1,44 @@
+{
+  "document_id": "JPM_FQ2_2025_NEWS",
+  "base_document_id": "JPM_FQ2_2025",
+  "issuer": "p2_jpm",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects that market expectations are somewhat elevated: EPS consensus was revised up 1.3% over the prior 30 days, indicating positive momentum and a higher bar heading into the print. However, the digest also notes a constructive setup with bullish analyst commentary on NII and wealth-management inflows as drivers of further upgrades, which suggests some room for positive surprise. The score is mildly positive because the bar has been raised but not to an extreme 'priced for perfection' level, and the analyst commentary is explicitly bullish on forward drivers."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162732Z",
+    "timestamp": "2026-07-20T16:27:42Z",
+    "status": "success",
+    "document_id": "JPM_FQ2_2025_NEWS",
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_jpm\\JPM_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3431,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1210,
+    "total_tokens": 4641,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002206,
+    "latency_seconds": 9.53,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

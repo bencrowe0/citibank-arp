@@ -1,0 +1,44 @@
+{
+  "document_id": "MCD_FQ4_2025_NEWS",
+  "base_document_id": "MCD_FQ4_2025",
+  "issuer": "p2_mcdonalds",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document is a pre-earnings digest, so no actual results or guidance are available. It describes a 'materially more optimistic setup' with analyst estimates for EPS and revenue both up YoY, and same-store sales growth projected at 3.9%. This suggests expectations are somewhat elevated but not described as 'priced for perfection' or stretched, so the bar is moderately high but not extreme. The score is mildly positive because the digest indicates a clean growth print is expected, but there is no mention of depressed expectations or a low bar that would warrant a higher positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162217Z",
+    "timestamp": "2026-07-20T16:22:24Z",
+    "status": "success",
+    "document_id": "MCD_FQ4_2025_NEWS",
+    "issuer": "p2_mcdonalds",
+    "company": "McDonald's",
+    "ticker": "MCD",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-11",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_mcdonalds\\MCD_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3553,
+    "cache_hit_tokens": 256,
+    "output_tokens": 897,
+    "total_tokens": 4450,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001895,
+    "latency_seconds": 6.99,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

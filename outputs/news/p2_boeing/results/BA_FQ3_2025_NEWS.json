@@ -1,0 +1,44 @@
+{
+  "document_id": "BA_FQ3_2025_NEWS",
+  "base_document_id": "BA_FQ3_2025",
+  "issuer": "p2_boeing",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so no guidance is available. The document describes 'genuinely unstable/widening pre-earnings estimates' and 'real analyst uncertainty about the size of the loss,' indicating depressed and uncertain expectations. This low bar raises the odds of a positive surprise, warranting a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162648Z",
+    "timestamp": "2026-07-20T16:26:56Z",
+    "status": "success",
+    "document_id": "BA_FQ3_2025_NEWS",
+    "issuer": "p2_boeing",
+    "company": "Boeing",
+    "ticker": "BA",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_boeing\\BA_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3421,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1050,
+    "total_tokens": 4471,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002027,
+    "latency_seconds": 7.88,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

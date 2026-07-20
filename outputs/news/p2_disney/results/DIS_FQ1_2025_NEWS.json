@@ -1,0 +1,44 @@
+{
+  "document_id": "DIS_FQ1_2025_NEWS",
+  "base_document_id": "DIS_FQ1_2025",
+  "issuer": "p2_disney",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations rather than guidance changes. The document notes that EPS consensus had been revised down 0.6% over the prior 30 days, which is a mild negative-revision signal, indicating a slightly lowered bar. However, the stock had beaten EPS estimates in each of its prior four quarterly reports, suggesting some positive momentum. Overall, expectations are mildly depressed but not severely so, leading to a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162656Z",
+    "timestamp": "2026-07-20T16:27:02Z",
+    "status": "success",
+    "document_id": "DIS_FQ1_2025_NEWS",
+    "issuer": "p2_disney",
+    "company": "Disney",
+    "ticker": "DIS",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-07",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_disney\\DIS_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3450,
+    "cache_hit_tokens": 256,
+    "output_tokens": 907,
+    "total_tokens": 4357,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001878,
+    "latency_seconds": 6.37,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,8 @@
+Charles Schwab (SCHW) - News coverage digest, FQ4 2025 earnings (report date 2026-01-21)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the January 21, 2026 pre-market report, analysts projected EPS of $1.36 (+34.7% YoY) on revenue of $6.3 billion (+18.3% YoY), with the consensus EPS estimate revised upward 3.3% over the prior 30 days. Net interest revenue was expected at $3.13 billion (+23.7% YoY) and asset management/administration fees at $1.70 billion. Consensus for net new client assets was $133.72 billion, well above the $108.40 billion reported in the year-ago quarter - a meaningfully higher bar for asset-gathering momentum than the prior comparable period.
+
+Sources:
+- https://finance.yahoo.com/news/charles-schwab-schw-q4-earnings-141505344.html (Yahoo Finance, "Charles Schwab (SCHW) Q4 Earnings Preview: What You Should Know Beyond the Headline Estimates" - published prior to the January 21, 2026 report)
+- https://www.barchart.com/story/news/36707484/charles-schwabs-q4-2025-earnings-what-to-expect (Barchart, "Charles Schwab's Q4 2025 Earnings: What to Expect" - published prior to the report)

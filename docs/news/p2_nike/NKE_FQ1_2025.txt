@@ -1,0 +1,7 @@
+Nike (NKE) - News coverage digest, FQ3 fiscal 2025 earnings (report date 2025-03-20)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the March 20, 2025 report (Nike's fiscal Q3), coverage indicated analysts expected Nike to hit already-lowered estimates and maintain a cautious sales/margin outlook for the following quarter. Analysts noted early positive signs in new product launches (running, Jordan) and improved marketing execution, but were modeling fiscal 2026 conservatively given anticipated reinvestment spend and macro/tariff uncertainty - a "meet reduced expectations, stay cautious on the outlook" setup rather than a clean beat-and-raise setup.
+
+Sources:
+- https://wwd.com/footwear-news/shoe-industry-news/nike-nke-q3-2025-earnings-preview-analyst-reactions-1237707495/ (WWD, "Nike NKE Q3 2025 Earnings Preview: Analyst Reactions" - published prior to the March 20, 2025 report)

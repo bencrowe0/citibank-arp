@@ -1,0 +1,8 @@
+Eli Lilly (LLY) - News coverage digest, FQ3 2025 earnings (report date 2025-10-30)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 30, 2025 report, analysts projected revenue growth of 40.4% YoY to $16.06 billion, with adjusted EPS expected at $5.92; estimates had generally remained unchanged over the prior 30 days, signaling a stable pre-earnings consensus. Coverage centered on continued volume growth from Mounjaro and Zepbound as the primary driver behind the expected quarter, consistent with Lilly's ongoing narrative as the market's proxy for the obesity/GLP-1 drug category.
+
+Sources:
+- https://www.fool.com/investing/2025/10/22/3-things-investors-need-to-know-ahead-of-eli-lilly/ (The Motley Fool, "3 Things Investors Need to Know Ahead of Eli Lilly's Q3 Earnings Report" - published October 22, 2025, prior to the report)
+- https://www.indexbox.io/blog/eli-lilly-q3-2025-earnings-announcement-date-analyst-forecast/ (IndexBox, "Eli Lilly Q3 2025 Earnings Preview: Revenue, EPS Estimates & Stock Price" - published prior to the report)

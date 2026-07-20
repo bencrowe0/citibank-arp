@@ -1,0 +1,7 @@
+Charles Schwab (SCHW) - News coverage digest, FQ1 2025 earnings (report date 2025-04-17)
+Fetched via web search across free financial outlets (Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 17, 2025 pre-market report, the Zacks Consensus Estimate for EPS was $1.00 per share, versus $0.74 a year earlier. Coverage centered on solid trading activity and growth in net interest revenue (NIR) as the two drivers expected to power the quarter, consistent with Schwab's ongoing NIR recovery narrative through 2025.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/solid-trading-activity-growth-nir-131400358.html (Yahoo Finance, "Solid Trading Activity, Growth in NIR to Drive Schwab's Q1 Earnings" - published prior to the April 17, 2025 report)

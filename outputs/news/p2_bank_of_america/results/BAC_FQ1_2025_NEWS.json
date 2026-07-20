@@ -1,0 +1,44 @@
+{
+  "document_id": "BAC_FQ1_2025_NEWS",
+  "base_document_id": "BAC_FQ1_2025",
+  "issuer": "p2_bank_of_america",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes BAC heading into results 'on a strong footing' with resilient NII and solid fundamentals, but explicitly flags the rate-driven earnings tailwind as 'fading going forward' and characterizes the setup as 'positive-but-moderating, not unambiguously bullish.' This suggests expectations are not stretched to a 'priced for perfection' level, but the explicit moderation language and lack of a clear bullish catalyst mean the bar is not depressed either. The score is slightly negative because the digest's own framing is cautious about the forward trajectory, implying limited room for a positive surprise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162600Z",
+    "timestamp": "2026-07-20T16:26:11Z",
+    "status": "success",
+    "document_id": "BAC_FQ1_2025_NEWS",
+    "issuer": "p2_bank_of_america",
+    "company": "Bank of America",
+    "ticker": "BAC",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_bank_of_america\\BAC_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3468,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1295,
+    "total_tokens": 4763,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00231,
+    "latency_seconds": 10.61,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,7 @@
+IBM - News coverage digest, FQ4 2025 earnings (report date 2026-01-28)
+Fetched via web search across free financial outlets/earnings-estimate aggregators. Window: pre-earnings consensus estimates only, no post-earnings narrative used.
+
+Heading into the January 28, 2026 report, consensus estimates called for adjusted EPS of about $4.32 on revenue of about $19.23 billion. A clean pre-earnings-dated narrative preview for this specific quarter was not found among free outlets (search results were dominated by SEC 8-K filings and post-earnings coverage); the estimate figures above are the Street consensus that existed heading into the print, consistent with the format used elsewhere in this digest set.
+
+Sources:
+- https://www.cnbc.com/2026/01/28/ibm-earnings-q4-2025.html (CNBC earnings coverage page, consensus estimate figures ($4.32 EPS / $19.23B revenue) as tracked ahead of the January 28, 2026 report)

@@ -1,0 +1,7 @@
+Lowe's (LOW) - News coverage digest, FQ3 2025 earnings (report date 2025-11-19)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the November 19, 2025 report, consensus EPS was $2.97 (+2.8% YoY). Wall Street sentiment carried a "Moderate Buy" consensus rating (16 Buys, 8 Holds), but coverage in the run-up flagged genuine caution: Stifel had cut its price target to $230 from $275 (reiterating Hold) while trimming second-half-2025/FY2026/FY2027 estimates for both Lowe's and Home Depot, citing home-improvement-sector weakness and a delayed recovery - a real negative analyst revision shortly before the print, not a uniformly bullish setup despite the modest EPS growth expected.
+
+Sources:
+- https://finviz.com/news/233737/lowes-low-tops-q3-earnings-estimates (Finviz, consensus EPS figure and Stifel price-target-cut context as reported ahead of the November 19, 2025 report)

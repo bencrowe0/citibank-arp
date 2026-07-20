@@ -1,0 +1,44 @@
+{
+  "document_id": "SCHW_FQ3_2025_NEWS",
+  "base_document_id": "SCHW_FQ3_2025",
+  "issuer": "p2_charles_schwab",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects how stretched market expectations are heading into the print. The document notes a strong recent beat streak (four consecutive EPS beats) and a consensus EPS estimate up 62.3% YoY, with 17 of 22 analysts rating the stock Buy and an average price target implying ~16.5% upside. This elevated bar and bullish analyst consensus suggest limited room for a positive surprise, raising the risk of a 'beat but sell off' reaction. The score is set at -0.15, just below the HOLD band, reflecting a mildly bearish setup due to high expectations."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T161718Z",
+    "timestamp": "2026-07-20T16:17:28Z",
+    "status": "success",
+    "document_id": "SCHW_FQ3_2025_NEWS",
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-16",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_charles_schwab\\SCHW_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3528,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1223,
+    "total_tokens": 4751,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002247,
+    "latency_seconds": 9.53,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

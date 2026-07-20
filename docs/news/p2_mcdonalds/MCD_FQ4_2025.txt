@@ -1,0 +1,8 @@
+McDonald's (MCD) - News coverage digest, FQ4 2025 earnings (report date 2026-02-11)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 11, 2026 report, analysts expected EPS of $3.05 (up from $2.83 YoY) and revenue of $6.83 billion (up from $6.39 billion YoY), with same-store sales growth projected at 3.9% per StreetAccount. This was a materially more optimistic setup than the year-ago quarter's negative-revision cycle - a clean growth print was expected, driven by continued marketing/value-offer momentum in the US.
+
+Sources:
+- https://www.indmoney.com/blog/us-stocks/mcdonalds-mcd-stock-q4-earnings-preview (INDmoney, "McDonald's (MCD) Q4 Earnings Preview and Stock Outlook 2026" - published prior to the February 11, 2026 report)
+- https://finviz.com/news/306254/mcdonalds-q4-earnings-preview-with-stock-near-all-time-highs-heres-what-prediction-markets-think-the-company-will-say (Finviz, "McDonald's Q4 Earnings Preview: With Stock Near All-Time Highs, Here's What Prediction Markets Think The Company Will Say" - published prior to the report)

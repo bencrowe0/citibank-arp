@@ -1,0 +1,8 @@
+Tesla (TSLA) - News coverage digest, FQ1 2026 earnings (report date 2026-04-22)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 22, 2026 report, Tesla's own compilation of 20 sell-side analysts showed non-GAAP EPS consensus of $0.33 on revenue of ~$21.4 billion, while third-party aggregators (Bloomberg/Refinitiv) ranged $0.37-$0.40 EPS on $22-23 billion revenue - genuinely dispersed estimates. Wall Street expected the first YoY growth in several quarters (13% revenue, 33% EPS), but coverage flagged real headwinds: deliveries had missed expectations, Tesla had built 50,000 more cars than it sold (inventory overhang), and energy storage deployment had dropped 38% sequentially. Analyst ratings were split (13 Buy, 11 Hold, 6 Sell out of 30), and shares were down 14% YTD heading into the print on capex concerns - a genuinely mixed, not uniformly bullish, setup despite the expected return to YoY growth.
+
+Sources:
+- https://electrek.co/2026/04/21/tesla-tsla-q1-2026-earnings-preview-wall-street-expects-growth/ (Electrek, "Tesla (TSLA) Q1 2026 earnings preview: the growth story is dead" - published April 21, 2026, prior to the report)
+- https://www.tradingkey.com/analysis/stocks/us-stocks/261804129-tesla-q1-2026-earnings-preview-5-key-metrics-tradingkey (TradingKey, "Tesla Q1 2026 Earnings Preview: 50,000-Unit Inventory Overhang" - published prior to the report)

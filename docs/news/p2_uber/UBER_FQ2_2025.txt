@@ -1,0 +1,7 @@
+Uber - News coverage digest, FQ2 2025 earnings (report date 2025-08-06)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the August 6, 2025 report, analysts expected adjusted EPS of $0.84 (+33.3% YoY), within Uber's own guided range of $0.78-$0.82 - a case where Street consensus sat slightly above management's own guidance midpoint. Gross bookings were guided at $56.25-$57.75 billion. Analyst sentiment was strongly bullish (36 of 50 analysts Strong Buy, 4 Moderate Buy, 9 Hold, 1 Strong Sell), average price target $105.81 implying ~43% upside. Coverage noted Uber had beaten Wall Street's bottom-line estimate in three of the prior four quarters.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-uber-technologies-115301624.html (Yahoo Finance, "Earnings Preview: What To Expect From Uber Technologies' Report" - published prior to the August 6, 2025 report)

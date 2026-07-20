@@ -1,0 +1,44 @@
+{
+  "document_id": "TGT_FQ3_2025_NEWS",
+  "base_document_id": "TGT_FQ3_2025",
+  "issuer": "p2_target",
+  "sentiment": {
+    "score": -0.23,
+    "rationale": "The document is a pre-earnings digest describing depressed expectations: consensus EPS is expected to decline 4.3% YoY, and the Earnings ESP is negative (-5.23%), indicating analysts closest to the company have turned more bearish than broad consensus. This lowered bar and explicitly deteriorating sentiment signal a mildly bearish setup heading into the print."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162908Z",
+    "timestamp": "2026-07-20T16:29:16Z",
+    "status": "success",
+    "document_id": "TGT_FQ3_2025_NEWS",
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-19",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_target\\TGT_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3421,
+    "cache_hit_tokens": 256,
+    "output_tokens": 979,
+    "total_tokens": 4400,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001949,
+    "latency_seconds": 8.15,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.23,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

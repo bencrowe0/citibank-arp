@@ -1,0 +1,8 @@
+Amazon (AMZN) - News coverage digest, FQ3 2025 earnings (report date 2025-10-30)
+Fetched via web search across free financial outlets (Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 30, 2025 report, Wall Street expected Q3 EPS of $1.57 (up 9.8% YoY) on revenue of $177.88 billion (up 12% YoY). Segment consensus: AWS net sales $32.33 billion (+17.8% YoY), advertising services $17.27 billion (+20.5% YoY), online stores $66.52 billion (+8.3% YoY). AWS growth reacceleration and advertising strength were the two segments analysts were most focused on relative to the prior several quarters' trajectory.
+
+Sources:
+- https://finance.yahoo.com/news/gear-amazon-amzn-q3-earnings-131507288.html (Zacks/Yahoo Finance, "Gear Up for Amazon (AMZN) Q3 Earnings: Wall Street Estimates for Key Metrics" - published prior to the October 30, 2025 report)
+- https://finance.yahoo.com/news/amazon-coms-q3-2025-earnings-131503405.html (Yahoo Finance, "Amazon.com's Q3 2025 Earnings: What to Expect" - published prior to the report)

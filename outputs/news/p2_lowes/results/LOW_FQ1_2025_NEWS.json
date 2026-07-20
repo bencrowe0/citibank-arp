@@ -1,0 +1,44 @@
+{
+  "document_id": "LOW_FQ1_2025_NEWS",
+  "base_document_id": "LOW_FQ1_2025",
+  "issuer": "p2_lowes",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The digest describes a pre-earnings setup where consensus estimates model a YoY decline in both EPS and revenue, and Lowe's own outlook calls the market roughly flat with some spring demand shifting from Q1 to Q2. This indicates depressed expectations and a lowered bar, which raises the odds of a positive surprise even on modest results. The score is mildly positive because the bar is low, but not strongly so as there is no explicit commentary on stretched valuation or beaten-down stock price."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162047Z",
+    "timestamp": "2026-07-20T16:20:56Z",
+    "status": "success",
+    "document_id": "LOW_FQ1_2025_NEWS",
+    "issuer": "p2_lowes",
+    "company": "Lowe's",
+    "ticker": "LOW",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-21",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lowes\\LOW_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3581,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1302,
+    "total_tokens": 4883,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002348,
+    "latency_seconds": 9.1,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}
