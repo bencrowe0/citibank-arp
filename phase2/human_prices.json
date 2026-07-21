@@ -1,14 +1,544 @@
 {
-  "NFLX_2026_Q1": [
-    {
-      "rater": "Anna",
-      "prior_close": 107.79,
-      "next_day_open": 96.37
-    },
+  "AAPL_2025_Q3": [
     {
       "rater": "Meriem",
-      "prior_close": 107.79,
-      "next_day_open": 96.37
+      "prior_close": 207.57,
+      "next_day_open": 210.87
+    }
+  ],
+  "AAPL_2025_Q4": [
+    {
+      "rater": "Meriem",
+      "prior_close": 271.4,
+      "next_day_open": 276.99
+    }
+  ],
+  "AAPL_2026_Q1": [
+    {
+      "rater": "Meriem",
+      "prior_close": 258.28,
+      "next_day_open": 255.17
+    }
+  ],
+  "ABNB_2025_Q2": [
+    {
+      "rater": "Anna",
+      "prior_close": 111.42,
+      "next_day_open": 104.4
+    }
+  ],
+  "ABNB_2025_Q3": [
+    {
+      "rater": "Anna",
+      "prior_close": 104.48,
+      "next_day_open": 109.5
+    }
+  ],
+  "ABNB_2025_Q4": [
+    {
+      "rater": "Anna",
+      "prior_close": 115.96,
+      "next_day_open": 126.46
+    }
+  ],
+  "ABNB_2026_Q1": [
+    {
+      "rater": "Anna",
+      "prior_close": 140.46,
+      "next_day_open": 138.13
+    }
+  ],
+  "AMD_2025_Q2": [
+    {
+      "rater": "David",
+      "prior_close": 174.31,
+      "next_day_open": 165.05
+    }
+  ],
+  "AMD_2025_Q4": [
+    {
+      "rater": "David",
+      "prior_close": 242.11,
+      "next_day_open": 215.0
+    }
+  ],
+  "AMD_2026_Q1": [
+    {
+      "rater": "David",
+      "prior_close": 355.26,
+      "next_day_open": 409.49
+    }
+  ],
+  "AMKBY_2025_Q1": [
+    {
+      "rater": "Nigel",
+      "prior_close": 8.33,
+      "next_day_open": 8.72
+    }
+  ],
+  "AMKBY_2025_Q2": [
+    {
+      "rater": "Nigel",
+      "prior_close": 9.92,
+      "next_day_open": 10.91
+    }
+  ],
+  "AMKBY_2025_Q3": [
+    {
+      "rater": "Nigel",
+      "prior_close": 10.38,
+      "next_day_open": 9.8
+    }
+  ],
+  "AMKBY_2025_Q4": [
+    {
+      "rater": "Nigel",
+      "prior_close": 12.24,
+      "next_day_open": 11.89
+    }
+  ],
+  "AMZN_2025_Q3": [
+    {
+      "rater": "David",
+      "prior_close": 222.86,
+      "next_day_open": 250.1
+    }
+  ],
+  "AMZN_2025_Q4": [
+    {
+      "rater": "David",
+      "prior_close": 242.11,
+      "next_day_open": 215.0
+    }
+  ],
+  "AMZN_2026_Q1": [
+    {
+      "rater": "David",
+      "prior_close": 263.04,
+      "next_day_open": 273.17
+    }
+  ],
+  "BAC_2025_Q1": [
+    {
+      "rater": "Abdul",
+      "prior_close": 36.67,
+      "next_day_open": 37.99
+    }
+  ],
+  "BAC_2025_Q2": [
+    {
+      "rater": "Abdul",
+      "prior_close": 46.15,
+      "next_day_open": 46.25
+    }
+  ],
+  "BAC_2025_Q3": [
+    {
+      "rater": "Abdul",
+      "prior_close": 50.09,
+      "next_day_open": 51.57
+    }
+  ],
+  "BAC_2025_Q4": [
+    {
+      "rater": "Abdul",
+      "prior_close": 54.54,
+      "next_day_open": 52.88
+    }
+  ],
+  "BA_2025_Q1": [
+    {
+      "rater": "Nigel",
+      "prior_close": 162.52,
+      "next_day_open": 172.37
+    }
+  ],
+  "BA_2025_Q2": [
+    {
+      "rater": "Nigel",
+      "prior_close": 236.41,
+      "next_day_open": 226.08
+    }
+  ],
+  "BA_2025_Q3": [
+    {
+      "rater": "Nigel",
+      "prior_close": 223.33,
+      "next_day_open": 213.58
+    }
+  ],
+  "BA_2025_Q4": [
+    {
+      "rater": "Nigel",
+      "prior_close": 248.43,
+      "next_day_open": 242.5
+    }
+  ],
+  "BCS_2025_Q2": [
+    {
+      "rater": "Abdul",
+      "prior_close": 361.2,
+      "next_day_open": 359.6
+    }
+  ],
+  "BCS_2025_Q3": [
+    {
+      "rater": "Abdul",
+      "prior_close": 395.7,
+      "next_day_open": 398.0
+    }
+  ],
+  "BCS_2026_Q1": [
+    {
+      "rater": "Abdul",
+      "prior_close": 427.4,
+      "next_day_open": 418.0
+    }
+  ],
+  "COIN_2025_Q3": [
+    {
+      "rater": "David",
+      "prior_close": 328.51,
+      "next_day_open": 336.0
+    }
+  ],
+  "COIN_2025_Q4": [
+    {
+      "rater": "David",
+      "prior_close": 141.09,
+      "next_day_open": 153.7
+    }
+  ],
+  "COIN_2026_Q1": [
+    {
+      "rater": "David",
+      "prior_close": 192.96,
+      "next_day_open": 186.05
+    }
+  ],
+  "C_2025_Q1": [
+    {
+      "rater": "Nigel",
+      "prior_close": 61.33,
+      "next_day_open": 64.19
+    }
+  ],
+  "C_2025_Q2": [
+    {
+      "rater": "Nigel",
+      "prior_close": 85.56,
+      "next_day_open": 88.65
+    }
+  ],
+  "C_2025_Q3": [
+    {
+      "rater": "Nigel",
+      "prior_close": 94.59,
+      "next_day_open": 95.37
+    }
+  ],
+  "C_2025_Q4": [
+    {
+      "rater": "Nigel",
+      "prior_close": 115.15,
+      "next_day_open": 117.91
+    }
+  ],
+  "DIS_2025_Q1": [
+    {
+      "rater": "Meriem",
+      "prior_close": 110.54,
+      "next_day_open": 115.7
+    }
+  ],
+  "DIS_2025_Q3": [
+    {
+      "rater": "Meriem",
+      "prior_close": 118.32,
+      "next_day_open": 115.78
+    }
+  ],
+  "DIS_2025_Q4": [
+    {
+      "rater": "Meriem",
+      "prior_close": 116.65,
+      "next_day_open": 108.89
+    }
+  ],
+  "F_2025_Q2": [
+    {
+      "rater": "Abdul",
+      "prior_close": 10.87,
+      "next_day_open": 10.77
+    }
+  ],
+  "F_2025_Q4": [
+    {
+      "rater": "Abdul",
+      "prior_close": 13.57,
+      "next_day_open": 13.62
+    }
+  ],
+  "F_2026_Q1": [
+    {
+      "rater": "Abdul",
+      "prior_close": 12.24,
+      "next_day_open": 11.55
+    }
+  ],
+  "GS_2025_Q1": [
+    {
+      "rater": "Dragos",
+      "prior_close": 494.44,
+      "next_day_open": 510.0
+    }
+  ],
+  "GS_2025_Q2": [
+    {
+      "rater": "Dragos",
+      "prior_close": 702.51,
+      "next_day_open": 708.5
+    }
+  ],
+  "GS_2025_Q3": [
+    {
+      "rater": "Dragos",
+      "prior_close": 786.78,
+      "next_day_open": 764.45
+    }
+  ],
+  "GS_2025_Q4": [
+    {
+      "rater": "Dragos",
+      "prior_close": 932.67,
+      "next_day_open": 924.9
+    }
+  ],
+  "GS_2026_Q1": [
+    {
+      "rater": "Dragos",
+      "prior_close": 907.8,
+      "next_day_open": 875.55
+    }
+  ],
+  "GS_2026_Q2": [
+    {
+      "rater": "Dragos",
+      "prior_close": 1045.91,
+      "next_day_open": 1085.0
+    }
+  ],
+  "IBM_2025_Q2": [
+    {
+      "rater": "Meriem",
+      "prior_close": 282.01,
+      "next_day_open": 261.25
+    }
+  ],
+  "IBM_2025_Q4": [
+    {
+      "rater": "Meriem",
+      "prior_close": 294.16,
+      "next_day_open": 317.86
+    }
+  ],
+  "IBM_2026_Q1": [
+    {
+      "rater": "Meriem",
+      "prior_close": 251.86,
+      "next_day_open": 232.27
+    }
+  ],
+  "JPM_2025_Q1": [
+    {
+      "rater": "Nigel",
+      "prior_close": 222.78,
+      "next_day_open": 226.31
+    },
+    {
+      "rater": "Abdul",
+      "prior_close": 227.11,
+      "next_day_open": 226.31
+    }
+  ],
+  "JPM_2025_Q2": [
+    {
+      "rater": "Nigel",
+      "prior_close": 284.56,
+      "next_day_open": 288.0
+    }
+  ],
+  "JPM_2025_Q3": [
+    {
+      "rater": "Nigel",
+      "prior_close": 305.03,
+      "next_day_open": 305.84
+    },
+    {
+      "rater": "Abdul",
+      "prior_close": 307.97,
+      "next_day_open": 302.08
+    }
+  ],
+  "JPM_2025_Q4": [
+    {
+      "rater": "Nigel",
+      "prior_close": 309.32,
+      "next_day_open": 308.2
+    }
+  ],
+  "JPM_2026_Q1": [
+    {
+      "rater": "Abdul",
+      "prior_close": 313.68,
+      "next_day_open": 311.12
+    }
+  ],
+  "KO_2025_Q2": [
+    {
+      "rater": "Meriem",
+      "prior_close": 69.66,
+      "next_day_open": 69.66
+    }
+  ],
+  "KO_2025_Q4": [
+    {
+      "rater": "Meriem",
+      "prior_close": 76.81,
+      "next_day_open": 76.88
+    }
+  ],
+  "KO_2026_Q1": [
+    {
+      "rater": "Meriem",
+      "prior_close": 78.35,
+      "next_day_open": 78.37
+    }
+  ],
+  "LLY_2025_Q3": [
+    {
+      "rater": "David",
+      "prior_close": 813.53,
+      "next_day_open": 837.5
+    }
+  ],
+  "LLY_2025_Q4": [
+    {
+      "rater": "David",
+      "prior_close": 1003.46,
+      "next_day_open": 1075.12
+    }
+  ],
+  "LLY_2026_Q1": [
+    {
+      "rater": "David",
+      "prior_close": 851.21,
+      "next_day_open": 898.78
+    }
+  ],
+  "LOW_2025_Q1": [
+    {
+      "rater": "Anna",
+      "prior_close": 217.41,
+      "next_day_open": 217.22
+    }
+  ],
+  "LULU_2025_Q3": [
+    {
+      "rater": "Meriem",
+      "prior_close": 187.01,
+      "next_day_open": 204.58
+    }
+  ],
+  "LULU_2025_Q4": [
+    {
+      "rater": "Meriem",
+      "prior_close": 159.27,
+      "next_day_open": 158.04
+    }
+  ],
+  "LULU_2026_Q1": [
+    {
+      "rater": "Meriem",
+      "prior_close": 124.92,
+      "next_day_open": 110.43
+    }
+  ],
+  "MCD_2024_Q4": [
+    {
+      "rater": "Meriem",
+      "prior_close": 222.69,
+      "next_day_open": 202.7
+    }
+  ],
+  "MCD_2025_Q4": [
+    {
+      "rater": "Meriem",
+      "prior_close": 323.21,
+      "next_day_open": 329.83
+    }
+  ],
+  "MCD_2026_Q1": [
+    {
+      "rater": "Meriem",
+      "prior_close": 283.7,
+      "next_day_open": 285.0
+    }
+  ],
+  "META_2025_Q3": [
+    {
+      "rater": "David",
+      "prior_close": 751.67,
+      "next_day_open": 669.15
+    }
+  ],
+  "META_2025_Q4": [
+    {
+      "rater": "David",
+      "prior_close": 668.73,
+      "next_day_open": 737.43
+    }
+  ],
+  "META_2026_Q1": [
+    {
+      "rater": "David",
+      "prior_close": 669.12,
+      "next_day_open": 619.32
+    }
+  ],
+  "MSFT_2025_Q1": [
+    {
+      "rater": "Abdul",
+      "prior_close": 432.53,
+      "next_day_open": 415.36
+    }
+  ],
+  "MSFT_2025_Q2": [
+    {
+      "rater": "Abdul",
+      "prior_close": 442.33,
+      "next_day_open": 418.77
+    }
+  ],
+  "MSFT_2026_Q1": [
+    {
+      "rater": "Abdul",
+      "prior_close": 541.55,
+      "next_day_open": 530.48
+    }
+  ],
+  "NFLX_2024_Q4": [
+    {
+      "rater": "David",
+      "prior_close": 86.97,
+      "next_day_open": 99.8
+    }
+  ],
+  "NFLX_2025_Q1": [
+    {
+      "rater": "Dragos",
+      "prior_close": 97.3,
+      "next_day_open": 98.44
     }
   ],
   "NFLX_2025_Q2": [
@@ -72,336 +602,16 @@
       "next_day_open": 82.52
     }
   ],
-  "NFLX_2025_Q1": [
-    {
-      "rater": "Dragos",
-      "prior_close": 97.3,
-      "next_day_open": 98.44
-    }
-  ],
-  "NVDA_2025_Q1": [
-    {
-      "rater": "Dragos",
-      "prior_close": 131.28,
-      "next_day_open": 135
-    }
-  ],
-  "NVDA_2025_Q2": [
-    {
-      "rater": "Dragos",
-      "prior_close": 134.81,
-      "next_day_open": 142.25
-    }
-  ],
-  "NVDA_2025_Q3": [
-    {
-      "rater": "Dragos",
-      "prior_close": 181.6,
-      "next_day_open": 180.82
-    }
-  ],
-  "NVDA_2025_Q4": [
-    {
-      "rater": "Dragos",
-      "prior_close": 186.52,
-      "next_day_open": 195.95
-    }
-  ],
-  "BA_2025_Q1": [
-    {
-      "rater": "Nigel",
-      "prior_close": 162.52,
-      "next_day_open": 172.37
-    }
-  ],
-  "BA_2025_Q2": [
-    {
-      "rater": "Nigel",
-      "prior_close": 236.41,
-      "next_day_open": 226.08
-    }
-  ],
-  "BA_2025_Q3": [
-    {
-      "rater": "Nigel",
-      "prior_close": 223.33,
-      "next_day_open": 213.58
-    }
-  ],
-  "BA_2025_Q4": [
-    {
-      "rater": "Nigel",
-      "prior_close": 248.43,
-      "next_day_open": 242.5
-    }
-  ],
-  "DIS_2025_Q1": [
-    {
-      "rater": "Meriem",
-      "prior_close": 110.54,
-      "next_day_open": 115.7
-    }
-  ],
-  "DIS_2025_Q3": [
-    {
-      "rater": "Meriem",
-      "prior_close": 118.32,
-      "next_day_open": 115.78
-    }
-  ],
-  "DIS_2025_Q4": [
-    {
-      "rater": "Meriem",
-      "prior_close": 116.65,
-      "next_day_open": 108.89
-    }
-  ],
-  "NFLX_2024_Q4": [
-    {
-      "rater": "David",
-      "prior_close": 86.97,
-      "next_day_open": 99.8
-    }
-  ],
-  "AMZN_2026_Q1": [
-    {
-      "rater": "David",
-      "prior_close": 263.04,
-      "next_day_open": 273.17
-    }
-  ],
-  "AMZN_2025_Q3": [
-    {
-      "rater": "David",
-      "prior_close": 222.86,
-      "next_day_open": 250.1
-    }
-  ],
-  "AMZN_2025_Q4": [
-    {
-      "rater": "David",
-      "prior_close": 242.11,
-      "next_day_open": 215
-    }
-  ],
-  "MCD_2024_Q4": [
-    {
-      "rater": "Meriem",
-      "prior_close": 222.69,
-      "next_day_open": 202.7
-    }
-  ],
-  "MCD_2025_Q4": [
-    {
-      "rater": "Meriem",
-      "prior_close": 323.21,
-      "next_day_open": 329.83
-    }
-  ],
-  "MCD_2026_Q1": [
-    {
-      "rater": "Meriem",
-      "prior_close": 283.7,
-      "next_day_open": 285
-    }
-  ],
-  "AAPL_2025_Q3": [
-    {
-      "rater": "Meriem",
-      "prior_close": 207.57,
-      "next_day_open": 210.87
-    }
-  ],
-  "AAPL_2025_Q4": [
-    {
-      "rater": "Meriem",
-      "prior_close": 271.4,
-      "next_day_open": 276.99
-    }
-  ],
-  "AAPL_2026_Q1": [
-    {
-      "rater": "Meriem",
-      "prior_close": 258.28,
-      "next_day_open": 255.17
-    }
-  ],
-  "KO_2025_Q2": [
-    {
-      "rater": "Meriem",
-      "prior_close": 69.66,
-      "next_day_open": 69.66
-    }
-  ],
-  "KO_2025_Q4": [
-    {
-      "rater": "Meriem",
-      "prior_close": 76.81,
-      "next_day_open": 76.88
-    }
-  ],
-  "KO_2026_Q1": [
-    {
-      "rater": "Meriem",
-      "prior_close": 78.35,
-      "next_day_open": 78.37
-    }
-  ],
-  "BAC_2025_Q1": [
-    {
-      "rater": "Abdul",
-      "prior_close": 36.67,
-      "next_day_open": 37.99
-    }
-  ],
-  "BAC_2025_Q2": [
-    {
-      "rater": "Abdul",
-      "prior_close": 46.15,
-      "next_day_open": 46.25
-    }
-  ],
-  "BAC_2025_Q3": [
-    {
-      "rater": "Abdul",
-      "prior_close": 50.09,
-      "next_day_open": 51.57
-    }
-  ],
-  "BAC_2025_Q4": [
-    {
-      "rater": "Abdul",
-      "prior_close": 54.54,
-      "next_day_open": 52.88
-    }
-  ],
-  "AMD_2026_Q1": [
-    {
-      "rater": "David",
-      "prior_close": 355.26,
-      "next_day_open": 409.49
-    }
-  ],
-  "AMD_2025_Q2": [
-    {
-      "rater": "David",
-      "prior_close": 174.31,
-      "next_day_open": 165.05
-    }
-  ],
-  "AMD_2025_Q4": [
-    {
-      "rater": "David",
-      "prior_close": 242.11,
-      "next_day_open": 215
-    }
-  ],
-  "ABNB_2025_Q2": [
+  "NFLX_2026_Q1": [
     {
       "rater": "Anna",
-      "prior_close": 111.42,
-      "next_day_open": 104.4
-    }
-  ],
-  "ABNB_2025_Q3": [
-    {
-      "rater": "Anna",
-      "prior_close": 104.48,
-      "next_day_open": 109.5
-    }
-  ],
-  "JPM_2025_Q1": [
-    {
-      "rater": "Nigel",
-      "prior_close": 222.78,
-      "next_day_open": 226.31
+      "prior_close": 107.79,
+      "next_day_open": 96.37
     },
     {
-      "rater": "Abdul",
-      "prior_close": 227.11,
-      "next_day_open": 226.31
-    }
-  ],
-  "JPM_2025_Q2": [
-    {
-      "rater": "Nigel",
-      "prior_close": 284.56,
-      "next_day_open": 288
-    }
-  ],
-  "JPM_2025_Q3": [
-    {
-      "rater": "Nigel",
-      "prior_close": 305.03,
-      "next_day_open": 305.84
-    },
-    {
-      "rater": "Abdul",
-      "prior_close": 307.97,
-      "next_day_open": 302.08
-    }
-  ],
-  "JPM_2025_Q4": [
-    {
-      "rater": "Nigel",
-      "prior_close": 309.32,
-      "next_day_open": 308.2
-    }
-  ],
-  "JPM_2026_Q1": [
-    {
-      "rater": "Abdul",
-      "prior_close": 313.68,
-      "next_day_open": 311.12
-    }
-  ],
-  "IBM_2025_Q2": [
-    {
       "rater": "Meriem",
-      "prior_close": 282.01,
-      "next_day_open": 261.25
-    }
-  ],
-  "IBM_2025_Q4": [
-    {
-      "rater": "Meriem",
-      "prior_close": 294.16,
-      "next_day_open": 317.86
-    }
-  ],
-  "IBM_2026_Q1": [
-    {
-      "rater": "Meriem",
-      "prior_close": 251.86,
-      "next_day_open": 232.27
-    }
-  ],
-  "TGT_2025_Q2": [
-    {
-      "rater": "Anna",
-      "prior_close": 98.69,
-      "next_day_open": 98.49
-    }
-  ],
-  "TGT_2025_Q1": [
-    {
-      "rater": "Anna",
-      "prior_close": 93.01,
-      "next_day_open": 92.17
-    }
-  ],
-  "TGT_2025_Q3": [
-    {
-      "rater": "Anna",
-      "prior_close": 86.08,
-      "next_day_open": 86.16
-    }
-  ],
-  "TGT_2026_Q1": [
-    {
-      "rater": "Anna",
-      "prior_close": 122.33,
-      "next_day_open": 120.83
+      "prior_close": 107.79,
+      "next_day_open": 96.37
     }
   ],
   "NKE_2025_Q1": [
@@ -425,144 +635,60 @@
       "next_day_open": 66.59
     }
   ],
-  "LULU_2025_Q3": [
+  "NVDA_2025_Q1": [
     {
-      "rater": "Meriem",
-      "prior_close": 187.01,
-      "next_day_open": 204.58
+      "rater": "Dragos",
+      "prior_close": 131.28,
+      "next_day_open": 135.0
     }
   ],
-  "LULU_2025_Q4": [
+  "NVDA_2025_Q2": [
     {
-      "rater": "Meriem",
-      "prior_close": 159.27,
-      "next_day_open": 158.04
+      "rater": "Dragos",
+      "prior_close": 134.81,
+      "next_day_open": 142.25
     }
   ],
-  "LULU_2026_Q1": [
+  "NVDA_2025_Q3": [
     {
-      "rater": "Meriem",
-      "prior_close": 124.92,
-      "next_day_open": 110.43
+      "rater": "Dragos",
+      "prior_close": 181.6,
+      "next_day_open": 180.82
     }
   ],
-  "ABNB_2026_Q1": [
+  "NVDA_2025_Q4": [
     {
-      "rater": "Anna",
-      "prior_close": 140.46,
-      "next_day_open": 138.13
+      "rater": "Dragos",
+      "prior_close": 186.52,
+      "next_day_open": 195.95
     }
   ],
-  "LOW_2025_Q1": [
-    {
-      "rater": "Anna",
-      "prior_close": 217.41,
-      "next_day_open": 217.22
-    }
-  ],
-  "WMT_2025_Q1": [
+  "PFE_2025_Q1": [
     {
       "rater": "Abdul",
-      "prior_close": 96.83,
-      "next_day_open": 94.3
+      "prior_close": 23.05,
+      "next_day_open": 22.83
     }
   ],
-  "WMT_2025_Q2": [
+  "PFE_2025_Q2": [
     {
       "rater": "Abdul",
-      "prior_close": 102.57,
-      "next_day_open": 99.41
+      "prior_close": 23.53,
+      "next_day_open": 24.27
     }
   ],
-  "WMT_2025_Q3": [
+  "PFE_2025_Q4": [
     {
       "rater": "Abdul",
-      "prior_close": 100.61,
-      "next_day_open": 103.94
+      "prior_close": 26.66,
+      "next_day_open": 25.36
     }
   ],
-  "WMT_2025_Q4": [
+  "PFE_2026_Q1": [
     {
       "rater": "Abdul",
-      "prior_close": 126.62,
-      "next_day_open": 128.5
-    }
-  ],
-  "WMT_2026_Q1": [
-    {
-      "rater": "Abdul",
-      "prior_close": 130.85,
-      "next_day_open": 124.41
-    }
-  ],
-  "C_2025_Q1": [
-    {
-      "rater": "Nigel",
-      "prior_close": 61.33,
-      "next_day_open": 64.19
-    }
-  ],
-  "C_2025_Q2": [
-    {
-      "rater": "Nigel",
-      "prior_close": 85.56,
-      "next_day_open": 88.65
-    }
-  ],
-  "C_2025_Q3": [
-    {
-      "rater": "Nigel",
-      "prior_close": 94.59,
-      "next_day_open": 95.37
-    }
-  ],
-  "C_2025_Q4": [
-    {
-      "rater": "Nigel",
-      "prior_close": 115.15,
-      "next_day_open": 117.91
-    }
-  ],
-  "GS_2025_Q1": [
-    {
-      "rater": "Dragos",
-      "prior_close": 494.44,
-      "next_day_open": 510
-    }
-  ],
-  "GS_2025_Q2": [
-    {
-      "rater": "Dragos",
-      "prior_close": 702.51,
-      "next_day_open": 708.5
-    }
-  ],
-  "GS_2025_Q3": [
-    {
-      "rater": "Dragos",
-      "prior_close": 786.78,
-      "next_day_open": 764.45
-    }
-  ],
-  "GS_2025_Q4": [
-    {
-      "rater": "Dragos",
-      "prior_close": 932.67,
-      "next_day_open": 924.9
-    }
-  ],
-  "GS_2026_Q1": [
-    {
-      "rater": "Dragos",
-      "prior_close": 907.8,
-      "next_day_open": 875.55
-    }
-  ],
-  "GS_2026_Q2": [
-    {
-      "rater": "Dragos",
-      "prior_close": 1045.91,
-      "next_day_open": 1085
+      "prior_close": 26.3,
+      "next_day_open": 26.59
     }
   ],
   "SCHW_2025_Q1": [
@@ -600,11 +726,53 @@
       "next_day_open": 95.76
     }
   ],
-  "ABNB_2025_Q4": [
+  "TGT_2025_Q1": [
     {
       "rater": "Anna",
-      "prior_close": 115.96,
-      "next_day_open": 126.46
+      "prior_close": 93.01,
+      "next_day_open": 92.17
+    }
+  ],
+  "TGT_2025_Q2": [
+    {
+      "rater": "Anna",
+      "prior_close": 98.69,
+      "next_day_open": 98.49
+    }
+  ],
+  "TGT_2025_Q3": [
+    {
+      "rater": "Anna",
+      "prior_close": 86.08,
+      "next_day_open": 86.16
+    }
+  ],
+  "TGT_2026_Q1": [
+    {
+      "rater": "Anna",
+      "prior_close": 122.33,
+      "next_day_open": 120.83
+    }
+  ],
+  "TSLA_2025_Q3": [
+    {
+      "rater": "David",
+      "prior_close": 438.97,
+      "next_day_open": 420.0
+    }
+  ],
+  "TSLA_2025_Q4": [
+    {
+      "rater": "David",
+      "prior_close": 431.46,
+      "next_day_open": 437.8
+    }
+  ],
+  "TSLA_2026_Q1": [
+    {
+      "rater": "David",
+      "prior_close": 387.51,
+      "next_day_open": 375.28
     }
   ],
   "UBER_2025_Q1": [
@@ -628,88 +796,46 @@
       "next_day_open": 75.63
     }
   ],
-  "COIN_2026_Q1": [
+  "UBER_2026_Q1": [
     {
-      "rater": "David",
-      "prior_close": 192.96,
-      "next_day_open": 186.05
+      "rater": "Abdul",
+      "prior_close": 72.95,
+      "next_day_open": 77.46
     }
   ],
-  "COIN_2025_Q3": [
+  "WMT_2025_Q1": [
     {
-      "rater": "David",
-      "prior_close": 328.51,
-      "next_day_open": 336
+      "rater": "Abdul",
+      "prior_close": 96.83,
+      "next_day_open": 94.3
     }
   ],
-  "COIN_2025_Q4": [
+  "WMT_2025_Q2": [
     {
-      "rater": "David",
-      "prior_close": 141.09,
-      "next_day_open": 153.7
+      "rater": "Abdul",
+      "prior_close": 102.57,
+      "next_day_open": 99.41
     }
   ],
-  "LLY_2026_Q1": [
+  "WMT_2025_Q3": [
     {
-      "rater": "David",
-      "prior_close": 851.21,
-      "next_day_open": 898.78
+      "rater": "Abdul",
+      "prior_close": 100.61,
+      "next_day_open": 103.94
     }
   ],
-  "LLY_2025_Q3": [
+  "WMT_2025_Q4": [
     {
-      "rater": "David",
-      "prior_close": 813.53,
-      "next_day_open": 837.5
+      "rater": "Abdul",
+      "prior_close": 126.62,
+      "next_day_open": 128.5
     }
   ],
-  "LLY_2025_Q4": [
+  "WMT_2026_Q1": [
     {
-      "rater": "David",
-      "prior_close": 1003.46,
-      "next_day_open": 1075.12
-    }
-  ],
-  "META_2026_Q1": [
-    {
-      "rater": "David",
-      "prior_close": 669.12,
-      "next_day_open": 619.32
-    }
-  ],
-  "META_2025_Q3": [
-    {
-      "rater": "David",
-      "prior_close": 751.67,
-      "next_day_open": 669.15
-    }
-  ],
-  "META_2025_Q4": [
-    {
-      "rater": "David",
-      "prior_close": 668.73,
-      "next_day_open": 737.43
-    }
-  ],
-  "TSLA_2026_Q1": [
-    {
-      "rater": "David",
-      "prior_close": 387.51,
-      "next_day_open": 375.28
-    }
-  ],
-  "TSLA_2025_Q3": [
-    {
-      "rater": "David",
-      "prior_close": 438.97,
-      "next_day_open": 420
-    }
-  ],
-  "TSLA_2025_Q4": [
-    {
-      "rater": "David",
-      "prior_close": 431.46,
-      "next_day_open": 437.8
+      "rater": "Abdul",
+      "prior_close": 130.85,
+      "next_day_open": 124.41
     }
   ]
 }
