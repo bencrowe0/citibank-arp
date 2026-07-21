@@ -29,6 +29,8 @@ COMPANY_NAMES = {
     "MCD": "McDonald's", "META": "Meta", "NFLX": "Netflix", "NKE": "Nike",
     "NVDA": "Nvidia", "TGT": "Target", "TSLA": "Tesla", "UBER": "Uber",
     "WMT": "Walmart",
+    "BCS": "Barclays", "F": "Ford", "MSFT": "Microsoft", "PFE": "Pfizer",
+    "UAL": "United Airlines",
 }
 
 SECTORS = {
@@ -40,6 +42,8 @@ SECTORS = {
     "MCD": "Consumer/Retail", "META": "Media/Communication Services", "NFLX": "Media/Communication Services",
     "NKE": "Consumer/Retail", "NVDA": "Technology/Semiconductors", "TGT": "Consumer/Retail",
     "TSLA": "Consumer/Auto", "UBER": "Technology/Transportation", "WMT": "Consumer/Retail",
+    "BCS": "Financials", "F": "Consumer/Auto", "MSFT": "Technology",
+    "PFE": "Healthcare", "UAL": "Industrials/Airlines",
 }
 
 QUARTER_NUM = {"Q1": 1, "Q2": 2, "Q3": 3, "Q4": 4}

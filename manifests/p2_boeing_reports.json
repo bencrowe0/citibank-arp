@@ -64,6 +64,34 @@
           "source_pdf": "docs/boeing/phase2/CY2025-Q3/3Q25-Press-Release.pdf"
         }
       ]
+    },
+    {
+      "document_id": "BA_FQ4_2025",
+      "issuer": "p2_boeing",
+      "company": "Boeing",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-26",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q4/e4434a19-d413-4453-b231-894733ab8ddc.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q4/Presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q4/Press-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q4/Transcript.pdf"
+        }
+      ]
     }
   ]
 }

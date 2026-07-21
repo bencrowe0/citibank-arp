@@ -62,6 +62,13 @@ TARGET_COMBOS = [
     ("Tesla", "TSLA", 2025, "Q3"), ("Tesla", "TSLA", 2025, "Q4"), ("Tesla", "TSLA", 2026, "Q1"),
     ("Uber", "UBER", 2025, "Q1"), ("Uber", "UBER", 2025, "Q2"), ("Uber", "UBER", 2025, "Q4"), ("Uber", "UBER", 2026, "Q1"),
     ("Walmart", "WMT", 2025, "Q1"), ("Walmart", "WMT", 2025, "Q2"), ("Walmart", "WMT", 2025, "Q3"), ("Walmart", "WMT", 2025, "Q4"), ("Walmart", "WMT", 2026, "Q1"),
+    # Second batch (humans now at 132 predictions vs the original 104) - 5 brand-new
+    # tickers plus one more quarter each for two issuers already onboarded above.
+    ("Barclays", "BCS", 2025, "Q2"), ("Barclays", "BCS", 2025, "Q3"), ("Barclays", "BCS", 2026, "Q1"),
+    ("Ford", "F", 2025, "Q2"), ("Ford", "F", 2025, "Q4"), ("Ford", "F", 2026, "Q1"),
+    ("Microsoft", "MSFT", 2025, "Q1"), ("Microsoft", "MSFT", 2025, "Q2"), ("Microsoft", "MSFT", 2026, "Q1"),
+    ("Pfizer", "PFE", 2025, "Q1"), ("Pfizer", "PFE", 2025, "Q2"), ("Pfizer", "PFE", 2025, "Q4"), ("Pfizer", "PFE", 2026, "Q1"),
+    ("United Airlines", "UAL", 2025, "Q1"), ("United Airlines", "UAL", 2025, "Q2"), ("United Airlines", "UAL", 2025, "Q3"), ("United Airlines", "UAL", 2025, "Q4"),
 ]
 
 TICKER_TO_FOLDER = {
@@ -74,6 +81,8 @@ TICKER_TO_FOLDER = {
     "MCD": "McDonald's", "META": "META", "NFLX": "Netflix", "NKE": "Nike",
     "NVDA": "Nvidia", "TGT": "Target", "TSLA": "Tesla", "UBER": "Uber",
     "WMT": "Walmart",
+    "BCS": "Barclays", "F": "Ford", "MSFT": "Microsoft", "PFE": "Pfizer",
+    "UAL": "United Airlines",
 }
 
 TICKER_TO_SLUG = {
@@ -86,6 +95,8 @@ TICKER_TO_SLUG = {
     "MCD": "mcdonalds", "META": "meta", "NFLX": "netflix", "NKE": "nike",
     "NVDA": "nvidia", "TGT": "target", "TSLA": "tesla", "UBER": "uber",
     "WMT": "walmart",
+    "BCS": "barclays", "F": "ford", "MSFT": "microsoft", "PFE": "pfizer",
+    "UAL": "united_airlines",
 }
 
 OVERLAP_ISSUERS = {"BAC", "BA", "DIS", "JPM", "NFLX", "TGT"}
@@ -106,8 +117,41 @@ MONTH_NAME_DATE_PATTERN = re.compile(
 )
 FOLDER_Q_PATTERN = re.compile(r"(?:^|[\\/])Q([1-4])(?:[\\/]|$)")
 
+# Bare "Q<N>" subfolders with no year anywhere in the path (filenames like
+# "Press-Release.pdf" with no date/quarter token) can't be resolved by regex
+# alone - the ticker's fiscal year for that quarter has to be supplied. Boeing's
+# Q4 folder (Press-Release.pdf, Presentation.pdf, Transcript.pdf, no year token
+# in any filename) is the one case found so far; unlike Q1-Q3's filenames
+# ("1Q25-Presentation.pdf") which embed the quarter+year directly.
+FOLDER_ONLY_QUARTER_YEAR_OVERRIDES: dict[tuple[str, str], int] = {
+    ("BA", "Q4"): 2025,
+}
 
-def infer_quarter_year(relpath: str) -> tuple[str, int] | None:
+# Filenames with no quarter/date token regex can parse at all, resolved by
+# reading the actual PDF content (opening-page date/fiscal-quarter line).
+# BCS's "Sellside-Analyst-Meeting-Transcript.pdf" -> "Barclays PLC Q1 2026
+# Results, 13 May 2026". MSFT's 3 "cdn-dynmedia-1.microsoft.com*.pdf" files ->
+# fiscal-quarter labels read directly off each transcript's own title line
+# (Microsoft's "FY<N> Q<N>" convention matches this project's Year/Quarter
+# columns directly, confirmed against the target combos below).
+FILENAME_QY_OVERRIDES: dict[tuple[str, str], tuple[str, int]] = {
+    ("BCS", "Sellside-Analyst-Meeting-Transcript.pdf"): ("Q1", 2026),
+    ("MSFT", "cdn-dynmedia-1.microsoft.com.pdf"): ("Q1", 2026),        # FY26 Q1, 29-Oct-2025 call
+    ("MSFT", "cdn-dynmedia-1.microsoft.com (1).pdf"): ("Q2", 2025),    # FY25 Q2, 29-Jan-2025 call
+    ("MSFT", "cdn-dynmedia-1.microsoft.com (2).pdf"): ("Q1", 2025),    # FY25 Q1, 30-Oct-2024 call
+}
+
+# Files present in a company's folder but not actually that company's document
+# (drop-in mistake in the source drop) - excluded outright rather than assigned
+# to any combo. "260505-1q-2026-earnings-release.pdf" under Microsoft/ is
+# actually HSBC Holdings' Q1 2026 earnings release (verified by PDF content),
+# not a Microsoft document at all.
+EXCLUDE_MISFILED: dict[str, set[str]] = {
+    "MSFT": {"260505-1q-2026-earnings-release.pdf"},
+}
+
+
+def infer_quarter_year(relpath: str, ticker: str | None = None) -> tuple[str, int] | None:
     text = relpath.replace("\\", "/")
     for label, pat in QY_PATTERNS:
         m = pat.search(text)
@@ -132,6 +176,9 @@ def infer_quarter_year(relpath: str) -> tuple[str, int] | None:
         ym = re.search(r"20\d{2}", text)
         if ym:
             return f"Q{fm.group(1)}", int(ym.group(0))
+        quarter = f"Q{fm.group(1)}"
+        if ticker is not None and (ticker, quarter) in FOLDER_ONLY_QUARTER_YEAR_OVERRIDES:
+            return quarter, FOLDER_ONLY_QUARTER_YEAR_OVERRIDES[(ticker, quarter)]
     return None
 
 
@@ -196,8 +243,10 @@ def main() -> None:
         for f in company_dir.rglob("*"):
             if not f.is_file():
                 continue
+            if f.name in EXCLUDE_MISFILED.get(ticker, set()):
+                continue
             relpath = str(f.relative_to(company_dir))
-            qy = infer_quarter_year(relpath)
+            qy = FILENAME_QY_OVERRIDES.get((ticker, f.name)) or infer_quarter_year(relpath, ticker)
             if qy is None:
                 iso = infer_iso_date(relpath)
                 if iso and f.suffix.lower() in EXTRACTABLE_SUFFIXES:

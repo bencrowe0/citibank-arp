@@ -44,6 +44,8 @@ COMPANY_NAMES = {
     "MCD": "McDonald's", "META": "Meta", "NFLX": "Netflix", "NKE": "Nike",
     "NVDA": "Nvidia", "TGT": "Target", "TSLA": "Tesla", "UBER": "Uber",
     "WMT": "Walmart",
+    "BCS": "Barclays", "F": "Ford", "MSFT": "Microsoft", "PFE": "Pfizer",
+    "UAL": "United Airlines",
 }
 
 QUARTER_NUM = {"Q1": 1, "Q2": 2, "Q3": 3, "Q4": 4}

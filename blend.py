@@ -40,6 +40,7 @@ PHASE2_ISSUERS = [
     "ibm", "lowes", "lululemon", "maersk", "mcdonalds", "meta", "nike",
     "nvidia", "tesla", "uber", "walmart",
     "bank_of_america", "boeing", "disney", "jpm", "netflix", "target",
+    "barclays", "ford", "microsoft", "pfizer", "united_airlines",
 ]
 MANIFESTS.update({
     f"p2_{name}": BASE_DIR / "manifests" / f"p2_{name}_reports.json"

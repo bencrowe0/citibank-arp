@@ -124,6 +124,21 @@
     "report_date": "2026-01-26",
     "source": "validated_against_human_price"
   },
+  "BCS_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "BCS_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-22",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "BCS_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-28",
+    "source": "nearest_real_earnings_date(gap=2d)"
+  },
   "COIN_2025_Q3": {
     "confidence": "high",
     "report_date": "2025-10-30",
@@ -178,6 +193,21 @@
     "confidence": "high",
     "report_date": "2025-11-12",
     "source": "validated_against_human_price"
+  },
+  "F_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "F_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-10",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "F_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-29",
+    "source": "validated_against_human_price(unchanged)"
   },
   "GS_2025_Q1": {
     "confidence": "high",
@@ -349,6 +379,21 @@
     "report_date": "2026-04-29",
     "source": "validated_against_human_price(unchanged)"
   },
+  "MSFT_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2024-10-30",
+    "source": "validated_against_human_price"
+  },
+  "MSFT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-01-29",
+    "source": "validated_against_human_price"
+  },
+  "MSFT_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "validated_against_human_price"
+  },
   "NFLX_2024_Q4": {
     "confidence": "high",
     "report_date": "2025-01-21",
@@ -414,6 +459,26 @@
     "report_date": "2025-11-19",
     "source": "validated_against_human_price"
   },
+  "PFE_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-28",
+    "source": "validated_against_human_price"
+  },
+  "PFE_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-04",
+    "source": "validated_against_human_price"
+  },
+  "PFE_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-02",
+    "source": "validated_against_human_price"
+  },
+  "PFE_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-04",
+    "source": "validated_against_human_price"
+  },
   "SCHW_2025_Q1": {
     "confidence": "high",
     "report_date": "2025-04-16",
@@ -473,6 +538,26 @@
     "confidence": "high",
     "report_date": "2026-04-22",
     "source": "validated_against_human_price(unchanged)"
+  },
+  "UAL_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "UAL_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-16",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "UAL_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "UAL_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-20",
+    "source": "nearest_real_earnings_date(gap=10d)"
   },
   "UBER_2025_Q1": {
     "confidence": "high",

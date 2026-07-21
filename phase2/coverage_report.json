@@ -481,10 +481,43 @@
       "ticker": "BA",
       "year": 2025,
       "quarter": "Q4",
-      "docs": [],
-      "n_docs": 0,
-      "n_extractable_ok": 0,
-      "status": "MISSING"
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Boeing\\Q4\\e4434a19-d413-4453-b231-894733ab8ddc.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 1377010,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Boeing\\Q4\\Presentation.pdf",
+          "doc_type": "Earnings Presentation",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 8352253,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Boeing\\Q4\\Press-Release.pdf",
+          "doc_type": "Press Release",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 180094,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Boeing\\Q4\\Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 650221,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 4,
+      "n_extractable_ok": 4,
+      "status": "OK"
     },
     "CVS_2026_Q1": {
       "company": "CVS Health",
@@ -2593,6 +2626,401 @@
       "n_docs": 3,
       "n_extractable_ok": 3,
       "status": "OK"
+    },
+    "BCS_2025_Q2": {
+      "company": "Barclays",
+      "ticker": "BCS",
+      "year": 2025,
+      "quarter": "Q2",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Barclays\\Barclays Q225 sellside transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 217034,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "BCS_2025_Q3": {
+      "company": "Barclays",
+      "ticker": "BCS",
+      "year": 2025,
+      "quarter": "Q3",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Barclays\\Q325 Sellside Analyst Meeting transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 241962,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "BCS_2026_Q1": {
+      "company": "Barclays",
+      "ticker": "BCS",
+      "year": 2026,
+      "quarter": "Q1",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Barclays\\Sellside-Analyst-Meeting-Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 194829,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "F_2025_Q2": {
+      "company": "Ford",
+      "ticker": "F",
+      "year": 2025,
+      "quarter": "Q2",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Ford\\Ford-Q2-2025-Earnings-Call-Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 321704,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "F_2025_Q4": {
+      "company": "Ford",
+      "ticker": "F",
+      "year": 2025,
+      "quarter": "Q4",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Ford\\Ford-Q4-2025-Earnings-Call-Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 296264,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "F_2026_Q1": {
+      "company": "Ford",
+      "ticker": "F",
+      "year": 2026,
+      "quarter": "Q1",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Ford\\Ford-Q1-2026-Earnings-Call-Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 294030,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "MSFT_2025_Q1": {
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "year": 2025,
+      "quarter": "Q1",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Microsoft\\cdn-dynmedia-1.microsoft.com (2).pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 182541,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "MSFT_2025_Q2": {
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "year": 2025,
+      "quarter": "Q2",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Microsoft\\cdn-dynmedia-1.microsoft.com (1).pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 178162,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "MSFT_2026_Q1": {
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "year": 2026,
+      "quarter": "Q1",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Microsoft\\cdn-dynmedia-1.microsoft.com.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 194760,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "PFE_2025_Q1": {
+      "company": "Pfizer",
+      "ticker": "PFE",
+      "year": 2025,
+      "quarter": "Q1",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Pfizer\\PFE-USQ_Transcript_2025-04-29.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": true,
+          "file_bytes": 228823,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "PFE_2025_Q2": {
+      "company": "Pfizer",
+      "ticker": "PFE",
+      "year": 2025,
+      "quarter": "Q2",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Pfizer\\PFE-USQ_Transcript_2025-08-05.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": true,
+          "file_bytes": 223336,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "PFE_2025_Q4": {
+      "company": "Pfizer",
+      "ticker": "PFE",
+      "year": 2025,
+      "quarter": "Q4",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Pfizer\\PFE-USQ_Transcript_2026-02-03.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": true,
+          "file_bytes": 266391,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "PFE_2026_Q1": {
+      "company": "Pfizer",
+      "ticker": "PFE",
+      "year": 2026,
+      "quarter": "Q1",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\Pfizer\\PFE-USQ_Transcript_2026-05-05.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": true,
+          "file_bytes": 243391,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 1,
+      "n_extractable_ok": 1,
+      "status": "THIN(1 doc)"
+    },
+    "UAL_2025_Q1": {
+      "company": "United Airlines",
+      "ticker": "UAL",
+      "year": 2025,
+      "quarter": "Q1",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q1\\1Q25 Investor Update Final.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 121399,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q1\\Q1 2025 Financial Results Final.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 281225,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q1\\Q1 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 169842,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q1\\UAL 1Q25 10Q.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 786461,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 4,
+      "n_extractable_ok": 4,
+      "status": "OK"
+    },
+    "UAL_2025_Q2": {
+      "company": "United Airlines",
+      "ticker": "UAL",
+      "year": 2025,
+      "quarter": "Q2",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q2\\Q2 2025 Earnings Release Final.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 597011,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q2\\Q2 2025 Investor Update Final.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 265693,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q2\\Q2 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 154935,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q2\\UAL 2Q25 10Q.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 852073,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 4,
+      "n_extractable_ok": 4,
+      "status": "OK"
+    },
+    "UAL_2025_Q3": {
+      "company": "United Airlines",
+      "ticker": "UAL",
+      "year": 2025,
+      "quarter": "Q3",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q3\\Q3 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 166555,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q3\\UAL 3Q25 Earnings Release Final.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 617800,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q3\\UAL 3Q25 Investor Update Final.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 205242,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 3,
+      "n_extractable_ok": 3,
+      "status": "OK"
+    },
+    "UAL_2025_Q4": {
+      "company": "United Airlines",
+      "ticker": "UAL",
+      "year": 2025,
+      "quarter": "Q4",
+      "docs": [
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q4\\Q4 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+          "doc_type": "Earnings Call Transcript",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 168759,
+          "extract_ok": true
+        },
+        {
+          "path": "OneDrive_2026-07-18\\Phase 2\\United Airlines\\Q4\\UAL 2025 10K.pdf",
+          "doc_type": "Unknown",
+          "extractable": true,
+          "date_inferred": false,
+          "file_bytes": 2802842,
+          "extract_ok": true
+        }
+      ],
+      "n_docs": 2,
+      "n_extractable_ok": 2,
+      "status": "OK"
     }
   },
   "unmatched_files": {
@@ -2614,11 +3042,7 @@
       "Q2\\aa4c5a9d-9b8c-41fe-8072-4285e3166a5f.pdf",
       "Q2\\Transcript.pdf",
       "Q3\\bc7e390d-2953-4e59-90d6-04acb3bfa429.pdf",
-      "Q3\\Transcript.pdf",
-      "Q4\\e4434a19-d413-4453-b231-894733ab8ddc.pdf",
-      "Q4\\Presentation.pdf",
-      "Q4\\Press-Release.pdf",
-      "Q4\\Transcript.pdf"
+      "Q3\\Transcript.pdf"
     ],
     "SCHW": [
       "provenance.csv"
@@ -2652,6 +3076,11 @@
     ],
     "NVDA": [
       "provenance.csv"
+    ],
+    "UAL": [
+      "Q3\\0000100517-25-000193.pdf",
+      "Q4\\1Q_FY26 Investor Update Final.pdf",
+      "Q4\\4Q_FY25 Earnings Release Final.pdf"
     ]
   },
   "date_inferred_notes": [
@@ -2665,6 +3094,10 @@
     "TGT 2025Q1 <- 2025-May-21-TGT-Transcript.pdf (dated 2025-05-21)",
     "TGT 2025Q2 <- 2025-august-20-tgt-transcript.pdf (dated 2025-08-20)",
     "TGT 2025Q3 <- TGT-Transcript-2025-11-19-2.pdf (dated 2025-11-19)",
-    "TGT 2026Q1 <- TGT-USQ_Transcript_2026-05-20.pdf (dated 2026-05-20)"
+    "TGT 2026Q1 <- TGT-USQ_Transcript_2026-05-20.pdf (dated 2026-05-20)",
+    "PFE 2025Q1 <- PFE-USQ_Transcript_2025-04-29.pdf (dated 2025-04-29)",
+    "PFE 2025Q2 <- PFE-USQ_Transcript_2025-08-05.pdf (dated 2025-08-05)",
+    "PFE 2025Q4 <- PFE-USQ_Transcript_2026-02-03.pdf (dated 2026-02-03)",
+    "PFE 2026Q1 <- PFE-USQ_Transcript_2026-05-05.pdf (dated 2026-05-05)"
   ]
 }

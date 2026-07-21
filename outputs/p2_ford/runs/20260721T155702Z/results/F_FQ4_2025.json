@@ -1,0 +1,208 @@
+{
+  "document_id": "F_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Ford's 2026 guidance of $8B-$10B adjusted EBIT represents a meaningful improvement from the $6.8B reported in 2025 (which included $2B in headwinds). Management explicitly raised forward expectations, citing lower tariff costs, favorable mix from sunsetting low-margin nameplates, and continued cost reductions. The tone is confident, with specific targets and a clear path to 8% EBIT margin by 2029. However, the Novelis disruption and temporary costs create some uncertainty, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$187 billion for full year 2025, growing for the fifth consecutive year.",
+    "eps": "Not disclosed",
+    "guidance": "Full year 2026 adjusted EBIT of $8 billion to $10 billion, adjusted free cash flow of $5 billion to $6 billion, and capital expenditures of $9.5 billion to $10.5 billion.",
+    "margin": "Ford Pro delivered double-digit margin in 2025. Company targeting 8% adjusted EBIT margin by 2029.",
+    "key_risks": [
+      "Novelis fires causing $1.5B-$2B in temporary costs in 2026",
+      "Higher commodity prices driven by inflation and pressure on DRAM",
+      "Tougher regulatory climate in Europe",
+      "Potential pricing pressure from Chinese competition",
+      "Uncertainty around EU and UK government policies on CO2 reduction and jobs"
+    ],
+    "key_opportunities": [
+      "Lower tariff costs of about $1 billion in 2026",
+      "Favorable mix from sunsetting low-margin nameplates like Escape",
+      "Benefits from changes in U.S. regulatory environment, including $0.5B less in credits",
+      "Continued growth in high-margin software and physical services (up 6.5% expected)",
+      "Ford Energy business with $1.5B investment in 2026",
+      "New UEV platform and affordable EVs targeting $35,000 segment",
+      "Ford Pro's strong commercial business with over 42% U.S. market share"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jim Farley stated 'the earnings power of our business is accelerating' and Sherry House described 'another robust year at Ford Pro,' reflecting a confident outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Ford reported $187 billion in revenue for full year 2025, growing for the fifth consecutive year.",
+      "quote": "We continue to grow $187 billion of revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 adjusted EBIT was $6.8 billion.",
+      "quote": "On the bottom line, we generated $6.8 billion of adjusted EBIT for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance includes adjusted EBIT of $8 billion to $10 billion.",
+      "quote": "For the full year, we expect company adjusted EBIT of $8 billion to $10 billion, adjusted free cash flow of $5 billion to $6 billion, and capital expenditures of $9.5 billion to $10.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Pro delivered double-digit margin in 2025.",
+      "quote": "Ford Pro, once again, demonstrated its importance and persistence as a key profit pillar for Ford by delivering more than $66 billion of revenue and EBIT to $6.8 billion with a double-digit margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company is targeting 8% adjusted EBIT margin by 2029.",
+      "quote": "The takeaway from my perspective is we closed last year a much stronger business with a solid foundation to achieve our target of 8% adjusted EBIT target by 2029.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Novelis fires caused $1.5B-$2B in temporary costs in 2026.",
+      "quote": "This includes $1.5 billion to $2 billion of temporary costs, including tariffs, to ensure continuity in aluminum supply.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower tariff costs of about $1 billion in 2026.",
+      "quote": "We expect lower tariff costs of about $1 billion, reflecting a full year's worth of credit expansion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Favorable mix from sunsetting low-margin nameplates like Escape.",
+      "quote": "It does include the sunset of low margin nameplates, namely Escape, but there's also benefits that we expect to achieve from changes in the U.S. regulatory environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Benefits from changes in U.S. regulatory environment, including $0.5B less in credits.",
+      "quote": "The biggest impact there would be about $0.5 billion less of credits in the U.S..",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued growth in high-margin software and physical services (up 6.5% expected).",
+      "quote": "Additionally, we expect our high margin software and physical services profit to grow by about 6.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Energy business with $1.5B investment in 2026.",
+      "quote": "roughly $1.5 billion for Ford Energy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New UEV platform and affordable EVs targeting $35,000 segment.",
+      "quote": "We believe this platform localized in LAP will hit the majority of profitable EVs sold in the U.S., which are $35,000 EVs, high volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Pro's strong commercial business with over 42% U.S. market share.",
+      "quote": "In the U.S., Ford Pro's Class 1 through 7 market share is over 42%, roughly the size of our two largest competitors combined.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Jim Farley stated 'the earnings power of our business is accelerating' and Sherry House described 'another robust year at Ford Pro.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher commodity prices driven by inflation and pressure on DRAM.",
+      "quote": "We also expect further material and warranty cost reductions building off our momentum in 2025. These combined savings allow us to absorb about $1 billion of higher commodity prices driven by inflation and pressure on DRAM.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tougher regulatory climate in Europe.",
+      "quote": "While Pro's underlying business continues to strengthen, we expect 2026 results to be dampened by the near term impact in Novelis, ramping Oakville to bolster Super Duty capacity in Canada and a tougher regulatory climate in Europe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential pricing pressure from Chinese competition.",
+      "quote": "I think the real question that I ask myself is how will the Chinese change the game with all of these in terms of pricing power, given the overly competitive, subsidized reality.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertainty around EU and UK government policies on CO2 reduction and jobs.",
+      "quote": "Now, the real rub is going to be how the UK and European, the EU, handle the choice between CO2 reduction and jobs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.eps",
+      "reason": "EPS was not explicitly disclosed in the document; only adjusted EBIT and free cash flow figures were provided."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "F_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_ford",
+    "company": "Ford",
+    "ticker": "F",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q4\\Ford-Q4-2025-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "F_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T155702Z",
+    "timestamp": "2026-07-21T15:57:41Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q4\\Ford-Q4-2025-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ford\\extracted\\F_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q4\\Ford-Q4-2025-Earnings-Call-Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 49763,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ford\\extracted\\F_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

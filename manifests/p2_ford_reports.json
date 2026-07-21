@@ -1,0 +1,53 @@
+{
+  "issuer": "p2_ford",
+  "reports": [
+    {
+      "document_id": "F_FQ2_2025",
+      "issuer": "p2_ford",
+      "company": "Ford",
+      "ticker": "F",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-30",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ford/CY2025-Q2/Ford-Q2-2025-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "F_FQ4_2025",
+      "issuer": "p2_ford",
+      "company": "Ford",
+      "ticker": "F",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-10",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ford/CY2025-Q4/Ford-Q4-2025-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "F_FQ1_2026",
+      "issuer": "p2_ford",
+      "company": "Ford",
+      "ticker": "F",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ford/CY2026-Q1/Ford-Q1-2026-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

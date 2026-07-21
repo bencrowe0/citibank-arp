@@ -1,0 +1,221 @@
+{
+  "document_id": "MSFT_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: Microsoft Cloud revenue surpassed $40B for the first time, AI annual revenue run rate reached $13B (up 175% YoY), and commercial bookings surged 67% (75% in constant currency) driven by large Azure commitments including OpenAI. However, forward guidance for Q3 is mixed: Azure growth is guided at 31-32% (similar to Q2's 31%), non-AI Azure services face execution challenges in scale motions, and FX is expected to reduce total revenue growth by 2 points. Management raised FY25 operating margin expectations to be up slightly year-over-year, indicating improved operating leverage. The score reflects genuine momentum and a modest guidance improvement, tempered by acknowledged execution headwinds and FX drag."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$69.6 billion, up 12% year-over-year.",
+    "eps": "$3.23, an increase of 10% year-over-year.",
+    "guidance": "For Q3 FY25: Productivity and Business Processes revenue $29.4-$29.7B (11-12% constant currency growth); Intelligent Cloud revenue $25.9-$26.2B (19-20% constant currency growth); More Personal Computing revenue $12.4-$12.8B. Azure growth guided at 31-32% constant currency. Full-year FY25: double-digit revenue and operating income growth; operating margins expected to be up slightly year-over-year; CapEx in Q3 and Q4 similar to Q2 ($22.6B); FY26 CapEx growth rate lower than FY25.",
+    "margin": "Company gross margin percentage increased slightly year-over-year to 69%. Operating margins increased 2 points year-over-year to 45%. Microsoft Cloud gross margin percentage was 70%, down 2 points year-over-year due to scaling AI infrastructure. FY25 operating margins expected to be up slightly year-over-year.",
+    "key_risks": [
+      "Non-AI Azure services execution challenges in scale motions, particularly with customers reached through partners and indirect methods, expected to impact H2.",
+      "AI capacity constraints expected to continue in Q3, with balance expected by end of FY25.",
+      "FX headwind: strengthening US dollar expected to decrease total revenue growth by 2 points in Q3 and more than 1 point in Q4.",
+      "Talent Solutions (LinkedIn) weakness in hiring market in key verticals expected to continue in Q3.",
+      "Tariff uncertainties affecting Windows OEM and Devices outlook.",
+      "Impairment charge from Cruise investment ($2.3B other income/expense)."
+    ],
+    "key_opportunities": [
+      "AI business annual revenue run rate surpassed $13B, up 175% YoY, ahead of expectations.",
+      "Microsoft Cloud revenue surpassed $40B for the first time, up 21% YoY.",
+      "Commercial bookings increased 67% (75% constant currency), significantly ahead of expectations driven by Azure commitments from OpenAI.",
+      "M365 Copilot adoption accelerating: existing enterprise customers expanding seats by more than 10X over 18 months; daily users more than doubled QoQ; usage intensity up 60% QoQ.",
+      "Azure AI services grew 157% YoY, ahead of expectations despite capacity constraints.",
+      "GitHub Copilot: over 1 million signups in first week post-launch; GitHub now home to 150 million developers.",
+      "Copilot Studio: over 160,000 organizations used it, creating 400,000 custom agents in last 3 months (up 2X QoQ).",
+      "Fabric: fastest growing analytics product in Microsoft history, over 19,000 paid customers.",
+      "Gaming: Game Pass set new quarterly revenue record; PC subscriber base grew over 30%.",
+      "Capital investments in long-lived assets (data centers) expected to alleviate AI capacity constraints by end of FY25."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses strong forward-looking language such as 'we are confident in our leadership position as we grow with our customers' and describes the AI business as having 'strong demand' and 'continued strength,' while openly addressing execution challenges and providing specific remediation plans."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $69.6 billion, up 12% year-over-year.",
+      "quote": "This quarter, revenue was $69.6 billion, up 12%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $3.23, an increase of 10% year-over-year.",
+      "quote": "And earnings per share was $3.23, an increase of 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Microsoft Cloud revenue surpassed $40 billion for the first time, up 21% year-over-year.",
+      "quote": "Microsoft Cloud revenue was $40.9 billion and grew 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI business annual revenue run rate surpassed $13 billion, up 175% year-over-year.",
+      "quote": "And our AI business has now surpassed an annual revenue run rate of $13 billion, up 175% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial bookings increased 67% (75% constant currency), significantly ahead of expectations.",
+      "quote": "Commercial bookings increased 67% and 75% in constant currency and were significantly ahead of expectations driven by Azure commitments from OpenAI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Azure AI services grew 157% year-over-year, ahead of expectations.",
+      "quote": "Azure growth included 13 points from AI services, which grew 157% year over year and was ahead of expectations even as demand continued to be higher than our available capacity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-AI Azure services faced execution challenges in scale motions, expected to impact H2.",
+      "quote": "Growth in our non-AI services was slightly lower than expected due to go-to-market execution challenges, particularly with our customers that we primarily reach through our scale motions, as we balance driving near-term non-AI consumption with AI growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 Azure growth guided at 31-32% constant currency.",
+      "quote": "In Azure, we expect Q3 revenue growth to be between 31% and 32% in constant currency driven by strong demand for our portfolio of services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY25 operating margins expected to be up slightly year-over-year.",
+      "quote": "we now expect FY25 operating margins to be up slightly year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX expected to decrease total revenue growth by 2 points in Q3.",
+      "quote": "With the strengthening of the US dollar since October, we now expect FX to decrease total revenue growth by two points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "M365 Copilot daily users more than doubled quarter-over-quarter.",
+      "quote": "the number of people who use Copilot daily again more than doubled quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are confident in our leadership position as we grow with our customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital expenditures in Q2 were $22.6 billion, in line with expectations.",
+      "quote": "Capital expenditures including finance leases were $22.6 billion, in line with expectations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 CapEx growth rate expected to be lower than FY25.",
+      "quote": "In FY26, we expect to continue investing against strong demand signals... However, the growth rate will be lower than FY25 and the mix of spend will begin to shift back to short-lived assets which are more correlated to revenue growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "LinkedIn Talent Solutions weakness in hiring market expected to continue in Q3.",
+      "quote": "In our Talent Solutions business, results were slightly below expectations driven by continued weakness in the hiring market in key verticals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Game Pass set a new quarterly record for revenue and PC subscriber base grew over 30%.",
+      "quote": "All-up, Game Pass set a new quarterly record for revenue and grew its PC subscriber base by over 30%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GitHub now home to 150 million developers, up 50% over past two years.",
+      "quote": "All-up, GitHub is now home to 150 million developers, up 50% over the past two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Copilot Studio: over 160,000 organizations used it, creating 400,000 custom agents in last 3 months (up 2X QoQ).",
+      "quote": "More than 160,000 organizations have already used Copilot Studio, and they collectively created more than 400,000 custom agents in the last three months alone, up over 2X quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fabric has over 19,000 paid customers.",
+      "quote": "We now have over 19,000 paid customers, from Hitachi to Johnson Controls, to Schaeffler.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Impairment charge from Cruise investment was $2.3 billion.",
+      "quote": "This quarter, other income and expense was negative $2.3 billion, lower than our October guidance due to the impairment charge from our Cruise investment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a balance between strong operational momentum (AI revenue, bookings) and acknowledged execution challenges in non-AI Azure and FX headwinds. A reviewer may want to assess whether the execution issues warrant a lower score or the AI momentum a higher one."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MSFT_Bundled Earnings Report_2025-01-29",
+  "report_metadata": {
+    "issuer": "p2_microsoft",
+    "company": "Microsoft",
+    "ticker": "MSFT",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-01-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q2\\cdn-dynmedia-1.microsoft.com (1).pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MSFT_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T155811Z",
+    "timestamp": "2026-07-21T15:59:08Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q2\\cdn-dynmedia-1.microsoft.com (1).pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_microsoft\\extracted\\MSFT_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q2\\cdn-dynmedia-1.microsoft.com (1).pdf",
+        "page_count": 40,
+        "extracted_characters": 52020,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_microsoft\\extracted\\MSFT_FQ2_2025.txt"
+  }
+}

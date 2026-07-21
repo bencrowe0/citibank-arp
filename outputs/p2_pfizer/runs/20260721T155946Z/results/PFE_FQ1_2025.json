@@ -1,0 +1,213 @@
+{
+  "document_id": "PFE_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Pfizer reported a solid Q1 with revenue of $13.7B (down 6% operationally) and adjusted EPS of $0.92, ahead of expectations due to strong gross margin and cost management. However, full-year 2025 guidance was reaffirmed unchanged, not raised, and management explicitly excludes the potential impact of future tariff policy changes. The Q1 beat is backward-looking; the forward signal is flat guidance with cautious language on tariffs and macro uncertainty, placing the score just above neutral at +0.15."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$13.7 billion, a decline of 6% operationally, largely due to lower Paxlovid revenues and US revenue tempered by changes in the IRA Medicare Part D design.",
+    "eps": "Reported diluted EPS of $0.52; Adjusted diluted EPS of $0.92, ahead of expectations due to overall strong gross margin and cost management performance.",
+    "guidance": "Full-year 2025 revenues reaffirmed in the range of $61.0 to $64.0 billion; full-year 2025 Adjusted diluted EPS reaffirmed in the range of $2.80 to $3.00. Excluding potential future tariff impacts, management is currently trending toward the upper end of the Adjusted diluted EPS guidance.",
+    "margin": "Adjusted gross margin for Q1 2025 expanded to approximately 81%, primarily due to favorability in accrued royalties, partially offset by unfavorable product mix.",
+    "key_risks": [
+      "Lower Paxlovid revenues due to a one-time revenue credit in Q1 2024 and lower winter COVID wave.",
+      "US revenue tempered by changes in the IRA Medicare Part D design, which dampened US revenues by approximately $650 million in Q1.",
+      "Impact of competition on Vyndaqel family with a new market entrant, anticipated to continue through the year.",
+      "Uncertainty from rapidly evolving trade and tariff policies; guidance does not include potential impact of future changes in trade and tariff policies.",
+      "Loss of exclusivity (LOEs) approaching in 2026-2028, with 2028 being the largest impact."
+    ],
+    "key_opportunities": [
+      "Strong growth in key products: Vyndaqel family, Nurtec (40% operational growth), Padcev (25% operational growth), Lorbrena (39% operational growth), Cibinqo (42% operational growth).",
+      "Pipeline catalysts: at least four regulatory decisions, up to nine Phase 3 readouts, and significant pivotal program starts in 2025, including sasanlimab, Padcev, Elrexfio, and two novel ADCs.",
+      "Cost improvement programs: on track to deliver at least $4.5 billion in cumulative net cost savings by end of 2025, with additional $1.2 billion in net savings expected by end of 2027, and $500 million in R&D savings by end of 2026.",
+      "Improved balance sheet: achieved 3.25 gross leverage target at end of 2024, fully exited Haleon ownership, providing more flexibility for capital allocation.",
+      "International operations returned to operational growth in Q1 across all parts of the division."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'very pleased with our performance,' 'solid financial results demonstrate our strong executional focus,' and 'we are well positioned to enhance shareholder value,' indicating confidence in execution and outlook despite acknowledged headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $13.7 billion, a decline of 6% operationally.",
+      "quote": "For the first quarter of 2025, we recorded revenues of $13.7 billion, a decline of 6% operationally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $0.92, ahead of expectations.",
+      "quote": "Adjusted diluted earnings per share of $0.92, ahead of our expectations due to overall strong gross margin and cost management performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 guidance was reaffirmed unchanged.",
+      "quote": "Let me now spend a few minutes on our 2025 guidance which remains unchanged... We expect total company full-year 2025 revenues to be in the range of $61.0 to $64.0 billion, and full-year 2025 Adjusted diluted earnings per share to be in the range of $2.80 to $3.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is trending toward the upper end of Adjusted diluted EPS guidance, excluding tariff impacts.",
+      "quote": "As we finish Q1 with earnings strength, and excluding the potential impact related to future tariffs and trade policy changes, we are currently trending toward the upper end of our Adjusted diluted earnings per share guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted gross margin expanded to approximately 81%.",
+      "quote": "Adjusted gross margin for the first quarter expanded to approximately 81%, primarily the result of favorability in accrued royalties, partially offset by unfavorable product mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US revenue was dampened by IRA Medicare Part D redesign by approximately $650 million in Q1.",
+      "quote": "if you look at Medicare Part D redesigned, in Q1, it dampened our US revenues by approximately $650 million as we expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Vyndaqel family faces competition from a new market entrant.",
+      "quote": "Our Vyndaqel family of products had robust growth in the quarter, though we are seeing the impact of competition with a new market entrant and we anticipate this will continue through the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nurtec revenue grew 40% operationally.",
+      "quote": "Demand continued to strengthen for Nurtec, with revenue growing 40% operationally in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Padcev grew 25% operationally.",
+      "quote": "Padcev, for example, grew 25% operationally, driven by increased market share in first-line metastatic urothelial cancer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lorbrena grew 39% operationally.",
+      "quote": "Lorbrena grew 39% operationally as we continued to see strong adoption with it emerging as a potential first-line standard of care for patients with ALK plus metastatic non-small cell lung cancer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cibinqo grew 42% operationally.",
+      "quote": "Familiarity among health care professionals continued to improve for Cibinqo, which grew 42% operationally in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost realignment program on track to deliver at least $4.5 billion in cumulative net cost savings by end of 2025.",
+      "quote": "we remain on track to deliver on our goal of at least $4.5 billion in cumulative net cost savings from our ongoing cost realignment program by the end of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Additional $1.2 billion in net savings expected by end of 2027.",
+      "quote": "And today, we announced our expectation that this program will deliver an additional $1.2 billion in net savings, primarily in SI&A, in part by leveraging digital tools, including automation and AI, as well as simplification of business processes. The savings are expected to be fully realized by the end of 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately $500 million in R&D savings expected by end of 2026.",
+      "quote": "We expect approximately $500 million in savings associated with these efforts to be realized by the end of 2026 with the savings re-invested within R&D programs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are very pleased with our performance in the first quarter as we continue to execute with focus and discipline on our strategic priorities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International operations returned to operational growth in Q1.",
+      "quote": "In International, we were back to operational growth in the first quarter across all parts of the division.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance does not include potential impact of future tariff policy changes.",
+      "quote": "Let me now spend a few minutes on our 2025 guidance which remains unchanged, and to be clear, does not include the potential impact of future changes in trade and tariff policies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pfizer achieved its 3.25 gross leverage target at end of 2024.",
+      "quote": "We achieved our 3.25 gross leverage target at the end of 2024, a key priority towards improving our capacity for business development.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pfizer fully exited its ownership in Haleon.",
+      "quote": "With this sale we have now fully exited our ownership in Haleon.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pipeline catalysts include at least four regulatory decisions and up to nine Phase 3 readouts in 2025.",
+      "quote": "We are on track for a strong year of anticipated pipeline catalysts in 2025. We are making progress toward anticipated multiple key milestones, including at least four regulatory decisions, up to nine Phase 3 readouts, and a significant series of pivotal program starts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline between HOLD and BUY. The Q1 beat and cost savings are positive, but guidance was reaffirmed unchanged and tariff uncertainty is a significant overhang. A reviewer may wish to assess whether the score should be slightly lower (0.0) given the flat forward guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PFE_Bundled Earnings Report_2025-04-28",
+  "report_metadata": {
+    "issuer": "p2_pfizer",
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q1\\PFE-USQ_Transcript_2025-04-29.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PFE_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T155946Z",
+    "timestamp": "2026-07-21T16:00:07Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q1\\PFE-USQ_Transcript_2025-04-29.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q1\\PFE-USQ_Transcript_2025-04-29.pdf",
+        "page_count": 23,
+        "extracted_characters": 80135,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ1_2025.txt"
+  }
+}

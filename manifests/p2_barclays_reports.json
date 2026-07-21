@@ -1,0 +1,53 @@
+{
+  "issuer": "p2_barclays",
+  "reports": [
+    {
+      "document_id": "BCS_FQ2_2025",
+      "issuer": "p2_barclays",
+      "company": "Barclays",
+      "ticker": "BCS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/barclays/CY2025-Q2/Barclays Q225 sellside transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BCS_FQ3_2025",
+      "issuer": "p2_barclays",
+      "company": "Barclays",
+      "ticker": "BCS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-22",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/barclays/CY2025-Q3/Q325 Sellside Analyst Meeting transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BCS_FQ1_2026",
+      "issuer": "p2_barclays",
+      "company": "Barclays",
+      "ticker": "BCS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-28",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/barclays/CY2026-Q1/Sellside-Analyst-Meeting-Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

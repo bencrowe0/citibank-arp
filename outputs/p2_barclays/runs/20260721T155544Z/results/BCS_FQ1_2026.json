@@ -1,0 +1,172 @@
+{
+  "document_id": "BCS_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum with confident forward language, though no formal guidance raise is made. Management reaffirms all targets (cost:income ratio, RoTE, lending CAGR) and describes 'real momentum' and 'consistency of operational execution.' Key growth drivers like UKCB lending, USCB organic growth, and structural hedge improvements are highlighted, while risks (inflation, political tax changes, competitive pressure) are acknowledged but managed. The tone is confident but not euphoric, and guidance is held, not raised, so the score is moderately positive."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed (no specific revenue figure reported in the document).",
+    "eps": "Not disclosed.",
+    "guidance": "Management reaffirmed all targets: low 50s cost:income ratio for 2026, >20% RoTE for BUK, high single-digit total income CAGR for USCB from 2025 to 2028, >5% lending CAGR in UK, and broadly stable IB market share. Costs expected lower in 2026 vs 2025. Structural hedge balance increased by £6bn due to deposit stability reassessment.",
+    "margin": "Not disclosed (no explicit margin figure).",
+    "key_risks": [
+      "Potential increase in UK banking surcharge (1% increase would cost ~£35m/year).",
+      "Inflationary pressures on costs (people, property, technology) with lagged transmission.",
+      "Competitive pressure in UK lending and IB capital deployment from US peers.",
+      "Geopolitical instability and risks to highly levered sub-investment-grade businesses.",
+      "Uncertainty around Private Credit exposure and fraud incidents at competitors."
+    ],
+    "key_opportunities": [
+      "UKCB lending growth with no margin or risk deterioration; new clients and iPortal technology.",
+      "USCB organic growth (10% in Q1) plus Best Egg acquisition and new partner opportunities.",
+      "Structural hedge balance increase of £6bn from deposit stability reassessment.",
+      "IB disciplined capital deployment with revenue/RWA up to 8% and further RWA optimisation.",
+      "AI and technology investments expected to be net benefit long-term, with cost:income targets intact."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Anna Cross states 'the consistency of operational execution that I see across the group... Nine quarters into the plan, we're delivering against all of our objectives with real momentum.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Management reaffirms all targets and expresses confidence in execution.",
+      "quote": "Nine quarters into the plan, we're delivering against all of our objectives with real momentum. We're raising the level and consistency of returns. We're increasing shareholder distributions, and we're rebalancing the group towards the highest returning divisions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "UKCB lending growth shows no margin or risk deterioration.",
+      "quote": "As I look at the lending that's being put down there, Michael, I see no deterioration in margin, and no deterioration in the risk profile. The thing that we look at is the delinquency grades, [there is] no change in that at all.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "USCB organic growth is strong at 10% in Q1.",
+      "quote": "On USCB, you're right about the change in mix. But we've seen very good organic growth in this business over time, I think 10% growth to the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural hedge balance increased by £6bn due to deposit stability reassessment.",
+      "quote": "So there was about a £6 billion increase in the structural hedge balance, as you note. A little bit of that was equity, which is reasonably straightforward. The rest of it, about £5 billion of it was due to us looking at the stability of the deposits that we've got.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost:income ratio target of low 50s for 2026 is reaffirmed.",
+      "quote": "And of course, we still expect lower costs in 2026 versus 2025 and a low 50s cost:income ratio for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BUK RoTE target is greater than 20%.",
+      "quote": "For BUK, look, the target is greater than [20% RoTE], we do expect to invest more in the business, but all of that is contained within the cost:income ratio guidance that we've already given you.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "UK banking surcharge increase is a risk; 1% increase would cost ~£35m/year.",
+      "quote": "To give a sense of scale, a 1% increase would increase the amount we pay by around £35 million per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflationary pressures on costs are acknowledged but managed via efficiencies.",
+      "quote": "So actually, 2024 and 2025 were relatively high levels of inflation for us, 2024 in particular. So we'd expect inflation to come through on a lagged basis, and what we've done before is try to lean more into the growth efficiency targets that we have to try and manage that position.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "IB capital deployment is disciplined with revenue/RWA up to 8%.",
+      "quote": "And we did so while still increasing our revenue over RWA, went up to 8% in the quarter. We had one loss day and the VAR was flat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Private Credit exposure is small and managed with strict controls.",
+      "quote": "Look, we don't have a target balance. We have grown, I would say, broadly in line with the market over time. As we've done so, we've remained very focused on larger managers, areas where we have clear look through to the collateral for that collateral to be, in our view, higher quality, higher EBITDA businesses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Nine quarters into the plan, we're delivering against all of our objectives with real momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No specific revenue figure was reported in the document; only qualitative commentary on income growth and mix."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "No EPS figure or variance commentary was provided in the document."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin figure was disclosed; only cost:income ratio guidance was given."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 3
+  },
+  "model_document_id": "BCS_Bundled Earnings Report_2026-04-28",
+  "report_metadata": {
+    "issuer": "p2_barclays",
+    "company": "Barclays",
+    "ticker": "BCS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2026-Q1\\Sellside-Analyst-Meeting-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BCS_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260721T155544Z",
+    "timestamp": "2026-07-21T15:56:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2026-Q1\\Sellside-Analyst-Meeting-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_barclays\\extracted\\BCS_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2026-Q1\\Sellside-Analyst-Meeting-Transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 54366,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_barclays\\extracted\\BCS_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

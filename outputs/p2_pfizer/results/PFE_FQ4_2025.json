@@ -1,0 +1,177 @@
+{
+  "document_id": "PFE_FQ4_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Full-year 2025 revenue and Adjusted diluted EPS exceeded expectations, and the company reaffirmed its 2026 guidance unchanged. However, the guidance was not raised, and management explicitly noted upcoming LOE headwinds from 2026 to 2028, which tempers the forward outlook. The score reflects a modest positive from the beat and reaffirmation, but not enough to cross into a stronger bullish territory given the unchanged guidance and acknowledged risks."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Full year 2025 revenues of $62.6 billion versus $63.6 billion last year, a 2% operational decline. Q4 2025 revenues of $17.6 billion, a 3% operational decline year-over-year. Non-COVID product revenue grew 9% operationally in Q4.",
+    "eps": "Full year 2025 reported diluted EPS of $1.36 versus $1.41 last year; Adjusted diluted EPS of $3.22 versus $3.11 last year, ahead of expectations. Q4 2025 reported diluted GAAP loss per share of $0.29; Adjusted diluted EPS of $0.66, ahead of expectations.",
+    "guidance": "Full year 2026 guidance reaffirmed: revenues $59.5 billion to $62.5 billion; Adjusted diluted EPS $2.80 to $3.00 per share. COVID products expected to trend lower to ~$5 billion. Non-COVID portfolio expected to grow ~4% operationally at the midpoint, excluding COVID and LOE products.",
+    "margin": "Full year 2025 Adjusted gross margins expanded to 76%. Q4 2025 Adjusted gross margin approximately 71%, reflecting product mix and lower Comirnaty sales. Mid-70s Adjusted gross margin expected for 2026.",
+    "key_risks": [
+      "Upcoming LOE headwinds from 2026 to 2028, with ~$1.5 billion revenue compression from generic entry in 2026.",
+      "COVID products expected to trend lower again in 2026 to ~$5 billion.",
+      "Non-cash intangible asset impairments of ~$4.4 billion in Q4 2025 related to certain pipeline and in-line products.",
+      "Leverage expected to remain at current level or slightly higher through the LOE period."
+    ],
+    "key_opportunities": [
+      "Recently launched and acquired products delivered $10.2 billion in 2025, growing ~14% operationally.",
+      "VESPER-3 data for monthly GLP-1 agonist '3944 shows potential for competitive efficacy and differentiated monthly dosing, targeting first approval in 2028.",
+      "Expansive obesity portfolio with 20+ trials planned in 2026, including 10 Phase 3 studies for '3944.",
+      "Oncology pipeline progress including PADCEV approvals and multiple Phase 3 starts for sigvotatug vedotin and bispecific antibody '4404.",
+      "AI deployment across R&D, manufacturing, and commercial to improve productivity and accelerate innovation.",
+      "Planned sale of ViiV stake provides ~$7 billion in BD capacity."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Albert Bourla stated '2025 was a very good year for Pfizer' and 'we exceeded expectations for revenues and Adjusted diluted EPS,' while CFO David Denton described 'strong financial performance' and 'disciplined execution.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full year 2025 revenues were $62.6 billion, a 2% operational decline.",
+      "quote": "For the full year 2025, we recorded revenues of $62.6 billion versus $63.6 billion last year representing a 2% operational decline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 Adjusted diluted EPS was $3.22, ahead of expectations.",
+      "quote": "Adjusted diluted earnings per share of $3.22 versus $3.11 LY, ahead of expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2026 guidance is reaffirmed unchanged.",
+      "quote": "Now let me turn quickly to our full year '26 guidance, again, which remains unchanged. We expect total company full year '26 revenues to be in the range of $59.5 billion to $62.5 billion and full year '26 Adjusted diluted earnings per share to be in the range of $2.80 to $3 a share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 Adjusted gross margins expanded to 76%.",
+      "quote": "Full year 2025 Adjusted gross margins expanded to 76%, in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted diluted EPS was $0.66, ahead of expectations.",
+      "quote": "Our Adjusted diluted earnings per share performance was a profit of $0.66, ahead of our expectations due to our overall gross margin and cost management performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-COVID product revenue grew 9% operationally in Q4 2025.",
+      "quote": "our non-COVID product performance was solid, growing 9% operationally versus the same period of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recently launched and acquired products delivered $10.2 billion in 2025, growing ~14% operationally.",
+      "quote": "Pfizer's recently launched and acquired set of products delivered $10.2 billion in revenues for the full year of '25 while growing approximately 14% operationally versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID products expected to trend lower in 2026 to ~$5 billion.",
+      "quote": "Our COVID products are expected to trend lower again in '26 with revenues of approximately $5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately $1.5 billion in revenue compression from generic entry in 2026.",
+      "quote": "We continue to expect stable revenue contributions from our non-COVID product portfolio, which incorporates an expectation of approximately $1.5 billion in revenue compression due to products impacted by anticipated generic entry in '26.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-cash intangible asset impairments of ~$4.4 billion in Q4 2025.",
+      "quote": "we recorded approximately $4.4 billion of non-cash intangible asset impairments related to several medicines in development as well as in-line products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "VESPER-3 data for monthly GLP-1 agonist '3944 shows competitive efficacy and differentiated monthly dosing.",
+      "quote": "With these results, we are confident that '3944 has the potential to deliver efficacy that is competitive with the standard of care and potentially best-in-class among monoagonists with a differentiated monthly dosing format.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "So 2025 was a very good year for Pfizer. I'm very pleased with strong execution to deliver and, frankly, over deliver on our financial commitments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leverage expected to remain at current level or slightly higher through the LOE period.",
+      "quote": "However, given the next few years of LOE headwinds, we expect the leverage to remain at this current level or slightly higher through the LOE period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Planned sale of ViiV stake provides ~$7 billion in BD capacity.",
+      "quote": "When including the ViiV proceeds, we have approximately $7 billion in BD capacity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is exactly at the BUY threshold (0.15). A human reviewer should confirm whether the unchanged guidance and LOE risks warrant a slightly lower score (HOLD) or if the beat and confident tone justify a BUY."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PFE_Bundled Earnings Report_2026-02-02",
+  "report_metadata": {
+    "issuer": "p2_pfizer",
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-02",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q4\\PFE-USQ_Transcript_2026-02-03.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PFE_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T155946Z",
+    "timestamp": "2026-07-21T16:02:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q4\\PFE-USQ_Transcript_2026-02-03.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q4\\PFE-USQ_Transcript_2026-02-03.pdf",
+        "page_count": 23,
+        "extracted_characters": 77166,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ4_2025.txt"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "document_id": "MSFT_FQ1_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports a solid quarter with revenue and EPS beating prior-year comparisons, but forward guidance for Q2 is mixed: Azure growth is guided to decelerate slightly (31-32% vs 34% in Q1) due to supply constraints, though management expects acceleration in H2. The AI business is on track to surpass $10 billion annual revenue run rate, and management expresses confidence in long-term demand. However, the guidance is not raised materially above prior expectations, and supply constraints are a recurring headwind. The score reflects genuine operational momentum (AI revenue milestone, strong bookings) tempered by near-term supply limitations and a cautious but confident tone."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$65.6 billion, up 16% year-over-year.",
+    "eps": "$3.30, up 10% year-over-year.",
+    "guidance": "Q2 FY25: Productivity and Business Processes revenue $28.7-29.0 billion (10-11% CC growth); Intelligent Cloud revenue $25.55-25.85 billion (18-20% CC growth); More Personal Computing revenue $13.85-14.25 billion. Azure growth guided to 31-32% CC in Q2, with acceleration expected in H2. COGS $21.9-22.1 billion, OpEx $16.4-16.5 billion. Operating margin expansion expected.",
+    "margin": "Company gross margin 69%, down 2 points year-over-year. Microsoft Cloud gross margin 71%, down 2 points year-over-year. Operating margin 47%, down 1 point year-over-year; excluding Activision impact, operating margins up 1 point.",
+    "key_risks": [
+      "Scaling AI infrastructure is driving gross margin compression (Microsoft Cloud gross margin down 2 points).",
+      "Supply constraints for AI capacity, including third-party delivery delays, are limiting Azure growth in Q2.",
+      "Activision acquisition continues to drag on operating income growth (2 points) and EPS (negative $0.05).",
+      "Foreign currency fluctuations could impact results (though currently minimal).",
+      "Higher capital expenditures ($20 billion in Q1) are reducing free cash flow (down 7% year-over-year)."
+    ],
+    "key_opportunities": [
+      "AI business on track to surpass $10 billion annual revenue run rate next quarter, fastest in company history.",
+      "Azure AI services contributing 12 points to Azure growth, with demand exceeding available capacity.",
+      "Microsoft 365 Copilot adoption accelerating: daily users doubled quarter-over-quarter, nearly 70% of Fortune 500 using it.",
+      "Commercial bookings up 30% (23% CC), with growth in large contracts ($10M+ and $100M+).",
+      "Game Pass set new Q1 record for total revenue and average revenue per subscriber; Call of Duty: Black Ops 6 was biggest launch ever.",
+      "Capital investments expected to increase AI capacity in H2, driving Azure growth acceleration."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'solid start,' 'strong execution,' and 'on track to surpass $10 billion,' and expresses confidence in long-term demand and H2 acceleration despite near-term supply constraints."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $65.6 billion, up 16% year-over-year.",
+      "quote": "This quarter, revenue was $65.6 billion, up 16%, and earnings per share was $3.30, an increase of 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $3.30, up 10% year-over-year.",
+      "quote": "This quarter, revenue was $65.6 billion, up 16%, and earnings per share was $3.30, an increase of 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY25 guidance: Productivity and Business Processes revenue $28.7-29.0 billion (10-11% CC growth).",
+      "quote": "Therefore, we expect revenue in Productivity and Business Processes to grow between 10% and 11% in constant currency, or $28.7 to $29 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY25 guidance: Intelligent Cloud revenue $25.55-25.85 billion (18-20% CC growth).",
+      "quote": "Therefore, we expect revenue in Intelligent Cloud to grow between 18% and 20% in constant currency, or $25.55 to $25.85 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY25 guidance: More Personal Computing revenue $13.85-14.25 billion.",
+      "quote": "We expect revenue in More Personal Computing to be $13.85 to $14.25 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Azure growth guided to 31-32% CC in Q2, with acceleration expected in H2.",
+      "quote": "In Azure, we expect Q2 revenue growth to be 31% to 32% in constant currency driven by strong demand for our portfolio of services. ... And in H2, we still expect Azure growth to accelerate from H1 as our capital investments create an increase in available AI capacity to serve more of the growing demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company gross margin 69%, down 2 points year-over-year.",
+      "quote": "Company gross margin dollars increased 13% and 14% in constant currency and gross margin percentage was 69%, down 2 points year-over-year driven by the lower Microsoft Cloud gross margin noted earlier, as well as the impact from purchase accounting adjustments, integration, and transaction-related costs from the Activision acquisition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Microsoft Cloud gross margin 71%, down 2 points year-over-year.",
+      "quote": "Microsoft Cloud gross margin percentage decreased 2 points year-over-year to 71%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin 47%, down 1 point year-over-year; excluding Activision impact, operating margins up 1 point.",
+      "quote": "Operating income increased 14% and operating margins were 47%, down 1 point year-over-year. Excluding the net impact from the Activision acquisition, operating margins were up 1 point as we continue to drive efficiencies across our businesses as we invest in AI infrastructure and capabilities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI business on track to surpass $10 billion annual revenue run rate next quarter.",
+      "quote": "All-up, our AI business is on track to surpass an annual revenue run rate of $10 billion next quarter, which will make it the fastest business in our history to reach this milestone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Azure AI services contributing 12 points to Azure growth.",
+      "quote": "Azure growth included roughly 12 points from AI services, similar to last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Microsoft 365 Copilot daily users doubled quarter-over-quarter.",
+      "quote": "This innovation is driving accelerated usage, and the number of people who use Microsoft 365 Copilot daily more than doubled quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial bookings up 30% (23% CC).",
+      "quote": "Commercial bookings were ahead of expectations and increased 30% and 23% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply constraints for AI capacity are limiting Azure growth in Q2.",
+      "quote": "The supply push out, as Satya said, with third parties that are delivering later than we had expected. That gets pushed mainly into the second half of the year and in general, Q3. ... And Q2 has been the supply push out.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital expenditures were $20 billion in Q1, in line with expectations.",
+      "quote": "Capital expenditures including finance leases were $20 billion, in line with expectations, and cash paid for P, P, and E was $14.9 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was $19.3 billion, down 7% year-over-year.",
+      "quote": "Free cash flow was $19.3 billion, down 7% year-over-year, reflecting higher capital expenditures to support our cloud and AI offerings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are off to a solid start to our fiscal year, driven by continued strength of the Microsoft Cloud, which surpassed $38.9 billion in revenue, up 22%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 is based on genuine momentum (AI revenue milestone, strong bookings) but tempered by supply constraints and a slight deceleration in Azure guidance. A reviewer may want to assess whether the supply constraints are more structural than temporary, which could lower the score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MSFT_Bundled Earnings Report_2024-10-30",
+  "report_metadata": {
+    "issuer": "p2_microsoft",
+    "company": "Microsoft",
+    "ticker": "MSFT",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2024-10-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q1\\cdn-dynmedia-1.microsoft.com (2).pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MSFT_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T155811Z",
+    "timestamp": "2026-07-21T15:58:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q1\\cdn-dynmedia-1.microsoft.com (2).pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_microsoft\\extracted\\MSFT_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q1\\cdn-dynmedia-1.microsoft.com (2).pdf",
+        "page_count": 46,
+        "extracted_characters": 55678,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_microsoft\\extracted\\MSFT_FQ1_2025.txt"
+  }
+}
