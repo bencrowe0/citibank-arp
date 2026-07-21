@@ -1,7 +1,9 @@
 """Generate paste-ready Data Entry rows for the Phase 2 (apples-to-apples,
 104-combo) LLM run - one row per scoreable combo, in the exact Data Entry
 column order (Company, Ticker blank/auto, Year, Quarter, Rater, Type,
-Sentiment Score, Decision, Time blank, Prior Close, Next Day Open, Notes).
+Sentiment Score, Decision, Time blank, Prior Close, Next Day Open,
+Actual % Change/Actual Direction/Prediction Correct/Position/Net P&L
+blank - sheet formulas fill these, Notes).
 Company spelling matches the `list` sheet exactly so the XLOOKUP resolves.
 
 No live sheet editing (per project rule) - just writes a CSV for copy-paste.
@@ -77,6 +79,11 @@ def main() -> None:
                 "Time": "",
                 "Prior Close": prior_close,
                 "Next Day Open": next_day_open,
+                "Actual % Change": "",
+                "Actual Direction": "",
+                "Prediction Correct": "",
+                "Position": "",
+                "Net P&L": "",
                 "Notes": notes,
             })
 
