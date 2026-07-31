@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/amd/CY2025-Q2/05 amd q2 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amd/CY2025-Q2/AMD-Q2-2025-Earnings-Call-Transcript-InsiderMonkey.txt"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/amd/CY2025-Q4/06 amd q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amd/CY2025-Q4/AMD-Q4-2025-Earnings-Call-Transcript-InsiderMonkey.txt"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/amd/CY2026-Q1/04 amd q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amd/CY2026-Q1/AMD-Q1-2026-Earnings-Call-Transcript-MotleyFool.txt"
         }
       ]
     }

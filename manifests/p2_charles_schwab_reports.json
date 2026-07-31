@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/charles_schwab/CY2025-Q1/SCHW-Q1-2025-earnings-call-transcript-InsiderMonkey.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/charles_schwab/CY2025-Q1/SCHW-Q1-2025-Press-Release-SEC-EX991.htm"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/charles_schwab/CY2025-Q2/SCHW-Q2-2025-earnings-call-transcript-InsiderMonkey.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/charles_schwab/CY2025-Q2/SCHW-Q2-2025-Press-Release-SEC-EX991.htm"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/charles_schwab/CY2025-Q3/SCHW-Q3-2025-earnings-call-transcript-InsiderMonkey.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/charles_schwab/CY2025-Q3/SCHW-Q3-2025-Press-Release-SEC-EX991.htm"
         }
       ]
     },
@@ -62,6 +74,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/charles_schwab/CY2025-Q4/SCHW-Q4-2025-earnings-call-transcript-MotleyFool.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/charles_schwab/CY2025-Q4/SCHW-Q4-2025-Press-Release-SEC-EX991.htm"
         }
       ]
     },
@@ -78,6 +94,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/charles_schwab/CY2026-Q1/SCHW-Q1-2026-earnings-call-transcript-InsiderMonkey.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/charles_schwab/CY2026-Q1/SCHW-Q1-2026-Press-Release-SEC-EX991.htm"
         }
       ]
     }

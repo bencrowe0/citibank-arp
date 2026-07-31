@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/tesla/CY2025-Q3/20 tesla q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/tesla/CY2025-Q3/Tesla-Q3-2025-Earnings-Call-Transcript-MotleyFool.html"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/tesla/CY2025-Q4/21 tesla q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/tesla/CY2025-Q4/Tesla-Q4-2025-Earnings-Call-Transcript-MotleyFool.html"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/tesla/CY2026-Q1/19 tesla q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/tesla/CY2026-Q1/Tesla-Q1-2026-Earnings-Call-Transcript-StockAnalysis.html"
         }
       ]
     }

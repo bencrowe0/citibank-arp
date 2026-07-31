@@ -349,7 +349,12 @@ def _merge_wrapped_lines(page_texts: list[str]) -> str:
 def extract_doc_text(pdf_path: Path) -> ExtractionResult:
     warnings: list[str] = []
 
-    if pdf_path.suffix.lower() == ".html":
+    # ".htm" is the conventional SEC EDGAR exhibit extension (e.g. EX-99.1
+    # filings) and is byte-for-byte the same format as ".html" - both route
+    # through the same lenient stdlib HTMLParser, which tolerates a leading
+    # non-tag text line (some sourced files carry a "Source: <url>" first
+    # line for provenance) as harmless extra text, not a parse error.
+    if pdf_path.suffix.lower() in (".html", ".htm"):
         page_texts, page_count = _extract_text_from_html(pdf_path)
         extractor_used = "html.parser"
         cleaned_text = _merge_wrapped_lines(page_texts)
@@ -363,6 +368,28 @@ def extract_doc_text(pdf_path: Path) -> ExtractionResult:
         return ExtractionResult(
             text=cleaned_text,
             page_count=page_count,
+            extracted_characters=extracted_characters,
+            warnings=warnings,
+            extractor_used=extractor_used,
+        )
+
+    if pdf_path.suffix.lower() == ".txt":
+        # Already-plain text (e.g. a web-sourced transcript saved as .txt) -
+        # no markup to strip, just normalize whitespace the same way the
+        # PDF/HTML paths do before the length/keyword checks.
+        raw_text = pdf_path.read_text(encoding="utf-8", errors="replace")
+        cleaned_text = _merge_wrapped_lines([raw_text])
+        extractor_used = "plain_text"
+        extracted_characters = len(cleaned_text)
+        if extracted_characters < MIN_EXTRACTED_TEXT_CHARS:
+            raise ValueError(
+                f"Extracted text from {pdf_path.name} is too short ({extracted_characters} characters)"
+            )
+        if "Earnings Call" not in cleaned_text and "Earnings Call Transcripts" not in cleaned_text:
+            warnings.append("missing_keyword:Earnings Call")
+        return ExtractionResult(
+            text=cleaned_text,
+            page_count=1,
             extracted_characters=extracted_characters,
             warnings=warnings,
             extractor_used=extractor_used,

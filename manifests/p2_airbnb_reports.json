@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/airbnb/CY2025-Q2/Airbnb-Q2-25-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/airbnb/CY2025-Q2/Airbnb-Q2-2025-Shareholder-Letter.txt"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/airbnb/CY2025-Q3/Airbnb-Q3-2025-Earnings-Call-6-November-2025-5_00-PM-ET.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/airbnb/CY2025-Q3/Airbnb-Q3-2025-Shareholder-Letter.txt"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/airbnb/CY2025-Q4/Airbnb-Q4-25-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/airbnb/CY2025-Q4/Airbnb-Q4-2025-Shareholder-Letter.txt"
         }
       ]
     },
@@ -62,6 +74,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/airbnb/CY2026-Q1/Airbnb-Q1-26-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/airbnb/CY2026-Q1/Airbnb-Q1-2026-Shareholder-Letter.txt"
         }
       ]
     }

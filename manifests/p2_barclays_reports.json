@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/barclays/CY2025-Q2/Barclays Q225 sellside transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/barclays/CY2025-Q2/Barclays-H1-2025-Interim-Results-Announcement.pdf"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/barclays/CY2025-Q3/Q325 Sellside Analyst Meeting transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/barclays/CY2025-Q3/Barclays-Q3-2025-Results-Announcement.pdf"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/barclays/CY2026-Q1/Sellside-Analyst-Meeting-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/barclays/CY2026-Q1/Barclays-Q1-2026-Results-Announcement.pdf"
         }
       ]
     }

@@ -1,0 +1,6 @@
+Ford (F) - News digest, FQ1 2026 (report date 2026-04-29). Pre-earnings estimate context only.
+
+Ahead of Ford's Q1 2026 results (announced 29 April 2026), the Zacks Consensus Estimate called for EPS of $0.20 and automotive revenue of $39.34 billion. A pre-earnings S&P Global Market Intelligence research note projected only modest automotive revenue growth (+2.3% YoY to ~$38.3 billion) with unit sales expected to hold roughly flat around 972,000 vehicles, and flagged deepening EV (Model e segment) losses as an ongoing drag heading into the print - tempering expectations after Q4 2025's earnings miss.
+
+Sources:
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/04/ford-heads-into-q1-with-modest-revenue-growth-and-deepening-ev-losses (S&P Global Market Intelligence, "Ford heads into Q1 with modest revenue growth and deepening EV losses")

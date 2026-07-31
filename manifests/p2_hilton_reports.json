@@ -1,0 +1,45 @@
+{
+  "issuer": "p2_hilton",
+  "reports": [
+    {
+      "document_id": "HLT_FQ1_2025",
+      "issuer": "p2_hilton",
+      "company": "Hilton",
+      "ticker": "HLT",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hilton/CY2025-Q1/HLT-Q1-2025-Earnings-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hilton/CY2025-Q1/HLT-Q1-2025-Earnings-Call-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HLT_FQ2_2025",
+      "issuer": "p2_hilton",
+      "company": "Hilton",
+      "ticker": "HLT",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-23",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hilton/CY2025-Q2/HLT-Q2-2025-Earnings-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hilton/CY2025-Q2/HLT-Q2-2025-earnings-call-transcript-MotleyFool.txt"
+        }
+      ]
+    }
+  ]
+}

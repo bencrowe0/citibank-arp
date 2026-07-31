@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/ford/CY2025-Q2/Ford-Q2-2025-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ford/CY2025-Q2/Ford-Q2-2025-Press-Release-SEC-8K-Exhibit.htm"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/ford/CY2025-Q4/Ford-Q4-2025-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ford/CY2025-Q4/Ford-Q4-2025-Earnings-Press-Release.pdf"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/ford/CY2026-Q1/Ford-Q1-2026-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ford/CY2026-Q1/Ford-Q1-2026-Press-Release.pdf"
         }
       ]
     }

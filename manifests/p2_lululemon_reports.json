@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/lululemon/CY2025-Q3/Q3 2025 Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lululemon/CY2025-Q3/LULU-Q3-FY2025-Press-Release-SEC-EX991.htm"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/lululemon/CY2025-Q4/Q4 2025 Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lululemon/CY2025-Q4/LULU-Q4-FY2025-Press-Release-SEC-EX991.htm"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/lululemon/CY2026-Q1/Q1 2026 Earnings Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lululemon/CY2026-Q1/LULU-Q1-FY2026-Press-Release-SEC-EX991.htm"
         }
       ]
     }

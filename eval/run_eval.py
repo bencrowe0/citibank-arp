@@ -24,7 +24,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from report_pipeline import OUTPUTS_DIR
-from blend import DEFAULT_WEIGHTS
+from blend import DEFAULT_WEIGHTS, PHASE2_ISSUERS
 from eval.calibrate import DEFAULT_HOLD_LOWER, DEFAULT_HOLD_UPPER, Document, loocv_blend, loocv_threshold_only
 from eval.outcomes import (
     DEFAULT_WINDOW_TRADING_DAYS,
@@ -51,6 +51,16 @@ def parse_args() -> argparse.Namespace:
         "--issuers",
         default=",".join(ALL_ISSUERS),
         help=f"Comma-separated issuers to pool. Default: {','.join(ALL_ISSUERS)}",
+    )
+    parser.add_argument(
+        "--phase2-all",
+        action="store_true",
+        help=(
+            "Pool every registered phase2 issuer (blend.PHASE2_ISSUERS, 'p2_' prefixed) "
+            "instead of hand-typing --issuers. Avoids silently omitting a ticker from the "
+            "phase2 calibration rebuild whenever a new p2_ issuer is onboarded. "
+            "Overrides --issuers if both are given."
+        ),
     )
     parser.add_argument("--window-trading-days", type=int, default=DEFAULT_WINDOW_TRADING_DAYS)
     parser.add_argument("--outcome-upper", type=float, default=OUTCOME_UPPER_DEFAULT)
@@ -125,7 +135,10 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 def main() -> int:
     args = parse_args()
-    issuers = [issuer.strip() for issuer in args.issuers.split(",") if issuer.strip()]
+    if args.phase2_all:
+        issuers = [f"p2_{name}" for name in PHASE2_ISSUERS]
+    else:
+        issuers = [issuer.strip() for issuer in args.issuers.split(",") if issuer.strip()]
 
     pairs = []
     for issuer in issuers:

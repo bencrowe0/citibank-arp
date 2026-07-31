@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/meta/CY2025-Q3/14 meta q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/meta/CY2025-Q3/META-Q3-2025-Earnings-Call-Transcript-IR.pdf"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/meta/CY2025-Q4/15 meta q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/meta/CY2025-Q4/META-Q4-2025-Earnings-Call-Transcript-IR.pdf"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/meta/CY2026-Q1/13 meta q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/meta/CY2026-Q1/META-Q1-2026-Earnings-Call-Transcript-IR.pdf"
         }
       ]
     }

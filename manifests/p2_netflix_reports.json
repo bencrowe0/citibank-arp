@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/netflix/phase2/CY2024-Q4/netflix q4 2024 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/phase2/CY2024-Q4/Netflix-Inc-_Earnings-Call_2025-01-21_English-1.pdf"
         }
       ]
     },
@@ -29,7 +33,11 @@
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/netflix/phase2/CY2025-Q1/Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf"
+          "source_pdf": "docs/netflix/phase2/CY2025-Q1/Netflix-Q1-2025-Earnings-Call-Transcript-InsiderMonkey-CORRECTED.txt"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q1/NFLX-Q1-2025-Shareholder-Letter-SEC-EX991.htm"
         }
       ]
     },
@@ -45,7 +53,11 @@
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/netflix/phase2/CY2025-Q2/Netflix-Inc-_Earnings-Call_2026-01-20_English-1.pdf"
+          "source_pdf": "docs/netflix/phase2/CY2025-Q2/Netflix-Q2-2025-Earnings-Call-Transcript-InsiderMonkey-CORRECTED.txt"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q2/NFLX-Q2-2025-Shareholder-Letter-SEC-EX991.htm"
         }
       ]
     },
@@ -62,6 +74,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/netflix/phase2/CY2025-Q3/netflix q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q3/Netflix-Inc-_Earnings-Call_2025-10-21_English-verified.pdf"
         }
       ]
     },
@@ -82,6 +98,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/netflix/phase2/CY2025-Q4/netflix q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/netflix/phase2/CY2025-Q4/Netflix-Inc-_Earnings-Call_2026-01-20_English-relocated-from-Q2-folder.pdf"
         }
       ]
     },
@@ -98,6 +118,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/netflix/phase2/CY2026-Q1/Netflix-Inc-_Earnings-Call_2026-04-16T00_00_00_English-1.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/netflix/phase2/CY2026-Q1/NFLX-Q1-2026-Shareholder-Letter-SEC-EX991.htm"
         }
       ]
     }

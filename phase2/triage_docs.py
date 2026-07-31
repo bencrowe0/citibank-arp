@@ -69,6 +69,20 @@ TARGET_COMBOS = [
     ("Microsoft", "MSFT", 2025, "Q1"), ("Microsoft", "MSFT", 2025, "Q2"), ("Microsoft", "MSFT", 2026, "Q1"),
     ("Pfizer", "PFE", 2025, "Q1"), ("Pfizer", "PFE", 2025, "Q2"), ("Pfizer", "PFE", 2025, "Q4"), ("Pfizer", "PFE", 2026, "Q1"),
     ("United Airlines", "UAL", 2025, "Q1"), ("United Airlines", "UAL", 2025, "Q2"), ("United Airlines", "UAL", 2025, "Q3"), ("United Airlines", "UAL", 2025, "Q4"),
+    # Third batch - 33 combos humans scored with no manifest entry anywhere: 6
+    # brand-new tickers (no OneDrive folder to scan - documents hand-sourced from
+    # the web, manifests hand-authored, see manifests/p2_pepsico_reports.json etc.)
+    # plus 3 older CVS Health quarters on an already-onboarded ticker.
+    ("PepsiCo", "PEP", 2023, "Q1"), ("PepsiCo", "PEP", 2023, "Q2"), ("PepsiCo", "PEP", 2023, "Q3"), ("PepsiCo", "PEP", 2023, "Q4"),
+    ("PepsiCo", "PEP", 2024, "Q1"), ("PepsiCo", "PEP", 2024, "Q2"), ("PepsiCo", "PEP", 2024, "Q3"), ("PepsiCo", "PEP", 2024, "Q4"),
+    ("PepsiCo", "PEP", 2025, "Q1"), ("PepsiCo", "PEP", 2025, "Q2"), ("PepsiCo", "PEP", 2025, "Q3"), ("PepsiCo", "PEP", 2025, "Q4"),
+    ("PepsiCo", "PEP", 2026, "Q1"), ("PepsiCo", "PEP", 2026, "Q2"),
+    ("FedEx", "FDX", 2026, "Q1"), ("FedEx", "FDX", 2026, "Q2"), ("FedEx", "FDX", 2026, "Q3"), ("FedEx", "FDX", 2026, "Q4"),
+    ("Lockheed Martin", "LMT", 2025, "Q1"), ("Lockheed Martin", "LMT", 2025, "Q2"), ("Lockheed Martin", "LMT", 2025, "Q3"), ("Lockheed Martin", "LMT", 2025, "Q4"),
+    ("Novo Nordisk", "NVO", 2025, "Q1"), ("Novo Nordisk", "NVO", 2025, "Q2"), ("Novo Nordisk", "NVO", 2025, "Q3"), ("Novo Nordisk", "NVO", 2025, "Q4"),
+    ("Hilton", "HLT", 2025, "Q1"), ("Hilton", "HLT", 2025, "Q2"),
+    ("LVMH", "MC.PA", 2025, "Q2"), ("LVMH", "MC.PA", 2025, "Q4"),
+    ("CVS Health", "CVS", 2025, "Q2"), ("CVS Health", "CVS", 2025, "Q3"), ("CVS Health", "CVS", 2025, "Q4"),
 ]
 
 TICKER_TO_FOLDER = {
@@ -97,7 +111,15 @@ TICKER_TO_SLUG = {
     "WMT": "walmart",
     "BCS": "barclays", "F": "ford", "MSFT": "microsoft", "PFE": "pfizer",
     "UAL": "united_airlines",
+    "PEP": "pepsico", "FDX": "fedex", "LMT": "lockheed_martin",
+    "NVO": "novo_nordisk", "HLT": "hilton", "MC.PA": "lvmh",
 }
+
+# The 6 tickers above have no OneDrive folder to scan at all (no drop for
+# brand-new issuers) - deliberately absent from TICKER_TO_FOLDER so this
+# script's scan doesn't emit noisy "MISSING FOLDER" lines for them; their
+# manifests are hand-authored directly (see phase2/build_manifests.py's
+# NEW_TICKER_MANIFESTS note) rather than discovered by this triage pass.
 
 OVERLAP_ISSUERS = {"BAC", "BA", "DIS", "JPM", "NFLX", "TGT"}
 

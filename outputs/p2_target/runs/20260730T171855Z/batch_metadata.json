@@ -1,0 +1,23 @@
+{
+  "run_id": "20260730T171855Z",
+  "issuer": "p2_target",
+  "manifest": "C:\\Users\\bencr\\Documents\\Citibank APR\\manifests\\p2_target_reports.json",
+  "dry_run": true,
+  "skip_extract": false,
+  "consistency_runs": 0,
+  "model": "deepseek-chat",
+  "prompt": "llm_analysis_prompt_template.md",
+  "ensemble": 1,
+  "variant": "",
+  "hold_upper": 0.15,
+  "hold_lower": -0.15,
+  "reports_queued": [
+    "TGT_FQ1_2025",
+    "TGT_FQ2_2025",
+    "TGT_FQ3_2025",
+    "TGT_FQ1_2026"
+  ],
+  "failures": 0,
+  "first_run_summary_path": "",
+  "consistency_summary_path": ""
+}

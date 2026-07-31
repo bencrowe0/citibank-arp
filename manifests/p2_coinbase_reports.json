@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/coinbase/CY2025-Q3/08 coinbase q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/coinbase/CY2025-Q3/COIN-Q3-2025-Earnings-Call-Transcript-official.pdf"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/coinbase/CY2025-Q4/09 coinbase q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/coinbase/CY2025-Q4/COIN-Q4-2025-Earnings-Call-Transcript-official.pdf"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/coinbase/CY2026-Q1/07 coinbase q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/coinbase/CY2026-Q1/COIN-Q1-2026-Earnings-Call-Transcript-official.pdf"
         }
       ]
     }

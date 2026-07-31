@@ -46,6 +46,8 @@ COMPANY_NAMES = {
     "WMT": "Walmart",
     "BCS": "Barclays", "F": "Ford", "MSFT": "Microsoft", "PFE": "Pfizer",
     "UAL": "United Airlines",
+    "PEP": "PepsiCo", "FDX": "FedEx", "LMT": "Lockheed Martin",
+    "NVO": "Novo Nordisk", "HLT": "Hilton", "MC.PA": "LVMH",
 }
 
 QUARTER_NUM = {"Q1": 1, "Q2": 2, "Q3": 3, "Q4": 4}

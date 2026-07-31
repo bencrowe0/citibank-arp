@@ -1,0 +1,44 @@
+{
+  "document_id": "PFE_FQ2_2025_NEWS",
+  "base_document_id": "PFE_FQ2_2025",
+  "issuer": "p2_pfizer",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This is a pre-earnings digest, so no guidance is available. The document describes a 'wider-than-usual estimate dispersion' and notes that Pfizer's ~7% dividend yield is 'under scrutiny given ongoing cash-flow/leverage questions following its recent oncology M&A activity.' These factors indicate elevated risk and depressed expectations, but the bar is not extremely low; the dispersion suggests uncertainty rather than a clear low bar. The negative score reflects the cautious tone and the risk of a negative surprise given the scrutiny on cash flow and leverage."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260730T175537Z",
+    "timestamp": "2026-07-30T17:55:47Z",
+    "status": "success",
+    "document_id": "PFE_FQ2_2025_NEWS",
+    "issuer": "p2_pfizer",
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-04",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pfizer\\PFE_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3538,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1261,
+    "total_tokens": 4799,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002291,
+    "latency_seconds": 9.51,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

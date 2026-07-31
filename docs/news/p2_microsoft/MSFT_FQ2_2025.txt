@@ -1,0 +1,6 @@
+Microsoft (MSFT) - News digest, FQ2 2025 (report date 2025-01-29). Pre-earnings estimate context only.
+
+Ahead of Microsoft's fiscal Q2 2025 results (announced 29 January 2025), Wall Street consensus called for EPS of $3.11 and revenue of approximately $68.78 billion. Pre-earnings coverage flagged Azure growth durability as the key swing factor after a run of quarters with cloud growth in the low-to-mid 30%s, plus continued focus on AI capex intensity and its near-term drag on margins heading into the print.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-quarterly-earnings-preview-113111670.html (Yahoo Finance, "Microsoft Corporation's Quarterly Earnings Preview: What You Need to Know")

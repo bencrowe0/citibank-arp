@@ -1,0 +1,44 @@
+{
+  "document_id": "PFE_FQ4_2025_NEWS",
+  "base_document_id": "PFE_FQ4_2025",
+  "issuer": "p2_pfizer",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings market expectations digest, not an earnings release. The document describes analyst consensus estimates (adjusted EPS $0.56-0.58, revenue ~$16.93B) and flags pipeline outlook (obesity/GLP-1 program) as a watch item, but does not indicate whether expectations are stretched or depressed. There is no commentary on valuation, recent stock performance, or analyst estimate revisions that would suggest a high or low bar. Therefore, the score is neutral (0.0) as the document provides no signal of elevated or depressed expectations."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260730T175547Z",
+    "timestamp": "2026-07-30T17:55:55Z",
+    "status": "success",
+    "document_id": "PFE_FQ4_2025_NEWS",
+    "issuer": "p2_pfizer",
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-02",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pfizer\\PFE_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3444,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1140,
+    "total_tokens": 4584,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002133,
+    "latency_seconds": 8.42,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

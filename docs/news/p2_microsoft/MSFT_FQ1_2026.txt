@@ -1,0 +1,6 @@
+Microsoft (MSFT) - News digest, FQ1 2026 (report date 2025-10-29). Pre-earnings estimate context only.
+
+Ahead of Microsoft's fiscal Q1 2026 results (announced 29 October 2025), Wall Street consensus called for EPS of approximately $3.65 (some trackers slightly higher, ~$3.67) on revenue of roughly $74.96-75.32 billion, with Intelligent Cloud segment revenue expected near $30.26 billion (+25.6% YoY). Pre-earnings commentary from Bank of America flagged capital-expenditure trends as a key catalyst to watch, with consensus fiscal-2026 capex estimates around $115 billion and some expectation it could run higher (~$125 billion, ~38% of revenue) given continued AI infrastructure build-out. Analyst sentiment heading into the print was broadly positive (32 of 34 covering analysts at Buy-equivalent ratings per MarketBeat).
+
+Sources:
+- https://www.itiger.com/news/1171742832 (iTiger, Microsoft FY26 Q1 earnings preview - consensus EPS/revenue and capex estimates)

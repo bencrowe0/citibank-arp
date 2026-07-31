@@ -31,6 +31,8 @@ COMPANY_NAMES = {
     "WMT": "Walmart",
     "BCS": "Barclays", "F": "Ford", "MSFT": "Microsoft", "PFE": "Pfizer",
     "UAL": "United Airlines",
+    "PEP": "PepsiCo", "FDX": "FedEx", "LMT": "Lockheed Martin",
+    "NVO": "Novo Nordisk", "HLT": "Hilton", "MC.PA": "LVMH",
 }
 
 SECTORS = {
@@ -44,6 +46,9 @@ SECTORS = {
     "TSLA": "Consumer/Auto", "UBER": "Technology/Transportation", "WMT": "Consumer/Retail",
     "BCS": "Financials", "F": "Consumer/Auto", "MSFT": "Technology",
     "PFE": "Healthcare", "UAL": "Industrials/Airlines",
+    "PEP": "Consumer Staples", "FDX": "Industrials/Logistics",
+    "LMT": "Industrials/Aerospace-Defense", "NVO": "Healthcare",
+    "HLT": "Consumer/Travel", "MC.PA": "Consumer/Luxury",
 }
 
 QUARTER_NUM = {"Q1": 1, "Q2": 2, "Q3": 3, "Q4": 4}

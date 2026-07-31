@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/disney/phase2/CY2025-Q1/q1-fy25-earnings-transcriptpdf.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/disney/phase2/CY2025-Q1/fy2025_q2xprxex991.txt"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/disney/phase2/CY2025-Q3/q3-fy25-earnings-transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/disney/phase2/CY2025-Q3/fy2025_q3xprxex991.txt"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Call Transcript",
           "source_pdf": "docs/disney/phase2/CY2025-Q4/q4-fy25-earnings-transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/disney/phase2/CY2025-Q4/fy2025_q4xprxex991.txt"
         }
       ]
     }

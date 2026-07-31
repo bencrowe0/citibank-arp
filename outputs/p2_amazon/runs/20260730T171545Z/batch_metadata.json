@@ -1,0 +1,22 @@
+{
+  "run_id": "20260730T171545Z",
+  "issuer": "p2_amazon",
+  "manifest": "C:\\Users\\bencr\\Documents\\Citibank APR\\manifests\\p2_amazon_reports.json",
+  "dry_run": true,
+  "skip_extract": false,
+  "consistency_runs": 0,
+  "model": "deepseek-chat",
+  "prompt": "llm_analysis_prompt_template.md",
+  "ensemble": 1,
+  "variant": "",
+  "hold_upper": 0.15,
+  "hold_lower": -0.15,
+  "reports_queued": [
+    "AMZN_FQ3_2025",
+    "AMZN_FQ4_2025",
+    "AMZN_FQ1_2026"
+  ],
+  "failures": 0,
+  "first_run_summary_path": "",
+  "consistency_summary_path": ""
+}

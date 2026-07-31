@@ -1,0 +1,44 @@
+{
+  "document_id": "F_FQ1_2026_NEWS",
+  "base_document_id": "F_FQ1_2026",
+  "issuer": "p2_ford",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the document describes depressed expectations: analyst estimates have been cut (EPS $0.20, revenue $39.34B), and a research note flags 'deepening EV losses' and 'tempering expectations after Q4 2025's earnings miss.' This low bar raises the odds of a positive surprise, but the explicit mention of deepening losses and tempered expectations suggests a cautious outlook, warranting a mildly negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260730T175453Z",
+    "timestamp": "2026-07-30T17:55:00Z",
+    "status": "success",
+    "document_id": "F_FQ1_2026_NEWS",
+    "issuer": "p2_ford",
+    "company": "Ford",
+    "ticker": "F",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_ford\\F_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3458,
+    "cache_hit_tokens": 256,
+    "output_tokens": 966,
+    "total_tokens": 4424,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001945,
+    "latency_seconds": 7.33,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "MSFT_FQ2_2025_NEWS",
+  "base_document_id": "MSFT_FQ2_2025",
+  "issuer": "p2_microsoft",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes elevated expectations: Azure growth durability is flagged as the 'key swing factor' after a run of strong cloud growth, and AI capex intensity is noted as a 'near-term drag on margins.' This suggests a demanding bar with little room for error, raising the risk of a negative surprise even on decent results. The score is slightly negative because expectations appear stretched, not depressed."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260730T175508Z",
+    "timestamp": "2026-07-30T17:55:16Z",
+    "status": "success",
+    "document_id": "MSFT_FQ2_2025_NEWS",
+    "issuer": "p2_microsoft",
+    "company": "Microsoft",
+    "ticker": "MSFT",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-01-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_microsoft\\MSFT_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3413,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1065,
+    "total_tokens": 4478,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002042,
+    "latency_seconds": 8.43,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

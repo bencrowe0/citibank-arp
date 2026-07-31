@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/microsoft/CY2025-Q1/cdn-dynmedia-1.microsoft.com (2).pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2025-Q1/Microsoft-Q1-2025-Earnings-Call-Transcript-MotleyFool.html"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/microsoft/CY2025-Q2/cdn-dynmedia-1.microsoft.com (1).pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2025-Q2/Microsoft-Q2-2025-Earnings-Call-Transcript-MotleyFool.html"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/microsoft/CY2026-Q1/cdn-dynmedia-1.microsoft.com.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2026-Q1/Microsoft-Q1-2026-Earnings-Call-Transcript-MotleyFool.html"
         }
       ]
     }

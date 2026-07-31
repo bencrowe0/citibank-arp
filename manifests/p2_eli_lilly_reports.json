@@ -14,6 +14,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/eli_lilly/CY2025-Q3/11 eli lilly q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/eli_lilly/CY2025-Q3/LLY-Q3-2025-earnings-call-transcript-InsiderMonkey.txt"
         }
       ]
     },
@@ -30,6 +34,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/eli_lilly/CY2025-Q4/12 eli lilly q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/eli_lilly/CY2025-Q4/LLY-Q4-2025-earnings-call-transcript-InsiderMonkey.txt"
         }
       ]
     },
@@ -46,6 +54,10 @@
         {
           "doc_type": "Earnings Document",
           "source_pdf": "docs/eli_lilly/CY2026-Q1/10 eli lilly q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/eli_lilly/CY2026-Q1/LLY-Q1-2026-earnings-call-transcript-InsiderMonkey.txt"
         }
       ]
     }
