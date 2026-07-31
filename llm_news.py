@@ -55,7 +55,8 @@ PHASE2_ISSUERS = [
     "ibm", "lowes", "lululemon", "maersk", "mcdonalds", "meta", "nike",
     "nvidia", "tesla", "uber", "walmart",
     "bank_of_america", "boeing", "disney", "jpm", "netflix", "target",
-    "barclays", "ford", "microsoft", "pfizer",
+    "barclays", "ford", "microsoft", "pfizer", "united_airlines",
+    "pepsico", "fedex", "lockheed_martin", "novo_nordisk", "hilton", "lvmh",
 ]
 MANIFESTS.update({
     f"p2_{name}": BASE_DIR / "manifests" / f"p2_{name}_reports.json"
@@ -138,10 +139,11 @@ def get_news_score(issuer: str, document_id: str) -> dict[str, Any] | None:
 
 
 def main() -> int:
-    # bare `python llm_news.py` (no args) must keep scoring only the original 6
-    # production issuers, not the phase2 track added to MANIFESTS above -
-    # matches blend.py's / quant_layer.py's identical bare-CLI convention.
-    default_issuers = ["boeing", "jpm", "netflix", "bank_of_america", "disney", "target"]
+    # bare `python llm_news.py` (no args) scores every phase2 issuer - phase2 is
+    # the only active track; pass explicit issuer names to touch the retired
+    # pre-phase2 production issuers. Matches blend.py's / quant_layer.py's
+    # identical bare-CLI convention.
+    default_issuers = [f"p2_{name}" for name in PHASE2_ISSUERS]
     total_cost = 0.0
     for issuer in sys.argv[1:] or default_issuers:
         print(f"\n=== {issuer} ===")

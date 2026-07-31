@@ -11,7 +11,13 @@ import json
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-ISSUERS = ["jpm", "bank_of_america", "boeing", "disney", "target", "netflix"]
+
+# phase2 is the only active track (pre-phase2 production issuers retired) -
+# output folder layout is identical (just p2_-prefixed), so no other code
+# here needs to change.
+from llm_news import PHASE2_ISSUERS
+
+ISSUERS = [f"p2_{name}" for name in PHASE2_ISSUERS]
 FIELDNAMES = [
     "layer",
     "issuer",

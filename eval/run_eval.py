@@ -49,8 +49,13 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--issuers",
-        default=",".join(ALL_ISSUERS),
-        help=f"Comma-separated issuers to pool. Default: {','.join(ALL_ISSUERS)}",
+        default="",
+        help=(
+            "Comma-separated issuers to pool. Default: empty, meaning bare invocation "
+            "pools every phase2 issuer (same as --phase2-all) - phase2 is the only "
+            "active track. Pass this explicitly (e.g. --issuers boeing,jpm,...) to "
+            "touch the retired pre-phase2 production issuers."
+        ),
     )
     parser.add_argument(
         "--phase2-all",
@@ -59,6 +64,7 @@ def parse_args() -> argparse.Namespace:
             "Pool every registered phase2 issuer (blend.PHASE2_ISSUERS, 'p2_' prefixed) "
             "instead of hand-typing --issuers. Avoids silently omitting a ticker from the "
             "phase2 calibration rebuild whenever a new p2_ issuer is onboarded. "
+            "This is also what a bare invocation (no flags) now does by default. "
             "Overrides --issuers if both are given."
         ),
     )
@@ -135,7 +141,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 def main() -> int:
     args = parse_args()
-    if args.phase2_all:
+    if args.phase2_all or not args.issuers.strip():
         issuers = [f"p2_{name}" for name in PHASE2_ISSUERS]
     else:
         issuers = [issuer.strip() for issuer in args.issuers.split(",") if issuer.strip()]

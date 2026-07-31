@@ -461,9 +461,10 @@ def score_all_quant(issuer: str) -> list[dict[str, Any]]:
 
 
 def main() -> int:
-    # bare `python quant_layer.py` (no args) must keep scoring only the original
-    # 6 production issuers, not the phase2 track that got added to MANIFESTS above.
-    default_issuers = ["boeing", "jpm", "netflix", "bank_of_america", "disney", "target"]
+    # bare `python quant_layer.py` (no args) scores every phase2 issuer - phase2
+    # is the only active track; pass explicit issuer names to touch the retired
+    # pre-phase2 production issuers.
+    default_issuers = [f"p2_{name}" for name in PHASE2_ISSUERS]
     for issuer in sys.argv[1:] or default_issuers:
         print(f"\n=== {issuer} ===")
         for result in score_all_quant(issuer):

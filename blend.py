@@ -158,9 +158,10 @@ if __name__ == "__main__":
     assert abs(check - 0.28) < 1e-9, f"Sanity check failed: got {check}, expected 0.28"
     print(f"Sanity check passed: blend_scores(0.4, 0.2, -0.2, 0.5) = {check}")
 
-    # bare `python blend.py` (no args) must keep blending only the original 6
-    # production issuers, not the phase2 track that got added to MANIFESTS above.
-    default_issuers = ["boeing", "jpm", "netflix", "bank_of_america", "disney", "target"]
+    # bare `python blend.py` (no args) blends every phase2 issuer - phase2 is the
+    # only active track; pass an explicit issuer to touch the retired
+    # pre-phase2 production issuers.
+    default_issuers = [f"p2_{name}" for name in PHASE2_ISSUERS]
     for issuer in sys.argv[1:] or default_issuers:
         print(f"\n=== {issuer} ===")
         for result in blend_issuer(issuer):

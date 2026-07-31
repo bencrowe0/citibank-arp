@@ -1,38 +1,39 @@
 {
   "label": "pooled_n232",
-  "n_total_rows": 251,
-  "n_missing_surprise_data": 1,
-  "n_used": 250,
+  "n_total_rows": 284,
+  "n_missing_surprise_data": 3,
+  "n_used": 281,
   "dropped_tickers_missing_surprise": [
-    "AMKBY"
+    "AMKBY",
+    "MC.PA"
   ],
   "regression": {
     "surprise_only": {
       "coeffs_intercept_surprise": [
-        0.003201,
-        -0.004077
+        0.004475,
+        -0.004447
       ],
-      "r2": 0.00091
+      "r2": 0.0011
     },
     "surprise_plus_score": {
       "coeffs_intercept_surprise_score": [
-        0.000272,
-        -0.00895,
-        0.040368
+        0.002711,
+        -0.008902,
+        0.032727
       ],
-      "r2": 0.02462
+      "r2": 0.01909
     },
-    "r2_lift_from_score": 0.0237,
-    "permutation_p_lift": 0.0216,
+    "r2_lift_from_score": 0.01799,
+    "permutation_p_lift": 0.02719,
     "permutations": 5000
   },
   "accuracy": {
-    "n": 250,
-    "llm_only_accuracy": 0.436,
-    "llm_only_accuracy_stored_column_check": 0.436,
-    "surprise_only_accuracy": 0.372,
-    "combined_accuracy": 0.376,
+    "n": 281,
+    "llm_only_accuracy": 0.4235,
+    "llm_only_accuracy_stored_column_check": 0.4235,
+    "surprise_only_accuracy": 0.3772,
+    "combined_accuracy": 0.3737,
     "majority_baseline_label": "HOLD",
-    "majority_baseline_accuracy": 0.388
+    "majority_baseline_accuracy": 0.4235
   }
 }
