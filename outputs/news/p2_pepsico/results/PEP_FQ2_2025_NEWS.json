@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ2_2025_NEWS",
+  "base_document_id": "PEP_FQ2_2025",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This pre-earnings digest describes depressed expectations heading into the Q2 2025 print: EPS is expected to decline 11% year-over-year, and the stock has lagged the market over the trailing year amid North America softness. The document frames the setup as 'uncertain rather than confidently bullish,' with no indication of elevated valuation or rising estimates, suggesting a low bar that could allow a positive surprise. However, the digest also notes persistent headwinds and a recent miss, so the score is only mildly positive."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101310Z",
+    "timestamp": "2026-08-04T10:13:19Z",
+    "status": "success",
+    "document_id": "PEP_FQ2_2025_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-17",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3596,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1352,
+    "total_tokens": 4948,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002407,
+    "latency_seconds": 9.1,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

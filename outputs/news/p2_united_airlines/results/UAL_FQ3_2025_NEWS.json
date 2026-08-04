@@ -1,0 +1,44 @@
+{
+  "document_id": "UAL_FQ3_2025_NEWS",
+  "base_document_id": "UAL_FQ3_2025",
+  "issuer": "p2_united_airlines",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates that market expectations are not stretched; the stock has only ticked modestly higher and analysts have reiterated Buy ratings, framing any shutdown-related weakness as a buying opportunity. The main risk (government shutdown) is described as 'manageable so far' with a modest financial impact, suggesting a low bar for the print. However, the digest does not describe depressed expectations or a beaten-down valuation, so the score is mildly positive but not strongly bullish."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101134Z",
+    "timestamp": "2026-08-04T10:11:43Z",
+    "status": "success",
+    "document_id": "UAL_FQ3_2025_NEWS",
+    "issuer": "p2_united_airlines",
+    "company": "United Airlines",
+    "ticker": "UAL",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_united_airlines\\UAL_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3734,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1328,
+    "total_tokens": 5062,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002418,
+    "latency_seconds": 8.61,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

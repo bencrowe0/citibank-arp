@@ -1,0 +1,11 @@
+PepsiCo (PEP) - News coverage digest, FQ3 2023 earnings (report date 2023-10-10)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 10, 2023 report, consensus called for Q3 adjusted EPS of about $2.15 (vs. $1.97 a year earlier) on revenue of roughly $23.41-$23.42 billion, with PepsiCo's 15-consecutive-quarter EPS beat streak framed as the bar to clear and pricing power again cited as the primary growth driver as volumes stayed subdued under lingering inflation-fatigue among consumers. Goldman Sachs' Bonnie Herzog reiterated a $212 price target ahead of the print.
+
+The dominant pre-earnings narrative, however, was investor anxiety over GLP-1 weight-loss drugs (Ozempic/Wegovy): PEP shares had fallen roughly 6% year-to-date into the report on fears that appetite-suppressing drugs would structurally dent demand for snacks and sugary beverages, and pre-earnings previews were explicitly framed around whether the "beverage giant" would "see shares lose more weight" - i.e., whether the print would validate or ease that overhang - rather than around fundamental demand weakness in the underlying business. This made the setup one of depressed sentiment/valuation relative to PepsiCo's still-solid pricing-driven fundamentals, with the GLP-1 debate as the key swing factor for the stock reaction.
+
+Sources:
+- https://www.forbes.com/sites/greatspeculations/2023/10/06/what-to-expect-from-pepsicos-q3/ (Forbes/Trefis Team, "What To Expect From PepsiCo's Q3?", published October 6, 2023)
+- https://www.nasdaq.com/articles/pepsico-nasdaq:pep-q3-earnings-preview:-heres-what-to-expect (Nasdaq, "PepsiCo (NASDAQ:PEP) Q3 Earnings Preview: Here's What to Expect", pre-earnings consensus EPS/revenue estimates)
+- https://benzinga.com/analyst-ratings/analyst-color/23/10/35148632/pepsi-q3-earnings-preview-will-beverage-giant-see-shares-lose-more-weight-in-2023 (Benzinga, "Pepsi Q3 Earnings Preview: Will Beverage Giant See Shares Lose More Weight In 2023?", published October 2023 ahead of the October 10 report - GLP-1/Ozempic overhang framing)

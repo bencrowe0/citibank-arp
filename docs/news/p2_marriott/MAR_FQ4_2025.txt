@@ -1,0 +1,7 @@
+Marriott (MAR) - News coverage digest, FQ4 2025 earnings (report date 2026-02-10)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of its fourth-quarter 2025 report, analysts anticipated EPS of $2.62, marking a 6.9% year-over-year increase, with expected revenue of $6.67 billion, up 3.7%. Marriott had surpassed EPS expectations 75% of the time and revenue estimates 63% of the time over the prior two years, a solid but not pristine track record. Notably, the estimate-revision trend heading into the print was mixed-to-negative: analysts had made three upward and twelve downward EPS revisions, alongside four upward and nine downward revenue revisions in the run-up to the report - a signal that sell-side expectations were drifting lower into the quarter even as the year-over-year comparison still implied growth, consistent with a market bar that was not particularly stretched to the upside.
+
+Sources:
+- https://www.gurufocus.com/news/8598935/marriott-mar-q4-earnings-preview-expectations-and-trends (GuruFocus, published February 9, 2026)

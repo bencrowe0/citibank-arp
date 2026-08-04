@@ -64,6 +64,26 @@
           "source_pdf": "docs/jpm/phase2/CY2025-Q4/jpm-4q25-earnings-call-transcript.pdf"
         }
       ]
+    },
+    {
+      "document_id": "JPM_FQ1_2026",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-14",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/jpm/phase2/CY2026-Q1/jpm-1q26-press-release.txt"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2026-Q1/jpm-1q26-earnings-call-transcript.txt"
+        }
+      ]
     }
   ]
 }

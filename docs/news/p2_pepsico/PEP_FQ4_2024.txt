@@ -1,0 +1,9 @@
+PepsiCo (PEP) - News coverage digest, FQ4 2024 earnings (report date 2025-02-04)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 4, 2025 report, the Zacks Consensus Estimate called for Q4 revenue of about $27.9 billion (+0.3% year-over-year) and EPS of $1.95 (+9.6% from $1.78 a year earlier). Despite the EPS growth implied by consensus, pre-earnings sentiment was explicitly bearish: PepsiCo carried a Zacks Rank #4 (Sell) with a negative Earnings ESP of -0.43% heading into the print, and coverage cited "muted estimate revisions and a bearish outlook" as reasons for a cautious stance, explicitly recommending investors "wait for clearer signs of recovery" rather than buy ahead of the report.
+
+The negative setup was attributed to persistent inflationary pressure, operational challenges in North America (including the lingering fallout from Quaker Foods North America product recalls), and shifting/weakening consumer behavior that had been hurting performance through 2024. This left PepsiCo heading into its Q4 print with unusually depressed sentiment for a large-cap consumer staple - a Sell rating and negative revisions bias rather than the constructive-to-neutral tone seen ahead of most of its 2023 prints.
+
+Sources:
+- https://www.zacks.com/stock/news/2407590/pepsico-struggles-ahead-of-q4-earnings-time-to-invest-or-stay-away (Zacks, "PepsiCo Struggles Ahead of Q4 Earnings: Time to Invest or Stay Away?", published January 31, 2025, ahead of the February 4 report)

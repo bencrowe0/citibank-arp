@@ -1,0 +1,7 @@
+Marriott (MAR) - News coverage digest, FQ1 2026 earnings (report date 2026-05-06)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of its first-quarter 2026 report, scheduled for May 6, 2026 before the opening bell, the Zacks Consensus Estimate for Marriott's EPS stood at $2.60, indicating growth of 12.1% from $2.32 in the year-ago quarter, with the revenue consensus pegged at nearly $6.59 billion (+5.3% year-over-year) - a notably stronger implied growth setup than the prior several quarters. Analysts expected the quarter's performance to have benefited from steady global RevPAR growth, supported by resilient leisure demand and stronger international trends; management's own guidance called for global RevPAR to increase 1-2% in the quarter, with a tailwind from the Winter Olympics in EMEA partly offset by Easter/Chinese New Year calendar timing and tough U.S. comparisons against the prior year's inauguration-related travel.
+
+Sources:
+- https://www.zacks.com/stock/news/2914126/marriott-to-report-q1-earnings-whats-in-the-offing-for-the-stock (Zacks Equity Research, published May 4, 2026)

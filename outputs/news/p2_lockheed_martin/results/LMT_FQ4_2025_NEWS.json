@@ -1,0 +1,44 @@
+{
+  "document_id": "LMT_FQ4_2025_NEWS",
+  "base_document_id": "LMT_FQ4_2025",
+  "issuer": "p2_lockheed_martin",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This pre-earnings digest indicates that market expectations are somewhat depressed relative to management's own guidance, with a notable gap between the Street consensus of $5.87 and the implied Q4 EPS of $6.56 from management's full-year guidance. This suggests a lower bar that could lead to a positive surprise. However, the document also highlights execution risks on F-35 deliveries and a split sentiment on the 2026 outlook, which tempers the bullishness. Overall, expectations are not extremely depressed, but there is a meaningful upside potential, warranting a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101511Z",
+    "timestamp": "2026-08-04T10:15:24Z",
+    "status": "success",
+    "document_id": "LMT_FQ4_2025_NEWS",
+    "issuer": "p2_lockheed_martin",
+    "company": "Lockheed Martin",
+    "ticker": "LMT",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lockheed_martin\\LMT_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3947,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2240,
+    "total_tokens": 6187,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003478,
+    "latency_seconds": 12.95,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

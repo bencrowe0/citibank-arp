@@ -1,0 +1,44 @@
+{
+  "document_id": "CVS_FQ2_2025_NEWS",
+  "base_document_id": "CVS_FQ2_2025",
+  "issuer": "p2_cvs_health",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This pre-earnings digest describes depressed expectations: the consensus EPS estimate has been cut to $1.47 from $1.58 over 90 days, and analysts are bracing for a weaker print. A lowered bar increases the odds of a positive surprise, supporting a mildly bullish score. However, the document also notes mixed sell-side positioning and ongoing insurance-margin concerns, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101048Z",
+    "timestamp": "2026-08-04T10:10:57Z",
+    "status": "success",
+    "document_id": "CVS_FQ2_2025_NEWS",
+    "issuer": "p2_cvs_health",
+    "company": "CVS Health",
+    "ticker": "CVS",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-31",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_cvs_health\\CVS_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3738,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1313,
+    "total_tokens": 5051,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002402,
+    "latency_seconds": 8.71,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

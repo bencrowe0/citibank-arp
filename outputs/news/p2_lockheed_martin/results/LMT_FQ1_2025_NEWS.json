@@ -1,0 +1,44 @@
+{
+  "document_id": "LMT_FQ1_2025_NEWS",
+  "base_document_id": "LMT_FQ1_2025",
+  "issuer": "p2_lockheed_martin",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This pre-earnings digest describes depressed expectations heading into the print: the stock had declined 7.6% over the trailing 52 weeks, suffered two major shocks (a Q4 2024 miss and the F-47 contract loss), and faces DOGE scrutiny on F-35 costs. Analyst estimates for Q1 2025 were only modestly revised up (0.2% over 30 days), and the consensus is a 'Moderate Buy' with the stock trading below the average price target, suggesting a lowered bar that raises the odds of a positive surprise. The score is positive but moderate because the digest does not indicate a dramatic collapse in expectations, and the risks are structural (F-35 margin compression, DOGE probe) which temper the bullish case."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101438Z",
+    "timestamp": "2026-08-04T10:14:51Z",
+    "status": "success",
+    "document_id": "LMT_FQ1_2025_NEWS",
+    "issuer": "p2_lockheed_martin",
+    "company": "Lockheed Martin",
+    "ticker": "LMT",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-22",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lockheed_martin\\LMT_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4018,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2196,
+    "total_tokens": 6214,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003449,
+    "latency_seconds": 12.89,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

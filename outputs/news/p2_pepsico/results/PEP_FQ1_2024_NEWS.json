@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ1_2024_NEWS",
+  "base_document_id": "PEP_FQ1_2024",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This pre-earnings digest describes depressed expectations heading into the print: PEP shares had lagged the S&P 500 badly (up ~15% since early 2021 vs ~35% for the S&P), with a -6% return in 2023 versus the S&P's +24%, leaving the stock at a 'depressed relative valuation.' The framing is 'mildly constructive' rather than confidently bullish, and the bar appears lowered given the deceleration visible in the prior quarter. This combination of a beaten-down stock and modest expectations raises the odds of a positive surprise, supporting a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101226Z",
+    "timestamp": "2026-08-04T10:12:35Z",
+    "status": "success",
+    "document_id": "PEP_FQ1_2024_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ1 2024",
+    "report_date": "2024-04-23",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ1_2024.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3640,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1489,
+    "total_tokens": 5129,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00257,
+    "latency_seconds": 9.1,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

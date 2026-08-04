@@ -1,0 +1,10 @@
+CVS Health (CVS) - News coverage digest, FQ2 2025 earnings (report date 2025-07-31)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into its July 31, 2025 report, CVS Health's earnings estimates had been trending down rather than up: Zacks noted the Q2 2025 consensus EPS estimate had fallen to $1.47 from $1.58 over the trailing 90 days, implying a roughly 20% year-over-year decline, with the drift attributed to a mix of operational cost pressures, legal headwinds, regulatory challenges and adverse policy developments weighing on the Health Care Benefits (Aetna) segment. That was a notably different setup than a typical "beat and raise" story - analysts were bracing for a genuinely weaker print rather than modest conservatism, even as CVS's stock had stabilized somewhat after 2024's sharp Medicare Advantage-driven selloff.
+
+Sell-side positioning was mixed and skewed cautious just before the print: UBS analyst Kevin Caliendo cut his price target to $67 from $71 while maintaining a Neutral rating on July 22, 2025, citing a higher forecast Medical Loss Ratio (raised to 91.5% from 91.3% for FY2025) and an incremental ~$100 million of expected variable losses in the Health Insurance Exchange book for the back half of the year - a signal that the insurance/Aetna side of the business was still seen as the swing factor for the quarter. This came against a backdrop of other desks (Jefferies, Mizuho) having been more constructive earlier in the year, leaving the stock's setup heading into the print as a genuine push-pull between insurance-margin skeptics and retail/PBM-side bulls rather than a one-directional consensus.
+
+Sources:
+- https://www.nasdaq.com/articles/cvs-q2-estimates-dip-stock-still-buy-ahead-q2-earnings (Zacks via Nasdaq.com, published July 23, 2025)
+- https://www.investing.com/news/analyst-ratings/cvs-health-stock-price-target-lowered-to-67-at-ubs-on-insurance-challenges-93CH-4146508 (Investing.com, published July 22, 2025)

@@ -1,0 +1,7 @@
+Hilton (HLT) - News coverage digest, FQ3 2024 earnings (report date 2024-10-23)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into its October 23, 2024 report, Hilton was expected to post third-quarter diluted EPS (adjusted for special items) of $1.85, up 10.8% from $1.67 in the year-ago quarter, on revenue of nearly $2.9 billion, implying 7.2% year-over-year growth. Management's own guidance called for adjusted EBITDA between $875 million and $890 million, with adjusted diluted EPS in a $1.80-$1.85 range. Analysts expected the quarter's growth to be driven by robust group bookings, corporate demand, and the continuing recovery of business travel. Hilton had beaten or matched consensus EPS estimates in each of the four prior quarters, reinforcing a constructive setup heading into the print. Looking further out, the Street's full-year 2024 EPS estimate stood at $7.05 (+13.5% year-over-year), with fiscal 2025 EPS projected to grow a further 14.8% to $8.09, underscoring the market's expectation of continued margin and unit-growth momentum well beyond the quarter itself.
+
+Sources:
+- https://www.nasdaq.com/articles/hiltons-quarterly-earnings-preview-what-you-need-know (Zacks Equity Research via Nasdaq, published October 3, 2024)

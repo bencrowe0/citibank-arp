@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ4_2025_NEWS",
+  "base_document_id": "PEP_FQ4_2025",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This pre-earnings digest describes a constructive setup with expectations moderately elevated but not stretched to a 'priced for perfection' extreme. The stock rose 1% into the print, analyst ratings are constructive (Moderate Buy, no Sells), and the average price target is well above the current price, indicating room for upside. However, the document does not describe depressed expectations or a lowered bar, so the score is mildly positive rather than strongly bullish."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101329Z",
+    "timestamp": "2026-08-04T10:13:35Z",
+    "status": "success",
+    "document_id": "PEP_FQ4_2025_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-03",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3670,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1415,
+    "total_tokens": 5085,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002496,
+    "latency_seconds": 6.67,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

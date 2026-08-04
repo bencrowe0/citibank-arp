@@ -1,0 +1,9 @@
+PepsiCo (PEP) - News coverage digest, FQ2 2025 earnings (report date 2025-07-17)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 17, 2025 report, analysts expected PepsiCo to post non-GAAP Q2 EPS of $2.03, down 11% from $2.28 a year earlier, with Bloomberg consensus pegging revenue at about $22.30 billion. Pre-earnings coverage (published June 30, 2025) noted PepsiCo had beaten the Street's bottom-line estimate in three of the prior four quarters but missed in the most recent one (Q1 2025), framing the setup as uncertain rather than confidently bullish given the string of North America softness that had weighed on results through the first half of 2025.
+
+The broader narrative going into the print was one of a stock that had lagged the market over the trailing year, driven by weakening performance in North America Foods (particularly Frito-Lay) amid softening consumer demand and persistent macro/cost pressures; market commentary flagged the report as a test of whether cost discipline and pricing could offset continued volume softness in North America, rather than expecting a return to the double-digit growth pattern of 2023.
+
+Sources:
+- https://finance.yahoo.com/news/expect-pepsico-q2-2025-earnings-091825278.html (Yahoo Finance/Barchart, "What to Expect From PepsiCo's Q2 2025 Earnings Report", published June 30, 2025, ahead of the July 17 report)

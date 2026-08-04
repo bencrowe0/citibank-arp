@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ2_2023_NEWS",
+  "base_document_id": "PEP_FQ2_2023",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "This pre-earnings digest indicates that market expectations are moderately stretched: PepsiCo has a four-quarter EPS beat streak and nine of the prior ten quarters, and analysts have trimmed price targets (Deutsche Bank to $168 from $173, Piper Sandler to $178 from $181) while maintaining ratings. The bar is set high, and the modest target cuts suggest some caution, leaving limited room for a positive surprise. Thus, the sentiment is slightly negative, reflecting the risk of a 'beat but sell off' reaction."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101201Z",
+    "timestamp": "2026-08-04T10:12:09Z",
+    "status": "success",
+    "document_id": "PEP_FQ2_2023_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-07-13",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ2_2023.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3649,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1233,
+    "total_tokens": 4882,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00229,
+    "latency_seconds": 7.65,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

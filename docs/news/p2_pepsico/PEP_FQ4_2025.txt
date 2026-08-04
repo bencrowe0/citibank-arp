@@ -1,0 +1,9 @@
+PepsiCo (PEP) - News coverage digest, FQ4 2025 earnings (report date 2026-02-03)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 3, 2026 report, analysts projected Q4 EPS of $2.24 (+14.2% year-over-year from $1.96) on revenue of about $28.97 billion (+4.3% from $27.78 billion a year earlier) - a notably stronger growth setup than the flattish prints of late 2024/early 2025, consistent with the momentum narrative building through Q3 2025. Ahead of the report, PepsiCo shares rose about 1% to close at $155.20 the prior trading day, which pre-earnings coverage read as reflecting market optimism heading into the print. Wall Street's rating mix ahead of the report skewed constructive (Moderate Buy consensus, roughly split between Buy and Hold with no Sell ratings among the 12 analysts covering the stock at the time), with an average price target well above the then-current share price.
+
+Supporting the more upbeat tone, PepsiCo had announced on January 6, 2026 a strategic partnership with Siemens and NVIDIA to deploy digital-twin and AI technology across its plant and supply-chain operations - framed as an operational-efficiency initiative rather than a near-term earnings driver, but part of the constructive narrative context investors carried into the quarter after two years of North America-led softness.
+
+Sources:
+- https://intellectia.ai/news/stock/pepsico-q4-earnings-preview-and-analyst-insights (Intellectia.AI, citing Benzinga, "PepsiCo Q4 Earnings Preview and Analyst Insights" - pre-earnings EPS/revenue consensus, January 6, 2026 Siemens/NVIDIA partnership news, and pre-report stock close of $155.20, all dated ahead of the February 3, 2026 report)

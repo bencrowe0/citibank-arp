@@ -32,7 +32,7 @@ COMPANY_NAMES = {
     "BCS": "Barclays", "F": "Ford", "MSFT": "Microsoft", "PFE": "Pfizer",
     "UAL": "United Airlines",
     "PEP": "PepsiCo", "FDX": "FedEx", "LMT": "Lockheed Martin",
-    "NVO": "Novo Nordisk", "HLT": "Hilton", "MC.PA": "LVMH",
+    "NVO": "Novo Nordisk", "HLT": "Hilton", "MC.PA": "LVMH", "MAR": "Marriott",
 }
 
 SECTORS = {
@@ -48,7 +48,7 @@ SECTORS = {
     "PFE": "Healthcare", "UAL": "Industrials/Airlines",
     "PEP": "Consumer Staples", "FDX": "Industrials/Logistics",
     "LMT": "Industrials/Aerospace-Defense", "NVO": "Healthcare",
-    "HLT": "Consumer/Travel", "MC.PA": "Consumer/Luxury",
+    "HLT": "Consumer/Travel", "MC.PA": "Consumer/Luxury", "MAR": "Consumer/Travel",
 }
 
 QUARTER_NUM = {"Q1": 1, "Q2": 2, "Q3": 3, "Q4": 4}

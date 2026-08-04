@@ -1,0 +1,9 @@
+PepsiCo (PEP) - News coverage digest, FQ2 2023 earnings (report date 2023-07-13)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 13, 2023 report, consensus called for Q2 adjusted EPS of about $2.21 (up from $2.12 a year earlier) on revenue of roughly $23.95-$23.97 billion, continuing the pricing-driven growth story from Q1. Coverage emphasized PepsiCo's beat streak - four straight quarters of EPS beats and nine of the prior ten - as the bar the company needed to clear again, with the narrative still centered on whether elevated pricing could keep outrunning any volume softness as consumers absorbed roughly two years of accumulated price hikes across snacks and beverages.
+
+Analyst price-target activity in the run-up to the print skewed toward modest trims rather than outright bearishness: Deutsche Bank's Steve Powers maintained a Buy rating while cutting his target to $168 from $173, and Piper Sandler's Michael Lavery kept an Overweight rating while lowering his target to $178 from $181. The pattern - ratings held, targets nudged down slightly - suggested analysts were pricing in some margin/input-cost caution heading into the quarter without losing conviction in the pricing-led growth thesis, consistent with the "likely to report higher earnings" framing in pre-earnings previews.
+
+Sources:
+- https://benzinga.com/news/earnings/23/07/33183435/pepsico-likely-to-report-higher-q2-earnings-heres-a-look-at-recent-price-target-changes-by-the-most (Benzinga, "PepsiCo Likely To Report Higher Q2 Earnings; Here's A Look At Recent Price Target Changes By The Most Accurate Analysts", published July 2023 ahead of the July 13 report)

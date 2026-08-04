@@ -1,0 +1,9 @@
+PepsiCo (PEP) - News coverage digest, FQ1 2025 earnings (report date 2025-04-24)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 24, 2025 report, PepsiCo was expected to post a rare top-and-bottom-line decline: the Zacks Consensus Estimate called for Q1 revenue of about $17.8 billion (-2.7% year-over-year) and EPS of $1.51 (guidance in pre-earnings coverage was mixed on direction versus the year-ago $1.61). Sentiment heading in was clearly negative - PepsiCo carried a Zacks Rank #4 (Sell) with a negative Earnings ESP of -1.12%, and pre-earnings coverage explicitly framed the question as "hold tight or let go" rather than any upside setup, citing a lack of meaningful estimate upgrades.
+
+The bearish framing centered on continued North America softness (Frito-Lay NA and PepsiCo Beverages NA both expected to show the effects of prior price hikes denting volumes), lingering Quaker Foods NA recall fallout, business disruption from escalating geopolitical tensions in some international markets, and newly "looming tariff-related headwinds" tied to global trade policy uncertainty heading into the print. Analysts recommended a wait-and-see posture rather than positioning ahead of the report, consistent with expectations already pricing in a soft quarter rather than any recovery.
+
+Sources:
+- https://www.zacks.com/stock/news/2451940/pepsico-pre-q1-earnings-signal-soft-performance-hold-tight-or-let-go (Zacks, "PepsiCo Pre-Q1 Earnings Signal Soft Performance: Hold Tight or Let Go?", published ahead of the April 24, 2025 report)

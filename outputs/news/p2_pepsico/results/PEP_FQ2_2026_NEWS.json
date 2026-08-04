@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ2_2026_NEWS",
+  "base_document_id": "PEP_FQ2_2026",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This pre-earnings digest describes depressed expectations heading into the print: analyst EPS estimates were cut 1.3% over 30 days and 2.6% over 90 days, the stock fell 11% to a key support level, and multiple sell-side desks trimmed targets. The low bar is reinforced by options pricing a contained 4.1-4.5% move versus a 7.4% average, and JPMorgan explicitly argues 'already-low expectations left room for a positive surprise even on a modest beat.' This is a bullish setup for a positive surprise reaction, so the score is positive but moderate given the absence of actual results or guidance."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101345Z",
+    "timestamp": "2026-08-04T10:13:56Z",
+    "status": "success",
+    "document_id": "PEP_FQ2_2026_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-07-09",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ2_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4072,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1716,
+    "total_tokens": 5788,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002936,
+    "latency_seconds": 10.79,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "MAR_FQ2_2025_NEWS",
+  "base_document_id": "MAR_FQ2_2025",
+  "issuer": "p2_marriott",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This pre-earnings digest indicates that market expectations are slightly stretched: Marriott's average earnings surprise over the trailing four quarters is only 0.9%, described as a 'noticeably thinner beat cushion than peers,' signaling a more closely-calibrated Street setup. This suggests limited room for a positive surprise, tilting the score slightly negative. No guidance or actual results are present, so the score reflects the demanding bar rather than a forward guidance change."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T103303Z",
+    "timestamp": "2026-08-04T10:33:12Z",
+    "status": "success",
+    "document_id": "MAR_FQ2_2025_NEWS",
+    "issuer": "p2_marriott",
+    "company": "Marriott",
+    "ticker": "MAR",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-05",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_marriott\\MAR_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3509,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1039,
+    "total_tokens": 4548,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002039,
+    "latency_seconds": 6.72,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

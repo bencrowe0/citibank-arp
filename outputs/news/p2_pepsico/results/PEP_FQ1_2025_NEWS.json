@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ1_2025_NEWS",
+  "base_document_id": "PEP_FQ1_2025",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": -0.6,
+    "rationale": "This pre-earnings digest describes clearly depressed expectations heading into the print: the Zacks Consensus Estimate calls for a rare top-and-bottom-line decline, PepsiCo carries a Zacks Rank #4 (Sell) with a negative Earnings ESP of -1.12%, and coverage frames the question as 'hold tight or let go' with no upside setup. The document lists multiple structural headwinds (North America softness, Quaker recall fallout, geopolitical tensions, looming tariff headwinds) and recommends a wait-and-see posture, indicating a low bar that could allow a positive surprise, but the overall tone is bearish and the risks are substantial. Since this is a pre-earnings digest, the score reflects stretched/depressed expectations rather than guidance movement; the negative score reflects the bearish framing and the elevated risk of a negative reaction, though the low bar slightly mitigates the downside."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101300Z",
+    "timestamp": "2026-08-04T10:13:10Z",
+    "status": "success",
+    "document_id": "PEP_FQ1_2025_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-24",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3632,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1441,
+    "total_tokens": 5073,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002515,
+    "latency_seconds": 9.65,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.6,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

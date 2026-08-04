@@ -1,0 +1,11 @@
+Novo Nordisk (NVO) - News coverage digest, FQ2 2025 earnings (report date 2025-08-06)
+
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Market expectations heading into the August 6, 2025 Q2 print were reset sharply lower just eight days beforehand. On Tuesday, July 29, 2025, Novo Nordisk simultaneously named company veteran Maziar Mike Doustdar as its new President and CEO (effective August 7, succeeding the surprise-ousted Lars Fruergaard Jorgensen) and slashed full-year 2025 guidance - full-year sales growth cut to 8-14% at constant exchange rates from a prior 13-21%, and operating-profit growth cut to 10-16% from 16-24%. Novo attributed the cut to weaker second-half US sales growth forecasts for Wegovy and Ozempic, citing "persistent use of compounded GLP-1s, slower-than-expected market expansion and competition." Shares fell as much as 26% intraday before closing down roughly 21.7-23%, wiping more than EUR60bn (~$69bn) off the company's market value in a single session - one of the largest one-day drops in Novo's history. Barclays downgraded the stock to equal-weight from overweight and Bank of America downgraded to neutral from buy in the immediate aftermath.
+
+By the time the actual Q2 results were due on August 6, consensus estimates had already been walked down to reflect the July 29 warning (Street EPS estimate around $0.93, revenue around $11.92 billion), and investor focus going into the print had shifted away from a clean beat-or-miss framing toward whether incoming CEO Doustdar would show credible signs of a turnaround plan and cost discipline, given the stock's already-depressed post-warning base.
+
+Sources:
+- https://www.cnbc.com/2025/07/29/novo-nordisk-shares-plunge-after-wegovy-maker-cuts-full-year-guidance-.html (CNBC, published July 29, 2025)
+- https://finance.yahoo.com/news/novo-nordisk-shares-plummet-2025-115752366.html (Yahoo Finance, guidance cut and analyst downgrades, published July 29, 2025)

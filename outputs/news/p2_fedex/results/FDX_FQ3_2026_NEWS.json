@@ -1,0 +1,45 @@
+{
+  "document_id": "FDX_FQ3_2026_NEWS",
+  "base_document_id": "FDX_FQ3_2026",
+  "issuer": "p2_fedex",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This pre-earnings digest describes a market setup where expectations have been rising sharply into the print: sell-side price targets were lifted (Stifel to $412 from $328, others into $383-$414) and the digest notes 'rising expectations' heading into the report. This elevated bar increases the risk of a negative surprise even on decent results, warranting a mildly bearish sentiment score. There is no guidance change to evaluate since this is a pre-earnings digest; the score reflects stretched expectations rather than actual results."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "note": "Score of -0.20 is below the lower threshold of -0.15, triggering SELL.",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101415Z",
+    "timestamp": "2026-08-04T10:14:26Z",
+    "status": "success",
+    "document_id": "FDX_FQ3_2026_NEWS",
+    "issuer": "p2_fedex",
+    "company": "FedEx",
+    "ticker": "FDX",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-03-19",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_fedex\\FDX_FQ3_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3704,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1633,
+    "total_tokens": 5337,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002745,
+    "latency_seconds": 10.68,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "HLT_FQ2_2025_NEWS",
+  "base_document_id": "HLT_FQ2_2025",
+  "issuer": "p2_hilton",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates that Hilton is expected to post adjusted EPS of $2.03, up 6.3% from the prior year, and has beaten estimates in each of the last four quarters, which could be seen as a positive setup. However, the document does not indicate that expectations are depressed or that the bar has been lowered; rather, it notes a track record of beats, which may raise the bar for the upcoming print. The overall tone is neutral-to-slightly-positive, as there is no explicit commentary on stretched or depressed expectations, but the consistent beat history and modest growth expectation suggest a mildly favorable setup."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T103235Z",
+    "timestamp": "2026-08-04T10:32:44Z",
+    "status": "success",
+    "document_id": "HLT_FQ2_2025_NEWS",
+    "issuer": "p2_hilton",
+    "company": "Hilton",
+    "ticker": "HLT",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-23",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_hilton\\HLT_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3503,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1140,
+    "total_tokens": 4643,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002149,
+    "latency_seconds": 6.87,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

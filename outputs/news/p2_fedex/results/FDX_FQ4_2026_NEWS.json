@@ -1,0 +1,44 @@
+{
+  "document_id": "FDX_FQ4_2026_NEWS",
+  "base_document_id": "FDX_FQ4_2026",
+  "issuer": "p2_fedex",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest describes a stock that has already rallied ~90% from its 52-week low, trading near its 52-week high, with analyst estimates having been revised upward heading into the print. This indicates stretched market expectations with little room for a soft print, raising the risk of a negative reaction even on decent results. The document does not describe depressed expectations or a lowered bar, so the sentiment is bearish."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101426Z",
+    "timestamp": "2026-08-04T10:14:38Z",
+    "status": "success",
+    "document_id": "FDX_FQ4_2026_NEWS",
+    "issuer": "p2_fedex",
+    "company": "FedEx",
+    "ticker": "FDX",
+    "fiscal_period": "FQ4 2026",
+    "report_date": "2026-06-23",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_fedex\\FDX_FQ4_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4005,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1769,
+    "total_tokens": 5774,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002976,
+    "latency_seconds": 10.97,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}
