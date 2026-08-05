@@ -18,14 +18,16 @@ Every task below is independently rerunnable. If a session ends mid-plan: start 
 
 ---
 
-### Task 1: Shared ODS reader + gap inventory
+### Task 1: Shared ODS reader + gap inventory — ✅ DONE (commits `1c96afb`, `187fa65`)
+
+**Actual result:** 130 gap combos (plan estimated 138 — live sheet had drifted by the time this ran; expected per plan's own caveat). Also fixed post-review: `parse_events` originally skipped only 1 leading row via `rows[1:]`, but the real sheet has a 2-row preamble (title banner + header row) — masked by luck since both tabs' header text was identical. Fixed in `187fa65` to match on header content instead of position. `gap_combos.json` was unaffected (bug had fully cancelled out before the fix).
 
 **Files:**
 - Create: `phase2/ods_utils.py`
 - Create: `phase2/gap_report.py`
 - Test: `tests/phase2/test_gap_report.py`
 
-- [ ] **Step 1: Write the failing test**
+- [x] **Step 1: Write the failing test**
 
 ```python
 # tests/phase2/test_gap_report.py
@@ -55,12 +57,12 @@ def test_compute_gap_returns_human_only_combos():
     assert compute_gap(human, llm) == {("AVGO", "2025", "Q3"): "Broadcom"}
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `python -m pytest tests/phase2/test_gap_report.py -v`
 Expected: FAIL with `ModuleNotFoundError: No module named 'gap_report'`
 
-- [ ] **Step 3: Write `phase2/ods_utils.py`**
+- [x] **Step 3: Write `phase2/ods_utils.py`**
 
 ```python
 """Shared helper for reading Master_Data_NEW.ods, which is malformed OOXML -
@@ -116,7 +118,7 @@ def load_table_rows(root, name: str, max_cols: int = 21) -> list[list[str]]:
     raise ValueError(f"table {name!r} not found")
 ```
 
-- [ ] **Step 4: Write `phase2/gap_report.py`**
+- [x] **Step 4: Write `phase2/gap_report.py`**
 
 ```python
 """Diff Master_Data_NEW.ods's Human_Data_Entry against LLM_Data_Entry to find
@@ -212,17 +214,17 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 5: Run test to verify it passes**
+- [x] **Step 5: Run test to verify it passes**
 
 Run: `python -m pytest tests/phase2/test_gap_report.py -v`
 Expected: PASS (2 tests)
 
-- [ ] **Step 6: Run the real script and inspect output**
+- [x] **Step 6: Run the real script and inspect output**
 
 Run: `python phase2/gap_report.py`
 Expected: prints `Human combos: 286, LLM combos: 162, gap: 138` (or close — the live sheet may have grown since this plan was written) and creates `phase2/gap_combos.json`. Spot-check a few entries by eye.
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add phase2/ods_utils.py phase2/gap_report.py tests/phase2/test_gap_report.py phase2/gap_combos.json
@@ -231,13 +233,15 @@ git commit -m "Add phase2 gap inventory: gap_report.py + gap_combos.json checkpo
 
 ---
 
-### Task 2: Ticker/slug/sector/CIK resolution
+### Task 2: Ticker/slug/sector/CIK resolution — ✅ DONE (commits `b47bbe8`, `401ad97`)
+
+**Actual result:** 34 new tickers resolved, 107/130 SEC-registered. Post-review fix: `resolve_sector()` originally called yfinance once per combo instead of once per ticker (e.g. 13 redundant calls for one 13-quarter ticker) — fixed with a `sector_by_ticker` memo cache in `401ad97`. Also swapped the SEC User-Agent placeholder for a real contact address. `gap_combos.json` output unchanged by the fix (same data, fewer network calls).
 
 **Files:**
 - Create: `phase2/resolve_gap_tickers.py`
 - Modify: `phase2/gap_combos.json` (via running the script)
 
-- [ ] **Step 1: Write `phase2/resolve_gap_tickers.py`**
+- [x] **Step 1: Write `phase2/resolve_gap_tickers.py`**
 
 ```python
 """Resolve slug/sector/SEC-registrant metadata for gap combos. Tickers
@@ -356,12 +360,12 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Run it**
+- [x] **Step 2: Run it**
 
 Run: `python phase2/resolve_gap_tickers.py`
 Expected: prints new-ticker count (~39) and SEC-registrant count. Note any flagged combos and fill `sector` manually in `gap_combos.json` if yfinance couldn't resolve one (rare — only if a ticker is delisted or yfinance's symbol format differs from the sheet's).
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add phase2/resolve_gap_tickers.py phase2/gap_combos.json data/quantitative/sec_company_tickers_cache.json
@@ -378,7 +382,9 @@ git commit -m "Resolve slug/sector/CIK metadata for phase2 gap tickers"
 
 This is the highest-risk script in the plan — it edits 5 existing files by text-splicing before verified anchor strings. It aborts (writes nothing) if an anchor isn't found exactly once, rather than guessing.
 
-- [ ] **Step 1: Write `phase2/append_gap_combos.py`**
+**Status: ✅ DONE (commit `741d312`).** All 5 anchors pre-verified present exactly once before running (no abort triggered). 130 combos appended to `TARGET_COMBOS`, 34 new tickers spliced into `TICKER_TO_SLUG`/`COMPANY_NAMES`/`SECTORS`/all 3 `PHASE2_ISSUERS` lists. `TARGET_COMBOS` now 284 entries total. Known data-quality items inherited from the source ODS, not blocking: `JNJ`'s company name has a double-space/missing-`&` artifact from the ODS parser; `BKNG` has inconsistent per-quarter company text across rows (`"Booking Holdings"` vs `"Booking"}"`) — `COMPANY_NAMES` keeps whichever was last iterated. Cosmetic only, revisit if it matters later.
+
+- [x] **Step 1: Write `phase2/append_gap_combos.py`**
 
 ```python
 """One-time-per-batch migration: append gap_combos.json's combos into
@@ -479,19 +485,19 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Run it and review the diff by hand**
+- [x] **Step 2: Run it and review the diff by hand**
 
 Run: `python phase2/append_gap_combos.py`
 Then: `git diff phase2/triage_docs.py phase2/build_manifests.py blend.py llm_news.py quant_layer.py`
 Expected: 138 new tuples in `TARGET_COMBOS`, ~39 new entries in `TICKER_TO_SLUG`/`COMPANY_NAMES`/`SECTORS`, ~39 new slugs in the 3 `PHASE2_ISSUERS` lists. Read the diff — this is real code being spliced into files other scripts depend on; a bad company-name string (unescaped quote) would break `triage_docs.py` on next import. If a company name contains a double quote or backslash, fix `gap_combos.json`'s `company` field for that combo and rerun (the script is idempotent for un-appended combos only, so re-running after a manual fix to an *already-appended* combo won't re-splice it — in that case fix the spliced file directly and note it).
 
-- [ ] **Step 3: Sanity-check the modules still import**
+- [x] **Step 3: Sanity-check the modules still import**
 
 Run: `python -c "import sys; sys.path.insert(0,'phase2'); import triage_docs, build_manifests"`
 Run: `python -c "import blend, llm_news, quant_layer"`
 Expected: no errors (confirms the splice didn't break Python syntax).
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add phase2/triage_docs.py phase2/build_manifests.py blend.py llm_news.py quant_layer.py phase2/append_gap_combos.py phase2/gap_combos.json
