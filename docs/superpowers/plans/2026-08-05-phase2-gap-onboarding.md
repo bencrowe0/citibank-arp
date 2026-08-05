@@ -506,14 +506,20 @@ git commit -m "Splice phase2 gap combos into TARGET_COMBOS/PHASE2_ISSUERS (fourt
 
 ---
 
-### Task 4: Human prices + report-date resolution for gap combos
+### Task 4: Human prices + report-date resolution for gap combos — ✅ DONE (commits `b83eec8`, `6236e18`, `9b4f830`)
+
+**Important correction to the plan's own literal spec:** the plan's `COL_RATER=4, COL_PRIOR_CLOSE=11, COL_NEXT_DAY_OPEN=13, max_cols=14` did NOT match the real `Human_Data_Entry` sheet — verified by direct inspection before dispatch. Actual layout: `Rater=6, Prior Close ($)=13, Next Day Open ($)=15`, `max_cols>=16`. The plan's literal indices would have silently added ZERO price rows every run (reading a date column as a price always fails to parse), with no error — a silent-failure bug. Used the corrected indices instead; documented in the script's own docstring. Also applied the same header-row-skip fix as Task 1 (`rows[1:]` alone isn't enough — the real header row needs an explicit content check too).
+
+**Result:** 91 rater price rows added (`human_prices.json` 112→203 combos), all 284 `TARGET_COMBOS` resolved via `resolve_report_dates.py`/`fix_report_dates_from_human_prices.py`, all 130 gap combos synced to `report_date_resolved` (0 missing). Known low-confidence stragglers, not blocking: 4 `RMSP.XC` (Hermès) combos resolved to an implausible date (`2027-02-11`) due to blank price cells + no reliable yfinance earnings history for that ticker string — correctly left `low` confidence rather than hand-patched, consistent with CLAUDE.md's existing "genuinely unresolvable report_date" pattern.
+
+**Post-review fixes (`6236e18`):** added stale-price refresh (a rater's corrected retype now overwrites the old value instead of being silently ignored) and skip diagnostics (distinguishes "no data yet" from "parse failure"). This refresh immediately surfaced a **real pre-existing sheet data-quality bug**: `JNJ_2025_Q1` has 2 conflicting "Abdul" rows (one correctly dated 2025-04-14/15, one mislabeled with a 2026 date but Year/Quarter columns still reading 2025/Q1) — last-one-wins picked the wrong row. Manually corrected in `9b4f830` (pinned `human_prices.json` back to the right pair, documented in `gap_combos.json`'s notes). **Caveat for future sessions:** a future rerun of `build_gap_human_prices.py` will silently re-flip `JNJ_2025_Q1` back to the bad value via last-one-wins, since the underlying sheet row itself isn't fixed (never edit the live sheet programmatically, per CLAUDE.md) — re-check this combo after any future rerun of the 4-script sequence.
 
 **Files:**
 - Create: `phase2/build_gap_human_prices.py`
 - Create: `phase2/sync_gap_report_dates.py`
 - Modify (via running existing scripts): `phase2/human_prices.json`, `phase2/report_dates.json`, `phase2/gap_combos.json`
 
-- [ ] **Step 1: Write `phase2/build_gap_human_prices.py`**
+- [x] **Step 1: Write `phase2/build_gap_human_prices.py`**
 
 ```python
 """Extend phase2/human_prices.json with consensus (Prior Close, Next Day
@@ -588,7 +594,7 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Write `phase2/sync_gap_report_dates.py`**
+- [x] **Step 2: Write `phase2/sync_gap_report_dates.py`**
 
 ```python
 """Copy resolved report_date values from phase2/report_dates.json into
@@ -633,7 +639,7 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 3: Run the full sequence**
+- [x] **Step 3: Run the full sequence**
 
 ```bash
 python phase2/build_gap_human_prices.py
@@ -644,7 +650,7 @@ python phase2/sync_gap_report_dates.py
 
 Expected: `resolve_report_dates.py` now resolves 286+ combos (up from the prior 161ish) since `TARGET_COMBOS` grew in Task 3; `fix_report_dates_from_human_prices.py` validates against the newly-added human price rows; `sync_gap_report_dates.py` reports most/all gap combos synced. Spot-check a couple of `low`-confidence entries in the printed issues list.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add phase2/build_gap_human_prices.py phase2/sync_gap_report_dates.py phase2/human_prices.json phase2/report_dates.json phase2/gap_combos.json
