@@ -924,7 +924,7 @@
     "documents": [],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Sheet has 2 conflicting Abdul rows for this combo: one dated 14/04/25-15/04/25 (price 154.36/155.7, matches validated report_date) and one mislabeled 14/04/26-14/04/26 (price 237.96/235.01, Year/Quarter columns still say 2025/Q1 - transcription error). human_prices.json manually pinned to the correct pair; a future rerun of build_gap_human_prices.py will silently revert to the bad pair via last-one-wins unless the sheet itself is fixed - flag for sheet owner.",
     "quarter": "Q1",
     "report_date": "2025-04-14",
     "report_date_confidence": "high",
