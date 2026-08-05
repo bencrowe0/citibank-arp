@@ -43,6 +43,7 @@ PHASE2_ISSUERS = [
     "barclays", "ford", "microsoft", "pfizer", "united_airlines",
     "pepsico", "fedex", "lockheed_martin", "novo_nordisk", "hilton", "lvmh",
     "marriott",
+    "allianz", "alphabet", "booking_holdings", "broadcom", "caterpillar", "chipotle", "colgate_palmolive", "comcast_corporation", "costco", "dell", "delta_air_lines", "expedia", "general_mills", "hermes", "johnson_johnson", "kraft_heinz", "lenovo", "linde", "metlife", "micron", "oracle", "palantir", "paypal", "pinterest", "puma", "robinhood_markets", "salesforce", "siemens", "spotify", "standard_chartered", "starbucks", "unitedhealth", "visa", "workday",
 ]
 MANIFESTS.update({
     f"p2_{name}": BASE_DIR / "manifests" / f"p2_{name}_reports.json"
