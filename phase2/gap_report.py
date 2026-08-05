@@ -21,14 +21,25 @@ ODS_PATH = BASE_DIR / "Master_Data_NEW.ods"
 OUT_PATH = BASE_DIR / "phase2" / "gap_combos.json"
 
 
+HEADER_ROW = ("Company", "Ticker", "Year", "Quarter")
+
+
 def parse_events(rows: list[list[str]]) -> dict[tuple[str, str, str], str]:
-    """Returns {(ticker, year, quarter): company} for non-empty rows, skipping
-    the header row."""
+    """Returns {(ticker, year, quarter): company} for non-empty rows.
+
+    Skips the header row by matching its exact text (case-sensitive) rather
+    than a fixed row index - Master_Data_NEW.ods's Human_Data_Entry/
+    LLM_Data_Entry tabs have a title-banner row above the real header row
+    ("data rows start at row 3", per CLAUDE.md), and any banner-style
+    preamble row is skipped anyway by the existing empty-cell check below.
+    """
     events: dict[tuple[str, str, str], str] = {}
-    for r in rows[1:]:
+    for r in rows:
         if len(r) < 4:
             continue
         company, ticker, year, quarter = r[0].strip(), r[1].strip(), r[2].strip(), r[3].strip()
+        if (company, ticker, year, quarter) == HEADER_ROW:
+            continue
         if not ticker or not year or not quarter:
             continue
         events[(ticker.upper(), year, quarter)] = company
@@ -55,7 +66,7 @@ def main() -> None:
 
     out: dict[str, dict] = dict(existing)
     added = 0
-    for (ticker, year, quarter), company in sorted(gap.items()):
+    for (ticker, year, quarter), company in gap.items():
         key = f"{ticker}_{year}_{quarter}"
         if key in out:
             continue

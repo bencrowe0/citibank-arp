@@ -19,8 +19,9 @@ ROWS_REPEATED_ATTR = "{urn:oasis:names:tc:opendocument:xmlns:table:1.0}number-ro
 
 
 def load_ods_root(ods_path: Path):
-    z = zipfile.ZipFile(ods_path)
-    return etree.fromstring(z.read("content.xml"), parser=etree.XMLParser(recover=True, huge_tree=True))
+    with zipfile.ZipFile(ods_path) as z:
+        content = z.read("content.xml")
+    return etree.fromstring(content, parser=etree.XMLParser(recover=True, huge_tree=True))
 
 
 def _cell_text(cell) -> str:
@@ -45,6 +46,11 @@ def load_table_rows(root, name: str, max_cols: int = 21) -> list[list[str]]:
                     if col_count < max_cols:
                         row.append(val)
                     col_count += 1
+            # Note: a trailing "fill the rest of the sheet" row can carry a
+            # huge number-rows-repeated (observed up to ~1,048,576, Excel's
+            # max row count) - this expands to that many list entries. Kept
+            # as-is: harmless today since callers filter on non-empty cells,
+            # but don't assume `rows` here is bounded by real sheet content.
             row_rep = int(r.get(ROWS_REPEATED_ATTR, "1"))
             rows.extend([row] * row_rep)
         return rows
