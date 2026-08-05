@@ -2,6 +2,8 @@
 
 Small example project for running a DeepSeek-powered financial document analysis flow.
 
+**This README covers the original single-issuer example only.** For the active phase2 pipeline (40 issuers, 4-layer blend, backtest, group sheet workflow), see [CLAUDE.md](CLAUDE.md) - that's the canonical source of truth for current architecture, run commands, and known gaps.
+
 ## Structure
 
 ```text
@@ -26,16 +28,12 @@ Small example project for running a DeepSeek-powered financial document analysis
 ## Local setup
 
 ```powershell
-C:\Users\bencr\OneDrive\Personal\Computing\Business Analytics\Citibank APR\.venv\Scripts\python.exe -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
+
+*(The project root is `C:\Users\bencr\Documents\Citibank APR` - a OneDrive-alias path used earlier in the project is dead/inaccessible, see CLAUDE.md's Environment note.)*
 
 ## Run
-
-```powershell
-C:\Users\bencr\OneDrive\Personal\Computing\Business Analytics\Citibank APR\.venv\Scripts\python.exe example_runthrough.py
-```
-
-If `python` is available on your PATH, the shorter command still works:
 
 ```powershell
 python example_runthrough.py
@@ -46,14 +44,16 @@ python example_runthrough.py
 Dry-run the Netflix batch without spending API tokens:
 
 ```powershell
-C:\Users\bencr\OneDrive\Personal\Computing\Business Analytics\Citibank APR\.venv\Scripts\python.exe run_reports.py --issuer netflix --dry-run
+python run_reports.py --issuer netflix --dry-run
 ```
 
 Run the 4 Netflix reports for real:
 
 ```powershell
-C:\Users\bencr\OneDrive\Personal\Computing\Business Analytics\Citibank APR\.venv\Scripts\python.exe run_reports.py --issuer netflix
+python run_reports.py --issuer netflix
 ```
+
+For the active phase2 issuer set instead of this retired single-issuer example, see CLAUDE.md's "Running the pipeline" section.
 
 ## Backtest (P&L evaluation)
 
