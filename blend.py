@@ -21,7 +21,7 @@ from typing import NamedTuple
 
 from report_pipeline import BASE_DIR, OUTPUTS_DIR, load_manifest
 
-DEFAULT_WEIGHTS = (0.8, 0.0, 0.2, 0.0)  # (micro, macro, news, quant)
+DEFAULT_WEIGHTS = (0.55, 0.45, 0.0, 0.0)  # (micro, macro, news, quant)
 
 MANIFESTS = {
     "boeing": BASE_DIR / "manifests" / "boeing_reports.json",
