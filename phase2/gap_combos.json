@@ -71,10 +71,15 @@
     "appended": true,
     "cik": 1730168,
     "company": "Broadcom",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/broadcom/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1730168/000173016825000094/ (filed 2025-09-04).",
     "quarter": "Q3",
     "report_date": "2025-09-04",
     "report_date_confidence": "high",
@@ -88,10 +93,15 @@
     "appended": true,
     "cik": 1730168,
     "company": "Broadcom",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/broadcom/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/ (filed 2025-12-11).",
     "quarter": "Q4",
     "report_date": "2025-12-11",
     "report_date_confidence": "high",
@@ -105,10 +115,15 @@
     "appended": true,
     "cik": 1730168,
     "company": "Broadcom",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/broadcom/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/ (filed 2026-03-04).",
     "quarter": "Q1",
     "report_date": "2026-03-04",
     "report_date_confidence": "high",
@@ -190,10 +205,15 @@
     "appended": true,
     "cik": 18230,
     "company": "Caterpillar",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/caterpillar/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/18230/000001823025000037/ (filed 2025-08-05).",
     "quarter": "Q2",
     "report_date": "2025-08-04",
     "report_date_confidence": "high",
@@ -207,10 +227,15 @@
     "appended": true,
     "cik": 18230,
     "company": "Caterpillar",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/caterpillar/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/18230/000001823025000043/ (filed 2025-10-29).",
     "quarter": "Q3",
     "report_date": "2025-10-28",
     "report_date_confidence": "high",
@@ -224,10 +249,15 @@
     "appended": true,
     "cik": 18230,
     "company": "Caterpillar",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/caterpillar/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/18230/000001823026000003/ (filed 2026-01-29).",
     "quarter": "Q4",
     "report_date": "2026-01-28",
     "report_date_confidence": "high",
@@ -309,10 +339,15 @@
     "appended": true,
     "cik": 1166691,
     "company": "Comcast Corporation",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1166691/000116669125000018/ (filed 2025-04-24).",
     "quarter": "Q1",
     "report_date": "2025-04-23",
     "report_date_confidence": "high",
@@ -326,10 +361,15 @@
     "appended": true,
     "cik": 1166691,
     "company": "Comcast Corporation",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1166691/000116669125000034/ (filed 2025-07-31).",
     "quarter": "Q2",
     "report_date": "2025-07-30",
     "report_date_confidence": "high",
@@ -343,10 +383,15 @@
     "appended": true,
     "cik": 1166691,
     "company": "Comcast Corporation",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1166691/000162828026003964/ (filed 2026-01-29).",
     "quarter": "Q4",
     "report_date": "2026-01-28",
     "report_date_confidence": "high",
@@ -360,10 +405,15 @@
     "appended": true,
     "cik": 1166691,
     "company": "Comcast Corporation",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/comcast_corporation/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1166691/000162828026026685/ (filed 2026-04-23).",
     "quarter": "Q1",
     "report_date": "2026-04-22",
     "report_date_confidence": "high",
@@ -377,10 +427,15 @@
     "appended": true,
     "cik": 1058090,
     "company": "Chipotle",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/chipotle/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000028/ (filed 2025-04-23).",
     "quarter": "Q1",
     "report_date": "2025-04-23",
     "report_date_confidence": "high",
@@ -394,10 +449,15 @@
     "appended": true,
     "cik": 1058090,
     "company": "Chipotle",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/chipotle/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000055/ (filed 2025-07-23).",
     "quarter": "Q2",
     "report_date": "2025-07-23",
     "report_date_confidence": "high",
@@ -411,10 +471,15 @@
     "appended": true,
     "cik": 1058090,
     "company": "Chipotle",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/chipotle/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000086/ (filed 2025-10-29).",
     "quarter": "Q3",
     "report_date": "2025-10-29",
     "report_date_confidence": "high",
@@ -428,10 +493,15 @@
     "appended": true,
     "cik": 1058090,
     "company": "Chipotle",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/chipotle/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809026000007/ (filed 2026-02-03).",
     "quarter": "Q4",
     "report_date": "2026-02-03",
     "report_date_confidence": "high",
@@ -445,10 +515,15 @@
     "appended": true,
     "cik": 909832,
     "company": "Costco",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/costco/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983225000093/ (filed 2025-09-25).",
     "quarter": "Q4",
     "report_date": "2025-09-25",
     "report_date_confidence": "high",
@@ -462,10 +537,15 @@
     "appended": true,
     "cik": 909832,
     "company": "Costco",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/costco/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983225000164/ (filed 2025-12-11).",
     "quarter": "Q1",
     "report_date": "2025-12-11",
     "report_date_confidence": "high",
@@ -479,10 +559,15 @@
     "appended": true,
     "cik": 909832,
     "company": "Costco",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/costco/CY2026-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983226000025/ (filed 2026-03-05).",
     "quarter": "Q2",
     "report_date": "2026-03-05",
     "report_date_confidence": "high",
@@ -547,10 +632,15 @@
     "appended": true,
     "cik": 27904,
     "company": "Delta Air Lines",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/27904/000168316825002353/ (filed 2025-04-09).",
     "quarter": "Q1",
     "report_date": "2025-04-09",
     "report_date_confidence": "medium",
@@ -564,10 +654,15 @@
     "appended": true,
     "cik": 27904,
     "company": "Delta Air Lines",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/27904/000168316825005002/ (filed 2025-07-10).",
     "quarter": "Q2",
     "report_date": "2025-07-10",
     "report_date_confidence": "high",
@@ -751,10 +846,15 @@
     "appended": true,
     "cik": 40704,
     "company": "General Mills",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/general_mills/CY2026-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/40704/000162828025057486/ (filed 2025-12-17).",
     "quarter": "Q2",
     "report_date": "2025-12-17",
     "report_date_confidence": "high",
@@ -768,10 +868,15 @@
     "appended": true,
     "cik": 40704,
     "company": "General Mills",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/general_mills/CY2026-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/40704/000162828026019020/ (filed 2026-03-18).",
     "quarter": "Q3",
     "report_date": "2026-03-18",
     "report_date_confidence": "high",
@@ -785,10 +890,15 @@
     "appended": true,
     "cik": 40704,
     "company": "General Mills",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/general_mills/CY2026-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/40704/000162828026046337/ (filed 2026-07-01).",
     "quarter": "Q4",
     "report_date": "2026-07-01",
     "report_date_confidence": "high",
@@ -972,10 +1082,15 @@
     "appended": true,
     "cik": 1637459,
     "company": "Kraft Heinz",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/kraft_heinz/CY2024-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745925000006/ (filed 2025-02-12).",
     "quarter": "Q4",
     "report_date": "2025-02-12",
     "report_date_confidence": "high",
@@ -989,10 +1104,15 @@
     "appended": true,
     "cik": 1637459,
     "company": "Kraft Heinz",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/kraft_heinz/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745926000006/ (filed 2026-02-11).",
     "quarter": "Q1",
     "report_date": "2026-02-11",
     "report_date_confidence": "high",
@@ -1006,10 +1126,15 @@
     "appended": true,
     "cik": 1637459,
     "company": "Kraft Heinz",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/kraft_heinz/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745926000020/ (filed 2026-05-06).",
     "quarter": "Q1",
     "report_date": "2026-05-06",
     "report_date_confidence": "high",
@@ -1023,10 +1148,15 @@
     "appended": true,
     "cik": 1707925,
     "company": "Linde",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/linde/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1707925/000165495425008771/ (filed 2025-08-01).",
     "quarter": "Q2",
     "report_date": "2025-08-01",
     "report_date_confidence": "high",
@@ -1040,10 +1170,15 @@
     "appended": true,
     "cik": 1707925,
     "company": "Linde",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/linde/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1707925/000165495425012384/ (filed 2025-10-31).",
     "quarter": "Q3",
     "report_date": "2025-10-31",
     "report_date_confidence": "high",
@@ -1057,10 +1192,15 @@
     "appended": true,
     "cik": 1707925,
     "company": "Linde",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/linde/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1707925/000165495426004202/ (filed 2026-05-01).",
     "quarter": "Q1",
     "report_date": "2026-05-01",
     "report_date_confidence": "high",
@@ -1142,10 +1282,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2023-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000156/ (filed 2023-05-03).",
     "quarter": "Q1",
     "report_date": "2023-05-03",
     "report_date_confidence": "high",
@@ -1159,10 +1304,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2023-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000207/ (filed 2023-08-02).",
     "quarter": "Q2",
     "report_date": "2023-08-02",
     "report_date_confidence": "high",
@@ -1176,10 +1326,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2023-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000266/ (filed 2023-11-01).",
     "quarter": "Q3",
     "report_date": "2023-11-01",
     "report_date_confidence": "high",
@@ -1193,10 +1348,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2023-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000028/ (filed 2024-01-31).",
     "quarter": "Q4",
     "report_date": "2024-01-31",
     "report_date_confidence": "high",
@@ -1210,10 +1370,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2024-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000139/ (filed 2024-05-01).",
     "quarter": "Q1",
     "report_date": "2024-05-01",
     "report_date_confidence": "high",
@@ -1227,10 +1392,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2024-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000196/ (filed 2024-07-31).",
     "quarter": "Q2",
     "report_date": "2024-07-31",
     "report_date_confidence": "high",
@@ -1244,10 +1414,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2024-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000255/ (filed 2024-10-30).",
     "quarter": "Q3",
     "report_date": "2024-10-30",
     "report_date_confidence": "high",
@@ -1261,10 +1436,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2024-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000039/ (filed 2025-02-05).",
     "quarter": "Q4",
     "report_date": "2025-02-05",
     "report_date_confidence": "high",
@@ -1278,10 +1458,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000133/ (filed 2025-04-30).",
     "quarter": "Q1",
     "report_date": "2025-04-30",
     "report_date_confidence": "high",
@@ -1295,10 +1480,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000191/ (filed 2025-08-06).",
     "quarter": "Q2",
     "report_date": "2025-08-06",
     "report_date_confidence": "high",
@@ -1312,10 +1502,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000227/ (filed 2025-11-05).",
     "quarter": "Q3",
     "report_date": "2025-11-05",
     "report_date_confidence": "high",
@@ -1329,10 +1524,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921926000008/ (filed 2026-02-04).",
     "quarter": "Q4",
     "report_date": "2026-02-04",
     "report_date_confidence": "high",
@@ -1346,10 +1546,15 @@
     "appended": true,
     "cik": 1099219,
     "company": "Metlife",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/metlife/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921926000032/ (filed 2026-05-06).",
     "quarter": "Q1",
     "report_date": "2026-05-06",
     "report_date_confidence": "high",
@@ -1363,10 +1568,15 @@
     "appended": true,
     "cik": 723125,
     "company": "Micron",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/micron/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312525000024/ (filed 2025-09-23).",
     "quarter": "Q4",
     "report_date": "2025-09-23",
     "report_date_confidence": "high",
@@ -1380,10 +1590,15 @@
     "appended": true,
     "cik": 723125,
     "company": "Micron",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/micron/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312525000044/ (filed 2025-12-17).",
     "quarter": "Q1",
     "report_date": "2025-12-17",
     "report_date_confidence": "high",
@@ -1397,10 +1612,15 @@
     "appended": true,
     "cik": 723125,
     "company": "Micron",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/micron/CY2026-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/ (filed 2026-03-18).",
     "quarter": "Q2",
     "report_date": "2026-03-18",
     "report_date_confidence": "high",
@@ -1414,10 +1634,15 @@
     "appended": true,
     "cik": 1341439,
     "company": "Oracle",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/oracle/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312525199175/ (filed 2025-09-09).",
     "quarter": "Q1",
     "report_date": "2025-09-09",
     "report_date_confidence": "high",
@@ -1431,10 +1656,15 @@
     "appended": true,
     "cik": 1341439,
     "company": "Oracle",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/oracle/CY2026-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/ (filed 2025-12-10).",
     "quarter": "Q2",
     "report_date": "2025-12-10",
     "report_date_confidence": "high",
@@ -1448,10 +1678,15 @@
     "appended": true,
     "cik": 1341439,
     "company": "Oracle",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/oracle/CY2026-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/ (filed 2026-03-10).",
     "quarter": "Q3",
     "report_date": "2026-03-10",
     "report_date_confidence": "high",
@@ -1516,10 +1751,15 @@
     "appended": true,
     "cik": 1321655,
     "company": "Palantir",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/palantir/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000063/ (filed 2025-05-05).",
     "quarter": "Q1",
     "report_date": "2025-05-05",
     "report_date_confidence": "high",
@@ -1533,10 +1773,15 @@
     "appended": true,
     "cik": 1321655,
     "company": "Palantir",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/palantir/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/ (filed 2025-08-04).",
     "quarter": "Q2",
     "report_date": "2025-08-04",
     "report_date_confidence": "high",
@@ -1550,10 +1795,15 @@
     "appended": true,
     "cik": 1321655,
     "company": "Palantir",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/palantir/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/ (filed 2025-11-03).",
     "quarter": "Q3",
     "report_date": "2025-11-03",
     "report_date_confidence": "high",
@@ -1567,10 +1817,15 @@
     "appended": true,
     "cik": 1321655,
     "company": "Palantir",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/palantir/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/ (filed 2026-02-02).",
     "quarter": "Q4",
     "report_date": "2026-02-02",
     "report_date_confidence": "high",
