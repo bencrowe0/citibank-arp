@@ -30,7 +30,7 @@ from build_manifests import SECTORS  # noqa: E402
 GAP_COMBOS_PATH = BASE_DIR / "phase2" / "gap_combos.json"
 SEC_TICKERS_CACHE = BASE_DIR / "data" / "quantitative" / "sec_company_tickers_cache.json"
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
-HEADERS = {"User-Agent": "citibank-apr-research contact@example.com"}
+HEADERS = {"User-Agent": "citibank-apr-research bencrowe01@gmail.com"}
 
 
 def slugify(company: str) -> str:
@@ -53,7 +53,14 @@ def load_sec_tickers() -> dict[str, int]:
 def resolve_sector(ticker: str) -> str | None:
     try:
         info = yf.Ticker(ticker).info
-    except Exception:
+    except Exception as exc:
+        # Swallowed broadly since yfinance raises a mix of network/parsing
+        # errors for both transient blips and genuinely delisted/unknown
+        # tickers; distinguishing them would need retry/backoff, out of
+        # scope here. Logging the exception type/message at least lets a
+        # rerun operator tell "network hiccup, try again" apart from
+        # "yfinance doesn't know this symbol" without re-deriving it.
+        print(f"  [resolve_sector] {ticker}: {type(exc).__name__}: {exc}", file=sys.stderr)
         return None
     sector, industry = info.get("sector"), info.get("industry")
     if sector and industry:
@@ -67,6 +74,7 @@ def main() -> None:
 
     used_slugs = set(TICKER_TO_SLUG.values())
     slug_by_ticker: dict[str, str] = {}
+    sector_by_ticker: dict[str, str | None] = {}
     new_ticker_count = 0
     flagged: list[str] = []
 
@@ -96,7 +104,9 @@ def main() -> None:
             new_ticker_count += 1
 
         if combo["sector"] is None:
-            sector = resolve_sector(ticker)
+            if ticker not in sector_by_ticker:
+                sector_by_ticker[ticker] = resolve_sector(ticker)
+            sector = sector_by_ticker[ticker]
             combo["sector"] = sector
             if sector is None:
                 flagged.append(f"{key}: yfinance returned no sector/industry - set manually before Task 3")
