@@ -17,10 +17,14 @@ def main() -> None:
 
     updated = 0
     missing = []
+    malformed = []
     for key, combo in combos.items():
         entry = report_dates.get(key)
         if entry is None:
             missing.append(key)
+            continue
+        if "report_date" not in entry or "confidence" not in entry:
+            malformed.append(key)
             continue
         combo["report_date"] = entry["report_date"]
         combo["report_date_confidence"] = entry["confidence"]
@@ -33,6 +37,10 @@ def main() -> None:
     if missing:
         print(f"{len(missing)} combos missing from report_dates.json (make sure Task 3 ran first):")
         for m in missing:
+            print(" ", m)
+    if malformed:
+        print(f"{len(malformed)} combos have a report_dates.json entry missing 'report_date'/'confidence' keys:")
+        for m in malformed:
             print(" ", m)
 
 

@@ -4,7 +4,10 @@ only. Column layout verified directly against the live sheet (not the plan's
 original assumed layout, which was wrong - see git history/commit message
 for details): Ticker=1, Year=2, Quarter=3, Rater=6, Prior Close ($)=13,
 Next Day Open ($)=15 (0-indexed). Existing combos' entries (sourced from the
-old CSV export) are left untouched.
+old CSV export) are left untouched. For gap combos, a (combo, rater) pair
+already on file gets its prior_close/next_day_open overwritten if the sheet's
+current value differs (handles a rater retyping a corrected price after a
+misclick) - it only stays untouched when the value hasn't changed.
 """
 from __future__ import annotations
 
@@ -28,7 +31,7 @@ HEADER_ROW = ("Ticker", "Year", "Quarter")
 
 
 def parse_price(s: str) -> float | None:
-    s = s.strip().replace("$", "").replace(",", "")
+    s = s.strip().replace("$", "").replace(",", "").replace("−", "-")
     if not s:
         return None
     try:
@@ -45,6 +48,8 @@ def main() -> None:
     rows = load_table_rows(root, "Human_Data_Entry", max_cols=16)
 
     added = 0
+    updated = 0
+    skipped_unparseable = 0
     for row in rows[1:]:
         if len(row) <= COL_NEXT_DAY_OPEN:
             continue
@@ -59,14 +64,21 @@ def main() -> None:
         prior_close = parse_price(row[COL_PRIOR_CLOSE])
         next_day_open = parse_price(row[COL_NEXT_DAY_OPEN])
         if prior_close is None or next_day_open is None:
+            skipped_unparseable += 1
             continue
         entries = human_prices.setdefault(key, [])
-        if not any(e["rater"] == rater for e in entries):
+        existing = next((e for e in entries if e["rater"] == rater), None)
+        if existing is None:
             entries.append({"rater": rater, "prior_close": prior_close, "next_day_open": next_day_open})
             added += 1
+        elif existing["prior_close"] != prior_close or existing["next_day_open"] != next_day_open:
+            existing["prior_close"] = prior_close
+            existing["next_day_open"] = next_day_open
+            updated += 1
 
     HUMAN_PRICES_PATH.write_text(json.dumps(human_prices, indent=2, sort_keys=True), encoding="utf-8")
-    print(f"Added {added} rater price rows for gap combos -> {HUMAN_PRICES_PATH}")
+    print(f"Added {added} rater price rows, updated {updated} stale rows for gap combos -> {HUMAN_PRICES_PATH}")
+    print(f"Skipped {skipped_unparseable} gap-combo rows with unparseable/blank price cells")
     print(f"human_prices.json now covers {len(human_prices)} combos total")
 
 
