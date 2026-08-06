@@ -3,16 +3,29 @@
     "appended": true,
     "cik": null,
     "company": "Allianz",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/allianz/CY2025-Q1/press_release_1q_2025.html"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/allianz/CY2025-Q1/en-allianz-analyst-presentation-1q-2025.pdf"
+      },
+      {
+        "doc_type": "Press Release (PDF duplicate)",
+        "source_pdf": "docs/allianz/CY2025-Q1/allianz-1q-2025-earnings-release.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Call Transcript - not available from public transcript services (allianz-1q-2025-earnings-release.pdf is a PDF duplicate of the press release, not a transcript).",
     "quarter": "Q1",
     "report_date": "2025-05-15",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Diversified",
     "slug": "allianz",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "ALV.DE",
     "year": "2025"
   },
@@ -20,10 +33,15 @@
     "appended": true,
     "cik": null,
     "company": "Allianz",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/allianz/CY2025-Q2/press_release_2q_2025.html"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services",
     "quarter": "Q2",
     "report_date": "2025-08-07",
     "report_date_confidence": "high",
@@ -37,10 +55,15 @@
     "appended": true,
     "cik": null,
     "company": "Allianz",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/allianz/CY2025-Q3/press_release_3q_2025.html"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services",
     "quarter": "Q3",
     "report_date": "2025-11-14",
     "report_date_confidence": "high",
@@ -54,10 +77,15 @@
     "appended": true,
     "cik": null,
     "company": "Allianz",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/allianz/CY2025-Q4/press_release_4q_2025.html"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services",
     "quarter": "Q4",
     "report_date": "2026-02-26",
     "report_date_confidence": "medium",
@@ -75,17 +103,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/broadcom/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/broadcom/CY2025-Q3/earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/broadcom/CY2025-Q3/transcript.htm"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1730168/000173016825000094/ (filed 2025-09-04).",
     "quarter": "Q3",
     "report_date": "2025-09-04",
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "broadcom",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "AVGO",
     "year": "2025"
   },
@@ -97,17 +133,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/broadcom/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/broadcom/CY2025-Q4/earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/broadcom/CY2025-Q4/transcript.htm"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/ (filed 2025-12-11).",
     "quarter": "Q4",
     "report_date": "2025-12-11",
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "broadcom",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "AVGO",
     "year": "2025"
   },
@@ -119,17 +163,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/broadcom/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/broadcom/CY2026-Q1/earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/broadcom/CY2026-Q1/transcript.htm"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/ (filed 2026-03-04).",
     "quarter": "Q1",
     "report_date": "2026-03-04",
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "broadcom",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "AVGO",
     "year": "2026"
   },
@@ -144,8 +196,8 @@
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000021/bkngq12025earningspressr.htm (filed 2025-04-29).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000021/bkngq12025earningspressr.htm (filed 2025-04-29). Tier2 unresolved: Earnings Presentation (report_date=2025-04-29); Earnings Call Transcript (report_date=2025-04-29)",
     "quarter": "Q1",
     "report_date": "2025-04-29",
     "report_date_confidence": "high",
@@ -163,17 +215,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/booking_holdings/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/booking_holdings/CY2025-Q2/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000035/bkngq22025earningspressr.htm (filed 2025-07-29).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000035/bkngq22025earningspressr.htm (filed 2025-07-29). Tier2 unresolved: Earnings Call Transcript (report_date=2025-07-29)",
     "quarter": "Q2",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "booking_holdings",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "BKNG",
     "year": "2025"
   },
@@ -185,17 +241,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/booking_holdings/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/booking_holdings/CY2025-Q3/transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000050/q3-25bkngearningsrelease.htm (filed 2025-10-28).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000050/q3-25bkngearningsrelease.htm (filed 2025-10-28). Tier2 unresolved: Earnings Presentation (report_date=2025-10-28)",
     "quarter": "Q3",
     "report_date": "2025-10-28",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "booking_holdings",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "BKNG",
     "year": "2025"
   },
@@ -207,17 +267,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/booking_holdings/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/booking_holdings/CY2025-Q4/transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553126000008/q4-25bkngearningsrelease.htm (filed 2026-02-18).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553126000008/q4-25bkngearningsrelease.htm (filed 2026-02-18). Tier2 unresolved: Earnings Presentation (report_date=2026-02-18)",
     "quarter": "Q4",
     "report_date": "2026-02-18",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "booking_holdings",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "BKNG",
     "year": "2025"
   },
@@ -315,10 +379,15 @@
     "appended": true,
     "cik": 21665,
     "company": "Colgate-Palmolive",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/colgate_palmolive/CY2025-Q3/CL_Q3_2025_Press_Release.htm"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found",
     "quarter": "Q3",
     "report_date": "2025-10-31",
     "report_date_confidence": "high",
@@ -332,10 +401,15 @@
     "appended": true,
     "cik": 21665,
     "company": "Colgate-Palmolive",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/colgate_palmolive/CY2025-Q4/CL_Q4_2025_Press_Release.htm"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found",
     "quarter": "Q4",
     "report_date": "2026-01-30",
     "report_date_confidence": "high",
@@ -349,10 +423,15 @@
     "appended": true,
     "cik": 21665,
     "company": "Colgate-Palmolive",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/colgate_palmolive/CY2026-Q1/CL_Q1_2026_Press_Release.htm"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found",
     "quarter": "Q1",
     "report_date": "2026-05-01",
     "report_date_confidence": "high",
@@ -366,10 +445,15 @@
     "appended": true,
     "cik": 21665,
     "company": "Colgate-Palmolive",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/colgate_palmolive/CY2026-Q2/CL_Q2_2026_Press_Release.htm"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found, very recent quarter; Earnings Call Transcript: no accessible source found, very recent quarter",
     "quarter": "Q2",
     "report_date": "2026-07-31",
     "report_date_confidence": "high",
@@ -387,17 +471,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/comcast_corporation/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q1/1q25_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q1/CMCSA-USQ_Transcript_2025-04-24.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1166691/000116669125000018/ (filed 2025-04-24).",
     "quarter": "Q1",
     "report_date": "2025-04-23",
     "report_date_confidence": "high",
     "sector": "Communication Services/Telecom Services",
     "slug": "comcast_corporation",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CMCSA",
     "year": "2025"
   },
@@ -409,17 +501,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/comcast_corporation/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q2/2q25_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q2/CMCSA-USQ_Transcript_2025-07-31.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1166691/000116669125000034/ (filed 2025-07-31).",
     "quarter": "Q2",
     "report_date": "2025-07-30",
     "report_date_confidence": "high",
     "sector": "Communication Services/Telecom Services",
     "slug": "comcast_corporation",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CMCSA",
     "year": "2025"
   },
@@ -431,17 +531,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/comcast_corporation/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q4/4q25_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/comcast_corporation/CY2025-Q4/CMCSA-USQ_Transcript_2026-01-29.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1166691/000162828026003964/ (filed 2026-01-29).",
     "quarter": "Q4",
     "report_date": "2026-01-28",
     "report_date_confidence": "high",
     "sector": "Communication Services/Telecom Services",
     "slug": "comcast_corporation",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CMCSA",
     "year": "2025"
   },
@@ -453,17 +561,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/comcast_corporation/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/comcast_corporation/CY2026-Q1/1q26_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/comcast_corporation/CY2026-Q1/CMCSA-USQ_Transcript_2026-04-23.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1166691/000162828026026685/ (filed 2026-04-23).",
     "quarter": "Q1",
     "report_date": "2026-04-22",
     "report_date_confidence": "high",
     "sector": "Communication Services/Telecom Services",
     "slug": "comcast_corporation",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CMCSA",
     "year": "2026"
   },
@@ -475,17 +591,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/chipotle/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/chipotle/CY2025-Q1/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000028/ (filed 2025-04-23).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000028/ (filed 2025-04-23). Tier2 unresolved: Earnings Presentation: not published by Chipotle for this quarter",
     "quarter": "Q1",
     "report_date": "2025-04-23",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "chipotle",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CMG",
     "year": "2025"
   },
@@ -497,17 +617,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/chipotle/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/chipotle/CY2025-Q2/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000055/ (filed 2025-07-23).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000055/ (filed 2025-07-23). Tier2 unresolved: Earnings Presentation: not published by Chipotle for this quarter",
     "quarter": "Q2",
     "report_date": "2025-07-23",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "chipotle",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CMG",
     "year": "2025"
   },
@@ -519,17 +643,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/chipotle/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/chipotle/CY2025-Q3/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000086/ (filed 2025-10-29).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809025000086/ (filed 2025-10-29). Tier2 unresolved: Earnings Presentation: not published by Chipotle for this quarter",
     "quarter": "Q3",
     "report_date": "2025-10-29",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "chipotle",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CMG",
     "year": "2025"
   },
@@ -541,17 +669,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/chipotle/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/chipotle/CY2025-Q4/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809026000007/ (filed 2026-02-03).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1058090/000105809026000007/ (filed 2026-02-03). Tier2 unresolved: Earnings Presentation: referenced but downloadable file could not be located",
     "quarter": "Q4",
     "report_date": "2026-02-03",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "chipotle",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CMG",
     "year": "2025"
   },

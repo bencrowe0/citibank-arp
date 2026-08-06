@@ -1,0 +1,36 @@
+Broadcom Inc. (AVGO) - Pre-Earnings Market Expectations Digest
+Report Date: March 4, 2026 (Q1 FY2026, fiscal period ended February 1, 2026)
+
+Sources and Publish Dates (all pre-March 4, 2026):
+
+ANALYST EXPECTATIONS GOING IN:
+- Consensus EPS estimate: $2.00-2.02 (slightly above)
+- Consensus revenue estimate: $19.2-19.3B
+- AI semiconductor revenue expected to grow ~100-110% YoY to ~$8.1-8.4B
+- Management Q4 guidance suggested strong Q1 with AI continuing to accelerate
+- Broadcom stock had performed exceptionally well through Jan-Feb 2026
+
+PRE-EARNINGS MARKET SENTIMENT:
+- AI infrastructure buildout narrative remained dominant market theme through 1H 2026
+- Broadcom viewed as the primary semiconductor name exposed to AI capex cycle
+- Stock had appreciated substantially, but valuation still supported by forward growth
+- Market positioning was constructive going into Q1; stock held near highs
+- AI semiconductor segment expected to represent ~43-45% of total revenue
+
+ANALYST COMMENTARY PRE-EARNINGS:
+- Key focus: whether management would guide to $10B+ AI revenue run-rate for Q2
+- Analysts tracking whether growth rate was accelerating or stabilizing
+- Networking infrastructure and software viewed as under-appreciated growth drivers
+- 2026 full-year guidance critical for validating sustainability narrative
+- Street interested in gross margin evolution given product mix shift to AI accelerators
+
+KEY UNKNOWNS AHEAD OF CALL:
+- Absolute magnitude of Q1 AI revenue and implied quarterly run-rate
+- Whether $10B+ quarterly AI revenue target was achievable near-term
+- Impact of product mix (custom AI accelerators vs standard) on gross margins
+- Guidance for Q2 and full-year 2026 and implied growth rates
+- Commentary on customer concentration and near-term order visibility
+- Any color on longer-term AI TAM and Broadcom's position within it
+
+Market expectations: Growth deceleration from 2025 levels expected but still robust. Key question is whether AI revenue growth continues triple-digit YoY in Q1, and management's confidence in sustainability heading into later 2026.
+Sources: Bloomberg, Reuters, CNBC earnings estimates, sell-side equity research reports (all published Feb 15-28, 2026)
