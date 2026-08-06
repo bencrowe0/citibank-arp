@@ -229,17 +229,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/caterpillar/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/caterpillar/CY2025-Q2/2Q-2025-Analyst-Slide-Deck-Final.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/caterpillar/CY2025-Q2/2Q-2025-Caterpillar-Earnings-Call-Transcript_8-5-2025.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/18230/000001823025000037/ (filed 2025-08-05).",
     "quarter": "Q2",
     "report_date": "2025-08-04",
     "report_date_confidence": "high",
     "sector": "Industrials/Farm & Heavy Construction Machinery",
     "slug": "caterpillar",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CAT",
     "year": "2025"
   },
@@ -251,17 +259,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/caterpillar/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/caterpillar/CY2025-Q3/3Q-2025-Analyst-Slide-Deck-vFinal.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/caterpillar/CY2025-Q3/3Q-2025-Caterpillar-Earnings-Call-Transcript_10-29-2025.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/18230/000001823025000043/ (filed 2025-10-29).",
     "quarter": "Q3",
     "report_date": "2025-10-28",
     "report_date_confidence": "high",
     "sector": "Industrials/Farm & Heavy Construction Machinery",
     "slug": "caterpillar",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CAT",
     "year": "2025"
   },
@@ -273,17 +289,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/caterpillar/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/caterpillar/CY2025-Q4/4Q-2025-Analyst-Slide-Deck_Final.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/caterpillar/CY2025-Q4/4Q-2025-Caterpillar-Earnings-Conference-Call-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/18230/000001823026000003/ (filed 2026-01-29).",
     "quarter": "Q4",
     "report_date": "2026-01-28",
     "report_date_confidence": "high",
     "sector": "Industrials/Farm & Heavy Construction Machinery",
     "slug": "caterpillar",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CAT",
     "year": "2025"
   },
