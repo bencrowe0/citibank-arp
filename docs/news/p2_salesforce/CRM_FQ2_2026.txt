@@ -1,0 +1,44 @@
+Pre-Earnings Market Expectations Digest: Salesforce Q2 FY2026
+Report Date: 2025-09-03
+Compiled: August 2025
+
+OVERVIEW
+Salesforce heads into its Q2 FY2026 earnings on September 3, 2025 with mixed market sentiment. While the company beat Q1 expectations in May, softer guidance and slowing core cloud growth concerns have tempered enthusiasm heading into the quarter.
+
+KEY ANALYST EXPECTATIONS
+- EPS Consensus: $2.77 per share (8.2% YoY growth)
+- Revenue Consensus: $10.13 billion (8.7% YoY growth)
+- Subscription & Support Revenue: $9.61 billion (+9.6% YoY)
+Sources:
+- TipRanks analyst consensus (accessed August 2025)
+- Yahoo Finance earnings preview (August 2025): https://finance.yahoo.com/news/expect-salesforces-next-quarterly-earnings-163511915.html
+
+MARKET SENTIMENT & HEADWINDS
+Analyst Price Target Reductions: Wall Street has been lowering price targets amid several concerns:
+- Softer near-term demand signals
+- Partner feedback indicating underwhelming Q2 activity
+- Subdued expectations for renewal business, particularly at enterprise level
+Sources: TipRanks (August 2025), Finviz outlook (August 2025)
+
+Q1 Guidance Miss Context: In May 2025, despite beating Q1 earnings ($2.58 adjusted EPS vs. consensus ~$2.12), Salesforce shares fell 3.3% the next day due to forward guidance concerns. Q1 CRPO rose 12% to $29.6 billion, but Q2 guidance implied only single-digit constant currency CRPO growth.
+Source: Previous earnings reaction analysis (May 28, 2025)
+
+ANALYST RATINGS
+- Consensus: "Moderate Buy" overall
+- Breakdown: 32 Strong Buy, 2 Moderate Buy, 16 Hold, 1 Moderate Sell, 1 Strong Sell (52 analysts)
+Source: Simply Wall St analyst ratings (August 2025)
+
+GROWTH DRIVERS EXPECTED
+- Data & AI offerings momentum (reached $1.2B+ in Q1, 120% YoY growth)
+- Agentforce agentic AI ARR estimated at $440M in Q1
+- Enterprise Cloud segment growth
+Sources: Q1 earnings results and management commentary (May 2025)
+
+RISKS TO EXPECTATIONS
+- Enterprise renewal weakness could weigh on results
+- Margin pressure if promotional activity increases
+- Guidance conservatism may suppress stock reaction even if results beat
+- Execution risk on AI product monetization
+
+STOCK REACTION CONTEXT
+Previous patterns suggest Salesforce stock often struggles even on earnings beats if guidance appears conservative or growth rates decelerate. The forward guidance on CRPO growth in particular will be closely watched.

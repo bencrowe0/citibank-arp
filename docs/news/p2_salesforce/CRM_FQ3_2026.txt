@@ -1,0 +1,48 @@
+Pre-Earnings Market Expectations Digest: Salesforce Q3 FY2026
+Report Date: 2025-12-03
+Compiled: November 2025
+
+OVERVIEW
+Salesforce enters Q3 FY2026 earnings on December 3, 2025 with moderately optimistic expectations. After delivering Q2 results that beat expectations on EPS ($2.91 vs. $2.78 est.) but saw guidance conservatism, investors are watching for sustained momentum in AI-driven offerings and improved CRPO growth guidance.
+
+KEY ANALYST EXPECTATIONS
+- EPS Consensus: $2.86 per share (adjusted basis)
+- Revenue Consensus: $10.27 billion (8.8% YoY growth)
+- Revenue (alternate estimate): $10.26 billion (8.7% YoY growth)
+- Subscription & Support Revenue: $9.72 billion (+9.5% YoY)
+Sources:
+- Alphastreet pre-earnings outlook (November 2025): https://news.alphastreet.com/salesforce-crm-is-set-to-report-q3-2026-earnings-heres-what-to-expect-
+- TipRanks Q3 earnings preview (November 2025)
+- Simply Wall St analyst forecasts
+
+MARKET EXPECTATIONS CONTEXT
+Expectations for Q3 are characterized as "fairly modest," which analysts note could make it easier for Salesforce to deliver a positive surprise. The company has historical patterns of beating EPS when guidance enters the quarter perceived as conservative.
+
+GROWTH DRIVERS HEADING INTO Q3
+AI Products Momentum:
+- Data & AI products ($1.2B ARR in Q1, 120% YoY growth)
+- Agentforce agentic AI ARR estimated ~$440M in Q1
+- Combined Agentforce + Data 360 tracking toward $1.4B+ ARR with 110%+ growth expectations
+Sources: Q1/Q2 earnings results and industry commentary
+
+CRPO Guidance Watch:
+After Q2 showed modest CRPO growth guidance, investors will be watching closely for:
+- Improvement in CRPO growth rates
+- Enterprise renewal trends
+- RPO quality and duration
+Consensus CRPO forecast: ~$30.2 billion (+9% YoY)
+
+ANALYST SENTIMENT
+Wall Street remains cautiously bullish heading into Q3:
+- Broad "Buy" ratings still dominate
+- Main focus on whether Agentforce monetization can drive sustained margin expansion
+- Watchlist items: enterprise spending patterns, platform switching risk from competitors
+
+RISKS TO EXPECTATIONS
+- Agentforce adoption slower than modeled in consensus forecasts
+- Macro spending weakness could suppress enterprise software demand
+- Cloud growth deceleration if market saturation increases
+- Guidance conservatism could dampen stock reaction despite beat
+
+FORWARD GUIDANCE FOCUS
+For FY2027, the street is modeling revenue growth slowdown in the 10-11% range, down from current high-single-digit FY2026 growth. Any guidance that confirms or exceeds this range could drive outsized market reaction.

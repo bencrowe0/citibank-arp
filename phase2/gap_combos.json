@@ -699,13 +699,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983225000093/ (filed 2025-09-25).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983225000093/ (filed 2025-09-25). Tier2 dead end: 3 independent sourcing attempts all produced wrong-quarter documents or fabricated transcript summaries; press release is the only reliable doc for this combo this session.",
     "quarter": "Q4",
     "report_date": "2025-09-25",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Discount Stores",
     "slug": "costco",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "COST",
     "year": "2025"
   },
@@ -721,13 +721,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983225000164/ (filed 2025-12-11).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983225000164/ (filed 2025-12-11). Tier2 dead end: 3 independent sourcing attempts all produced wrong-quarter documents or fabricated transcript summaries; press release is the only reliable doc for this combo this session.",
     "quarter": "Q1",
     "report_date": "2025-12-11",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Discount Stores",
     "slug": "costco",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "COST",
     "year": "2026"
   },
@@ -743,13 +743,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983226000025/ (filed 2026-03-05).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/909832/000090983226000025/ (filed 2026-03-05). Tier2 dead end: 3 independent sourcing attempts all produced wrong-quarter documents or fabricated transcript summaries; press release is the only reliable doc for this combo this session.",
     "quarter": "Q2",
     "report_date": "2026-03-05",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Discount Stores",
     "slug": "costco",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "COST",
     "year": "2026"
   },
@@ -761,17 +761,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/salesforce/CY2026-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/salesforce/CY2026-Q2/CRM_Q2_FY26_Investor_Deck.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/salesforce/CY2026-Q2/CRM_Q2_FY26_Earnings_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1108524/000110852425000083/crm-q2fy26xexhibit991.htm (filed 2025-09-03).",
     "quarter": "Q2",
     "report_date": "2025-09-03",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Application",
     "slug": "salesforce",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CRM",
     "year": "2026"
   },
@@ -783,17 +791,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/salesforce/CY2026-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/salesforce/CY2026-Q3/CRM_Q3_FY26_Investor_Deck.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/salesforce/CY2026-Q3/CRM_Q3_FY26_Earnings_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1108524/000110852425000234/crm-q3fy26xexhibit991.htm (filed 2025-12-03).",
     "quarter": "Q3",
     "report_date": "2025-12-03",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Application",
     "slug": "salesforce",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CRM",
     "year": "2026"
   },
@@ -805,17 +821,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/salesforce/CY2026-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/salesforce/CY2026-Q4/CRM_Q4_FY26_Investor_Deck.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/salesforce/CY2026-Q4/CRM_Q4_FY26_Earnings_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1108524/000110852426000056/crm-q4fy26xexhibit991.htm (filed 2026-02-25).",
     "quarter": "Q4",
     "report_date": "2026-02-25",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Application",
     "slug": "salesforce",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "CRM",
     "year": "2026"
   },
@@ -947,17 +971,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/dell/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/dell/CY2025-Q1/earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000046/exhibit991earnings8kq1fy26.htm (filed 2025-05-29).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000046/exhibit991earnings8kq1fy26.htm (filed 2025-05-29). Tier2 unresolved: Earnings Presentation: not locatable from free sources",
     "quarter": "Q1",
     "report_date": "2025-05-29",
     "report_date_confidence": "medium",
     "sector": "Technology/Computer Hardware",
     "slug": "dell",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "DELL",
     "year": "2025"
   },
@@ -972,14 +1000,14 @@
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000096/exhibit991earnings8kq2fy26.htm (filed 2025-08-28).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000096/exhibit991earnings8kq2fy26.htm (filed 2025-08-28). Tier2 unresolved: Earnings Presentation: not locatable from free sources; Earnings Call Transcript: not locatable from free sources Tier2 dead end: presentation/transcript unreachable after 2 sourcing attempts (IR site works via direct CDN link for other quarters but this quarter's equivalent link only yielded a duplicate press release exhibit).",
     "quarter": "Q2",
     "report_date": "2025-08-28",
     "report_date_confidence": "medium",
     "sector": "Technology/Computer Hardware",
     "slug": "dell",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "DELL",
     "year": "2025"
   },
@@ -991,17 +1019,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/dell/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/dell/CY2025-Q3/earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000118/exhibit991earnings8kq3fy26.htm (filed 2025-11-25).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000118/exhibit991earnings8kq3fy26.htm (filed 2025-11-25). Tier2 unresolved: Earnings Presentation: not locatable from free sources",
     "quarter": "Q3",
     "report_date": "2025-11-25",
     "report_date_confidence": "medium",
     "sector": "Technology/Computer Hardware",
     "slug": "dell",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "DELL",
     "year": "2025"
   },
@@ -1013,17 +1045,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/dell/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/dell/CY2025-Q4/earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199626000003/exhibit991earnings8kq4fy26.htm (filed 2026-02-26).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199626000003/exhibit991earnings8kq4fy26.htm (filed 2026-02-26). Tier2 unresolved: Earnings Presentation: not locatable from free sources",
     "quarter": "Q4",
     "report_date": "2026-02-26",
     "report_date_confidence": "medium",
     "sector": "Technology/Computer Hardware",
     "slug": "dell",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "DELL",
     "year": "2025"
   },
