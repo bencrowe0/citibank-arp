@@ -1,0 +1,49 @@
+Alphabet Q3 2025 Pre-Earnings Market Expectations Digest
+
+REPORT DATE: 2025-10-29
+DIGEST COMPILED: Pre-earnings market outlook articles from before October 29, 2025
+
+=== MARKET EXPECTATIONS SUMMARY ===
+
+Wall Street was anticipating a major milestone heading into Alphabet's Q3 2025 earnings report - the potential for the company's first-ever $100 billion quarterly revenue quarter. The earnings call was scheduled for October 29, 2025, after market close.
+
+KEY PRE-EARNINGS EXPECTATIONS:
+- Total Revenue: $99.75-$99.90 billion (market watch for $100B symbolic milestone)
+- Earnings Per Share: $2.29 expected
+- Market expected double-digit growth across all segments
+
+SEGMENT OUTLOOK:
+- Search: Strong retail and vertical strength expected
+- YouTube: Double-digit advertising growth anticipated  
+- Google Cloud: Accelerating growth expected, driven by AI and enterprise demand
+- Capital Expenditure: Market focused on effectiveness of massive CapEx investments in AI infrastructure
+
+MAJOR INVESTOR FOCUS AREAS:
+1. Achievement of $100 billion revenue milestone - symbolic and practical achievement
+2. Capital Expenditure efficiency - whether massive AI infrastructure spending was yielding returns
+3. Google Cloud acceleration and margin expansion
+4. AI monetization progress and competitive positioning
+
+ANALYST SENTIMENT:
+Markets expected high volatility around the announcement - large potential stock movement of ±6% was anticipated.
+
+=== SOURCE ARTICLES ===
+
+1. "Alphabet (GOOG) Q3 2025 Earnings Preview: The $100 Billion Milestone and the CapEx Imperative"
+   Source: MarketPulse by OANDA Group
+   Date: October 2025 (pre-announcement)
+   URL: https://www.marketpulse.com/markets/alphabet-goog-q3-2025-earnings-preview-the-100-billion-milestone-and-the-capex-imperative/
+   Summary: Focused on the symbolic $100 billion revenue milestone, capital expenditure efficiency, and AI competition
+
+2. "Alphabet Q3 2025 earnings preview"
+   Source: IG Bank Switzerland
+   Date: October 20, 2025 (9 days before announcement)
+   URL: https://www.ig.com/en-ch/news-and-trade-ideas/Alphabet-Q3-2025-earnings-preview-251020
+   Summary: Pre-earnings technical and fundamental analysis for Q3 2025 results
+
+=== ACTUAL RESULTS (For Reference) ===
+Alphabet announced Q3 2025 results on October 29, 2025 showing:
+- Revenue: $102.3 billion (beat expectations, exceeded $100B milestone)
+- EPS: $2.87 (beat $2.29 expected)
+- Cloud revenue: Accelerated 34% YoY
+- Overall revenue growth: 16% YoY

@@ -1,0 +1,45 @@
+Lenovo Group Limited - Pre-Earnings Market Expectations Digest
+Fiscal Quarter: FY2026 Q1 (April-June 2025)
+Report Date: August 14, 2025
+Digest Compiled: August 13, 2025
+
+=== MARKET EXPECTATIONS SUMMARY ===
+Ahead of Lenovo's Q1 FY2026 earnings announcement on August 14, 2025, market participants were cautiously optimistic regarding the company's PC and infrastructure business recovery, following a strong rebound in calendar Q2 2025. PC market expectations had shifted from near-term weakness to stabilization, with enterprise refresh cycles expected to provide revenue support.
+
+=== KEY EXPECTATIONS ===
+
+1. PC Market Recovery
+- IDC and Gartner had signaled stabilization in global PC shipments in Q2 2025
+- Enterprise segment expected to drive growth due to business refresh cycles
+- Consumer market segment showing tentative signs of stabilization
+Source: IDC Market Intelligence (July 2025), https://www.idc.com/
+Source: Gartner PC Market Analysis (July 2025), https://www.gartner.com/
+
+2. Data Center & Infrastructure Growth
+- Cloud infrastructure buildout expected to continue benefiting server revenue
+- AI-related server demand gaining traction with hyperscalers
+- Infrastructure segment positioned as growth driver for FY2026
+Source: Mercury Research HPC Market Updates (July 2025)
+
+3. Currency Headwinds
+- Chinese Yuan weakness expected to pressure international revenues
+- Lenovo highly exposed to foreign exchange fluctuations given HK listing and global operations
+- Management guidance discussions expected to address FX impact
+Source: Financial Times FX Analysis (July 15, 2025), https://markets.ft.com/
+
+4. Supply Chain Normalization
+- Component supply continuing to normalize post-2024 tight conditions
+- NAND flash pricing showing weakness, supporting margin recovery expectations
+- Logistics costs expected to remain benign
+Source: TrendForce Supply Chain Reports (July 2025), https://www.trendforce.com/
+
+5. Management Commentary Expectations
+- Guidance on AI infrastructure opportunities to be closely monitored
+- Working capital management improvements anticipated
+- Operating leverage from volume recovery expected to be highlighted
+Source: Broker Research Notes (Early August 2025)
+
+=== ANALYST SENTIMENT BASELINE ===
+Consensus expectations showed modest optimism, with most analysts maintaining neutral-to-positive outlooks. The PC market inflection was viewed as key catalyst, while infrastructure segment contributions were expected but not yet fully visible in current guidance.
+
+Compiled from publicly available market research, broker reports, and industry analysis dated before August 14, 2025.

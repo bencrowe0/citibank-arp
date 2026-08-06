@@ -1277,17 +1277,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/alphabet/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/alphabet/CY2025-Q3/Alphabet_Q3_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/alphabet/CY2025-Q3/Alphabet_Q3_2025_earnings_transcript.html"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/googexhibit991q32025.htm (filed 2025-10-29).",
     "quarter": "Q3",
     "report_date": "2025-10-29",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "alphabet",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "GOOGL",
     "year": "2025"
   },
@@ -1299,17 +1307,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/alphabet/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/alphabet/CY2025-Q4/Alphabet_Q4_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/alphabet/CY2025-Q4/Alphabet_Q4_2025_earnings_transcript.html"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm (filed 2026-02-04).",
     "quarter": "Q4",
     "report_date": "2026-02-04",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "alphabet",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "GOOGL",
     "year": "2025"
   },
@@ -1321,17 +1337,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/alphabet/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/alphabet/CY2026-Q1/Alphabet_Q1_2026_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/alphabet/CY2026-Q1/Alphabet_Q1_2026_earnings_transcript.html"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm (filed 2026-04-29).",
     "quarter": "Q1",
     "report_date": "2026-04-29",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "alphabet",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "GOOGL",
     "year": "2026"
   },
@@ -1343,17 +1367,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/robinhood_markets/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q1/HOOD_Q1_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q1/HOOD_Q1_2025_earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387925000144/q12025robinhoodexhibit991.htm (filed 2025-04-30).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387925000144/q12025robinhoodexhibit991.htm (filed 2025-04-30). Tier2 unresolved: Earnings Presentation: 403 from IR; Earnings Call Transcript: 403 from IR",
     "quarter": "Q1",
     "report_date": "2025-04-30",
     "report_date_confidence": "high",
     "sector": "Financial Services/Capital Markets",
     "slug": "robinhood_markets",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "HOOD",
     "year": "2025"
   },
@@ -1365,17 +1397,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/robinhood_markets/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q2/HOOD_Q2_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q2/HOOD_Q2_2025_earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387925000250/q22025robinhoodexhibit991.htm (filed 2025-07-30).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387925000250/q22025robinhoodexhibit991.htm (filed 2025-07-30). Tier2 unresolved: Earnings Presentation: 403 from IR; Earnings Call Transcript: 403 from IR",
     "quarter": "Q2",
     "report_date": "2025-07-30",
     "report_date_confidence": "high",
     "sector": "Financial Services/Capital Markets",
     "slug": "robinhood_markets",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "HOOD",
     "year": "2025"
   },
@@ -1383,16 +1423,29 @@
     "appended": true,
     "cik": 1783879,
     "company": "Robinhood Markets",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q3/HOOD_Q3_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q3/HOOD_Q3_2025_earnings_call_transcript.pdf"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation: 403 from IR; Earnings Call Transcript: 403 from IR",
     "quarter": "Q3",
     "report_date": "2025-11-05",
     "report_date_confidence": "high",
     "sector": "Financial Services/Capital Markets",
     "slug": "robinhood_markets",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "HOOD",
     "year": "2025"
   },
@@ -1404,17 +1457,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/robinhood_markets/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/robinhood_markets/CY2026-Q1/HOOD_Q1_2026_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/robinhood_markets/CY2026-Q1/HOOD_Q1_2026_earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387926000061/q12026robinhoodexhibit991.htm (filed 2026-04-28).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387926000061/q12026robinhoodexhibit991.htm (filed 2026-04-28). Tier2 unresolved: Earnings Presentation: 403 from IR; Earnings Call Transcript: 403 from IR",
     "quarter": "Q1",
     "report_date": "2026-04-28",
     "report_date_confidence": "high",
     "sector": "Financial Services/Capital Markets",
     "slug": "robinhood_markets",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "HOOD",
     "year": "2026"
   },
@@ -1426,17 +1487,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/johnson_johnson/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q1/JNJ_Q1_2025_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q1/JNJ_Q1_2025_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Sheet has 2 conflicting Abdul rows for this combo: one dated 14/04/25-15/04/25 (price 154.36/155.7, matches validated report_date) and one mislabeled 14/04/26-14/04/26 (price 237.96/235.01, Year/Quarter columns still say 2025/Q1 - transcription error). human_prices.json manually pinned to the correct pair; a future rerun of build_gap_human_prices.py will silently revert to the bad pair via last-one-wins unless the sheet itself is fixed - flag for sheet owner. Tier1: press release from https://www.sec.gov/Archives/edgar/data/200406/000020040625000110/a2025q1exhibit991.htm (filed 2025-04-15).",
     "quarter": "Q1",
     "report_date": "2025-04-14",
     "report_date_confidence": "high",
     "sector": "Healthcare/Drug Manufacturers - General",
     "slug": "johnson_johnson",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "JNJ",
     "year": "2025"
   },
@@ -1448,17 +1517,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/johnson_johnson/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q2/JNJ_Q2_2025_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q2/JNJ_Q2_2025_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/200406/000020040625000170/a2025q2exhibit991.htm (filed 2025-07-16).",
     "quarter": "Q2",
     "report_date": "2025-07-15",
     "report_date_confidence": "high",
     "sector": "Healthcare/Drug Manufacturers - General",
     "slug": "johnson_johnson",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "JNJ",
     "year": "2025"
   },
@@ -1470,17 +1547,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/johnson_johnson/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q3/JNJ_Q3_2025_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q3/JNJ_Q3_2025_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/200406/000020040625000201/a2025q3exhibit991.htm (filed 2025-10-14).",
     "quarter": "Q3",
     "report_date": "2025-10-13",
     "report_date_confidence": "high",
     "sector": "Healthcare/Drug Manufacturers - General",
     "slug": "johnson_johnson",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "JNJ",
     "year": "2025"
   },
@@ -1492,17 +1577,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/kraft_heinz/CY2024-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/kraft_heinz/CY2024-Q4/KHC_Q4_2024_Earnings_Call_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745925000006/ (filed 2025-02-12).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745925000006/ (filed 2025-02-12). Tier2 unresolved: Earnings Presentation: not locatable as an actual downloadable file, only pointer references to SEC EDGAR exhibit",
     "quarter": "Q4",
     "report_date": "2025-02-12",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "kraft_heinz",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "KHC",
     "year": "2024"
   },
@@ -1514,17 +1603,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/kraft_heinz/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/kraft_heinz/CY2025-Q1/KHC_Q4_2025_Earnings_Call_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745926000006/ (filed 2026-02-11).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745926000006/ (filed 2026-02-11). Tier2 unresolved: Earnings Presentation: not locatable as an actual downloadable file",
     "quarter": "Q1",
     "report_date": "2026-02-11",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "kraft_heinz",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "KHC",
     "year": "2025"
   },
@@ -1536,17 +1629,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/kraft_heinz/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/kraft_heinz/CY2026-Q1/KHC_Q1_2026_Earnings_Call_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745926000020/ (filed 2026-05-06).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1637459/000163745926000020/ (filed 2026-05-06). Tier2 unresolved: Earnings Presentation: not locatable as an actual downloadable file",
     "quarter": "Q1",
     "report_date": "2026-05-06",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "kraft_heinz",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "KHC",
     "year": "2026"
   },
@@ -1558,17 +1655,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/linde/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/linde/CY2025-Q2/LIN_Earnings_Presentation.txt"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/linde/CY2025-Q2/LIN_Earnings_Call_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1707925/000165495425008771/ (filed 2025-08-01).",
     "quarter": "Q2",
     "report_date": "2025-08-01",
     "report_date_confidence": "high",
     "sector": "Basic Materials/Specialty Chemicals",
     "slug": "linde",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "LIN",
     "year": "2025"
   },
@@ -1580,17 +1685,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/linde/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/linde/CY2025-Q3/LIN_Earnings_Presentation.txt"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/linde/CY2025-Q3/LIN_Earnings_Call_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1707925/000165495425012384/ (filed 2025-10-31).",
     "quarter": "Q3",
     "report_date": "2025-10-31",
     "report_date_confidence": "high",
     "sector": "Basic Materials/Specialty Chemicals",
     "slug": "linde",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "LIN",
     "year": "2025"
   },
@@ -1602,17 +1715,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/linde/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/linde/CY2026-Q1/LIN_Earnings_Presentation.txt"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/linde/CY2026-Q1/LIN_Earnings_Call_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1707925/000165495426004202/ (filed 2026-05-01).",
     "quarter": "Q1",
     "report_date": "2026-05-01",
     "report_date_confidence": "high",
     "sector": "Basic Materials/Specialty Chemicals",
     "slug": "linde",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "LIN",
     "year": "2026"
   },
@@ -1620,16 +1741,25 @@
     "appended": true,
     "cik": null,
     "company": "Lenovo",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/lenovo/CY2026-Q1/Lenovo_Q1_FY2026_Press_Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/lenovo/CY2026-Q1/Lenovo_Q1_FY2026_Presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q1",
     "report_date": "2025-08-14",
     "report_date_confidence": "high",
     "sector": "Technology/Computer Hardware",
     "slug": "lenovo",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "LNVGY",
     "year": "2026"
   },
@@ -1637,16 +1767,25 @@
     "appended": true,
     "cik": null,
     "company": "Lenovo",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/lenovo/CY2026-Q2/Lenovo_Q2_FY2026_Press_Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/lenovo/CY2026-Q2/Lenovo_Q2_FY2026_Presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Note: this combo's report_date field (2025-01-30) does not match the actual Lenovo Q2 FY25/26 announcement date (2025-11-20) found on the sourced documents - looks like a pre-existing Tier-1 date-resolution issue, not a sourcing error; documents are the correct Q2 FY25/26 materials by Lenovo's own quarter labeling.",
     "quarter": "Q2",
     "report_date": "2025-01-30",
     "report_date_confidence": "high",
     "sector": "Technology/Computer Hardware",
     "slug": "lenovo",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "LNVGY",
     "year": "2026"
   },
@@ -1654,16 +1793,25 @@
     "appended": true,
     "cik": null,
     "company": "Lenovo",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/lenovo/CY2026-Q3/Lenovo_Q3_FY2026_Press_Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/lenovo/CY2026-Q3/Lenovo_Q3_FY2026_Presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q3",
     "report_date": "2026-02-12",
     "report_date_confidence": "high",
     "sector": "Technology/Computer Hardware",
     "slug": "lenovo",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "LNVGY",
     "year": "2026"
   },
@@ -1671,16 +1819,25 @@
     "appended": true,
     "cik": null,
     "company": "Lenovo",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/lenovo/CY2026-Q4/Lenovo_Q4_FY2026_Press_Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/lenovo/CY2026-Q4/Lenovo_Q4_FY2026_Presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q4",
     "report_date": "2026-05-22",
     "report_date_confidence": "high",
     "sector": "Technology/Computer Hardware",
     "slug": "lenovo",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "LNVGY",
     "year": "2026"
   },
