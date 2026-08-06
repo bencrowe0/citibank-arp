@@ -802,15 +802,18 @@ git commit -m "Tier-1 EDGAR press-release sourcing for SEC-registered gap ticker
 
 ---
 
-### Task 6: Tier-2 background subagent sourcing (wave dispatch + receipt ingestion)
+### Task 6: Tier-2 background subagent sourcing (wave dispatch + receipt ingestion) — ✅ scripts DONE (commits `aaa4dae`, `5ab6e39`); wave-loop execution in progress
+
+**Actual result:** `make_wave.py` implemented byte-identical to the plan's spec (spec review confirmed). `ingest_receipt.py` implemented with one disclosed, verified-correct deviation beyond the plan text: atomic checkpoint writes (temp file + fsync + `os.replace()`, mirroring Task 5's `edgar_lookup.py`) instead of a plain `write_text()`. Code-quality review then flagged two Important issues, fixed in a same-day follow-up (`5ab6e39`): (1) `ingest_receipt.py` originally crashed on any malformed receipt entry (missing `year`/`quarter`/`path`/`doc_type`) and, because the checkpoint was only saved once at the end of the loop, lost every earlier-processed valid entry in the same receipt too — now each entry is isolated in its own `try/except`, a bad entry is skipped with a stderr warning naming the index/ticker/missing field, and valid entries still merge; (2) the atomic-write helper, now duplicated byte-for-byte between `edgar_lookup.py` and `ingest_receipt.py`, was extracted into a new shared `phase2/sourcing/checkpoint_io.py` module (`GAP_COMBOS_PATH` + `save_gap_combos()`), following the existing `phase2/ods_utils.py` shared-helper precedent — both scripts now import from it, pure extraction, no behavior change otherwise. All claims independently re-verified (not just implementer-reported): diffed committed files against the plan's literal code, confirmed the real checkpoint file was never touched by either commit or by an implementer's self-caught/reverted test-writing incident during development, confirmed the atomic-write and per-entry-isolation logic by reading it directly, and sanity-ran `edgar_lookup.py` post-refactor to confirm the extraction didn't break its (independently reviewed, Task 5) behavior.
 
 **Files:**
 - Create: `phase2/sourcing/make_wave.py`
 - Create: `phase2/sourcing/ingest_receipt.py`
+- Create (added during review fix-up, not in the plan's original file list): `phase2/sourcing/checkpoint_io.py`
 
 This task's scripts don't call the `Agent` tool themselves — only the orchestrating Claude Code session can do that. `make_wave.py` prints ready-to-use prompts; a human (you, in a future session) or the agent executing this plan copies each block into an `Agent` tool call.
 
-- [ ] **Step 1: Write `phase2/sourcing/make_wave.py`**
+- [x] **Step 1: Write `phase2/sourcing/make_wave.py`**
 
 ```python
 """Prints ready-to-dispatch Agent-tool prompts for the next wave of Tier-2
@@ -908,7 +911,7 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Write `phase2/sourcing/ingest_receipt.py`**
+- [x] **Step 2: Write `phase2/sourcing/ingest_receipt.py`**
 
 ```python
 """Merges a Tier-2 subagent's JSON receipt (see make_wave.py's
