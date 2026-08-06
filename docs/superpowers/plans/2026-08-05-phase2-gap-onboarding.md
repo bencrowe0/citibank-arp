@@ -659,12 +659,14 @@ git commit -m "Resolve report dates for phase2 gap combos"
 
 ---
 
-### Task 5: Tier-1 scripted EDGAR sourcing (press releases only)
+### Task 5: Tier-1 scripted EDGAR sourcing (press releases only) — ✅ DONE (commits `c5ca421`, `043d5e8`, `982e4a6`)
+
+**Actual result:** First pass (`c5ca421`) implemented the plan's script essentially verbatim (spec review found only a cosmetic User-Agent contact-string change) and resolved 51/107 SEC-registered gap combos, spot-checked clean. The plan's own literal regex (`ex-?99[^"]*\.htm[l]?`) turned out to structurally miss a large class of real exhibit filenames — confirmed by direct EDGAR inspection: `GOOGL_2025_Q3`'s exhibit is `googexhibit991q32025.htm` ("ex" not immediately followed by "99"), and `BKNG_2025_Q1`'s is `bkngq12025earningspressr.htm` (contains neither "ex" nor "99" at all, unfixable by any filename regex). Two reviews judged this a legitimate Tier-1/Tier-2 design boundary rather than a spec defect (Tier 1 is allowed to punt), but per explicit user instruction to verify and fix before Task 6, a follow-up pass (`043d5e8`) replaced filename-regexing with parsing the filing's official `-index.htm` "Document Format Files" table for the row whose SEC-assigned `Type` column is exactly `EX-99.1` — the reliable, filename-independent signal. That pass also fixed an idempotency bug (reruns would have duplicated already-resolved combos' documents/notes — caught in review via a controller verification rerun that dirtied `gap_combos.json`, which was reverted before proceeding), fixed a rate-limit sleep that only fired on the success path (now fires per-combo via `finally`), and added per-combo exception isolation + incremental checkpoint saves. Result: 51/107 → 98/107 resolved (9 genuine remaining skips: 4 `CL_*` with no EX-99.1 row, `HOOD_2025_Q3` + 4 `SPOT_*` with no unambiguous 8-K). A final small pass (`982e4a6`) addressed two "Important" code-quality findings: `save()` now writes atomically (temp file + `os.replace()`, so a mid-write crash can't corrupt the checkpoint and lose prior progress), and a fetched index page with no "Document Format Files" table at all (a likely parser regression) is now surfaced as a distinct `structure_warning`, not silently folded into the ordinary "no exhibit" skip count. Every stage was independently re-verified (not just implementer-reported): reran the script directly, confirmed the 51 originally-resolved combos are byte-for-byte unchanged after the fix, confirmed JNJ's EX-99.1/99.2/99.3 disambiguation picks only `.1`, and spot-checked 8+ downloaded press releases total (CMCSA, MET, PLTR, CAT, COST, GIS, MU, Alphabet, Booking Holdings, J&J, Dell, Visa, UnitedHealth) for genuine correct-company/correct-quarter content — no mismatches found.
 
 **Files:**
 - Create: `phase2/sourcing/edgar_lookup.py`
 
-- [ ] **Step 1: Write `phase2/sourcing/edgar_lookup.py`**
+- [x] **Step 1: Write `phase2/sourcing/edgar_lookup.py`**
 
 ```python
 """Tier-1 scripted sourcing: for SEC-registered gap tickers, locate the
@@ -786,12 +788,12 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Run it and manually verify 2-3 downloads**
+- [x] **Step 2: Run it and manually verify 2-3 downloads**
 
 Run: `python phase2/sourcing/edgar_lookup.py`
 Then open 2-3 of the downloaded `docs/<slug>/CY<year>-Q<fq>/press_release.htm` files and confirm they're actually that company's earnings press release for that quarter (not a mismatched exhibit — EDGAR's item-code + date-window filter is usually unambiguous, but eyeball it before trusting it downstream). This is external, unpredictable data — a script test can't substitute for a human sanity check here.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add phase2/sourcing/edgar_lookup.py docs phase2/gap_combos.json
