@@ -23,8 +23,6 @@ subagent web search), regardless of SEC-registrant status.
 from __future__ import annotations
 
 import json
-import os
-import tempfile
 import time
 import urllib.request
 from datetime import date
@@ -32,8 +30,9 @@ from pathlib import Path
 
 from lxml import html as lxml_html
 
+from checkpoint_io import GAP_COMBOS_PATH, save_gap_combos
+
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-GAP_COMBOS_PATH = BASE_DIR / "phase2" / "gap_combos.json"
 DOCS_ROOT = BASE_DIR / "docs"
 
 HEADERS = {"User-Agent": "citibank-apr-research bencrowe01@gmail.com"}
@@ -169,31 +168,6 @@ def process_combo(key: str, combo: dict) -> tuple[str, str]:
     return "resolved", key
 
 
-def save(combos: dict) -> None:
-    """Writes gap_combos.json atomically: serialize to a temp file in the
-    same directory, flush+close, then os.replace() over the real path. A
-    direct write_text() can leave the file truncated/corrupted if the
-    process is killed mid-write, which would lose not just this run's
-    progress but everything previously on disk - defeating the point of
-    the per-combo incremental save below."""
-    data = json.dumps(combos, indent=2, sort_keys=True)
-    tmp = tempfile.NamedTemporaryFile(
-        mode="w",
-        encoding="utf-8",
-        dir=GAP_COMBOS_PATH.parent,
-        prefix=GAP_COMBOS_PATH.name + ".",
-        suffix=".tmp",
-        delete=False,
-    )
-    try:
-        tmp.write(data)
-        tmp.flush()
-        os.fsync(tmp.fileno())
-    finally:
-        tmp.close()
-    os.replace(tmp.name, GAP_COMBOS_PATH)
-
-
 def main() -> None:
     combos = json.loads(GAP_COMBOS_PATH.read_text(encoding="utf-8"))
     targets = {
@@ -214,7 +188,7 @@ def main() -> None:
         else:
             if status == "resolved":
                 resolved += 1
-                save(combos)  # persist incrementally so progress survives a later crash
+                save_gap_combos(combos)  # persist incrementally so progress survives a later crash
             elif status == "structure_warning":
                 structure_warnings.append(msg)
             else:
@@ -222,7 +196,7 @@ def main() -> None:
         finally:
             time.sleep(0.15)  # SEC's fair-use rate-limit guidance, once per combo regardless of outcome
 
-    save(combos)
+    save_gap_combos(combos)
     print(f"Tier-1 resolved press releases for {resolved} combos")
     print(f"{len(skipped)} need Tier-2 (subagent) for at least the press release:")
     for s in skipped:
