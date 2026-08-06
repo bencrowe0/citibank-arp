@@ -41,13 +41,13 @@
     ],
     "is_sec_registrant": false,
     "news_document_written": true,
-    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services",
+    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services Tier2 dead end: presentation/transcript unreachable after 2 independent sourcing attempts (IR site 403, all free transcript aggregators 403/blocked/no coverage). Press release + news digest are the only usable micro-adjacent docs for this combo.",
     "quarter": "Q2",
     "report_date": "2025-08-07",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Diversified",
     "slug": "allianz",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "ALV.DE",
     "year": "2025"
   },
@@ -63,13 +63,13 @@
     ],
     "is_sec_registrant": false,
     "news_document_written": true,
-    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services",
+    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services Tier2 dead end: presentation/transcript unreachable after 2 independent sourcing attempts (IR site 403, all free transcript aggregators 403/blocked/no coverage). Press release + news digest are the only usable micro-adjacent docs for this combo.",
     "quarter": "Q3",
     "report_date": "2025-11-14",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Diversified",
     "slug": "allianz",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "ALV.DE",
     "year": "2025"
   },
@@ -85,13 +85,13 @@
     ],
     "is_sec_registrant": false,
     "news_document_written": true,
-    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services",
+    "notes": "Tier2 unresolved: Earnings Presentation PDF - behind Allianz corporate access restrictions; Earnings Call Transcript - not available from public transcript services Tier2 dead end: presentation/transcript unreachable after 2 independent sourcing attempts (IR site 403, all free transcript aggregators 403/blocked/no coverage). Press release + news digest are the only usable micro-adjacent docs for this combo.",
     "quarter": "Q4",
     "report_date": "2026-02-26",
     "report_date_confidence": "medium",
     "sector": "Financial Services/Insurance - Diversified",
     "slug": "allianz",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "ALV.DE",
     "year": "2025"
   },
@@ -197,13 +197,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": true,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000021/bkngq12025earningspressr.htm (filed 2025-04-29). Tier2 unresolved: Earnings Presentation (report_date=2025-04-29); Earnings Call Transcript (report_date=2025-04-29)",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000021/bkngq12025earningspressr.htm (filed 2025-04-29). Tier2 unresolved: Earnings Presentation (report_date=2025-04-29); Earnings Call Transcript (report_date=2025-04-29) Tier2 dead end: presentation/transcript unreachable after 2 independent sourcing attempts (IR site 403, all free transcript aggregators 403/blocked/no coverage). Press release + news digest are the only usable micro-adjacent docs for this combo.",
     "quarter": "Q1",
     "report_date": "2025-04-29",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "booking_holdings",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "BKNG",
     "year": "2025"
   },
@@ -387,13 +387,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": true,
-    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found",
+    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found Tier2 dead end: presentation/transcript unreachable after 2 independent sourcing attempts (IR site 403, all free transcript aggregators 403/blocked/no coverage). Press release + news digest are the only usable micro-adjacent docs for this combo.",
     "quarter": "Q3",
     "report_date": "2025-10-31",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Household & Personal Products",
     "slug": "colgate_palmolive",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "CL",
     "year": "2025"
   },
@@ -409,13 +409,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": true,
-    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found",
+    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found Tier2 dead end: presentation/transcript unreachable after 2 independent sourcing attempts (IR site 403, all free transcript aggregators 403/blocked/no coverage). Press release + news digest are the only usable micro-adjacent docs for this combo.",
     "quarter": "Q4",
     "report_date": "2026-01-30",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Household & Personal Products",
     "slug": "colgate_palmolive",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "CL",
     "year": "2025"
   },
@@ -431,13 +431,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": true,
-    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found",
+    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found; Earnings Call Transcript: no accessible source found Tier2 dead end: presentation/transcript unreachable after 2 independent sourcing attempts (IR site 403, all free transcript aggregators 403/blocked/no coverage). Press release + news digest are the only usable micro-adjacent docs for this combo.",
     "quarter": "Q1",
     "report_date": "2026-05-01",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Household & Personal Products",
     "slug": "colgate_palmolive",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "CL",
     "year": "2026"
   },
@@ -453,13 +453,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": true,
-    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found, very recent quarter; Earnings Call Transcript: no accessible source found, very recent quarter",
+    "notes": "Tier2 unresolved: Earnings Presentation: no accessible source found, very recent quarter; Earnings Call Transcript: no accessible source found, very recent quarter Tier2 dead end: presentation/transcript unreachable after 2 independent sourcing attempts (IR site 403, all free transcript aggregators 403/blocked/no coverage). Press release + news digest are the only usable micro-adjacent docs for this combo.",
     "quarter": "Q2",
     "report_date": "2026-07-31",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Household & Personal Products",
     "slug": "colgate_palmolive",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "CL",
     "year": "2026"
   },
@@ -827,17 +827,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/delta_air_lines/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q1/Q1_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q1/Q1_2025_earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/27904/000168316825002353/ (filed 2025-04-09).",
     "quarter": "Q1",
     "report_date": "2025-04-09",
     "report_date_confidence": "medium",
     "sector": "Industrials/Airlines",
     "slug": "delta_air_lines",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "DAL",
     "year": "2025"
   },
@@ -849,17 +857,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/delta_air_lines/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q2/Q2_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q2/Q2_2025_earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/27904/000168316825005002/ (filed 2025-07-10).",
     "quarter": "Q2",
     "report_date": "2025-07-10",
     "report_date_confidence": "high",
     "sector": "Industrials/Airlines",
     "slug": "delta_air_lines",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "DAL",
     "year": "2025"
   },
@@ -871,17 +887,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/delta_air_lines/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q3/Q3_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q3/Q3_2025_earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/27904/000002790425000018/deltaairlinesannouncessept.htm (filed 2025-10-09).",
     "quarter": "Q3",
     "report_date": "2025-10-09",
     "report_date_confidence": "medium",
     "sector": "Industrials/Airlines",
     "slug": "delta_air_lines",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "DAL",
     "year": "2025"
   },
@@ -893,17 +917,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/delta_air_lines/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q4/Q4_2025_earnings_presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q4/Q4_2025_earnings_call_transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/27904/000002790426000008/deltaairlinesannouncesdece.htm (filed 2026-01-13).",
     "quarter": "Q4",
     "report_date": "2026-01-13",
     "report_date_confidence": "high",
     "sector": "Industrials/Airlines",
     "slug": "delta_air_lines",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "DAL",
     "year": "2025"
   },
@@ -1003,17 +1035,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/expedia/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/expedia/CY2025-Q1/Q1-2025-Earnings-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/expedia/CY2025-Q1/Q1-2025-Earnings-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1324424/000132442425000025/earningsrelease-q12025.htm (filed 2025-05-08).",
     "quarter": "Q1",
     "report_date": "2025-05-08",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "expedia",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "EXPE",
     "year": "2025"
   },
@@ -1025,17 +1065,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/expedia/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/expedia/CY2025-Q2/Q2-2025-Earnings-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/expedia/CY2025-Q2/Q2-2025-Earnings-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1324424/000132442425000039/earningsrelease-q22025.htm (filed 2025-08-07).",
     "quarter": "Q2",
     "report_date": "2025-08-07",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "expedia",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "EXPE",
     "year": "2025"
   },
@@ -1047,17 +1095,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/expedia/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/expedia/CY2025-Q4/Q4-2025-Earnings-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/expedia/CY2025-Q4/Q4-2025-Earnings-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1324424/000132442426000005/earningsrelease-q42025.htm (filed 2026-02-12).",
     "quarter": "Q4",
     "report_date": "2026-02-12",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "expedia",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "EXPE",
     "year": "2025"
   },
@@ -1069,17 +1125,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/expedia/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/expedia/CY2026-Q1/Q1-2026-Earnings-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/expedia/CY2026-Q1/Q1-2026-Earnings-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1324424/000132442426000031/earningsrelease-q12026.htm (filed 2026-05-07).",
     "quarter": "Q1",
     "report_date": "2026-05-07",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "expedia",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "EXPE",
     "year": "2026"
   },
@@ -1091,17 +1155,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/general_mills/CY2026-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/general_mills/CY2026-Q2/GIS_Q2_2026_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/general_mills/CY2026-Q2/GIS_Q2_2026_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/40704/000162828025057486/ (filed 2025-12-17).",
     "quarter": "Q2",
     "report_date": "2025-12-17",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "general_mills",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "GIS",
     "year": "2026"
   },
@@ -1113,17 +1185,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/general_mills/CY2026-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/general_mills/CY2026-Q3/GIS_Q3_2026_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/general_mills/CY2026-Q3/GIS_Q3_2026_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/40704/000162828026019020/ (filed 2026-03-18).",
     "quarter": "Q3",
     "report_date": "2026-03-18",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "general_mills",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "GIS",
     "year": "2026"
   },
@@ -1135,17 +1215,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/general_mills/CY2026-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/general_mills/CY2026-Q4/GIS_Q4_2026_Presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/40704/000162828026046337/ (filed 2026-07-01).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/40704/000162828026046337/ (filed 2026-07-01). Tier2 unresolved: Earnings Call Transcript: extraction failed from Motley Fool/Insider Monkey/MarketScreener (access denied)",
     "quarter": "Q4",
     "report_date": "2026-07-01",
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "general_mills",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "GIS",
     "year": "2026"
   },
