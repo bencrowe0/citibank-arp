@@ -137,10 +137,15 @@
     "appended": true,
     "cik": 1075531,
     "company": "Booking Holdings",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/booking_holdings/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000021/bkngq12025earningspressr.htm (filed 2025-04-29).",
     "quarter": "Q1",
     "report_date": "2025-04-29",
     "report_date_confidence": "high",
@@ -154,10 +159,15 @@
     "appended": true,
     "cik": 1075531,
     "company": "Booking",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/booking_holdings/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000035/bkngq22025earningspressr.htm (filed 2025-07-29).",
     "quarter": "Q2",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
@@ -171,10 +181,15 @@
     "appended": true,
     "cik": 1075531,
     "company": "Booking",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/booking_holdings/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553125000050/q3-25bkngearningsrelease.htm (filed 2025-10-28).",
     "quarter": "Q3",
     "report_date": "2025-10-28",
     "report_date_confidence": "high",
@@ -188,10 +203,15 @@
     "appended": true,
     "cik": 1075531,
     "company": "Booking",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/booking_holdings/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1075531/000107553126000008/q4-25bkngearningsrelease.htm (filed 2026-02-18).",
     "quarter": "Q4",
     "report_date": "2026-02-18",
     "report_date_confidence": "high",
@@ -581,10 +601,15 @@
     "appended": true,
     "cik": 1108524,
     "company": "Salesforce",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/salesforce/CY2026-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1108524/000110852425000083/crm-q2fy26xexhibit991.htm (filed 2025-09-03).",
     "quarter": "Q2",
     "report_date": "2025-09-03",
     "report_date_confidence": "high",
@@ -598,10 +623,15 @@
     "appended": true,
     "cik": 1108524,
     "company": "Salesforce",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/salesforce/CY2026-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1108524/000110852425000234/crm-q3fy26xexhibit991.htm (filed 2025-12-03).",
     "quarter": "Q3",
     "report_date": "2025-12-03",
     "report_date_confidence": "high",
@@ -615,10 +645,15 @@
     "appended": true,
     "cik": 1108524,
     "company": "Salesforce",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/salesforce/CY2026-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1108524/000110852426000056/crm-q4fy26xexhibit991.htm (filed 2026-02-25).",
     "quarter": "Q4",
     "report_date": "2026-02-25",
     "report_date_confidence": "high",
@@ -676,10 +711,15 @@
     "appended": true,
     "cik": 27904,
     "company": "Delta Air Lines",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/27904/000002790425000018/deltaairlinesannouncessept.htm (filed 2025-10-09).",
     "quarter": "Q3",
     "report_date": "2025-10-09",
     "report_date_confidence": "medium",
@@ -693,10 +733,15 @@
     "appended": true,
     "cik": 27904,
     "company": "Delta Air Lines",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/delta_air_lines/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/27904/000002790426000008/deltaairlinesannouncesdece.htm (filed 2026-01-13).",
     "quarter": "Q4",
     "report_date": "2026-01-13",
     "report_date_confidence": "high",
@@ -710,10 +755,15 @@
     "appended": true,
     "cik": 1571996,
     "company": "Dell",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/dell/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000046/exhibit991earnings8kq1fy26.htm (filed 2025-05-29).",
     "quarter": "Q1",
     "report_date": "2025-05-29",
     "report_date_confidence": "medium",
@@ -727,10 +777,15 @@
     "appended": true,
     "cik": 1571996,
     "company": "Dell",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/dell/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000096/exhibit991earnings8kq2fy26.htm (filed 2025-08-28).",
     "quarter": "Q2",
     "report_date": "2025-08-28",
     "report_date_confidence": "medium",
@@ -744,10 +799,15 @@
     "appended": true,
     "cik": 1571996,
     "company": "Dell",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/dell/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199625000118/exhibit991earnings8kq3fy26.htm (filed 2025-11-25).",
     "quarter": "Q3",
     "report_date": "2025-11-25",
     "report_date_confidence": "medium",
@@ -761,10 +821,15 @@
     "appended": true,
     "cik": 1571996,
     "company": "Dell",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/dell/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1571996/000157199626000003/exhibit991earnings8kq4fy26.htm (filed 2026-02-26).",
     "quarter": "Q4",
     "report_date": "2026-02-26",
     "report_date_confidence": "medium",
@@ -778,10 +843,15 @@
     "appended": true,
     "cik": 1324424,
     "company": "Expedia",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/expedia/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1324424/000132442425000025/earningsrelease-q12025.htm (filed 2025-05-08).",
     "quarter": "Q1",
     "report_date": "2025-05-08",
     "report_date_confidence": "high",
@@ -795,10 +865,15 @@
     "appended": true,
     "cik": 1324424,
     "company": "Expedia",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/expedia/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1324424/000132442425000039/earningsrelease-q22025.htm (filed 2025-08-07).",
     "quarter": "Q2",
     "report_date": "2025-08-07",
     "report_date_confidence": "high",
@@ -812,10 +887,15 @@
     "appended": true,
     "cik": 1324424,
     "company": "Expedia",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/expedia/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1324424/000132442426000005/earningsrelease-q42025.htm (filed 2026-02-12).",
     "quarter": "Q4",
     "report_date": "2026-02-12",
     "report_date_confidence": "high",
@@ -829,10 +909,15 @@
     "appended": true,
     "cik": 1324424,
     "company": "Expedia",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/expedia/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1324424/000132442426000031/earningsrelease-q12026.htm (filed 2026-05-07).",
     "quarter": "Q1",
     "report_date": "2026-05-07",
     "report_date_confidence": "high",
@@ -912,10 +997,15 @@
     "appended": true,
     "cik": 1652044,
     "company": "Alphabet",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/alphabet/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/googexhibit991q32025.htm (filed 2025-10-29).",
     "quarter": "Q3",
     "report_date": "2025-10-29",
     "report_date_confidence": "high",
@@ -929,10 +1019,15 @@
     "appended": true,
     "cik": 1652044,
     "company": "Alphabet",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/alphabet/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm (filed 2026-02-04).",
     "quarter": "Q4",
     "report_date": "2026-02-04",
     "report_date_confidence": "high",
@@ -946,10 +1041,15 @@
     "appended": true,
     "cik": 1652044,
     "company": "Alphabet",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/alphabet/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm (filed 2026-04-29).",
     "quarter": "Q1",
     "report_date": "2026-04-29",
     "report_date_confidence": "high",
@@ -963,10 +1063,15 @@
     "appended": true,
     "cik": 1783879,
     "company": "Robinhood Markets",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387925000144/q12025robinhoodexhibit991.htm (filed 2025-04-30).",
     "quarter": "Q1",
     "report_date": "2025-04-30",
     "report_date_confidence": "high",
@@ -980,10 +1085,15 @@
     "appended": true,
     "cik": 1783879,
     "company": "Robinhood Markets",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/robinhood_markets/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387925000250/q22025robinhoodexhibit991.htm (filed 2025-07-30).",
     "quarter": "Q2",
     "report_date": "2025-07-30",
     "report_date_confidence": "high",
@@ -1014,10 +1124,15 @@
     "appended": true,
     "cik": 1783879,
     "company": "Robinhood Markets",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/robinhood_markets/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1783879/000178387926000061/q12026robinhoodexhibit991.htm (filed 2026-04-28).",
     "quarter": "Q1",
     "report_date": "2026-04-28",
     "report_date_confidence": "high",
@@ -1031,10 +1146,15 @@
     "appended": true,
     "cik": 200406,
     "company": "Johnson  Johnson",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Sheet has 2 conflicting Abdul rows for this combo: one dated 14/04/25-15/04/25 (price 154.36/155.7, matches validated report_date) and one mislabeled 14/04/26-14/04/26 (price 237.96/235.01, Year/Quarter columns still say 2025/Q1 - transcription error). human_prices.json manually pinned to the correct pair; a future rerun of build_gap_human_prices.py will silently revert to the bad pair via last-one-wins unless the sheet itself is fixed - flag for sheet owner.",
+    "notes": "Sheet has 2 conflicting Abdul rows for this combo: one dated 14/04/25-15/04/25 (price 154.36/155.7, matches validated report_date) and one mislabeled 14/04/26-14/04/26 (price 237.96/235.01, Year/Quarter columns still say 2025/Q1 - transcription error). human_prices.json manually pinned to the correct pair; a future rerun of build_gap_human_prices.py will silently revert to the bad pair via last-one-wins unless the sheet itself is fixed - flag for sheet owner. Tier1: press release from https://www.sec.gov/Archives/edgar/data/200406/000020040625000110/a2025q1exhibit991.htm (filed 2025-04-15).",
     "quarter": "Q1",
     "report_date": "2025-04-14",
     "report_date_confidence": "high",
@@ -1048,10 +1168,15 @@
     "appended": true,
     "cik": 200406,
     "company": "Johnson  Johnson",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/200406/000020040625000170/a2025q2exhibit991.htm (filed 2025-07-16).",
     "quarter": "Q2",
     "report_date": "2025-07-15",
     "report_date_confidence": "high",
@@ -1065,10 +1190,15 @@
     "appended": true,
     "cik": 200406,
     "company": "Johnson  Johnson",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/johnson_johnson/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/200406/000020040625000201/a2025q3exhibit991.htm (filed 2025-10-14).",
     "quarter": "Q3",
     "report_date": "2025-10-13",
     "report_date_confidence": "high",
@@ -1700,10 +1830,15 @@
     "appended": true,
     "cik": 1506293,
     "company": "Pinterest",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/pinterest/CY2024-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1506293/000150629325000020/q4-24xpressrelease.htm (filed 2025-02-06).",
     "quarter": "Q4",
     "report_date": "2025-02-06",
     "report_date_confidence": "high",
@@ -1717,10 +1852,15 @@
     "appended": true,
     "cik": 1506293,
     "company": "Pinterest",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/pinterest/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1506293/000150629326000019/q4-25xpressrelease.htm (filed 2026-02-12).",
     "quarter": "Q4",
     "report_date": "2026-02-12",
     "report_date_confidence": "high",
@@ -1734,10 +1874,15 @@
     "appended": true,
     "cik": 1506293,
     "company": "Pinterest",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/pinterest/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1506293/000150629326000066/q1-26xpressrelease.htm (filed 2026-05-04).",
     "quarter": "Q1",
     "report_date": "2026-05-04",
     "report_date_confidence": "high",
@@ -1907,10 +2052,15 @@
     "appended": true,
     "cik": 1633917,
     "company": "PayPal",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/paypal/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1633917/000163391725000062/pypl1q-25earningsrelease.htm (filed 2025-04-29).",
     "quarter": "Q1",
     "report_date": "2025-04-29",
     "report_date_confidence": "high",
@@ -1924,10 +2074,15 @@
     "appended": true,
     "cik": 1633917,
     "company": "PayPal",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/paypal/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1633917/000163391725000158/pypl2q-25earningsrelease.htm (filed 2025-07-29).",
     "quarter": "Q2",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
@@ -1941,10 +2096,15 @@
     "appended": true,
     "cik": 1633917,
     "company": "PayPal",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/paypal/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1633917/000163391725000194/pypl3q-25earningsrelease.htm (filed 2025-10-28).",
     "quarter": "Q3",
     "report_date": "2025-10-28",
     "report_date_confidence": "high",
@@ -1958,10 +2118,15 @@
     "appended": true,
     "cik": 1633917,
     "company": "PayPal",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/paypal/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1633917/000163391726000065/pypl1q-26earningsrelease.htm (filed 2026-05-05).",
     "quarter": "Q1",
     "report_date": "2026-05-05",
     "report_date_confidence": "high",
@@ -2043,10 +2208,15 @@
     "appended": true,
     "cik": 829224,
     "company": "Starbucks",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/starbucks/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922425000057/sbux-06292025xexhibit991.htm (filed 2025-07-29).",
     "quarter": "Q3",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
@@ -2060,10 +2230,15 @@
     "appended": true,
     "cik": 829224,
     "company": "Starbucks",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/starbucks/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922425000074/sbux-09282025xexhibit991.htm (filed 2025-10-29).",
     "quarter": "Q4",
     "report_date": "2025-10-29",
     "report_date_confidence": "high",
@@ -2077,10 +2252,15 @@
     "appended": true,
     "cik": 829224,
     "company": "Starbucks",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/starbucks/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922426000010/sbux-12282025xearningsrele.htm (filed 2026-01-28).",
     "quarter": "Q1",
     "report_date": "2026-01-27",
     "report_date_confidence": "high",
@@ -2281,10 +2461,15 @@
     "appended": true,
     "cik": 731766,
     "company": "UnitedHealth",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/unitedhealth/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/731766/000073176625000228/a2025q2exhibit991.htm (filed 2025-07-29).",
     "quarter": "Q2",
     "report_date": "2025-07-28",
     "report_date_confidence": "high",
@@ -2298,10 +2483,15 @@
     "appended": true,
     "cik": 731766,
     "company": "UnitedHealth",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/unitedhealth/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/731766/000073176625000301/a2025q3exhibit991.htm (filed 2025-10-28).",
     "quarter": "Q3",
     "report_date": "2025-10-27",
     "report_date_confidence": "high",
@@ -2315,10 +2505,15 @@
     "appended": true,
     "cik": 731766,
     "company": "UnitedHealth",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/unitedhealth/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/731766/000073176626000025/a991unherq42025.htm (filed 2026-01-27).",
     "quarter": "Q4",
     "report_date": "2026-01-26",
     "report_date_confidence": "high",
@@ -2332,10 +2527,15 @@
     "appended": true,
     "cik": 1403161,
     "company": "Visa",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/visa/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1403161/000140316125000035/q22025earningsrelease.htm (filed 2025-04-29).",
     "quarter": "Q1",
     "report_date": "2025-04-28",
     "report_date_confidence": "high",
@@ -2349,10 +2549,15 @@
     "appended": true,
     "cik": 1403161,
     "company": "Visa",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/visa/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1403161/000140316125000051/q32025earningsrelease.htm (filed 2025-07-29).",
     "quarter": "Q2",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
@@ -2366,10 +2571,15 @@
     "appended": true,
     "cik": 1403161,
     "company": "Visa",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/visa/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1403161/000140316125000077/q42025earningsrelease.htm (filed 2025-10-28).",
     "quarter": "Q3",
     "report_date": "2025-10-28",
     "report_date_confidence": "high",
@@ -2383,10 +2593,15 @@
     "appended": true,
     "cik": 1403161,
     "company": "Visa",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/visa/CY2026-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1403161/000140316126000077/q22026earningsrelease.htm (filed 2026-04-28).",
     "quarter": "Q1",
     "report_date": "2026-04-28",
     "report_date_confidence": "high",
@@ -2400,10 +2615,15 @@
     "appended": true,
     "cik": 1327811,
     "company": "Workday",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/workday/CY2025-Q1/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781125000105/wday-04302025x991.htm (filed 2025-05-22).",
     "quarter": "Q1",
     "report_date": "2025-05-22",
     "report_date_confidence": "medium",
@@ -2417,10 +2637,15 @@
     "appended": true,
     "cik": 1327811,
     "company": "Workday",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/workday/CY2025-Q2/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781125000181/wday-07312025x991.htm (filed 2025-08-21).",
     "quarter": "Q2",
     "report_date": "2025-08-21",
     "report_date_confidence": "medium",
@@ -2434,10 +2659,15 @@
     "appended": true,
     "cik": 1327811,
     "company": "Workday",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/workday/CY2025-Q3/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781125000196/wday-10312025x991.htm (filed 2025-11-25).",
     "quarter": "Q3",
     "report_date": "2025-11-25",
     "report_date_confidence": "medium",
@@ -2451,10 +2681,15 @@
     "appended": true,
     "cik": 1327811,
     "company": "Workday",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/workday/CY2025-Q4/press_release.htm"
+      }
+    ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781126000010/wday-01312026x991.htm (filed 2026-02-24).",
     "quarter": "Q4",
     "report_date": "2026-02-24",
     "report_date_confidence": "medium",

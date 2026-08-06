@@ -3,6 +3,18 @@ earnings-release 8-K's EX-99.1 exhibit (the near-universal press-release
 exhibit convention) via EDGAR's submissions API, and download it. Zero LLM
 tokens - deterministic filing lookup only.
 
+Exhibit discovery reads the filing's own detail index page (the
+"-index.htm" page, not the bare accession directory listing) and parses its
+"Document Format Files" table for the row whose SEC-assigned Type column is
+exactly EX-99.1. This is more reliable than pattern-matching the exhibit's
+filename, which is an unenforced convention - some filers name it
+"exhibit991q...", others omit "ex"/"99" from the filename entirely.
+
+Rerunning this script is idempotent: any combo that already has a
+"Press Release" document is skipped outright, so a rerun only touches the
+combos still missing one. Progress is persisted after every combo so one
+bad combo's exception can't lose earlier results.
+
 Presentation and transcript documents are NOT reliably on EDGAR (rarely
 filed as exhibits, never as full transcripts) - those, the news digest, and
 anything this script can't confidently resolve stay Tier-2 (background
@@ -11,11 +23,12 @@ subagent web search), regardless of SEC-registrant status.
 from __future__ import annotations
 
 import json
-import re
 import time
 import urllib.request
 from datetime import date
 from pathlib import Path
+
+from lxml import html as lxml_html
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 GAP_COMBOS_PATH = BASE_DIR / "phase2" / "gap_combos.json"
@@ -32,10 +45,22 @@ def fetch_json(url: str) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def find_earnings_8k_index_url(cik: int, report_date: date) -> tuple[str, str] | None:
-    """Returns (index_url, filing_date_iso) for the single 8-K (item 2.02,
-    Results of Operations) filed within 5 days of report_date. None if zero
-    or multiple candidates (ambiguous - leave for Tier 2)."""
+def fetch_text(url: str) -> str:
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read().decode("utf-8", errors="ignore")
+
+
+def fetch_bytes(url: str) -> bytes:
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read()
+
+
+def find_earnings_8k_filing(cik: int, report_date: date) -> dict | None:
+    """Returns {"accno_nodash", "accno_dashed", "filed"} for the single 8-K
+    (item 2.02, Results of Operations) filed within 5 days of report_date.
+    None if zero or multiple candidates (ambiguous - leave for Tier 2)."""
     data = fetch_json(EDGAR_SUBMISSIONS_URL.format(cik=cik))
     recent = data["filings"]["recent"]
     candidates = []
@@ -47,65 +72,111 @@ def find_earnings_8k_index_url(cik: int, report_date: date) -> tuple[str, str] |
         filed = date.fromisoformat(recent["filingDate"][i])
         if abs((filed - report_date).days) > 5:
             continue
-        accno = recent["accessionNumber"][i].replace("-", "")
-        candidates.append((f"https://www.sec.gov/Archives/edgar/data/{cik}/{accno}/", filed.isoformat()))
+        accno_dashed = recent["accessionNumber"][i]
+        candidates.append({
+            "accno_nodash": accno_dashed.replace("-", ""),
+            "accno_dashed": accno_dashed,
+            "filed": filed.isoformat(),
+        })
     return candidates[0] if len(candidates) == 1 else None
 
 
-def download_exhibit_99_1(index_url: str, dest_dir: Path) -> Path | None:
-    """Fetches the accession's filing index page, finds the EX-99.1 link,
-    downloads it. Returns the saved path, or None if no EX-99.1 found."""
-    req = urllib.request.Request(index_url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        html = resp.read().decode("utf-8", errors="ignore")
-    m = re.search(r'href="([^"]*ex-?99[^"]*\.htm[l]?)"', html, re.IGNORECASE)
-    if not m:
-        return None
-    doc_url = index_url + m.group(1).split("/")[-1]
-    req = urllib.request.Request(doc_url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        content = resp.read()
+def find_ex99_1_url(cik: int, accno_nodash: str, accno_dashed: str) -> str | None:
+    """Fetches the filing's detail index page (the "-index.htm" page) and
+    parses its "Document Format Files" table for the row whose Type column
+    is exactly EX-99.1 (case-insensitive; EX-99.2/99.3/etc. are excluded).
+    Returns the fetchable document URL, or None if no such row exists."""
+    index_page_url = (
+        f"https://www.sec.gov/Archives/edgar/data/{cik}/{accno_nodash}/"
+        f"{accno_dashed}-index.htm"
+    )
+    tree = lxml_html.fromstring(fetch_text(index_page_url))
+    tables = tree.xpath('//table[@summary="Document Format Files"]')
+    if not tables:
+        tables = tree.xpath('//table[contains(concat(" ", @class, " "), " tableFile ")]')
+    for table in tables:
+        for row in table.xpath(".//tr"):
+            cells = row.xpath("./td")
+            if len(cells) < 4:
+                continue
+            if cells[3].text_content().strip().upper() != "EX-99.1":
+                continue
+            hrefs = cells[2].xpath(".//a/@href")
+            if not hrefs:
+                continue
+            href = hrefs[0]
+            if href.startswith("/ix?doc="):
+                href = href[len("/ix?doc="):]
+            return "https://www.sec.gov" + href
+    return None
+
+
+def has_press_release(combo: dict) -> bool:
+    return any(d.get("doc_type") == "Press Release" for d in combo.get("documents", []))
+
+
+def process_combo(key: str, combo: dict) -> tuple[str, str]:
+    """Attempts Tier-1 resolution for one combo, mutating it in place on
+    success. Returns (status, message) with status "resolved" or "skipped"."""
+    report_date = date.fromisoformat(combo["report_date"])
+    filing = find_earnings_8k_filing(combo["cik"], report_date)
+    if filing is None:
+        return "skipped", f"{key}: no unambiguous 8-K (item 2.02) within 5 days of {report_date}"
+
+    index_dir_url = (
+        f"https://www.sec.gov/Archives/edgar/data/{combo['cik']}/{filing['accno_nodash']}/"
+    )
+    doc_url = find_ex99_1_url(combo["cik"], filing["accno_nodash"], filing["accno_dashed"])
+    if doc_url is None:
+        return "skipped", f"{key}: 8-K found ({index_dir_url}) but no EX-99.1 exhibit in it"
+
+    fq = QUARTER_NUM[combo["quarter"]]
+    dest_dir = DOCS_ROOT / combo["slug"] / f"CY{combo['year']}-Q{fq}"
     dest_dir.mkdir(parents=True, exist_ok=True)
     dest_path = dest_dir / "press_release.htm"
-    dest_path.write_bytes(content)
-    return dest_path
+    dest_path.write_bytes(fetch_bytes(doc_url))
+
+    combo.setdefault("documents", []).append({
+        "doc_type": "Press Release",
+        "source_pdf": str(dest_path.relative_to(BASE_DIR)).replace("\\", "/"),
+    })
+    combo["notes"] = (
+        combo["notes"] + f" Tier1: press release from {doc_url} (filed {filing['filed']})."
+    ).strip()
+    return "resolved", key
+
+
+def save(combos: dict) -> None:
+    GAP_COMBOS_PATH.write_text(json.dumps(combos, indent=2, sort_keys=True), encoding="utf-8")
 
 
 def main() -> None:
     combos = json.loads(GAP_COMBOS_PATH.read_text(encoding="utf-8"))
     targets = {
         k: c for k, c in combos.items()
-        if c.get("is_sec_registrant") and c.get("report_date") and c["status"] == "report_date_resolved"
+        if c.get("is_sec_registrant")
+        and c.get("report_date")
+        and c["status"] == "report_date_resolved"
+        and not has_press_release(c)
     }
-    print(f"{len(targets)} SEC-registered combos with a resolved report_date to try")
+    print(f"{len(targets)} SEC-registered combos with a resolved report_date and no Press Release yet")
 
     resolved, skipped = 0, []
     for key, combo in sorted(targets.items()):
-        report_date = date.fromisoformat(combo["report_date"])
         try:
-            found = find_earnings_8k_index_url(combo["cik"], report_date)
-        except Exception as exc:  # noqa: BLE001
-            skipped.append(f"{key}: EDGAR lookup failed: {exc}")
-            continue
-        if found is None:
-            skipped.append(f"{key}: no unambiguous 8-K (item 2.02) within 5 days of {report_date}")
-            continue
-        index_url, filing_date = found
-        fq = QUARTER_NUM[combo["quarter"]]
-        dest_dir = DOCS_ROOT / combo["slug"] / f"CY{combo['year']}-Q{fq}"
-        path = download_exhibit_99_1(index_url, dest_dir)
-        if path is None:
-            skipped.append(f"{key}: 8-K found ({index_url}) but no EX-99.1 exhibit in it")
-            continue
-        combo.setdefault("documents", []).append({
-            "doc_type": "Press Release",
-            "source_pdf": str(path.relative_to(BASE_DIR)).replace("\\", "/"),
-        })
-        combo["notes"] = (combo["notes"] + f" Tier1: press release from {index_url} (filed {filing_date}).").strip()
-        resolved += 1
-        time.sleep(0.15)  # SEC's fair-use rate-limit guidance
+            status, msg = process_combo(key, combo)
+        except Exception as exc:  # noqa: BLE001 - one bad combo must not kill the run
+            skipped.append(f"{key}: error: {exc}")
+        else:
+            if status == "resolved":
+                resolved += 1
+                save(combos)  # persist incrementally so progress survives a later crash
+            else:
+                skipped.append(msg)
+        finally:
+            time.sleep(0.15)  # SEC's fair-use rate-limit guidance, once per combo regardless of outcome
 
-    GAP_COMBOS_PATH.write_text(json.dumps(combos, indent=2, sort_keys=True), encoding="utf-8")
+    save(combos)
     print(f"Tier-1 resolved press releases for {resolved} combos")
     print(f"{len(skipped)} need Tier-2 (subagent) for at least the press release:")
     for s in skipped:
