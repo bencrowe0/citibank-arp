@@ -1853,13 +1853,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000156/ (filed 2023-05-03).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000156/ (filed 2023-05-03). Tier2 dead end: transcript+news digest not sourced after 3 sourcing attempts across this 13-quarter batch (budget-constrained cutoff); press release (+ presentation where noted) is the only usable doc for this combo this session.",
     "quarter": "Q1",
     "report_date": "2023-05-03",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "MET",
     "year": "2023"
   },
@@ -1875,13 +1875,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000207/ (filed 2023-08-02).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000207/ (filed 2023-08-02). Tier2 dead end: transcript+news digest not sourced after 3 sourcing attempts across this 13-quarter batch (budget-constrained cutoff); press release (+ presentation where noted) is the only usable doc for this combo this session.",
     "quarter": "Q2",
     "report_date": "2023-08-02",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "MET",
     "year": "2023"
   },
@@ -1897,13 +1897,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000266/ (filed 2023-11-01).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921923000266/ (filed 2023-11-01). Tier2 dead end: transcript+news digest not sourced after 3 sourcing attempts across this 13-quarter batch (budget-constrained cutoff); press release (+ presentation where noted) is the only usable doc for this combo this session.",
     "quarter": "Q3",
     "report_date": "2023-11-01",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "MET",
     "year": "2023"
   },
@@ -1915,17 +1915,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/metlife/CY2023-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/metlife/CY2023-Q4/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000028/ (filed 2024-01-31).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000028/ (filed 2024-01-31). Tier2 dead end: transcript+news digest not sourced after 3 sourcing attempts across this 13-quarter batch (budget-constrained cutoff); press release (+ presentation where noted) is the only usable doc for this combo this session.",
     "quarter": "Q4",
     "report_date": "2024-01-31",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "MET",
     "year": "2023"
   },
@@ -1941,13 +1945,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000139/ (filed 2024-05-01).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000139/ (filed 2024-05-01). Tier2 dead end: transcript+news digest not sourced after 3 sourcing attempts across this 13-quarter batch (budget-constrained cutoff); press release (+ presentation where noted) is the only usable doc for this combo this session.",
     "quarter": "Q1",
     "report_date": "2024-05-01",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "MET",
     "year": "2024"
   },
@@ -1959,6 +1963,10 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/metlife/CY2024-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/metlife/CY2024-Q2/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
@@ -1981,6 +1989,10 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/metlife/CY2024-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/metlife/CY2024-Q3/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
@@ -2007,13 +2019,13 @@
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000039/ (filed 2025-02-05).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000039/ (filed 2025-02-05). Tier2 dead end: transcript+news digest not sourced after 3 sourcing attempts across this 13-quarter batch (budget-constrained cutoff); press release (+ presentation where noted) is the only usable doc for this combo this session.",
     "quarter": "Q4",
     "report_date": "2025-02-05",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "MET",
     "year": "2024"
   },
@@ -2025,17 +2037,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/metlife/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/metlife/CY2025-Q1/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
     "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000133/ (filed 2025-04-30).",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000133/ (filed 2025-04-30). Tier2 dead end: transcript+news digest not sourced after 3 sourcing attempts across this 13-quarter batch (budget-constrained cutoff); press release (+ presentation where noted) is the only usable doc for this combo this session.",
     "quarter": "Q1",
     "report_date": "2025-04-30",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "MET",
     "year": "2025"
   },
@@ -2047,17 +2063,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/metlife/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/metlife/CY2025-Q2/earnings_call_transcript.txt"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/metlife/CY2025-Q2/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000191/ (filed 2025-08-06).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000191/ (filed 2025-08-06). Tier2 unresolved: News digest not yet written",
     "quarter": "Q2",
     "report_date": "2025-08-06",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MET",
     "year": "2025"
   },
@@ -2069,17 +2093,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/metlife/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/metlife/CY2025-Q3/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000227/ (filed 2025-11-05).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921925000227/ (filed 2025-11-05). Tier2 unresolved: Earnings Call Transcript: prior fetch returned a Cloudflare JS-challenge page, not real content; News digest not yet written Tier2 unresolved: Earnings Call Transcript: all attempted sources blocked (403/404)",
     "quarter": "Q3",
     "report_date": "2025-11-05",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MET",
     "year": "2025"
   },
@@ -2091,17 +2119,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/metlife/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/metlife/CY2025-Q4/earnings_call_transcript.txt"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/metlife/CY2025-Q4/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921926000008/ (filed 2026-02-04).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921926000008/ (filed 2026-02-04). Tier2 unresolved: News digest not yet written",
     "quarter": "Q4",
     "report_date": "2026-02-04",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MET",
     "year": "2025"
   },
@@ -2113,17 +2149,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/metlife/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/metlife/CY2026-Q1/earnings_call_transcript.txt"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/metlife/CY2026-Q1/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921926000032/ (filed 2026-05-06).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921926000032/ (filed 2026-05-06). Tier2 unresolved: News digest not yet written",
     "quarter": "Q1",
     "report_date": "2026-05-06",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MET",
     "year": "2026"
   },
@@ -2135,17 +2179,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/micron/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/micron/CY2025-Q4/MU_FY2025_Q4_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/micron/CY2025-Q4/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312525000024/ (filed 2025-09-23).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312525000024/ (filed 2025-09-23). Tier2 unresolved: Earnings Call Transcript: prior attempt fabricated a bullet-point summary instead of real transcript - discarded, needs redo",
     "quarter": "Q4",
     "report_date": "2025-09-23",
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "micron",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MU",
     "year": "2025"
   },
@@ -2157,17 +2209,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/micron/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/micron/CY2026-Q1/MU_FY2026_Q1_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/micron/CY2026-Q1/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312525000044/ (filed 2025-12-17).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312525000044/ (filed 2025-12-17). Tier2 unresolved: Earnings Call Transcript: prior attempt fabricated a bullet-point summary instead of real transcript - discarded, needs redo",
     "quarter": "Q1",
     "report_date": "2025-12-17",
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "micron",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MU",
     "year": "2026"
   },
@@ -2179,17 +2239,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/micron/CY2026-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/micron/CY2026-Q2/MU_FY2026_Q2_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/micron/CY2026-Q2/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/ (filed 2026-03-18).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/ (filed 2026-03-18). Tier2 unresolved: Earnings Call Transcript: prior attempt fabricated a bullet-point summary instead of real transcript - discarded, needs redo",
     "quarter": "Q2",
     "report_date": "2026-03-18",
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "micron",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MU",
     "year": "2026"
   },
@@ -2201,17 +2269,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/oracle/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/oracle/CY2026-Q1/ORCL_Q1_2026_earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312525199175/ (filed 2025-09-09).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312525199175/ (filed 2025-09-09). Tier2 unresolved: Earnings Presentation: prior fetch returned an unrelated company's (KeyCorp) deck - discarded, needs redo",
     "quarter": "Q1",
     "report_date": "2025-09-09",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "oracle",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "ORCL",
     "year": "2026"
   },
@@ -2223,17 +2295,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/oracle/CY2026-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/oracle/CY2026-Q2/ORCL_Q2_2026_earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/ (filed 2025-12-10).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/ (filed 2025-12-10). Tier2 unresolved: Earnings Presentation: prior fetch returned an unrelated company's (KeyCorp) deck - discarded, needs redo",
     "quarter": "Q2",
     "report_date": "2025-12-10",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "oracle",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "ORCL",
     "year": "2026"
   },
@@ -2245,17 +2321,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/oracle/CY2026-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/oracle/CY2026-Q3/ORCL_Q3_2026_earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/ (filed 2026-03-10).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/ (filed 2026-03-10). Tier2 unresolved: Earnings Presentation: not found",
     "quarter": "Q3",
     "report_date": "2026-03-10",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "oracle",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "ORCL",
     "year": "2026"
   },
@@ -2267,17 +2347,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/pinterest/CY2024-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/pinterest/CY2024-Q4/PINS_Q4_2024_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/pinterest/CY2024-Q4/PINS_Q4_2024_Earnings_Call_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1506293/000150629325000020/q4-24xpressrelease.htm (filed 2025-02-06).",
     "quarter": "Q4",
     "report_date": "2025-02-06",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "pinterest",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PINS",
     "year": "2024"
   },
@@ -2289,17 +2377,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/pinterest/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/pinterest/CY2025-Q4/PINS_Q4_2025_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/pinterest/CY2025-Q4/PINS_Q4_2025_Earnings_Call_Transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1506293/000150629326000019/q4-25xpressrelease.htm (filed 2026-02-12).",
     "quarter": "Q4",
     "report_date": "2026-02-12",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "pinterest",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PINS",
     "year": "2025"
   },
@@ -2311,17 +2407,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/pinterest/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/pinterest/CY2026-Q1/PINS_Q1_2026_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/pinterest/CY2026-Q1/PINS_Q1_2026_Earnings_Call_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1506293/000150629326000066/q1-26xpressrelease.htm (filed 2026-05-04).",
     "quarter": "Q1",
     "report_date": "2026-05-04",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "pinterest",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PINS",
     "year": "2026"
   },
@@ -2333,17 +2437,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/palantir/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/palantir/CY2025-Q1/PLTR_Q1_2025_presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000063/ (filed 2025-05-05).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000063/ (filed 2025-05-05). Tier2 unresolved: Earnings Call Transcript: only available via YouTube webcast, no text transcript found",
     "quarter": "Q1",
     "report_date": "2025-05-05",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "palantir",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PLTR",
     "year": "2025"
   },
@@ -2355,17 +2463,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/palantir/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/palantir/CY2025-Q2/PLTR_Q2_2025_presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/ (filed 2025-08-04).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/ (filed 2025-08-04). Tier2 unresolved: Earnings Call Transcript: only available via YouTube webcast, no text transcript found",
     "quarter": "Q2",
     "report_date": "2025-08-04",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "palantir",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PLTR",
     "year": "2025"
   },
@@ -2377,17 +2489,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/palantir/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/palantir/CY2025-Q3/PLTR_Q3_2025_presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/ (filed 2025-11-03).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/ (filed 2025-11-03). Tier2 unresolved: Earnings Call Transcript: only available via YouTube webcast, no text transcript found",
     "quarter": "Q3",
     "report_date": "2025-11-03",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "palantir",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PLTR",
     "year": "2025"
   },
@@ -2399,17 +2515,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/palantir/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/palantir/CY2025-Q4/PLTR_Q4_2025_presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/ (filed 2026-02-02).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/ (filed 2026-02-02). Tier2 unresolved: Earnings Call Transcript: only available via YouTube webcast, no text transcript found",
     "quarter": "Q4",
     "report_date": "2026-02-02",
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "palantir",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PLTR",
     "year": "2025"
   },
@@ -2417,16 +2537,25 @@
     "appended": true,
     "cik": null,
     "company": "Puma",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/puma/CY2025-Q1/Q1_2025_Press_Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/puma/CY2025-Q1/Q1_2025_Earnings_Presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Call Transcript: not available as downloadable PDF",
     "quarter": "Q1",
     "report_date": "2025-05-07",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Footwear & Accessories",
     "slug": "puma",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PUM.DE",
     "year": "2025"
   },
@@ -2434,16 +2563,29 @@
     "appended": true,
     "cik": null,
     "company": "Puma",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/puma/CY2025-Q3/Q3_2025_Press_Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/puma/CY2025-Q3/Q3_2025_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Summary (Aide Memoire)",
+        "source_pdf": "docs/puma/CY2025-Q3/Q3_2025_Aide_Memoire.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Call Transcript: not available as downloadable PDF",
     "quarter": "Q3",
     "report_date": "2025-10-29",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Footwear & Accessories",
     "slug": "puma",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PUM.DE",
     "year": "2025"
   },
@@ -2451,16 +2593,25 @@
     "appended": true,
     "cik": null,
     "company": "Puma",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/puma/CY2025-Q4/Q4_2025_Press_Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/puma/CY2025-Q4/Q4_2025_Earnings_Transcript.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Presentation: no separate deck published for this quarter",
     "quarter": "Q4",
     "report_date": "2026-02-26",
     "report_date_confidence": "medium",
     "sector": "Consumer Cyclical/Footwear & Accessories",
     "slug": "puma",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PUM.DE",
     "year": "2025"
   },
@@ -2468,16 +2619,29 @@
     "appended": true,
     "cik": null,
     "company": "Puma",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/puma/CY2026-Q1/Q1_2026_Press_Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/puma/CY2026-Q1/Q1_2026_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/puma/CY2026-Q1/Q1_2026_Earnings_Transcript.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q1",
     "report_date": "2026-04-30",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Footwear & Accessories",
     "slug": "puma",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PUM.DE",
     "year": "2026"
   },

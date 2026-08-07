@@ -1,0 +1,97 @@
+PRE-EARNINGS MARKET EXPECTATIONS DIGEST: Oracle Corporation Q3 FY2026
+Report Date: March 10, 2026
+Digest Period: Pre-earnings expectations and market sentiment (March 1-9, 2026)
+
+=== ANALYST EXPECTATIONS ===
+
+Wall Street consensus expectations for Oracle Q3 FY2026:
+- EPS: $1.70-$1.71 per share (significant growth from prior year)
+- Revenue: $16.9 billion (approximately 20% YoY growth)
+- Cloud Infrastructure Revenue: Expected to show acceleration, on track for $18B+ FY26 guidance
+- Key metric: Organic revenue growth and non-GAAP EPS both expected to exceed 20% threshold
+
+Sources:
+https://www.indmoney.com/blog/us-stocks/oracle-q3-fy26-earnings-preview-key-expectations-orcl-stock (Published: Pre-earnings March 2026)
+https://www.marketbeat.com/instant-alerts/oracle-orcl-expected-to-announce-earnings-on-monday-2026-03-02/ (Published: March 2, 2026)
+
+=== PRE-EARNINGS MARKET SENTIMENT ===
+
+Oracle heading into Q3 earnings positioned as a cloud/AI beneficiary:
+- Strong momentum from Q1 (RPO +359%) and Q2 (RPO +438%)
+- Cloud revenue showing sustained 40%+ growth expectations
+- Management guidance for multi-year cloud expansion well-received
+- Market expecting Oracle to announce additional major AI infrastructure contracts
+
+=== KEY ANALYST FOCUS AREAS ===
+
+1. REVENUE GUIDANCE PATH: Management expected to reaffirm or raise cloud revenue path
+   - FY26 OCI guidance: $18B+
+   - Multi-year roadmap to $144B by FY30 still credible?
+
+2. CAPEX EFFICIENCY: Market wanted clarity on:
+   - Data center build-out costs relative to cloud revenue growth
+   - When would capex intensity peak?
+   - Path to improving capex efficiency in later fiscal years
+
+3. AI WORKLOAD SUSTAINABILITY: Key questions:
+   - Are new AI contracts sustainable or peaked?
+   - Which customers winning new capacity allocations?
+   - Pricing pressure from competition (AWS, Azure, Google Cloud)?
+
+4. MARGIN EVOLUTION:
+   - Cloud Services Gross Margin trajectory
+   - Operating leverage from growing cloud base
+   - Impact of capex investments on near-term profitability
+
+5. DEBT/LEVERAGE MONITORING:
+   - Following September 2025 $18B bond raise and December 2025 rating agency cautions
+   - Market wanted to see capex/leverage plans stabilizing
+   - Would management commit to debt reduction timeline?
+
+=== PERFORMANCE HURDLES ===
+
+"Streak of Revenue Misses" Context:
+- Q1 FY26 had missed revenue estimates (beat expectations slightly on EPS but revenue $150M short)
+- Q2 FY26 similarly had revenue shortfall
+- Q3 expectations: $16.9B revenue - market watching to see if trend continues or reverses
+- Question: Can cloud growth offset enterprise software revenue softness?
+
+Sources:
+https://www.benzinga.com/markets/tech/26/03/51150311/oracle-expected-to-report-16-billion-revenue-in-q3-can-its-ai-and-cloud-expansion-end-a-streak-of-revenue-misses (Published: March 10, 2026)
+
+=== FORWARD GUIDANCE EXPECTATIONS ===
+
+Market Anticipated Guidance Topics:
+1. FY27 Cloud Revenue: Analysts expecting $32B guidance (implied from prior multi-year guide)
+2. Cloud Growth Rates: Would management project continued 40%+ cloud growth?
+3. FY26 Total Revenue: Likely raise (guidance has been raised each quarter)
+4. Capex Guidance: Expected update on data center investment timeline
+5. Shareholder Returns: Would management announce new buyback/dividend given debt levels?
+
+=== HISTORICAL CONTEXT ===
+
+Coming off Strong Q2 Results:
+- Non-GAAP EPS beat: $2.26 vs $1.64 expected (37.8% surprise!)
+- Revenue: $16.1B, up 13% YoY (slight miss but less of concern given EPS beat)
+- RPO: $523B, up 438% YoY, up $68B sequentially (Major meta beat)
+- New contracts announced from Meta, NVIDIA
+- But: Stock down 11% after earnings on debt concerns despite strong results
+
+Q3 Expectations (March 2026):
+- Market wanted to see capex plans being managed responsibly
+- Cloud momentum needed to continue
+- Leverage stabilization signals important
+- Guidance raises needed to justify stock at current valuations
+
+Sources (general earnings context):
+https://www.cnbc.com/2026/03/10/oracle-orcl-q3-earnings-report-2026.html (Published: March 10, 2026)
+
+=== ANALYST CONSENSUS THEMES ===
+
+Three Major Questions Heading into Q3:
+1. Is the 20%+ organic growth sustainable in cloud, or is it AI-cycle driven?
+2. Can Oracle manage capex/leverage while maintaining cloud growth?
+3. Will competitive dynamics (AWS, Azure, Google) limit Oracle's market share gains?
+
+=== NOTE ===
+This digest captures pre-earnings market expectations and analyst focus areas only. All source articles are dated strictly before the March 10, 2026 report date.

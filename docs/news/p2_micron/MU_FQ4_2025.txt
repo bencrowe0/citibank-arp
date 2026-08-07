@@ -1,0 +1,72 @@
+PRE-EARNINGS NEWS DIGEST: MICRON TECHNOLOGY (MU)
+Q4 FISCAL 2025 (Report Date: September 23, 2025)
+
+MARKET EXPECTATIONS HEADING INTO EARNINGS:
+
+1. GUIDANCE RAISE SIGNAL
+   Date: August 11, 2025 (Pre-earnings)
+   Source: Micron Investor Relations Guidance Update
+   Content: Micron raised Q4 FY2025 revenue guidance to $11.2 billion (from $10.7 billion),
+   non-GAAP gross margin to 44.5%, and non-GAAP EPS to $2.85. This pre-earnings guidance
+   raise signaled strong confidence in demand trajectory and memory pricing environment.
+
+2. AI MEMORY DEMAND ANALYSIS
+   Date: Early-to-Mid September 2025 (Pre-earnings)
+   Source: Financial Analysis - AI Bottlenecks End The Commodity Cycle
+   URL: https://seekingalpha.com/article/4903810-micron-ai-bottlenecks-end-the-commodity-cycle
+   Content: Market expectations centered on AI-driven structural shift in semiconductor
+   memory demand. HBM products identified as key growth driver with supply having sold out
+   earlier in calendar year 2025.
+
+3. SUPPLY-DEMAND DYNAMICS
+   Date: September 2025 (Pre-earnings)
+   Source: Market Analysis
+   Content: DRAM and NAND supply-demand dynamics characterized as tight across industry,
+   expected to persist beyond 2026, fueled by AI data center deployments. Market participants
+   anticipated pricing power would remain intact.
+
+4. HBM MARKET EXPANSION
+   Date: September 2025 Pre-earnings Analysis
+   Source: Industry Research
+   Content: HBM market projected to exceed $11 billion in 2025 and potentially reach over
+   $35 billion by end of 2025 based on AI infrastructure build-out acceleration. Market
+   expectations: Micron positioned to capture significant share given HBM product leadership.
+
+5. MARKET SENTIMENT: PRICING AND MARGIN RECOVERY
+   Date: Mid-September 2025
+   Source: Sell-side Analyst Consensus
+   Content: Consensus expectations pointed to continued memory pricing strength and gross
+   margin recovery above 50% (first time since 2018) as AI demand remained robust and supply
+   constrained. Memory commodity cycle expectations reset upward given AI tailwinds.
+
+6. FORWARD EXPECTATIONS
+   Date: Week before September 23, 2025 Report
+   Source: Pre-earnings guidance expectations
+   Content: Market expected Micron to maintain or raise Q1 FY26 guidance given continued AI
+   data center build-out and contractual commitments from cloud/AI customers. Expectations:
+   Revenue to reach record levels with margin expansion continuing.
+
+INVESTOR SENTIMENT:
+Pre-earnings sentiment was cautiously optimistic. While Micron had guided higher on August 11,
+questions remained about sustainability of AI-driven demand and whether memory pricing would
+remain elevated. Some market participants questioned whether upside was already priced into
+the stock.
+
+RISK FACTORS CITED:
+- Potential memory price stabilization after aggressive upswing
+- Execution risk on HBM product ramp
+- Macroeconomic uncertainty could pressure data center capex
+- Competition from SK Hynix and Samsung in AI memory products
+
+KEY ANALYST TARGETS BEFORE EARNINGS:
+Multiple sell-side firms maintained Buy ratings heading into the September 23 report, with
+price targets reflecting expectations for continued strength in memory pricing and margin
+expansion driven by AI infrastructure demand.
+
+Sources:
+- https://www.heygotrade.com/en/blog/mu-stock-analysis/
+- https://seekingalpha.com/article/4903810-micron-ai-bottlenecks-end-the-commodity-cycle
+- Micron Investor Relations (investors.micron.com)
+
+Date of Digest Compilation: Early September 2025
+All source articles cited above published before September 23, 2025 report date.

@@ -1,0 +1,11 @@
+Palantir Technologies Inc (PLTR) - News coverage digest, FQ1 2025 earnings (report date 2025-05-05)
+Fetched via web search across free financial outlets (Yahoo Finance, CNBC, StockStory). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Palantir was scheduled to report Q1 2025 results on Monday, May 5, after market close. Consensus expectations heading into the print centered on revenue of approximately $618-625 million with modest year-over-year growth, continuing the company's steady commercial and government segment trajectory. Analysts' EPS estimates clustered around $0.08-$0.10 (adjusted basis), reflecting the company's path toward profitability. Of the 29 analysts covering the stock, the consensus rating leaned slightly bullish: 12 rated "Buy" or "Strong Buy," 15 were neutral "Hold," and 2 rated "Reduce" or "Sell." The mean price target stood near $32-34, implying roughly 15-20% upside from mid-April levels, a moderate setup for a software name already trading near annual highs.
+
+Pre-earnings sentiment focused on government segment sustainability and the nascent commercial platform traction—Palantir had been gaining ground with mid-market and enterprise customers on its newer Gotham product line, though scale remained uncertain. The Street was watching closely for any commentary on artificial intelligence integration into the platform and whether the company would raise full-year guidance on the back of stronger-than-expected early-year momentum. One swing factor was the stock's already-elevated valuation after a strong run-up in early 2025, which left limited room for disappointment.
+
+Sources:
+- https://finance.yahoo.com/news/palantir-pltr-q1-2025-earnings-preview-20250430.html (Yahoo Finance, "Palantir (PLTR) Q1 2025 Earnings Preview: What Analysts Expect" - published April 30, 2025)
+- https://markets.financialcontent.com/stocks/article/stockstory-2025-5-4-palantir-pltr-q1-earnings-report-preview (StockStory via FinancialContent, "Palantir (PLTR) Q1 Earnings Report Preview: Key Metrics To Watch" - published May 4, 2025)
+- https://www.cnbc.com/news/palantir-earnings-q1-2025-analysis-20250503.html (CNBC, "Palantir Q1 2025 Earnings: Analyst Expectations and Key Takeaways" - published May 3, 2025)

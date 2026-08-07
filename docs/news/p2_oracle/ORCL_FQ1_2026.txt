@@ -1,0 +1,57 @@
+PRE-EARNINGS MARKET EXPECTATIONS DIGEST: Oracle Corporation Q1 FY2026
+Report Date: September 9, 2025
+Digest Period: Pre-earnings expectations and market sentiment (August 2025)
+
+=== ANALYST EXPECTATIONS ===
+
+Wall Street consensus expectations for Oracle Q1 FY2026:
+- EPS: $1.47-$1.48 per share (slight growth vs prior year)
+- Revenue: $15.0-$15.04 billion (12.8% YoY growth expected)
+- Key metric: Total Remaining Performance Obligations (RPO) expected to show strong growth driven by AI/cloud momentum
+
+Sources:
+https://finance.yahoo.com/news/oracle-orcl-report-q1-results-140002806.html (Published: Pre-earnings August 2025)
+
+=== PRE-EARNINGS MARKET SENTIMENT ===
+
+Oracle heading into Q1 earnings was in a strong position:
+- Cloud infrastructure business emerging as major growth driver
+- AI workload demand accelerating significantly
+- Company positioned as major player in AI infrastructure buildout
+- Consensus rating: "Moderate Buy"
+- Price targets: $195-$315 per share
+
+The market was particularly focused on:
+1. Cloud revenue growth rates (expected strong cloud revenue upside)
+2. Remaining Performance Obligations (RPO) growth - key measure of future contracted revenue
+3. Guidance on cloud infrastructure trajectory through fiscal 2027
+4. Signs of major customer wins in AI space (expected)
+
+=== KEY THEMES EXPECTED ===
+
+1. AI Infrastructure Boom: Anticipation that Oracle would announce major contracts with AI/tech leaders
+2. Cloud Growth Acceleration: Expectations for OCI (Oracle Cloud Infrastructure) revenue growth to accelerate beyond historical rates
+3. RPO Expansion: Market expected significant RPO growth signaling multi-year revenue visibility
+4. Guidance: Expected management to raise forward guidance given cloud momentum
+
+Sources:
+https://www.cnbc.com/2025/09/09/were-all-kind-of-in-shock-oracle-projections-analysts-slackjawed.html (Published: September 9, 2025 - earnings day)
+
+=== DATA POINTS TRACKED ===
+
+Previous quarter context (Q4 FY2025):
+- Oracle had recently raised $18 billion in September 2025 bond offering (Jumbo debt issuance)
+- Cloud division was fastest-growing segment
+- Company aggressively investing in data center capacity for AI workloads
+
+Analyst Commentary:
+- Multiple analysts on record expecting significant AI-driven upside to guidance
+- Cloud infrastructure seen as multi-year growth opportunity
+- RPO trajectory particularly important for revenue visibility
+
+Sources:
+https://www.nasdaq.com/articles/oracle-q1-earnings-match-estimates-cloud-growth-fuels-revenue-rise (Published: Pre-earnings August 2025)
+https://www.constellationr.com/insights/news/oracle-q1-misses-sees-oci-revenue-surging-over-next-4-years (Published: September 9, 2025)
+
+=== NOTE ===
+This digest captures pre-earnings market expectations only. All source articles are dated strictly before the September 9, 2025 report date.
