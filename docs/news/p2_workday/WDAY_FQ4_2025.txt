@@ -1,0 +1,127 @@
+PRE-EARNINGS NEWS DIGEST - WORKDAY (WDAY) Q4 FY2026
+Report Date: February 24, 2026
+Report Period: Q4 FY2026 (ended January 31, 2026)
+
+==============================================================================
+ANALYST EXPECTATIONS & MARKET SENTIMENT
+==============================================================================
+
+EARNINGS PER SHARE CONSENSUS:
+- Expected: ~$2.32-$2.49 per share (adjusted/non-GAAP)
+- Prior Year Q4: ~$1.92 per share (implied ~20-26% YoY growth expected)
+
+REVENUE EXPECTATIONS:
+- Expected: ~$2.52 billion (range: $2.50-$2.53 billion)
+- Prior Year Q4: ~$2.20 billion
+- Expected Growth: ~14.1% YoY
+
+FULL-YEAR FY2026 PERFORMANCE:
+- Expected subscription revenue: ~$8.83-$8.828 billion
+- Expected growth: ~14% YoY
+- Prior year FY2025 subscription revenue: ~$7.73 billion
+
+KEY ANALYST VIEWS (Pre-Earnings):
+- Out of 27 analysts:
+  * 40.74% (11) rating as Strong Buy
+  * 22.22% (6) rating as Buy
+  * 29.63% (8) rating as Hold
+  * 3.7% (1) rating as Sell
+  * 3.7% (1) rating as Strong Sell
+- Analyst consensus price target: ~$282.05 (suggesting upside from pre-earnings levels)
+
+==============================================================================
+KEY BUSINESS DEVELOPMENTS (Pre-Earnings)
+==============================================================================
+
+1. LEADERSHIP TRANSITION
+   - CEO Carl Eschenbach stepped down (announced February 9, 2026)
+   - Aneel Bhusri (co-founder) returning as CEO
+   - Introduces near-term uncertainty but also signal of strategic refocus
+   - Leadership change creates both risk and potential opportunity for renewed growth initiatives
+
+2. AI PRODUCT MOMENTUM & REVENUE SCALE
+   - AI product annualized revenue: >$400 million (exceeded $100M new ACV in Q4 alone)
+   - AI ACV growth: 100%+ year-over-year
+   - AI included in majority of net new deals (75%+)
+   - Emerging AI products contributing 1.5+ points to overall ARR growth
+
+3. GUIDANCE FOR FY2027
+   - Company expected to guide FY2027 subscription revenue growth: 12-13% (decelerating from 14% in FY2026)
+   - Reflects maturation of core HCM business and market saturation concerns
+   - But offset by accelerating AI revenue growth trajectory
+
+4. SUBSCRIPTION REVENUE GROWTH TRAJECTORY
+   - Q3 growth: ~14-15% (momentum maintained)
+   - Q4 expected growth: ~15-16% (potential acceleration)
+   - Full-year FY2026: ~14% growth (stable trajectory)
+
+5. MARGIN OUTLOOK
+   - Non-GAAP operating margins expected: ~29-30% range
+   - Continued margin expansion expected for FY2027 despite guidance caution
+   - Analysts citing AI-driven product advancements and improved operational leverage
+
+6. STRATEGIC ACQUISITIONS & PARTNERSHIPS
+   - Paradox, Inc. acquisition (HR service automation/conversational AI) closed in Q3 FY2026
+   - Salesforce Financial Management adoption (closed in Q2) validating multi-suite strategy
+   - Major customer wins in healthcare, financial services, and public sector
+
+==============================================================================
+INVESTOR FOCUS AREAS FOR Q4 EARNINGS
+==============================================================================
+
+- Q4 subscription revenue growth confirmation (expecting 15-16%)
+- Full-year FY2026 results validation against guidance
+- CEO transition impact on strategic direction and investor confidence
+- FY2027 guidance (critical market reaction driver):
+  * Subscription revenue growth rate (expected 12-13%)
+  * Operating margin expectations
+  * AI revenue contribution forecast
+- Operating cash flow performance and capital allocation
+- Customer acquisition cost trends and payback periods
+- Professional services efficiency and margins
+- International expansion progress
+- Enterprise contract wins and ACV metrics
+
+==============================================================================
+MARKET CONDITIONS & MACRO CONTEXT
+==============================================================================
+
+- U.S. economy transitioning post-election policy changes
+- Tech sector valuations more stable than mid-2025
+- Enterprise software sector showing resilience
+- Increased focus on AI ROI and practical implementation
+- Competitive pressures moderating as players consolidate around core strengths
+- Interest rate environment supporting tech valuations
+- Enterprise budget allocation shifting toward high-ROI AI initiatives
+
+==============================================================================
+FORWARD STRATEGY SIGNALS
+==============================================================================
+
+- CEO transition signals potential for strategic refocus on profitability and margins
+- AI product expansion expected to be key growth driver for FY2027+
+- International markets and new vertical expansion opportunities
+- Potential for margin expansion as AI products scale
+- Capital allocation likely to focus on organic growth and selective M&A
+
+==============================================================================
+SOURCES
+==============================================================================
+
+- Yahoo Finance: Workday Q4 earnings news and analyst consensus
+  https://finance.yahoo.com/quote/WDAY/analysis/
+
+- Simply Wall St: Analyst sentiment and forecast tracking
+  https://simplywall.st/stocks/us/software/nasdaq-wday/workday/future
+
+- CNBC: Workday earnings coverage and CEO transition announcement
+  https://www.cnbc.com/
+
+- TipRanks: Analyst price targets and rating changes
+  https://www.tipranks.com/stocks/wday/forecast
+
+- Meyka: Earnings preview and guidance analysis
+  https://meyka.com/blog/workday-wday-earnings-preview-249-eps-expected-on-cloud-growth-2005/
+
+- Nasdaq: Analyst ratings and earnings data
+  https://www.nasdaq.com/market-activity/stocks/wday/earnings

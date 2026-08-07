@@ -1970,14 +1970,14 @@
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000196/ (filed 2024-07-31).",
     "quarter": "Q2",
     "report_date": "2024-07-31",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MET",
     "year": "2024"
   },
@@ -1996,14 +1996,14 @@
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1099219/000109921924000255/ (filed 2024-10-30).",
     "quarter": "Q3",
     "report_date": "2024-10-30",
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "MET",
     "year": "2024"
   },
@@ -2653,17 +2653,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/paypal/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/paypal/CY2025-Q1/PYPL_Q1_2025_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/paypal/CY2025-Q1/PYPL_Q1_2025_Earnings_Call_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1633917/000163391725000062/pypl1q-25earningsrelease.htm (filed 2025-04-29).",
     "quarter": "Q1",
     "report_date": "2025-04-29",
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "paypal",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PYPL",
     "year": "2025"
   },
@@ -2675,17 +2683,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/paypal/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/paypal/CY2025-Q2/PYPL_Q2_2025_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/paypal/CY2025-Q2/PYPL_Q2_2025_Earnings_Call_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1633917/000163391725000158/pypl2q-25earningsrelease.htm (filed 2025-07-29).",
     "quarter": "Q2",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "paypal",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PYPL",
     "year": "2025"
   },
@@ -2697,17 +2713,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/paypal/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/paypal/CY2025-Q3/PYPL_Q3_2025_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/paypal/CY2025-Q3/PYPL_Q3_2025_Earnings_Call_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1633917/000163391725000194/pypl3q-25earningsrelease.htm (filed 2025-10-28).",
     "quarter": "Q3",
     "report_date": "2025-10-28",
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "paypal",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PYPL",
     "year": "2025"
   },
@@ -2719,17 +2743,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/paypal/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/paypal/CY2026-Q1/PYPL_Q1_2026_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/paypal/CY2026-Q1/PYPL_Q1_2026_Earnings_Call_Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1633917/000163391726000065/pypl1q-26earningsrelease.htm (filed 2026-05-05).",
     "quarter": "Q1",
     "report_date": "2026-05-05",
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "paypal",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "PYPL",
     "year": "2026"
   },
@@ -2740,7 +2772,7 @@
     "documents": [],
     "is_sec_registrant": false,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier2 skipped: report_date (2027-02-11, confidence=low) is identical and bogus across all 4 quarters - a pre-existing Tier-1 date-resolution bug, not a Tier-2 sourcing issue. Needs a Tier-1 date fix (like phase2/fix_report_dates_from_human_prices.py) before Tier-2 sourcing can meaningfully target the right announcement.",
     "quarter": "Q1",
     "report_date": "2027-02-11",
     "report_date_confidence": "low",
@@ -2757,7 +2789,7 @@
     "documents": [],
     "is_sec_registrant": false,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier2 skipped: report_date (2027-02-11, confidence=low) is identical and bogus across all 4 quarters - a pre-existing Tier-1 date-resolution bug, not a Tier-2 sourcing issue. Needs a Tier-1 date fix (like phase2/fix_report_dates_from_human_prices.py) before Tier-2 sourcing can meaningfully target the right announcement.",
     "quarter": "Q2",
     "report_date": "2027-02-11",
     "report_date_confidence": "low",
@@ -2774,7 +2806,7 @@
     "documents": [],
     "is_sec_registrant": false,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier2 skipped: report_date (2027-02-11, confidence=low) is identical and bogus across all 4 quarters - a pre-existing Tier-1 date-resolution bug, not a Tier-2 sourcing issue. Needs a Tier-1 date fix (like phase2/fix_report_dates_from_human_prices.py) before Tier-2 sourcing can meaningfully target the right announcement.",
     "quarter": "Q3",
     "report_date": "2027-02-11",
     "report_date_confidence": "low",
@@ -2791,7 +2823,7 @@
     "documents": [],
     "is_sec_registrant": false,
     "news_document_written": false,
-    "notes": "",
+    "notes": "Tier2 skipped: report_date (2027-02-11, confidence=low) is identical and bogus across all 4 quarters - a pre-existing Tier-1 date-resolution bug, not a Tier-2 sourcing issue. Needs a Tier-1 date fix (like phase2/fix_report_dates_from_human_prices.py) before Tier-2 sourcing can meaningfully target the right announcement.",
     "quarter": "Q4",
     "report_date": "2027-02-11",
     "report_date_confidence": "low",
@@ -2809,17 +2841,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/starbucks/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/starbucks/CY2025-Q3/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922425000057/sbux-06292025xexhibit991.htm (filed 2025-07-29).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922425000057/sbux-06292025xexhibit991.htm (filed 2025-07-29). Tier2 unresolved: Earnings Call Transcript: real sources identified (Motley Fool, MarketScreener) but full extraction failed",
     "quarter": "Q3",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "starbucks",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SBUX",
     "year": "2025"
   },
@@ -2834,8 +2870,8 @@
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922425000074/sbux-09282025xexhibit991.htm (filed 2025-10-29).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922425000074/sbux-09282025xexhibit991.htm (filed 2025-10-29). Tier2 unresolved: Earnings Presentation: no direct CDN link identified; Earnings Call Transcript: real sources identified but full extraction failed",
     "quarter": "Q4",
     "report_date": "2025-10-29",
     "report_date_confidence": "high",
@@ -2853,17 +2889,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/starbucks/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/starbucks/CY2026-Q1/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922426000010/sbux-12282025xearningsrele.htm (filed 2026-01-28).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922426000010/sbux-12282025xearningsrele.htm (filed 2026-01-28). Tier2 unresolved: Earnings Call Transcript: real sources identified but full extraction failed",
     "quarter": "Q1",
     "report_date": "2026-01-27",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "starbucks",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SBUX",
     "year": "2026"
   },
@@ -2871,16 +2911,25 @@
     "appended": true,
     "cik": null,
     "company": "Siemens",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/siemens/CY2025-Q4/siemens_q4_fy2025_earnings_release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/siemens/CY2025-Q4/siemens_q4_fy2025_presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Call Transcript: not accessible",
     "quarter": "Q4",
     "report_date": "2025-11-13",
     "report_date_confidence": "high",
     "sector": "Industrials/Specialty Industrial Machinery",
     "slug": "siemens",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SIE.DE",
     "year": "2025"
   },
@@ -2888,16 +2937,25 @@
     "appended": true,
     "cik": null,
     "company": "Siemens",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/siemens/CY2026-Q1/siemens_q1_fy2026_earnings_release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/siemens/CY2026-Q1/siemens_q1_fy2026_presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Call Transcript: not accessible",
     "quarter": "Q1",
     "report_date": "2026-02-12",
     "report_date_confidence": "high",
     "sector": "Industrials/Specialty Industrial Machinery",
     "slug": "siemens",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SIE.DE",
     "year": "2026"
   },
@@ -2905,16 +2963,25 @@
     "appended": true,
     "cik": null,
     "company": "Siemens",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/siemens/CY2026-Q2/siemens_q2_fy2026_earnings_release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/siemens/CY2026-Q2/siemens_q2_fy2026_presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Call Transcript: not accessible",
     "quarter": "Q2",
     "report_date": "2026-05-13",
     "report_date_confidence": "high",
     "sector": "Industrials/Specialty Industrial Machinery",
     "slug": "siemens",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SIE.DE",
     "year": "2026"
   },
@@ -2922,16 +2989,29 @@
     "appended": true,
     "cik": 1639920,
     "company": "Spotify",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/spotify/CY2025-Q2/Press_Release.html"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/spotify/CY2025-Q2/Shareholder_Deck.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/spotify/CY2025-Q2/earnings_call_transcript.txt"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q2",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "spotify",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SPOT",
     "year": "2025"
   },
@@ -2939,16 +3019,29 @@
     "appended": true,
     "cik": 1639920,
     "company": "Spotify",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/spotify/CY2025-Q3/Press_Release.html"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/spotify/CY2025-Q3/Shareholder_Deck.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/spotify/CY2025-Q3/earnings_call_transcript.txt"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q3",
     "report_date": "2025-11-04",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "spotify",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SPOT",
     "year": "2025"
   },
@@ -2956,16 +3049,29 @@
     "appended": true,
     "cik": 1639920,
     "company": "Spotify",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/spotify/CY2025-Q4/Press_Release.html"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/spotify/CY2025-Q4/Shareholder_Deck.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/spotify/CY2025-Q4/earnings_call_transcript.txt"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q4",
     "report_date": "2026-02-10",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "spotify",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SPOT",
     "year": "2025"
   },
@@ -2973,16 +3079,29 @@
     "appended": true,
     "cik": 1639920,
     "company": "Spotify",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/spotify/CY2026-Q1/Press_Release.html"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/spotify/CY2026-Q1/Shareholder_Deck.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/spotify/CY2026-Q1/earnings_call_transcript.txt"
+      }
+    ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q1",
     "report_date": "2026-04-28",
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "spotify",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SPOT",
     "year": "2026"
   },
@@ -3062,17 +3181,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/unitedhealth/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/unitedhealth/CY2025-Q2/UNH_Q2_2025_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/unitedhealth/CY2025-Q2/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/731766/000073176625000228/a2025q2exhibit991.htm (filed 2025-07-29).",
     "quarter": "Q2",
     "report_date": "2025-07-28",
     "report_date_confidence": "high",
     "sector": "Healthcare/Healthcare Plans",
     "slug": "unitedhealth",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "UNH",
     "year": "2025"
   },
@@ -3084,17 +3211,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/unitedhealth/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/unitedhealth/CY2025-Q3/UNH_Q3_2025_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/unitedhealth/CY2025-Q3/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/731766/000073176625000301/a2025q3exhibit991.htm (filed 2025-10-28).",
     "quarter": "Q3",
     "report_date": "2025-10-27",
     "report_date_confidence": "high",
     "sector": "Healthcare/Healthcare Plans",
     "slug": "unitedhealth",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "UNH",
     "year": "2025"
   },
@@ -3106,17 +3241,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/unitedhealth/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/unitedhealth/CY2025-Q4/UNH_Q4_2025_Earnings_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/unitedhealth/CY2025-Q4/earnings_call_transcript.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/731766/000073176626000025/a991unherq42025.htm (filed 2026-01-27).",
     "quarter": "Q4",
     "report_date": "2026-01-26",
     "report_date_confidence": "high",
     "sector": "Healthcare/Healthcare Plans",
     "slug": "unitedhealth",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "UNH",
     "year": "2025"
   },
@@ -3128,17 +3271,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/visa/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/visa/CY2025-Q1/Visa-Q1-2025-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/visa/CY2025-Q1/Visa-Q1-2025-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1403161/000140316125000035/q22025earningsrelease.htm (filed 2025-04-29).",
     "quarter": "Q1",
     "report_date": "2025-04-28",
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "visa",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "V",
     "year": "2025"
   },
@@ -3150,17 +3301,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/visa/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/visa/CY2025-Q2/Visa-Q2-2025-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/visa/CY2025-Q2/Visa-Q2-2025-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1403161/000140316125000051/q32025earningsrelease.htm (filed 2025-07-29).",
     "quarter": "Q2",
     "report_date": "2025-07-29",
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "visa",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "V",
     "year": "2025"
   },
@@ -3172,17 +3331,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/visa/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/visa/CY2025-Q3/Visa-Q3-2025-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/visa/CY2025-Q3/Visa-Q3-2025-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1403161/000140316125000077/q42025earningsrelease.htm (filed 2025-10-28).",
     "quarter": "Q3",
     "report_date": "2025-10-28",
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "visa",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "V",
     "year": "2025"
   },
@@ -3194,17 +3361,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/visa/CY2026-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/visa/CY2026-Q1/Visa-Q1-2026-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/visa/CY2026-Q1/Visa-Q1-2026-Transcript.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1403161/000140316126000077/q22026earningsrelease.htm (filed 2026-04-28).",
     "quarter": "Q1",
     "report_date": "2026-04-28",
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "visa",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "V",
     "year": "2026"
   },
@@ -3216,17 +3391,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/workday/CY2025-Q1/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/workday/CY2025-Q1/Earnings_Presentation_Q1_2025.pdf"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781125000105/wday-04302025x991.htm (filed 2025-05-22).",
+    "news_document_written": true,
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781125000105/wday-04302025x991.htm (filed 2025-05-22). Tier2 unresolved: Earnings Call Transcript: prior fetch was a fabricated pointer/summary, discarded",
     "quarter": "Q1",
     "report_date": "2025-05-22",
     "report_date_confidence": "medium",
     "sector": "Technology/Software - Application",
     "slug": "workday",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "WDAY",
     "year": "2025"
   },
@@ -3238,17 +3417,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/workday/CY2025-Q2/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/workday/CY2025-Q2/Earnings_Presentation_Q2_2025.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/workday/CY2025-Q2/Earnings_Call_Transcript_Q2_2025.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781125000181/wday-07312025x991.htm (filed 2025-08-21).",
     "quarter": "Q2",
     "report_date": "2025-08-21",
     "report_date_confidence": "medium",
     "sector": "Technology/Software - Application",
     "slug": "workday",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "WDAY",
     "year": "2025"
   },
@@ -3260,17 +3447,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/workday/CY2025-Q3/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/workday/CY2025-Q3/Earnings_Presentation_Q3_2025.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/workday/CY2025-Q3/Earnings_Call_Transcript_Q3_2025.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781125000196/wday-10312025x991.htm (filed 2025-11-25).",
     "quarter": "Q3",
     "report_date": "2025-11-25",
     "report_date_confidence": "medium",
     "sector": "Technology/Software - Application",
     "slug": "workday",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "WDAY",
     "year": "2025"
   },
@@ -3282,17 +3477,25 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/workday/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/workday/CY2025-Q4/Earnings_Presentation_Q4_2025.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/workday/CY2025-Q4/Earnings_Call_Transcript_Q4_2025.txt"
       }
     ],
     "is_sec_registrant": true,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/1327811/000132781126000010/wday-01312026x991.htm (filed 2026-02-24).",
     "quarter": "Q4",
     "report_date": "2026-02-24",
     "report_date_confidence": "medium",
     "sector": "Technology/Software - Application",
     "slug": "workday",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "WDAY",
     "year": "2025"
   }

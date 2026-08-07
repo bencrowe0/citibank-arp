@@ -1,0 +1,50 @@
+SIEMENS AG (SIE.DE) - PRE-EARNINGS NEWS DIGEST
+Fiscal Q1 2026 (Report Date: February 12, 2026)
+
+MARKET EXPECTATIONS AND PRE-EARNINGS SENTIMENT (as of February 12, 2026):
+
+Key Headlines:
+- FY2025 results released November 13, 2025 showed record annual profit of EUR 10.4 billion and free cash flow of EUR 10.8 billion, with strong guidance for FY2026
+- Guidance for FY2026: basic EPS from net income before purchase price allocation (EPS pre-PPA) in range of EUR 10.40-11.00, comparable revenue growth of 6-8%
+- Order backlog ended FY2025 at EUR 318.4 billion, supporting continued strong revenue visibility
+- Analyst community lifting price targets following strong FY2025 results and optimistic FY2026 guidance
+
+EXPECTED Q1 FY2026 METRICS HEADING INTO EARNINGS:
+- Analyst consensus expected Q1 orders: EUR 20-22 billion (drawing from record order momentum in late 2025)
+- Revenue expectations: EUR 18-19 billion with comparable growth of 6-8%
+- Profit expectations: Industrial business profit margin expected to be sustained at 15%+ levels
+- Book-to-bill ratio expected to remain healthy above 1.10
+
+PRE-EARNINGS MARKET SENTIMENT:
+- Market sentiment was constructive following strong FY2025 results and analyst repricing upward
+- Particular bullish focus on:
+  * AI and data-center related demand driving automation and Smart Infrastructure orders
+  * Continued strong backlog converting to revenues
+  * Margin expansion driven by high-quality order intake
+  * Capital deployment plans (dividends and buybacks) supported by strong cash flow
+- Analyst price target raises post-FY2025 results, with targets ranging EUR 250-325 per share
+
+KEY THEMES HEADING INTO Q1 RESULTS:
+1. AI-Driven Industrial Demand: Strong structural demand for AI-powered automation, data center infrastructure, and electrification expected to drive Q1 orders
+2. Partnership Momentum: New strategic partnerships with NVIDIA and Microsoft on industrial AI expected to be highlighted
+3. Backlog Conversion: Record EUR 318+ billion backlog providing revenue visibility and supporting FY2026 guidance achievement
+4. Margin Resilience: High-quality order mix and digital solutions revenue expected to support industry-leading 15%+ margins
+5. Digital Industries Strength: Continued momentum in industrial software (Altair, Mendix, etc.) providing software-like margin profiles
+
+MARKET POSITIONING:
+- Siemens stock trading constructively heading into Q1 earnings with analyst sentiment at constructive to bullish
+- Valuation at 20-22x forward EPS supporting analyst price targets if guidance reaffirmed
+- Limited downside expected unless there are significant surprises on order trends or margins
+
+POTENTIAL RISKS/HEADWINDS:
+- Automation market maturation or slowdown if capex cycles soften
+- Geopolitical uncertainties (US tariffs, China market dynamics)
+- Currency headwinds (EUR strength could impact reported results)
+- Execution risks on margin targets in lower-volume periods
+
+SOURCES (all accessed before February 12, 2026):
+- Siemens FY2025 earnings release: https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2025
+- Siemens FY2025 investor presentation: https://assets.new.siemens.com/siemens/assets/api/uuid:7fe2d062-c9a2-4468-98bf-06015dcf2fad/2025-q4-presentation-en.pdf
+- Capital.com Siemens stock forecast and target adjustments: https://capital.com/en-int/market-updates/siemens-stock-forecast-19-02-2026
+- MarketScreener analyst consensus: https://www.marketscreener.com/quote/stock/SIEMENS-AG-56358595/finances/
+- Simply Wall St forward guidance and analyst estimates: https://simplywall.st/stocks/de/capital-goods/etr-sie/siemens-shares/future
