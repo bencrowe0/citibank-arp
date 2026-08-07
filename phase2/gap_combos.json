@@ -2778,7 +2778,7 @@
     "report_date_confidence": "low",
     "sector": "Consumer Cyclical/Luxury Goods",
     "slug": "hermes",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "RMSP.XC",
     "year": "2025"
   },
@@ -2795,7 +2795,7 @@
     "report_date_confidence": "low",
     "sector": "Consumer Cyclical/Luxury Goods",
     "slug": "hermes",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "RMSP.XC",
     "year": "2025"
   },
@@ -2812,7 +2812,7 @@
     "report_date_confidence": "low",
     "sector": "Consumer Cyclical/Luxury Goods",
     "slug": "hermes",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "RMSP.XC",
     "year": "2025"
   },
@@ -2829,7 +2829,7 @@
     "report_date_confidence": "low",
     "sector": "Consumer Cyclical/Luxury Goods",
     "slug": "hermes",
-    "status": "report_date_resolved",
+    "status": "sourced_partial_dead_end",
     "ticker": "RMSP.XC",
     "year": "2025"
   },
@@ -2867,17 +2867,21 @@
       {
         "doc_type": "Press Release",
         "source_pdf": "docs/starbucks/CY2025-Q4/press_release.htm"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/starbucks/CY2025-Q4/presentation.pdf"
       }
     ],
     "is_sec_registrant": true,
     "news_document_written": true,
-    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922425000074/sbux-09282025xexhibit991.htm (filed 2025-10-29). Tier2 unresolved: Earnings Presentation: no direct CDN link identified; Earnings Call Transcript: real sources identified but full extraction failed",
+    "notes": "Tier1: press release from https://www.sec.gov/Archives/edgar/data/829224/000082922425000074/sbux-09282025xexhibit991.htm (filed 2025-10-29). Tier2 unresolved: Earnings Presentation: no direct CDN link identified; Earnings Call Transcript: real sources identified but full extraction failed Tier2 unresolved: Earnings Presentation: not found (this file is actually the call transcript, mislabeled by sourcing agent)",
     "quarter": "Q4",
     "report_date": "2025-10-29",
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "starbucks",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "SBUX",
     "year": "2025"
   },
@@ -3109,16 +3113,25 @@
     "appended": true,
     "cik": null,
     "company": "Standard Chartered",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/standard_chartered/CY2025-Q1/STAN_Q1_2025_Results.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/standard_chartered/CY2025-Q1/STAN_Q1_2025_Presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Call Transcript: not found",
     "quarter": "Q1",
     "report_date": "2025-05-02",
     "report_date_confidence": "high",
     "sector": "Financial Services/Banks - Diversified",
     "slug": "standard_chartered",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "STAN.L",
     "year": "2025"
   },
@@ -3126,16 +3139,25 @@
     "appended": true,
     "cik": null,
     "company": "Standard Chartered",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/standard_chartered/CY2025-Q2/STAN_Q2_2025_Results.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/standard_chartered/CY2025-Q2/STAN_Q2_2025_Presentation.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Earnings Call Transcript: not found",
     "quarter": "Q2",
     "report_date": "2025-07-31",
     "report_date_confidence": "high",
     "sector": "Financial Services/Banks - Diversified",
     "slug": "standard_chartered",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "STAN.L",
     "year": "2025"
   },
@@ -3143,16 +3165,25 @@
     "appended": true,
     "cik": null,
     "company": "Standard Chartered",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/standard_chartered/CY2025-Q3/STAN_Q3_2025_Results.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/standard_chartered/CY2025-Q3/STAN_Q3_2025_Transcript.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
+    "news_document_written": true,
     "notes": "",
     "quarter": "Q3",
     "report_date": "2025-10-30",
     "report_date_confidence": "high",
     "sector": "Financial Services/Banks - Diversified",
     "slug": "standard_chartered",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "STAN.L",
     "year": "2025"
   },
@@ -3160,16 +3191,25 @@
     "appended": true,
     "cik": null,
     "company": "Standard Chartered",
-    "documents": [],
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/standard_chartered/CY2025-Q4/STAN_Q4_2025_Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/standard_chartered/CY2025-Q4/STAN_FY_2025_Transcript.pdf"
+      }
+    ],
     "is_sec_registrant": false,
-    "news_document_written": false,
-    "notes": "",
+    "news_document_written": true,
+    "notes": "Tier2 unresolved: Press Release: not separately located (results likely embedded in presentation)",
     "quarter": "Q4",
     "report_date": "2026-02-23",
     "report_date_confidence": "medium",
     "sector": "Financial Services/Banks - Diversified",
     "slug": "standard_chartered",
-    "status": "report_date_resolved",
+    "status": "sourced",
     "ticker": "STAN.L",
     "year": "2025"
   },
