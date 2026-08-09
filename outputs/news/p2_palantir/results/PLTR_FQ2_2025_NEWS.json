@@ -1,0 +1,44 @@
+{
+  "document_id": "PLTR_FQ2_2025_NEWS",
+  "base_document_id": "PLTR_FQ2_2025",
+  "issuer": "p2_palantir",
+  "sentiment": {
+    "score": -0.25,
+    "rationale": "This pre-earnings digest describes elevated market expectations: the stock trades at 80+ times forward earnings, the mean price target implies only 10-12% upside, and analyst estimates are centered on mid-teens growth with a demanding bar. Risks such as customer concentration, stock overhang from expiring restrictions, and premium valuation are highlighted, leaving little room for a soft print. Therefore, expectations are stretched, warranting a negative sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T101801Z",
+    "timestamp": "2026-08-09T10:18:08Z",
+    "status": "success",
+    "document_id": "PLTR_FQ2_2025_NEWS",
+    "issuer": "p2_palantir",
+    "company": "Palantir",
+    "ticker": "PLTR",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-04",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_palantir\\PLTR_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3781,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1099,
+    "total_tokens": 4880,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002179,
+    "latency_seconds": 6.99,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

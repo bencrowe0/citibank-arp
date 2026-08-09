@@ -1,0 +1,44 @@
+{
+  "document_id": "PUM.DE_FQ3_2025_NEWS",
+  "base_document_id": "PUM.DE_FQ3_2025",
+  "issuer": "p2_puma",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "This pre-earnings digest describes a reset year with expected low double-digit sales decline and an expected EBIT loss, indicating depressed expectations. However, the document also notes potential turnaround catalyst by late 2026, which tempers the bearishness. Overall, expectations are low, but the bar is set low, which could lead to positive surprises, yet the immediate outlook is clearly negative."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T102519Z",
+    "timestamp": "2026-08-09T10:25:27Z",
+    "status": "success",
+    "document_id": "PUM.DE_FQ3_2025_NEWS",
+    "issuer": "p2_puma",
+    "company": "Puma",
+    "ticker": "PUM.DE",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_puma\\PUM.DE_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3665,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1096,
+    "total_tokens": 4761,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002144,
+    "latency_seconds": 7.07,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.5,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "LNVGY_FQ1_2026_NEWS",
+  "base_document_id": "LNVGY_FQ1_2026",
+  "issuer": "p2_lenovo",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest describes cautiously optimistic market expectations with a PC market stabilization and enterprise refresh cycles expected to support revenue, and infrastructure growth driven by AI server demand. However, currency headwinds from Yuan weakness and the fact that infrastructure contributions are 'expected but not yet fully visible' temper the outlook. The bar is not described as stretched or depressed, but there is a modest positive tilt in expectations, so a slightly positive score is warranted."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100835Z",
+    "timestamp": "2026-08-09T10:08:44Z",
+    "status": "success",
+    "document_id": "LNVGY_FQ1_2026_NEWS",
+    "issuer": "p2_lenovo",
+    "company": "Lenovo",
+    "ticker": "LNVGY",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-08-14",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lenovo\\LNVGY_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3777,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1200,
+    "total_tokens": 4977,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002289,
+    "latency_seconds": 8.13,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

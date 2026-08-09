@@ -1,0 +1,44 @@
+{
+  "document_id": "LNVGY_FQ4_2026_NEWS",
+  "base_document_id": "LNVGY_FQ4_2026",
+  "issuer": "p2_lenovo",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This pre-earnings digest indicates that market expectations are moderately constructive but not stretched to an extreme. The document notes that consensus remains constructive with most sell-side analysts maintaining buy ratings, but also highlights risks such as hyperscaler capex normalization and PC market softness, suggesting a balanced outlook. Since this is a pre-earnings digest, the score reflects that expectations are neither overly elevated nor depressed, with a slight positive tilt due to the constructive consensus and expected strong FY2026 results."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100902Z",
+    "timestamp": "2026-08-09T10:09:12Z",
+    "status": "success",
+    "document_id": "LNVGY_FQ4_2026_NEWS",
+    "issuer": "p2_lenovo",
+    "company": "Lenovo",
+    "ticker": "LNVGY",
+    "fiscal_period": "FQ4 2026",
+    "report_date": "2026-05-22",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lenovo\\LNVGY_FQ4_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4074,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1679,
+    "total_tokens": 5753,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002896,
+    "latency_seconds": 10.17,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

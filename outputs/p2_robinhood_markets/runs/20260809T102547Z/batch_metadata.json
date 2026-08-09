@@ -1,0 +1,23 @@
+{
+  "run_id": "20260809T102547Z",
+  "issuer": "p2_robinhood_markets",
+  "manifest": "C:\\Users\\bencr\\Documents\\Citibank APR\\manifests\\p2_robinhood_markets_reports.json",
+  "dry_run": false,
+  "skip_extract": false,
+  "consistency_runs": 0,
+  "model": "deepseek-chat",
+  "prompt": "llm_analysis_prompt_template.md",
+  "ensemble": 1,
+  "variant": "",
+  "hold_upper": 0.15,
+  "hold_lower": -0.15,
+  "reports_queued": [
+    "HOOD_FQ1_2025",
+    "HOOD_FQ2_2025",
+    "HOOD_FQ3_2025",
+    "HOOD_FQ1_2026"
+  ],
+  "failures": 0,
+  "first_run_summary_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\summary\\p2_robinhood_markets_first_run_summary.csv",
+  "consistency_summary_path": ""
+}

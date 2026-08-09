@@ -1,0 +1,44 @@
+{
+  "document_id": "JNJ_FQ3_2025_NEWS",
+  "base_document_id": "JNJ_FQ3_2025",
+  "issuer": "p2_johnson_johnson",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This pre-earnings digest describes balanced market expectations: consensus EPS is expected to rise 14.9% YoY and revenue is projected at $23.7258B, with continued recovery and strong innovative medicine growth offsetting Stelara headwinds. However, there is no indication of depressed expectations or a lowered bar; the digest notes ongoing Stelara biosimilar competition headwinds (estimated 640 basis points) and a 10.7 percentage point headwind to innovative medicine growth, which suggests a moderately demanding bar. The overall tone is cautiously optimistic, with no explicit commentary on stretched or depressed expectations, leading to a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100618Z",
+    "timestamp": "2026-08-09T10:06:26Z",
+    "status": "success",
+    "document_id": "JNJ_FQ3_2025_NEWS",
+    "issuer": "p2_johnson_johnson",
+    "company": "Johnson  Johnson",
+    "ticker": "JNJ",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-13",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_johnson_johnson\\JNJ_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3702,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1396,
+    "total_tokens": 5098,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002484,
+    "latency_seconds": 7.99,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -25,7 +25,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Diversified",
     "slug": "allianz",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "ALV.DE",
     "year": "2025"
   },
@@ -121,7 +121,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "broadcom",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "AVGO",
     "year": "2025"
   },
@@ -151,7 +151,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "broadcom",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "AVGO",
     "year": "2025"
   },
@@ -181,7 +181,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "broadcom",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "AVGO",
     "year": "2026"
   },
@@ -229,7 +229,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "booking_holdings",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "BKNG",
     "year": "2025"
   },
@@ -255,7 +255,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "booking_holdings",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "BKNG",
     "year": "2025"
   },
@@ -281,7 +281,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "booking_holdings",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "BKNG",
     "year": "2025"
   },
@@ -311,7 +311,7 @@
     "report_date_confidence": "high",
     "sector": "Industrials/Farm & Heavy Construction Machinery",
     "slug": "caterpillar",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CAT",
     "year": "2025"
   },
@@ -341,7 +341,7 @@
     "report_date_confidence": "high",
     "sector": "Industrials/Farm & Heavy Construction Machinery",
     "slug": "caterpillar",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CAT",
     "year": "2025"
   },
@@ -371,7 +371,7 @@
     "report_date_confidence": "high",
     "sector": "Industrials/Farm & Heavy Construction Machinery",
     "slug": "caterpillar",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CAT",
     "year": "2025"
   },
@@ -489,7 +489,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Telecom Services",
     "slug": "comcast_corporation",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CMCSA",
     "year": "2025"
   },
@@ -519,7 +519,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Telecom Services",
     "slug": "comcast_corporation",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CMCSA",
     "year": "2025"
   },
@@ -549,7 +549,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Telecom Services",
     "slug": "comcast_corporation",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CMCSA",
     "year": "2025"
   },
@@ -579,7 +579,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Telecom Services",
     "slug": "comcast_corporation",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CMCSA",
     "year": "2026"
   },
@@ -605,7 +605,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "chipotle",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CMG",
     "year": "2025"
   },
@@ -631,7 +631,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "chipotle",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CMG",
     "year": "2025"
   },
@@ -657,7 +657,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "chipotle",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CMG",
     "year": "2025"
   },
@@ -683,7 +683,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "chipotle",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CMG",
     "year": "2025"
   },
@@ -779,7 +779,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Application",
     "slug": "salesforce",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CRM",
     "year": "2026"
   },
@@ -809,7 +809,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Application",
     "slug": "salesforce",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CRM",
     "year": "2026"
   },
@@ -839,7 +839,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Application",
     "slug": "salesforce",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "CRM",
     "year": "2026"
   },
@@ -869,7 +869,7 @@
     "report_date_confidence": "medium",
     "sector": "Industrials/Airlines",
     "slug": "delta_air_lines",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "DAL",
     "year": "2025"
   },
@@ -899,7 +899,7 @@
     "report_date_confidence": "high",
     "sector": "Industrials/Airlines",
     "slug": "delta_air_lines",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "DAL",
     "year": "2025"
   },
@@ -929,7 +929,7 @@
     "report_date_confidence": "medium",
     "sector": "Industrials/Airlines",
     "slug": "delta_air_lines",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "DAL",
     "year": "2025"
   },
@@ -959,7 +959,7 @@
     "report_date_confidence": "high",
     "sector": "Industrials/Airlines",
     "slug": "delta_air_lines",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "DAL",
     "year": "2025"
   },
@@ -985,7 +985,7 @@
     "report_date_confidence": "medium",
     "sector": "Technology/Computer Hardware",
     "slug": "dell",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "DELL",
     "year": "2025"
   },
@@ -1033,7 +1033,7 @@
     "report_date_confidence": "medium",
     "sector": "Technology/Computer Hardware",
     "slug": "dell",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "DELL",
     "year": "2025"
   },
@@ -1059,7 +1059,7 @@
     "report_date_confidence": "medium",
     "sector": "Technology/Computer Hardware",
     "slug": "dell",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "DELL",
     "year": "2025"
   },
@@ -1089,7 +1089,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "expedia",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "EXPE",
     "year": "2025"
   },
@@ -1119,7 +1119,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "expedia",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "EXPE",
     "year": "2025"
   },
@@ -1149,7 +1149,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "expedia",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "EXPE",
     "year": "2025"
   },
@@ -1179,7 +1179,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Travel Services",
     "slug": "expedia",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "EXPE",
     "year": "2026"
   },
@@ -1209,7 +1209,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "general_mills",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "GIS",
     "year": "2026"
   },
@@ -1239,7 +1239,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "general_mills",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "GIS",
     "year": "2026"
   },
@@ -1265,7 +1265,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "general_mills",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "GIS",
     "year": "2026"
   },
@@ -1295,7 +1295,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "alphabet",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "GOOGL",
     "year": "2025"
   },
@@ -1325,7 +1325,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "alphabet",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "GOOGL",
     "year": "2025"
   },
@@ -1355,7 +1355,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "alphabet",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "GOOGL",
     "year": "2026"
   },
@@ -1385,7 +1385,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Capital Markets",
     "slug": "robinhood_markets",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "HOOD",
     "year": "2025"
   },
@@ -1415,7 +1415,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Capital Markets",
     "slug": "robinhood_markets",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "HOOD",
     "year": "2025"
   },
@@ -1445,7 +1445,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Capital Markets",
     "slug": "robinhood_markets",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "HOOD",
     "year": "2025"
   },
@@ -1475,7 +1475,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Capital Markets",
     "slug": "robinhood_markets",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "HOOD",
     "year": "2026"
   },
@@ -1505,7 +1505,7 @@
     "report_date_confidence": "high",
     "sector": "Healthcare/Drug Manufacturers - General",
     "slug": "johnson_johnson",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "JNJ",
     "year": "2025"
   },
@@ -1535,7 +1535,7 @@
     "report_date_confidence": "high",
     "sector": "Healthcare/Drug Manufacturers - General",
     "slug": "johnson_johnson",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "JNJ",
     "year": "2025"
   },
@@ -1565,7 +1565,7 @@
     "report_date_confidence": "high",
     "sector": "Healthcare/Drug Manufacturers - General",
     "slug": "johnson_johnson",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "JNJ",
     "year": "2025"
   },
@@ -1591,7 +1591,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "kraft_heinz",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "KHC",
     "year": "2024"
   },
@@ -1617,7 +1617,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "kraft_heinz",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "KHC",
     "year": "2025"
   },
@@ -1643,7 +1643,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Defensive/Packaged Foods",
     "slug": "kraft_heinz",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "KHC",
     "year": "2026"
   },
@@ -1673,7 +1673,7 @@
     "report_date_confidence": "high",
     "sector": "Basic Materials/Specialty Chemicals",
     "slug": "linde",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "LIN",
     "year": "2025"
   },
@@ -1703,7 +1703,7 @@
     "report_date_confidence": "high",
     "sector": "Basic Materials/Specialty Chemicals",
     "slug": "linde",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "LIN",
     "year": "2025"
   },
@@ -1733,7 +1733,7 @@
     "report_date_confidence": "high",
     "sector": "Basic Materials/Specialty Chemicals",
     "slug": "linde",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "LIN",
     "year": "2026"
   },
@@ -1759,7 +1759,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Computer Hardware",
     "slug": "lenovo",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "LNVGY",
     "year": "2026"
   },
@@ -1785,7 +1785,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Computer Hardware",
     "slug": "lenovo",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "LNVGY",
     "year": "2026"
   },
@@ -1811,7 +1811,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Computer Hardware",
     "slug": "lenovo",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "LNVGY",
     "year": "2026"
   },
@@ -1837,7 +1837,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Computer Hardware",
     "slug": "lenovo",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "LNVGY",
     "year": "2026"
   },
@@ -1977,7 +1977,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MET",
     "year": "2024"
   },
@@ -2003,7 +2003,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MET",
     "year": "2024"
   },
@@ -2081,7 +2081,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MET",
     "year": "2025"
   },
@@ -2107,7 +2107,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MET",
     "year": "2025"
   },
@@ -2137,7 +2137,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MET",
     "year": "2025"
   },
@@ -2167,7 +2167,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Insurance - Life",
     "slug": "metlife",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MET",
     "year": "2026"
   },
@@ -2197,7 +2197,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "micron",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MU",
     "year": "2025"
   },
@@ -2227,7 +2227,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "micron",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MU",
     "year": "2026"
   },
@@ -2257,7 +2257,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Semiconductors",
     "slug": "micron",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "MU",
     "year": "2026"
   },
@@ -2283,7 +2283,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "oracle",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "ORCL",
     "year": "2026"
   },
@@ -2309,7 +2309,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "oracle",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "ORCL",
     "year": "2026"
   },
@@ -2335,7 +2335,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "oracle",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "ORCL",
     "year": "2026"
   },
@@ -2365,7 +2365,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "pinterest",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PINS",
     "year": "2024"
   },
@@ -2395,7 +2395,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "pinterest",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PINS",
     "year": "2025"
   },
@@ -2425,7 +2425,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "pinterest",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PINS",
     "year": "2026"
   },
@@ -2451,7 +2451,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "palantir",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PLTR",
     "year": "2025"
   },
@@ -2477,7 +2477,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "palantir",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PLTR",
     "year": "2025"
   },
@@ -2503,7 +2503,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "palantir",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PLTR",
     "year": "2025"
   },
@@ -2529,7 +2529,7 @@
     "report_date_confidence": "high",
     "sector": "Technology/Software - Infrastructure",
     "slug": "palantir",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PLTR",
     "year": "2025"
   },
@@ -2555,7 +2555,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Footwear & Accessories",
     "slug": "puma",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PUM.DE",
     "year": "2025"
   },
@@ -2585,7 +2585,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Footwear & Accessories",
     "slug": "puma",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PUM.DE",
     "year": "2025"
   },
@@ -2611,7 +2611,7 @@
     "report_date_confidence": "medium",
     "sector": "Consumer Cyclical/Footwear & Accessories",
     "slug": "puma",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PUM.DE",
     "year": "2025"
   },
@@ -2641,7 +2641,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Footwear & Accessories",
     "slug": "puma",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PUM.DE",
     "year": "2026"
   },
@@ -2671,7 +2671,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "paypal",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PYPL",
     "year": "2025"
   },
@@ -2701,7 +2701,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "paypal",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PYPL",
     "year": "2025"
   },
@@ -2731,7 +2731,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "paypal",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PYPL",
     "year": "2025"
   },
@@ -2761,7 +2761,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "paypal",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "PYPL",
     "year": "2026"
   },
@@ -2855,7 +2855,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "starbucks",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SBUX",
     "year": "2025"
   },
@@ -2881,7 +2881,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "starbucks",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SBUX",
     "year": "2025"
   },
@@ -2907,7 +2907,7 @@
     "report_date_confidence": "high",
     "sector": "Consumer Cyclical/Restaurants",
     "slug": "starbucks",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SBUX",
     "year": "2026"
   },
@@ -2933,7 +2933,7 @@
     "report_date_confidence": "high",
     "sector": "Industrials/Specialty Industrial Machinery",
     "slug": "siemens",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SIE.DE",
     "year": "2025"
   },
@@ -2959,7 +2959,7 @@
     "report_date_confidence": "high",
     "sector": "Industrials/Specialty Industrial Machinery",
     "slug": "siemens",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SIE.DE",
     "year": "2026"
   },
@@ -2985,7 +2985,7 @@
     "report_date_confidence": "high",
     "sector": "Industrials/Specialty Industrial Machinery",
     "slug": "siemens",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SIE.DE",
     "year": "2026"
   },
@@ -3015,7 +3015,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "spotify",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SPOT",
     "year": "2025"
   },
@@ -3045,7 +3045,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "spotify",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SPOT",
     "year": "2025"
   },
@@ -3075,7 +3075,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "spotify",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SPOT",
     "year": "2025"
   },
@@ -3105,7 +3105,7 @@
     "report_date_confidence": "high",
     "sector": "Communication Services/Internet Content & Information",
     "slug": "spotify",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "SPOT",
     "year": "2026"
   },
@@ -3131,7 +3131,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Banks - Diversified",
     "slug": "standard_chartered",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "STAN.L",
     "year": "2025"
   },
@@ -3157,7 +3157,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Banks - Diversified",
     "slug": "standard_chartered",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "STAN.L",
     "year": "2025"
   },
@@ -3183,7 +3183,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Banks - Diversified",
     "slug": "standard_chartered",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "STAN.L",
     "year": "2025"
   },
@@ -3209,7 +3209,7 @@
     "report_date_confidence": "medium",
     "sector": "Financial Services/Banks - Diversified",
     "slug": "standard_chartered",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "STAN.L",
     "year": "2025"
   },
@@ -3239,7 +3239,7 @@
     "report_date_confidence": "high",
     "sector": "Healthcare/Healthcare Plans",
     "slug": "unitedhealth",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "UNH",
     "year": "2025"
   },
@@ -3269,7 +3269,7 @@
     "report_date_confidence": "high",
     "sector": "Healthcare/Healthcare Plans",
     "slug": "unitedhealth",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "UNH",
     "year": "2025"
   },
@@ -3299,7 +3299,7 @@
     "report_date_confidence": "high",
     "sector": "Healthcare/Healthcare Plans",
     "slug": "unitedhealth",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "UNH",
     "year": "2025"
   },
@@ -3329,7 +3329,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "visa",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "V",
     "year": "2025"
   },
@@ -3359,7 +3359,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "visa",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "V",
     "year": "2025"
   },
@@ -3389,7 +3389,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "visa",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "V",
     "year": "2025"
   },
@@ -3419,7 +3419,7 @@
     "report_date_confidence": "high",
     "sector": "Financial Services/Credit Services",
     "slug": "visa",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "V",
     "year": "2026"
   },
@@ -3445,7 +3445,7 @@
     "report_date_confidence": "medium",
     "sector": "Technology/Software - Application",
     "slug": "workday",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "WDAY",
     "year": "2025"
   },
@@ -3475,7 +3475,7 @@
     "report_date_confidence": "medium",
     "sector": "Technology/Software - Application",
     "slug": "workday",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "WDAY",
     "year": "2025"
   },
@@ -3505,7 +3505,7 @@
     "report_date_confidence": "medium",
     "sector": "Technology/Software - Application",
     "slug": "workday",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "WDAY",
     "year": "2025"
   },
@@ -3535,7 +3535,7 @@
     "report_date_confidence": "medium",
     "sector": "Technology/Software - Application",
     "slug": "workday",
-    "status": "sourced",
+    "status": "blended",
     "ticker": "WDAY",
     "year": "2025"
   }

@@ -1,0 +1,44 @@
+{
+  "document_id": "PINS_FQ4_2024_NEWS",
+  "base_document_id": "PINS_FQ4_2024",
+  "issuer": "p2_pinterest",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This pre-earnings digest indicates that analyst expectations have been lowered heading into the print, with multiple price target cuts and a notable downgrade from Buy to Hold, suggesting a depressed bar that could lead to a positive surprise. However, the document also notes continued revenue growth momentum and several maintained Overweight ratings, creating a mixed but slightly negative forward expectation. The score reflects the balance between lowered expectations (which could be bullish) and the cautious analyst sentiment (which is bearish), landing at the threshold of the HOLD band."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T102233Z",
+    "timestamp": "2026-08-09T10:22:40Z",
+    "status": "success",
+    "document_id": "PINS_FQ4_2024_NEWS",
+    "issuer": "p2_pinterest",
+    "company": "Pinterest",
+    "ticker": "PINS",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-06",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pinterest\\PINS_FQ4_2024.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3743,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1193,
+    "total_tokens": 4936,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002272,
+    "latency_seconds": 7.51,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

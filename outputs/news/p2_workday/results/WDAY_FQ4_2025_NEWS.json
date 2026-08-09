@@ -1,0 +1,44 @@
+{
+  "document_id": "WDAY_FQ4_2025_NEWS",
+  "base_document_id": "WDAY_FQ4_2025",
+  "issuer": "p2_workday",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes a mix of positive operational momentum (AI revenue >$400M, 100%+ ACV growth, 75%+ AI inclusion in deals) and a notable risk (CEO transition), with expectations for FY2027 subscription growth decelerating to 12-13% from 14%. The bar is not described as stretched or depressed; it is balanced with both upside and downside factors, so the score is mildly positive but not strongly so."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T104408Z",
+    "timestamp": "2026-08-09T10:44:20Z",
+    "status": "success",
+    "document_id": "WDAY_FQ4_2025_NEWS",
+    "issuer": "p2_workday",
+    "company": "Workday",
+    "ticker": "WDAY",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-24",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_workday\\WDAY_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4500,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1778,
+    "total_tokens": 6278,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00312,
+    "latency_seconds": 10.98,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

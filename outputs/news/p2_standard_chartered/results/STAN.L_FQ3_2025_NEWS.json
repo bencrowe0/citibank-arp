@@ -1,0 +1,44 @@
+{
+  "document_id": "STAN.L_FQ3_2025_NEWS",
+  "base_document_id": "STAN.L_FQ3_2025",
+  "issuer": "p2_standard_chartered",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This pre-earnings digest indicates that market expectations are elevated but not excessively stretched, with analysts expecting solid profit growth (8-10% YoY) and a potential guidance upgrade. The document highlights strong H1 momentum (income +10% YoY, RoTE 18.1%, EPS +41%) and expects Wealth Solutions to continue outperforming, suggesting a positive setup. However, the digest also notes risks such as interest rate headwinds and competition, and the absence of actual Q3 results means the score reflects the balance of expectations rather than confirmed guidance changes."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103616Z",
+    "timestamp": "2026-08-09T10:36:27Z",
+    "status": "success",
+    "document_id": "STAN.L_FQ3_2025_NEWS",
+    "issuer": "p2_standard_chartered",
+    "company": "Standard Chartered",
+    "ticker": "STAN.L",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_standard_chartered\\STAN.L_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4878,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1687,
+    "total_tokens": 6565,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003122,
+    "latency_seconds": 10.58,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

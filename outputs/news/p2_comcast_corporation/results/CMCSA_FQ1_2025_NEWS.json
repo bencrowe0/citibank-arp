@@ -1,0 +1,44 @@
+{
+  "document_id": "CMCSA_FQ1_2025_NEWS",
+  "base_document_id": "CMCSA_FQ1_2025",
+  "issuer": "p2_comcast_corporation",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This pre-earnings digest describes a cautiously optimistic consensus: analysts expect modest broadband acceleration and margin expansion, but also brace for continued video subscriber declines. The stock is consolidating after recovery, and there is no indication of stretched or depressed expectations, so the bar appears balanced. The tone is cautiously optimistic, but with no clear signal of a low bar that would favor a positive surprise, the score is mildly positive."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T095721Z",
+    "timestamp": "2026-08-09T09:57:29Z",
+    "status": "success",
+    "document_id": "CMCSA_FQ1_2025_NEWS",
+    "issuer": "p2_comcast_corporation",
+    "company": "Comcast Corporation",
+    "ticker": "CMCSA",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-23",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_comcast_corporation\\CMCSA_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3810,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1185,
+    "total_tokens": 4995,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002281,
+    "latency_seconds": 8.4,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "DAL_FQ4_2025_NEWS",
+  "base_document_id": "DAL_FQ4_2025",
+  "issuer": "p2_delta_air_lines",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This pre-earnings digest describes a company tracking toward record revenue and free cash flow, with strong holiday demand and expectations of 20% EPS growth guidance for 2026. However, the document also notes macro uncertainties and analyst questions about sustainability, indicating a moderately positive but not exuberant outlook. Since this is a pre-earnings digest, the score reflects that market expectations are somewhat elevated but not stretched to a 'priced for perfection' level, leaving room for a positive surprise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100131Z",
+    "timestamp": "2026-08-09T10:01:42Z",
+    "status": "success",
+    "document_id": "DAL_FQ4_2025_NEWS",
+    "issuer": "p2_delta_air_lines",
+    "company": "Delta Air Lines",
+    "ticker": "DAL",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_delta_air_lines\\DAL_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4031,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1949,
+    "total_tokens": 5980,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003181,
+    "latency_seconds": 10.7,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

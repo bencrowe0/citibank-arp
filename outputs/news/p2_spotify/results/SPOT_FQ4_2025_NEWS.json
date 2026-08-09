@@ -1,0 +1,44 @@
+{
+  "document_id": "SPOT_FQ4_2025_NEWS",
+  "base_document_id": "SPOT_FQ4_2025",
+  "issuer": "p2_spotify",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This pre-earnings digest indicates elevated market expectations with record-breaking MAU additions, strong Q4 guidance beat, and premium subscriber milestones anticipated, alongside analyst confidence in pricing power and margin expansion. However, the stock fell 4% on January 15 despite price increases, and the leadership transition introduces some uncertainty, suggesting a moderately positive but not overly stretched setup. The bar is not described as 'priced for perfection' nor depressed, so a modest positive score reflects the optimistic but not extreme expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103334Z",
+    "timestamp": "2026-08-09T10:33:44Z",
+    "status": "success",
+    "document_id": "SPOT_FQ4_2025_NEWS",
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_spotify\\SPOT_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3727,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1658,
+    "total_tokens": 5385,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002779,
+    "latency_seconds": 10.26,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

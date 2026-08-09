@@ -1,0 +1,44 @@
+{
+  "document_id": "ORCL_FQ2_2026_NEWS",
+  "base_document_id": "ORCL_FQ2_2026",
+  "issuer": "p2_oracle",
+  "sentiment": {
+    "score": -0.25,
+    "rationale": "This pre-earnings digest describes a market environment where Oracle's stock has rallied hard into the print on AI optimism, with analyst estimates already elevated (EPS up from $1.47 to $1.64, revenue expected to grow 15%, cloud revenue 30%+). However, the document prominently features rising debt concerns, credit default swaps at highest levels since 2009, negative outlooks from Moody's and S&P, and warnings that leverage could exceed 4x debt-to-EBITDA by 2027-2028, risking a downgrade to non-investment grade. This combination of stretched expectations and significant financial risk suggests a demanding bar with little room for a soft print, making a negative surprise more likely than a positive one."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T101617Z",
+    "timestamp": "2026-08-09T10:16:30Z",
+    "status": "success",
+    "document_id": "ORCL_FQ2_2026_NEWS",
+    "issuer": "p2_oracle",
+    "company": "Oracle",
+    "ticker": "ORCL",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2025-12-10",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_oracle\\ORCL_FQ2_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4216,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2026,
+    "total_tokens": 6242,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003316,
+    "latency_seconds": 12.81,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

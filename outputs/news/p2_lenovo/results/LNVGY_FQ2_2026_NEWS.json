@@ -1,0 +1,44 @@
+{
+  "document_id": "LNVGY_FQ2_2026_NEWS",
+  "base_document_id": "LNVGY_FQ2_2026",
+  "issuer": "p2_lenovo",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This pre-earnings digest describes market expectations that are moderately elevated but not stretched to a 'priced for perfection' extreme. The document highlights increasing optimism on infrastructure growth and potential upside to full-year guidance, but also notes currency headwinds and cautious consumer markets, indicating a balanced but positive setup. Since this is a pre-earnings digest, the score reflects the degree to which expectations are stretched; here they are somewhat elevated but with room for positive surprise, hence a mildly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100844Z",
+    "timestamp": "2026-08-09T10:08:51Z",
+    "status": "success",
+    "document_id": "LNVGY_FQ2_2026_NEWS",
+    "issuer": "p2_lenovo",
+    "company": "Lenovo",
+    "ticker": "LNVGY",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2025-01-30",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lenovo\\LNVGY_FQ2_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3892,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1198,
+    "total_tokens": 5090,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002317,
+    "latency_seconds": 7.53,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

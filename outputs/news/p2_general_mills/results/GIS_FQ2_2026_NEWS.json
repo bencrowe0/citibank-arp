@@ -1,0 +1,44 @@
+{
+  "document_id": "GIS_FQ2_2026_NEWS",
+  "base_document_id": "GIS_FQ2_2026",
+  "issuer": "p2_general_mills",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest describes depressed expectations: consensus EPS is forecast to decline 27.14% YoY, net sales expected down ~9%, and North America Retail down 15%. Morgan Stanley lowered its price target and FY27 EPS estimate, and the stock carries a consensus Hold rating. The lowered bar and cautious analyst sentiment suggest a negative setup, but the digest does not indicate a severely stretched valuation or extreme pessimism, so the score is moderately bearish."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100424Z",
+    "timestamp": "2026-08-09T10:04:32Z",
+    "status": "success",
+    "document_id": "GIS_FQ2_2026_NEWS",
+    "issuer": "p2_general_mills",
+    "company": "General Mills",
+    "ticker": "GIS",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2025-12-17",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_general_mills\\GIS_FQ2_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3717,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1306,
+    "total_tokens": 5023,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002389,
+    "latency_seconds": 7.9,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

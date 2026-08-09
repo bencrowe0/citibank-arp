@@ -1,0 +1,44 @@
+{
+  "document_id": "V_FQ1_2025_NEWS",
+  "base_document_id": "V_FQ1_2025",
+  "issuer": "p2_visa",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This is a pre-earnings digest, so there is no guidance to compare. The document shows a modestly positive setup: the stock price rose from $329.26 to $335.50 in late April, and analyst price targets were raised in early 2025, indicating slightly elevated expectations. However, the consensus EPS estimate of $2.68 and revenue of $9.56 billion are not described as stretched or depressed, and there is no commentary on the bar being raised or lowered, so the score is mildly positive but not strongly bullish."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T104121Z",
+    "timestamp": "2026-08-09T10:41:29Z",
+    "status": "success",
+    "document_id": "V_FQ1_2025_NEWS",
+    "issuer": "p2_visa",
+    "company": "Visa",
+    "ticker": "V",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_visa\\V_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3642,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1187,
+    "total_tokens": 4829,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002238,
+    "latency_seconds": 7.96,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

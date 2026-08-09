@@ -1,0 +1,44 @@
+{
+  "document_id": "PYPL_FQ2_2025_NEWS",
+  "base_document_id": "PYPL_FQ2_2025",
+  "issuer": "p2_paypal",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates moderately optimistic market expectations after a Q1 beat, with revenue expected to increase and branded checkout growth expected to improve sequentially. However, the bar is not described as depressed; rather, there are concerns about margin compression and the sustainability of the turnaround, which tempers the positive outlook. The score reflects a slightly positive setup with room for a positive surprise, but not a strongly bullish one."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T102107Z",
+    "timestamp": "2026-08-09T10:21:16Z",
+    "status": "success",
+    "document_id": "PYPL_FQ2_2025_NEWS",
+    "issuer": "p2_paypal",
+    "company": "PayPal",
+    "ticker": "PYPL",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_paypal\\PYPL_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3839,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1347,
+    "total_tokens": 5186,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002467,
+    "latency_seconds": 8.72,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

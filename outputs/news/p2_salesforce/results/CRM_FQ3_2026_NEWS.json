@@ -1,0 +1,44 @@
+{
+  "document_id": "CRM_FQ3_2026_NEWS",
+  "base_document_id": "CRM_FQ3_2026",
+  "issuer": "p2_salesforce",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply; instead, the score reflects whether market expectations are stretched or depressed heading into the print. The document describes expectations as 'fairly modest' and notes this 'could make it easier for Salesforce to deliver a positive surprise,' indicating a lowered bar that raises the odds of a positive market reaction. However, the score is tempered by the fact that Wall Street remains only 'cautiously bullish' and the document lists several risks including slower Agentforce adoption and macro spending weakness, preventing a more strongly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T102947Z",
+    "timestamp": "2026-08-09T10:29:57Z",
+    "status": "success",
+    "document_id": "CRM_FQ3_2026_NEWS",
+    "issuer": "p2_salesforce",
+    "company": "Salesforce",
+    "ticker": "CRM",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2025-12-03",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_salesforce\\CRM_FQ3_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3857,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1765,
+    "total_tokens": 5622,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002932,
+    "latency_seconds": 10.32,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

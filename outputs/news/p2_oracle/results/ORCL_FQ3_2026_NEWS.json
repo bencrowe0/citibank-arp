@@ -1,0 +1,44 @@
+{
+  "document_id": "ORCL_FQ3_2026_NEWS",
+  "base_document_id": "ORCL_FQ3_2026",
+  "issuer": "p2_oracle",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This pre-earnings digest describes elevated market expectations heading into Oracle's Q3 FY26 print, with analysts expecting significant growth (EPS $1.70-$1.71, revenue ~$16.9B, 20%+ growth) and the stock having already rallied on strong momentum. However, the document highlights a 'streak of revenue misses' in Q1 and Q2 FY26, raising the bar for Q3 and increasing the risk of a negative surprise even on decent results. The demanding expectations and the acknowledged revenue shortfall trend suggest a stretched bar, warranting a mildly bearish sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T101630Z",
+    "timestamp": "2026-08-09T10:16:44Z",
+    "status": "success",
+    "document_id": "ORCL_FQ3_2026_NEWS",
+    "issuer": "p2_oracle",
+    "company": "Oracle",
+    "ticker": "ORCL",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-03-10",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_oracle\\ORCL_FQ3_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4388,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2052,
+    "total_tokens": 6440,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003391,
+    "latency_seconds": 13.2,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

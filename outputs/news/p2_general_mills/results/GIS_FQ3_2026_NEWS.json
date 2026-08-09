@@ -1,0 +1,44 @@
+{
+  "document_id": "GIS_FQ3_2026_NEWS",
+  "base_document_id": "GIS_FQ3_2026",
+  "issuer": "p2_general_mills",
+  "sentiment": {
+    "score": -0.55,
+    "rationale": "This pre-earnings digest describes depressed expectations: the company slashed its fiscal 2026 guidance, with organic net sales guidance revised downward and BofA cutting its EPS forecast. The document highlights a challenging consumer environment, weak sentiment, and entrenched value-seeking behavior, indicating a low bar for the upcoming print. The negative score reflects the lowered guidance and cautious analyst sentiment, suggesting potential for a positive surprise but also significant downside risk."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100432Z",
+    "timestamp": "2026-08-09T10:04:41Z",
+    "status": "success",
+    "document_id": "GIS_FQ3_2026_NEWS",
+    "issuer": "p2_general_mills",
+    "company": "General Mills",
+    "ticker": "GIS",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-03-18",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_general_mills\\GIS_FQ3_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3797,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1603,
+    "total_tokens": 5400,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002737,
+    "latency_seconds": 9.03,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.55,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

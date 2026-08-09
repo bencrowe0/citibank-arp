@@ -1,0 +1,44 @@
+{
+  "document_id": "SBUX_FQ4_2025_NEWS",
+  "base_document_id": "SBUX_FQ4_2025",
+  "issuer": "p2_starbucks",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "This pre-earnings digest indicates that market expectations are somewhat stretched, with analysts expecting a likely EPS miss (-3% vs estimates) and continued margin compression, while same-store sales recovery is uncertain. The document highlights significant headwinds such as labor investments, elevated coffee costs, and competitive pressure in China, suggesting a cautious outlook. Although revenue is expected to beat slightly, the overall tone is bearish due to the lack of clear positive catalysts and the critical test of turnaround credibility."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103743Z",
+    "timestamp": "2026-08-09T10:37:53Z",
+    "status": "success",
+    "document_id": "SBUX_FQ4_2025_NEWS",
+    "issuer": "p2_starbucks",
+    "company": "Starbucks",
+    "ticker": "SBUX",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-10-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_starbucks\\SBUX_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3975,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1473,
+    "total_tokens": 5448,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002642,
+    "latency_seconds": 9.75,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.35,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "GOOGL_FQ1_2026_NEWS",
+  "base_document_id": "GOOGL_FQ1_2026",
+  "issuer": "p2_alphabet",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest indicates that market expectations are elevated, with consensus EPS estimates having been raised from $2.46 to $2.73 and a price target range up to $420, suggesting a high bar for the upcoming results. The document also notes a projected EPS decline of -6.4% YoY due to depreciation acceleration, which could temper positive surprises. Therefore, expectations appear stretched, increasing the risk of a negative market reaction even if results are decent."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T095002Z",
+    "timestamp": "2026-08-09T09:50:11Z",
+    "status": "success",
+    "document_id": "GOOGL_FQ1_2026_NEWS",
+    "issuer": "p2_alphabet",
+    "company": "Alphabet",
+    "ticker": "GOOGL",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_alphabet\\GOOGL_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4191,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1210,
+    "total_tokens": 5401,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002411,
+    "latency_seconds": 8.37,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "UNH_FQ2_2025_NEWS",
+  "base_document_id": "UNH_FQ2_2025",
+  "issuer": "p2_unitedhealth",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This pre-earnings digest describes modestly positive analyst expectations with revenue and EPS growth forecasts, but also highlights significant headwinds from medical cost inflation and margin compression. The document does not indicate that expectations are either stretched or depressed; rather, it presents a balanced view with both positive earnings expectations and acknowledged cost pressures. Therefore, the score is mildly positive, reflecting a slightly favorable setup but with notable risks that prevent a stronger bullish signal."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103905Z",
+    "timestamp": "2026-08-09T10:39:15Z",
+    "status": "success",
+    "document_id": "UNH_FQ2_2025_NEWS",
+    "issuer": "p2_unitedhealth",
+    "company": "UnitedHealth",
+    "ticker": "UNH",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_unitedhealth\\UNH_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3828,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1466,
+    "total_tokens": 5294,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002595,
+    "latency_seconds": 9.18,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

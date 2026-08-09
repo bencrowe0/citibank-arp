@@ -1,0 +1,44 @@
+{
+  "document_id": "DAL_FQ3_2025_NEWS",
+  "base_document_id": "DAL_FQ3_2025",
+  "issuer": "p2_delta_air_lines",
+  "sentiment": {
+    "score": -0.25,
+    "rationale": "This pre-earnings digest describes a stock that has likely rallied into the print ('Shares likely near highs heading into Q3 earnings') and analyst estimates that have been rising ('Prior guidance range narrowed and raised through the summer'), which raises the bar for a positive surprise. The document also notes that Q4 guidance is 'expected to be revised higher,' but this is an expectation, not a confirmed guidance raise, and the elevated expectations create downside risk. Therefore, the sentiment is mildly bearish, reflecting stretched expectations rather than a confirmed positive forward shift."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100120Z",
+    "timestamp": "2026-08-09T10:01:31Z",
+    "status": "success",
+    "document_id": "DAL_FQ3_2025_NEWS",
+    "issuer": "p2_delta_air_lines",
+    "company": "Delta Air Lines",
+    "ticker": "DAL",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-09",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_delta_air_lines\\DAL_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3811,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1890,
+    "total_tokens": 5701,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003057,
+    "latency_seconds": 11.05,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "LIN_FQ3_2025_NEWS",
+  "base_document_id": "LIN_FQ3_2025",
+  "issuer": "p2_linde",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply; instead, the score reflects whether market expectations are stretched or depressed heading into the print. The digest describes a balanced-to-slightly-positive setup: pricing power is sustained, the project backlog is strong (~$10B+), and clean energy provides long-term catalysts, but it also notes volume headwinds and a softer macro environment, with no indication that the bar has been either raised or lowered. The positive operational momentum (leadership change, hydrogen pipeline expansion, helium stabilization) supports a mildly positive score, but the absence of any commentary on valuation stretch or estimate revisions keeps it below +0.3."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T101040Z",
+    "timestamp": "2026-08-09T10:10:51Z",
+    "status": "success",
+    "document_id": "LIN_FQ3_2025_NEWS",
+    "issuer": "p2_linde",
+    "company": "Linde",
+    "ticker": "LIN",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-31",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_linde\\LIN_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3820,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1506,
+    "total_tokens": 5326,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002637,
+    "latency_seconds": 10.77,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}
