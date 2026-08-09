@@ -58,7 +58,7 @@ PHASE2_ISSUERS = [
     "barclays", "ford", "microsoft", "pfizer", "united_airlines",
     "pepsico", "fedex", "lockheed_martin", "novo_nordisk", "hilton", "lvmh",
     "marriott",
-    "allianz", "alphabet", "booking_holdings", "broadcom", "caterpillar", "chipotle", "colgate_palmolive", "comcast_corporation", "costco", "dell", "delta_air_lines", "expedia", "general_mills", "hermes", "johnson_johnson", "kraft_heinz", "lenovo", "linde", "metlife", "micron", "oracle", "palantir", "paypal", "pinterest", "puma", "robinhood_markets", "salesforce", "siemens", "spotify", "standard_chartered", "starbucks", "unitedhealth", "visa", "workday",
+    "allianz", "alphabet", "booking_holdings", "broadcom", "caterpillar", "chipotle", "colgate_palmolive", "comcast_corporation", "costco", "dell", "delta_air_lines", "expedia", "general_mills", "johnson_johnson", "kraft_heinz", "lenovo", "linde", "metlife", "micron", "oracle", "palantir", "paypal", "pinterest", "puma", "robinhood_markets", "salesforce", "siemens", "spotify", "standard_chartered", "starbucks", "unitedhealth", "visa", "workday",
 ]
 MANIFESTS.update({
     f"p2_{name}": BASE_DIR / "manifests" / f"p2_{name}_reports.json"
@@ -149,7 +149,12 @@ def main() -> int:
     total_cost = 0.0
     for issuer in sys.argv[1:] or default_issuers:
         print(f"\n=== {issuer} ===")
-        for result in score_all_news(issuer):
+        try:
+            results = score_all_news(issuer)
+        except Exception as exc:
+            print(f"  SKIPPED {issuer}: {exc}")
+            continue
+        for result in results:
             print(f"{result['document_id']}: {result['signal']['direction']} (score {result['sentiment']['score']})")
             total_cost += result["cost_log"]["estimated_cost_usd"]
     print(f"\nTotal news scoring cost: ${total_cost:.5f}")

@@ -1,0 +1,53 @@
+{
+  "issuer": "p2_costco",
+  "reports": [
+    {
+      "document_id": "COST_FQ4_2025",
+      "issuer": "p2_costco",
+      "company": "Costco",
+      "ticker": "COST",
+      "sector": "Consumer Defensive/Discount Stores",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-09-25",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/costco/CY2025-Q4/press_release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "COST_FQ1_2026",
+      "issuer": "p2_costco",
+      "company": "Costco",
+      "ticker": "COST",
+      "sector": "Consumer Defensive/Discount Stores",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-12-11",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/costco/CY2026-Q1/press_release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "COST_FQ2_2026",
+      "issuer": "p2_costco",
+      "company": "Costco",
+      "ticker": "COST",
+      "sector": "Consumer Defensive/Discount Stores",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-03-05",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/costco/CY2026-Q2/press_release.htm"
+        }
+      ]
+    }
+  ]
+}

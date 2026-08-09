@@ -3,15 +3,16 @@ Q3 2026 (Report Date: March 18, 2026)
 ======================================
 
 ANALYST EXPECTATIONS AND GUIDANCE:
-- Consensus EPS estimate: $0.73 (expected to miss: actual was $0.64, miss of $0.09)
+- Consensus EPS estimate: $0.73 (Zacks/BofA range; some sources cited up to $0.75)
 - Expected net sales: approximately $4.44 billion
 - Organic net sales: expected down 1.5%-2% per revised full-year guidance
 
-RECENT COMPANY ACTIONS & GUIDANCE CUT:
+RECENT COMPANY ACTIONS & GUIDANCE CUT (all pre-report):
 - February 17, 2026: General Mills slashed fiscal 2026 guidance
 - BofA lowered FY26 adjusted EPS forecast to $3.44 from $3.70
 - Company cited "challenging consumer environment" and weak consumer sentiment
 - Revised organic net sales guidance from "down 1% to up 1%" to "down 1.5% to down 2%"
+- March 17, 2026: Zacks Research reduced its Q3 EPS estimate ahead of the print
 
 MARKET & CONSUMER CONTEXT:
 - Cost of living and housing pressures reshaping spending patterns
@@ -24,7 +25,7 @@ ANALYST SENTIMENT PRE-EARNINGS:
 - Stifel maintained Buy but trimmed price target from $44 to $40
 - BNP Paribas: Expected reduced guidance due to higher cost of volume recovery
 - Analyst consensus cautious but mixed (prior hold/neutral ratings)
-- Street research showing reduced outlook sentiment
+- Street research showing reduced outlook sentiment heading into the print
 
 STRATEGIC INITIATIVES:
 - "Remarkability" playbook: increased investment in brand competitiveness
@@ -34,8 +35,6 @@ STRATEGIC INITIATIVES:
 - Majority of pricing investment nearing completion
 
 SOURCES:
-https://www.foodbusinessnews.net/articles/29820-general-mills-reduces-forecast-for-fiscal-2026
-https://finance.yahoo.com/news/general-mills-reports-fiscal-2026-110000174.html
-https://www.investing.com/news/stock-market-news/general-mills-reaffirms-fullyear-sales-profit-forecasts-4568038
-https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-gis/general-mills/future
-https://www.foodnavigator-usa.com/Article/2026/06/05/general-mills-bets-on-remarkability-amid-soft-demand/
+https://www.marketbeat.com/instant-alerts/q3-eps-estimates-for-general-mills-reduced-by-zacks-research-2026-03-17/ (MarketBeat, "Q3 EPS Estimates for General Mills Reduced by Zacks Research" - published March 17, 2026, prior to the report)
+https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-to-Webcast-Fiscal-2026-Third-Quarter-Earnings-Results-on-March-18-2026/default.aspx (General Mills IR, earnings-date announcement - published prior to the report)
+https://www.foodbusinessnews.net/articles/29820-general-mills-reduces-forecast-for-fiscal-2026 (Food Business News, guidance-cut coverage - published prior to the report)

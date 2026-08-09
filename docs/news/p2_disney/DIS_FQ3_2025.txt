@@ -1,6 +1,8 @@
-Disney (DIS) - News digest, FQ3 2025 (report date 2025-11-13). Pre-earnings only, via web search.
+Disney (DIS) - News coverage digest, FQ3 fiscal 2025 earnings (report date 2025-08-05)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
 
-Consensus heading into the November 13, 2025 report: adjusted EPS $1.06, revenue $22.98B. This followed Disney's prior quarter (reported August 6, 2025), which had beaten estimates soundly (EPS $1.61 vs $1.44 expected, +15.8% YoY) and prompted Disney to raise full-year FY2025 guidance to $5.85 adjusted EPS (+18% YoY) - a positive-revision backdrop heading into this print, with expectations already elevated by the prior beat-and-raise.
+Heading into the August 5, 2025 report, consensus called for adjusted EPS of $1.44 on revenue of $23.75 billion, up modestly from the year-ago $1.39/$23.16B. Coverage centered heavily on the Direct-to-Consumer (streaming) segment, which had grown to over 57% of total revenue but was showing only ~8% YoY growth amid intensifying competition - the key question heading in was whether DTC growth could reaccelerate, and management had already signaled a modest sequential increase in Disney+ subscribers was expected. Sell-side sentiment was constructive: Morgan Stanley raised its price target to $140 from $120 ahead of the print, framing the setup as a "healthy double-digit adjusted EPS growth" trajectory into FY27 if the macro backdrop held, and the broader analyst consensus rating stood at "Moderate Buy."
 
 Sources:
-- https://www.chartmill.com/news/DIS/Chartmill-37717-Walt-Disney-Co-NYSEDIS-Reports-Mixed-Q4-Fiscal-2025-Results-and-Ambitious-2026-Outlook (ChartMill, consensus estimate figures as tracked ahead of the November 13, 2025 report)
+- https://finance.yahoo.com/markets/stocks/articles/know-ahead-walt-disneys-earnings-150336875.html (Yahoo Finance, "What You Need To Know Ahead of Walt Disney's Earnings Release" - published prior to the August 5, 2025 report)
+- https://stocktwits.com/news-articles/markets/equity/disney-stock-rises-ahead-of-earnings-what-to-expect-from-2025-q3-print/chr1rKJRdPo (Stocktwits, "Disney Stock Rises Ahead Of Earnings: What To Expect From Mouse House's Q3 Print" - published prior to the report)

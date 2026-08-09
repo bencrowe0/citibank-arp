@@ -23,11 +23,15 @@ from collections import Counter
 from dataclasses import dataclass
 from typing import Any
 
-from blend import DEFAULT_WEIGHTS, blend_scores, derive_signal
+from blend import (
+    DEFAULT_HOLD_LOWER,
+    DEFAULT_HOLD_UPPER,
+    DEFAULT_WEIGHTS,
+    blend_scores,
+    derive_signal,
+)
 
 THRESHOLD_CANDIDATES = [0.05, 0.10, 0.15, 0.20, 0.25, 0.30]
-DEFAULT_HOLD_UPPER = 0.25
-DEFAULT_HOLD_LOWER = -0.05
 WEIGHT_STEP = 0.2
 
 

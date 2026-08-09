@@ -3,8 +3,8 @@
   "base_document_id": "NKE_FQ1_2025",
   "issuer": "p2_nike",
   "sentiment": {
-    "score": 0.2,
-    "rationale": "The document describes a pre-earnings digest where analysts expected Nike to hit already-lowered estimates, indicating a depressed bar. This setup raises the odds of a positive surprise even on modest results, warranting a mildly bullish score. No forward guidance is available in this document type, so the score reflects stretched/depressed expectations rather than a guidance change."
+    "score": 0.3,
+    "rationale": "This pre-earnings digest describes a materially reduced bar heading into the print, with consensus revenue down ~5% YoY and management's own guidance for mid-single-digit revenue decline and significant gross margin compression. The market has already priced in a soft print, and coverage explicitly frames the setup as 'cautious guidance expected,' indicating depressed expectations. This low bar raises the odds of a positive surprise reaction even on modest results, supporting a mildly bullish sentiment score."
   },
   "signal": {
     "direction": "BUY",
@@ -15,29 +15,29 @@
     "signal_mismatch": false
   },
   "cost_log": {
-    "run_id": "20260720T162307Z",
-    "timestamp": "2026-07-20T16:23:15Z",
+    "run_id": "20260809T113329Z",
+    "timestamp": "2026-08-09T11:33:37Z",
     "status": "success",
     "document_id": "NKE_FQ1_2025_NEWS",
     "issuer": "p2_nike",
     "company": "Nike",
     "ticker": "NKE",
     "fiscal_period": "FQ1 2025",
-    "report_date": "2025-03-20",
+    "report_date": "2024-10-01",
     "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_nike\\NKE_FQ1_2025.txt",
     "model": "deepseek-v4-flash",
     "prompt": "llm_analysis_prompt_template.md",
-    "input_tokens": 3482,
+    "input_tokens": 3569,
     "cache_hit_tokens": 256,
-    "output_tokens": 1049,
-    "total_tokens": 4531,
+    "output_tokens": 1261,
+    "total_tokens": 4830,
     "cached_input": false,
-    "estimated_cost_usd": 0.002043,
-    "latency_seconds": 7.89,
+    "estimated_cost_usd": 0.0023,
+    "latency_seconds": 8.06,
     "attempts": 1,
     "signal": "BUY",
     "signal_mismatch": false,
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.3,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

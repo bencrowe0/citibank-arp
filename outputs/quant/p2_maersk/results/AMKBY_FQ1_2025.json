@@ -4,51 +4,50 @@
   "issuer": "p2_maersk",
   "ticker": "AMKBY",
   "sector": "Industrials/Shipping",
-  "report_date": "2025-02-05",
+  "report_date": "2025-05-07",
   "sentiment": {
-    "score": 0.159742
+    "score": 0.876834
   },
   "quant_metrics": {
     "momentum": {
-      "raw_return": -0.118545,
-      "window_start_date": "2025-01-02",
-      "window_end_date": "2025-02-04",
-      "score": -0.658577,
+      "raw_return": 0.204286,
+      "window_start_date": "2025-04-04",
+      "window_end_date": "2025-05-06",
+      "score": 0.876834,
       "available": true
     },
     "volatility": {
-      "annualized_vol": 0.401834,
+      "annualized_vol": 0.437762,
       "available": true
     },
     "eps_surprise": {
-      "surprise_pct": 56.27,
-      "matched_earnings_date": "2025-02-05",
-      "score": 0.978061,
-      "available": true
+      "surprise_pct": null,
+      "score": null,
+      "available": false
     },
     "macro_numeric": {
-      "vix_level": 15.77,
-      "vix_score": 0.212066,
-      "tnx_change": -0.174,
-      "tnx_score": 0.334601,
-      "score": 0.273333,
+      "vix_level": 23.55,
+      "vix_score": -0.29436,
+      "tnx_change": 0.12,
+      "tnx_score": -0.235496,
+      "score": -0.264928,
       "available": true
     },
     "fred_macro": {
       "ffr_level": 4.33,
-      "ffr_change": -0.25,
-      "ffr_score": 0.462117,
-      "ffr_as_of": "2025-02-04",
-      "curve_spread": 0.31,
-      "curve_score": 0.300437,
-      "curve_as_of": "2025-02-04",
-      "score": 0.381277,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-05-06",
+      "curve_spread": 0.52,
+      "curve_score": 0.4777,
+      "curve_as_of": "2025-05-06",
+      "score": 0.23885,
       "available": true
     },
-    "quant_score": 0.159742,
-    "quant_score_with_macro": 0.216537,
-    "quant_score_with_fred": 0.270509,
-    "quant_score_with_macro_fred": 0.271451
+    "quant_score": 0.876834,
+    "quant_score_with_macro": 0.305953,
+    "quant_score_with_fred": 0.557842,
+    "quant_score_with_macro_fred": 0.283585
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,

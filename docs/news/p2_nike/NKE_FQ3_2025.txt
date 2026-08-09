@@ -1,7 +1,7 @@
-Nike (NKE) - News coverage digest, FQ3 2025 earnings (report date 2025-09-30)
-Fetched via web search across free financial outlets/earnings-estimate aggregators. Window: pre-earnings consensus estimates only, no post-earnings narrative used.
+Nike (NKE) - News coverage digest, FQ3 fiscal 2025 earnings (report date 2025-03-20)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
 
-Heading into the September 30, 2025 report (Nike's fiscal Q1 2026), the Zacks Consensus Estimate was revenue of $11.02 billion and EPS of $0.27 - both already discounted well below year-ago levels, continuing the deeply-reduced-expectations pattern seen in Nike's prior quarter. A clean pre-earnings narrative preview specific to this print was not found among free outlets; figures are the Street consensus tracked ahead of the report.
+Heading into the March 20, 2025 report (Nike's fiscal Q3), coverage indicated analysts expected Nike to hit already-lowered estimates and maintain a cautious sales/margin outlook for the following quarter. Analysts noted early positive signs in new product launches (running, Jordan) and improved marketing execution, but were modeling fiscal 2026 conservatively given anticipated reinvestment spend and macro/tariff uncertainty - a "meet reduced expectations, stay cautious on the outlook" setup rather than a clean beat-and-raise setup.
 
 Sources:
-- https://news.alphastreet.com/nike-q1-2026-earnings-drop-on-lower-revenues-but-beat-estimates/amp/ (AlphaStreet, consensus estimate figures (revenue $11.02B, EPS $0.27) as tracked ahead of the September 30, 2025 report)
+- https://wwd.com/footwear-news/shoe-industry-news/nike-nke-q3-2025-earnings-preview-analyst-reactions-1237707495/ (WWD, "Nike NKE Q3 2025 Earnings Preview: Analyst Reactions" - published prior to the March 20, 2025 report)

@@ -4,20 +4,20 @@
   "issuer": "p2_puma",
   "ticker": "PUM.DE",
   "sector": "Consumer Cyclical/Footwear & Accessories",
-  "report_date": "2025-10-29",
+  "report_date": "2025-10-30",
   "sentiment": {
-    "score": 0.592063
+    "score": 0.344216
   },
   "quant_metrics": {
     "momentum": {
-      "raw_return": 0.049926,
-      "window_start_date": "2025-09-29",
-      "window_end_date": "2025-10-28",
-      "score": 0.32107,
+      "raw_return": -0.026465,
+      "window_start_date": "2025-09-30",
+      "window_end_date": "2025-10-29",
+      "score": -0.174625,
       "available": true
     },
     "volatility": {
-      "annualized_vol": 0.43628,
+      "annualized_vol": 0.420493,
       "available": true
     },
     "eps_surprise": {
@@ -27,28 +27,28 @@
       "available": true
     },
     "macro_numeric": {
-      "vix_level": 16.92,
-      "vix_score": 0.137785,
-      "tnx_change": -0.09,
-      "tnx_score": 0.17808,
-      "score": 0.157932,
+      "vix_level": 16.91,
+      "vix_score": 0.138439,
+      "tnx_change": -0.013,
+      "tnx_score": 0.025994,
+      "score": 0.082216,
       "available": true
     },
     "fred_macro": {
       "ffr_level": 4.12,
       "ffr_change": -0.21,
       "ffr_score": 0.39693,
-      "ffr_as_of": "2025-10-28",
-      "curve_spread": 0.52,
-      "curve_score": 0.4777,
-      "curve_as_of": "2025-10-28",
-      "score": 0.437315,
+      "ffr_as_of": "2025-10-29",
+      "curve_spread": 0.49,
+      "curve_score": 0.454216,
+      "curve_as_of": "2025-10-29",
+      "score": 0.425573,
       "available": true
     },
-    "quant_score": 0.592063,
-    "quant_score_with_macro": 0.374997,
-    "quant_score_with_fred": 0.514689,
-    "quant_score_with_macro_fred": 0.39577
+    "quant_score": 0.344216,
+    "quant_score_with_macro": 0.213216,
+    "quant_score_with_fred": 0.384895,
+    "quant_score_with_macro_fred": 0.284002
   },
   "cost_log": {
     "estimated_cost_usd": 0.0,

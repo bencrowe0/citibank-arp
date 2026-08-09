@@ -53,7 +53,6 @@
     "p2_delta_air_lines",
     "p2_expedia",
     "p2_general_mills",
-    "p2_hermes",
     "p2_johnson_johnson",
     "p2_kraft_heinz",
     "p2_lenovo",
@@ -75,7 +74,7 @@
     "p2_visa",
     "p2_workday"
   ],
-  "generated_at": "2026-08-09T10:47:42Z",
+  "generated_at": "2026-08-09T12:08:37Z",
   "outcome_thresholds": {
     "outcome_upper": 0.03,
     "outcome_lower": -0.03
@@ -988,11 +987,11 @@
         "held_out_document_id": "DIS_FQ1_2025",
         "tuned_hold_upper": 0.3,
         "tuned_hold_lower": -0.3,
-        "outcome_label": "BUY",
+        "outcome_label": "HOLD",
         "tuned_prediction": "HOLD",
         "default_prediction": "HOLD",
-        "correct_tuned": false,
-        "correct_default": false
+        "correct_tuned": true,
+        "correct_default": true
       },
       {
         "held_out_document_id": "DIS_FQ3_2025",
@@ -2775,8 +2774,8 @@
         "correct_default": false
       }
     ],
-    "tuned_accuracy": 0.45149253731343286,
-    "default_accuracy": 0.3694029850746269,
+    "tuned_accuracy": 0.4552238805970149,
+    "default_accuracy": 0.373134328358209,
     "modal_tuned_hold_upper": 0.3,
     "modal_tuned_hold_lower": -0.3
   },
@@ -3626,7 +3625,7 @@
         "tuned_hold_lower": -0.3,
         "outcome_label": "BUY",
         "tuned_prediction": "HOLD",
-        "default_prediction": "HOLD",
+        "default_prediction": "SELL",
         "correct_tuned": false,
         "correct_default": false
       },
@@ -3865,7 +3864,7 @@
         "tuned_hold_upper": 0.3,
         "tuned_hold_lower": -0.3,
         "outcome_label": "SELL",
-        "tuned_prediction": "HOLD",
+        "tuned_prediction": "BUY",
         "default_prediction": "BUY",
         "correct_tuned": false,
         "correct_default": false
@@ -4216,11 +4215,11 @@
         ],
         "tuned_hold_upper": 0.3,
         "tuned_hold_lower": -0.3,
-        "outcome_label": "BUY",
+        "outcome_label": "HOLD",
         "tuned_prediction": "HOLD",
         "default_prediction": "HOLD",
-        "correct_tuned": false,
-        "correct_default": false
+        "correct_tuned": true,
+        "correct_default": true
       },
       {
         "held_out_document_id": "DIS_FQ3_2025",
@@ -5897,9 +5896,9 @@
         "tuned_hold_upper": 0.3,
         "tuned_hold_lower": -0.3,
         "outcome_label": "SELL",
-        "tuned_prediction": "SELL",
+        "tuned_prediction": "HOLD",
         "default_prediction": "SELL",
-        "correct_tuned": true,
+        "correct_tuned": false,
         "correct_default": true
       },
       {
@@ -7072,7 +7071,7 @@
       }
     ],
     "tuned_accuracy": 0.4701492537313433,
-    "default_accuracy": 0.3582089552238806,
+    "default_accuracy": 0.3619402985074627,
     "modal_tuned_weights": [
       0.6,
       0.0,

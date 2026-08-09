@@ -1,7 +1,7 @@
-Nvidia (NVDA) - News coverage digest, FQ2 fiscal 2026 earnings (report date 2025-08-27)
+Nvidia (NVDA) - News coverage digest, FQ1 fiscal 2026 earnings (report date 2025-05-28)
 Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
 
-Heading into the August 27, 2025 report, consensus EPS was $0.94 (+44.6% YoY) on revenue of $53.1 billion. Coverage noted Nvidia had topped Wall Street's earnings estimate in three of the prior four quarters, with the one miss (Q1's $0.81 vs. forecast, a 4.7% shortfall) still fresh in investor memory - i.e. a strong but not unblemished recent beat record heading into this print, with the prior quarter's miss keeping expectations somewhat tempered rather than uniformly euphoric.
+Heading into the May 28, 2025 report, Visible Alpha consensus called for total revenue of $43.2-$43.31 billion, with Data Center revenue estimates in a wide range ($34.8-$42.1 billion) - a notably wide dispersion signaling real analyst uncertainty about the segment specifically. Adjusted EPS consensus was $0.93. Data Center gross-profit consensus had actually fallen $1.5 billion from the prior quarter's peak estimate ($29.2B to $27.7B) - a real negative revision heading in, even as overall revenue growth was still expected to be driven by strong cloud-provider GPU demand and continued data-center AI buildout.
 
 Sources:
-- https://finance.yahoo.com/news/nvidias-q2-2026-earnings-expect-114048676.html (Yahoo Finance, "NVIDIA's Q2 2026 Earnings: What to Expect" - published prior to the August 27, 2025 report)
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/2025/05/nvidia-earnings-preview-fiscal-q1-2026 (S&P Global Market Intelligence, "Nvidia earnings preview: Fiscal Q1 2026" - published prior to the May 28, 2025 report)

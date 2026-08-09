@@ -3,8 +3,8 @@
   "base_document_id": "NKE_FQ2_2025",
   "issuer": "p2_nike",
   "sentiment": {
-    "score": 0.3,
-    "rationale": "The document is a pre-earnings digest describing deeply reduced expectations heading into the FQ2 2025 report. The Zacks Consensus Estimate shows revenue of $10.9 billion (-2% YoY) and EPS of $0.11 (-21.4% YoY), with coverage flagging continued softness in Greater China, weakness in lifestyle/digital channels, and margin pressure from tariffs. However, the digest explicitly states that 'the bar had already been lowered substantially heading into the print, not a fresh negative surprise risk,' indicating depressed expectations that raise the odds of a positive surprise even on modest results. This is a bullish setup for a pre-earnings digest, scoring +0.30."
+    "score": 0.25,
+    "rationale": "This pre-earnings digest indicates that market expectations have become more optimistic, with the EPS consensus revised 1.8% higher over the trailing 30 days, a rare positive-revision signal after several quarters of downward resets. However, the company's own prior commentary pointed to declining gross margins and sales, so absolute expectations remain low. The positive revision direction and upbeat analyst sentiment suggest a lower bar for a positive surprise, but the company's own cautious guidance tempers the score."
   },
   "signal": {
     "direction": "BUY",
@@ -15,29 +15,29 @@
     "signal_mismatch": false
   },
   "cost_log": {
-    "run_id": "20260720T162315Z",
-    "timestamp": "2026-07-20T16:23:24Z",
+    "run_id": "20260809T113337Z",
+    "timestamp": "2026-08-09T11:33:45Z",
     "status": "success",
     "document_id": "NKE_FQ2_2025_NEWS",
     "issuer": "p2_nike",
     "company": "Nike",
     "ticker": "NKE",
     "fiscal_period": "FQ2 2025",
-    "report_date": "2025-06-26",
+    "report_date": "2024-12-19",
     "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_nike\\NKE_FQ2_2025.txt",
     "model": "deepseek-v4-flash",
     "prompt": "llm_analysis_prompt_template.md",
-    "input_tokens": 3474,
+    "input_tokens": 3608,
     "cache_hit_tokens": 256,
-    "output_tokens": 1146,
-    "total_tokens": 4620,
+    "output_tokens": 1080,
+    "total_tokens": 4688,
     "cached_input": false,
-    "estimated_cost_usd": 0.002147,
-    "latency_seconds": 8.39,
+    "estimated_cost_usd": 0.002111,
+    "latency_seconds": 7.12,
     "attempts": 1,
     "signal": "BUY",
     "signal_mismatch": false,
-    "sentiment_score": 0.3,
+    "sentiment_score": 0.25,
     "hold_upper": 0.15,
     "hold_lower": -0.15
   }

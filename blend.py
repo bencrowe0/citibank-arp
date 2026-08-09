@@ -23,6 +23,13 @@ from report_pipeline import BASE_DIR, OUTPUTS_DIR, load_manifest
 
 DEFAULT_WEIGHTS = (0.55, 0.45, 0.0, 0.0)  # (micro, macro, news, quant)
 
+# Canonical sentiment-score thresholds (asymmetric) - the values eval/calibrate.py,
+# backtest.py, and the deployed default actually use everywhere. Defined here
+# (not in eval/calibrate.py) because eval/calibrate.py already imports from this
+# module - defining them there and importing back would be circular.
+DEFAULT_HOLD_UPPER = 0.25
+DEFAULT_HOLD_LOWER = -0.05
+
 MANIFESTS = {
     "boeing": BASE_DIR / "manifests" / "boeing_reports.json",
     "jpm": BASE_DIR / "manifests" / "jpm_reports.json",
@@ -43,7 +50,7 @@ PHASE2_ISSUERS = [
     "barclays", "ford", "microsoft", "pfizer", "united_airlines",
     "pepsico", "fedex", "lockheed_martin", "novo_nordisk", "hilton", "lvmh",
     "marriott",
-    "allianz", "alphabet", "booking_holdings", "broadcom", "caterpillar", "chipotle", "colgate_palmolive", "comcast_corporation", "costco", "dell", "delta_air_lines", "expedia", "general_mills", "hermes", "johnson_johnson", "kraft_heinz", "lenovo", "linde", "metlife", "micron", "oracle", "palantir", "paypal", "pinterest", "puma", "robinhood_markets", "salesforce", "siemens", "spotify", "standard_chartered", "starbucks", "unitedhealth", "visa", "workday",
+    "allianz", "alphabet", "booking_holdings", "broadcom", "caterpillar", "chipotle", "colgate_palmolive", "comcast_corporation", "costco", "dell", "delta_air_lines", "expedia", "general_mills", "johnson_johnson", "kraft_heinz", "lenovo", "linde", "metlife", "micron", "oracle", "palantir", "paypal", "pinterest", "puma", "robinhood_markets", "salesforce", "siemens", "spotify", "standard_chartered", "starbucks", "unitedhealth", "visa", "workday",
 ]
 MANIFESTS.update({
     f"p2_{name}": BASE_DIR / "manifests" / f"p2_{name}_reports.json"
@@ -89,7 +96,7 @@ def blend_scores(
     return sum(score * weight for score, weight in components) / total_weight
 
 
-def derive_signal(blended_score: float, hold_upper: float = 0.25, hold_lower: float = -0.25) -> str:
+def derive_signal(blended_score: float, hold_upper: float = DEFAULT_HOLD_UPPER, hold_lower: float = DEFAULT_HOLD_LOWER) -> str:
     if blended_score > hold_upper:
         return "BUY"
     if blended_score < hold_lower:
@@ -107,8 +114,8 @@ def blend_document(
     issuer: str,
     document_id: str,
     weights: tuple[float, float, float, float] = DEFAULT_WEIGHTS,
-    hold_upper: float = 0.15,
-    hold_lower: float = -0.15,
+    hold_upper: float = DEFAULT_HOLD_UPPER,
+    hold_lower: float = DEFAULT_HOLD_LOWER,
 ) -> BlendResult:
     import llm_macro
     import llm_news
@@ -166,7 +173,12 @@ if __name__ == "__main__":
     default_issuers = [f"p2_{name}" for name in PHASE2_ISSUERS]
     for issuer in sys.argv[1:] or default_issuers:
         print(f"\n=== {issuer} ===")
-        for result in blend_issuer(issuer):
+        try:
+            results = blend_issuer(issuer)
+        except Exception as exc:
+            print(f"  SKIPPED {issuer}: {exc}")
+            continue
+        for result in results:
             print(
                 f"{result.document_id}: micro={result.micro_score} macro={result.macro_score} "
                 f"news={result.news_score} quant={result.quant_score} "
