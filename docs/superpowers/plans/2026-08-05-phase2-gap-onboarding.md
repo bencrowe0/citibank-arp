@@ -1189,23 +1189,30 @@ git commit -m "Score and blend phase2 gap-fill issuers"
 
 ---
 
-### Task 9: Final eval/backtest rerun (only once ALL gap combos are blended)
+### Task 9: Final eval/backtest rerun (only once ALL gap combos are blended) — ✅ DONE (commit `666d786`)
+
+**Actual result:** All 107 gap combos confirmed `blended` (23 `sourced_partial_dead_end` correctly left as the plan's own "genuinely unresolvable/dead-end" carve-out — not a blocker). Ran the two existing canonical CLIs verbatim, no new code:
+
+- `eval.run_eval --output-suffix phase2`: pooled N 161 -> **268** (across all 73 phase2 issuers, including the 31 newly gap-onboarded ones). LOOCV: blend weight+threshold tuned_accuracy=0.47 vs default_accuracy=0.36 (threshold-only: 0.45 vs 0.37).
+- `backtest.py --calibration-csv ...`: 170/268 trades, 62.9% hit rate, **+1267.71%** total return, avg 1.740%/trade, Sharpe 3.60, maxDD 38.42%, Correct/Flat/Wrong = 61/82/27.
+
+These are raw output numbers only — a large jump from N=161's 167.66% is expected from compounding over more trades at a larger N, not evidence of improved skill. Re-checking PSR/Deflated-Sharpe and permutation validity against this new N=268 (the same checks that failed the currently-deployed default weights at N=161, per CLAUDE.md's Architecture > Blend section) is explicitly **not** part of this task and remains a separate outstanding item — CLAUDE.md's "Current state" prose still describes the N=161 numbers and should be updated as a follow-up, not silently left to look current.
 
 **Files:** none new — existing CLI, documented for completeness.
 
-- [ ] **Step 1: Confirm everything's blended**
+- [x] **Step 1: Confirm everything's blended**
 
 Run: `python -c "import json; c=json.load(open('phase2/gap_combos.json')); from collections import Counter; print(Counter(v['status'] for v in c.values()))"`
 Expected: all 138 combos show `status: blended` (or `not_started`/etc. only for genuinely unresolvable ones — check `notes` on any stragglers).
 
-- [ ] **Step 2: Rerun the canonical eval + backtest** (already an outstanding item independent of this batch, per CLAUDE.md's Blend section — do this once, not per-wave)
+- [x] **Step 2: Rerun the canonical eval + backtest** (already an outstanding item independent of this batch, per CLAUDE.md's Blend section — do this once, not per-wave)
 
 ```bash
 python -m eval.run_eval --output-suffix phase2
 python backtest.py --calibration-csv outputs/global/summary/global_outcome_calibration_phase2.csv
 ```
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add outputs/global/summary/global_outcome_calibration_phase2.csv outputs/global/summary/backtest_equity.csv outputs/global/summary/api_cost_ledger.csv
