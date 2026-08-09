@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_booking_holdings",
+  "reports": [
+    {
+      "document_id": "BKNG_FQ2_2025",
+      "issuer": "p2_booking_holdings",
+      "company": "Booking",
+      "ticker": "BKNG",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/booking_holdings/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/booking_holdings/CY2025-Q2/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BKNG_FQ3_2025",
+      "issuer": "p2_booking_holdings",
+      "company": "Booking",
+      "ticker": "BKNG",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/booking_holdings/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/booking_holdings/CY2025-Q3/transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BKNG_FQ4_2025",
+      "issuer": "p2_booking_holdings",
+      "company": "Booking",
+      "ticker": "BKNG",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-18",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/booking_holdings/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/booking_holdings/CY2025-Q4/transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

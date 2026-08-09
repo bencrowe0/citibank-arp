@@ -1,0 +1,77 @@
+{
+  "issuer": "p2_salesforce",
+  "reports": [
+    {
+      "document_id": "CRM_FQ2_2026",
+      "issuer": "p2_salesforce",
+      "company": "Salesforce",
+      "ticker": "CRM",
+      "sector": "Technology/Software - Application",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2025-09-03",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/salesforce/CY2026-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/salesforce/CY2026-Q2/CRM_Q2_FY26_Investor_Deck.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/salesforce/CY2026-Q2/CRM_Q2_FY26_Earnings_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CRM_FQ3_2026",
+      "issuer": "p2_salesforce",
+      "company": "Salesforce",
+      "ticker": "CRM",
+      "sector": "Technology/Software - Application",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "2025-12-03",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/salesforce/CY2026-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/salesforce/CY2026-Q3/CRM_Q3_FY26_Investor_Deck.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/salesforce/CY2026-Q3/CRM_Q3_FY26_Earnings_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CRM_FQ4_2026",
+      "issuer": "p2_salesforce",
+      "company": "Salesforce",
+      "ticker": "CRM",
+      "sector": "Technology/Software - Application",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2026",
+      "report_date": "2026-02-25",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/salesforce/CY2026-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/salesforce/CY2026-Q4/CRM_Q4_FY26_Investor_Deck.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/salesforce/CY2026-Q4/CRM_Q4_FY26_Earnings_Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

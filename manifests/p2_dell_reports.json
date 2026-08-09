@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_dell",
+  "reports": [
+    {
+      "document_id": "DELL_FQ1_2025",
+      "issuer": "p2_dell",
+      "company": "Dell",
+      "ticker": "DELL",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/dell/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/dell/CY2025-Q1/earnings_call_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "DELL_FQ3_2025",
+      "issuer": "p2_dell",
+      "company": "Dell",
+      "ticker": "DELL",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-25",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/dell/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/dell/CY2025-Q3/earnings_call_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "DELL_FQ4_2025",
+      "issuer": "p2_dell",
+      "company": "Dell",
+      "ticker": "DELL",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-26",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/dell/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/dell/CY2025-Q4/earnings_call_transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

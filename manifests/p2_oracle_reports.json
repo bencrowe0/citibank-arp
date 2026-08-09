@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_oracle",
+  "reports": [
+    {
+      "document_id": "ORCL_FQ1_2026",
+      "issuer": "p2_oracle",
+      "company": "Oracle",
+      "ticker": "ORCL",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-09-09",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/oracle/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/oracle/CY2026-Q1/ORCL_Q1_2026_earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "ORCL_FQ2_2026",
+      "issuer": "p2_oracle",
+      "company": "Oracle",
+      "ticker": "ORCL",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2025-12-10",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/oracle/CY2026-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/oracle/CY2026-Q2/ORCL_Q2_2026_earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "ORCL_FQ3_2026",
+      "issuer": "p2_oracle",
+      "company": "Oracle",
+      "ticker": "ORCL",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "2026-03-10",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/oracle/CY2026-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/oracle/CY2026-Q3/ORCL_Q3_2026_earnings_call_transcript.txt"
+        }
+      ]
+    }
+  ]
+}

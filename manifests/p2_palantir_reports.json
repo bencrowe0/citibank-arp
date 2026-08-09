@@ -1,0 +1,85 @@
+{
+  "issuer": "p2_palantir",
+  "reports": [
+    {
+      "document_id": "PLTR_FQ1_2025",
+      "issuer": "p2_palantir",
+      "company": "Palantir",
+      "ticker": "PLTR",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-05",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/palantir/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/palantir/CY2025-Q1/PLTR_Q1_2025_presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PLTR_FQ2_2025",
+      "issuer": "p2_palantir",
+      "company": "Palantir",
+      "ticker": "PLTR",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-04",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/palantir/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/palantir/CY2025-Q2/PLTR_Q2_2025_presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PLTR_FQ3_2025",
+      "issuer": "p2_palantir",
+      "company": "Palantir",
+      "ticker": "PLTR",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-03",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/palantir/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/palantir/CY2025-Q3/PLTR_Q3_2025_presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PLTR_FQ4_2025",
+      "issuer": "p2_palantir",
+      "company": "Palantir",
+      "ticker": "PLTR",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-02",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/palantir/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/palantir/CY2025-Q4/PLTR_Q4_2025_presentation.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "issuer": "p2_general_mills",
+  "reports": [
+    {
+      "document_id": "GIS_FQ2_2026",
+      "issuer": "p2_general_mills",
+      "company": "General Mills",
+      "ticker": "GIS",
+      "sector": "Consumer Defensive/Packaged Foods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2025-12-17",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/general_mills/CY2026-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/general_mills/CY2026-Q2/GIS_Q2_2026_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/general_mills/CY2026-Q2/GIS_Q2_2026_Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "GIS_FQ3_2026",
+      "issuer": "p2_general_mills",
+      "company": "General Mills",
+      "ticker": "GIS",
+      "sector": "Consumer Defensive/Packaged Foods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "2026-03-18",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/general_mills/CY2026-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/general_mills/CY2026-Q3/GIS_Q3_2026_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/general_mills/CY2026-Q3/GIS_Q3_2026_Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "GIS_FQ4_2026",
+      "issuer": "p2_general_mills",
+      "company": "General Mills",
+      "ticker": "GIS",
+      "sector": "Consumer Defensive/Packaged Foods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2026",
+      "report_date": "2026-07-01",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/general_mills/CY2026-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/general_mills/CY2026-Q4/GIS_Q4_2026_Presentation.pdf"
+        }
+      ]
+    }
+  ]
+}

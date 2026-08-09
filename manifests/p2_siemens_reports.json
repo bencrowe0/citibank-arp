@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_siemens",
+  "reports": [
+    {
+      "document_id": "SIE.DE_FQ4_2025",
+      "issuer": "p2_siemens",
+      "company": "Siemens",
+      "ticker": "SIE.DE",
+      "sector": "Industrials/Specialty Industrial Machinery",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-11-13",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/siemens/CY2025-Q4/siemens_q4_fy2025_earnings_release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/siemens/CY2025-Q4/siemens_q4_fy2025_presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SIE.DE_FQ1_2026",
+      "issuer": "p2_siemens",
+      "company": "Siemens",
+      "ticker": "SIE.DE",
+      "sector": "Industrials/Specialty Industrial Machinery",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-02-12",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/siemens/CY2026-Q1/siemens_q1_fy2026_earnings_release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/siemens/CY2026-Q1/siemens_q1_fy2026_presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SIE.DE_FQ2_2026",
+      "issuer": "p2_siemens",
+      "company": "Siemens",
+      "ticker": "SIE.DE",
+      "sector": "Industrials/Specialty Industrial Machinery",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-05-13",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/siemens/CY2026-Q2/siemens_q2_fy2026_earnings_release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/siemens/CY2026-Q2/siemens_q2_fy2026_presentation.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "issuer": "p2_alphabet",
+  "reports": [
+    {
+      "document_id": "GOOGL_FQ3_2025",
+      "issuer": "p2_alphabet",
+      "company": "Alphabet",
+      "ticker": "GOOGL",
+      "sector": "Communication Services/Internet Content & Information",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/alphabet/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/alphabet/CY2025-Q3/Alphabet_Q3_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/alphabet/CY2025-Q3/Alphabet_Q3_2025_earnings_transcript.html"
+        }
+      ]
+    },
+    {
+      "document_id": "GOOGL_FQ4_2025",
+      "issuer": "p2_alphabet",
+      "company": "Alphabet",
+      "ticker": "GOOGL",
+      "sector": "Communication Services/Internet Content & Information",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-04",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/alphabet/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/alphabet/CY2025-Q4/Alphabet_Q4_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/alphabet/CY2025-Q4/Alphabet_Q4_2025_earnings_transcript.html"
+        }
+      ]
+    },
+    {
+      "document_id": "GOOGL_FQ1_2026",
+      "issuer": "p2_alphabet",
+      "company": "Alphabet",
+      "ticker": "GOOGL",
+      "sector": "Communication Services/Internet Content & Information",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/alphabet/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/alphabet/CY2026-Q1/Alphabet_Q1_2026_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/alphabet/CY2026-Q1/Alphabet_Q1_2026_earnings_transcript.html"
+        }
+      ]
+    }
+  ]
+}

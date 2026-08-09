@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_starbucks",
+  "reports": [
+    {
+      "document_id": "SBUX_FQ3_2025",
+      "issuer": "p2_starbucks",
+      "company": "Starbucks",
+      "ticker": "SBUX",
+      "sector": "Consumer Cyclical/Restaurants",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-07-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/starbucks/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/starbucks/CY2025-Q3/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SBUX_FQ4_2025",
+      "issuer": "p2_starbucks",
+      "company": "Starbucks",
+      "ticker": "SBUX",
+      "sector": "Consumer Cyclical/Restaurants",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-10-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/starbucks/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/starbucks/CY2025-Q4/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SBUX_FQ1_2026",
+      "issuer": "p2_starbucks",
+      "company": "Starbucks",
+      "ticker": "SBUX",
+      "sector": "Consumer Cyclical/Restaurants",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-01-27",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/starbucks/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/starbucks/CY2026-Q1/presentation.pdf"
+        }
+      ]
+    }
+  ]
+}

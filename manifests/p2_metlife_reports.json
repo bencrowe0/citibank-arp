@@ -1,0 +1,137 @@
+{
+  "issuer": "p2_metlife",
+  "reports": [
+    {
+      "document_id": "MET_FQ2_2024",
+      "issuer": "p2_metlife",
+      "company": "Metlife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2024",
+      "report_date": "2024-07-31",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2024-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2024-Q2/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ3_2024",
+      "issuer": "p2_metlife",
+      "company": "Metlife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2024",
+      "report_date": "2024-10-30",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2024-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2024-Q3/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ2_2025",
+      "issuer": "p2_metlife",
+      "company": "Metlife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-06",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/metlife/CY2025-Q2/earnings_call_transcript.txt"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2025-Q2/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ3_2025",
+      "issuer": "p2_metlife",
+      "company": "Metlife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-05",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2025-Q3/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ4_2025",
+      "issuer": "p2_metlife",
+      "company": "Metlife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-04",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/metlife/CY2025-Q4/earnings_call_transcript.txt"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2025-Q4/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ1_2026",
+      "issuer": "p2_metlife",
+      "company": "Metlife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-06",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/metlife/CY2026-Q1/earnings_call_transcript.txt"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2026-Q1/presentation.pdf"
+        }
+      ]
+    }
+  ]
+}

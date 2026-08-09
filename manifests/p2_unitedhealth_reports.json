@@ -1,0 +1,77 @@
+{
+  "issuer": "p2_unitedhealth",
+  "reports": [
+    {
+      "document_id": "UNH_FQ2_2025",
+      "issuer": "p2_unitedhealth",
+      "company": "UnitedHealth",
+      "ticker": "UNH",
+      "sector": "Healthcare/Healthcare Plans",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/unitedhealth/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/unitedhealth/CY2025-Q2/UNH_Q2_2025_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/unitedhealth/CY2025-Q2/earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "UNH_FQ3_2025",
+      "issuer": "p2_unitedhealth",
+      "company": "UnitedHealth",
+      "ticker": "UNH",
+      "sector": "Healthcare/Healthcare Plans",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-27",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/unitedhealth/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/unitedhealth/CY2025-Q3/UNH_Q3_2025_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/unitedhealth/CY2025-Q3/earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "UNH_FQ4_2025",
+      "issuer": "p2_unitedhealth",
+      "company": "UnitedHealth",
+      "ticker": "UNH",
+      "sector": "Healthcare/Healthcare Plans",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-26",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/unitedhealth/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/unitedhealth/CY2025-Q4/UNH_Q4_2025_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/unitedhealth/CY2025-Q4/earnings_call_transcript.txt"
+        }
+      ]
+    }
+  ]
+}

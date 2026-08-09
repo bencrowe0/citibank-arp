@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_kraft_heinz",
+  "reports": [
+    {
+      "document_id": "KHC_FQ4_2024",
+      "issuer": "p2_kraft_heinz",
+      "company": "Kraft Heinz",
+      "ticker": "KHC",
+      "sector": "Consumer Defensive/Packaged Foods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2024",
+      "report_date": "2025-02-12",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/kraft_heinz/CY2024-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/kraft_heinz/CY2024-Q4/KHC_Q4_2024_Earnings_Call_Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "KHC_FQ1_2025",
+      "issuer": "p2_kraft_heinz",
+      "company": "Kraft Heinz",
+      "ticker": "KHC",
+      "sector": "Consumer Defensive/Packaged Foods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2026-02-11",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/kraft_heinz/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/kraft_heinz/CY2025-Q1/KHC_Q4_2025_Earnings_Call_Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "KHC_FQ1_2026",
+      "issuer": "p2_kraft_heinz",
+      "company": "Kraft Heinz",
+      "ticker": "KHC",
+      "sector": "Consumer Defensive/Packaged Foods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-06",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/kraft_heinz/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/kraft_heinz/CY2026-Q1/KHC_Q1_2026_Earnings_Call_Transcript.txt"
+        }
+      ]
+    }
+  ]
+}

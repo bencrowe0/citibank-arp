@@ -1,0 +1,101 @@
+{
+  "issuer": "p2_expedia",
+  "reports": [
+    {
+      "document_id": "EXPE_FQ1_2025",
+      "issuer": "p2_expedia",
+      "company": "Expedia",
+      "ticker": "EXPE",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-08",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/expedia/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/expedia/CY2025-Q1/Q1-2025-Earnings-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/expedia/CY2025-Q1/Q1-2025-Earnings-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "EXPE_FQ2_2025",
+      "issuer": "p2_expedia",
+      "company": "Expedia",
+      "ticker": "EXPE",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-07",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/expedia/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/expedia/CY2025-Q2/Q2-2025-Earnings-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/expedia/CY2025-Q2/Q2-2025-Earnings-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "EXPE_FQ4_2025",
+      "issuer": "p2_expedia",
+      "company": "Expedia",
+      "ticker": "EXPE",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-12",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/expedia/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/expedia/CY2025-Q4/Q4-2025-Earnings-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/expedia/CY2025-Q4/Q4-2025-Earnings-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "EXPE_FQ1_2026",
+      "issuer": "p2_expedia",
+      "company": "Expedia",
+      "ticker": "EXPE",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-07",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/expedia/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/expedia/CY2026-Q1/Q1-2026-Earnings-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/expedia/CY2026-Q1/Q1-2026-Earnings-Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

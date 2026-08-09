@@ -1,0 +1,77 @@
+{
+  "issuer": "p2_johnson_johnson",
+  "reports": [
+    {
+      "document_id": "JNJ_FQ1_2025",
+      "issuer": "p2_johnson_johnson",
+      "company": "Johnson  Johnson",
+      "ticker": "JNJ",
+      "sector": "Healthcare/Drug Manufacturers - General",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-14",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q1/JNJ_Q1_2025_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q1/JNJ_Q1_2025_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JNJ_FQ2_2025",
+      "issuer": "p2_johnson_johnson",
+      "company": "Johnson  Johnson",
+      "ticker": "JNJ",
+      "sector": "Healthcare/Drug Manufacturers - General",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-15",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q2/JNJ_Q2_2025_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q2/JNJ_Q2_2025_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JNJ_FQ3_2025",
+      "issuer": "p2_johnson_johnson",
+      "company": "Johnson  Johnson",
+      "ticker": "JNJ",
+      "sector": "Healthcare/Drug Manufacturers - General",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-13",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q3/JNJ_Q3_2025_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/johnson_johnson/CY2025-Q3/JNJ_Q3_2025_Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}
