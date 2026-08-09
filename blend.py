@@ -154,10 +154,10 @@ if __name__ == "__main__":
     import sys
 
     # Hand-computed sanity check: micro=0.4, macro=0.2, news=-0.2, quant=0.5,
-    # weights=0.8/0.0/0.2/0.0
-    # expected = 0.4*0.8 + 0.2*0.0 + (-0.2)*0.2 + 0.5*0.0 = 0.32 - 0.04 = 0.28
+    # weights=0.55/0.45/0.0/0.0 (current DEFAULT_WEIGHTS, promoted 2026-08-05 - see CLAUDE.md)
+    # expected = 0.4*0.55 + 0.2*0.45 + (-0.2)*0.0 + 0.5*0.0 = 0.22 + 0.09 = 0.31
     check = blend_scores(0.4, 0.2, -0.2, 0.5, DEFAULT_WEIGHTS)
-    assert abs(check - 0.28) < 1e-9, f"Sanity check failed: got {check}, expected 0.28"
+    assert abs(check - 0.31) < 1e-9, f"Sanity check failed: got {check}, expected 0.31"
     print(f"Sanity check passed: blend_scores(0.4, 0.2, -0.2, 0.5) = {check}")
 
     # bare `python blend.py` (no args) blends every phase2 issuer - phase2 is the
