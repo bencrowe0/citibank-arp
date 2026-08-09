@@ -1014,12 +1014,14 @@ Secondary lessons: (1) the account usage limit was hit roughly half a dozen time
 
 ---
 
-### Task 7: Manifest builder
+### Task 7: Manifest builder — ✅ DONE (commit `1cef6e1`)
+
+**Actual result:** Implemented byte-for-byte identical to the plan's prescribed code (spec review confirmed via `diff`, zero deviation). Wrote/updated 31 manifests — all newly created (none of the 31 touched tickers had a pre-existing manifest, so the append-vs-create-fresh branch's create-fresh path is what actually ran; the append path exists and is correct by inspection but wasn't exercised this round). 107 report entries total across the 31 manifests, matching the 107 `sourced`-status gap combos exactly (1:1, no drops/dupes). Verified independently, not just implementer-reported: byte-diffed the script against spec, confirmed the commit's file list, spot-checked 3 manifests' `documents` paths resolve to real files on disk, and grepped all 23 `sourced_partial_dead_end` document_ids against every manifest on disk to confirm zero leaked in. Code-quality review (Approved, no Critical/Important issues) flagged 4 Minor nits for future opportunistic cleanup if this script is touched again: sort key is string- not int-based (works today only because years are 4-digit and quarters 1-digit, doesn't reuse the already-defined `QUARTER_NUM`), `existing_ids` isn't updated within the inner loop (latent dup risk if `document_id`s ever collided within one run — currently unreachable since `gap_combos.json`'s dict keys guarantee uniqueness), no defensive error handling on malformed entries (reasonable fail-loud default for an internal pipeline script), and non-atomic writes (low risk for a short local script). None block merging; none fixed, since the code was plan-prescribed verbatim.
 
 **Files:**
 - Create: `phase2/sourcing/build_gap_manifests.py`
 
-- [ ] **Step 1: Write `phase2/sourcing/build_gap_manifests.py`**
+- [x] **Step 1: Write `phase2/sourcing/build_gap_manifests.py`**
 
 ```python
 """Builds/updates manifests/p2_<slug>_reports.json from gap_combos.json
@@ -1083,12 +1085,12 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Run it and spot-check a manifest**
+- [x] **Step 2: Run it and spot-check a manifest**
 
 Run: `python phase2/sourcing/build_gap_manifests.py`
 Then open one new-ticker manifest (e.g. `manifests/p2_broadcom_reports.json`) and confirm `documents` paths actually exist on disk (`ls` a couple of them).
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add phase2/sourcing/build_gap_manifests.py manifests/
