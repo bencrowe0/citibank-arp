@@ -1099,12 +1099,18 @@ git commit -m "Build/update phase2 manifests for sourced gap combos"
 
 ---
 
-### Task 8: Scoped scoring + blend runner
+### Task 8: Scoped scoring + blend runner — ✅ SCRIPT DONE, NOT YET EXECUTED (commits `1090d1a`, `eb4b7f3`)
+
+**Actual result:** `phase2/sourcing/run_gap_pipeline.py` implemented byte-for-byte identical to the plan's prescribed code (spec review confirmed). **Deliberately NOT run for real yet** — this script makes real DeepSeek API calls (`run_reports.py`/`llm_news.py`) that cost real money for 107 combos across 31 issuers, and per explicit user instruction requires separate confirmation before execution. Validated instead via a mocked smoke test (subprocess.run patched to a no-op recorder, pointed at a scratch copy of `gap_combos.json` outside the repo, real `main()` invoked via importlib): correctly found the same 31 sourced-status slugs as Task 7's manifest set, issued 95 mocked subprocess calls in the right order (quant_layer.py once for all slugs, llm_macro.py once, then per-slug run_reports.py→llm_news.py→checkpoint→blend.py→checkpoint), and advanced all 107 sourced combos to blended in the scratch copy only. Independently re-verified: real `phase2/gap_combos.json` untouched (status counts still exactly `sourced: 107, sourced_partial_dead_end: 23`, zero `scored`/`blended`), none of the 31 target `outputs/p2_<slug>/` directories exist, commit touches only the one script file.
+
+Code-quality review found one **Important** issue (not blocking merge, but fixed before considering the task closed): checkpointing is per-issuer, not per-sub-stage, and `run_reports.py` has no skip-if-already-scored logic (unlike the cached/idempotent quant/macro/news layers) — a crash between a successful `run_reports.py` call and the per-slug `save()` (e.g. if the following `llm_news.py` call fails) leaves the slug checkpointed at `"sourced"`, so a rerun would re-invoke and re-bill `run_reports.py` for that issuer's whole manifest. Fixed via an 8-line docstring/comment caveat added directly above the per-slug loop (`eb4b7f3`) rather than restructuring the checkpoint granularity — deliberately, to avoid introducing new status values the plan's literal vocabulary and Task 9's downstream status check don't expect. Diff-verified as comment-only, no logic change; file still compiles.
+
+**Still outstanding before Task 8 can be marked fully complete: the real run.** Needs explicit user go-ahead (cost approval) in a future step of this session, then `python phase2/sourcing/run_gap_pipeline.py` for real, then the commit from the plan's own Step 3.
 
 **Files:**
 - Create: `phase2/sourcing/run_gap_pipeline.py`
 
-- [ ] **Step 1: Write `phase2/sourcing/run_gap_pipeline.py`**
+- [x] **Step 1: Write `phase2/sourcing/run_gap_pipeline.py`**
 
 ```python
 """Runs quant + macro + micro + news scoring, then blend, for every issuer
