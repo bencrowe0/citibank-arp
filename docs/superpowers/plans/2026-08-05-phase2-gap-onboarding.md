@@ -1105,7 +1105,11 @@ git commit -m "Build/update phase2 manifests for sourced gap combos"
 
 Code-quality review found one **Important** issue (not blocking merge, but fixed before considering the task closed): checkpointing is per-issuer, not per-sub-stage, and `run_reports.py` has no skip-if-already-scored logic (unlike the cached/idempotent quant/macro/news layers) — a crash between a successful `run_reports.py` call and the per-slug `save()` (e.g. if the following `llm_news.py` call fails) leaves the slug checkpointed at `"sourced"`, so a rerun would re-invoke and re-bill `run_reports.py` for that issuer's whole manifest. Fixed via an 8-line docstring/comment caveat added directly above the per-slug loop (`eb4b7f3`) rather than restructuring the checkpoint granularity — deliberately, to avoid introducing new status values the plan's literal vocabulary and Task 9's downstream status check don't expect. Diff-verified as comment-only, no logic change; file still compiles.
 
-**Still outstanding before Task 8 can be marked fully complete: the real run.** Needs explicit user go-ahead (cost approval) in a future step of this session, then `python phase2/sourcing/run_gap_pipeline.py` for real, then the commit from the plan's own Step 3.
+**Real run — ✅ DONE (commits `da5675b`, `6fbc261`).** User approved the full 31-issuer batch. First attempt crashed immediately on `p2_allianz`'s `blend.py` subprocess call with `AssertionError: Sanity check failed: got 0.31000000000000005, expected 0.28` — root-caused (systematic-debugging) to a **pre-existing bug unrelated to this plan's files**: `blend.py`'s `__main__` block has a hand-computed sanity-check assertion that was never updated when `DEFAULT_WEIGHTS` was promoted from `0.8/0.0/0.2/0.0` to `0.55/0.45/0.0/0.0` on 2026-08-05 (see CLAUDE.md's Blend section) — nobody had run `blend.py` as a CLI since that promotion, so the stale assertion (still expecting the old-weights value of 0.28) had never fired until this task. Fixed by recomputing the expected value for current weights (0.31) — `da5675b`. Verified via direct rerun (`python blend.py p2_allianz`, free — blend.py makes no LLM calls) before resuming.
+
+Allianz's single combo had already had its (real-money) micro+news LLM calls succeed before the blend.py crash, checkpointing it to `status: "scored"` — since `run_gap_pipeline.py`'s slug selection filters on `status == "sourced"` only, a plain rerun would have silently skipped Allianz forever (stuck at `"scored"`, never picked back up) rather than double-billing it. Manually applied the exact `scored -> "blended"` transition `run_gap_pipeline.py`'s own loop performs (verified correct via the direct blend.py rerun above), then resumed the script for the remaining 30 issuers, which completed with zero errors on the full second pass.
+
+**Final state:** all 107 sourced combos -> `blended`, 23 `sourced_partial_dead_end` combos correctly left untouched. Total actual cost across the whole project to date (rebuilt via `build_cost_ledger.py`): micro $2.4629 + news $0.6390 + macro $0.0612 = **$3.16** — well within the pre-approved ~$1-2 incremental estimate for this batch (prior-issuer costs are baked into that cumulative total too). 691 files changed in the outputs commit (`6fbc261`): new `outputs/p2_<slug>/` micro results + `outputs/news/p2_<slug>/` news results for all 31 issuers, updated `phase2/gap_combos.json` and `outputs/global/summary/api_cost_ledger.csv`.
 
 **Files:**
 - Create: `phase2/sourcing/run_gap_pipeline.py`
@@ -1171,12 +1175,12 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Run it**
+- [x] **Step 2: Run it**
 
 Run: `python phase2/sourcing/run_gap_pipeline.py`
 Expected: per-issuer DeepSeek API calls run (this costs API dollars, not Claude Code session tokens — check `outputs/global/summary/api_cost_ledger.csv` isn't blowing past expectations if running the full 138-combo batch at once; running in smaller slug batches by editing the `slugs` filter is fine if you want tighter cost control per session).
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add outputs manifests phase2/gap_combos.json phase2/sourcing/run_gap_pipeline.py
