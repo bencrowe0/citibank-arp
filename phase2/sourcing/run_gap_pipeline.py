@@ -31,6 +31,14 @@ def main() -> None:
     subprocess.run([sys.executable, str(BASE_DIR / "quant_layer.py"), *[f"p2_{s}" for s in slugs]], check=True, cwd=BASE_DIR)
     subprocess.run([sys.executable, str(BASE_DIR / "llm_macro.py")], check=True, cwd=BASE_DIR)
 
+    # Caveat: run_reports.py (unlike quant/macro/news, which are cached and
+    # idempotent) has no skip-if-already-scored logic - it unconditionally
+    # re-scores a slug's whole manifest via real DeepSeek API calls every
+    # time it's invoked. If run_reports.py succeeds for a slug but the next
+    # call (llm_news.py) then fails, this crashes before save() ever runs
+    # for that slug, so it's still checkpointed "sourced". A rerun will
+    # re-invoke - and re-bill - run_reports.py for that issuer's entire
+    # manifest, on top of whatever was already spent.
     for slug in slugs:
         manifest = BASE_DIR / "manifests" / f"p2_{slug}_reports.json"
         subprocess.run(
