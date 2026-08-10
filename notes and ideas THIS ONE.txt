@@ -1,10 +1,1 @@
-I've just put the latest set of documents into the project (OneDrive_2026-07-18). don't overwrite the existing set of documents being used (may use later), but going forward this new set of documents will be the one actually used to evaluate against the humans (as these are the quarters they have been evaluating) although you can used additional documents for the existing set of documents to supplement these quarters e.g. if a company+quarter from the new set only has one document that the human used to make a prediction, we can use more documents/information from that quarter (either that we have collected or if we don't, seek out more documents as we want each prediction to be supported with as much information (documents) as possible) to make the llm prediction - understood?. there are also an increasing number of later onedrive folders that are being stored - clear out anything that isn't strictly needed. i have also attached the list of rows of the companies+quarters that the humans have used and put in the google sheet. we are doing all this so we'd be comparing apples with apples instead of evaluating the humans on one bunch of quarters and companies, and the llm on another. once you've sorted all the documents, rerun the backtest on the updated set - the last run may have a higher volume of documents than this one but this set will be more varied so compare which performs better on the new set, and go with whichever one performs best on total pnl, still adhering to sharpe ratio rule. remember to supplement low information quarter+companies with further docs from original set or online. i will then need the rows
-
----
-
-ensure prior close and next day open that humans have put in are consistent with our pc and ndo that we've found. remember to add notes. i have attached how the data entry sheet currently looks for reference. also remove the .ods file - i don't think we need it anymore, but only remove if there is sufficient context in claude.md.
-
-notes / research questions
-	nigels message
-	meriems message
-	sharepoint phase 3
+sources for all 4 types?

@@ -15,7 +15,7 @@
   "summary": {
     "revenue": "Q4 2025 revenue USD 13.3bn, down 8.7% YoY (from USD 14.6bn). FY25 revenue USD 54.0bn, down 2.7% YoY (from USD 55.5bn).",
     "eps": "Not disclosed. Underlying profit for FY25 was USD 6,095m (vs USD 2,774m in FY24). Earnings per share (USD) not provided in the document.",
-    "guidance": "FY26 underlying EBITDA USD 4.5bn to 7.0bn; underlying EBIT USD -1.5bn to +1.0bn; free cash flow ≥ USD 3bn; global container volume growth 2-4%; Maersk to grow in line with market. Capex FY26-27 combined USD 10-11bn.",
+    "guidance": "FY26 underlying EBITDA USD 4.5bn to 7.0bn; underlying EBIT USD -1.5bn to +1.0bn; free cash flow \u2265 USD 3bn; global container volume growth 2-4%; Maersk to grow in line with market. Capex FY26-27 combined USD 10-11bn.",
     "margin": "Q4 2025 EBIT margin 0.9% (down from 14.0% in Q4 2024). FY25 EBIT margin 6.5% (down from 11.7% in FY24). Logistics & Services EBIT margin 4.9% in Q4 (up 0.8pp YoY). Terminals EBIT margin 23.7% in Q4 (down from 28.3% in Q4 2024).",
     "key_risks": [
       "Industry overcapacity from new vessel deliveries",
@@ -149,7 +149,7 @@
     "sector": "Industrials/Shipping",
     "report_type": "Bundled Earnings Report",
     "fiscal_period": "FQ4 2025",
-    "report_date": "2014-02-28",
+    "report_date": "2026-02-05",
     "documents": [
       {
         "doc_type": "Earnings Presentation",

@@ -74,7 +74,7 @@
     "p2_visa",
     "p2_workday"
   ],
-  "generated_at": "2026-08-09T12:08:37Z",
+  "generated_at": "2026-08-10T12:56:19Z",
   "outcome_thresholds": {
     "outcome_upper": 0.03,
     "outcome_lower": -0.03
@@ -647,11 +647,11 @@
         "held_out_document_id": "AMKBY_FQ4_2025",
         "tuned_hold_upper": 0.3,
         "tuned_hold_lower": -0.3,
-        "outcome_label": "HOLD",
+        "outcome_label": "SELL",
         "tuned_prediction": "SELL",
         "default_prediction": "SELL",
-        "correct_tuned": false,
-        "correct_default": false
+        "correct_tuned": true,
+        "correct_default": true
       },
       {
         "held_out_document_id": "MCD_FQ1_2026",
@@ -2774,8 +2774,8 @@
         "correct_default": false
       }
     ],
-    "tuned_accuracy": 0.4552238805970149,
-    "default_accuracy": 0.373134328358209,
+    "tuned_accuracy": 0.458955223880597,
+    "default_accuracy": 0.376865671641791,
     "modal_tuned_hold_upper": 0.3,
     "modal_tuned_hold_lower": -0.3
   },
@@ -3671,11 +3671,11 @@
         ],
         "tuned_hold_upper": 0.3,
         "tuned_hold_lower": -0.3,
-        "outcome_label": "HOLD",
+        "outcome_label": "SELL",
         "tuned_prediction": "SELL",
         "default_prediction": "SELL",
-        "correct_tuned": false,
-        "correct_default": false
+        "correct_tuned": true,
+        "correct_default": true
       },
       {
         "held_out_document_id": "MCD_FQ1_2026",
@@ -7070,8 +7070,8 @@
         "correct_default": false
       }
     ],
-    "tuned_accuracy": 0.4701492537313433,
-    "default_accuracy": 0.3619402985074627,
+    "tuned_accuracy": 0.47388059701492535,
+    "default_accuracy": 0.3656716417910448,
     "modal_tuned_weights": [
       0.6,
       0.0,

@@ -89,8 +89,8 @@
   },
   "AMKBY_2025_Q4": {
     "confidence": "high",
-    "report_date": "2014-02-28",
-    "source": "validated_against_human_price"
+    "report_date": "2026-02-05",
+    "source": "manual_audit_fix(2026-08-10): was 2014-02-28, a stale/corrupted date in the manifest (fiscal_period FQ4 2025, docs dated CY2025-Q4). Found incidentally while building the Tier 2 LM baseline's chronological dev split (its date range showed 2014 as the earliest event). The quant layer's own outputs/quant/p2_maersk/results/AMKBY_FQ4_2025.json had already independently matched_earnings_date=2026-02-05 via its earnings-calendar lookup, confirming the real date; the stale 2014 value only ever lived in the manifest, report_dates.json, and the frozen result JSON's report_metadata.report_date, all three patched."
   },
   "AMZN_2025_Q3": {
     "confidence": "high",
