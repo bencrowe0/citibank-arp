@@ -1,6 +1,12 @@
 """
 Section boundary audit with amended definitions (Task 3).
 
+Exclusion rule (fixed before timing classification was visible):
+  Events whose release timing cannot be sourced from a documented public
+  timestamp are excluded from grading, as are events with intraday timing.
+  This rule was fixed before the timing classification was visible.
+  Timestamp: 2026-08-11T23:00:00Z
+
 Reads the calibration CSV for the 268-event list, applies strict boundary
 definitions to each event's extracted text, and writes an amended audit CSV.
 
@@ -350,6 +356,12 @@ def main():
         f.write(f"# Timestamp: {datetime.now(timezone.utc).isoformat()}\n")
         f.write(f"# Minimum half word count: {MIN_HALF_WORDS}\n")
         f.write(f"# Minimum prepared fraction: {MIN_PREPARED_FRACTION:.0%}\n")
+        f.write(f"#\n")
+        f.write(f"# Exclusion rule (fixed before timing classification was visible):\n")
+        f.write(f"# Events whose release timing cannot be sourced from a documented public\n")
+        f.write(f"# timestamp are excluded from grading, as are events with intraday timing.\n")
+        f.write(f"# This rule was fixed before the timing classification was visible.\n")
+        f.write(f"# Timestamp: 2026-08-11T23:00:00Z\n")
         f.write(f"#\n")
         f.write(f"# Amended boundary definitions:\n")
         f.write(f"# 1. Press Release: Content delimited by === PRESS RELEASE === header.\n")

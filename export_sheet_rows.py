@@ -162,18 +162,24 @@ def get_release_timing(issuer: str) -> str:
         raise ValueError(
             f"release_timing is null for issuer '{issuer}'. "
             f"Populate the manifest's release_timing.value field before running. "
-            f"Allowed values: pre_market, after_hours, intraday."
+            f"Allowed values: pre_market, after_hours, intraday, unknown."
         )
-    if val not in ("pre_market", "after_hours", "intraday"):
+    if val not in ("pre_market", "after_hours", "intraday", "unknown"):
         raise ValueError(
             f"Invalid release_timing value '{val}' for issuer '{issuer}'. "
-            f"Allowed: pre_market, after_hours, intraday."
+            f"Allowed: pre_market, after_hours, intraday, unknown."
         )
     if val == "intraday":
         raise ValueError(
             f"release_timing is 'intraday' for issuer '{issuer}'. "
             f"Neither convention isolates the earnings reaction for a "
             f"mid-session release. Events for this issuer must be excluded."
+        )
+    if val == "unknown":
+        raise ValueError(
+            f"release_timing is 'unknown' for issuer '{issuer}'. "
+            f"Timing cannot be sourced from a documented public timestamp. "
+            f"Events for this issuer must be excluded."
         )
     return val
 
@@ -231,6 +237,10 @@ def fetch_prices(ticker: str, report_date: str,
         Raises ValueError — neither convention isolates the reaction for a
         mid-session release. The event must be excluded from grading.
 
+      unknown:
+        Raises ValueError — timing cannot be sourced from a documented public
+        timestamp. The event must be excluded from grading.
+
     Raises ValueError if release_timing is None — callers must always pass
     an explicit value from the manifest.
     """
@@ -247,10 +257,16 @@ def fetch_prices(ticker: str, report_date: str,
             f"earnings reaction for a mid-session release. This event must be "
             f"excluded from grading."
         )
+    if release_timing == "unknown":
+        raise ValueError(
+            f"release_timing is 'unknown' for {ticker} {report_date}. "
+            f"Timing cannot be sourced from a documented public timestamp. "
+            f"This event must be excluded from grading."
+        )
     if release_timing not in ("pre_market", "after_hours"):
         raise ValueError(
             f"Invalid release_timing '{release_timing}' for {ticker} {report_date}. "
-            f"Allowed: pre_market, after_hours, intraday."
+            f"Allowed: pre_market, after_hours, intraday, unknown."
         )
 
     df = _fetch_price_df(ticker, report_date)
