@@ -48,6 +48,7 @@ import re
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 import yfinance as yf
 
@@ -168,6 +169,12 @@ def get_release_timing(issuer: str) -> str:
             f"Invalid release_timing value '{val}' for issuer '{issuer}'. "
             f"Allowed: pre_market, after_hours, intraday."
         )
+    if val == "intraday":
+        raise ValueError(
+            f"release_timing is 'intraday' for issuer '{issuer}'. "
+            f"Neither convention isolates the earnings reaction for a "
+            f"mid-session release. Events for this issuer must be excluded."
+        )
     return val
 
 
@@ -205,12 +212,12 @@ def _fetch_price_df(ticker: str, report_date: str, pre_days: int = 5) -> pd.Data
 
 
 def fetch_prices(ticker: str, report_date: str,
-                 release_timing: str | None = None) -> tuple[float, float]:
+                 release_timing: str) -> tuple[float, float]:
     """Return (prior_close, next_day_open).
 
-    Entry-date resolution depends on release_timing:
+    Entry-date resolution depends on release_timing (REQUIRED, never None):
 
-      after_hours / intraday:
+      after_hours:
         prior_close   = Close on report_date (first trading day on/after)
         next_day_open = Open on the next trading session
 
@@ -220,10 +227,32 @@ def fetch_prices(ticker: str, report_date: str,
         (The reaction happens at report_date's open, so entry must be the
         prior session's close to capture it.)
 
-    If release_timing is None, falls back to the legacy convention
-    (after_hours) for backward compatibility with callers that haven't
-    been updated yet.  New code should always pass an explicit value.
+      intraday:
+        Raises ValueError — neither convention isolates the reaction for a
+        mid-session release. The event must be excluded from grading.
+
+    Raises ValueError if release_timing is None — callers must always pass
+    an explicit value from the manifest.
     """
+    if release_timing is None:
+        raise ValueError(
+            f"release_timing is None for {ticker} {report_date}. "
+            f"Populate the manifest's release_timing.value field. "
+            f"The pipeline must not run with unclassified timing."
+        )
+    if release_timing == "intraday":
+        raise ValueError(
+            f"release_timing is 'intraday' for {ticker} {report_date}. "
+            f"Neither the pre_market nor after_hours convention isolates the "
+            f"earnings reaction for a mid-session release. This event must be "
+            f"excluded from grading."
+        )
+    if release_timing not in ("pre_market", "after_hours"):
+        raise ValueError(
+            f"Invalid release_timing '{release_timing}' for {ticker} {report_date}. "
+            f"Allowed: pre_market, after_hours, intraday."
+        )
+
     df = _fetch_price_df(ticker, report_date)
     report_dt = pd.Timestamp(report_date)
 
@@ -234,26 +263,25 @@ def fetch_prices(ticker: str, report_date: str,
             raise ValueError(
                 f"No trading day before {report_date} for {ticker}"
             )
-        prior_idx = int(prior_mask.values.nonzero()[0][-1])
+        prior_idx = int(np.nonzero(prior_mask)[0][-1])
         # report_date itself (first trading day on/after)
         rdate_mask = df.index >= report_dt
         if not rdate_mask.any():
             raise ValueError(
                 f"No trading day on/after {report_date} for {ticker}"
             )
-        rdate_idx = int(rdate_mask.values.nonzero()[0][0])
+        rdate_idx = int(np.nonzero(rdate_mask)[0][0])
 
         prior_close = round(float(df.iloc[prior_idx]["Close"]), 2)
         next_day_open = round(float(df.iloc[rdate_idx]["Open"]), 2)
     else:
-        # after_hours / intraday / legacy (None)
-        # First trading day on/after report_date
+        # after_hours
         rdate_mask = df.index >= report_dt
         if not rdate_mask.any():
             raise ValueError(
                 f"No trading day on/after {report_date} for {ticker}"
             )
-        rdate_idx = int(rdate_mask.values.nonzero()[0][0])
+        rdate_idx = int(np.nonzero(rdate_mask)[0][0])
         if rdate_idx + 1 >= len(df):
             raise ValueError(
                 f"No next trading session after {report_date} for {ticker}"

@@ -85,9 +85,21 @@ def fetch_forward_return(
     """Fetch forward return for an event.
 
     release_timing controls entry-date resolution (see export_sheet_rows.fetch_prices):
-      pre_market:  entry = close of session BEFORE report_date
-      after_hours / intraday / None:  entry = close of report_date itself
+      pre_market:   entry = close of session BEFORE report_date
+      after_hours:  entry = close of report_date itself
+      intraday:     raises ValueError (must be excluded)
+      None:         raises ValueError (must be populated)
     """
+    if release_timing is None:
+        raise ValueError(
+            f"release_timing is None for {ticker} {report_date} — "
+            f"populate the manifest before running"
+        )
+    if release_timing == "intraday":
+        raise ValueError(
+            f"release_timing is 'intraday' for {ticker} {report_date} — "
+            f"event must be excluded, cannot resolve entry"
+        )
     report_dt = datetime.strptime(report_date, "%Y-%m-%d")
     # Pull a wide-enough window to guarantee window_trading_days of trading
     # sessions exist after report_date even across long weekends/holidays.

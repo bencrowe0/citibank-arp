@@ -14,8 +14,26 @@ Boundary definitions (applied exactly):
   3. Guidance: untestable (mechanically infeasible with structural splitting).
   4. Q&A: everything from the transition marker through end of transcript block.
 
-Minimum word-count assertion: both halves must have >= 100 words, else "manual".
-Proportional split check: prepared remarks must be >= 10% of transcript words.
+Proportional split check: prepared remarks must be >= 10% of transcript words, else
+"manual". The 100-word absolute floor is kept as a belt-and-braces assertion (every
+event it catches is also caught by the 10% floor at current N, so it is redundant
+but harmless).
+
+Known recoverable losses (chosen not to recover at 3 weeks to deadline):
+  - WDAY_FQ2_2025, WDAY_FQ4_2025: Workday IR boilerplate uses "Following prepared
+    remarks, we will take questions" before the actual prepared remarks begin,
+    causing the transition phrase to match in the intro.  Recoverable with a
+    per-source marker for InsiderMonkey's Workday template.
+  - WDAY_FQ3_2025: Globe and Mail source formatting, same pattern.
+  - NFLX_FQ1_2025, NFLX_FQ2_2025, NFLX_FQ1_2026, NFLX_FQ4_2024, NFLX_FQ4_2025,
+    NFLX_FQ3_2025: InsiderMonkey source formatting places "we will begin with our
+    results" or similar in the moderator intro.  Recoverable with per-source markers.
+  These go in the write-up as known recoverable losses, not unexplained exclusions.
+
+Transcript vs marker reconciliation: 231 events have a transcript section, but 6
+have no split marker (transcript_split_marker=none): 3 truncated LLY transcripts
+(Q&A physically omitted from source), 2 PEP events (raw HTML source, markers buried
+in markup), and SPOT_FQ1_2026 (misattributed document).  225 events have a marker.
 """
 
 import csv
@@ -341,6 +359,14 @@ def main():
         f.write(f"#    [Operator Instructions] NOT used as primary marker.\n")
         f.write(f"# 3. Guidance Passage: Untestable (mechanically infeasible).\n")
         f.write(f"# 4. Q&A: From transition marker through end of transcript block.\n")
+        f.write(f"#\n")
+        f.write(f"# Known recoverable losses (not recovered, 3 weeks to deadline):\n")
+        f.write(f"#   WDAY x3: IR boilerplate transition phrase in intro (InsiderMonkey/Globe and Mail)\n")
+        f.write(f"#   NFLX x6: InsiderMonkey moderator intro transition phrase\n")
+        f.write(f"#   These are per-source formatting issues, recoverable with source-specific markers.\n")
+        f.write(f"#\n")
+        f.write(f"# Transcript/marker reconciliation: 231 have transcript, 6 have no marker\n")
+        f.write(f"#   (3 truncated LLY, 2 raw-HTML PEP, 1 misattributed SPOT).\n")
         f.write(f"#\n")
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()

@@ -79,24 +79,34 @@ def _fetch_price_history(ticker: str, report_date: str, pre_days: int = 5,
 
 
 def _find_entry_idx(hist: pd.DataFrame, report_date: str,
-                    release_timing: str | None = None) -> int | None:
+                    release_timing: str) -> int | None:
     """Find the index position of the entry date in the price history.
 
-    For after_hours/intraday/None: entry = first trading day on/after report_date.
-    For pre_market: entry = last trading day BEFORE report_date (the close
-    before the pre-market announcement, so the overnight gap captures the
-    actual earnings reaction at the next morning's open).
+    release_timing is REQUIRED (never None):
+      after_hours: entry = first trading day on/after report_date.
+      pre_market:  entry = last trading day BEFORE report_date.
+      intraday:    raises ValueError (must be excluded upstream).
     """
+    if release_timing is None:
+        raise ValueError(
+            f"release_timing is None for {report_date} — "
+            f"populate the manifest before running"
+        )
+    if release_timing == "intraday":
+        raise ValueError(
+            f"release_timing is 'intraday' for {report_date} — "
+            f"event must be excluded, cannot resolve entry"
+        )
+
     report_dt = pd.Timestamp(report_date)
 
     if release_timing == "pre_market":
-        # Last trading day strictly before report_date
         mask = hist.index < report_dt
         if not mask.any():
             return None
         return int(mask.values.nonzero()[0][-1])
     else:
-        # First trading day >= report_date
+        # after_hours
         mask = hist.index >= report_dt
         if not mask.any():
             return None
@@ -236,22 +246,29 @@ def main():
 
     print(f"Loaded {len(events)} events from calibration CSV")
 
-    # Load release timing map and assert every event has a non-null value
+    # Load release timing map and assert every event has a non-null value.
+    # The pipeline must not run with unclassified timing — a silent default
+    # produces plausible numbers from the wrong window for pre-market reporters.
     timing_map = _load_release_timing_map()
     missing_timing = []
+    intraday_events = []
     for ev in events:
         val = timing_map.get(ev["issuer"])
         if val is None:
             missing_timing.append(ev["issuer"])
+        elif val == "intraday":
+            intraday_events.append(ev["document_id"])
     if missing_timing:
         unique_missing = sorted(set(missing_timing))
-        print(f"\n  WARNING: {len(unique_missing)} issuers have null release_timing:")
-        for iss in unique_missing:
-            print(f"    {iss}")
-        print("  Falling back to legacy (after_hours) convention for all events.")
-        print("  Populate manifest release_timing.value fields to enable timing-aware entry.\n")
-    else:
-        print(f"  All {len(events)} events have non-null release_timing.")
+        raise ValueError(
+            f"{len(unique_missing)} issuers have null release_timing — "
+            f"populate their manifest release_timing.value fields before running. "
+            f"Issuers: {', '.join(unique_missing)}"
+        )
+    if intraday_events:
+        print(f"  WARNING: {len(intraday_events)} events have intraday timing "
+              f"and will be excluded (neither convention isolates the reaction).")
+    print(f"  All {len(events)} events have non-null release_timing.")
 
     # Generate run_id
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
