@@ -11,8 +11,14 @@
       "fiscal_period": "FQ1 2026",
       "report_date": "2025-09-18",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/fedex/CY2026-Q1/FDX-8K-EX99.1-FQ1-2026-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/fedex/CY2026-Q1/FDX-FQ1-2026-earnings-call-transcript-IR.pdf"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/fedex/CY2026-Q1/FDX-8K-EX99.1-FQ1-2026-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/fedex/CY2026-Q1/FDX-FQ1-2026-earnings-call-transcript-IR.pdf"
+        }
       ]
     },
     {
@@ -25,8 +31,14 @@
       "fiscal_period": "FQ2 2026",
       "report_date": "2025-12-18",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/fedex/CY2026-Q2/FDX-8K-EX99.1-FQ2-2026-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/fedex/CY2026-Q2/FDX-FQ2-2026-earnings-call-transcript-IR.pdf"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/fedex/CY2026-Q2/FDX-8K-EX99.1-FQ2-2026-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/fedex/CY2026-Q2/FDX-FQ2-2026-earnings-call-transcript-IR.pdf"
+        }
       ]
     },
     {
@@ -39,8 +51,14 @@
       "fiscal_period": "FQ3 2026",
       "report_date": "2026-03-19",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/fedex/CY2026-Q3/FDX-8K-EX99.1-FQ3-2026-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/fedex/CY2026-Q3/FDX-FQ3-2026-earnings-call-transcript-IR.pdf"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/fedex/CY2026-Q3/FDX-8K-EX99.1-FQ3-2026-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/fedex/CY2026-Q3/FDX-FQ3-2026-earnings-call-transcript-IR.pdf"
+        }
       ]
     },
     {
@@ -53,9 +71,20 @@
       "fiscal_period": "FQ4 2026",
       "report_date": "2026-06-23",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/fedex/CY2026-Q4/FDX-8K-EX99.1-FQ4-2026-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/fedex/CY2026-Q4/FDX-FQ4-2026-earnings-call-transcript-IR.pdf"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/fedex/CY2026-Q4/FDX-8K-EX99.1-FQ4-2026-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/fedex/CY2026-Q4/FDX-FQ4-2026-earnings-call-transcript-IR.pdf"
+        }
       ]
     }
-  ]
+  ],
+  "release_timing": {
+    "value": null,
+    "source": null,
+    "retrieval_date": null
+  }
 }

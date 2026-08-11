@@ -78,22 +78,38 @@ def _fetch_price_history(ticker: str, report_date: str, pre_days: int = 5,
         return None
 
 
-def _find_entry_idx(hist: pd.DataFrame, report_date: str) -> int | None:
-    """Find the index position of the entry date (first trading day on/after
-    report_date) in the price history DataFrame."""
+def _find_entry_idx(hist: pd.DataFrame, report_date: str,
+                    release_timing: str | None = None) -> int | None:
+    """Find the index position of the entry date in the price history.
+
+    For after_hours/intraday/None: entry = first trading day on/after report_date.
+    For pre_market: entry = last trading day BEFORE report_date (the close
+    before the pre-market announcement, so the overnight gap captures the
+    actual earnings reaction at the next morning's open).
+    """
     report_dt = pd.Timestamp(report_date)
-    # Find first trading day >= report_date
-    mask = hist.index >= report_dt
-    if not mask.any():
-        return None
-    return int(np.argmax(mask))
+
+    if release_timing == "pre_market":
+        # Last trading day strictly before report_date
+        mask = hist.index < report_dt
+        if not mask.any():
+            return None
+        return int(mask.values.nonzero()[0][-1])
+    else:
+        # First trading day >= report_date
+        mask = hist.index >= report_dt
+        if not mask.any():
+            return None
+        return int(np.argmax(mask))
 
 
 def compute_event_returns(ticker: str, report_date: str,
-                          spy_hist: pd.DataFrame | None = None
+                          spy_hist: pd.DataFrame | None = None,
+                          release_timing: str | None = None,
                           ) -> tuple[dict, list[str]]:
     """Compute all horizon returns for a single event.
-    Returns (row_dict, list_of_exception_messages)."""
+    Returns (row_dict, list_of_exception_messages).
+    release_timing is passed through to _find_entry_idx."""
     exceptions = []
     row = {
         "ticker": ticker,
@@ -110,9 +126,9 @@ def compute_event_returns(ticker: str, report_date: str,
         exceptions.append(f"{ticker} {report_date}: no price data")
         return row, exceptions
 
-    entry_idx = _find_entry_idx(hist, report_date)
+    entry_idx = _find_entry_idx(hist, report_date, release_timing)
     if entry_idx is None:
-        exceptions.append(f"{ticker} {report_date}: no trading day on/after report_date")
+        exceptions.append(f"{ticker} {report_date}: no trading day resolved for entry")
         return row, exceptions
 
     entry_close = float(hist.iloc[entry_idx]["Close"])
@@ -203,6 +219,10 @@ def compute_implied_hold_bands(returns: list[dict]) -> dict:
 
 
 def main():
+    # Import timing map from the single source of truth
+    sys.path.insert(0, str(BASE_DIR))
+    from export_sheet_rows import _load_release_timing_map
+
     # Load calibration CSV
     events = []
     with open(CALIBRATION_CSV, encoding="utf-8") as fh:
@@ -211,9 +231,27 @@ def main():
                 "document_id": r["document_id"],
                 "ticker": r["ticker"],
                 "report_date": r["report_date"],
+                "issuer": r["issuer"],
             })
 
     print(f"Loaded {len(events)} events from calibration CSV")
+
+    # Load release timing map and assert every event has a non-null value
+    timing_map = _load_release_timing_map()
+    missing_timing = []
+    for ev in events:
+        val = timing_map.get(ev["issuer"])
+        if val is None:
+            missing_timing.append(ev["issuer"])
+    if missing_timing:
+        unique_missing = sorted(set(missing_timing))
+        print(f"\n  WARNING: {len(unique_missing)} issuers have null release_timing:")
+        for iss in unique_missing:
+            print(f"    {iss}")
+        print("  Falling back to legacy (after_hours) convention for all events.")
+        print("  Populate manifest release_timing.value fields to enable timing-aware entry.\n")
+    else:
+        print(f"  All {len(events)} events have non-null release_timing.")
 
     # Generate run_id
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -243,7 +281,9 @@ def main():
     for i, ev in enumerate(events):
         if (i + 1) % 20 == 0 or i == 0:
             print(f"  Processing {i+1}/{len(events)}: {ev['document_id']}...")
-        row, exc = compute_event_returns(ev["ticker"], ev["report_date"], spy_hist)
+        rt = timing_map.get(ev["issuer"])  # None if not yet populated
+        row, exc = compute_event_returns(ev["ticker"], ev["report_date"], spy_hist,
+                                         release_timing=rt)
         row["document_id"] = ev["document_id"]
         row["run_id"] = run_id
         all_rows.append(row)

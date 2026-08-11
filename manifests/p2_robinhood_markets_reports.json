@@ -97,5 +97,10 @@
         }
       ]
     }
-  ]
+  ],
+  "release_timing": {
+    "value": null,
+    "source": null,
+    "retrieval_date": null
+  }
 }

@@ -23,15 +23,20 @@ Decision: blend_predicted_signal_default from global_outcome_calibration.csv
   (pre-computed at +/-0.25 thresholds, identical for default and tuned since every
   LOOCV fold converges to the same weights).
 
-Price methodology:
-  prior_close   = Close on first trading day on/after report_date  (yfinance iloc[0])
-  next_day_open = Open on the following trading day                 (yfinance iloc[1])
-  Cached to data/quantitative/sheet_export_cache/{TICKER}_{report_date}.csv.
+Price methodology (timing-aware, 2026-08-11):
+  Entry-date resolution depends on the manifest's release_timing.value:
 
-  NOTE on pre-market reporters (JPM, BAC, TGT): these companies release earnings
-  ~7am ET before market open, so the "prior close" in this script is technically
-  already post-announcement on report_date. True pre-announcement close = day before.
-  This matches eval/outcomes.py's entry_price convention; flagged in discrepancy report.
+  after_hours / intraday:
+    prior_close   = Close on report_date (first trading day on/after)
+    next_day_open = Open on the next trading session
+
+  pre_market:
+    prior_close   = Close on the session BEFORE report_date
+    next_day_open = Open on report_date itself
+
+  Cached to data/quantitative/sheet_export_cache/{TICKER}_{report_date}.csv.
+  Release timing is per-issuer in the manifest (release_timing.value field).
+  The old PRE_MARKET_ISSUERS constant is deprecated and unread.
 """
 
 from __future__ import annotations
@@ -68,9 +73,10 @@ COMPANY_NAMES: dict[str, str] = {
     "target": "Target",
 }
 
-# Pre-market reporters: earnings released ~7am ET before market open on report_date.
-# Their "prior close" (report_date's Close) is already post-announcement.
-PRE_MARKET_ISSUERS = {"jpm", "bank_of_america", "target"}
+# DEPRECATED — was unread prose, never consumed by backtest.py or eval.
+# Release timing is now per-issuer in the manifest (release_timing.value).
+# Kept only as a comment for the git-blame trail; do not use.
+# PRE_MARKET_ISSUERS = {"jpm", "bank_of_america", "target"}  # DEPRECATED 2026-08-11
 
 # Human-entered prices from the Google Sheet screenshot.
 # Key: (ticker, year, quarter); Value: (prior_close, next_day_open)
@@ -120,14 +126,56 @@ def _safe_ticker(ticker: str) -> str:
     return ticker.replace("^", "").replace("/", "_")
 
 
-def fetch_prices(ticker: str, report_date: str) -> tuple[float, float]:
-    """Return (prior_close, next_day_open).
+def _load_release_timing_map() -> dict[str, str]:
+    """Build {issuer_slug: timing_value} from all phase2 manifests.
 
-    Fetches yfinance history starting FROM report_date, so:
-      prior_close   = history.iloc[0]["Close"]  (first trading day on/after report_date)
-      next_day_open = history.iloc[1]["Open"]   (next trading session)
+    Returns e.g. {"p2_airbnb": "after_hours", "p2_target": "pre_market", ...}.
+    Entries whose manifest has release_timing.value == null are included as None.
+    """
+    import json as _json, glob as _glob
+    timing_map: dict[str, str | None] = {}
+    for path in _glob.glob(str(BASE_DIR / "manifests" / "p2_*_reports.json")):
+        with open(path) as fh:
+            data = _json.load(fh)
+        issuer = data.get("issuer", "")
+        rt = data.get("release_timing", {})
+        timing_map[issuer] = rt.get("value")  # None if not yet populated
+    return timing_map
 
-    Results are cached to PRICE_CACHE_DIR to avoid repeated API calls.
+
+# Module-level cache (populated lazily)
+_RELEASE_TIMING_MAP: dict[str, str] | None = None
+
+
+def get_release_timing(issuer: str) -> str:
+    """Return the release_timing value for an issuer.
+
+    Raises ValueError if the value is None (not yet populated) — callers
+    must not silently default to after_hours.
+    """
+    global _RELEASE_TIMING_MAP
+    if _RELEASE_TIMING_MAP is None:
+        _RELEASE_TIMING_MAP = _load_release_timing_map()
+    val = _RELEASE_TIMING_MAP.get(issuer)
+    if val is None:
+        raise ValueError(
+            f"release_timing is null for issuer '{issuer}'. "
+            f"Populate the manifest's release_timing.value field before running. "
+            f"Allowed values: pre_market, after_hours, intraday."
+        )
+    if val not in ("pre_market", "after_hours", "intraday"):
+        raise ValueError(
+            f"Invalid release_timing value '{val}' for issuer '{issuer}'. "
+            f"Allowed: pre_market, after_hours, intraday."
+        )
+    return val
+
+
+def _fetch_price_df(ticker: str, report_date: str, pre_days: int = 5) -> pd.DataFrame:
+    """Fetch and cache yfinance price history around report_date.
+
+    Returns a DataFrame with at least (pre_days + 14) calendar days of
+    coverage, indexed by trading date (tz-naive).
     """
     PRICE_CACHE_DIR.mkdir(parents=True, exist_ok=True)
     cache_path = PRICE_CACHE_DIR / f"{_safe_ticker(ticker)}_{report_date}.csv"
@@ -136,14 +184,14 @@ def fetch_prices(ticker: str, report_date: str) -> tuple[float, float]:
         df = pd.read_csv(cache_path, index_col=0, parse_dates=True)
     else:
         report_dt = datetime.strptime(report_date, "%Y-%m-%d")
+        start = (report_dt - timedelta(days=pre_days * 2 + 5)).strftime("%Y-%m-%d")
         end = (report_dt + timedelta(days=14)).strftime("%Y-%m-%d")
-        raw = yf.Ticker(ticker).history(start=report_date, end=end)
+        raw = yf.Ticker(ticker).history(start=start, end=end)
         if raw.empty or len(raw) < 2:
             raise ValueError(
                 f"Insufficient price data for {ticker} around {report_date}: "
                 f"got {len(raw)} rows"
             )
-        # Drop timezone so CSV round-trips cleanly
         raw = raw.copy()
         raw.index = pd.to_datetime(raw.index).tz_localize(None)
         raw.to_csv(cache_path)
@@ -153,9 +201,66 @@ def fetch_prices(ticker: str, report_date: str) -> tuple[float, float]:
         raise ValueError(
             f"Cache too short for {ticker} {report_date}: {len(df)} rows (need >=2)"
         )
+    return df
 
-    prior_close   = round(float(df.iloc[0]["Close"]), 2)
-    next_day_open = round(float(df.iloc[1]["Open"]),  2)
+
+def fetch_prices(ticker: str, report_date: str,
+                 release_timing: str | None = None) -> tuple[float, float]:
+    """Return (prior_close, next_day_open).
+
+    Entry-date resolution depends on release_timing:
+
+      after_hours / intraday:
+        prior_close   = Close on report_date (first trading day on/after)
+        next_day_open = Open on the next trading session
+
+      pre_market:
+        prior_close   = Close on the session BEFORE report_date
+        next_day_open = Open on report_date itself
+        (The reaction happens at report_date's open, so entry must be the
+        prior session's close to capture it.)
+
+    If release_timing is None, falls back to the legacy convention
+    (after_hours) for backward compatibility with callers that haven't
+    been updated yet.  New code should always pass an explicit value.
+    """
+    df = _fetch_price_df(ticker, report_date)
+    report_dt = pd.Timestamp(report_date)
+
+    if release_timing == "pre_market":
+        # Find the last trading day strictly BEFORE report_date
+        prior_mask = df.index < report_dt
+        if not prior_mask.any():
+            raise ValueError(
+                f"No trading day before {report_date} for {ticker}"
+            )
+        prior_idx = int(prior_mask.values.nonzero()[0][-1])
+        # report_date itself (first trading day on/after)
+        rdate_mask = df.index >= report_dt
+        if not rdate_mask.any():
+            raise ValueError(
+                f"No trading day on/after {report_date} for {ticker}"
+            )
+        rdate_idx = int(rdate_mask.values.nonzero()[0][0])
+
+        prior_close = round(float(df.iloc[prior_idx]["Close"]), 2)
+        next_day_open = round(float(df.iloc[rdate_idx]["Open"]), 2)
+    else:
+        # after_hours / intraday / legacy (None)
+        # First trading day on/after report_date
+        rdate_mask = df.index >= report_dt
+        if not rdate_mask.any():
+            raise ValueError(
+                f"No trading day on/after {report_date} for {ticker}"
+            )
+        rdate_idx = int(rdate_mask.values.nonzero()[0][0])
+        if rdate_idx + 1 >= len(df):
+            raise ValueError(
+                f"No next trading session after {report_date} for {ticker}"
+            )
+        prior_close = round(float(df.iloc[rdate_idx]["Close"]), 2)
+        next_day_open = round(float(df.iloc[rdate_idx + 1]["Open"]), 2)
+
     return prior_close, next_day_open
 
 

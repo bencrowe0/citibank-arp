@@ -11,8 +11,14 @@
       "fiscal_period": "FQ1 2023",
       "report_date": "2023-04-25",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2023-Q1/PEP-8K-EX99.1-2023-Q1-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2023-Q1/PEP-Q1-2023-earnings-call-transcript-InsiderMonkey.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2023-Q1/PEP-8K-EX99.1-2023-Q1-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2023-Q1/PEP-Q1-2023-earnings-call-transcript-InsiderMonkey.html"
+        }
       ]
     },
     {
@@ -25,8 +31,14 @@
       "fiscal_period": "FQ2 2023",
       "report_date": "2023-07-13",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2023-Q2/PEP-8K-EX99.1-2023-Q2-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2023-Q2/PEP-Q2-2023-earnings-call-transcript-InsiderMonkey.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2023-Q2/PEP-8K-EX99.1-2023-Q2-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2023-Q2/PEP-Q2-2023-earnings-call-transcript-InsiderMonkey.html"
+        }
       ]
     },
     {
@@ -39,8 +51,14 @@
       "fiscal_period": "FQ3 2023",
       "report_date": "2023-10-10",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2023-Q3/PEP-8K-EX99.1-2023-Q3-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2023-Q3/PEP-Q3-2023-earnings-call-transcript-InsiderMonkey.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2023-Q3/PEP-8K-EX99.1-2023-Q3-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2023-Q3/PEP-Q3-2023-earnings-call-transcript-InsiderMonkey.html"
+        }
       ]
     },
     {
@@ -53,8 +71,14 @@
       "fiscal_period": "FQ4 2023",
       "report_date": "2024-02-09",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2023-Q4/PEP-8K-EX99.1-2023-Q4-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2023-Q4/PEP-Q4-2023-earnings-call-transcript-InsiderMonkey.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2023-Q4/PEP-8K-EX99.1-2023-Q4-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2023-Q4/PEP-Q4-2023-earnings-call-transcript-InsiderMonkey.html"
+        }
       ]
     },
     {
@@ -67,7 +91,10 @@
       "fiscal_period": "FQ1 2024",
       "report_date": "2024-04-23",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2024-Q1/PEP-8K-EX99.1-2024-Q1-PressRelease.htm"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2024-Q1/PEP-8K-EX99.1-2024-Q1-PressRelease.htm"
+        }
       ]
     },
     {
@@ -80,8 +107,14 @@
       "fiscal_period": "FQ2 2024",
       "report_date": "2024-07-11",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2024-Q2/PEP-8K-EX99.1-2024-Q2-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2024-Q2/PEP-Q2-2024-earnings-call-transcript-InsiderMonkey.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2024-Q2/PEP-8K-EX99.1-2024-Q2-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2024-Q2/PEP-Q2-2024-earnings-call-transcript-InsiderMonkey.html"
+        }
       ]
     },
     {
@@ -94,8 +127,14 @@
       "fiscal_period": "FQ3 2024",
       "report_date": "2024-10-08",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2024-Q3/PEP-8K-EX99.1-2024-Q3-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2024-Q3/PEP-Q3-2024-earnings-call-transcript-MotleyFool.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2024-Q3/PEP-8K-EX99.1-2024-Q3-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2024-Q3/PEP-Q3-2024-earnings-call-transcript-MotleyFool.html"
+        }
       ]
     },
     {
@@ -108,8 +147,14 @@
       "fiscal_period": "FQ4 2024",
       "report_date": "2025-02-04",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2024-Q4/PEP-8K-EX99.1-2024-Q4-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2024-Q4/PEP-Q4-2024-earnings-call-transcript-MotleyFool.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2024-Q4/PEP-8K-EX99.1-2024-Q4-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2024-Q4/PEP-Q4-2024-earnings-call-transcript-MotleyFool.html"
+        }
       ]
     },
     {
@@ -122,8 +167,14 @@
       "fiscal_period": "FQ1 2025",
       "report_date": "2025-04-24",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2025-Q1/PEP-8K-EX99.1-2025-Q1-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2025-Q1/PEP-Q1-2025-earnings-call-transcript-InsiderMonkey.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2025-Q1/PEP-8K-EX99.1-2025-Q1-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2025-Q1/PEP-Q1-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
       ]
     },
     {
@@ -136,8 +187,14 @@
       "fiscal_period": "FQ2 2025",
       "report_date": "2025-07-17",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2025-Q2/PEP-8K-EX99.1-2025-Q2-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2025-Q2/PEP-Q2-2025-earnings-call-transcript-InsiderMonkey.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2025-Q2/PEP-8K-EX99.1-2025-Q2-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2025-Q2/PEP-Q2-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
       ]
     },
     {
@@ -150,8 +207,14 @@
       "fiscal_period": "FQ3 2025",
       "report_date": "2025-10-09",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2025-Q3/PEP-8K-EX99.1-2025-Q3-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2025-Q3/PEP-Q3-2025-earnings-call-transcript-MotleyFool.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2025-Q3/PEP-8K-EX99.1-2025-Q3-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2025-Q3/PEP-Q3-2025-earnings-call-transcript-MotleyFool.html"
+        }
       ]
     },
     {
@@ -164,8 +227,14 @@
       "fiscal_period": "FQ4 2025",
       "report_date": "2026-02-03",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2025-Q4/PEP-8K-EX99.1-2025-Q4-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2025-Q4/PEP-Q4-2025-earnings-call-transcript-InsiderMonkey.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2025-Q4/PEP-8K-EX99.1-2025-Q4-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2025-Q4/PEP-Q4-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
       ]
     },
     {
@@ -178,8 +247,14 @@
       "fiscal_period": "FQ1 2026",
       "report_date": "2026-04-16",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2026-Q1/PEP-8K-EX99.1-2026-Q1-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2026-Q1/PEP-Q1-2026-earnings-call-transcript-MotleyFool.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2026-Q1/PEP-8K-EX99.1-2026-Q1-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2026-Q1/PEP-Q1-2026-earnings-call-transcript-MotleyFool.html"
+        }
       ]
     },
     {
@@ -192,9 +267,20 @@
       "fiscal_period": "FQ2 2026",
       "report_date": "2026-07-09",
       "documents": [
-        {"doc_type": "Press Release", "source_pdf": "docs/pepsico/CY2026-Q2/PEP-8K-EX99.1-2026-Q2-PressRelease.htm"},
-        {"doc_type": "Earnings Call Transcript", "source_pdf": "docs/pepsico/CY2026-Q2/PEP-Q2-2026-earnings-call-transcript-MotleyFool.html"}
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pepsico/CY2026-Q2/PEP-8K-EX99.1-2026-Q2-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pepsico/CY2026-Q2/PEP-Q2-2026-earnings-call-transcript-MotleyFool.html"
+        }
       ]
     }
-  ]
+  ],
+  "release_timing": {
+    "value": null,
+    "source": null,
+    "retrieval_date": null
+  }
 }

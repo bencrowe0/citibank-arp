@@ -15,9 +15,11 @@ confused:
     names - never hold_upper/hold_lower - so the two can't be confused by a
     reader grepping the codebase.
 
-Entry price is the next trading-day CLOSE on/after report_date (conservative:
-avoids assuming same-day intraday reaction is fully captured, since some
-reports release after market close).
+Entry price depends on release_timing (per-issuer, from the manifest):
+  after_hours / intraday: Close on report_date (first trading day on/after).
+  pre_market: Close on the session BEFORE report_date, so the overnight gap
+              captures the actual earnings reaction at the next morning's open.
+When release_timing is None, defaults to the after_hours convention.
 
 Overnight-gap mode (exit_on_open=True): exit price is the OPEN of the
 window_trading_days-th session after entry, instead of its Close. With
@@ -36,6 +38,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
+import pandas as pd
 import yfinance as yf
 
 OUTCOME_UPPER_DEFAULT = 0.03
@@ -77,22 +80,49 @@ def fetch_forward_return(
     outcome_upper: float = OUTCOME_UPPER_DEFAULT,
     outcome_lower: float = OUTCOME_LOWER_DEFAULT,
     exit_on_open: bool = False,
+    release_timing: str | None = None,
 ) -> ForwardReturn | None:
+    """Fetch forward return for an event.
+
+    release_timing controls entry-date resolution (see export_sheet_rows.fetch_prices):
+      pre_market:  entry = close of session BEFORE report_date
+      after_hours / intraday / None:  entry = close of report_date itself
+    """
     report_dt = datetime.strptime(report_date, "%Y-%m-%d")
     # Pull a wide-enough window to guarantee window_trading_days of trading
     # sessions exist after report_date even across long weekends/holidays.
-    start = report_dt.strftime("%Y-%m-%d")
+    # Start earlier if pre_market, since entry is the prior session.
+    pre_buffer = 10 if release_timing == "pre_market" else 0
+    start = (report_dt - timedelta(days=pre_buffer)).strftime("%Y-%m-%d")
     end = (report_dt + timedelta(days=window_trading_days * 3 + 10)).strftime("%Y-%m-%d")
 
     history = yf.Ticker(ticker).history(start=start, end=end)
-    if history.empty or len(history) < window_trading_days + 1:
+    if history.empty:
+        return None
+    # Drop timezone
+    history = history.copy()
+    history.index = pd.to_datetime(history.index).tz_localize(None)
+
+    # Find entry index using timing-aware logic
+    report_ts = pd.Timestamp(report_date)
+    if release_timing == "pre_market":
+        prior_mask = history.index < report_ts
+        if not prior_mask.any():
+            return None
+        entry_idx = int(prior_mask.values.nonzero()[0][-1])
+    else:
+        rdate_mask = history.index >= report_ts
+        if not rdate_mask.any():
+            return None
+        entry_idx = int(rdate_mask.values.nonzero()[0][0])
+
+    exit_idx = entry_idx + window_trading_days
+    if exit_idx >= len(history):
         return None
 
-    entry_row = history.iloc[0]
-    exit_row = history.iloc[window_trading_days]
+    entry_row = history.iloc[entry_idx]
+    exit_row = history.iloc[exit_idx]
     entry_price = float(entry_row["Close"])
-    # exit_on_open: use the session's OPEN (close-to-open overnight gap, the group
-    # sheet's convention); otherwise its CLOSE (default close-to-close forward return).
     exit_price = float(exit_row["Open"] if exit_on_open else exit_row["Close"])
     forward_return = (exit_price - entry_price) / entry_price
 
@@ -101,9 +131,9 @@ def fetch_forward_return(
         ticker=ticker,
         report_date=report_date,
         window_trading_days=window_trading_days,
-        entry_date=str(history.index[0].date()),
+        entry_date=str(history.index[entry_idx].date()),
         entry_price=round(entry_price, 4),
-        exit_date=str(history.index[window_trading_days].date()),
+        exit_date=str(history.index[exit_idx].date()),
         exit_price=round(exit_price, 4),
         forward_return=round(forward_return, 6),
         outcome_label=bucket_outcome(forward_return, outcome_upper, outcome_lower),
