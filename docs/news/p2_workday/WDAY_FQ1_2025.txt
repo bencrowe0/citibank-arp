@@ -1,0 +1,70 @@
+PRE-EARNINGS NEWS DIGEST - WORKDAY (WDAY) Q1 FY2026
+Report Date: May 22, 2025
+Report Period: Q1 FY2026 (ended April 30, 2025)
+
+==============================================================================
+ANALYST EXPECTATIONS & MARKET SENTIMENT
+==============================================================================
+
+EARNINGS PER SHARE CONSENSUS:
+- Expected: $2.52 per share (up from $2.23 prior year)
+- Prior Year Q1: $2.23 per share
+
+REVENUE EXPECTATIONS:
+- Expected: ~$2.24 billion (based on search results from Benzinga and Wall Street analyst consensus)
+- Prior Year Q1: $2.24 billion
+- Expected YoY Growth: ~12.3% (in line with 12.6% growth in prior year)
+
+KEY ANALYST COMMENTARY:
+- Wall Street consensus reconfirmed estimates over the last 30 days
+- Analysts anticipated Workday to "stay the course" heading into earnings
+- Mixed sentiment on competitive dynamics and AI market disruption
+
+==============================================================================
+KEY BUSINESS DEVELOPMENTS (Pre-Earnings)
+==============================================================================
+
+1. AI PRODUCT MOMENTUM
+   - AI products contributing approximately 1.5 percentage points to Annual Recurring Revenue (ARR) growth
+   - AI included in over 75% of net new deals (strong market adoption)
+   - Conversations with partners indicated AI was affecting budgets in some cases
+
+2. MARKET SATURATION CONCERNS
+   - Slower growth expectations for FY2026 and FY2027 driven by saturation in core Human Capital Management (HCM) market
+   - NOT driven by AI disruption concerns
+   - Some budget shifts noted as companies prioritize AI and cloud initiatives
+
+3. ANALYST PRICE TARGET MOVEMENTS
+   - Cantor Fitzgerald cut price target from $200 to $160 (May 20, 2025)
+   - Maintained Overweight rating despite target reduction
+   - Stock down approximately 40% YTD as of early May 2025
+   - Trading at ~12.3x FY2027 EPS estimate
+
+4. MARKET CONDITIONS
+   - Macro environment remained uncertain heading into the quarter
+   - Tech sector showing mixed momentum
+   - Enterprise software spending cautious but stable for mission-critical systems
+
+==============================================================================
+INVESTOR FOCUS AREAS FOR Q1 EARNINGS
+==============================================================================
+
+- Subscription revenue trajectory and growth rate sustainability
+- AI product contribution breakdown and unit economics
+- Forward guidance for FY2026 (full-year subscription revenue guidance)
+- Operating margin maintenance amid continued AI investment
+- Customer additions and ACV (Annual Contract Value) trends
+- Competitive positioning in HCM market
+
+==============================================================================
+SOURCES
+==============================================================================
+
+- Benzinga: "Workday Gears Up For Q1 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts"
+  https://www.benzinga.com/analyst-stock-ratings/price-target/26/05/52709864/
+
+- StockStory: "Workday (WDAY) Reports Q1: Everything You Need To Know Ahead Of Earnings"
+  https://stockstory.org/us/stocks/nasdaq/wday/news/earnings/
+
+- Yahoo Finance: Market data and analyst consensus estimates
+- Simply Wall St: Analyst sentiment and historical performance tracking

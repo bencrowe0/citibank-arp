@@ -1,0 +1,14 @@
+Netflix (NFLX) - News coverage digest, FQ1 2026 earnings (report date 2026-04-16)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of the April 16 report, consensus analyst estimates were for EPS of $0.76 (up about 15.2% year-over-year from $0.66) on revenue of roughly $12.16-$12.18 billion, implying growth of about 15.3-15.4% year-over-year. Management's own guidance pointed to continued membership growth, higher pricing, and an expanding advertising base as the key drivers for the quarter, with full-year 2026 advertising revenue expected to be roughly $3 billion.
+
+Pre-earnings previews framed three metrics as most likely to move the stock: (1) advertising revenue trajectory, given that weak ad numbers combined with other soft metrics could pressure the stock; (2) operating margin guidance, since management's 31.5% full-year 2026 operating-margin target was already viewed as below some analysts' expectations, making any further downward revision a key risk; and (3) free cash flow commentary, with full-year 2026 FCF forecast at roughly $11 billion. Coverage also flagged that Netflix planned to spend approximately $20 billion on content in 2026, a level some investors worried could pressure near-term profitability despite its long-term value in subscriber acquisition and retention. Separately, the stock's investment case going into the print rested on continued double-digit revenue growth, an expanding ad business, and a strengthened content pipeline following new licensing partnerships with Universal, Sony, and Paramount; the Zacks Earnings ESP heading into the report was +1.69% with a Zacks Rank #2 (Buy).
+
+Sources:
+- What to Expect From Netflix's Q1 2026 Earnings Report - finance.yahoo.com/markets/stocks/articles/expect-netflix-q1-2026-earnings-090514358.html (published before 2026-04-16, pre-earnings)
+- Netflix Q1 2026 Preview: The 3 Metrics That Could Move the Stock - finance.yahoo.com/markets/stocks/articles/netflix-q1-2026-preview-3-164000773.html (published before 2026-04-16, pre-earnings)
+- Netflix Before Q1 Earnings: Should Investors Buy the Stock Now? - finance.yahoo.com/markets/stocks/articles/netflix-q1-earnings-investors-buy-153800087.html (published before 2026-04-16, pre-earnings)
+- Is Netflix Stock a Buy Ahead of Its Q1 Earnings Report on April 16 - finance.yahoo.com/markets/stocks/articles/netflix-stock-buy-ahead-q1-204522048.html (published before 2026-04-16, pre-earnings)
+
+Note: coverage focuses on analyst consensus estimates, management guidance, and pre-report valuation/risk framing available before the report; no figures or reactions from the actual April 16 release are included.

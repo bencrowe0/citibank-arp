@@ -1,0 +1,44 @@
+{
+  "document_id": "AAPL_FQ4_2025_NEWS",
+  "base_document_id": "AAPL_FQ4_2025",
+  "issuer": "p2_apple",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes a 'bullish setup' with 'record iPhone 17 sales, particularly in China' lifting investor sentiment, indicating elevated expectations heading into the print. However, it also flags a known, quantified risk (tariffs with an estimated $1.1 billion Q4 impact), which tempers the bullishness. The elevated expectations mean the bar is high, reducing the chance of a positive surprise, so the score is mildly positive but not strongly so."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161636Z",
+    "timestamp": "2026-07-20T16:16:45Z",
+    "status": "success",
+    "document_id": "AAPL_FQ4_2025_NEWS",
+    "issuer": "p2_apple",
+    "company": "Apple",
+    "ticker": "AAPL",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-10-30",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_apple\\AAPL_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3566,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1018,
+    "total_tokens": 4584,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002031,
+    "latency_seconds": 8.02,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

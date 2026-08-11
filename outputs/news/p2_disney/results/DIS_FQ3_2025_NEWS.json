@@ -1,0 +1,44 @@
+{
+  "document_id": "DIS_FQ3_2025_NEWS",
+  "base_document_id": "DIS_FQ3_2025",
+  "issuer": "p2_disney",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates constructive sell-side sentiment with Morgan Stanley raising its price target and a 'Moderate Buy' consensus, but it also highlights a key concern: DTC growth has slowed to ~8% YoY and the key question is whether it can reaccelerate. Expectations appear moderately elevated rather than depressed, with a price target raise and a 'healthy double-digit adjusted EPS growth' trajectory framing, but not stretched to 'priced for perfection.' The score reflects a mildly positive setup with some room for positive surprise, but not a strong bullish signal given the growth concerns."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T113351Z",
+    "timestamp": "2026-08-09T11:34:00Z",
+    "status": "success",
+    "document_id": "DIS_FQ3_2025_NEWS",
+    "issuer": "p2_disney",
+    "company": "Disney",
+    "ticker": "DIS",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-08-05",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_disney\\DIS_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3621,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1294,
+    "total_tokens": 4915,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00235,
+    "latency_seconds": 8.66,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

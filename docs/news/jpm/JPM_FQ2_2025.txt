@@ -1,0 +1,14 @@
+JPMorgan Chase (JPM) - News coverage digest, FQ2 2025 earnings (report date 2025-07-15)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of the July 15 report (released before market open), consensus estimates called for JPMorgan EPS of about $4.47-$4.48, up modestly (roughly 1.6%) from $4.40 a year earlier, on revenue near $43.9 billion. Coverage framed the quarter as a read on whether net interest income could stay resilient, and how much wage inflation and technology spending would weigh on expenses - both flagged as the metrics analysts were watching most closely into the print.
+
+Credit quality and the macro backdrop were the other major pre-earnings themes. CEO Jamie Dimon had put recession odds at a roughly 50-50 coin flip on JPMorgan's own Q1 2025 earnings call in April, and by mid-May JPMorgan's chief U.S. economist Michael Feroli described the recession outlook as "still elevated, but now below 50%" - a moderation from the 60% odds JPMorgan economists had assigned earlier in the spring after the initial round of Trump tariff announcements. Dimon continued to warn publicly in the weeks before the report that tariffs - even after some pauses - were still historically high and could damage the economy by causing businesses to hold back on investment decisions. Given JPMorgan's scale and branch/card network, Dimon's commentary was widely treated by analysts as an early read on U.S. consumer health, and coverage noted investors would be listening closely for his views on tariffs and their potential drag on consumer and business sentiment.
+
+Sources:
+- https://finance.yahoo.com/news/expect-jpmorgan-chases-q2-2025-111907869.html (Zacks/Yahoo Finance, "What to Expect From JPMorgan Chase's Q2 2025 Earnings Report" - published prior to the July 15, 2025 report)
+- https://finance.yahoo.com/news/jpmorgan-q2-earnings-preview-reading-204654856.html ("JPMorgan Q2 Earnings Preview: Reading the Consumer Pulse" - published prior to the July 15, 2025 report)
+- https://www.cnbc.com/2025/05/15/jpmorgan-chase-ceo-jamie-dimon-says-recession-is-still-on-the-table-for-us-.html (published May 15, 2025)
+- https://www.cnbc.com/2025/04/09/jamie-dimon-says-a-recession-is-likely-outcome-from-trumps-tariff-turmoil.html (published April 9, 2025 - prior-quarter macro commentary, included for backdrop only, well before the FQ2 window)
+
+Note: pre-earnings preview coverage specific to Q2 2025 (as opposed to general Dimon/macro commentary) was moderately thin relative to other quarters; the two dedicated preview pieces above were the main sources found via CNBC/Yahoo Finance search.

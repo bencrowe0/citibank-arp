@@ -1,0 +1,44 @@
+{
+  "document_id": "JPM_FQ3_2025_NEWS",
+  "base_document_id": "JPM_FQ3_2025",
+  "issuer": "p2_jpm",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings market expectations digest that contains only consensus estimates (EPS $4.84, revenue $45.4B) and notes that these were later beaten. There is no discussion of stretched or depressed expectations, no commentary on valuation or analyst estimate revisions, and no guidance language. The document is neutral by default because it provides no signal about whether the bar is high or low heading into the print."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162742Z",
+    "timestamp": "2026-07-20T16:27:49Z",
+    "status": "success",
+    "document_id": "JPM_FQ3_2025_NEWS",
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_jpm\\JPM_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3389,
+    "cache_hit_tokens": 256,
+    "output_tokens": 789,
+    "total_tokens": 4178,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001732,
+    "latency_seconds": 7.44,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "document_id": "KO_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Management raised comparable currency-neutral EPS growth guidance to approximately 8% for 2025, up from a prior expectation, and affirmed organic revenue growth of 5%-6%. The guidance raise is organic, driven by faster productivity realization and disciplined cost management, not primarily attributed to FX or one-time items. However, the raise is modest and management explicitly acknowledges a 5% currency headwind to comparable EPS and a 1%-2% headwind to net revenues, which tempers the overall positive signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Organic revenue grew 5% in Q2 2025. Price/mix increased 6%, driven by approximately five points of pricing actions and one point of favorable mix.",
+    "eps": "Comparable EPS reached $0.87, up 4% year-over-year, despite 5% currency headwinds and a higher effective tax rate.",
+    "guidance": "Full-year 2025 organic revenue growth expected at 5%-6%. Comparable currency-neutral EPS growth expected at approximately 8%. Comparable EPS growth of approximately 3% versus $2.88 in 2024, including a 5% currency headwind.",
+    "margin": "Comparable gross margin increased approximately 80 basis points; comparable operating margin increased approximately 190 basis points.",
+    "key_risks": [
+      "Adverse weather in several key markets in June impacted volume.",
+      "Consumer pressure in select markets, particularly lower-income segments.",
+      "Currency headwinds: 1%-2% on net revenues and 5% on EPS for full year 2025.",
+      "Capacity constraints limiting Fairlife volume growth until New York facility comes online in early 2026.",
+      "Geopolitical conflicts in Eurasia and Middle East, and India-Pakistan conflict.",
+      "Early monsoons in India impacted volume.",
+      "Weakness in ASEAN markets (Thailand, Indonesia, Vietnam)."
+    ],
+    "key_opportunities": [
+      "Seventeenth consecutive quarter of value share gains.",
+      "Faster realization of productivity initiatives, especially marketing transformation and disciplined OPEX management.",
+      "Innovation: Sprite became #3 sparkling soft drink in US; Sprite Plus Tea scaled due to strong demand.",
+      "Fairlife double-digit volume growth with capacity expansion planned for 2026.",
+      "AI-based pack price optimization tool scaled to eight markets.",
+      "Share a Coke campaign across 120+ countries.",
+      "Planned expansion of Coca-Cola product range with US cane sugar in fall 2025."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management stated, 'We're confident we can navigate varying local market dynamics during the remainder of 2025 to deliver on our updated guidance.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Organic revenue grew 5% in Q2 2025.",
+      "quote": "We grew organic revenues 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable EPS reached $0.87, up 4% year-over-year.",
+      "quote": "second-quarter comparable EPS of 87 cents increased 4% year over year despite 5% currency headwinds, elevated net interest expense, and an approximate two-point increase in our effective tax rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 organic revenue growth expected at 5%-6%.",
+      "quote": "We continue to expect organic revenue growth of 5% to 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable currency-neutral EPS growth expected at approximately 8%.",
+      "quote": "now expect comparable currency-neutral earnings per share growth of approximately 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable EPS growth of approximately 3% versus $2.88 in 2024, including a 5% currency headwind.",
+      "quote": "we now expect 2025 comparable earnings per share growth of approximately 3% versus $2.88 in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable gross margin increased approximately 80 basis points.",
+      "quote": "Comparable gross margin increased approximately 80 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable operating margin increased approximately 190 basis points.",
+      "quote": "comparable operating margin increased approximately 190 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management raised comparable currency-neutral EPS guidance to approximately 8%.",
+      "quote": "now expect comparable currency-neutral earnings per share growth of approximately 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We're confident we can navigate varying local market dynamics during the remainder of 2025 to deliver on our updated guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency headwinds of 1%-2% on net revenues and 5% on EPS for full year 2025.",
+      "quote": "we now anticipate an approximate one to two-point currency headwind to comparable net revenues and an approximate five-point currency headwind to comparable earnings per share for full year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adverse weather in several key markets in June impacted volume.",
+      "quote": "Volume declined 1% during the quarter as we cycled a difficult comparison versus the prior year. Two-year volume trends were on track in April and May, but decelerated in June in the face of adverse weather in several key markets and pockets of consumer pressure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capacity constraints limiting Fairlife volume growth until New York facility comes online in early 2026.",
+      "quote": "Fairlife posted double-digit volume growth, although this moderated due to capacity constraints. Further moderation in Fairlife volume growth is expected until the New York facility comes online in early 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Seventeenth consecutive quarter of value share gains.",
+      "quote": "During the quarter, we gained value share, which represented our seventeenth consecutive quarter of value share gains.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Faster realization of productivity initiatives contributed to margin expansion.",
+      "quote": "Approximately one-third of first-half 2025 comparable margin expansion was attributed to faster realization of productivity initiatives, especially from marketing transformation and disciplined operating expense management.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sprite became #3 sparkling soft drink in US.",
+      "quote": "As a result of on-brand innovation, Sprite became the number three sparkling soft drink brand in the US as Beverage Digest announced in April.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-based pack price optimization tool scaled to eight markets.",
+      "quote": "last year, we highlighted an AI-based pack price channel optimization tool in Mexico. Results so far have shown this tool improves our offerings and speed to market. So far, we scaled this platform to eight markets across four operating units.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share a Coke campaign across 120+ countries.",
+      "quote": "In April, we launched the return of the iconic Share a Coke campaign across more than one hundred and twenty countries, over thirty thousand names on approximately ten billion bottles and cans tailored to local markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Planned expansion of Coca-Cola product range with US cane sugar in fall 2025.",
+      "quote": "this fall in the United States, we plan to expand our trademark Coca-Cola product range with US cane sugar to reflect consumer interest in differentiated experiences.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is modest and partially offset by explicit currency headwinds; the score of 0.30 reflects a positive but tempered view. A reviewer may wish to confirm that the raise is indeed organic and not driven by one-time items."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KO_Bundled Earnings Report_2025-07-22",
+  "report_metadata": {
+    "issuer": "p2_coca_cola",
+    "company": "Coca-Cola",
+    "ticker": "KO",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-22",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KO_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212910Z",
+    "timestamp": "2026-07-18T21:29:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 58961,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ2_2025.txt"
+  }
+}

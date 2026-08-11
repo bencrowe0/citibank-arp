@@ -1,0 +1,12 @@
+Novo Nordisk (NVO) - News coverage digest, FQ4 2025 earnings (report date 2026-02-03)
+
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+At the J.P. Morgan Healthcare Conference on January 13-14, 2026, CEO Mike Doustdar acknowledged that 2025 had been a difficult year for Novo Nordisk, with GLP-1 sales falling short of expectations, and warned that 2026 would be a "year of price pressure" as more GLP-1 supply entered the market and new pricing deals took effect. He outlined a reshaped strategy centered on obesity and diabetes leadership across multiple product segments rather than a single flagship drug, with CagriSema (semaglutide + amylin, ~23% weight loss in trials) positioned as a key late-stage asset. A January 20, 2026 report also covered Novo executives discussing drug-pricing deals and looming patent losses alongside peers including Pfizer, underscoring that pricing and exclusivity risk remained front-of-mind for investors heading into results.
+
+By Zacks' January 30, 2026 preview - four days before the report - the consensus estimate for the quarter stood at $11.96 billion in revenue and $0.89 EPS. The Street's full-year 2025 EPS estimate had held roughly flat at $3.58 over the trailing 60 days, but the 2026 EPS forecast had fallen from $3.65 to $3.29 over the same window, reflecting growing caution about the pricing and competitive backdrop laid out at JPM. On the positive side, Novo secured FDA approval for oral Wegovy in late December 2025 and launched it commercially in early January 2026 - a genuine catalyst - and the company's trailing four-quarter track record (three beats, one in-line, average surprise +11.6%) gave some investors reason to expect an upside surprise even as forward guidance was expected to be the more market-moving element of the print.
+
+Sources:
+- https://www.cnbc.com/2026/01/14/healthy-returns-novo-nordisk-ceo-glp-1-pill-jpmorgan-conference.html (CNBC, published January 14, 2026)
+- https://www.cnbc.com/2026/01/20/drug-pricing-patent-losses-deals-novo-nordisk-pfizer.html (CNBC, published January 20, 2026)
+- https://www.zacks.com/stock/news/2826247/novo-nordisk-before-q4-earnings-how-should-investors-play-the-stock (Zacks.com, "Novo Nordisk Before Q4 Earnings", published January 30, 2026)

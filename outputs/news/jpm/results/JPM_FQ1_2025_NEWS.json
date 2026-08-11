@@ -1,0 +1,38 @@
+{
+  "document_id": "JPM_FQ1_2025_NEWS",
+  "base_document_id": "JPM_FQ1_2025",
+  "issuer": "jpm",
+  "sentiment": {
+    "score": -0.25,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are. The document describes a stock with a premium valuation (forward P/E of ~13.5x vs industry ~12.8x), analyst estimates revised 3% lower over the prior 30 days, and a cautious/mixed sentiment heading into the print. The dominant theme is macro uncertainty, with CEO Dimon stating a recession is 'probably a likely outcome' and JPMorgan's own economists bracing for a possible recession. This combination of elevated valuation and heightened macro risk suggests a demanding bar, making a negative surprise more likely, hence a mildly bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower"
+  },
+  "cost_log": {
+    "run_id": "20260702T133300Z",
+    "timestamp": "2026-07-02T13:33:13Z",
+    "status": "success",
+    "document_id": "JPM_FQ1_2025_NEWS",
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-11",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\jpm\\JPM_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 4182,
+    "output_tokens": 1823,
+    "total_tokens": 6005,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003134,
+    "latency_seconds": 12.47,
+    "signal": "SELL",
+    "sentiment_score": -0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

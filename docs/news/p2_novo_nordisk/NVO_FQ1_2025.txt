@@ -1,0 +1,12 @@
+Novo Nordisk (NVO) - News coverage digest, FQ1 2025 earnings (report date 2025-05-07)
+
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into its May 7, 2025 print, Novo Nordisk shares were already deep in a drawdown - down roughly 49% over the prior twelve months - after its next-generation obesity drug CagriSema disappointed investors twice in quick succession. On March 10, 2025 shares fell on a diabetes-trial readout, and then on March 24, 2025 the stock dropped more than 16% in a single session and hit a new 52-week low after CagriSema's phase 3 REDEFINE 4 study showed ~23% weight loss at 84 weeks - failing to demonstrate non-inferiority against Eli Lilly's tirzepatide (Zepbound/Mounjaro), which had produced 25.5% weight loss in the comparator arm. The result intensified concerns that Novo's next-gen pipeline could not keep pace with Lilly's, with Lilly shares rising on the news.
+
+Sell-side positioning going into Q1 was already cautious. On March 29, 2025, Bank of America (analyst Sachin Jain) told clients Novo's Q1 sales were likely to come in 1-2% below consensus, citing "sluggish" underlying trends for both Ozempic and Wegovy - projecting Ozempic sales of DKK 31 billion (~6% below consensus) and Wegovy sales of DKK 18.6 billion, with US Wegovy revenue seen declining sequentially on softer prescriptions and modest price cuts. BofA also flagged a likely ~2-point cut to full-year sales-growth guidance (to a 14-22% range from the prior 16-24%) and trimmed its price target to DKK 910 from DKK 1,075, while keeping a Buy rating. Overall, expectations heading into the print were stretched to the downside: a beaten-down stock, a pipeline setback fresh in investors' minds, and sell-side estimates already being walked down ahead of the report.
+
+Sources:
+- https://finance.yahoo.com/news/bofa-says-novo-nordisk-may-124125866.html (Yahoo Finance / MT Newswires, BofA note on Q1 2025 outlook, published March 29, 2025)
+- https://www.cnbc.com/2025/03/24/novo-nordisks-next-gen-obesity-drug-cagrisema-trial-results-disappoint-investors.html (CNBC, published March 24, 2025)
+- https://www.tipranks.com/news/the-fly/novo-nordisk-price-target-lowered-to-dkk-910-from-dkk-1075-at-bofa (TipRanks/The Fly, BofA price target cut, late March 2025)

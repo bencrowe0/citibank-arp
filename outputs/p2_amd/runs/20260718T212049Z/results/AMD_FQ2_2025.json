@@ -1,0 +1,181 @@
+{
+  "document_id": "AMD_FQ2_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance for Q3 2025 revenue is about $8.7B, up 28% year over year, but this is not a raise relative to prior guidance — it explicitly excludes any MI308 China revenue while export licenses remain under review, capping upside. The Data Center segment, critical to the AI thesis, grew only 14%, a deceleration that signals a structural headwind. Management also flagged gross margin pressure from the MI350 ramp and unfavorable product mix in Embedded, reinforcing a cautious forward outlook. The score is -0.50 because guidance is effectively held flat with explicit downside risks (China export uncertainty, margin pressure) and the core AI growth engine slowed."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$7.7B, up 32% year over year.",
+    "eps": "Diluted EPS $0.48, reduced by $0.43 of charges.",
+    "guidance": "Q3 2025 revenue guided to about $8.7B plus or minus $300M, up 28% year over year. No MI308 China revenue included in guidance while export licenses remain under review.",
+    "margin": "Non-GAAP gross margin 54% excluding the $800M MI308 China inventory write-down. Q3 non-GAAP gross margin about 54%.",
+    "key_risks": [
+      "MI308 China export licenses under review, so no China GPU revenue is assumed.",
+      "Embedded faces mixed end-market demand with unfavorable product mix.",
+      "Gross margin pressure from the MI350 ramp."
+    ],
+    "key_opportunities": [
+      "More than 100 new AMD-powered cloud instances launched in the quarter.",
+      "7 of the top 10 model builders and AI companies use Instinct.",
+      "MI355 matches or exceeds B200 in critical training workloads.",
+      "Record free cash flow of $1.2B."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management explicitly excludes China GPU revenue from guidance and flags gross margin pressure and mixed demand in Embedded, indicating a guarded forward stance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $7.7B, up 32% year over year.",
+      "quote": "Revenue $7.7B, up 32% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.48, reduced by $0.43 of charges.",
+      "quote": "Diluted EPS $0.48, reduced by $0.43 of charges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 revenue guidance is about $8.7B plus or minus $300M, up 28% year over year, with no MI308 China revenue included.",
+      "quote": "Q3 2025 revenue guided to about $8.7B plus or minus $300M, up 28% year over year. No MI308 China revenue included in guidance while export licenses remain under review.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP gross margin was 54% excluding the $800M MI308 China inventory write-down.",
+      "quote": "Non-GAAP gross margin 54% excluding the $800M MI308 China inventory write-down.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: MI308 China export licenses under review, so no China GPU revenue is assumed.",
+      "quote": "MI308 China export licenses under review, so no China GPU revenue is assumed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Embedded faces mixed end-market demand with unfavorable product mix.",
+      "quote": "Embedded faces mixed end-market demand with unfavorable product mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Gross margin pressure from the MI350 ramp.",
+      "quote": "Gross margin pressure from the MI350 ramp, partly offset by efficiencies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: More than 100 new AMD-powered cloud instances launched in the quarter.",
+      "quote": "More than 100 new AMD-powered cloud instances launched in the quarter – Su, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: 7 of the top 10 model builders and AI companies use Instinct.",
+      "quote": "7 of the top 10 model builders and AI companies use Instinct – Su, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: MI355 matches or exceeds B200 in critical training workloads.",
+      "quote": "MI355 matches or exceeds B200 in critical training workloads – Su, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Record free cash flow of $1.2B.",
+      "quote": "Free cash flow was a record of $1.2 billion – Hu, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious, as evidenced by excluding China GPU revenue from guidance and flagging margin pressure.",
+      "quote": "No MI308 China revenue included in guidance while export licenses remain under review. Gross margin pressure from the MI350 ramp.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data Center segment growth slowed to 14%, a structural headwind for the AI thesis.",
+      "quote": "Data Center $3.2B, up 14%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance is effectively held flat with explicit downside risks, supporting a negative sentiment score.",
+      "quote": "No MI308 China revenue included in guidance while export licenses remain under review. Gross margin pressure from the MI350 ramp.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on guidance being effectively flat with downside risks, but the document also shows strong revenue growth (32% YoY) and record free cash flow. A reviewer should confirm that the negative weight on the Data Center slowdown and China uncertainty is appropriate relative to the positive backward-looking results."
+    },
+    {
+      "field": "summary.management_tone",
+      "reason": "The tone label 'cautious' is inferred from the exclusion of China revenue and margin pressure flags, but management also highlights record free cash flow and AI roadmap wins. A reviewer should verify that 'cautious' is the best fit rather than 'mixed'."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMD_Bundled Earnings Report_2025-08-05",
+  "report_metadata": {
+    "issuer": "p2_amd",
+    "company": "AMD",
+    "ticker": "AMD",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q2\\05 amd q2 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMD_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212049Z",
+    "timestamp": "2026-07-18T21:21:03Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q2\\05 amd q2 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q2\\05 amd q2 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5441,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ2_2025.txt"
+  }
+}

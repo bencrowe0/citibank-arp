@@ -1,0 +1,69 @@
+{
+  "issuer": "p2_colgate_palmolive",
+  "reports": [
+    {
+      "document_id": "CL_FQ3_2025",
+      "issuer": "p2_colgate_palmolive",
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "sector": "Consumer Defensive/Household Products",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-31",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/colgate_palmolive/CY2025-Q3/CL_Q3_2025_Press_Release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "CL_FQ4_2025",
+      "issuer": "p2_colgate_palmolive",
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "sector": "Consumer Defensive/Household Products",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-30",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/colgate_palmolive/CY2025-Q4/CL_Q4_2025_Press_Release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "CL_FQ1_2026",
+      "issuer": "p2_colgate_palmolive",
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "sector": "Consumer Defensive/Household Products",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-24",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/colgate_palmolive/CY2026-Q1/CL_Q1_2026_Press_Release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "CL_FQ2_2026",
+      "issuer": "p2_colgate_palmolive",
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "sector": "Consumer Defensive/Household Products",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-07-31",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/colgate_palmolive/CY2026-Q2/CL_Q2_2026_Press_Release.htm"
+        }
+      ]
+    }
+  ]
+}

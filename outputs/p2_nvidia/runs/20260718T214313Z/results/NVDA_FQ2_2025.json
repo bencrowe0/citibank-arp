@@ -1,0 +1,197 @@
+{
+  "document_id": "NVDA_FQ2_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The reported quarter includes a massive $4.5B charge for H20 export controls, making headline EPS and gross margins look poor. However, this charge was pre-announced six weeks earlier, and the underlying business (ex-China) is accelerating: Blackwell is ramping fast, networking recovered, gaming hit a record, and the forward guide of $45B absorbs an $8B China hole, implying strong demand elsewhere. The CEO's blunt language about losing the China market is a structural negative, but it is not new news. The net effect is a positive surprise on the ex-China trajectory, warranting a score above 0.0 but held back by the genuine China loss."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$44 billion, up 69% year-over-year.",
+    "eps": "Non-GAAP EPS $0.81 as reported; $0.96 excluding the H20 charge vs $0.93 LSEG consensus.",
+    "guidance": "Total revenue expected to be $45 billion, plus or minus 2%, absorbing a loss in H20 revenue of approximately $8 billion for the second quarter.",
+    "margin": "GAAP gross margins 60.5%, non-GAAP 61%. Excluding the $4.5B charge, Q1 non-GAAP gross margins would have been 71.3%. Q2 guidance: GAAP and non-GAAP gross margins expected to be 71.8% and 72%, respectively, working toward mid-70%s late this year.",
+    "key_risks": [
+      "Losing access to the China AI accelerator market, which we believe will grow to nearly $50 billion, would have a material adverse impact on our business going forward.",
+      "Export controls have spurred China's innovation and scale, strengthening foreign competitors.",
+      "The H20 export ban ended our Hopper Data Center business in China with no licensed replacement product currently available."
+    ],
+    "key_opportunities": [
+      "Blackwell ramp, the fastest in company history, driving 73% year-on-year Data Center revenue increase.",
+      "Sharp jump in inference demand, with reasoning AI requiring orders of magnitude more compute.",
+      "Sovereign AI: nations investing in AI infrastructure, with nearly 100 NVIDIA-powered AI factories in flight, a two-fold increase year-over-year.",
+      "Enterprise AI: new products like RTX Pro, DGX Spark, and DGX Station ready to modernize $500 billion IT infrastructure.",
+      "Industrial AI: Omniverse and Isaac GR00T powering next-generation factories and humanoid robotics."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jensen Huang states 'This is the start of a powerful new wave of growth. Grace Blackwell is in full production. We're off to the races,' and describes multiple growth engines as 'kicking into turbocharge.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $44 billion, up 69% year-over-year.",
+      "quote": "We delivered another strong quarter with revenue of $44 billion, up 69% year-over-year, exceeding our outlook in what proved to be a challenging operating environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS $0.81 as reported; $0.96 excluding the H20 charge vs $0.93 LSEG consensus.",
+      "quote": "Non-GAAP EPS $0.81 as reported; $0.96 excluding the H20 charge vs $0.93 LSEG consensus — beat on the comparable basis (GAAP $0.76).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenue expected to be $45 billion, plus or minus 2%, absorbing a loss in H20 revenue of approximately $8 billion.",
+      "quote": "Total revenue is expected to be $45 billion, plus or minus 2%. ... Note, our outlook reflects a loss in H20 revenue of approximately $8 billion for the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP gross margins 60.5%, non-GAAP 61%. Excluding the $4.5B charge, Q1 non-GAAP gross margins would have been 71.3%.",
+      "quote": "GAAP gross margins and non-GAAP gross margins were 60.5% and 61%, respectively. Excluding the $4.5 billion charge, Q1 non-GAAP gross margins would have been 71.3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 guidance: GAAP and non-GAAP gross margins expected to be 71.8% and 72%, respectively, working toward mid-70%s late this year.",
+      "quote": "GAAP and non-GAAP gross margins are expected to be 71.8% and 72%, respectively, plus or minus 50 basis points. ... We are continuing to work towards achieving gross margins in the mid-70%s range late this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Losing access to the China AI accelerator market would have a material adverse impact.",
+      "quote": "Losing access to the China AI accelerator market, which we believe will grow to nearly $50 billion, would have a material adverse impact on our business going forward and benefit our foreign competitors in China and worldwide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Export controls have spurred China's innovation and scale.",
+      "quote": "Export restrictions have spurred China's innovation and scale. The AI race is not just about chips, it's about which stack the world runs on.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The H20 export ban ended our Hopper Data Center business in China.",
+      "quote": "Today, however, the $50 billion China market is effectively closed to U.S. industry. The H20 export ban ended our Hopper Data Center business in China.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Blackwell ramp is the fastest in company history, driving 73% year-on-year Data Center revenue increase.",
+      "quote": "Our Blackwell ramp, the fastest in our company's history, drove a 73% year-on-year increase in Data Center revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sharp jump in inference demand, with reasoning AI requiring orders of magnitude more compute.",
+      "quote": "Reasoning AI enables step-by-step problem solving, planning and tool use, turning models into intelligent agents. Reasoning is compute-intensive, requires hundreds to thousands more — thousands of times more tokens per task than previous one-shot inference.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nearly 100 NVIDIA-powered AI factories in flight, a two-fold increase year-over-year.",
+      "quote": "The pace and scale of AI factory deployments are accelerating with nearly 100 NVIDIA-powered AI factories in flight this quarter, a two-fold increase year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Enterprise AI: new products like RTX Pro, DGX Spark, and DGX Station ready to modernize $500 billion IT infrastructure.",
+      "quote": "Enterprise AI, AI must be deployable on-prem and integrated with existing IT. Our RTX Pro, DGX Spark and DGX Station enterprise AI systems are ready to modernize the $500 billion IT infrastructure on-prem or in the cloud.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industrial AI: Omniverse and Isaac GR00T powering next-generation factories and humanoid robotics.",
+      "quote": "Industrial AI from training to digital twin simulation to deployment, NVIDIA Omniverse and Isaac GR00T are powering next-generation factories and humanoid robotic systems worldwide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "This is the start of a powerful new wave of growth. Grace Blackwell is in full production. We're off to the races. We now have multiple significant growth engines.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of 0.35 reflects a positive surprise on the ex-China trajectory, held back by the genuine China loss.",
+      "quote": "The $4.5 billion charge was less than what we initially anticipated as we were able to re-use certain materials. ... Losing access to the China AI accelerator market, which we believe will grow to nearly $50 billion, would have a material adverse impact on our business going forward.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.35 is based on the interpretation that the H20 charge was pre-announced and thus not new negative news, while the underlying business is strong. A reviewer should confirm that the market indeed treated the charge as stale news and that the ex-China acceleration is the dominant signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NVDA_Bundled Earnings Report_2025-08-27",
+  "report_metadata": {
+    "issuer": "p2_nvidia",
+    "company": "Nvidia",
+    "ticker": "NVDA",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-27",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q2\\NVDA-Q1FY26-earnings-call-transcript-AlphaStreet.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q2\\NVIDIA Q2 2025 - Dragos manual baseline.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NVDA_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214313Z",
+    "timestamp": "2026-07-18T21:43:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q2\\NVDA-Q1FY26-earnings-call-transcript-AlphaStreet.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nvidia\\extracted\\NVDA_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q2\\NVDA-Q1FY26-earnings-call-transcript-AlphaStreet.html",
+        "page_count": 1,
+        "extracted_characters": 51196,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q2\\NVIDIA Q2 2025 - Dragos manual baseline.pdf",
+        "page_count": 5,
+        "extracted_characters": 9640,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nvidia\\extracted\\NVDA_FQ2_2025.txt"
+  }
+}

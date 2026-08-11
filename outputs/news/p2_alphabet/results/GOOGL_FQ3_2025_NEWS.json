@@ -1,0 +1,44 @@
+{
+  "document_id": "GOOGL_FQ3_2025_NEWS",
+  "base_document_id": "GOOGL_FQ3_2025",
+  "issuer": "p2_alphabet",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This pre-earnings digest indicates that market expectations are elevated, with analysts anticipating a major milestone of $100 billion in quarterly revenue and expecting double-digit growth across all segments. The document notes that markets expected high volatility and a potential stock movement of ±6%, suggesting a demanding bar with little room for error. Since expectations are stretched, the risk of a negative surprise is heightened, leading to a slightly bearish sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T094945Z",
+    "timestamp": "2026-08-09T09:49:53Z",
+    "status": "success",
+    "document_id": "GOOGL_FQ3_2025_NEWS",
+    "issuer": "p2_alphabet",
+    "company": "Alphabet",
+    "ticker": "GOOGL",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_alphabet\\GOOGL_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3854,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1040,
+    "total_tokens": 4894,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002133,
+    "latency_seconds": 7.53,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

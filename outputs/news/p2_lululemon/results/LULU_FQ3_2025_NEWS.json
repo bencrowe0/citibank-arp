@@ -1,0 +1,44 @@
+{
+  "document_id": "LULU_FQ3_2025_NEWS",
+  "base_document_id": "LULU_FQ3_2025",
+  "issuer": "p2_lululemon",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "This is a pre-earnings market expectations digest, not an earnings release. The document describes deeply depressed expectations: the stock had fallen 52.14% YTD, analyst estimates had been unchanged (not raised), and the narrative is 'deeply bearish' with 'a genuinely stretched-to-the-downside setup.' A low bar increases the odds of a positive surprise, warranting a mildly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162127Z",
+    "timestamp": "2026-07-20T16:21:35Z",
+    "status": "success",
+    "document_id": "LULU_FQ3_2025_NEWS",
+    "issuer": "p2_lululemon",
+    "company": "Lululemon",
+    "ticker": "LULU",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-12-11",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lululemon\\LULU_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3599,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1118,
+    "total_tokens": 4717,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00215,
+    "latency_seconds": 8.1,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.35,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

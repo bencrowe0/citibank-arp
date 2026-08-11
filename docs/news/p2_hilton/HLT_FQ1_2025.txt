@@ -1,0 +1,7 @@
+Hilton (HLT) - News coverage digest, FQ1 2025 earnings (report date 2025-04-29)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of its April 29, 2025 report (before the opening bell), the Zacks Consensus Estimate for Hilton's first-quarter EPS stood at $1.61, indicating growth of 5.2% from the $1.53 reported in the year-ago quarter, with revenue consensus pegged at $2.71 billion, also suggesting 5.2% year-over-year growth. Hilton's earnings had beaten the Zacks Consensus Estimate in each of the trailing four quarters, with an average surprise of 5.1%, setting up expectations for another beat. Analysts attributed the anticipated growth to robust leisure and business travel trends, an expanding property footprint, and strategic brand partnerships continuing to support RevPAR and fee income heading into the print.
+
+Sources:
+- https://www.zacks.com/stock/news/2456722/hilton-to-post-q1-earnings-whats-in-the-cards-for-the-stock (Zacks Equity Research, published April 28, 2025)

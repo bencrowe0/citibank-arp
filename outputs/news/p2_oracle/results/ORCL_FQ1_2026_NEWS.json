@@ -1,0 +1,44 @@
+{
+  "document_id": "ORCL_FQ1_2026_NEWS",
+  "base_document_id": "ORCL_FQ1_2026",
+  "issuer": "p2_oracle",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest describes elevated market expectations heading into Oracle's Q1 FY2026 print: the stock is positioned as a major AI infrastructure player, with consensus rating 'Moderate Buy' and price targets up to $315, and analysts are on record expecting 'significant AI-driven upside to guidance.' This suggests a high bar, leaving little room for a soft print, which raises the risk of a negative market reaction even if results are decent. Therefore, the sentiment is bearish from a forward-expectations perspective, as the digest indicates stretched expectations rather than depressed ones."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T101607Z",
+    "timestamp": "2026-08-09T10:16:17Z",
+    "status": "success",
+    "document_id": "ORCL_FQ1_2026_NEWS",
+    "issuer": "p2_oracle",
+    "company": "Oracle",
+    "ticker": "ORCL",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-09-09",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_oracle\\ORCL_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3890,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1245,
+    "total_tokens": 5135,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002369,
+    "latency_seconds": 9.65,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,9 @@
+Target (TGT) - News coverage digest, FQ1 2025 earnings (report date 2025-05-21)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of Target's fiscal Q1 2025 results before market open on Wednesday, analyst sentiment was cautious rather than bullish. Of 13 analysts tracked by Visible Alpha, eight rated TGT a Hold and five rated it a Buy. The stock had already fallen more than 25% year-to-date, while the average price target of $117.54 still implied nearly 20% upside from the prior Friday close. Consensus expected EPS of $1.64 on revenue of $24.41 billion, with comparable store sales down 1.5% year-over-year; some analysts warned the comparable-sales decline could be closer to 4%.
+
+The main setup was whether Target would cut full-year guidance after warning last quarter that tariffs and worsening consumer sentiment were likely to pressure future performance. JPMorgan expected lower full-year sales and profit forecasts but remained constructive on Target's long-term relevance. Morgan Stanley also expected guidance to come down, citing weaker consumer sentiment, discretionary-category softness, and Target-specific execution problems. Oppenheimer remained more positive on long-term upside, while UBS framed the key issues as stabilizing market share, defining the brand's market position, and demonstrating sustainable profitability.
+
+Sources:
+- https://www.investopedia.com/what-analysts-think-of-target-stock-ahead-of-earnings-11737321 (Investopedia, published May 19, 2025)

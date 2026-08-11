@@ -1,0 +1,7 @@
+Hilton (HLT) - News coverage digest, FQ2 2025 earnings (report date 2025-07-23)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of its second-quarter 2025 report, scheduled for Wednesday, July 23, 2025 before the market open, Hilton (market cap ~$65.2 billion at the time) was expected by analysts to post adjusted EPS of $2.03, up 6.3% from $1.91 in the same quarter a year earlier. The company had surpassed Wall Street's bottom-line estimates in each of the four preceding quarters, a track record that was framed as supportive of another beat heading into the print. Coverage centered on Hilton's hospitality franchise/management model (McLean, VA-based, operating Management & Franchise and Ownership segments) and its ability to keep growing fee-based earnings even as broader travel-demand growth normalized from its post-pandemic pace.
+
+Sources:
+- https://finance.yahoo.com/news/expect-hilton-worldwides-q2-2025-114007239.html (Kritika Sarmah, Barchart via Yahoo Finance, published July 17, 2025)

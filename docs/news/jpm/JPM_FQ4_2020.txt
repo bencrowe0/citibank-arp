@@ -1,0 +1,10 @@
+JPMorgan Chase (JPM) - News coverage digest, FQ4 2020 earnings (report date 2021-01-15)
+Fetched via web search across free financial outlets (Seeking Alpha, Forbes). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the January 15 report, Wall Street consensus called for JPMorgan Q4 2020 EPS of about $2.65 (+3.1% year-over-year) on revenue near $28.74 billion (+1.6% year-over-year), with analysts modeling a provision for credit losses of roughly $1.31 billion. The pre-earnings estimate trend was strongly positive: over the three months into the print, EPS estimates had seen 14 upward revisions and zero downward, and revenue estimates 9 upward and zero downward - analysts were steadily marking the quarter higher, and JPM had beaten EPS and revenue estimates about 88% of the time over the prior two years, so expectations heading in were elevated rather than depressed.
+
+Against that rising-estimate backdrop, the dominant valuation note in pre-earnings coverage was caution: Forbes' January 14 preview argued JPMorgan was "likely to surpass Q4 revenue expectations but the stock looks overvalued," framing the shares as having already run ahead of fundamentals into the recovery-trade rally. The setup was therefore one of high and rising expectations plus a full valuation - a stretched-expectations configuration where a beat was widely anticipated and much of the good news appeared priced in.
+
+Sources:
+- https://seekingalpha.com/news/3651539-jpmorgan-chase-q4-2020-earnings-preview (Seeking Alpha, "JPMorgan Chase Q4 2020 Earnings Preview" - consensus EPS $2.65, revenue $28.74B, revision counts; published before the January 15, 2021 report)
+- https://www.forbes.com/sites/greatspeculations/2021/01/14/jpmorgan-likely-to-surpass-q4-revenue-expectations-but-the-stock-looks-overvalued/ (Forbes, "JPMorgan Likely To Surpass Q4 Revenue Expectations But The Stock Looks Overvalued" - published January 14, 2021, day before the report)

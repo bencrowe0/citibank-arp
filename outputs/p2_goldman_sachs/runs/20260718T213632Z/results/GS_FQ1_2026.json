@@ -1,0 +1,199 @@
+{
+  "document_id": "GS_FQ1_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports record or near-record results for Q1 2026, but forward guidance is not formally raised; management expresses confidence in the franchise and a constructive outlook for M&A and capital markets, yet explicitly flags headwinds from geopolitical uncertainty, NIM compression persisting through 2026, and a cautious view on IPO activity. The overall tone is confident but hedged, with no material upward revision to forward expectations, placing the score at the low end of the positive range."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues of $17.2 billion, the second highest quarterly level in company history.",
+    "eps": "Earnings per share of $17.55, ranking as the second highest ever achieved.",
+    "guidance": "No formal guidance raise. Management expects Platform Solutions revenues to run lower for the rest of the year consistent with seasonality. NIM compression in private banking and lending is expected to persist through 2026. Management expressed a constructive outlook for M&A and capital markets contingent on macro and geopolitical stability, and expects IPO activity to accelerate if market resilience continues.",
+    "margin": "Efficiency ratio reached 60.5%; compensation ratio net of provisions was 32%. Return on equity (ROE) was 19.8%, return on tangible equity (ROTE) was 21.3%.",
+    "key_risks": [
+      "Conflict in the Middle East slowing IPO activity, particularly in March.",
+      "NIM compression in private banking and lending expected to persist through 2026.",
+      "Higher energy prices could translate through to inflation and growth in Q2/Q3.",
+      "Geopolitical landscape remains very complex.",
+      "Provision for credit losses of $315 million reflecting growth and impairments in wholesale lending.",
+      "Transaction-based expenses and competitive deposit gathering weighing on NIM."
+    ],
+    "key_opportunities": [
+      "Record performance in Global Banking & Markets, with segment ROE above 22%.",
+      "Record equities financing revenues of $2.6 billion, up 59% year over year, led by Asia.",
+      "Strong long-term net inflows of $62 billion, 33rd consecutive quarter of positive fee-based flows.",
+      "Innovator acquisition adds $31 billion in AUS and positions firm among global top 10 active ETF providers.",
+      "Private credit fundraising of $10 billion in the quarter; $26 billion total third-party alternatives fundraising.",
+      "Asia financing growth as a key strategic opportunity with more room to expand.",
+      "Accelerated investments in AI and cloud migration expected to drive efficiency and operating leverage.",
+      "Constructive regulatory reform direction (Basel III finalization, G-SIB surcharge reproposal)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "David Solomon stated, 'we delivered a very strong performance' and 'these results reflect the strength of our global franchise,' while also acknowledging headwinds and uncertainty, but the overall register is confident."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues were $17.2 billion, the second highest quarterly level in company history.",
+      "quote": "In the first quarter, we delivered a very strong performance, generating net revenues of $17.2 billion, net earnings of $5.6 billion and earnings per share of $17.55. All 3 of which were the second highest in the history of Goldman Sachs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share of $17.55, ranking as the second highest ever achieved.",
+      "quote": "In the first quarter, we delivered a very strong performance, generating net revenues of $17.2 billion, net earnings of $5.6 billion and earnings per share of $17.55. All 3 of which were the second highest in the history of Goldman Sachs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal guidance raise; management expects Platform Solutions revenues to run lower for the rest of the year.",
+      "quote": "We expect revenues for the rest of the year to run lower, in line with seasonal trends in the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NIM compression in private banking and lending expected to persist through 2026.",
+      "quote": "There is an impact from the more competitive environment for deposit raising. And we do expect that will persist as a headwind for much of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio reached 60.5%.",
+      "quote": "Total quarterly operating expenses were $10.4 billion, resulting in an efficiency ratio of 60.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on equity (ROE) was 19.8%, return on tangible equity (ROTE) was 21.3%.",
+      "quote": "As a result, we delivered a return on equity of 19.8% and an ROTE of 21.3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Conflict in the Middle East slowing IPO activity, particularly in March.",
+      "quote": "David Solomon stated, 'there is no question that with the conflict in the Middle East, IPO activity slowed a little bit, particularly in March.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record equities financing revenues of $2.6 billion, up 59% year over year, led by Asia.",
+      "quote": "Record Equities financing revenues of $2.6 billion were 59% higher year-over-year with particular strength in Asia amid another record for average prime balances in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong long-term net inflows of $62 billion, 33rd consecutive quarter of positive fee-based flows.",
+      "quote": "We saw $62 billion of long-term net inflows across asset classes representing our 33rd consecutive quarter of long-term fee-based net inflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Innovator acquisition adds $31 billion in AUS and positions firm among global top 10 active ETF providers.",
+      "quote": "We are pleased to have closed the acquisition of Innovator in the second quarter, which adds an additional $31 billion in assets under supervision across a suite of over 170 ETF focused on defined outcome strategies putting us in the top 10 of global active ETF providers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Private credit fundraising of $10 billion in the quarter; $26 billion total third-party alternatives fundraising.",
+      "quote": "In alternatives, we raised $26 billion across asset classes with private credit strategies generating $10 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia financing growth as a key strategic opportunity with more room to expand.",
+      "quote": "As we highlighted in last quarter's strategic update, Asia is one of the key growth opportunities for our FICC and equities businesses. And while there's still work to do, we're pleased by the progress to date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Accelerated investments in AI and cloud migration expected to drive efficiency and operating leverage.",
+      "quote": "We are, therefore, accelerating our investments in cloud migration, and in the accuracy, completeness and timeliness of our data. These investments are critical to optimizing the deployment of AI solutions across the firm, which will allow us to unlock greater productivity and efficiency opportunities over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Constructive regulatory reform direction (Basel III finalization, G-SIB surcharge reproposal).",
+      "quote": "Against that backdrop, we're encouraged by the direction of regulatory reform, including the recent Basel III finalization and G-SIB surcharge reproposal, while the rule-making process is still underway, and we plan to participate in the comment period, we believe this direction is positive for the banking system as a whole, better aligning regulatory outcomes with actual risk.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "David Solomon stated, 'we delivered a very strong performance' and 'these results reflect the strength of our global franchise.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses of $315 million reflecting growth and impairments in wholesale lending.",
+      "quote": "Our provision for credit losses of $315 million reflected growth and impairments in our wholesale lending portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Transaction-based expenses and competitive deposit gathering flagged as headwinds.",
+      "quote": "Transaction-based expenses, and competitive deposit gathering were flagged as factors weighing on NIM in private banking and lending; management expects this headwind to persist through 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the HOLD/BUY threshold. A human reviewer should confirm whether the confident but hedged forward language justifies a BUY signal or if the lack of a formal guidance raise and explicit headwinds keep it at HOLD."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2026-04-13",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-13",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2026-Q1\\GS-Q1-2026-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T213632Z",
+    "timestamp": "2026-07-18T21:37:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2026-Q1\\GS-Q1-2026-earnings-call-transcript-MotleyFool.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2026-Q1\\GS-Q1-2026-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 82030,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ1_2026.txt"
+  }
+}

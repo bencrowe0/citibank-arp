@@ -1,0 +1,44 @@
+{
+  "document_id": "EXPE_FQ4_2025_NEWS",
+  "base_document_id": "EXPE_FQ4_2025",
+  "issuer": "p2_expedia",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates that analyst estimates have been revised downward by 11.9% over the past 30 days, which lowers the bar for a positive surprise and supports a mildly bullish score. However, the overall tone remains constructive with expectations of strong execution and continued growth, but the downward revision tempers the score. The document does not contain actual guidance or results, so the score reflects the lowered expectations rather than a guidance change."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T100313Z",
+    "timestamp": "2026-08-09T10:03:23Z",
+    "status": "success",
+    "document_id": "EXPE_FQ4_2025_NEWS",
+    "issuer": "p2_expedia",
+    "company": "Expedia",
+    "ticker": "EXPE",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-12",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_expedia\\EXPE_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3838,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1907,
+    "total_tokens": 5745,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003083,
+    "latency_seconds": 10.32,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

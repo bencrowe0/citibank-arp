@@ -1,0 +1,8 @@
+Tesla (TSLA) - News coverage digest, FQ4 2025 earnings (report date 2026-01-28)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the January 28, 2026 report, analysts expected revenue of about $24.5-$24.8 billion (down ~3% YoY) and non-GAAP EPS of $0.44-$0.45 (down 30-40% YoY; GAAP EPS estimated at $0.30). Deliveries for the quarter had come in at 418,227 vehicles, down ~16% YoY, bringing the full-year 2025 total to 1.63 million - a genuine, already-known decline heading into the print, not a surprise. Automotive gross margin (ex-regulatory-credits) was expected to fall further to about 14.3-14.8%. A bright spot flagged in coverage was record energy-storage deployment (14.2 GWh) for the quarter - the storage/energy business was the one clearly positive pre-earnings data point against an otherwise declining core-auto backdrop.
+
+Sources:
+- https://www.marketpulse.com/markets/tesla-tsla-q4-2025-earnings-preview-a-high-stakes-test-of-patience-and-promise/ (MarketPulse/OANDA, "Tesla (TSLA) Q4 2025 Earnings Preview: A High-Stakes Test of Patience and Promise" - published prior to the January 28, 2026 report)
+- https://electrek.co/2026/01/27/tesla-tsla-q4-2025-earnings-preview-another-year-decline/ (Electrek, "Tesla (TSLA) Q4 2025 earnings preview: another year of decline in the books" - published January 27, 2026, one day before the report)

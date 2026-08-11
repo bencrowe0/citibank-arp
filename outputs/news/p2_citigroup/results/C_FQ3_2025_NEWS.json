@@ -1,0 +1,44 @@
+{
+  "document_id": "C_FQ3_2025_NEWS",
+  "base_document_id": "C_FQ3_2025",
+  "issuer": "p2_citigroup",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings market expectations digest that only reports consensus estimates (EPS ~$1.72, revenue ~$21.18B) ahead of Citigroup's FQ3 2025 earnings. The document contains no commentary on stretched or depressed expectations, no mention of valuation, no analyst estimate revisions, and no discussion of the bar being high or low. Therefore, the score is neutral (0.0) as there is no information to suggest either elevated or depressed expectations."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161801Z",
+    "timestamp": "2026-07-20T16:18:08Z",
+    "status": "success",
+    "document_id": "C_FQ3_2025_NEWS",
+    "issuer": "p2_citigroup",
+    "company": "Citigroup",
+    "ticker": "C",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_citigroup\\C_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3453,
+    "cache_hit_tokens": 256,
+    "output_tokens": 900,
+    "total_tokens": 4353,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001871,
+    "latency_seconds": 6.93,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "document_id": "GS_FQ1_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports strong Q1 results (EPS $14.12 vs. expectations $12.32, record revenues in several segments) and management expresses confidence in the franchise. However, forward guidance is not formally raised; management explicitly flags 'significant near-term and longer-term uncertainty' from trade policy and slowing economic growth, and notes that the backlog's conversion depends on market conditions. The cautious forward language and lack of a formal guidance raise keep the score near neutral, slightly positive due to the strong operational momentum and record financing revenues."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues of $15.1 billion for Q1 2025.",
+    "eps": "Earnings per share of $14.12, beating expectations of $12.32.",
+    "guidance": "No formal forward guidance raised. Management notes backlog is up for the fourth consecutive quarter but execution depends on market conditions. Expects high single-digit annual growth in durable revenues (Management and other fees + Private banking and lending) over time. Expects fundraising to be in line with recent years, though this outlook could be impacted by market conditions. Full-year tax rate expected to be approximately 21%.",
+    "margin": "ROE of 16.9%, ROTE of 18%. Global Banking & Markets segment ROE over 20%. Asset & Wealth Management segment pre-tax margin of 21% (would be 2 percentage points higher excluding historical principal investments). Efficiency ratio of 60.6%.",
+    "key_risks": [
+      "Significant near-term and longer-term uncertainty from trade policy and trade war, creating material risks to the US and global economy.",
+      "Prospect of recession has increased with growing indications of economic activity slowing around the world.",
+      "Uncertainty around the path forward and fears over potentially escalating effects of the trade war have constrained clients' ability to make important decisions.",
+      "Market conditions could impact the conversion of the backlog into revenues.",
+      "Market conditions could impact fundraising outlook.",
+      "Potential deleveraging and lower asset prices could reduce financing balances."
+    ],
+    "key_opportunities": [
+      "Record AUS of $3.2 trillion, 29th consecutive quarter of long-term fee-based net inflows.",
+      "Strong alternatives fundraising ($19 billion in the quarter, $342 billion since 2019).",
+      "Record FICC financing revenues ($1 billion) and record equities financing revenues ($1.6 billion).",
+      "Backlog up for the fourth consecutive quarter, with a notable increase in advisory.",
+      "Continued investment in technology and AI to improve efficiency and client service.",
+      "Potential regulatory tailwinds from capital, leverage, liquidity, and supervision reform.",
+      "Secular growth in private assets and increasing participation from individual investors."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses strong confidence in the franchise and its ability to deliver for clients ('our leading franchises have never been better positioned'), but also repeatedly highlights significant uncertainty and risks from the macroeconomic and trade policy environment ('significant near-term and longer-term uncertainty that has constrained their ability to make important decisions')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues were $15.1 billion for Q1 2025.",
+      "quote": "In the first quarter, we generated net revenues of $15.1 billion, earnings per share of $14.12, an ROE of 16.9% and an ROTE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $14.12, beating expectations of $12.32.",
+      "quote": "The Goldman Sachs Group, Inc. beats earnings expectations. Reported EPS is $14.12, expectations were $12.32.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal forward guidance raised; management flags significant uncertainty.",
+      "quote": "This uncertainty around the path forward and fears over the potentially escalating effects of the trade war have created material risks to the US and global economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backlog is up for the fourth consecutive quarter but execution depends on market conditions.",
+      "quote": "As we stand today, our client dialogues remain elevated and our backlog is up for the fourth consecutive quarter. That being said, our ability to execute on these transactions will, of course, be dependent on market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE was 16.9%, ROTE was 18%.",
+      "quote": "In the first quarter, we generated net revenues of $15.1 billion, earnings per share of $14.12, an ROE of 16.9% and an ROTE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Banking & Markets segment ROE over 20%.",
+      "quote": "Global Banking & Markets produced revenues of $10.7 billion in the first quarter and generated an ROE of over 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio was 60.6%.",
+      "quote": "Total quarterly operating expenses were $9.1 billion, resulting in an efficiency ratio of 60.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record AUS of $3.2 trillion, 29th consecutive quarter of long-term fee-based net inflows.",
+      "quote": "This quarter, our assets under supervision rose to a record of $3.2 trillion. This represents our 29th consecutive quarter of long-term fee-based net inflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Alternatives fundraising of $19 billion in the quarter.",
+      "quote": "We raised another $19 billion in the quarter, bringing our total fundraising of alternatives since 2019 to $342 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record FICC financing revenues of $1 billion.",
+      "quote": "We produced record FICC financing revenues of $1 billion, driven by solid performance in mortgages and structured lending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record equities financing revenues of $1.6 billion.",
+      "quote": "Record equities financing revenues of $1.6 billion were higher year-over-year on better portfolio financing results and record average prime balances for the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident in franchise but cautious on macro uncertainty.",
+      "quote": "Our leading franchises have never been better positioned to support our clients. ... This uncertainty around the path forward and fears over the potentially escalating effects of the trade war have created material risks to the US and global economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: significant near-term and longer-term uncertainty from trade policy.",
+      "quote": "This uncertainty around the path forward and fears over the potentially escalating effects of the trade war have created material risks to the US and global economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: prospect of recession has increased.",
+      "quote": "The prospect of a recession has increased with growing indications that economic activity is slowing down around the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: potential regulatory tailwinds from capital reform.",
+      "quote": "I continue to believe, even in this environment, that there will be progress on this. ... that's very good for the industry as a whole.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: secular growth in private assets.",
+      "quote": "I continue to think that secular growth over the next 5, 10, 15 years is going to be meaningful as more people continue to shift to gain exposure to private assets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year tax rate expected to be approximately 21%.",
+      "quote": "For the full year, we expect a tax rate of approximately 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expects high single-digit annual growth in durable revenues over time.",
+      "quote": "We continue to expect high single-digit annual growth in these lines over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is near neutral (0.10) despite strong absolute results and record metrics, because forward guidance was not raised and management explicitly flagged significant macro uncertainty. A reviewer may wish to assess whether the strong operational momentum warrants a slightly higher score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2025-04-14",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213238Z",
+    "timestamp": "2026-07-18T21:32:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 69233,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ1_2025.txt"
+  }
+}

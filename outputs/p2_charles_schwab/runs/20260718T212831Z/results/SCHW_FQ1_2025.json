@@ -1,0 +1,177 @@
+{
+  "document_id": "SCHW_FQ1_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Management explicitly states they are tracking around the upper end of the full-year scenario outlined in January, which implied EPS of $4.10-$4.20, and expresses confidence in strong revenue and earnings expansion for 2025. This represents a meaningful upward trajectory relative to prior guidance, supported by strong Q1 results and robust early April activity. The tone is confident and forward-looking, with no material risks raised that would offset this positive outlook."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue increased 18% year-over-year to $5.6 billion, a record.",
+    "eps": "Adjusted earnings per share increased 41% year-over-year to $1.04, beating expectations of $1.01.",
+    "guidance": "Management is tracking around the upper end of the full-year scenario outlined in January, which implied EPS in the $4.10 to $4.20 range, excluding any impacts from buybacks. They expect strong revenue and earnings expansion in 2025 and are poised for additional capital return over the course of the year.",
+    "margin": "Adjusted pretax profit margin of 46.2%, representing over 500 basis points of expansion versus 1Q '24.",
+    "key_risks": [
+      "Lower expected future path of interest rates (potential incremental cuts mostly in back half of 2025).",
+      "Lower equity markets.",
+      "Uncertainty in the macroeconomic backdrop and policy environment.",
+      "Potential for tax-related outflows in Q2 to make it more challenging to replicate the level of supplemental funding paydown observed in prior quarters."
+    ],
+    "key_opportunities": [
+      "Strong core net new asset growth of $138 billion, up 44% year-over-year.",
+      "Record net inflows into managed investing solutions and record engagement with wealth solutions.",
+      "Continued progress in reducing high-cost supplemental funding, down more than 60% from peak levels.",
+      "Expansion of branch network and hiring of financial consultants to drive organic growth.",
+      "Launch of new capabilities including 24/5 trading, AI-powered assistants, and alternative investments platform.",
+      "Strong capital position providing flexibility for capital return and balance sheet management."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'we remain highly confident in our long term diversified model,' 'we are well positioned to accelerate our growth over the long term,' and 'we are off to a strong start with growth across all key measures,' reflecting a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue increased 18% year-over-year to $5.6 billion, a record.",
+      "quote": "First quarter revenue increased 18% year-over-year to a record $5.6 billion, including double digit growth across all line items versus 1Q '24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted earnings per share increased 41% year-over-year to $1.04, beating expectations of $1.01.",
+      "quote": "Reported EPS is $1.04, expectations were $1.01. ... adjusted earnings per share increased 41% over the first quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is tracking around the upper end of the full-year scenario outlined in January, which implied EPS in the $4.10 to $4.20 range.",
+      "quote": "The combination of our strong 1Q '25 results and diversified model has us currently tracking around the upper end of the full year scenario outlined at the winter business update in January, which implied earnings per share in the $4.10 to $4.20 range, excluding any impacts from buybacks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pretax profit margin of 46.2%, representing over 500 basis points of expansion versus 1Q '24.",
+      "quote": "Strong top line growth plus balanced expense management generated a 46.2% adjusted pretax profit margin, representing over 500 basis points of expansion versus 1Q '24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower expected future path of interest rates is a risk.",
+      "quote": "We've seen sizable movements across three of the inputs to our financial scenario, including a lower expected future path of interest rates, lower equity markets and a sequential step-up in client trading activity as the market pulled back and volatility reemerged.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong core net new asset growth of $138 billion, up 44% year-over-year.",
+      "quote": "Investors turned to us during the first quarter and trusting us with $138 billion in core new assets, which is up 44% over the first quarter of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We remain highly confident in our long term diversified model. ... we are well positioned to accelerate our growth over the long term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects strong revenue and earnings expansion in 2025.",
+      "quote": "As we shared in January and continue to believe, we expect strong revenue and earnings expansion in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record net inflows into managed investing solutions.",
+      "quote": "Managed investing net flows increased 15% over the same period last year to a new record with continued strong contribution from Ameritrade clients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued progress in reducing high-cost supplemental funding, down more than 60% from peak levels.",
+      "quote": "We made additional progress on reducing the level of bank supplemental funding to approximately $38 billion, down more than 60% from peak levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion of branch network and hiring of financial consultants.",
+      "quote": "We expect to open up around 16 new branches this year. ... we expect to grow roughly 250 new financial and wealth consultants during the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of new capabilities including 24/5 trading, AI-powered assistants, and alternative investments platform.",
+      "quote": "We expanded our trader offer with the delivery of a 24 by five trading capability on our thinkorswim platform. ... we launched Schwab Knowledge Assistant for advisor services clients. ... we rolled out retail alternatives to all eligible clients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong capital position providing flexibility for capital return.",
+      "quote": "Our capital levels finished the quarter slightly above the upper bound of the firm's adjusted Tier 1 leverage objective of 6.75% to 7%. ... we are poised for additional capital return over the course of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for tax-related outflows in Q2 to make it more challenging to replicate the level of supplemental funding paydown.",
+      "quote": "For example, sizable tax related outflows in 2Q will likely make it more challenging to replicate the level of paydown observed over the past two quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on management tracking at the upper end of prior guidance, which is a positive forward signal but not a formal guidance raise. A reviewer may want to confirm this interpretation is appropriate given the lack of an explicit numerical guidance increase."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2025-04-17",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q1\\SCHW-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212831Z",
+    "timestamp": "2026-07-18T21:28:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q1\\SCHW-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q1\\SCHW-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 65775,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ1_2025.txt"
+  }
+}

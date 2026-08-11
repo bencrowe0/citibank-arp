@@ -1,0 +1,44 @@
+{
+  "document_id": "GS_FQ2_2025_NEWS",
+  "base_document_id": "GS_FQ2_2025",
+  "issuer": "p2_goldman_sachs",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are. The document states the stock was trading at $1,057, modestly above the average analyst price target of $1,019, and describes this as a 'mildly stretched setup relative to where sell-side models saw fair value.' This elevated valuation relative to the average target suggests a demanding bar, increasing the risk of a negative surprise even on decent results. There is no mention of depressed expectations or a lowered bar, so the score is mildly bearish."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T161948Z",
+    "timestamp": "2026-07-20T16:19:56Z",
+    "status": "success",
+    "document_id": "GS_FQ2_2025_NEWS",
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-16",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_goldman_sachs\\GS_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3498,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1060,
+    "total_tokens": 4558,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002059,
+    "latency_seconds": 7.82,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

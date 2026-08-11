@@ -1,0 +1,168 @@
+{
+  "document_id": "AMZN_FQ3_2025",
+  "sentiment": {
+    "score": -0.55,
+    "rationale": "The document's sentiment score is derived from the analyst's own scoring worksheet, which assigns a score of -0.55 with the rationale that AWS reaccelerated but only to about 20%, still short of hyperscaler pace, and the beat leaned on one-off items with capex climbing faster than cash to fund it. The forward guide shows higher capex with no formal guidance raise, and the analyst's directional signal is SELL, indicating a bearish view on forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$180.2B, up 12% year over year excluding currency",
+    "eps": "Not disclosed",
+    "guidance": "Full-year 2025 cash capex about $125B, with 2026 expected higher. Q4 includes at least $1B of additional power capacity spend.",
+    "margin": "Operating income $17.4B including a $2.5B FTC settlement and $1.8B of severance. AWS margins subject to swings as AI data center depreciation builds.",
+    "key_risks": [
+      "AWS margins subject to swings as AI data center depreciation builds",
+      "Power flagged as a possible industry bottleneck, with chips a later constraint",
+      "Agentic commerce still immature on personalization, delivery estimates and pricing"
+    ],
+    "key_opportunities": [
+      "AWS growing at fastest pace since 2022, reaccelerating to 20.2%",
+      "Advertising strong at 22%",
+      "Higher capex tied to visible AI demand"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management highlights strong AWS reacceleration and advertising growth but also flags capacity constraints and immature agentic commerce, creating a mixed tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $180.2B, up 12% year over year excluding currency.",
+      "quote": "Revenue $180.2B, up 12% year over year excluding currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS grew 20.2%, the fastest since 2022, at a $132B annualized run rate.",
+      "quote": "AWS $33B, up 20.2%, the fastest since 2022, at a $132B annualized run rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue was $17.7B, up 22%.",
+      "quote": "Advertising $17.7B, up 22%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income was $17.4B including a $2.5B FTC settlement and $1.8B of severance.",
+      "quote": "Operating income $17.4B including a $2.5B FTC settlement and $1.8B of severance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 cash capex is about $125B, with 2026 expected higher.",
+      "quote": "Full-year 2025 cash capex about $125B, with 2026 expected higher.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 includes at least $1B of additional power capacity spend.",
+      "quote": "Q4 includes at least $1B of additional power capacity spend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS margins are subject to swings as AI data center depreciation builds.",
+      "quote": "AWS margins subject to swings as AI data center depreciation builds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Power is flagged as a possible industry bottleneck, with chips a later constraint.",
+      "quote": "Power flagged as a possible industry bottleneck, with chips a later constraint.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentic commerce is still immature on personalization, delivery estimates and pricing.",
+      "quote": "Agentic commerce still immature on personalization, delivery estimates and pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with positive AWS and advertising growth but flagged risks.",
+      "quote": "AWS is growing at a pace we haven't seen since 2022, reaccelerating to 20.2% – Jassy, prepared remarks. Power flagged as a possible industry bottleneck, with chips a later constraint.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is -0.55, reflecting a bearish view on forward expectations.",
+      "quote": "Score: -0.55. Rationale: AWS reaccelerated, but only to about 20%, still short of the hyperscaler pace, and the beat leaned on one-off items with capex climbing faster than the cash to fund it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The directional signal is SELL, crossing the lower threshold of -0.15.",
+      "quote": "Signal: SELL. Rationale: A richly valued name where 20% cloud growth may not clear the raised bar, and rising capex pressures free cash flow. SELL.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The sentiment score of -0.55 is taken directly from the analyst's worksheet, which is a subjective assessment. The document does not contain explicit forward guidance changes from management; the score is based on the analyst's interpretation of the data."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS is not disclosed in the document; the field is set to 'Not disclosed' as per instructions."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "AMZN_Bundled Earnings Report_2025-10-30",
+  "report_metadata": {
+    "issuer": "p2_amazon",
+    "company": "Amazon",
+    "ticker": "AMZN",
+    "sector": "Consumer/Retail-Tech",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q3\\02 amazon q3 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMZN_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212305Z",
+    "timestamp": "2026-07-18T21:23:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q3\\02 amazon q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q3\\02 amazon q3 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5349,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ3_2025.txt"
+  }
+}

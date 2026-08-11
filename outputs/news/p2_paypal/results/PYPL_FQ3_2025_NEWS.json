@@ -1,0 +1,44 @@
+{
+  "document_id": "PYPL_FQ3_2025_NEWS",
+  "base_document_id": "PYPL_FQ3_2025",
+  "issuer": "p2_paypal",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates that market expectations are moderately constructive but not stretched: analyst estimates have been 'generally reconfirmed' rather than raised, and sentiment is described as 'cautious but constructive.' The document highlights a 'turnaround narrative gaining credibility' after two straight beats, but also flags risks such as tariff impact and consumer spending slowdown, suggesting a balanced but slightly positive setup. Since this is a pre-earnings digest, the score reflects the moderate optimism in expectations rather than a guidance change."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T102116Z",
+    "timestamp": "2026-08-09T10:21:24Z",
+    "status": "success",
+    "document_id": "PYPL_FQ3_2025_NEWS",
+    "issuer": "p2_paypal",
+    "company": "PayPal",
+    "ticker": "PYPL",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_paypal\\PYPL_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3826,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1386,
+    "total_tokens": 5212,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002506,
+    "latency_seconds": 7.47,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

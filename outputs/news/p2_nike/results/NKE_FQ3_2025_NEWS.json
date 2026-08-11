@@ -1,0 +1,44 @@
+{
+  "document_id": "NKE_FQ3_2025_NEWS",
+  "base_document_id": "NKE_FQ3_2025",
+  "issuer": "p2_nike",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The pre-earnings digest indicates that analysts expect Nike to hit already-lowered estimates, suggesting a depressed bar that could lead to a positive surprise. However, the outlook is cautious with conservative fiscal 2026 modeling due to reinvestment and macro/tariff uncertainty, which tempers the positive expectation. Overall, expectations are somewhat depressed but not extremely so, warranting a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T113345Z",
+    "timestamp": "2026-08-09T11:33:51Z",
+    "status": "success",
+    "document_id": "NKE_FQ3_2025_NEWS",
+    "issuer": "p2_nike",
+    "company": "Nike",
+    "ticker": "NKE",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-03-20",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_nike\\NKE_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3482,
+    "cache_hit_tokens": 256,
+    "output_tokens": 899,
+    "total_tokens": 4381,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001878,
+    "latency_seconds": 6.13,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

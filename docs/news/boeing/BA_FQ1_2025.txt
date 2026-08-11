@@ -1,0 +1,12 @@
+Boeing (BA) - News coverage digest, FQ1 2025 earnings (report date 2025-04-23)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into its April 23, 2025 report, Boeing faced a wide range of analyst estimates. GuruFocus (Apr 9) noted analysts were bracing for a loss of $1.44 per share, a bigger hit than the year-ago loss of $1.13, with Boeing having missed expectations in three of the prior four quarters (most recently a Q4 2024 miss of 83.2%). The Zacks Consensus Estimate as of the following week (Apr 22) had shifted to a loss of $1.54 per share on revenue of $19.29 billion, implying 16.4% revenue growth year-over-year; that bottom-line estimate had declined significantly in the 60 days prior. Some Wall Street desks were even more cautious, projecting a net loss of $0.84 per share on revenue near $21.9 billion.
+
+Despite the grim consensus, Zacks' quantitative model flagged a positive Earnings ESP (Expected Surprise Prediction), pointing to good odds of a beat - notably, the most-accurate estimate sat above the Zacks Consensus, producing an Earnings ESP of roughly +12.7%. Analyst sentiment on the stock itself stayed broadly bullish: of 29 analysts covering Boeing, 21 rated it "Strong Buy," three "Moderate Buy," four "Hold," and one "Strong Sell," though the Zacks Rank itself sat at #3 (Hold) given elevated leverage and a still-negative earnings trajectory.
+
+Key themes analysts were watching into the print: the pace of 737 MAX and 787 delivery recovery under CEO Kelly Ortberg's turnaround plan, cash burn trends after a nearly $4 billion cash outflow in Q1 2024, tariff-related cost pressure on aerospace supply chains following new U.S. tariffs on trading partners, and full-year delivery guidance (Boeing had previously targeted roughly 400 737s and 80 787s for 2025). For fiscal 2026, analysts were modeling a sharp rebound to $2.85 per share in earnings, versus a full-year 2025 loss estimate of $2.24 per share - underscoring that Q1 was seen as an early data point in a multi-year recovery story, not a make-or-break quarter on its own.
+
+Sources:
+- https://finance.yahoo.com/news/boeing-q1-earnings-preview-analysts-125717516.html (GuruFocus via Yahoo Finance, published April 9, 2025)
+- https://finance.yahoo.com/news/buy-hold-sell-boeing-stock-173300206.html (Zacks via Yahoo Finance, published April 22, 2025)

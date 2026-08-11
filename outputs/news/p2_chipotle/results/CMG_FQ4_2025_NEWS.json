@@ -1,0 +1,44 @@
+{
+  "document_id": "CMG_FQ4_2025_NEWS",
+  "base_document_id": "CMG_FQ4_2025",
+  "issuer": "p2_chipotle",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest indicates that market expectations are stretched: the stock is near its 52-week high, analyst estimates have been rising, and the consensus is pricing in a beat on both EPS and comp sales. The document also highlights significant risks including macro deterioration and consumer spending pullback, suggesting a high bar for the upcoming print. Therefore, the sentiment is bearish, as there is little room for a positive surprise."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T095546Z",
+    "timestamp": "2026-08-09T09:55:54Z",
+    "status": "success",
+    "document_id": "CMG_FQ4_2025_NEWS",
+    "issuer": "p2_chipotle",
+    "company": "Chipotle",
+    "ticker": "CMG",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-03",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_chipotle\\CMG_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3858,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1299,
+    "total_tokens": 5157,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002419,
+    "latency_seconds": 8.09,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

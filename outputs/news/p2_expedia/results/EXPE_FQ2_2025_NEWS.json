@@ -1,0 +1,44 @@
+{
+  "document_id": "EXPE_FQ2_2025_NEWS",
+  "base_document_id": "EXPE_FQ2_2025",
+  "issuer": "p2_expedia",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This pre-earnings digest indicates elevated market expectations: analyst estimates have been reconfirmed, the stock has a Zacks #2 (Buy) rating, and there is high confidence of another earnings beat based on a four-quarter beat streak. However, the document also notes headwinds such as a muted US travel market and cautious consumer spending, which temper the bullishness. The score reflects a moderately positive setup with a low bar for surprise, but not an extreme stretch."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100303Z",
+    "timestamp": "2026-08-09T10:03:13Z",
+    "status": "success",
+    "document_id": "EXPE_FQ2_2025_NEWS",
+    "issuer": "p2_expedia",
+    "company": "Expedia",
+    "ticker": "EXPE",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-07",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_expedia\\EXPE_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3798,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1711,
+    "total_tokens": 5509,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002856,
+    "latency_seconds": 9.28,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

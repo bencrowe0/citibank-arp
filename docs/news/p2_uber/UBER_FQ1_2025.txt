@@ -1,0 +1,8 @@
+Uber - News coverage digest, FQ1 2025 earnings (report date 2025-05-07)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the May 7, 2025 report, Wall Street expected EPS of $0.50 on revenue of $11.62 billion, with gross bookings estimated near $52.9 billion and EBITDA near $2.44 billion. Options markets were pricing a major expected move in UBER stock around the print, per pre-earnings options-trader positioning.
+
+Sources:
+- https://www.tipranks.com/news/uber-technologies-is-about-to-report-q1-earnings-options-traders-expect-a-major-move-in-uber-stock (TipRanks, "Uber Technologies Is About to Report Q1 Earnings. Options Traders Expect a Major Move in UBER Stock" - published prior to the May 7, 2025 report)
+- https://seekingalpha.com/article/4781936-uber-q1-2025-earnings-preview-valuation-and-more (Seeking Alpha, "Uber: Q1 2025 Earnings Preview, Valuation, And More" - published prior to the report)

@@ -1,0 +1,44 @@
+{
+  "document_id": "WDAY_FQ1_2025_NEWS",
+  "base_document_id": "WDAY_FQ1_2025",
+  "issuer": "p2_workday",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply; instead, the score reflects whether market expectations are stretched or depressed heading into the print. The document describes a stock down approximately 40% YTD, trading at a modest 12.3x FY2027 EPS estimate, with a price target cut from $200 to $160, indicating depressed expectations and a lowered bar. This low bar raises the odds of a positive surprise reaction even on modest results, supporting a mildly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T104338Z",
+    "timestamp": "2026-08-09T10:43:48Z",
+    "status": "success",
+    "document_id": "WDAY_FQ1_2025_NEWS",
+    "issuer": "p2_workday",
+    "company": "Workday",
+    "ticker": "WDAY",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-22",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_workday\\WDAY_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3940,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1630,
+    "total_tokens": 5570,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002806,
+    "latency_seconds": 9.84,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

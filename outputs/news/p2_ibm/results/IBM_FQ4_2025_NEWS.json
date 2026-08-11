@@ -1,0 +1,44 @@
+{
+  "document_id": "IBM_FQ4_2025_NEWS",
+  "base_document_id": "IBM_FQ4_2025",
+  "issuer": "p2_ibm",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document is a pre-earnings market expectations digest that only reports consensus estimates ($4.32 EPS, $19.23B revenue) without any commentary on valuation stretch, estimate revisions, or market positioning. There is no information indicating whether expectations are elevated or depressed, so the score defaults to neutral (0.0) as there is no signal to push it positive or negative."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162030Z",
+    "timestamp": "2026-07-20T16:20:37Z",
+    "status": "success",
+    "document_id": "IBM_FQ4_2025_NEWS",
+    "issuer": "p2_ibm",
+    "company": "IBM",
+    "ticker": "IBM",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_ibm\\IBM_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3452,
+    "cache_hit_tokens": 256,
+    "output_tokens": 827,
+    "total_tokens": 4279,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001791,
+    "latency_seconds": 6.93,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

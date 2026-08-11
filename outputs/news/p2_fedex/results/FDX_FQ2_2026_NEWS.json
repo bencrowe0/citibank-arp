@@ -1,0 +1,44 @@
+{
+  "document_id": "FDX_FQ2_2026_NEWS",
+  "base_document_id": "FDX_FQ2_2026",
+  "issuer": "p2_fedex",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest describes a moderately positive setup: sell-side price targets were raised (Jefferies to $280, Citigroup to $279) and the company had beaten EPS estimates in three of the prior four quarters, with the September print well received. However, expectations are not depressed—consensus EPS is roughly in line with the year-ago quarter and full-year guidance is only modestly below prior year—so there is limited room for a positive surprise. The bar is not stretched to 'priced for perfection,' but it is not low either, warranting a mildly positive score near the neutral boundary."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101405Z",
+    "timestamp": "2026-08-04T10:14:15Z",
+    "status": "success",
+    "document_id": "FDX_FQ2_2026_NEWS",
+    "issuer": "p2_fedex",
+    "company": "FedEx",
+    "ticker": "FDX",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2025-12-18",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_fedex\\FDX_FQ2_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3752,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1601,
+    "total_tokens": 5353,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002723,
+    "latency_seconds": 10.54,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

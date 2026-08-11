@@ -1,0 +1,10 @@
+Airbnb (ABNB) - News coverage digest, FQ2 2025 earnings (report date 2025-08-06)
+Fetched via web search across free financial outlets (Yahoo Finance, StockStory/FinancialContent). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Airbnb was scheduled to report Q2 2025 results on Wednesday, August 6, after market close. Estimates varied by source: one preview put consensus EPS at $1.19 (up 15.5% year-over-year from $1.03), while another modeled revenue growth of 10.3% year-over-year to $3.03 billion with adjusted EPS of $0.94 - the spread itself signals some estimate dispersion heading into the print. Analyst sentiment going in was mixed-to-positive but not strongly bullish: of 41 covering analysts, 18 rated the stock "Strong Buy," 3 "Moderate Buy," 18 "Hold," 1 "Moderate Sell" and 1 "Strong Sell" - a wide split with nearly as many neutral/hold ratings as buys. The mean price target of $158.11 implied only about 7% upside from pre-earnings levels, a fairly muted setup for a growth name.
+
+Recent history was flagged as a swing factor: Airbnb had missed Wall Street's bottom-line (EPS) estimate in three of its last four quarters while beating revenue estimates every quarter for the past two years by an average of 1.4% - coverage framed the pattern as "reliable top-line beat, unreliable bottom-line beat," making the EPS print itself the more uncertain variable for this report.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-airbnb-report-105820399.html (Yahoo Finance, "Earnings Preview: What To Expect From Airbnb's Report" - published prior to the August 6, 2025 report)
+- https://markets.financialcontent.com/stocks/article/stockstory-2025-8-5-airbnb-abnb-q2-earnings-report-preview-what-to-look-for (StockStory via FinancialContent, "Airbnb (ABNB) Q2 Earnings Report Preview: What To Look For" - published August 5, 2025, one day before the report)

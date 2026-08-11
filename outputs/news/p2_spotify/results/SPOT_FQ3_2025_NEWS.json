@@ -1,0 +1,44 @@
+{
+  "document_id": "SPOT_FQ3_2025_NEWS",
+  "base_document_id": "SPOT_FQ3_2025",
+  "issuer": "p2_spotify",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This pre-earnings digest indicates that market expectations are stretched: the stock has already rallied to around $689 with multiple analysts setting price targets around $800, and analyst estimates have been rising (e.g., Morgan Stanley, JPMorgan, HSBC all bullish). This elevated bar raises the risk of a 'beat but sell off' reaction even if results are decent, which is a bearish signal for forward returns. There is no mention of depressed expectations or a lowered bar, so the score is negative."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103325Z",
+    "timestamp": "2026-08-09T10:33:34Z",
+    "status": "success",
+    "document_id": "SPOT_FQ3_2025_NEWS",
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-04",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_spotify\\SPOT_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3729,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1242,
+    "total_tokens": 4971,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002322,
+    "latency_seconds": 8.56,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

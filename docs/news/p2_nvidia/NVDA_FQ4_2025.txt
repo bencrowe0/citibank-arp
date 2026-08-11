@@ -1,0 +1,8 @@
+Nvidia (NVDA) - News coverage digest, FQ3 fiscal 2026 earnings (report date 2025-11-19)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the November 19, 2025 report, analysts expected revenue of $54.9-$54.98 billion (+56.7% YoY) and EPS of $1.25. Sentiment was strongly bullish heading in - a TipRanks Smart Score of 9 ("Outperform") and a 37-buy/1-hold/1-sell analyst split - with coverage widely anticipating Nvidia's strongest quarterly growth in several periods, driven by an accelerating Blackwell cabinet production ramp. Management's own prior guidance had already pointed to $65 billion (±2%) for the following quarter - i.e. a high bar was already set by the company's own forward guidance, not just Street consensus.
+
+Sources:
+- https://www.ig.com/en/news-and-trade-ideas/NVIDIA-Q3-FY2026-earnings-preview-251111 (IG International, "NVIDIA Q3 FY2026 earnings preview: Blackwell ramp to boost data centre sales" - published prior to the November 19, 2025 report)
+- https://www.tradingkey.com/analysis/stocks/us-stocks/251314552-nvidia-earnings-preview-q3-2026-blackwell-ramp-supply-chain-nvda-stock-analyst-tradingkey (TradingKey, "Nvidia Q3 Earnings Preview: Can Blackwell's Ramp-Up Break the Slowdown" - published prior to the report)

@@ -1,0 +1,187 @@
+{
+  "document_id": "LLY_FQ3_2025",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "The document reports a massive revenue beat (up 54% YoY) and a guidance raise of $2B at the midpoint, but the sentiment score is negative because the document itself flags structural risks: US realized prices fell 15%, R&D expenses increased 27%, and international obesity reimbursement remains thin. The document's own scoring rationale states 'Enormous growth, but a 15% US price decline and R&D up 27% raise durability questions, and a beat-and-raise may already be in a stock trading at a steep premium.' The forward guidance raise is overshadowed by these pricing and reinvestment concerns, and the document's SELL signal reflects that the market may sell off on the details despite the headline raise."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue up 54% year over year, with key product sales of $12B in the quarter.",
+    "eps": "Non-GAAP EPS $7.02 against $1.18 a year earlier.",
+    "guidance": "Full-year revenue guidance raised to $63.0B to $63.5B, a $2B lift at the midpoint. Non-GAAP EPS range lifted to $23.23 to $23.70.",
+    "margin": "Gross margin 83.6%, up 1.4 points.",
+    "key_risks": [
+      "US realized prices fell 15% in the quarter.",
+      "The CVS formulary switch created patient and physician disruption, though the Zepbound impact was called modest.",
+      "International obesity reimbursement remains thin, so uptake leans on out-of-pocket payers."
+    ],
+    "key_opportunities": [
+      "Zepbound US prescriptions tripled year over year, taking 71% of new starts.",
+      "Mounjaro international growth accelerated.",
+      "Lilly gained market share in the incretin analogs market for the fifth consecutive quarter.",
+      "Orforglipron filings on track for year end."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management highlights enormous growth and market share gains but also acknowledges pricing pressure and reimbursement headwinds, creating a mixed tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was up 54% year over year, with key product sales of $12B in the quarter.",
+      "quote": "Revenue up 54% year over year, with key product sales of $12B in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $7.02 against $1.18 a year earlier.",
+      "quote": "Non-GAAP EPS $7.02 against $1.18 a year earlier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year revenue guidance was raised to $63.0B to $63.5B, a $2B lift at the midpoint.",
+      "quote": "Full-year revenue guidance raised to $63.0B to $63.5B, a $2B lift at the midpoint.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS guidance was lifted to $23.23 to $23.70.",
+      "quote": "Non-GAAP EPS range lifted to $23.23 to $23.70.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin was 83.6%, up 1.4 points.",
+      "quote": "Gross margin 83.6%, up 1.4 points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US realized prices fell 15% in the quarter.",
+      "quote": "US realized prices fell 15% in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The CVS formulary switch created patient and physician disruption, though the Zepbound impact was called modest.",
+      "quote": "The CVS formulary switch created patient and physician disruption, though the Zepbound impact was called modest.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International obesity reimbursement remains thin, so uptake leans on out-of-pocket payers.",
+      "quote": "International obesity reimbursement remains thin, so uptake leans on out-of-pocket payers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Zepbound US prescriptions tripled year over year, taking 71% of new starts.",
+      "quote": "Zepbound US prescriptions tripled year over year, taking 71% of new starts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mounjaro international growth accelerated.",
+      "quote": "Mounjaro international growth accelerated.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lilly gained market share in the incretin analogs market for the fifth consecutive quarter.",
+      "quote": "Lilly gained market share in the incretin analogs market for the fifth consecutive quarter – Ricks, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Orforglipron filings are on track for year end.",
+      "quote": "Orforglipron filings on track for year end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "R&D expenses increased 27%, driven by continued investments in the portfolio.",
+      "quote": "R&D expenses increased 27%, driven by continued investments in our portfolio – Montarce, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of -0.35 is driven by the combination of enormous growth but structural risks like falling US prices and rising R&D costs.",
+      "quote": "Enormous growth, but a 15% US price decline and R&D up 27% raise durability questions, and a beat-and-raise may already be in a stock trading at a steep premium.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, reflecting both strong growth and acknowledged headwinds.",
+      "quote": "Enormous growth, but a 15% US price decline and R&D up 27% raise durability questions, and a beat-and-raise may already be in a stock trading at a steep premium.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The sentiment score of -0.35 is taken directly from the document's own scoring, which may reflect the author's subjective judgment rather than a purely document-grounded analysis. The document's rationale for the score is provided, but the score itself is not independently derived from the raw text."
+    },
+    {
+      "field": "signal.direction",
+      "reason": "The SELL signal is derived from the document's own sentiment score, which is negative. However, the document later reveals that the actual overnight move was +2.95%, making the correct directional call BUY. This flag alerts the reviewer that the signal may be inconsistent with the market reaction."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LLY_Bundled Earnings Report_2025-10-30",
+  "report_metadata": {
+    "issuer": "p2_eli_lilly",
+    "company": "Eli Lilly",
+    "ticker": "LLY",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2025-Q3\\11 eli lilly q3 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LLY_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213627Z",
+    "timestamp": "2026-07-18T21:36:38Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2025-Q3\\11 eli lilly q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_eli_lilly\\extracted\\LLY_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\eli_lilly\\CY2025-Q3\\11 eli lilly q3 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6134,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_eli_lilly\\extracted\\LLY_FQ3_2025.txt"
+  }
+}

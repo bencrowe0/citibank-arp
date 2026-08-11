@@ -1,0 +1,44 @@
+{
+  "document_id": "LMT_FQ3_2025_NEWS",
+  "base_document_id": "LMT_FQ3_2025",
+  "issuer": "p2_lockheed_martin",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates modestly constructive positioning: the stock is up 5.6% over the trailing month, the EPS estimate was revised up 0.5% over the trailing 30 days, and consensus projects revenue growth across all four segments. However, the bar is not depressed—EPS is expected to decline 7.6% y/y, and the stock has already rallied, leaving limited room for a positive surprise. Overall, expectations are slightly stretched but not extreme, warranting a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101501Z",
+    "timestamp": "2026-08-04T10:15:11Z",
+    "status": "success",
+    "document_id": "LMT_FQ3_2025_NEWS",
+    "issuer": "p2_lockheed_martin",
+    "company": "Lockheed Martin",
+    "ticker": "LMT",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-21",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lockheed_martin\\LMT_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3784,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1560,
+    "total_tokens": 5344,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002686,
+    "latency_seconds": 8.95,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "issuer": "p2_target",
+  "reports": [
+    {
+      "document_id": "TGT_FQ1_2025",
+      "issuer": "p2_target",
+      "company": "Target",
+      "ticker": "TGT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-21",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/phase2/CY2025-Q1/2025-May-21-TGT-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/phase2/CY2025-Q1/TGT-Q1-2025-Press-Release-SEC-EX99.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "TGT_FQ2_2025",
+      "issuer": "p2_target",
+      "company": "Target",
+      "ticker": "TGT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-20",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/phase2/CY2025-Q2/2025-august-20-tgt-transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/phase2/CY2025-Q2/TGT-Q2-2025-Press-Release-SEC-EX99.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "TGT_FQ3_2025",
+      "issuer": "p2_target",
+      "company": "Target",
+      "ticker": "TGT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-19",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/phase2/CY2025-Q3/TGT-Transcript-2025-11-19-2.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/phase2/CY2025-Q3/TGT-Q3-2025-Press-Release-SEC-EX99.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "TGT_FQ1_2026",
+      "issuer": "p2_target",
+      "company": "Target",
+      "ticker": "TGT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-20",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/phase2/CY2026-Q1/TGT-USQ_Transcript_2026-05-20.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/phase2/CY2026-Q1/TGT-Q1-2026-Press-Release-SEC-EX99.htm"
+        }
+      ]
+    }
+  ]
+}

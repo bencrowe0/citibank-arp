@@ -1,0 +1,8 @@
+IBM - News coverage digest, FQ2 2025 earnings (report date 2025-07-23)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 23, 2025 report, analysts expected Q2 revenue of about $17.86 billion and adjusted EPS of $3.02. In the days before the report, IBM issued preliminary/preview commentary pointing to revenue of about $17.2 billion (up 1% YoY but below the $17.86 billion Street estimate) and adjusted EPS around $2.93 (below the $3.02 consensus), with segment detail showing software revenue up 5%, consulting flat, and infrastructure down 7%. Following that preview, Bank of America and UBS turned more cautious, citing weaker software/infrastructure demand, shifting customer capital-spending priorities, and delayed large deals as key risks - a genuinely negative pre-earnings revision cycle heading into the actual report date, not a neutral setup.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/ibm-q2-preview-miss-prompts-170400649.html (Yahoo Finance, "IBM Q2 preview miss prompts analysts to cut estimates on softer demand" - published prior to the July 23, 2025 report)
+- https://finance.yahoo.com/markets/stocks/articles/expect-international-business-machines-next-113348438.html (Yahoo Finance, "What to Expect From International Business Machines' Next Quarterly Earnings Report" - published prior to the report)

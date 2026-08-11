@@ -1,0 +1,8 @@
+Amazon (AMZN) - News coverage digest, FQ4 2025 earnings (report date 2026-02-05)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 5, 2026 report, consensus called for revenue of $211.3-$211.6 billion (~13% YoY growth), within Amazon's own guided range of $206-$213 billion. EPS consensus was $1.97-$1.98 (up ~6% YoY from $1.86). AWS was expected to reach $34.93 billion and advertising $21.16 billion. Sentiment heading in was broadly positive at the ratings level (67 of 71 analyst ratings were strong-buy/buy, average target $293, ~20% implied upside) but the dominant pre-earnings concern flagged across coverage was capex: Amazon had already raised 2025 capex guidance to $125 billion with management signaling further increases in 2026 (some estimates above $150 billion) - framed as the key swing factor for how the market would react even if the headline numbers came in fine, since heavy AI infrastructure spending was pressuring the margin narrative independent of top-line growth.
+
+Sources:
+- https://www.ig.com/en/news-and-trade-ideas/Amazon-4Q25-earnings-preview-260128 (IG International, "Amazon Q4 earnings: AWS strength vs. rising AI costs" - published prior to the February 5, 2026 report)
+- https://finance.yahoo.com/news/amazon-coms-quarterly-earnings-preview-111523925.html (Yahoo Finance, "Amazon.Com's Quarterly Earnings Preview: What You Need to Know" - published prior to the report)

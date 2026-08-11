@@ -1,0 +1,44 @@
+{
+  "document_id": "C_FQ4_2025_NEWS",
+  "base_document_id": "C_FQ4_2025",
+  "issuer": "p2_citigroup",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings market expectations digest, not an earnings release. The document describes analyst expectations for EPS of $1.77 (+32.1% YoY) and revenue of $20.72 billion, and notes Citigroup had beaten estimates in each of the prior four quarters. However, there is no mention of stretched or depressed expectations, no commentary on valuation or stock price movement, and no indication that the bar has been raised or lowered. The expectations appear balanced and unremarkable, leading to a neutral score of 0.0."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161808Z",
+    "timestamp": "2026-07-20T16:18:17Z",
+    "status": "success",
+    "document_id": "C_FQ4_2025_NEWS",
+    "issuer": "p2_citigroup",
+    "company": "Citigroup",
+    "ticker": "C",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-14",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_citigroup\\C_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3454,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1068,
+    "total_tokens": 4522,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002056,
+    "latency_seconds": 8.59,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "DIS_FQ4_2025_NEWS",
+  "base_document_id": "DIS_FQ4_2025",
+  "issuer": "p2_disney",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This is a pre-earnings digest, so no guidance or results are available. The document describes a positive recent-beat pattern (two consecutive EPS beats) and forward guidance for double-digit adjusted-EPS growth, which suggests a moderately positive backdrop. However, the digest does not indicate whether current market expectations are stretched or depressed, so the score is mildly positive but not strongly bullish."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T162711Z",
+    "timestamp": "2026-07-20T16:27:18Z",
+    "status": "success",
+    "document_id": "DIS_FQ4_2025_NEWS",
+    "issuer": "p2_disney",
+    "company": "Disney",
+    "ticker": "DIS",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-02",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_disney\\DIS_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3458,
+    "cache_hit_tokens": 256,
+    "output_tokens": 848,
+    "total_tokens": 4306,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001815,
+    "latency_seconds": 7.29,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

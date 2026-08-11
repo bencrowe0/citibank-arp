@@ -1,0 +1,44 @@
+{
+  "document_id": "NVO_FQ2_2025_NEWS",
+  "base_document_id": "NVO_FQ2_2025",
+  "issuer": "p2_novo_nordisk",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "This pre-earnings digest describes sharply depressed market expectations heading into the Q2 print: guidance was slashed eight days prior, the stock fell over 20% in a single session, and analyst estimates were walked down. This low bar raises the odds of a positive surprise even on modest results, warranting a mildly bullish score. Forward guidance moved down, but the digest's framing of depressed expectations is the key signal for this document type."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101533Z",
+    "timestamp": "2026-08-04T10:15:42Z",
+    "status": "success",
+    "document_id": "NVO_FQ2_2025_NEWS",
+    "issuer": "p2_novo_nordisk",
+    "company": "Novo Nordisk",
+    "ticker": "NVO",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-06",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_novo_nordisk\\NVO_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3747,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1368,
+    "total_tokens": 5115,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002465,
+    "latency_seconds": 8.27,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.35,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

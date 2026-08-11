@@ -1,0 +1,44 @@
+{
+  "document_id": "SPOT_FQ2_2025_NEWS",
+  "base_document_id": "SPOT_FQ2_2025",
+  "issuer": "p2_spotify",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "This pre-earnings digest indicates that market expectations are somewhat stretched, with analysts concerned about margin trajectory due to AI investments and the stock facing an 'earnings test.' While there are positive elements like expected ARPU growth and promising Platinum tier adoption in India, the overall tone is cautious, with the bar set high for the upcoming earnings print. Therefore, the sentiment is mildly bearish, reflecting a higher risk of a negative surprise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103317Z",
+    "timestamp": "2026-08-09T10:33:25Z",
+    "status": "success",
+    "document_id": "SPOT_FQ2_2025_NEWS",
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_spotify\\SPOT_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3648,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1130,
+    "total_tokens": 4778,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002177,
+    "latency_seconds": 8.05,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

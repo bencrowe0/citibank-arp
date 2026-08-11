@@ -1,0 +1,9 @@
+Target (TGT) - News coverage digest, FQ2 2025 earnings (report date 2025-08-20)
+Fetched via web search across free financial outlets. Strict pre-earnings free-source coverage was limited; this digest includes only pre-result consensus expectations and setup items, while avoiding post-result performance language.
+
+Ahead of Target's fiscal Q2 2025 results, the key investor question was whether the retailer's sales decline and discretionary-category weakness were stabilizing after a difficult Q1. Visible Alpha consensus, as reported in same-day market coverage after the release, expected adjusted EPS of $2.05 and a comparable-store sales decline of roughly 3.06%; net sales expectations were slightly below the $25.21 billion ultimately reported. The market setup was fragile because Target had already reduced full-year expectations earlier in 2025, and investors were looking for signs of traffic recovery, improved store execution, and more disciplined cost control.
+
+The other major focal point was management continuity and strategy. Target had been under pressure from tariff worries, weaker consumer sentiment, and a prolonged discretionary-spending slowdown. Investors were watching whether management would reaffirm full-year adjusted EPS guidance of $7.00 to $9.00 and low-single-digit sales declines, and whether any operational changes would accelerate the turnaround. This digest is treated as lower-quality news input than the other quarters because the free source located is same-day coverage containing consensus expectations rather than a standalone pre-earnings preview.
+
+Sources:
+- https://www.investopedia.com/target-stock-sinks-as-retailer-replaces-ceo-with-company-veteran-11794162 (Investopedia, published August 20, 2025; used only for consensus expectations/setup, not post-result reaction)

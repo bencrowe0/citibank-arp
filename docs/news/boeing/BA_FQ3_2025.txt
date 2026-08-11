@@ -1,0 +1,12 @@
+Boeing (BA) - News coverage digest, FQ3 2025 earnings (report date 2025-10-29)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 29, 2025 report, Boeing's Q3 setup looked notably weaker on the bottom line than prior quarters despite continued top-line growth. Zacks (Oct 24) pegged the consensus at a loss of $2.46 per share on revenue of $21.92 billion, implying 22.9% revenue growth year-over-year. A separate Zacks piece (Oct 22) cited a similar but slightly different consensus of a $1.83 per-share loss on $21.64 billion revenue (up 21.3% year-over-year), noting the EPS consensus had been revised sharply lower - down 93.37% - over the preceding 30 days, signaling analysts had turned meaningfully more cautious into the print.
+
+Boeing's earnings-surprise track record heading into Q3 was mixed: two beats and two misses over the trailing four quarters, with an average surprise of just 0.87%. Zacks' quantitative model did not predict a beat this time, citing a deeply negative Earnings ESP of -49.51% - a marked contrast to the positive setups seen ahead of Q1 and Q2. This reflected growing Street concern about cost pressures and program-level charges (notably ongoing scrutiny of the 777X program's certification timeline) weighing on near-term profitability even as commercial delivery volumes continued to recover.
+
+Despite the cautious earnings setup, underlying operational momentum remained a bright spot analysts were watching closely: commercial delivery volumes had been running at multi-year highs, and investors were focused on whether free cash flow trends would continue improving toward breakeven as guided by CEO Kelly Ortberg's turnaround plan. Analyst sentiment on the stock itself stayed constructive despite the cautious EPS outlook, with price targets in the mid-$200s reflecting continued confidence in the multi-year recovery story even as the immediate quarter's profitability was expected to disappoint.
+
+Sources:
+- https://finance.yahoo.com/news/position-boeing-stock-ahead-q3-125500207.html (Zacks via Yahoo Finance, published October 24, 2025)
+- https://finance.yahoo.com/news/boeing-ba-report-negative-earnings-140004535.html (Zacks via Yahoo Finance, published October 22, 2025)

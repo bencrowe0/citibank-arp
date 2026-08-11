@@ -1,0 +1,7 @@
+Apple (AAPL) - News coverage digest, FQ3 2025 earnings (report date 2025-07-31)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 31, 2025 report, analysts expected EPS of $1.42-$1.43 (up slightly from $1.40 YoY) on revenue of $88.92-$89.18 billion, in line with Apple's own guided "low to mid-single-digit" growth range. Gross margin was expected at 45.5%-46.5%, already discounting an estimated $900 million tariff impact for the quarter. Services was expected to lead segment growth with double-digit revenue growth to $26.9-$27.5 billion, while iPhone sales were expected to grow only slightly, helped by promotions and the iPhone 16e. Tariffs were the dominant pre-earnings theme in coverage - framed as an ongoing headwind already baked into the guided margin range rather than a fresh risk.
+
+Sources:
+- https://www.marketpulse.com/markets/apple-inc-aapl-earnings-preview-navigating-growth-tariffs-and-ai-innovation/ (MarketPulse/OANDA, "Apple Inc. (AAPL) Earnings Preview: Navigating Growth, Tariffs, and AI Innovation" - published prior to the July 31, 2025 report)

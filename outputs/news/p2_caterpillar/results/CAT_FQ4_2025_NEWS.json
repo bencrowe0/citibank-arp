@@ -1,0 +1,44 @@
+{
+  "document_id": "CAT_FQ4_2025_NEWS",
+  "base_document_id": "CAT_FQ4_2025",
+  "issuer": "p2_caterpillar",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This pre-earnings digest indicates that analyst estimates have been revised upward (+2.3% over 30 days), which raises the bar for the upcoming earnings report, making a positive surprise less likely. Additionally, the document highlights ongoing tariff cost pressures on margins with limited ability to offset via price, which could weigh on forward expectations. The overall sentiment is slightly bearish because expectations are stretched and risks are emphasized, leaving little room for a soft print."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T095416Z",
+    "timestamp": "2026-08-09T09:54:23Z",
+    "status": "success",
+    "document_id": "CAT_FQ4_2025_NEWS",
+    "issuer": "p2_caterpillar",
+    "company": "Caterpillar",
+    "ticker": "CAT",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_caterpillar\\CAT_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3646,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1107,
+    "total_tokens": 4753,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002151,
+    "latency_seconds": 6.65,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

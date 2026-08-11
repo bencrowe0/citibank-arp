@@ -1,0 +1,11 @@
+CVS Health (CVS) - News coverage digest, FQ3 2025 earnings (report date 2025-10-29)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into its October 29, 2025 report (before the market open), CVS Health was set up for a much stronger comparison than the July print: Wall Street consensus called for Q3 2025 EPS of $1.36, up 24.8% year-over-year, on revenue of $98.83 billion, up about 3.6%. Notably, analysts had generally reconfirmed rather than cut their estimates over the trailing 30 days heading into the print - a sign of settled rather than deteriorating expectations - and the company had beaten Wall Street's bottom-line estimate in each of the four prior quarters, building a credibility cushion into the setup. Coverage flagged cost optimization efforts, medical cost trends, segment-level progress at Aetna/Health Care Benefits, and shifting reimbursement dynamics in the pharmacy/PBM business as the key swing factors investors were watching for in management's commentary and guidance update.
+
+Sentiment heading into the print was constructive: after 2024's guidance resets and the cautious tone into the Q2 2025 print (estimates had been cut into that release), the narrative by October had shifted toward a "turnaround intact" framing, with the pre-earnings preview literature describing the setup as durable execution on cost discipline rather than a stretched bar.
+
+Sources:
+- https://finance.yahoo.com/news/earnings-watch-cvs-health-cvs-031008309.html (Yahoo Finance / Zacks, "Earnings To Watch: CVS Health (CVS) Reports Q3 Results Tomorrow", published October 28, 2025)
+- https://seekingalpha.com/news/4509603-cvs-q3-2025-earnings-preview (Seeking Alpha, "CVS Q3 2025 Earnings Preview", published ahead of the October 29, 2025 report)
+- https://marketbeat.com/instant-alerts/cvs-health-cvs-to-release-quarterly-earnings-on-wednesday-2025-10-22 (MarketBeat, published October 22, 2025)

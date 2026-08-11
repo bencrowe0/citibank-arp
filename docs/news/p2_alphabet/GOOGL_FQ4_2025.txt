@@ -1,0 +1,53 @@
+Alphabet Q4 2025 Pre-Earnings Market Expectations Digest
+
+REPORT DATE: 2026-02-04
+DIGEST COMPILED: Pre-earnings market outlook articles from before February 4, 2026
+
+=== MARKET EXPECTATIONS SUMMARY ===
+
+Heading into Alphabet's Q4 2025 earnings report scheduled for February 4, 2026, Wall Street was focused on whether AI and cloud momentum could sustain the company's valuation near the $4 trillion mark. The earnings call was anticipated after market close on February 4, 2026.
+
+KEY PRE-EARNINGS EXPECTATIONS:
+- Revenue: Approximately $111.4 billion (+15.4% YoY)
+- Earnings Per Share: $2.63-2.64 expected
+- Operating cash flow expected to remain strong
+
+SEGMENT EXPECTATIONS:
+- Search & Advertising: Strong revenue growth expected
+- Google Cloud: Critical focus area - expected to show continued acceleration
+  * Revenue expected: ~$16.2-17 billion (previous quarter was ~$13.1 billion)
+  * Operating income and margins expected to expand significantly
+  * AI monetization seen as key growth driver
+- YouTube: Continued recovery expected
+
+MAJOR INVESTOR WATCHPOINTS:
+1. Google Cloud revenue acceleration and margin expansion trajectory
+2. AI monetization progress - particularly Gemini integration in Search
+3. Search revenue resilience amid AI Overview integration
+4. Capital expenditure guidance - expected guidance for 2026 CapEx (~$175-185 billion expected)
+5. Management commentary on AI infrastructure ROI
+
+CAPITAL EXPENDITURE OUTLOOK:
+- 2025 actual CapEx: $91.4 billion
+- 2026 guidance expected: $175-185 billion (approximately double 2025)
+- 60% expected for servers, 40% for data centers and networking
+- Driven by AI infrastructure buildout and competitive positioning
+
+MARKET SENTIMENT:
+Analysts expected a strong quarter with beats on both revenue and earnings, though capital expenditure guidance would be critical for stock reaction.
+
+=== SOURCE ARTICLES ===
+
+1. "Alphabet (GOOGL) Q4 Earnings Preview: Can AI and cloud momentum sustain the $4 trillion valuation?"
+   Source: MarketPulse by OANDA Group
+   Date: January/February 2026 (pre-announcement)
+   URL: https://www.marketpulse.com/markets/alphabet-googl-q4-earnings-preview-can-ai-and-cloud-momentum-sustain-the-4-trillion-valuation/
+   Summary: Focused on AI and cloud momentum sustainability, valuation analysis, and key earnings drivers
+
+=== ACTUAL RESULTS (For Reference) ===
+Alphabet announced Q4 2025 results on February 4, 2026 showing:
+- Revenue: $113.8 billion (beat expectations)
+- EPS: $2.82 (beat $2.63-2.64 expected)
+- Google Cloud Revenue: $17.66 billion (beat $16.18 billion expected)
+- 2026 CapEx guidance: $175-185 billion (as expected)
+- Cloud operating margin expanded to 30.1% from 17.5%

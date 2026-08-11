@@ -1,0 +1,7 @@
+A.P. Moller-Maersk (AMKBY) - News coverage digest, FQ3 2025 earnings (report date 2025-11-06)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content. Note: Maersk (a Danish-listed shipping major) has materially thinner free US-financial-media pre-earnings coverage than the US-listed names in this set - this digest is estimate-only, not a full narrative preview.
+
+Heading into the November 6, 2025 report, analysts on average estimated full-year 2025 underlying EBITDA of $9.11 billion, against Maersk's own prior guidance range with a low end of $8 billion - i.e. the Street consensus was already running above the low end of management's own guided range heading into the print. This followed Maersk's Q2 2025 report (August 7, 2025), where the company had surprised analysts by raising full-year guidance (underlying EBITDA to $8-$10 billion from a prior $4.5-$7 billion range) on stronger-than-expected containerized demand - a recent positive-surprise pattern heading into Q3.
+
+Sources:
+- https://www.marketscreener.com/news/maersk-reports-strong-q3-2025-results-ebitda-at-usd-2-7bn-ebit-at-usd-1-3bn-amid-operational-gains-ce7d5cd2d889f627 (MarketScreener, analyst full-year EBITDA consensus figure ($9.11bn) as tracked ahead of the November 6, 2025 report)

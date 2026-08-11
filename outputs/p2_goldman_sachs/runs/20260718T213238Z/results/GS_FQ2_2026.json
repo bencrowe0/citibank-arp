@@ -1,0 +1,195 @@
+{
+  "document_id": "GS_FQ2_2026",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The document reports record revenues and EPS, but the key driver for the sentiment score is the forward guidance. Management explicitly raised the full-year alternatives fundraising target from a prior range to 'exceed 125 billion' (from a prior target of 75-100 billion), and the investment banking backlog increased to its highest level in five years, indicating strong forward momentum. Management language is highly confident, with statements like 'we expect this flywheel of activity to continue' and 'we feel very confident about the forward trajectory.' While the current quarter's results are backward-looking, the raised fundraising guidance and record backlog represent a meaningful upward shift in forward expectations, warranting a score above 0.15 but below 0.5 due to the absence of a formal full-year EPS or revenue guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record revenues of $20.3 billion for Q2 2026.",
+    "eps": "Record earnings per share of $20.98 for Q2 2026.",
+    "guidance": "Full-year alternatives fundraising now expected to exceed $125 billion (up from a prior target of $75-100 billion). Investment banking backlog increased to its highest level in five years. Management expects the flywheel of activity to continue.",
+    "margin": "Year-to-date efficiency ratio of 58.8%, improving 320 basis points from the prior-year period. ROE of 23.5% and ROTE of 25.5% for the quarter.",
+    "key_risks": [
+      "Things rarely move in a straight line; risks can emerge quickly and drive periods of disruption and volatility across markets.",
+      "Sponsor volumes are still subdued versus historical averages.",
+      "There is uncertainty around the AI investment cycle, including how infrastructure will be built, priced, and how enterprises will adopt it; there may be bumps and recalibrations.",
+      "SLR ratio fell 40 bps to 4.3%, which may constrain growth in leverage-intensive financing businesses like prime."
+    ],
+    "key_opportunities": [
+      "AI investment cycle is expanding capital needs into infrastructure, energy, and data centers, creating significant opportunities for structuring, financing, risk management, and capital markets execution.",
+      "Large-cap corporate M&A volumes up 90% for the first half of 2026; Goldman Sachs is the number one M&A advisor.",
+      "Record alternatives fundraising of $59 billion in Q2 and $85 billion year-to-date; full-year expected to exceed $125 billion.",
+      "Wealth management client assets reached a record ~$2 trillion; total AUS surpassed a record $4 trillion.",
+      "OCIO mandates from Verizon and Lockheed Martin representing $70 billion in AUS.",
+      "Nearly 900 referrals to wealth management from investment banking since start of 2025, demonstrating One Goldman Sachs operating approach."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'we feel very confident about the forward trajectory of Goldman Sachs' and 'we expect this flywheel of activity to continue,' indicating strong confidence in the outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Record revenues of $20.3 billion for Q2 2026.",
+      "quote": "In the quarter, we generated record revenues of $20.3 billion, record earnings per share of $20.98, and an ROE of 23.5% and an ROTE of 25.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record earnings per share of $20.98 for Q2 2026.",
+      "quote": "In the quarter, we generated record revenues of $20.3 billion, record earnings per share of $20.98, and an ROE of 23.5% and an ROTE of 25.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year alternatives fundraising now expected to exceed $125 billion.",
+      "quote": "Given the strength we’ve seen year to date, we now expect full-year fundraising to exceed 125 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking backlog increased to its highest level in five years.",
+      "quote": "Even with very strong investment banking revenues this quarter, our backlog increased to its highest level in five years and its second highest level on record, underpinned by a record advisory backlog and reflecting the strength and breadth of our client engagement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Year-to-date efficiency ratio of 58.8%, improving 320 basis points from the prior-year period.",
+      "quote": "Through the first half of the year, we generated material operating leverage with an efficiency ratio of 58.8%, improving 320 basis points from the prior-year period, helped by a decline in our compensation ratio net of provisions to 31%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE of 23.5% and ROTE of 25.5% for the quarter.",
+      "quote": "In the quarter, we generated record revenues of $20.3 billion, record earnings per share of $20.98, and an ROE of 23.5% and an ROTE of 25.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Things rarely move in a straight line; risks can emerge quickly and drive periods of disruption and volatility across markets.",
+      "quote": "Looking forward, we know that things rarely move in a straight line. While we continue to see a largely resilient economic backdrop in the US, risks can emerge quickly and drive periods of disruption and volatility across markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sponsor volumes are still subdued versus historical averages.",
+      "quote": "While sponsor volumes are still subdued versus historical averages, this represents a meaningful source of potential upside as activity picks up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is uncertainty around the AI investment cycle, including how infrastructure will be built, priced, and how enterprises will adopt it; there may be bumps and recalibrations.",
+      "quote": "I know that it won’t be a straight line and there’ll be bumps and there’ll be recalibration because there’s a lot of uncertainty around how not only is the infrastructure going to be built, but once the infrastructure is built, how enterprises will buy that infrastructure, how it will be priced, how greater efficiencies will come from chips and then the pricing, you know, ultimately of the technology.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SLR ratio fell 40 bps to 4.3%, which may constrain growth in leverage-intensive financing businesses like prime.",
+      "quote": "SLR did fall 40 bps to 4.3% [Phonetic]. So clearly there’s a lot of growth in sort of low RWA, leverage-intensive financing like prime. Your SLR ratio is now the lowest among peers. So how much does SLR govern constraints on growing the financing business?",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI investment cycle is expanding capital needs into infrastructure, energy, and data centers, creating significant opportunities.",
+      "quote": "At the same time, the AI investment cycle is expanding capital needs beyond core technology into infrastructure, energy, and data centers, generating a ripple effect across industries. This is creating significant opportunities for Goldman Sachs to provide structuring, financing, risk management, and capital markets execution across both public and private markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Large-cap corporate M&A volumes up 90% for the first half of 2026; Goldman Sachs is the number one M&A advisor.",
+      "quote": "This desire for scale has driven a significant increase in strategic deal-making activity, with large-cap corporate M&A volumes up 90% for the first half of 2026. ... We have further expanded our lead as the number one M&A advisor and earlier this year became the first bank to cross the $1 trillion in announced volumes over a six-month period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record alternatives fundraising of $59 billion in Q2 and $85 billion year-to-date; full-year expected to exceed $125 billion.",
+      "quote": "Gross third-party alternatives fundraising was a record 59 billion for the quarter and 85 billion for the first half of the year. Given the strength we’ve seen year to date, we now expect full-year fundraising to exceed 125 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth management client assets reached a record ~$2 trillion; total AUS surpassed a record $4 trillion.",
+      "quote": "Our wealth management client assets reached a record of roughly $2 trillion and our total assets under supervision surpassed a record $4 trillion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OCIO mandates from Verizon and Lockheed Martin representing $70 billion in AUS.",
+      "quote": "And last week, we were appointed to manage both Verizon’s and Lockheed Martin’s retirement plans, which collectively represent $70 billion in assets under supervision.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nearly 900 referrals to wealth management from investment banking since start of 2025.",
+      "quote": "Since the start of 2025, we’ve seen nearly 900 referrals to wealth management from investment banking, demonstrating the benefits of our One Goldman Sachs operating approach.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I feel very confident about the forward trajectory of Goldman Sachs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.key_risks",
+      "reason": "The SLR ratio decline was mentioned in an analyst question, not in management's prepared remarks. The risk is acknowledged by management but the exact impact on forward growth is not quantified. A human reviewer should verify the significance of this risk."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2026-07-14",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-07-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2026-Q2\\GS-Q2-2026-earnings-call-transcript-AlphaStreet.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T213238Z",
+    "timestamp": "2026-07-18T21:34:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2026-Q2\\GS-Q2-2026-earnings-call-transcript-AlphaStreet.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2026-Q2\\GS-Q2-2026-earnings-call-transcript-AlphaStreet.html",
+        "page_count": 1,
+        "extracted_characters": 69671,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ2_2026.txt"
+  }
+}

@@ -1,0 +1,6 @@
+Microsoft (MSFT) - News digest, FQ1 2025 (report date 2024-10-30). Pre-earnings estimate context only.
+
+Ahead of Microsoft's fiscal Q1 2025 results (quarter ended Sept 30 2024, announced 30 October 2024), sell-side previews centered on Azure cloud growth (recent quarters had run in the low-30%s) and continued AI-driven Intelligent Cloud momentum, alongside scrutiny of AI-related capital expenditure levels and their effect on margins. Analysts were also watching Dynamics 365 and Productivity segment trends and any commentary on OpenAI-related infrastructure spend.
+
+Sources:
+- https://finviz.com/news/203745/microsoft-msft-q1-earnings-preview-what-you-should-know-beyond-the-headline-estimates (Finviz/Zacks, "Microsoft (MSFT) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates")

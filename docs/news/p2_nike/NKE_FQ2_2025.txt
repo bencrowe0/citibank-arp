@@ -1,0 +1,8 @@
+Nike (NKE) - News coverage digest, FQ2 fiscal 2025 earnings (report date 2024-12-19)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the December 19, 2024 report, LSEG-surveyed consensus called for adjusted EPS of $0.63 on revenue of $12.13 billion. Unusually for this stretch of Nike's turnaround story, sentiment heading in was notably upbeat - WWD's pre-earnings coverage was headlined "Analysts Are Feeling Good" - with the EPS consensus itself having been revised 1.8% higher over the trailing 30 days, a rare positive-revision signal after several quarters of downward resets. At the same time, coverage flagged that Nike's own prior commentary pointed to gross margins declining 3-3.5 percentage points and sales down low-double-digits for the holiday quarter, so expectations for the quarter being reported were still low in absolute terms even as the revision direction had turned positive.
+
+Sources:
+- https://wwd.com/footwear-news/shoe-industry-news/wall-street-nike-earnings-optimism-q2-report-wholesale-1238424030/ (WWD, "Nike NKE Q2 Earnings Preview: Analysts Are Feeling Good" - published prior to the December 19, 2024 report)
+- https://finviz.com/news/254143/gear-up-for-nike-nke-q2-earnings-wall-street-estimates-for-key-metrics (FinViz, "Gear Up for Nike (NKE) Q2 Earnings: Wall Street Estimates for Key Metrics" - published prior to the report)

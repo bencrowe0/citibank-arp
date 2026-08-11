@@ -1,0 +1,85 @@
+{
+  "issuer": "p2_marriott",
+  "reports": [
+    {
+      "document_id": "MAR_FQ2_2025",
+      "issuer": "p2_marriott",
+      "company": "Marriott",
+      "ticker": "MAR",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-05",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/marriott/CY2025-Q2/MAR-Q2-2025-Press-Release.txt"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/marriott/CY2025-Q2/MAR-Q2-2025-Earnings-Call-Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "MAR_FQ3_2025",
+      "issuer": "p2_marriott",
+      "company": "Marriott",
+      "ticker": "MAR",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-04",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/marriott/CY2025-Q3/MAR-Q3-2025-Press-Release.txt"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/marriott/CY2025-Q3/MAR-Q3-2025-Earnings-Call-Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "MAR_FQ4_2025",
+      "issuer": "p2_marriott",
+      "company": "Marriott",
+      "ticker": "MAR",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-10",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/marriott/CY2025-Q4/MAR-Q4-2025-Press-Release.txt"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/marriott/CY2025-Q4/MAR-Q4-2025-Earnings-Call-Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "MAR_FQ1_2026",
+      "issuer": "p2_marriott",
+      "company": "Marriott",
+      "ticker": "MAR",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-06",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/marriott/CY2026-Q1/MAR-Q1-2026-Press-Release.txt"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/marriott/CY2026-Q1/MAR-Q1-2026-Earnings-Call-Transcript.txt"
+        }
+      ]
+    }
+  ]
+}

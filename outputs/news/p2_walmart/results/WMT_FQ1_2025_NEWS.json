@@ -1,0 +1,44 @@
+{
+  "document_id": "WMT_FQ1_2025_NEWS",
+  "base_document_id": "WMT_FQ1_2025",
+  "issuer": "p2_walmart",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This is a pre-earnings digest, so no actual results or guidance are available. The document describes mild positive momentum in EPS consensus (revised up 0.2% in prior 30 days), which slightly raises the bar but does not indicate stretched expectations. There is no language suggesting elevated valuation or 'priced for perfection' conditions, nor any mention of depressed expectations. The overall tone is neutral with a slight positive tilt, warranting a score just above zero."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162517Z",
+    "timestamp": "2026-07-20T16:25:26Z",
+    "status": "success",
+    "document_id": "WMT_FQ1_2025_NEWS",
+    "issuer": "p2_walmart",
+    "company": "Walmart",
+    "ticker": "WMT",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_walmart\\WMT_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3418,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1215,
+    "total_tokens": 4633,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002208,
+    "latency_seconds": 8.71,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

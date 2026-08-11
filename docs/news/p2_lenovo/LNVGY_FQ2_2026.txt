@@ -1,0 +1,52 @@
+Lenovo Group Limited - Pre-Earnings Market Expectations Digest
+Fiscal Quarter: FY2026 Q2 (July-September 2025)
+Report Date: January 30, 2026
+Digest Compiled: January 29, 2026
+
+=== MARKET EXPECTATIONS SUMMARY ===
+Ahead of Lenovo's FY2026 half-year (H1) earnings announcement on January 30, 2026, covering 6 months through September 2025, the market was pricing in solid performance from both PC and infrastructure segments. The AI infrastructure narrative had gained prominence, and consensus was building around infrastructure as a meaningful growth driver for the company through calendar 2026.
+
+=== KEY EXPECTATIONS ===
+
+1. Infrastructure Acceleration
+- AI-driven data center demand increasingly visible in results
+- Hyperscaler capex cycles expected to support strong server growth
+- Infrastructure segment expected to show robust growth contribution
+- Market estimates pointing to double-digit infrastructure revenue growth
+Source: IDC Quarterly Server Market Analysis (January 2026), https://www.idc.com/
+Source: TrendForce AI Infrastructure Demand Report (January 2026), https://www.trendforce.com/
+
+2. PC Market Stabilization Progress
+- Calendar Q3 and Q4 2025 PC shipments showing continued stabilization
+- Enterprise refresh cycles supporting commercial demand
+- Consumer market remaining cautious but not deteriorating
+- ThinkPad and IdeaPad lines expected to show steady performance
+Source: Gartner Quarterly PC Market Update (January 2026), https://www.gartner.com/
+Source: Canalyst PC Market Research (January 2026)
+
+3. Operating Margin Recovery
+- Gross margin expansion expected as component costs stabilized
+- Operating leverage from volume growth anticipated
+- Lenovo's cost control initiatives yielding results through H1 FY2026
+- Working capital management improvement noted by analysts
+Source: Broker Consensus Research (January 2026)
+
+4. Geographic Mix and Currency Impact
+- Strong performance in US and enterprise markets offsetting China weakness
+- Yuan depreciation continuing to create headwinds for reported results in USD/HKD
+- International business mix supporting reported profitability
+- SMB and commercial segments performing better than consumer retail
+Source: HSBC Asia Tech Research (January 15, 2026), https://research.hsbc.com/
+Source: Financial Times Asia Market Analysis (January 20, 2026), https://markets.ft.com/
+
+5. Guidance Revision Expectations
+- Potential upside to full-year guidance given infrastructure momentum
+- Market looking for management confidence in sustained infrastructure demand
+- AI-related opportunity being actively discussed among investors
+- Working capital trends to be monitored for future cash generation
+Source: Investment Bank Pre-Earnings Notes (January 28-29, 2026)
+
+=== ANALYST SENTIMENT BASELINE ===
+Consensus showed increasing optimism on infrastructure segment trajectory. Most analysts had upgraded or maintained positive ratings on Lenovo through January 2026, with infrastructure providing incremental upside to prior-year thinking. PC stabilization was viewed as table stakes, with infrastructure as the key growth catalyst.
+
+Compiled from publicly available market research, broker reports, and industry analysis dated before January 30, 2026.

@@ -1,0 +1,7 @@
+Citigroup (C) - News coverage digest, FQ2 2025 earnings (report date 2025-07-15)
+Fetched via web search across free financial outlets (Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 15, 2025 pre-market report, estimates for Q2 EPS varied by source: $2.72 (+38.8% YoY) per one estimate, $2.64 (up from $2.04 YoY) per another. Revenue consensus centered around $23.68 billion (+9.3% YoY), with one source citing $23.37 billion. The consensus EPS estimate had been revised upward 1.9% in the 30 days before the report, and analysts had generally reconfirmed rather than cut their estimates heading in - a mild positive-momentum signal, similar to the pattern seen in Schwab's pre-earnings coverage the same week.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/exploring-analyst-estimates-citigroup-c-131503398.html (Yahoo Finance/Zacks, "Exploring Analyst Estimates for Citigroup (C) Q2 Earnings, Beyond Revenue and EPS" - published prior to the July 15, 2025 report)

@@ -1,0 +1,44 @@
+{
+  "document_id": "ABNB_FQ1_2026_NEWS",
+  "base_document_id": "ABNB_FQ1_2026",
+  "issuer": "p2_airbnb",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes a stock that has rallied 12% in the month before the print amid positive analyst upgrades, indicating elevated expectations and a demanding bar. The flagged risks of moderating US demand and FX volatility suggest limited room for a positive surprise, warranting a mildly bearish score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T161519Z",
+    "timestamp": "2026-07-20T16:15:26Z",
+    "status": "success",
+    "document_id": "ABNB_FQ1_2026_NEWS",
+    "issuer": "p2_airbnb",
+    "company": "Airbnb",
+    "ticker": "ABNB",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-07",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_airbnb\\ABNB_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3621,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1005,
+    "total_tokens": 4626,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002032,
+    "latency_seconds": 6.84,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

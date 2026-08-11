@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_eli_lilly",
+  "reports": [
+    {
+      "document_id": "LLY_FQ3_2025",
+      "issuer": "p2_eli_lilly",
+      "company": "Eli Lilly",
+      "ticker": "LLY",
+      "sector": "Healthcare",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/eli_lilly/CY2025-Q3/11 eli lilly q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/eli_lilly/CY2025-Q3/LLY-Q3-2025-earnings-call-transcript-InsiderMonkey.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "LLY_FQ4_2025",
+      "issuer": "p2_eli_lilly",
+      "company": "Eli Lilly",
+      "ticker": "LLY",
+      "sector": "Healthcare",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-03",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/eli_lilly/CY2025-Q4/12 eli lilly q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/eli_lilly/CY2025-Q4/LLY-Q4-2025-earnings-call-transcript-InsiderMonkey.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "LLY_FQ1_2026",
+      "issuer": "p2_eli_lilly",
+      "company": "Eli Lilly",
+      "ticker": "LLY",
+      "sector": "Healthcare",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/eli_lilly/CY2026-Q1/10 eli lilly q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/eli_lilly/CY2026-Q1/LLY-Q1-2026-earnings-call-transcript-InsiderMonkey.txt"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+Pre-Earnings Market Expectations Digest: Allianz SE (ALV.DE) - Q1 2025
+Report Date: 2025-05-15
+
+=== Guidance baseline heading into the print ===
+Allianz's most recent full-year guidance ahead of the Q1 2025 print was set at
+its FY2024 results announcement on February 27-28, 2025 (Munich): full-year
+2025 operating profit target of EUR 16.0 billion, plus or minus EUR 1 billion.
+Source: "Allianz achieves record operating profit of 16.0 billion euros",
+Allianz media release, 2025-02-28.
+https://www.allianz.com/en/mediacenter/news/media-releases/financials/250228-allianz-4q-fy2024-earnings-release.html
+
+Same release: FY2024 operating profit was itself a record, with 4Q2024
+operating profit up 10.9% YoY to EUR 4.2bn, core net income up 3.5% to
+EUR 2.4bn, and a Solvency II ratio of 209% at end-2024 - a strong balance-
+sheet starting point cited by commentators as the reason Allianz entered
+Q1 2025 with limited perceived downside risk. On 2025-02-27, alongside the
+results, Allianz announced a new EUR 2 billion share buy-back program,
+reinforcing capital-return expectations investors were pricing in heading
+into the Q1 print.
+Source: same release as above, dated 2025-02-28 (Allianz media center).
+
+=== Consensus framing ===
+Analyst commentary in the weeks after the FY2024 print (still pre-Q1-2025,
+i.e. published between late February and mid-May 2025) treated the
+EUR 16.0bn +/- EUR 1bn full-year target as the anchor for Q1 2025 estimates,
+with the Property-Casualty segment (the largest driver of the FY2024 beat)
+seen as the key swing factor for Q1. No specific consensus EPS/operating-
+profit figure for Q1 2025 alone was found from a free, dated-and-verifiable
+source strictly before 2025-05-15; the FY guidance above is the best-
+documented pre-print expectation anchor available from free sources.
+
+=== Note on sourcing ===
+Allianz's own investor-relations site returns 403 Forbidden to automated
+fetches (encountered repeatedly this session), and free transcript
+aggregators (Motley Fool, Seeking Alpha, Benzinga) do not carry Allianz
+(foreign private issuer, XETRA-listed) analyst-estimate previews. This
+digest is accordingly guidance-anchored rather than consensus-estimate-
+anchored; flagged here rather than fabricated.

@@ -1,0 +1,177 @@
+{
+  "document_id": "BCS_FQ2_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: RoTE has increased consistently every quarter since Q1 2024, reaching 11.1% over the last 12 months. Management explicitly states they are 'firmly on track to achieve our objectives for 2025, 2026, and with further ambition beyond that.' While full-year guidance is not formally raised, the forward language is confident and the trajectory is clearly improving, warranting a score above 0.0 but below the threshold for a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed (no specific revenue figure reported in the transcript).",
+    "eps": "Not disclosed.",
+    "guidance": "Management states they are 'firmly on track to achieve our objectives for 2025, 2026, and with further ambition beyond that.' They expect 'the level and consistency of returns to improve further' and see 'multi-year NII growth beyond 2026' from the structural hedge.",
+    "margin": "Not disclosed (no specific margin figure reported).",
+    "key_risks": [
+      "Delay in implementation of the US card model (2026/2027) affecting RWA allocation and capital.",
+      "Uncertainty around Pillar 2A in UK Basel, with no clarity yet on offset.",
+      "Inflation hitting the cost base on a lagged basis, with 'still seeing quite high inflation coming through the cost base in 2025.'",
+      "Execution risk on cost savings beyond 2026, as technology and process-focused savings are 'clearly harder to do than people and property.'"
+    ],
+    "key_opportunities": [
+      "Structural hedge yield expected to increase over time, supporting 'strongly positive income growth from reinvestment and multi-year NII growth beyond 2026.'",
+      "UK mortgage, corporate lending, and Business Banking loan growth momentum, with Q2 marking the fourth quarter of net mortgage growth.",
+      "US cards NIM progression from repricing actions, deposit growth, and GM onboarding, with expectation of 'further progression from here.'",
+      "Investment Bank taking market share in FICC and Equities, with stable income sources rising to 40% of IB income from 29% in 2021.",
+      "Cost savings program on track: £1.35 billion of the £2 billion target achieved at half-year of the plan."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'we are delivering consistently' and 'we remain firmly on track to achieve our objectives for 2025, 2026, and with further ambition beyond that,' indicating a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "RoTE has increased consistently every quarter since Q1 2024, reaching 11.1% over the last 12 months.",
+      "quote": "our RoTE over the last 12 months reached 11.1% and that excludes the impacts of inorganic activity last year . And this [trailing 12 month] measure has increased consistently every quarter since Q1 2024¹, starting at 10% then 10.1%, 10.4%, 10.5%, 11%, and now 11.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management states they are 'firmly on track' to achieve objectives for 2025, 2026, and beyond.",
+      "quote": "we are delivering consistently , and by doing so, we remain firmly on track to achieve our objectives for 2025, 2026, and with further ambition beyond that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural hedge yield is currently 2.5% and expected to increase, supporting multi-year NII growth beyond 2026.",
+      "quote": "The overall yield on the hedge is currently 2.5 % and as you know, this will increase over time as we reinvest a significant proportion of the portfolio each year . T o help you think about the trajectory, in 2027 the maturing yield on our book will be c.2.1%, supporting strongly positive income growth from reinvestment and multi -year NII growth beyond 2026 .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "UK mortgage growth: Q2 marked the fourth quarter of net mortgage growth.",
+      "quote": "Q2 marked the fourth quarter of net mortgage growth, the third quarter of corporate lending growth, and the second quarter of core Business Banking loan growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US cards NIM is expected to progress further from repricing actions, deposit growth, and GM onboarding.",
+      "quote": "We did see progression in the NIM and I expect to see further progression from here. And that's really coming from the repricing actions which continue to mature... we continue to grow a deposit... the other thing that's going to help us progress Jordan, is, bringing on GM.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment Bank stable income sources rose to 40% of IB income from 29% in 2021.",
+      "quote": "within the Investment Bank as a whole these stable sources of income accounted for 40% of our income in the past year , up from 29% in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost savings program: £1.35 billion of the £2 billion target achieved at half-year of the plan.",
+      "quote": "we got £2 billion target for the three years together . Actually , at the end of the first half of the plan we're at £1.35 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk: Delay in US card model implementation affecting RWA allocation.",
+      "quote": "the timing of the implementation of the US card model could be 2026/2027 and somewhat out of our hands, Chris .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk: Uncertainty around Pillar 2A in UK Basel.",
+      "quote": "at this point in time we have no clarity as to what will happen for Pillar 2A in UK Basel. So Pillar 1 is going to go up, we might expect a degree of offset and Pillar 2A, but we don’t know what that is yet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk: Inflation hitting cost base on a lagged basis.",
+      "quote": "Inflation tends to hit us on a lagged basis so if we did see a pickup in inflation, we would expect to see that pressure a little bit further out because it tends to feed through into property and into people costs on a bit of a lag. And that's one of the reasons why we're still seeing quite high inflation coming through the cost base in 2025 when actually the headline rate dropped in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk: Execution risk on cost savings beyond 2026, as technology-focused savings are harder.",
+      "quote": "I think the sort of bigger point that we are thoughtful about now is really what’s beyond 2026 and really how do we keep that focus on efficiency. And as I said in my remarks, it's really technology focused, and process focused. That's clearly harder to do than people and property .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we are delivering consistently , and by doing so, we remain firmly on track to achieve our objectives for 2025, 2026, and with further ambition beyond that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No specific revenue figure was reported in the transcript; only qualitative commentary on growth and momentum."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "No EPS figure was reported in the transcript."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No specific margin figure was reported; only qualitative commentary on NIM progression."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 3
+  },
+  "model_document_id": "BCS_Bundled Earnings Report_2025-07-29",
+  "report_metadata": {
+    "issuer": "p2_barclays",
+    "company": "Barclays",
+    "ticker": "BCS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2025-Q2\\Barclays Q225 sellside transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BCS_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T155544Z",
+    "timestamp": "2026-07-21T15:56:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2025-Q2\\Barclays Q225 sellside transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_barclays\\extracted\\BCS_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2025-Q2\\Barclays Q225 sellside transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 53157,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_barclays\\extracted\\BCS_FQ2_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

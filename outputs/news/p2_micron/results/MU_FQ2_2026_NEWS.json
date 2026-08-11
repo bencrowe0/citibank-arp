@@ -1,0 +1,44 @@
+{
+  "document_id": "MU_FQ2_2026_NEWS",
+  "base_document_id": "MU_FQ2_2026",
+  "issuer": "p2_micron",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "This pre-earnings digest describes extremely stretched market expectations: the stock has already rallied significantly, analyst estimates have been rising, and the market is pricing in a 'secular' AI super-cycle with expectations of record revenue, 75%+ gross margins, and a beat-and-raise pattern. Such euphoric optimism and a high bar heading into the print increase the risk of a negative surprise even if results are decent, warranting a bearish sentiment score. The document contains no guidance or actual results, so the score reflects the elevated expectations rather than a forward guidance change."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T101502Z",
+    "timestamp": "2026-08-09T10:15:14Z",
+    "status": "success",
+    "document_id": "MU_FQ2_2026_NEWS",
+    "issuer": "p2_micron",
+    "company": "Micron",
+    "ticker": "MU",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-03-18",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_micron\\MU_FQ2_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4451,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1912,
+    "total_tokens": 6363,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003254,
+    "latency_seconds": 12.09,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.35,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "WMT_FQ4_2025_NEWS",
+  "base_document_id": "WMT_FQ4_2025",
+  "issuer": "p2_walmart",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "The document is a pre-earnings digest describing elevated expectations heading into Walmart's FQ4 2025 report. It explicitly frames the print as a potential 'make-or-break moment' for the stock given 'elevated expectations after a strong run.' This indicates a stretched bar with little room for a soft print, which is bearish for forward expectations. No guidance or actual results are present, so the score reflects the demanding market setup."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162542Z",
+    "timestamp": "2026-07-20T16:25:51Z",
+    "status": "success",
+    "document_id": "WMT_FQ4_2025_NEWS",
+    "issuer": "p2_walmart",
+    "company": "Walmart",
+    "ticker": "WMT",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-19",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_walmart\\WMT_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3417,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1059,
+    "total_tokens": 4476,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002036,
+    "latency_seconds": 8.13,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

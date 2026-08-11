@@ -1,0 +1,7 @@
+Apple (AAPL) - News coverage digest, FQ1 2026 earnings (report date 2026-01-29)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the January 29, 2026 report, Yahoo Finance's poll of 30 analysts averaged a revenue estimate of $138.35 billion (range $136.66-$142.74 billion); TipRanks' EPS consensus (31 estimates) averaged $2.67 (range $2.51-$2.80). Gross margin was expected near 47.6%, the midpoint of Apple's own 47%-48% guided range, with Services expected to approach a $29.9 billion milestone. Sentiment heading in was constructive around the holiday-quarter setup, with the Services growth trajectory and margin guidance the two figures analysts were watching most closely relative to the company's own range.
+
+Sources:
+- https://forums.appleinsider.com/discussion/243053/what-to-expect-from-apples-q1-2026-earnings-on-january-29 (AppleInsider Forums, "What to expect from Apple's Q1 2026 earnings on January 29" - published prior to the report)

@@ -1,0 +1,171 @@
+{
+  "document_id": "NFLX_FQ1_2026",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a strong Q1 with EPS of $1.23 beating consensus of $0.77 (a 59.74% surprise) and revenue of $12,249.76M slightly above consensus. However, full-year guidance is maintained, not raised: revenue growth of 12% to 14% and operating margin at 31.5% are reaffirmed. Management expresses confidence in the business and growth opportunities, but the lack of an upward guidance revision keeps the forward signal only mildly positive."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band"
+  },
+  "summary": {
+    "revenue": "FQ1 2026 revenue of $12,249.76 million, slightly above consensus of $12,173.11 million (0.63% surprise).",
+    "eps": "FQ1 2026 EPS normalized of $1.23, beating consensus of $0.77 (59.74% surprise).",
+    "guidance": "Maintaining full-year 2026 guidance: revenue growth of 12% to 14%, operating margin at 31.5%, and advertising revenue roughly doubling to about $3 billion.",
+    "margin": "Full-year 2026 operating margin guidance of 31.5%.",
+    "key_risks": [
+      "Warner Bros. deal costs pulled forward into 2026, though no material impact on operating margin outlook.",
+      "Nielsen methodology change may lower reported streaming viewership, but management notes no change in actual consumer behavior.",
+      "Competition for great projects remains intense."
+    ],
+    "key_opportunities": [
+      "Advertising business expected to roughly double to about $3 billion in 2026.",
+      "Expansion into new content categories: podcasts, regional live sports (e.g., World Baseball Classic in Japan), and games (including Netflix Playground for kids).",
+      "Leveraging AI and technology to improve personalization, recommendation, and ad products.",
+      "Significant room for growth: under 45% penetration of addressable households, only 5% of global TV view share.",
+      "Strong APAC performance led by Japan, India, Korea, and Southeast Asia."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes 'really good progress,' 'solid momentum,' and 'strong outlook,' and states 'we really feel great about the business, about the organic growth opportunity ahead.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FQ1 2026 revenue was $12,249.76 million, slightly above consensus.",
+      "quote": "Revenue (mm) 12173.11 12249.76 0.63",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ1 2026 EPS normalized was $1.23, beating consensus of $0.77 by 59.74%.",
+      "quote": "EPS Normalized 0.77 1.23 59.74",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance is maintained: revenue growth 12% to 14%, operating margin 31.5%.",
+      "quote": "we are maintaining our guidance, our strong outlook for organic growth that we established for 2026. That's revenue growth of 12% to 14%, operating margin at 31.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue expected to roughly double to about $3 billion in 2026.",
+      "quote": "That includes roughly doubling the advertising business to about USD 3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we really feel great about the business, about the organic growth opportunity ahead, and we are just as energized as ever to achieve our mission to entertain the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Warner Bros. deal costs pulled forward into 2026 but no material impact on margin.",
+      "quote": "some that we were planning to carry into '27 were pulled forward into 2026. ... There's no material impact on our operating margin outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nielsen methodology change does not affect actual viewing or advertising business.",
+      "quote": "Nielsen's methodology change in the gauge reporting is a change in how they calculate the national TV universe. So it's not a change in how people actually watch TV. ... none of this changes our effectiveness or our aspirations in the ad space.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Netflix has significant room for growth: under 45% penetration of addressable households.",
+      "quote": "we're still under 45% penetrated in terms of that number. We think that number is roughly 800 million, and it grows every year, obviously.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Netflix accounts for only 5% of global TV view share.",
+      "quote": "we estimate that we account for only 5% of TV view share globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "APAC was the strongest FX-neutral revenue growth market in Q1.",
+      "quote": "APAC was our strongest FX-neutral revenue growth market for the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "World Baseball Classic was the most watched program ever in Japan and drove record sign-ups.",
+      "quote": "it was the most watched program we've ever had in Japan. ... the WBC drove the largest single sign-up day ever in Japan and Japan led our Q1 member growth around the world. And Japan had its highest quarter of paid net adds in our history.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Netflix is expanding into podcasts and games, including a kids gaming app.",
+      "quote": "We announced a few exciting new ones just today. We're adding more regional live sports events, like the incredible event we just did in Japan with World Baseball Classic, and we're growing our games offering, including a brand-new kids gaming app.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI is being leveraged to improve personalization and recommendation, driving increased engagement.",
+      "quote": "we already saw in this last quarter, these new capabilities driving increased engagement with the service.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition for great projects remains intense.",
+      "quote": "great projects are immensely competitive, and they remain so.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.10 is near the HOLD/BUY boundary (0.15). The strong EPS beat and confident tone could justify a slightly higher score, but the lack of guidance raise keeps it in HOLD territory. Reviewer may want to assess if the beat is considered forward-looking enough to push above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2026-04-16",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-16",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ1 26.pdf"
+      }
+    ],
+    "document_id": "NFLX_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260702T124819Z",
+    "timestamp": "2026-07-02T12:49:24Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ1 26.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ1 26.pdf",
+        "page_count": 15,
+        "extracted_characters": 51508,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2026.txt"
+  }
+}

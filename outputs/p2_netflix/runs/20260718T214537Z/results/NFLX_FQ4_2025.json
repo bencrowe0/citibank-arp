@@ -1,0 +1,172 @@
+{
+  "document_id": "NFLX_FQ4_2025",
+  "sentiment": {
+    "score": 0.6,
+    "rationale": "The document reports a clean beat with FY2025 revenue growing 16% and operating profit up ~30%, and 2026 revenue guidance raised to $51B (up 14% YoY). However, growth decelerates from 16% to 14%, and the WBD deal introduces a ~0.5pt margin drag and regulatory/execution overhang, which tempers the positive forward signal. The score reflects a strong quarter with a raised guide, but the deceleration and deal risk prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FY2025 revenue grew 16%; 2026 revenue forecast $51B, up 14% YoY.",
+    "eps": "Not disclosed",
+    "guidance": "2026 revenue forecast $51B, up 14% YoY; 2026 operating-margin target 31.5%, up 2 points; 2026 FCF ~$6B; content cash spend $17B.",
+    "margin": "2025 operating profit grew ~30%; 2026 operating-margin target 31.5%, up 2 points, with ~0.5pt drag from expected M&A expenses.",
+    "key_risks": [
+      "Growth decelerating from 16% to 14%.",
+      "WBD deal integration cost and ~0.5pt margin drag.",
+      "Regulatory and execution overhang from the WBD deal.",
+      "Live programming still a small portion of total view hours and content spend.",
+      "Geographic mix dampens view-hours-per-member.",
+      "Second-run / licensed-title viewing down YoY as licensed volume fell."
+    ],
+    "key_opportunities": [
+      "Ad sales 2.5x in 2025, expected to roughly double again to ~$3B in 2026.",
+      "Proprietary ad-tech stack in place, enabling more formats and interactivity.",
+      "Churn improved YoY; customer satisfaction and primary quality metric at all-time highs.",
+      "Two additional live-operations centres opening in 2026 (UK and Asia)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes 'a pretty great 2026 coming up after this phenomenal Q4' and states 'we just completed a quarter where churn improved year on year,' reflecting a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FY2025 revenue grew 16%.",
+      "quote": "2025 revenue growth 16%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 revenue forecast is $51B, up 14% YoY.",
+      "quote": "We forecast 2026 revenue at $51 billion, which is up 14% year on year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 operating profit grew ~30%.",
+      "quote": "2025 operating profit grew≈30%, supported by margin expansion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 operating-margin target is 31.5%, up 2 points.",
+      "quote": "We're targeting 31.5% operating margins for 2026. That's up two points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The margin target includes a ~0.5pt drag from expected M&A expenses.",
+      "quote": "2026 operating-margin target 31.5%, up 2 points, with an≈0.5pt drag from expected M&A expenses",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad sales were 2.5x in 2025 and expected to roughly double again.",
+      "quote": "Ad sales, two and a half times in 2025. We expect that business to roughly double again.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Churn improved YoY and customer satisfaction is at all-time highs.",
+      "quote": "We just completed a quarter where churn improved year on year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growth decelerates from 16% to 14%.",
+      "quote": "2025 revenue growth 16%, and 2026 revenue forecast $51B, up 14% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The WBD deal introduces regulatory and execution overhang.",
+      "quote": "Regulatory and execution overhang from the WBD deal",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "a pretty great 2026 coming up after this phenomenal Q4",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.60 is based on a strong quarter and raised guide, but the deceleration and WBD risk are noted. A human reviewer should confirm the weighting is appropriate given the mixed forward signals."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2026-01-20",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\Netflix Q1-Q4 2025 - Dragos manual baseline.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\netflix q4 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214537Z",
+    "timestamp": "2026-07-18T21:46:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\Netflix Q1-Q4 2025 - Dragos manual baseline.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\Netflix Q1-Q4 2025 - Dragos manual baseline.pdf",
+        "page_count": 14,
+        "extracted_characters": 26568,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\netflix q4 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 7746,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ4_2025.txt"
+  }
+}

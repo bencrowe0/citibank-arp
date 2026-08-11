@@ -1,0 +1,44 @@
+{
+  "document_id": "UNH_FQ3_2025_NEWS",
+  "base_document_id": "UNH_FQ3_2025",
+  "issuer": "p2_unitedhealth",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This pre-earnings digest describes depressed expectations heading into Q3 2025: the prior quarter missed consensus, full-year guidance was cut, and analyst estimates for Q3 are low (EPS ~$2.81-$2.92). The digest notes 'positive expectations for Q3 as insurance operations stabilized mid-year' and 'recovery signs emerge,' suggesting a lowered bar that increases the odds of a positive surprise. However, skepticism remains about execution of the 2026 recovery plan, so the score is moderately positive rather than strongly bullish."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103915Z",
+    "timestamp": "2026-08-09T10:39:23Z",
+    "status": "success",
+    "document_id": "UNH_FQ3_2025_NEWS",
+    "issuer": "p2_unitedhealth",
+    "company": "UnitedHealth",
+    "ticker": "UNH",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-27",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_unitedhealth\\UNH_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4045,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1242,
+    "total_tokens": 5287,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002407,
+    "latency_seconds": 8.36,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

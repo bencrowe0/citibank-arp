@@ -1,0 +1,44 @@
+{
+  "document_id": "META_FQ3_2025_NEWS",
+  "base_document_id": "META_FQ3_2025",
+  "issuer": "p2_meta",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are heading into the print. The document describes a dominant theme of 'AI-monetization progress and ROI concerns around Meta's heavy AI/infrastructure capex' and notes that 'margin compression [is] already priced into the consensus.' This indicates elevated scrutiny and a demanding bar, raising the risk of a negative surprise even on decent results. The bar is not described as 'priced for perfection' explicitly, but the focus on ROI concerns and margin compression suggests expectations are not depressed, leaning slightly bearish."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162234Z",
+    "timestamp": "2026-07-20T16:22:46Z",
+    "status": "success",
+    "document_id": "META_FQ3_2025_NEWS",
+    "issuer": "p2_meta",
+    "company": "Meta",
+    "ticker": "META",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_meta\\META_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3546,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1641,
+    "total_tokens": 5187,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002711,
+    "latency_seconds": 12.26,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

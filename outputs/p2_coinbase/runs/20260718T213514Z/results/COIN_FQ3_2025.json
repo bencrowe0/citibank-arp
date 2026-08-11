@@ -1,0 +1,181 @@
+{
+  "document_id": "COIN_FQ3_2025",
+  "sentiment": {
+    "score": 0.6,
+    "rationale": "The document reports strong Q3 results with consumer spot volume up 37% quarter-over-quarter, net income of $433M, and adjusted EBITDA of $801M. Forward guidance shows October transaction revenue tracking at about $385M and Q4 subscription and services guided to $710M-$790M, indicating maintained momentum despite acknowledged competitive and regulatory risks. The score reflects genuine operational momentum and confident forward language, though formal guidance is not explicitly raised above prior levels, keeping the score below +0.7."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue $1.9B. Transaction revenue $979M, subscription and services $747M.",
+    "eps": "Net income $433M. (EPS not explicitly stated as per-share figure.)",
+    "guidance": "October transaction revenue tracking at about $385M. Q4 subscription and services guided to $710M to $790M. Combined tech, development and G&A expenses $925M to $975M.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "A multi-quarter regulatory roadmap is still needed to bring US options products to market.",
+      "New exchange competitors are entering, with competitive dynamics acknowledged in October.",
+      "Infrastructure scaling risk after past cloud outages, driving multi-cloud investment."
+    ],
+    "key_opportunities": [
+      "Deribit acquisition closed, making options market share story a key focus.",
+      "Consumer spot volume up 37% quarter over quarter.",
+      "Derivatives volume above $840B.",
+      "Assets on platform $516B."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management highlights strong operational metrics and forward guidance with phrases like 'We turbocharged our trading platform' and 'huge opportunity for us' regarding Deribit, indicating confidence in the business trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $1.9B.",
+      "quote": "Total revenue $1.9B. Transaction revenue $979M, subscription and services $747M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income was $433M.",
+      "quote": "Net income $433M. Adjusted EBITDA $801M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer spot volume up 37% quarter over quarter.",
+      "quote": "Consumer spot volume $59B, up 37% quarter over quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "October transaction revenue tracking at about $385M.",
+      "quote": "October transaction revenue tracking at about $385M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 subscription and services guided to $710M to $790M.",
+      "quote": "Q4 subscription and services guided to $710M to $790M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined tech, development and G&A expenses $925M to $975M.",
+      "quote": "Combined tech, development and G&A expenses $925M to $975M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deribit acquisition closed, making options market share story a key focus.",
+      "quote": "The Deribit acquisition had closed, making the options market share story a key focus.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Derivatives volume above $840B.",
+      "quote": "Derivatives volume above $840B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Assets on platform $516B.",
+      "quote": "We ended Q3 with $516 billion in assets on platform – Haas, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A multi-quarter regulatory roadmap is still needed to bring US options products to market.",
+      "quote": "A multi-quarter regulatory roadmap is still needed to bring US options products to market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New exchange competitors are entering, with competitive dynamics acknowledged in October.",
+      "quote": "New exchange competitors are entering, with competitive dynamics acknowledged in October.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Infrastructure scaling risk after past cloud outages, driving multi-cloud investment.",
+      "quote": "Infrastructure scaling risk after past cloud outages, driving multi-cloud investment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We turbocharged our trading platform in Q3 by adding DEX integrations, expanding assets from 300 to over 40,000 – Armstrong, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deribit had over 75% market share for options, representing a huge opportunity.",
+      "quote": "Deribit had over 75% market share for options . . . huge opportunity for us – Haas, Q&A.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.eps",
+      "reason": "Net income is provided ($433M) but EPS per share is not explicitly stated; the field may be incomplete."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No margin commentary is present in the document; field set to 'Not disclosed'."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "COIN_Bundled Earnings Report_2025-10-30",
+  "report_metadata": {
+    "issuer": "p2_coinbase",
+    "company": "Coinbase",
+    "ticker": "COIN",
+    "sector": "Financials/Crypto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q3\\08 coinbase q3 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COIN_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213514Z",
+    "timestamp": "2026-07-18T21:35:23Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q3\\08 coinbase q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q3\\08 coinbase q3 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 6163,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ3_2025.txt"
+  }
+}

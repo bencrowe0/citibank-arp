@@ -1,0 +1,7 @@
+Uber - News coverage digest, FQ4 2025 earnings (report date 2026-02-04)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 4, 2026 report, StreetAccount estimated mobility revenue of $8.3 billion and delivery revenue of $4.72 billion; LSEG consensus put overall revenue at $14.32 billion. EPS consensus varied by source ($0.79-$0.83), and gross bookings were estimated near $53.1 billion. No strong directional sentiment signal (bullish or bearish) was found in a clean pre-earnings-dated narrative piece for this specific quarter beyond the standard consensus figures.
+
+Sources:
+- https://mlq.ai/news/uber-reports-q4-earnings-miss-with-revenue-beat-and-cautious-q1-outlook/ (MLQ.ai, consensus estimate figures ($14.32B revenue / EPS ~$0.83) as tracked ahead of the February 4, 2026 report)

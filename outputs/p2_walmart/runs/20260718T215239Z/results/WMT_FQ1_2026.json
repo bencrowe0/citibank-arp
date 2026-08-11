@@ -1,0 +1,282 @@
+{
+  "document_id": "WMT_FQ1_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Full-year guidance for net sales (3.5%-4.5% cc), adjusted operating income (6%-8% cc), and adjusted EPS ($2.75-$2.85) is reiterated unchanged from the original February 2026 guidance, despite a Q1 beat on revenue (5.7% cc vs. 4.0%-5.0% guided range) and a strong Q2 operating income guide (7%-10% cc). The Q1 beat is partially organic (eCommerce, advertising, marketplace) but management explicitly attributes a 250 bps headwind to higher fuel costs and notes that if elevated costs persist, 'somewhat higher retail price inflation' is expected. The unchanged full-year guidance and cautious inflation language prevent a higher score, but the Q2 acceleration and strong operational momentum (e.g., general merchandise share gains, advertising growth) justify a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Total revenues of $177.8 billion, up 7.3% reported, up 5.9% in constant currency (cc). Net sales grew 5.7% (cc).",
+    "eps": "GAAP EPS of $0.67; Adjusted EPS of $0.66, up 8.2% year-over-year.",
+    "guidance": "Q2 FY27: net sales (cc) increase 4.0%-5.0%, operating income (cc) increase 7.0%-10.0%, adjusted EPS $0.72-$0.74. Full-year FY27: net sales (cc) increase 3.5%-4.5% (unchanged), adjusted operating income (cc) increase 6.0%-8.0% (unchanged), adjusted EPS $2.75-$2.85 (unchanged). Guidance does not assume any impact from IEEPA tariff refunds.",
+    "margin": "Gross profit rate +6 bps to 24.3%. Walmart U.S. gross profit rate +29 bps to 27.8%. Adjusted operating expenses as a percentage of net sales deleveraged 23 bps to 21.1%.",
+    "key_risks": [
+      "Higher fuel costs: absorbed approximately $175 million, or about 250 bps of operating income growth, from higher than planned fuel costs in global distribution and fulfillment operations.",
+      "If elevated fuel cost environment persists, management expects 'somewhat higher retail price inflation in Q2 and the second half of the year.'",
+      "Maximum Fair Pricing legislation in pharmacy created a 100-basis point headwind to Walmart U.S. comp sales.",
+      "Consumer pressure: lower-income consumers are 'more budget conscious and perhaps navigating financial distress,' with gallons per fill-up at fuel stations falling below 10 for the first time since 2022.",
+      "Tariff uncertainty: guidance does not assume any impact from IEEPA tariff refunds; maximum refunds represent less than half of 1% of US annual sales."
+    ],
+    "key_opportunities": [
+      "eCommerce growth: global eCommerce sales grew 26%, with Walmart U.S. delivery growing 45% and 36% of store-fulfilled deliveries in under 3 hours.",
+      "Advertising business: global advertising grew 37%, with Walmart U.S. up 36% and marketplace seller ad spend up over 50%.",
+      "Marketplace: U.S. marketplace net sales grew nearly 50%, with cross-border expansion into Canada and Mexico showing early positive results.",
+      "Membership fee revenue: grew 17.4% globally, with Walmart+ net adds reaching a new Q1 high and Sam's Club membership revenue up 5.6%.",
+      "General merchandise share gains: highest level in five years, with fashion as a standout and merchandise category mix contributing favorably to Walmart U.S. gross margin for the first time in 18 quarters.",
+      "AI and automation: Sparky AI shopping agent weekly active users up over 100% in the quarter; automation scaling across supply chain (50% of eCommerce FC volume automated, 60% of stores receiving freight from automated DCs)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'our business is strong,' 'we have momentum and a clear strategy,' and 'we are probably as excited about the potential of our business today than at any point in time in the last few years,' while reiterating full-year guidance despite acknowledged headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues were $177.8 billion, up 7.3% reported, up 5.9% in constant currency.",
+      "quote": "Total revenues grew 7.3% to $177.8 billion, up 5.9% (cc)1 excluding a $2.3 billion impact from currency fluctuations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net sales grew 5.7% in constant currency.",
+      "quote": "Net sales grew 5.7% (cc) 1 with strength across all segments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $0.67; Adjusted EPS was $0.66, up 8.2% year-over-year.",
+      "quote": "GAAP EPS of $0.67; Adjusted EPS1 of $0.66, up 8.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance is reiterated unchanged from original February 2026 guidance.",
+      "quote": "The Company’s outlook for fiscal 2027 remains unchanged from prior guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY27 guidance: net sales (cc) increase 4.0%-5.0%, operating income (cc) increase 7.0%-10.0%, adjusted EPS $0.72-$0.74.",
+      "quote": "Consolidated metric Q2 FY27 Net sales (cc) Increase 4.0% to 5.0% Operating income (cc) Increase 7.0% to 10.0% Adjusted EPS $0.72 to $0.74",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross profit rate increased 6 bps to 24.3%.",
+      "quote": "Gross profit rate 24.2% 24.5% 24.2% 24.0% 24.3% ... Y/Y Change +12 bps +4 bps +2 bps +13 bps +6 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Walmart U.S. gross profit rate increased 29 bps to 27.8%.",
+      "quote": "Gross profit rate 27.8%, +29 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating expenses as a percentage of net sales deleveraged 23 bps to 21.1%.",
+      "quote": "Adjusted operating expenses as a percentage of net sales1, +23 bps to 21.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher fuel costs absorbed approximately $175 million, or about 250 bps of operating income growth.",
+      "quote": "We absorbed approximately $175 m illion, or about 250 basis points of operating income growth from higher than planned fuel costs in our global distribution and fulfillment operations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "If elevated fuel cost environment persists, management expects somewhat higher retail price inflation.",
+      "quote": "if the current elevated cost environment persists, we'd expect somewhat higher retail price inflation in Q2 and the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Maximum Fair Pricing legislation created a 100-basis point headwind to Walmart U.S. comp sales.",
+      "quote": "Walmart US comp sales, which were up 4.1% despite a 100-basis point headwind from Maximum Fair Pricing legislation in pharmacy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower-income consumers are more budget conscious, with gallons per fill-up falling below 10 for the first time since 2022.",
+      "quote": "the lower income consumer is more budget conscious and perhaps navigating financial distress. And I'll give you an example. Like, we have a large fuel business and we see that in the most recent period, the number of gallons that customers fill up with when they come to our fuel stations fell below 10 for the first time since 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance does not assume any impact from IEEPA tariff refunds; maximum refunds represent less than half of 1% of US annual sales.",
+      "quote": "We'd also like to note that our guidance does not assume any impact from IEEPA tariff refunds. ... we believe that the maximum refunds we may be eligible to receive as the importer of record represent less than half of 1% of our US annual sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global eCommerce sales grew 26%.",
+      "quote": "Enterprise eCommerce sales grew 26%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Walmart U.S. delivery grew 45% and 36% of store-fulfilled deliveries were in under 3 hours.",
+      "quote": "within Walmart US, delivery grew 45%. More than 36% of all US store-fulfilled deliveries in the quarter were delivered in less than 3 three hours.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global advertising business grew 37%, with Walmart U.S. up 36%.",
+      "quote": "our advertising business had one of its best quarters, growing 37% globally. ... Walmart US, which grew 36%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Marketplace seller ad spend grew over 50%.",
+      "quote": "marketplace sellers, who grew their advertising spend by ove r 50%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. marketplace net sales grew nearly 50%.",
+      "quote": "We're also encouraged by the performance of our US Marketplace, with nearly 50% net sales growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Membership fee revenue grew 17.4% globally.",
+      "quote": "Membership fee revenue grew 17.4% globally",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Walmart+ net adds reached a new Q1 high.",
+      "quote": "Walmart+ membership fee revenue growth accelerated, with net adds reaching a new Q1 high.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sam's Club membership revenue grew 5.6%.",
+      "quote": "Sam's Club US membership revenue grew 5.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "General merchandise share gains were the highest in five years.",
+      "quote": "In Q1, we saw the highest level of general merchandise share gains in five years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Merchandise category mix contributed favorably to Walmart U.S. gross margin for the first time in 18 quarters.",
+      "quote": "Q1 marked the first time in 18 quarters that merchandise mix contributed favorably to Walmart US gross margin expansion of 29 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sparky AI shopping agent weekly active users up over 100% in the quarter.",
+      "quote": "Weekly active users are up over 100% just in the last quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately 50% of eCommerce fulfillment center volume in Walmart U.S. is automated.",
+      "quote": "Approximately half of our eCommerce fulfillment center volume in Walmart US is automated",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "our business is strong. We have momentum and a clear strategy. ... we are probably as excited about the potential of our business today than at any point in time in the last few years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the BUY threshold. A reviewer may wish to confirm whether the unchanged full-year guidance and fuel/inflation risks should keep the score at 0.15 or push it slightly below to HOLD."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 26,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "WMT_Bundled Earnings Report_2026-05-21",
+  "report_metadata": {
+    "issuer": "p2_walmart",
+    "company": "Walmart",
+    "ticker": "WMT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2026-Q1\\q1-fy27-earnings-call-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2026-Q1\\q1-fy27-earnings-presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2026-Q1\\q1-fy27-earnings-release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "WMT_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T215239Z",
+    "timestamp": "2026-07-18T21:54:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2026-Q1\\q1-fy27-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_walmart\\extracted\\WMT_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2026-Q1\\q1-fy27-earnings-call-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 81273,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2026-Q1\\q1-fy27-earnings-presentation.pdf",
+        "page_count": 36,
+        "extracted_characters": 53845,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2026-Q1\\q1-fy27-earnings-release.pdf",
+        "page_count": 18,
+        "extracted_characters": 40235,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_walmart\\extracted\\WMT_FQ1_2026.txt"
+  }
+}

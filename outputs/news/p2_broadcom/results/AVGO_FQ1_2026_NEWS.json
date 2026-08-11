@@ -1,0 +1,44 @@
+{
+  "document_id": "AVGO_FQ1_2026_NEWS",
+  "base_document_id": "AVGO_FQ1_2026",
+  "issuer": "p2_broadcom",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest describes a stock that has already appreciated substantially and is trading near highs, with analyst estimates having been raised (consensus slightly above, AI revenue expected to grow ~100-110% YoY). The market is positioned constructively, but the high expectations and the focus on whether management can guide to $10B+ AI revenue run-rate indicate a stretched bar, leaving little room for a soft print. Therefore, expectations are elevated, increasing the risk of a negative surprise, warranting a bearish sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T095248Z",
+    "timestamp": "2026-08-09T09:52:56Z",
+    "status": "success",
+    "document_id": "AVGO_FQ1_2026_NEWS",
+    "issuer": "p2_broadcom",
+    "company": "Broadcom",
+    "ticker": "AVGO",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-03-04",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_broadcom\\AVGO_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3750,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1283,
+    "total_tokens": 5033,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002373,
+    "latency_seconds": 7.61,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

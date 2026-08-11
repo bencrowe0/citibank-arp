@@ -1,0 +1,44 @@
+{
+  "document_id": "NFLX_FQ4_2024_NEWS",
+  "base_document_id": "NFLX_FQ4_2024",
+  "issuer": "p2_netflix",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the document describes market expectations that are unusually stretched to the upside: buy-side analysts expect subscriber adds well above sell-side consensus, with 70% calling for at least 11.1 million net adds versus Wall Street's 9.2 million, and 29% predicting north of 13.1 million. The document also notes the stock has already recovered ahead of earnings. This elevated bar and 'priced for perfection' positioning increases the risk of a negative surprise even on decent results, warranting a mildly bearish sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260730T175615Z",
+    "timestamp": "2026-07-30T17:56:28Z",
+    "status": "success",
+    "document_id": "NFLX_FQ4_2024_NEWS",
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-01-21",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_netflix\\NFLX_FQ4_2024.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3898,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1711,
+    "total_tokens": 5609,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002883,
+    "latency_seconds": 12.42,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

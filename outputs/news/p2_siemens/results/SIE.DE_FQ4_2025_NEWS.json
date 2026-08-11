@@ -1,0 +1,44 @@
+{
+  "document_id": "SIE.DE_FQ4_2025_NEWS",
+  "base_document_id": "SIE.DE_FQ4_2025",
+  "issuer": "p2_siemens",
+  "sentiment": {
+    "score": -0.25,
+    "rationale": "This pre-earnings digest describes a stock trading near record highs with shares up 20.44% year-to-date, and explicitly notes 'valuation concerns with stock at elevated multiples - limited buffer for disappointment.' This indicates stretched expectations with little room for a soft print, which raises the risk of a negative market reaction even on decent results. The document also flags potential headwinds such as subdued automation momentum and geopolitical uncertainties, further supporting a bearish tilt."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103114Z",
+    "timestamp": "2026-08-09T10:31:26Z",
+    "status": "success",
+    "document_id": "SIE.DE_FQ4_2025_NEWS",
+    "issuer": "p2_siemens",
+    "company": "Siemens",
+    "ticker": "SIE.DE",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-11-13",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_siemens\\SIE.DE_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4007,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1667,
+    "total_tokens": 5674,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002864,
+    "latency_seconds": 10.9,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

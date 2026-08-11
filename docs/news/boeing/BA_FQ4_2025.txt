@@ -1,0 +1,13 @@
+Boeing (BA) - News coverage digest, FQ4 2025 earnings (report date 2026-01-27)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Going into the January 27, 2026 report, Boeing was still working through the aftermath of a rough Q3 2025, where its adjusted loss of $7.47 per share had missed the forecasted figure by roughly 94% (Barchart via Yahoo Finance, Jan 5). Against that backdrop, analysts expected a much narrower Q4 loss of $0.37-$0.45 per share, versus a steep $5.90 per-share loss in the year-ago quarter - GuruFocus (Jan 26) cited a loss of $0.45 per share on revenue of about $22.25 billion (up ~46% year-over-year), while Zacks (Jan 22) modeled a loss of $0.39 per share on revenue of $21.74 billion (up 42.6% year-over-year). The Zacks consensus EPS estimate had been revised down 2.9% over the trailing 30 days, suggesting a modest cooling of sentiment heading into the print even as the year-over-year comparison remained favorable.
+
+Options markets were pricing meaningful volatility around the release: per GuruFocus, options traders were bracing for a swing of roughly 5.08%, above Boeing's four-quarter average post-earnings move of about 4.1%. The stock had climbed roughly 16% year-to-date heading into the report, reflecting building confidence in the delivery ramp and production-rate progress under CEO Kelly Ortberg.
+
+Investors and analysts were focused on several themes ahead of the print: continued production and delivery progress on the 737 MAX and 787 programs (where further gains could validate higher output guidance for 2026), cash flow trajectory following the positive free-cash-flow milestone reached in Q3, margin trends, and supply-chain commentary. Segment-level estimates going into the quarter included Global Services revenue of roughly $5.53 billion, up about 8% year-over-year. Management remarks on quality-control initiatives and 2026 delivery targets were expected to be a key swing factor for how the market would react to the results, given the stock's already-elevated run into the report.
+
+Sources:
+- https://finance.yahoo.com/news/know-ahead-boeings-earnings-release-133312971.html (Barchart via Yahoo Finance, published January 5, 2026)
+- https://finance.yahoo.com/news/boeing-q4-earnings-preview-expect-181455010.html (GuruFocus via Yahoo Finance, published January 26, 2026)
+- https://finance.yahoo.com/news/boeing-ba-q4-earnings-horizon-141508998.html (Zacks Equity Research via Yahoo Finance, published January 22, 2026)

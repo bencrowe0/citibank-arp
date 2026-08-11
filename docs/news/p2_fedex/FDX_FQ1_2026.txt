@@ -1,0 +1,10 @@
+FedEx (FDX) - News coverage digest, FQ1 2026 earnings (report date 2025-09-18)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into its September 18, 2025 report (after the market close), FedEx's setup skewed cautious. Consensus called for a roughly flat quarter - adjusted EPS estimates clustered around $3.59-$3.71 versus $3.60 a year earlier, on revenue near $21.7 billion (barely above the year-ago quarter) - with coverage attributing the tepid outlook to stagnant business-to-business demand, worsening business-to-consumer trends, and continued softness on the historically lucrative China-to-U.S. freight lane amid ongoing trade tensions. A specific, quantified headwind was in focus: the U.S. termination of the "de minimis" duty-free exemption for low-value China/Hong Kong packages (effective May 2, 2025) was estimated by analysts to cost FedEx roughly $170 million in the quarter, about 0.8% of revenue, since it affected an estimated 75% of the 1.4 billion packages a year that had previously qualified.
+
+Sell-side positioning reflected that caution: JPMorgan cut its price target to $285 from $290 (keeping an Overweight rating) on September 5, 2025, flagging downside risk to the fiscal Q1 estimate from the same demand and tariff pressures. The stock was trading defensively into the print, with investors and analysts primarily focused on whether management would hold, cut, or reaffirm its already-reduced fiscal 2025-era guidance cadence and on early commentary regarding the Network 2.0 restructuring's cost-savings trajectory for fiscal 2026.
+
+Sources:
+- https://www.investing.com/news/analyst-ratings/jpmorgan-lowers-fedex-stock-price-target-to-285-on-nearterm-challenges-93CH-4226522 (Investing.com, "JPMorgan lowers FedEx stock price target to $285 on near-term challenges", published September 5, 2025)
+- https://www.marketbeat.com/instant-alerts/fedex-fdx-expected-to-announce-quarterly-earnings-on-thursday-2025-09-11 (MarketBeat, published September 11, 2025)

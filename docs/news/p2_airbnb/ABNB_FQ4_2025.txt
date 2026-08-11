@@ -1,0 +1,7 @@
+Airbnb (ABNB) - News coverage digest, FQ4 2025 earnings (report date 2026-02-12)
+Fetched via web search across free financial outlets/earnings-estimate aggregators. Window: pre-earnings consensus estimates only, no post-earnings content used.
+
+Heading into the February 12, 2026 report, consensus analyst estimates called for revenue of about $2.72 billion and non-GAAP EPS of about $0.65, with adjusted EBITDA modeled near $765 million. These figures represent the Street's pre-print consensus as tracked by earnings-estimate aggregators (TipRanks, Nasdaq earnings calendar) heading into the quarter - no directional sentiment/tone commentary was found in a clean pre-earnings-dated narrative piece for this specific quarter, so this digest is estimate-only.
+
+Sources:
+- https://www.tipranks.com/stocks/abnb/earnings (TipRanks, Airbnb earnings estimates/consensus page, snapshot ahead of the February 12, 2026 report)

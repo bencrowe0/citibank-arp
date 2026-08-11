@@ -1,0 +1,44 @@
+{
+  "document_id": "DIS_FQ2_2025_NEWS",
+  "base_document_id": "DIS_FQ2_2025",
+  "issuer": "disney",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects whether market expectations are stretched or depressed. The document describes a stock down 16.8% year-to-date and over 20% over the trailing year, trading at $92.16 near the low end of its 52-week range ($80.10-$118.63). However, analyst estimates for EPS are actually down year-over-year ($1.20 vs $1.21), and key risks are explicitly flagged: domestic theme-park attendance likely declined, two major film releases underperformed, and competition from Epic Universe is a concern. While the stock is beaten down, the bar is not clearly lowered because EPS expectations are declining and multiple headwinds are cited, creating a mixed picture that leans slightly negative."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T104019Z",
+    "timestamp": "2026-07-06T10:40:33Z",
+    "status": "success",
+    "document_id": "DIS_FQ2_2025_NEWS",
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-05-07",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\disney\\DIS_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3878,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1993,
+    "total_tokens": 5871,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003188,
+    "latency_seconds": 14.06,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

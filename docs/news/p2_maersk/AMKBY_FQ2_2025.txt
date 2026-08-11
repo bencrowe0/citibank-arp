@@ -1,0 +1,7 @@
+A.P. Moller-Maersk (AMKBY) - News coverage digest, FQ2 2025 earnings (report date 2025-08-07)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content. Note: Maersk has materially thinner free US-financial-media pre-earnings coverage than the US-listed names in this set - this digest is estimate/context-only, not a full narrative preview.
+
+Heading into the August 7, 2025 report, the backdrop was a global container-shipping market where demand was estimated to have grown 3-5% YoY in Q2, running counter to earlier fears of an immediate trade collapse following the April 2025 US tariff announcements - North American import contraction was being more than offset by strong import growth into Europe, Latin America, West-Central Asia and Africa. Maersk's own guidance heading in had been for underlying EBITDA of $4.5-$7 billion for the year, a range set amid considerable macro/tariff uncertainty.
+
+Sources:
+- https://www.zerohedge.com/markets/maersk-lifts-outlook-wall-street-questions-whether-freight-tailwinds-can-last (ZeroHedge, "Maersk Lifts Outlook As Wall Street Questions Whether Freight Tailwinds Can Last" - container-demand and guidance context ahead of the August 7, 2025 report)

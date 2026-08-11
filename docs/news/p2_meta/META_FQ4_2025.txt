@@ -1,0 +1,7 @@
+Meta (META) - News coverage digest, FQ4 2025 earnings (report date 2026-01-28)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the January 28, 2026 report, consensus was revenue of $58.35-$58.45 billion (+21% YoY) and EPS of $8.21 (+9% YoY). Advertising, fueled by AI-driven ad-tools improvements, was expected to drive growth, but analysts remained concerned about Meta's spending trajectory: management had already signaled 2026 capex "will increase significantly in dollar terms," a pre-earnings comment coverage flagged as the key overhang on an otherwise strong growth setup.
+
+Sources:
+- https://www.tradingkey.com/analysis/stocks/us-stocks/261515937-meta-q4-earnings-preview-strong-ad-growth-tradingkey (TradingKey, "Meta Q4 Earnings Preview: Strong Advertising Growth, Heavy AI Investment Heightens Cost Pressures" - published prior to the January 28, 2026 report)

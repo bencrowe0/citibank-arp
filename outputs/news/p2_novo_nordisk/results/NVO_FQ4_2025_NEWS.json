@@ -1,0 +1,44 @@
+{
+  "document_id": "NVO_FQ4_2025_NEWS",
+  "base_document_id": "NVO_FQ4_2025",
+  "issuer": "p2_novo_nordisk",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This pre-earnings digest describes depressed expectations heading into the print: the 2026 EPS forecast fell from $3.65 to $3.29 over the trailing 60 days, and the CEO warned of a 'year of price pressure.' This lowered bar increases the odds of a positive surprise reaction. Offsetting positives include the FDA approval and commercial launch of oral Wegovy, a genuine catalyst, and a trailing four-quarter track record of three beats with an average surprise of +11.6%, which gives some investors reason to expect an upside surprise. Overall, expectations appear more depressed than stretched, supporting a mildly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101549Z",
+    "timestamp": "2026-08-04T10:16:00Z",
+    "status": "success",
+    "document_id": "NVO_FQ4_2025_NEWS",
+    "issuer": "p2_novo_nordisk",
+    "company": "Novo Nordisk",
+    "ticker": "NVO",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-03",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_novo_nordisk\\NVO_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3830,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1514,
+    "total_tokens": 5344,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002648,
+    "latency_seconds": 9.94,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

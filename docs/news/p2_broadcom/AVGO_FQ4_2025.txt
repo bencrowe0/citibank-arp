@@ -1,0 +1,35 @@
+Broadcom Inc. (AVGO) - Pre-Earnings Market Expectations Digest
+Report Date: December 11, 2025 (Q4 FY2025, fiscal period ended November 2, 2025)
+
+Sources and Publish Dates (all pre-December 11, 2025):
+
+ANALYST EXPECTATIONS GOING IN:
+- Consensus EPS estimate: $1.86-1.87
+- Consensus revenue estimate: $17.45-17.49B
+- AI semiconductor revenue expected to grow ~65-75% YoY to ~$8.0-8.3B
+- Management guidance from Q3 call suggested $17.4B Q4 revenue (at high end of expectations)
+- Stock had performed strongly post-Q3 earnings with positive momentum
+
+PRE-EARNINGS MARKET SENTIMENT:
+- AI infrastructure buildout continuing to accelerate
+- Custom AI accelerator demand from major hyperscalers viewed as sustainable
+- Broadcom stock trading near all-time highs leading into earnings
+- Options market pricing for modest volatility (earnings not viewed as binary risk)
+- AI semiconductor segment expected to represent ~45-50% of total revenue
+
+ANALYST COMMENTARY PRE-EARNINGS:
+- Broadcom positioned as the primary infrastructure semiconductor winner of 2025
+- AI-driven growth narrative increasingly mature and well-understood by market
+- Networking software/infrastructure components gaining analyst attention as growth lever
+- Concern about near-term growth sustainability post-Q4 given law of large numbers
+- Multiple analyst reports flagging 2026 guidance as key focus point
+
+KEY UNKNOWNS AHEAD OF CALL:
+- Absolute magnitude of AI revenue in Q4 (would set tone for FY2026 growth rates)
+- Management's 2026 AI revenue outlook given exponential run-rate in 2025
+- Whether custom AI accelerator demand would continue accelerating or normalize
+- Impact of networking segment growth on overall gross margins
+- Guidance for Q1 2026 (would be first "deceleration" test point)
+
+Market expectations: Strong beat expected with AI revenue accelerating to $8B+ run-rate, Q1 2026 guidance critical for forward valuation.
+Sources: Bloomberg, Reuters, CNBC earnings estimates, sell-side equity research reports (all published Nov 1-10, 2025)

@@ -1,0 +1,233 @@
+{
+  "document_id": "JPM_FQ3_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports strong Q3 results (net income up 12% YoY, EPS up 16% YoY) and management describes the quarter as 'strong' with each line of business performing well. However, forward guidance for NII ex. Markets in 2026 is a preliminary central case of ~$95B, which is below the consensus of ~$100B that management notes 'does look a little bit low.' The full-year 2025 NII ex. Markets guidance was raised to ~$92.2B from the prior ~$91B (implied by the Q4 outlook of ~$23.5B added to the 9-month actual of $68.7B), but the 2026 preliminary view is a headwind. Management also flags significant uncertainty around geopolitical conditions, tariffs, and sticky inflation. The net effect is a mildly positive score, as the backward-looking beat and modest guidance raise for 2025 are partially offset by the cautious 2026 outlook and risk commentary."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band"
+  },
+  "summary": {
+    "revenue": "Reported revenue of $46.4 billion; managed revenue of $47.1 billion, up 9% YoY.",
+    "eps": "Earnings per share (diluted) of $5.07, up 16% YoY.",
+    "guidance": "Full-year 2025 NII ex. Markets implied at ~$92.2B (Q4 outlook ~$23.5B + 9-month actual $68.7B). Preliminary 2026 NII ex. Markets central case of ~$95B. Full-year 2025 adjusted expense implied at ~$95.9B (Q4 outlook ~$24.5B). 2025 Card NCO rate expected to be ~3.3%.",
+    "margin": "Reported overhead ratio of 52%; managed overhead ratio of 52%. ROTCE of 20%.",
+    "key_risks": [
+      "Heightened uncertainty from complex geopolitical conditions, tariffs and trade uncertainty, elevated asset prices and the risk of sticky inflation.",
+      "Potential softening in job growth.",
+      "Wholesale charge-offs slightly elevated due to apparent fraud in certain secured lending facilities (e.g., Tricolor $170mm charge-off).",
+      "Deposit margin compression and impact of lower rates on NII.",
+      "Higher compensation and expense growth driven by revenue-related compensation, growth in front office employees, and inflation (including medical costs up 10% next year)."
+    ],
+    "key_opportunities": [
+      "Investment Banking fees up 16% YoY with robust pipeline and upbeat client sentiment.",
+      "Markets revenue up 25% YoY, with record third-quarter Markets revenue of nearly $9 billion.",
+      "Strong net inflows in AWM ($109 billion AUM net inflows) and record first-time investors in wealth management.",
+      "Continued strong net new checking account acquisitions (over 400,000 this quarter).",
+      "Potential for regulatory relief from Basel III Endgame revisions and other capital rule changes."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes the quarter as 'strong results' and each line of business as performing 'well,' while also providing specific forward guidance and expressing optimism about the pipeline and client sentiment, e.g., 'our pipeline remains robust and the outlook, along with the market backdrop and client sentiment, continues to be upbeat.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $46.4 billion; managed revenue was $47.1 billion, up 9% YoY.",
+      "quote": "Net revenue - reported $ 46,427 ... Net revenue - managed 47,120 ... $ 3,805 9 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share (diluted) was $5.07, up 16% YoY.",
+      "quote": "Earnings per share - diluted $ 5.07 ... $ 0.70 16 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 NII ex. Markets implied at ~$92.2B.",
+      "quote": "3Q25YTD NII excluding Markets $68.7B ... 4Q outlook ~$23.5B ... FY25 implied ~$92.2B",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Preliminary 2026 NII ex. Markets central case of ~$95B.",
+      "quote": "we're providing the central case for NII ex. Markets in 2026, which is about $95 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted expense implied at ~$95.9B.",
+      "quote": "We expect fourth quarter adjusted expense to be approximately $24.5 billion, implying $95.9 billion for the full year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 Card NCO rate expected to be ~3.3%.",
+      "quote": "we now expect the 2025 Card net charge-off rate to be approximately 3.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 52%; managed overhead ratio of 52%.",
+      "quote": "Expense of $24.3 billion; reported overhead ratio of 52% and managed overhead ratio of 52%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 20%.",
+      "quote": "ROTCE 20%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Heightened uncertainty from complex geopolitical conditions, tariffs and trade uncertainty, elevated asset prices and the risk of sticky inflation.",
+      "quote": "However, there continues to be a heightened degree of uncertainty stemming from complex geopolitical conditions, tariffs and trade uncertainty, elevated asset prices and the risk of sticky inflation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential softening in job growth.",
+      "quote": "While there have been some signs of a softening, particularly in job growth, the U.S. economy generally remained resilient.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wholesale charge-offs slightly elevated due to apparent fraud in certain secured lending facilities (e.g., Tricolor $170mm charge-off).",
+      "quote": "wholesale charge-offs were slightly elevated as a result of a couple of instances of apparent fraud in certain secured lending facilities ... that's contributing $170 million of charge-offs in the quarter, which we call out on the wholesale side.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit margin compression and impact of lower rates on NII.",
+      "quote": "Net interest income excluding Markets of $23.4 billion, flat to the prior year, driven by the impact of lower rates and deposit margin compression",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher compensation and expense growth driven by revenue-related compensation, growth in front office employees, and inflation (including medical costs up 10% next year).",
+      "quote": "Noninterest expense was $24.3 billion, up 8%, predominantly driven by higher compensation, including higher revenue-related compensation and growth in front office employees ... Medical, we spend $3 billion or so in medical. That's going to be up 10% next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment Banking fees up 16% YoY with robust pipeline and upbeat client sentiment.",
+      "quote": "Investment Banking fees up 16% YoY ... our pipeline remains robust and the outlook, along with the market backdrop and client sentiment, continues to be upbeat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenue up 25% YoY, with record third-quarter Markets revenue of nearly $9 billion.",
+      "quote": "Markets revenue up 25% YoY, with record third-quarter Markets revenue of nearly $9 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong net inflows in AWM ($109 billion AUM net inflows) and record first-time investors in wealth management.",
+      "quote": "AUM net inflows remained strong at $109 billion ... first-time investors surpassed 43,000, setting a new record.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued strong net new checking account acquisitions (over 400,000 this quarter).",
+      "quote": "adding more than 400,000 net new checking accounts this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for regulatory relief from Basel III Endgame revisions and other capital rule changes.",
+      "quote": "the direction of travel ... is very much the direction of travel. The relevant agencies are working well together. There's a sense of urgency. And so, we're encouraged.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "The Firm reported strong results in the third quarter ... our pipeline remains robust and the outlook, along with the market backdrop and client sentiment, continues to be upbeat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is near the HOLD/BUY boundary. The 2026 NII guidance is below consensus, which could be interpreted as a negative signal. A reviewer should confirm the balance between the 2025 guidance raise and the cautious 2026 outlook."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-10-14",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q3\\jpm-3q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q3\\jpm-3q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q3\\jpm-3q25-earnings-call-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T125207Z",
+    "timestamp": "2026-07-02T12:53:14Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q3\\jpm-3q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q3\\jpm-3q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 23156,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q3\\jpm-3q25-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 22172,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q3\\jpm-3q25-earnings-call-transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 83982,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2025.txt"
+  }
+}

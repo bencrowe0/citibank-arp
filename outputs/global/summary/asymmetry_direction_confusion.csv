@@ -1,0 +1,4 @@
+truth_class,n_truth,tp,fp,fn,precision,recall,f1,hold_rate_given_truth
+BUY,72,26,62,46,0.2955,0.3611,0.325,0.3472
+HOLD,120,47,50,73,0.4845,0.3917,0.4332,0.3917
+SELL,76,24,59,52,0.2892,0.3158,0.3019,0.3289

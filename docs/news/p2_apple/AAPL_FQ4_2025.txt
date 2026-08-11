@@ -1,0 +1,8 @@
+Apple (AAPL) - News coverage digest, FQ4 2025 earnings (report date 2025-10-30)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 30, 2025 report, consensus estimates centered on EPS of roughly $1.68-$1.79 and revenue near $102 billion, with Visible Alpha modeling iPhone revenue of about $45.2 billion; some coverage expected mid-to-high single-digit overall revenue growth reflecting upgraded guidance. Early signs pointed to record iPhone 17 sales, particularly in China, which had lifted investor sentiment into the print - a bullish setup. The dominant flagged risk was Trump-administration tariffs, with an estimated $1.1 billion Q4 impact cited as Apple's most immediate financial headwind heading into the report, i.e. positive underlying demand signals set against a known, already-quantified cost headwind.
+
+Sources:
+- https://finance.yahoo.com/news/apple-q4-preview-iphone-17-181445549.html (Yahoo Finance, "Apple Q4 Preview: Can iPhone 17 and AI Keep the $4 Trillion Story Alive?" - published prior to the October 30, 2025 report)
+- https://www.ebc.com/forex/is-apple-a-good-stock-to-buy-before-its-q4-2025-earnings (EBC Financial Group, "Is Apple a Good Stock to Buy Before Its Q4 2025 Earnings?" - published prior to the report)

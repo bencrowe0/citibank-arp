@@ -1,0 +1,3 @@
+book,n_trades,n_prints,hit_rate,total_return_pct,avg_net_per_trade_pct,sharpe_per_trade,max_drawdown_pct,wins,losses,size_min,size_max,size_mean,mean_abs_score_norm,score_dist_mean,score_dist_median,score_dist_stdev,score_dist_min,score_dist_max,score_dist_q1,score_dist_q3
+flat,171,268,0.6257,1243.64,1.7193,3.581,37.4,107,64,1.0,1.0,1.0,,0.2271,0.23,0.1414,0.0,0.8,0.12,0.305
+sized,171,268,0.6257,1272.45,1.8179,3.036,41.44,107,64,0.18664241164241163,2.844074844074844,1.0,0.28128654970760236,0.2271,0.23,0.1414,0.0,0.8,0.12,0.305

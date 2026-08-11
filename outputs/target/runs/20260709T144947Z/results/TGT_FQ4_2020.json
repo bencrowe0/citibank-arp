@@ -1,0 +1,212 @@
+{
+  "document_id": "TGT_FQ4_2020",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document reports strong backward-looking results (record EPS, 20.5% comparable sales growth, $9 billion market share gain) but explicitly withdraws guidance for Fiscal 2021 due to 'continued uncertainty' regarding COVID-19. The forward-looking signal is flat: management expresses confidence in the business model but provides no formal guidance raise or reduction, and the lack of guidance combined with cautious language about the outlook anchors the score at neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $28.3 billion in Q4 2020, up 21.1% year-over-year. Full-year revenue of $93.6 billion, up 19.8%.",
+    "eps": "Q4 2020 GAAP EPS from continuing operations of $2.73 (up 67.7% from $1.63 in Q4 2019); Adjusted EPS of $2.67 (up 58.2% from $1.69). Full-year GAAP EPS of $8.64 (up 36.3% from $6.34); Adjusted EPS of $9.42 (up 47.4% from $6.39).",
+    "guidance": "The company is not providing sales and EPS guidance for Fiscal 2021 and beyond due to continued uncertainty from COVID-19.",
+    "margin": "Q4 2020 gross margin rate 26.8% vs 26.3% in 2019; operating income margin rate 6.5% vs 5.1% in 2019. Full-year gross margin rate 28.4% vs 28.9% in 2019; full-year operating income margin rate 7.0% vs 6.0% in 2019.",
+    "key_risks": [
+      "Continued uncertainty from COVID-19 impacting consumer shopping patterns and the outlook for fiscal 2021.",
+      "Higher digital fulfillment and supply chain costs partially offsetting gross margin benefits.",
+      "Unfavorable category sales mix and higher supply chain and fulfillment costs from channel mix affecting full-year gross margin rate."
+    ],
+    "key_opportunities": [
+      "Continued market share gains across all five core merchandising categories.",
+      "Strong growth in same-day services (Order Pick Up, Drive Up, Shipt) up 212% in Q4, led by more than 500% growth in Drive Up.",
+      "Digital sales grew by nearly $10 billion in 2020, driven by 235% growth in same-day services.",
+      "More than 95% of Q4 sales fulfilled by stores, demonstrating the strength of the store network as a fulfillment hub."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Cornell stated: 'Following years of investment to build a durable, scalable and sustainable business model, we saw record growth in 2020... As we look ahead to 2021 and beyond, we see continued opportunity to invest in our business and our team, building on the strong foundation we've established to drive market share gains and deliver profitable growth for years to come.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue in Q4 2020 was $28.3 billion, up 21.1% year-over-year.",
+      "quote": "Total revenue of $28.3 billion grew 21.1 percent compared with last year, driven by sales growth of 21.0 percent and a 28.7 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year revenue was $93.6 billion, up 19.8%.",
+      "quote": "Full-year revenue of $93.6 billion grew 19.8 percent compared with 2019, reflecting sales growth of 19.8 percent and an 18.2 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 GAAP EPS from continuing operations was $2.73, up 67.7% from $1.63 in Q4 2019.",
+      "quote": "The company reported GAAP earnings per share (EPS) from continuing operations of $2.73 in fourth quarter ... compared with $1.63 ... in [2019].",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 Adjusted EPS was $2.67, up 58.2% from $1.69 in Q4 2019.",
+      "quote": "Adjusted EPS was $2.67 for the fourth quarter ... compared with $1.69 ... in [2019].",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year GAAP EPS from continuing operations was $8.64, up 36.3% from $6.34.",
+      "quote": "Full-year GAAP EPS from continuing operations of $8.64 was 36.3 percent higher than last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year Adjusted EPS was $9.42, up 47.4% from $6.39.",
+      "quote": "Adjusted EPS of $9.42 grew 47.4 percent compared with last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is not providing sales and EPS guidance for Fiscal 2021 due to continued uncertainty.",
+      "quote": "In the face of continued uncertainty, the company is not providing sales and EPS guidance for Fiscal 2021 and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 gross margin rate was 26.8% vs 26.3% in 2019.",
+      "quote": "Fourth quarter gross margin rate was 26.8 percent, compared with 26.3 percent in 2019.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 operating income margin rate was 6.5% vs 5.1% in 2019.",
+      "quote": "Fourth quarter operating income margin rate was 6.5 percent in 2020 compared with 5.1 percent in 2019.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year gross margin rate was 28.4% vs 28.9% in 2019.",
+      "quote": "Full-year gross margin rate was 28.4 percent, compared with 28.9 percent in [2019].",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating income margin rate was 7.0% vs 6.0% in 2019.",
+      "quote": "Full-year operating income was $6.5 billion ... an increase of 40.4 percent ... Operating income margin rate 7.0% vs 6.0% (from the Operating Results Rate Analysis table).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: continued uncertainty from COVID-19 impacting consumer shopping patterns.",
+      "quote": "In the first quarter of 2020, the Company withdrew its guidance, in light of the highly fluid and uncertain outlook for consumer shopping patterns and the impact of COVID-19. In the face of continued uncertainty, the company is not providing sales and EPS guidance for Fiscal 2021 and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: higher digital fulfillment and supply chain costs partially offsetting gross margin benefits.",
+      "quote": "Fourth quarter gross margin rate was 26.8 percent, compared with 26.3 percent in 2019, reflecting the benefit of merchandising actions, most notably the unusually low markdown rates, partially offset by the impact of higher digital fulfillment and supply chain costs, along with the impact of category mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: unfavorable category sales mix and higher supply chain and fulfillment costs affecting full-year gross margin.",
+      "quote": "Full-year gross margin rate was 28.4 percent, compared with 28.9 percent in [2019]. This rate decline reflects unfavorable category sales mix and higher supply chain and fulfillment costs from channel mix, partially offset by markdown favorability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: continued market share gains across all five core merchandising categories.",
+      "quote": "The Company continued to gain market share across all five of its core merchandising categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: strong growth in same-day services, up 212% in Q4, led by more than 500% growth in Drive Up.",
+      "quote": "Same-day services (Order Pick Up, Drive Up and Shipt) grew 212 percent, led by more than 500 percent growth in Drive Up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: digital sales grew by nearly $10 billion in 2020, driven by 235% growth in same-day services.",
+      "quote": "Target's digital sales grew by nearly $10 billion in 2020, driven by 235% growth in the Company's same-day services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: more than 95% of Q4 sales fulfilled by stores.",
+      "quote": "More than 95 percent of Target’s fourth quarter sales were fulfilled by its stores.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Brian Cornell: 'Following years of investment to build a durable, scalable and sustainable business model, we saw record growth in 2020... As we look ahead to 2021 and beyond, we see continued opportunity to invest in our business and our team, building on the strong foundation we've established to drive market share gains and deliver profitable growth for years to come.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.00 because guidance was withdrawn and no forward guidance was provided.",
+      "quote": "In the face of continued uncertainty, the company is not providing sales and EPS guidance for Fiscal 2021 and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.00 despite very strong backward-looking results. The withdrawal of guidance is the primary reason for neutrality, but a reviewer may consider whether the strong operational momentum and confident forward language warrant a slightly positive score (e.g., +0.15). The document does not contain a formal guidance raise, but the CEO's language about 'continued opportunity' and 'profitable growth for years to come' could be interpreted as a positive forward signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2021-03-02",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2020",
+    "report_date": "2021-03-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2020-Q4\\tgt-4q20-press-release.html",
+        "pub_date": "2021-03-02"
+      }
+    ],
+    "document_id": "TGT_FQ4_2020"
+  },
+  "run_meta": {
+    "run_id": "20260709T144947Z",
+    "timestamp": "2026-07-09T14:50:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2020-Q4\\tgt-4q20-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2020.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2020-Q4\\tgt-4q20-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 23925,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2020.txt"
+  }
+}

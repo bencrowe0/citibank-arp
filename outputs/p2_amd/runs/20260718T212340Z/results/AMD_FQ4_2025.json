@@ -1,0 +1,170 @@
+{
+  "document_id": "AMD_FQ4_2025",
+  "sentiment": {
+    "score": 0.75,
+    "rationale": "Forward guidance was raised materially: Q1 2026 revenue guided to about $9.8B, ahead of the roughly $9.4B consensus, and management pointed to significant top and bottom line growth in 2026. The Q4 results beat expectations with revenue of $10.3B versus consensus of about $9.7B, and data center revenue accelerated to 39% growth. While China GPU sales are called highly uncertain and semi-custom gaming revenue is expected to decline, these risks are secondary to the strong beat and raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 revenue $10.3B, up 34% year over year and 11% sequentially. Full-year revenue $34.6B, up 34%.",
+    "eps": "Diluted EPS $1.53, up 40%.",
+    "guidance": "Q1 2026 revenue guided to about $9.8B plus or minus $300M, ahead of the roughly $9.4B consensus, including only $100M of China MI308. Management pointed to significant top and bottom line growth in 2026.",
+    "margin": "Gross margin 57%, up 290bps year over year.",
+    "key_risks": [
+      "China GPU sales called highly uncertain, with only $100M assumed and no further guidance.",
+      "Semi-custom gaming revenue expected to decline a significant double-digit percentage in 2026.",
+      "PC headwinds from memory and component inflation, with the second half modeled subseasonal."
+    ],
+    "key_opportunities": [
+      "Data Center $5.4B, up 39%.",
+      "Customer pull for Venice is very high with engagements underway.",
+      "The vast majority going to be RackScale solutions."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management pointed to significant top and bottom line growth in 2026 and described customer pull for Venice as very high, indicating strong forward confidence."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenue was $10.3B, up 34% year over year and 11% sequentially.",
+      "quote": "Q4 revenue $10.3B, up 34% year over year and 11% sequentially.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.53, up 40%.",
+      "quote": "Diluted EPS $1.53, up 40%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guided to about $9.8B, ahead of consensus of roughly $9.4B.",
+      "quote": "Q1 2026 revenue guided to about $9.8B plus or minus $300M, ahead of the roughly $9.4B consensus, including only $100M of China MI308.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin was 57%, up 290bps year over year.",
+      "quote": "Gross margin 57%, up 290bps year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China GPU sales are highly uncertain with only $100M assumed.",
+      "quote": "China GPU sales called highly uncertain, with only $100M assumed and no further guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Semi-custom gaming revenue expected to decline a significant double-digit percentage in 2026.",
+      "quote": "Semi-custom gaming revenue expected to decline a significant double-digit percentage in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PC headwinds from memory and component inflation, with the second half modeled subseasonal.",
+      "quote": "PC headwinds from memory and component inflation, with the second half modeled subseasonal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data Center revenue was $5.4B, up 39%.",
+      "quote": "Data Center $5.4B, up 39%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer pull for Venice is very high with engagements underway.",
+      "quote": "Customer pull for Venice is very high with engagements underway",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The vast majority going to be RackScale solutions.",
+      "quote": "The vast majority . . . going to be RackScale solutions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management pointed to significant top and bottom line growth in 2026.",
+      "quote": "Management pointed to significant top and bottom line growth in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of 0.75 reflects a clean beat and raise with forward guidance above consensus.",
+      "quote": "A clean beat and raise. Revenue came in well ahead of consensus, the data center accelerated to 39%, margins expanded and the Q1 guide sits above the Street.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Management pointed to significant top and bottom line growth in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.75 is based on the document's own scoring worksheet, which may reflect the author's subjective assessment. The document explicitly states the call was INCORRECT relative to the overnight move, but the sentiment score is derived from the fundamental content, not the market reaction."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMD_Bundled Earnings Report_2026-02-03",
+  "report_metadata": {
+    "issuer": "p2_amd",
+    "company": "AMD",
+    "ticker": "AMD",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-03",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q4\\06 amd q4 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMD_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212340Z",
+    "timestamp": "2026-07-18T21:24:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q4\\06 amd q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q4\\06 amd q4 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5528,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ4_2025.txt"
+  }
+}

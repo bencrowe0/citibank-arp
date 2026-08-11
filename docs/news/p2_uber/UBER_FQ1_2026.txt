@@ -1,0 +1,8 @@
+Uber - News coverage digest, FQ1 2026 earnings (report date 2026-05-06)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the May 6, 2026 report, Street consensus was revenue of about $13.27-$13.28 billion (+15% YoY) and EPS of $0.71 (a 14.5% YoY decline). Uber's own guidance called for Q1 gross bookings of $52-$53.5 billion (17-21% constant-currency growth). Coverage framed the quarter as a "profitability test meets robotaxi momentum" setup - i.e. investor focus was split between near-term margin/EPS softness and longer-term autonomous-vehicle partnership progress. Trailing four-quarter earnings had beaten estimates three times, missed once.
+
+Sources:
+- https://news.alphastreet.com/uber-uber-q1-2026-earnings-preview-profitability-test-meets-robotaxi-momentum-ahead-of-may-6-report/ (AlphaStreet, "Uber (UBER) Q1 2026 Earnings Preview: Profitability Test Meets Robotaxi Momentum Ahead of May 6 Report" - published prior to the May 6, 2026 report)
+- https://finance.yahoo.com/markets/stocks/articles/uber-q1-earnings-deck-buy-165000547.html (Yahoo Finance, "Uber Q1 Earnings on Deck: Buy, Sell or Hold It Ahead of Results?" - published prior to the report)

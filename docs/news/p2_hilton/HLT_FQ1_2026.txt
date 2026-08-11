@@ -1,0 +1,7 @@
+Hilton (HLT) - News coverage digest, FQ1 2026 earnings (report date 2026-04-28)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of its first-quarter 2026 report, scheduled for Tuesday, April 28, 2026 before market open, the consensus EPS estimate for Hilton stood at $1.97 (+14.5% year-over-year) with a consensus revenue estimate of $2.95 billion (+9.3% year-over-year). Sentiment heading into the print was notably positive on the estimate-revision front: over the three months prior to the report, EPS estimates had seen 15 upward revisions and zero downward revisions, while revenue estimates had seen 9 upward revisions and zero downward revisions. Over the prior two years, Hilton had beaten EPS estimates 100% of the time and beaten revenue estimates 75% of the time, a track record cited as underpinning elevated expectations for another beat-and-raise quarter.
+
+Sources:
+- https://www.msn.com/en-us/money/topstocks/hilton-worldwide-q1-2026-earnings-preview/ar-AA21PHQQ (MSN Money earnings preview, published April 27, 2026)

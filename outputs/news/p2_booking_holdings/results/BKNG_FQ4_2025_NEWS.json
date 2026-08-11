@@ -1,0 +1,44 @@
+{
+  "document_id": "BKNG_FQ4_2025_NEWS",
+  "base_document_id": "BKNG_FQ4_2025",
+  "issuer": "p2_booking_holdings",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This pre-earnings digest indicates that market expectations are stretched: the stock has already rallied ~16% over 2025 and is trading at $4,200-$4,550, with analysts focused on a high bar for 2026 guidance. The document explicitly warns that 'any guidance miss would trigger immediate selloff' and that the 'high bar now set for 2026 expectations' increases downside risk. Therefore, expectations are elevated, making a positive surprise less likely, which warrants a mildly bearish sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T095127Z",
+    "timestamp": "2026-08-09T09:51:39Z",
+    "status": "success",
+    "document_id": "BKNG_FQ4_2025_NEWS",
+    "issuer": "p2_booking_holdings",
+    "company": "Booking",
+    "ticker": "BKNG",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-18",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_booking_holdings\\BKNG_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4581,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2177,
+    "total_tokens": 6758,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00358,
+    "latency_seconds": 11.71,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,8 @@
+IBM - News coverage digest, FQ1 2026 earnings (report date 2026-04-22)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the April 22, 2026 report, analysts expected non-GAAP EPS of about $1.78-$1.81 (up ~11% YoY) on revenue of about $15.6-$15.7 billion. Coverage described IBM as "positioned to deliver a top-line beat," citing continued strength across software and infrastructure tied to its AI-driven strategy, and noted IBM had surpassed Wall Street's bottom-line estimate in each of the prior four quarters. Analyst ratings were positive but not unanimous: of 22 analysts, 9 rated Strong Buy, 2 Moderate Buy, 10 Hold, and 1 Strong Sell - nearly half the coverage sitting at Hold despite the bullish headline framing, a real split in conviction heading into the print.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/ibm-eyes-q1-beat-analysts-174158072.html (Yahoo Finance, "IBM Eyes Q1 Beat As Analysts Back $15.64B Revenue Forecast" - published prior to the April 22, 2026 report)
+- https://seekingalpha.com/news/4577277-ibm-q1-2026-earnings-preview (Seeking Alpha, "IBM Q1 Earnings Preview: Analysts upbeat despite YTD slide" - published prior to the report)

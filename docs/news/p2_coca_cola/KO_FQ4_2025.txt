@@ -1,0 +1,8 @@
+Coca-Cola (KO) - News coverage digest, FQ4 2025 earnings (report date 2026-02-10)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 10, 2026 report, Wall Street's EPS consensus was $0.56-$0.57 (up 1.8%-3.6% YoY), with revenue consensus of $12.0-$12.05 billion (up 4.8%-5.2% YoY, an improvement from the 4.2% growth logged the prior year). Forward focus was on 2026 guidance: the company was expected to project 4%-5% organic revenue growth and 7%-8% comparable EPS growth for the full year. Estimates had generally been reconfirmed (not revised) over the prior 30 days, and coverage noted Coca-Cola's strong beat streak - having topped revenue estimates every quarter for the past two years by an average of 2.6%.
+
+Sources:
+- https://finance.yahoo.com/news/coca-colas-q4-2025-earnings-124544218.html (Yahoo Finance, "Coca-Cola's Q4 2025 Earnings: What to Expect" - published prior to the February 10, 2026 report)
+- https://seekingalpha.com/news/4549080-coca-cola-q4-2025-earnings-preview (Seeking Alpha, "Coca-Cola set to report Q4 earnings as 2026 guidance takes center stage" - published prior to the report)

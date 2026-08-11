@@ -1,0 +1,101 @@
+{
+  "issuer": "p2_visa",
+  "reports": [
+    {
+      "document_id": "V_FQ1_2025",
+      "issuer": "p2_visa",
+      "company": "Visa",
+      "ticker": "V",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/visa/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/visa/CY2025-Q1/Visa-Q1-2025-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/visa/CY2025-Q1/Visa-Q1-2025-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "V_FQ2_2025",
+      "issuer": "p2_visa",
+      "company": "Visa",
+      "ticker": "V",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/visa/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/visa/CY2025-Q2/Visa-Q2-2025-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/visa/CY2025-Q2/Visa-Q2-2025-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "V_FQ3_2025",
+      "issuer": "p2_visa",
+      "company": "Visa",
+      "ticker": "V",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/visa/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/visa/CY2025-Q3/Visa-Q3-2025-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/visa/CY2025-Q3/Visa-Q3-2025-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "V_FQ1_2026",
+      "issuer": "p2_visa",
+      "company": "Visa",
+      "ticker": "V",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/visa/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/visa/CY2026-Q1/Visa-Q1-2026-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/visa/CY2026-Q1/Visa-Q1-2026-Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

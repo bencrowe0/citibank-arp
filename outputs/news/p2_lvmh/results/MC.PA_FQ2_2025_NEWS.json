@@ -1,0 +1,44 @@
+{
+  "document_id": "MC.PA_FQ2_2025_NEWS",
+  "base_document_id": "MC.PA_FQ2_2025",
+  "issuer": "p2_lvmh",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "This pre-earnings digest describes depressed expectations for LVMH's FQ2 2025, with sell-side forecasts of a sharper organic sales decline (7% y/y) than the prior quarter, and negative performance across nearly all divisions. The document highlights significant headwinds including tariff impacts, a weaker U.S. dollar, and Chinese consumer health, while noting peers are expected to keep growing, indicating LVMH-specific and sector-wide caution. Although the bar may be lowered, the overall tone is distinctly cautious with no positive catalysts mentioned, warranting a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101600Z",
+    "timestamp": "2026-08-04T10:16:10Z",
+    "status": "success",
+    "document_id": "MC.PA_FQ2_2025_NEWS",
+    "issuer": "p2_lvmh",
+    "company": "LVMH",
+    "ticker": "MC.PA",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-24",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lvmh\\MC.PA_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3829,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1649,
+    "total_tokens": 5478,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002797,
+    "latency_seconds": 10.65,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.35,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

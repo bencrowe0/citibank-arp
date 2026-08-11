@@ -1,0 +1,7 @@
+Citigroup (C) - News coverage digest, FQ4 2025 earnings (report date 2026-01-14)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the January 14, 2026 report, analysts expected Citigroup to report EPS of $1.77 (+32.1% YoY from $1.34), with adjusted revenue consensus of $20.72 billion. Coverage noted Citigroup had beaten Wall Street's earnings estimate in each of the prior four quarters, a strong recent beat streak heading into this print. Full-year 2026 forward expectations already being discussed pre-print centered on continued adjusted-EPS growth off the FY2025 base.
+
+Sources:
+- https://finance.yahoo.com/news/expect-citigroups-next-quarterly-earnings-130113675.html (Yahoo Finance, "What to Expect From Citigroup's Next Quarterly Earnings Report" - published prior to the January 14, 2026 report)

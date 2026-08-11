@@ -1,0 +1,10 @@
+FedEx (FDX) - News coverage digest, FQ3 2026 earnings (report date 2026-03-19)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into its March 19, 2026 report, FedEx carried a much more constructive setup than the prior two quarters. Consensus called for adjusted EPS of roughly $4.09-$4.15 on revenue near $23.43-$23.49 billion for the fiscal Q3 (calendar Dec-Feb, peak holiday shipping) period, per MarketBeat's pre-earnings note (published March 12, 2026, ahead of the scheduled Thursday report). The estimate backdrop had firmed considerably since the fall: FedEx had hosted an Investor Day in mid-February 2026 laying out a longer-term roadmap to 2029 (targeting roughly $8 billion of operating income and an 8% operating margin, driven by Network 2.0's integration of the Express and Ground networks and continued DRIVE cost savings), and sell-side price targets moved up sharply in response - Stifel's J. Bruce Chan raised his target to $412 from $328 (Buy) on February 13, 2026, with Bank of America, BMO Capital Markets, and TD Cowen also lifting targets into the $383-$414 range around the same event.
+
+The net effect was a market heading into the March 19 print with rising expectations for both the holiday-quarter results and management's commentary on Network 2.0 execution, rather than the defensive, tariff-driven positioning that had characterized the September 2025 report.
+
+Sources:
+- https://www.marketbeat.com/instant-alerts/fedex-fdx-projected-to-post-quarterly-earnings-on-thursday-2026-03-12/ (MarketBeat, published March 12, 2026)
+- https://finance.yahoo.com/news/stifel-raises-price-target-fedex-144031917.html (Yahoo Finance, "Stifel Raises its Price Target on FedEx Corporation (FDX) to $412 and Maintains a Buy Rating", published February 13, 2026)

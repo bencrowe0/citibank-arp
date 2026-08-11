@@ -1,0 +1,9 @@
+Boeing (BA) - News coverage digest, FQ4 2025 earnings (report date 2026-01-26)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the January 2026 report, Zacks/consensus estimates called for an adjusted per-share loss narrowing sharply to roughly $(0.37)-$(0.40), against a $(5.90) per-share loss in the year-ago quarter - a dramatic year-over-year improvement narrative driven by stabilizing 737 MAX and 787 production rates. Revenue consensus was approximately $21.7-22.4 billion. Coverage (IndexBox, TipRanks) framed the setup as "loss expected to narrow sharply," with analyst sentiment described as a highly optimistic "Strong Buy" consensus, crediting management's progress stabilizing 737/787 production. For fiscal 2026 guidance, the Street was looking for commentary supporting analyst expectations of >700 aircraft deliveries, ~$80 billion revenue, and roughly $3.50 EPS for the full year - i.e. the quarter itself was expected to still show a loss, but the forward guidance/trajectory commentary was the more important signal for the stock reaction.
+
+Sources:
+- https://www.indexbox.io/blog/boeing-q4-2025-earnings-preview-loss-expected-to-narrow-sharply/ (IndexBox, "Boeing Q4 2025 Earnings Preview: Loss Expected to Narrow Sharply" - published prior to the report)
+- https://www.tipranks.com/news/boeing-nyseba-q4-earnings-preview-heres-what-to-expect (TipRanks, "Boeing (NYSE:BA) Q4 Earnings Preview: Here's What to Expect" - published prior to the report)
+- https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-boeing-ba-report-140009399.html (Yahoo Finance/Zacks, "Analysts Estimate Boeing (BA) to Report a Decline in Earnings: What to Look Out For" - published prior to the report)

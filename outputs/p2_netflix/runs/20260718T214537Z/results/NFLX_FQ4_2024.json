@@ -1,0 +1,160 @@
+{
+  "document_id": "NFLX_FQ4_2024",
+  "sentiment": {
+    "score": 0.8,
+    "rationale": "The document reports a 19M subscriber-add blowout, advertising ahead of plan with a doubling guide for 2025, and an operating margin target lifted alongside higher revenue growth. Forward guidance was raised materially, with management expressing confidence through specific numbers rather than reassurance, justifying a score well above +0.5."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed",
+    "eps": "Not disclosed",
+    "guidance": "2025 revenue and margin guides both moved up; advertising revenue expected to double again in 2025.",
+    "margin": "Operating margin target lifted alongside higher revenue growth; margins guided higher even as content spend rises.",
+    "key_risks": [
+      "Full-season big-league sports economics remain tough (Sarandos admission)."
+    ],
+    "key_opportunities": [
+      "Advertising scaling on plan and now a credible growth engine, with ads tier taking most new signups.",
+      "Netflix currently capturing only about 6% of its revenue opportunity in served segments (pricing and monetisation runway).",
+      "No single title drives majority of acquisition or engagement, indicating slate breadth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management defends the Q&A with specific numbers rather than reassurance, and the prepared remarks describe exceeding ads revenue target and guiding to double it again."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Subscriber-add blowout of 19M.",
+      "quote": "a 19M subscriber-add blowout",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising ahead of plan with a doubling guide for 2025.",
+      "quote": "We exceeded our ads revenue target in Q4 . . . [we expect to] double it again this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin target lifted alongside higher revenue growth.",
+      "quote": "an operating margin target lifted alongside higher revenue growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance raised materially.",
+      "quote": "The 2025 revenue and margin guides both moved up and pricing power looks intact.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "management defends the Q&A with specific numbers rather than reassurance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising scaling on plan and now a credible growth engine.",
+      "quote": "Advertising.Scaling on plan and now a credible growth engine, with the ads tier taking most new signups.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over 55% of signups in ads countries, with ads-plan membership up 30% quarter-over-quarter.",
+      "quote": "Over 55% of signups in ads countries, with ads-plan membership up 30% quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Netflix currently capturing only about 6% of its revenue opportunity in served segments.",
+      "quote": "Netflix is currently capturing only≈6% of its revenue opportunity in served segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No single title drives majority of acquisition or engagement.",
+      "quote": "No single title really drives a majority of our acquisition or engagement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-season big-league sports economics remain tough.",
+      "quote": "Sarandos’s frank acknowledgment that full-season sports economics are tough",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Margins guided higher even as content spend rises.",
+      "quote": "Margins guided higher even as content spend rises, so the operating leverage is real.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No explicit revenue figure or growth commentary is provided in the document; only qualitative statements about guidance and subscriber adds."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "No explicit EPS figure or variance commentary is provided in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2025-01-21",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-01-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2024-Q4\\netflix q4 2024 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260718T214537Z",
+    "timestamp": "2026-07-18T21:45:47Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2024-Q4\\netflix q4 2024 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2024-Q4\\netflix q4 2024 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 4460,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ4_2024.txt"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "LNVGY_FQ3_2026_NEWS",
+  "base_document_id": "LNVGY_FQ3_2026",
+  "issuer": "p2_lenovo",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest describes cautiously optimistic market expectations with solid infrastructure growth and PC stabilization, but also notes risks such as hyperscaler capex normalization and PC cyclicality. Since this is a pre-earnings digest, the score reflects that expectations are moderately positive but not stretched to a degree that would imply a high bar for a positive surprise. The absence of a formal guidance change means the score is modestly positive, not strongly bullish."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T100851Z",
+    "timestamp": "2026-08-09T10:09:02Z",
+    "status": "success",
+    "document_id": "LNVGY_FQ3_2026_NEWS",
+    "issuer": "p2_lenovo",
+    "company": "Lenovo",
+    "ticker": "LNVGY",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-02-12",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_lenovo\\LNVGY_FQ3_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3980,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1839,
+    "total_tokens": 5819,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003046,
+    "latency_seconds": 10.21,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

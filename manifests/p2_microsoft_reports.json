@@ -1,0 +1,65 @@
+{
+  "issuer": "p2_microsoft",
+  "reports": [
+    {
+      "document_id": "MSFT_FQ1_2025",
+      "issuer": "p2_microsoft",
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2024-10-30",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/microsoft/CY2025-Q1/cdn-dynmedia-1.microsoft.com (2).pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2025-Q1/Microsoft-Q1-2025-Earnings-Call-Transcript-MotleyFool.html"
+        }
+      ]
+    },
+    {
+      "document_id": "MSFT_FQ2_2025",
+      "issuer": "p2_microsoft",
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-01-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/microsoft/CY2025-Q2/cdn-dynmedia-1.microsoft.com (1).pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2025-Q2/Microsoft-Q2-2025-Earnings-Call-Transcript-MotleyFool.html"
+        }
+      ]
+    },
+    {
+      "document_id": "MSFT_FQ1_2026",
+      "issuer": "p2_microsoft",
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-10-29",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/microsoft/CY2026-Q1/cdn-dynmedia-1.microsoft.com.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2026-Q1/Microsoft-Q1-2026-Earnings-Call-Transcript-MotleyFool.html"
+        }
+      ]
+    }
+  ]
+}

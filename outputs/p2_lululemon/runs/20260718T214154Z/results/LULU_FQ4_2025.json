@@ -1,0 +1,183 @@
+{
+  "document_id": "LULU_FQ4_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: full-year 2026 EPS guided to $12.10-$12.30 versus $13.26 in 2025, and operating margin expected to decrease by approximately 250 basis points. Management explicitly guided for North America revenue to decline 1%-3% and acknowledged that 'an improvement in overall trends in North America will likely progress over the course of the year and into 2027.' The gross margin decline of 550 basis points in Q4 and continued margin pressure in 2026, combined with cautious language on the timing of recovery, support a bearish forward outlook."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total net revenue $3.6 billion, up 1% (6% excluding 53rd week); constant currency revenue rose 4%; comparable sales increased 2%.",
+    "eps": "Net income $587 million, $5.01 per diluted share, compared to $6.14 per diluted share in prior period.",
+    "guidance": "Full-year 2026 revenue $11.35B-$11.5B (2%-4% growth); North America down 1%-3%; China Mainland up ~20%; Rest of World up mid-teens. EPS $12.10-$12.30 vs $13.26 in 2025. Gross margin to decrease ~120 bps; operating margin to decrease ~250 bps.",
+    "margin": "Gross margin 54.9% vs 60.4% prior year (down 550 bps); operating margin 22.3% vs 28.9% prior year.",
+    "key_risks": [
+      "Gross margin decreased 550 bps primarily due to 560 bps drop in product margin including 520 bps negative tariff impact and 130 bps higher markdowns.",
+      "Operating margin dropped to 22.3% from 28.9% year over year, with continued margin pressure expected in 2026 (full-year decrease of ~250 bps).",
+      "North America top-line challenges: management projects regional revenue to decline 1%-3% and acknowledges improvement 'will likely progress over the course of the year and into 2027.'",
+      "SG&A as a percentage of revenue increased to 32.5%, with full-year deleverage of ~130 bps expected, reflecting increases in labor, incentive compensation, and costs associated with a proxy contest.",
+      "Tariffs: gross tariff cost for 2025 was $275 million; 2026 forecast calls for $380 million gross tariff impact."
+    ],
+    "key_opportunities": [
+      "International performance: China Mainland revenue up 28% with comparable sales up 26%; Rest of World revenue up 12% with comparable sales up 5%.",
+      "Product innovation: launches include Unrestricted Power (PowerLu fabric), new ShowZero sweat technology, ThermoZen insulated outerwear, and run capsule collections, all cited as positively received.",
+      "New styles penetration increased to 35% in North America spring assortment, up from 23% in 2025.",
+      "Management expects full-price sales to turn positive in second half of 2026, driven by new product launches and reduced markdowns.",
+      "New store openings returning at above 100% ROI with payback periods of less than a year; average sales per square foot exceeding $1,400."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly hedged the recovery timeline, stating 'an improvement in overall trends in North America will likely progress over the course of the year and into 2027' and that 'it will take some time to see the benefits of these actions.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total net revenue was $3.6 billion, up 1% (6% excluding 53rd week); constant currency revenue rose 4%; comparable sales increased 2%.",
+      "quote": "Total Net Revenue -- $3.6 billion, up 1%, or 6% excluding the 53rd week; constant currency revenue rose 4% and comparable sales increased 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income was $587 million, $5.01 per diluted share, compared to $6.14 per diluted share in prior period.",
+      "quote": "Net income was $587 million, equating to $5.01 per diluted share, compared to $6.14 per diluted share in the prior period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 revenue guidance $11.35B-$11.5B (2%-4% growth); North America down 1%-3%; China Mainland up ~20%; Rest of World up mid-teens. EPS $12.10-$12.30 vs $13.26 in 2025.",
+      "quote": "2026 Full-Year Revenue Guidance -- Expected in the range of $11.35 billion to $11.5 billion, or 2%-4% annual growth; North America forecasted down 1%-3%... EPS Guidance -- Full-year 2026 diluted EPS estimated at $12.10 to $12.30 versus $13.26 for 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin 54.9% vs 60.4% prior year (down 550 bps); operating margin 22.3% vs 28.9% prior year.",
+      "quote": "Gross profit for the fourth quarter was $2 billion or 54.9% of net revenue compared to 60.4% in Q4 2024. Our gross margin decreased 550 basis points... Operating income for the quarter was approximately $812 million, or 22.3% of net revenue compared to 28.9% of net revenue in Q4 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin decreased 550 bps primarily due to 560 bps drop in product margin including 520 bps negative tariff impact and 130 bps higher markdowns.",
+      "quote": "Gross margin decreased 550 basis points relative to last year and was driven primarily by the following: a 560 basis point decline in overall product margin, driven predominantly by tariff impact and higher markdowns. Tariffs had a gross negative impact of 520 basis points in the quarter... while markdowns increased by 130 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin dropped to 22.3% from 28.9% year over year, with continued margin pressure expected in 2026 (full-year decrease of ~250 bps).",
+      "quote": "Operating income for the quarter was approximately $812 million, or 22.3% of net revenue compared to 28.9% of net revenue in Q4 2024... When looking at operating margins for the full year 2026, we expect it to decrease by approximately 250 basis points versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America top-line challenges: management projects regional revenue to decline 1%-3% and acknowledges improvement 'will likely progress over the course of the year and into 2027.'",
+      "quote": "North America faces ongoing top-line challenges, as management projects regional revenue to decline 1%-3% and acknowledges that 'an improvement in overall trends in North America will likely progress over the course of the year and into 2027.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SG&A as a percentage of revenue increased to 32.5%, with full-year deleverage of ~130 bps expected, reflecting increases in labor, incentive compensation, and costs associated with a proxy contest.",
+      "quote": "SG&A expenses were approximately $1.2 billion or 32.5% of net revenue compared to 31.5% of net revenue for the same period last year... We expect deleverage of approximately 130 basis points versus 2025 as we continue to strategically invest in our business... we have onetime costs associated with the expected proxy contest this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs: gross tariff cost for 2025 was $275 million; 2026 forecast calls for $380 million gross tariff impact.",
+      "quote": "For reference, in 2025, gross tariff costs were $275 million... Looking to 2026, we anticipate gross tariff impact of approximately $380 million with offsets from our enterprise efficiency initiatives of approximately $160 million within gross margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International performance: China Mainland revenue up 28% with comparable sales up 26%; Rest of World revenue up 12% with comparable sales up 5%.",
+      "quote": "In China Mainland, revenue increased 28% with comparable sales increasing 26%... And in the Rest of World, revenue grew by 12% and comparable sales increased by 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Product innovation: launches include Unrestricted Power (PowerLu fabric), new ShowZero sweat technology, ThermoZen insulated outerwear, and run capsule collections, all cited as positively received.",
+      "quote": "Product Innovation -- Launches included Unrestricted Power (PowerLu fabric), new ShowZero sweat technology, ThermoZen insulated outerwear, and run capsule collections, all cited as positively received.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New styles penetration increased to 35% in North America spring assortment, up from 23% in 2025.",
+      "quote": "New Styles Penetration -- Increased to 35% in North America in the spring assortment, up from 23% in 2025, with the shift attributed to new products rather than refreshed colorways.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects full-price sales to turn positive in second half of 2026, driven by new product launches and reduced markdowns.",
+      "quote": "Guidance assumes North American full-price sales will reach flat year-over-year growth in Q2, turning positive in the second half, but acknowledges this shift 'will likely progress over the course of the year and into 2027.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New store openings returning at above 100% ROI with payback periods of less than a year; average sales per square foot exceeding $1,400.",
+      "quote": "Maestrini cited payback periods of less than a year for new store openings (NSOs), with new stores 'returning at above 100% ROI' and average sales per square foot exceeding $1,400, supporting ongoing global expansion despite U.S. softness.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious, hedging the recovery timeline.",
+      "quote": "Management explicitly guided for revenue deceleration in North America... and acknowledges that 'an improvement in overall trends in North America will likely progress over the course of the year and into 2027.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on reduced forward guidance and cautious language. A reviewer may want to confirm that the magnitude of the guidance reduction (EPS from $13.26 to $12.10-$12.30) and the explicit North America decline guidance justify this bearish score relative to the anchor points."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LULU_Bundled Earnings Report_2026-03-17",
+  "report_metadata": {
+    "issuer": "p2_lululemon",
+    "company": "Lululemon",
+    "ticker": "LULU",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-03-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LULU_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214154Z",
+    "timestamp": "2026-07-18T21:42:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lululemon\\extracted\\LULU_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 64430,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lululemon\\extracted\\LULU_FQ4_2025.txt"
+  }
+}

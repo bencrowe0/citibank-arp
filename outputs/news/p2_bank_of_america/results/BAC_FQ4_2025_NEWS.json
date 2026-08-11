@@ -1,0 +1,44 @@
+{
+  "document_id": "BAC_FQ4_2025_NEWS",
+  "base_document_id": "BAC_FQ4_2025",
+  "issuer": "p2_bank_of_america",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings digest that does not contain actual results or guidance. It describes consensus estimates (EPS $0.96, revenue $27.55B) and notes that coverage previewed 'continued strength across NII, asset management fees and trading revenue as growth drivers, consistent with the bank's recent quarters' pattern.' There is no mention of stretched or depressed expectations, no commentary on valuation or analyst estimate revisions, and no indication that the bar has been raised or lowered. Therefore, expectations appear balanced and unremarkable, warranting a neutral score of 0.0."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162624Z",
+    "timestamp": "2026-07-20T16:26:31Z",
+    "status": "success",
+    "document_id": "BAC_FQ4_2025_NEWS",
+    "issuer": "p2_bank_of_america",
+    "company": "Bank of America",
+    "ticker": "BAC",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-14",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_bank_of_america\\BAC_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3368,
+    "cache_hit_tokens": 256,
+    "output_tokens": 909,
+    "total_tokens": 4277,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001858,
+    "latency_seconds": 6.96,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "document_id": "JPM_FQ2_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a strong quarter with net income of $15.0 billion and EPS of $5.24, but forward guidance is mixed. NII ex. Markets guidance was raised to ~$92B from a prior expectation, and total NII guidance is now ~$95.5B, which is a positive forward signal. However, adjusted expense guidance was also raised to ~$95.5B, and management explicitly flags significant risks including tariffs, trade uncertainty, geopolitical conditions, and high fiscal deficits. The net effect is a mildly positive score, as the guidance raise on NII is partially offset by expense growth and cautious language."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band"
+  },
+  "summary": {
+    "revenue": "Reported revenue of $44.9 billion; managed revenue of $45.7 billion, down 10% year-on-year.",
+    "eps": "Reported EPS of $5.24; excluding a significant item, EPS of $4.96.",
+    "guidance": "FY2025 NII ex. Markets expected to be ~$92B; total NII ~$95.5B; adjusted expense ~$95.5B; Card Services NCO rate ~3.6%.",
+    "margin": "Reported overhead ratio of 53%; managed overhead ratio of 52%.",
+    "key_risks": [
+      "Tariffs and trade uncertainty",
+      "Worsening geopolitical conditions",
+      "High fiscal deficits",
+      "Elevated asset prices",
+      "Potential impact of lower rates and deposit margin compression on NII"
+    ],
+    "key_opportunities": [
+      "Finalization of tax reform and potential deregulation are positive for the economic outlook",
+      "Strong net inflows in AWM ($80B client asset net inflows)",
+      "Growth in Investment Banking fees (up 7% YoY) with robust pipeline",
+      "Markets revenue up 15% YoY",
+      "Consumer deposit growth potential (6% growth next year mentioned at Investor Day)"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Jamie Dimon states 'we reported another quarter of strong results' but also warns 'significant risks persist – including from tariffs and trade uncertainty, worsening geopolitical conditions, high fiscal deficits and elevated asset prices.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $44.9 billion; managed revenue was $45.7 billion, down 10% year-on-year.",
+      "quote": "Net revenue - reported $44,912 ... Net revenue - managed 45,680 ... Net revenue - managed ... down 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $5.24; excluding a significant item, EPS was $4.96.",
+      "quote": "Earnings per share - diluted $5.24 ... Excluding this item resulted in a decrease of $774 million (after tax) to reported net income from $15.0 billion to $14.2 billion and a decrease of $0.28 per share to reported EPS from $5.24 to $4.96.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 NII ex. Markets guidance raised to ~$92B; total NII guidance ~$95.5B.",
+      "quote": "Expect FY2025 net interest income of ~$95.5B, market dependent. Expect FY2025 net interest income excluding Markets of ~$92B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted expense guidance is ~$95.5B.",
+      "quote": "Expect FY2025 adjusted expense of ~$95.5B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card Services NCO rate guidance is ~3.6%.",
+      "quote": "Expect FY2025 Card Services NCO rate of ~3.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio was 53%; managed overhead ratio was 52%.",
+      "quote": "Expense of $23.8 billion; reported overhead ratio of 53% and managed overhead ratio of 52%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include tariffs, trade uncertainty, geopolitical conditions, high fiscal deficits, and elevated asset prices.",
+      "quote": "significant risks persist – including from tariffs and trade uncertainty, worsening geopolitical conditions, high fiscal deficits and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include tax reform and deregulation, strong AWM net inflows, IB fee growth, and Markets revenue growth.",
+      "quote": "The finalization of tax reform and potential deregulation are positive for the economic outlook ... continued client asset net inflows of $80 billion ... Investment Banking fees up 7% YoY ... Markets revenue up 15% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: strong results but cautious on risks.",
+      "quote": "We reported another quarter of strong results ... significant risks persist – including from tariffs and trade uncertainty, worsening geopolitical conditions, high fiscal deficits and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex. Markets guidance was raised relative to prior expectations.",
+      "quote": "You'll recall that at Investor Day, I made a couple of comments previewing the potential evolution of the outlook. So now, let me formalize that and give you updated guidance. First, we now expect NII ex. Markets to be approximately $92 billion, with the increase driven by changes in the forward curve and strong deposit growth in Payments, Securities Services as well as balanced growth in Card.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is near the HOLD/BUY boundary. The guidance raise on NII is positive, but expense guidance also rose and management is explicitly cautious on risks. A human reviewer should confirm the net weighting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-07-15",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-earnings-call-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T125207Z",
+    "timestamp": "2026-07-02T12:52:49Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 25716,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 21946,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-earnings-call-transcript.pdf",
+        "page_count": 25,
+        "extracted_characters": 110990,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2025.txt"
+  }
+}

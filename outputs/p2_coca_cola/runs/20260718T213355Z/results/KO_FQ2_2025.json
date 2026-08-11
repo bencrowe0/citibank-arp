@@ -1,0 +1,215 @@
+{
+  "document_id": "KO_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Guidance was updated: comparable currency-neutral EPS growth raised to approximately 8% (from prior expectation), and organic revenue growth reaffirmed at 5%-6%. However, the reported comparable EPS growth of 4% was below the updated guidance, and management explicitly acknowledged a 5% currency headwind to EPS and a 1%-2% headwind to revenue. The guidance raise is partially organic (productivity, margin expansion) but also reflects timing shifts and favorable prior-year comparisons, not purely operational momentum. The tone is confident but acknowledges ongoing volatility and specific market challenges (ASEAN, India, Mexico). The score is moderately positive due to the guidance raise, tempered by currency headwinds and mixed volume performance."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Organic revenue grew 5% in Q2 2025. Price/mix increased 6% (5 points pricing, 1 point mix). Consolidated global unit case volume declined 1%.",
+    "eps": "Comparable EPS of $0.87, grew 4% year-over-year, despite 5% currency headwinds and a higher effective tax rate.",
+    "guidance": "Full-year 2025 organic revenue growth expected 5%-6%. Comparable currency-neutral EPS growth expected approximately 8%. Comparable EPS growth expected approximately 3% versus $2.88 in 2024. Currency headwinds: 1%-2% to net revenues, 5% to EPS.",
+    "margin": "Comparable gross margin increased approximately 80 basis points. Comparable operating margin increased approximately 190 basis points. Approximately one-third of underlying expansion driven by faster productivity initiatives.",
+    "key_risks": [
+      "Currency headwinds: 1%-2% to net revenues, 5% to EPS for full year 2025.",
+      "Volume decline of 1% in Q2, impacted by adverse weather, difficult prior-year comparison, and consumer pressure in select markets.",
+      "Capacity constraints limiting Fairlife volume growth until New York facility comes online in early 2026.",
+      "Geopolitical conflicts and weather events impacting India, Mexico, and ASEAN markets.",
+      "Higher effective tax rate (20.8%, up ~2 points year-over-year).",
+      "Consumer pressure in lower-income segments in North America and Europe."
+    ],
+    "key_opportunities": [
+      "Seventeenth consecutive quarter of value share gains.",
+      "Productivity initiatives (marketing transformation, disciplined opex management) driving margin expansion.",
+      "Innovation: Sprite became #3 sparkling soft drink in US; Sprite Plus Tea scaled; new cane sugar Coca-Cola variant planned for fall 2025.",
+      "Fairlife double-digit volume growth, with capacity expansion expected in early 2026.",
+      "AI-based pack price optimization tool scaled to 8 markets across 4 operating units.",
+      "Strong performance in EMEA (all three units grew volume), China volume growth, and sequential improvement in US and Europe."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management stated 'we're confident we can navigate varying local market dynamics during the remainder of 2025 to deliver on our updated guidance' and 'we have great confidence we will deliver on our updated 2025 guidance and create enduring value for our stakeholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Organic revenue grew 5% in Q2 2025.",
+      "quote": "We grew organic revenues 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable EPS of $0.87, grew 4% year-over-year.",
+      "quote": "second-quarter comparable EPS of 87 cents increased 4% year over year despite 5% currency headwinds, elevated net interest expense, and an approximate two-point increase in our effective tax rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 organic revenue growth expected 5%-6%.",
+      "quote": "We continue to expect organic revenue growth of 5% to 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable currency-neutral EPS growth expected approximately 8%.",
+      "quote": "but now expect comparable currency-neutral earnings per share growth of approximately 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable EPS growth expected approximately 3% versus $2.88 in 2024.",
+      "quote": "we now expect 2025 comparable earnings per share growth of approximately 3% versus $2.88 in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency headwinds: 1%-2% to net revenues, 5% to EPS.",
+      "quote": "we now anticipate an approximate one to two-point currency headwind to comparable net revenues and an approximate five-point currency headwind to comparable earnings per share for full year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable gross margin increased approximately 80 basis points.",
+      "quote": "Comparable gross margin increased approximately 80 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable operating margin increased approximately 190 basis points.",
+      "quote": "comparable operating margin increased approximately 190 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volume declined 1% in Q2.",
+      "quote": "Unit cases declined 1%, largely due to a weaker-than-expected June.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Seventeenth consecutive quarter of value share gains.",
+      "quote": "During the quarter, we gained value share, which represented our seventeenth consecutive quarter of value share gains.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity initiatives drove approximately one-third of margin expansion.",
+      "quote": "Approximately one-third of our underlying expansion was driven by faster realization of our productivity initiatives",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fairlife double-digit volume growth, capacity constraints.",
+      "quote": "Fairlife continues to have strong growth. Double-digit volume growth in the second quarter. Clearly, that's moderating slightly from Q1 and prior year. But we still expect to get volume growth in the second half, again, although moderating, as we wait for the capacity to come online.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sprite became #3 sparkling soft drink in US.",
+      "quote": "As a result of on-brand innovation, Sprite became the number three sparkling soft drink brand in the US as Beverage Digest announced in April.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-based pack price optimization tool scaled to 8 markets.",
+      "quote": "So far, we scaled this platform to eight markets across four operating units.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we're confident we can navigate varying local market dynamics during the remainder of 2025 to deliver on our updated guidance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance was raised for comparable currency-neutral EPS growth.",
+      "quote": "but now expect comparable currency-neutral earnings per share growth of approximately 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volume decline attributed to weather, prior-year comparison, and consumer pressure.",
+      "quote": "Volume declined 1% during the quarter as we cycled a difficult comparison versus the prior year. Two-year volume trends were on track in April and May, but decelerated in June in the face of adverse weather in several key markets and pockets of consumer pressure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher effective tax rate of 20.8%.",
+      "quote": "Our underlying effective tax rate for 2025 is still expected to be 20.8%, which is more than a two-point increase versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical conflicts and weather impacted India and Mexico.",
+      "quote": "In India, after a strong start to the year, volume declined as our business was impacted by early monsoons and geopolitical conflict early in the important summer season.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer pressure in lower-income segments in North America and Europe.",
+      "quote": "In North America, while volume improved sequentially, it declined due to the continued uncertainty and pressure on some socioeconomic segments of consumers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is partially organic but also reflects timing shifts and favorable prior-year comparisons. The score of 0.30 is above the BUY threshold but may be considered borderline given the currency headwinds and volume decline. A human reviewer should confirm the weighting of these factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KO_Bundled Earnings Report_2025-07-22",
+  "report_metadata": {
+    "issuer": "p2_coca_cola",
+    "company": "Coca-Cola",
+    "ticker": "KO",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-22",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KO_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213355Z",
+    "timestamp": "2026-07-18T21:34:12Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 58961,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ2_2025.txt"
+  }
+}

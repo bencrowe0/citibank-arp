@@ -1,0 +1,44 @@
+{
+  "document_id": "KHC_FQ1_2026_NEWS",
+  "base_document_id": "KHC_FQ1_2026",
+  "issuer": "p2_kraft_heinz",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest describes muted expectations with emerging optimism around the new CEO's $600 million investment program, but also notes persistent headwinds from SNAP reductions and structural category softness. The market sentiment is 'show me' — proof that investments are generating returns, not just costs — indicating a low bar but not a clearly depressed one. The score reflects a slightly positive tilt due to the potential for positive surprise from the investment program, but is tempered by the acknowledged execution risk and structural challenges."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T115555Z",
+    "timestamp": "2026-08-09T11:56:05Z",
+    "status": "success",
+    "document_id": "KHC_FQ1_2026_NEWS",
+    "issuer": "p2_kraft_heinz",
+    "company": "Kraft Heinz",
+    "ticker": "KHC",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_kraft_heinz\\KHC_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4178,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1609,
+    "total_tokens": 5787,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002847,
+    "latency_seconds": 10.13,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

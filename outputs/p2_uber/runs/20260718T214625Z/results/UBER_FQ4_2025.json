@@ -1,0 +1,187 @@
+{
+  "document_id": "UBER_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong backward-looking results (gross bookings up 22% YoY, adjusted EBITDA up 35%, free cash flow up 42%) and management expresses confidence in forward momentum, citing accelerating trips, audience growth, and a clear operating framework. However, no formal forward guidance raise is explicitly stated; the positive tone is supported by qualitative statements about momentum and investment plans, but the absence of a quantified guidance increase prevents a higher score. The score reflects genuine operational momentum and confident forward language, consistent with a +0.15 to +0.3 range."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Gross bookings up 22% year-on-year. Not disclosed: specific revenue figure.",
+    "eps": "Not disclosed.",
+    "guidance": "Management expresses confidence in continued momentum and targeted growth investments, but no formal quantified guidance raise is provided. The document states: 'We started 2026 with a ton of momentum, a scaled and profitable platform and a clear operating framework to generate durable growth.'",
+    "margin": "Not disclosed.",
+    "key_risks": [
+      "Autonomous vehicle competition and scaling uncertainty: 'there are reasonable questions being asked and a debate being had about what autonomy means for Uber, both in the short term and the long term.'",
+      "Potential margin pressure from AV investments: 'any time we introduce a newer product, we introduce it at a lower margin than, let's say, UberX or Uber Black or Uber Reserve as we're building out liquidity.'",
+      "Insurance cost headwinds in the US: 'we had a lot of inflationary impacts from insurance, in particular, in the US, which we had passed on to the market in the form of consumer pricing, and it was driving a slowdown in the business.'"
+    ],
+    "key_opportunities": [
+      "Autonomous vehicles as a growth driver: 'AVs will unlock a multi-trillion dollar opportunity for Uber.'",
+      "Expansion into less dense markets: 'growth in less dense markets is about, 1.5 times to 2 times more than growth in the middle of the big cities.'",
+      "Membership program (Uber One) growth: 'our membership program which has been a key investment area and still is growing 55% year-on-year.'",
+      "Advertising business growth: 'the opportunity size here is potentially much larger' than the prior 2% penetration target.",
+      "Delivery growth drivers: selection expansion, newer products (grocery, retail), international expansion, and membership stickiness."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'another great quarter,' 'exceptional outputs,' 'phenomenal $9.8 billion in free cash flow,' and 'we're more convinced than ever that AVs will unlock a multi-trillion dollar opportunity for Uber,' reflecting strong confidence in the business trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Gross bookings grew 22% year-on-year.",
+      "quote": "These healthy inputs drove exceptional outputs, with gross bookings up 22% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA was $8.7 billion, up 35%.",
+      "quote": "We generated $8.7 billion in adjusted EBITDA, up 35% and a phenomenal $9.8 billion in free cash flow, up 42%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was $9.8 billion, up 42%.",
+      "quote": "We generated $8.7 billion in adjusted EBITDA, up 35% and a phenomenal $9.8 billion in free cash flow, up 42%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trips on the platform reached a 15 billion annual run rate.",
+      "quote": "Trips on our platform accelerated again to a 15 billion annual run rate, and our audience grew to more than 200 million monthly active users.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Monthly active platform consumers (MAPC) grew 18% year-on-year in Q4 2025.",
+      "quote": "We ended the year with MAPC growth at 18% year-on-year which is a very, very strong step-up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in forward momentum without a formal guidance raise.",
+      "quote": "We started 2026 with a ton of momentum, a scaled and profitable platform and a clear operating framework to generate durable growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Autonomous vehicles are seen as a multi-trillion dollar opportunity.",
+      "quote": "we're more convinced than ever that AVs will unlock a multi-trillion dollar opportunity for Uber.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AVs are expected to be a net positive for the ecosystem.",
+      "quote": "So from that standpoint, when we look at AVs, it's fundamentally a positive opportunity, as reflected in Waymo – Waymo's latest valuation, $110 billion, which is pretty incredible on a pre-money basis, but this is not kind of a technology that is going to replace. It's going to augment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New AV products are introduced at lower margins initially.",
+      "quote": "any time we introduce a newer product, we introduce it at a lower margin than, let's say, UberX or Uber Black or Uber Reserve as we're building out liquidity, and then over a period of time margins improve.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Insurance cost headwinds impacted the US business in prior periods.",
+      "quote": "we had a lot of inflationary impacts from insurance, in particular, in the US, which we had passed on to the market in the form of consumer pricing, and it was driving a slowdown in the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growth in less dense markets is 1.5 to 2 times faster than in dense markets.",
+      "quote": "growth in less dense markets is about, 1.5 times to 2 times more than growth in the middle of the big cities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uber One membership grew 55% year-on-year.",
+      "quote": "our membership program which has been a key investment area and still is growing 55% year-on-year that then supercharges that cohort that we are acquiring.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising business has potential beyond the prior 2% penetration target.",
+      "quote": "We had many years ago talked about 2% as the potential ceiling for penetration with delivery advertising. What we are seeing is that, the opportunity size here is potentially much larger.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We generated $8.7 billion in adjusted EBITDA, up 35% and a phenomenal $9.8 billion in free cash flow, up 42%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "No formal quantified guidance raise is provided; the score is based on qualitative momentum and confident language. A human reviewer should confirm that the absence of a formal raise does not warrant a lower score."
+    },
+    {
+      "field": "summary.revenue",
+      "reason": "Only gross bookings growth (22% YoY) is disclosed; no specific revenue figure is provided. A human reviewer should verify if this is sufficient for the summary."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS is not disclosed in the document. A human reviewer should confirm this is correct."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin commentary is provided. A human reviewer should confirm this is correct."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 4,
+    "not_disclosed_count": 3
+  },
+  "model_document_id": "UBER_Bundled Earnings Report_2026-02-04",
+  "report_metadata": {
+    "issuer": "p2_uber",
+    "company": "Uber",
+    "ticker": "UBER",
+    "sector": "Technology/Transportation",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-04",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q4\\Uber-Q4-25-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UBER_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214625Z",
+    "timestamp": "2026-07-18T21:47:19Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q4\\Uber-Q4-25-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q4\\Uber-Q4-25-Earnings-Call-Transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 62819,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ4_2025.txt"
+  }
+}

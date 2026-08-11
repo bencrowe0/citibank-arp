@@ -1,0 +1,44 @@
+{
+  "document_id": "BA_FQ4_2025_NEWS",
+  "base_document_id": "BA_FQ4_2025",
+  "issuer": "p2_boeing",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest describes a sharply narrowing expected loss and a 'Strong Buy' consensus, indicating that market expectations are not depressed but are moderately optimistic. However, the quarter is still expected to show a loss, and the forward guidance is the key signal, so the bar is not excessively high. The score reflects a mildly positive setup with room for a positive surprise if guidance is strong, but not a stretched or 'priced for perfection' scenario."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T115546Z",
+    "timestamp": "2026-08-09T11:55:55Z",
+    "status": "success",
+    "document_id": "BA_FQ4_2025_NEWS",
+    "issuer": "p2_boeing",
+    "company": "Boeing",
+    "ticker": "BA",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-26",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_boeing\\BA_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3690,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1166,
+    "total_tokens": 4856,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002228,
+    "latency_seconds": 8.45,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

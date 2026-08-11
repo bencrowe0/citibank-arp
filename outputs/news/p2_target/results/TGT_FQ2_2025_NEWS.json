@@ -1,0 +1,44 @@
+{
+  "document_id": "TGT_FQ2_2025_NEWS",
+  "base_document_id": "TGT_FQ2_2025",
+  "issuer": "p2_target",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects how stretched or depressed market expectations are heading into the print. The digest describes a mixed-signal setup: the Zacks Most Accurate Estimate was higher than consensus (Earnings ESP +1.81%), suggesting some optimism from analysts closest to the company, but Target also carries a Zacks Rank #4 ('Sell'), indicating a bearish quant/momentum-style rank. The consensus expects a genuine EPS decline of -20.6% YoY, which sets a low bar, but the bearish rank and mixed signals prevent a clearly bullish reading. Overall, expectations are not clearly stretched or depressed, leading to a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162858Z",
+    "timestamp": "2026-07-20T16:29:08Z",
+    "status": "success",
+    "document_id": "TGT_FQ2_2025_NEWS",
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-20",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_target\\TGT_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3440,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1122,
+    "total_tokens": 4562,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002112,
+    "latency_seconds": 10.22,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

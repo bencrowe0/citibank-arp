@@ -1,0 +1,105 @@
+{
+  "issuer": "p2_lowes",
+  "reports": [
+    {
+      "document_id": "LOW_FQ1_2025",
+      "issuer": "p2_lowes",
+      "company": "Lowe's",
+      "ticker": "LOW",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2026-05-21",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lowes/CY2025-Q1/low-q1-2025-transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lowes/CY2025-Q1/exhibit991-05022025.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "LOW_FQ2_2025",
+      "issuer": "p2_lowes",
+      "company": "Lowe's",
+      "ticker": "LOW",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-20",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lowes/CY2025-Q2/low-usq-transcript-2025-08-20.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lowes/CY2025-Q2/exhibit991-08012025.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "LOW_FQ3_2025",
+      "issuer": "p2_lowes",
+      "company": "Lowe's",
+      "ticker": "LOW",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-19",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lowes/CY2025-Q3/low-usq-transcript-2025-11-19.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lowes/CY2025-Q3/exhibit991-10312025.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "LOW_FQ4_2025",
+      "issuer": "p2_lowes",
+      "company": "Lowe's",
+      "ticker": "LOW",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-25",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lowes/CY2025-Q4/low-usq-transcript_2026-02-25.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lowes/CY2025-Q4/exhibit991-01302026.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "LOW_FQ1_2026",
+      "issuer": "p2_lowes",
+      "company": "Lowe's",
+      "ticker": "LOW",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-20",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lowes/CY2026-Q1/low-usq-transcript-2026-05-20-1.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lowes/CY2026-Q1/exhibit991-05012026.txt"
+        }
+      ]
+    }
+  ]
+}

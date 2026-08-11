@@ -1,0 +1,44 @@
+{
+  "document_id": "WDAY_FQ3_2025_NEWS",
+  "base_document_id": "WDAY_FQ3_2025",
+  "issuer": "p2_workday",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply; instead, the score reflects whether market expectations are stretched or depressed heading into the print. The document describes a balanced setup: analysts 'generally reconfirmed estimates over the last 30 days' with 'mixed sentiment on future growth trajectory,' and while AI momentum is noted, macro headwinds from trade policy and tax concerns are also flagged. This balanced mix of positives and negatives, with no indication of a stretched or depressed bar, supports a mildly positive score rather than a neutral 0.0, as the digest highlights genuine operational momentum (AI contributing ~1.5 points to ARR growth) without suggesting expectations are elevated."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T104355Z",
+    "timestamp": "2026-08-09T10:44:08Z",
+    "status": "success",
+    "document_id": "WDAY_FQ3_2025_NEWS",
+    "issuer": "p2_workday",
+    "company": "Workday",
+    "ticker": "WDAY",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-25",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_workday\\WDAY_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4173,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2368,
+    "total_tokens": 6541,
+    "cached_input": false,
+    "estimated_cost_usd": 0.00368,
+    "latency_seconds": 12.6,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

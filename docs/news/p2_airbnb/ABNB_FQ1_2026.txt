@@ -1,0 +1,8 @@
+Airbnb (ABNB) - News coverage digest, FQ1 2026 earnings (report date 2026-05-07)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the May 7, 2026 report, analysts expected Q1 2026 revenue of $2.62 billion (up 15% YoY from $2.27 billion) and consensus EPS of $0.30 (up 25% YoY from $0.24). The stock had rallied about 12% in the month before the print amid a run of positive analyst upgrades, including Oppenheimer moving to Outperform with a $180 target - a bullish setup heading in, up 12% over the month and 3% YTD, outperforming the S&P 500. Pre-earnings coverage framed the print as a test of whether 16% GBV growth and AI-search/hotel-partnership initiatives could hold up against moderating US demand and FX volatility - the flagged risk being a US slowdown offsetting international strength, or FX reversing from tailwind to headwind.
+
+Sources:
+- https://tickeron.com/blogs/airbnb-abnb-q1-2026-earnings-preview-what-investors-need-to-watch-13206/ (Tickeron, "Airbnb (ABNB) Q1 2026 Earnings Preview: What Investors Need to Watch" - published prior to the May 7, 2026 report)
+- https://seekingalpha.com/article/4897849-airbnb-q1-earnings-preview-make-or-break-moment-for-2026-performance (Seeking Alpha, "Airbnb Q1 Earnings Preview: A Make Or Break Moment For 2026 Performance" - published prior to the report)

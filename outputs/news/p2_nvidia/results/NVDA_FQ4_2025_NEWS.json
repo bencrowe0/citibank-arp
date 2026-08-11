@@ -1,0 +1,44 @@
+{
+  "document_id": "NVDA_FQ4_2025_NEWS",
+  "base_document_id": "NVDA_FQ4_2025",
+  "issuer": "p2_nvidia",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest describes strongly bullish sentiment and high expectations heading into the report, with analysts expecting revenue of $54.9-$54.98 billion (+56.7% YoY) and a TipRanks Smart Score of 9. The document also notes that management's own prior guidance had already set a high bar of $65 billion for the following quarter, indicating that expectations are stretched. Such elevated expectations leave little room for a positive surprise, increasing the risk of a negative market reaction even if results are decent, hence a bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T113319Z",
+    "timestamp": "2026-08-09T11:33:29Z",
+    "status": "success",
+    "document_id": "NVDA_FQ4_2025_NEWS",
+    "issuer": "p2_nvidia",
+    "company": "Nvidia",
+    "ticker": "NVDA",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-11-19",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_nvidia\\NVDA_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3590,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1392,
+    "total_tokens": 4982,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002449,
+    "latency_seconds": 9.63,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,11 @@
+Novo Nordisk (NVO) - News coverage digest, FQ3 2025 earnings (report date 2025-11-05)
+
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the November 5, 2025 print - new CEO Mike Doustdar's first quarterly report since taking over in August - sell-side estimates for Novo Nordisk had been trending down for weeks. As of Zacks' November 3, 2025 preview, the consensus estimate for the quarter stood at $11.88 billion in revenue and $0.77 EPS, and in the 60 days prior to the report the Street's full-year 2025 EPS estimate had deteriorated from $3.84 to $3.67, while the 2026 EPS forecast slipped from $3.97 to $3.91 - a sign analysts were bracing for continued softness rather than a rebound. Investors were watching for concrete signals on restructuring, job cuts, and strategic direction under Doustdar following the summer's board overhaul and guidance cut, with competitive and pricing pressure from Eli Lilly in both the diabetes and obesity categories still the dominant overhang.
+
+Adding to the pre-earnings noise, Pfizer filed a second lawsuit against Novo Nordisk and obesity-drug startup Metsera on November 3, 2025, alleging Novo's rival bid for Metsera was anticompetitive; Novo had raised its offer to roughly $10 billion versus Pfizer's $8.1 billion in an escalating bidding war, adding a legal-risk and capital-allocation overhang (large potential M&A spend, litigation exposure) to the stock just two days before the earnings release, on top of the already-cautious analyst positioning.
+
+Sources:
+- https://finance.yahoo.com/news/novo-nordisk-q3-earnings-investors-164100391.html (Yahoo Finance / Zacks "Novo Nordisk Before Q3 Earnings" preview, published November 3, 2025)
+- https://www.cnbc.com/2025/11/03/pfizer-files-second-lawsuit-against-novo-nordisk-metsera.html (CNBC, published November 3, 2025)

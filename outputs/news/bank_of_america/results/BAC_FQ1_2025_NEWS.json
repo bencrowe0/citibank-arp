@@ -1,0 +1,44 @@
+{
+  "document_id": "BAC_FQ1_2025_NEWS",
+  "base_document_id": "BAC_FQ1_2025",
+  "issuer": "bank_of_america",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations rather than guidance changes. The document describes depressed expectations: BAC stock had declined 18.4% year-to-date, analyst estimates have been cut (JPMorgan cut price target, citing tariff-driven risk), and the stock trades at an attractive valuation (8x 2026 EPS, 0.8x book value). A low bar raises the odds of a positive surprise, supporting a mildly bullish score. However, the consensus remains a Strong Buy with 42% upside implied, and options markets price a large expected move, indicating some stretch, which tempers the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T103915Z",
+    "timestamp": "2026-07-06T10:39:28Z",
+    "status": "success",
+    "document_id": "BAC_FQ1_2025_NEWS",
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-15",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\bank_of_america\\BAC_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3758,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1540,
+    "total_tokens": 5298,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002657,
+    "latency_seconds": 12.79,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

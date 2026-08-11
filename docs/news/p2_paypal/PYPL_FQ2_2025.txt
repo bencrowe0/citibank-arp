@@ -1,0 +1,51 @@
+PayPal Q2 2025 Pre-Earnings News Digest
+Report Date: July 29, 2025
+
+==============================================================================
+
+SOURCE: Seeking Alpha - "PayPal's Q2 earnings estimated to be hit on lower margin despite rise in payment volume"
+Date: Before July 29, 2025
+URL: https://seekingalpha.com/news/4618858-paypals-q2-earnings-estimated-to-be-hit-on-lower-margin-despite-rise-in-payment-volume-any-deal-update-to-outweigh-numbers
+
+KEY POINTS:
+- Revenue expected to increase but earnings pressure from lower margins
+- Payment volume growth expected to continue momentum from Q1
+- Margin compression concerns from mix shift and competition
+- Deal activity/restructuring discussions potentially moving forward
+- Venmo monetization trajectory critical metric
+
+==============================================================================
+
+SOURCE: StockStory - "PYPL Q2 Deep Dive: Product Diversification, Cost Savings, and Margin Pressures Shape PayPal's Outlook"
+Date: Before July 29, 2025
+URL: https://stockstory.org/us/stocks/nasdaq/pypl/news/earnings-call/pypl-q2-deep-dive-product-diversification-cost-savings-and-margin-pressures-shape-paypals-outlook
+
+KEY POINTS:
+- Product diversification strategy showing results
+- Cost savings initiatives partially offsetting margin pressures
+- Growth diversification across PSP, Venmo, and branded checkout
+- Efficiency gains being realized but not fully offsetting pricing pressures
+- Full-year guidance critical following Q1 beat
+
+==============================================================================
+
+SOURCE: Goldman Sachs Analyst Note (via Seeking Alpha)
+Date: Before July 29, 2025
+URL: https://seekingalpha.com/news/4618858-paypals-q2-earnings-estimated-to-be-hit-on-lower-margin-despite-rise-in-payment-volume-any-deal-update-to-outweigh-numbers
+
+KEY POINTS:
+- Branded checkout growth expected to improve to ~6% sequentially (vs 4% in Q1)
+- Transaction margin dollars guidance critical
+- Management commentary on competitive pressures and pricing strategy watched closely
+- Full-year outlook raise possibility given Q1 beat
+
+==============================================================================
+
+MARKET CONSENSUS (As of July 2025):
+- EPS consensus: $1.29 (company guidance: $1.29-$1.31)
+- Revenue consensus: $8.08 billion
+- TPV expected: Mid-single-digit YoY growth
+- Transaction margin dollars: $3.75-$3.80 billion guided (4.5% growth midpoint)
+- Key catalysts: Branded checkout growth acceleration, Venmo path to profitability, M&A news
+- Sentiment: Moderately optimistic after Q1 beat; Q2 will test sustainability of turnaround narrative
+- Risk factors: Macro slowdown, intensifying competition, FX headwinds

@@ -1,0 +1,7 @@
+Lowe's (LOW) - News coverage digest, FQ4 2025 earnings (report date 2026-02-25)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 25, 2026 report, analysts expected adjusted EPS of $1.95 (up slightly from $1.93 YoY). Coverage noted Lowe's had surpassed Wall Street's earnings estimate in each of the prior four quarters - a solid recent beat streak heading in, though the EPS growth itself being modeled was minimal (~1%), leaving limited room for a "big beat" narrative even under a favorable outcome.
+
+Sources:
+- https://finance.yahoo.com/news/expect-lowes-q4-2025-earnings-113640265.html (Yahoo Finance, "What to Expect From Lowe's Q4 2025 Earnings Report" - published prior to the February 25, 2026 report)

@@ -1,0 +1,13 @@
+Netflix (NFLX) - News coverage digest, FQ3 2025 earnings (report date 2025-10-21)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of the October 21 report, Netflix shares had risen roughly 35% year-to-date, and Wall Street was described as entering the print "cautiously optimistic," reflecting improving subscriber momentum and continued progress in ad monetization. Analyst consensus estimates going into the quarter were for EPS of about $6.96 (up roughly 29% year-over-year) on revenue near $11.51 billion, implying about 17.2% year-over-year revenue growth.
+
+Investor focus heading into the report centered on three areas: subscriber trends, progress on advertising revenue, and guidance for the remainder of 2025. Management had previously guided to roughly doubling ad revenue for the full year following the completed rollout of the Netflix Ads Suite across all regions, and the ad-supported tier remained positioned as one of the cheapest options in streaming at $6.99/month - a pricing point analysts viewed as a continued subscriber-acquisition lever. Ad growth and margin trajectory were flagged as the key swing factors likely to move the stock on the print, given the stock's run-up into the quarter.
+
+Sources:
+- Netflix Q3 Earnings on Deck: Is NFLX Stock a Buy Ahead of October 21? - finance.yahoo.com/news/netflix-q3-earnings-deck-nflx-155354887.html (published before 2025-10-21, pre-earnings)
+- Netflix Q3 Earnings Preview: What To Expect From Upcoming Report - finance.yahoo.com/news/netflix-q3-earnings-preview-expect-125644645.html (published before 2025-10-21, pre-earnings)
+- Netflix Q3 Preview: Ad Growth and Margins in Focus - finance.yahoo.com/news/netflix-q3-preview-ad-growth-171357107.html (published before 2025-10-21, pre-earnings)
+
+Note: coverage focuses on analyst consensus estimates, guidance context, and market positioning available before the report; no figures or reactions from the actual October 21 release are included.

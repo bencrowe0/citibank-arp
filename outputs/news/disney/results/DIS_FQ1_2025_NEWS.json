@@ -1,0 +1,44 @@
+{
+  "document_id": "DIS_FQ1_2025_NEWS",
+  "base_document_id": "DIS_FQ1_2025",
+  "issuer": "disney",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings digest, so no actual results or guidance are available. The document describes a stock that has outperformed the market since the prior report and has a 'northward re-rating' supported by rising confidence, but also notes unresolved risks (ESPN DTC pricing) and a stock down 1.06% the day before. Expectations appear moderately elevated but not stretched to a 'priced for perfection' level, and analyst ratings are mostly positive (multiple Buy upgrades/initiations), suggesting a mildly bullish setup with room for a positive surprise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T104003Z",
+    "timestamp": "2026-07-06T10:40:19Z",
+    "status": "success",
+    "document_id": "DIS_FQ1_2025_NEWS",
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-02-05",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\disney\\DIS_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3901,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2149,
+    "total_tokens": 6050,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003366,
+    "latency_seconds": 15.38,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

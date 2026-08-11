@@ -1,0 +1,44 @@
+{
+  "document_id": "PFE_FQ1_2025_NEWS",
+  "base_document_id": "PFE_FQ1_2025",
+  "issuer": "p2_pfizer",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes a meaningful EPS decline expected as post-COVID product normalization continues, and analyst estimates were revised down ~1.7% in the 30 days before the print, indicating depressed expectations. However, the revenue estimate implies only a modest 0.8% YoY increase, and the digest does not describe a beaten-down valuation or explicit commentary that the bar has been lowered enough to warrant a positive score; the tone is neutral-to-slightly-negative, so the score is set at -0.15, just below the HOLD band."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260730T175526Z",
+    "timestamp": "2026-07-30T17:55:37Z",
+    "status": "success",
+    "document_id": "PFE_FQ1_2025_NEWS",
+    "issuer": "p2_pfizer",
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pfizer\\PFE_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3493,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1509,
+    "total_tokens": 5002,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002552,
+    "latency_seconds": 10.99,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

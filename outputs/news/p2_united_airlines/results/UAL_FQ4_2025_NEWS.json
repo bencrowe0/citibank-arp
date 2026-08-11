@@ -1,0 +1,44 @@
+{
+  "document_id": "UAL_FQ4_2025_NEWS",
+  "base_document_id": "UAL_FQ4_2025",
+  "issuer": "p2_united_airlines",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest describes elevated market expectations heading into United's FQ4 2025 print: bullish analyst sentiment, rising price targets, and a consensus full-year 2026 EPS modeled up ~23.9% year-over-year. The bar is high, with the digest noting the market's focus is on whether management's initial 2026 guide will validate the already-priced-in bullish thesis, leaving little room for a soft print. This stretched positioning raises the risk of a negative surprise reaction, warranting a bearish sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101143Z",
+    "timestamp": "2026-08-04T10:11:53Z",
+    "status": "success",
+    "document_id": "UAL_FQ4_2025_NEWS",
+    "issuer": "p2_united_airlines",
+    "company": "United Airlines",
+    "ticker": "UAL",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-20",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_united_airlines\\UAL_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3780,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1599,
+    "total_tokens": 5379,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002728,
+    "latency_seconds": 9.77,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

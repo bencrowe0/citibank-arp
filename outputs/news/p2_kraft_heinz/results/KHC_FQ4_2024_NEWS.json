@@ -1,0 +1,44 @@
+{
+  "document_id": "KHC_FQ4_2024_NEWS",
+  "base_document_id": "KHC_FQ4_2024",
+  "issuer": "p2_kraft_heinz",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This pre-earnings digest indicates modest expectations with persistent top-line headwinds, but also notes that Kraft Heinz has beaten EPS estimates in each of the last four quarters, suggesting a low bar for earnings. The consensus rating is 'Hold' with a price forecast below current levels, reflecting neutral-to-slightly-negative sentiment. Overall, expectations are not stretched, but there is no strong positive catalyst, so the score is mildly positive."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100719Z",
+    "timestamp": "2026-08-09T10:07:28Z",
+    "status": "success",
+    "document_id": "KHC_FQ4_2024_NEWS",
+    "issuer": "p2_kraft_heinz",
+    "company": "Kraft Heinz",
+    "ticker": "KHC",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-12",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_kraft_heinz\\KHC_FQ4_2024.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3881,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1492,
+    "total_tokens": 5373,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002638,
+    "latency_seconds": 8.85,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

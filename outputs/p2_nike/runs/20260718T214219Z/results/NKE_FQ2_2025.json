@@ -1,0 +1,182 @@
+{
+  "document_id": "NKE_FQ2_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was explicitly reduced: Q3 revenues expected down low double digits, gross margins down 300-350 bps, and a greater headwind in Q4 vs Q3. Management acknowledged that near-term actions (inventory liquidation, shifting to full-price model, reducing performance marketing) will result in lower revenue, additional gross margin pressure, and higher demand creation expenses. The CEO stated 'some of these actions will have a negative impact on our near-term results.' This constitutes a clear guidance reduction relative to prior expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 revenues were $12.4 billion, down 8% on a reported basis and down 9% on a currency-neutral basis.",
+    "eps": "Diluted EPS was $0.78, a decrease of 24% from $1.03 in the prior year.",
+    "guidance": "Q3 revenues expected down low double digits; Q3 gross margins down approximately 300 to 350 basis points; Q3 SG&A dollars slightly down year over year; greater headwind in Q4 compared to Q3; summer '25 order books down versus prior year.",
+    "margin": "Gross margin decreased 100 basis points to 43.6%.",
+    "key_risks": [
+      "Higher markdowns and promotional activity on NIKE Direct and wholesale discounts to liquidate inventory.",
+      "Channel mix headwinds pressuring gross margins.",
+      "Inventory levels higher than desired, especially given recent sales trends on NIKE Direct.",
+      "Near-term revenue, gross margin, and demand creation headwinds from strategic repositioning actions.",
+      "Greater China macro environment challenging with retail traffic declines and higher markdown activity.",
+      "Foreign exchange headwinds worsening."
+    ],
+    "key_opportunities": [
+      "Returning sport to the center of everything, with sport-led 'fields of play' teams (running, basketball, training, football, sportswear).",
+      "Rebuilding wholesale partner relationships and earning back shelf space with innovative product.",
+      "Shifting NIKE Digital to a full-price model to improve profitability over time.",
+      "Investing in brand marketing and sports marketing to drive organic demand.",
+      "New product pipeline for fall/holiday '25 including Vomero 18, Pegasus Premium, and strong basketball lineup.",
+      "Long-term sport partnership extensions (NBA, WNBA, NFL, Brazil Football Confederation, FC Barcelona)."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO stated 'some of these actions will have a negative impact on our near-term results' and the CFO provided explicit downward guidance on revenue and margins, while expressing confidence in long-term strategy but acknowledging near-term pain."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 revenues were $12.4 billion, down 8% on a reported basis and down 9% on a currency-neutral basis.",
+      "quote": "Second quarter revenues were $12.4 billion, down 8 percent on a reported basis compared to the prior year and down 9 percent on a currency-neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.78, a decrease of 24% from $1.03 in the prior year.",
+      "quote": "Diluted earnings per share was $0.78, a decrease of 24 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 revenues expected down low double digits.",
+      "quote": "we expect Q3 revenues to be down low double digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 gross margins down approximately 300 to 350 basis points.",
+      "quote": "We expect Q3 gross margins to be down approximately 300 to 350 basis points, including restructuring charges during the same period in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Greater headwind in Q4 compared to Q3.",
+      "quote": "I said that we expect a greater headwind in the fourth quarter as compared to the third.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Summer '25 order books down versus prior year.",
+      "quote": "summer order books will be down versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin decreased 100 basis points to 43.6%.",
+      "quote": "Gross margin decreased 100 basis points to 43.6 percent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Near-term actions will have negative impact on results.",
+      "quote": "I recognize that some of these actions will have a negative impact on our near-term results. But we're taking the long-term view here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory levels higher than desired.",
+      "quote": "inventory levels are higher than we would like, especially given recent sales trends on NIKE Direct.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Greater China macro environment challenging.",
+      "quote": "In Q2, we experienced another quarter of retail traffic declines in a difficult macro environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "I recognize that some of these actions will have a negative impact on our near-term results. But we're taking the long-term view here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance was reduced.",
+      "quote": "we expect Q3 revenues to be down low double digits. This reflects initial steps on the actions outlined above, as well as worsening foreign exchange headwinds",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects explicit downward guidance and acknowledged near-term pain. However, the document also contains strong long-term optimism and strategic repositioning language that could be interpreted as a positive catalyst by some analysts. The score is based on the forward guidance reduction, but the long-term narrative is more mixed."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NKE_Bundled Earnings Report_2025-06-26",
+  "report_metadata": {
+    "issuer": "p2_nike",
+    "company": "Nike",
+    "ticker": "NKE",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-06-26",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NKE_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214219Z",
+    "timestamp": "2026-07-18T21:42:52Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\extracted\\NKE_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+        "page_count": 1,
+        "extracted_characters": 14438,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "page_count": 3,
+        "extracted_characters": 65218,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\extracted\\NKE_FQ2_2025.txt"
+  }
+}

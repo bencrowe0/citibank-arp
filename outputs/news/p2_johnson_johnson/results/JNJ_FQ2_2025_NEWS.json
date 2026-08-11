@@ -1,0 +1,44 @@
+{
+  "document_id": "JNJ_FQ2_2025_NEWS",
+  "base_document_id": "JNJ_FQ2_2025",
+  "issuer": "p2_johnson_johnson",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects that market expectations appear moderately elevated but not stretched to a 'priced for perfection' extreme: traders price a 92% probability of an EPS beat and a 3.65% expected move, while analyst price targets were raised (RBC to $287, TD Cowen to $300) with positive commentary on the company's defensive nature and confidence in double-digit growth by end-of-decade. The elevated beat probability and raised price targets suggest a somewhat demanding bar, but the digest also notes stable procedure volumes and healthy end-market demand, which supports a mildly positive score rather than a neutral or negative one."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T100608Z",
+    "timestamp": "2026-08-09T10:06:18Z",
+    "status": "success",
+    "document_id": "JNJ_FQ2_2025_NEWS",
+    "issuer": "p2_johnson_johnson",
+    "company": "Johnson  Johnson",
+    "ticker": "JNJ",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_johnson_johnson\\JNJ_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3886,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1674,
+    "total_tokens": 5560,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002839,
+    "latency_seconds": 9.28,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

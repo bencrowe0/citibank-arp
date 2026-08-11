@@ -1,0 +1,38 @@
+{
+  "document_id": "NFLX_FQ2_2025_NEWS",
+  "base_document_id": "NFLX_FQ2_2025",
+  "issuer": "netflix",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "The document describes a stock that has rallied 36% over three months, trading above the average Wall Street price target at a forward P/E of 49x, with commentators flagging it as 'priced for perfection' and noting 'little room for a soft print.' This elevated valuation and high expectations heading into the print create a stretched bar, increasing the risk of a negative surprise even on decent results. The consensus rating is 'Moderate Buy' rather than 'Strong Buy,' reflecting caution about how much good news is already priced in."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower"
+  },
+  "cost_log": {
+    "run_id": "20260702T133345Z",
+    "timestamp": "2026-07-02T13:33:58Z",
+    "status": "success",
+    "document_id": "NFLX_FQ2_2025_NEWS",
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-17",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\netflix\\NFLX_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 3834,
+    "output_tokens": 2022,
+    "total_tokens": 5856,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003259,
+    "latency_seconds": 12.63,
+    "signal": "SELL",
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

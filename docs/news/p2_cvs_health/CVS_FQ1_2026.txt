@@ -1,0 +1,8 @@
+CVS Health (CVS) - News coverage digest, FQ1 2026 earnings (report date 2026-05-06)
+Fetched via web search across free financial outlets (Yahoo Finance/Zacks). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the May 6, 2026 report, analysts expected Q1 2026 revenue of about $94.98 billion (slight growth from $94.6 billion a year earlier) and adjusted EPS of $2.21 (down 1.8% YoY from $2.25). Full-year 2026 guidance stood at $7.00-$7.20 adjusted EPS, backed by at least $9 billion in operating cash flow. Coverage flagged CVS's recent beat pattern as relevant context: the company had surpassed EPS estimates in each of the past four quarters by an average of 20.6%, often helped by favorable prior-period development in insurance reserves - i.e. the "beat" pattern was itself well known to the market heading in, potentially already reflected in positioning. Health Services was flagged as the segment likely to lead performance for the quarter.
+
+Sources:
+- https://finance.yahoo.com/sectors/healthcare/articles/cvs-q1-earnings-preview-health-123400224.html (Yahoo Finance, "CVS Q1 Earnings Preview: Health Services Likely to Lead Performance" - published prior to the May 6, 2026 report)
+- https://markets.financialcontent.com/stocks/article/stockstory-2026-5-5-cvs-health-cvs-q1-earnings-report-preview-what-to-look-for (StockStory via FinancialContent, "CVS Health (CVS) Q1 Earnings Report Preview: What To Look For" - published May 5, 2026, one day before the report)

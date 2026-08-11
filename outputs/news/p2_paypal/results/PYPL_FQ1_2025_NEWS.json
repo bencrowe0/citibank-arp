@@ -1,0 +1,44 @@
+{
+  "document_id": "PYPL_FQ1_2025_NEWS",
+  "base_document_id": "PYPL_FQ1_2025",
+  "issuer": "p2_paypal",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates that market expectations have been reset lower, with consensus EPS at $1.27 and revenue growth expected at only 3.4% YoY, and commentary that 'lower expectations may provide opportunity for beat scenarios.' This suggests a lower bar, which could lead to positive surprises. However, the document also notes concerns about declining market share and macroeconomic pressures, which temper the bullishness. Overall, expectations are somewhat depressed but not extremely so, warranting a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T102058Z",
+    "timestamp": "2026-08-09T10:21:07Z",
+    "status": "success",
+    "document_id": "PYPL_FQ1_2025_NEWS",
+    "issuer": "p2_paypal",
+    "company": "PayPal",
+    "ticker": "PYPL",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_paypal\\PYPL_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3779,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1274,
+    "total_tokens": 5053,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002371,
+    "latency_seconds": 9.28,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,9 @@
+PepsiCo (PEP) - News coverage digest, FQ2 2024 earnings (report date 2024-07-11)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 11, 2024 report, consensus called for Q2 EPS of about $2.15 (core EPS target around $2.16) on revenue near $22.6 billion, with pre-earnings coverage explicitly framing the outlook as "a modest single-digit profit surge" - a marked step-down in tone from the double-digit growth narratives that had characterized PepsiCo prints through 2023. This reflected the deceleration already visible in Q1 2024 results, with North America volumes still soft and pricing gains moderating as prior-year price hikes lapped.
+
+The muted-growth framing signaled tempered rather than stretched expectations going into the print: analysts were not pricing in another sizable beat, consistent with PepsiCo's slowing momentum narrative through the first half of 2024 and ongoing questions about whether the company's full-year organic growth and EPS targets (around 4% organic revenue growth, 8%+ core constant-currency EPS growth) remained achievable.
+
+Sources:
+- https://www.barchart.com/story/news/27136294/pepsicos-q2-2024-earnings-what-to-expect (Barchart, "PepsiCo's Q2 2024 Earnings: What to Expect", pre-earnings consensus EPS/revenue estimates ahead of the July 11, 2024 report)

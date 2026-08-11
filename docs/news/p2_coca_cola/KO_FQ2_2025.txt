@@ -1,0 +1,7 @@
+Coca-Cola (KO) - News coverage digest, FQ2 2025 earnings (report date 2025-07-22)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 22, 2025 report, consensus EPS estimate was about $0.92-$0.93 (up from $0.87 YoY); Jefferies modeled $0.94, slightly ahead of consensus. Jefferies also forecast organic sales growth of 3.9%, above the Street estimate of 3.5%. Bank of America estimated total unit case volume growth of 2.0% YoY, broadly in line with Visible Alpha's 2.2% consensus. Analysts expected Coca-Cola to reiterate full-year guidance of 4%-5% organic sales growth and 8%-9% EPS growth. Sentiment was highly optimistic heading in: of 25 analysts, 19 rated the stock Strong Buy, 2 Moderate Buy, and 4 Hold - no sell-side bears at all, and coverage explicitly framed the setup as "resilient demand" against a defensive-stock backdrop.
+
+Sources:
+- https://www.proactiveinvestors.com/companies/news/1095273/coca-cola-expected-to-post-solid-second-quarter-results-as-analysts-highlight-resilient-demand-1095273.html (Proactive Investors, "Coca-Cola expected to post solid second-quarter results as analysts highlight resilient demand" - published prior to the July 22, 2025 report)

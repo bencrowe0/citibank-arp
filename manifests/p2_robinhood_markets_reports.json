@@ -1,0 +1,101 @@
+{
+  "issuer": "p2_robinhood_markets",
+  "reports": [
+    {
+      "document_id": "HOOD_FQ1_2025",
+      "issuer": "p2_robinhood_markets",
+      "company": "Robinhood Markets",
+      "ticker": "HOOD",
+      "sector": "Financial Services/Capital Markets",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-30",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q1/HOOD_Q1_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q1/HOOD_Q1_2025_earnings_call_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HOOD_FQ2_2025",
+      "issuer": "p2_robinhood_markets",
+      "company": "Robinhood Markets",
+      "ticker": "HOOD",
+      "sector": "Financial Services/Capital Markets",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-30",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q2/HOOD_Q2_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q2/HOOD_Q2_2025_earnings_call_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HOOD_FQ3_2025",
+      "issuer": "p2_robinhood_markets",
+      "company": "Robinhood Markets",
+      "ticker": "HOOD",
+      "sector": "Financial Services/Capital Markets",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-05",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q3/HOOD_Q3_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/robinhood_markets/CY2025-Q3/HOOD_Q3_2025_earnings_call_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HOOD_FQ1_2026",
+      "issuer": "p2_robinhood_markets",
+      "company": "Robinhood Markets",
+      "ticker": "HOOD",
+      "sector": "Financial Services/Capital Markets",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/robinhood_markets/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/robinhood_markets/CY2026-Q1/HOOD_Q1_2026_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/robinhood_markets/CY2026-Q1/HOOD_Q1_2026_earnings_call_transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

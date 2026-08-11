@@ -1,0 +1,44 @@
+{
+  "document_id": "ABNB_FQ2_2025_NEWS",
+  "base_document_id": "ABNB_FQ2_2025",
+  "issuer": "p2_airbnb",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "This is a pre-earnings digest, so no actual results or guidance are available. The document describes a mixed-to-positive analyst sentiment but with a wide split: 18 Strong Buy, 18 Hold, and 1 Strong Sell, indicating no strong consensus. The mean price target implies only ~7% upside, a muted setup, and the pattern of unreliable EPS beats (missed in 3 of last 4 quarters) raises uncertainty. Overall, expectations are not stretched but also not depressed, leading to a slightly negative score due to the elevated risk of an EPS miss."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161454Z",
+    "timestamp": "2026-07-20T16:15:05Z",
+    "status": "success",
+    "document_id": "ABNB_FQ2_2025_NEWS",
+    "issuer": "p2_airbnb",
+    "company": "Airbnb",
+    "ticker": "ABNB",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-06",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_airbnb\\ABNB_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3722,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1300,
+    "total_tokens": 5022,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002384,
+    "latency_seconds": 10.1,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

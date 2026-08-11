@@ -1,0 +1,15 @@
+Netflix (NFLX) - News coverage digest, FQ2 2025 earnings (report date 2025-07-17)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance), window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 17 report, Netflix shares had climbed roughly 36% over the prior three months, leaving the stock trading above the average Wall Street price target of about $1,222 and at a forward P/E near 49x - a valuation commentators flagged as "priced for perfection" ahead of the print. Analyst sentiment remained constructive but not unanimous: 33 of 50 analysts surveyed in June rated the stock a buy or strong buy with no outright sells, though the consensus rating sat at "Moderate Buy" rather than "Strong Buy," reflecting some caution about how much good news was already in the price.
+
+Consensus estimates going into the quarter centered on EPS of roughly $7.03-$7.06 (Netflix's own guidance was $7.03) versus $4.88 a year earlier, and revenue near $11.04-$11.05 billion, implying about 15-16% year-over-year growth. Full-year 2025 earnings growth was projected at roughly 28%, with 2026 growth projected near 22%. Drivers investors were watching for included continued paid membership growth, the impact of premium-tier price increases, and further traction in the ad-supported tier, which management had been building out through the Netflix Ads Suite. Squid Game's third season, released during the quarter, was also cited as a potential engagement driver worth watching in member growth commentary.
+
+Overall framing across the pre-earnings coverage was a "balanced risk-reward" story: solid underlying growth drivers (subscribers, pricing, advertising) weighed against a stretched valuation that left little room for a soft print, with commentators advising investors to watch closely whether Netflix could justify its premium multiple.
+
+Sources:
+- Is Netflix Stock a Buy Before July 17? - finance.yahoo.com/news/netflix-stock-buy-july-17-150943241.html (published before 2025-07-17, pre-earnings)
+- Netflix Set to Report Q2 Earnings: Buy, Sell or Hold NFLX Stock? - finance.yahoo.com/news/netflix-set-report-q2-earnings-165700734.html (published before 2025-07-17, pre-earnings)
+- What to Expect From Netflix's Next Quarterly Earnings Report - finance.yahoo.com/markets/stocks/articles/expect-netflixs-next-quarterly-earnings-130530566.html (published before 2025-07-17, pre-earnings)
+
+Note: coverage focuses on analyst consensus estimates and valuation framing available before the report; no figures or reactions from the actual July 17 release are included.

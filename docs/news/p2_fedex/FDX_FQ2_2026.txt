@@ -1,0 +1,10 @@
+FedEx (FDX) - News coverage digest, FQ2 2026 earnings (report date 2025-12-18)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into its December 18, 2025 report (after the market close), the setup was materially calmer than the tariff-driven anxiety of the September print. Barchart's pre-earnings preview (published December 17, 2025) noted consensus adjusted EPS of $4.05, roughly in line with the year-ago quarter, with full fiscal-2026 adjusted EPS expected around $18 (down modestly from $18.19 in fiscal 2025) before reaccelerating to an expected $20.48, +13.8%, in fiscal 2027. The preview framed FedEx as having earned some benefit of the doubt: the company had topped Wall Street's EPS estimate in three of the prior four quarters, and the September fiscal Q1 print had been well received - shares rose 2.3% on that release as adjusted operating income and EPS both grew, helped by strong U.S. domestic package revenue, structural cost cuts, and reaffirmed fiscal-2026 guidance of 4%-6% revenue growth and $17.20-$19.00 adjusted EPS (ex-items).
+
+Sell-side price-target activity into the print was modestly positive rather than defensive: Jefferies raised its target to $280 from $275 (Buy) and Citigroup raised its target to $279 from $275 (Buy), both above the roughly $271 consensus target at the time. With the holiday shipping season underway, coverage flagged the pace of $500 million in completed share buybacks and progress toward the planned June 2026 FedEx Freight spin-off as additional threads investors were watching heading into the report, alongside underlying parcel volume and yield trends through the peak-season window.
+
+Sources:
+- https://www.barchart.com/story/news/36666013/fedex-earnings-preview-what-to-expect (Barchart, "FedEx Earnings Preview: What to Expect", published December 17, 2025)
+- https://markets.financialcontent.com/observerreporter/article/barchart-2025-12-17-fedex-earnings-preview-what-to-expect (Barchart via FinancialContent syndication, published December 17, 2025)

@@ -1,0 +1,44 @@
+{
+  "document_id": "CAT_FQ2_2025_NEWS",
+  "base_document_id": "CAT_FQ2_2025",
+  "issuer": "p2_caterpillar",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This pre-earnings digest indicates mildly positive positioning: consensus EPS estimate was revised 0.5% higher over the trailing 30 days, and sell-side sentiment leaned constructive-to-cautious with a 'Buy'-leaning mix. However, the bar is not depressed—headline EPS is expected to decline 18.5% YoY and revenue to fall 2%, and a significant tariff cost headwind (~$700M) is flagged. Overall, expectations are balanced with a slight positive tilt, not stretched or depressed, so the score is mildly positive."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T095400Z",
+    "timestamp": "2026-08-09T09:54:08Z",
+    "status": "success",
+    "document_id": "CAT_FQ2_2025_NEWS",
+    "issuer": "p2_caterpillar",
+    "company": "Caterpillar",
+    "ticker": "CAT",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-04",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_caterpillar\\CAT_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3654,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1267,
+    "total_tokens": 4921,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002329,
+    "latency_seconds": 7.99,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

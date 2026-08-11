@@ -1,0 +1,44 @@
+{
+  "document_id": "F_FQ2_2025_NEWS",
+  "base_document_id": "F_FQ2_2025",
+  "issuer": "p2_ford",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are. The document describes a consensus estimate implying a 27.6% year-over-year EPS decline and an 8% revenue decline, with the EPS estimate having moved up modestly by 3 cents in the week before the report. The upward revision to estimates raises the bar for a positive surprise, and the expected declines suggest elevated risk of disappointment, warranting a mildly bearish score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260730T175437Z",
+    "timestamp": "2026-07-30T17:54:46Z",
+    "status": "success",
+    "document_id": "F_FQ2_2025_NEWS",
+    "issuer": "p2_ford",
+    "company": "Ford",
+    "ticker": "F",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-30",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_ford\\F_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3442,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1036,
+    "total_tokens": 4478,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002018,
+    "latency_seconds": 8.27,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

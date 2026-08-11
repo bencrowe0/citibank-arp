@@ -1,0 +1,189 @@
+{
+  "document_id": "JPM_FQ4_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows strong operational momentum with revenue up 7% YoY and EPS of $4.63, but forward guidance for NII ex. Markets is reaffirmed at $95 billion (unchanged from prior guidance), and expenses are guided higher to $105 billion. Management expresses optimism about 2026 deal activity and franchise growth, but also flags significant risks including potential credit card APR caps and geopolitical uncertainty. The reaffirmed NII guidance and expense growth temper the positive operational momentum, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue of $46.8 billion, up 7% year-on-year on higher Markets revenue, asset management fees, and auto lease income.",
+    "eps": "EPS of $4.63, with net income of $13 billion.",
+    "guidance": "NII ex. Markets expected to be about $95 billion for 2026; total NII about $103 billion; adjusted expense about $105 billion; Card net charge-off rate approximately 3.4%.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Potential credit card APR caps could dramatically reduce access to credit and harm the card business.",
+      "Geopolitical risk is 'an enormous amount of risk' that may affect the economy.",
+      "Large U.S. and global deficits are a long-term risk.",
+      "Yield-seeking flows continue to pressure deposit growth, though at lower levels.",
+      "NBFI lending growth and novel elements present risk, though structural protections exist."
+    ],
+    "key_opportunities": [
+      "Strong client engagement and deal activity expected in 2026, supported by constructive market dynamics.",
+      "Robust franchise growth with 1.7 million net new checking accounts and 10.4 million new card accounts.",
+      "Record client asset net inflows of $553 billion for the year in AWM.",
+      "Investment in technology, AI, and branch expansion to drive long-term growth.",
+      "Deregulation is a plus for banks, allowing capital redeployment."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expresses structural optimism about the opportunity set, stating 'the expense growth reflects our structural optimism about the opportunity set for the company when we look through the cycle, as well as some optimism about the near-term revenue outlook.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $46.8 billion, up 7% year-on-year.",
+      "quote": "Revenue of $46.8 billion was up 7% year-on-year on higher Markets revenue, as well as higher asset management fees and auto lease income.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $4.63, with net income of $13 billion.",
+      "quote": "This quarter, the Firm reported net income of $13 billion and EPS of $4.63, with an ROTCE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex. Markets guidance is reaffirmed at about $95 billion for 2026.",
+      "quote": "Turning to the outlook for 2026, we continue to expect NII ex. Markets to be about $95 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted expense guidance for 2026 is about $105 billion.",
+      "quote": "On expense, as we told you at an industry conference in December, we expect 2026 adjusted expense to be about $105 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card net charge-off rate expected to be approximately 3.4%.",
+      "quote": "To wrap up, on credit, we expect the 2026 Card net charge-off rate to be approximately 3.4% on favorable delinquency trends, driven by the continued resilience of the consumer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential credit card APR caps are a significant risk.",
+      "quote": "What's actually simply going to happen is that the provision of the service will change dramatically. Specifically, people will lose access to credit like on a very, very extensive and broad basis, especially the people who need it the most, ironically.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical risk is an enormous amount of risk.",
+      "quote": "Geopolitical is an enormous amount of risk. I don't have to go through each part of it. It's just a big amount of risk that may or may not be determining the state of the economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Large U.S. and global deficits are a long-term risk.",
+      "quote": "The deficits in the United States and around the world are quite large. We don't know when that's going to bite. It will bite eventually, because you can't just keep on borrowing money endlessly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Yield-seeking flows continue to pressure deposit growth.",
+      "quote": "I would probably put more traditional yield-seeking flows higher up the list relative to investments, but it's clearly both. And so, yeah, as we talked about over the prior few quarters, like the level of yield-seeking flows dropped off a lot but it's not zero.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NBFI lending growth presents risk, though structural protections exist.",
+      "quote": "Stepping back, in light of the growth and the novel elements of some components of this activity, we are quite mindful of the risk. But given the structural protections, you would generally expect losses in this NBFI category to appear either as a result of additional instances of fraud-like problems or as a result of a particularly deep recession that erodes all the credit enhancement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong client engagement and deal activity expected in 2026.",
+      "quote": "In terms of the outlook, we expect strong client engagement and deal activity in 2026, supported by constructive market dynamics, which is reflected in our pipeline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robust franchise growth with 1.7 million net new checking accounts and 10.4 million new card accounts.",
+      "quote": "For the full year, we had strong growth in our franchise with 1.7 million net new checking accounts, 10.4 million new card accounts, and record households in wealth management across digital and advised channels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record client asset net inflows of $553 billion for the year in AWM.",
+      "quote": "And we saw record client asset net inflows of $553 billion for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment in technology, AI, and branch expansion to drive long-term growth.",
+      "quote": "We're opening rural branches which we think will be good. We're opening more branches in foreign countries. We're building better payment systems. We're adding better personalization in consumer banking, credit card. We're adding AI across the company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deregulation is a plus for banks.",
+      "quote": "Deregulation is a plus in general, not just for banks, but banks will be able to redeploy capital.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "The expense growth reflects our structural optimism about the opportunity set for the company when we look through the cycle, as well as some optimism about the near-term revenue outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is mildly positive (0.20) based on operational momentum and optimistic forward language, but the reaffirmed NII guidance and expense growth could be interpreted as more neutral by some reviewers. The score is near the BUY threshold and could be debated."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2026-01-13",
+  "report_metadata": {
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q4\\jpm-4q25-earnings-call-transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JPM_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213513Z",
+    "timestamp": "2026-07-18T21:36:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q4\\jpm-4q25-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q4\\jpm-4q25-earnings-call-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 98903,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ4_2025.txt"
+  }
+}

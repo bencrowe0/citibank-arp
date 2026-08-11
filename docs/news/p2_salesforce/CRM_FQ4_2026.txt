@@ -1,0 +1,71 @@
+Pre-Earnings Market Expectations Digest: Salesforce Q4 FY2026
+Report Date: 2026-02-25
+Compiled: January 2026
+
+OVERVIEW
+Salesforce approaches Q4 FY2026 earnings on February 25, 2026 with strong momentum from Q3's accelerating AI product adoption, but investor expectations for full-year guidance remain cautious. The quarter represents the company's final FY2026 earnings, making forward FY2027 guidance especially important for stock valuation.
+
+KEY ANALYST EXPECTATIONS
+- EPS Consensus: $3.03 per share (9% YoY growth)
+- Revenue Consensus: $11.17 billion (11.7% YoY growth)
+- Revenue (StreetAccount): $11.17 billion ($11.18 billion slight variant)
+- Subscription & Support Revenue: $10.60 billion (+12.2% YoY)
+Sources:
+- CNBC Q4 earnings preview (January 2026): https://www.cnbc.com/2026/02/25/salesforce-crm-q4-earnings-report-2026.html
+- Yahoo Finance consensus estimates (January 2026)
+- StreetAccount consensus (January 2026)
+
+MOMENTUM BUILDING INTO Q4
+Q3 Performance Exceeded Expectations:
+- Reported $3.25 adjusted EPS vs. $2.86 consensus (13.6% beat)
+- Revenue of $10.26 billion in line with expectations
+- Agentforce and Data 360 combined ARR surged to ~$1.4 billion with 114% YoY growth
+- Agentforce standalone ARR growth accelerating at 330% YoY
+Sources: Q3 earnings results (December 3, 2025)
+
+Strong Momentum Expected in Q4:
+- Q4 typically strongest seasonal quarter for enterprise software
+- Agentforce adoption accelerating across customer base
+- RPO quality improving with multi-year deal commitments
+- AI-driven upsell opportunities ramping through account management
+
+FULL-YEAR FY2026 CONTEXT
+- FY2026 revenue guidance being raised to $41.45B - $41.55B range
+- Operating margins elevated by AI efficiency gains
+- Non-GAAP operating margin tracking 34-35% range
+Source: Q3 earnings guidance (December 2025)
+
+CRITICAL FY2027 GUIDANCE WATCH
+The key focal point for Q4 earnings will be FY2027 guidance:
+
+Consensus expects: 10-11% revenue growth for FY2027, decelerating from FY2026's 10% growth
+- This implies revenues in the $45.6B - $46.2B range
+- Operating margin assumptions: 35-36% range
+- EPS guidance expected: $12.80 - $13.20 range
+
+Sources: Analyst estimates from Simply Wall St, Yahoo Finance (January 2026)
+
+INVESTOR CONCERNS HEADING INTO Q4
+- Growth deceleration narrative: Even with AI tailwinds, FY2027 guidance expected to show single-digit acceleration
+- Valuation sensitivity: Stock reaction likely tied to whether FY2027 guidance meets or exceeds 11% growth assumptions
+- Macro headwinds: Enterprise spending environment remains uncertain in early 2026
+- Market share risk: Competitive positioning vs. Microsoft Copilot, Oracle Cloud AI
+
+ANALYST OUTLOOK
+Wall Street remains supportive of Salesforce but with cautious tone on growth trajectory:
+- AI momentum sufficient to justify current valuation multiples
+- But FY2027 guidance will be key to preventing post-earnings selloff
+- Any guidance significantly above 11% growth could be catalyst for 10%+ upside
+- Guidance below 10% could trigger 5-8% downside reaction
+
+POSITIVE FACTORS
+- Strong enterprise customer wins throughout FY2026
+- Data 360 and Agentforce attach rates improving
+- Customer retention and expansion revenue accelerating
+- Margin expansion from AI efficiency gains
+
+DOWNSIDE RISKS
+- Macro spending slowdown in Q1 CY2026
+- Customer budget delays due to AI transformation planning cycles
+- Competitive share loss if Microsoft Copilot penetration accelerates
+- Guidance conservatism preventing stock appreciation despite strong results

@@ -1,0 +1,44 @@
+{
+  "document_id": "TGT_FQ1_2026_NEWS",
+  "base_document_id": "TGT_FQ1_2026",
+  "issuer": "p2_target",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This is a pre-earnings digest, so the score reflects how stretched or depressed market expectations are heading into the print. The document describes a 'near-term up, longer-term down' divergence pattern in EPS revisions, with 30-day revisions up 5.2% but 90-day revisions down 6.6%, and one preview explicitly warns that shares 'could pull back after a strong run,' indicating elevated expectations and limited room for a positive surprise. This combination of rising near-term estimates (raising the bar) and caution that good fundamentals are already priced in suggests a bearish setup, warranting a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162916Z",
+    "timestamp": "2026-07-20T16:29:27Z",
+    "status": "success",
+    "document_id": "TGT_FQ1_2026_NEWS",
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-20",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_target\\TGT_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3568,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1317,
+    "total_tokens": 4885,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002361,
+    "latency_seconds": 10.45,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

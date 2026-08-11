@@ -1,0 +1,6 @@
+Target (TGT) - News digest, FQ2 2025 (report date 2025-08-20). Pre-earnings only, via web search.
+
+Consensus: EPS $2.04 (-20.6% YoY) - a genuine expected decline, not growth. The Zacks "Most Accurate Estimate" was actually higher than consensus (Earnings ESP +1.81%), a mild signal that analysts closest to the company were more optimistic than the broad consensus - though Target carried a Zacks Rank #4 ("Sell"), meaning the quant/momentum-style rank itself was bearish even as the ESP leaned slightly positive. A genuinely mixed-signal setup.
+
+Sources:
+- https://finance.yahoo.com/news/earnings-preview-target-tgt-q2-140003922.html (Yahoo Finance/Zacks, "Earnings Preview: Target (TGT) Q2 Earnings Expected to Decline" - published prior to the August 20, 2025 report)

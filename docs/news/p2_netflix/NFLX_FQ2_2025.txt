@@ -1,0 +1,6 @@
+Netflix (NFLX) - News digest, FQ2 2025 (report date 2025-07-17). Pre-earnings only, via web search.
+
+Consensus: EPS $0.79 (up from $0.72 YoY), revenue ~$12.58B. Regional growth estimates: US/Canada $5.50B (+11.6%), APAC $1.52B (+16.4%), LatAm $1.50B (+15.1%), EMEA $4.04B (+14.2%) - broad-based growth expected across all regions. Operating margin consensus 33.2% for Q2, 29.6% full-year. Ad-tier had surpassed 250M monthly active users, with a stated goal to double ad revenue to ~$3B in 2026 - specific, trackable targets already in the market's expectations.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/netflix-q2-earnings-preview-expect-133549355.html (Yahoo Finance, "Netflix Q2 Earnings Preview: What To Expect From Upcoming Report" - published prior to the July 17, 2025 report)

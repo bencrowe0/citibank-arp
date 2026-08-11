@@ -1,0 +1,8 @@
+Lowe's (LOW) - News coverage digest, FQ1 2025 earnings (report date 2025-05-21)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the May 21, 2025 report, consensus estimates centered on EPS of about $2.89-$2.90 (down from $3.06-$3.08 YoY) on revenue of $20.95-$21 billion (down ~1-2% YoY) - a rare pre-earnings setup where the Street was modeling a YoY decline rather than growth. Lowe's own outlook called the 2025 home-improvement market roughly flat, with the Pro segment expected to outpace DIY, driven by repair/maintenance demand; comparable sales were guided flat to up 1% for the year, with some spring demand expected to shift from Q1 into Q2 due to weather.
+
+Sources:
+- https://news.alphastreet.com/lowes-low-gearing-up-for-q1-2025-earnings-report-a-few-points-to-note/ (AlphaStreet, "Lowe's (LOW) gearing up for Q1 2025 earnings report, a few points to note" - published prior to the May 21, 2025 report)
+- https://finance.yahoo.com/news/lowes-low-earnings-expected-grow-140002769.html (Yahoo Finance, "Lowe's (LOW) Earnings Expected to Grow: What to Know Ahead of Next Week's Release" - published prior to the report)

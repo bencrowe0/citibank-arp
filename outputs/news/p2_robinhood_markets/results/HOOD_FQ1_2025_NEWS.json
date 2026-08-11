@@ -1,0 +1,44 @@
+{
+  "document_id": "HOOD_FQ1_2025_NEWS",
+  "base_document_id": "HOOD_FQ1_2025",
+  "issuer": "p2_robinhood_markets",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This pre-earnings digest indicates elevated market expectations with analyst estimates revised upward and a positive overall sentiment, but also notes significant risks and an expected post-earnings move of ~10%, suggesting a stretched bar. The document does not contain actual results or guidance, so the score reflects the balance between positive momentum and the risk of a high bar."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T102746Z",
+    "timestamp": "2026-08-09T10:27:58Z",
+    "status": "success",
+    "document_id": "HOOD_FQ1_2025_NEWS",
+    "issuer": "p2_robinhood_markets",
+    "company": "Robinhood Markets",
+    "ticker": "HOOD",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-30",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_robinhood_markets\\HOOD_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4042,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1667,
+    "total_tokens": 5709,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002874,
+    "latency_seconds": 12.1,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

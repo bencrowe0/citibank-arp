@@ -1,0 +1,77 @@
+{
+  "issuer": "p2_micron",
+  "reports": [
+    {
+      "document_id": "MU_FQ4_2025",
+      "issuer": "p2_micron",
+      "company": "Micron",
+      "ticker": "MU",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-09-23",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/micron/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/micron/CY2025-Q4/MU_FY2025_Q4_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/micron/CY2025-Q4/earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "MU_FQ1_2026",
+      "issuer": "p2_micron",
+      "company": "Micron",
+      "ticker": "MU",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-12-17",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/micron/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/micron/CY2026-Q1/MU_FY2026_Q1_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/micron/CY2026-Q1/earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "MU_FQ2_2026",
+      "issuer": "p2_micron",
+      "company": "Micron",
+      "ticker": "MU",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-03-18",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/micron/CY2026-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/micron/CY2026-Q2/MU_FY2026_Q2_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/micron/CY2026-Q2/earnings_call_transcript.txt"
+        }
+      ]
+    }
+  ]
+}

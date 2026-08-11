@@ -1,0 +1,7 @@
+Nike (NKE) - News coverage digest, FQ1 fiscal 2025 earnings (report date 2024-10-01)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 1, 2024 report, Wall Street consensus called for adjusted EPS of $0.52 on revenue of about $11.64 billion (down roughly 5% YoY) - a materially reduced bar versus the prior year, reflecting management's own June 2024 comments that first-quarter revenue would be down mid-single-digits with gross margin compressing 350-425 basis points (including ~100bps from tariffs). Coverage (SGB Media) explicitly framed the setup as "cautious guidance expected" - the market had already priced in a soft print and was watching for commentary on inventory clean-up, wholesale versus DTC mix, and the health of the "Win Now" turnaround actions rather than expecting a beat-and-raise. Nike's pending CEO transition (John Donahoe departing, Elliott Hill incoming effective Oct 14) was also an overhang heading into the print, with limited detail yet available on strategic direction under new leadership.
+
+Sources:
+- https://sgbonline.com/exec-nike-expected-to-deliver-cautious-guidance-in-reporting-fyq1-results/ (SGB Media, "EXEC: Analysts Expect Nike to Deliver Cautious Guidance in Reporting Fiscal Q1 Results" - published prior to the October 1, 2024 report)

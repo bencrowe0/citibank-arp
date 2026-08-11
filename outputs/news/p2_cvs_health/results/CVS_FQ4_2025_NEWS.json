@@ -1,0 +1,44 @@
+{
+  "document_id": "CVS_FQ4_2025_NEWS",
+  "base_document_id": "CVS_FQ4_2025",
+  "issuer": "p2_cvs_health",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This pre-earnings digest describes a stock that has already rallied hard into the print (from low-$70s to a 52-week high near $92.77, up ~16% YTD), with a valuation at ~11x forward earnings that the source argues is still reasonable. The bar is elevated because the stock has re-rated on a macro catalyst (Medicare Advantage rate increase) and consensus estimates are set, leaving little room for a soft print. Thus, expectations are stretched, warranting a mildly bearish sentiment score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260804T101106Z",
+    "timestamp": "2026-08-04T10:11:15Z",
+    "status": "success",
+    "document_id": "CVS_FQ4_2025_NEWS",
+    "issuer": "p2_cvs_health",
+    "company": "CVS Health",
+    "ticker": "CVS",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_cvs_health\\CVS_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3653,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1411,
+    "total_tokens": 5064,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002487,
+    "latency_seconds": 9.31,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

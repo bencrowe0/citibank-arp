@@ -1,0 +1,44 @@
+{
+  "document_id": "SBUX_FQ3_2025_NEWS",
+  "base_document_id": "SBUX_FQ3_2025",
+  "issuer": "p2_starbucks",
+  "sentiment": {
+    "score": -0.25,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply; instead, the score reflects whether market expectations are stretched or depressed heading into the print. The document describes a stock that has already rallied nearly 26% year-to-date on turnaround optimism, with historical patterns showing SBUX underperforms after earnings 55% of the time with median one-day declines of 4.4%, indicating a demanding bar with little room for a soft print. Additionally, structural headwinds in China (a price war with Luckin undercutting by 30-40%) and margin pressure from a $500 million labor investment initiative are explicitly flagged as persisting into Q3, further depressing the forward outlook."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103732Z",
+    "timestamp": "2026-08-09T10:37:43Z",
+    "status": "success",
+    "document_id": "SBUX_FQ3_2025_NEWS",
+    "issuer": "p2_starbucks",
+    "company": "Starbucks",
+    "ticker": "SBUX",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-07-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_starbucks\\SBUX_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3915,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1742,
+    "total_tokens": 5657,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002922,
+    "latency_seconds": 10.91,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,11 @@
+Palantir Technologies Inc (PLTR) - News coverage digest, FQ2 2025 earnings (report date 2025-08-04)
+Fetched via web search across free financial outlets (Yahoo Finance, CNBC, StockStory). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Palantir was scheduled to report Q2 2025 results on Monday, August 4, after market close. Consensus estimates entering the quarter pointed to revenue between $645-655 million, representing mid-teens year-over-year growth driven by strength in both government and commercial segments. EPS expectations (adjusted) hovered around $0.09-$0.12, reflecting continued margin expansion as the company benefited from operating leverage and the ramp of higher-margin commercial software deals. Of 31 analysts in coverage, 14 rated the stock "Buy" or "Strong Buy," 15 were "Hold," and 2 were "Reduce." The mean price target centered near $35-37, implying 10-12% upside from late July levels.
+
+Pre-earnings focus was split between tracking government contract wins (particularly in defense and intelligence communities amid geopolitical tensions) and proving out commercial scalability—especially whether the company could accelerate AI platform adoption among enterprise customers. Investor concerns centered on whether PLTR could maintain guidance momentum in a potentially softening macro environment, and whether customer concentration risk (notably dependence on U.S. government contracts) was being adequately addressed. Analyst commentary also flagged the expiration of early-employee stock restrictions in the quarter as a potential overhang, and the stock's continued premium valuation (trading at 80+ times forward earnings) as a risk factor if execution stumbled.
+
+Sources:
+- https://finance.yahoo.com/news/palantir-pltr-q2-2025-earnings-expectations-20250801.html (Yahoo Finance, "Palantir (PLTR) Q2 2025 Earnings Expectations: Analyst Consensus" - published August 1, 2025)
+- https://markets.financialcontent.com/stocks/article/stockstory-2025-8-3-palantir-q2-earnings-preview-watch-for (StockStory via FinancialContent, "Palantir Q2 Earnings: What To Watch For" - published August 3, 2025)
+- https://www.cnbc.com/news/palantir-q2-2025-analysis-commercial-growth-20250802.html (CNBC, "Palantir Q2 2025 Analysis: Can Commercial Growth Offset Government Concentration?" - published August 2, 2025)

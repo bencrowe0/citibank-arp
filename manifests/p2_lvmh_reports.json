@@ -1,0 +1,33 @@
+{
+  "issuer": "p2_lvmh",
+  "reports": [
+    {
+      "document_id": "MC.PA_FQ2_2025",
+      "issuer": "p2_lvmh",
+      "company": "LVMH",
+      "ticker": "MC.PA",
+      "sector": "Consumer/Luxury",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-24",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/lvmh/CY2025-Q2/LVMH-H1-2025-PressRelease.pdf"},
+        {"doc_type": "Results Presentation", "source_pdf": "docs/lvmh/CY2025-Q2/LVMH-H1-2025-ResultsPresentation.pdf"}
+      ]
+    },
+    {
+      "document_id": "MC.PA_FQ4_2025",
+      "issuer": "p2_lvmh",
+      "company": "LVMH",
+      "ticker": "MC.PA",
+      "sector": "Consumer/Luxury",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-27",
+      "documents": [
+        {"doc_type": "Press Release", "source_pdf": "docs/lvmh/CY2025-Q4/LVMH-FY2025-PressRelease.pdf"},
+        {"doc_type": "Results Presentation", "source_pdf": "docs/lvmh/CY2025-Q4/LVMH-FY2025-ResultsPresentation.pdf"}
+      ]
+    }
+  ]
+}

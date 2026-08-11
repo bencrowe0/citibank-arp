@@ -1,0 +1,85 @@
+{
+  "issuer": "p2_lenovo",
+  "reports": [
+    {
+      "document_id": "LNVGY_FQ1_2026",
+      "issuer": "p2_lenovo",
+      "company": "Lenovo",
+      "ticker": "LNVGY",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-08-14",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lenovo/CY2026-Q1/Lenovo_Q1_FY2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/lenovo/CY2026-Q1/Lenovo_Q1_FY2026_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "LNVGY_FQ2_2026",
+      "issuer": "p2_lenovo",
+      "company": "Lenovo",
+      "ticker": "LNVGY",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-01-30",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lenovo/CY2026-Q2/Lenovo_Q2_FY2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/lenovo/CY2026-Q2/Lenovo_Q2_FY2026_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "LNVGY_FQ3_2026",
+      "issuer": "p2_lenovo",
+      "company": "Lenovo",
+      "ticker": "LNVGY",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "2026-02-12",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lenovo/CY2026-Q3/Lenovo_Q3_FY2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/lenovo/CY2026-Q3/Lenovo_Q3_FY2026_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "LNVGY_FQ4_2026",
+      "issuer": "p2_lenovo",
+      "company": "Lenovo",
+      "ticker": "LNVGY",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2026",
+      "report_date": "2026-05-22",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lenovo/CY2026-Q4/Lenovo_Q4_FY2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/lenovo/CY2026-Q4/Lenovo_Q4_FY2026_Presentation.pdf"
+        }
+      ]
+    }
+  ]
+}

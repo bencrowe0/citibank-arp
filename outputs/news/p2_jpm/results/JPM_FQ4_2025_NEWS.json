@@ -1,0 +1,44 @@
+{
+  "document_id": "JPM_FQ4_2025_NEWS",
+  "base_document_id": "JPM_FQ4_2025",
+  "issuer": "p2_jpm",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations rather than guidance changes. The document notes that JPM's Q3 beat 'had set a high bar heading into Q4' and that management signaled '2026 expenses could run higher than previously expected' — a cost-side caution flag. These factors suggest elevated expectations and a potential headwind, making the bar demanding and raising the risk of a negative surprise, warranting a mildly bearish score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T162749Z",
+    "timestamp": "2026-07-20T16:27:59Z",
+    "status": "success",
+    "document_id": "JPM_FQ4_2025_NEWS",
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_jpm\\JPM_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3469,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1314,
+    "total_tokens": 4783,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002331,
+    "latency_seconds": 9.48,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

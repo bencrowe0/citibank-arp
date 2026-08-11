@@ -1,0 +1,193 @@
+{
+  "document_id": "META_FQ4_2025",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Forward guidance was meaningfully raised: the first full-year 2026 capex guide was disclosed at $115B to $135B, nearly double 2025, but operating income is still guided above 2025, which reassures on the line that mattered most. The revenue landed near the top of the guide and free cash flow stayed strong, indicating organic momentum. The score is +0.5 because guidance was raised materially (capex and operating income outlook) and the feared numbers arrived with reassurance attached, not because of backward-looking beats."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$58.9B, up 25% year over year, near the top of the guide. Family of Apps ad revenue $58.1B, up 24%. Reality Labs $955M, down 12%.",
+    "eps": "Not disclosed",
+    "guidance": "Q1 2026 revenue guided to $53.5B to $56.5B with a 4% currency tailwind. First full-year 2026 guides: expenses $162B to $169B and capex $115B to $135B, nearly double 2025. Operating income still guided above 2025 despite the spend.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Legal and regulatory headwinds in the EU and US, with trials scheduled this year that may result in a material loss.",
+      "Reality Labs losses expected to stay near 2025 levels before improving.",
+      "Currency tailwinds fade later in 2026 and EU ad changes may bite."
+    ],
+    "key_opportunities": [
+      "Major AI acceleration.",
+      "Sales of glasses more than tripled last year.",
+      "WhatsApp paid messaging crossed $2 billion annual run rate.",
+      "30% increase in output per engineer since the start of 2025."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described a 'major AI acceleration' and guided operating income above 2025 despite massive capex, indicating confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $58.9B, up 25% year over year, near the top of the guide.",
+      "quote": "Revenue $58.9B, up 25% year over year, near the top of the guide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Family of Apps ad revenue was $58.1B, up 24%.",
+      "quote": "Family of Apps ad revenue $58.1B, up 24%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reality Labs revenue was $955M, down 12%.",
+      "quote": "Reality Labs $955M, down 12%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guided to $53.5B to $56.5B with a 4% currency tailwind.",
+      "quote": "Q1 2026 revenue guided to $53.5B to $56.5B with a 4% currency tailwind.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First full-year 2026 guides: expenses $162B to $169B and capex $115B to $135B, nearly double 2025.",
+      "quote": "First full-year 2026 guides: expenses $162B to $169B and capex $115B to $135B, nearly double 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income still guided above 2025 despite the spend.",
+      "quote": "Operating income still guided above 2025 despite the spend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Legal and regulatory headwinds in the EU and US, with trials scheduled this year that may result in a material loss.",
+      "quote": "Legal and regulatory headwinds in the EU and US, with trials scheduled this year that may result in a material loss.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reality Labs losses expected to stay near 2025 levels before improving.",
+      "quote": "Reality Labs losses expected to stay near 2025 levels before improving.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency tailwinds fade later in 2026 and EU ad changes may bite.",
+      "quote": "Currency tailwinds fade later in 2026 and EU ad changes may bite.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Major AI acceleration.",
+      "quote": "We are now seeing a major AI acceleration – Zuckerberg, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales of glasses more than tripled last year.",
+      "quote": "Sales of our glasses more than tripled last year – Zuckerberg, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "WhatsApp paid messaging crossed $2 billion annual run rate.",
+      "quote": "WhatsApp paid messaging crossed $2 billion annual run rate – Li, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "30% increase in output per engineer since the start of 2025.",
+      "quote": "30% increase in output per engineer since the start of 2025 – Li, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was $14.1B.",
+      "quote": "Free cash flow $14.1B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are now seeing a major AI acceleration – Zuckerberg, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is +0.50 because guidance was raised materially and the feared numbers arrived with reassurance attached.",
+      "quote": "Revenue landed near the top of the guide, free cash flow stayed strong and the first 2026 capex guide, while enormous, came with operating income still guided above 2025. The feared numbers arrived with reassurance attached.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.eps",
+      "reason": "EPS is not disclosed in the document; the field is set to 'Not disclosed' but a human reviewer should confirm no EPS figure was inadvertently missed."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "Margin commentary is not disclosed in the document; the field is set to 'Not disclosed' but a human reviewer should confirm no margin figure was inadvertently missed."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "META_Bundled Earnings Report_2026-01-28",
+  "report_metadata": {
+    "issuer": "p2_meta",
+    "company": "Meta",
+    "ticker": "META",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q4\\15 meta q4 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "META_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214033Z",
+    "timestamp": "2026-07-18T21:40:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q4\\15 meta q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q4\\15 meta q4 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 6066,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ4_2025.txt"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "document_id": "ABNB_FQ2_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong Q2 with revenue of $3.1B (up 13% YoY) and adjusted EBITDA margin of 34% (up from 32.5% last year). However, forward guidance for Q3 revenue ($4.02B-$4.1B, 8-10% growth) implies a deceleration from Q2's 13% growth, and management explicitly warns of tougher year-over-year comparisons in Q4 that will 'put pressure on growth rates later in the year.' The full-year adjusted EBITDA margin guidance of at least 34.5% is reaffirmed, not raised. The net effect is a modestly positive quarter with cautious forward language, warranting a score just above neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$3.1 billion, up 13% year-over-year.",
+    "eps": "$1.03, grew 20% year-over-year.",
+    "guidance": "Q3 2025 revenue expected to be $4.02 billion to $4.1 billion, representing year-over-year growth of 8% to 10%. Full-year 2025 adjusted EBITDA margin expected to be at least 34.5%.",
+    "margin": "Adjusted EBITDA margin of 34% in Q2 2025, up from 32.5% in Q2 2024. Full-year 2025 adjusted EBITDA margin expected to be at least 34.5%.",
+    "key_risks": [
+      "Tougher year-over-year comparisons in Q4 2025 putting pressure on growth rates.",
+      "Year-over-year decline in adjusted EBITDA margin expected in Q3 and Q4 2025 due to growth investments and tougher top-line comparisons.",
+      "Approximately $200 million investment towards new businesses in 2025 with no meaningful near-term revenue expected."
+    ],
+    "key_opportunities": [
+      "Acceleration in nights booked from April to July, with momentum globally and especially strong growth in the US.",
+      "Expansion markets (Latin America, Asia Pacific) growing at twice the rate of core markets for six consecutive quarters.",
+      "Launch of Airbnb Services and reimagined Airbnb Experiences, with over 60,000 applications to host and average guest rating of 4.93 stars.",
+      "New partnerships with Tour de France, Lollapalooza, IOC, and FIFA World Cup to build brand awareness and supply.",
+      "AI customer service agent reducing need for human agent contact by 15%.",
+      "New $6 billion share repurchase program announced."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes Q2 as 'another strong quarter' and states they are 'encouraged by current demand trends,' while also being transparent about expected deceleration in Q4."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $3.1 billion, up 13% year-over-year.",
+      "quote": "Revenue for the quarter was $3.1 billion, up 13% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $1.03, grew 20% year-over-year.",
+      "quote": "net income of $642 million and EPS of $1.03 grew 16% and 20%, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 revenue guidance is $4.02 billion to $4.1 billion, representing 8% to 10% year-over-year growth.",
+      "quote": "Specifically, for Q3, we expect to generate $4.02 billion to $4.1 billion, representing year-over-year growth of 8% to 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EBITDA margin expected to be at least 34.5%.",
+      "quote": "For the full year, we continue to expect an adjusted EBITDA margin of at least 34.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin was 34% in Q2 2025, up from 32.5% in Q2 2024.",
+      "quote": "we generated $1 billion of adjusted EBITDA, representing a 34% margin, up from 32.5% last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tougher year-over-year comparisons in Q4 2025 putting pressure on growth rates.",
+      "quote": "That said, we do expect year-over-year comparisons to get tougher toward the end of the quarter and that this dynamic will continue into Q4, putting pressure on growth rates later in the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Year-over-year decline in adjusted EBITDA margin expected in Q3 and Q4 2025 due to growth investments.",
+      "quote": "we anticipate that adjusted EBITDA margin will be lower than in Q3 2024, primarily due to investments in new growth and policy initiatives. And we expect a similar year-over-year decline of adjusted EBITDA margin in Q4 2025 due to growth investments and a tougher year-over-year top line comparison.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately $200 million investment towards new businesses in 2025 with no meaningful near-term revenue expected.",
+      "quote": "This includes approximately $200 million of investment towards new businesses in 2025. While we don't expect meaningful revenue from our new businesses in the near term, we believe the opportunity is significant and are building with a multiyear view.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Acceleration in nights booked from April to July, with momentum globally and especially strong growth in the US.",
+      "quote": "As we look to Q3, we're encouraged by current demand trends, specifically the acceleration of nights booked from April through July. We've seen this momentum globally with especially strong growth in the US.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion markets growing at twice the rate of core markets for six consecutive quarters.",
+      "quote": "Nights booked on an origin basis in our expansion markets have now grown at twice the rate of our core markets for six consecutive quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of Airbnb Services and reimagined Experiences with over 60,000 applications to host and 4.93 star rating.",
+      "quote": "Since launch, over 60,000 people have submitted applications to host a service or experience. ... The average guest rating for a service and experience since launch is 4.93 stars out of 5 stars.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New partnerships with Tour de France, Lollapalooza, IOC, and FIFA World Cup.",
+      "quote": "We also announced several major partnerships to help accelerate growth in key markets, including a three-year partnership with the Tour de France, a global live partnership, music partnership with Lollapalooza, and our continued partnership with the IOC for the upcoming Winter Olympics in Milan. And we just announced a three-year partnership with FIFA and the World Cup, which is the largest event in the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI customer service agent reducing need for human agent contact by 15%.",
+      "quote": "We also expanded our new AI customer service agent in the US, reducing the percentage of hosting guests who needed to contact a human agent by 15%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New $6 billion share repurchase program announced.",
+      "quote": "And today, we're announcing a new share repurchase program with authorization to purchase up to an additional $6 billion of our Class A common stock.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Airbnb had a strong Q2. We exceeded expectations across key metrics, including bookings, revenue and margins. ... As we look to Q3, we're encouraged by current demand trends, specifically the acceleration of nights booked from April through July.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline between HOLD and BUY. The guidance implies deceleration, but the strong Q2 beat and confident language on demand trends push it just over the threshold. A human reviewer should confirm this weighting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ABNB_Bundled Earnings Report_2025-08-06",
+  "report_metadata": {
+    "issuer": "p2_airbnb",
+    "company": "Airbnb",
+    "ticker": "ABNB",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-06",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q2\\Airbnb-Q2-25-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ABNB_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212101Z",
+    "timestamp": "2026-07-18T21:21:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q2\\Airbnb-Q2-25-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_airbnb\\extracted\\ABNB_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q2\\Airbnb-Q2-25-Earnings-Call-Transcript.pdf",
+        "page_count": 23,
+        "extracted_characters": 93871,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_airbnb\\extracted\\ABNB_FQ2_2025.txt"
+  }
+}

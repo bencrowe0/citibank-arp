@@ -1,0 +1,44 @@
+{
+  "document_id": "HLT_FQ1_2026_NEWS",
+  "base_document_id": "HLT_FQ1_2026",
+  "issuer": "p2_hilton",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest indicates that market expectations for Hilton are elevated heading into the FQ1 2026 print: EPS estimates saw 15 upward revisions and revenue estimates saw 9 upward revisions over the past three months, with zero downward revisions, and Hilton has beaten EPS estimates 100% of the time over the prior two years. This 'priced for perfection' setup, combined with a track record of consistent beats, raises the bar for the upcoming report and increases the risk of a negative market reaction even if results are decent. Therefore, the sentiment is bearish, reflecting stretched expectations rather than any fundamental deterioration."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T103253Z",
+    "timestamp": "2026-08-04T10:33:03Z",
+    "status": "success",
+    "document_id": "HLT_FQ1_2026_NEWS",
+    "issuer": "p2_hilton",
+    "company": "Hilton",
+    "ticker": "HLT",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_hilton\\HLT_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3513,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1323,
+    "total_tokens": 4836,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002353,
+    "latency_seconds": 7.92,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

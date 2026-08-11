@@ -1,0 +1,189 @@
+{
+  "document_id": "JPM_FQ4_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a solid quarter with revenue up 7% YoY and EPS of $4.63, but forward guidance for NII ex. Markets is reaffirmed at $95 billion (unchanged from prior guidance). Expenses are guided to $105 billion, representing meaningful growth, and management expresses optimism about long-term opportunities but also flags significant risks (geopolitical, deficits, credit card rate cap proposals). The reaffirmed guidance and balanced tone keep the score near neutral, with a slight positive tilt from the optimistic long-term investment narrative."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Revenue of $46.8 billion, up 7% year-on-year on higher Markets revenue, asset management fees, and auto lease income.",
+    "eps": "EPS of $4.63, with net income of $13 billion.",
+    "guidance": "NII ex. Markets expected to be about $95 billion for 2026 (unchanged from prior guidance). Total NII expected to be about $103 billion. Adjusted expense expected to be about $105 billion. Card net charge-off rate expected to be approximately 3.4%.",
+    "margin": "Not disclosed.",
+    "key_risks": [
+      "Geopolitical risk: 'Geopolitical is an enormous amount of risk.'",
+      "Fiscal deficits: 'The deficits in the United States and around the world are quite large. We don't know when that's going to bite.'",
+      "Credit card rate cap proposals: 'If it happened the way it was described, it would be dramatic.'",
+      "NBFI lending growth: 'the growth over the last seven years has been quite significant' and 'we are quite mindful of the risk.'",
+      "Competitive environment: 'the environment is only getting more competitive.'"
+    ],
+    "key_opportunities": [
+      "Strong client engagement and deal activity in 2026: 'we expect strong client engagement and deal activity in 2026, supported by constructive market dynamics.'",
+      "Investment in technology and AI: 'We're building more payment systems. We're building more AI systems.'",
+      "Apple Card partnership: 'this is an economically compelling transaction for us as a co-brand deal.'",
+      "AWM growth: 'Flows have been exceptional, and it's one of our areas of optimism for the future.'",
+      "Deregulation: 'Deregulation is a plus in general, not just for banks.'"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expresses structural optimism about the opportunity set, e.g., 'that growth reflects our structural optimism about the opportunity set for the company when we look through the cycle, as well as some optimism about the near-term revenue outlook.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $46.8 billion, up 7% year-on-year.",
+      "quote": "Revenue of $46.8 billion was up 7% year-on-year on higher Markets revenue, as well as higher asset management fees and auto lease income.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $4.63, with net income of $13 billion.",
+      "quote": "the Firm reported net income of $13 billion and EPS of $4.63, with an ROTCE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex. Markets guidance is reaffirmed at $95 billion.",
+      "quote": "we continue to expect NII ex. Markets to be about $95 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense guidance for 2026 is $105 billion.",
+      "quote": "we expect 2026 adjusted expense to be about $105 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card net charge-off rate expected to be approximately 3.4%.",
+      "quote": "we expect the 2026 Card net charge-off rate to be approximately 3.4% on favorable delinquency trends, driven by the continued resilience of the consumer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical risk is significant.",
+      "quote": "Geopolitical is an enormous amount of risk. I don't have to go through each part of it. It's just a big amount of risk that may or may not be determining the state of the economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal deficits are a concern.",
+      "quote": "The deficits in the United States and around the world are quite large. We don't know when that's going to bite. It will bite eventually, because you can't just keep on borrowing money endlessly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit card rate cap proposals would be dramatic.",
+      "quote": "If it happened the way it was described, it would be dramatic. If it happens in a way where it was modified quite a bit, it would be less.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NBFI lending growth is significant and a risk.",
+      "quote": "the growth over the last seven years has been quite significant no matter how you look at it. ... we are quite mindful of the risk.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The environment is becoming more competitive.",
+      "quote": "the environment is only getting more competitive, and so it remains critical to ensure that we are making the necessary investments to secure our position against both traditional and nontraditional competitors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects strong client engagement and deal activity in 2026.",
+      "quote": "we expect strong client engagement and deal activity in 2026, supported by constructive market dynamics, which is reflected in our pipeline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is investing in technology and AI.",
+      "quote": "We're building more payment systems. We're building more AI systems. We're building more – we're connecting more branches, which means you have the higher network expenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Apple Card transaction is economically compelling.",
+      "quote": "this is an economically compelling transaction for us as a co-brand deal. And I think someone described it as a win-win-win for all three parties, and I think that's very much how we feel about it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM flows have been exceptional.",
+      "quote": "Flows have been exceptional, and it's one of our areas of optimism for the future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deregulation is seen as a positive.",
+      "quote": "Deregulation is a plus in general, not just for banks, but banks will be able to redeploy capital.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "that growth reflects our structural optimism about the opportunity set for the company when we look through the cycle, as well as some optimism about the near-term revenue outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is at the exact boundary of the BUY threshold. A human reviewer should confirm whether the reaffirmed guidance and balanced risks justify a slight positive or neutral score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2026-01-13",
+  "report_metadata": {
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q4\\jpm-4q25-earnings-call-transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JPM_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213853Z",
+    "timestamp": "2026-07-18T21:39:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q4\\jpm-4q25-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q4\\jpm-4q25-earnings-call-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 98903,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ4_2025.txt"
+  }
+}

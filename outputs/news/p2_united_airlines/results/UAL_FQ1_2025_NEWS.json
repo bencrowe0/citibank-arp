@@ -1,0 +1,44 @@
+{
+  "document_id": "UAL_FQ1_2025_NEWS",
+  "base_document_id": "UAL_FQ1_2025",
+  "issuer": "p2_united_airlines",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This pre-earnings digest describes depressed market expectations: UAL stock fell sharply on tariff news, analyst estimates were cut (Goldman price target reduced), and Delta's weak guidance lowered the bar for United's print. The document notes the market's focus is on whether management will reaffirm, cut, or hedge full-year guidance, implying uncertainty but also room for positive surprise if guidance holds. The score reflects a moderately bullish setup due to lowered expectations, not actual results or guidance changes."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101115Z",
+    "timestamp": "2026-08-04T10:11:26Z",
+    "status": "success",
+    "document_id": "UAL_FQ1_2025_NEWS",
+    "issuer": "p2_united_airlines",
+    "company": "United Airlines",
+    "ticker": "UAL",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_united_airlines\\UAL_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3918,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1533,
+    "total_tokens": 5451,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002693,
+    "latency_seconds": 10.29,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,7 @@
+Lowe's (LOW) - News coverage digest, FQ1 2026 earnings (report date 2026-05-20)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the May 20, 2026 report, the Zacks Consensus Estimate for revenue was $22.91 billion (+9.5% YoY), with the EPS consensus stable at $2.96 (+1.4% YoY) over the prior 30 days. Investors were watching whether continued Pro-segment momentum could offset softness in discretionary DIY spending against a challenging housing backdrop; Lowe's continued leaning on AI/automation tools for replenishment and labor productivity as a stated efficiency lever. LOW's trailing four-quarter earnings surprise averaged +2.1%, a modest but consistent beat pattern heading in.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/lowes-q1-earnings-preview-low-132900991.html (Yahoo Finance, "Lowe's Q1 Earnings Preview: Is LOW Ready to Surprise Wall Street?" - published prior to the May 20, 2026 report)

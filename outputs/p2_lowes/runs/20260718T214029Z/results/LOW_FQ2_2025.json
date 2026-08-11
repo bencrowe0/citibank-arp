@@ -1,0 +1,202 @@
+{
+  "document_id": "LOW_FQ2_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports a solid quarter with comparable sales up 1.1% and adjusted EPS up 5.6% year-over-year, but full-year guidance was only updated to reflect the ADG acquisition and was otherwise reaffirmed unchanged. The acquisition of FBM is a major strategic move that management frames as transformational, but it introduces integration risk and a temporary pause on share repurchases. The overall tone is confident but the forward guidance is not raised organically, leading to a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 sales of $24.0 billion, comparable sales up 1.1%.",
+    "eps": "Adjusted diluted EPS of $4.33, an increase of 5.6% over last year.",
+    "guidance": "Full year 2025 outlook updated to reflect ADG: sales $84.5B-$85.5B, comps flat to up 1%, adjusted operating margin 12.2%-12.3%, adjusted diluted EPS $12.20-$12.45. Does not include FBM. Q3 comps expected ~125 bps above bottom end of full year guide.",
+    "margin": "Adjusted gross margin 33.8%, up 37 bps. Adjusted operating margin 14.7%, up 23 bps. Full year adjusted operating margin expected 12.2%-12.3%.",
+    "key_risks": [
+      "Elevated mortgage rates and cautious consumer affordability pressure.",
+      "Depressed housing market and lock-in effect from low housing turnover.",
+      "Labor cost increases for Pros and shortage of skilled trades.",
+      "Integration risk from FBM and ADG acquisitions.",
+      "Temporary pause on share repurchases until Q2 2027 to de-lever."
+    ],
+    "key_opportunities": [
+      "Acquisition of FBM expands Pro offering into $250B TAM for Large Pro.",
+      "Cross-selling opportunities between FBM, ADG, and Lowe's core business.",
+      "FBM's geographic presence in California, Northeast, and Midwest fills Lowe's gaps.",
+      "FBM's AI Blueprint Takeoff technology and myFBM mobile app to enhance Pro desk.",
+      "Aging housing stock, $50B deferred project demand, and 18M new homes needed by 2033.",
+      "Continued momentum in Pro and online sales (online up 7.5%)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'we're confident,' 'we couldn't be more excited,' and 'this acquisition represents a transformational move,' indicating strong conviction in the strategy and outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 sales were $24.0 billion with comparable sales up 1.1%.",
+      "quote": "In the second quarter of 2025, we delivered sales of $24.0 billion with comparable sales up 1.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $4.33, up 5.6% year-over-year.",
+      "quote": "we delivered adjusted diluted earnings per share of $4.33, an increase of 5.6% over last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year guidance was updated only to reflect ADG, not raised organically.",
+      "quote": "Today, we are updating our full year 2025 outlook only to reflect the inclusion of ADG. ... Please note that this outlook does not include any potential impacts related to the acquisition of FBM.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year sales guidance is $84.5B-$85.5B with comps flat to up 1%.",
+      "quote": "we are now expecting sales in the range of $84.5 billion to $85.5 billion, with comparable sales in a range of flat to up 1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year adjusted operating margin expected 12.2%-12.3%.",
+      "quote": "We also now expect full year adjusted operating margin in a range of 12.2% to 12.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year adjusted diluted EPS expected $12.20-$12.45.",
+      "quote": "adjusted diluted earnings per share of approximately $12.20 to $12.45.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted gross margin was 33.8%, up 37 bps.",
+      "quote": "Adjusted Gross Margin was 33.8% in the quarter, up 37 basis points from last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin was 14.7%, up 23 bps.",
+      "quote": "Adjusted operating margin rate of 14.7% was up 23 basis points versus prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Elevated mortgage rates and cautious consumer are headwinds.",
+      "quote": "We're still working through some short-term challenges including elevated mortgage rates, cautious consumer, affordability remains a pressure point that results in the lock-in effect that we've been seeing and also a depressed housing market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Labor costs for Pros are rising and skilled trades are in shortage.",
+      "quote": "The only concern they gave us is labor costs are going up for them. ... There's becoming more and more of a shortage of skilled trades and master plumbers, carpentry, electricians",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share repurchases paused until Q2 2027 to de-lever.",
+      "quote": "We also plan to pause share repurchases until that time. ... we expect to de-lever quickly down to our target ratio by the end of the second quarter of 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FBM acquisition expands Pro offering into $250B TAM.",
+      "quote": "this acquisition also unlocks our ability to serve the Larger Pro within a $250 billion total addressable market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cross-selling opportunities between FBM, ADG, and Lowe's.",
+      "quote": "we envision incorporating the products and services from each company to provide large Pro customers with everything from drywall to ceiling systems, insulation to doors, as well as flooring, cabinets, and countertops.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FBM's geographic presence fills gaps in California, Northeast, Midwest.",
+      "quote": "One of the most compelling aspects of the FBM acquisition is the strategic presence in key geographies such as California, the Northeast, and the Midwest, regions where we currently have less of a presence.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FBM's AI Blueprint Takeoff technology to enhance Pro desk.",
+      "quote": "we plan to use FBM's AI Blueprint Takeoff technology to enhance our offering at our Lowe's store Pro desk, which will automatically extract material quantities and measurements from digital construction plans",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Aging housing stock, $50B deferred demand, 18M homes needed by 2033.",
+      "quote": "industry analysts estimate that there's roughly $50 billion of deferred project demand ... an estimated 18 million new homes are needed by 2033.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Online sales grew 7.5%.",
+      "quote": "we grew our online sales by 7.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we couldn't be more excited about what's ahead for Lowe's as we combined forces with FBM. This acquisition will diversify our revenue streams and allow us to deliver long-term value to our shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is mildly positive (0.20) based on strategic acquisition excitement and solid Q2 results, but guidance was not raised organically. A reviewer may want to assess whether the FBM acquisition optimism outweighs the flat guidance and integration risks."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LOW_Bundled Earnings Report_2025-08-20",
+  "report_metadata": {
+    "issuer": "p2_lowes",
+    "company": "Lowe's",
+    "ticker": "LOW",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q2\\low-usq-transcript-2025-08-20.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LOW_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214029Z",
+    "timestamp": "2026-07-18T21:40:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q2\\low-usq-transcript-2025-08-20.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lowes\\extracted\\LOW_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2025-Q2\\low-usq-transcript-2025-08-20.pdf",
+        "page_count": 21,
+        "extracted_characters": 68984,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lowes\\extracted\\LOW_FQ2_2025.txt"
+  }
+}

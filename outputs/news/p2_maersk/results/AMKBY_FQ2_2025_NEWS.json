@@ -1,0 +1,44 @@
+{
+  "document_id": "AMKBY_FQ2_2025_NEWS",
+  "base_document_id": "AMKBY_FQ2_2025",
+  "issuer": "p2_maersk",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This is a pre-earnings market expectations digest, not an earnings release. The document describes a backdrop where container demand grew 3-5% YoY in Q2, running counter to earlier fears of an immediate trade collapse, and notes that North American import contraction was more than offset by strong import growth into other regions. This suggests market expectations may be somewhat depressed relative to the actual demand trajectory, creating room for a positive surprise. However, the document also notes considerable macro/tariff uncertainty and that Maersk's own guidance range was wide ($4.5-$7 billion EBITDA), indicating balanced but slightly positive expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162150Z",
+    "timestamp": "2026-07-20T16:21:59Z",
+    "status": "success",
+    "document_id": "AMKBY_FQ2_2025_NEWS",
+    "issuer": "p2_maersk",
+    "company": "Maersk",
+    "ticker": "AMKBY",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-07",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_maersk\\AMKBY_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3555,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1195,
+    "total_tokens": 4750,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002223,
+    "latency_seconds": 8.96,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

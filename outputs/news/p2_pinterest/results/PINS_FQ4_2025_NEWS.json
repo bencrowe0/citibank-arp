@@ -1,0 +1,44 @@
+{
+  "document_id": "PINS_FQ4_2025_NEWS",
+  "base_document_id": "PINS_FQ4_2025",
+  "issuer": "p2_pinterest",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "This pre-earnings digest indicates that market expectations are somewhat stretched, with consensus forecasting strong double-digit growth and EPS acceleration, while analysts flag near-term macro headwinds and tariff impacts on retail advertisers. The document does not contain actual results or guidance, so the score reflects the balance between positive expectations and emerging risks. The presence of explicit caution about retail advertiser pressure and tariff exposure suggests a slightly negative tilt, as the bar may be high and risks are rising."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T102240Z",
+    "timestamp": "2026-08-09T10:22:49Z",
+    "status": "success",
+    "document_id": "PINS_FQ4_2025_NEWS",
+    "issuer": "p2_pinterest",
+    "company": "Pinterest",
+    "ticker": "PINS",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-12",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pinterest\\PINS_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3881,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1372,
+    "total_tokens": 5253,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002506,
+    "latency_seconds": 8.24,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

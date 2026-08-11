@@ -1,0 +1,210 @@
+{
+  "document_id": "BA_FQ1_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a solid operational quarter with revenue up 18% and improved margins, but forward guidance is not explicitly raised; management reaffirms production rate plans and expresses confidence in the recovery plan while flagging tariff and China delivery risks. The tone is cautiously optimistic but the lack of a clear upward guidance revision keeps the score near neutral, slightly positive due to the strong start and conservative plan that can absorb headwinds."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band"
+  },
+  "summary": {
+    "revenue": "$19.5 billion, up 18% year-over-year, primarily reflecting higher commercial delivery volume.",
+    "eps": "GAAP loss per share of ($0.16) and core (non-GAAP) loss per share of ($0.49), improved from ($0.56) and ($1.13) respectively in the prior year.",
+    "guidance": "Management reaffirms production rate plans: 737 to reach 38 per month this year, 787 to increase to 7 per month, 777X first delivery in 2026. Free cash flow guidance for the year is not adjusted; second half expected to turn positive. China delivery risk is acknowledged but expected to be offset by strong demand elsewhere.",
+    "margin": "GAAP operating margin of 2.4% (up from -0.5% YoY); core operating margin of 1.0% (up from -2.3% YoY). Commercial Airplanes operating margin of -6.6% (improved from -24.6%). Defense, Space & Security operating margin of 2.5% (up from 2.2%). Global Services operating margin of 18.6% (up from 18.2%).",
+    "key_risks": [
+      "Tariffs on imports from Japan and Italy (10% currently) affecting wide-body components; potential for retaliatory tariffs, especially from China, impacting deliveries.",
+      "Approximately 50 China deliveries at risk; customers in China have indicated they will not take delivery due to tariffs.",
+      "Seat certification issues affecting some 787 deliveries expected to be a challenge for the balance of the year.",
+      "Potential for additional countries to impose retaliatory tariffs, expanding beyond China.",
+      "Supply chain continuity risk due to tariff disputes; need to manage supplier pricing and avoid disruptions.",
+      "Pending acquisition of Spirit AeroSystems and associated risks."
+    ],
+    "key_opportunities": [
+      "Strong demand environment: backlog of $545 billion, commercial programs sold out into the next decade.",
+      "Production rate increases planned for 737 (to 38/month, then 42, 47, 52) and 787 (to 7/month, then double-digit).",
+      "F-47 next-generation fighter contract win secures fighter franchise for decades.",
+      "Divestiture of Digital Aviation Solutions for $10.55 billion strengthens balance sheet and focuses on core businesses.",
+      "Improved operational performance: 50% reduction in traveled work, 25% reduction in rework hours on 737 line.",
+      "Global Services continues strong performance with 18.6% operating margin."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Kelly Ortberg stated 'our recovery plan is in full swing and showing signs that it's being effective' and 'I feel really good about our overall plan for the year,' reflecting confidence despite acknowledged risks."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $19.5 billion, up 18% year-over-year.",
+      "quote": "Revenue increased to $19.5 billion primarily reflecting 130 commercial deliveries",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($0.16) and core loss per share was ($0.49).",
+      "quote": "GAAP loss per share of ($0.16) and core (non-GAAP)* loss per share of ($0.49)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was 2.4%, up from -0.5%.",
+      "quote": "Operating margins 2.4 % (0.5) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes operating margin improved to -6.6% from -24.6%.",
+      "quote": "Operating margins (6.6) % (24.6) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security operating margin was 2.5%, up from 2.2%.",
+      "quote": "Operating margins 2.5 % 2.2 % 0.3 pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 18.6%, up from 18.2%.",
+      "quote": "Operating margins 18.6 % 18.2 % 0.4 pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance on production rates is reaffirmed: 737 to 38/month, 787 to 7/month, 777X first delivery in 2026.",
+      "quote": "The 737 program gradually increased production in the quarter and maintains plans to reach 38 per month this year. The 787 program continued to stabilize production at five per month in the quarter and still expects to increase to seven per month this year. The 777X program began expanded FAA certification flight testing in the quarter, and the company still anticipates first delivery of the 777-9 in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guidance for the year is not adjusted; second half expected to turn positive.",
+      "quote": "In terms of the range that you mentioned, we're not going to adjust that full year range right now. We're good with where it's at. ... we expect the second half free cash flow to turn positive and then accelerate as we exit the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China delivery risk: approximately 50 airplanes at risk due to tariffs.",
+      "quote": "We have approximately 50 China deliveries in our plan for the balance of the year. We are in close communication with our China customers and we're actively assessing options for remarketing already built or in-process airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff input costs are manageable, less than $500 million annually net.",
+      "quote": "On the supply chain side, the net annual impact of higher tariffs on our input costs is manageable. And within our plan, it's less than $500 million annually.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backlog is $545 billion, demonstrating strong demand.",
+      "quote": "Total company backlog grew to $545 billion, including over 5,600 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our recovery plan is in full swing and showing signs that it's being effective. Albeit early, I do like what I'm seeing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Divestiture of Digital Aviation Solutions for $10.55 billion strengthens balance sheet.",
+      "quote": "we entered into an agreement to sell portions of our Digital Aviation Solutions business for $10.55 billion, which is an important component of our strategy to focus on our core businesses and strengthen the balance sheet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "F-47 win secures fighter franchise for decades.",
+      "quote": "winning the F-47 program was a transformational accomplishment. To be selected the contractor for the world's first sixth-generation fighter is a testament to our focused investment ... This will secure our fighter franchise for decades to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operational improvements: 50% reduction in traveled work, 25% reduction in rework hours on 737 line.",
+      "quote": "If you look back before the strike last fall, we've seen about a 50% reduction in traveled work and a 25% reduction in rework hours on the 737 line.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is slightly positive but the document does not explicitly raise guidance; the positive tone is based on operational improvements and a conservative plan that can absorb risks. A reviewer may consider whether the lack of explicit guidance raise warrants a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-04-23",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\Transcript-Q1-2025-Earnings-Call.pdf"
+      }
+    ],
+    "document_id": "BA_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T125020Z",
+    "timestamp": "2026-07-02T12:50:42Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf",
+        "page_count": 12,
+        "extracted_characters": 23791,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 8519,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\Transcript-Q1-2025-Earnings-Call.pdf",
+        "page_count": 19,
+        "extracted_characters": 73007,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2025.txt"
+  }
+}

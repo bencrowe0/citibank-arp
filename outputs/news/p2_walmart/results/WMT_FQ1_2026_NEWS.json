@@ -1,0 +1,44 @@
+{
+  "document_id": "WMT_FQ1_2026_NEWS",
+  "base_document_id": "WMT_FQ1_2026",
+  "issuer": "p2_walmart",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This is a pre-earnings digest, so the score reflects market expectations heading into the print. The document explicitly frames the setup as 'cautious' and 'defensive/uncertain,' with a headline asking 'Can the Retail King Navigate Headwinds?' and referencing a 'historic low' in consumer confidence. This indicates depressed expectations, which would normally be bullish for a potential positive surprise, but the cautious framing and explicit headwind language suggest the bar is not so low as to be easily beaten; rather, the narrative is genuinely bearish on the near-term outlook, warranting a mildly negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162551Z",
+    "timestamp": "2026-07-20T16:26:00Z",
+    "status": "success",
+    "document_id": "WMT_FQ1_2026_NEWS",
+    "issuer": "p2_walmart",
+    "company": "Walmart",
+    "ticker": "WMT",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-21",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_walmart\\WMT_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3447,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1148,
+    "total_tokens": 4595,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002142,
+    "latency_seconds": 9.46,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

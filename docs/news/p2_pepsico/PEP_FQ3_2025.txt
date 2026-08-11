@@ -1,0 +1,9 @@
+PepsiCo (PEP) - News coverage digest, FQ3 2025 earnings (report date 2025-10-09)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 9, 2025 report, the Zacks Consensus Estimate called for Q3 revenue of about $23.9 billion (implying a modest year-over-year change versus the prior-year figure) and EPS of $2.27, down slightly from $2.31 a year earlier - the earnings consensus had ticked up by a penny over the prior 30 days. PepsiCo carried a Zacks Rank #3 (Hold) with a positive Earnings ESP of +0.49% heading in, and the Zacks earnings-prediction model conclusively pointed to a likely beat, a more constructive setup than the Sell-rated, negative-ESP prints of the prior two quarters (Q4 2024 and Q1 2025). The company had delivered an average earnings surprise of about 1.0% over the trailing four quarters, including a 4.4% beat the prior quarter.
+
+Pre-earnings coverage (published October 6, 2025) framed the setup around building momentum: continued strength expected in PepsiCo's international business (roughly 40% of net revenue, with International Beverages Franchise revenue modeled up about 2% year-over-year) and in the North America beverage business, positioning the quarter as a test of whether the company's turnaround narrative - improving pricing/volume balance and cost discipline after a rough 2024-into-2025 stretch - could continue building credibility with the market.
+
+Sources:
+- https://finance.yahoo.com/news/pepsico-sees-momentum-pre-q3-124400546.html (Yahoo Finance/Zacks, "PepsiCo Sees Momentum Pre-Q3 Earnings: Is This the Right Time to Buy?", published October 6, 2025, ahead of the October 9 report)

@@ -1,0 +1,184 @@
+{
+  "document_id": "KO_FQ4_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports that 2025 results matched prior guidance (organic revenue growth in line with long-term algorithm, comparable EPS of $3). 2026 guidance projects organic revenue growth of 4%-5% and comparable currency-neutral EPS growth of 5%-6%, which is in line with the long-term growth algorithm and not a raise above prior guidance. Management expresses confidence but also flags specific headwinds (Mexico excise tax, softness in China/India, divestiture impacts), resulting in a mildly positive but not strongly bullish forward outlook."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Organic revenue growth of 5% in Q4 2025 and 7% average annual organic revenue growth since 2017. 2026 guidance: organic revenue growth of 4% to 5%.",
+    "eps": "Comparable EPS of $3 in 2025, growing 4% despite a 5-point currency headwind and a 2-point increase in the comparable effective tax rate. Q4 2025 comparable EPS of $0.58, up 6% year-over-year.",
+    "guidance": "2026: organic revenue growth of 4% to 5%; comparable currency-neutral EPS growth (excluding M&A) of 5% to 6%; comparable EPS growth of 7% to 8% versus $3 in 2025. Free cash flow target of about $12.2 billion.",
+    "margin": "Comparable gross margin and comparable operating margin both increased approximately 50 basis points in Q4 2025, driven by underlying expansion partially offset by currency headwinds. North America achieved 30% operating margin for the first time.",
+    "key_risks": [
+      "New excise tax in Mexico implemented at the start of 2026, expected volume pressure despite mitigation plans.",
+      "Consumer demand in major markets like China and India did not recover to pre-pandemic levels.",
+      "Revenue and profit declined in Asia Pacific during Q4 due to softer consumer spending, weaker industry performance, and cycling strong growth in the prior year.",
+      "Divestitures (sale of Coca-Cola Beverages Africa and CHI Nigeria) will be a back-half weighted headwind to net revenue and EPS in 2026.",
+      "Ongoing dispute with the IRS (tax case) with expected milestone towards end of 2026/early 2027."
+    ],
+    "key_opportunities": [
+      "Value share gains for the nineteenth consecutive quarter in 2025.",
+      "North America segment achieved 30% operating margin for the first time with volume, revenue, and comparable operating income all increasing.",
+      "Innovation contributions (Sprite Chill, Coca-Cola Holiday Creamy Vanilla) and strong performance of brands like fairlife, BODYARMOR, Powerade.",
+      "Planned investments in innovation, digital engagement, and expanding the number of billion-dollar brands.",
+      "World Cup events in 2026 (including Mexico hosting) expected to drive consumer engagement.",
+      "Currency tailwinds: 1-point tailwind to comparable net revenues and 3-point tailwind to comparable EPS in 2026."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'We are well positioned to drive top line growth, margin expansion, cash generation and returns over the long term' and 'I'm confident we will deliver on our 2026 guidance and capture the vast opportunities available.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Organic revenue growth of 5% in Q4 2025.",
+      "quote": "During the fourth quarter, we grew organic revenues 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable EPS of $3 in 2025, growing 4% despite headwinds.",
+      "quote": "Comparable Earnings Per Share -- Reached $3 in 2025, growing 4% despite a 5-point currency headwind and a 2-point increase in the comparable effective tax rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance: organic revenue growth of 4% to 5%.",
+      "quote": "We expect organic revenue growth of 4% to 5%, which is in line with our long-term growth algorithm.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance: comparable currency-neutral EPS growth of 5% to 6% (excluding M&A).",
+      "quote": "We also expect growth in comparable currency-neutral earnings per share, excluding acquisitions and divestitures, of 5% to 6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable gross margin and operating margin both increased approximately 50 basis points in Q4.",
+      "quote": "Comparable gross margin and comparable operating margin both increased approximately 50 basis points. Both were driven by underlying expansion, partially offset by currency headwinds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America achieved 30% operating margin for the first time.",
+      "quote": "North America Segment -- Achieved 30% operating margin for the first time, with volume, revenue, and comparable operating income all increasing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New excise tax in Mexico is a headwind with expected volume pressure.",
+      "quote": "Henrique Braun explicitly identified the new excise tax in Mexico as a 'headwind,' implemented at the start of 2026, with expected volume pressure despite mitigation plans.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer demand in China and India did not recover to pre-pandemic levels.",
+      "quote": "Management disclosed 'flat' unit case volume for 2025 and noted that consumer demand in major markets like China and India did not recover to pre-pandemic levels, potentially impacting short-term prospects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue and profit declined in Asia Pacific during Q4.",
+      "quote": "Revenue and profit declined in Asia Pacific during the quarter, with company citing 'softer consumer spending, weaker industry performance and cycling a strong growth in the prior year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Divestitures will be a back-half weighted headwind in 2026.",
+      "quote": "Management flagged that divestitures, particularly the sale of Coca-Cola Beverages Africa and CHI Nigeria, will be a back-half weighted headwind to net revenue and earnings per share in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Value share gains for the nineteenth consecutive quarter.",
+      "quote": "We also continued our streak of gaining value share for the last 19 quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency tailwinds: 1-point to net revenues, 3-point to EPS in 2026.",
+      "quote": "Based on current rates and our hedge positions, we anticipate an approximate 1 point currency tailwind to comparable net revenues and an approximate 3-point currency tailwind to comparable earnings per share for full year 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We believe we're well positioned to drive top line growth, margin expansion, cash generation and returns over the long term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 free cash flow target of about $12.2 billion.",
+      "quote": "We also expect to generate approximately $12.2 billion of free cash flow in 2026 through approximately $14.4 billion in cash from operations, less approximately $2.2 billion in capital investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing dispute with the IRS.",
+      "quote": "We'll continue to judiciously manage our balance sheet as we await a court decision related to our ongoing dispute with the IRS.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the BUY threshold. A reviewer may wish to confirm that the mild positive from guidance in line with algorithm and confident tone is sufficient to cross the threshold, given the explicit risks and flat volume in 2025."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KO_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_coca_cola",
+    "company": "Coca-Cola",
+    "ticker": "KO",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KO_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212910Z",
+    "timestamp": "2026-07-18T21:29:57Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 60235,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ4_2025.txt"
+  }
+}

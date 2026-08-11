@@ -1,0 +1,44 @@
+{
+  "document_id": "DIS_FQ4_2025_NEWS",
+  "base_document_id": "DIS_FQ4_2025",
+  "issuer": "disney",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes a stock that has lagged the market (up ~5% YTD vs S&P 500 ~17%), with analyst estimates implying ~25% upside, but also highlights unresolved risks (YouTube TV carriage dispute, Jimmy Kimmel cancellation sensitivity). Expectations are not stretched or depressed; the setup is mixed with a 'prove it' tone, leading to a mildly positive score reflecting a low bar but not a clear positive surprise catalyst."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T104044Z",
+    "timestamp": "2026-07-06T10:40:54Z",
+    "status": "success",
+    "document_id": "DIS_FQ4_2025_NEWS",
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-11-13",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\disney\\DIS_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3596,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1250,
+    "total_tokens": 4846,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002295,
+    "latency_seconds": 10.29,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

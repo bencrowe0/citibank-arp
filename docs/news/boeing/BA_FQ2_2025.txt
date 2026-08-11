@@ -1,0 +1,12 @@
+Boeing (BA) - News coverage digest, FQ2 2025 earnings (report date 2025-07-29)
+Fetched via web search across free financial outlets (CNBC, Yahoo Finance). Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of its July 29, 2025 report, Boeing carried real momentum into the print following a Q1 beat (core loss of $0.49 per share, roughly two-thirds better than estimates), and shares had rallied more than 6% on the day of that April release. GuruFocus (Jul 22) reported Wall Street expected a Q2 loss of $0.92 per share, narrowing sharply from a $2.90 per-share shortfall a year earlier - which would still mark the third profit miss in four quarters if it materialized as feared. Zacks (Jul 23) pegged its consensus a bit more conservatively at a loss of $1.47 per share on revenue of $21.93 billion, implying about 30% revenue growth year-over-year; that bottom-line estimate had actually deteriorated in the prior 60 days even as the top-line picture improved.
+
+Investors were watching whether Boeing's Q1 delivery and revenue momentum (17.7% year-over-year top-line growth in Q1, driven by higher commercial jet deliveries and stronger defense-services sales) could be sustained. Segment-level estimates going into the quarter: commercial airplanes revenue consensus of roughly $9.95 billion (implying a 65.7% jump from the year-ago quarter), and defense/services revenue consensus of about $6.4 billion (up 6.3% year-over-year). Potential headwinds flagged by analysts included elevated input costs tied to U.S. tariffs on aluminum and steel, both heavily used in aircraft production.
+
+Sentiment on the stock heading into earnings remained strongly bullish: among 24 analysts, 19 rated Boeing "Strong Buy," two "Moderate Buy," and three "Hold," with a mean price target of $230.23 (later cited as high as $243.92 by GuruFocus, implying meaningful upside from then-current levels). Zacks' quantitative model was less conclusive on a beat this time, citing a less favorable Earnings ESP setup than in Q1, but the broader Wall Street tone going into the print was one of building confidence in Ortberg's turnaround plan given the delivery cadence and cost-cutting progress already visible in Q1.
+
+Sources:
+- https://finance.yahoo.com/news/boeing-q2-earnings-preview-expect-154309279.html (GuruFocus via Yahoo Finance, published July 22, 2025)
+- https://finance.yahoo.com/news/boeing-stock-portfolio-ahead-q2-133300024.html (Zacks via Yahoo Finance, published July 23, 2025)

@@ -1,0 +1,7 @@
+Charles Schwab (SCHW) - News coverage digest, FQ2 2025 earnings (report date 2025-07-18)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the July 18, 2025 pre-market report, analyst estimates for Q2 EPS centered around $1.08 (up 48% YoY) on revenue of $5.67 billion (+20.8% YoY), with the consensus EPS estimate having been revised upward 2.2% over the prior 30 days - a positive-momentum signal. The market was expecting overall revenue growth of about 18% YoY, a deceleration from the 24.8% growth logged in the same quarter a year earlier - i.e. still strong growth, but a moderating trend analysts were watching. Estimates had generally been reconfirmed rather than revised down over the prior month, suggesting no fresh negative catalysts heading in.
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/expect-charles-schwab-schw-q2-082333664.html (Yahoo Finance, "What To Expect From Charles Schwab's (SCHW) Q2 Earnings" - published prior to the July 18, 2025 report)

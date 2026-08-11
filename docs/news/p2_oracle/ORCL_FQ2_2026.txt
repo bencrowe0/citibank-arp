@@ -1,0 +1,71 @@
+PRE-EARNINGS MARKET EXPECTATIONS DIGEST: Oracle Corporation Q2 FY2026
+Report Date: December 10, 2025
+Digest Period: Pre-earnings expectations and market sentiment (December 1-9, 2025)
+
+=== ANALYST EXPECTATIONS ===
+
+Wall Street consensus expectations for Oracle Q2 FY2026:
+- EPS: $1.64 per share (up from $1.47 in prior year Q2)
+- Revenue: ~$16.2 billion (approximately 15% YoY growth)
+- Cloud revenue: Expected to grow 30%+ driven by AI workload expansion
+- Key metric: Total Remaining Performance Obligations (RPO) expected to grow significantly
+
+Sources:
+https://finance.yahoo.com/news/dear-oracle-stock-fans-mark-194511683.html (Published: December 5, 2025)
+https://www.marketbeat.com/instant-alerts/oracle-orcl-to-release-quarterly-earnings-on-monday-2025-12-01/ (Published: December 1, 2025)
+
+=== MAJOR PRE-EARNINGS THEMES: GROWTH VS DEBT RISK ===
+
+December 9, 2025 - Two days before earnings, market sentiment was mixed:
+
+GROWTH OPPORTUNITIES (Bullish Case):
+- Oracle expected to announce major new AI infrastructure contracts (Meta, NVIDIA expected)
+- Cloud infrastructure revenue trajectory could reach management guidance of $18B+ for fiscal year
+- RPO growth expected to continue accelerating, now potentially $500B+
+- Capacity expansion plans aligned with strong AI workload demand
+
+DEBT CONCERNS (Risk Case):
+- Oracle had raised $18 billion in September 2025 bond offering (one of largest tech debt raises on record)
+- Leverage concerns emerging: Credit default swaps rising, some reaching highest levels since 2009
+- Moody's and S&P issued negative outlooks on Oracle
+- Rating agencies warning: Leverage could exceed 4x debt-to-EBITDA by 2027-2028, risking downgrade to non-investment grade
+- Question: Does AI infrastructure opportunity justify aggressive debt accumulation?
+
+Market Debate: AI infrastructure growth potential vs. financial risk from rapid debt accumulation
+
+Sources:
+https://www.cnbc.com/2025/12/09/oracles-ai-fueled-debt-load-has-investors-on-edge-ahead-of-earnings.html (Published: December 9, 2025)
+https://www.ig.com/en/news-and-trade-ideas/Oracle-2Q26-earnings-preview-251209 (Published: December 9, 2025)
+
+=== KEY METRICS ANALYSTS TRACKING ===
+
+1. GUIDANCE REVISION: Would Oracle raise guidance again given Q1 upside?
+2. CLOUD REVENUE TRAJECTORY: Path to $144B cloud revenue by FY30 still on track?
+3. RPO GROWTH: Expected to jump another $50-70B from Q1's $455B
+4. CAPEX PLANS: Expected clarity on data center build-out costs and timing
+5. MAJOR CUSTOMERS: Announcements of new AI infrastructure contracts (Meta, NVIDIA, OpenAI)
+6. DEBT STRATEGY: Would management address leverage concerns?
+
+=== FORWARD GUIDANCE FOCUS ===
+
+Particular attention on:
+- FY26 OCI (Oracle Cloud Infrastructure) revenue guidance potentially $18B+
+- Multi-year cloud revenue roadmap (analyst consensus: $32B FY27, $73B FY28, $114B FY29, $144B FY30)
+- Cloud Services Gross Margin trajectory
+- Total cloud services revenue growth rates sustainable at 30%+ levels?
+
+=== CONTEXT ===
+
+Q1 FY2026 (September 2025) Results Had Been Highly Positive:
+- Exceeded expectations on cloud momentum
+- RPO surged 359% YoY to $455B (surprising market positively)
+- Major AI customer wins (OpenAI, xAI, Meta, NVIDIA announced)
+- Management raised full-year guidance citing AI-driven demand
+
+December 2025 Question: Can Q2 show continued momentum or will concerns about debt/leverage temper enthusiasm?
+
+Sources (general market context):
+https://www.fool.com/investing/2025/12/05/following-oracle-mark-your-calendars-for-dec-10/ (Published: December 5, 2025)
+
+=== NOTE ===
+This digest captures pre-earnings market expectations and sentiment only. All source articles are dated strictly before the December 10, 2025 report date. The debt/leverage discussion was an active debate in the days immediately before earnings.

@@ -1,0 +1,86 @@
+PRE-EARNINGS NEWS DIGEST - WORKDAY (WDAY) Q2 FY2026
+Report Date: August 21, 2025
+Report Period: Q2 FY2026 (ended July 31, 2025)
+
+==============================================================================
+ANALYST EXPECTATIONS & MARKET SENTIMENT
+==============================================================================
+
+EARNINGS PER SHARE CONSENSUS:
+- Expected: ~$2.11-$2.21 per share
+- Prior Year Q2: $1.95 per share (implied ~8-13% YoY growth)
+
+REVENUE EXPECTATIONS:
+- Expected: ~$2.35 billion
+- Prior Year Q2: ~$2.08 billion
+- Expected Growth: ~12.6-13% YoY
+
+KEY ANALYST VIEWS (Pre-Earnings):
+- Street research showed cautious sentiment after Q4/Q1 results
+- Broad reset of expectations across analyst community
+- Price targets saw multiple cuts ranging from $160-$184+
+- Concerns about decelerating sales growth and softer long-term guidance
+
+==============================================================================
+KEY BUSINESS DEVELOPMENTS (Pre-Earnings)
+==============================================================================
+
+1. AI ACCELERATION
+   - AI product ACV (Annual Contract Value) surging over 200% year-over-year
+   - AI generating approximately 1.5 points of ARR growth
+   - Over 75% of net new deals including AI components
+   - Market seeing strong adoption of Workday's AI-powered tools
+
+2. ANALYST SENTIMENT & PRICE TARGETS
+   - Updated price target moves lower to $184.73 from $231.17 (prior consensus)
+   - Multiple analyst cuts citing:
+     * Decelerating sales expectations
+     * Softer long-term guidance
+     * Higher investments in AI development
+     * Leadership changes (CEO transition context mentioned)
+   - Street research turn: more cautious positioning
+
+3. COMPETITIVE DYNAMICS
+   - Continued pressure from broader enterprise software market
+   - AI disruption impacting customer budget allocation in some segments
+   - Saturation in core HCM market remains concern
+   - Success in expanding beyond traditional HCM into financial management seen as positive
+
+4. STRATEGIC DEVELOPMENTS
+   - Acquisition announcement: Paradox, Inc. majority stake (definitive agreement signed August 21, 2025)
+   - Expected to close Q3 FY2026 (by October 31, 2025)
+   - Move signals expansion into HR service automation/conversational AI
+
+==============================================================================
+INVESTOR FOCUS AREAS FOR Q2 EARNINGS
+==============================================================================
+
+- Q2 subscription revenue growth rate vs. Q1 performance
+- Confirmation of AI product momentum and contribution to revenue
+- Paradox acquisition rationale and expected contribution
+- Operating margin guidance (potential for margin compression from AI investments)
+- Full-year FY2026 guidance updates or reaffirmation
+- Professional services revenue and mix shifts
+- Customer wins in key verticals (Financial Services, Healthcare, Public Sector)
+
+==============================================================================
+MARKET CONDITIONS HEADING INTO EARNINGS
+==============================================================================
+
+- U.S. macro environment showing mixed signals
+- Technology sector valuations under pressure
+- Enterprise software spending moderating but stable for essential systems
+- AI investment cycle creating both opportunities and budget pressures
+
+==============================================================================
+SOURCES
+==============================================================================
+
+- CNBC: Workday earnings and business developments
+- Yahoo Finance: Market sentiment and analyst consensus estimates
+- Simply Wall St: Analyst sentiment analysis and price target movements
+- TipRanks: Analyst rating changes and forecast analysis
+- StockAnalysis: Historical and forward earnings data
+
+News from: https://www.tipranks.com/stocks/wday/forecast
+          https://www.cnbc.com/ (various 2025 articles)

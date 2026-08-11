@@ -1,0 +1,7 @@
+Nvidia (NVDA) - News coverage digest, FQ4 fiscal 2025 earnings (report date 2025-02-26)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 26, 2025 report, FactSet consensus called for adjusted EPS of $1.52 on revenue of $65.7 billion. Data Center revenue expectations had climbed sharply over the preceding year - S&P Global tracked the segment's projected top line rising from $22.2 billion (as estimated back in January 2024) to $34.0 billion heading into this print, a >50% upward revision reflecting the market's growing conviction in the AI buildout narrative. Coverage stressed that Q1 FY2026 and full-year FY2026 guidance - and specifically how much new AI infrastructure demand (e.g. large multi-year projects like Stargate) would show up in that guidance - would matter as much to the stock reaction as the Q4 print itself.
+
+Sources:
+- https://www.spglobal.com/market-intelligence/en/news-insights/research/2025/02/nvidia-earnings-preview-fiscal-q4-2025 (S&P Global Market Intelligence, "Nvidia Earnings Preview: Fiscal Q4 2025" - published prior to the February 26, 2025 report)

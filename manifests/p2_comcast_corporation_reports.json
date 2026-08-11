@@ -1,0 +1,101 @@
+{
+  "issuer": "p2_comcast_corporation",
+  "reports": [
+    {
+      "document_id": "CMCSA_FQ1_2025",
+      "issuer": "p2_comcast_corporation",
+      "company": "Comcast Corporation",
+      "ticker": "CMCSA",
+      "sector": "Communication Services/Telecom Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-23",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q1/1q25_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q1/CMCSA-USQ_Transcript_2025-04-24.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CMCSA_FQ2_2025",
+      "issuer": "p2_comcast_corporation",
+      "company": "Comcast Corporation",
+      "ticker": "CMCSA",
+      "sector": "Communication Services/Telecom Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-30",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q2/2q25_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q2/CMCSA-USQ_Transcript_2025-07-31.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CMCSA_FQ4_2025",
+      "issuer": "p2_comcast_corporation",
+      "company": "Comcast Corporation",
+      "ticker": "CMCSA",
+      "sector": "Communication Services/Telecom Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q4/4q25_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q4/CMCSA-USQ_Transcript_2026-01-29.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CMCSA_FQ1_2026",
+      "issuer": "p2_comcast_corporation",
+      "company": "Comcast Corporation",
+      "ticker": "CMCSA",
+      "sector": "Communication Services/Telecom Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-22",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/comcast_corporation/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/comcast_corporation/CY2026-Q1/1q26_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/comcast_corporation/CY2026-Q1/CMCSA-USQ_Transcript_2026-04-23.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "issuer": "p2_goldman_sachs",
+  "reports": [
+    {
+      "document_id": "GS_FQ1_2025",
+      "issuer": "p2_goldman_sachs",
+      "company": "Goldman Sachs",
+      "ticker": "GS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-11",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/goldman_sachs/CY2025-Q1/GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/goldman_sachs/CY2025-Q1/d750054dex991.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "GS_FQ2_2025",
+      "issuer": "p2_goldman_sachs",
+      "company": "Goldman Sachs",
+      "ticker": "GS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-15",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/goldman_sachs/CY2025-Q2/GS-Q2-2025-earnings-call-transcript-MotleyFool.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/goldman_sachs/CY2025-Q2/d41877dex991.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "GS_FQ3_2025",
+      "issuer": "p2_goldman_sachs",
+      "company": "Goldman Sachs",
+      "ticker": "GS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-13",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/goldman_sachs/CY2025-Q3/GS-Q3-2025-earnings-call-transcript-InsiderMonkey.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/goldman_sachs/CY2025-Q3/d899312dex991.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "GS_FQ4_2025",
+      "issuer": "p2_goldman_sachs",
+      "company": "Goldman Sachs",
+      "ticker": "GS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-14",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/goldman_sachs/CY2025-Q4/GS-Q4-2025-earnings-call-transcript-MotleyFool.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/goldman_sachs/CY2025-Q4/a4q25gsearningsresults.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "GS_FQ1_2026",
+      "issuer": "p2_goldman_sachs",
+      "company": "Goldman Sachs",
+      "ticker": "GS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-10",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/goldman_sachs/CY2026-Q1/GS-Q1-2026-earnings-call-transcript-MotleyFool.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/goldman_sachs/CY2026-Q1/a1q26gsearningsresults.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "GS_FQ2_2026",
+      "issuer": "p2_goldman_sachs",
+      "company": "Goldman Sachs",
+      "ticker": "GS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-07-13",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/goldman_sachs/CY2026-Q2/GS-Q2-2026-earnings-call-transcript-AlphaStreet.html"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/goldman_sachs/CY2026-Q2/a2q26gsearningsresults.txt"
+        }
+      ]
+    }
+  ]
+}

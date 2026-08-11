@@ -1,0 +1,178 @@
+{
+  "document_id": "TSLA_FQ4_2025",
+  "sentiment": {
+    "score": 0.6,
+    "rationale": "The document reports a significant margin improvement (automotive gross margin excluding credits improved from 15.4% to 17.9% sequentially, total gross margin 20.1% best in over two years) and a bigger year-end backlog, indicating genuine operational momentum. However, forward guidance is not formally raised; instead, heavy 2026 capex above $20B and energy margin compression risks are noted, tempering the score. The score reflects the strong margin inflection and backlog, not a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed",
+    "eps": "Not disclosed",
+    "guidance": "2026 capex forecast above $20B across six factories, AI compute and fleet expansion. Model S and X production winding down next quarter. CyberCab production targeted to start in April.",
+    "margin": "Automotive gross margin excluding credits improved from 15.4% to 17.9% sequentially. Total gross margin 20.1%, the best in over two years.",
+    "key_risks": [
+      "Energy margin compression from low-cost competition and tariffs.",
+      "Short-term automotive margin pressure as FSD shifts toward subscriptions.",
+      "Long-term chip supply constraints without domestic fab investment."
+    ],
+    "key_opportunities": [
+      "Record deliveries in smaller markets and a bigger year-end backlog than recent years.",
+      "FSD paid customers reached 1.1M globally.",
+      "Robotaxi fleet growing (over 500 vehicles) and CyberCab production targeted to start in April."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management highlights a margin recovery and growing autonomy fleet, with specific forward targets like CyberCab production in April, indicating confidence despite acknowledged risks."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Automotive gross margin excluding credits improved from 15.4% to 17.9% sequentially.",
+      "quote": "Automotive gross margin excluding credits improved from 15.4% to 17.9% sequentially.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total gross margin was 20.1%, the best in over two years.",
+      "quote": "Total gross margin 20.1%, the best in over two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was $1.4B.",
+      "quote": "Free cash flow $1.4B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FSD paid customers reached 1.1M globally.",
+      "quote": "FSD paid customers reached 1.1M globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record deliveries in smaller markets and a bigger year-end backlog than recent years.",
+      "quote": "Record deliveries in smaller markets and a bigger year-end backlog than recent years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 capex forecast above $20B across six factories, AI compute and fleet expansion.",
+      "quote": "2026 capex forecast above $20B across six factories, AI compute and fleet expansion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Model S and X production winding down next quarter.",
+      "quote": "We expect to wind down S and X production next quarter and basically stop production of Model S and X next quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CyberCab production targeted to start in April.",
+      "quote": "We expect to start production in April for CyberCab",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Energy margin compression from low-cost competition and tariffs is a risk.",
+      "quote": "Energy margin compression from low-cost competition and tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Short-term automotive margin pressure as FSD shifts toward subscriptions is a risk.",
+      "quote": "Short-term automotive margin pressure as FSD shifts toward subscriptions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term chip supply constraints without domestic fab investment is a risk.",
+      "quote": "Long-term chip supply constraints without domestic fab investment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robotaxi fleet is growing with over 500 vehicles.",
+      "quote": "We are well over 500 robotaxi vehicles at this point between the Bay Area and Austin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Margins jumped to the best in over two years, the backlog ended the year bigger than recent years and paid FSD reached 1.1M customers.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.60 is based on margin improvement and backlog, but forward guidance was not formally raised; the document's own rationale notes energy compression and heavy capex temper the score. A reviewer should verify that the score is not too high given the lack of a formal guidance raise."
+    },
+    {
+      "field": "summary.revenue",
+      "reason": "Revenue figure is not disclosed in the document; only energy revenue for the year ($12.8B) is mentioned, but total revenue is absent."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS is not disclosed in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "TSLA_Bundled Earnings Report_2026-01-28",
+  "report_metadata": {
+    "issuer": "p2_tesla",
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q4\\21 tesla q4 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TSLA_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T215054Z",
+    "timestamp": "2026-07-18T21:51:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q4\\21 tesla q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q4\\21 tesla q4 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6246,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ4_2025.txt"
+  }
+}

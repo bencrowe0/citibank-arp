@@ -1,0 +1,59 @@
+Lenovo Group Limited - Pre-Earnings Market Expectations Digest
+Fiscal Quarter: FY2026 Q3 (October-December 2025)
+Report Date: February 12, 2026
+Digest Compiled: February 11, 2026
+
+=== MARKET EXPECTATIONS SUMMARY ===
+Ahead of Lenovo's Q3 FY2026 earnings announcement on February 12, 2026, investor sentiment was cautiously optimistic. The infrastructure growth narrative had solidified following the strong H1 results, with AI-driven hyperscaler capex expected to remain robust through Q3 2025. PC market dynamics were showing sustained stabilization, though consumer weakness persisted in certain geographies.
+
+=== KEY EXPECTATIONS ===
+
+1. Infrastructure Momentum Continuation
+- AI infrastructure demand maintaining strength into Q3 2025
+- Major hyperscaler capex cycles supporting continued growth
+- AI chip supply finally catching up, reducing capacity constraints
+- Lenovo ThinkSystem servers expected to show strong deployment rates
+- Market consensus pointing to infrastructure segment growing 30%+ year-over-year
+Source: IDC Enterprise Server Markets (February 2026), https://www.idc.com/
+Source: Mercury Research HPC/AI Server Analysis (February 2026)
+Source: TrendForce Hyperscaler Capex Tracking (February 2026), https://www.trendforce.com/
+
+2. PC Market Steady State
+- Commercial PC demand sustained through Q3 2025
+- Enterprise refresh cycles continuing at normalized pace
+- Consumer segment showing modest recovery in some developed markets
+- China domestic market pressure noted but manageable
+- Lenovo expected to maintain market share leadership in commercial PCs
+Source: Gartner PC Market Review (February 2026), https://www.gartner.com/
+Source: IDC Client Computing Forecast Update (February 2026), https://www.idc.com/
+
+3. Margin Profile Improvement
+- Gross margins expected to show continued expansion
+- Component costs stabilized at lower levels supporting pricing power
+- Freight costs normalized, providing cost tailwinds
+- Operating leverage from infrastructure growth supporting operating margin
+- Working capital improvements providing cash generation
+Source: JPMorgan Tech Sector Analysis (February 10, 2026)
+Source: Goldman Sachs Hardware Research (February 2026)
+
+4. FX and Geographic Performance
+- US dollar strength continuing through Q3 2025, providing mixed impact
+- Strong dollar pressuring non-US denominated revenues
+- International business (US, Europe) performing well in absolute terms
+- Asia excluding China showing resilience in commercial segments
+- China business stabilizing after prior weakness
+Source: HSBC Currency and Asia Tech Research (February 2026), https://research.hsbc.com/
+Source: Nomura Asia Research (February 2026)
+
+5. Guidance and Capital Allocation
+- Investors watching for sustained infrastructure guidance confidence
+- Potential for dividend or capital return increases given strong cash generation
+- Management expected to address long-term AI infrastructure opportunity
+- Working capital efficiency continuing to support cash conversion
+- Risk discussions around potential demand normalization being monitored
+Source: Broker Pre-Earnings Consensus (February 11-12, 2026)
+
+=== ANALYST SENTIMENT BASELINE ===
+Consensus remained positive, with infrastructure growth expectations well-established and PC segment providing earnings stability. Most analysts had buy or outperform ratings on Lenovo. Primary risks being discussed were hyperscaler capex normalization and PC market cyclicality, but these were not viewed as imminent given January guidance commentary.
+
+Compiled from publicly available market research, broker reports, and industry analysis dated before February 12, 2026.

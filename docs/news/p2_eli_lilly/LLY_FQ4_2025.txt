@@ -1,0 +1,7 @@
+Eli Lilly (LLY) - News coverage digest, FQ4 2025 earnings (report date 2026-02-04)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the February 4, 2026 report, analyst consensus centered on revenue of about $17.9 billion and EPS of about $6.99, but coverage explicitly flagged that estimate ranges had widened meaningfully across data providers - reflecting real uncertainty about product mix rather than a clean consensus. The dominant pre-earnings theme was that this print would be judged primarily as a **guidance event**, not a standard quarterly beat/miss: with Lilly serving as the market's proxy for the obesity/GLP-1 sector, coverage stressed that even a strong Q4 number could be overshadowed if 2026 guidance on obesity-drug supply, access, and net pricing looked conservative - i.e. the bar for a positive market reaction was set above the headline consensus numbers themselves.
+
+Sources:
+- https://www.ebc.com/forex/eli-lilly-lly-q4-2025-earnings-preview-and-market-impact (EBC Financial Group, "Eli Lilly (LLY) Q4 2025 Earnings Preview and Market Impact" - published prior to the February 4, 2026 report)

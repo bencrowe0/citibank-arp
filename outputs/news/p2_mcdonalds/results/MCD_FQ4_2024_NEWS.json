@@ -1,0 +1,44 @@
+{
+  "document_id": "MCD_FQ4_2024_NEWS",
+  "base_document_id": "MCD_FQ4_2024",
+  "issuer": "p2_mcdonalds",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This is a pre-earnings market expectations digest, not an earnings release. The document describes a genuinely negative-revision setup: the consensus EPS estimate had been revised downward 1.3% over the prior month, and coverage flagged declining US same-store sales as the dominant pre-earnings concern. Depressed expectations heading into the print raise the odds of a positive surprise even on modest results, warranting a mildly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162209Z",
+    "timestamp": "2026-07-20T16:22:17Z",
+    "status": "success",
+    "document_id": "MCD_FQ4_2024_NEWS",
+    "issuer": "p2_mcdonalds",
+    "company": "McDonald's",
+    "ticker": "MCD",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-10",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_mcdonalds\\MCD_FQ4_2024.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3508,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1051,
+    "total_tokens": 4559,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002052,
+    "latency_seconds": 7.8,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

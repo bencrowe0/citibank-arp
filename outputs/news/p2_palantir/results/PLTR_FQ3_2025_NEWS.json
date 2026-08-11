@@ -1,0 +1,44 @@
+{
+  "document_id": "PLTR_FQ3_2025_NEWS",
+  "base_document_id": "PLTR_FQ3_2025",
+  "issuer": "p2_palantir",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "This pre-earnings digest indicates that market expectations are moderately stretched: the stock has a mean price target implying only 8-15% upside, with a mix of Buy and Hold ratings and tempered sentiment due to market volatility and rising interest rates pressuring software valuations. Analysts are focused on risks such as softer government spending seasonality and competitive pressure, suggesting a demanding bar for the upcoming print. There is no indication of depressed expectations or a lowered bar, so the score is slightly negative, reflecting limited room for a positive surprise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T101808Z",
+    "timestamp": "2026-08-09T10:18:16Z",
+    "status": "success",
+    "document_id": "PLTR_FQ3_2025_NEWS",
+    "issuer": "p2_palantir",
+    "company": "Palantir",
+    "ticker": "PLTR",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-03",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_palantir\\PLTR_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3801,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1272,
+    "total_tokens": 5073,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002374,
+    "latency_seconds": 7.74,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.1,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

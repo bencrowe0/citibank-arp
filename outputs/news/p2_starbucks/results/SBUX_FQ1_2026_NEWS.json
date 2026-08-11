@@ -1,0 +1,44 @@
+{
+  "document_id": "SBUX_FQ1_2026_NEWS",
+  "base_document_id": "SBUX_FQ1_2026",
+  "issuer": "p2_starbucks",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "This pre-earnings digest indicates that while traffic is expected to improve (comps +2%-3%), the bar for the quarter is elevated due to significant margin compression (operating margins down to ~11%-12% from 16%+), heavy labor and equipment investments, and investor skepticism about the profitability recovery timeline. The document highlights that near-term profitability headwinds are expected to persist and that the long-term strategy is 'on trial,' suggesting that expectations are stretched and there is little room for a positive surprise. Therefore, the sentiment is bearish, reflecting a demanding bar and a high risk of a negative market reaction even if results are modestly positive."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103753Z",
+    "timestamp": "2026-08-09T10:38:05Z",
+    "status": "success",
+    "document_id": "SBUX_FQ1_2026_NEWS",
+    "issuer": "p2_starbucks",
+    "company": "Starbucks",
+    "ticker": "SBUX",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-01-27",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_starbucks\\SBUX_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4156,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1962,
+    "total_tokens": 6118,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003229,
+    "latency_seconds": 11.88,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "BA_FQ3_2025_NEWS",
+  "base_document_id": "BA_FQ3_2025",
+  "issuer": "boeing",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. Instead, the score reflects that market expectations are depressed heading into the print: analyst EPS estimates have been revised sharply lower (down 93.37% over 30 days), and the Earnings ESP is deeply negative (-49.51%), indicating a low bar that raises the odds of a positive surprise. Additionally, the digest notes continued operational momentum (commercial delivery volumes at multi-year highs) and constructive analyst price targets, supporting a mildly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "cost_log": {
+    "run_id": "20260702T133238Z",
+    "timestamp": "2026-07-02T13:32:48Z",
+    "status": "success",
+    "document_id": "BA_FQ3_2025_NEWS",
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\news\\boeing\\BA_FQ3_2025.txt",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 3760,
+    "output_tokens": 1505,
+    "total_tokens": 5265,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002671,
+    "latency_seconds": 10.1,
+    "signal": "BUY",
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

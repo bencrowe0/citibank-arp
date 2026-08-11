@@ -1,0 +1,202 @@
+{
+  "document_id": "SCHW_FQ1_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong Q1 results with revenue up 18% YoY and adjusted EPS up 41% YoY, but the key driver for the score is the forward guidance: management states they are 'tracking around the upper end of the full year scenario outlined at the winter business update in January, which implied earnings per share in the $4.10 to $4.20 range.' This is a meaningful upward revision within the existing guidance range, supported by robust April activity (record trading days, 2-3x new account openings) and confident language about continued growth. The score is capped at +0.30 because the guidance is not formally raised above the range, and there is some uncertainty around rate cuts and market volatility."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue increased 18% year-over-year to $5.6 billion, a record.",
+    "eps": "Adjusted earnings per share of $1.04, a year-over-year increase of over 40%. Reported EPS is $1.04, expectations were $1.01.",
+    "guidance": "Management states they are 'tracking around the upper end of the full year scenario outlined at the winter business update in January, which implied earnings per share in the $4.10 to $4.20 range, excluding any impacts from buybacks.' They also expect full year 2025 net interest margin to expand into the 2.55% to 2.65% range.",
+    "margin": "Adjusted pretax profit margin of 46.2%, representing over 500 basis points of expansion versus 1Q '24.",
+    "key_risks": [
+      "Lower expected future path of interest rates (potential incremental cuts to Fed's target rate).",
+      "Lower equity markets.",
+      "Uncertainty around macroeconomic backdrop and policy.",
+      "Potential for tax-related outflows in Q2 to make supplemental funding paydown more challenging."
+    ],
+    "key_opportunities": [
+      "Core net new assets grew 44% year-over-year to $138 billion, representing a 5.5% annualized growth rate.",
+      "Record trading levels in April with two highest trading days ever.",
+      "Continued momentum in advisor services and retail NNA (up 50% year-over-year).",
+      "Expansion of branch network and hiring of financial consultants.",
+      "Launch of new wealth solutions (alternatives, discretionary option, estate planning investment).",
+      "Progress on reducing high-cost supplemental funding (down more than 60% from peak).",
+      "Strong capital position enabling increased capital return."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'we remain highly confident in our long term diversified model,' 'we are well positioned to accelerate our growth over the long term,' and 'we are off to a strong start with growth across all key measures.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue increased 18% year-over-year to $5.6 billion, a record.",
+      "quote": "First quarter revenue increased 18% year-over-year to a record $5.6 billion, including double digit growth across all line items versus 1Q '24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted earnings per share of $1.04, a year-over-year increase of over 40%.",
+      "quote": "earnings per share of $1.04, a year-over-year increase of over 40%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS is $1.04, expectations were $1.01.",
+      "quote": "The Charles Schwab Corporation beats earnings expectations. Reported EPS is $1.04, expectations were $1.01.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management states they are 'tracking around the upper end of the full year scenario outlined at the winter business update in January, which implied earnings per share in the $4.10 to $4.20 range, excluding any impacts from buybacks.'",
+      "quote": "the combination of our strong 1Q '25 results and diversified model has us currently tracking around the upper end of the full year scenario outlined at the winter business update in January, which implied earnings per share in the $4.10 to $4.20 range, excluding any impacts from buybacks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "They also expect full year 2025 net interest margin to expand into the 2.55% to 2.65% range.",
+      "quote": "we still expect full year 2025 net interest margin to expand into the 2.55% to 2.65% range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pretax profit margin of 46.2%, representing over 500 basis points of expansion versus 1Q '24.",
+      "quote": "Strong top line growth plus balanced expense management generated a 46.2% adjusted pretax profit margin, representing over 500 basis points of expansion versus 1Q '24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core net new assets grew 44% year-over-year to $138 billion, representing a 5.5% annualized growth rate.",
+      "quote": "investors turned to us during the first quarter and trusting us with $138 billion in core new assets, which is up 44% over the first quarter of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record trading levels in April with two highest trading days ever.",
+      "quote": "We are seeing record trading levels with our two highest trading days ever and high levels of engagement digitally and with our reps.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we remain highly confident in our long term diversified model",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower expected future path of interest rates is a risk.",
+      "quote": "We've seen sizable movements across three of the inputs to our financial scenario, including a lower expected future path of interest rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower equity markets is a risk.",
+      "quote": "We've seen sizable movements across three of the inputs to our financial scenario, including ... lower equity markets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertainty around macroeconomic backdrop and policy is a risk.",
+      "quote": "We don't know exactly what's going to happen with policy or how markets will react to developments in the near term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for tax-related outflows in Q2 to make supplemental funding paydown more challenging is a risk.",
+      "quote": "sizable tax related outflows in 2Q will likely make it more challenging to replicate the level of paydown observed over the past two quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued momentum in advisor services and retail NNA (up 50% year-over-year).",
+      "quote": "retail NNA increased 50% year-over-year as we moved further away from the final client conversions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion of branch network and hiring of financial consultants is an opportunity.",
+      "quote": "We expect to open up around 16 new branches this year. That's a large number of new branches for us, I think the most we've opened in many years. ... we expect to grow roughly 250 new financial and wealth consultants during the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of new wealth solutions (alternatives, discretionary option, estate planning investment) is an opportunity.",
+      "quote": "We rolled out retail alternatives to all eligible clients. We launched a discretionary option for clients within Schwab Wealth Advisory ... we announced a strategic investment in Wealth.com.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Progress on reducing high-cost supplemental funding (down more than 60% from peak) is an opportunity.",
+      "quote": "we made additional progress on reducing the level of bank supplemental funding to approximately $38 billion, down more than 60% from peak levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong capital position enabling increased capital return is an opportunity.",
+      "quote": "our capital levels finished the quarter slightly above the upper bound of the firm's adjusted Tier 1 leverage objective of 6.75% to 7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance is described as tracking the 'upper end' of the existing range, not a formal raise above it. The score of +0.30 reflects this nuance; a reviewer may consider whether a slightly higher or lower score is more appropriate given the strong April activity and confident language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2025-04-17",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q1\\SCHW-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212634Z",
+    "timestamp": "2026-07-18T21:26:48Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q1\\SCHW-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q1\\SCHW-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 65775,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ1_2025.txt"
+  }
+}

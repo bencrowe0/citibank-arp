@@ -1,0 +1,237 @@
+{
+  "document_id": "JPM_FQ4_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a solid quarter with revenue up 7% YoY and EPS of $4.63, but the forward guidance is mixed. NII ex. Markets guidance for 2026 is reaffirmed at ~$95B, which is flat to slightly up from the $92.6B reported for 2025, and adjusted expense guidance of ~$105B represents meaningful growth. Management expresses optimism about the franchise and investment opportunities but also flags significant risks including geopolitical hazards, sticky inflation, and elevated asset prices. The overall forward signal is mildly positive but tempered by cautious language and unchanged core guidance, resulting in a score slightly above neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band"
+  },
+  "summary": {
+    "revenue": "Reported revenue of $45.8 billion; managed revenue of $46.8 billion, up 7% YoY.",
+    "eps": "Reported EPS of $4.63; excluding a significant item, EPS of $5.23.",
+    "guidance": "Expect FY2026 NII ex. Markets of ~$95B, total NII of ~$103B, adjusted expense of ~$105B, and Card Services NCO rate of ~3.4%.",
+    "margin": "Reported overhead ratio of 52%; managed overhead ratio of 51%. ROTCE of 18% (20% excluding significant item).",
+    "key_risks": [
+      "Complex geopolitical conditions",
+      "Risk of sticky inflation",
+      "Elevated asset prices",
+      "Potential credit card APR caps (price controls) could dramatically reduce credit access and harm the business",
+      "Large U.S. and global deficits that may eventually bite",
+      "Yield-seeking flows continuing to pressure deposit growth",
+      "Competitive environment requiring significant investment to maintain position"
+    ],
+    "key_opportunities": [
+      "Apple Card partnership expected to be economically compelling and drive modernization",
+      "Strong franchise growth: 1.7M net new checking accounts, 10.4M new credit card accounts in 2025",
+      "Record AWM client asset net inflows of $553B for the year",
+      "Deregulation expected to be a plus for banks",
+      "Fiscal stimulus and Fed monetary policy supporting the economy",
+      "Investment in technology, AI, and branch expansion to drive future growth",
+      "Optimistic outlook for Investment Banking fees and client engagement in 2026"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management describes the quarter as 'strong' and each line of business as performing 'well,' expresses excitement about the Apple Card, and states 'we are very optimistic about the franchise' and 'the environment is only getting more competitive, and so it remains critical to ensure that we are making the necessary investments.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $45.8 billion; managed revenue of $46.8 billion, up 7% YoY.",
+      "quote": "Net revenue - reported $45,798 ... Net revenue - managed $46,767 ... Net revenue - managed $46.8B, up 7% YoY.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS of $4.63; excluding a significant item, EPS of $5.23.",
+      "quote": "JPMORGANCHASE REPORTS FOURTH-QUARTER 2025 NET INCOME OF $13.0 BILLION ($4.63 PER SHARE), NET INCOME EXCLUDING A SIGNIFICANT ITEM OF $14.7 BILLION ($5.23 PER SHARE)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect FY2026 NII ex. Markets of ~$95B, total NII of ~$103B, adjusted expense of ~$105B, and Card Services NCO rate of ~3.4%.",
+      "quote": "We expect ~$95B of NII ex. Markets for 2026 ... Expect FY2026 net interest income of ~$103B, market dependent ... Expect FY2026 adjusted expense of ~$105B, market dependent ... Expect FY2026 Card Services NCO rate of ~3.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 52%; managed overhead ratio of 51%. ROTCE of 18% (20% excluding significant item).",
+      "quote": "Expense of $24.0 billion; reported overhead ratio of 52% and managed overhead ratio of 51% ... ROTCE 18% ... Excluding this item resulted in an increase of 2ppts to reported ROTCE from 18% to 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Complex geopolitical conditions are a key risk.",
+      "quote": "markets seem to underappreciate the potential hazards—including from complex geopolitical conditions, the risk of sticky inflation and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk of sticky inflation is a key risk.",
+      "quote": "markets seem to underappreciate the potential hazards—including from complex geopolitical conditions, the risk of sticky inflation and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Elevated asset prices are a key risk.",
+      "quote": "markets seem to underappreciate the potential hazards—including from complex geopolitical conditions, the risk of sticky inflation and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential credit card APR caps could dramatically reduce credit access and harm the business.",
+      "quote": "when you start with that as your starting point, the right assumption about the response of the system is going to be to the imposition of price controls is not that you will simply compress the profit margins ... What's actually simply going to happen is that the provision of the service will change dramatically. Specifically, people will lose access to credit like on a very, very extensive and broad basis, especially the people who need it the most, ironically.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Large U.S. and global deficits that may eventually bite.",
+      "quote": "The deficits in the United States and around the world are quite large. We don't know when that's going to bite. It will bite eventually, because you can't just keep on borrowing money endlessly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Yield-seeking flows continuing to pressure deposit growth.",
+      "quote": "the persistence, albeit at a much lower level, of yield-seeking flows. So, to the extent that you consider flows into investments, yield-seeking flows, I think there is a relationship between the two.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive environment requiring significant investment to maintain position.",
+      "quote": "the environment is only getting more competitive, and so it remains critical to ensure that we are making the necessary investments to secure our position against both traditional and nontraditional competitors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Apple Card partnership expected to be economically compelling and drive modernization.",
+      "quote": "this is an economically compelling transaction for us as a co-brand deal ... the process of getting it done, in the narrow sense, is going to make us better, just generally accelerate and challenge our modernization agenda and the user friendliness of everything that we do in the Card business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong franchise growth: 1.7M net new checking accounts, 10.4M new credit card accounts in 2025.",
+      "quote": "This year, we opened 1.7 million net new checking accounts and 10.4 million new credit card accounts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record AWM client asset net inflows of $553B for the year.",
+      "quote": "client asset net inflows totaled $553 billion for the year, helping drive client assets to over $7 trillion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deregulation expected to be a plus for banks.",
+      "quote": "Deregulation is a plus in general, not just for banks, but banks will be able to redeploy capital.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal stimulus and Fed monetary policy supporting the economy.",
+      "quote": "These conditions could persist for some time, particularly with ongoing fiscal stimulus, the benefits of deregulation and the Fed’s recent monetary policy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment in technology, AI, and branch expansion to drive future growth.",
+      "quote": "We're opening rural branches which we think will be good. We're opening more branches in foreign countries. We're building better payment systems. We're adding better personalization in consumer banking, credit card. We're adding AI across the company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Optimistic outlook for Investment Banking fees and client engagement in 2026.",
+      "quote": "we expect strong client engagement and deal activity in 2026, supported by constructive market dynamics, which is reflected in our pipeline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "The Firm concluded the year with a strong fourth quarter ... Each line of business performed well ... we are very optimistic about the franchise ... the environment is only getting more competitive, and so it remains critical to ensure that we are making the necessary investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is slightly positive but close to neutral. The guidance is largely reaffirmed (NII ex. Markets ~$95B vs. $92.6B in 2025), which is a modest raise, but expense growth is significant and risks are explicitly highlighted. A reviewer may wish to confirm the balance between the positive franchise momentum and the cautious forward language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2026-01-13",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-earnings-call-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T125207Z",
+    "timestamp": "2026-07-02T12:53:40Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 24355,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-presentation.pdf",
+        "page_count": 21,
+        "extracted_characters": 30870,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-earnings-call-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 98903,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2025.txt"
+  }
+}

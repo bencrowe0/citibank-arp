@@ -1,0 +1,85 @@
+{
+  "issuer": "p2_chipotle",
+  "reports": [
+    {
+      "document_id": "CMG_FQ1_2025",
+      "issuer": "p2_chipotle",
+      "company": "Chipotle",
+      "ticker": "CMG",
+      "sector": "Consumer Cyclical/Restaurants",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-23",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/chipotle/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/chipotle/CY2025-Q1/earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "CMG_FQ2_2025",
+      "issuer": "p2_chipotle",
+      "company": "Chipotle",
+      "ticker": "CMG",
+      "sector": "Consumer Cyclical/Restaurants",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-23",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/chipotle/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/chipotle/CY2025-Q2/earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "CMG_FQ3_2025",
+      "issuer": "p2_chipotle",
+      "company": "Chipotle",
+      "ticker": "CMG",
+      "sector": "Consumer Cyclical/Restaurants",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/chipotle/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/chipotle/CY2025-Q3/earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "CMG_FQ4_2025",
+      "issuer": "p2_chipotle",
+      "company": "Chipotle",
+      "ticker": "CMG",
+      "sector": "Consumer Cyclical/Restaurants",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-03",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/chipotle/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/chipotle/CY2025-Q4/earnings_call_transcript.txt"
+        }
+      ]
+    }
+  ]
+}

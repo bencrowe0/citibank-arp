@@ -1,0 +1,296 @@
+{
+  "document_id": "IBM_FQ4_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The document shows strong operational momentum with Q4 revenue growth of 9% constant currency, the highest in over three years, and full-year free cash flow of $14.7 billion, the highest in over a decade. Management raised full-year 2026 guidance for constant currency revenue growth of more than 5% and free cash flow increase of about $1 billion, with confident language about momentum and execution. The guidance raise is organic, not attributed to FX or one-time items, and management explicitly states they 'exceeded expectations for revenue, profit and free cash flow' in 2025, supporting a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue of $19.7 billion, up 12% as reported and 9% at constant currency. Full-year 2025 revenue of $67.5 billion, up 8% as reported and 6% at constant currency.",
+    "eps": "Q4 2025 GAAP diluted EPS from continuing operations of $5.86, up 88% year-over-year. Operating (Non-GAAP) diluted EPS of $4.52, up 15% year-over-year. Full-year 2025 GAAP diluted EPS from continuing operations of $11.14, up 74% year-over-year. Operating (Non-GAAP) diluted EPS of $11.59, up 12% year-over-year.",
+    "guidance": "Full-year 2026: constant currency revenue growth of more than 5%; free cash flow to increase by about $1 billion year-over-year; operating pretax margin to expand by about one percentage point; software revenue to grow 10%; consulting revenue to grow low to mid-single digits; infrastructure revenue to be down low single digits.",
+    "margin": "Q4 2025 GAAP gross profit margin of 60.6%, up 110 basis points year-over-year. Operating (Non-GAAP) gross profit margin of 61.8%, up 120 basis points. Full-year 2025 GAAP gross profit margin of 58.2%, up 150 basis points. Operating (Non-GAAP) gross profit margin of 59.5%, up 170 basis points. Full-year operating pretax margin expanded by 100 basis points.",
+    "key_risks": [
+      "Dilution from acquisitions: HashiCorp caused over $300 million dilution in 2025; Confluent expected to cause about $600 million dilution in 2026.",
+      "Product cycle dynamics: Infrastructure revenue expected to be down low single digits in 2026 due to Z17 cycle dynamics.",
+      "Currency fluctuations: At current FX rates, currency expected to be about a half-point tailwind to growth for 2026, but could reverse.",
+      "Government shutdown delays: US federal business deal activity delayed in Q4, impacting Red Hat bookings.",
+      "Aggressive pricing environment in consulting: Management noted 'we have to manage we are operating in a very aggressive pricing environment.'",
+      "Memory pricing pressure: DRAM prices six times higher than last year, potentially impacting server refresh cycles."
+    ],
+    "key_opportunities": [
+      "GenAI book of business surpassed $12.5 billion cumulative, with consulting over $10.5 billion and software over $2 billion.",
+      "Software growth acceleration: Expected to grow 10% in 2026, led by organic growth and M&A synergies.",
+      "Red Hat and OpenShift: OpenShift ARR at $1.9 billion, growing more than 30%.",
+      "IBM Z mainframe: Z17 achieved highest annual revenue in about 20 years, with AI capabilities driving demand.",
+      "Productivity savings: Annual run rate savings exited 2025 at $4.5 billion, expected to rise to $5.5 billion by end of 2026.",
+      "M&A synergies: HashiCorp delivering adjusted EBITDA accretion ahead of expectations; Confluent expected to be accretive to adjusted EBITDA in first full year.",
+      "Consulting backlog: $32 billion, up 2%, with GenAI representing over 25% of backlog.",
+      "Strategic partnerships: New or deepened partnerships with AMD, Anthropic, AWS, Microsoft, OpenAI, Oracle, and NVIDIA."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'we enter 2026 with momentum and in a position of strength, giving us confidence in our full-year expectations' and 'we are excited about our prospects for 2026 as our disciplined execution and unwavering focus on productivity will continue to enable us to invest in the future.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $19.7 billion, up 12% as reported and 9% at constant currency.",
+      "quote": "Revenue of $19.7 billion, up 12 percent, up 9 percent at constant currency",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue was $67.5 billion, up 8% as reported and 6% at constant currency.",
+      "quote": "Revenue of $67.5 billion, up 8 percent, up 6 percent at constant currency",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP diluted EPS from continuing operations was $5.86, up 88% year-over-year.",
+      "quote": "Diluted Earnings Per Share: Continuing Operations $ 5.86 ... Year/Year 88 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Operating (Non-GAAP) diluted EPS was $4.52, up 15% year-over-year.",
+      "quote": "Operating (Non-GAAP) ... Diluted Earnings Per Share: Continuing Operations $ 4.52 ... Year/Year 15 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 GAAP diluted EPS from continuing operations was $11.14, up 74% year-over-year.",
+      "quote": "Diluted Earnings Per Share: Continuing Operations $ 11.14 ... Year/Year 74 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 Operating (Non-GAAP) diluted EPS was $11.59, up 12% year-over-year.",
+      "quote": "Operating (Non-GAAP) ... Diluted Earnings Per Share: Continuing Operations $ 11.59 ... Year/Year 12 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance: constant currency revenue growth of more than 5%.",
+      "quote": "The company expects full-year constant currency revenue growth of more than 5 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance: free cash flow to increase by about $1 billion year-over-year.",
+      "quote": "The company expects full-year free cash flow to increase by about $1 billion year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance: operating pretax margin to expand by about one percentage point.",
+      "quote": "For the full year, we expect IBM's operating pretax margin to expand by about a point.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance: software revenue to grow 10%.",
+      "quote": "Which we expect to grow 10% this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance: consulting revenue to grow low to mid-single digits.",
+      "quote": "In consulting, our backlog levels and momentum in GenAI with backlog penetration over 25% support an acceleration in revenue growth to low to mid-single digits for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance: infrastructure revenue to be down low single digits.",
+      "quote": "We expect infrastructure revenue to be down low single digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP gross profit margin was 60.6%, up 110 basis points year-over-year.",
+      "quote": "Gross Profit Margin: GAAP: 60.6 percent, up 110 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Operating (Non-GAAP) gross profit margin was 61.8%, up 120 basis points.",
+      "quote": "Operating (Non-GAAP): 61.8 percent, up 120 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 GAAP gross profit margin was 58.2%, up 150 basis points.",
+      "quote": "Gross Profit Margin: GAAP: 58.2 percent, up 150 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 Operating (Non-GAAP) gross profit margin was 59.5%, up 170 basis points.",
+      "quote": "Operating (Non-GAAP): 59.5 percent, up 170 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating pretax margin expanded by 100 basis points.",
+      "quote": "a 100 basis points of operating pretax margin expansion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GenAI book of business surpassed $12.5 billion cumulative.",
+      "quote": "Our generative AI book of business now stands at more than $12.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OpenShift ARR at $1.9 billion, growing more than 30%.",
+      "quote": "OpenShift is now a $1.9 billion ARR business, growing more than 30%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "IBM Z achieved highest annual revenue in about 20 years.",
+      "quote": "achieving the highest annual revenue for IBM Z in about twenty years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity savings: annual run rate savings exited 2025 at $4.5 billion, expected to rise to $5.5 billion by end of 2026.",
+      "quote": "Annual run rate productivity savings exited the year at $4.5 billion, now expected to rise to $5.5 billion by the end of next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "HashiCorp caused over $300 million dilution in 2025.",
+      "quote": "And we achieved this despite absorbing more than $300 million of dilution from HashiCorp.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Confluent expected to cause about $600 million dilution in 2026.",
+      "quote": "We anticipate absorbing about $600 million of dilution from Confluent in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Government shutdown delays impacted Red Hat bookings.",
+      "quote": "in-quarter yield on single-digit bookings growth driven by delays in US federal business deal activity related to the government shutdown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Aggressive pricing environment in consulting.",
+      "quote": "we have to manage we are operating in a very aggressive pricing environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Memory pricing pressure: DRAM prices six times higher than last year.",
+      "quote": "spot memory DRAM prices are six times that of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We enter 2026 with momentum and in a position of strength, giving us confidence in our full-year expectations of more than 5 percent constant currency revenue growth and an increase of about $1 billion in year-over-year free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management exceeded all target metrics for 2025.",
+      "quote": "I am proud of our achievements in 2025 as we exceeded all of our target metrics for revenue growth, profitability, and free cash flow that we laid out at our Investor Day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow reached $14.7 billion, the highest level in over a decade.",
+      "quote": "free cash flow of $14.7 billion, up $2.0 billion year to year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 revenue growth of 9% constant currency was the highest in over three years.",
+      "quote": "Delivered total revenue growth of 9%, our highest level in over three years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.35 is based on a guidance raise and strong operational momentum, but the guidance raise is not explicitly quantified as a change from prior guidance; it is presented as a new expectation. The document does not state what prior guidance was, so the magnitude of the raise is inferred from management's statement that they 'exceeded all target metrics' for 2025. A human reviewer should confirm that the guidance raise is indeed material and organic."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The risk about memory pricing is from the Q&A section and is discussed as a potential headwind, but management also provides counterarguments. The risk about government shutdown delays is specific to Q4 and may not persist. A human reviewer should assess whether these are structural or temporary."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 30,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "IBM_Bundled Earnings Report_2026-01-28",
+  "report_metadata": {
+    "issuer": "p2_ibm",
+    "company": "IBM",
+    "ticker": "IBM",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q4\\Q4 2025 - numbers.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "IBM_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213750Z",
+    "timestamp": "2026-07-18T21:38:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q4\\Q4 2025 - numbers.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ibm\\extracted\\IBM_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q4\\Q4 2025 - numbers.pdf",
+        "page_count": 13,
+        "extracted_characters": 26201,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 65486,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ibm\\extracted\\IBM_FQ4_2025.txt"
+  }
+}

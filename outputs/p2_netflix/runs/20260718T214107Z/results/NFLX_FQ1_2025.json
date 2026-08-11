@@ -1,0 +1,151 @@
+{
+  "document_id": "NFLX_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports Q3 2025 revenue in line with expectations and operating income would have exceeded forecast absent a one-time Brazilian tax matter. However, full-year 2026 guidance is deferred to the next call, and the EPS surprise was negative (-15.78% vs consensus). Management expresses confidence in the business and growth trajectory, but the lack of a formal guidance raise and the negative EPS surprise keep the score at a mildly positive level, reflecting genuine operational momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Q3 2025 revenue of $11,510.31 million, in line with consensus of $11,511.20 million (0.01% miss).",
+    "eps": "Q3 2025 EPS normalized of $5.87, a 15.78% miss vs consensus of $6.97.",
+    "guidance": "Full-year 2026 guidance will be issued on the next call in January 2026. Financial objectives are unchanged: sustain healthy revenue growth, expand margins, and increase free cash flow.",
+    "margin": "Operating income would have exceeded forecast absent the Brazilian tax matter. No specific margin percentage disclosed.",
+    "key_risks": [
+      "Brazilian tax matter (CIDE) resulted in a one-time expense booked in Q3 2025, covering periods from 2022 through Q3 2025, with about 20% for 2025 and remainder for 2022-2024.",
+      "Potential industry consolidation could reshape competitive landscape, though management views it as not a fundamental shift.",
+      "Third-party content accessibility may be affected if competitors pull licensing, but Netflix is not dependent on any single supplier."
+    ],
+    "key_opportunities": [
+      "Advertising business: on track to more than double ad revenue in 2025, with strong growth in programmatic and upfront commitments.",
+      "Live events: Canelo-Crawford fight was most viewed men's championship fight this century; upcoming events include Jake Paul vs Tank Davis, NFL Christmas Day games, WWE, and FIFA Women's World Cup in 2027 and 2031.",
+      "Games: launching party games on TV, with plans to ramp investment judiciously based on returns.",
+      "Content slate: strong lineup for Q4 2025 and 2026, including new seasons of popular shows and major film releases.",
+      "AI/ML: leveraging technology to improve product experiences, content production, and advertising."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'we think the business is very healthy,' 'we feel great about the business,' and 'we are as energized as ever,' indicating strong confidence in the company's trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 revenue was in line with expectations.",
+      "quote": "We had a good Q3. We had revenue in line with expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 EPS missed consensus by 15.78%.",
+      "quote": "EPS Normalized 6.97 5.87 (15.78 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income would have exceeded forecast absent the Brazilian tax matter.",
+      "quote": "Our operating income would have exceeded our forecast absent the Brazilian tax matter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance will be issued in January 2026.",
+      "quote": "We'll issue a full year 2026 guidance on our next call in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Financial objectives are unchanged: sustain healthy revenue growth, expand margins, and increase free cash flow.",
+      "quote": "Our financial objectives are unchanged. We look to sustain healthy revenue growth to expand margins and increase free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue is on track to more than double in 2025.",
+      "quote": "We are now on track to more than double ad revenue this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Canelo-Crawford fight was the most viewed men's championship fight this century.",
+      "quote": "the Canelo-Crawford fight was the most viewed men's championship fight this century, had over 41 million live+1 viewers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we think the business is very healthy. We feel good about our progress on our key initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brazilian tax matter is a one-time expense, not expected to have material impact going forward.",
+      "quote": "we don't expect this matter to have a material impact on our results going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Netflix is not dependent on any single third-party content supplier.",
+      "quote": "we're not dependent on any single supplier. No single supplier represents more than a small minority of our total view hours.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of the BUY threshold (0.15). The negative EPS surprise and deferred guidance could justify a slightly lower score. A human reviewer should confirm the balance between operational momentum and the lack of a formal guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2025-04-17",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214107Z",
+    "timestamp": "2026-07-18T21:41:27Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf",
+        "page_count": 15,
+        "extracted_characters": 45719,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ1_2025.txt"
+  }
+}

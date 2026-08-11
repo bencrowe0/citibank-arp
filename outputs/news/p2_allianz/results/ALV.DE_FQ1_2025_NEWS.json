@@ -1,0 +1,44 @@
+{
+  "document_id": "ALV.DE_FQ1_2025_NEWS",
+  "base_document_id": "ALV.DE_FQ1_2025",
+  "issuer": "p2_allianz",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates that market expectations are not stretched: Allianz's FY2025 guidance of EUR 16.0bn +/- EUR 1bn is described as an anchor, and the company is seen as having 'limited perceived downside risk' due to a strong balance sheet (Solvency II ratio of 209%). The document does not describe elevated valuations or rising estimates, so the bar is not demanding, which slightly favors a positive surprise. However, the absence of a specific Q1 consensus estimate and the lack of any explicit commentary on depressed expectations keeps the score modestly positive rather than strongly bullish."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260809T094505Z",
+    "timestamp": "2026-08-09T09:45:14Z",
+    "status": "success",
+    "document_id": "ALV.DE_FQ1_2025_NEWS",
+    "issuer": "p2_allianz",
+    "company": "Allianz",
+    "ticker": "ALV.DE",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-15",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_allianz\\ALV.DE_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3858,
+    "cache_hit_tokens": 0,
+    "output_tokens": 1281,
+    "total_tokens": 5139,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002451,
+    "latency_seconds": 8.91,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

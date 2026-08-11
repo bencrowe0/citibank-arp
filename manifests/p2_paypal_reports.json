@@ -1,0 +1,101 @@
+{
+  "issuer": "p2_paypal",
+  "reports": [
+    {
+      "document_id": "PYPL_FQ1_2025",
+      "issuer": "p2_paypal",
+      "company": "PayPal",
+      "ticker": "PYPL",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/paypal/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/paypal/CY2025-Q1/PYPL_Q1_2025_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/paypal/CY2025-Q1/PYPL_Q1_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PYPL_FQ2_2025",
+      "issuer": "p2_paypal",
+      "company": "PayPal",
+      "ticker": "PYPL",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/paypal/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/paypal/CY2025-Q2/PYPL_Q2_2025_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/paypal/CY2025-Q2/PYPL_Q2_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PYPL_FQ3_2025",
+      "issuer": "p2_paypal",
+      "company": "PayPal",
+      "ticker": "PYPL",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-28",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/paypal/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/paypal/CY2025-Q3/PYPL_Q3_2025_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/paypal/CY2025-Q3/PYPL_Q3_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PYPL_FQ1_2026",
+      "issuer": "p2_paypal",
+      "company": "PayPal",
+      "ticker": "PYPL",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-05",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/paypal/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/paypal/CY2026-Q1/PYPL_Q1_2026_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/paypal/CY2026-Q1/PYPL_Q1_2026_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ]
+}

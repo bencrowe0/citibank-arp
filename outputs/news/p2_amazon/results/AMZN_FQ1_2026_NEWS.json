@@ -1,0 +1,44 @@
+{
+  "document_id": "AMZN_FQ1_2026_NEWS",
+  "base_document_id": "AMZN_FQ1_2026",
+  "issuer": "p2_amazon",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "This is a pre-earnings market expectations digest, so the guidance-change framework does not apply. Instead, the score reflects how stretched or depressed expectations are heading into the print. The document describes analyst estimates that have been rising (capex estimates rose to nearly $200 billion), a stock with a consensus target of $287.24 and strong buy/buy ratings, but also flags that a 'clean beat' on revenue/EPS alone might not satisfy the market if capex/margin commentary disappoints. This elevated bar and the explicit warning that the market may not reward a simple beat suggest a demanding setup, raising the risk of a negative reaction even on decent results, warranting a mildly bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T161545Z",
+    "timestamp": "2026-07-20T16:15:57Z",
+    "status": "success",
+    "document_id": "AMZN_FQ1_2026_NEWS",
+    "issuer": "p2_amazon",
+    "company": "Amazon",
+    "ticker": "AMZN",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-29",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_amazon\\AMZN_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3668,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1774,
+    "total_tokens": 5442,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002891,
+    "latency_seconds": 11.75,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

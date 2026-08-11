@@ -1,0 +1,8 @@
+AMD - News coverage digest, FQ2 2025 earnings (report date 2025-08-05)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the August 5, 2025 report, analysts expected Q2 EPS of $0.48 (down ~30% YoY, largely reflecting export-license-related charges) on revenue up 27% YoY to $7.41 billion. Coverage noted AMD had beaten consensus soundly the prior quarter (Q1: $7.44B revenue +36% YoY, non-GAAP EPS $0.96 +55% YoY, beating consensus by ~4.5%/2.8%), with the data-center segment ($3.7B, +57% YoY) driving that beat via EPYC Turin CPU and Instinct GPU adoption. Sentiment heading into Q2 was cautiously bullish: several analysts remained positive despite margin-pressure concerns tied to export-license impacts, with the market's attention on fresh guidance for revenue, margins, and the trajectory of hyperscaler data-center demand rather than the EPS headline itself (which was already expected to look weak YoY due to the known charge).
+
+Sources:
+- https://finance.yahoo.com/markets/stocks/articles/heres-expect-advanced-micro-devices-152825306.html (Yahoo Finance, "Here's What to Expect From Advanced Micro Devices' Next Earnings Report" - published prior to the August 5, 2025 report)
+- https://www.tradingview.com/news/gurufocus:421a15c43094b:0-amd-q2-earnings-preview-what-to-expect-from-upcoming-report/ (TradingView/GuruFocus, "AMD Q2 Earnings Preview: What to Expect From Upcoming Report" - published prior to the report)

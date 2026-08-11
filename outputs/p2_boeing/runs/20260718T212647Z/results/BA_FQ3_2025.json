@@ -1,0 +1,195 @@
+{
+  "document_id": "BA_FQ3_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports a significant GAAP loss per share of ($7.14) and a core loss per share of ($7.47), primarily driven by a $4.9 billion charge on the 777X program due to a certification delay pushing first delivery to 2027. While revenue improved and free cash flow turned positive, the forward guidance for free cash flow is approximately ($2.5B) for the full year, indicating continued cash burn. The structural risk of the 777X delay and ongoing production stabilization efforts outweigh the positive operational momentum, leading to a negative sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$23.3 billion, up 30% from $17.8 billion in Q3 2024, primarily reflecting 160 commercial deliveries.",
+    "eps": "GAAP diluted loss per share of ($7.14), compared to ($9.97) in Q3 2024; core loss per share (non-GAAP) of ($7.47), compared to ($10.44) in Q3 2024. The improvement is primarily due to higher delivery volume, but the quarter included a $4.9 billion charge on the 777X program.",
+    "guidance": "Free cash flow (non-GAAP) estimate for 2025 is approximately ($2.5B). The company jointly agreed with the FAA in October to increase 737 production to 42 per month. 777X first delivery now anticipated in 2027.",
+    "margin": "GAAP operating margin of (20.5)% compared to (32.3)% in Q3 2024. Core operating margin (non-GAAP) of (21.7)% compared to (33.6)% in Q3 2024.",
+    "key_risks": [
+      "777X program charge of $4.9 billion due to updated certification timeline, with first delivery now anticipated in 2027.",
+      "Ongoing production stabilization efforts for 737 and 787 programs.",
+      "Structural risks related to production quality, certification, and regulatory changes.",
+      "Dependence on suppliers, labor availability, and potential work stoppages.",
+      "Pending acquisition of Spirit AeroSystems and associated risks."
+    ],
+    "key_opportunities": [
+      "Improved commercial delivery volume, with 160 deliveries in Q3, the highest quarterly total since 2018.",
+      "Positive free cash flow of $0.2 billion in Q3, compared to negative $1.956 billion in Q3 2024.",
+      "Backlog of $636 billion, including over 5,900 commercial airplanes.",
+      "Defense, Space & Security returned to positive operating margin of 1.7%.",
+      "Global Services continued strong performance with 17.5% operating margin."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in safety and quality milestones ('we achieved important milestones in our recovery') but also acknowledges disappointment and the need for continued focus ('we are disappointed in the 777X schedule delay' and 'we remain focused on the work ahead to fully recover our company's performance')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $23.3 billion, up 30% from $17.8 billion in Q3 2024.",
+      "quote": "Revenue increased to $23.3 billion primarily reflecting 160 commercial deliveries.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted loss per share was ($7.14), compared to ($9.97) in Q3 2024.",
+      "quote": "GAAP loss per share of ($7.14) and core loss per share (non-GAAP)* of ($7.47) primarily reflect a pre-tax earnings charge of $4.9 billion on the 777X program, which increased the loss per share by $6.45.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core loss per share (non-GAAP) was ($7.47), compared to ($10.44) in Q3 2024.",
+      "quote": "Core loss per share (non-GAAP) ($7.47) ($10.44)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guidance for 2025 is approximately ($2.5B).",
+      "quote": "2025 Estimate ... Free cash flow (non-GAAP) ~($2.5B)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777X first delivery is now anticipated in 2027.",
+      "quote": "During the quarter, the company updated its assessment of the 777-9 certification timeline and now anticipates first delivery in 2027, resulting in a pre-tax earnings charge of $4.9 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (20.5)% compared to (32.3)% in Q3 2024.",
+      "quote": "Operating margins (GAAP) (20.5) % (32.3) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin (non-GAAP) was (21.7)% compared to (33.6)% in Q3 2024.",
+      "quote": "Core operating margins (non-GAAP) (21.7) % (33.6) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 777X program charge was $4.9 billion.",
+      "quote": "Earnings reflects impact of $4.9 billion charge associated with updated 777X certification timing",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow turned positive at $0.2 billion in Q3 2025, compared to negative $1.956 billion in Q3 2024.",
+      "quote": "Free cash flow (non-GAAP) $238 ($1,956)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog grew to $636 billion.",
+      "quote": "Total company backlog grew to $636 billion, including over 5,900 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security returned to positive operating margin of 1.7%.",
+      "quote": "Defense, Space & Security third quarter revenue of $6.9 billion and operating margin of 1.7 percent reflect stabilizing operational performance and higher volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 17.5%.",
+      "quote": "Global Services third quarter revenue was $5.4 billion driven by higher volume. Operating margin of 17.5 percent primarily reflects favorable commercial volume and mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, expressing both confidence and disappointment.",
+      "quote": "With a sustained focus on safety and quality, we achieved important milestones in our recovery as we generated positive free cash flow in the quarter and jointly agreed with the FAA in October to increase 737 production to 42 per month. ... While we are disappointed in the 777X schedule delay, the airplane continues to perform well in flight testing, and we remain focused on the work ahead to complete our development programs and stabilize our operations in order to fully recover our company's performance and restore trust with all of our stakeholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is negative due to the 777X charge and continued cash burn guidance.",
+      "quote": "Free cash flow (non-GAAP) ~($2.5B)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is driven by the 777X charge and negative free cash flow guidance, but the document also shows significant operational improvements (positive free cash flow, higher deliveries, improved margins). A reviewer should confirm the weighting of these opposing factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_boeing",
+    "company": "Boeing",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q3\\3Q25-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q3\\3Q25-Press-Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BA_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212647Z",
+    "timestamp": "2026-07-18T21:28:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q3\\3Q25-Presentation.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_boeing\\extracted\\BA_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q3\\3Q25-Presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 8794,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q3\\3Q25-Press-Release.pdf",
+        "page_count": 13,
+        "extracted_characters": 27155,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_boeing\\extracted\\BA_FQ3_2025.txt"
+  }
+}

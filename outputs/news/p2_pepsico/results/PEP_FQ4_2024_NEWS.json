@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ4_2024_NEWS",
+  "base_document_id": "PEP_FQ4_2024",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "This pre-earnings digest describes depressed expectations heading into the Q4 2024 print: PepsiCo carries a Zacks Rank #4 (Sell), a negative Earnings ESP of -0.43%, and coverage explicitly recommends waiting for 'clearer signs of recovery' rather than buying ahead of the report. The document cites persistent inflation, operational challenges in North America (including Quaker Foods recalls), and weakening consumer behavior as reasons for the bearish setup. Because the bar is lowered, there is room for a positive surprise, but the overall tone is clearly bearish, so the score is negative."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101252Z",
+    "timestamp": "2026-08-04T10:13:00Z",
+    "status": "success",
+    "document_id": "PEP_FQ4_2024_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-04",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ4_2024.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3623,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1178,
+    "total_tokens": 4801,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002223,
+    "latency_seconds": 7.75,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.5,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

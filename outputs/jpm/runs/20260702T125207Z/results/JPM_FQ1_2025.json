@@ -1,0 +1,210 @@
+{
+  "document_id": "JPM_FQ1_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "The document reports a strong quarter with net income of $14.6 billion and EPS of $5.07, but the forward guidance is notably cautious. Full-year NII ex. Markets guidance is held at ~$90 billion, and adjusted expense at ~$95 billion, both unchanged. Management explicitly flags 'considerable turbulence,' 'elevated risks and uncertainties,' and a 'wait-and-see attitude' among clients, with Jamie Dimon stating the economy faces 'potential negatives of tariffs and trade wars.' The overall forward signal is negative due to the cautious outlook and unchanged guidance despite the strong quarter."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower"
+  },
+  "summary": {
+    "revenue": "Reported revenue of $45.3 billion; managed revenue of $46.0 billion, up 8% year-on-year.",
+    "eps": "Earnings per share of $5.07, up 14% year-on-year.",
+    "guidance": "FY2025 NII ex. Markets expected to be ~$90 billion; Firmwide NII ~$94.5 billion; adjusted expense ~$95 billion; Card Services NCO rate ~3.6%. All guidance is market-dependent and unchanged from prior.",
+    "margin": "Reported overhead ratio of 52%; managed overhead ratio of 51%. ROE 18%; ROTCE 21%.",
+    "key_risks": [
+      "Geopolitical and trade-related tensions causing increased market volatility and client caution.",
+      "Potential negatives of tariffs and 'trade wars,' ongoing sticky inflation, high fiscal deficits, and still rather high asset prices and volatility.",
+      "Elevated uncertainty in the macroeconomic outlook, with a 50-50 chance of recession according to JPMorgan's economist.",
+      "Deposit margin compression and lower deposit balances in CCB impacting NII.",
+      "Credit costs increased with a net reserve build of $973 million driven by changes in the weighted-average macroeconomic outlook."
+    ],
+    "key_opportunities": [
+      "Strong underlying business and financial results with net income of $14.6 billion.",
+      "Record revenue in Equities Markets, up 48% year-on-year.",
+      "Investment Banking fees up 12% year-on-year; #1 ranking for Global Investment Banking fees with 9.0% wallet share.",
+      "AUM net inflows of $90 billion in AWM; AUM up 15% year-on-year.",
+      "Potential positives of tax reform and deregulation.",
+      "Fortress balance sheet with $1.5 trillion of cash and marketable securities and strong capital levels enabling support for clients."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasizes 'considerable turbulence,' 'elevated risks and uncertainties,' and a 'wait-and-see attitude' among clients, while Jamie Dimon notes the economy faces 'potential negatives of tariffs and trade wars.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $45.3 billion; managed revenue was $46.0 billion, up 8% year-on-year.",
+      "quote": "Net revenue - reported $45,310 ... Net revenue - managed 46,014 ... $ O/(U) O/(U) % $ 3,376 8 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share was $5.07, up 14% year-on-year.",
+      "quote": "Earnings per share - diluted $5.07 ... $ 0.63 14 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year NII ex. Markets guidance is held at ~$90 billion, unchanged.",
+      "quote": "Expect FY2025 net interest income excluding Markets of ~$90B, market dependent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted expense guidance is held at ~$95 billion, unchanged.",
+      "quote": "Expect FY2025 adjusted expense of ~$95B, market dependent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card Services NCO rate guidance is ~3.6%, unchanged.",
+      "quote": "Expect FY2025 Card Services NCO rate of ~3.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious, emphasizing considerable turbulence and elevated risks.",
+      "quote": "The economy is facing considerable turbulence (including geopolitics), with the potential positives of tax reform and deregulation and the potential negatives of tariffs and 'trade wars,' ongoing sticky inflation, high fiscal deficits and still rather high asset prices and volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is a 50-50 chance of a recession according to JPMorgan's economist.",
+      "quote": "I called him this morning, specifically to ask him, how they're looking at their forecast today, they think it's about 50-50 for a recession.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit costs increased with a net reserve build of $973 million.",
+      "quote": "Credit costs of $3.3 billion with $2.3 billion of net charge-offs and a $973 million net reserve build",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equity Markets revenue was up 48% year-on-year, a record.",
+      "quote": "Equity Markets revenue was $3.8 billion, up 48%, driven by higher revenue across products, with particularly strong performance in Derivatives amid elevated levels of volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment Banking fees were up 12% year-on-year; #1 ranking with 9.0% wallet share.",
+      "quote": "Investment Banking fees up 12% YoY, down 9% QoQ; #1 ranking for Global Investment Banking fees with 9.0% wallet share in 1Q25",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AUM net inflows were $90 billion; AUM up 15% year-on-year.",
+      "quote": "AWM had healthy AUM net inflows of $90 billion, and investment performance remained strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The firm has a fortress balance sheet with $1.5 trillion of cash and marketable securities.",
+      "quote": "we have an extraordinary amount of liquidity, with $1.5 trillion of cash and marketable securities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio is 52%; managed overhead ratio is 51%.",
+      "quote": "Expense of $23.6 billion; reported overhead ratio of 52% and managed overhead ratio of 51%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE is 18%; ROTCE is 21%.",
+      "quote": "ROE 18% ROTCE 21%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is -0.30, reflecting cautious forward guidance and unchanged outlook despite a strong quarter.",
+      "quote": "Expect FY2025 net interest income excluding Markets of ~$90B, market dependent ... Expect FY2025 adjusted expense of ~$95B, market dependent",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based on the cautious forward guidance and unchanged outlook, but the strong quarterly results could be interpreted as a positive signal by some analysts. The score may be more negative than some would assign."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-04-11",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\1q25-earnings-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T125207Z",
+    "timestamp": "2026-07-02T12:52:29Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 24508,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-presentation.pdf",
+        "page_count": 14,
+        "extracted_characters": 21865,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\1q25-earnings-transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 96629,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2025.txt"
+  }
+}

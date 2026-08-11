@@ -1,0 +1,44 @@
+{
+  "document_id": "PUM.DE_FQ4_2025_NEWS",
+  "base_document_id": "PUM.DE_FQ4_2025",
+  "issuer": "p2_puma",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This pre-earnings digest describes depressed expectations: consensus EPS is -€1.66, revenue is down ~8% YoY, and a full-year loss is anticipated. The reset narrative is fully embedded, and analysts expect near-term pressures to persist, indicating a low bar that raises the odds of a positive surprise. The score is positive but moderate because the document also notes the reset is 'necessary but painful' and profitability is only expected from 2027 onward."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T102527Z",
+    "timestamp": "2026-08-09T10:25:34Z",
+    "status": "success",
+    "document_id": "PUM.DE_FQ4_2025_NEWS",
+    "issuer": "p2_puma",
+    "company": "Puma",
+    "ticker": "PUM.DE",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-26",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_puma\\PUM.DE_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3722,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1257,
+    "total_tokens": 4979,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002336,
+    "latency_seconds": 7.05,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

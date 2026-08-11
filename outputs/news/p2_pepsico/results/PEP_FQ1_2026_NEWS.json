@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ1_2026_NEWS",
+  "base_document_id": "PEP_FQ1_2026",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "This pre-earnings digest describes a moderately constructive setup: analyst consensus is a Moderate Buy with a price target implying ~13% upside, and management's prior commentary suggests the worst of North America snacks volume pressure may be behind the company. However, expectations are not depressed—EPS and revenue are expected to grow 4-5% and 5-6% respectively, and options imply a contained 4.3% move—so the bar is not low enough for a strongly bullish score. The digest also flags margin pressure from tariffs and a modest North America growth outlook, which tempers the positive signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101336Z",
+    "timestamp": "2026-08-04T10:13:45Z",
+    "status": "success",
+    "document_id": "PEP_FQ1_2026_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-16",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3896,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1366,
+    "total_tokens": 5262,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002503,
+    "latency_seconds": 8.89,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.2,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

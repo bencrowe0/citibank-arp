@@ -1,0 +1,44 @@
+{
+  "document_id": "NFLX_FQ1_2026_NEWS",
+  "base_document_id": "NFLX_FQ1_2026",
+  "issuer": "p2_netflix",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings digest, so no actual results or guidance are available. The document reports consensus revenue of $12.18-12.2B and a wide EPS estimate dispersion ($0.76-$0.79 per one source, ~$1.25 average per another), indicating notable disagreement among analysts. There is no commentary on stretched or depressed expectations, valuation, or stock price momentum, so expectations appear balanced heading into the print, warranting a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260720T162840Z",
+    "timestamp": "2026-07-20T16:28:49Z",
+    "status": "success",
+    "document_id": "NFLX_FQ1_2026_NEWS",
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-16",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_netflix\\NFLX_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3425,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1010,
+    "total_tokens": 4435,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001985,
+    "latency_seconds": 8.23,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

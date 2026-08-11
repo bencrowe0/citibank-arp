@@ -1,0 +1,8 @@
+Goldman Sachs (GS) - News coverage digest, FQ3 2025 earnings (report date 2025-10-14)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 14, 2025 report, estimates ranged from EPS of $10.57-$10.93 (implying ~30% YoY growth) on revenue of $13.99-$14.21 billion (~10-12% YoY growth). The consensus EPS estimate had been revised upward 2.9% over the prior 30 days, and analysts had generally reconfirmed their numbers - a mild positive-momentum signal heading into the print, consistent with the pattern seen across several other financials this same reporting week.
+
+Sources:
+- https://www.nasdaq.com/articles/exploring-analyst-estimates-goldman-gs-q3-earnings-beyond-revenue-and-eps (Nasdaq/Zacks, "Exploring Analyst Estimates for Goldman (GS) Q3 Earnings, Beyond Revenue and EPS" - published prior to the October 14, 2025 report)
+- https://stockstory.org/us/stocks/nyse/gs/news/earnings/goldman-sachs-gs-q3-earnings-report-preview-what-to-look-for (StockStory, "Goldman Sachs (GS) Q3 Earnings Report Preview: What To Look For" - published prior to the report)

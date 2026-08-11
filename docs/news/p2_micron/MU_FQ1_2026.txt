@@ -1,0 +1,84 @@
+PRE-EARNINGS NEWS DIGEST: MICRON TECHNOLOGY (MU)
+Q1 FISCAL 2026 (Report Date: December 17, 2025)
+
+MARKET EXPECTATIONS HEADING INTO EARNINGS:
+
+1. CAPEX EXPANSION SIGNALS
+   Date: November 2025 (Pre-earnings)
+   Source: Industry Reports
+   Content: Market expectations for Micron to raise FY2026 capital expenditure guidance,
+   with analysts anticipating CapEx could reach $18-20 billion to support HBM and DRAM
+   capacity expansion. High capex spending signals management confidence in multi-year
+   memory demand durability.
+
+2. MEMORY SUPPLY TIGHTNESS CONTINUATION
+   Date: November 2025 (Pre-earnings)
+   Content: Analyst consensus pointed to continued tight DRAM and NAND supply-demand dynamics
+   persisting beyond 2026, fueled by ongoing AI data center deployments. Supply constraints
+   expected to support pricing power heading into Q1 FY26 earnings.
+
+3. AI DATA CENTER ACCELERATION
+   Date: Mid-December 2025 (Pre-earnings)
+   Source: Market Analysis and Analyst Commentary
+   Content: Strong expectations for continued AI data center spending by hyperscalers (AWS,
+   Google Cloud, Microsoft Azure). Market anticipated Micron would benefit significantly
+   from increased DRAM content per server and HBM demand.
+
+4. HBM PRODUCT MOMENTUM
+   Date: December 2025 (Pre-earnings)
+   Source: Industry Intelligence
+   Content: Expectations that Micron's HBM3E and HBM4 products would see accelerating
+   adoption. Market monitoring competitive positioning vs. SK Hynix and Samsung in HBM
+   supply, with Micron viewed as having strong contractual commitments extending into 2026.
+
+5. GROSS MARGIN TRAJECTORY
+   Date: Early December 2025
+   Source: Sell-side Analyst Models
+   Content: Consensus models projected gross margins in the 55-58% range for Q1 FY26, with
+   further expansion potential in subsequent quarters. Margin trajectory improvements driven
+   by product mix (higher-margin HBM) and continued pricing strength.
+
+6. RECORD QUARTER EXPECTATIONS
+   Date: Week before December 17, 2025 Report
+   Source: Pre-earnings guidance consensus
+   Content: Multiple analysts revised estimates upward in final week before report, with
+   consensus building around record revenue expectations of $12.5+ billion and record EPS
+   guidance. Market positioned for potential upside surprise if Micron raised Q2 guidance.
+
+7. INVESTOR SENTIMENT SHIFT
+   Date: Mid-December 2025
+   Source: Market Commentary
+   Content: Investor sentiment shifted more positive with holiday data center build-out news.
+   Consensus grew more confident in Micron's ability to sustain strong pricing and volume
+   growth into 2026. "Buy now before it's too late" commentary appeared in financial media.
+
+ANALYST EXPECTATIONS:
+Strong Buy consensus with target prices reflecting belief in sustained AI-driven memory
+super-cycle. Expectations: Q1 would confirm multi-year growth narrative with record
+profitability metrics.
+
+KEY CATALYSTS MONITORED:
+- NVIDIA Hopper and Ada adoption rates
+- Cloud provider CapEx spending announcements
+- Competitive HBM supply availability
+- Memory pricing trends in secondary market
+
+RISK FACTORS ACKNOWLEDGED:
+- Memory price normalization if supply increases faster than expected
+- Potential macroeconomic slowdown impacting capex
+- Customer diversification (concentration risk with hyperscalers)
+- Geopolitical tensions affecting semiconductor supply chain
+
+MARKET PRICING:
+Stock had rallied significantly from Q4 lows heading into Q1 earnings announcement.
+Options market implied volatility suggested market expected significant earnings surprise
+(either direction), creating hedging demand.
+
+Sources:
+- https://simplywall.st/stocks/us/semiconductors/nasdaq-mu/micron-technology
+- https://www.spglobal.com/market-intelligence/
+- Micron Investor Relations (investors.micron.com)
+- https://seekingalpha.com/article/4855497-micron-stock-buy-now-before-its-too-late
+
+Date of Digest Compilation: Mid-December 2025
+All source articles and analyst commentary cited above published before December 17, 2025 report date.

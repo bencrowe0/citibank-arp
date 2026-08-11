@@ -1,0 +1,170 @@
+{
+  "document_id": "AMZN_FQ4_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "Forward guidance on capex is a major negative surprise: 2026 capex projected at about $200B versus the roughly $146.6B analysts expected, which directly hits the key investor fear of free cash flow erosion. Net income also missed expectations. While AWS and advertising showed strong operational momentum, the capex shock and net income miss dominate the forward outlook, pulling the score negative."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$213.4B, up 12% year over year excluding currency",
+    "eps": "Not disclosed",
+    "guidance": "Q1 2026 net sales guided to $173.5B to $178.5B, operating income $16.5B to $21.5B; 2026 capex projected at about $200B",
+    "margin": "AWS operating margin 35% through Q4, up 40 basis points year over year",
+    "key_risks": [
+      "Results may be materially affected by geopolitics, tariffs and supply volatility",
+      "AWS margins expected to fluctuate as AI investments depreciate",
+      "Possible revenue compression if shoppers adopt third-party agents over Amazon's own",
+      "Net income missed expectations",
+      "2026 capex of about $200B far above the roughly $146.6B analysts expected"
+    ],
+    "key_opportunities": [
+      "AWS is now a $142 billion annualized run rate business, up 24%",
+      "Advertising up 22%",
+      "Trainium is a multibillion-dollar annualized run rate business and fully subscribed"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management highlights strong AWS and advertising growth but also acknowledges net income miss, a massive capex increase, and multiple risk factors including geopolitics and AI investment depreciation."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $213.4B, up 12% year over year excluding currency.",
+      "quote": "Revenue $213.4B, up 12% year over year excluding currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS is a $142 billion annualized run rate business.",
+      "quote": "AWS is now a $142 billion annualized run rate business – Jassy, prepared remarks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS operating margin is 35% through Q4, up 40 basis points year over year.",
+      "quote": "AWS is 35% operating margin through Q4, up 40 basis points year over year – Olsavsky, Q&A.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue was $21.3B, up 22%.",
+      "quote": "Advertising $21.3B, up 22%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income missed expectations.",
+      "quote": "Net income missed expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 net sales guided to $173.5B to $178.5B, operating income $16.5B to $21.5B.",
+      "quote": "Q1 2026 net sales guided to $173.5B to $178.5B, operating income $16.5B to $21.5B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 capex projected at about $200B, far above the roughly $146.6B analysts expected.",
+      "quote": "2026 capex projected at about $200B, far above the roughly $146.6B analysts expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Results may be materially affected by geopolitics, tariffs and supply volatility.",
+      "quote": "Results may be materially affected by geopolitics, tariffs and supply volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS margins expected to fluctuate as AI investments depreciate.",
+      "quote": "AWS margins expected to fluctuate as AI investments depreciate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Possible revenue compression if shoppers adopt third-party agents over Amazon's own.",
+      "quote": "Possible revenue compression if shoppers adopt third-party agents over Amazon's own.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trainium is a multibillion-dollar annualized run rate business and fully subscribed.",
+      "quote": "Trainium is a multibillion-dollar annualized run rate business and it's fully subscribed – Jassy, Q&A.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, highlighting strong AWS and advertising but also net income miss and massive capex increase.",
+      "quote": "Operationally fine, with AWS up 24% at a 35% margin, but net income missed and the 2026 capex plan of roughly $200B against the $147B the Street modeled is a shock investors were not braced for.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based on the analyst's worksheet interpretation of the capex shock and net income miss; the document does not contain explicit management guidance reduction, only a capex surprise. A human reviewer should confirm the score is appropriate given the mixed signals."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS is not disclosed in the document; the worksheet mentions net income missed but no EPS figure is provided."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "AMZN_Bundled Earnings Report_2026-02-05",
+  "report_metadata": {
+    "issuer": "p2_amazon",
+    "company": "Amazon",
+    "ticker": "AMZN",
+    "sector": "Consumer/Retail-Tech",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q4\\03 amazon q4 2025 david.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMZN_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212256Z",
+    "timestamp": "2026-07-18T21:23:19Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q4\\03 amazon q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q4\\03 amazon q4 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5314,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ4_2025.txt"
+  }
+}

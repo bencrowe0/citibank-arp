@@ -1,0 +1,44 @@
+{
+  "document_id": "NFLX_FQ2_2025_NEWS",
+  "base_document_id": "NFLX_FQ2_2025",
+  "issuer": "p2_netflix",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This is a pre-earnings digest, so no actual results or guidance are available. The document describes broad-based regional growth expectations and specific, trackable targets for ad revenue doubling, which suggests elevated market expectations heading into the print. However, there is no commentary about stretched valuation or a 'priced for perfection' scenario, nor any mention of depressed expectations or a lowered bar. The tone is neutral-positive, but the bar appears moderately high given the specific targets already in market expectations, limiting upside surprise potential. Score is set at +0.15 to reflect a mildly positive setup without strong evidence of either stretched or depressed expectations."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T162809Z",
+    "timestamp": "2026-07-20T16:28:20Z",
+    "status": "success",
+    "document_id": "NFLX_FQ2_2025_NEWS",
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-17",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_netflix\\NFLX_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3493,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1304,
+    "total_tokens": 4797,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002326,
+    "latency_seconds": 11.03,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

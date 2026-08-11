@@ -1,0 +1,44 @@
+{
+  "document_id": "MAR_FQ1_2026_NEWS",
+  "base_document_id": "MAR_FQ1_2026",
+  "issuer": "p2_marriott",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This pre-earnings digest indicates a moderately positive setup: the Zacks Consensus Estimate for EPS implies 12.1% growth and revenue growth of 5.3%, which is described as 'a notably stronger implied growth setup than the prior several quarters.' However, management's own RevPAR guidance of 1-2% growth is modest and includes headwinds from calendar timing and tough U.S. comparisons, suggesting expectations are not excessively stretched. The score reflects a slightly positive bias due to the stronger growth setup, but not a strong bullish signal because the bar is not described as depressed and there are noted headwinds."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T103328Z",
+    "timestamp": "2026-08-04T10:33:36Z",
+    "status": "success",
+    "document_id": "MAR_FQ1_2026_NEWS",
+    "issuer": "p2_marriott",
+    "company": "Marriott",
+    "ticker": "MAR",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_marriott\\MAR_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3525,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1111,
+    "total_tokens": 4636,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002123,
+    "latency_seconds": 6.26,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

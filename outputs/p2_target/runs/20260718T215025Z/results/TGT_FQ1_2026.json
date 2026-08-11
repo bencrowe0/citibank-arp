@@ -1,0 +1,213 @@
+{
+  "document_id": "TGT_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Full-year net sales guidance was raised by 2 percentage points (from a range centered around 2% to a range centered around 4%), and EPS guidance was raised to the high end of the prior $7.50-$8.50 range. The guidance raise is organic, driven by stronger-than-expected Q1 results and early proof points from strategic initiatives, not attributed to one-time items. However, management explicitly maintains a cautious outlook, flags tougher Q2 comparisons, and notes consumer sentiment declines, which tempers the score below +0.5."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales of $25.4 billion, up 6.7% year-over-year; comparable sales up 5.6%.",
+    "eps": "GAAP and adjusted EPS of $1.71, 24% lower than prior year GAAP EPS and 32% higher than prior year adjusted EPS.",
+    "guidance": "Full-year net sales growth now planned around 4% (up from prior range centered around 2%); EPS expected near the high end of the prior $7.50-$8.50 range.",
+    "margin": "Q1 gross margin rate of 29%, up about 80 bps year-over-year; Q1 operating margin rate of 4.5%, lower than last year's GAAP rate of 6.2% but about 80 bps higher than last year's adjusted rate of 3.7%.",
+    "key_risks": [
+      "Tougher prior-year comparison in Q2 (nearly 2 percentage point difference due to Nintendo Switch 2 launch last year)",
+      "Higher tax refunds in Q1 seen as a temporary benefit that will fade over the rest of the year",
+      "Declining consumer sentiment and uncertain operating environment",
+      "Cost headwinds in the first half expected to moderate in the second half (accelerated depreciation, shrink accrual timing)",
+      "Product findability and in-stock availability remain friction points"
+    ],
+    "key_opportunities": [
+      "Early proof points from merchandising strategy (baby, wellness, food, toys, partnerships) showing strong guest response",
+      "Investments in store payroll, training, and remodels driving three-year highs in guest experience metrics",
+      "Supply chain improvements: inventory turns up more than 10% year-over-year, new facilities opening, new supply chain leader hired",
+      "Planned multiyear reinvention of home category and launch of Target Beauty Studio in over 600 stores",
+      "Strong new store pipeline (30+ openings this year, 300 by 2035)"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses clear encouragement and confidence in early progress ('we're very encouraged by our Q1 results') but repeatedly tempers it with caution ('we're maintaining a cautious outlook overall', 'we have a ton of work ahead of us')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year net sales guidance was raised by 2 percentage points.",
+      "quote": "For the full year, we are now planning for a net sales increase in a range centered around 4%. This outlook is 2 percentage points stronger than our prior range and reflects some moderation from our first quarter pace based on the reasons I outlined above.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS guidance was raised to the high end of the prior range.",
+      "quote": "We previously provided an EPS range of $7.50 to $8.50. Given the profit upside we saw in the first quarter, we are now expecting to end the year near the high end of that range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 net sales were $25.4 billion, up 6.7% year-over-year.",
+      "quote": "For the quarter, net sales of $25.4 billion were 6.7% higher than last year and 3.7% higher than two years ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales were up 5.6%.",
+      "quote": "Comp growth of 5.6% was driven primarily by a 4.4% increase in traffic, which more than offset a 2.4% decline a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP and adjusted EPS was $1.71.",
+      "quote": "Altogether, our business delivered first quarter GAAP and adjusted EPS of $1.71, 24% lower than prior year GAAP EPS and 32% higher than prior year adjusted EPS.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 gross margin rate was 29%, up about 80 bps year-over-year.",
+      "quote": "On the gross margin line, our first quarter rate of 29% was about 80 basis points higher than a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 operating margin rate was 4.5%.",
+      "quote": "Our Q1 operating margin rate of 4.5% was lower than last year's rate of 6.2%, but about 80 basis points higher than last year's adjusted rate of 3.7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management maintains a cautious outlook despite the guidance raise.",
+      "quote": "As Michael said earlier, while we're very encouraged by our Q1 performance, we have a ton of work ahead of us, and we're maintaining a cautious outlook overall.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tougher Q2 comparison due to Nintendo Switch 2 launch last year.",
+      "quote": "Notably, in the quarter just ended, we faced the easiest prior year comparison of the year, and we'll be facing the hardest comparison in Q2, a nearly 2 percentage point difference as we begin lapping last year's launch of the Nintendo Switch 2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher tax refunds were a temporary benefit in Q1.",
+      "quote": "Furthermore, we believe this year's higher tax refunds were a source of upside to consumer spending in Q1 and that benefit will be feeding over the rest of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer sentiment has been declining.",
+      "quote": "While consumers have proven to be resilient so far, sentiment has been declining recently, and we're keeping a close eye on their spending behavior.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost headwinds in the first half are expected to moderate in the second half.",
+      "quote": "In addition, we continue to expect more challenging cost headwinds in the first half of the year that are expected to moderate in the second half.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Product findability and in-stock availability remain friction points.",
+      "quote": "Product findability and in-stock availability remain the biggest friction points for our guests, particularly in high-frequency categories like food and at critical times like evenings and weekends.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Early proof points from merchandising strategy show strong guest response.",
+      "quote": "We're encouraged by what we're seeing including a more than 5 percentage point acceleration in baby comp trends in the back half of the quarter following the launch of these new offerings showing that when we reduce friction and build trust early in a family's journey, we foster an ongoing relationship that spans across categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Store experience metrics reached three-year highs.",
+      "quote": "In Q1, many of our store experience metrics reached three-year highs with improved Net Promoter Scores and overall satisfaction regarding wait times, product availability, store cleanliness, and interactions with our team.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory turns up more than 10% year-over-year.",
+      "quote": "In Q1, we saw higher inventory productivity with turns up more than 10% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New supply chain leader hired.",
+      "quote": "I'm excited to announce that we recently hired Jeff England as our Chief Global Supply Chain and Logistics Officer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Planned multiyear reinvention of home category.",
+      "quote": "In home, we're beginning a multiyear reinvention. We'll make significant edits to decorative accessories this quarter, changing out nearly three-fourths of this assortment. Later this year, we'll introduce that same level of change to kids home and bedding categories as we continue to clarify our offerings and value proposition in these ever-important style categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Target Beauty Studio to launch in more than 600 stores.",
+      "quote": "And in beauty, we're preparing for this fall's launch of our Target beauty studio in more than 600 stores, building on the momentum we've been seeing in the beauty category.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong new store pipeline: 30+ openings this year, 300 by 2035.",
+      "quote": "We shared the news that we recently opened our 2,000th store, we have 100 remodels underway this year. We'll have 30 new stores this year on our way to 300 by 2035.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a guidance raise that is partially offset by cautious language and known headwinds. A reviewer may wish to assess whether the caution should pull the score lower or whether the guidance raise is more significant."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2026-05-20",
+  "report_metadata": {
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2026-Q1\\TGT-USQ_Transcript_2026-05-20.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TGT_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T215025Z",
+    "timestamp": "2026-07-18T21:51:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2026-Q1\\TGT-USQ_Transcript_2026-05-20.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2026-Q1\\TGT-USQ_Transcript_2026-05-20.pdf",
+        "page_count": 19,
+        "extracted_characters": 69856,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ1_2026.txt"
+  }
+}

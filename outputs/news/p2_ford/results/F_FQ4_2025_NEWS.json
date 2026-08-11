@@ -1,0 +1,44 @@
+{
+  "document_id": "F_FQ4_2025_NEWS",
+  "base_document_id": "F_FQ4_2025",
+  "issuer": "p2_ford",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "This is a pre-earnings digest, so no actual results or guidance are available. The document describes analyst consensus calling for adjusted EPS of $0.19 and notes that Ford had been managing elevated tariff-related costs through 2025. The mention of 'elevated tariff-related costs' and a 'choppy year for the automotive sector broadly' suggests a somewhat depressed or cautious expectation environment, but there is no explicit language about stretched valuations or a beaten-down bar. The score is slightly negative because the risks are highlighted but not extreme."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260730T175446Z",
+    "timestamp": "2026-07-30T17:54:53Z",
+    "status": "success",
+    "document_id": "F_FQ4_2025_NEWS",
+    "issuer": "p2_ford",
+    "company": "Ford",
+    "ticker": "F",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_ford\\F_FQ4_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3413,
+    "cache_hit_tokens": 256,
+    "output_tokens": 865,
+    "total_tokens": 4278,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001822,
+    "latency_seconds": 6.92,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": -0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,9 @@
+PepsiCo (PEP) - News coverage digest, FQ3 2024 earnings (report date 2024-10-08)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Heading into the October 8, 2024 report, consensus called for Q3 revenue growth of just 1.4% year-over-year to $23.78 billion - a sharp slowdown from the 6.7% growth recorded in the same quarter a year earlier - with adjusted EPS expected at $2.29. Sentiment among analysts was explicitly bearish going in: pre-earnings coverage noted 9 downward revenue-estimate revisions over the prior 30 days, and PepsiCo had already missed Wall Street's revenue estimate in two of the prior several quarters, with the Q2 2024 print described as "slower," missing organic revenue growth estimates and delivering "underwhelming" full-year earnings guidance.
+
+The setup was one of depressed expectations heading into the print: after the Quaker Foods North America recalls, softening U.S. demand, and disruption in some international markets weighed on results earlier in the year, the market had already priced in continued deceleration rather than a rebound, framing the key question as whether PepsiCo could stabilize (not reaccelerate) its growth trajectory.
+
+Sources:
+- https://finance.yahoo.com/news/pepsico-pep-q3-earnings-report-070046863.html (Yahoo Finance/StockStory, "PepsiCo (PEP) Q3 Earnings Report Preview: What To Look For", published October 7, 2024, one day ahead of the October 8 report)

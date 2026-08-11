@@ -1,0 +1,100 @@
+PRE-EARNINGS NEWS DIGEST - WORKDAY (WDAY) Q3 FY2026
+Report Date: November 25, 2025
+Report Period: Q3 FY2026 (ended October 31, 2025)
+
+==============================================================================
+ANALYST EXPECTATIONS & MARKET SENTIMENT
+==============================================================================
+
+EARNINGS PER SHARE CONSENSUS:
+- Expected: ~$2.17-$2.18 per share (adjusted/non-GAAP)
+- Prior Year Q3: ~$1.76 per share (implied ~23-25% YoY growth expected)
+
+REVENUE EXPECTATIONS:
+- Expected: ~$2.42 billion
+- Prior Year Q3: ~$2.15 billion
+- Expected Growth: ~11.8% YoY
+
+GUIDANCE & FORWARD EXPECTATIONS:
+- Full-year FY2026 subscription revenue guidance maintained at ~$8.828 billion
+- FY2027 growth expected: ~13% (below FY2026's ~14.4%)
+- Operating margin guidance for Q4: estimated 28.7% (StreetAccount consensus)
+
+KEY ANALYST VIEWS (Pre-Earnings):
+- Analysts generally reconfirmed estimates over the last 30 days
+- Mixed sentiment on future growth trajectory
+- Macro headwinds from potential trade policy changes noted
+- Concerns about corporate tax policy impact on business confidence
+
+==============================================================================
+KEY BUSINESS DEVELOPMENTS (Pre-Earnings)
+==============================================================================
+
+1. AI PRODUCT MOMENTUM CONTINUES
+   - AI-driven solutions showing accelerating adoption
+   - AI products contributing ~1.5 points to ARR growth
+   - Integrated AI features across HCM and Financial Management platforms
+   - Over 75% of net new deals including AI components
+
+2. SUBSCRIPTION REVENUE GROWTH TRAJECTORY
+   - Q2 subscription revenue growth: 14% (accelerating from Q1)
+   - Market expectations for Q3: 13-14% range
+   - Full-year FY2026 guidance: 14% growth (implies consistent mid-teens growth)
+
+3. MARGIN ENVIRONMENT & INVESTMENT
+   - Non-GAAP operating margins stable at ~28-29% range
+   - Continued investments in AI product development
+   - Professional services margins under pressure (expected for software companies)
+
+4. MACRO & COMPETITIVE CONTEXT
+   - Macro uncertainty from potential trade policy changes
+   - Corporate tax environment discussions affecting business confidence
+   - Tech sector showing mixed momentum entering holiday season
+   - Competitive pressures from legacy ERP vendors adding AI capabilities
+
+5. CUSTOMER EXPANSION INITIATIVES
+   - Financial Management product gaining traction (Salesforce went live in Q2)
+   - Success in SLED (State, Local, Education) segment expanding
+   - Healthcare vertical momentum continuing
+   - International expansion through cloud infrastructure (e.g., UK AWS launch in Q1)
+
+==============================================================================
+INVESTOR FOCUS AREAS FOR Q3 EARNINGS
+==============================================================================
+
+- Q3 subscription revenue growth vs. Q2's 14% (confirmation of momentum)
+- Detailed AI revenue contribution and unit economics
+- Full-year FY2026 guidance reaffirmation or revision
+- FY2027 guidance initialization (critical for valuation)
+- Operating margin performance vs. guidance
+- Enterprise customer wins and average deal size trends
+- Professional services revenue and profitability
+- Free cash flow generation and capital allocation
+
+==============================================================================
+MARKET CONDITIONS HEADING INTO EARNINGS
+==============================================================================
+
+- U.S. macro environment uncertain due to potential policy changes
+- Technology sector valuations recovering from earlier 2025 weakness
+- Enterprise software sector showing resilience in mission-critical segments
+- Increased focus on AI implementation ROI by enterprise customers
+- Competitive intensity in HCM and Finance automation markets intensifying
+
+==============================================================================
+SOURCES
+==============================================================================
+
+- StockStory: "Workday (WDAY) Q3 Earnings Report Preview: What To Look For"
+  https://stockstory.org/us/stocks/nasdaq/wday/news/earnings/
+
+- CNBC: Coverage and analysis of Workday entering Q3 earnings season
+  https://www.cnbc.com/ (November 2025 articles)
+
+- Yahoo Finance: Analyst consensus and earnings expectations
+  https://finance.yahoo.com/
+
+- Simply Wall St: Analyst sentiment and forecast tracking
+  https://simplywall.st/stocks/us/software/nasdaq-wday/workday/future
+
+- Financial Content: Market data and consensus estimates

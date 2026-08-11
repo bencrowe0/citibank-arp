@@ -1,0 +1,229 @@
+{
+  "document_id": "C_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong quarter with net income of $4.1B, up 21% YoY, and revenues up 3% YoY. However, full-year 2025 guidance is reaffirmed unchanged, not raised, and management explicitly flags 'uncertainty and deterioration in the macroeconomic outlook' as a driver of an ACL build. The positive operating momentum across businesses is genuine, but the unchanged guidance and cautious forward language on credit costs and macro conditions prevent a higher score. The score of 0.15 reflects the operational momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues, net of interest expense of $21,596 million for 1Q25, up 3% from $21,016 million in 1Q24.",
+    "eps": "Diluted earnings per share of $1.96, up from $1.58 in 1Q24, an increase of 24%.",
+    "guidance": "Full year 2025 guidance unchanged: revenues ~$83.1-84.1 billion, expenses slightly below $53.4 billion, NII ex-Markets up 2-3%. Subject to macro and market conditions.",
+    "margin": "Efficiency ratio of 62.2% for 1Q25, improved by 490 bps YoY from 67.1% in 1Q24. Return on average tangible common equity (RoTCE) of 9.1%, up 150 bps from 7.6% in 1Q24.",
+    "key_risks": [
+      "Higher cost of credit: total cost of credit of $2.7 billion increased 15% YoY, driven by higher net credit losses in card portfolios and a net ACL build related to deterioration in the macroeconomic outlook.",
+      "Uncertainty and deterioration in the macroeconomic outlook: management explicitly cites this as a driver of the ACL build and notes it is subject to changing conditions.",
+      "Higher net credit losses in USPB card portfolios: NCLs in Branded Cards and Retail Services increased, with NCL rates at 3.89% and 6.43% respectively.",
+      "Decline in All Other revenues: All Other (managed basis) revenues decreased 39% YoY, driven by lower NII, mark-to-market valuation changes on investments, and Mexican peso depreciation.",
+      "Geopolitical and macroeconomic uncertainties: forward-looking statements reference risks including tariffs, inflation, unemployment, and slowing economic growth."
+    ],
+    "key_opportunities": [
+      "Growth across five interconnected businesses: Services recorded best first quarter revenue in a decade; Markets revenue up 12% YoY; Banking up 12% YoY; Wealth up 24% YoY; USPB up 2% YoY.",
+      "Market share gains in Services: TTS gained ~65 bps of market share YoY; Securities Services gained ~100 bps of market share YoY.",
+      "Investment Banking wallet share gains: IB fees up 14% YoY, increased market share by ~80 bps YoY, Advisory fees up 84% YoY.",
+      "Wealth momentum: Client investment assets up 16% YoY, NNIA of $16.5B representing 11% organic growth.",
+      "Capital return to shareholders: Returned ~$2.8 billion in common dividends and share repurchases in 1Q25, with a $20 billion buyback program authorized."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jane Fraser stated 'we delivered a strong quarter, marked by continued momentum, positive operating leverage and improved returns in each of our five businesses' and 'We remain intently focused on executing our strategy, which is based on a diversified business mix and will perform in a wide variety of macro scenarios.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues were $21.6 billion, up 3% YoY.",
+      "quote": "Total revenues, net of interest expense 21,016$ ... 21,596$ ... 3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.96, up 24% YoY from $1.58.",
+      "quote": "Diluted earnings per share: Income (loss) from continuing operations 1.58$ ... 1.96$ ... 24%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 guidance is unchanged.",
+      "quote": "Full year 2025 guidance unchanged(1), subject to macro and market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved to 62.2%, down 490 bps YoY.",
+      "quote": "Efficiency ratio (total operating expenses/total revenues, net) 67.1% ... 62.2% (490) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RoTCE was 9.1%, up 150 bps YoY.",
+      "quote": "Return on average tangible common equity (RoTCE)(6) 7.6% ... 9.1% ... 150 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost of credit increased 15% YoY to $2.7 billion.",
+      "quote": "Citigroup cost of credit of $2.7 billion increased 15%, driven by a higher net build in the allowance for credit losses (ACL) related to deterioration in the macroeconomic outlook in the current quarter relative to the prior-year period, and higher net credit losses in the card portfolios in USPB.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Citi CEO Jane Fraser said, 'With net income of $4.1 billion we delivered a strong quarter, marked by continued momentum, positive operating leverage and improved returns in each of our five businesses.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services recorded best first quarter revenue in a decade.",
+      "quote": "Services recorded its best first quarter revenue in a decade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth revenues increased 24% YoY.",
+      "quote": "Wealth revenues increased 24% with progress across all three client segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees up 14% YoY, Advisory fees up 84%.",
+      "quote": "Advisory fees increased 84%, as the business gained wallet share overall and across numerous sectors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Returned ~$2.8 billion to shareholders in 1Q25.",
+      "quote": "We returned $2.8 billion in capital to our shareholders including $1.75 billion of buybacks as part of our $20 billion plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net credit losses in USPB card portfolios increased.",
+      "quote": "Net credit losses on loans 1,864$ ... 1,983$ ... 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "All Other (managed basis) revenues decreased 39% YoY.",
+      "quote": "All Other (managed basis) revenues of $1.4 billion decreased 39%, driven by lower net interest income and the impact of mark-to-market valuation changes on certain investments in Corporate/Other as well as lower revenue related to wind-down and exit markets and the impact of Mexican peso depreciation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TTS gained ~65 bps of market share YoY.",
+      "quote": "TTS: gained ~65 bps of market share YoY(4)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Securities Services gained ~100 bps of market share YoY.",
+      "quote": "Securities Services: gained ~100 bps of market share YoY(7)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income was $4.1 billion, up 21% YoY.",
+      "quote": "Citigroup's net income (loss) 3,371$ ... 4,064$ ... 21%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance is subject to macro and market conditions.",
+      "quote": "Full year 2025 guidance unchanged(1), subject to macro and market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the HOLD/BUY threshold. A reviewer may wish to confirm whether the operational momentum described (e.g., record Services revenue, Wealth growth) justifies a BUY signal despite unchanged guidance and cautious credit language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "C_Bundled Earnings Report_2025-04-15",
+  "report_metadata": {
+    "issuer": "p2_citigroup",
+    "company": "Citigroup",
+    "ticker": "C",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-15",
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q1\\2025fsqtr1rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q1\\2025prqtr1rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q1\\2025psqtr1rslt.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "C_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212910Z",
+    "timestamp": "2026-07-18T21:30:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q1\\2025fsqtr1rslt.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q1\\2025fsqtr1rslt.pdf",
+        "page_count": 23,
+        "extracted_characters": 69526,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q1\\2025prqtr1rslt.pdf",
+        "page_count": 15,
+        "extracted_characters": 45909,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q1\\2025psqtr1rslt.pdf",
+        "page_count": 39,
+        "extracted_characters": 76316,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ1_2025.txt"
+  }
+}

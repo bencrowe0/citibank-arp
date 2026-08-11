@@ -1,0 +1,44 @@
+{
+  "document_id": "PEP_FQ3_2023_NEWS",
+  "base_document_id": "PEP_FQ3_2023",
+  "issuer": "p2_pepsico",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This pre-earnings digest describes depressed market expectations: PEP shares had fallen roughly 6% year-to-date into the report on GLP-1 fears, and the setup is framed as 'depressed sentiment/valuation relative to PepsiCo's still-solid pricing-driven fundamentals.' The bar is low, increasing the odds of a positive surprise even on modest results. Forward guidance is not yet known, but the digest indicates a low bar and a key swing factor that could ease the overhang, supporting a mildly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260804T101209Z",
+    "timestamp": "2026-08-04T10:12:18Z",
+    "status": "success",
+    "document_id": "PEP_FQ3_2023_NEWS",
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-10-10",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_pepsico\\PEP_FQ3_2023.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3797,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1250,
+    "total_tokens": 5047,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002349,
+    "latency_seconds": 8.18,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

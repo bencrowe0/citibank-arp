@@ -1,0 +1,17 @@
+{
+  "dev_n": 54,
+  "eval_n": 214,
+  "dev_fraction": 0.2,
+  "dev_date_range": [
+    "2023-04-25",
+    "2025-05-29"
+  ],
+  "eval_date_range": [
+    "2025-07-10",
+    "2026-07-13"
+  ],
+  "fitted_upper": 0.01865439425232465,
+  "fitted_lower": -0.02977884825925115,
+  "dev_accuracy": 0.537,
+  "note": "Thresholds fit on dev split only (earliest 20% by report_date), applied frozen to eval split - never fit on the events they are scored on."
+}

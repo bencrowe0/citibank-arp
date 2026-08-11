@@ -1,0 +1,44 @@
+{
+  "document_id": "BCS_FQ1_2026_NEWS",
+  "base_document_id": "BCS_FQ1_2026",
+  "issuer": "p2_barclays",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "This is a pre-earnings market expectations digest, not an earnings release. The document describes analyst consensus EPS of $0.76 and notes the stock had rallied and the Investment Bank had just crossed a £4bn quarterly milestone, suggesting elevated expectations. There is no mention of depressed expectations or a low bar, so the bar appears neutral to slightly stretched, warranting a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260730T175430Z",
+    "timestamp": "2026-07-30T17:54:37Z",
+    "status": "success",
+    "document_id": "BCS_FQ1_2026_NEWS",
+    "issuer": "p2_barclays",
+    "company": "Barclays",
+    "ticker": "BCS",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_barclays\\BCS_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3451,
+    "cache_hit_tokens": 256,
+    "output_tokens": 958,
+    "total_tokens": 4409,
+    "cached_input": false,
+    "estimated_cost_usd": 0.001934,
+    "latency_seconds": 7.19,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": false,
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

@@ -1,0 +1,7 @@
+Marriott (MAR) - News coverage digest, FQ2 2025 earnings (report date 2025-08-05)
+Fetched via web search across free financial outlets. Window: pre-earnings coverage strictly before report_date, no post-earnings content.
+
+Ahead of its second-quarter 2025 report, scheduled for Tuesday, August 5, 2025 before the opening bell, the Zacks Consensus Estimate for Marriott's EPS stood at $2.64, indicating growth of 5.6% from $2.50 in the year-ago quarter, with the revenue consensus pegged at nearly $6.7 billion (+3.5% year-over-year). Marriott's earnings had beaten the Zacks Consensus Estimate in three of the trailing four quarters and missed once, with an average surprise of just 0.9% - a noticeably thinner beat cushion than peers, signaling a more closely-calibrated Street setup heading into the print. Analysts expected the quarter's performance to have benefited from sustained strength in group bookings, strong international RevPAR momentum, and resilient growth in fee-based income.
+
+Sources:
+- https://www.nasdaq.com/articles/marriott-report-q2-earnings-whats-store-stock (Zacks Equity Research via Nasdaq, published August 1, 2025)

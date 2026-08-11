@@ -1,0 +1,219 @@
+{
+  "document_id": "GS_FQ1_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a strong quarter with EPS of $14.12 beating expectations of $12.32, but forward guidance is not formally raised. Management expresses confidence in the franchise but also highlights significant macroeconomic uncertainty, a slowing US growth outlook, and risks from trade policy. The backlog is up for the fourth consecutive quarter, but execution depends on market conditions. The overall tone is confident about the firm's positioning but cautious on the near-term outlook, leading to a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues of $15.1 billion for Q1 2025.",
+    "eps": "Earnings per share of $14.12, beating expectations of $12.32.",
+    "guidance": "Not formally raised. Backlog is up for the fourth consecutive quarter, but execution is dependent on market conditions. Management expects high single-digit annual growth in durable revenues (Management and other fees and Private banking and lending) over time. Expects to make progress on $1 billion annual incentive fees target. Expects fundraising to be in line with recent years, though this outlook could be impacted by market conditions. Full-year tax rate expected to be approximately 21%.",
+    "margin": "Pre-tax margin of 21% in Asset & Wealth Management segment. Firm-wide efficiency ratio of 60.6%. Compensation ratio net of provisions was 33%.",
+    "key_risks": [
+      "Significant near-term and longer-term uncertainty from trade war and policy changes, creating material risks to the US and global economy.",
+      "Prospect of a recession has increased with growing indications of slowing economic activity around the world.",
+      "Uncertainty around the path forward and fears over potentially escalating effects of the trade war.",
+      "Market conditions could impact fundraising outlook.",
+      "Difficult monetization environment for incentive fees.",
+      "Potential for some deal backlog to slow if landscape gets more constrained."
+    ],
+    "key_opportunities": [
+      "Leading global franchise and best-in-class talent, risk management, and execution capabilities.",
+      "Number one M&A advisor globally for the last 20 years.",
+      "Record assets under supervision of $3.2 trillion and 29th consecutive quarter of long-term fee-based net inflows.",
+      "Strong progress in alternatives fundraising ($19 billion in the quarter, $342 billion since 2019).",
+      "Wealth Management revenue grew 11% year-over-year to $2.2 billion, with record client assets of $1.6 trillion.",
+      "Leveraging AI solutions to scale engineering capabilities and improve efficiency.",
+      "Potential for regulatory tailwinds (SLR, Basel III, GSIB, supervision) to free up capital.",
+      "Elevated client dialogues and increased backlog, particularly in advisory.",
+      "Record FICC financing revenues of $1 billion and record equities financing revenues of $1.6 billion.",
+      "New $40 billion multi-year share repurchase program provides capital management flexibility."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes the quarter as 'very strong results' and states 'our leading franchises have never been better positioned to support our clients,' while also acknowledging a 'highly dynamic environment' and 'significant near-term and longer-term uncertainty.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues were $15.1 billion for Q1 2025.",
+      "quote": "In the first quarter, we generated net revenues of $15.1 billion, earnings per share of $14.12, an ROE of 16.9% and an ROTE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share was $14.12, beating expectations of $12.32.",
+      "quote": "The Goldman Sachs Group, Inc. beats earnings expectations. Reported EPS is $14.12, expectations were $12.32.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance is not formally raised; backlog is up but execution depends on market conditions.",
+      "quote": "As we stand today, our client dialogues remain elevated and our backlog is up for the fourth consecutive quarter. That being said, our ability to execute on these transactions will, of course, be dependent on market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects high single-digit annual growth in durable revenues over time.",
+      "quote": "We continue to expect high single-digit annual growth in these lines over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year tax rate expected to be approximately 21%.",
+      "quote": "For the full year, we expect a tax rate of approximately 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pre-tax margin of 21% in Asset & Wealth Management segment.",
+      "quote": "In the AWM segment, we generated 21% pre-tax margin and roughly 10% ROE.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Firm-wide efficiency ratio was 60.6%.",
+      "quote": "Total quarterly operating expenses were $9.1 billion, resulting in an efficiency ratio of 60.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Compensation ratio net of provisions was 33%.",
+      "quote": "Our compensation ratio net of provisions, was 33%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Significant uncertainty from trade war and policy changes creates material risks.",
+      "quote": "This uncertainty around the path forward and fears over the potentially escalating effects of the trade war have created material risks to the US and global economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Prospect of a recession has increased.",
+      "quote": "The prospect of a recession has increased with growing indications that economic activity is slowing down around the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record assets under supervision of $3.2 trillion.",
+      "quote": "This quarter, our assets under supervision rose to a record of $3.2 trillion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "29th consecutive quarter of long-term fee-based net inflows.",
+      "quote": "This represents our 29th consecutive quarter of long-term fee-based net inflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Alternatives fundraising of $19 billion in the quarter.",
+      "quote": "We raised another $19 billion in the quarter, bringing our total fundraising of alternatives since 2019 to $342 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth Management revenue grew 11% year-over-year to $2.2 billion.",
+      "quote": "Total Wealth Management revenue grew 11% year-over-year to $2.2 billion, while client assets reached another record of $1.6 trillion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leveraging AI solutions to scale engineering capabilities.",
+      "quote": "As an example, we are leveraging AI solutions to scale and transform our engineering capabilities as well as to simplify and modernize our technology stack.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for regulatory tailwinds to free up capital.",
+      "quote": "I continue to believe, even in this environment, that there will be progress on this. We obviously don't know how this will unfold, but the messages I'm getting leave me optimistic that there will be progress, and that's very good for the industry as a whole.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record FICC financing revenues of $1 billion.",
+      "quote": "We produced record FICC financing revenues of $1 billion, driven by solid performance in mortgages and structured lending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record equities financing revenues of $1.6 billion.",
+      "quote": "Record equities financing revenues of $1.6 billion were higher year-over-year on better portfolio financing results and record average prime balances for the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New $40 billion multi-year share repurchase program.",
+      "quote": "Importantly, our Board recently authorized a multi-year share repurchase program of up to $40 billion, providing us increased capital management flexibility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "In a highly dynamic environment, we produced very strong results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is based on a strong quarter but no formal guidance raise and cautious forward language. A reviewer may consider whether the strong backlog and record financing revenues warrant a slightly higher score, or whether the explicit recession risk and uncertainty warrant a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2025-04-14",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213632Z",
+    "timestamp": "2026-07-18T21:36:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q1\\GS-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 69233,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ1_2025.txt"
+  }
+}

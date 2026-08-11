@@ -1,0 +1,44 @@
+{
+  "document_id": "MU_FQ1_2026_NEWS",
+  "base_document_id": "MU_FQ1_2026",
+  "issuer": "p2_micron",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "This pre-earnings digest describes market expectations that are significantly stretched: the stock has already rallied hard, analyst estimates have been revised upward, and consensus is building around record revenue and EPS. The document notes 'options market implied volatility suggested market expected significant earnings surprise (either direction), creating hedging demand,' and there is commentary like 'Buy now before it's too late,' indicating a high bar for the upcoming print. With expectations elevated and little room for a soft print, the risk of a negative surprise is high, warranting a bearish sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T101452Z",
+    "timestamp": "2026-08-09T10:15:02Z",
+    "status": "success",
+    "document_id": "MU_FQ1_2026_NEWS",
+    "issuer": "p2_micron",
+    "company": "Micron",
+    "ticker": "MU",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-12-17",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_micron\\MU_FQ1_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4147,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1528,
+    "total_tokens": 5675,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002749,
+    "latency_seconds": 10.23,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.35,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

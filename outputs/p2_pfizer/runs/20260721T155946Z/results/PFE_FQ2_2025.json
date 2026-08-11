@@ -1,0 +1,183 @@
+{
+  "document_id": "PFE_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Pfizer raised its full-year 2025 Adjusted diluted EPS guidance by $0.10 (to $2.90-$3.10), absorbing a $0.20 charge for the 3SBio deal, implying a $0.30 operational raise. Revenue guidance was maintained at $61-$64 billion, but management cited strong operational performance and cost management as drivers. The tone is confident, with explicit statements about raising guidance and strong underlying business momentum, though some caution is noted around COVID revenue and policy uncertainty."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 2025 revenues of $14.7 billion, an increase of 10% operationally.",
+    "eps": "Q2 2025 reported diluted EPS of $0.51; Adjusted diluted EPS of $0.78, ahead of expectations.",
+    "guidance": "Full-year 2025 revenue guidance maintained at $61-$64 billion; Adjusted diluted EPS guidance raised to $2.90-$3.10 per share (from prior range, implied $0.10 increase after absorbing $0.20 3SBio charge).",
+    "margin": "Adjusted gross margin for Q2 2025 was approximately 76%.",
+    "key_risks": [
+      "Impact of IRA Medicare Part D redesign ($825 million unfavorable impact in Q2).",
+      "Uncertainty around COVID revenue in H2 2025 (partially derisked in guidance).",
+      "Potential impact of tariffs and MFN policy (absorbed in guidance for 2025, but future years uncertain).",
+      "Competitive pressure on Vyndaqel family from new entrants.",
+      "Patent expirations (LOEs) over the next several years."
+    ],
+    "key_opportunities": [
+      "Strong growth from recently launched and acquired products ($4.7 billion YTD, growing ~15% operationally).",
+      "Pipeline progress: ELREXFIO, sigvotatug vedotin (SV), HYMPAVZI, C. diff vaccine, Lyme disease vaccine, SSGJ-707 (PD-1/VEGF bispecific).",
+      "Cost improvement programs targeting $7.7 billion in savings by end of 2027.",
+      "Expanding margins through technology, AI, and simplification.",
+      "Business development capacity of ~$13 billion for value-enhancing deals."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Albert Bourla stated 'Our business is performing well, and I'm pleased with the progress we achieved in the second quarter' and CFO Dave Denton said 'our solid financial results are a clear reflection of our disciplined execution and strategic priorities.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 revenues were $14.7 billion, up 10% operationally.",
+      "quote": "For the second quarter 2025, we recorded revenues of $14.7 billion, an increase of 10% operationally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 reported diluted EPS was $0.51; Adjusted diluted EPS was $0.78.",
+      "quote": "On the bottom line, second quarter 2025 reported diluted earnings per share was $0.51, and Adjusted diluted earnings per share was $0.78, ahead of our expectations, primarily due to strong top line performance and our cost management execution.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance is maintained at $61-$64 billion.",
+      "quote": "We continue to expect full-year '25 revenues to be in the range of $61 billion to $64 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 Adjusted diluted EPS guidance raised to $2.90-$3.10 per share.",
+      "quote": "our revised full year '25 Adjusted diluted earnings per share range is now $2.90 to $3.10 a share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The EPS guidance raise includes absorbing a $0.20 charge for the 3SBio transaction, implying a $0.30 operational raise.",
+      "quote": "we are raising our full year '25 Adjusted diluted earnings per share guidance by $0.10. This includes absorbing a $0.20 charge for acquired in-process R&D associated with the upfront payment for the 3SBio transaction. So just to clarify, without the 3SBio deal, we would have raised our Adjusted diluted earnings per share guidance by $0.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted gross margin for Q2 2025 was approximately 76%.",
+      "quote": "Adjusted gross margin for the second quarter was approximately 76%, primarily reflecting the product mix within the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "IRA Medicare Part D redesign had an $825 million unfavorable impact in Q2.",
+      "quote": "Partially offsetting the increase was an $825 million year-over-year unfavorable impact of higher manufacturer discounts resulting from the IRA Medicare Part D redesign, which took effect in the first quarter of '25, and overall is largely in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID revenue is partially derisked in the guidance.",
+      "quote": "while we are raising our Adjusted diluted earnings per share guidance, we are partially derisking the expected COVID performance in the second half of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our business is performing well, and I'm pleased with the progress we achieved in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recently launched and acquired products delivered $4.7 billion YTD, growing ~15% operationally.",
+      "quote": "Year-to-date, Pfizer's recently launched and acquired products delivered $4.7 billion in revenue while growing approximately 15% operationally versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost improvement programs target $7.7 billion in savings by end of 2027.",
+      "quote": "we expect approximately $7.7 billion in savings by the end of '27 to drive operating efficiencies, strengthening our business with the potential of contributing significantly to our bottom line over the period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business development capacity is approximately $13 billion.",
+      "quote": "Our business development capacity is now approximately $13 billion following the 3SBio deal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pipeline includes ELREXFIO, SV, HYMPAVZI, C. diff vaccine, Lyme disease vaccine, and SSGJ-707.",
+      "quote": "ELREXFIO is a medicine that is performing very well... Sigvotatug vedotin or SV is our first-in-class integrin-beta 6 ADC... HYMPAVZI... our second generation investigational vaccine candidate [for C. diff]... vaccine candidate for Lyme disease... SSGJ-707, a bispecific antibody targeting PD-1 and VEGF.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Patent expirations (LOEs) are a risk over the next several years.",
+      "quote": "We plan to continue to invest behind these two product groups to drive their future performance and help enable the company to largely offset our LOEs over the next several years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive pressure on Vyndaqel family from new entrants.",
+      "quote": "While we continue to closely monitor the competitive impact of new entrants, we believe the Vyndaqel family is differentiated with a strong clinical profile contributed to continued volume growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The EPS guidance raise is partially offset by maintained revenue guidance and derisking of COVID revenue; the score of 0.30 reflects a moderate positive but may be conservative given the operational raise of $0.30."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PFE_Bundled Earnings Report_2025-08-04",
+  "report_metadata": {
+    "issuer": "p2_pfizer",
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-04",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q2\\PFE-USQ_Transcript_2025-08-05.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PFE_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T155946Z",
+    "timestamp": "2026-07-21T16:01:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q2\\PFE-USQ_Transcript_2025-08-05.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q2\\PFE-USQ_Transcript_2025-08-05.pdf",
+        "page_count": 21,
+        "extracted_characters": 77125,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ2_2025.txt"
+  }
+}

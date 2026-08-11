@@ -1,0 +1,44 @@
+{
+  "document_id": "AMD_FQ2_2025_NEWS",
+  "base_document_id": "AMD_FQ2_2025",
+  "issuer": "p2_amd",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "This is a pre-earnings digest, so the guidance-change framework does not apply. The document describes 'cautiously bullish' sentiment heading into the print, with analysts remaining positive despite margin-pressure concerns tied to export-license impacts. However, expectations are not described as depressed or stretched; the bar appears moderately elevated given the prior quarter's strong beat and the focus on forward guidance rather than the headline EPS, which is expected to look weak. This yields a mildly positive score, reflecting a balanced but slightly favorable setup."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "cost_log": {
+    "run_id": "20260720T161557Z",
+    "timestamp": "2026-07-20T16:16:07Z",
+    "status": "success",
+    "document_id": "AMD_FQ2_2025_NEWS",
+    "issuer": "p2_amd",
+    "company": "AMD",
+    "ticker": "AMD",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-05",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_amd\\AMD_FQ2_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3630,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1413,
+    "total_tokens": 5043,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002483,
+    "latency_seconds": 9.92,
+    "attempts": 1,
+    "signal": "HOLD",
+    "signal_mismatch": true,
+    "sentiment_score": 0.15,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

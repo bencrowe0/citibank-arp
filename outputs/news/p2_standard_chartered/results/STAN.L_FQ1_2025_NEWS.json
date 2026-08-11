@@ -1,0 +1,44 @@
+{
+  "document_id": "STAN.L_FQ1_2025_NEWS",
+  "base_document_id": "STAN.L_FQ1_2025",
+  "issuer": "p2_standard_chartered",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "This pre-earnings digest indicates that market expectations are moderately positive but not stretched: consensus expects an earnings beat driven by wealth management strength, with full-year guidance expected to be maintained or upgraded. However, the document also lists potential concerns such as interest rate pressure, intensifying competition, and geopolitical risks, which temper the bullishness. Since this is a pre-earnings digest, the score reflects that expectations are somewhat elevated but not excessively so, leaving room for a positive surprise without being priced for perfection."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T103559Z",
+    "timestamp": "2026-08-09T10:36:07Z",
+    "status": "success",
+    "document_id": "STAN.L_FQ1_2025_NEWS",
+    "issuer": "p2_standard_chartered",
+    "company": "Standard Chartered",
+    "ticker": "STAN.L",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-02",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_standard_chartered\\STAN.L_FQ1_2025.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 4326,
+    "cache_hit_tokens": 256,
+    "output_tokens": 1169,
+    "total_tokens": 5495,
+    "cached_input": false,
+    "estimated_cost_usd": 0.002403,
+    "latency_seconds": 8.09,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.25,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

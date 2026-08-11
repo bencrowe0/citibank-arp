@@ -1,0 +1,44 @@
+{
+  "document_id": "GIS_FQ3_2026_NEWS",
+  "base_document_id": "GIS_FQ3_2026",
+  "issuer": "p2_general_mills",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "This pre-earnings digest describes depressed expectations: the company slashed its fiscal 2026 guidance in February, BofA lowered its EPS forecast, and Zacks reduced its Q3 estimate just before the print. This lowered bar increases the odds of a positive surprise even on modest results, supporting a mildly bullish sentiment score. However, the document also notes a challenging consumer environment and stiff competition, which tempers the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260809T113400Z",
+    "timestamp": "2026-08-09T11:34:12Z",
+    "status": "success",
+    "document_id": "GIS_FQ3_2026_NEWS",
+    "issuer": "p2_general_mills",
+    "company": "General Mills",
+    "ticker": "GIS",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-03-18",
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\news\\p2_general_mills\\GIS_FQ3_2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 3855,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2118,
+    "total_tokens": 5973,
+    "cached_input": false,
+    "estimated_cost_usd": 0.003319,
+    "latency_seconds": 12.0,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}
