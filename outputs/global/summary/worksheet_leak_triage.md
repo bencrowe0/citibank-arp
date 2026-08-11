@@ -144,9 +144,45 @@ Bootstrap net/trade difference, human-score worksheet vs none:
 
 ### Agreement rate with human arm
 
-No human-rater scores are available in the repository files. The human data
-lives in an external spreadsheet (`Master_Data_NEW.ods` on SharePoint, not
-committed). This comparison cannot be computed from repo-resident data alone.
+Human-rater directional signals (BUY/HOLD/SELL) were extracted directly from the
+worksheet text embedded in each of the 25 affected events' extracted text files
+(the same text the LLM received). The human signal was parsed via the
+`Signal: <BUY|HOLD|SELL>` or `Directional signal: <BUY|HOLD|SELL>` pattern
+present in every worksheet. All 25 events yielded a parseable human signal.
+
+**LLM-human agreement on the 25 worksheet events: 18/25 = 72.0%**
+
+| Metric | Value |
+|---|---|
+| Agreement rate | 72.0% (18/25) |
+| Chance agreement (marginals) | 43.4% |
+| Cohen's kappa | 0.506 |
+| 90% bootstrap CI on agreement | [56.0%, 84.0%] |
+| Permutation p-value (vs chance) | 0.0013 |
+
+Signal distributions (n=25): human BUY=17, HOLD=3, SELL=5; LLM BUY=13, HOLD=5,
+SELL=7. The 7 disagreements: AMD_FQ2_2025 (human BUY, LLM HOLD),
+COIN_FQ1_2026 (human BUY, LLM SELL), LLY_FQ3_2025 (human SELL, LLM BUY),
+META_FQ1_2026 (human BUY, LLM SELL), NVDA_FQ2_2025 (human BUY, LLM HOLD),
+TSLA_FQ1_2026 (human HOLD, LLM SELL), TSLA_FQ3_2025 (human BUY, LLM HOLD).
+
+The 72% agreement rate is significantly above the 43.4% chance rate expected from
+the marginal signal distributions (permutation p=0.0013). Cohen's kappa of 0.506
+indicates moderate-to-good agreement, consistent with the LLM having read and
+been influenced by the human's directional call embedded in the input text.
+
+**Comparison to non-worksheet events is not possible from repo data alone.**
+Human-rater scores for the remaining 243 events live in an external spreadsheet
+(`Master_Data_NEW.ods` on SharePoint, not committed to the repository). Without
+that data, we cannot compute a clean-group agreement rate to split by the leak
+flag. The 72% figure for the worksheet group stands on its own as evidence of
+contamination but cannot be contrasted with a clean baseline.
+
+If the external sheet is made available, the correct analysis would be:
+`bootstrap_unpaired_difference` (from `bootstrap_stats.py`) on agreement
+indicator arrays (1=agree, 0=disagree) for the 25 worksheet events vs the
+non-worksheet events that also have human scores, yielding a CI and p-value on
+the agreement-rate difference.
 
 ## (e) Conclusion
 

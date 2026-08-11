@@ -1,7 +1,7 @@
 # Revised Achievable N
 
-Run ID: `20260811T194138Z`
-Generated: 2026-08-11T19:41:40.184465+00:00
+Run ID: `20260811T195624Z`
+Generated: 2026-08-11T19:56:26.887279+00:00
 
 ## Source
 
@@ -15,6 +15,7 @@ Total events in calibration CSV: 268
    Strict precedence: (a) FactSet `QUESTION AND ANSWER SECTION` header, (b) natural-language transition phrase, (c) if neither: `manual`.
    `[Operator Instructions]` is NOT used as a primary marker.
    Minimum word-count assertion: both halves >= 100 words, else `manual`.
+   Proportional check: prepared remarks >= 10% of transcript words, else `manual`.
 3. **Guidance Passage**: Mechanically infeasible with structural splitting. Recorded as untestable.
 4. **Q&A**: From transition marker through end of transcript block.
 
@@ -23,13 +24,15 @@ Total events in calibration CSV: 268
 | Section | Available | Manual | Absent |
 |---------|-----------|--------|--------|
 | Press release | 211 | - | 57 |
-| Prepared remarks | 215 | 16 | 37 |
-| Q&A | 215 | 16 | 37 |
+| Prepared remarks | 162 | 69 | 37 |
+| Q&A | 162 | 69 | 37 |
 | Guidance | - | - | untestable |
 
 Transcript split marker breakdown: factset_header=36, transition_phrase=189, none=43
 
 Events failed to `manual` by min-wordcount assertion (<100 words on either half): **10**
+
+Events failed to `manual` by proportional check (prepared < 10% of transcript): **53**
 
 ## Exclusions
 
@@ -47,8 +50,8 @@ Total unique exclusions: **26**
 
 Events where press_release=available AND prepared_remarks=available AND qa=available (all three separable sections exist).
 
-- **Before exclusions: 164**
-- **After exclusions: 164**
+- **Before exclusions: 124**
+- **After exclusions: 124**
 
 ## 2. Two-arm N (full bundle vs PR only)
 

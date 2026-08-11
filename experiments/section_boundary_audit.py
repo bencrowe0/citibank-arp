@@ -15,6 +15,7 @@ Boundary definitions (applied exactly):
   4. Q&A: everything from the transition marker through end of transcript block.
 
 Minimum word-count assertion: both halves must have >= 100 words, else "manual".
+Proportional split check: prepared remarks must be >= 10% of transcript words.
 """
 
 import csv
@@ -39,6 +40,7 @@ OUTPUT_CSV = os.path.join(
     "section_availability_audit_amended.csv",
 )
 MIN_HALF_WORDS = 100
+MIN_PREPARED_FRACTION = 0.10  # fail to manual if prepared < 10% of transcript
 
 # ---------------------------------------------------------------------------
 # Transition-phrase patterns (case-insensitive)
@@ -251,6 +253,7 @@ def audit_event(issuer: str, document_id: str, human_score_events: set):
     # Minimum word-count assertion on both halves
     wc_prepared = _word_count(prepared) if prepared else 0
     wc_qa = _word_count(qa) if qa else 0
+    wc_total = _word_count(transcript_text) if transcript_text else 0
     min_half = min(wc_prepared, wc_qa)
     result["min_half_wordcount"] = str(min_half)
 
@@ -260,6 +263,18 @@ def audit_event(issuer: str, document_id: str, human_score_events: set):
         result["notes"] = (
             f"min-half wordcount {min_half} < {MIN_HALF_WORDS} "
             f"(prepared={wc_prepared}, qa={wc_qa}); "
+            f"marker was {marker_type}"
+        )
+        return result
+
+    # Proportional split check: prepared remarks must be >= 10% of transcript
+    prepared_frac = wc_prepared / wc_total if wc_total > 0 else 0
+    if prepared_frac < MIN_PREPARED_FRACTION:
+        result["prepared_remarks"] = "manual"
+        result["qa"] = "manual"
+        result["notes"] = (
+            f"prepared fraction {prepared_frac:.1%} < {MIN_PREPARED_FRACTION:.0%} "
+            f"(prepared={wc_prepared}, transcript={wc_total}); "
             f"marker was {marker_type}"
         )
         return result
@@ -290,6 +305,7 @@ def main():
     # Audit each event
     rows = []
     manual_from_min_wc = 0
+    manual_from_proportion = 0
     for ev in events:
         result = audit_event(ev["issuer"], ev["document_id"], human_score_events)
         result["ticker"] = ev["ticker"]
@@ -298,6 +314,8 @@ def main():
         rows.append(result)
         if "min-half wordcount" in result.get("notes", ""):
             manual_from_min_wc += 1
+        elif "prepared fraction" in result.get("notes", ""):
+            manual_from_proportion += 1
 
     # Write output CSV with metadata header
     fieldnames = [
@@ -313,6 +331,7 @@ def main():
         f.write(f"# Run ID: {run_id}\n")
         f.write(f"# Timestamp: {datetime.now(timezone.utc).isoformat()}\n")
         f.write(f"# Minimum half word count: {MIN_HALF_WORDS}\n")
+        f.write(f"# Minimum prepared fraction: {MIN_PREPARED_FRACTION:.0%}\n")
         f.write(f"#\n")
         f.write(f"# Amended boundary definitions:\n")
         f.write(f"# 1. Press Release: Content delimited by === PRESS RELEASE === header.\n")
@@ -396,6 +415,7 @@ def main():
     print(f"  none:              {n_none_marker}")
     print(f"")
     print(f"Events failed to manual by min-wordcount assertion (<{MIN_HALF_WORDS} words): {manual_from_min_wc}")
+    print(f"Events failed to manual by proportional check (<{MIN_PREPARED_FRACTION:.0%} prepared): {manual_from_proportion}")
     print(f"")
     print(f"=== Task 4: Revised Achievable N ===")
     print(f"")
@@ -441,6 +461,7 @@ def main():
                 f"(b) natural-language transition phrase, (c) if neither: `manual`.\n")
         f.write(f"   `[Operator Instructions]` is NOT used as a primary marker.\n")
         f.write(f"   Minimum word-count assertion: both halves >= {MIN_HALF_WORDS} words, else `manual`.\n")
+        f.write(f"   Proportional check: prepared remarks >= {MIN_PREPARED_FRACTION:.0%} of transcript words, else `manual`.\n")
         f.write(f"3. **Guidance Passage**: Mechanically infeasible with structural splitting. Recorded as untestable.\n")
         f.write(f"4. **Q&A**: From transition marker through end of transcript block.\n\n")
         f.write(f"## Section availability summary\n\n")
@@ -454,6 +475,8 @@ def main():
                 f"factset_header={n_factset}, transition_phrase={n_transition}, none={n_none_marker}\n\n")
         f.write(f"Events failed to `manual` by min-wordcount assertion "
                 f"(<{MIN_HALF_WORDS} words on either half): **{manual_from_min_wc}**\n\n")
+        f.write(f"Events failed to `manual` by proportional check "
+                f"(prepared < {MIN_PREPARED_FRACTION:.0%} of transcript): **{manual_from_proportion}**\n\n")
         f.write(f"## Exclusions\n\n")
         f.write(f"| Category | Count | Events |\n")
         f.write(f"|----------|-------|--------|\n")
