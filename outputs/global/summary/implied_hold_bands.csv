@@ -1,3 +1,10 @@
+# Implied HOLD bands calibrated from returns_matrix.csv (release_date anchor)
+# Recomputed: 2026-08-12 on corrected entry convention
+# The overnight ±2% band is FIXED and PRE-REGISTERED (unchanged)
+# All longer-horizon bands are CALIBRATED from observed returns on this date
+# and are therefore secondary and not pre-registered
+# Any longer-horizon result should not be used as a headline
+#
 horizon,hold_band,hold_share,n_inside,n_total
 overnight,0.02,0.3582,96,268
 1d,0.022462,0.3582,96,268
