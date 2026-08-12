@@ -60,16 +60,46 @@ included. The exclusion is logged in `per_doc_meta` and `combined_warnings`.
 
 The blanket `EXCLUDED_DOC_TYPES = {"Earnings Document"}` filter was reverted
 because 33 of the 59 "Earnings Document" entries are legitimate
-company-authored content:
-- 10 are press releases / shareholder letters (WMT x5, NFLX x3, UAL x2)
-- 12 are financial summary / numbers sheets (IBM x3, MCD x3, NKE x3, MSFT x3)
-- 3 are Maersk interim reports
-- 3 are UAL investor updates
-- 3 are UAL SEC periodic filings (10-Q/10-K)
-- 2 are financial results documents (UAL, BA)
+company-authored content — but 4 of those 33 are **look-ahead contaminated**
+(SEC periodic filings published after the event's decision point):
 
-All 33 were being read by the pipeline in the deployed runs — they appear in
-the extracted text files as `=== EARNINGS DOCUMENT ===` sections. This is a
-stated data-quality finding: "Earnings Document" is an unreliable doc_type
-label covering both contaminated worksheets and legitimate source material.
-The 10 press releases should be retyped to "Press Release" in the manifests.
+### Look-ahead contaminated (4 documents, 4 events)
+
+| Event | Document | SEC filing date | report_date | Gap |
+|---|---|---|---|---|
+| UAL_FQ1_2025 | UAL 1Q25 10Q.pdf | 2025-04-16 | 2025-04-15 | +1 day |
+| UAL_FQ2_2025 | UAL 2Q25 10Q.pdf | 2025-07-17 | 2025-07-16 | +1 day |
+| UAL_FQ4_2025 | UAL 2025 10K.pdf | 2026-02-12 | 2026-01-20 | +23 days |
+| BA_FQ4_2025 | e4434a19...pdf (10-K) | 2026-01-30 | 2026-01-26 | +4 days |
+
+These periodic filings did not exist at the decision point. The model read
+future documents. Each event has other documents (press release, transcript)
+that were legitimately available — only the SEC filing needs removal.
+
+### Borderline (2 documents, ~1-day discrepancy)
+
+| Event | Document | Stated date | report_date | Gap |
+|---|---|---|---|---|
+| AMKBY_FQ1_2025 | Maersk Q1 Interim Report | 2025-05-08 | 2025-05-07 | +1 day |
+| AMKBY_FQ3_2025 | Maersk Q3 Interim Report | 2025-11-06 | 2025-11-05 | +1 day |
+
+Maersk releases headline numbers the evening before and the full interim
+report the next morning (Copenhagen time). Minor risk — same numbers, more
+detail.
+
+### Clean (27 documents)
+
+- 10 press releases / shareholder letters (WMT x5, NFLX x3, UAL x2) —
+  published same day as report_date. Should be retyped to "Press Release".
+- 12 financial summary / numbers sheets (IBM x3, MCD x3, NKE x3, MSFT x3) —
+  all confirmed company-published official earnings press releases or call
+  transcripts downloaded from corporate websites. No team-member worksheets.
+  Published same day as report_date.
+- 3 UAL investor updates — 8-K exhibits filed same day as report_date.
+- 1 UAL financial results document — 8-K exhibit filed same day.
+- 1 AMKBY_FQ2_2025 interim report — published same day.
+
+All 33 were being read by the pipeline in deployed runs — they appear in
+the extracted text files as `=== EARNINGS DOCUMENT ===` sections.
+"Earnings Document" is an unreliable doc_type label covering worksheets,
+look-ahead SEC filings, and legitimate source material.

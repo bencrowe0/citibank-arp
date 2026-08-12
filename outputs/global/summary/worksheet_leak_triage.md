@@ -293,19 +293,21 @@ significant at p<0.05, vs +14.5pp, marginal at p=0.069 before). Removing the
 inflated agreement, leaving a cleaner signal where genuine agreement predicts
 accuracy.
 
-**Reconciliation note**: These figures (agree 32.7%, disagree 15.4%) differ
-from any previously documented agreement-filter headline (e.g. 0.561 vs
-0.429). The quantities differ in three ways: (1) **subset** — this analysis
-uses the 107 traded events from the human-export's 180 clean paired rows
-(section=All, first_rater_for_event=YES), not the model arm's full 268-event
-universe; (2) **grading convention** — overnight returns from
-`returns_matrix.csv` with ±2% band, not the 5-day close-to-close window; (3)
-**accuracy definition** — correct-direction rate among traded events only
-(BUY or SELL calls), not 3-class accuracy including HOLD. The two sets of
-figures answer different questions on different subsets and are not directly
-comparable. This analysis is authoritative for the contamination comparison
-(same convention applied to both groups); the model arm's own headline uses
-its own convention and event set.
+**This is the authoritative agreement-filter headline.** The previously
+documented 0.561 vs 0.429 figures cannot be regenerated from this codebase:
+`git log -S` across all branches finds them only as prose in
+`Model_Arm_Implementation_Spec.md` (assertion "already computed"), with no
+script, output file, or intermediate artifact that produces them. They
+should not be presented.
+
+**Authoritative headline (definition alongside the number):**
+Agreement filter effect: **+17.3pp** (p=0.029). LLM correct-direction
+accuracy on overnight returns (±2% band) is 32.7% (18/55 traded events)
+where both arms agree, vs 15.4% (8/52) where they disagree. Computed on
+107 traded events from 180 clean paired rows (section=All,
+first_rater_for_event=YES, 25 worksheet events excluded). The difference is
+a paired comparison on the same event universe; the definition is recorded
+here so the basis is never ambiguous.
 
 #### Scope limitations on the paired analysis
 
