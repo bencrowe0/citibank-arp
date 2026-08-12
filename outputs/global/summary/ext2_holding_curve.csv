@@ -1,0 +1,17 @@
+# Extension 2: holding-period curve
+# run_id: 20260812_152807
+# model: DeepSeek (blend weights (0.55, 0.45, 0.0, 0.0))
+# thresholds: hold_upper=0.25, hold_lower=-0.05
+# cost_bps: 10.0, short_borrow_bps: 0.0
+# clean_n: 229 (excluded: {'worksheet': 25, 'misattributed': 1, 'timing': 13})
+# generated: 2026-08-12 17:37:47
+# NOTE: overnight band (+/-2%) is PRE-REGISTERED and fixed.
+#       All longer-horizon bands are RECALIBRATED and secondary.
+#       Returns are NOT compounded across horizons; each is an
+#       alternative version of the same trade.
+horizon,mean_net_per_trade,accuracy,graded_n,traded_n,rank_correlation,rho_pvalue,bootstrap_ci_low,bootstrap_ci_high,hold_band,band_status
+overnight,0.01876917605633803,0.6521739130434783,92,142,0.23564569867898294,0.0003216084520803387,0.00981644084507042,0.0280669028169014,0.02,pre-registered
+1d,0.012112704225352114,0.6,95,142,0.1526857368752826,0.020806353628776905,0.0026580429577464783,0.0219325542253521,0.022462,recalibrated
+3d,0.00989238732394366,0.5543478260869565,92,142,0.10556187180020418,0.11112570637245528,-0.0003594073943661969,0.02047750140845068,0.025207,recalibrated
+5d,0.008601049295774646,0.5222222222222223,90,142,0.07186407815879005,0.27883036740272177,-0.002466877112676057,0.02020627007042253,0.026892,recalibrated
+10d,0.006600690140845071,0.53,100,142,0.05137575568458519,0.43910057367937483,-0.0069021510563380285,0.020428564436619716,0.03527,recalibrated
