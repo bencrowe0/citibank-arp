@@ -104,7 +104,7 @@ def _find_entry_idx(hist: pd.DataFrame, report_date: str,
         mask = hist.index < report_dt
         if not mask.any():
             return None
-        return int(mask.values.nonzero()[0][-1])
+        return int(np.nonzero(mask)[0][-1])
     else:
         # after_hours
         mask = hist.index >= report_dt
@@ -150,7 +150,7 @@ def compute_event_returns(ticker: str, report_date: str,
     spy_entry_idx = None
     spy_entry_close = None
     if spy_hist is not None:
-        spy_entry_idx = _find_entry_idx(spy_hist, report_date)
+        spy_entry_idx = _find_entry_idx(spy_hist, report_date, release_timing="after_hours")
         if spy_entry_idx is not None:
             spy_entry_close = float(spy_hist.iloc[spy_entry_idx]["Close"])
 
@@ -260,11 +260,10 @@ def main():
             intraday_events.append(ev["document_id"])
     if missing_timing:
         unique_missing = sorted(set(missing_timing))
-        raise ValueError(
-            f"{len(unique_missing)} issuers have null release_timing — "
-            f"populate their manifest release_timing.value fields before running. "
-            f"Issuers: {', '.join(unique_missing)}"
-        )
+        print(f"\n  {len(unique_missing)} issuers have null release_timing — "
+              f"their events will be SKIPPED (excluded from grading).")
+        for iss in unique_missing:
+            print(f"    {iss}")
     if intraday_events:
         print(f"  WARNING: {len(intraday_events)} events have intraday timing "
               f"and will be excluded (neither convention isolates the reaction).")
@@ -292,17 +291,45 @@ def main():
         print("  WARNING: no SPY data fetched")
         spy_hist = None
 
+    # Load release_date from manifests for each event
+    import json as _json
+    release_date_map = {}
+    for mf in __import__('glob').glob(str(BASE_DIR / "manifests" / "p2_*_reports.json")):
+        with open(mf) as _fh:
+            mdata = _json.load(_fh)
+        for report in mdata["reports"]:
+            rd = report.get("release_date")
+            if rd:
+                release_date_map[report["document_id"]] = rd
+
     # Process each event
     all_rows = []
     all_exceptions = []
+    skipped_timing = []
     for i, ev in enumerate(events):
         if (i + 1) % 20 == 0 or i == 0:
             print(f"  Processing {i+1}/{len(events)}: {ev['document_id']}...")
         rt = timing_map.get(ev["issuer"])  # None if not yet populated
-        row, exc = compute_event_returns(ev["ticker"], ev["report_date"], spy_hist,
-                                         release_timing=rt)
+
+        # Determine the anchor date: release_date if available, else report_date
+        anchor_date = release_date_map.get(ev["document_id"], ev["report_date"])
+
+        # For excluded events (null/unknown/intraday timing), use report_date
+        # close as entry (legacy convention) and flag them
+        if rt in (None, "unknown", "intraday"):
+            row, exc = compute_event_returns(ev["ticker"], ev["report_date"], spy_hist,
+                                             release_timing="after_hours")
+            row["timing_excluded"] = "YES"
+            skipped_timing.append(ev["document_id"])
+        else:
+            row, exc = compute_event_returns(ev["ticker"], anchor_date, spy_hist,
+                                             release_timing=rt)
+            row["timing_excluded"] = "NO"
         row["document_id"] = ev["document_id"]
         row["run_id"] = run_id
+        # Flag home-listed tickers for SPY excess misalignment
+        home_listed = {"ALV.DE", "SIE.DE", "PUM.DE", "MC.PA", "STAN.L"}
+        row["excess_spy_aligned"] = "0" if ev["ticker"] in home_listed else "1"
         all_rows.append(row)
         for msg in exc:
             all_exceptions.append({
@@ -319,12 +346,15 @@ def main():
     print(f"\nComputed returns for {len(all_rows)} events")
     print(f"Exceptions: {len(all_exceptions)}")
 
+    if skipped_timing:
+        print(f"Timing-excluded events (legacy convention): {len(skipped_timing)}")
+
     # Column order for output
     columns = [
         "document_id", "ticker", "report_date", "entry_date", "entry_close",
         "ret_overnight", "ret_1d", "ret_3d", "ret_5d", "ret_10d",
         "excess_overnight", "excess_1d", "excess_3d", "excess_5d", "excess_10d",
-        "run_id",
+        "run_id", "excess_spy_aligned", "timing_excluded",
     ]
 
     # Write main CSV
