@@ -77,20 +77,23 @@ _WORKSHEET_FILENAME_MARKERS = (
 )
 
 
-def _is_worksheet_document(doc_source_pdf: str, document_id: str) -> bool:
+def _is_worksheet_document(doc_source_pdf: str, document_id: str,
+                           doc_type: str = "") -> bool:
     """Return True if this specific document is a human-rater worksheet.
 
     Only checks documents belonging to the 25 excluded events.  Within those
-    events, identifies the worksheet by filename pattern.  If no pattern
-    matches, checks for the worksheet section marker in the extracted text.
+    events, identifies the worksheet by filename pattern (case-insensitive)
+    or by doc_type == "Earnings Document" as a fallback.
     """
     if document_id not in WORKSHEET_EXCLUDED_DOCUMENT_IDS:
         return False
-    source = str(doc_source_pdf)
+    source_lower = str(doc_source_pdf).lower()
     for marker in _WORKSHEET_FILENAME_MARKERS:
-        if marker in source:
+        if marker.lower() in source_lower:
             return True
-    # Fallback: any "Earnings Document" in a contaminated event is suspect
+    # Fallback: any "Earnings Document" in a contaminated event is the worksheet
+    if doc_type == "Earnings Document":
+        return True
     return False
 
 
@@ -505,7 +508,7 @@ def build_bundle_text(report: ReportSpec) -> tuple[str, list[dict[str, Any]], li
     combined_warnings: list[str] = []
 
     for doc in report.documents:
-        if _is_worksheet_document(doc.source_pdf, report.document_id):
+        if _is_worksheet_document(doc.source_pdf, report.document_id, doc.doc_type):
             combined_warnings.append(
                 f"{doc.doc_type}: excluded (human-rater worksheet, "
                 f"document_id {report.document_id} in "
