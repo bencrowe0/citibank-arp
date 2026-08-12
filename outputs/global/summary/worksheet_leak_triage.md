@@ -171,18 +171,81 @@ the marginal signal distributions (permutation p=0.0013). Cohen's kappa of 0.506
 indicates moderate-to-good agreement, consistent with the LLM having read and
 been influenced by the human's directional call embedded in the input text.
 
-**Comparison to non-worksheet events is not possible from repo data alone.**
-Human-rater scores for the remaining 243 events live in an external spreadsheet
-(`Master_Data_NEW.ods` on SharePoint, not committed to the repository). Without
-that data, we cannot compute a clean-group agreement rate to split by the leak
-flag. The 72% figure for the worksheet group stands on its own as evidence of
-contamination but cannot be contrasted with a clean baseline.
+### Clean-group comparison (2026-08-12, from human_decisions_export)
 
-If the external sheet is made available, the correct analysis would be:
-`bootstrap_unpaired_difference` (from `bootstrap_stats.py`) on agreement
-indicator arrays (1=agree, 0=disagree) for the 25 worksheet events vs the
-non-worksheet events that also have human scores, yielding a CI and p-value on
-the agreement-rate difference.
+Human-rater decisions from `data/human/human_decisions_export_2026-08-12.csv`,
+derived from `Master_Data_NEW_REPAIRED_2026-08-09.xlsx`, `Human_Data_Entry` tab.
+Filtered to: `section=All`, `first_rater_for_event=YES`, `in_llm_universe=YES`,
+paired (both human and LLM decision present). N=205. `decisions_agree` column
+verified against raw decision columns: 0 mismatches.
+
+Join: event_key → document_id via ticker + year + quarter from manifests.
+16 event_keys in LLM universe failed to match (quarters not yet scored:
+JNJ Q1 2026, CAT Q1 2026, UNH Q1 2026, BKNG Q1 2025, DELL Q2 2025,
+KHC Q4 2025, plus MetLife/Allianz fiscal-offset gaps). No fuzzy matching used.
+
+The workbook's Section C re-pricing chose the measurement window per row. Of
+205 paired rows, 58 are `fact_based` (release date + stated time), 64 are
+`price_based` (selection on outcome), 80 are `other`, 3 are `not_repriced`.
+Results reported on `fact_based` first, `price_based` as robustness check,
+per the data supplier's instruction.
+
+#### Fact-based rows only (the primary analysis)
+
+| Group | N | Agreement rate |
+|---|---|---|
+| Worksheet-contaminated | 24 | 62.5% (15/24) |
+| Clean | 34 | 23.5% (8/34) |
+
+Bootstrap unpaired difference: **+39.0pp**, 90% CI [+18.1pp, +58.6pp],
+**p=0.0028**.
+
+The contaminated group's agreement rate is nearly three times the clean group's,
+and the difference is statistically significant (p<0.01). This is the strongest
+evidence of contamination in the triage: on the events where the LLM saw the
+human's answer, agreement is 62.5%; where it did not, agreement is 23.5%.
+
+#### Pooled across all repricing_basis_class (secondary)
+
+| Group | N | Agreement rate |
+|---|---|---|
+| Worksheet-contaminated | 25 | 60.0% (15/25) |
+| Clean | 180 | 38.3% (69/180) |
+
+Bootstrap unpaired difference: +21.7pp, 90% CI [+4.4pp, +38.7pp], p=0.042.
+
+#### Price-based rows (robustness check)
+
+No worksheet-contaminated events have `price_based` repricing, so this
+comparison is structurally empty. The clean group's agreement rate on
+`price_based` rows is 46.9% (30/64), higher than the clean fact-based rate
+(23.5%), consistent with price-based window selection inflating agreement
+— the measurement window was chosen to show a move, and a move is easier
+to agree on directionally.
+
+#### Per-rater agreement (clean group, fact_based + all pooled)
+
+| Rater | Clean (all rbc) | N |
+|---|---|---|
+| Abdul | 32.4% | 37 |
+| Anna | 41.7% | 48 |
+| Dragos | 25.0% | 32 |
+| Meriem | 60.7% | 28 |
+| Nigel | 34.3% | 35 |
+
+David does not appear in the clean group (all his paired reads are on
+worksheet-contaminated events: 11/19 = 57.9% agreement).
+
+#### Note on the two agreement figures (60% here vs 72% earlier)
+
+The earlier 72% (18/25) was computed by extracting the human signal directly
+from the worksheet text in the LLM's input (the `Signal: BUY/HOLD/SELL` line
+in the embedded worksheet). This analysis uses the human rater's actual
+decision from the workbook export, which can differ from the signal recorded
+in the worksheet (e.g., if the rater revised their call after the worksheet
+was generated). Both figures show the contaminated group significantly above
+the clean baseline; the workbook-based figure (60%) is the more conservative
+and the one to cite.
 
 ## (e) Conclusion
 
