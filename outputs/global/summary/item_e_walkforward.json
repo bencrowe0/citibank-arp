@@ -1,0 +1,189 @@
+{
+  "label": "RETROSPECTIVE VALIDATION \u2014 NOT PRE-REGISTERED",
+  "n_clean_events": 233,
+  "date_range": "2023-04-25 to 2026-07-14",
+  "weights_fixed": [
+    0.55,
+    0.45,
+    0.0,
+    0.0
+  ],
+  "objective": "mean_net_per_trade",
+  "cost_bps": 10.0,
+  "short_borrow_bps": 0.0,
+  "flat_band": 0.02,
+  "threshold_grid": {
+    "upper_range": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5
+    ],
+    "lower_range": [
+      -0.5,
+      -0.45,
+      -0.4,
+      -0.35,
+      -0.3,
+      -0.25,
+      -0.2,
+      -0.15,
+      -0.1,
+      -0.05,
+      -0.0
+    ]
+  },
+  "in_sample_deployed": {
+    "hold_upper": 0.25,
+    "hold_lower": -0.05,
+    "n_trades": 146,
+    "n_graded": 95,
+    "n_correct": 62,
+    "accuracy": 0.6526,
+    "mean_net_pct": 1.8617,
+    "summed_return_pct": 271.81
+  },
+  "rolling_walkforward": {
+    "n_windows": 4,
+    "min_trades_floor": 5,
+    "degenerate_windows": 3,
+    "windows": [
+      {
+        "window_idx": 0,
+        "train_cutoff": "2025-09-30",
+        "test_start": "2025-10-09",
+        "test_end": "2025-12-18",
+        "fitted_upper": 0.35,
+        "fitted_lower": -0.5,
+        "train_n": 99,
+        "train_trades": 5,
+        "train_mean_net": 0.0848052,
+        "train_accuracy": 1.0,
+        "train_n_graded": 2,
+        "test_n": 47,
+        "test_trades": 8,
+        "test_mean_net": 0.015423874999999998,
+        "test_accuracy": 0.5,
+        "test_n_graded": 4,
+        "test_n_correct": 2
+      },
+      {
+        "window_idx": 1,
+        "train_cutoff": "2025-12-31",
+        "test_start": "2026-01-13",
+        "test_end": "2026-03-19",
+        "fitted_upper": 0.45,
+        "fitted_lower": -0.5,
+        "train_n": 146,
+        "train_trades": 7,
+        "train_mean_net": 0.069514,
+        "train_accuracy": 0.75,
+        "train_n_graded": 4,
+        "test_n": 50,
+        "test_trades": 0,
+        "test_mean_net": 0.0,
+        "test_accuracy": null,
+        "test_n_graded": 0,
+        "test_n_correct": 0
+      },
+      {
+        "window_idx": 2,
+        "train_cutoff": "2026-03-31",
+        "test_start": "2026-04-13",
+        "test_end": "2026-06-23",
+        "fitted_upper": 0.45,
+        "fitted_lower": -0.5,
+        "train_n": 196,
+        "train_trades": 7,
+        "train_mean_net": 0.069514,
+        "train_accuracy": 0.75,
+        "train_n_graded": 4,
+        "test_n": 34,
+        "test_trades": 0,
+        "test_mean_net": 0.0,
+        "test_accuracy": null,
+        "test_n_graded": 0,
+        "test_n_correct": 0
+      },
+      {
+        "window_idx": 3,
+        "train_cutoff": "2026-06-30",
+        "test_start": "2026-07-01",
+        "test_end": "2026-07-14",
+        "fitted_upper": 0.45,
+        "fitted_lower": -0.5,
+        "train_n": 230,
+        "train_trades": 7,
+        "train_mean_net": 0.069514,
+        "train_accuracy": 0.75,
+        "train_n_graded": 4,
+        "test_n": 3,
+        "test_trades": 0,
+        "test_mean_net": 0.0,
+        "test_accuracy": null,
+        "test_n_graded": 0,
+        "test_n_correct": 0
+      }
+    ],
+    "pooled_oos": {
+      "n_trades": 8,
+      "n_graded": 4,
+      "n_correct": 2,
+      "accuracy": 0.5,
+      "mean_net_pct": 1.5424,
+      "summed_return_pct": 12.34,
+      "majority_direction_floor": {
+        "label": "always-DOWN",
+        "rate": 0.5,
+        "n_down": 2,
+        "n_up": 2
+      },
+      "margin_vs_floor_pp": 0.0,
+      "binomial_p": 0.6875,
+      "mde_unpaired_pp": 75.1,
+      "bootstrap_90ci": {
+        "mean_net_pct": {
+          "point": 1.5424,
+          "ci_low": -1.9546,
+          "ci_high": 5.3496
+        },
+        "hit_rate": {
+          "point": 0.625,
+          "ci_low": 0.375,
+          "ci_high": 0.875
+        },
+        "t_statistic": {
+          "point": 0.686,
+          "ci_low": -1.367,
+          "ci_high": 2.547
+        }
+      }
+    },
+    "deployed_thresholds_oos": {
+      "hold_upper": 0.25,
+      "hold_lower": -0.05,
+      "n_trades": 91,
+      "n_graded": 61,
+      "n_correct": 41,
+      "accuracy": 0.6721,
+      "mean_net_pct": 1.811
+    }
+  },
+  "two_window_headline": {
+    "freeze_date": "2026-08-10",
+    "train_n": 233,
+    "test_n": 0,
+    "status": "DORMANT \u2014 no test events after freeze date",
+    "fitted_upper": 0.45,
+    "fitted_lower": -0.5,
+    "train_trades": 7,
+    "train_mean_net": 0.069514,
+    "train_accuracy": 0.75
+  }
+}
