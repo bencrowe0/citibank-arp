@@ -59,34 +59,71 @@ reactions (70.8% on an easy subset) while deflating mean net by including 56
 near-zero flat trades. The corrected anchor doubles the pre_market graded
 sample to 48 events, diluting the inflated accuracy and increasing mean net.
 
-## 4. Agreement filter (+17.3pp, p=0.029)
+## 4. Agreement filter (+17.3pp, p=0.029) — the most consequential retraction
 
-**What was claimed**: LLM correct-direction accuracy on overnight returns
-(±2% band) is 32.7% (18/55) where both arms agree, vs 15.4% (8/52) where
-they disagree. This was the replacement for the unreproducible 0.561/0.429
-headline. It was computed on the stale report_date anchor.
+### The original claim (never reproducible)
 
-**Corrected figure**: agree 69.0% (20/29), disagree 69.2% (18/26), diff
--0.3pp, p=0.959. **The agreement filter vanishes entirely.**
+The project's documented headline was that LLM accuracy is 0.561 where both
+the human and LLM arms agree, against 0.429 where they disagree. This figure
+appears only as prose in `Model_Arm_Implementation_Spec.md` ("Agreement-
+conditional accuracy, 0.561 on the 57 events where both arms agree, against
+0.429 where they disagree. Already computed."). No script, output file, or
+intermediate artefact in this repository produces these numbers. They cannot
+be regenerated and should not be presented.
 
-**Why the artefact arose**: The stale anchor compressed overnight returns
-for 82 pre_market events, making most returns fall inside the ±2% band
-(graded N was only 55+52=107 out of 167 paired rows). The corrected anchor
-produces larger, more accurate overnight returns, raising accuracy across
-the board from ~25% to ~69% — but raising it equally for the agree and
-disagree groups, eliminating the differential. The filter was not measuring
-a real property of agreement; it was measuring which events happened to have
-returns large enough to breach the band under the wrong entry.
+### The interim measured version (stale anchor)
 
-**Note**: The 0.561/0.429 figures cited in Model_Arm_Implementation_Spec.md
-are not reproducible from any script or output in this repository. They are
-superseded by this computation regardless of the anchor correction.
+A replacement was computed on the `report_date` anchor: agree 32.7% (18/55)
+vs disagree 15.4% (8/52), difference +17.3pp, bootstrap p=0.029. This was
+presented as the authoritative figure. It was computed on the stale anchor.
 
-## Lesson
+### The corrected figure
 
-All four artefacts trace to the same root cause: using report_date close
-uniformly as entry, which was wrong for 82 pre_market events. The corrected
-anchor (release_date from EDGAR 8-K Item 2.02) resolves the entry to the
-correct session. The structural mechanism — that pre_market gaps are
-compressed relative to full-day moves — is real but its magnitude was
-overstated by the stale anchor.
+On the `release_date` anchor: agree 69.0% (20/29) vs disagree 69.2% (18/26),
+difference -0.3pp, p=0.959. **The agreement filter vanishes entirely.**
+
+### Why the artefact arose
+
+The stale anchor compressed overnight returns for 82 pre_market events by
+using post-announcement close as entry. Most of those returns fell inside
+the ±2% band and were ungraded. The corrected anchor produces larger, more
+accurate overnight returns, raising accuracy across the board from ~25% to
+~69%. But it raises accuracy equally for both the agree and disagree groups,
+eliminating the differential. The filter was not measuring a real property
+of agreement; it was measuring which events happened to have returns large
+enough to breach the band under the wrong entry.
+
+### Consistency with kappa
+
+Cohen's kappa on the clean group is 0.107 (90% CI [0.027, 0.188]) — near
+zero, meaning the human and LLM arms are close to independent. Two
+near-independent arms give no reason to expect their agreement to carry
+information about accuracy, and indeed it does not. The retraction is
+consistent with evidence already in hand.
+
+### The positive result that replaces it
+
+The corrected accuracy of ~69% on the paired subset (against a majority-class
+baseline of ~42.5%) is a substantial finding that holds regardless of whether
+the arms agree. Under the old anchor the agree cell was 32.7%, below the
+naive baseline. The corrected picture is a model that reads earnings documents
+well above chance, not one that works only when a human concurs.
+
+## Lesson: one convention error, four retracted findings
+
+All four artefacts trace to one cause: using `report_date` close uniformly
+as entry, which was wrong for 82 pre_market events. The corrected anchor
+(`release_date` from EDGAR 8-K Item 2.02) resolves the entry to the correct
+session.
+
+| Finding | Stale | Corrected | Mechanism |
+|---|---|---|---|
+| Band capture | 72.7% PM inside | 42.4% | Wrong entry compressed returns below band |
+| Sign-correct | 61% p=0.064 | 56% p=0.480 | Best sign-correct events moved to graded |
+| Accuracy divergence | PM 70.8% vs AH 65.1% | 64.6% vs 65.9% | Inflated by extreme-only grading |
+| Agreement filter | +17.3pp p=0.029 | -0.3pp p=0.959 | Both groups lifted equally |
+
+The methodological lesson: verify entry anchors against documented filing
+dates, not price behaviour. The JPM_FQ1_2025 case (tariff-pause rally on
+2025-04-09 masking the actual 2025-04-11 release) is the clearest
+demonstration — see `jpm_fq1_2025_worked_example.md`.
