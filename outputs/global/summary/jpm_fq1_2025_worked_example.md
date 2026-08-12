@@ -71,3 +71,56 @@ moved more.
 `release_date` is now built from the EDGAR 8-K Item 2.02 filing date for
 every US event, with zero price input in the resolution path. The price-based
 diagnostic was never committed and no graded output was contaminated.
+
+## The corrected window still does not contain the move
+
+Under the verified anchor (`release_date = 2025-04-11`), the corrected window
+is:
+
+```
+Entry:  2025-04-10 close  = $227.11
+Exit:   2025-04-11 open   = $226.31
+Gap:    -0.35%
+```
+
+JPM released at ~07:00 ET on 4/11, 2.5 hours before the 09:30 open. The open
+at $226.31 barely moved from the prior close. The earnings reaction was
+absorbed **during the session**: open $226.31 → high $238.58 → close $236.20
+(+4.37% intraday). The overnight close-to-open gap captured almost none of it.
+
+This is not unique to JPM. Across all 136 pre_market events:
+
+| Metric | |overnight gap|| |close-to-close| |
+|---|---|---|
+| Mean | 3.16% | 4.02% |
+| Median | 2.64% | 3.23% |
+| Exceeds ±2% band | 59% of events | 66% of events |
+| Which is larger | 40% of events | 60% of events |
+
+The overnight gap systematically underestimates the earnings reaction for
+pre-market reporters by a factor of ~1.27x on average. In 60% of events the
+close-to-close move is larger than the gap, meaning the session extends or
+reverses the pre-market reaction. The gap captures the pre-market pricing
+(which for liquid large-caps is efficient but not complete), while the session
+adds the full analyst-hours repricing.
+
+This is a **structural limitation of the overnight close-to-open convention
+for pre-market reporters**, not an anchor error. The ±2% raw band is
+pre-registered and stays. The limitation belongs in the methodology: the
+overnight gap is a noisier measure of the earnings reaction for BMO reporters
+than for AMC reporters, and 136/229 clean events (59%) are BMO.
+
+## Robustness note: raw versus excess grading
+
+In turbulent months (April 2025, October 2025), roughly one event in six
+would flip its grade if measured on excess-over-SPY returns rather than raw
+returns, because market-wide moves exceed the ±2% band independently of any
+company-specific news. The raw band conflates market-wide moves with
+company-specific ones during market stress. Pre-registered band retained;
+this is a stated limitation.
+
+| Month | Events | Raw/excess disagree | Rate |
+|---|---|---|---|
+| 2025-04 | 19 | 3 | 16% |
+| 2025-10 | 30 | 5 | 17% |
+| All other | 205 | 7 | 3% |
