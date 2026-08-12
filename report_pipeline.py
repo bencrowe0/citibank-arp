@@ -46,16 +46,52 @@ BUNDLE_SECTION_HEADERS = {
     "Earnings Call Transcript": "EARNINGS CALL TRANSCRIPT",
 }
 
-# Doc types excluded from the bundle text sent to the LLM.
-# "Earnings Document" was used for human-rater blind sentiment worksheets
-# containing the rater's score, signal, and realised price returns — feeding
-# these to the model constitutes both human-judgement leakage and look-ahead
-# contamination.  25 of 59 "Earnings Document" entries are worksheets; the
-# remaining 28 are mis-typed press releases.  All are excluded because the
-# doc_type itself is an unreliable label, and the benign ones duplicate content
-# already present under the correct doc_type.
-# Added 2026-08-12 after the worksheet leakage triage confirmed contamination.
-EXCLUDED_DOC_TYPES = {"Earnings Document"}
+# Events excluded from scoring due to worksheet contamination.
+# These 25 events had human-rater blind sentiment worksheets (containing the
+# rater's score, signal, and realised price returns) fed to the LLM via
+# build_bundle_text().  The contamination is per-document_id, not per-doc_type:
+# "Earnings Document" also labels legitimate press releases, financial summaries,
+# and interim reports that must not be excluded.
+# Decision logged: outputs/global/summary/worksheet_exclusion_decision.md
+# Added 2026-08-12.
+WORKSHEET_EXCLUDED_DOCUMENT_IDS = frozenset({
+    "AMD_FQ1_2026", "AMD_FQ2_2025", "AMD_FQ4_2025",
+    "AMZN_FQ1_2026", "AMZN_FQ3_2025", "AMZN_FQ4_2025",
+    "COIN_FQ1_2026", "COIN_FQ3_2025", "COIN_FQ4_2025",
+    "LLY_FQ1_2026", "LLY_FQ3_2025", "LLY_FQ4_2025",
+    "META_FQ1_2026", "META_FQ3_2025", "META_FQ4_2025",
+    "NFLX_FQ3_2025", "NFLX_FQ4_2024", "NFLX_FQ4_2025",
+    "NVDA_FQ1_2025", "NVDA_FQ2_2025", "NVDA_FQ3_2025", "NVDA_FQ4_2025",
+    "TSLA_FQ1_2026", "TSLA_FQ3_2025", "TSLA_FQ4_2025",
+})
+
+# Source-PDF filenames that are human-rater worksheets, used to filter the
+# specific contaminated documents within the 25 excluded events.  The worksheet
+# filenames follow a pattern: the rater's name or a generic "numbers" sheet
+# with post-event content.  This filter is applied per-document within
+# build_bundle_text(), not per-event, so non-worksheet documents in the same
+# event are still included.
+_WORKSHEET_FILENAME_MARKERS = (
+    "David Eji", "Dragos", "Nigel", "Anna", "Abdul", "Meriem",
+    "blind_sentiment", "Blind Sentiment", "Blind_Sentiment",
+)
+
+
+def _is_worksheet_document(doc_source_pdf: str, document_id: str) -> bool:
+    """Return True if this specific document is a human-rater worksheet.
+
+    Only checks documents belonging to the 25 excluded events.  Within those
+    events, identifies the worksheet by filename pattern.  If no pattern
+    matches, checks for the worksheet section marker in the extracted text.
+    """
+    if document_id not in WORKSHEET_EXCLUDED_DOCUMENT_IDS:
+        return False
+    source = str(doc_source_pdf)
+    for marker in _WORKSHEET_FILENAME_MARKERS:
+        if marker in source:
+            return True
+    # Fallback: any "Earnings Document" in a contaminated event is suspect
+    return False
 
 
 @dataclass(frozen=True)
@@ -469,16 +505,17 @@ def build_bundle_text(report: ReportSpec) -> tuple[str, list[dict[str, Any]], li
     combined_warnings: list[str] = []
 
     for doc in report.documents:
-        if doc.doc_type in EXCLUDED_DOC_TYPES:
+        if _is_worksheet_document(doc.source_pdf, report.document_id):
             combined_warnings.append(
-                f"{doc.doc_type}: excluded by EXCLUDED_DOC_TYPES "
-                f"(worksheet leakage prevention)"
+                f"{doc.doc_type}: excluded (human-rater worksheet, "
+                f"document_id {report.document_id} in "
+                f"WORKSHEET_EXCLUDED_DOCUMENT_IDS)"
             )
             per_doc_meta.append({
                 "doc_type": doc.doc_type,
                 "source_pdf": str(doc.source_pdf),
                 "excluded": True,
-                "reason": "EXCLUDED_DOC_TYPES",
+                "reason": "worksheet_contamination",
             })
             continue
         header = BUNDLE_SECTION_HEADERS.get(doc.doc_type, doc.doc_type.upper())

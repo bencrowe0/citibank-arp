@@ -51,8 +51,25 @@ NVDA (4), TSLA (3).
 
 ## Pipeline fix
 
-`report_pipeline.py` now excludes `"Earnings Document"` doc_type from the
-bundle text via `EXCLUDED_DOC_TYPES`. All 59 "Earnings Document" entries are
-excluded (25 human worksheets + 28 mis-typed press releases that duplicate
-content already present under the correct doc_type + 6 other). The exclusion
-is logged in `per_doc_meta` and `combined_warnings`.
+`report_pipeline.py` now filters on document_id, not doc_type. The 25
+excluded document_ids are listed in `WORKSHEET_EXCLUDED_DOCUMENT_IDS`.
+Within those events, `_is_worksheet_document()` identifies the specific
+worksheet file by filename pattern and excludes it from the bundle text.
+Non-worksheet documents in the same event (e.g. transcripts) are still
+included. The exclusion is logged in `per_doc_meta` and `combined_warnings`.
+
+The blanket `EXCLUDED_DOC_TYPES = {"Earnings Document"}` filter was reverted
+because 33 of the 59 "Earnings Document" entries are legitimate
+company-authored content:
+- 10 are press releases / shareholder letters (WMT x5, NFLX x3, UAL x2)
+- 12 are financial summary / numbers sheets (IBM x3, MCD x3, NKE x3, MSFT x3)
+- 3 are Maersk interim reports
+- 3 are UAL investor updates
+- 3 are UAL SEC periodic filings (10-Q/10-K)
+- 2 are financial results documents (UAL, BA)
+
+All 33 were being read by the pipeline in the deployed runs — they appear in
+the extracted text files as `=== EARNINGS DOCUMENT ===` sections. This is a
+stated data-quality finding: "Earnings Document" is an unreliable doc_type
+label covering both contaminated worksheets and legitimate source material.
+The 10 press releases should be retyped to "Press Release" in the manifests.

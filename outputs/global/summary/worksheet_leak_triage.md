@@ -266,7 +266,13 @@ the LLM arm on 25%. The LLM holds or sells where the human buys.
 
 Kappa is near zero. The two arms are systematically unrelated — their
 directional calls share barely more structure than two independent classifiers
-with these marginals. This is a finding about the arms, not a failed check.
+with these marginals. This is a finding about the arms, not a failed check:
+the human arm is directionally optimistic (BUY 57%, SELL 21%), the LLM arm is
+HOLD-heavy (HOLD 41%, BUY 25%). Two opposite failure modes — the human arm
+over-calls upside, the model over-hedges. Their near-independence is precisely
+why their agreement is informative rather than tautological: combining weakly
+correlated signals is the standard reason an agreement filter works, and the
+filter does work (+17.3pp after excluding the contaminated events, p=0.029).
 
 #### Agreement filter recomputed excluding the 25 contaminated events
 
@@ -286,6 +292,20 @@ significant at p<0.05, vs +14.5pp, marginal at p=0.069 before). Removing the
 25 events where the LLM was reading the human's answer removes mechanically
 inflated agreement, leaving a cleaner signal where genuine agreement predicts
 accuracy.
+
+**Reconciliation note**: These figures (agree 32.7%, disagree 15.4%) differ
+from any previously documented agreement-filter headline (e.g. 0.561 vs
+0.429). The quantities differ in three ways: (1) **subset** — this analysis
+uses the 107 traded events from the human-export's 180 clean paired rows
+(section=All, first_rater_for_event=YES), not the model arm's full 268-event
+universe; (2) **grading convention** — overnight returns from
+`returns_matrix.csv` with ±2% band, not the 5-day close-to-close window; (3)
+**accuracy definition** — correct-direction rate among traded events only
+(BUY or SELL calls), not 3-class accuracy including HOLD. The two sets of
+figures answer different questions on different subsets and are not directly
+comparable. This analysis is authoritative for the contamination comparison
+(same convention applied to both groups); the model arm's own headline uses
+its own convention and event set.
 
 #### Scope limitations on the paired analysis
 
