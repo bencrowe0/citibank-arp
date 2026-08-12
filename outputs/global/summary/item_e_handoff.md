@@ -123,9 +123,26 @@ labelled "retrospective not pre-registered".
 a principled choice. The sweep found the least-aggressive lower threshold
 maximised in-sample total return.
 
+**Consequence**: the deployed HOLD thresholds were selected by optimising a
+metric the study no longer reports (compounded total return, retired as
+order-dependent), on data the study then scores (in-sample, all events
+seen). The 95-event graded denominator is itself a product of in-sample
+threshold selection. Every figure that depends on the HOLD threshold
+(selectivity accuracy 65.3%, mean net per trade, graded N) carries this
+qualification.
+
+**Item E is therefore the load-bearing robustness test, not a supplementary
+one.** Refitting thresholds out of sample is the only check on whether the
+65.3% survives without in-sample selection. The only headline that is clean
+of this qualification is rho = 0.236 (p = 0.0003), which does not depend
+on the threshold.
+
 **Item E must refit thresholds on training slices using the same criterion
 (total return) that the deployed thresholds were chosen by.** If a different
-criterion is used, state it explicitly and note the divergence.
+criterion is used, state it explicitly and note the divergence. Note that
+the original criterion was itself the compounded total return, which is
+order-dependent — Item E should use the summed total return instead, and
+record the change.
 
 ## Baseline correction (2026-08-13)
 

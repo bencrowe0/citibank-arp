@@ -1,11 +1,17 @@
 # Direction accuracy decomposition
 
-Date: 2026-08-13
+Date: 2026-08-13 (corrected 2026-08-13: tautology identified and restated)
 
-## Finding: neither arm adds directional information beyond base-rate matching
+## Corrected finding
 
-On the 76 direction-only events (both arms committed), each arm's per-
-direction accuracy exactly equals the base rate in its self-selected subset.
+The earlier claim that "per-direction accuracy exactly equals the base rate
+in its self-selected subset" is **tautological**: the accuracy of BUY calls
+is the proportion of positive returns among events the arm called BUY, and
+the "base rate in the subset" is the same proportion. They are the same
+number by definition, for any arm, on any data. This is not a finding.
+
+The informative comparisons are each arm's accuracy **vs 50%** and **vs the
+overall base rate** (not the subset base rate).
 
 ### Human arm
 
