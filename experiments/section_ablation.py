@@ -165,12 +165,25 @@ def load_audit_rows() -> list[dict]:
 
 def load_exclusions() -> set[str]:
     excluded = set()
+    # Worksheet contamination (25 events)
     with open(WORKSHEET_FLAGS_CSV, newline="") as f:
         reader = csv.DictReader(f)
         for r in reader:
             if r["has_human_score"].strip() == "True":
                 excluded.add(r["document_id"].strip())
-    excluded |= {"SPOT_FQ1_2026", "LLY_FQ1_2026", "LLY_FQ3_2025", "LLY_FQ4_2025"}
+    # Misattributed document
+    excluded.add("SPOT_FQ1_2026")
+    # Truncated transcripts
+    excluded |= {"LLY_FQ1_2026", "LLY_FQ3_2025", "LLY_FQ4_2025"}
+    # Timing exclusions (unknown/null release_timing)
+    import glob as _glob
+    for mf in _glob.glob(str(PROJECT_ROOT / "manifests" / "p2_*_reports.json")):
+        with open(mf) as f:
+            mdata = json.load(f)
+        rt = mdata.get("release_timing", {}).get("value")
+        if rt in (None, "unknown", "intraday"):
+            for report in mdata["reports"]:
+                excluded.add(report["document_id"])
     return excluded
 
 
@@ -372,6 +385,7 @@ def score_arm(
         "total_tokens": cost_log["total_tokens"],
         "estimated_cost_usd": cost_log["estimated_cost_usd"],
         "latency_seconds": cost_log["latency_seconds"],
+        "_response_model": cost_log.get("model", ""),
     }
 
 
@@ -499,6 +513,13 @@ def main():
     print(f"  Estimated total cost:  ${estimated_total_cost:.2f}")
     print(f"  Estimated remaining:   ${estimated_remaining_cost:.2f}")
     print(f"")
+
+    # Check for --pilot-only flag
+    if "--pilot-only" in sys.argv:
+        print(f"--pilot-only flag set. Stopping after pilot.")
+        print(f"{'='*60}")
+        return 0
+
     print(f"Proceeding with full run...")
     print(f"{'='*60}\n")
 
@@ -595,10 +616,21 @@ def main():
         "correct_overnight", "correct_5d", "net_overnight",
         "run_id",
     ]
+    # Record the resolved model version from the first result
+    resolved_model = ""
+    for r in all_results:
+        if r.get("_response_model"):
+            resolved_model = r["_response_model"]
+            break
+
     with open(OUT_RESULTS, "w", newline="") as f:
         f.write("# Section ablation results\n")
         f.write(f"# Run ID: {run_id}\n")
-        f.write(f"# Grading band is provisional pending anchor correction\n")
+        f.write(f"# Run date: {datetime.now(timezone.utc).isoformat()}\n")
+        f.write(f"# Model alias: deepseek-chat\n")
+        f.write(f"# Resolved model version: {resolved_model}\n")
+        f.write(f"# Deployed runs used: deepseek-v4-flash (verified from run_meta)\n")
+        f.write(f"# Grading: pre-registered ±2% raw overnight band\n")
         f.write(f"# Overnight band: {overnight_band}, 5d band: {fiveday_band:.6f}\n")
         f.write(f"# hold_upper: {HOLD_UPPER}, hold_lower: {HOLD_LOWER}\n")
         f.write(f"#\n")

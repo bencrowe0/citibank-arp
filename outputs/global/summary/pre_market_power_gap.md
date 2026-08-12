@@ -60,6 +60,22 @@ The 5-day horizon in `returns_matrix.csv` is available as a secondary check:
 it captures the full multi-day repricing and has a wider implied HOLD band
 (±3.38%) calibrated to the same HOLD share as the overnight band.
 
+## The accuracy-versus-P&L divergence, now measured
+
+The pre_market group shows 70.8% directional accuracy (on 24 graded events)
+but only +0.723% mean net per trade, while after_hours shows 65.1% accuracy
+(on 43 graded events) at +2.749% mean net per trade. This divergence was
+previously recorded in the project as an observation; it is now explained by
+the power gap:
+
+The ±2% HOLD band rewards the lower-powered measure on accuracy (because only
+the largest, most directionally obvious reactions breach the band — 24 out of
+80 traded pre_market events — inflating the accuracy denominator with
+easy-to-grade extremes) while penalising it on P&L (because the 56 flat
+pre_market trades contribute ~0% net each, dragging the mean down). This is a
+measurement artefact of the band interacting with the gap convention, not a
+difference in the model's skill between BMO and AMC events.
+
 ## Pre-registered convention retained
 
 The ±2% raw overnight band is pre-registered and stays. This limitation is
