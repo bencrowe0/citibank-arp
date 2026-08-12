@@ -35,6 +35,27 @@ is visible rather than buried. The FLAT-excluded figure is used as the
 primary because it matches the accuracy definition applied to the LLM arm
 throughout the study. The FLAT-as-wrong figure is the robustness check.
 
+**The differential exceeds the finding.** The FLAT convention gives the LLM
+a 7.1pp advantage over the human arm. The like-for-like paired gap on
+band-breaching events is 6.3pp (LLM 64.6% vs Human 58.3%). The entire
+apparent model advantage is smaller than the bias the metric choice
+introduces. Under FLAT-as-wrong, the gap narrows to 4.8pp (LLM 39.2% vs
+Human 34.4%), also untestable at N=48 (MDE ~±30pp).
+
+**Conclusion: under neither convention can a model advantage over the human
+arm be claimed.** FLAT-excluded flatters the model because it holds 40.4%
+against 23.4%, so its traded events disproportionately breach the band.
+FLAT-as-wrong narrows the gap but remains untestable. The comparison is
+underpowered and the metric is not neutral, and both facts belong together.
+
+**Direction-only comparison (supplementary, neutral on HOLD rate):**
+On the 76 events where both arms called BUY or SELL (no band filter, no
+HOLD-rate confound): Human sign accuracy 57.9% (44/76), LLM sign accuracy
+60.5% (46/76), paired diff +2.6pp, 90% CI [−7.9pp, +13.2pp], p=0.754.
+Paired MDE ~±23pp. This is the only cut where the HOLD-rate confound is
+absent. It shows no detectable difference. Always-BUY baseline: 43.4%.
+HOLD rates must accompany every accuracy figure for both arms.
+
 ## 2. The sample mismatch between accuracy and mean net per trade
 
 Accuracy is computed on **band-breaching events** (79 graded for human,

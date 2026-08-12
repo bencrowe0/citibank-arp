@@ -61,6 +61,42 @@ which shows +6.3pp (not significant, p=0.533).
 Paired (both graded): N=7. LLM 85.7% vs Human 42.9%, diff +42.9pp,
 p=0.203. **MDE ~±77pp — completely untestable at N=7.**
 
+## Direction-only comparison (supplementary, neutral on HOLD rate)
+
+On the 76 events where both arms called BUY or SELL, sign accuracy
+(did the call match the sign of the overnight return, no band filter):
+
+| | Sign accuracy | N |
+|---|---|---|
+| Human | **57.9%** (44/76) | 76 |
+| LLM | **60.5%** (46/76) | 76 |
+| LLM − Human | +2.6pp, 90% CI [−7.9, +13.2], p=0.754 | |
+| Always-BUY baseline | 43.4% | |
+| Paired MDE | ~±23pp | |
+
+This is the only cut where the HOLD-rate confound is absent — both arms
+committed on every event, so selectivity plays no role. It shows no
+detectable difference (2.6pp, p=0.754, well within the ±23pp MDE).
+
+Marginals on these 76 events: Human BUY 69.7% / SELL 30.3%; LLM BUY
+47.4% / SELL 52.6%. The human arm is directionally optimistic even on
+the subset where both committed; the LLM is balanced.
+
+Both arms read earnings documents above the always-BUY baseline of 43.4%,
+and neither arm is detectably better than the other at this sample size.
+
+## FLAT convention and the metric differential
+
+The FLAT convention gives the LLM a 7.1pp differential advantage (see
+`methodology_flat_convention.md`). The like-for-like paired gap of 6.3pp
+(FLAT excluded) is smaller than this differential. Under FLAT-as-wrong,
+the gap narrows to 4.8pp, also untestable.
+
+**Under neither convention can a model advantage over the human arm be
+claimed.** The comparison is underpowered (MDE ~±30pp on band-breaching
+events, ~±23pp on sign accuracy) and the primary metric is not neutral on
+HOLD rate.
+
 ## Price-based repricing (N=64, reported separately, never pooled)
 
 | | Human | LLM |
