@@ -49,17 +49,37 @@ the pre_market power gap: 70% of pre_market trades land inside the ±2% band
 because the overnight gap captures only a fraction of the earnings reaction
 for BMO reporters.
 
-## The 75 ungraded trades carry a directional signal the metric discards
+## The measured cost of the pre-registered HOLD band
 
 Of the 75 events where the model traded but the return fell inside the ±2%
-band, **46 (61%) were directionally correct** — the sign of the return
-matched the call. By timing: pre_market 36/56 (64%), after_hours 10/19 (53%).
+band, **46 (61.3%) were directionally correct** — the sign of the return
+matched the call.
 
-This is above the 50% chance rate, suggesting the model has signal the
-accuracy metric is discarding. However, sub-2% overnight moves are within
-normal daily variation (median magnitude 0.61%, P75 1.17%), so a correct sign
-there is weak evidence of skill. This figure is descriptive, not an accuracy
-claim.
+| Group | Sign correct | N | Rate | 90% CI | Binomial p (H0: 50%) |
+|---|---|---|---|---|---|
+| All ungraded | 46 | 75 | 61.3% | [51.2%, 70.8%] | **0.064** |
+| Pre_market | 36 | 56 | 64.3% | [52.5%, 74.9%] | **0.044** |
+| After_hours | 10 | 19 | 52.6% | [32.0%, 72.6%] | 1.000 |
+
+The band was fixed in advance to avoid grading noise, and it is doing that.
+But it is also discarding events where the model was directionally right
+significantly more often than chance (p=0.064 pooled, p=0.044 pre_market).
+This is a limitation with a number attached rather than a generic caveat.
+
+**The mechanism fits**: the discarded signal concentrates in pre_market at
+64.3% against 52.6% after_hours — exactly where the band swallows most
+events. A pre-market release is partly priced before the open, so the
+direction survives while the magnitude is compressed below the band. This is
+the same mechanism as the pre_market power gap (see `pre_market_power_gap.md`),
+now visible from a second direction: the model reads the direction correctly,
+but the overnight gap is too small to register it as a graded outcome.
+
+The after_hours cell (10/19) is too small to say anything (p=1.0, CI spans
+32-73%).
+
+**Caveat**: median return magnitude is 0.61% and P75 is 1.17%, both within
+normal daily variation. Any single correct sign is weak evidence. This is not
+an accuracy claim and must not be combined with the graded accuracy figure.
 
 **Accuracy and P&L are computed on different samples** — 67 graded events for
 accuracy, 142 traded events for mean net per trade. This is a cleaner
