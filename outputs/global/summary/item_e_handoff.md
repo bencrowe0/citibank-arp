@@ -106,6 +106,61 @@ Four findings from the pre-anchor-correction analysis are formally retracted.
 See `outputs/global/summary/retracted_findings_2026-08-12.md` for the full
 list with original values and the reason each was retracted.
 
+## Threshold selection criterion (critical for Item E)
+
+The deployed thresholds `hold_upper=+0.25` / `hold_lower=-0.05` were selected
+by `experiments/phase2_pnl_weight_threshold_sweep.py`, objective = **total
+return** (in-sample), from a 113,344-combo grid. The sweep measured PSR=0.0
+and permutation p=0.150 — the combo **failed the project's own overfitting
+checks** and was promoted on 2026-08-05 by explicit user decision overriding
+the validity gates.
+
+**Not pre-registered.** All events were scored before the sweep was run.
+The freeze note (`ext1_freeze_note.md`, dated 2026-08-10) is explicitly
+labelled "retrospective not pre-registered".
+
+`-0.05` is the minimum value of the `THRESH_LOWER` grid (0.05 step), not
+a principled choice. The sweep found the least-aggressive lower threshold
+maximised in-sample total return.
+
+**Item E must refit thresholds on training slices using the same criterion
+(total return) that the deployed thresholds were chosen by.** If a different
+criterion is used, state it explicitly and note the divergence.
+
+## Baseline correction (2026-08-13)
+
+The correct naive floor for FLAT-excluded accuracy is the majority direction
+among graded events: **always-DOWN = 54.7% (52/95)**. The previously used
+~39% was always-BUY on all events including HOLDs — wrong denominator.
+
+**Both accuracy framings, always reported together:**
+- Selectivity: 62/95 = 65.3% (model traded + |ret|>2%). Above 54.7% floor,
+  +10.5pp, p=0.024 — significant but at the detection limit (MDE=±10.8pp).
+- Coverage: 62/147 = 42.2% (all |ret|>2%). Below 54.4% floor by 12.2pp.
+
+**Direction-only decomposition**: on 76 paired events where both arms
+committed, each arm's per-direction accuracy exactly equals the base rate in
+its self-selected subset. Zero per-direction margin. Overall sign accuracy
+comes from BUY/SELL allocation matching the sample's SELL skew, not from
+document reading. See `direction_accuracy_decomposition.md`.
+
+**Dev/eval split (directional evidence for Item E)**: dev accuracy 52.6%
+(10/19), eval 68.4% (52/76). The model performs better on later events —
+opposite of overfitting. Eval margin +14.5pp vs floor (p=0.007). Dev too
+small (MDE=±24.1pp). This is the finding Item E exists to test properly.
+
+## Item D (FinBERT baseline) — complete
+
+Frontier on eval split (119 graded, HOLD=wrong convention):
+- Majority-direction: 55.0%
+- Deployed model: 43.3% (below floor under HOLD=wrong)
+- FinBERT: 34.5%
+- Loughran-McDonald: 15.1%
+
+FinBERT narrows the gap to the model (34.5% vs 15.1% for LM) but the model's
+advantage is real (8.4pp, non-overlapping CIs). The model's differentiation
+is structured output and evidence quotes, not raw accuracy dominance.
+
 ## Prerequisites for Item E (walk-forward)
 
 All anchor-correction and exclusion-set work above is now complete. Remaining

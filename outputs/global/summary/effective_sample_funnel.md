@@ -8,7 +8,7 @@ Date: 2026-08-12 (corrected on release_date anchor)
 |---|---|---|---|
 | Total events | 268 | | |
 | After worksheet/SPOT exclusion | 242 | 26 | 25 worksheet contamination + 1 misattributed document |
-| After timing exclusion | 229 | 13 | ALV.DE (1), AMKBY (4), LNVGY (4), LMT (4) — unknown or null timing |
+| After timing exclusion | 233 | 9 | ALV.DE (1), AMKBY (4), LNVGY (4) — unknown or null timing |
 | LLM called BUY or SELL | 142 | 87 | Model said HOLD — no trade, no directional test |
 | Overnight |return| > ±2% band | **92** | 50 | Return inside ±2% band — traded but ungraded ("bet on flat") |
 
