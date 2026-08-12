@@ -3,6 +3,27 @@
 # Source: EDGAR 8-K Item 2.02 (US filers) and 6-K (Spotify)
 # Non-US issuers and LMT are excluded (no EDGAR 8-K)
 #
+# CORRECTION (2026-08-11): The GS +3 gaps (GS_FQ1_2025: report_date 2025-04-11
+# vs release 2025-04-14; GS_FQ1_2026: report_date 2026-04-10 vs release
+# 2026-04-13) are NOT weekend artifacts. 2025-04-11 and 2026-04-10 are Fridays;
+# the EDGAR 8-K was filed the following Monday. GS released earnings on Monday,
+# not Friday. These are report_date errors of the same class as JPM_FQ1_2025
+# (report_date one trading session before the actual release), not benign
+# calendar gaps. release_date is the correct anchor for these events.
+#
+# NOTE (2026-08-11): HOOD_FQ3_2025: two Item 2.02 candidates (2025-11-05 and
+# 2025-10-31). The 2025-11-05 match is correct per Robinhood IR (results
+# announced Nov 5 after close). The 2025-10-31 candidate is likely a different
+# filing or an amended 8-K. This is the single weakest anchor -- the only event
+# where proximity was used as a tiebreaker between two Item 2.02 filings, but
+# independently confirmed correct. The primaryDocument filename hood-20251030.htm
+# carries the fiscal period end date, not the release date.
+#
+# NOTE (2026-08-11): LOW_FQ1_2025 has report_date=2026-05-21 but EDGAR 8-K filed
+# 2026-05-20. Lowe's released Q1 FY2026 results on May 20, 2026 (earnings call
+# at 9am ET, press release same day). report_date is wrong by +1 day.
+# release_date (2026-05-20) is the correct anchor.
+#
 document_id,ticker,issuer,report_date,verified_release_date,gap_days,direction,primary_document
 AAPL_FQ1_2026,AAPL,p2_apple,2026-01-29,2026-01-29,0,match,aapl-20260129.htm
 AAPL_FQ3_2025,AAPL,p2_apple,2025-07-31,2025-07-31,0,match,aapl-20250731.htm

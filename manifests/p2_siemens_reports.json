@@ -10,6 +10,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ4 2025",
       "report_date": "2025-11-13",
+      "release_date": "2025-11-13",
+      "release_date_source": "Siemens press event page",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -30,6 +32,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ1 2026",
       "report_date": "2026-02-12",
+      "release_date": "2026-02-12",
+      "release_date_source": "Siemens press event page",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -50,6 +54,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ2 2026",
       "report_date": "2026-05-13",
+      "release_date": "2026-05-13",
+      "release_date_source": "Siemens press event page",
       "documents": [
         {
           "doc_type": "Press Release",

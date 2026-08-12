@@ -10,6 +10,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ1 2025",
       "report_date": "2025-05-07",
+      "release_date": "2025-05-07",
+      "release_date_source": "Novo Nordisk IR page",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -30,6 +32,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ2 2025",
       "report_date": "2025-08-06",
+      "release_date": "2025-08-06",
+      "release_date_source": "Novo Nordisk IR page",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -50,6 +54,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ3 2025",
       "report_date": "2025-11-05",
+      "release_date": "2025-11-05",
+      "release_date_source": "Novo Nordisk IR page",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -70,6 +76,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ4 2025",
       "report_date": "2026-02-03",
+      "release_date": "2026-02-03",
+      "release_date_source": "Novo Nordisk IR page",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -90,6 +98,6 @@
     "value": "pre_market",
     "source": "Novo Nordisk IR page: stated convention \"before NASDAQ Copenhagen opens\", Q3 2026 at 07:30 CET. Confidence MEDIUM: stated convention, not a per-release timestamp. Judged against NYSE: 07:30 CET = 01:30 ET.",
     "retrieval_date": "2026-08-12",
-    "provenance_confidence": "medium — stated convention, not per-release timestamp"
+    "provenance_confidence": "medium \u2014 stated convention, not per-release timestamp"
   }
 }

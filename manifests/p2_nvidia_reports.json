@@ -10,6 +10,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ1 2025",
       "report_date": "2025-02-26",
+      "release_date": "2025-02-26",
+      "release_date_source": "EDGAR 8-K Item 2.02, nvda-20250226.htm, acc 0001045810-25-000021",
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",
@@ -30,6 +32,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ2 2025",
       "report_date": "2025-05-28",
+      "release_date": "2025-05-28",
+      "release_date_source": "EDGAR 8-K Item 2.02, nvda-20250528.htm, acc 0001045810-25-000115",
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",
@@ -50,6 +54,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ3 2025",
       "report_date": "2025-08-27",
+      "release_date": "2025-08-27",
+      "release_date_source": "EDGAR 8-K Item 2.02, nvda-20250827.htm, acc 0001045810-25-000207",
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",
@@ -70,6 +76,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ4 2025",
       "report_date": "2025-11-19",
+      "release_date": "2025-11-19",
+      "release_date_source": "EDGAR 8-K Item 2.02, nvda-20251119.htm, acc 0001045810-25-000228",
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",

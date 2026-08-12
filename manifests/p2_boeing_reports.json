@@ -10,6 +10,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ1 2025",
       "report_date": "2025-04-23",
+      "release_date": "2025-04-23",
+      "release_date_source": "EDGAR 8-K Item 2.02, ba-20250423.htm, acc 0000012927-25-000027",
       "documents": [
         {
           "doc_type": "Earnings Presentation",
@@ -34,6 +36,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ2 2025",
       "report_date": "2025-07-29",
+      "release_date": "2025-07-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, ba-20250729.htm, acc 0000012927-25-000058",
       "documents": [
         {
           "doc_type": "Earnings Presentation",
@@ -54,6 +58,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ3 2025",
       "report_date": "2025-10-29",
+      "release_date": "2025-10-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, ba-20251029.htm, acc 0001628280-25-046915",
       "documents": [
         {
           "doc_type": "Earnings Presentation",
@@ -74,6 +80,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ4 2025",
       "report_date": "2026-01-26",
+      "release_date": "2026-01-27",
+      "release_date_source": "EDGAR 8-K Item 2.02, ba-20260127.htm, acc 0001628280-26-003518",
       "documents": [
         {
           "doc_type": "Earnings Document",

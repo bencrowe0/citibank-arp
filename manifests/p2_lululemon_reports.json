@@ -10,6 +10,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ3 2025",
       "report_date": "2025-12-11",
+      "release_date": "2025-12-11",
+      "release_date_source": "EDGAR 8-K Item 2.02, lulu-20251203.htm, acc 0001397187-25-000054",
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",
@@ -30,6 +32,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ4 2025",
       "report_date": "2026-03-17",
+      "release_date": "2026-03-17",
+      "release_date_source": "EDGAR 8-K Item 2.02, lulu-20260317.htm, acc 0001397187-26-000019",
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",
@@ -50,6 +54,8 @@
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ1 2026",
       "report_date": "2026-06-04",
+      "release_date": "2026-06-04",
+      "release_date_source": "EDGAR 8-K Item 2.02, lulu-20260604.htm, acc 0001397187-26-000077",
       "documents": [
         {
           "doc_type": "Earnings Call Transcript",
