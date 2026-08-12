@@ -49,6 +49,24 @@ the pre_market power gap: 70% of pre_market trades land inside the ±2% band
 because the overnight gap captures only a fraction of the earnings reaction
 for BMO reporters.
 
+## The 75 ungraded trades carry a directional signal the metric discards
+
+Of the 75 events where the model traded but the return fell inside the ±2%
+band, **46 (61%) were directionally correct** — the sign of the return
+matched the call. By timing: pre_market 36/56 (64%), after_hours 10/19 (53%).
+
+This is above the 50% chance rate, suggesting the model has signal the
+accuracy metric is discarding. However, sub-2% overnight moves are within
+normal daily variation (median magnitude 0.61%, P75 1.17%), so a correct sign
+there is weak evidence of skill. This figure is descriptive, not an accuracy
+claim.
+
+**Accuracy and P&L are computed on different samples** — 67 graded events for
+accuracy, 142 traded events for mean net per trade. This is a cleaner
+explanation of their divergence than the band alone: accuracy sees only the
+extreme reactions (where the model looks good), while P&L sees every trade
+including the 75 flat bets that contribute ~0% net each.
+
 ## Effective N must accompany every accuracy figure
 
 Any accuracy figure quoted from this study rests on the 67 graded events (or
@@ -56,11 +74,23 @@ a subset thereof for arm/subgroup comparisons). This N must appear alongside
 the figure. An accuracy of 70.8% on "24 directionally graded events" carries
 a very different evidential weight than the same percentage on "132 events".
 
-## Subgroup results are underpowered, not null
+## Minimum detectable effect: the reader's guide to every figure
 
-The pre_market vs after_hours accuracy difference of +5.7pp (p=0.632) is
-computed on 24 vs 43 events. At this sample size, the minimum detectable
-effect (two-proportion z-test, 80% power, α=0.10 one-sided) is approximately
-±25pp. Any subgroup difference smaller than ~25pp is untestable at this N,
-not absent. This applies to every subgroup cut in the study, including
-Item C's section ablation arms.
+The minimum detectable effect (MDE) at this sample size determines what the
+study can and cannot measure. This belongs in the methodology, not the
+limitations, because it tells the reader how to interpret every result.
+
+**Unpaired comparisons** (e.g. pre_market vs after_hours): MDE ≈ ±25pp
+(two-proportion z-test, 80% power, α=0.10 one-sided, N=24 vs 43). Any
+subgroup difference smaller than ~25pp is untestable, not absent.
+
+**Paired comparisons** (e.g. section arm vs full bundle on the same events):
+MDE ≈ ±12pp (McNemar/paired bootstrap, same power/alpha, N=119 paired
+events). The within-event correlation eliminates between-event variance,
+roughly halving the detectable effect. This is why Item C uses paired
+differences.
+
+**Agreement between arms** (on all scored events, no band filter): uses the
+full N=119 and does not depend on the ±2% band. This may be the only
+adequately powered comparison available for Item C if accuracy cannot
+separate the arms.
