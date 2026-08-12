@@ -43,8 +43,9 @@
     }
   ],
   "release_timing": {
-    "value": null,
-    "source": null,
-    "retrieval_date": null
+    "value": "after_hours",
+    "source": "Multiple sources confirm LVMH announces results after Euronext Paris close. Exact time not retrieved. Direction established, no timestamp.",
+    "retrieval_date": "2026-08-12",
+    "provenance_confidence": "direction only, no timestamp"
   }
 }

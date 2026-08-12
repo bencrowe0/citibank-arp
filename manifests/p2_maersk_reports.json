@@ -99,8 +99,8 @@
     }
   ],
   "release_timing": {
-    "value": null,
-    "source": null,
-    "retrieval_date": null
+    "value": "unknown",
+    "source": "investor.maersk.com timed out. Date confirmed but no publication time retrieved.",
+    "retrieval_date": "2026-08-12"
   }
 }

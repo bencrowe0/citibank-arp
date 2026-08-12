@@ -91,8 +91,8 @@
     }
   ],
   "release_timing": {
-    "value": null,
-    "source": null,
-    "retrieval_date": null
+    "value": "pre_market",
+    "source": "PUMA IR calendar: Q1 and Q3 2025 state \"8 am CET Quarterly Statement\". 08:00 CET precedes 09:00 XETRA open. Regular quarterly statements only; PUMA Q2 2025 is not in the dataset.",
+    "retrieval_date": "2026-08-12"
   }
 }

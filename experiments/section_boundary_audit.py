@@ -7,6 +7,24 @@ Exclusion rule (fixed before timing classification was visible):
   This rule was fixed before the timing classification was visible.
   Timestamp: 2026-08-11T23:00:00Z
 
+Non-US exchange convention (dated decision, 2026-08-12, made before event
+count was known):
+  - Home-listed tickers (ALV.DE, SIE.DE, PUM.DE, MC.PA, STAN.L) are graded
+    against their own exchange session. XETRA and Euronext Paris: 09:00-17:30
+    CET. LSE: 08:00-16:30 London time. yfinance returns local prices in local
+    currency for these lines.
+  - ADR tickers (BCS, NVO, AMKBY, LNVGY) are graded against the NYSE session,
+    09:30-16:00 ET. yfinance returns USD prices on the US line. All four
+    issuers publish in their home market in the early hours ET, so the reaction
+    necessarily lands at the US open.
+  - Limitation: ADR returns carry a currency effect. A move in the underlying
+    and a move in the local currency against the dollar both appear in the ADR
+    line, so an ADR overnight gap is not a clean read of the earnings reaction.
+  - The release time is a property of the issuer. The classification
+    (pre_market/after_hours) is a property of the issuer plus the exchange
+    being priced. Barclays published at 07:01 GMT via the London RNS; that
+    same fact classifies as pre_market whether judged against LSE or NYSE.
+
 Reads the calibration CSV for the 268-event list, applies strict boundary
 definitions to each event's extracted text, and writes an amended audit CSV.
 

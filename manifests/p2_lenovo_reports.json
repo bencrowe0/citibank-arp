@@ -83,8 +83,8 @@
     }
   ],
   "release_timing": {
-    "value": null,
-    "source": null,
-    "retrieval_date": null
+    "value": "unknown",
+    "source": "HKEX search is JS-rendered. BusinessWire timed out. Lenovo IR returns 403. No publication time retrieved.",
+    "retrieval_date": "2026-08-12"
   }
 }
