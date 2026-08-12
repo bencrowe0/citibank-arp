@@ -109,7 +109,24 @@ the arms agree. Under the old anchor the agree cell was 32.7%, below the
 naive baseline. The corrected picture is a model that reads earnings documents
 well above chance, not one that works only when a human concurs.
 
-## Lesson: one convention error, four retracted findings
+## 5. Baseline of ~39% (always-BUY on all events including HOLDs)
+
+**What was claimed**: accuracy of 65.3% "against a majority-class baseline of
+about 39%", implying a +26pp margin.
+
+**Corrected figure**: the correct naive floor is always-predict-DOWN on graded
+events = 54.7% (52/95). The margin is +10.5pp (p=0.024), barely significant
+(MDE=±10.8pp at N=95).
+
+**Why the error arose**: the ~39% was always-BUY computed on all events
+including HOLDs — the wrong denominator for an accuracy computed with FLAT
+events excluded. This is not a stale-anchor artefact but a comparator error
+present from the start. The naive floor must be computed on the same
+denominator as the accuracy it is compared against.
+
+See `baseline_correction_2026-08-13.md` for the full analysis.
+
+## Lesson: one convention error plus one comparator error, five retracted findings
 
 All four artefacts trace to one cause: using `report_date` close uniformly
 as entry, which was wrong for 82 pre_market events. The corrected anchor

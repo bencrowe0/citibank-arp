@@ -72,16 +72,19 @@ On the 76 events where both arms called BUY or SELL, sign accuracy
 | LLM | **60.5%** (46/76) | 76 | +17.1pp (**p=0.002**) |
 | LLM − Human | +2.6pp, 90% CI [−7.9, +13.2], p=0.754 | | |
 | Always-BUY baseline | 43.4% (33/76) | 76 | |
+| **Always-DOWN baseline** | **55.3%** (42/76) | 76 | Correct floor for SELL-skewed sample |
 | Paired MDE | ~±23pp | | |
 
 This is the only cut where the HOLD-rate confound is absent — both arms
 committed on every event, so selectivity plays no role.
 
 **Conclusion**: both arms extract directional information from earnings
-documents — each significantly beats the always-BUY baseline (p<0.01).
-Neither is detectably better than the other (+2.6pp, p=0.754). Resolving
-the difference would require a substantially larger sample rather than a
-different method.
+documents — each beats the always-BUY baseline (43.4%, p<0.01). However,
+the sample is SELL-skewed (55.3% negative returns), so the correct naive
+floor is always-DOWN at 55.3%. Against this floor, human +2.6pp (p=0.366)
+and LLM +5.3pp (p=0.210) — **neither arm beats the majority-direction
+floor by a testable margin**. Resolving the difference would require a
+substantially larger sample rather than a different method.
 
 ### Outcome distribution
 

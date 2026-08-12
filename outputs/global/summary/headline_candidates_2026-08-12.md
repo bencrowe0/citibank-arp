@@ -11,7 +11,7 @@ earnings reaction (rho = 0.236, p = 0.0003 on all 233 clean events),
 and that information is concentrated in the overnight window and fades
 within days — exactly as an information-driven signal should.
 Directional accuracy on the ±2%-graded subset is 65.3% (62 correct out
-of 95 graded events, from 233 clean events; majority-class baseline ~39%).
+of 95 graded events, from 233 clean events; majority-direction floor 54.7% (always-DOWN)).
 
 | Horizon | Mean net/trade | 95% CI | Accuracy (graded/traded/total) | Rho | p(rho) |
 |---|---|---|---|---|---|
@@ -28,7 +28,7 @@ assumption, and rules out post-earnings drift as the mechanism.
 
 **Qualifiers that must always travel with the 65.3% accuracy figure**: 95 graded
 events out of 233 total (41%); 146 traded of 233 (63%); 87 events were HOLD
-(not tested). The majority-class baseline on these events is ~39%.
+(not tested). The majority-direction floor on graded events is 54.7% (always-DOWN, 52/95).
 
 **Why strongest**: rho uses the full N=233 with no band filter, no
 trade/HOLD split, and no grading threshold. The p-value (0.0003) is the most
@@ -70,7 +70,7 @@ necessarily more accurate. See `human_vs_llm_corrected.md`.
 
 | Candidate | Statistic | N | p-value | Note |
 |---|---|---|---|---|
-| Score-return correlation + decay + accuracy (unified) | rho=0.236, 65.3% (95 of 233 graded, vs ~39% baseline), monotonic decay | 233 / 95 graded | 0.0003 | Strongest; candidates 1+2 merged |
+| Score-return correlation + decay + accuracy (unified) | rho=0.236, 65.3% (95 of 233 graded, vs 54.7% majority-direction floor), monotonic decay | 233 / 95 graded | 0.0003 | Strongest; candidates 1+2 merged |
 | Paired-subset accuracy | ~69% vs ~42.5% baseline | 55 graded | — | Replaces retracted filter |
 | Human vs LLM | +6.3pp, p=0.533 | 48 paired | 0.533 | Untestable at this N |
 
@@ -80,6 +80,6 @@ and directional accuracy, presented as one unified finding. Rho=0.236
 correction, and the monotonic decay validates the overnight window.
 Accuracy at 65.3% is the most intuitive figure but must always carry its
 qualifiers: 95 graded events out of 233 clean events (41%), 146 traded of
-233 (63%), majority-class baseline ~39%. The human comparison is
+233 (63%), majority-direction floor 54.7% (always-DOWN). The human comparison is
 underpowered and should be stated as such rather than claimed as a result
 in either direction.

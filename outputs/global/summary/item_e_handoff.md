@@ -43,7 +43,7 @@ These supersede all figures quoted before 2026-08-12.
 | Traded | 146 |
 | Graded (traded + resolved) | 95 |
 | Accuracy (graded) | **65.3%** (62/95) |
-| Always-BUY baseline (graded) | ~39% |
+| Majority-direction floor (graded) | 54.7% (always-DOWN, 52/95) |
 | Mean net per trade | **+1.862%** |
 | Summed total return (146 trades) | **+271.81%** |
 | t-statistic (mean / pstdev × √N, N=146) | **3.43** |
