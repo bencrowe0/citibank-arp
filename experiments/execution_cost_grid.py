@@ -54,7 +54,7 @@ def run_grid(preds: list) -> list[dict]:
                 "total_cost_bps": total_cost,
                 "n_trades": stats["n_trades"],
                 "hit_rate": stats["hit_rate"],
-                "total_return_pct": stats["total_return_pct"],
+                "total_return_pct": stats["compounded_total_return_pct"],
                 "avg_net_per_trade_pct": stats["avg_net_per_trade_pct"],
             })
     return rows
@@ -64,16 +64,16 @@ def bisect_breakeven(preds: list, lo: float = 0.0, hi: float = 5000.0, tol: floa
     """Find the cost_bps where total_return_pct crosses zero, via bisection.
     Assumes total_return_pct is monotonically decreasing in cost_bps (true
     here since cost is subtracted identically per trade regardless of sign)."""
-    lo_ret = backtest.simulate(preds, cost_bps=lo)["total_return_pct"]
-    hi_ret = backtest.simulate(preds, cost_bps=hi)["total_return_pct"]
+    lo_ret = backtest.simulate(preds, cost_bps=lo)["compounded_total_return_pct"]
+    hi_ret = backtest.simulate(preds, cost_bps=hi)["compounded_total_return_pct"]
     if lo_ret < 0:
-        raise ValueError(f"total_return_pct already negative at cost_bps={lo}: {lo_ret}")
+        raise ValueError(f"compounded_total_return_pct already negative at cost_bps={lo}: {lo_ret}")
     if hi_ret > 0:
-        raise ValueError(f"total_return_pct still positive at cost_bps={hi}: {hi_ret} - widen search range")
+        raise ValueError(f"compounded_total_return_pct still positive at cost_bps={hi}: {hi_ret} - widen search range")
 
     while hi - lo > tol:
         mid = (lo + hi) / 2
-        mid_ret = backtest.simulate(preds, cost_bps=mid)["total_return_pct"]
+        mid_ret = backtest.simulate(preds, cost_bps=mid)["compounded_total_return_pct"]
         if mid_ret > 0:
             lo = mid
         else:

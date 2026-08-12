@@ -174,8 +174,8 @@ def main() -> None:
 
     stats = backtest.simulate(check_preds, COST_BPS, SHORT_BORROW_BPS)
     print(f"\nSelf-check vs sweep JSON (expect total_return=167.66%, trades=99):")
-    print(f"  computed: total_return={stats['total_return_pct']}% trades={stats['n_trades']} "
-          f"hit_rate={stats['hit_rate']*100:.1f}% sharpe={stats['sharpe_per_trade']}")
+    print(f"  computed: total_return={stats['compounded_total_return_pct']}% trades={stats['n_trades']} "
+          f"hit_rate={stats['hit_rate']*100:.1f}% t_stat={stats['t_statistic']}")
 
 
 if __name__ == "__main__":

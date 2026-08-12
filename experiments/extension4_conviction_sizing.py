@@ -175,15 +175,18 @@ def simulate_sized(events: list[dict], cost_bps: float = 10.0, short_borrow_bps:
     nets = [r["net"] for r in trades]
     wins = sum(1 for r in trades if r["net"] > 0)
     losses = sum(1 for r in trades if r["net"] < 0)
-    sharpe = (mean(nets) / pstdev(nets) * (len(nets) ** 0.5)) if len(nets) > 1 and pstdev(nets) > 0 else 0.0
+    _sd_sized = pstdev(nets) if len(nets) > 1 else 0.0
+    t_statistic = (mean(nets) / _sd_sized * (len(nets) ** 0.5)) if _sd_sized > 0 else 0.0
 
     return {
         "n_prints": len(rows), "n_trades": len(trades),
         "hit_rate": round(wins / len(trades), 4) if trades else 0.0,
         "wins": wins, "losses": losses,
-        "total_return_pct": round((eq - 1.0) * 100, 2),
+        "compounded_total_return_pct": round((eq - 1.0) * 100, 2),
+        "total_return_pct": round((eq - 1.0) * 100, 2),  # backward-compat alias
         "avg_net_per_trade_pct": round(mean(nets) * 100, 4) if nets else 0.0,
-        "sharpe_per_trade": round(sharpe, 3),
+        "t_statistic": round(t_statistic, 3),
+        "sharpe_per_trade": round(t_statistic, 3),  # backward-compat alias
         "max_drawdown_pct": round(max_dd * 100, 2),
         "mean_abs_score_norm": mean_abs_score,
         "size_min": min(sizes), "size_max": max(sizes), "size_mean": mean(sizes),
@@ -193,8 +196,8 @@ def simulate_sized(events: list[dict], cost_bps: float = 10.0, short_borrow_bps:
 
 
 def write_results_csv(flat: dict, sized: dict, dist: dict, path: Path = RESULTS_CSV):
-    fields = ["book", "n_trades", "n_prints", "hit_rate", "total_return_pct",
-              "avg_net_per_trade_pct", "sharpe_per_trade", "max_drawdown_pct",
+    fields = ["book", "n_trades", "n_prints", "hit_rate", "compounded_total_return_pct",
+              "avg_net_per_trade_pct", "t_statistic", "max_drawdown_pct",
               "wins", "losses", "size_min", "size_max", "size_mean",
               "mean_abs_score_norm", "score_dist_mean", "score_dist_median",
               "score_dist_stdev", "score_dist_min", "score_dist_max",
@@ -203,9 +206,9 @@ def write_results_csv(flat: dict, sized: dict, dist: dict, path: Path = RESULTS_
     for name, s in (("flat", flat), ("sized", sized)):
         rows.append({
             "book": name, "n_trades": s["n_trades"], "n_prints": s["n_prints"],
-            "hit_rate": s["hit_rate"], "total_return_pct": s["total_return_pct"],
+            "hit_rate": s["hit_rate"], "compounded_total_return_pct": s["compounded_total_return_pct"],
             "avg_net_per_trade_pct": s["avg_net_per_trade_pct"],
-            "sharpe_per_trade": s["sharpe_per_trade"], "max_drawdown_pct": s["max_drawdown_pct"],
+            "t_statistic": s["t_statistic"], "max_drawdown_pct": s["max_drawdown_pct"],
             "wins": s["wins"], "losses": s["losses"],
             "size_min": s.get("size_min", 1.0), "size_max": s.get("size_max", 1.0),
             "size_mean": s.get("size_mean", 1.0),
@@ -238,13 +241,13 @@ def main() -> int:
     flat_preds = to_predictions(events)
     flat = simulate(flat_preds, cost_bps=10.0, short_borrow_bps=0.0)
     print(f"\nFlat book:  n_trades={flat['n_trades']}/{flat['n_prints']}  "
-          f"total_return={flat['total_return_pct']:+.2f}%  hit_rate={flat['hit_rate']*100:.1f}%  "
-          f"sharpe={flat['sharpe_per_trade']:.3f}  max_dd={flat['max_drawdown_pct']:.2f}%")
+          f"total_return={flat['compounded_total_return_pct']:+.2f}%  hit_rate={flat['hit_rate']*100:.1f}%  "
+          f"t_stat={flat['t_statistic']:.3f}  max_dd={flat['max_drawdown_pct']:.2f}%")
 
     sized = simulate_sized(events, cost_bps=10.0, short_borrow_bps=0.0)
     print(f"Sized book: n_trades={sized['n_trades']}/{sized['n_prints']}  "
-          f"total_return={sized['total_return_pct']:+.2f}%  hit_rate={sized['hit_rate']*100:.1f}%  "
-          f"sharpe={sized['sharpe_per_trade']:.3f}  max_dd={sized['max_drawdown_pct']:.2f}%  "
+          f"total_return={sized['compounded_total_return_pct']:+.2f}%  hit_rate={sized['hit_rate']*100:.1f}%  "
+          f"t_stat={sized['t_statistic']:.3f}  max_dd={sized['max_drawdown_pct']:.2f}%  "
           f"(size range {sized['size_min']:.3f}x-{sized['size_max']:.3f}x, mean {sized['size_mean']:.3f}x, "
           f"norm mean|score|={sized['mean_abs_score_norm']:.4f})")
 

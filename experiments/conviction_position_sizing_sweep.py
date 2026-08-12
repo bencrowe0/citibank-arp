@@ -292,7 +292,7 @@ def main() -> int:
 
     backtest_check = validate_against_backtest(args.cost_bps, args.short_borrow_bps)
     control_via_sweep = out_public["control_total_return_pct"]
-    control_via_backtest = backtest_check["total_return_pct"]
+    control_via_backtest = backtest_check["compounded_total_return_pct"]
     match = abs(control_via_sweep - control_via_backtest) < 0.5
     print(f"\nSelf-check vs backtest.py: control combo (slope=0, size_max=1) total_return="
           f"{control_via_sweep}% vs backtest.py's reported={control_via_backtest}% -> "
@@ -320,8 +320,13 @@ def main() -> int:
                     "p = fraction of shuffles whose best achievable total return >= the observed best.",
         },
         "vs_fixed_size_backtest": {
-            "backtest_py_reported": {k: backtest_check[k] for k in (
-                "n_trades", "total_return_pct", "avg_net_per_trade_pct", "sharpe_per_trade", "max_drawdown_pct")},
+            "backtest_py_reported": {
+                "n_trades": backtest_check["n_trades"],
+                "total_return_pct": backtest_check["compounded_total_return_pct"],
+                "avg_net_per_trade_pct": backtest_check["avg_net_per_trade_pct"],
+                "t_statistic": backtest_check["t_statistic"],
+                "max_drawdown_pct": backtest_check["max_drawdown_pct"],
+            },
             "self_check_match": match,
         },
         "deployment_note": "Candidate output only - backtest.py's simulate() keeps fixed +-1 sizing "

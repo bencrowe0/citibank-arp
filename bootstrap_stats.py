@@ -6,10 +6,10 @@ CI/interval in the write-up comes from the same convention.
 
 Four functions:
   - bootstrap_trade_stats: point estimate + percentile interval for a single
-    arm's total return, mean/trade, hit rate and Sharpe, all drawn from ONE
-    shared resample stream so the four numbers stay mutually consistent within
-    a draw (never resample each statistic separately - that lets them tell
-    inconsistent stories about the same draw).
+    arm's total return, mean/trade, hit rate and t_statistic, all drawn from
+    ONE shared resample stream so the four numbers stay mutually consistent
+    within a draw (never resample each statistic separately - that lets them
+    tell inconsistent stories about the same draw).
   - bootstrap_paired_difference: for a same-length, same-event-order pair of
     arrays (e.g. macro-on-correct vs macro-off-correct on identical events) -
     resamples the per-event difference directly, which is far tighter than
@@ -24,7 +24,8 @@ Four functions:
 
 Total return uses the log-space product trick (np.expm1(np.log1p(x).sum())),
 matching experiments/pnl_weight_threshold_sweep.py's total_return_from_net()
-convention. Sharpe matches backtest.py's population-std (pstdev) convention.
+convention. The ``t_statistic`` field (mean/pstdev * sqrt(N)) matches
+backtest.py's convention; it is NOT a time-series Sharpe ratio.
 RNG_SEED matches the project's existing sweep-script convention.
 """
 from __future__ import annotations
@@ -46,19 +47,24 @@ def _total_return(net_matrix: np.ndarray) -> np.ndarray:
     return np.expm1(np.log1p(net_matrix).sum(axis=1))
 
 
-def _sharpe(net_matrix: np.ndarray) -> np.ndarray:
-    """Population-std Sharpe per resample row, matching backtest.py's
-    pstdev-based sharpe_per_trade formula exactly. Rows with zero variance or
-    fewer than 2 trades score 0.0 (same convention as backtest.simulate)."""
+def _t_statistic(net_matrix: np.ndarray) -> np.ndarray:
+    """Per-resample-row t-statistic: mean/pstdev * sqrt(N), matching backtest.py's
+    ``t_statistic`` formula exactly.  This is NOT a time-series Sharpe ratio — it
+    grows mechanically with sqrt(N).  Rows with zero variance or fewer than 2
+    trades score 0.0 (same convention as backtest.simulate)."""
     n = net_matrix.shape[1]
     if n < 2:
         return np.zeros(net_matrix.shape[0])
     mean = net_matrix.mean(axis=1)
     std = net_matrix.std(axis=1, ddof=0)
-    sharpe = np.zeros_like(mean)
+    t_stat = np.zeros_like(mean)
     nonzero = std > 0
-    sharpe[nonzero] = mean[nonzero] / std[nonzero] * np.sqrt(n)
-    return sharpe
+    t_stat[nonzero] = mean[nonzero] / std[nonzero] * np.sqrt(n)
+    return t_stat
+
+
+# Keep old name as an alias so external callers are not broken
+_sharpe = _t_statistic
 
 
 def bootstrap_trade_stats(
@@ -68,8 +74,14 @@ def bootstrap_trade_stats(
     ci: tuple[float, float] = DEFAULT_CI,
 ) -> dict:
     """Point estimate + percentile CI for total return, mean/trade, hit rate
-    and Sharpe, all drawn from one shared (n_resamples, n) index matrix so the
-    four stats stay internally consistent within each resample."""
+    and t_statistic (mean/pstdev*sqrt(N)), all drawn from one shared
+    (n_resamples, n) index matrix so the four stats stay internally consistent
+    within each resample.
+
+    NOTE: ``t_statistic`` is mean/pstdev * sqrt(N) — a per-trade information
+    ratio scaled by sqrt(N).  It grows mechanically with sample size and is
+    NOT a time-series Sharpe ratio.
+    """
     net = np.asarray(list(net_returns), dtype=float)
     n = len(net)
     if n == 0:
@@ -82,7 +94,7 @@ def bootstrap_trade_stats(
     total_return = _total_return(res)
     mean_per_trade = res.mean(axis=1)
     hit_rate = (res > 0).mean(axis=1)
-    sharpe = _sharpe(res)
+    t_stat = _t_statistic(res)
 
     def _point_ci(point_val, dist):
         lo, hi = np.percentile(dist, ci)
@@ -96,7 +108,9 @@ def bootstrap_trade_stats(
         "total_return": _point_ci(_total_return(net[None, :])[0], total_return),
         "mean_per_trade": _point_ci(net.mean(), mean_per_trade),
         "hit_rate": _point_ci((net > 0).mean(), hit_rate),
-        "sharpe": _point_ci(_sharpe(net[None, :])[0], sharpe),
+        "t_statistic": _point_ci(_t_statistic(net[None, :])[0], t_stat),
+        # Backward-compatibility alias so existing code reading ["sharpe"] still works
+        "sharpe": _point_ci(_t_statistic(net[None, :])[0], t_stat),
     }
 
 

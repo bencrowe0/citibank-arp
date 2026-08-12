@@ -99,7 +99,24 @@ def overnight_gap(pred: Prediction) -> float | None:
 def simulate(preds, cost_bps: float = 10.0, short_borrow_bps: float = 0.0) -> dict:
     """Run the overnight-gap strategy for one predictor. Returns stats + the
     chronological equity curve (compounded net return of $1 with full capital on
-    each non-overlapping trade)."""
+    each non-overlapping trade).
+
+    NOTE on reported metrics:
+    - ``compounded_total_return_pct``: the final equity curve value expressed as a
+      percentage gain.  This assumes sequential full-capital deployment across every
+      event in chronological order, which is violated whenever two reporters fall in
+      the same week (overlapping positions).  It is also order-dependent: shuffling
+      the trade sequence changes the number.  Do NOT quote this as an achievable
+      portfolio return.
+    - ``summed_total_return_pct``: the simple arithmetic sum of all per-trade net
+      returns, expressed as a percentage.  Order-independent, no reinvestment
+      assumption, robust to overlapping reporters.  Prefer this and
+      ``avg_net_per_trade_pct`` as headline P&L figures.
+    - ``t_statistic``: ``mean(nets) / pstdev(nets) * sqrt(N)`` — the per-trade
+      information ratio scaled by sqrt(N).  This grows mechanically with sample
+      size and is NOT a time-series Sharpe ratio.  Use ``info_ratio_per_trade``
+      (the unscaled ``mean/pstdev``) for a size-invariant risk-adjusted measure.
+    """
     rows = []
     for p in preds:
         gap = overnight_gap(p)
@@ -141,15 +158,27 @@ def simulate(preds, cost_bps: float = 10.0, short_borrow_bps: float = 0.0) -> di
             wrong += 1; wrong_pnl += t.net
 
     n_all = len(rows)
-    sharpe = (mean(nets) / pstdev(nets) * (len(nets) ** 0.5)) if len(nets) > 1 and pstdev(nets) > 0 else 0.0
+    # t_statistic = mean/pstdev * sqrt(N): the per-trade information ratio scaled by
+    # sqrt(N).  Grows mechanically with sample size — NOT a time-series Sharpe.
+    # info_ratio_per_trade = mean/pstdev (unscaled), size-invariant risk-adjusted measure.
+    _sd = pstdev(nets) if len(nets) > 1 else 0.0
+    t_statistic = (mean(nets) / _sd * (len(nets) ** 0.5)) if _sd > 0 else 0.0
+    info_ratio_per_trade = (mean(nets) / _sd) if _sd > 0 else 0.0
     return {
         "n_prints": n_all,
         "n_trades": len(trades),
         "hit_rate": round(wins / len(trades), 4) if trades else 0.0,
         "wins": wins, "losses": losses,
-        "total_return_pct": round((eq - 1.0) * 100, 2),
+        # compounded_total_return_pct: order-dependent equity curve; violates the
+        # non-overlapping assumption when same-week reporters overlap.  Kept for
+        # continuity but NOT the recommended headline figure.
+        "compounded_total_return_pct": round((eq - 1.0) * 100, 2),
+        # summed_total_return_pct: arithmetic sum of per-trade net returns (%).
+        # Order-independent, no reinvestment assumption; prefer this as headline P&L.
+        "summed_total_return_pct": round(sum(nets) * 100, 2) if nets else 0.0,
         "avg_net_per_trade_pct": round(mean(nets) * 100, 4) if nets else 0.0,
-        "sharpe_per_trade": round(sharpe, 3),
+        "t_statistic": round(t_statistic, 3),
+        "info_ratio_per_trade": round(info_ratio_per_trade, 4),
         "max_drawdown_pct": round(max_dd * 100, 2),
         "breakdown": {
             "correct_direction": {"n": correct, "pnl_pct": round(correct_pnl * 100, 2)},
@@ -275,8 +304,8 @@ def constant_predictions(template, decision: str, rater: str):
 def _print_row(name, s):
     b = s["breakdown"]
     print(f"{name:22} {s['n_trades']:>3}/{s['n_prints']:<3} {s['hit_rate']*100:5.1f}%"
-          f" {s['total_return_pct']:>8.2f} {s['avg_net_per_trade_pct']:>7.3f}"
-          f" {s['sharpe_per_trade']:>6.2f} {s['max_drawdown_pct']:>6.2f}"
+          f" {s['compounded_total_return_pct']:>8.2f} {s['avg_net_per_trade_pct']:>7.3f}"
+          f" {s['t_statistic']:>6.2f} {s['max_drawdown_pct']:>6.2f}"
           f"   {b['correct_direction']['n']:>2}/{b['bet_on_flat']['n']:>2}/{b['wrong_direction']['n']:>2}"
           f"  {b['wrong_direction']['pnl_pct']:>7.2f}")
 
@@ -285,7 +314,7 @@ def report(named_stats: dict, cost_bps: float, short_borrow_bps: float):
     print(f"\n=== Overnight-gap backtest  (cost {cost_bps:.0f} bps round-trip"
           f"{f', +{short_borrow_bps:.0f} bps short borrow' if short_borrow_bps else ''}) ===")
     print(f"{'predictor':22} {'trds':>7} {'hit':>6} {'totRet%':>8} {'avg%':>7}"
-          f" {'Shrp':>6} {'maxDD':>6}   {'C/F/W':>8}  {'wrongP&L':>7}")
+          f" {'tStat':>6} {'maxDD':>6}   {'C/F/W':>8}  {'wrongP&L':>7}")
     print("-" * 92)
     for name, s in named_stats.items():
         _print_row(name, s)
@@ -351,7 +380,7 @@ def main() -> int:
         print(f"{'cost bps':>9} {'totRet%':>9} {'avg%/trade':>11}")
         for c in (0, 5, 10, 20, 30, 50):
             s = simulate(llm, float(c), args.short_borrow_bps)
-            print(f"{c:>9} {s['total_return_pct']:>9.2f} {s['avg_net_per_trade_pct']:>11.3f}")
+            print(f"{c:>9} {s['compounded_total_return_pct']:>9.2f} {s['avg_net_per_trade_pct']:>11.3f}")
     return 0
 
 

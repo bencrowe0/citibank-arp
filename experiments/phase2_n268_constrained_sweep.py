@@ -330,7 +330,7 @@ def main() -> int:
 
     backtest_check = validate_against_backtest(args.cost_bps, args.short_borrow_bps)
     print(f"\nbacktest.py deployed-default (0.55/0.45/0.0/0.0, +0.25/-0.05) on N=268: "
-          f"total_return={backtest_check['total_return_pct']}% trades={backtest_check['n_trades']}")
+          f"total_return={backtest_check['compounded_total_return_pct']}% trades={backtest_check['n_trades']}")
 
     out = {
         "n_documents": len(docs),
@@ -364,9 +364,9 @@ def main() -> int:
                     "p = fraction of shuffles whose best achievable total return >= the observed best.",
         },
         "deployed_default_on_n268_backtest": {
-            "total_return_pct": backtest_check["total_return_pct"],
+            "total_return_pct": backtest_check["compounded_total_return_pct"],
             "n_trades": backtest_check["n_trades"],
-            "sharpe_per_trade": backtest_check["sharpe_per_trade"],
+            "t_statistic": backtest_check["t_statistic"],
             "max_drawdown_pct": backtest_check["max_drawdown_pct"],
         },
         "deployment_note": "Candidate output only - blend.py's DEFAULT_WEIGHTS is untouched pending review.",

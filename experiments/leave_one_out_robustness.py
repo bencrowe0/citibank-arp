@@ -48,8 +48,8 @@ def _row(scope: str, dropped_key: str, n_dropped: int, full_stats: dict, sub_sta
         "dropped_key": dropped_key,
         "n_dropped": n_dropped,
         "n_remaining_trades": sub_stats["n_trades"],
-        "total_return_pct": sub_stats["total_return_pct"],
-        "delta_total_return_pct": round(sub_stats["total_return_pct"] - full_stats["total_return_pct"], 2),
+        "total_return_pct": sub_stats["compounded_total_return_pct"],
+        "delta_total_return_pct": round(sub_stats["compounded_total_return_pct"] - full_stats["compounded_total_return_pct"], 2),
         "avg_net_per_trade_pct": sub_stats["avg_net_per_trade_pct"],
         "hit_rate": sub_stats["hit_rate"],
         "hit_rate_delta": round(sub_stats["hit_rate"] - full_stats["hit_rate"], 4),
@@ -90,7 +90,7 @@ def leave_one_event_out_fast(preds: list, full_stats: dict) -> tuple[list[dict],
     fast_rows = []
     for report_date, ticker, decision, gap, net, _eq in traded_rows:
         dropped_total_return_pct = round((full_eq / (1.0 + net) - 1.0) * 100, 2)
-        delta = round(dropped_total_return_pct - full_stats["total_return_pct"], 2)
+        delta = round(dropped_total_return_pct - full_stats["compounded_total_return_pct"], 2)
         fast_rows.append({
             "scope": "EVENT", "dropped_key": f"{ticker} {report_date}", "n_dropped": 1,
             "n_remaining_trades": full_stats["n_trades"] - 1,
@@ -133,13 +133,13 @@ def main() -> int:
     preds = list(backtest.llm_predictions(PHASE2_CALIBRATION_CSV))
     full_stats = backtest.simulate(preds)
     print(f"Full sample: {full_stats['n_trades']} trades, "
-          f"total return {full_stats['total_return_pct']:.2f}%, "
+          f"total return {full_stats['compounded_total_return_pct']:.2f}%, "
           f"hit rate {full_stats['hit_rate']*100:.1f}%")
 
     full_row = {
         "scope": "FULL", "dropped_key": "(none)", "n_dropped": 0,
         "n_remaining_trades": full_stats["n_trades"],
-        "total_return_pct": full_stats["total_return_pct"],
+        "total_return_pct": full_stats["compounded_total_return_pct"],
         "delta_total_return_pct": 0.0,
         "avg_net_per_trade_pct": full_stats["avg_net_per_trade_pct"],
         "hit_rate": full_stats["hit_rate"],

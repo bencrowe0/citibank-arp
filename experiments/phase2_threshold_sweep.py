@@ -80,10 +80,10 @@ def sweep(docs, blended, thresholds=THRESHOLD_GRID, cost_bps=COST_BPS, short_bor
             "n_trades": stats["n_trades"],
             "n_prints": stats["n_prints"],
             "selectivity_pct": round(100 * stats["n_trades"] / stats["n_prints"], 2) if stats["n_prints"] else 0.0,
-            "total_return_pct": stats["total_return_pct"],
+            "total_return_pct": stats["compounded_total_return_pct"],
             "avg_net_per_trade_pct": stats["avg_net_per_trade_pct"],
             "hit_rate": stats["hit_rate"],
-            "sharpe_per_trade": stats["sharpe_per_trade"],
+            "sharpe_per_trade": stats["t_statistic"],
             "max_drawdown_pct": stats["max_drawdown_pct"],
         })
         if stats["n_trades"] == 0:
@@ -107,12 +107,12 @@ def main() -> int:
     row_025 = next(r for r in rows if r["hold_upper"] == 0.25)
     match = (
         row_025["n_trades"] == backtest_check["n_trades"]
-        and abs(row_025["total_return_pct"] - backtest_check["total_return_pct"]) < 0.5
+        and abs(row_025["total_return_pct"] - backtest_check["compounded_total_return_pct"]) < 0.5
     )
     print(
         f"\nSelf-check @ hu=0.25 vs backtest.py: sweep trades={row_025['n_trades']} "
         f"total_return={row_025['total_return_pct']}% | backtest.py trades={backtest_check['n_trades']} "
-        f"total_return={backtest_check['total_return_pct']}% -> {'MATCH' if match else 'MISMATCH - investigate'}"
+        f"total_return={backtest_check['compounded_total_return_pct']}% -> {'MATCH' if match else 'MISMATCH - investigate'}"
     )
 
     print(f"\n{'hu':>5} {'trades':>7} {'select%':>8} {'totRet%':>9} {'avg%/trd':>9} {'hit%':>6} {'Shrp':>6} {'maxDD%':>7}")
@@ -147,7 +147,7 @@ def main() -> int:
             "sweep_hu025": {"n_trades": row_025["n_trades"], "total_return_pct": row_025["total_return_pct"]},
             "backtest_py_reported": {
                 "n_trades": backtest_check["n_trades"],
-                "total_return_pct": backtest_check["total_return_pct"],
+                "total_return_pct": backtest_check["compounded_total_return_pct"],
                 "avg_net_per_trade_pct": backtest_check["avg_net_per_trade_pct"],
             },
         },

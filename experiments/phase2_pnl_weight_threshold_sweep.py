@@ -239,7 +239,7 @@ def main() -> int:
 
     backtest_check = validate_against_backtest(args.cost_bps, args.short_borrow_bps)
     default_via_sweep = result["default_total_return_pct"]
-    default_via_backtest = backtest_check["total_return_pct"]
+    default_via_backtest = backtest_check["compounded_total_return_pct"]
     match = abs(default_via_sweep - default_via_backtest) < 0.5
     print(f"\nSelf-check vs backtest.py: sweep's default-combo total_return={default_via_sweep}% "
           f"vs backtest.py's reported={default_via_backtest}% -> {'MATCH' if match else 'MISMATCH - investigate'}")

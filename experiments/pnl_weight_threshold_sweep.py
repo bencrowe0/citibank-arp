@@ -343,7 +343,7 @@ def main() -> int:
 
     backtest_check = validate_against_backtest(args.cost_bps, args.short_borrow_bps)
     default_via_sweep = variants["quant_score"]["default_total_return_pct"]
-    default_via_backtest = backtest_check["total_return_pct"]
+    default_via_backtest = backtest_check["compounded_total_return_pct"]
     match = abs(default_via_sweep - default_via_backtest) < 0.5
     print(f"\nSelf-check vs backtest.py: sweep's default-combo total_return={default_via_sweep}% "
           f"vs backtest.py's reported={default_via_backtest}% -> {'MATCH' if match else 'MISMATCH - investigate'}")
@@ -367,8 +367,13 @@ def main() -> int:
                     "p = fraction of shuffles whose best achievable total return >= the observed best.",
         },
         "vs_deployed_default": {
-            "backtest_py_reported": {k: backtest_check[k] for k in (
-                "n_trades", "total_return_pct", "avg_net_per_trade_pct", "sharpe_per_trade", "max_drawdown_pct")},
+            "backtest_py_reported": {
+                "n_trades": backtest_check["n_trades"],
+                "total_return_pct": backtest_check["compounded_total_return_pct"],
+                "avg_net_per_trade_pct": backtest_check["avg_net_per_trade_pct"],
+                "t_statistic": backtest_check["t_statistic"],
+                "max_drawdown_pct": backtest_check["max_drawdown_pct"],
+            },
             "this_sweep_default_combo": {
                 "total_return_pct": default_via_sweep,
                 "n_trades": variants["quant_score"]["default_n_trades"],

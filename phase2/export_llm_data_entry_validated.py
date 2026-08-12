@@ -221,8 +221,8 @@ def main() -> None:
 
     stats = backtest.simulate(check_preds, COST_BPS, SHORT_BORROW_BPS)
     print(f"\nSelf-check vs sweep-reported numbers (expect ~240/268 trades, total_return~1107.4%):")
-    print(f"  computed: total_return={stats['total_return_pct']}% trades={stats['n_trades']}/{stats['n_prints']} "
-          f"hit_rate={stats['hit_rate']*100:.1f}% sharpe={stats['sharpe_per_trade']} max_dd={stats['max_drawdown_pct']}%")
+    print(f"  computed: total_return={stats['compounded_total_return_pct']}% trades={stats['n_trades']}/{stats['n_prints']} "
+          f"hit_rate={stats['hit_rate']*100:.1f}% t_stat={stats['t_statistic']} max_dd={stats['max_drawdown_pct']}%")
 
 
 if __name__ == "__main__":
