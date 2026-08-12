@@ -59,9 +59,32 @@ reactions (70.8% on an easy subset) while deflating mean net by including 56
 near-zero flat trades. The corrected anchor doubles the pre_market graded
 sample to 48 events, diluting the inflated accuracy and increasing mean net.
 
+## 4. Agreement filter (+17.3pp, p=0.029)
+
+**What was claimed**: LLM correct-direction accuracy on overnight returns
+(±2% band) is 32.7% (18/55) where both arms agree, vs 15.4% (8/52) where
+they disagree. This was the replacement for the unreproducible 0.561/0.429
+headline. It was computed on the stale report_date anchor.
+
+**Corrected figure**: agree 69.0% (20/29), disagree 69.2% (18/26), diff
+-0.3pp, p=0.959. **The agreement filter vanishes entirely.**
+
+**Why the artefact arose**: The stale anchor compressed overnight returns
+for 82 pre_market events, making most returns fall inside the ±2% band
+(graded N was only 55+52=107 out of 167 paired rows). The corrected anchor
+produces larger, more accurate overnight returns, raising accuracy across
+the board from ~25% to ~69% — but raising it equally for the agree and
+disagree groups, eliminating the differential. The filter was not measuring
+a real property of agreement; it was measuring which events happened to have
+returns large enough to breach the band under the wrong entry.
+
+**Note**: The 0.561/0.429 figures cited in Model_Arm_Implementation_Spec.md
+are not reproducible from any script or output in this repository. They are
+superseded by this computation regardless of the anchor correction.
+
 ## Lesson
 
-All three artefacts trace to the same root cause: using report_date close
+All four artefacts trace to the same root cause: using report_date close
 uniformly as entry, which was wrong for 82 pre_market events. The corrected
 anchor (release_date from EDGAR 8-K Item 2.02) resolves the entry to the
 correct session. The structural mechanism — that pre_market gaps are
