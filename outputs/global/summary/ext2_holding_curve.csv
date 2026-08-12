@@ -9,6 +9,18 @@
 #       All longer-horizon bands are RECALIBRATED and secondary.
 #       Returns are NOT compounded across horizons; each is an
 #       alternative version of the same trade.
+#
+# CO-HEADLINE FINDING: decay curve + rho=0.236 are one unified result.
+# Mean net per trade decays from +1.86% (overnight) to +0.66% (10d).
+# Accuracy decays from 65.3% to 53.4% (65.3% is on 95 graded events out
+# of 233 clean events; majority-class baseline ~39%).
+# Rho decays from 0.236 (p=0.0003) to 0.058 (p=0.380).
+# Bootstrap CI on mean net crosses zero by 3 days.
+# This validates the overnight window as a measured choice rather than a
+# convenient assumption, and rules out post-earnings drift as the mechanism.
+# Rho=0.236 at p=0.0003 is the most statistically robust single result in
+# the study: uses the full N=233 with no band filter, no trade/HOLD split,
+# and no grading threshold. It survived the anchor correction (was 0.221).
 horizon,mean_net_per_trade,accuracy,graded_n,traded_n,rank_correlation,rho_pvalue,bootstrap_ci_low,bootstrap_ci_high,hold_band,band_status
 overnight,0.018616931506849312,0.6526315789473685,95,146,0.23600083738353303,0.0002785250451562481,0.009831992808219177,0.027557801369863015,0.02,pre-registered
 1d,0.012505335616438356,0.6020408163265306,98,146,0.15866528860296336,0.015339117927185278,0.0032567989726027375,0.022097503767123283,0.022462,recalibrated

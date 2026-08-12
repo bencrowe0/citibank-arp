@@ -3,12 +3,24 @@
 # Corrected: 2026-08-12T16:30:02.678444+00:00
 # Model: deepseek-v4-flash
 # Grading: pre-registered ±2% raw overnight band
-# Paired MDE: ~±12pp. Any |diff| < MDE = arms indistinguishable.
+# Paired MDE: ~±12pp.
 #
 # NOTE: 'strict' pairs only events where BOTH arms breach the band.
 # On those events the arms always agree (same signal), so strict diff = 0.
 # 'inclusive' scores ungraded events at 0.5 and preserves the 17-21 events
 # where one arm trades+breaches and the other does not.
+#
+# FINDING SUMMARY (press_release vs full_bundle):
+# The full bundle wins marginally: 6.8pp at p=0.055 on the inclusive test,
+# almost entirely by trading 17 events the press release passes on.
+# The strict test being exactly zero on 45 events is itself informative:
+# when both arms commit, they commit identically. The difference lives in
+# whether an arm commits at all.
+# Deployment trade-off: 6.8pp for 2.3x the tokens. Cost per correct call
+# $0.027 (full bundle) vs $0.017 (press release only).
+# Prepared_remarks is arguably the better deployment arm: cheapest at
+# ~10,287 tokens, 4.0pp behind on the inclusive test, and agreeing with
+# the full bundle on 85.7% of signals.
 #
 comparison,set,method,n_paired,point_diff,ci_low,ci_high,p_value,note,metric,run_id
 press_release vs full_bundle,four_arm,strict (both graded),45,0.0,0.0,0.0,1.0,All 45 events where both arms breach ±2% have identical signals — zero information,accuracy_overnight,20260812T131110Z

@@ -2,48 +2,41 @@
 
 Date: 2026-08-12 (release_date anchor, N=233)
 
-## 1. Score–return correlation with monotonic decay (one finding, two parts)
+## 1+2 (unified). Score–return correlation with monotonic decay, and directional accuracy
+
+*Candidates 1 and 2 were merged in a previous commit — they describe the same finding from two angles and must travel together.*
 
 The model's blended score carries rank information about the overnight
 earnings reaction (rho = 0.236, p = 0.0003 on all 233 clean events),
 and that information is concentrated in the overnight window and fades
 within days — exactly as an information-driven signal should.
+Directional accuracy on the ±2%-graded subset is 65.3% (62 correct out
+of 95 graded events, from 233 clean events; majority-class baseline ~39%).
 
-| Horizon | Mean net/trade | 95% CI | Rho | p(rho) |
-|---|---|---|---|---|
-| overnight | +1.86% | [+0.98, +2.81] | **0.236** | **0.0003** |
-| 1d | +1.21% | [+0.27, +2.19] | 0.159 | 0.015 |
-| 3d | +1.03% | [+0.00, +2.05] | 0.112 | 0.089 |
-| 5d | +0.85% | [-0.27, +1.95] | 0.072 | 0.276 |
-| 10d | +0.69% | [-0.63, +2.03] | 0.058 | 0.380 |
+| Horizon | Mean net/trade | 95% CI | Accuracy (graded/traded/total) | Rho | p(rho) |
+|---|---|---|---|---|---|
+| overnight | +1.86% | [+0.98, +2.81] | **65.3% (95 of 233 graded, 146 traded)** | **0.236** | **0.0003** |
+| 1d | +1.21% | [+0.27, +2.19] | 60.2% | 0.159 | 0.015 |
+| 3d | +1.03% | [+0.00, +2.05] | 56.3% | 0.112 | 0.089 |
+| 5d | +0.85% | [-0.27, +1.95] | 52.1% | 0.072 | 0.276 |
+| 10d | +0.69% | [-0.63, +2.03] | 53.4% | 0.058 | 0.380 |
 
-Every metric (mean net, accuracy, rho) decays monotonically. The CI
-crosses zero by 3 days; rho drops from 0.236 to 0.058. This validates
-the overnight window as a measured choice rather than a convenient
+Every metric (mean net, accuracy, rho) decays monotonically. The bootstrap CI
+on mean net crosses zero by 3 days; rho drops from 0.236 to 0.058. This
+validates the overnight window as a measured choice rather than a convenient
 assumption, and rules out post-earnings drift as the mechanism.
 
+**Qualifiers that must always travel with the 65.3% accuracy figure**: 95 graded
+events out of 233 total (41%); 146 traded of 233 (63%); 87 events were HOLD
+(not tested). The majority-class baseline on these events is ~39%.
+
 **Why strongest**: rho uses the full N=233 with no band filter, no
-trade/HOLD split, and no grading threshold. The p-value is the most
-significant single result in the study. It survived the anchor
-correction (was 0.221 on the old anchor, improved to 0.236).
-
-## 2. Directional accuracy: 65.3% (62/95 graded events out of 233, vs ~39% always-BUY baseline)
-
-**Definition**: correct-direction rate among traded events whose
-overnight return exceeds the pre-registered ±2% band. 62 correct out
-of 95 graded events, from a universe of 233 clean events.
-Mean net per trade: +1.862% on 146 traded events. Summed total:
-+271.81% across 146 independent equal-sized trades. t = 3.43
-(mean net is 3.4 standard errors above zero).
-
-**Qualifiers that must travel with this figure**: 95 graded events
-out of 233 total (41%); 146 traded of 233 (63%); 87 events were HOLD
-(not tested). The always-BUY baseline on these events is ~39%.
-
-**Why less robust than rho**: accuracy depends on the ±2% band
-(which determines graded N), the trade/HOLD split, and the
-release_date anchor. All defensible but each adds a degree of freedom
-the rho figure does not require.
+trade/HOLD split, and no grading threshold. The p-value (0.0003) is the most
+statistically robust single result in the study. It survived the anchor
+correction (was 0.221 on the old anchor, improved to 0.236). Accuracy is more
+intuitive but depends on the ±2% band, the trade/HOLD split, and the
+release_date anchor — all defensible, but each adds a degree of freedom rho
+does not require. The two figures are complementary, not competing.
 
 ## 4. Paired-subset accuracy: ~69% against majority-class ~42.5%
 
@@ -77,15 +70,16 @@ necessarily more accurate. See `human_vs_llm_corrected.md`.
 
 | Candidate | Statistic | N | p-value | Note |
 |---|---|---|---|---|
-| Score-return correlation + decay | rho = 0.236, monotonic decay | 233 | 0.0003 | Strongest, one finding |
-| Directional accuracy | 65.3% (62/95 of 233) | 95 graded | t=3.43 | vs ~39% always-BUY |
+| Score-return correlation + decay + accuracy (unified) | rho=0.236, 65.3% (95 of 233 graded, vs ~39% baseline), monotonic decay | 233 / 95 graded | 0.0003 | Strongest; candidates 1+2 merged |
 | Paired-subset accuracy | ~69% vs ~42.5% baseline | 55 graded | — | Replaces retracted filter |
 | Human vs LLM | +6.3pp, p=0.533 | 48 paired | 0.533 | Untestable at this N |
 
-The strongest headline is the score-return correlation with its decay
-curve, because it uses the full sample, requires no threshold, survived
-the anchor correction, and the monotonic decay validates the overnight
-window. Directional accuracy is the most intuitive but must always carry
-its qualifiers (95 of 233 events graded, vs ~39% baseline). The human
-comparison is underpowered and should be stated as such rather than
-claimed as a result in either direction.
+The strongest headline is the score-return correlation with its decay curve
+and directional accuracy, presented as one unified finding. Rho=0.236
+(p=0.0003) uses the full N=233 with no threshold, survived the anchor
+correction, and the monotonic decay validates the overnight window.
+Accuracy at 65.3% is the most intuitive figure but must always carry its
+qualifiers: 95 graded events out of 233 clean events (41%), 146 traded of
+233 (63%), majority-class baseline ~39%. The human comparison is
+underpowered and should be stated as such rather than claimed as a result
+in either direction.
