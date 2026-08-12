@@ -77,23 +77,49 @@ from 0.113 on the stale set) but the change is within the CI.
 
 **Statistic**: on 76 events where both arms committed, human 57.9%
 (44/76) vs LLM 60.5% (46/76), diff +2.6pp, p=0.754. Neither detectably
-better. Both above 50% (human: 50.9% BUY at p=0.500, SELL 73.9% at
-p=0.017 vs 50%; LLM: BUY 55.6% at p=0.309, SELL 65.0% at p=0.040 vs
-50%). Against the overall base rates (43.4% positive, 56.6% negative):
-human BUY +7.5pp (p=0.167), human SELL +17.3pp (p=0.069); LLM BUY
-+12.1pp (p=0.097), LLM SELL +8.4pp (p=0.181).
+better.
+
+**Against the majority-direction floor**: always-DOWN = 55.3% (42/76).
+Human +2.6pp (p=0.366), LLM +5.3pp (p=0.210). **Neither arm beats the
+majority-direction floor by a testable margin.** The null stands.
 
 **Threshold-dependent?** No. Uses sign accuracy, no band.
 
-**Retracted sub-finding**: the earlier claim that "per-direction accuracy
-exactly equals the base rate" was tautological — the per-subset base
-rate is the same number as the per-subset accuracy by construction.
-The informative comparisons are vs 50% and vs the overall base rate,
-and those show marginal evidence of skill in the SELL direction for
-both arms (human p=0.017 vs 50%, p=0.069 vs overall neg rate; LLM
-p=0.040 vs 50%, p=0.181 vs overall neg rate).
+## 6. SELL-versus-BUY asymmetry (a finding in its own right)
 
-## 6. Supplementary re-score of 25 contaminated events
+Both arms show skill on SELL calls and neither shows skill on BUY calls:
+
+| Arm | Call | Accuracy | N | vs 50% (p) | vs overall base rate (p) |
+|---|---|---|---|---|---|
+| Human | BUY | 50.9% (27/53) | 53 | +0.9pp (0.500) | +7.5pp vs 43.4% (0.167) |
+| Human | SELL | **73.9%** (17/23) | **23** | **+23.9pp (0.017)** | +17.3pp vs 56.6% (0.069) |
+| LLM | BUY | 55.6% (20/36) | 36 | +5.6pp (0.309) | +12.1pp vs 43.4% (0.097) |
+| LLM | SELL | **65.0%** (26/40) | **40** | **+15.0pp (0.040)** | +8.4pp vs 56.6% (0.181) |
+
+Reading earnings documents supports identifying trouble more reliably than
+confirming strength. Both arms clear 50% on SELL calls (human p=0.017,
+LLM p=0.040) and neither reliably clears 50% on BUY calls (human p=0.500,
+LLM p=0.309).
+
+Against the overall base rate (56.6% negative) rather than 50%, the SELL
+margins fall to p=0.069 (human) and p=0.181 (LLM). The defensible
+statement is that both arms clear chance on SELL calls and neither
+reliably clears the base rate in either direction.
+
+**Caveat on N**: the human SELL cell is 23 events and cannot carry much
+weight; the LLM SELL cell at 40 is more credible. The human BUY cell
+(53 events) has the most power but shows no signal.
+
+**Connection to earlier observations**: the model was noted to have
+"downside blindness" while the human arm is "directionally optimistic"
+(56.1% BUY calls). This asymmetry is now measured: the human arm's value
+concentrates in its minority SELL calls (73.9%, N=23), not its majority
+BUY calls (50.9%, N=53). The LLM distributes skill more evenly but
+achieves it on SELL rather than BUY.
+
+**Threshold-dependent?** No. Uses sign accuracy, no band.
+
+## 7. Supplementary re-score of 25 contaminated events
 
 **Statistic**: 12/25 (48%) changed their directional call once the
 worksheet was removed. Re-scored accuracy 66.7% (12/18 graded) resembles
@@ -101,7 +127,7 @@ the clean set (65.3%), corroborating the exclusion.
 
 **Threshold-dependent?** Yes (grading uses the HOLD threshold).
 
-## 7. Dev/eval split (directional evidence, not a result)
+## 8. Dev/eval split (directional evidence, not a result)
 
 **Statistic**: dev accuracy 52.6% (10/19), eval 68.4% (52/76). The model
 performs better on later events — opposite of overfitting. Eval margin

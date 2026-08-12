@@ -137,12 +137,29 @@ one.** Refitting thresholds out of sample is the only check on whether the
 of this qualification is rho = 0.236 (p = 0.0003), which does not depend
 on the threshold.
 
-**Item E must refit thresholds on training slices using the same criterion
-(total return) that the deployed thresholds were chosen by.** If a different
-criterion is used, state it explicitly and note the divergence. Note that
-the original criterion was itself the compounded total return, which is
-order-dependent — Item E should use the summed total return instead, and
-record the change.
+**Item E objective (user decision, dated 2026-08-13):**
+
+Item E refits `hold_upper` and `hold_lower` on each training window by
+maximising **mean net per trade**, not summed total return and not compounded
+total return. Mean per trade is the study's headline P&L metric, it is
+order-independent, and it does not scale with the number of trades in a
+window, which matters because window sizes differ.
+
+This **differs from the deployed selection objective** (compounded total
+return, now retired as order-dependent and unachievable). The deployed
+objective is no longer available. Item E is therefore not reproducing the
+deployed threshold choice but testing whether any honestly-selected threshold
+survives out of sample.
+
+**Per-window reporting**: report both mean net per trade and directional
+accuracy per window, so the choice of objective can be seen not to have
+driven the result.
+
+**Degenerate-window assertion** (from the gap spec): maximising mean net per
+trade on a thin window can be gamed by taking almost no trades (one correct
+trade gives mean=100%). Assert loudly if any window's trade count falls
+below a floor (e.g. 5 trades), since a collapsing trade count means the
+threshold went degenerate.
 
 ## Baseline correction (2026-08-13)
 
