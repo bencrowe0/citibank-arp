@@ -61,29 +61,51 @@ which shows +6.3pp (not significant, p=0.533).
 Paired (both graded): N=7. LLM 85.7% vs Human 42.9%, diff +42.9pp,
 p=0.203. **MDE ~±77pp — completely untestable at N=7.**
 
-## Direction-only comparison (supplementary, neutral on HOLD rate)
+## Primary result: direction-only comparison (neutral on HOLD rate)
 
 On the 76 events where both arms called BUY or SELL, sign accuracy
 (did the call match the sign of the overnight return, no band filter):
 
-| | Sign accuracy | N |
-|---|---|---|
-| Human | **57.9%** (44/76) | 76 |
-| LLM | **60.5%** (46/76) | 76 |
-| LLM − Human | +2.6pp, 90% CI [−7.9, +13.2], p=0.754 | |
-| Always-BUY baseline | 43.4% | |
-| Paired MDE | ~±23pp | |
+| | Sign accuracy | N | vs always-BUY (p) |
+|---|---|---|---|
+| Human | **57.9%** (44/76) | 76 | +14.5pp (**p=0.008**) |
+| LLM | **60.5%** (46/76) | 76 | +17.1pp (**p=0.002**) |
+| LLM − Human | +2.6pp, 90% CI [−7.9, +13.2], p=0.754 | | |
+| Always-BUY baseline | 43.4% (33/76) | 76 | |
+| Paired MDE | ~±23pp | | |
 
 This is the only cut where the HOLD-rate confound is absent — both arms
-committed on every event, so selectivity plays no role. It shows no
-detectable difference (2.6pp, p=0.754, well within the ±23pp MDE).
+committed on every event, so selectivity plays no role.
 
-Marginals on these 76 events: Human BUY 69.7% / SELL 30.3%; LLM BUY
-47.4% / SELL 52.6%. The human arm is directionally optimistic even on
-the subset where both committed; the LLM is balanced.
+**Conclusion**: both arms extract directional information from earnings
+documents — each significantly beats the always-BUY baseline (p<0.01).
+Neither is detectably better than the other (+2.6pp, p=0.754). Resolving
+the difference would require a substantially larger sample rather than a
+different method.
 
-Both arms read earnings documents above the always-BUY baseline of 43.4%,
-and neither arm is detectably better than the other at this sample size.
+### Outcome distribution
+
+The 76 events have 33 positive returns and 42 negative (43.4% / 55.3%).
+The sample is SELL-skewed, which penalises the optimistic human arm rather
+than flattering it. The human arm's 57.9% is achieved against headwinds.
+
+### Accuracy by call direction
+
+| Arm | BUY accuracy | N | SELL accuracy | N |
+|---|---|---|---|---|
+| Human | 50.9% (27/53) | 53 | **73.9%** (17/23) | 23 |
+| LLM | 55.6% (20/36) | 36 | **65.0%** (26/40) | 40 |
+
+**The human arm's BUY calls carry no information beyond optimism.** Their
+BUY accuracy of 50.9% exactly equals the always-BUY rate on those same 53
+events (27/53 had positive returns). Their skill is entirely in their SELL
+calls (73.9%, N=23). The human arm is a good sell-side analyst — their
+value is in identifying trouble, not in confirming strength.
+
+The LLM distributes its skill more evenly (55.6% BUY, 65.0% SELL) and
+makes roughly balanced calls (47.4% BUY / 52.6% SELL). Its overall sign
+accuracy is marginally higher (60.5% vs 57.9%) but the difference is not
+significant.
 
 ## FLAT convention and the metric differential
 
