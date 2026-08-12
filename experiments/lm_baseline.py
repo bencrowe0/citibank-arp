@@ -1,35 +1,31 @@
 """
 experiments/lm_baseline.py
-Item 4 of the model-arm spec (Nigel, 2026-08-05), word-list half only
-(FinBERT half deliberately deferred - new heavy torch/transformers
-dependency). Whether the model's cost buys anything over a method that is
-effectively free: a Loughran-McDonald finance word-count score, pushed
-through the identical evaluation path as the deployed model.
+Item 4 of the model-arm spec (Nigel, 2026-08-05), word-list half.
 
-Word list: pysentiment2's LM() class, which bundles the canonical
-Loughran-McDonald Master Dictionary word lists (MIT-licensed data files, no
-manual download). Score = (positive_count - negative_count) / total_token_count
-on the same extracted document text the micro layer reads
-(run_meta.extracted_text_path in each outputs/<issuer>/results/<document_id>.json,
-same resolution pattern as experiments/quote_verification_screen.py).
+Loughran-McDonald finance word-count score via pysentiment2, pushed through
+the identical evaluation path as the deployed model.
 
-Dev/eval split (new - this repo had no such split before): sort all N=268
-events by report_date, earliest ~20% (~54 events) = dev, remaining ~214 =
-eval. Two thresholds (upper/lower -> BUY/HOLD/SELL) are grid-searched for
-best accuracy on dev only, then frozen and applied unchanged to eval - never
-fit on the events being scored, per the spec's own explicit trap warning.
+Grading: overnight returns from returns_matrix.csv, pre-registered +-2% band.
+  - |ret_overnight| > 0.02: BUY if positive, SELL if negative
+  - |ret_overnight| <= 0.02: HOLD (flat)
 
-Comparison is against the deployed model's OWN accuracy on the same eval
-subset (not the full-N 36.2% figure elsewhere in this project) and against
-a majority-class baseline on that same subset, so all three numbers answer
-the identical question over the identical events.
+Exclusion set (35 events):
+  - 25 worksheet-contaminated events (human score leaked into LLM input)
+  - 1 misattributed document (SPOT_FQ1_2026)
+  - 9 timing-excluded events (non-US issuers with unreliable overnight returns)
+
+Dev/eval split: sort all clean events by report_date, earliest 20% = dev,
+remaining 80% = eval. Thresholds fit on dev only, frozen, applied to eval.
+
+Accuracy is reported two ways:
+  - FLAT excluded: only events where outcome is BUY or SELL are graded
+  - FLAT as wrong: HOLD outcomes count as wrong if the model predicted BUY/SELL
 
 Run: python -m experiments.lm_baseline
 """
 from __future__ import annotations
 
 import csv
-import itertools
 import json
 from collections import Counter
 from pathlib import Path
@@ -39,13 +35,52 @@ import pysentiment2 as ps
 
 from backtest import OUTPUTS_DIR
 
+# ── paths ──
 PHASE2_CALIBRATION_CSV = OUTPUTS_DIR / "global" / "summary" / "global_outcome_calibration_phase2.csv"
+RETURNS_MATRIX_CSV = OUTPUTS_DIR / "global" / "summary" / "returns_matrix.csv"
 THRESHOLDS_JSON = OUTPUTS_DIR / "global" / "summary" / "lm_baseline_dev_thresholds.json"
 EVAL_CSV = OUTPUTS_DIR / "global" / "summary" / "lm_baseline_eval_results.csv"
 
 DEV_FRACTION = 0.20
+OVERNIGHT_BAND = 0.02  # +-2% band for BUY/SELL/HOLD grading
+
+# ── exclusion set (35 events) ──
+WORKSHEET_EXCLUDED = frozenset({
+    "AMD_FQ1_2026", "AMD_FQ2_2025", "AMD_FQ4_2025",
+    "AMZN_FQ1_2026", "AMZN_FQ3_2025", "AMZN_FQ4_2025",
+    "COIN_FQ1_2026", "COIN_FQ3_2025", "COIN_FQ4_2025",
+    "LLY_FQ1_2026", "LLY_FQ3_2025", "LLY_FQ4_2025",
+    "META_FQ1_2026", "META_FQ3_2025", "META_FQ4_2025",
+    "NFLX_FQ3_2025", "NFLX_FQ4_2024", "NFLX_FQ4_2025",
+    "NVDA_FQ1_2025", "NVDA_FQ2_2025", "NVDA_FQ3_2025", "NVDA_FQ4_2025",
+    "TSLA_FQ1_2026", "TSLA_FQ3_2025", "TSLA_FQ4_2025",
+})
+SPOT_EXCLUDED = frozenset({"SPOT_FQ1_2026"})
 
 _LM = ps.LM()
+
+
+def _load_returns_matrix() -> dict[str, dict]:
+    """Load returns_matrix.csv keyed by document_id."""
+    with open(RETURNS_MATRIX_CSV, encoding="utf-8") as fh:
+        return {r["document_id"]: r for r in csv.DictReader(fh)}
+
+
+def _timing_excluded_set(rm: dict[str, dict]) -> frozenset[str]:
+    return frozenset(did for did, r in rm.items() if r.get("timing_excluded") == "YES")
+
+
+def overnight_outcome_label(ret_overnight: float) -> str:
+    if ret_overnight > OVERNIGHT_BAND:
+        return "BUY"
+    if ret_overnight < -OVERNIGHT_BAND:
+        return "SELL"
+    return "HOLD"
+
+
+def extracted_text_path(issuer: str, document_id: str) -> Path:
+    """Resolve local extracted text path from issuer + document_id."""
+    return OUTPUTS_DIR / issuer / "extracted" / f"{document_id}.txt"
 
 
 def result_json_path(issuer: str, document_id: str) -> Path:
@@ -63,13 +98,37 @@ def lm_score(text: str) -> tuple[float, int, int, int]:
     return score, pos, neg, total
 
 
-def load_events(path: Path = PHASE2_CALIBRATION_CSV) -> list[dict]:
+def load_events() -> list[dict]:
+    """Load events from calibration CSV + returns matrix, apply exclusions,
+    grade using overnight returns with +-2% band."""
+    rm = _load_returns_matrix()
+    timing_excl = _timing_excluded_set(rm)
+    all_excluded = WORKSHEET_EXCLUDED | SPOT_EXCLUDED | timing_excl
+
     events = []
-    with open(path, encoding="utf-8") as fh:
+    with open(PHASE2_CALIBRATION_CSV, encoding="utf-8") as fh:
         for r in csv.DictReader(fh):
+            did = r["document_id"]
             if not r["micro_score"]:
                 continue
-            events.append(r)
+            if did in all_excluded:
+                continue
+            if did not in rm:
+                continue
+            ret_overnight = float(rm[did]["ret_overnight"])
+            outcome = overnight_outcome_label(ret_overnight)
+            events.append({
+                "document_id": did,
+                "issuer": r["issuer"],
+                "ticker": r["ticker"],
+                "report_date": r["report_date"],
+                "ret_overnight": ret_overnight,
+                "outcome_label": outcome,
+                "blend_predicted_signal_default": r["blend_predicted_signal_default"],
+            })
+    print(f"Exclusions applied: {len(WORKSHEET_EXCLUDED)} worksheet + "
+          f"{len(SPOT_EXCLUDED)} SPOT + {len(timing_excl)} timing = "
+          f"{len(all_excluded)} total")
     return events
 
 
@@ -77,25 +136,28 @@ def attach_lm_scores(events: list[dict]) -> list[dict]:
     out = []
     skipped = 0
     for r in events:
-        json_path = result_json_path(r["issuer"], r["document_id"])
-        if not json_path.exists():
-            skipped += 1
-            continue
-        payload = json.loads(json_path.read_text(encoding="utf-8"))
-        text_path = payload.get("run_meta", {}).get("extracted_text_path")
-        if not text_path or not Path(text_path).exists():
-            skipped += 1
-            continue
-        text = Path(text_path).read_text(encoding="utf-8", errors="replace")
+        # Try local extracted text path first
+        text_path = extracted_text_path(r["issuer"], r["document_id"])
+        if not text_path.exists():
+            # Fallback: try to resolve from result JSON
+            json_path = result_json_path(r["issuer"], r["document_id"])
+            if json_path.exists():
+                payload = json.loads(json_path.read_text(encoding="utf-8"))
+                tp = payload.get("run_meta", {}).get("extracted_text_path")
+                if tp:
+                    text_path = Path(tp)
+            if not text_path.exists():
+                skipped += 1
+                continue
+        text = text_path.read_text(encoding="utf-8", errors="replace")
         score, pos, neg, total = lm_score(text)
-        out.append({
-            "document_id": r["document_id"], "ticker": r["ticker"],
-            "report_date": r["report_date"], "outcome_label": r["outcome_label"],
-            "blend_correct_default": r["blend_correct_default"],
+        r_out = dict(r)
+        r_out.update({
             "lm_score": score, "lm_pos": pos, "lm_neg": neg, "lm_total_tokens": total,
         })
+        out.append(r_out)
     if skipped:
-        print(f"Skipped {skipped} events (missing result JSON or extracted text)")
+        print(f"Skipped {skipped} events (missing extracted text)")
     return out
 
 
@@ -113,18 +175,29 @@ def predict(score: float, upper: float, lower: float) -> str:
     return "HOLD"
 
 
-def accuracy(events: list[dict], upper: float, lower: float) -> float:
+def accuracy_flat_excluded(events: list[dict], pred_key: str) -> tuple[int, int, float]:
+    """Count correct among events where outcome is BUY or SELL (FLAT excluded).
+    Returns (correct, graded_n, accuracy)."""
+    graded = [e for e in events if e["outcome_label"] != "HOLD"]
+    if not graded:
+        return 0, 0, 0.0
+    correct = sum(1 for e in graded if e[pred_key] == e["outcome_label"])
+    return correct, len(graded), correct / len(graded)
+
+
+def accuracy_flat_as_wrong(events: list[dict], pred_key: str) -> tuple[int, int, float]:
+    """All events graded; prediction matches outcome (including HOLD) = correct.
+    Returns (correct, total_n, accuracy)."""
     if not events:
-        return 0.0
-    correct = sum(1 for e in events if predict(e["lm_score"], upper, lower) == e["outcome_label"])
-    return correct / len(events)
+        return 0, 0, 0.0
+    correct = sum(1 for e in events if e[pred_key] == e["outcome_label"])
+    return correct, len(events), correct / len(events)
 
 
-def fit_thresholds(dev_events: list[dict]) -> tuple[float, float, float]:
-    """Grid search over candidate thresholds (dev score distribution's own
-    percentiles) for the (upper, lower) pair maximizing dev accuracy.
+def fit_thresholds(dev_events: list[dict], score_key: str = "lm_score") -> tuple[float, float, float]:
+    """Grid search for (upper, lower) maximizing dev accuracy (FLAT as wrong).
     Returns (best_upper, best_lower, best_dev_accuracy)."""
-    scores = sorted(e["lm_score"] for e in dev_events)
+    scores = sorted(e[score_key] for e in dev_events)
     candidates = sorted(set(np.percentile(scores, np.linspace(0, 100, 41))))
 
     best = (candidates[-1], candidates[0], -1.0)
@@ -132,7 +205,11 @@ def fit_thresholds(dev_events: list[dict]) -> tuple[float, float, float]:
         for lower in candidates:
             if lower > upper:
                 continue
-            acc = accuracy(dev_events, upper, lower)
+            correct = sum(
+                1 for e in dev_events
+                if predict(e[score_key], upper, lower) == e["outcome_label"]
+            )
+            acc = correct / len(dev_events)
             if acc > best[2]:
                 best = (upper, lower, acc)
     return best
@@ -155,66 +232,100 @@ def write_csv(path: Path, rows: list[dict]):
 
 def main() -> int:
     events = load_events()
-    print(f"Loaded {len(events)} events from calibration CSV")
+    print(f"Loaded {len(events)} clean events (after exclusions)")
     events = attach_lm_scores(events)
     print(f"Attached LM scores to {len(events)} events")
 
     dev, eval_set = split_dev_eval(events)
-    print(f"Dev split: {len(dev)} events (earliest {DEV_FRACTION:.0%} by report_date), "
-          f"eval split: {len(eval_set)} events")
+    print(f"\nDev split: {len(dev)} events (earliest {DEV_FRACTION:.0%} by report_date)")
+    print(f"Eval split: {len(eval_set)} events")
     print(f"Dev date range: {dev[0]['report_date']} to {dev[-1]['report_date']}")
     print(f"Eval date range: {eval_set[0]['report_date']} to {eval_set[-1]['report_date']}")
 
+    # Outcome distribution
+    dev_counts = Counter(e["outcome_label"] for e in dev)
+    eval_counts = Counter(e["outcome_label"] for e in eval_set)
+    print(f"Dev outcome dist:  BUY={dev_counts['BUY']} HOLD={dev_counts['HOLD']} SELL={dev_counts['SELL']}")
+    print(f"Eval outcome dist: BUY={eval_counts['BUY']} HOLD={eval_counts['HOLD']} SELL={eval_counts['SELL']}")
+
     upper, lower, dev_acc = fit_thresholds(dev)
-    print(f"\nFitted on dev only: upper={upper:.6f}, lower={lower:.6f}, dev accuracy={dev_acc:.4f}")
+    print(f"\nFitted on dev only: upper={upper:.6f}, lower={lower:.6f}, dev accuracy (FLAT-as-wrong)={dev_acc:.4f}")
 
     thresholds_out = {
         "dev_n": len(dev), "eval_n": len(eval_set),
         "dev_fraction": DEV_FRACTION,
+        "overnight_band": OVERNIGHT_BAND,
+        "excluded_n": 268 - len(events),
+        "excluded_worksheet": len(WORKSHEET_EXCLUDED),
+        "excluded_spot": len(SPOT_EXCLUDED),
+        "excluded_timing": 268 - len(events) - len(WORKSHEET_EXCLUDED) - len(SPOT_EXCLUDED),
         "dev_date_range": [dev[0]["report_date"], dev[-1]["report_date"]],
         "eval_date_range": [eval_set[0]["report_date"], eval_set[-1]["report_date"]],
-        "fitted_upper": upper, "fitted_lower": lower, "dev_accuracy": round(dev_acc, 4),
+        "fitted_upper": upper, "fitted_lower": lower,
+        "dev_accuracy_flat_as_wrong": round(dev_acc, 4),
+        "grading": "overnight returns from returns_matrix.csv, +-2% band",
         "note": "Thresholds fit on dev split only (earliest 20% by report_date), applied "
-                "frozen to eval split - never fit on the events they are scored on.",
+                "frozen to eval split. Graded on overnight returns with +-2% band.",
     }
     THRESHOLDS_JSON.parent.mkdir(parents=True, exist_ok=True)
     THRESHOLDS_JSON.write_text(json.dumps(thresholds_out, indent=2), encoding="utf-8")
     print(f"Wrote thresholds -> {THRESHOLDS_JSON}")
 
+    # Apply to eval set
     eval_rows = []
-    lm_correct = 0
-    model_correct = 0
     for e in eval_set:
         lm_pred = predict(e["lm_score"], upper, lower)
-        is_lm_correct = int(lm_pred == e["outcome_label"])
-        is_model_correct = int(e["blend_correct_default"] == "True")
-        lm_correct += is_lm_correct
-        model_correct += is_model_correct
+        model_pred = e["blend_predicted_signal_default"]
         eval_rows.append({
-            "document_id": e["document_id"], "ticker": e["ticker"], "report_date": e["report_date"],
-            "outcome_label": e["outcome_label"], "lm_score": round(e["lm_score"], 6),
-            "lm_predicted_signal": lm_pred, "lm_correct": is_lm_correct,
-            "model_correct_default": is_model_correct,
+            "document_id": e["document_id"], "ticker": e["ticker"],
+            "report_date": e["report_date"],
+            "ret_overnight": round(e["ret_overnight"], 6),
+            "outcome_label": e["outcome_label"],
+            "lm_score": round(e["lm_score"], 6),
+            "lm_predicted_signal": lm_pred,
+            "lm_correct": int(lm_pred == e["outcome_label"]),
+            "model_predicted_signal": model_pred,
+            "model_correct": int(model_pred == e["outcome_label"]),
         })
     write_csv(EVAL_CSV, eval_rows)
 
-    lm_eval_acc = lm_correct / len(eval_set)
-    model_eval_acc = model_correct / len(eval_set)
-    majority_label, majority_acc = majority_baseline_accuracy(eval_set)
+    # ── Accuracy: FLAT excluded (primary) ──
+    for e in eval_rows:
+        e["_lm_pred"] = e["lm_predicted_signal"]
+        e["_model_pred"] = e["model_predicted_signal"]
 
-    print(f"\nOn eval split (n={len(eval_set)}), same events for all three:")
-    print(f"  LM baseline accuracy:        {lm_eval_acc:.4f}")
-    print(f"  Deployed model accuracy:     {model_eval_acc:.4f}")
-    print(f"  Majority-class ({majority_label:4}) baseline: {majority_acc:.4f}")
+    lm_c_ex, lm_n_ex, lm_acc_ex = accuracy_flat_excluded(eval_rows, "lm_predicted_signal")
+    mod_c_ex, mod_n_ex, mod_acc_ex = accuracy_flat_excluded(eval_rows, "model_predicted_signal")
 
-    if lm_eval_acc >= model_eval_acc:
-        print("\n  Result: LM baseline matches or beats the deployed model on this eval subset - "
-              "report this plainly, do not smooth it into a model-favorable framing.")
+    # ── Accuracy: FLAT as wrong ──
+    lm_c_aw, lm_n_aw, lm_acc_aw = accuracy_flat_as_wrong(eval_rows, "lm_predicted_signal")
+    mod_c_aw, mod_n_aw, mod_acc_aw = accuracy_flat_as_wrong(eval_rows, "model_predicted_signal")
+
+    majority_label, majority_acc_aw = majority_baseline_accuracy(
+        [{"outcome_label": e["outcome_label"]} for e in eval_rows]
+    )
+
+    # Majority accuracy FLAT excluded
+    graded_eval = [e for e in eval_rows if e["outcome_label"] != "HOLD"]
+    if graded_eval:
+        majority_graded_counts = Counter(e["outcome_label"] for e in graded_eval)
+        maj_graded_label, maj_graded_n = majority_graded_counts.most_common(1)[0]
+        majority_acc_ex = maj_graded_n / len(graded_eval)
     else:
-        print("\n  Result: deployed model beats the LM baseline on this eval subset.")
-    if max(lm_eval_acc, model_eval_acc) <= majority_acc:
-        print("  Caveat: the majority-class baseline still beats both predictors on this subset - "
-              "same honest-limitation shape as the existing rq16_surprise_control finding.")
+        maj_graded_label, majority_acc_ex = "N/A", 0.0
+
+    print(f"\n{'='*60}")
+    print(f"EVAL SPLIT (n={len(eval_set)}, graded_n={lm_n_ex} FLAT excluded)")
+    print(f"Grading: overnight returns, +-2% band")
+    print(f"{'='*60}")
+    print(f"\n  FLAT excluded (primary) - graded n={lm_n_ex}:")
+    print(f"    LM baseline:        {lm_acc_ex:.4f} ({lm_c_ex}/{lm_n_ex})")
+    print(f"    Deployed model:     {mod_acc_ex:.4f} ({mod_c_ex}/{mod_n_ex})")
+    print(f"    Majority ({maj_graded_label:4}):     {majority_acc_ex:.4f}")
+    print(f"\n  FLAT as wrong - total n={lm_n_aw}:")
+    print(f"    LM baseline:        {lm_acc_aw:.4f} ({lm_c_aw}/{lm_n_aw})")
+    print(f"    Deployed model:     {mod_acc_aw:.4f} ({mod_c_aw}/{mod_n_aw})")
+    print(f"    Majority ({majority_label:4}):     {majority_acc_aw:.4f}")
 
     return 0
 

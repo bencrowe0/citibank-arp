@@ -1,0 +1,5 @@
+method,accuracy_flat_excluded,accuracy_flat_as_wrong,graded_n_flat_excluded,graded_n_flat_as_wrong,traded_n,total_n,cost_per_document,bootstrap_ci_flat_excluded,note
+Majority-class HOLD,0.5462,0.3602,119,186,0,186,0,"[0.471, 0.622]",Always predicts HOLD; 0 trades
+Loughran-McDonald (LM),0.1513,0.3495,119,186,59,186,0,"[0.101, 0.210]","pysentiment2 word-count score, no API cost"
+FinBERT (ProsusAI/finbert),0.3445,0.3226,119,186,147,186,0 (local GPU/CPU),"[0.277, 0.420]","512-token chunks, token-weighted avg; local compute only"
+"Deployed model (DeepSeek, 0.55/0.45 micro/macro)",0.4286,0.4409,119,186,111,186,~$0.02-0.05 (DeepSeek API),"[0.353, 0.504]",Structured output with evidence quotes; API cost per document
