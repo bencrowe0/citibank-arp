@@ -8,12 +8,15 @@ Sources checked: `CLAUDE.md`, `Model_Arm_Gap_Spec.md`, all `.md` files in
 
 ## Count summary
 
-| Category | Count |
-|---|---|
-| Unreproducible (no backing script or output file) | 7 |
-| Stale (retracted or superseded by anchor correction / exclusion-set change) | 8 |
-| Approximately verified (close but not exact — rounding or console-only) | 4 |
-| Fully verified against committed output files | 42 |
+| Category | Count | Notes |
+|---|---|---|
+| Unreproducible (no backing script or output file) | 1 | 0.561/0.429 only; the other 6 resolved or superseded below |
+| Superseded (withdrawn, replaced by a citable figure) | 3 | 0.4656, 0.466/0.443, rho=0.221 |
+| Resolved (recomputed and saved to CSV, 2026-08-13) | 2 | kappa 0.109, rho 0.1108 |
+| Console-only (will be saved on next script run) | 1 | ext4 bootstrap +0.10pp |
+| Stale (retracted or superseded by anchor correction / exclusion-set change) | 8 |  |
+| Approximately verified (close but not exact — rounding or console-only) | 3 | was 4; rho=0.108 moved to Resolved |
+| Fully verified against committed output files | 43 | was 42; kappa now verified |
 
 ---
 
@@ -24,12 +27,12 @@ These appear as assertions in documentation but cannot be regenerated from any c
 | Figure | Claimed in | Status |
 |---|---|---|
 | **0.561 / 0.429** — agreement-conditional LLM accuracy (agree vs disagree) | `Model_Arm_Gap_Spec.md` ("already computed") | No script, CSV, or JSON produces these values. `git log -S` finds them only as prose. Superseded by `agreement_filter_corrected.csv` (69.0% / 69.2% on corrected anchor). |
-| **0.4656** — "global_best accuracy" in `weight_threshold_sweep.json` | `CLAUDE.md` Current State | `weight_threshold_sweep.json` has no `global_best.accuracy` key; the file stores a different sweep structure. Not found in any other output file. |
-| **0.466 / 0.443** — macro "before/after" accuracy pair | `CLAUDE.md` Architecture > Blend | CLAUDE.md itself flags this as unverifiable: "could not be reproduced from any stored artifact during this work." No CSV or JSON contains these values. The citable replacement is `macro_weight_axis_sweep.csv` (0.3731 off, 0.3619 on). |
-| **rho = 0.221** — Spearman score-return correlation before anchor correction | `ext2_holding_curve.csv` header comment | Printed to console during the old-anchor run. No output file stores it. The current citable value is 0.236 in `ext2_holding_curve.csv`. |
-| **Kappa = 0.107 (CI [0.027, 0.188])** — Cohen's kappa clean group | `retracted_findings_2026-08-12.md` | Not saved to any CSV. A different figure (0.113, CI [0.036, 0.191]) appears in `worksheet_leak_triage.md` from a different computation on a different N. The two figures are inconsistent and neither has a backing CSV. |
-| **+0.10pp, CI [−0.38pp, +0.61pp], p = 0.773** — ext4 paired bootstrap on mean-net-per-trade (sized − flat) | `CLAUDE.md` Tier 2 conviction sizing | Printed to console by `experiments/extension4_conviction_sizing.py`, not written to `ext4_conviction_sizing.csv` or any other file. |
-| **Spearman rho = 0.108, p = 0.079** — score magnitude vs move size | `CLAUDE.md` Tier 1 asymmetry | Printed to console by `experiments/asymmetry_conviction_analysis.py`, not saved to any CSV. Recomputed here from `backtest_equity.csv` + `global_outcome_calibration_phase2.csv`: rho = 0.1095, p = 0.0735 — close but not exact (see Approximately verified). |
+| **0.4656** — "global_best accuracy" in `weight_threshold_sweep.json` | `CLAUDE.md` Current State | **SUPERSEDED (2026-08-09)**: `weight_threshold_sweep.json` stores a different sweep structure. The citable deployed-default accuracy is 36.2% (N=268 5-day) or 65.3% (N=233 overnight graded). This figure is withdrawn, not pending action. |
+| **0.466 / 0.443** — macro "before/after" accuracy pair | `CLAUDE.md` Architecture > Blend | **SUPERSEDED (2026-08-10)**: CLAUDE.md itself flagged this as unverifiable. Replaced by `macro_weight_axis_sweep.csv` (0.3731 off, 0.3619 on). This figure is withdrawn, not pending action. |
+| **rho = 0.221** — Spearman score-return correlation before anchor correction | `ext2_holding_curve.csv` header comment | **SUPERSEDED (2026-08-12)** by rho = 0.236 (p = 0.0003) in the corrected `ext2_holding_curve.csv`. Pre-correction value, no longer citable. |
+| **Kappa = 0.107 (CI [0.027, 0.188])** — Cohen's kappa clean group | `retracted_findings_2026-08-12.md` | **RESOLVED (2026-08-13)**: Recomputed on N=233 clean universe (section=All, first_rater=YES, in_llm=YES, N=171 paired events): kappa = 0.109, 90% CI [0.030, 0.190]. Saved to `kappa_near_independence.csv` with full 3x3 confusion matrix, marginals, and subset definition. Prior console-only values 0.107 and 0.113 (different N) are superseded. |
+| **+0.10pp, CI [−0.38pp, +0.61pp], p = 0.773** — ext4 paired bootstrap on mean-net-per-trade (sized − flat) | `CLAUDE.md` Tier 2 conviction sizing | Console-only from `experiments/extension4_conviction_sizing.py`. Script now writes `ext4_paired_bootstrap.csv` on next successful run (requires price data via `overnight_gap()`). Until then, the figure is **approximately verified** by the ext4 CSV's own flat/sized mean-net-per-trade difference (1.8179% − 1.7193% = +0.10pp), consistent with the claimed bootstrap point estimate. |
+| **Spearman rho = 0.108, p = 0.079** — score magnitude vs move size | `CLAUDE.md` Tier 1 asymmetry | **RESOLVED (2026-08-13)**: `asymmetry_conviction_analysis.py` now saves to `asymmetry_rank_correlation.csv`. Recomputed authoritative value: rho = 0.1108, p = 0.0701, N=268. The claimed 0.108/0.079 is superseded; cite the CSV value. |
 
 ---
 
@@ -54,10 +57,9 @@ Computed on a superseded anchor, superseded exclusion set, or a different N. All
 
 | Figure | Claimed in | Recomputed | Notes |
 |---|---|---|---|
-| **Spearman rho = 0.108, p = 0.079** — score magnitude vs overnight move | `CLAUDE.md` Tier 1 | rho = 0.1095, p = 0.0735 (N=268) | Minor discrepancy; script likely used slightly different blend-score computation or exact column. Direction and significance-level interpretation unchanged (near-zero, not significant). |
 | **Deployed-default accuracy 36.2%** | `CLAUDE.md` Tier 1 | 98/268 = 36.57% from calibration CSV | CLAUDE.md rounds to 36.2%; the CSV gives 36.57%. Same finding. |
 | **Old default N=161 total return +64.51%** | `CLAUDE.md` historical | `vs_backtest_py.backtest_py_reported.total_return_pct = 64.51` in sweep JSON; tensor sweep gives 64.3% | Two runs of different code paths give slightly different values. Both are documented. |
-| **Kappa = 0.113, CI [0.036, 0.191]** — clean group in `worksheet_leak_triage.md` | `worksheet_leak_triage.md` | Not recomputed here; inconsistent with kappa = 0.107 in `retracted_findings_2026-08-12.md` (see Unreproducible above) | Both figures printed to console, neither saved to CSV. The discrepancy is unresolved; whichever is cited must state N and subset. |
+| **Ext4 bootstrap +0.10pp** | `CLAUDE.md` Tier 2 | Consistent with ext4 CSV mean-net difference (1.8179% − 1.7193% = +0.10pp) | Console-only; script patched to save `ext4_paired_bootstrap.csv` on next run with price data. |
 
 ---
 

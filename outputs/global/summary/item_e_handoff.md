@@ -217,22 +217,41 @@ does not survive honest replication.
 The blended score itself retains predictive content independent of any
 threshold: rho = 0.236 at p = 0.0003. That is the study's primary result.
 
-### Genuinely unseen events
+### Cross-issuer generalisation (reconstructed subset)
 
 The deployed thresholds were selected at N=161 (the first 40 issuers).
 31 issuers (101 clean events) were scored after the sweep and were never
 in the sweep's dataset.
 
+**This is a cross-issuer test, not a temporal one.** Both subsets span
+overlapping date ranges (in-sweep: 2023-04-25 to 2026-07-14; post-sweep:
+2024-07-31 to 2026-07-01; 37 same-day reports from different issuers).
+The result tests whether thresholds transfer to new companies, not
+whether they generalise to new time periods. It does not corroborate the
+temporal findings (walk-forward degeneracy, dev/eval split).
+
+**Reconstruction methodology**: The N=161 sweep predates this
+repository's git history. No recorded event list or calibration file
+from that commit survives. Sweep membership is inferred from: (a) the
+sweep JSON records `n_documents=161` but no event list; (b) the first
+40 issuers in `PHASE2_ISSUERS` produce exactly 161 events, matching
+the sweep's recorded count; (c) zero issuer overlap between the first
+40 and the later 31; (d) the 101 post-sweep events are entirely new
+issuers, not new quarters of existing issuers. However, the count match
+is weak: **453 single-swap alternatives** (any same-count issuer swap)
+also produce exactly 161. The identification relies primarily on the
+assumption that issuers were onboarded in list order. The result is a
+**reconstructed cross-issuer generalisation subset**.
+
 | Subset | N clean | Trades | Graded | Accuracy | Mean net |
 |---|---|---|---|---|---|
 | In-sweep (in-sample) | 132 | 76 | 43 | 67.4% (29/43) | +1.012% |
-| Post-sweep (genuinely unseen) | 101 | 70 | 52 | 63.5% (33/52) | +2.785% |
+| Post-sweep (cross-issuer) | 101 | 70 | 52 | 63.5% (33/52) | +2.785% |
 | Full sample | 233 | 146 | 95 | 65.3% (62/95) | +1.862% |
 
 Post-sweep accuracy vs always-DOWN floor (51.9%): margin +11.5pp,
 p = 0.063 (MDE ±20.8pp). Directionally consistent with the in-sample
-figure but not significant at 0.05. This is the only real out-of-sample
-accuracy number in the study.
+figure but not significant at 0.05.
 
 ### Subset stability (not out-of-sample)
 

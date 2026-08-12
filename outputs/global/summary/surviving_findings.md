@@ -48,20 +48,75 @@ and zero OOS trades in 3 of 4 windows; accuracy refitting degenerates in
 in-sample at p=0.024, and not verifiable out of sample because threshold
 refitting degenerates at this N.**
 
-**Genuinely unseen events**: 101 events from 31 issuers scored after the
-N=161 threshold sweep were never in the sweep's dataset. Under the
-deployed thresholds: 33/52 graded correct = 63.5%, vs always-DOWN floor
-51.9%, margin +11.5pp, p=0.063 (MDE ±20.8pp). This is the only real
-out-of-sample accuracy number in the study. It is directionally
-consistent with the in-sample figure but not significant at 0.05.
+**Cross-issuer generalisation** (finding #3): 101 events from 31 issuers
+scored after the N=161 threshold sweep, zero issuer overlap with the 40
+in-sweep issuers. Under the deployed thresholds: 33/52 graded correct =
+63.5%, vs always-DOWN floor 51.9%, margin +11.5pp, p=0.063 (MDE ±20.8pp).
+This tests issuer transfer, not temporal generalisation (both subsets span
+overlapping dates). Reconstructed subset — see finding #3 for the full
+qualification.
 
 **Fragility statement**: the in-sample margin is significant but sits at
-the detection limit. The OOS margin on genuinely unseen events is
-comparable in magnitude (+11.5pp) but not significant (p=0.063, N=52).
-A modestly smaller true effect would have been undetectable at either
-sample size.
+the detection limit. The cross-issuer margin is comparable in magnitude
+(+11.5pp) but not significant (p=0.063, N=52). A modestly smaller true
+effect would have been undetectable at either sample size.
 
-## 3. Item C: section ablation token ratio
+## 3. Cross-issuer generalisation (reconstructed subset)
+
+**Statistic**: Thresholds fitted on 40 issuers (132 clean events) transfer
+to 31 unseen issuers (101 clean events): 33/52 graded correct = 63.5%,
+vs always-DOWN floor 51.9% (27/52), margin +11.5pp, p=0.063
+(MDE ±20.8pp). Mean net per trade: +2.785%.
+
+**This is a cross-issuer test, not a temporal one.** The 101 post-sweep
+events are entirely new issuers — zero issuer overlap with the 40
+in-sweep issuers. Both subsets span overlapping date ranges (in-sweep:
+2023-04-25 to 2026-07-14; post-sweep: 2024-07-31 to 2026-07-01; 37
+same-day reports from different issuers). The two subsets are interleaved
+in time, not sequential.
+
+**Does not corroborate the temporal findings.** The walk-forward
+(finding #2's degeneracy result) and the dev/eval split (finding #9)
+test whether thresholds generalise across time. This tests whether they
+generalise across issuers. Three results on two different axes should
+not be presented as three lines of agreement. The temporal axis
+(walk-forward) degenerates; the cross-issuer axis shows a directionally
+consistent but non-significant margin.
+
+**Confound**: because the two subsets overlap in time, an issuer-coverage
+effect and a temporal effect cannot be separated. The result is consistent
+with both "the thresholds transfer to new companies" and "the thresholds
+work on later quarters" — the design cannot distinguish these.
+
+**Threshold-dependent?** Yes — the deployed thresholds determine which of
+the 101 events are graded. But unlike finding #2, the thresholds were not
+selected on these events, so the threshold-dependency is for grading only,
+not for selection.
+
+**Qualification — reconstructed, not recorded**: The N=161 sweep
+(`experiments/phase2_pnl_weight_threshold_sweep.py`) predates this
+repository's git history. No recorded event list or calibration file from
+that commit survives. Sweep membership is inferred from: (a) the sweep
+JSON records `n_documents=161` but no event list; (b) the first 40
+issuers in `PHASE2_ISSUERS` produce exactly 161 events, matching the
+sweep's recorded count; (c) zero issuer overlap between the first 40 and
+the later 31; (d) the 101 post-sweep events are entirely new issuers, not
+new quarters of existing issuers. However, the count match is weak
+evidence: 453 single-swap alternative sets of 40 issuers also produce
+exactly 161 events (any same-count issuer can be swapped without changing
+the total). The identification relies primarily on the assumption that
+issuers were onboarded in `PHASE2_ISSUERS` list order, which is plausible
+but unverifiable. The result is therefore labelled a **reconstructed
+cross-issuer generalisation subset**, weaker than one recovered from a
+recorded event list.
+
+**Interpretation**: The margin (+11.5pp) is comparable in magnitude to
+the in-sample figure (+10.5pp, finding #2), which is the pattern expected
+if the deployed thresholds capture a real effect. But p=0.063 does not
+clear 0.05, and the MDE (±20.8pp) shows this subset was underpowered.
+Report as directionally consistent, not confirmed.
+
+## 4. Item C: section ablation token ratio
 
 **Statistic**: press release at ~13k tokens achieves 63.3% accuracy
 (HOLD-excluded, on its own graded set) vs full bundle at ~30k tokens at
@@ -80,21 +135,29 @@ grading convention.
 corrected returns_matrix. The model version (deepseek-v4-flash) matches
 the deployed runs.
 
-## 4. Kappa near-independence (human vs model)
+## 5. Kappa near-independence (human vs model)
 
-**Statistic**: Cohen's kappa = 0.107, 90% CI [0.027, 0.188]. The human
-and LLM arms are close to independent — their directional calls share
-barely more structure than two independent classifiers with their
-marginals (human BUY 55.7%, LLM BUY 24.0%).
+**Statistic**: Cohen's kappa = 0.109, 90% CI [0.030, 0.190], N=171
+paired events. Recomputed 2026-08-13 on the N=233 clean universe
+(section=All, first_rater_for_event=YES, in_llm_universe=YES; LLM
+decision from `blend_predicted_signal_default`). The human and LLM arms
+are close to independent — their directional calls share barely more
+structure than two independent classifiers with their marginals (human
+BUY 56.1%, LLM BUY 24.6%). Observed agreement 38.0%, expected 30.4%.
+
+**Backing**: `kappa_near_independence.csv` (3x3 confusion matrix, both
+arms' marginals, observed/expected agreement, kappa, bootstrap CI, subset
+definition).
+
+**Prior values**: 0.107 (CI [0.027, 0.188]) reported in
+`retracted_findings_2026-08-12.md` — close but console-only, no backing
+CSV. 0.113 (CI [0.036, 0.191]) in `worksheet_leak_triage.md` — different
+computation on a different N. Both superseded by the CSV-backed 0.109.
 
 **Threshold-dependent?** No. Kappa compares the BUY/HOLD/SELL calls
 directly, not graded outcomes.
 
-**Why corrections did not touch it**: kappa depends on the calls, not the
-returns. It was recomputed on the corrected exclusion set (0.107, down
-from 0.113 on the stale set) but the change is within the CI.
-
-## 5. Direction-only comparison (human vs model)
+## 6. Direction-only comparison (human vs model)
 
 **Statistic**: on 76 events where both arms committed, human 57.9%
 (44/76) vs LLM 60.5% (46/76), diff +2.6pp, p=0.754. Neither detectably
@@ -106,7 +169,7 @@ majority-direction floor by a testable margin.** The null stands.
 
 **Threshold-dependent?** No. Uses sign accuracy, no band.
 
-## 6. SELL-versus-BUY asymmetry (a finding in its own right)
+## 7. SELL-versus-BUY asymmetry (a finding in its own right)
 
 Both arms show skill on SELL calls and neither shows skill on BUY calls:
 
@@ -140,7 +203,7 @@ achieves it on SELL rather than BUY.
 
 **Threshold-dependent?** No. Uses sign accuracy, no band.
 
-## 7. Supplementary re-score of 25 contaminated events
+## 8. Supplementary re-score of 25 contaminated events
 
 **Statistic**: 12/25 (48%) changed their directional call once the
 worksheet was removed. Re-scored accuracy 66.7% (12/18 graded) resembles
@@ -149,7 +212,7 @@ the clean set (65.3%), corroborating the exclusion.
 **Threshold-dependent?** Yes (grading uses the HOLD threshold). Same
 walk-forward qualification as finding #2.
 
-## 8. Dev/eval split (subset stability, not a result)
+## 9. Dev/eval split (subset stability, not a result)
 
 **Statistic**: dev accuracy 52.6% (10/19), eval 68.4% (52/76). The model
 performs better on later events — opposite of overfitting. Eval margin
@@ -161,9 +224,11 @@ performs better on later events — opposite of overfitting. Eval margin
 the deployed thresholds were already fitted on. The eval split's 68.4%
 is an in-sample figure computed on a subset of the same events the
 threshold sweep saw. It shows subset stability (the fitted thresholds
-are not concentrated on early events), not generalisation. The genuinely
-unseen events from finding #2 (33/52 = 63.5%, p=0.063) are the proper
-replacement for this observation.
+are not concentrated on early events), not generalisation. Finding #3
+(33/52 = 63.5%, p=0.063) tests cross-issuer transfer, not temporal
+generalisation — both this dev/eval split and finding #3 are suggestive
+but neither provides a clean temporal OOS test (the walk-forward
+degenerates at this N).
 
 ## What did not survive
 
@@ -186,18 +251,30 @@ in-sample threshold selection.
 mean net per trade, the graded N, Item C per-arm accuracy) carries this
 qualification.
 
-**Item E outcome**: walk-forward threshold refitting degenerates at N=233.
-Two refit objectives were tried (mean net per trade and directional
-accuracy with a minimum trade constraint) and both degenerate — the
-procedure selects extreme thresholds that trade rarely at high mean return
-in training, then trade not at all out of sample. Therefore any
-threshold-dependent figure in this study, including the 65.3% selectivity
-accuracy and the mean net per trade, rests on a selection step that does
-not survive honest replication at this sample size.
+**Item E outcome — two-objective degeneracy (structural, not
+objective-specific)**:
+
+Walk-forward threshold refitting degenerates at N=233. Two refit
+objectives were tried:
+
+1. **Mean net per trade** (the study's headline P&L metric,
+   order-independent): selects extreme thresholds (+0.45/-0.50)
+   producing 5–7 training trades and zero OOS trades in 3 of 4
+   windows.
+2. **Directional accuracy** (with a 15% minimum trade fraction
+   constraint): degenerates in 2 of 4 windows despite the trade-count
+   floor.
+
+Both objectives degenerate. The threshold selection procedure behind the
+deployed 65.3% cannot be executed honestly at this sample size. This
+means any threshold-dependent figure in this study — selectivity
+accuracy, mean net per trade, graded N, Item C per-arm accuracy — rests
+on a selection step that does not survive honest replication.
 
 The deployed thresholds' performance on 101 genuinely unseen events
-(31 issuers scored after the N=161 sweep) is 33/52 = 63.5% (p=0.063 vs
-floor). This is directionally consistent but not significant at 0.05.
+(31 issuers scored after the N=161 sweep, reconstructed cross-issuer
+generalisation subset — see finding #3) is 33/52 = 63.5% (p=0.063 vs floor). Directionally
+consistent but not significant at 0.05.
 
 **Rho (finding #1) does not depend on the threshold** and is the only
 headline that is clean of this qualification. That rho = 0.236 at

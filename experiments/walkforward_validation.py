@@ -27,12 +27,31 @@ Design:
   - Degenerate-window assertion: if any window's OOS trade count falls below
     MIN_TRADES_FLOOR, assert loudly (threshold went degenerate).
 
-Genuinely unseen events:
+Cross-issuer generalisation (RECONSTRUCTED — see methodology note):
   The deployed thresholds were selected at N=161 (the first 40 phase2 issuers).
   31 issuers (101 clean events after exclusions) were scored AFTER the sweep and
   were never seen by the threshold selection. Their accuracy under the deployed
-  thresholds is reported separately as the only real out-of-sample number in
-  the study.
+  thresholds is reported separately as a cross-issuer generalisation test.
+
+  THIS IS A CROSS-ISSUER TEST, NOT A TEMPORAL ONE. Both subsets span overlapping
+  date ranges (in-sweep 2023-04-25 to 2026-07-14, post-sweep 2024-07-31 to
+  2026-07-01, 37 same-day reports from different issuers). The result does not
+  corroborate the temporal walk-forward or dev/eval findings.
+
+  METHODOLOGY NOTE ON SWEEP MEMBERSHIP:
+  The N=161 sweep (experiments/phase2_pnl_weight_threshold_sweep.py) predates
+  this repository's git history. No recorded event list or calibration file from
+  that commit survives. Membership is INFERRED from:
+    (a) The sweep JSON records n_documents=161 but no event list.
+    (b) The first 40 issuers in PHASE2_ISSUERS produce exactly 161 events,
+        matching the sweep's recorded count.
+    (c) Zero issuer overlap between the first 40 and the later 31.
+    (d) The 101 post-sweep events are entirely new issuers, not new quarters
+        of existing issuers.
+  However, the count match is weak evidence: 453 single-swap alternative sets
+  of 40 issuers also produce exactly 161 events. The identification relies on
+  the assumption that issuers were onboarded in PHASE2_ISSUERS list order. The
+  result is labelled a "reconstructed cross-issuer generalisation subset."
 
 Exclusions (35 events from 268 -> N=233 clean):
   - 25 worksheet contamination (worksheet_leak_flags.csv)
@@ -727,7 +746,7 @@ def main():
     # with respect to threshold selection.
     # =========================================================================
     print("\n" + "=" * 80)
-    print("GENUINELY UNSEEN EVENTS (post-sweep issuers)")
+    print("CROSS-ISSUER GENERALISATION (post-sweep issuers, reconstructed subset)")
     print("=" * 80)
 
     unseen_result = _evaluate_thresholds(post_sweep, DEFAULT_HOLD_UPPER, DEFAULT_HOLD_LOWER)
@@ -780,9 +799,10 @@ def main():
         mde_unseen = (z_alpha + z_beta) * np.sqrt(2 * unseen_floor * (1 - unseen_floor) / unseen_n_graded)
         print(f"  MDE: ±{mde_unseen*100:.1f}pp (N_graded={unseen_n_graded})")
 
-        print(f"\n  This is the only real out-of-sample accuracy number in the study.")
-        print(f"  The {len(post_sweep)} events from 31 post-sweep issuers were scored")
-        print(f"  after the threshold selection and were never in the sweep's dataset.")
+        print(f"\n  Cross-issuer generalisation: thresholds fitted on 40 issuers")
+        print(f"  transfer to 31 unseen issuers at {unseen_result['accuracy']:.1%}.")
+        print(f"  Both subsets span overlapping date ranges (interleaved, not sequential)")
+        print(f"  — this tests issuer coverage, not temporal generalisation.")
 
     # =========================================================================
     # TWO-WINDOW HEADLINE
@@ -954,8 +974,13 @@ def main():
             "full_sample_accuracy": round(deployed["accuracy"], 4) if deployed["accuracy"] else None,
         },
         "genuinely_unseen": {
-            "note": "Events from 31 issuers scored after the N=161 threshold sweep. "
-                    "The only real out-of-sample accuracy number in the study.",
+            "note": "Cross-issuer generalisation test: 31 issuers scored after the "
+                    "N=161 threshold sweep, zero issuer overlap with the 40 in-sweep "
+                    "issuers. Both subsets span overlapping date ranges (interleaved, "
+                    "not sequential) — this tests issuer transfer, not temporal "
+                    "generalisation. RECONSTRUCTED: sweep membership inferred from "
+                    "issuer ordering and count match (n_documents=161), not from a "
+                    "recorded event list. 453 single-swap alternatives also produce 161.",
             "n_issuers_in_sweep": len(SWEEP_ISSUERS_AT_PROMOTION),
             "n_issuers_post_sweep": len(set(e["issuer"] for e in post_sweep)),
             "n_events_in_sweep": len(in_sweep),

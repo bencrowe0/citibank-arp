@@ -274,6 +274,17 @@ def main() -> int:
               f"diff={paired['point_diff']*100:+.4f}pp  "
               f"CI=[{paired['ci_low']*100:+.4f}pp, {paired['ci_high']*100:+.4f}pp]  "
               f"p={paired['p_value']:.4f}")
+        # Save paired bootstrap to CSV
+        paired_csv = OUTPUTS_DIR / "global" / "summary" / "ext4_paired_bootstrap.csv"
+        with open(paired_csv, "w", newline="") as pf:
+            pw = csv.writer(pf)
+            pw.writerow(["metric", "value"])
+            pw.writerow(["n_paired_trades", paired["n"]])
+            pw.writerow(["point_diff_pct", f"{paired['point_diff']*100:+.4f}"])
+            pw.writerow(["ci_low_pct", f"{paired['ci_low']*100:+.4f}"])
+            pw.writerow(["ci_high_pct", f"{paired['ci_high']*100:+.4f}"])
+            pw.writerow(["p_value", f"{paired['p_value']:.4f}"])
+        print(f"  Saved -> {paired_csv}")
     else:
         print(f"\nSkipped paired bootstrap: joined {len(common)}/{len(sized['document_order'])} trades "
               "(ticker/date collision in the join key) - see CSV for the point comparison only.")

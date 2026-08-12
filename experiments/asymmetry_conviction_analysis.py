@@ -212,8 +212,11 @@ def main() -> int:
     plot_conviction_curve(score_bins)
 
     rc = rank_correlation(rows)
+    rc_csv = OUTPUTS_DIR / "global" / "summary" / "asymmetry_rank_correlation.csv"
+    write_csv(rc_csv, [rc])
     print(f"\nSpearman rank correlation |score| vs |forward_return|: "
           f"rho={rc['spearman_rho']}, p={rc['p_value']}, n={rc['n']}")
+    print(f"  Saved -> {rc_csv}")
 
     gap = recall_gap_test(rows)
     write_csv(RECALL_GAP_CSV, [gap])
