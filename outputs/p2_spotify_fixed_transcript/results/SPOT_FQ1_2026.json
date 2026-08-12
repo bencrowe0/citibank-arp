@@ -1,0 +1,227 @@
+{
+  "document_id": "SPOT_Bundled Earnings Report_2026-04-28",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company delivered a strong quarter with all KPIs meeting or exceeding guidance, including MAU net adds of 10 million versus 8 million guided, gross margin of 33.0% above the 32.8% guidance, and operating income of \u20ac715 million versus \u20ac660 million guided. Forward guidance for Q2 2026 implies continued acceleration with revenue growth of 15% (up from 14% in Q1) and gross margin expansion to 33.1%, and management reiterated expectations for full-year margin and free cash flow improvement. However, the operating income beat was largely attributed to \u20ac49 million in favorable social charges tied to share price movements (a non-operational, timing item), and management noted that Q1 free cash flow strength was due to timing factors expected to reverse in Q2, so the score reflects genuine momentum but not a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.25,
+    "hold_lower_threshold": -0.05,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total Revenue of \u20ac4,533 million in Q1 2026, up 8% Y/Y (or 14% Y/Y constant currency). Premium Revenue grew 10% Y/Y to \u20ac4,148 million (15% constant currency); Ad-Supported Revenue declined 5% Y/Y (or increased 3% constant currency) to \u20ac385 million.",
+    "eps": "Basic EPS of \u20ac3.50 and diluted EPS of \u20ac3.45 for Q1 2026, compared to basic EPS of \u20ac1.10 and diluted EPS of \u20ac1.07 in Q1 2025.",
+    "guidance": "Q2 2026 guidance: Total MAUs of 778 million (net add of 17 million), Premium Subscribers of 299 million (net add of 6 million), Total Revenue of approximately \u20ac4.8 billion (15% growth), Gross Margin of 33.1%, and Operating Income of \u20ac630 million. Management reiterated expectations for full-year 2026 improvement in gross margin, operating margin, and meaningful free cash flow growth.",
+    "margin": "Gross Margin of 33.0% in Q1 2026, up 133 bps Y/Y (Q1 record high). Operating Margin of 15.8%, up from 12.1% in Q1 2025. Premium Gross Margin of 34.8%, up 129 bps Y/Y; Ad-Supported Gross Margin of 13.0%, down 102 bps Y/Y.",
+    "key_risks": [
+      "Ad-Supported revenue declined 5% Y/Y (IFRS) and management noted 'continued choppiness in our legacy direct sales channel' expected to persist near-term.",
+      "Ad-Supported Gross Margin declined 102 bps Y/Y due to music costs and other costs of revenue from higher engagement, which more than offset podcast favorability.",
+      "Foreign exchange headwinds: unfavorable currency movements slowed Total Revenue Y/Y growth by ~600 bps in Q1, and Q2 guidance assumes ~80 bps headwind to growth Y/Y.",
+      "Q1 free cash flow strength was partly due to timing factors expected to reverse in Q2.",
+      "Social Charges are volatile and tied to share price movements, which can cause meaningful fluctuations in operating expenses.",
+      "Operating expenses are expected to remain elevated for the next quarter or two due to marketing and AI investments."
+    ],
+    "key_opportunities": [
+      "MAU growth accelerated to 12% Y/Y, with outperformance led by Rest of World and North America, driven by enhanced free tier rollout.",
+      "AI-driven features driving engagement: AI DJ used by 94 million subscribers, Song DNA reached 52 million users in four weeks, Prompted Playlist expanded to podcasts.",
+      "New fitness hub with Peloton content for Premium subscribers, targeting the 'nearly 70%' of premium users who work out monthly.",
+      "Advertising business transformation: biddable/programmatic ads now represent over 30% of Ad-Supported revenue and are 'growing quickly'.",
+      "ARPU expansion expected to continue, with Q2 guidance of 7%-7.5% Y/Y growth, driven by pricing actions and new verticals like audiobooks and top-ups.",
+      "Management expects improved growth in the second half of 2026 as biddable channels scale."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used language like 'strong start to 2026,' 'we remain really well positioned to continue compounding growth and profitability,' and 'we see significant room to grow across users, formats and engagement,' reflecting confidence in the outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total Revenue was \u20ac4,533 million in Q1 2026, up 8% Y/Y (or 14% constant currency).",
+      "quote": "Total Revenue 4,190 4,531 4,533 8% 0% ... Revenue of \u20ac4,533 million grew 8% Y/Y in Q1 (or 14% Y/Y constant currency*)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS was \u20ac3.50 and diluted EPS was \u20ac3.45 for Q1 2026.",
+      "quote": "Basic earnings per share attributable to owners of the parent 3.50 5.71 1.10 ... Diluted earnings per share attributable to owners of the parent 3.45 4.43 1.07",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 guidance includes Total Revenue of approximately \u20ac4.8 billion (15% growth), Gross Margin of 33.1%, and Operating Income of \u20ac630 million.",
+      "quote": "We are also forecasting total revenue of approximately EUR 4.8 billion in quarter 2 or 15% growth. ... We anticipate the quarter 2 gross margin of 33.1%, approximately 160 basis points above the prior year. ... We are guiding to EUR 630 million in quarter 2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross Margin was 33.0% in Q1 2026, up 133 bps Y/Y.",
+      "quote": "Gross Margin finished at 33.0% in Q1, up 133 bps Y/Y reflecting: \u25cf Premium gains driven by Revenue growth outpacing music costs net of marketplace programs, audiobooks costs and video podcast costs; and \u25cf Ad-Supported decline driven by music costs and Other Costs of Revenue resulting from higher engagement, which more than offset podcast favorability",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-Supported revenue declined 5% Y/Y (IFRS) and management noted continued choppiness in the legacy direct sales channel.",
+      "quote": "Ad-Supported Revenue declined -5% Y/Y (or increased 3% Y/Y constant currency**). ... We also saw some continued choppiness in our legacy direct sales channel. While this dynamic will likely continue in the near term, we still expect improved growth in the second half of 2026 as our billable channels continue to scale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-Supported Gross Margin declined 102 bps Y/Y.",
+      "quote": "Ad-Supported Gross Margin* was 13% in Q1, down 102 bps Y/Y. The Y/Y decline was due to music costs and Other Costs of Revenue resulting from higher engagement, which more than offset podcast favorability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange headwinds slowed Total Revenue Y/Y growth by ~600 bps in Q1.",
+      "quote": "Unfavorable currency movements slowed Total Revenue Y/Y growth by ~600 bps vs. the ~670 bps incorporated into our guidance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 free cash flow strength was partly due to timing factors expected to reverse in Q2.",
+      "quote": "Finally, free cash flow was EUR 824 million in the quarter. Performance here was a bit stronger than our typical quarter 1 due to some timing factors, which will likely reverse in quarter 2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Social Charges are volatile and tied to share price movements.",
+      "quote": "As a reminder, Social Charges are payroll taxes associated with employee salaries and benefits in select countries where we operate. Since a portion of these taxes is tied to the intrinsic value of share-based compensation awards, movements in our stock price can lead to fluctuations in the taxes we accrue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating expenses are expected to remain elevated for the next quarter or two.",
+      "quote": "We expect operating expenses to remain at these levels for the next quarter or 2, and we are confident that it will enable healthy LTV returns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MAU growth accelerated to 12% Y/Y, with outperformance led by Rest of World and North America.",
+      "quote": "MAU grew by 10 million to 761 million in total, surpassing our guidance by 2 million. Our growth rate accelerated 12% year-over-year, up from 11% in quarter 4. Outperformance was led by rest of the world and North America where we continued to benefit from our enhanced free tier rollout.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI DJ used by 94 million subscribers and Song DNA reached 52 million users in four weeks.",
+      "quote": "IDJ is now used by 94 million subscribers, closing in on 100 million, driving billions of hours of engagement. ... Also something we released only 4 weeks ago, Song DNA, is now up to 52 million users, in just 4 weeks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New fitness hub with Peloton content for Premium subscribers, targeting the 'nearly 70%' of premium users who work out monthly.",
+      "quote": "Nearly 70% of premium users work out monthly and our users have created more than 150 million workout standard playlists ... we are launching a fitness hub on Spotify. And as we just announced, this hub features Peloton's premium subscriber content in an ad-free experience.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Biddable/programmatic ads now represent over 30% of Ad-Supported revenue and are 'growing quickly'.",
+      "quote": "Our new automated sales channel continued to grow fast and now represents over 30% of our Ad-Supported revenue in quarter 1. ... Today, Biddable represents more than 1/3 of ad revenue, and it's growing quickly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ARPU expansion expected to continue, with Q2 guidance of 7%-7.5% Y/Y growth.",
+      "quote": "This reflects the ARPU increase of 7% to 7.5% year-on-year as we see additional benefit from the recently announced pricing action, partially offset by the lapping of pricing actions last year in the Benelux region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects improved growth in the second half of 2026 as biddable channels scale.",
+      "quote": "While this dynamic will likely continue in the near term, we still expect improved growth in the second half of 2026 as our billable channels continue to scale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "In conclusion, quarter 1 was a strong start to 2026. Revenue growth accelerated and profitability improved as we continue to reinvest our future growth potential. We remain really well positioned to continue compounding growth and profitability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is above the BUY threshold, but the operating income beat was largely due to non-operational social charge favorability, and free cash flow strength was partly timing-related. A reviewer may consider whether the organic momentum justifies a score above 0.25."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "report_metadata": {
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28"
+  },
+  "run_meta": {
+    "run_id": "3691e1f3",
+    "extracted_text_path": "outputs/p2_spotify/extracted/SPOT_FQ1_2026.txt",
+    "per_doc_meta": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "docs/spotify/CY2026-Q1/Press_Release.html",
+        "page_count": 1,
+        "extracted_characters": 8079,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "docs/spotify/CY2026-Q1/Shareholder_Deck.pdf",
+        "page_count": 36,
+        "extracted_characters": 37915,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "docs/spotify/CY2026-Q1/SPOT-Q1-2026-earnings-call-transcript-MotleyFool.txt",
+        "page_count": 1,
+        "extracted_characters": 60073,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "warnings": [],
+    "note": "Rescored after replacing misattributed Parker-Hannifin transcript with correct Spotify Q1 2026 transcript from Motley Fool"
+  },
+  "cost_log": {
+    "run_id": "3691e1f3",
+    "timestamp": "2026-08-12T21:11:22Z",
+    "status": "success",
+    "document_id": "SPOT_FQ1_2026",
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "source_pdf": "docs/spotify/CY2026-Q1/Press_Release.html",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 26868,
+    "cache_hit_tokens": 26752,
+    "output_tokens": 2930,
+    "total_tokens": 29798,
+    "cached_input": false,
+    "estimated_cost_usd": 0.005127,
+    "latency_seconds": 18.96,
+    "attempts": 1,
+    "signal": "BUY",
+    "signal_mismatch": false,
+    "sentiment_score": 0.3,
+    "hold_upper": 0.25,
+    "hold_lower": -0.05
+  }
+}
