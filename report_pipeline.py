@@ -46,6 +46,17 @@ BUNDLE_SECTION_HEADERS = {
     "Earnings Call Transcript": "EARNINGS CALL TRANSCRIPT",
 }
 
+# Doc types excluded from the bundle text sent to the LLM.
+# "Earnings Document" was used for human-rater blind sentiment worksheets
+# containing the rater's score, signal, and realised price returns — feeding
+# these to the model constitutes both human-judgement leakage and look-ahead
+# contamination.  25 of 59 "Earnings Document" entries are worksheets; the
+# remaining 28 are mis-typed press releases.  All are excluded because the
+# doc_type itself is an unreliable label, and the benign ones duplicate content
+# already present under the correct doc_type.
+# Added 2026-08-12 after the worksheet leakage triage confirmed contamination.
+EXCLUDED_DOC_TYPES = {"Earnings Document"}
+
 
 @dataclass(frozen=True)
 class ReportSpec:
@@ -458,6 +469,18 @@ def build_bundle_text(report: ReportSpec) -> tuple[str, list[dict[str, Any]], li
     combined_warnings: list[str] = []
 
     for doc in report.documents:
+        if doc.doc_type in EXCLUDED_DOC_TYPES:
+            combined_warnings.append(
+                f"{doc.doc_type}: excluded by EXCLUDED_DOC_TYPES "
+                f"(worksheet leakage prevention)"
+            )
+            per_doc_meta.append({
+                "doc_type": doc.doc_type,
+                "source_pdf": str(doc.source_pdf),
+                "excluded": True,
+                "reason": "EXCLUDED_DOC_TYPES",
+            })
+            continue
         header = BUNDLE_SECTION_HEADERS.get(doc.doc_type, doc.doc_type.upper())
         try:
             extraction = extract_doc_text(doc.source_pdf)

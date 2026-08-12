@@ -190,29 +190,30 @@ The workbook's Section C re-pricing chose the measurement window per row. Of
 Results reported on `fact_based` first, `price_based` as robustness check,
 per the data supplier's instruction.
 
-#### Fact-based rows only (the primary analysis)
-
-| Group | N | Agreement rate |
-|---|---|---|
-| Worksheet-contaminated | 24 | 62.5% (15/24) |
-| Clean | 34 | 23.5% (8/34) |
-
-Bootstrap unpaired difference: **+39.0pp**, 90% CI [+18.1pp, +58.6pp],
-**p=0.0028**.
-
-The contaminated group's agreement rate is nearly three times the clean group's,
-and the difference is statistically significant (p<0.01). This is the strongest
-evidence of contamination in the triage: on the events where the LLM saw the
-human's answer, agreement is 62.5%; where it did not, agreement is 23.5%.
-
-#### Pooled across all repricing_basis_class (secondary)
+#### Pooled across all repricing_basis_class (headline)
 
 | Group | N | Agreement rate |
 |---|---|---|
 | Worksheet-contaminated | 25 | 60.0% (15/25) |
 | Clean | 180 | 38.3% (69/180) |
 
-Bootstrap unpaired difference: +21.7pp, 90% CI [+4.4pp, +38.7pp], p=0.042.
+Bootstrap unpaired difference: **+21.7pp**, 90% CI [+4.4pp, +38.7pp], **p=0.042**.
+
+#### Fact-based rows only (confounded, reported for completeness)
+
+| Group | N | Agreement rate |
+|---|---|---|
+| Worksheet-contaminated | 24 | 62.5% (15/24) |
+| Clean | 34 | 23.5% (8/34) |
+
+Bootstrap unpaired difference: +39.0pp, 90% CI [+18.1pp, +58.6pp], p=0.0028.
+
+**Confound**: 24 of 25 contaminated events are `fact_based`, but only 34 of 180
+clean events are, because one of the `fact_based` basis strings is "release date
++ stated time in the document (rater worksheet)" — an event is `fact_based`
+largely *because* it has a worksheet. This comparison selects the two groups on
+different criteria and overstates the contamination effect. The pooled figure
+(+21.7pp, p=0.042) is the defensible headline.
 
 #### Price-based rows (robustness check)
 
@@ -235,6 +236,67 @@ to agree on directionally.
 
 David does not appear in the clean group (all his paired reads are on
 worksheet-contaminated events: 11/19 = 57.9% agreement).
+
+#### Cohen's kappa on the clean group
+
+The clean group's 38.3% agreement is around what two three-way classifiers
+would produce by chance given their marginal distributions.
+
+3x3 confusion matrix (rows=human, cols=LLM, clean group N=180):
+
+|            |  BUY | HOLD | SELL |
+|------------|------|------|------|
+| Human BUY  |   34 |   47 |   21 |
+| Human HOLD |    7 |   14 |   20 |
+| Human SELL |    4 |   12 |   21 |
+
+Marginal distributions:
+- Human: BUY 56.7%, HOLD 22.8%, SELL 20.6%
+- LLM: BUY 25.0%, HOLD 40.6%, SELL 34.4%
+
+The two arms disagree structurally: the human arm calls BUY on 57% of events,
+the LLM arm on 25%. The LLM holds or sells where the human buys.
+
+| Metric | Value |
+|---|---|
+| Observed agreement (p_o) | 0.383 |
+| Expected chance agreement (p_e) | 0.305 |
+| Cohen's kappa | **0.113** |
+| 90% bootstrap CI on kappa | [0.036, 0.191] |
+
+Kappa is near zero. The two arms are systematically unrelated — their
+directional calls share barely more structure than two independent classifiers
+with these marginals. This is a finding about the arms, not a failed check.
+
+#### Agreement filter recomputed excluding the 25 contaminated events
+
+The headline result (LLM accuracy higher where the arms agree than where they
+disagree) was computed on a dataset that included the contaminated events.
+Recomputed on `returns_matrix.csv` overnight returns with ±2% band:
+
+|                | Before excl. |     | After excl. |     |
+|----------------|-------------|-----|-------------|-----|
+|                | Accuracy    | N   | Accuracy    | N   |
+| Arms agree     | 38.2%       | 68  | 32.7%       | 55  |
+| Arms disagree  | 23.7%       | 59  | 15.4%       | 52  |
+| Difference     | +14.5pp (p=0.069) | | **+17.3pp (p=0.029)** | |
+
+The filter **strengthens** after excluding the contaminated events (+17.3pp,
+significant at p<0.05, vs +14.5pp, marginal at p=0.069 before). Removing the
+25 events where the LLM was reading the human's answer removes mechanically
+inflated agreement, leaving a cleaner signal where genuine agreement predicts
+accuracy.
+
+#### Scope limitations on the paired analysis
+
+- **86 event_keys** in the human data are for companies outside the LLM
+  universe entirely (Adobe, Chevron, Duke Energy, ExxonMobil, Home Depot,
+  Mastercard, and others). The human arm covers materially more companies
+  than the LLM arm; all paired figures rest on their intersection.
+- **16 event_keys** are in the LLM universe but failed to match a scored
+  quarter: JNJ Q1 2026, CAT Q1 2026, UNH Q1 2026, BKNG Q1 2025, DELL Q2
+  2025, KHC Q4 2025, plus MetLife and Allianz fiscal-offset gaps. These are
+  unscored quarters and fiscal-calendar misalignments, not join errors.
 
 #### Note on the two agreement figures (60% here vs 72% earlier)
 
