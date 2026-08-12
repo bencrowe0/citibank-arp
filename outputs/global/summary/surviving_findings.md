@@ -1,10 +1,12 @@
 # Surviving findings after all corrections
 
-Date: 2026-08-13
+Date: 2026-08-13 (updated 2026-08-12 with Item E walk-forward outcome)
 
 Six corrections have been applied: stale entry anchor (4 retracted findings),
 wrong baseline comparator, and the direction decomposition retraction
-(tautological, not a finding). This document lists every result that stands.
+(tautological, not a finding). Item E (walk-forward validation) has now been
+run and its outcome is incorporated into every threshold-dependent finding
+below. This document lists every result that stands.
 
 ## 1. Rank correlation with monotonic decay (strongest)
 
@@ -22,7 +24,7 @@ rebuilt on the corrected anchor) but it was recomputed on the corrected
 matrix and improved from 0.221 to 0.236. It is not sensitive to the HOLD
 threshold because it uses all 233 events, not just traded ones.
 
-## 2. Selectivity accuracy (qualified)
+## 2. Selectivity accuracy (qualified — not verifiable OOS)
 
 **Statistic**: 62/95 = 65.3%, vs 54.7% majority-direction floor,
 margin +10.5pp, p=0.024. MDE = ±10.8pp (barely powered to detect).
@@ -34,13 +36,30 @@ HOLD=wrong, 12.2pp below the 54.4% floor.
 which 95 of 233 events are graded. Those thresholds were selected by
 optimising compounded total return on the full dataset (in-sample,
 PSR=0.0). The 95-event denominator is itself a product of in-sample
-threshold selection. Item E (walk-forward with out-of-sample threshold
-refitting) is therefore the load-bearing robustness test, not a
-supplementary one.
+threshold selection.
 
-**Fragility statement**: the margin is significant but sits at the
-detection limit. A modestly smaller true effect would have been
-undetectable at N=95.
+**Item E outcome**: Walk-forward threshold refitting degenerates at N=233.
+Two objectives were tried — mean net per trade and directional accuracy
+(with a 15% minimum trade fraction). Both degenerate: mean-net refitting
+produces extreme thresholds (+0.45/-0.50) selecting 5-7 training trades
+and zero OOS trades in 3 of 4 windows; accuracy refitting degenerates in
+2 of 4 windows. The threshold selection procedure behind the deployed
+65.3% cannot be executed honestly at this sample size. **Significant
+in-sample at p=0.024, and not verifiable out of sample because threshold
+refitting degenerates at this N.**
+
+**Genuinely unseen events**: 101 events from 31 issuers scored after the
+N=161 threshold sweep were never in the sweep's dataset. Under the
+deployed thresholds: 33/52 graded correct = 63.5%, vs always-DOWN floor
+51.9%, margin +11.5pp, p=0.063 (MDE ±20.8pp). This is the only real
+out-of-sample accuracy number in the study. It is directionally
+consistent with the in-sample figure but not significant at 0.05.
+
+**Fragility statement**: the in-sample margin is significant but sits at
+the detection limit. The OOS margin on genuinely unseen events is
+comparable in magnitude (+11.5pp) but not significant (p=0.063, N=52).
+A modestly smaller true effect would have been undetectable at either
+sample size.
 
 ## 3. Item C: section ablation token ratio
 
@@ -52,8 +71,10 @@ the PR passes on. Prepared remarks agrees with full bundle on 85.7% of
 signals at ~10k tokens.
 
 **Threshold-dependent?** The accuracy figures are threshold-dependent
-(same qualification as #2). The token ratio and cost per correct call are
-not — they are properties of the documents, not the grading convention.
+(same qualification as #2, including the Item E walk-forward outcome:
+threshold refitting degenerates at this N). The token ratio and cost per
+correct call are not — they are properties of the documents, not the
+grading convention.
 
 **Why corrections did not touch it**: Item C was scored and graded on the
 corrected returns_matrix. The model version (deepseek-v4-flash) matches
@@ -125,16 +146,24 @@ achieves it on SELL rather than BUY.
 worksheet was removed. Re-scored accuracy 66.7% (12/18 graded) resembles
 the clean set (65.3%), corroborating the exclusion.
 
-**Threshold-dependent?** Yes (grading uses the HOLD threshold).
+**Threshold-dependent?** Yes (grading uses the HOLD threshold). Same
+walk-forward qualification as finding #2.
 
-## 8. Dev/eval split (directional evidence, not a result)
+## 8. Dev/eval split (subset stability, not a result)
 
 **Statistic**: dev accuracy 52.6% (10/19), eval 68.4% (52/76). The model
 performs better on later events — opposite of overfitting. Eval margin
 +14.5pp vs floor (p=0.007). Dev too small (MDE=±24.1pp).
 
-**Not a result**: the difference is not significant (p=0.229). It is
-directional evidence that Item E will test properly.
+**Not a result**: the difference is not significant (p=0.229).
+
+**Not out-of-sample**: the dev/eval split was applied post hoc to data
+the deployed thresholds were already fitted on. The eval split's 68.4%
+is an in-sample figure computed on a subset of the same events the
+threshold sweep saw. It shows subset stability (the fitted thresholds
+are not concentrated on early events), not generalisation. The genuinely
+unseen events from finding #2 (33/52 = 63.5%, p=0.063) are the proper
+replacement for this observation.
 
 ## What did not survive
 
@@ -155,9 +184,22 @@ in-sample threshold selection.
 
 **Every figure that depends on the HOLD threshold** (selectivity accuracy,
 mean net per trade, the graded N, Item C per-arm accuracy) carries this
-qualification. Item E is therefore the load-bearing robustness test: it
-refits thresholds out of sample and is the only check on whether the
-65.3% survives without in-sample selection.
+qualification.
+
+**Item E outcome**: walk-forward threshold refitting degenerates at N=233.
+Two refit objectives were tried (mean net per trade and directional
+accuracy with a minimum trade constraint) and both degenerate — the
+procedure selects extreme thresholds that trade rarely at high mean return
+in training, then trade not at all out of sample. Therefore any
+threshold-dependent figure in this study, including the 65.3% selectivity
+accuracy and the mean net per trade, rests on a selection step that does
+not survive honest replication at this sample size.
+
+The deployed thresholds' performance on 101 genuinely unseen events
+(31 issuers scored after the N=161 sweep) is 33/52 = 63.5% (p=0.063 vs
+floor). This is directionally consistent but not significant at 0.05.
 
 **Rho (finding #1) does not depend on the threshold** and is the only
-headline that is clean of this qualification.
+headline that is clean of this qualification. That rho = 0.236 at
+p = 0.0003 is why it, not the selectivity accuracy, is the study's
+primary result.

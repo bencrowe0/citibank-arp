@@ -1,6 +1,7 @@
 # Item E Handoff — Walk-Forward Validation
 
-Status: **Not started. User go-ahead required before beginning.**
+Status: **Complete.** See `experiments/walkforward_validation.py` and
+`outputs/global/summary/item_e_walkforward.json`.
 
 ## Anchor correction (2026-08-12)
 
@@ -195,31 +196,56 @@ FinBERT narrows the gap to the model (34.5% vs 15.1% for LM) but the model's
 advantage is real (8.4pp, non-overlapping CIs). The model's differentiation
 is structured output and evidence quotes, not raw accuracy dominance.
 
-## Prerequisites for Item E (walk-forward)
+## Item E outcome
 
-All anchor-correction and exclusion-set work above is now complete. Remaining
-prerequisites before Item E can begin:
+### Degeneracy finding
 
-1. **Task 5 (section ablation)** — completed (Item C above). Unblocked.
-2. **Item D (FinBERT baseline)** — independent, can run in parallel with Item E.
-3. **User go-ahead** — Item E is the longest remaining code item (3–4 days per
-   the gap spec). Nothing new starts after 25 August (writing week).
+Walk-forward threshold refitting degenerates at N=233. Two refit
+objectives were tried:
 
-## Design notes from the gap spec (Item E)
+1. **Mean net per trade**: selects extreme thresholds (+0.45/-0.50)
+   producing 5-7 training trades and zero OOS trades in 3 of 4 windows.
+2. **Directional accuracy** (with 15% minimum trade fraction): degenerates
+   in 2 of 4 windows.
 
-- One function taking a training cutoff and test span, fitting HOLD thresholds
-  only (not weights — PSR near zero at this N means weight search is unstable).
-- Rolling: start at ~40% of events by `release_date`, step forward one calendar
-  quarter, refit thresholds on training slice, score next quarter out of sample.
-- Two-window headline: fit on events ≤ 2026-08-10, score events after. Currently
-  empty (all 233 clean events predate the freeze) — path must exist and exit
-  cleanly.
-- Label everything "retrospective validation", never "pre-registered".
-- Per-window log of fitted thresholds, training/test counts, trade counts.
-  Assert loudly if any window's trade count collapses (threshold going degenerate).
-- Report pooled OOS figures with bootstrap intervals alongside in-sample.
-- Entry prices must use `release_date` (not `report_date`) consistent with the
-  anchor correction above.
+Both objectives degenerate. The threshold selection procedure behind the
+deployed 65.3% cannot be executed honestly at this sample size. This
+means any threshold-dependent figure (selectivity accuracy, mean net per
+trade, graded N, Item C per-arm accuracy) rests on a selection step that
+does not survive honest replication.
+
+The blended score itself retains predictive content independent of any
+threshold: rho = 0.236 at p = 0.0003. That is the study's primary result.
+
+### Genuinely unseen events
+
+The deployed thresholds were selected at N=161 (the first 40 issuers).
+31 issuers (101 clean events) were scored after the sweep and were never
+in the sweep's dataset.
+
+| Subset | N clean | Trades | Graded | Accuracy | Mean net |
+|---|---|---|---|---|---|
+| In-sweep (in-sample) | 132 | 76 | 43 | 67.4% (29/43) | +1.012% |
+| Post-sweep (genuinely unseen) | 101 | 70 | 52 | 63.5% (33/52) | +2.785% |
+| Full sample | 233 | 146 | 95 | 65.3% (62/95) | +1.862% |
+
+Post-sweep accuracy vs always-DOWN floor (51.9%): margin +11.5pp,
+p = 0.063 (MDE ±20.8pp). Directionally consistent with the in-sample
+figure but not significant at 0.05. This is the only real out-of-sample
+accuracy number in the study.
+
+### Subset stability (not out-of-sample)
+
+The deployed thresholds applied to the later-dated events (those in the
+OOS windows) produce 41/61 = 67.2%, vs 65.3% on the full sample. This
+shows the fitted thresholds are not concentrated on early events. It is
+subset stability, not evidence of generalisation — all events were in
+the dataset when the thresholds were fitted.
+
+### Two-window headline
+
+Dormant. All 233 events predate the 2026-08-10 freeze. The path exists
+and exits cleanly.
 
 ## Release timing map state (2026-08-12, post correction)
 
