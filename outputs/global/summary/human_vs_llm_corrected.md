@@ -74,7 +74,7 @@ On the 76 events where both arms called BUY or SELL, sign accuracy
 |---|---|---|---|
 | Human | **57.9%** (44/76) | 76 | +14.5pp (**p=0.008**) |
 | LLM | **60.5%** (46/76) | 76 | +17.1pp (**p=0.002**) |
-| LLM − Human | +2.6pp, 90% CI [−7.9, +13.2], p=0.754 | | |
+| LLM − Human | +2.6pp, 90% CI [−7.9, +13.2], p=0.750 | | |
 | Always-BUY baseline | 43.4% (33/76) | 76 | |
 | **Always-DOWN baseline** | **55.3%** (42/76) | 76 | Correct floor for SELL-skewed sample |
 | Paired MDE | ~±23pp | | |

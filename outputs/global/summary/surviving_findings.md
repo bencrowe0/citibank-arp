@@ -167,7 +167,7 @@ directly, not graded outcomes.
 ## 6. Direction-only comparison (human vs model)
 
 **Statistic**: on 76 events where both arms committed, human 57.9%
-(44/76) vs LLM 60.5% (46/76), diff +2.6pp, p=0.754. Neither detectably
+(44/76) vs LLM 60.5% (46/76), diff +2.6pp, p=0.750. Neither detectably
 better. Source: `human_vs_llm_statistics.csv` (all statistics),
 `human_vs_llm_corrected.md` (prose). Computing script:
 `experiments/human_vs_llm_backing.py`.

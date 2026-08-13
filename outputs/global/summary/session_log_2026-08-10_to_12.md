@@ -208,9 +208,14 @@ individual sections (press release only, prepared remarks only, Q&A only).
 on the inclusive paired test (p=0.055, N=119 four-arm events), driven by
 17 events the press release passes on. Strict paired test (both arms
 graded, N=45) is exactly zero — when both arms commit, they always agree.
-Cost per correct call: $0.017 (press release) vs $0.027 (full bundle).
+Accuracy (HOLD-excluded): four-arm N=119 press release 64.9% (24/37
+graded) vs full bundle 68.1% (32/47 graded); all events N=200 press
+release 62.5% (35/56 graded) vs full bundle 65.7% (46/70 graded). Cost
+per correct call: four-arm N=119 $0.0225 (press release) vs $0.0358 (full
+bundle); all events N=200 $0.029 (press release) vs $0.046 (full bundle).
 Prepared remarks agrees with full bundle on 85.7% of signals at ~10k
-tokens.
+tokens. Sources: `section_ablation_cost_per_correct.csv`,
+`section_ablation_paired_diffs.csv`.
 
 **Output files**: `section_ablation_results.csv`,
 `section_ablation_summary.csv`, `section_ablation_paired_diffs.csv`,
@@ -622,11 +627,14 @@ Source: `item_e_walkforward.json`, `surviving_findings.md`.
 
 ### Finding 4: Section ablation token ratio
 
-Press release at ~13k tokens achieves 63.3% accuracy (HOLD-excluded, own
-graded set) vs full bundle at ~30k tokens at 67.7%. Full bundle wins
-6.8pp on the inclusive paired test (p=0.055, N=119 four-arm events).
+Press release at ~13k tokens achieves 62.5% accuracy on all_n200 set
+(35/56 graded) or 64.9% on four-arm subset (24/37 graded). Full bundle
+achieves 65.7% (46/70, all_n200) or 68.1% (32/47, four-arm). Full bundle
+wins 6.8pp on the inclusive paired test (p=0.055, N=119 four-arm events).
 Prepared remarks agrees with full bundle on 85.7% of signals at ~10k
-tokens. Cost per correct call: $0.017 (PR) vs $0.027 (full bundle).
+tokens. Cost per correct call: four-arm $0.0225 (PR) vs $0.0358 (full);
+all_n200 $0.029 (PR) vs $0.046 (full). Sources:
+`section_ablation_cost_per_correct.csv`.
 
 Accuracy figures are threshold-dependent (same Item E qualification). Token
 ratio and cost per correct call are not.
@@ -648,7 +656,7 @@ Source: `kappa_near_independence.csv`.
 ### Finding 6: Direction-only comparison
 
 On 76 events where both arms committed: human 57.9% (44/76), LLM 60.5%
-(46/76), diff +2.6pp, p=0.754. Against always-DOWN floor 55.3% (42/76):
+(46/76), diff +2.6pp, p=0.750. Against always-DOWN floor 55.3% (42/76):
 human +2.6pp (p=0.366), LLM +5.3pp (p=0.210). Neither arm beats the
 majority-direction floor.
 
