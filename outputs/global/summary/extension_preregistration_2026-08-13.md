@@ -97,7 +97,7 @@ thresholds out of sample.
 
 ---
 
-## Amendment — 2026-08-13 (written after 7-event pilot, before further gathering)
+## Amendment A — 2026-08-13 (written after 7-event pilot, before further gathering)
 
 **Pilot status when this amendment was written**: the 7-event pilot (Colgate-Palmolive 4 events,
 Costco 3 events) had already been scored. Its outcome was 1 graded event (|ret|>2%), 0 traded
@@ -168,3 +168,63 @@ meaningful four-arm comparison.
 This is recorded as a pre-stated structural limitation of the extension's Item C, not a finding
 to be reported after the fact. If fewer than 20 four-arm events are achievable, Item C will be
 reported as infeasible for the extension and omitted from the extension-only results block.
+
+---
+
+## Amendment B — 2026-08-13 (written before gathering begins, after yield analysis)
+
+**Context**: a yield analysis of the 93 candidate events was completed using the human arm's
+realised returns in the workbook, before any document beyond the 7-event pilot was gathered or
+scored. This amendment records the yield findings and the decisions taken in response.
+
+### Yield analysis results (pre-gathering)
+
+40 of 93 extension events breach the ±2% overnight band (43% yield), against 63.1% for the
+frozen N=233. The low yield is concentrated:
+
+- **Five companies account for 42 events and 2 graded events**: Duke Energy (13 events, 1
+  graded, 8%), ExxonMobil (13 events, 1 graded, 8%), Costco (4 events, 0 graded, 0%), Chevron
+  (4 events, 0 graded, 0%), Shell (4 events, 0 graded, 0%).
+- If these five are excluded, the remaining 51 events yield 38/51 = 75%, comparable to the
+  frozen set.
+- High-yield companies (Datadog, eBay, Intel, Hermes, Shopify, Sony, Adobe, Home Depot,
+  Freeport-McMoRan) yield 26–38 graded events from 33–51 events.
+
+### Decision: gather all 93 events
+
+All 93 events are gathered, for the following reasons, recorded before gathering begins:
+
+1. **Coverage parity**: the extension's purpose is to give every human reading a model
+   counterpart so the paired comparison uses the full human arm. Dropping low-yield companies
+   on the basis of their returns would amend the selection rule after the yield analysis was
+   known, which would be post hoc.
+2. **Contributions beyond graded accuracy**: the 42 low-yield events still contribute to
+   coverage accuracy (what the model calls when the stock barely moves), the decision-mix
+   distribution (BUY/HOLD/SELL proportions), confusion matrices, and sector breakdowns. These
+   are analytically meaningful even when the graded count is small.
+3. **The original selection rule stands unamended**: all companies where the human arm has
+   readings and the model arm has none. No company is excluded.
+
+### Document standard
+
+The gathering standard is: **press release plus transcript wherever a transcript can be
+sourced**, matching the frozen corpus where 232 of 268 events carry a transcript. This ensures
+that any accuracy difference between the frozen set and the extension isolates the sector
+dimension rather than confounding it with document coverage. Presentations are gathered as a
+third priority where available from the company's IR page.
+
+### Items extended
+
+Items A through E all extend to the full 93-event set. This is decided now, before any
+extension event beyond the 7-event pilot is scored, so no item can be added or dropped on the
+basis of what the results show. Item C runs on whichever events yield four separable document
+arms under the same boundary rules as the frozen set; the frozen Item C result at N=119 remains
+primary regardless of the extension count.
+
+### Prior expectation (restated for this amendment)
+
+Extension accuracy is expected to be **below the frozen 65.3% (62/95)**, because the deployed
+HOLD thresholds (+0.25/-0.05) were fitted on the frozen set while the extension events are
+genuinely unseen by that selection. This is stated before gathering begins and before any
+extension result beyond the 7-event pilot (1 graded, 0 traded, no accuracy computable) is
+known.

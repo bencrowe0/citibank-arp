@@ -48,6 +48,28 @@
           "source_pdf": "docs/costco/CY2026-Q2/press_release.htm"
         }
       ]
+    },
+    {
+      "document_id": "COST_FQ3_2026",
+      "issuer": "p2_costco",
+      "company": "Costco",
+      "ticker": "COST",
+      "sector": "Consumer Defensive/Discount Stores",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "PENDING",
+      "release_date": "PENDING \u2014 source from EDGAR 8-K Item 2.02 for COST CIK 909832",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 909832 \u2014 search for filing ~Jun 2026 (Costco FQ3 FY2026 covers Mar-May 2026, reported ~late May or early Jun 2026)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/costco/CY2026-Q3/COST_Q3_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/costco/CY2026-Q3/COST_Q3_2026_Transcript.htm"
+        }
+      ]
     }
   ],
   "release_timing": {

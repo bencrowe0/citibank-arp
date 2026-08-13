@@ -1,0 +1,94 @@
+{
+  "issuer": "p2_hermes",
+  "reports": [
+    {
+      "document_id": "RMSP.XC_FQ1_2025",
+      "issuer": "p2_hermes",
+      "company": "Hermes",
+      "ticker": "RMSP.XC",
+      "sector": "Consumer Cyclical/Luxury Goods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-02-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Hermes full-year 2024 results, source from Euronext Paris / Hermes IR (~Feb 2025). URL: https://finance.hermes.com/en/Regulated-information/Press-releases",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hermes/CY2025-Q1/RMSP.XC_Q1_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hermes/CY2025-Q1/RMSP.XC_Q1_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "RMSP.XC_FQ2_2025",
+      "issuer": "p2_hermes",
+      "company": "Hermes",
+      "ticker": "RMSP.XC",
+      "sector": "Consumer Cyclical/Luxury Goods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Hermes H1 2025 results, source from Euronext Paris / Hermes IR (~Jul 2025)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "RMSP.XC_FQ3_2025",
+      "issuer": "p2_hermes",
+      "company": "Hermes",
+      "ticker": "RMSP.XC",
+      "sector": "Consumer Cyclical/Luxury Goods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Hermes Q3 2025 revenue update or nine-month sales, source from Euronext Paris (~Oct 2025). Hermes publishes quarterly revenue figures",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Press_Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "RMSP.XC_FQ4_2025",
+      "issuer": "p2_hermes",
+      "company": "Hermes",
+      "ticker": "RMSP.XC",
+      "sector": "Consumer Cyclical/Luxury Goods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Hermes full-year 2025 results or Q4 revenue, source from Euronext Paris / Hermes IR (~Feb 2026)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "unknown",
+    "source": "Non-US issuer \u2014 release timing must be sourced from home-exchange regulatory filing or IR announcement; EDGAR 8-K does not apply",
+    "retrieval_date": "2026-08-13"
+  }
+}

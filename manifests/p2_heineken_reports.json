@@ -1,0 +1,90 @@
+{
+  "issuer": "p2_heineken",
+  "reports": [
+    {
+      "document_id": "HEINY_FQ1_2024",
+      "issuer": "p2_heineken",
+      "company": "Heineken",
+      "ticker": "HEINY",
+      "sector": "Consumer Defensive/Beverages",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2024",
+      "report_date": "2024-03-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: source from Heineken IR / Euronext Amsterdam announcement for H1 or interim results reported in ~early 2024. Expected: full-year 2023 results (published ~Feb 2024). Check Heineken IR at https://www.theheinekencompany.com/investors/results-reports-and-presentations",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/heineken/CY2024-Q1/HEINY_Q1_2024_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/heineken/CY2024-Q1/HEINY_Q1_2024_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HEINY_FQ2_2024",
+      "issuer": "p2_heineken",
+      "company": "Heineken",
+      "ticker": "HEINY",
+      "sector": "Consumer Defensive/Beverages",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2024",
+      "report_date": "2024-07-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: source from Heineken IR / Euronext Amsterdam announcement for H1 2024 results (published ~Jul 2024)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/heineken/CY2024-Q2/HEINY_Q2_2024_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/heineken/CY2024-Q2/HEINY_Q2_2024_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HEINY_FQ3_2024",
+      "issuer": "p2_heineken",
+      "company": "Heineken",
+      "ticker": "HEINY",
+      "sector": "Consumer Defensive/Beverages",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2024",
+      "report_date": "2024-10-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: source from Heineken IR for any Q3 trading update / interim announcement (~Oct 2024). Note: Heineken may not publish a full Q3 earnings report \u2014 verify whether this event has a dated public announcement",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/heineken/CY2024-Q3/HEINY_Q3_2024_Press_Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HEINY_FQ3_2025",
+      "issuer": "p2_heineken",
+      "company": "Heineken",
+      "ticker": "HEINY",
+      "sector": "Consumer Defensive/Beverages",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: source from Heineken IR for Q3 2025 trading update or interim results (~Oct 2025)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/heineken/CY2025-Q3/HEINY_Q3_2025_Press_Release.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "unknown",
+    "source": "Non-US issuer \u2014 release timing must be sourced from home-exchange regulatory filing or IR announcement; EDGAR 8-K does not apply",
+    "retrieval_date": "2026-08-13"
+  }
+}
