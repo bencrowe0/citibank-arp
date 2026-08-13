@@ -53,7 +53,7 @@ refitting degenerates at this N.**
 **Cross-issuer generalisation** (finding #3): 101 events from 29 issuers
 scored after the N=161 threshold sweep, zero issuer overlap with the 40
 in-sweep issuers. Under the deployed thresholds: 33/52 graded correct =
-63.5%, vs always-DOWN floor 51.9%, margin +11.5pp, p=0.063 (MDE ±20.8pp).
+63.5%, vs always-DOWN floor 51.9% (27/52), margin +11.5pp, p=0.063 (MDE ±20.8pp).
 This tests issuer transfer, not temporal generalisation (both subsets span
 overlapping dates). Reconstructed subset — see finding #3 for the full
 qualification.
@@ -150,7 +150,8 @@ paired events. Recomputed 2026-08-13 on the N=233 clean universe
 decision from `blend_predicted_signal_default`). The human and LLM arms
 are close to independent — their directional calls share barely more
 structure than two independent classifiers with their marginals (human
-BUY 56.1%, LLM BUY 24.6%). Observed agreement 38.0%, expected 30.4%.
+BUY 56.1% (96/171), LLM BUY 24.6% (42/171)). Observed agreement 38.0%
+(65/171), expected 30.4% (52/171).
 
 **Backing**: `kappa_near_independence.csv` (3x3 confusion matrix, both
 arms' marginals, observed/expected agreement, kappa, bootstrap CI, subset
@@ -229,8 +230,9 @@ walk-forward qualification as finding #2.
 ## 9. Dev/eval split (subset stability, not a result)
 
 **Statistic**: eval accuracy 68.0% (51/75) clears its always-DOWN floor
-of 54.6% by +13.4pp (p=0.013, MDE=±14.4pp). Dev accuracy 55.0% (11/20)
-does not clear its own floor of 53.6% (+1.4pp, MDE=±27.8pp — underpowered
+of 54.6% (65/119) by +13.4pp (p=0.013, MDE=±14.4pp). Dev accuracy
+55.0% (11/20) does not clear its own floor of 53.6% (+1.4pp,
+MDE=±27.8pp — underpowered
 to detect any plausible effect). The finding is that the model clears the
 floor on later events and cannot be shown to do so on earlier ones, not a
 clean comparison between two halves. Split rule: sort 233 clean events by

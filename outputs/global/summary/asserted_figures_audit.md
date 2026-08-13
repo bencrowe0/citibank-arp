@@ -10,7 +10,7 @@ Sources checked: `CLAUDE.md`, `Model_Arm_Gap_Spec.md`, all `.md` files in
 
 | Category | Count | Notes |
 |---|---|---|
-| Unreproducible (no backing script or output file) | 1 | 0.561/0.429 only; the other 6 resolved or superseded below |
+| Unreproducible (no backing script or output file) | 2 | 0.561/0.429; 113bps spec breakeven |
 | Superseded (withdrawn, replaced by a citable figure) | 3 | 0.4656, 0.466/0.443, rho=0.221 |
 | Resolved (recomputed and saved to CSV, 2026-08-13) | 2 | kappa 0.109, rho 0.1108 |
 | Console-only (will be saved on next script run) | 1 | ext4 bootstrap +0.10pp |
@@ -27,6 +27,7 @@ These appear as assertions in documentation but cannot be regenerated from any c
 | Figure | Claimed in | Status |
 |---|---|---|
 | **0.561 / 0.429** — agreement-conditional LLM accuracy (agree vs disagree) | `Model_Arm_Gap_Spec.md` ("already computed") | No script, CSV, or JSON produces these values. `git log -S` finds them only as prose. Superseded by `agreement_filter_corrected.csv` (69.0% / 69.2% on corrected anchor). |
+| **113 bps** — breakeven round-trip transaction cost | `Model_Arm_Gap_Spec.md` ("already computed", ~113bps) | **UNBACKED ASSERTION.** Cannot be reproduced from any artifact in this repository. `experiments/execution_cost_grid.py` bisects on `compounded_total_return_pct` (retired, order-dependent metric) and yields 162.81bps on the OLD report_date anchor, N=268 — a different anchor and a different price set. On the CORRECTED release_date anchor (2026-08-12), using returns_matrix.csv ret_overnight as the price source (same source as ext2_holding_curve.csv): N=268 compounded-breakeven 186.12bps, mean-net-breakeven 207.34bps [PRIMARY]; N=233 compounded-breakeven 175.33bps, mean-net-breakeven **196.17bps** [PRIMARY]. Arithmetic check: N=233 mean_net@10bps=+1.8617% (matches ext2_holding_curve.csv exactly) → mean_gross=1.9617% → breakeven=196.17bps ✓. Source: `ext9_cost_grid_n233.json` (2026-08-13). No externally-cited realistic desk cost exists in this repo. Dr Rock or any comparable external estimate is NOT committed here. Any claim that the breakeven exceeds realistic trading costs must be attributed to an external source supplied by the user or dropped. |
 | **0.4656** — "global_best accuracy" in `weight_threshold_sweep.json` | `CLAUDE.md` Current State | **SUPERSEDED (2026-08-09)**: `weight_threshold_sweep.json` stores a different sweep structure. The citable deployed-default accuracy is 36.2% (N=268 5-day) or 65.3% (N=233 overnight graded). This figure is withdrawn, not pending action. |
 | **0.466 / 0.443** — macro "before/after" accuracy pair | `CLAUDE.md` Architecture > Blend | **SUPERSEDED (2026-08-10)**: CLAUDE.md itself flagged this as unverifiable. Replaced by `macro_weight_axis_sweep.csv` (0.3731 off, 0.3619 on). This figure is withdrawn, not pending action. |
 | **rho = 0.221** — Spearman score-return correlation before anchor correction | `ext2_holding_curve.csv` header comment | **SUPERSEDED (2026-08-12)** by rho = 0.236 (p = 0.0003) in the corrected `ext2_holding_curve.csv`. Pre-correction value, no longer citable. |
@@ -82,7 +83,7 @@ Computed on a superseded anchor, superseded exclusion set, or a different N. All
 - Macro ablation: off 0.3731, on 0.3619, diff −1.12pp, CI [−5.60%, +3.36%], p = 0.739 (`macro_ablation_summary.json`); best macro=0.35 → 0.3881 (`macro_weight_axis_sweep.csv`)
 - 30/30 recall probe refusals (`recall_probe_log.csv`)
 - Quote screen: 272 evidence items, 267 passed to handover, 5 absent; 4 Comcast table quotes + 1 PUM.DE_FQ1_2025 fabrication (`quote_verification_full.csv`)
-- Breakeven cost: 162.81bps (`ext9_cost_grid_summary.json`); worst-cell return +386.75% at 70bps total cost (`ext9_cost_grid.csv`)
+- Breakeven cost 162.81bps (`ext9_cost_grid_summary.json`): SUPERSEDED — computed on OLD report_date anchor, N=268, retired compounded metric. Corrected figures (`ext9_cost_grid_n233.json`, corrected release_date anchor, returns_matrix.csv price source, 2026-08-13): N=268 compounded-breakeven 186.12bps, mean-net-breakeven 207.34bps; N=233 compounded-breakeven 175.33bps, mean-net-breakeven **196.17bps** [PRIMARY]. Arithmetic: N=233 mean_gross=1.9617% × 10000 = 196.17bps. Worst-cell return +386.75% at 70bps total cost (`ext9_cost_grid.csv`, old anchor, directionally informative).
 - BUY-truth recall 36.1% (n=72) vs SELL-truth 32.5% (n=77), gap +3.6pp, p = 0.640 (`asymmetry_recall_gap_test.csv`)
 
 ### Holding-period decay curve (from `ext2_holding_curve.csv`, N = 233 clean events)
