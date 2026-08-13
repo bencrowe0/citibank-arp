@@ -112,10 +112,10 @@ written directly into columns M, N, O, and P so that all downstream formulas
 
 ### Coverage
 
-Of 420 Human_Data_Entry rows, **294 were corrected** (column AN = "Price Basis
-Corrected" = YES). The remaining **126 rows were left on the original basis**
+Of 420 Human_Data_Entry rows, **295 were corrected** (column BS = "Price Basis
+Corrected" = YES). The remaining **125 rows were left on the original basis**
 because no verified release date was available for those events. Each uncorrected
-row carries the reason in column AO. The 294 corrected rows and the 126
+row carries the reason in column BT. The 295 corrected rows and the 125
 uncorrected rows are mutually exclusive; the corrected subset is the one to
 use for any quantitative human-arm result.
 
@@ -175,7 +175,7 @@ price-signal basis (Problem 2 above), not a documented-time basis.
 
 The JPMorgan error (11-day gap, fiscal quarter-end used as the entry date) is
 the most consequential: the fiscal quarter ends on 31 March but JPMorgan
-reported Q1 2025 on 11 April 2025. None of these rows are in the 294-row
+reported Q1 2025 on 11 April 2025. None of these rows are in the 295-row
 corrected subset (all have Price Basis Corrected ≠ YES), so they do not affect
 any corrected-subset figures. They are flagged here because they represent
 errors that were recorded in the re-pricing block but, since no formula read
@@ -199,8 +199,8 @@ before-state can be audited.
 ### Master_Data_CORRECTED_2026-08-13.xlsx
 
 Holds **both arms on verified release dates**. The LLM arm uses the corrected
-EDGAR release_date anchor throughout (all 268 events). The human arm has 294
-of 420 rows corrected (Price Basis Corrected = YES), with 126 rows flagged as
+EDGAR release_date anchor throughout (all 268 events). The human arm has 295
+of 420 rows corrected (Price Basis Corrected = YES), with 125 rows flagged as
 uncorrected.
 
 **Cross-arm consistency check**: of 289 events present in both sheets with
@@ -208,7 +208,7 @@ Price Basis Corrected = YES, **all 289 agree exactly** on both dates and both
 prices (prior-close date, prior-close price, opening date, opening price), to
 within one cent rounding tolerance. This was not true before the correction.
 The human-vs-model comparison is defensible on those 289 events and not
-defensible on the 126 uncorrected rows, which remain on the original
+defensible on the 125 uncorrected rows, which remain on the original
 report_date basis.
 
 ---
@@ -289,8 +289,8 @@ because no verified EDGAR release date was sourced. These split into:
   No SEC filing exists; the home-exchange announcement date would need to be
   sourced from each exchange individually.
 
-**Human-arm figures must be reported on the corrected 294-row subset, with the
-full 420-row figure alongside and clearly labelled.** The 126 uncorrected rows
+**Human-arm figures must be reported on the corrected 295-row subset, with the
+full 420-row figure alongside and clearly labelled.** The 125 uncorrected rows
 are knowingly on the original basis; treating them as equivalent to the
 corrected rows would reintroduce the systematic timing error described in (b).
 
@@ -335,9 +335,9 @@ attributed to an external source supplied explicitly, or dropped.
 | LLM_Data_Entry | KHC row 202 corrected: K(closing_date)→2026-02-09, L(prior_close)→24.9, M(opening_date)→2026-02-10, N(next_day_open)→23.80, P(actual_pct)→−4.4177, Q(direction)→DOWN, R(prediction_correct)→YES, T(net_pnl)→0.043177 | Row 202 |
 | LLM_Data_Entry | Column BA (In Clean Universe): 233 YES, 35 NO, written as literals | Rows 3–270 (268 data rows) |
 | LLM_Data_Entry | Column BB (Exclusion Reason): populated for 35 excluded rows; blank for 233 clean | Rows 3–270 |
-| Human_Data_Entry | Column M (Prior Closing Date), N (Prior Close $), O (Next Opening Date), P (Next Day Open $) corrected to verified release-date-anchored values | 294 rows (Price Basis Corrected = YES) |
-| Human_Data_Entry | Column AN (Price Basis Corrected): YES or NO for all 420 rows | All data rows |
-| Human_Data_Entry | Column AO (Not Corrected Reason): populated for 126 uncorrected rows | 126 rows |
+| Human_Data_Entry | Column M (Prior Closing Date), N (Prior Close $), O (Next Opening Date), P (Next Day Open $) corrected to verified release-date-anchored values | 295 rows (Price Basis Corrected = YES) |
+| Human_Data_Entry | Column BS (Price Basis Corrected): YES or NO for all 420 rows | All data rows |
+| Human_Data_Entry | Column BT (Not Corrected Reason): populated for 125 uncorrected rows | 125 rows |
 | Human_Data_Entry | KHC row 193 (Meriem, 2025 Q4): M→2026-02-09, N→24.9, O→2026-02-10, P→23.80, Q→−4.4177%, R→DOWN, AN→YES | Row 193 |
 | Accuracy_Conventions | Chart floor note added at row 30 | Row 30 |
 | Accuracy_Conventions | N=233 static section added (rows 78–89): coverage 62/147 = 42.2%, selectivity 62/95 = 65.3% | Rows 78–89 |
