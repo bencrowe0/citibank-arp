@@ -120,12 +120,17 @@ Report as directionally consistent, not confirmed.
 
 ## 4. Item C: section ablation token ratio
 
-**Statistic**: press release at ~13k tokens achieves 63.3% accuracy
-(HOLD-excluded, on its own graded set) vs full bundle at ~30k tokens at
-67.7%. Cost per correct call: $0.017 (PR) vs $0.027 (full). Full bundle
-wins 6.8pp on the inclusive paired test (p=0.055), driven by 17 events
-the PR passes on. Prepared remarks agrees with full bundle on 85.7% of
-signals at ~10k tokens.
+**Statistic**: press release at ~13k tokens achieves 62.5% accuracy
+(35/56 graded, HOLD-excluded, on its own graded set, N=200) vs full
+bundle at ~30k tokens at 65.7% (46/70 graded). Cost per correct call:
+$0.029 (PR) vs $0.046 (full). On the four-arm subset (N=119, all arms
+scored), per-arm accuracy is 64.9% (PR, 24/37) vs 68.1% (full, 32/47),
+cost $0.0225 vs $0.0358. Full bundle wins 6.8pp on the inclusive paired
+test (p=0.055, n=66 four-arm events), driven by 17 events the PR passes
+on. Prepared remarks agrees with full bundle on 85.7% of signals at ~10k
+tokens. Source: `section_ablation_cost_per_correct.csv` (per-arm
+accuracy and cost), `section_ablation_paired_diffs.csv` (paired test),
+`section_ablation_results.csv` (per-call tokens and costs).
 
 **Threshold-dependent?** The accuracy figures are threshold-dependent
 (same qualification as #2, including the Item E walk-forward outcome:
@@ -163,9 +168,9 @@ directly, not graded outcomes.
 
 **Statistic**: on 76 events where both arms committed, human 57.9%
 (44/76) vs LLM 60.5% (46/76), diff +2.6pp, p=0.754. Neither detectably
-better. Source: `human_vs_llm_corrected.md` (derived from
-`data/human/human_decisions_export_2026-08-12.csv` +
-`global_outcome_calibration_phase2.csv`; no dedicated backing CSV).
+better. Source: `human_vs_llm_statistics.csv` (all statistics),
+`human_vs_llm_corrected.md` (prose). Computing script:
+`experiments/human_vs_llm_backing.py`.
 
 **Against the majority-direction floor**: always-DOWN = 55.3% (42/76).
 Human +2.6pp (p=0.366), LLM +5.3pp (p=0.210). **Neither arm beats the
@@ -175,11 +180,10 @@ majority-direction floor by a testable margin.** The null stands.
 
 ## 7. SELL-versus-BUY asymmetry (a finding in its own right)
 
-Source: `direction_accuracy_decomposition.md`, `human_vs_llm_corrected.md`.
-No dedicated backing CSV — figures derived from
-`data/human/human_decisions_export_2026-08-12.csv` +
-`global_outcome_calibration_phase2.csv` + `returns_matrix.csv`.
-P-values are binomial tests vs 50%.
+Source: `human_vs_llm_direction_decomposition.csv` (per-direction table),
+`human_vs_llm_statistics.csv` (all statistics).
+Computing script: `experiments/human_vs_llm_backing.py`.
+P-values are one-sided binomial tests (alternative=greater).
 
 Both arms show skill on SELL calls and neither shows skill on BUY calls:
 
@@ -224,17 +228,20 @@ walk-forward qualification as finding #2.
 
 ## 9. Dev/eval split (subset stability, not a result)
 
-**Statistic**: dev accuracy 55.0% (11/20), eval 68.0% (51/75). The model
-performs better on later events — opposite of overfitting. Eval margin
-+13.4pp vs floor 54.6% (p=0.013). Dev too small (MDE=±23pp).
-Split rule: sort 233 clean events by release_date (returns_matrix.csv),
-earliest 20% (47 events) = dev, remaining 80% (186 events) = eval.
-Source: `frontier_table.csv` (eval graded N=119, of which 75 traded+graded).
+**Statistic**: eval accuracy 68.0% (51/75) clears its always-DOWN floor
+of 54.6% by +13.4pp (p=0.013, MDE=±14.4pp). Dev accuracy 55.0% (11/20)
+does not clear its own floor of 53.6% (+1.4pp, MDE=±27.8pp — underpowered
+to detect any plausible effect). The finding is that the model clears the
+floor on later events and cannot be shown to do so on earlier ones, not a
+clean comparison between two halves. Split rule: sort 233 clean events by
+release_date (`returns_matrix.csv`), earliest 20% (47 events) = dev,
+remaining 80% (186 events) = eval. Source: `frontier_table.csv` (eval
+graded N=119, of which 75 traded+graded).
 
-**Not a result**: the difference is not significant (p=0.229).
+**Not a result**: the dev-eval difference is not significant.
 
 **Not out-of-sample**: the dev/eval split was applied post hoc to data
-the deployed thresholds were already fitted on. The eval split's 68.4%
+the deployed thresholds were already fitted on. The eval split's 68.0%
 is an in-sample figure computed on a subset of the same events the
 threshold sweep saw. It shows subset stability (the fitted thresholds
 are not concentrated on early events), not generalisation. Finding #3
@@ -285,7 +292,7 @@ accuracy, mean net per trade, graded N, Item C per-arm accuracy — rests
 on a selection step that does not survive honest replication.
 
 The deployed thresholds' performance on 101 genuinely unseen events
-(31 issuers scored after the N=161 sweep, reconstructed cross-issuer
+(29 issuers scored after the N=161 sweep, reconstructed cross-issuer
 generalisation subset — see finding #3) is 33/52 = 63.5% (p=0.063 vs floor). Directionally
 consistent but not significant at 0.05.
 

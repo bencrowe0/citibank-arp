@@ -70,9 +70,9 @@ Full bundle marginally outperforms press-release-only on signal accuracy
 (6.8 pp gap, p = 0.055 — not significant at 0.05 but directionally consistent).
 Full bundle costs approximately 2.3× the tokens of press-release-only.
 
-Cost-efficiency framing:
-- Press release only: **$0.017 per correct prediction**
-- Full bundle: **$0.027 per correct prediction**
+Cost-efficiency framing (all-events, N=200; source: `section_ablation_cost_per_correct.csv`):
+- Press release only: **$0.029 per correct prediction** (35/56 graded = 62.5%)
+- Full bundle: **$0.046 per correct prediction** (46/70 graded = 65.7%)
 
 Prepared remarks agrees with the full bundle on **85.7%** of signals — the
 marginal contribution of adding the transcript/Q&A is small. Report as a
@@ -191,7 +191,7 @@ corrected returns_matrix.
 ## Item D (FinBERT baseline) — complete
 
 Frontier on eval split (186 events, 119 graded FLAT-excluded, overnight ±2%):
-- Majority-direction (always-SELL): 54.6% (65/119)
+- Majority-direction (always-DOWN): 54.6% (65/119)
 - Deployed model: 42.9% (51/119, FLAT-excluded)
 - FinBERT: 34.5% (41/119)
 - Loughran-McDonald: 15.1% (18/119)

@@ -17,7 +17,8 @@
 # when both arms commit, they commit identically. The difference lives in
 # whether an arm commits at all.
 # Deployment trade-off: 6.8pp for 2.3x the tokens. Cost per correct call
-# $0.027 (full bundle) vs $0.017 (press release only).
+# $0.046 (full bundle) vs $0.029 (press release only) on all-events N=200;
+# $0.036 vs $0.023 on four-arm N=119. Source: section_ablation_cost_per_correct.csv.
 # Prepared_remarks is arguably the better deployment arm: cheapest at
 # ~10,287 tokens, 4.0pp behind on the inclusive test, and agreeing with
 # the full bundle on 85.7% of signals.

@@ -6,8 +6,12 @@ Date: 2026-08-12
 
 Source: `data/human/human_decisions_export_2026-08-12.csv`
 Filters: `section == "All"`, `first_rater_for_event == YES`,
-`in_llm_universe == YES`, 39-event exclusion set applied.
+`in_llm_universe == YES`, 35-event exclusion set applied.
 N = 171 paired events.
+
+Backing CSVs: `human_vs_llm_statistics.csv` (all statistics),
+`human_vs_llm_direction_decomposition.csv` (per-direction table).
+Computing script: `experiments/human_vs_llm_backing.py`.
 
 Grading: pre-registered ±2% raw overnight band on `returns_matrix.csv`
 (release_date anchor). Accuracy = correct-direction rate among events
@@ -88,9 +92,12 @@ substantially larger sample rather than a different method.
 
 ### Outcome distribution
 
-The 76 events have 33 positive returns and 42 negative (43.4% / 55.3%).
-The sample is SELL-skewed, which penalises the optimistic human arm rather
-than flattering it. The human arm's 57.9% is achieved against headwinds.
+The 76 events have 33 positive returns, 42 negative, and 1 zero
+(PUM.DE_FQ4_2025). Always-BUY = 43.4% (33/76); always-DOWN = 55.3%
+(42/76 strict negative) or 56.6% (43/76 including zero). The floor
+p-values above use the strict 55.3%; the per-direction base rate in
+finding #7 uses 56.6%. The sample is SELL-skewed, which penalises the
+optimistic human arm rather than flattering it.
 
 ### Accuracy by call direction
 

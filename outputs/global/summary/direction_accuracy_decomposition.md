@@ -2,6 +2,10 @@
 
 Date: 2026-08-13 (corrected 2026-08-13: tautology identified and restated)
 
+Backing CSVs: `human_vs_llm_direction_decomposition.csv`,
+`human_vs_llm_statistics.csv`. Computing script:
+`experiments/human_vs_llm_backing.py`.
+
 ## Corrected finding
 
 The earlier claim that "per-direction accuracy exactly equals the base rate
@@ -80,7 +84,7 @@ effect would have been undetectable at this sample size.
 | N | 47 | 186 |
 | Traded+graded | 20 | 75 |
 | Accuracy | 55.0% (11/20) | 68.0% (51/75) |
-| Floor (always-SELL) | 53.6% | 54.6% |
+| Floor (always-DOWN) | 53.6% | 54.6% |
 | Margin | +1.4pp | +13.4pp (p=0.013) |
 
 Split rule: sort 233 clean events by release_date (returns_matrix.csv),

@@ -230,7 +230,7 @@ overnight ±2% band):
 
 | Model | Accuracy (FLAT-excluded, 119 graded) |
 |---|---|
-| Majority-direction (always-SELL) | 54.6% (65/119) |
+| Majority-direction (always-DOWN) | 54.6% (65/119) |
 | Deployed model | 42.9% (51/119) |
 | FinBERT | 34.5% (41/119) |
 | Loughran-McDonald | 15.1% (18/119) |
@@ -281,8 +281,9 @@ procedure behind the deployed 65.3% cannot be executed honestly at this
 sample size.
 
 **Finding — cross-issuer generalisation** (reconstructed): 101 clean
-events from 31 issuers scored after the N=161 threshold sweep, zero
-issuer overlap with the 40 in-sweep issuers. Under deployed thresholds:
+events from 29 issuers scored after the N=161 threshold sweep (2 further
+post-sweep issuers — Allianz and Lenovo — are fully timing-excluded),
+zero issuer overlap with the 40 in-sweep issuers. Under deployed thresholds:
 33/52 graded correct = 63.5%, vs always-DOWN floor 51.9%, margin +11.5pp,
 p=0.063, MDE ±20.8pp. This is a cross-issuer test (both subsets span
 overlapping date ranges: in-sweep 2023-04-25 to 2026-07-14, post-sweep
@@ -605,8 +606,9 @@ Source: `surviving_findings.md`, `item_e_walkforward.json`.
 
 ### Finding 3: Cross-issuer generalisation (reconstructed)
 
-Thresholds fitted on 40 issuers (132 clean events) transfer to 31 unseen
-issuers (101 clean events): 33/52 graded correct = 63.5%, vs always-DOWN
+Thresholds fitted on 40 issuers (132 clean events) transfer to 29 unseen
+issuers (101 clean events; 2 further post-sweep issuers — Allianz and
+Lenovo — are fully timing-excluded): 33/52 graded correct = 63.5%, vs always-DOWN
 floor 51.9% (27/52), margin +11.5pp, p=0.063, MDE ±20.8pp. Mean net per
 trade +2.785%.
 

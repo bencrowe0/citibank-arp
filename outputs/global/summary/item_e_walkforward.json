@@ -263,7 +263,7 @@
     "full_sample_accuracy": 0.6526
   },
   "genuinely_unseen": {
-    "note": "Cross-issuer generalisation test: 31 issuers scored after the N=161 threshold sweep, zero issuer overlap with the 40 in-sweep issuers. Both subsets span overlapping date ranges (interleaved, not sequential) \u2014 this tests issuer transfer, not temporal generalisation. RECONSTRUCTED: sweep membership inferred from issuer ordering and count match (n_documents=161), not from a recorded event list. 453 single-swap alternatives also produce 161.",
+    "note": "Cross-issuer generalisation test: 29 issuers (with clean events in N=233) scored after the N=161 threshold sweep, zero issuer overlap with the 40 in-sweep issuers. 2 further post-sweep issuers (Allianz, Lenovo) are fully timing-excluded. Both subsets span overlapping date ranges (interleaved, not sequential) \u2014 this tests issuer transfer, not temporal generalisation. RECONSTRUCTED: sweep membership inferred from issuer ordering and count match (n_documents=161), not from a recorded event list. 453 single-swap alternatives also produce 161.",
     "n_issuers_in_sweep": 40,
     "n_issuers_post_sweep": 29,
     "n_events_in_sweep": 132,
