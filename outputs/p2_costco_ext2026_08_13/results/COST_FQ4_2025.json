@@ -1,0 +1,182 @@
+{
+  "document_id": "COST_FQ4_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports strong fourth-quarter and fiscal year results with net sales up 8.0% and 8.1% respectively, and diluted EPS up from $5.29 to $5.87 for the quarter. However, there is no explicit forward guidance provided in the press release; the only forward-looking statements are standard risk disclosures. The results are backward-looking and the document does not indicate any change in management's own prior guidance, so the score is modestly positive but not strongly so."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales for the quarter increased 8.0% to $84.4 billion from $78.2 billion last year. Net sales for the fiscal year increased 8.1% to $269.9 billion from $249.6 billion last year.",
+    "eps": "Fourth quarter diluted EPS was $5.87, compared to $5.29 last year. Fiscal year diluted EPS was $18.21, compared to $16.56 last year.",
+    "guidance": "Not disclosed. The document contains only standard forward-looking statements about risks and uncertainties, with no specific revenue or earnings guidance.",
+    "margin": "Operating income for the quarter was $3,341 million versus $3,042 million last year; for the fiscal year, $10,383 million versus $9,285 million. Net income for the quarter was $2,610 million versus $2,354 million; for the fiscal year, $8,099 million versus $7,367 million.",
+    "key_risks": [
+      "Domestic and international economic conditions, including exchange rates, inflation or deflation",
+      "Effects of competition and regulation",
+      "Uncertainties in the financial markets",
+      "Consumer and small business spending patterns and debt levels",
+      "Breaches of security or privacy of member or business information",
+      "Conditions affecting the acquisition, development, ownership or use of real estate",
+      "Capital spending",
+      "Actions of vendors",
+      "Rising costs associated with employees (generally including health-care costs and wages)",
+      "Workforce interruptions",
+      "Energy and certain commodities",
+      "Geopolitical conditions (including tariffs)",
+      "The ability to maintain effective internal control over financial reporting",
+      "Regulatory and other impacts related to environmental and social matters",
+      "Public-health related factors"
+    ],
+    "key_opportunities": [
+      "E-commerce sales growth: E-commerce comparable sales increased 13.6% for the quarter and 15.6% for the fiscal year, indicating a strong growth channel.",
+      "International expansion: The company operates 914 warehouses across multiple countries, including new locations in Iceland and New Zealand, suggesting ongoing global growth."
+    ],
+    "management_tone": {
+      "label": "neutral",
+      "justification": "The press release presents results factually without qualitative commentary on performance or outlook, and the only forward-looking statements are standard risk disclosures."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales for the fourth quarter increased 8.0% to $84.4 billion.",
+      "quote": "Net sales for the quarter increased 8.0 percent, to $84.4 billion, from $78.2 billion last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net sales for the fiscal year increased 8.1% to $269.9 billion.",
+      "quote": "Net sales for the fiscal year increased 8.1 percent, to $269.9 billion, from $249.6 billion last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter diluted EPS was $5.87, up from $5.29 last year.",
+      "quote": "Net income for the fourth quarter was $2.610 billion, $5.87 per diluted share, compared to $2.354 billion, $5.29 per diluted share, last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal year diluted EPS was $18.21, up from $16.56 last year.",
+      "quote": "Net income for the fiscal year was $8.099 billion, $18.21 per diluted share, compared to $7.367 billion, $16.56 per diluted share, last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income for the quarter was $3,341 million versus $3,042 million last year.",
+      "quote": "Operating income 3,341 3,042",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income for the fiscal year was $10,383 million versus $9,285 million last year.",
+      "quote": "Operating income 10,383 9,285",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income for the quarter was $2,610 million versus $2,354 million last year.",
+      "quote": "NET INCOME $ 2,610 $ 2,354",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income for the fiscal year was $8,099 million versus $7,367 million last year.",
+      "quote": "NET INCOME $ 8,099 $ 7,367",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The document does not provide specific forward guidance.",
+      "quote": "Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote indicates the presence of forward-looking statements but does not explicitly state that no specific guidance is provided; however, the document contains no specific guidance figures."
+    },
+    {
+      "claim": "E-commerce comparable sales increased 13.6% for the quarter and 15.6% for the fiscal year.",
+      "quote": "E-commerce 13.6% 13.5% 15.6% 16.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company operates 914 warehouses, including international locations.",
+      "quote": "Costco currently operates 914 warehouses, including 629 in the United States and Puerto Rico, 110 in Canada, 42 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, two in France, two in Sweden, and one each in Iceland, and New Zealand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The management tone is neutral as the press release presents results without qualitative commentary.",
+      "quote": "Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 31, 2025.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote shows the factual nature of the announcement but does not explicitly describe the tone; the tone is inferred from the absence of qualitative language."
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based on the absence of forward guidance and the backward-looking nature of the results; a human reviewer should confirm that the lack of guidance is correctly interpreted as neutral rather than negative."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document contains standard forward-looking statements but no specific guidance; the 'Not disclosed' label is appropriate but should be verified against any implicit guidance in the press release."
+    },
+    {
+      "field": "summary.management_tone",
+      "reason": "The tone label 'neutral' is inferred from the lack of qualitative commentary; a human reviewer should confirm that the press release does not contain any tone-indicating language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 3,
+    "review_flag_count": 3,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "COST_Bundled Earnings Report_2025-09-25",
+  "report_metadata": {
+    "issuer": "p2_costco",
+    "company": "Costco",
+    "ticker": "COST",
+    "sector": "Consumer Defensive/Discount Stores",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-09-25",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/press_release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COST_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T152734Z",
+    "timestamp": "2026-08-13T15:27:47Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/press_release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 8447,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ4_2025.txt"
+  }
+}

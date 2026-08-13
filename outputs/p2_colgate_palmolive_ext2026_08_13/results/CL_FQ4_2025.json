@@ -1,0 +1,261 @@
+{
+  "document_id": "CL_FQ4_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported a GAAP loss driven by a one-time $794 million impairment charge, but Base Business EPS grew 4% in Q4 and 3% for the full year, with organic sales growth of 2.2% in Q4. Forward guidance for 2026 calls for organic sales growth of 1% to 4% and low to mid-single-digit Base Business EPS growth, which appears to be a continuation of current momentum rather than a material raise. The CEO's language is confident about long-term growth but acknowledges a 'difficult operating environment and slower category growth' in the short term, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full year net sales increased 1.4% to $20,382 million; Q4 net sales increased 5.8% to $5,230 million. Q4 organic sales grew 2.2%.",
+    "eps": "Full year GAAP EPS declined 25% to $2.63; Q4 GAAP EPS was $(0.05), down 106%. Full year Base Business EPS increased 3% to $3.69; Q4 Base Business EPS increased 4% to $0.95.",
+    "guidance": "For 2026: net sales expected up 2% to 6% including low-single-digit positive FX impact; organic sales growth expected 1% to 4%; GAAP basis expects gross profit margin expansion, advertising up, and double-digit EPS growth; Base Business basis expects gross profit margin expansion, advertising up, and low to mid-single-digit EPS growth.",
+    "margin": "Q4 GAAP gross profit margin decreased 10 bps to 60.2%; full year GAAP gross profit margin was 60.1% vs 60.5% prior year. Q4 Base Business operating profit margin was 21.2%, down 50 bps; full year Base Business operating profit margin was 21.3%, down 40 bps.",
+    "key_risks": [
+      "Goodwill and intangible assets impairment charges of $794 million related to the skin health business (Filorga), driven by lower than expected category growth and weaker performance, particularly in China.",
+      "Difficult operating environment and slower category growth expected to continue in the short term.",
+      "Negative impact from lower private label pet volume (0.7% full year, 0.9% Q4).",
+      "Approximately 20 basis point impact on 2026 organic sales growth from exit of private label pet food business.",
+      "Tariffs announced and finalized as of January 28, 2026, included in guidance estimates."
+    ],
+    "key_opportunities": [
+      "Net sales and organic sales grew in every category during Q4, led by oral care and pet nutrition (excluding private label).",
+      "Colgate's global market share leadership in toothpaste at 41.3% and manual toothbrushes at 32.4% year to date.",
+      "New 2030 strategy focused on accelerating growth through global reach, science-based innovation, omni-channel demand generation, and data/analytics/AI capabilities.",
+      "Record net cash provided by operations of $4,198 million for the full year.",
+      "Returned $2.9 billion to shareholders through dividends and share repurchases."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Noel Wallace stated, 'we are operating from a position of strength and are confident that the changes we are making will enable us to deliver consistent, compounded earnings per share growth and drive shareholder value in the long term.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full year net sales increased 1.4% to $20,382 million.",
+      "quote": "Net Sales $20,382 $20,101 +1.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 net sales increased 5.8% to $5,230 million.",
+      "quote": "Net Sales $5,230 $4,944 +5.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 organic sales grew 2.2%.",
+      "quote": "Organic Sales Growth +2.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year GAAP EPS declined 25% to $2.63.",
+      "quote": "EPS (diluted) $2.63 $3.51 -25%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP EPS was $(0.05), down 106%.",
+      "quote": "EPS (diluted) $(0.05) $0.90 -106%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year Base Business EPS increased 3% to $3.69.",
+      "quote": "Base Business EPS (diluted) $3.69 $3.60 +3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 Base Business EPS increased 4% to $0.95.",
+      "quote": "Base Business EPS (diluted) $0.95 $0.91 +4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance includes net sales up 2% to 6%.",
+      "quote": "The Company expects net sales to be up 2% to 6%, including a low-single-digit positive impact from foreign exchange.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance includes organic sales growth of 1% to 4%.",
+      "quote": "The Company expects organic sales growth to be 1% to 4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 Base Business guidance expects low to mid-single-digit EPS growth.",
+      "quote": "On a non-GAAP (Base Business) basis, the Company expects gross profit margin expansion with advertising up on both a dollar basis and as a percentage of net sales and low to mid-single-digit earnings per share growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP gross profit margin decreased 10 bps to 60.2%.",
+      "quote": "GAAP Gross profit margin and Base Business Gross profit margin* both decreased 10 basis points to 60.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year GAAP gross profit margin was 60.1% vs 60.5% prior year.",
+      "quote": "Gross profit margin 60.1 % 60.5 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 Base Business operating profit margin was 21.2%, down 50 bps.",
+      "quote": "Total Company, Base Business* $1,108 3% 21.2% -50",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year Base Business operating profit margin was 21.3%, down 40 bps.",
+      "quote": "Operating profit margin, non-GAAP 21.3 % 21.7 % (40)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company took a $794 million impairment charge related to the skin health business.",
+      "quote": "During the fourth quarter, the Company took a non-cash, after-tax charge of $794 million to adjust the carrying values of goodwill and intangible assets related to the skin health business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The impairment was driven by lower than expected category growth and weaker performance, particularly in China.",
+      "quote": "Given lower than expected category growth rates and weaker than expected performance, particularly in China, the Company has lowered its outlook for the skin health business, primarily Filorga.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects the difficult operating environment to continue in the short term.",
+      "quote": "As we begin 2026, while we expect the difficult operating environment and slower category growth to continue in the short term, we are operating from a position of strength...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Private label pet volume negatively impacted full year organic sales by 0.7%.",
+      "quote": "Net sales and Organic sales* increased 1.4%, including a 0.7% negative impact from lower private label pet volume",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Private label pet volume negatively impacted Q4 organic sales by 0.9%.",
+      "quote": "Net sales increased 5.8%; Organic sales* increased 2.2%, including a 0.9% negative impact from lower private label pet volume",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The exit from private label pet food business will impact 2026 organic sales growth by approximately 20 bps.",
+      "quote": "This includes an approximately 20 basis point impact from our exit from the private label pet food business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs are included in 2026 guidance estimates.",
+      "quote": "Based on current spot rates and including the estimated impact of tariffs announced and finalized as of January 28, 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net sales and organic sales grew in every category during Q4.",
+      "quote": "Net sales and organic sales grew in every category during the quarter, led by strength in oral care and pet nutrition, excluding private label.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Colgate maintains global market share leadership in toothpaste at 41.3%.",
+      "quote": "Colgate's leadership in toothpaste continued with its global market share at 41.3% year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Colgate maintains global market share leadership in manual toothbrushes at 32.4%.",
+      "quote": "Colgate's leadership in manual toothbrushes continued with its global market share at 32.4% year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record net cash provided by operations of $4,198 million.",
+      "quote": "Net cash provided by operations was a record $4,198 for the full year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company returned $2.9 billion to shareholders.",
+      "quote": "Returned $2.9 billion in cash to shareholders through dividends and share repurchases",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the long-term growth strategy.",
+      "quote": "we are operating from a position of strength and are confident that the changes we are making will enable us to deliver consistent, compounded earnings per share growth and drive shareholder value in the long term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 sits exactly at the BUY/HOLD boundary. The 2026 guidance appears to be a continuation of current momentum rather than a material raise, but the CEO's confident long-term language and Q4 acceleration could justify a slightly higher score. Human review recommended to confirm the guidance interpretation."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document does not provide prior-year guidance for comparison, so it is unclear whether the 2026 guidance represents a raise, hold, or reduction relative to the company's own prior expectations. This affects the sentiment score interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 27,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CL_Bundled Earnings Report_2026-01-30",
+  "report_metadata": {
+    "issuer": "p2_colgate_palmolive",
+    "company": "Colgate-Palmolive",
+    "ticker": "CL",
+    "sector": "Consumer Defensive/Household Products",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2025-Q4/CL_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CL_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T152734Z",
+    "timestamp": "2026-08-13T15:28:04Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2025-Q4/CL_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_colgate_palmolive_ext2026_08_13/extracted/CL_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2025-Q4/CL_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 35767,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_colgate_palmolive_ext2026_08_13/extracted/CL_FQ4_2025.txt"
+  }
+}

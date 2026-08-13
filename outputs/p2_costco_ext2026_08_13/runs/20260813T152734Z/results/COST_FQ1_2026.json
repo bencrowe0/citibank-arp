@@ -1,0 +1,177 @@
+{
+  "document_id": "COST_FQ1_2026",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports solid backward-looking results (net sales up 8.2%, EPS up from $4.04 to $4.50) but contains no forward guidance, so the score is anchored near neutral. The improvement is partly attributed to a tax benefit, and the document includes extensive forward-looking risk language, which tempers any positive signal. Overall, the report is in-line with no explicit guidance change, resulting in a slightly positive but essentially neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales for the first quarter increased 8.2 percent, to $65.98 billion, from $60.99 billion last year. Total revenue was $67,307 million.",
+    "eps": "Net income for the quarter was $2,001 million, $4.50 per diluted share, compared to $1,798 million, $4.04 per diluted share, last year. This year’s results included a tax benefit of $72 million, $0.16 per diluted share, related to stock-based compensation.",
+    "guidance": "Not disclosed",
+    "margin": "Operating income was $2,463 million for the quarter, compared to $2,196 million last year. No explicit margin percentage commentary is provided.",
+    "key_risks": [
+      "Domestic and international economic conditions, including exchange rates, inflation or deflation",
+      "Effects of competition and regulation",
+      "Uncertainties in the financial markets",
+      "Consumer and small business spending patterns and debt levels",
+      "Breaches of security or privacy of member or business information",
+      "Conditions affecting the acquisition, development, ownership or use of real estate",
+      "Capital spending",
+      "Actions of vendors",
+      "Rising costs associated with employees (generally including health-care costs and wages)",
+      "Workforce interruptions",
+      "Energy and certain commodities",
+      "Geopolitical conditions (including tariffs)",
+      "Ability to maintain effective internal control over financial reporting",
+      "Regulatory and other impacts related to environmental and social matters",
+      "Public-health related factors"
+    ],
+    "key_opportunities": [
+      "Digitally-Enabled comparable sales increased 20.5%",
+      "Comparable sales growth in all segments (U.S. 5.9%, Canada 6.5%, Other International 8.8%)",
+      "Expansion of warehouse count to 923 locations globally"
+    ],
+    "management_tone": {
+      "label": "neutral",
+      "justification": "The document presents results factually without qualitative management commentary, and the forward-looking statements are standard risk disclosures rather than expressions of confidence or caution."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales increased 8.2% to $65.98 billion from $60.99 billion last year.",
+      "quote": "Net sales for the first quarter increased 8.2 percent, to $65.98 billion, from $60.99 billion last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $4.50, up from $4.04 last year.",
+      "quote": "Net income for the quarter was $2,001 million, $4.50 per diluted share, compared to $1,798 million, $4.04 per diluted share, last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The EPS improvement included a tax benefit of $72 million ($0.16 per diluted share).",
+      "quote": "This year’s results included a tax benefit of $72 million, $0.16 per diluted share, related to stock-based compensation, which last year was $100 million, $0.22 per diluted share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenue was $67,307 million.",
+      "quote": "Total revenue 67,307 62,151",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income was $2,463 million for the quarter.",
+      "quote": "Operating income 2,463 2,196",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The document contains no forward guidance.",
+      "quote": "Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote is a standard forward-looking statement disclaimer and does not explicitly state that no guidance is provided; however, the document contains no specific guidance figures."
+    },
+    {
+      "claim": "Digitally-Enabled comparable sales increased 20.5%.",
+      "quote": "Digitally-Enabled 20.5% 20.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales grew in all segments.",
+      "quote": "U.S. 5.9% 5.9% Canada 6.5% 9.0% Other International 8.8% 6.8% Total Company 6.4% 6.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company operates 923 warehouses globally.",
+      "quote": "Costco currently operates 923 warehouses, including 633 in the United States and Puerto Rico, 114 in Canada, 42 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The document lists multiple forward-looking risks including economic conditions, competition, and geopolitical conditions.",
+      "quote": "These risks and uncertainties include, but are not limited to, domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors, and other risks identified from time to time in the Company’s public statements and reports filed with the Securities and Exchange Commission.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The management tone is neutral because the document is factual and lacks qualitative commentary.",
+      "quote": "Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the first quarter of fiscal 2026 (twelve weeks), ended November 23, 2025.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote is factual but does not directly address tone; the neutral label is inferred from the absence of qualitative language."
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "No forward guidance is provided in the document, so the score is based on backward-looking results and risk language; a human reviewer may want to consider whether the absence of guidance should be treated as neutral or slightly negative."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document contains only a standard forward-looking statement disclaimer and no specific guidance; the 'Not disclosed' label is accurate but the reviewer may want to confirm no guidance was embedded elsewhere."
+    },
+    {
+      "field": "summary.management_tone",
+      "reason": "The tone label is inferred from the absence of qualitative commentary; a human reviewer may interpret the factual tone differently."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 2,
+    "review_flag_count": 3,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "COST_Bundled Earnings Report_2025-12-11",
+  "report_metadata": {
+    "issuer": "p2_costco",
+    "company": "Costco",
+    "ticker": "COST",
+    "sector": "Consumer Defensive/Discount Stores",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-12-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q1/press_release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COST_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T152734Z",
+    "timestamp": "2026-08-13T15:28:00Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q1/press_release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q1/press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 7757,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ1_2026.txt"
+  }
+}

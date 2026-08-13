@@ -1,0 +1,227 @@
+{
+  "document_id": "CL_FQ2_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered strong operational results with organic sales growth of 2.4% and Base Business EPS up 8%, and raised its full-year Base Business EPS guidance from low- to mid-single-digit growth to mid-single-digit growth, while also improving its gross profit margin outlook from down to roughly flat. However, the guidance raise is modest and management explicitly notes a 'difficult operating environment' and expects 'volatile market conditions to continue,' tempering the positive signal. The score reflects genuine operational momentum and a slight guidance improvement, but not a material raise, so it lands in the +0.15 to +0.3 range."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales increased 4.9% to $5,361 million in Q2 2026; organic sales increased 2.4%.",
+    "eps": "GAAP EPS decreased 5% to $0.86; Base Business EPS increased 8% to $0.99.",
+    "guidance": "Full year 2026: net sales expected up 2% to 6%, organic sales growth 1% to 4%, GAAP gross profit margin roughly flat (versus down previously), Base Business gross profit margin roughly flat (versus down previously), Base Business EPS growth now mid-single-digit (versus low- to mid-single-digit previously), advertising expected up on dollar basis and as percentage of net sales.",
+    "margin": "GAAP gross profit margin increased 140 basis points to 61.5%; Base Business gross profit margin also increased 140 basis points to 61.5%. Operating profit margin (GAAP) was 19.0%, down 210 basis points; Base Business operating profit margin was 21.4%, up 10 basis points.",
+    "key_risks": [
+      "Difficult operating environment and volatile market conditions expected to continue in the balance of 2026.",
+      "Negative impact from lower private label pet food sales (0.4% impact on organic sales).",
+      "North America net sales declined 3.0% and organic sales declined 3.0%.",
+      "Foreign exchange volatility (Latin America FX impact +8.4%).",
+      "Geopolitical events, wars, and military conflicts (e.g., Ukraine and Middle East) mentioned as forward-looking risk factors.",
+      "Global trade relations and tariffs mentioned as forward-looking risk factors."
+    ],
+    "key_opportunities": [
+      "Leadership in toothpaste with global market share at 41.3% year to date.",
+      "Leadership in manual toothbrushes with global market share at 32.7% year to date.",
+      "15% increase in advertising investment in Q2, with continued strong investment in back half of year.",
+      "Focus on premium, science-led innovation and omni-channel demand generation.",
+      "Organic volume growth improving sequentially for third consecutive quarter.",
+      "Emerging markets organic sales growth of 4.8% in Q2."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Noel Wallace stated 'we are confident that the strength of our global portfolio and clear business strategy should enable us to deliver consistent, compounded earnings per share growth and drive long-term shareholder value.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales increased 4.9% to $5,361 million in Q2 2026.",
+      "quote": "Net sales $5,361 $5,110 +4.9 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic sales increased 2.4% in Q2 2026.",
+      "quote": "Organic Sales Growth +2.4 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS decreased 5% to $0.86.",
+      "quote": "GAAP EPS decreased 5% to $0.86",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Base Business EPS increased 8% to $0.99.",
+      "quote": "Base Business EPS* increased 8% to $0.99",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 net sales guidance is up 2% to 6%.",
+      "quote": "The Company still expects net sales to be up 2% to 6%, including a low-single-digit positive impact from foreign exchange.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 organic sales growth guidance is 1% to 4%.",
+      "quote": "The Company still expects organic sales growth to be 1% to 4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP gross profit margin guidance improved from down to roughly flat.",
+      "quote": "On a GAAP basis, the Company now expects gross profit margin to be roughly flat (versus down previously)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Base Business gross profit margin guidance improved from down to roughly flat.",
+      "quote": "On a non-GAAP (Base Business) basis, the Company now expects gross profit margin to be roughly flat (versus down previously)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Base Business EPS guidance raised to mid-single-digit growth.",
+      "quote": "it also now expects mid-single-digit earnings per share growth (versus low- to mid-single-digit growth previously).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP gross profit margin increased 140 basis points to 61.5%.",
+      "quote": "GAAP Gross profit margin and Base Business Gross profit margin* increased 140 basis points to 61.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Base Business operating profit margin increased 10 basis points to 21.4%.",
+      "quote": "Total Company, Base Business* $1,145 5% 21.4% +10",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating profit margin decreased 210 basis points to 19.0%.",
+      "quote": "Total Company, As Reported $1,016 -6% 19.0% -210",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects volatile market conditions to continue.",
+      "quote": "While we expect the volatile market conditions to continue in the balance of 2026, we are confident that the strength of our global portfolio and clear business strategy should enable us to deliver consistent, compounded earnings per share growth and drive long-term shareholder value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America net sales declined 3.0% in Q2.",
+      "quote": "North America (1) 17% -3.0% -3.0% -3.9% -3.9% +0.9% —%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Private label pet food sales had a 0.4% negative impact on organic sales.",
+      "quote": "Organic sales* increased 2.4%, including a 0.4% negative impact from lower private label pet food sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising increased 15% in Q2.",
+      "quote": "We delivered these strong results while continuing to invest in the long-term health of our business with a 15% increase in advertising this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global toothpaste market share is 41.3% year to date.",
+      "quote": "The Company’s leadership in toothpaste continued with its global market share at 41.3% year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global manual toothbrush market share is 32.7% year to date.",
+      "quote": "The Company’s leadership in manual toothbrushes continued with its global market share at 32.7% year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic volume growth improved sequentially for the third consecutive quarter.",
+      "quote": "worldwide organic volume growth improving sequentially for the third consecutive quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Emerging markets organic sales growth was 4.8% in Q2.",
+      "quote": "Emerging Markets (3) 9.2 % 4.8 % 2.8 % 2.8 % 1.9 % 4.4 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we are confident that the strength of our global portfolio and clear business strategy should enable us to deliver consistent, compounded earnings per share growth and drive long-term shareholder value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise is modest and partially offset by cautious language about volatile conditions; score of 0.25 is within the +0.15 to +0.3 band but could be debated."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Geopolitical and tariff risks are mentioned only in the forward-looking statements cautionary section, not as specific current risks; may be considered generic boilerplate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CL_Bundled Earnings Report_2026-07-31",
+  "report_metadata": {
+    "issuer": "p2_colgate_palmolive",
+    "company": "Colgate-Palmolive",
+    "ticker": "CL",
+    "sector": "Consumer Defensive/Household Products",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-07-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2026-Q2/CL_Q2_2026_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CL_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T152734Z",
+    "timestamp": "2026-08-13T15:28:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2026-Q2/CL_Q2_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_colgate_palmolive_ext2026_08_13/extracted/CL_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2026-Q2/CL_Q2_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 32978,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_colgate_palmolive_ext2026_08_13/extracted/CL_FQ2_2026.txt"
+  }
+}

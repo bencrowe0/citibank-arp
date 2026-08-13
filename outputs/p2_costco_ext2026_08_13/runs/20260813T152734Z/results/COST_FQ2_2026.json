@@ -1,0 +1,178 @@
+{
+  "document_id": "COST_FQ2_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports strong operational results with net sales up 9.1% and EPS up from $4.02 to $4.58, but there is no explicit forward guidance provided or raised. The company highlights a positive shift from Lunar New Year timing that boosted sales, but also lists numerous risks including tariffs and geopolitical conditions. The overall tone is neutral, with no clear change in forward expectations, so the score is slightly positive due to momentum but not a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales for the quarter increased 9.1%, to $68.24 billion, from $62.53 billion last year. For the first 24 weeks, net sales increased 8.7%, to $134.22 billion, from $123.52 billion last year.",
+    "eps": "Net income for the quarter was $2,035 million, $4.58 per diluted share, compared to $1,788 million, $4.02 per diluted share, last year. For the first 24 weeks, net income was $4.04 billion, $9.08 per diluted share, compared to $3.59 billion, $8.06 per diluted share, last year.",
+    "guidance": "Not disclosed",
+    "margin": "Operating income for the quarter was $2,606 million compared to $2,316 million last year. For the first 24 weeks, operating income was $5,069 million compared to $4,512 million last year. No explicit margin percentages were provided.",
+    "key_risks": [
+      "Domestic and international economic conditions, including exchange rates, inflation or deflation",
+      "Effects of competition and regulation",
+      "Uncertainties in the financial markets",
+      "Consumer and small business spending patterns and debt levels",
+      "Breaches of security or privacy of member or business information",
+      "Conditions affecting the acquisition, development, ownership or use of real estate",
+      "Capital spending",
+      "Actions of vendors",
+      "Rising costs associated with employees (generally including health-care costs and wages)",
+      "Workforce interruptions",
+      "Energy and certain commodities",
+      "Geopolitical conditions (including tariffs)",
+      "The ability to maintain effective internal control over financial reporting",
+      "Regulatory and other impacts related to environmental and social matters",
+      "Public-health related factors"
+    ],
+    "key_opportunities": [
+      "Digitally-enabled sales growth: comparable sales for digitally-enabled increased 22.6% for the quarter and 21.6% for the first 24 weeks.",
+      "International expansion: Other International comparable sales increased 13.0% for the quarter and 11.0% for the first 24 weeks, with 924 warehouses now operating globally."
+    ],
+    "management_tone": {
+      "label": "neutral",
+      "justification": "The document presents results factually without explicit forward-looking commentary or strong language, and includes a standard risk factor disclosure, indicating a neutral tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales for the quarter increased 9.1% to $68.24 billion.",
+      "quote": "Net sales for the quarter increased 9.1 percent, to $68.24 billion, from $62.53 billion last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net sales for the first 24 weeks increased 8.7% to $134.22 billion.",
+      "quote": "Net sales for the first 24 weeks increased 8.7 percent, to $134.22 billion, from $123.52 billion last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS for the quarter was $4.58 diluted, up from $4.02 last year.",
+      "quote": "Net income for the quarter was $2,035 million, $4.58 per diluted share, compared to $1,788 million, $4.02 per diluted share, last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS for the first 24 weeks was $9.08 diluted, up from $8.06 last year.",
+      "quote": "Net income for the first 24 weeks was $4.04 billion, $9.08 per diluted share, compared to $3.59 billion, $8.06 per diluted share, last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income for the quarter was $2,606 million.",
+      "quote": "Operating income 2,606 2,316 5,069 4,512",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income for the first 24 weeks was $5,069 million.",
+      "quote": "Operating income 2,606 2,316 5,069 4,512",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company lists numerous risks including economic conditions, tariffs, and geopolitical conditions.",
+      "quote": "These risks and uncertainties include, but are not limited to, domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors, and other risks identified from time to time in the Company’s public statements and reports filed with the Securities and Exchange Commission.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digitally-enabled comparable sales increased 22.6% for the quarter.",
+      "quote": "Digitally-Enabled 22.6% 21.7% 21.6% 21.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Other International comparable sales increased 13.0% for the quarter.",
+      "quote": "Other International 13.0% 7.1% 11.0% 7.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company operates 924 warehouses globally.",
+      "quote": "Costco currently operates 924 warehouses, including 634 in the United States and Puerto Rico, 114 in Canada, 42 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Lunar New Year shift positively impacted February sales.",
+      "quote": "Lunar and Chinese New Years occurred on February 17, 19 days later this year. The shift positively impacted February Other International and Total Company sales by approximately 4.0% and 0.5%, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The document does not provide explicit forward guidance.",
+      "quote": "Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote defines forward-looking statements but does not explicitly state that no guidance is provided; the absence of guidance is inferred from the document's content."
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly positive due to operational momentum, but there is no explicit guidance raise; the score is at the boundary of the HOLD band and could be considered 0.0 if the momentum is not seen as a trajectory change."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is marked as 'Not disclosed' because the document does not contain explicit forward guidance; however, the forward-looking statements section may be interpreted as guidance, so a reviewer should confirm."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 1,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "COST_Bundled Earnings Report_2026-03-05",
+  "report_metadata": {
+    "issuer": "p2_costco",
+    "company": "Costco",
+    "ticker": "COST",
+    "sector": "Consumer Defensive/Discount Stores",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-03-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/press_release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COST_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T152734Z",
+    "timestamp": "2026-08-13T15:28:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/press_release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 9164,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ2_2026.txt"
+  }
+}

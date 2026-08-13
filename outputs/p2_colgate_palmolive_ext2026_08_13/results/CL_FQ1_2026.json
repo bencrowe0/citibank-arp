@@ -1,0 +1,188 @@
+{
+  "document_id": "CL_FQ1_2026",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The company delivered strong first-quarter results with organic sales growth of 2.9% and Base Business EPS up 7%, but forward guidance was mixed: net sales and EPS guidance were maintained, while gross profit margin guidance was lowered from 'up' to 'down' on both GAAP and non-GAAP bases. Management cited volatile macroeconomic conditions, slower category growth, and tariff impacts, which temper the positive operational momentum. The guidance revision on margins and cautious language on the environment prevent a positive score, but the maintained sales and EPS guidance and strong results keep it from being strongly negative."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales increased 8.4% to $5,324 million for Q1 2026, with organic sales growth of 2.9%.",
+    "eps": "GAAP diluted EPS decreased 6% to $0.80; Base Business diluted EPS increased 7% to $0.97.",
+    "guidance": "Full-year 2026: net sales expected up 2% to 6% (maintained), organic sales growth 1% to 4% (maintained), GAAP and Base Business gross profit margin now expected to be down (previously up), advertising expected up, and EPS growth expected (GAAP double-digit, Base Business low to mid-single-digit).",
+    "margin": "GAAP gross profit margin decreased 20 basis points to 60.6%; Base Business gross profit margin also decreased 20 basis points to 60.6%. Operating profit margin (GAAP) decreased 380 basis points to 18.1%; Base Business operating profit margin decreased 90 basis points to 21.3%.",
+    "key_risks": [
+      "Volatile macroeconomic conditions and slower category growth expected to continue in 2026.",
+      "Impact of tariffs announced and finalized as of April 29, 2026, included in guidance.",
+      "Gross profit margin expected to be down for full year 2026 (revised from up).",
+      "Negative impact from lower private label pet food sales on organic sales growth.",
+      "Charges related to the Strategic Growth and Productivity Program increased to $350-$550 million (from $200-$300 million)."
+    ],
+    "key_opportunities": [
+      "Broad-based top and bottom-line growth with net sales and organic sales growth in every category and in four of five divisions.",
+      "Global market share leadership in toothpaste (41.1%) and manual toothbrushes (32.6%).",
+      "Expansion of the Strategic Growth and Productivity Program to drive future growth and support 2030 strategy.",
+      "Positive impact from foreign exchange on net sales guidance (low-single-digit)."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in the strong start and resilience ('We delivered a strong start to 2026... underscore the resilience of our business model') but also acknowledged a difficult operating environment and cautious outlook ('we expect the volatile macroeconomic conditions and slower category growth to continue in 2026')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales increased 8.4% to $5,324 million in Q1 2026.",
+      "quote": "Net sales $5,324 $4,911 +8.4 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic sales growth was 2.9% in Q1 2026.",
+      "quote": "Organic Sales Growth +2.9 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS decreased 6% to $0.80.",
+      "quote": "EPS (diluted) $0.80 $0.85 -6 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Base Business diluted EPS increased 7% to $0.97.",
+      "quote": "Base Business EPS (diluted) $0.97 $0.91 +7 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year net sales guidance was maintained at 2% to 6% growth.",
+      "quote": "The Company still expects net sales to be up 2% to 6%, including a low-single-digit positive impact from foreign exchange.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year organic sales growth guidance was maintained at 1% to 4%.",
+      "quote": "The Company still expects organic sales growth to be 1% to 4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross profit margin guidance was revised down for full year 2026.",
+      "quote": "On a GAAP basis, the Company now expects gross profit margin to be down (versus up previously)... On a non-GAAP (Base Business) basis, the Company now expects gross profit margin to be down (versus up previously)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP gross profit margin decreased 20 basis points to 60.6%.",
+      "quote": "GAAP Gross profit margin and Base Business Gross profit margin* decreased 20 basis points to 60.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating profit margin (GAAP) decreased 380 basis points to 18.1%.",
+      "quote": "Operating profit margin, GAAP 18.1 % 21.9 % (380)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Base Business operating profit margin decreased 90 basis points to 21.3%.",
+      "quote": "Operating profit margin, non-GAAP 21.3 % 22.2 % (90)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited volatile macroeconomic conditions and slower category growth as ongoing risks.",
+      "quote": "While we expect the volatile macroeconomic conditions and slower category growth to continue in 2026, we are aligned behind our 2030 strategy to deliver consistent, compounded earnings per share growth and drive long-term shareholder value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs are a risk incorporated into guidance.",
+      "quote": "Based on current spot rates and including the estimated impact of tariffs announced and finalized as of April 29, 2026:",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company maintains global market share leadership in toothpaste and manual toothbrushes.",
+      "quote": "The Company’s leadership in toothpaste continued with its global market share at 41.1% year to date. The Company’s leadership in manual toothbrushes continued with its global market share at 32.6% year to date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Strategic Growth and Productivity Program was expanded, increasing expected charges.",
+      "quote": "As a result of the expansion, cumulative pretax charges related to the SGPP, once all projects are approved and implemented, are now estimated to be $350 million to $550 million, increased from $200 million to $300 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with confidence in results but caution on the environment.",
+      "quote": "We delivered a strong start to 2026, with broad-based top and bottom-line growth... While we expect the volatile macroeconomic conditions and slower category growth to continue in 2026...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance on gross margin was lowered, but sales and EPS guidance were maintained; the score reflects a slight negative tilt due to margin guidance and cautious language, but the magnitude is debatable."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document mentions 'volatile macroeconomic conditions' and 'slower category growth' as expectations, but these are not quantified; the risk list is qualitative."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CL_Bundled Earnings Report_2026-04-24",
+  "report_metadata": {
+    "issuer": "p2_colgate_palmolive",
+    "company": "Colgate-Palmolive",
+    "ticker": "CL",
+    "sector": "Consumer Defensive/Household Products",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-24",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2026-Q1/CL_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CL_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T152734Z",
+    "timestamp": "2026-08-13T15:28:17Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2026-Q1/CL_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_colgate_palmolive_ext2026_08_13/extracted/CL_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/colgate_palmolive/CY2026-Q1/CL_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 27181,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_colgate_palmolive_ext2026_08_13/extracted/CL_FQ1_2026.txt"
+  }
+}
