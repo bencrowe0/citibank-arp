@@ -1553,6 +1553,24 @@ def main():
 
     wb_src.close()
 
+    # ── Overwrite guard ───────────────────────────────────────────────────────
+    # The CORRECTED workbook accumulates hand-applied patches (fix_workbooks_v*.py,
+    # KHC sentinel fix, Accuracy_Conventions edits) that build_workbook.py cannot
+    # reconstruct from source data.  Silently overwriting it discards those patches.
+    # Pass --force to override explicitly.
+    force = "--force" in sys.argv
+    if OUT_CORRECTED.exists() and not force:
+        print(
+            f"\nERROR: {OUT_CORRECTED.name} already exists.\n"
+            f"  build_workbook.py recreates this file from {SOURCE_WB.name},\n"
+            f"  which will discard any hand-applied patches committed on top of it\n"
+            f"  (Accuracy_Conventions edits, KHC fix, In Clean Universe columns, etc.).\n"
+            f"  If you genuinely want to rebuild from scratch, pass --force.\n"
+            f"  If you only want to rebuild the CSV exports, omit --no-workbooks (not yet implemented).\n"
+            f"  Aborting without writing any workbook."
+        )
+        sys.exit(1)
+
     print("\n=== WORKBOOK 1: LOCKED ===")
     wb_src2 = openpyxl.load_workbook(SOURCE_WB, data_only=False)
     llm_rows_dicts = [dict(row) for row in llm_rows]
