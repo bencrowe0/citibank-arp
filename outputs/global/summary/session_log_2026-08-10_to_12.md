@@ -225,18 +225,18 @@ baseline + frontier"
 cheap baselines (Loughran-McDonald word counts, FinBERT transformer
 sentiment) achieve on the same events.
 
-**Finding**: On the eval split (N=186 clean events after exclusions,
-HOLD=wrong convention, overnight grading):
+**Finding**: On the eval split (186 events, 119 graded FLAT-excluded,
+overnight ±2% band):
 
-| Model | Accuracy (HOLD=wrong) |
+| Model | Accuracy (FLAT-excluded, 119 graded) |
 |---|---|
-| Majority-direction | 55.0% |
-| Deployed model | 43.3% |
-| FinBERT | 34.5% |
-| Loughran-McDonald | 15.1% |
+| Majority-direction (always-SELL) | 54.6% (65/119) |
+| Deployed model | 42.9% (51/119) |
+| FinBERT | 34.5% (41/119) |
+| Loughran-McDonald | 15.1% (18/119) |
 
-Under HOLD=wrong, all models score below the majority-direction floor.
-Under FLAT-excluded, the deployed model leads (42.9%, 95% CI available in
+Under FLAT-excluded, all models score below the majority-direction floor.
+The deployed model leads the baselines (42.9%, 95% CI available in
 `frontier_table.csv`). FinBERT narrows the gap vs the model (34.5% vs
 15.1% for LM) but the model's advantage is real (8.4pp, non-overlapping
 CIs). The model's differentiation is structured output and evidence
@@ -1012,41 +1012,30 @@ as of the last run. May be resolvable now.
 Does not contain the 40-ticker phase2 roster. Ticker auto-lookup blanks
 for every non-legacy company.
 
-### 9.7 Unreconciled eval-split figures
+### 9.7 Eval-split figures — RESOLVED (2026-08-13)
 
-`frontier_table.csv` reports the deployed model's FLAT-excluded accuracy
-on the eval split (N=186 events, 119 graded) as 42.9%.
-`surviving_findings.md` finding #2 reports 65.3% (62/95 graded, N=233).
-`baseline_correction_2026-08-13.md` reports 42.2% (62/147) as the
-coverage figure. These are different framings of the same 62 correct
-predictions:
+Three accuracy figures coexist for the deployed model:
 
-- **42.9%** = 62/? on the eval split under HOLD=wrong (denominator
-  unclear — `frontier_table.csv` does not state the exact denominator for
-  this row; if 119 graded from 186, then 51/119 ≈ 42.9%)
-- **65.3%** = 62/95 on the full N=233, FLAT excluded
-- **42.2%** = 62/147 on the full N=233, HOLD=wrong
+- **65.3%** = 62/95 on N=233 full sample, FLAT-excluded (only the 95
+  events where the model traded AND |ret|>2% are graded)
+- **42.2%** = 62/147 on N=233 full sample, HOLD=wrong (all 147 events
+  with |ret|>2% graded; model HOLD on those = wrong)
+- **42.9%** = 51/119 on the eval split (186 events, latest 80% by
+  report_date), FLAT-excluded (119 of 186 eval events have |ret|>2%)
 
-The 42.9% figure in `frontier_table.csv` appears alongside FinBERT and LM
-baselines computed on the eval split (N=186, dev/eval 20/80). The 65.3%
-is on the full N=233 with no dev/eval split. Both are correct computations
-on different subsets with different denominators. The reconciliation is
-documented in commit `939230c` ("Reconcile 42.9% vs 65.3%: same 62
-correct, different denominators"). However, the user's instruction flags
-"42.9 per cent on 119 graded and 42.2 per cent on 147" as needing
-reconciliation. The 42.2% figure (62/147 on N=233, HOLD=wrong) and the
-42.9% figure (on the eval split N=186, HOLD=wrong) are **different
-subsets** (233 vs 186 events) with **different numerators** (62 vs ~51).
-They are not two values for the same quantity.
+All three are correct for their own purpose. The frontier (42.9%) uses
+the eval split to maintain dev/eval discipline for the LM/FinBERT
+baseline comparison. The coverage (42.2%) pairs with the selectivity
+(65.3%) as a full-sample dual framing. The numerators differ (51 vs 62)
+because the eval split excludes 47 dev events.
 
-**FLAG**: The exact numerator behind the 42.9% in `frontier_table.csv`
-should be verified by reading the file's per-row data. If it is 51/119
-(eval split, HOLD=wrong), it is a different 51 correct predictions on a
-different denominator from the 62/147 coverage figure, and the two are
-consistent. If it is 62/something, the denominators need reconciling.
+The `item_e_handoff.md` Item D section previously stated "43.3%" and
+"55.0%" — these were hand-written from a stale run with 120 graded
+eval events and are now corrected to 42.9% (51/119) and 54.6% (65/119)
+with numerator/denominator on face.
 
 ---
 
 *Word count: approximately 5,800 words (excluding tables and code).*
 
-*Inconsistencies flagged: 1 (section 9.7, eval-split 42.9% denominator).*
+*Inconsistencies flagged: 1 (section 9.7, eval-split 42.9% denominator) — now resolved.*

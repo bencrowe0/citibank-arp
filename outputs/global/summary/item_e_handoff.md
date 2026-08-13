@@ -186,11 +186,18 @@ small (MDE=±24.1pp). This is the finding Item E exists to test properly.
 
 ## Item D (FinBERT baseline) — complete
 
-Frontier on eval split (119 graded, HOLD=wrong convention):
-- Majority-direction: 55.0%
-- Deployed model: 43.3% (below floor under HOLD=wrong)
-- FinBERT: 34.5%
-- Loughran-McDonald: 15.1%
+Frontier on eval split (186 events, 119 graded FLAT-excluded, overnight ±2%):
+- Majority-direction (always-SELL): 54.6% (65/119)
+- Deployed model: 42.9% (51/119, FLAT-excluded)
+- FinBERT: 34.5% (41/119)
+- Loughran-McDonald: 15.1% (18/119)
+
+Note: the "42.9%" here is FLAT-excluded on the **eval split** (119 graded
+out of 186 eval events). The "42.2%" in `surviving_findings.md` is the
+full-sample coverage figure (62/147, all graded events in N=233). Both are
+correct for their own purpose — the frontier uses the eval split to
+maintain dev/eval discipline; the coverage figure pairs with the
+full-sample selectivity accuracy (62/95 = 65.3%).
 
 FinBERT narrows the gap to the model (34.5% vs 15.1% for LM) but the model's
 advantage is real (8.4pp, non-overlapping CIs). The model's differentiation

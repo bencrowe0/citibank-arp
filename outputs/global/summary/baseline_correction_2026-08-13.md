@@ -82,7 +82,7 @@ sample's 56.6% DOWN rate, while the human arm calls SELL on only 30.3%.
 |---|---|---|---|
 | 95 headline graded | 95 | DOWN 52/95 | **54.7%** |
 | 147 all graded (HOLD=wrong) | 147 | DOWN 80/147 | **54.4%** |
-| 120 eval-split graded | 120 | DOWN 66/120 | **55.0%** |
+| 119 eval-split graded | 119 | DOWN 65/119 | **54.6%** |
 | 76 direction-only | 76 | DOWN 43/76 | **56.6%** |
 
 ## Lesson

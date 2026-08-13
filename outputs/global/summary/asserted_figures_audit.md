@@ -14,7 +14,7 @@ Sources checked: `CLAUDE.md`, `Model_Arm_Gap_Spec.md`, all `.md` files in
 | Superseded (withdrawn, replaced by a citable figure) | 3 | 0.4656, 0.466/0.443, rho=0.221 |
 | Resolved (recomputed and saved to CSV, 2026-08-13) | 2 | kappa 0.109, rho 0.1108 |
 | Console-only (will be saved on next script run) | 1 | ext4 bootstrap +0.10pp |
-| Stale (retracted or superseded by anchor correction / exclusion-set change) | 8 |  |
+| Stale (retracted or superseded by anchor correction / exclusion-set change) | 9 |  |
 | Approximately verified (close but not exact — rounding or console-only) | 3 | was 4; rho=0.108 moved to Resolved |
 | Fully verified against committed output files | 43 | was 42; kappa now verified |
 
@@ -50,6 +50,7 @@ Computed on a superseded anchor, superseded exclusion set, or a different N. All
 | **Band capture 72.7% (pre_market) / 26.8% (after_hours)** — 3× asymmetry | `retracted_findings_2026-08-12.md` (retracted) | Old `report_date` entry anchor compressed pre_market returns below the ±2% band. | Corrected: 42.4% / 29.9% — ~1.4×. `retracted_findings_2026-08-12.md`, `pre_market_power_gap.md`. |
 | **Sign-correct 61% (46/75), p = 0.064** — ungraded trades | `retracted_findings_2026-08-12.md` (retracted) | Stale anchor moved 25 events from ungraded to graded, removing the most correct-sign events from the pool. | Corrected: 56.0% (28/50), p = 0.480. `effective_sample_funnel.md`. |
 | **Agreement filter +17.3pp (32.7% vs 15.4%), p = 0.029** — pre-anchor correction | `worksheet_leak_triage.md` (labelled as superseded within the document), `retracted_findings_2026-08-12.md` | Computed on old `report_date` anchor; accuracy elevated in both groups but the gap was an artefact. | Corrected: −0.3pp (69.0% vs 69.2%), p = 0.959. `agreement_filter_corrected.csv`. |
+| **Deployed model 43.3%, Majority 55.0%** — Item D frontier in `item_e_handoff.md` | `item_e_handoff.md` Item D section (commit `ada2344`) | Hand-written summary from a stale run with 120 graded eval events (not 119). The authoritative `frontier_table.csv` (commit `bf62197`) has 51/119 = 42.86% and 65/119 = 54.62%. | Corrected to 42.9% (51/119) and 54.6% (65/119) with numerator/denominator on face. |
 
 ---
 
