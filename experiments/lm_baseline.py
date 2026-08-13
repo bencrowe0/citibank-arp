@@ -14,8 +14,9 @@ Exclusion set (35 events):
   - 1 misattributed document (SPOT_FQ1_2026)
   - 9 timing-excluded events (non-US issuers with unreliable overnight returns)
 
-Dev/eval split: sort all clean events by report_date, earliest 20% = dev,
-remaining 80% = eval. Thresholds fit on dev only, frozen, applied to eval.
+Dev/eval split: sort all clean events by release_date (from returns_matrix.csv,
+the corrected EDGAR 8-K anchor), earliest 20% = dev, remaining 80% = eval.
+Thresholds fit on dev only, frozen, applied to eval.
 
 Accuracy is reported two ways:
   - FLAT excluded: only events where outcome is BUY or SELL are graded
@@ -100,7 +101,13 @@ def lm_score(text: str) -> tuple[float, int, int, int]:
 
 def load_events() -> list[dict]:
     """Load events from calibration CSV + returns matrix, apply exclusions,
-    grade using overnight returns with +-2% band."""
+    grade using overnight returns with +-2% band.
+
+    The 'report_date' field in each returned dict is the **release_date**
+    (from returns_matrix.csv, which uses the corrected EDGAR 8-K anchor),
+    not the calibration CSV's report_date. split_dev_eval() sorts on this
+    field, so the dev/eval partition is drawn on the entry anchor date.
+    """
     rm = _load_returns_matrix()
     timing_excl = _timing_excluded_set(rm)
     all_excluded = WORKSHEET_EXCLUDED | SPOT_EXCLUDED | timing_excl
@@ -117,11 +124,13 @@ def load_events() -> list[dict]:
                 continue
             ret_overnight = float(rm[did]["ret_overnight"])
             outcome = overnight_outcome_label(ret_overnight)
+            # Use release_date from returns_matrix (corrected anchor),
+            # not report_date from calibration CSV (retired field).
             events.append({
                 "document_id": did,
                 "issuer": r["issuer"],
                 "ticker": r["ticker"],
-                "report_date": r["report_date"],
+                "report_date": rm[did]["report_date"],  # release_date
                 "ret_overnight": ret_overnight,
                 "outcome_label": outcome,
                 "blend_predicted_signal_default": r["blend_predicted_signal_default"],

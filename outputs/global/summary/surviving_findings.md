@@ -26,11 +26,13 @@ threshold because it uses all 233 events, not just traded ones.
 
 ## 2. Selectivity accuracy (qualified — not verifiable OOS)
 
-**Statistic**: 62/95 = 65.3%, vs 54.7% majority-direction floor,
-margin +10.5pp, p=0.024. MDE = ±10.8pp (barely powered to detect).
+**Statistic**: 62/95 = 65.3%, vs 54.7% majority-direction floor (52/95),
+margin +10.5pp, p=0.024 (binomial). MDE = ±10.8pp (barely powered to
+detect). Source: `ext2_holding_curve.csv` (overnight row, N=233),
+`item_e_walkforward.json` (n_graded=95, n_correct=62).
 
 **Must always be paired with the coverage figure**: 62/147 = 42.2% under
-HOLD=wrong, 12.2pp below the 54.4% floor.
+HOLD=wrong, 12.2pp below the 54.4% floor (80/147 always-DOWN).
 
 **Threshold-dependent?** Yes. The HOLD thresholds (+0.25/-0.05) determine
 which 95 of 233 events are graded. Those thresholds were selected by
@@ -48,7 +50,7 @@ and zero OOS trades in 3 of 4 windows; accuracy refitting degenerates in
 in-sample at p=0.024, and not verifiable out of sample because threshold
 refitting degenerates at this N.**
 
-**Cross-issuer generalisation** (finding #3): 101 events from 31 issuers
+**Cross-issuer generalisation** (finding #3): 101 events from 29 issuers
 scored after the N=161 threshold sweep, zero issuer overlap with the 40
 in-sweep issuers. Under the deployed thresholds: 33/52 graded correct =
 63.5%, vs always-DOWN floor 51.9%, margin +11.5pp, p=0.063 (MDE ±20.8pp).
@@ -64,7 +66,7 @@ effect would have been undetectable at either sample size.
 ## 3. Cross-issuer generalisation (reconstructed subset)
 
 **Statistic**: Thresholds fitted on 40 issuers (132 clean events) transfer
-to 31 unseen issuers (101 clean events): 33/52 graded correct = 63.5%,
+to 29 unseen issuers (101 clean events, `item_e_walkforward.json`): 33/52 graded correct = 63.5%,
 vs always-DOWN floor 51.9% (27/52), margin +11.5pp, p=0.063
 (MDE ±20.8pp). Mean net per trade: +2.785%.
 
@@ -100,7 +102,7 @@ that commit survives. Sweep membership is inferred from: (a) the sweep
 JSON records `n_documents=161` but no event list; (b) the first 40
 issuers in `PHASE2_ISSUERS` produce exactly 161 events, matching the
 sweep's recorded count; (c) zero issuer overlap between the first 40 and
-the later 31; (d) the 101 post-sweep events are entirely new issuers, not
+the later 29; (d) the 101 post-sweep events are entirely new issuers, not
 new quarters of existing issuers. However, the count match is weak
 evidence: 453 single-swap alternative sets of 40 issuers also produce
 exactly 161 events (any same-count issuer can be swapped without changing
@@ -161,7 +163,9 @@ directly, not graded outcomes.
 
 **Statistic**: on 76 events where both arms committed, human 57.9%
 (44/76) vs LLM 60.5% (46/76), diff +2.6pp, p=0.754. Neither detectably
-better.
+better. Source: `human_vs_llm_corrected.md` (derived from
+`data/human/human_decisions_export_2026-08-12.csv` +
+`global_outcome_calibration_phase2.csv`; no dedicated backing CSV).
 
 **Against the majority-direction floor**: always-DOWN = 55.3% (42/76).
 Human +2.6pp (p=0.366), LLM +5.3pp (p=0.210). **Neither arm beats the
@@ -170,6 +174,12 @@ majority-direction floor by a testable margin.** The null stands.
 **Threshold-dependent?** No. Uses sign accuracy, no band.
 
 ## 7. SELL-versus-BUY asymmetry (a finding in its own right)
+
+Source: `direction_accuracy_decomposition.md`, `human_vs_llm_corrected.md`.
+No dedicated backing CSV — figures derived from
+`data/human/human_decisions_export_2026-08-12.csv` +
+`global_outcome_calibration_phase2.csv` + `returns_matrix.csv`.
+P-values are binomial tests vs 50%.
 
 Both arms show skill on SELL calls and neither shows skill on BUY calls:
 
@@ -214,9 +224,12 @@ walk-forward qualification as finding #2.
 
 ## 9. Dev/eval split (subset stability, not a result)
 
-**Statistic**: dev accuracy 52.6% (10/19), eval 68.4% (52/76). The model
+**Statistic**: dev accuracy 55.0% (11/20), eval 68.0% (51/75). The model
 performs better on later events — opposite of overfitting. Eval margin
-+14.5pp vs floor (p=0.007). Dev too small (MDE=±24.1pp).
++13.4pp vs floor 54.6% (p=0.013). Dev too small (MDE=±23pp).
+Split rule: sort 233 clean events by release_date (returns_matrix.csv),
+earliest 20% (47 events) = dev, remaining 80% (186 events) = eval.
+Source: `frontier_table.csv` (eval graded N=119, of which 75 traded+graded).
 
 **Not a result**: the difference is not significant (p=0.229).
 

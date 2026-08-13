@@ -35,19 +35,20 @@ and the convention must be stated alongside the number every time.**
 
 ## The eval split (42.9% in the frontier table)
 
-The frontier table's 42.9% (≈51/119) is the HOLD=wrong figure computed on
-the eval split (earliest 20% dev, rest eval). On the same eval split under
-HOLD-excluded: 52/76 = 68.4%.
+The frontier table's 42.9% = 51/119 is the FLAT-excluded figure computed on
+the eval split (earliest 20% dev, rest eval). On the same eval split, the
+selectivity accuracy (traded+graded only) is 51/75 = 68.0%.
 
-The dev/eval partition: earliest 20% of 233 events by release_date = 46 dev,
-187 eval. This split was defined in `experiments/lm_baseline.py` for the
-Loughran-McDonald baseline and reused for FinBERT. It is not the model's own
-development set — the model was scored on all events and the split is
-applied post hoc for baseline comparison only.
+The dev/eval partition: sort 233 clean events by release_date
+(returns_matrix.csv), earliest 20% (47 events) = dev, remaining 80%
+(186 events) = eval. This split was defined in `experiments/lm_baseline.py`
+for the Loughran-McDonald baseline and reused for FinBERT. It is not the
+model's own development set — the model was scored on all events and the
+split is applied post hoc for baseline comparison only.
 
-Dev accuracy: 10/19 = 52.6% (HOLD-excluded). Eval: 52/76 = 68.4%. The
+Dev selectivity accuracy: 11/20 = 55.0%. Eval: 51/75 = 68.0%. The
 model performs better on later events than earlier ones, which is the
-opposite of what overfitting would predict.
+opposite of what overfitting would predict. Source: `frontier_table.csv`.
 
 ## Is the model genuinely below the floor?
 

@@ -677,11 +677,12 @@ Source: `surviving_findings.md`.
 
 ### Finding 9: Dev/eval split (subset stability)
 
-Dev accuracy 52.6% (10/19), eval 68.4% (52/76). Model performs better on
-later events. Eval margin +14.5pp vs floor (p=0.007). Dev too small
-(MDE=±24.1pp). The difference is not significant (p=0.229). Not out-of-
-sample: the eval split was applied post hoc to data the deployed
-thresholds were already fitted on.
+Dev accuracy 55.0% (11/20), eval 68.0% (51/75). Split on release_date
+(corrected anchor). Model performs better on later events. Eval margin
++13.4pp vs floor (p=0.013). Dev too small (MDE=±23pp). The difference
+is not significant. Not out-of-sample: the eval split was applied post
+hoc to data the deployed thresholds were already fitted on. Source:
+`frontier_table.csv`.
 
 Source: `surviving_findings.md`.
 

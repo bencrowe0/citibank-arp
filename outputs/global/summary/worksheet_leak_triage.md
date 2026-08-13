@@ -300,14 +300,18 @@ documented 0.561 vs 0.429 figures cannot be regenerated from this codebase:
 script, output file, or intermediate artifact that produces them. They
 should not be presented.
 
-**Authoritative headline (definition alongside the number):**
-Agreement filter effect: **+17.3pp** (p=0.029). LLM correct-direction
+**RETRACTED (2026-08-12).** The +17.3pp agreement filter effect was
+computed on the old `report_date` anchor. On the corrected `release_date`
+anchor: agree 69.0% (20/29) vs disagree 69.2% (18/26), difference
+−0.3pp (p=0.959). See `agreement_filter_corrected.csv` and
+`retracted_findings_2026-08-12.md`. The figures below are retained as a
+historical record only.
+
+~~Agreement filter effect: **+17.3pp** (p=0.029). LLM correct-direction
 accuracy on overnight returns (±2% band) is 32.7% (18/55 traded events)
 where both arms agree, vs 15.4% (8/52) where they disagree. Computed on
 107 traded events from 180 clean paired rows (section=All,
-first_rater_for_event=YES, 25 worksheet events excluded). The difference is
-a paired comparison on the same event universe; the definition is recorded
-here so the basis is never ambiguous.
+first_rater_for_event=YES, 25 worksheet events excluded).~~
 
 #### Scope limitations on the paired analysis
 

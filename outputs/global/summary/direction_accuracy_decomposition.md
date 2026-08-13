@@ -77,16 +77,18 @@ effect would have been undetectable at this sample size.
 
 | | Dev | Eval |
 |---|---|---|
-| N | 46 | 187 |
-| Graded | 19 | 76 |
-| Accuracy | 52.6% (10/19) | 68.4% (52/76) |
-| Floor | 57.9% (11/19) | 53.9% (41/76) |
-| Margin | -5.3pp (p=0.759) | +14.5pp (p=0.007) |
-| 90% CI | [32.0%, 72.6%] | [58.6%, 77.2%] |
+| N | 47 | 186 |
+| Traded+graded | 20 | 75 |
+| Accuracy | 55.0% (11/20) | 68.0% (51/75) |
+| Floor (always-SELL) | 53.6% | 54.6% |
+| Margin | +1.4pp | +13.4pp (p=0.013) |
+
+Split rule: sort 233 clean events by release_date (returns_matrix.csv),
+earliest 20% = dev, remaining 80% = eval. Source: `frontier_table.csv`.
 
 The model performs better on later events (eval) than earlier ones (dev).
 This is the opposite of what overfitting produces. The eval-split margin
-of +14.5pp against the floor is significant (p=0.007). However:
+of +13.4pp against the floor is significant (p=0.013). However:
 - Dev N=19 is too small to draw conclusions (MDE=±24.1pp)
 - The eval-dev difference is +15.8pp but not significant (p=0.229)
 - Mean docs per event: dev 2.26, eval 2.39 — modestly richer sourcing

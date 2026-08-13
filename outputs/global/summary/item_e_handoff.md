@@ -179,10 +179,14 @@ its self-selected subset. Zero per-direction margin. Overall sign accuracy
 comes from BUY/SELL allocation matching the sample's SELL skew, not from
 document reading. See `direction_accuracy_decomposition.md`.
 
-**Dev/eval split (directional evidence for Item E)**: dev accuracy 52.6%
-(10/19), eval 68.4% (52/76). The model performs better on later events —
-opposite of overfitting. Eval margin +14.5pp vs floor (p=0.007). Dev too
-small (MDE=±24.1pp). This is the finding Item E exists to test properly.
+**Dev/eval split (directional evidence for Item E)**: dev accuracy 55.0%
+(11/20), eval 68.0% (51/75). Split rule: sort 233 clean events by
+release_date (returns_matrix.csv), earliest 20% (47 events) = dev,
+remaining 80% (186 events) = eval. The model performs better on later
+events — opposite of overfitting. Eval margin +13.4pp vs floor (p=0.013).
+Dev too small (MDE=±23pp). This is the finding Item E exists to test
+properly. Source: `frontier_table.csv` (eval), recomputed 2026-08-13 on
+corrected returns_matrix.
 
 ## Item D (FinBERT baseline) — complete
 
@@ -227,8 +231,9 @@ threshold: rho = 0.236 at p = 0.0003. That is the study's primary result.
 ### Cross-issuer generalisation (reconstructed subset)
 
 The deployed thresholds were selected at N=161 (the first 40 issuers).
-31 issuers (101 clean events) were scored after the sweep and were never
-in the sweep's dataset.
+29 issuers (101 clean events) were scored after the sweep and were never
+in the sweep's dataset (2 further post-sweep issuers — Allianz and
+Lenovo — are fully timing-excluded).
 
 **This is a cross-issuer test, not a temporal one.** Both subsets span
 overlapping date ranges (in-sweep: 2023-04-25 to 2026-07-14; post-sweep:

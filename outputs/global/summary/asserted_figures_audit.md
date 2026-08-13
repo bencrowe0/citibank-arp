@@ -83,7 +83,7 @@ Computed on a superseded anchor, superseded exclusion set, or a different N. All
 - 30/30 recall probe refusals (`recall_probe_log.csv`)
 - Quote screen: 272 evidence items, 267 passed to handover, 5 absent; 4 Comcast table quotes + 1 PUM.DE_FQ1_2025 fabrication (`quote_verification_full.csv`)
 - Breakeven cost: 162.81bps (`ext9_cost_grid_summary.json`); worst-cell return +386.75% at 70bps total cost (`ext9_cost_grid.csv`)
-- BUY-truth recall 36.1% (n=72) vs SELL-truth 31.6% (n=76), gap +4.5pp, p = 0.560 (`asymmetry_recall_gap_test.csv`)
+- BUY-truth recall 36.1% (n=72) vs SELL-truth 32.5% (n=77), gap +3.6pp, p = 0.640 (`asymmetry_recall_gap_test.csv`)
 
 ### Holding-period decay curve (from `ext2_holding_curve.csv`, N = 233 clean events)
 - Overnight: rho = 0.236, p = 0.0003, accuracy 65.3% (95 graded), mean net +1.86%, CI [+0.98%, +2.81%]

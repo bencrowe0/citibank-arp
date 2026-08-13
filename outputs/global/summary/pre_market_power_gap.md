@@ -6,7 +6,7 @@ Date: 2026-08-12
 
 The overnight close-to-open gap is a moderately lower-powered measure of the
 earnings reaction for pre-market reporters than for after-hours reporters.
-This affects 132 of 229 clean events (58%).
+This affects 132 of 233 clean events (57%).
 
 **Superseded figures**: the earlier version of this document reported a 3×
 asymmetry (72.7% vs 26.8% inside the ±2% band) and a significant sign-correct
