@@ -3082,9 +3082,9 @@
       "blend_score": -0.19,
       "micro_score": -0.1,
       "macro_score": -0.3,
-      "outcome_label": "SELL",
+      "outcome_label": "FLAT",
       "ret_overnight": 0.010535,
-      "is_correct": true,
+      "is_correct": null,
       "input_tokens": 22364,
       "latency_seconds": 56.41,
       "latency_source": "first_run_costs.jsonl",
@@ -3092,7 +3092,9 @@
       "cost_source": "api_cost_ledger.csv",
       "is_extension": false,
       "human_decision": "SELL",
-      "absent_fields": [],
+      "absent_fields": [
+        "is_correct: null \u2014 model HOLD/ungraded overnight (ret_overnight +1.05% inside \u00b12% band); outcome_label corrected to FLAT from 5-day calibration CSV value (forward_return -3.1% diverges from overnight)"
+      ],
       "evidence_quotes": [
         {
           "claim": "Revenue was \u20ac1,863.8 million, down 1.0% currency-adjusted and down 6.3% reported.",
