@@ -19,10 +19,12 @@ import math
 import sys
 from pathlib import Path
 
+import scipy
 import scipy.stats as scipy_stats
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATE = "2026-08-15"
+SCIPY_VERSION = scipy.__version__
 SUPPRESSION_N = 10
 GRADING_BAND = 0.02
 LLM_W_MICRO = 0.55
@@ -494,6 +496,7 @@ HEADER_COMMENTS = f"""# sector_analysis_{DATE}.csv
 #   calibration: mean(score) and mean(ret_overnight) per sector — systematic bias check
 #   dispersion: population std of score, plus HOLD rate (fraction with signal==HOLD)
 #   sell_buy_asymmetry: accuracy on BUY/SELL calls separately (n_correct/n_calls); base_rate = fraction of events with that outcome
+# scipy version: {SCIPY_VERSION} (spearman_p values depend on scipy version; rho values are version-independent)
 # IMPORTANT: all figures are PURELY DESCRIPTIVE. No significance claims are made. Per-sector n is too small for inference.
 """
 

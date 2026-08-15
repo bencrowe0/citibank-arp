@@ -38,320 +38,321 @@
 #   calibration: mean(score) and mean(ret_overnight) per sector — systematic bias check
 #   dispersion: population std of score, plus HOLD rate (fraction with signal==HOLD)
 #   sell_buy_asymmetry: accuracy on BUY/SELL calls separately (n_correct/n_calls); base_rate = fraction of events with that outcome
+# scipy version: 1.16.3 (spearman_p values depend on scipy version; rho values are version-independent)
 # IMPORTANT: all figures are PURELY DESCRIPTIVE. No significance claims are made. Per-sector n is too small for inference.
 sector,event_set,arm,cut,metric,n,value,suppressed,notes
-Communication Services,Set A,LLM,spearman_rho,rho,19,0.284836,False,
-Communication Services,Set A,LLM,spearman_rho,p_value,19,0.220514,False,
+Communication Services,Set A,LLM,spearman_rho,rho,19,0.28483643848761225,False,
+Communication Services,Set A,LLM,spearman_rho,p_value,19,0.23721896384991642,False,
 Communication Services,Set A,LLM,spearman_rho,n,19,19,False,
-Communication Services,Set A,LLM,calibration,mean_score,19,0.109079,False,
-Communication Services,Set A,LLM,calibration,mean_ret,19,0.00348995,False,
+Communication Services,Set A,LLM,calibration,mean_score,19,0.10907894736842107,False,
+Communication Services,Set A,LLM,calibration,mean_ret,19,0.003489947368421052,False,
 Communication Services,Set A,LLM,calibration,n,19,19,False,
-Communication Services,Set A,LLM,dispersion,score_std,19,0.176762,False,population std
-Communication Services,Set A,LLM,dispersion,hold_rate,19,0.421053,False,
+Communication Services,Set A,LLM,dispersion,score_std,19,0.17676219999270318,False,population std
+Communication Services,Set A,LLM,dispersion,hold_rate,19,0.42105263157894735,False,
 Communication Services,Set A,LLM,dispersion,n,19,19,False,
 Communication Services,Set A,LLM,sell_buy_asymmetry,buy_accuracy,5,,True,n_calls=5 < 10
 Communication Services,Set A,LLM,sell_buy_asymmetry,buy_n_calls,5,5,False,
-Communication Services,Set A,LLM,sell_buy_asymmetry,buy_base_rate,19,0.421053,False,
+Communication Services,Set A,LLM,sell_buy_asymmetry,buy_base_rate,19,0.42105263157894735,False,
 Communication Services,Set A,LLM,sell_buy_asymmetry,sell_accuracy,6,,True,n_calls=6 < 10
 Communication Services,Set A,LLM,sell_buy_asymmetry,sell_n_calls,6,6,False,
-Communication Services,Set A,LLM,sell_buy_asymmetry,sell_base_rate,19,0.526316,False,
-Consumer,Set A,LLM,spearman_rho,rho,82,0.255262,False,
-Consumer,Set A,LLM,spearman_rho,p_value,82,0.0182082,False,
+Communication Services,Set A,LLM,sell_buy_asymmetry,sell_base_rate,19,0.5263157894736842,False,
+Consumer,Set A,LLM,spearman_rho,rho,82,0.2552617173050675,False,
+Consumer,Set A,LLM,spearman_rho,p_value,82,0.020640760303751976,False,
 Consumer,Set A,LLM,spearman_rho,n,82,82,False,
-Consumer,Set A,LLM,calibration,mean_score,82,-0.0222256,False,
-Consumer,Set A,LLM,calibration,mean_ret,82,-0.0113421,False,
+Consumer,Set A,LLM,calibration,mean_score,82,-0.02222560975609756,False,
+Consumer,Set A,LLM,calibration,mean_ret,82,-0.011342146341463414,False,
 Consumer,Set A,LLM,calibration,n,82,82,False,
-Consumer,Set A,LLM,dispersion,score_std,82,0.266071,False,population std
-Consumer,Set A,LLM,dispersion,hold_rate,82,0.365854,False,
+Consumer,Set A,LLM,dispersion,score_std,82,0.266070664468073,False,population std
+Consumer,Set A,LLM,dispersion,hold_rate,82,0.36585365853658536,False,
 Consumer,Set A,LLM,dispersion,n,82,82,False,
-Consumer,Set A,LLM,sell_buy_asymmetry,buy_accuracy,13,0.384615,False,
+Consumer,Set A,LLM,sell_buy_asymmetry,buy_accuracy,13,0.38461538461538464,False,
 Consumer,Set A,LLM,sell_buy_asymmetry,buy_n_calls,13,13,False,
-Consumer,Set A,LLM,sell_buy_asymmetry,buy_base_rate,82,0.195122,False,
-Consumer,Set A,LLM,sell_buy_asymmetry,sell_accuracy,39,0.461538,False,
+Consumer,Set A,LLM,sell_buy_asymmetry,buy_base_rate,82,0.1951219512195122,False,
+Consumer,Set A,LLM,sell_buy_asymmetry,sell_accuracy,39,0.46153846153846156,False,
 Consumer,Set A,LLM,sell_buy_asymmetry,sell_n_calls,39,39,False,
-Consumer,Set A,LLM,sell_buy_asymmetry,sell_base_rate,82,0.378049,False,
-Consumer,Set B,LLM,spearman_rho,rho,26,0.118734,False,
-Consumer,Set B,LLM,spearman_rho,p_value,26,0.557997,False,
-Consumer,Set B,LLM,spearman_rho,n,26,26,False,
-Consumer,Set B,FinBERT,spearman_rho,rho,26,-0.111111,False,
-Consumer,Set B,FinBERT,spearman_rho,p_value,26,0.583882,False,
-Consumer,Set B,FinBERT,spearman_rho,n,26,26,False,
-Consumer,Set B,LLM,calibration,mean_score,26,0.0130769,False,
-Consumer,Set B,LLM,calibration,mean_ret,26,-0.00112592,False,
-Consumer,Set B,LLM,calibration,n,26,26,False,
-Consumer,Set B,FinBERT,calibration,mean_score,26,0.169209,False,
-Consumer,Set B,FinBERT,calibration,mean_ret,26,-0.00112592,False,
-Consumer,Set B,FinBERT,calibration,n,26,26,False,
-Consumer,Set B,LLM,dispersion,score_std,26,0.168366,False,population std
-Consumer,Set B,LLM,dispersion,hold_rate,26,0.615385,False,
-Consumer,Set B,LLM,dispersion,n,26,26,False,
-Consumer,Set B,FinBERT,dispersion,score_std,26,0.157913,False,population std
-Consumer,Set B,FinBERT,dispersion,hold_rate,26,0.384615,False,
-Consumer,Set B,FinBERT,dispersion,n,26,26,False,
-Consumer,Set B,LLM,sell_buy_asymmetry,buy_accuracy,1,,True,n_calls=1 < 10
-Consumer,Set B,LLM,sell_buy_asymmetry,buy_n_calls,1,1,False,
-Consumer,Set B,LLM,sell_buy_asymmetry,buy_base_rate,26,0.230769,False,
-Consumer,Set B,LLM,sell_buy_asymmetry,sell_accuracy,9,,True,n_calls=9 < 10
-Consumer,Set B,LLM,sell_buy_asymmetry,sell_n_calls,9,9,False,
-Consumer,Set B,LLM,sell_buy_asymmetry,sell_base_rate,26,0.192308,False,
-Consumer,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,15,0.2,False,
-Consumer,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,15,15,False,
-Consumer,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,26,0.230769,False,
-Consumer,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
-Consumer,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,1,1,False,
-Consumer,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,26,0.192308,False,
-Energy,Set B,LLM,spearman_rho,rho,21,0.237374,False,
-Energy,Set B,LLM,spearman_rho,p_value,21,0.286817,False,
-Energy,Set B,LLM,spearman_rho,n,21,21,False,
-Energy,Set B,FinBERT,spearman_rho,rho,21,-0.11039,False,
-Energy,Set B,FinBERT,spearman_rho,p_value,21,0.628289,False,
-Energy,Set B,FinBERT,spearman_rho,n,21,21,False,
-Energy,Set B,LLM,calibration,mean_score,21,0.180357,False,
-Energy,Set B,LLM,calibration,mean_ret,21,0.00141429,False,
-Energy,Set B,LLM,calibration,n,21,21,False,
-Energy,Set B,FinBERT,calibration,mean_score,21,0.130565,False,
-Energy,Set B,FinBERT,calibration,mean_ret,21,0.00141429,False,
-Energy,Set B,FinBERT,calibration,n,21,21,False,
-Energy,Set B,LLM,dispersion,score_std,21,0.102555,False,population std
-Energy,Set B,LLM,dispersion,hold_rate,21,0.857143,False,
-Energy,Set B,LLM,dispersion,n,21,21,False,
-Energy,Set B,FinBERT,dispersion,score_std,21,0.0499634,False,population std
-Energy,Set B,FinBERT,dispersion,hold_rate,21,0.190476,False,
-Energy,Set B,FinBERT,dispersion,n,21,21,False,
-Energy,Set B,LLM,sell_buy_asymmetry,buy_accuracy,3,,True,n_calls=3 < 10
-Energy,Set B,LLM,sell_buy_asymmetry,buy_n_calls,3,3,False,
-Energy,Set B,LLM,sell_buy_asymmetry,buy_base_rate,21,0.047619,False,
-Energy,Set B,LLM,sell_buy_asymmetry,sell_accuracy,0,,True,n_calls=0 < 10
-Energy,Set B,LLM,sell_buy_asymmetry,sell_n_calls,0,0,False,
-Energy,Set B,LLM,sell_buy_asymmetry,sell_base_rate,21,0,False,
-Energy,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,17,0.0588235,False,
-Energy,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,17,17,False,
-Energy,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,21,0.047619,False,
-Energy,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,0,,True,n_calls=0 < 10
-Energy,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,0,0,False,
-Energy,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,21,0,False,
-Financials,Set A,LLM,spearman_rho,rho,49,0.132642,False,
-Financials,Set A,LLM,spearman_rho,p_value,49,0.358905,False,
+Consumer,Set A,LLM,sell_buy_asymmetry,sell_base_rate,82,0.3780487804878049,False,
+Financials,Set A,LLM,spearman_rho,rho,49,0.1326418111518028,False,
+Financials,Set A,LLM,spearman_rho,p_value,49,0.3635893991096688,False,
 Financials,Set A,LLM,spearman_rho,n,49,49,False,
-Financials,Set A,LLM,calibration,mean_score,49,0.133214,False,
-Financials,Set A,LLM,calibration,mean_ret,49,8.62041e-05,False,
+Financials,Set A,LLM,calibration,mean_score,49,0.13321428571428573,False,
+Financials,Set A,LLM,calibration,mean_ret,49,8.620408163265276e-05,False,
 Financials,Set A,LLM,calibration,n,49,49,False,
-Financials,Set A,LLM,dispersion,score_std,49,0.184477,False,population std
-Financials,Set A,LLM,dispersion,hold_rate,49,0.428571,False,
+Financials,Set A,LLM,dispersion,score_std,49,0.1844766452780981,False,population std
+Financials,Set A,LLM,dispersion,hold_rate,49,0.42857142857142855,False,
 Financials,Set A,LLM,dispersion,n,49,49,False,
 Financials,Set A,LLM,sell_buy_asymmetry,buy_accuracy,15,0.2,False,
 Financials,Set A,LLM,sell_buy_asymmetry,buy_n_calls,15,15,False,
-Financials,Set A,LLM,sell_buy_asymmetry,buy_base_rate,49,0.244898,False,
-Financials,Set A,LLM,sell_buy_asymmetry,sell_accuracy,13,0.384615,False,
+Financials,Set A,LLM,sell_buy_asymmetry,buy_base_rate,49,0.24489795918367346,False,
+Financials,Set A,LLM,sell_buy_asymmetry,sell_accuracy,13,0.38461538461538464,False,
 Financials,Set A,LLM,sell_buy_asymmetry,sell_n_calls,13,13,False,
-Financials,Set A,LLM,sell_buy_asymmetry,sell_base_rate,49,0.204082,False,
+Financials,Set A,LLM,sell_buy_asymmetry,sell_base_rate,49,0.20408163265306123,False,
+Healthcare,Set A,LLM,spearman_rho,rho,18,0.4223025859625458,False,
+Healthcare,Set A,LLM,spearman_rho,p_value,18,0.08084575285331973,False,
+Healthcare,Set A,LLM,spearman_rho,n,18,18,False,
+Healthcare,Set A,LLM,calibration,mean_score,18,0.04222222222222223,False,
+Healthcare,Set A,LLM,calibration,mean_ret,18,-0.004083666666666667,False,
+Healthcare,Set A,LLM,calibration,n,18,18,False,
+Healthcare,Set A,LLM,dispersion,score_std,18,0.23742380194158097,False,population std
+Healthcare,Set A,LLM,dispersion,hold_rate,18,0.3888888888888889,False,
+Healthcare,Set A,LLM,dispersion,n,18,18,False,
+Healthcare,Set A,LLM,sell_buy_asymmetry,buy_accuracy,4,,True,n_calls=4 < 10
+Healthcare,Set A,LLM,sell_buy_asymmetry,buy_n_calls,4,4,False,
+Healthcare,Set A,LLM,sell_buy_asymmetry,buy_base_rate,18,0.3333333333333333,False,
+Healthcare,Set A,LLM,sell_buy_asymmetry,sell_accuracy,7,,True,n_calls=7 < 10
+Healthcare,Set A,LLM,sell_buy_asymmetry,sell_n_calls,7,7,False,
+Healthcare,Set A,LLM,sell_buy_asymmetry,sell_base_rate,18,0.3333333333333333,False,
+Industrials,Set A,LLM,spearman_rho,rho,26,0.013009255607535424,False,
+Industrials,Set A,LLM,spearman_rho,p_value,26,0.9497071685613887,False,
+Industrials,Set A,LLM,spearman_rho,n,26,26,False,
+Industrials,Set A,LLM,calibration,mean_score,26,0.14250000000000002,False,
+Industrials,Set A,LLM,calibration,mean_ret,26,0.013415576923076922,False,
+Industrials,Set A,LLM,calibration,n,26,26,False,
+Industrials,Set A,LLM,dispersion,score_std,26,0.234872101038318,False,population std
+Industrials,Set A,LLM,dispersion,hold_rate,26,0.34615384615384615,False,
+Industrials,Set A,LLM,dispersion,n,26,26,False,
+Industrials,Set A,LLM,sell_buy_asymmetry,buy_accuracy,11,0.5454545454545454,False,
+Industrials,Set A,LLM,sell_buy_asymmetry,buy_n_calls,11,11,False,
+Industrials,Set A,LLM,sell_buy_asymmetry,buy_base_rate,26,0.4230769230769231,False,
+Industrials,Set A,LLM,sell_buy_asymmetry,sell_accuracy,6,,True,n_calls=6 < 10
+Industrials,Set A,LLM,sell_buy_asymmetry,sell_n_calls,6,6,False,
+Industrials,Set A,LLM,sell_buy_asymmetry,sell_base_rate,26,0.23076923076923078,False,
+Materials,Set A,LLM,spearman_rho,rho,3,,True,n=3 < 10
+Materials,Set A,LLM,spearman_rho,p_value,3,,True,n=3 < 10
+Materials,Set A,LLM,spearman_rho,n,3,3,False,n=3 < 10
+Materials,Set A,LLM,calibration,mean_score,3,-0.07666666666666667,False,
+Materials,Set A,LLM,calibration,mean_ret,3,-0.003728,False,
+Materials,Set A,LLM,calibration,n,3,3,False,
+Materials,Set A,LLM,dispersion,score_std,3,0.12657891697365017,False,population std
+Materials,Set A,LLM,dispersion,hold_rate,3,0.3333333333333333,False,
+Materials,Set A,LLM,dispersion,n,3,3,False,
+Materials,Set A,LLM,sell_buy_asymmetry,buy_accuracy,0,,True,n_calls=0 < 10
+Materials,Set A,LLM,sell_buy_asymmetry,buy_n_calls,0,0,False,
+Materials,Set A,LLM,sell_buy_asymmetry,buy_base_rate,3,0.0,False,
+Materials,Set A,LLM,sell_buy_asymmetry,sell_accuracy,2,,True,n_calls=2 < 10
+Materials,Set A,LLM,sell_buy_asymmetry,sell_n_calls,2,2,False,
+Materials,Set A,LLM,sell_buy_asymmetry,sell_base_rate,3,0.0,False,
+Technology,Set A,LLM,spearman_rho,rho,36,0.26769875995460035,False,
+Technology,Set A,LLM,spearman_rho,p_value,36,0.1144575186159548,False,
+Technology,Set A,LLM,spearman_rho,n,36,36,False,
+Technology,Set A,LLM,calibration,mean_score,36,0.26958333333333334,False,
+Technology,Set A,LLM,calibration,mean_ret,36,0.005329916666666667,False,
+Technology,Set A,LLM,calibration,n,36,36,False,
+Technology,Set A,LLM,dispersion,score_std,36,0.15329766342352097,False,population std
+Technology,Set A,LLM,dispersion,hold_rate,36,0.3055555555555556,False,
+Technology,Set A,LLM,dispersion,n,36,36,False,
+Technology,Set A,LLM,sell_buy_asymmetry,buy_accuracy,24,0.5,False,
+Technology,Set A,LLM,sell_buy_asymmetry,buy_n_calls,24,24,False,
+Technology,Set A,LLM,sell_buy_asymmetry,buy_base_rate,36,0.3888888888888889,False,
+Technology,Set A,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
+Technology,Set A,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
+Technology,Set A,LLM,sell_buy_asymmetry,sell_base_rate,36,0.4722222222222222,False,
+Consumer,Set B,LLM,spearman_rho,rho,26,0.11873400409276491,False,
+Consumer,Set B,LLM,spearman_rho,p_value,26,0.563465829075565,False,
+Consumer,Set B,LLM,spearman_rho,n,26,26,False,
+Consumer,Set B,LLM,calibration,mean_score,26,0.013076923076923078,False,
+Consumer,Set B,LLM,calibration,mean_ret,26,-0.0011259230769230773,False,
+Consumer,Set B,LLM,calibration,n,26,26,False,
+Consumer,Set B,LLM,dispersion,score_std,26,0.16836645542865558,False,population std
+Consumer,Set B,LLM,dispersion,hold_rate,26,0.6153846153846154,False,
+Consumer,Set B,LLM,dispersion,n,26,26,False,
+Consumer,Set B,LLM,sell_buy_asymmetry,buy_accuracy,1,,True,n_calls=1 < 10
+Consumer,Set B,LLM,sell_buy_asymmetry,buy_n_calls,1,1,False,
+Consumer,Set B,LLM,sell_buy_asymmetry,buy_base_rate,26,0.23076923076923078,False,
+Consumer,Set B,LLM,sell_buy_asymmetry,sell_accuracy,9,,True,n_calls=9 < 10
+Consumer,Set B,LLM,sell_buy_asymmetry,sell_n_calls,9,9,False,
+Consumer,Set B,LLM,sell_buy_asymmetry,sell_base_rate,26,0.19230769230769232,False,
+Energy,Set B,LLM,spearman_rho,rho,21,0.2373736012199155,False,
+Energy,Set B,LLM,spearman_rho,p_value,21,0.30016608479820855,False,
+Energy,Set B,LLM,spearman_rho,n,21,21,False,
+Energy,Set B,LLM,calibration,mean_score,21,0.18035714285714285,False,
+Energy,Set B,LLM,calibration,mean_ret,21,0.0014142857142857143,False,
+Energy,Set B,LLM,calibration,n,21,21,False,
+Energy,Set B,LLM,dispersion,score_std,21,0.10255453170284147,False,population std
+Energy,Set B,LLM,dispersion,hold_rate,21,0.8571428571428571,False,
+Energy,Set B,LLM,dispersion,n,21,21,False,
+Energy,Set B,LLM,sell_buy_asymmetry,buy_accuracy,3,,True,n_calls=3 < 10
+Energy,Set B,LLM,sell_buy_asymmetry,buy_n_calls,3,3,False,
+Energy,Set B,LLM,sell_buy_asymmetry,buy_base_rate,21,0.047619047619047616,False,
+Energy,Set B,LLM,sell_buy_asymmetry,sell_accuracy,0,,True,n_calls=0 < 10
+Energy,Set B,LLM,sell_buy_asymmetry,sell_n_calls,0,0,False,
+Energy,Set B,LLM,sell_buy_asymmetry,sell_base_rate,21,0.0,False,
 Financials,Set B,LLM,spearman_rho,rho,8,,True,n=8 < 10
 Financials,Set B,LLM,spearman_rho,p_value,8,,True,n=8 < 10
-Financials,Set B,LLM,spearman_rho,n,8,8,False,
-Financials,Set B,FinBERT,spearman_rho,rho,8,,True,n=8 < 10
-Financials,Set B,FinBERT,spearman_rho,p_value,8,,True,n=8 < 10
-Financials,Set B,FinBERT,spearman_rho,n,8,8,False,
-Financials,Set B,LLM,calibration,mean_score,8,0.180313,False,
-Financials,Set B,LLM,calibration,mean_ret,8,-0.000275,False,
+Financials,Set B,LLM,spearman_rho,n,8,8,False,n=8 < 10
+Financials,Set B,LLM,calibration,mean_score,8,0.18031250000000001,False,
+Financials,Set B,LLM,calibration,mean_ret,8,-0.00027500000000000034,False,
 Financials,Set B,LLM,calibration,n,8,8,False,
-Financials,Set B,FinBERT,calibration,mean_score,8,0.279725,False,
-Financials,Set B,FinBERT,calibration,mean_ret,8,-0.000275,False,
-Financials,Set B,FinBERT,calibration,n,8,8,False,
-Financials,Set B,LLM,dispersion,score_std,8,0.154543,False,population std
+Financials,Set B,LLM,dispersion,score_std,8,0.1545428616719323,False,population std
 Financials,Set B,LLM,dispersion,hold_rate,8,0.625,False,
 Financials,Set B,LLM,dispersion,n,8,8,False,
-Financials,Set B,FinBERT,dispersion,score_std,8,0.0777524,False,population std
-Financials,Set B,FinBERT,dispersion,hold_rate,8,0,False,
-Financials,Set B,FinBERT,dispersion,n,8,8,False,
 Financials,Set B,LLM,sell_buy_asymmetry,buy_accuracy,2,,True,n_calls=2 < 10
 Financials,Set B,LLM,sell_buy_asymmetry,buy_n_calls,2,2,False,
 Financials,Set B,LLM,sell_buy_asymmetry,buy_base_rate,8,0.125,False,
 Financials,Set B,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
 Financials,Set B,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
 Financials,Set B,LLM,sell_buy_asymmetry,sell_base_rate,8,0.125,False,
+Industrials,Set B,LLM,spearman_rho,rho,4,,True,n=4 < 10
+Industrials,Set B,LLM,spearman_rho,p_value,4,,True,n=4 < 10
+Industrials,Set B,LLM,spearman_rho,n,4,4,False,n=4 < 10
+Industrials,Set B,LLM,calibration,mean_score,4,0.0006249999999999971,False,
+Industrials,Set B,LLM,calibration,mean_ret,4,0.0009250000000000003,False,
+Industrials,Set B,LLM,calibration,n,4,4,False,
+Industrials,Set B,LLM,dispersion,score_std,4,0.051154636886601004,False,population std
+Industrials,Set B,LLM,dispersion,hold_rate,4,0.75,False,
+Industrials,Set B,LLM,dispersion,n,4,4,False,
+Industrials,Set B,LLM,sell_buy_asymmetry,buy_accuracy,0,,True,n_calls=0 < 10
+Industrials,Set B,LLM,sell_buy_asymmetry,buy_n_calls,0,0,False,
+Industrials,Set B,LLM,sell_buy_asymmetry,buy_base_rate,4,0.0,False,
+Industrials,Set B,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
+Industrials,Set B,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
+Industrials,Set B,LLM,sell_buy_asymmetry,sell_base_rate,4,0.0,False,
+Materials,Set B,LLM,spearman_rho,rho,3,,True,n=3 < 10
+Materials,Set B,LLM,spearman_rho,p_value,3,,True,n=3 < 10
+Materials,Set B,LLM,spearman_rho,n,3,3,False,n=3 < 10
+Materials,Set B,LLM,calibration,mean_score,3,0.016666666666666663,False,
+Materials,Set B,LLM,calibration,mean_ret,3,-0.04546666666666666,False,
+Materials,Set B,LLM,calibration,n,3,3,False,
+Materials,Set B,LLM,dispersion,score_std,3,0.30214051182999097,False,population std
+Materials,Set B,LLM,dispersion,hold_rate,3,0.6666666666666666,False,
+Materials,Set B,LLM,dispersion,n,3,3,False,
+Materials,Set B,LLM,sell_buy_asymmetry,buy_accuracy,0,,True,n_calls=0 < 10
+Materials,Set B,LLM,sell_buy_asymmetry,buy_n_calls,0,0,False,
+Materials,Set B,LLM,sell_buy_asymmetry,buy_base_rate,3,0.0,False,
+Materials,Set B,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
+Materials,Set B,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
+Materials,Set B,LLM,sell_buy_asymmetry,sell_base_rate,3,0.6666666666666666,False,
+Technology,Set B,LLM,spearman_rho,rho,18,0.44857935049530684,False,
+Technology,Set B,LLM,spearman_rho,p_value,18,0.06187680734786981,False,
+Technology,Set B,LLM,spearman_rho,n,18,18,False,
+Technology,Set B,LLM,calibration,mean_score,18,0.17069444444444445,False,
+Technology,Set B,LLM,calibration,mean_ret,18,0.026827777777777773,False,
+Technology,Set B,LLM,calibration,n,18,18,False,
+Technology,Set B,LLM,dispersion,score_std,18,0.14396615525193654,False,population std
+Technology,Set B,LLM,dispersion,hold_rate,18,0.5555555555555556,False,
+Technology,Set B,LLM,dispersion,n,18,18,False,
+Technology,Set B,LLM,sell_buy_asymmetry,buy_accuracy,7,,True,n_calls=7 < 10
+Technology,Set B,LLM,sell_buy_asymmetry,buy_n_calls,7,7,False,
+Technology,Set B,LLM,sell_buy_asymmetry,buy_base_rate,18,0.4444444444444444,False,
+Technology,Set B,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
+Technology,Set B,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
+Technology,Set B,LLM,sell_buy_asymmetry,sell_base_rate,18,0.3888888888888889,False,
+Utilities,Set B,LLM,spearman_rho,rho,13,-0.12396741254637944,False,
+Utilities,Set B,LLM,spearman_rho,p_value,13,0.6865831091447772,False,
+Utilities,Set B,LLM,spearman_rho,n,13,13,False,
+Utilities,Set B,LLM,calibration,mean_score,13,0.14038461538461539,False,
+Utilities,Set B,LLM,calibration,mean_ret,13,0.002053846153846154,False,
+Utilities,Set B,LLM,calibration,n,13,13,False,
+Utilities,Set B,LLM,dispersion,score_std,13,0.16582209580035256,False,population std
+Utilities,Set B,LLM,dispersion,hold_rate,13,0.5384615384615384,False,
+Utilities,Set B,LLM,dispersion,n,13,13,False,
+Utilities,Set B,LLM,sell_buy_asymmetry,buy_accuracy,4,,True,n_calls=4 < 10
+Utilities,Set B,LLM,sell_buy_asymmetry,buy_n_calls,4,4,False,
+Utilities,Set B,LLM,sell_buy_asymmetry,buy_base_rate,13,0.0,False,
+Utilities,Set B,LLM,sell_buy_asymmetry,sell_accuracy,2,,True,n_calls=2 < 10
+Utilities,Set B,LLM,sell_buy_asymmetry,sell_n_calls,2,2,False,
+Utilities,Set B,LLM,sell_buy_asymmetry,sell_base_rate,13,0.0,False,
+Consumer,Set B,FinBERT,spearman_rho,rho,26,-0.11111111111111109,False,
+Consumer,Set B,FinBERT,spearman_rho,p_value,26,0.5889406689905491,False,
+Consumer,Set B,FinBERT,spearman_rho,n,26,26,False,
+Consumer,Set B,FinBERT,calibration,mean_score,26,0.16920857692307692,False,
+Consumer,Set B,FinBERT,calibration,mean_ret,26,-0.0011259230769230773,False,
+Consumer,Set B,FinBERT,calibration,n,26,26,False,
+Consumer,Set B,FinBERT,dispersion,score_std,26,0.15791268032710432,False,population std
+Consumer,Set B,FinBERT,dispersion,hold_rate,26,0.38461538461538464,False,
+Consumer,Set B,FinBERT,dispersion,n,26,26,False,
+Consumer,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,15,0.2,False,
+Consumer,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,15,15,False,
+Consumer,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,26,0.23076923076923078,False,
+Consumer,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
+Consumer,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,1,1,False,
+Consumer,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,26,0.19230769230769232,False,
+Energy,Set B,FinBERT,spearman_rho,rho,21,-0.11038961038961038,False,
+Energy,Set B,FinBERT,spearman_rho,p_value,21,0.6338228017857541,False,
+Energy,Set B,FinBERT,spearman_rho,n,21,21,False,
+Energy,Set B,FinBERT,calibration,mean_score,21,0.13056528571428572,False,
+Energy,Set B,FinBERT,calibration,mean_ret,21,0.0014142857142857143,False,
+Energy,Set B,FinBERT,calibration,n,21,21,False,
+Energy,Set B,FinBERT,dispersion,score_std,21,0.049963407462378914,False,population std
+Energy,Set B,FinBERT,dispersion,hold_rate,21,0.19047619047619047,False,
+Energy,Set B,FinBERT,dispersion,n,21,21,False,
+Energy,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,17,0.058823529411764705,False,
+Energy,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,17,17,False,
+Energy,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,21,0.047619047619047616,False,
+Energy,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,0,,True,n_calls=0 < 10
+Energy,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,0,0,False,
+Energy,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,21,0.0,False,
+Financials,Set B,FinBERT,spearman_rho,rho,8,,True,n=8 < 10
+Financials,Set B,FinBERT,spearman_rho,p_value,8,,True,n=8 < 10
+Financials,Set B,FinBERT,spearman_rho,n,8,8,False,n=8 < 10
+Financials,Set B,FinBERT,calibration,mean_score,8,0.27972475,False,
+Financials,Set B,FinBERT,calibration,mean_ret,8,-0.00027500000000000034,False,
+Financials,Set B,FinBERT,calibration,n,8,8,False,
+Financials,Set B,FinBERT,dispersion,score_std,8,0.07775235672272254,False,population std
+Financials,Set B,FinBERT,dispersion,hold_rate,8,0.0,False,
+Financials,Set B,FinBERT,dispersion,n,8,8,False,
 Financials,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,8,,True,n_calls=8 < 10
 Financials,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,8,8,False,
 Financials,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,8,0.125,False,
 Financials,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,0,,True,n_calls=0 < 10
 Financials,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,0,0,False,
 Financials,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,8,0.125,False,
-Healthcare,Set A,LLM,spearman_rho,rho,18,0.422303,False,
-Healthcare,Set A,LLM,spearman_rho,p_value,18,0.0623871,False,
-Healthcare,Set A,LLM,spearman_rho,n,18,18,False,
-Healthcare,Set A,LLM,calibration,mean_score,18,0.0422222,False,
-Healthcare,Set A,LLM,calibration,mean_ret,18,-0.00408367,False,
-Healthcare,Set A,LLM,calibration,n,18,18,False,
-Healthcare,Set A,LLM,dispersion,score_std,18,0.237424,False,population std
-Healthcare,Set A,LLM,dispersion,hold_rate,18,0.388889,False,
-Healthcare,Set A,LLM,dispersion,n,18,18,False,
-Healthcare,Set A,LLM,sell_buy_asymmetry,buy_accuracy,4,,True,n_calls=4 < 10
-Healthcare,Set A,LLM,sell_buy_asymmetry,buy_n_calls,4,4,False,
-Healthcare,Set A,LLM,sell_buy_asymmetry,buy_base_rate,18,0.333333,False,
-Healthcare,Set A,LLM,sell_buy_asymmetry,sell_accuracy,7,,True,n_calls=7 < 10
-Healthcare,Set A,LLM,sell_buy_asymmetry,sell_n_calls,7,7,False,
-Healthcare,Set A,LLM,sell_buy_asymmetry,sell_base_rate,18,0.333333,False,
-Industrials,Set A,LLM,spearman_rho,rho,26,0.0130093,False,
-Industrials,Set A,LLM,spearman_rho,p_value,26,0.949179,False,
-Industrials,Set A,LLM,spearman_rho,n,26,26,False,
-Industrials,Set A,LLM,calibration,mean_score,26,0.1425,False,
-Industrials,Set A,LLM,calibration,mean_ret,26,0.0134156,False,
-Industrials,Set A,LLM,calibration,n,26,26,False,
-Industrials,Set A,LLM,dispersion,score_std,26,0.234872,False,population std
-Industrials,Set A,LLM,dispersion,hold_rate,26,0.346154,False,
-Industrials,Set A,LLM,dispersion,n,26,26,False,
-Industrials,Set A,LLM,sell_buy_asymmetry,buy_accuracy,11,0.545455,False,
-Industrials,Set A,LLM,sell_buy_asymmetry,buy_n_calls,11,11,False,
-Industrials,Set A,LLM,sell_buy_asymmetry,buy_base_rate,26,0.423077,False,
-Industrials,Set A,LLM,sell_buy_asymmetry,sell_accuracy,6,,True,n_calls=6 < 10
-Industrials,Set A,LLM,sell_buy_asymmetry,sell_n_calls,6,6,False,
-Industrials,Set A,LLM,sell_buy_asymmetry,sell_base_rate,26,0.230769,False,
-Industrials,Set B,LLM,spearman_rho,rho,4,,True,n=4 < 10
-Industrials,Set B,LLM,spearman_rho,p_value,4,,True,n=4 < 10
-Industrials,Set B,LLM,spearman_rho,n,4,4,False,
 Industrials,Set B,FinBERT,spearman_rho,rho,4,,True,n=4 < 10
 Industrials,Set B,FinBERT,spearman_rho,p_value,4,,True,n=4 < 10
-Industrials,Set B,FinBERT,spearman_rho,n,4,4,False,
-Industrials,Set B,LLM,calibration,mean_score,4,0.000625,False,
-Industrials,Set B,LLM,calibration,mean_ret,4,0.000925,False,
-Industrials,Set B,LLM,calibration,n,4,4,False,
-Industrials,Set B,FinBERT,calibration,mean_score,4,0.190907,False,
-Industrials,Set B,FinBERT,calibration,mean_ret,4,0.000925,False,
+Industrials,Set B,FinBERT,spearman_rho,n,4,4,False,n=4 < 10
+Industrials,Set B,FinBERT,calibration,mean_score,4,0.19090675000000001,False,
+Industrials,Set B,FinBERT,calibration,mean_ret,4,0.0009250000000000003,False,
 Industrials,Set B,FinBERT,calibration,n,4,4,False,
-Industrials,Set B,LLM,dispersion,score_std,4,0.0511546,False,population std
-Industrials,Set B,LLM,dispersion,hold_rate,4,0.75,False,
-Industrials,Set B,LLM,dispersion,n,4,4,False,
-Industrials,Set B,FinBERT,dispersion,score_std,4,0.0768881,False,population std
-Industrials,Set B,FinBERT,dispersion,hold_rate,4,0,False,
+Industrials,Set B,FinBERT,dispersion,score_std,4,0.07688811109454764,False,population std
+Industrials,Set B,FinBERT,dispersion,hold_rate,4,0.0,False,
 Industrials,Set B,FinBERT,dispersion,n,4,4,False,
-Industrials,Set B,LLM,sell_buy_asymmetry,buy_accuracy,0,,True,n_calls=0 < 10
-Industrials,Set B,LLM,sell_buy_asymmetry,buy_n_calls,0,0,False,
-Industrials,Set B,LLM,sell_buy_asymmetry,buy_base_rate,4,0,False,
-Industrials,Set B,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
-Industrials,Set B,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
-Industrials,Set B,LLM,sell_buy_asymmetry,sell_base_rate,4,0,False,
 Industrials,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,4,,True,n_calls=4 < 10
 Industrials,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,4,4,False,
-Industrials,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,4,0,False,
+Industrials,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,4,0.0,False,
 Industrials,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,0,,True,n_calls=0 < 10
 Industrials,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,0,0,False,
-Industrials,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,4,0,False,
-Materials,Set A,LLM,spearman_rho,rho,3,,True,n=3 < 10
-Materials,Set A,LLM,spearman_rho,p_value,3,,True,n=3 < 10
-Materials,Set A,LLM,spearman_rho,n,3,3,False,
-Materials,Set A,LLM,calibration,mean_score,3,-0.0766667,False,
-Materials,Set A,LLM,calibration,mean_ret,3,-0.003728,False,
-Materials,Set A,LLM,calibration,n,3,3,False,
-Materials,Set A,LLM,dispersion,score_std,3,0.126579,False,population std
-Materials,Set A,LLM,dispersion,hold_rate,3,0.333333,False,
-Materials,Set A,LLM,dispersion,n,3,3,False,
-Materials,Set A,LLM,sell_buy_asymmetry,buy_accuracy,0,,True,n_calls=0 < 10
-Materials,Set A,LLM,sell_buy_asymmetry,buy_n_calls,0,0,False,
-Materials,Set A,LLM,sell_buy_asymmetry,buy_base_rate,3,0,False,
-Materials,Set A,LLM,sell_buy_asymmetry,sell_accuracy,2,,True,n_calls=2 < 10
-Materials,Set A,LLM,sell_buy_asymmetry,sell_n_calls,2,2,False,
-Materials,Set A,LLM,sell_buy_asymmetry,sell_base_rate,3,0,False,
-Materials,Set B,LLM,spearman_rho,rho,3,,True,n=3 < 10
-Materials,Set B,LLM,spearman_rho,p_value,3,,True,n=3 < 10
-Materials,Set B,LLM,spearman_rho,n,3,3,False,
+Industrials,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,4,0.0,False,
 Materials,Set B,FinBERT,spearman_rho,rho,3,,True,n=3 < 10
 Materials,Set B,FinBERT,spearman_rho,p_value,3,,True,n=3 < 10
-Materials,Set B,FinBERT,spearman_rho,n,3,3,False,
-Materials,Set B,LLM,calibration,mean_score,3,0.0166667,False,
-Materials,Set B,LLM,calibration,mean_ret,3,-0.0454667,False,
-Materials,Set B,LLM,calibration,n,3,3,False,
-Materials,Set B,FinBERT,calibration,mean_score,3,0.130491,False,
-Materials,Set B,FinBERT,calibration,mean_ret,3,-0.0454667,False,
+Materials,Set B,FinBERT,spearman_rho,n,3,3,False,n=3 < 10
+Materials,Set B,FinBERT,calibration,mean_score,3,0.13049066666666667,False,
+Materials,Set B,FinBERT,calibration,mean_ret,3,-0.04546666666666666,False,
 Materials,Set B,FinBERT,calibration,n,3,3,False,
-Materials,Set B,LLM,dispersion,score_std,3,0.302141,False,population std
-Materials,Set B,LLM,dispersion,hold_rate,3,0.666667,False,
-Materials,Set B,LLM,dispersion,n,3,3,False,
-Materials,Set B,FinBERT,dispersion,score_std,3,0.0260925,False,population std
-Materials,Set B,FinBERT,dispersion,hold_rate,3,0,False,
+Materials,Set B,FinBERT,dispersion,score_std,3,0.026092542617043323,False,population std
+Materials,Set B,FinBERT,dispersion,hold_rate,3,0.0,False,
 Materials,Set B,FinBERT,dispersion,n,3,3,False,
-Materials,Set B,LLM,sell_buy_asymmetry,buy_accuracy,0,,True,n_calls=0 < 10
-Materials,Set B,LLM,sell_buy_asymmetry,buy_n_calls,0,0,False,
-Materials,Set B,LLM,sell_buy_asymmetry,buy_base_rate,3,0,False,
-Materials,Set B,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
-Materials,Set B,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
-Materials,Set B,LLM,sell_buy_asymmetry,sell_base_rate,3,0.666667,False,
 Materials,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,3,,True,n_calls=3 < 10
 Materials,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,3,3,False,
-Materials,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,3,0,False,
+Materials,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,3,0.0,False,
 Materials,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,0,,True,n_calls=0 < 10
 Materials,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,0,0,False,
-Materials,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,3,0.666667,False,
-Technology,Set A,LLM,spearman_rho,rho,36,0.267699,False,
-Technology,Set A,LLM,spearman_rho,p_value,36,0.105218,False,
-Technology,Set A,LLM,spearman_rho,n,36,36,False,
-Technology,Set A,LLM,calibration,mean_score,36,0.269583,False,
-Technology,Set A,LLM,calibration,mean_ret,36,0.00532992,False,
-Technology,Set A,LLM,calibration,n,36,36,False,
-Technology,Set A,LLM,dispersion,score_std,36,0.153298,False,population std
-Technology,Set A,LLM,dispersion,hold_rate,36,0.305556,False,
-Technology,Set A,LLM,dispersion,n,36,36,False,
-Technology,Set A,LLM,sell_buy_asymmetry,buy_accuracy,24,0.5,False,
-Technology,Set A,LLM,sell_buy_asymmetry,buy_n_calls,24,24,False,
-Technology,Set A,LLM,sell_buy_asymmetry,buy_base_rate,36,0.388889,False,
-Technology,Set A,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
-Technology,Set A,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
-Technology,Set A,LLM,sell_buy_asymmetry,sell_base_rate,36,0.472222,False,
-Technology,Set B,LLM,spearman_rho,rho,18,0.448579,False,
-Technology,Set B,LLM,spearman_rho,p_value,18,0.0446812,False,
-Technology,Set B,LLM,spearman_rho,n,18,18,False,
-Technology,Set B,FinBERT,spearman_rho,rho,18,-0.0505676,False,
-Technology,Set B,FinBERT,spearman_rho,p_value,18,0.839503,False,
+Materials,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,3,0.6666666666666666,False,
+Technology,Set B,FinBERT,spearman_rho,rho,18,-0.05056759545923632,False,
+Technology,Set B,FinBERT,spearman_rho,p_value,18,0.8420557303322881,False,
 Technology,Set B,FinBERT,spearman_rho,n,18,18,False,
-Technology,Set B,LLM,calibration,mean_score,18,0.170694,False,
-Technology,Set B,LLM,calibration,mean_ret,18,0.0268278,False,
-Technology,Set B,LLM,calibration,n,18,18,False,
-Technology,Set B,FinBERT,calibration,mean_score,18,0.112057,False,
-Technology,Set B,FinBERT,calibration,mean_ret,18,0.0268278,False,
+Technology,Set B,FinBERT,calibration,mean_score,18,0.11205672222222224,False,
+Technology,Set B,FinBERT,calibration,mean_ret,18,0.026827777777777773,False,
 Technology,Set B,FinBERT,calibration,n,18,18,False,
-Technology,Set B,LLM,dispersion,score_std,18,0.143966,False,population std
-Technology,Set B,LLM,dispersion,hold_rate,18,0.555556,False,
-Technology,Set B,LLM,dispersion,n,18,18,False,
-Technology,Set B,FinBERT,dispersion,score_std,18,0.124138,False,population std
-Technology,Set B,FinBERT,dispersion,hold_rate,18,0.333333,False,
+Technology,Set B,FinBERT,dispersion,score_std,18,0.12413837586643453,False,population std
+Technology,Set B,FinBERT,dispersion,hold_rate,18,0.3333333333333333,False,
 Technology,Set B,FinBERT,dispersion,n,18,18,False,
-Technology,Set B,LLM,sell_buy_asymmetry,buy_accuracy,7,,True,n_calls=7 < 10
-Technology,Set B,LLM,sell_buy_asymmetry,buy_n_calls,7,7,False,
-Technology,Set B,LLM,sell_buy_asymmetry,buy_base_rate,18,0.444444,False,
-Technology,Set B,LLM,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
-Technology,Set B,LLM,sell_buy_asymmetry,sell_n_calls,1,1,False,
-Technology,Set B,LLM,sell_buy_asymmetry,sell_base_rate,18,0.388889,False,
-Technology,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,11,0.545455,False,
+Technology,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,11,0.5454545454545454,False,
 Technology,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,11,11,False,
-Technology,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,18,0.444444,False,
+Technology,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,18,0.4444444444444444,False,
 Technology,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,1,,True,n_calls=1 < 10
 Technology,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,1,1,False,
-Technology,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,18,0.388889,False,
-Utilities,Set B,LLM,spearman_rho,rho,13,-0.123967,False,
-Utilities,Set B,LLM,spearman_rho,p_value,13,0.678618,False,
-Utilities,Set B,LLM,spearman_rho,n,13,13,False,
-Utilities,Set B,FinBERT,spearman_rho,rho,13,-0.56044,False,
-Utilities,Set B,FinBERT,spearman_rho,p_value,13,0.0248093,False,
+Technology,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,18,0.3888888888888889,False,
+Utilities,Set B,FinBERT,spearman_rho,rho,13,-0.5604395604395606,False,
+Utilities,Set B,FinBERT,spearman_rho,p_value,13,0.04634590589406461,False,
 Utilities,Set B,FinBERT,spearman_rho,n,13,13,False,
-Utilities,Set B,LLM,calibration,mean_score,13,0.140385,False,
-Utilities,Set B,LLM,calibration,mean_ret,13,0.00205385,False,
-Utilities,Set B,LLM,calibration,n,13,13,False,
-Utilities,Set B,FinBERT,calibration,mean_score,13,0.0809564,False,
-Utilities,Set B,FinBERT,calibration,mean_ret,13,0.00205385,False,
+Utilities,Set B,FinBERT,calibration,mean_score,13,0.08095638461538461,False,
+Utilities,Set B,FinBERT,calibration,mean_ret,13,0.002053846153846154,False,
 Utilities,Set B,FinBERT,calibration,n,13,13,False,
-Utilities,Set B,LLM,dispersion,score_std,13,0.165822,False,population std
-Utilities,Set B,LLM,dispersion,hold_rate,13,0.538462,False,
-Utilities,Set B,LLM,dispersion,n,13,13,False,
-Utilities,Set B,FinBERT,dispersion,score_std,13,0.0353327,False,population std
-Utilities,Set B,FinBERT,dispersion,hold_rate,13,0.538462,False,
+Utilities,Set B,FinBERT,dispersion,score_std,13,0.035332652787554986,False,population std
+Utilities,Set B,FinBERT,dispersion,hold_rate,13,0.5384615384615384,False,
 Utilities,Set B,FinBERT,dispersion,n,13,13,False,
-Utilities,Set B,LLM,sell_buy_asymmetry,buy_accuracy,4,,True,n_calls=4 < 10
-Utilities,Set B,LLM,sell_buy_asymmetry,buy_n_calls,4,4,False,
-Utilities,Set B,LLM,sell_buy_asymmetry,buy_base_rate,13,0,False,
-Utilities,Set B,LLM,sell_buy_asymmetry,sell_accuracy,2,,True,n_calls=2 < 10
-Utilities,Set B,LLM,sell_buy_asymmetry,sell_n_calls,2,2,False,
-Utilities,Set B,LLM,sell_buy_asymmetry,sell_base_rate,13,0,False,
 Utilities,Set B,FinBERT,sell_buy_asymmetry,buy_accuracy,6,,True,n_calls=6 < 10
 Utilities,Set B,FinBERT,sell_buy_asymmetry,buy_n_calls,6,6,False,
-Utilities,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,13,0,False,
+Utilities,Set B,FinBERT,sell_buy_asymmetry,buy_base_rate,13,0.0,False,
 Utilities,Set B,FinBERT,sell_buy_asymmetry,sell_accuracy,0,,True,n_calls=0 < 10
 Utilities,Set B,FinBERT,sell_buy_asymmetry,sell_n_calls,0,0,False,
-Utilities,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,13,0,False,
+Utilities,Set B,FinBERT,sell_buy_asymmetry,sell_base_rate,13,0.0,False,
