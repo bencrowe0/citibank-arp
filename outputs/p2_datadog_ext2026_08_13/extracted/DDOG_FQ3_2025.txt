@@ -1,0 +1,525 @@
+=== PRESS RELEASE ===
+
+Datadog Announces Third Quarter 2025 Financial Results | Datadog Skip to main navigation Investor Relations News & Events News Events & Presentations Financials Quarterly Results Annual Reports & Proxy Statements SEC Filings Corporate & ESG Executive Management Board of Directors Corporate Governance Committee Composition ESG Resources Stock Quote & Chart Analyst Coverage Contact Investor Relations Email Alerts Form 8937 FAQ Investor Relations News & Events News Events & Presentations Financials Quarterly Results Annual Reports & Proxy Statements SEC Filings Corporate & ESG Executive Management Board of Directors Corporate Governance Committee Composition ESG Resources Stock Quote & Chart Analyst Coverage Contact Investor Relations Email Alerts Form 8937 FAQ News Datadog Announces Third Quarter 2025 Financial Results November 6, 2025 at 7:00 AM EST Q3 2025 Earnings Release 161.9 KB Third quarter revenue grew 28% year-over-year to $886 million Robust growth of larger customers, with about 4,060 $100k+ ARR customers, up from about 3,490 a year ago Reached a milestone of over 1,000 integrations on the Datadog unified platform NEW YORK , Nov. 06, 2025 (GLOBE NEWSWIRE) -Datadog, Inc. (NASDAQ:DDOG), the monitoring and security platform for cloud applications, today announced financial results for its third quarter ended September 30, 2025 . " Datadog had a strong third quarter, with 28% year-over-year revenue growth, $251 million in operating cash flow, and $214 million in free cash flow," said Olivier Pomel , co-founder and CEO of Datadog . Pomel added, "The Datadog R&D team is innovating rapidly to help our customers solve problems in the AI space. Recent announcements include our full stack of AI Observability and Security products, Bits AI Agents for SRE, Developers, and Security, Datadog MCP Server, and our time-series foundation model TOTO." Third Quarter 2025 Financial Highlights: Revenue was $886 million , an increase of 28% year-over-year. GAAP operating loss was $(6) million; GAAP operating margin was (1)%. Non-GAAP operating income was $207 million ; non-GAAP operating margin was 23%. GAAP net income per diluted share was $0.10 ; non-GAAP net income per diluted share was $0.55 . Operating cash flow was $251 million , with free cash flow of $214 million . Cash, cash equivalents, and marketable securities were $4.1 billion as of September 30, 2025 . Third Quarter & Recent Business Highlights : As of September 30, 2025 , we had about 4,060 customers with ARR of $100,000 or more, an increase of 16% from about 3,490 as of September 30, 2024 . Named a leader in the 2025 Gartner® Magic Quadrant™ for Digital Experience Monitoring, marking the second consecutive year Datadog has been recognized as a Leader. Datadog was positioned the highest for Ability to Execute, reflecting the strength of its DEM suite—including Synthetic Monitoring, Real User Monitoring (RUM), Product Analytics, Session Replay, and Error Tracking—and its continued innovation following the acquisition of Eppo to help customers enhance digital experiences. Expanded support for Oracle Cloud Infrastructure (OCI), including new integrations for GPU Monitoring, Cloud Cost Management, and Cloud SIEM to help teams gain full-stack visibility and security across OCI environments, including AI and machine learning applications. Published the 2025 State of Cloud Security Report, which found that newer strategies—such as data perimeters and centrally managed multi-account environments—are growing in popularity among organizations seeking to strengthen cloud security. Reached 1,000 integrations on Datadog’s unified platform, underscoring the company’s leadership in observability and its ability to support AI, cloud, security, and emerging technologies. Appointed Ami Vora to Datadog’s Board of Directors. Vora brings over 20 years of experience leading product and design teams for widely used global products, including at Faire, WhatsApp, Meta, and Microsoft. Announced that Datadog for Government is now ‘In Process’ for GovRAMP High Authorization, reinforcing its commitment to delivering secure, scalable observability for the public sector and supporting the stringent cybersecurity requirements of state, local, and educational institutions. Fourth Quarter and Full Year 2025 Outlook: Based on information as of today, November 6, 2025 , Datadog is providing the following guidance: Fourth Quarter 2025 Outlook: Revenue between $912 million and $916 million . Non-GAAP operating income between $216 million and $220 million . Non-GAAP net income per share between $0.54 and $0.56 , assuming approximately 367 million weighted average diluted shares outstanding. Full Year 2025 Outlook: Revenue between $3.386 billion and $3.390 billion . Non-GAAP operating income between $754 million and $758 million . Non-GAAP net income per share between $2.00 and $2.02 , assuming approximately 364 million weighted average diluted shares outstanding. Datadog has not reconciled its expectations as to non-GAAP operating income, or as to non-GAAP net income per share, to their most directly comparable GAAP measure as a result of uncertainty regarding, and the potential variability of, reconciling items such as stock-based compensation and employer payroll taxes on equity incentive plans. Accordingly, reconciliation is not available without unreasonable effort, although it is important to note that these factors could be material to Datadog’s results computed in accordance with GAAP. Conference Call Details: What: Datadog financial results for the third quarter of 2025 and outlook for the fourth quarter and the full year 2025 When: November 6, 2025 at 8:00 A.M. Eastern Time ( 5:00 A.M. Pacific Time ) Dial in: To access the call in the U.S. , please register here . Callers are encouraged to dial into the call 10 to 15 minutes prior to the start to prevent any delay in joining. Webcast: https://investors.datadoghq.com (live and replay) Replay: A replay of the call will be archived on the investor relations website About Datadog Datadog is the observability and security platform for cloud applications. Our SaaS platform integrates and automates infrastructure monitoring, application performance monitoring, log management, user experience monitoring, cloud security and many other capabilities to provide unified, real-time observability and security for our customers' entire technology stack. Datadog is used by organizations of all sizes and across a wide range of industries to enable digital transformation and cloud migration, drive collaboration among development, operations, security and business teams, accelerate time to market for applications, reduce time to problem resolution, secure applications and infrastructure, understand user behavior, and track key business metrics. Forward-Looking Statements This press release and the earnings call referencing this press release contain “forward-looking” statements, as that term is defined under the federal securities laws, including but not limited to statements regarding Datadog’s strategy, product and platform capabilities, the growth in and ability to capitalize on long-term market opportunities including the pace and scope of cloud migration and digital transformation, gross margins and operating margins including with respect to third-party cloud infrastructure hosting costs, sales and marketing, research and development expenses, net interest and other income, cash taxes, investments and capital expenditures, and Datadog’s future financial performance, including its outlook for the fourth quarter and the full year 2025 and related notes and assumptions. These forward-looking statements are based on Datadog’s current assumptions, expectations and beliefs and are subject to substantial risks, uncertainties, assumptions and changes in circumstances that may cause Datadog’s actual results, performance or achievements to differ materially from those expressed or implied in any forward-looking statement. The risks and uncertainties referred to above include, but are not limited to (1) our recent rapid growth may not be indicative of our future growth; (2) our history of operating losses; (3) our limited operating history; (4) our dependence on existing customers purchasing additional subscriptions and products from us and renewing their subscriptions; (5) our ability to attract new customers; (6) our ability to effectively develop and expand our sales and marketing capabilities; (7) risk of a security breach; (8) risk of interruptions or performance problems associated with our products and platform capabilities; (9) our ability to adapt and respond to rapidly changing technology or customer needs; (10) the competitive markets in which we participate; (11) risks associated with successfully managing our growth; and (12) general market, political, economic, and business conditions including concerns about trade policies, tariffs, reduced economic growth and associated decreases in information technology spending. These risks and uncertainties are more fully described in our filings with the Securities and Exchange Commission (SEC), including in the section entitled “Risk Factors” in our Quarterly Report on Form 10-Q for the quarter ended June 30, 2025 , filed with the SEC on August 8, 2025 . Additional information will be made available in our Quarterly Report on Form 10-Q for the quarter ended September 30, 2025 and other filings and reports that we may file from time to time with the SEC . Moreover, we operate in a very competitive and rapidly changing environment. New risks emerge from time to time. It is not possible for our management to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. In light of these risks, uncertainties and assumptions, we cannot guarantee future results, levels of activity, performance, achievements, or events and circumstances reflected in the forward-looking statements will occur. Forward-looking statements represent our beliefs and assumptions only as of the date of this press release. We disclaim any obligation to update forward-looking statements. About Non-GAAP Financial Measures Datadog discloses the following non-GAAP financial measures in this release and the earnings call referencing this press release: non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses (research and development, sales and marketing and general and administrative), non-GAAP operating income (loss), non-GAAP operating margin, non-GAAP net income (loss), non-GAAP net income (loss) per diluted share, non-GAAP net income (loss) per basic share, free cash flow and free cash flow margin. Datadog uses each of these non-GAAP financial measures internally to understand and compare operating results across accounting periods, for internal budgeting and forecasting purposes, for short- and long-term operating plans, and to evaluate Datadog’s financial performance. Datadog believes they are useful to investors, as a supplement to GAAP measures, in evaluating its operational performance, as further discussed below. Datadog’s non-GAAP financial measures may not provide information that is directly comparable to that provided by other companies in its industry, as other companies in its industry may calculate non-GAAP financial results differently, particularly related to non-recurring and unusual items. In addition, there are limitations in using non-GAAP financial measures because the non-GAAP financial measures are not prepared in accordance with GAAP and may be different from non-GAAP financial measures used by other companies and exclude expenses that may have a material impact on Datadog’s reported financial results. Non-GAAP financial measures should not be considered in isolation from, or as a substitute for, financial information prepared in accordance with GAAP. A reconciliation of the historical non-GAAP financial measures to their most directly comparable GAAP measures has been provided in the financial statement tables included below in this press release. Datadog defines non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses (research and development, sales and marketing and general and administrative), non-GAAP operating income (loss), non-GAAP operating margin and non-GAAP net income (loss) as the respective GAAP balances, adjusted for, as applicable: (1) stock-based compensation expense; (2) the amortization of acquired intangibles; (3) employer payroll taxes on employee stock transactions; (4) M&A transaction costs; (5) amortization of issuance costs; and (6) an assumed provision for income taxes based on our long-term projected tax rate. Non-GAAP financial measures prior to April 1, 2025 have not been adjusted for M&A transaction costs, as such costs were not material to our results of operations in such prior periods. Our estimated long-term projected tax rate is subject to change for a variety of reasons, including the rapidly evolving global tax environment, significant changes in Datadog's geographic earnings mix, or other changes to our strategy or business operations. We will re-evaluate our long-term projected tax rate as appropriate. Datadog defines free cash flow as net cash provided by operating activities, minus capital expenditures and minus capitalized software development costs, if any. Investors are encouraged to review the reconciliation of these historical non-GAAP financial measures to their most directly comparable GAAP financial measures. Management believes these non-GAAP financial measures are useful to investors and others in assessing Datadog’s operating performance due to the following factors: Stock-based compensation. Datadog utilizes stock-based compensation to attract and retain employees. It is principally aimed at aligning their interests with those of its stockholders and at long-term retention, rather than to address operational performance for any particular period. As a result, stock-based compensation expenses vary for reasons that are generally unrelated to financial and operational performance in any particular period. Amortization of acquired intangibles. Datadog views amortization of acquired intangible assets as items arising from pre-acquisition activities determined at the time of an acquisition. While these intangible assets are evaluated for impairment regularly, amortization of the cost of acquired intangibles is an expense that is not typically affected by operations during any particular period. Employer payroll taxes on employee stock transactions. Datadog excludes employer payroll tax expense on equity incentive plans as these expenses are tied to the exercise or vesting of underlying equity awards and the price of Datadog’s common stock at the time of vesting or exercise. As a result, these taxes may vary in any particular period independent of the financial and operating performance of Datadog’s business. M&A transaction costs . Datadog views acquisition-related expenses, such as transaction costs, as costs that are not necessarily reflective of operational performance during a period. In particular, Datadog believes the consideration of measures that exclude such expenses can assist in the comparison of operational performance in different periods which may or may not include such expenses. Amortization of issuance costs. In June 2020 and December 2024 , Datadog issued $747.5 million of 0.125% convertible senior notes due 2025 and $1.0 billion of 0% convertible senior notes due 2029, respectively. Debt issuance costs, which reduce the carrying value of the convertible debt instrument, are amortized as interest expense over the term. The expense for the amortization of debt issuance costs is a non-cash item, and we believe the exclusion of this interest expense will provide for a more useful comparison of our operational performance in different periods. Additionally, Datadog’s management believes that the non-GAAP financial measure free cash flow is meaningful to investors because it is a measure of liquidity that provides useful information in understanding and evaluating the strength of our liquidity and future ability to generate cash that can be used for strategic opportunities or investing in our business. Free cash flow represents net cash provided by operating activities, reduced by capital expenditures and capitalized software development costs, if any. The reduction of capital expenditures and amounts capitalized for software development facilitates comparisons of Datadog's liquidity on a period-to-period basis and excludes items that management does not consider to be indicative of our liquidity. Operating Metrics Datadog’s number of customers with ARR of $100,000 or more is based on the ARR of each customer, as of the last month of the quarter. We define the number of customers as the number of accounts with a unique account identifier for which we have an active subscription in the period indicated. Users of our free trials or tier are not included in our customer count. A single organization with multiple divisions, segments or subsidiaries is generally counted as a single customer. However, in some cases where they have separate billing terms, we may count separate divisions, segments or subsidiaries as multiple customers. We define ARR as the annualized revenue run-rate of subscription agreements from all customers at a point in time. We calculate ARR by taking the monthly recurring revenue, or MRR, and multiplying it by 12. MRR for each month is calculated by aggregating, for all customers during that month, monthly revenue from committed contractual amounts, additional usage, usage from subscriptions for a committed contractual amount of usage that is delivered as used, and monthly subscriptions. ARR and MRR should be viewed independently of revenue, and do not represent our revenue under GAAP on a monthly or annualized basis, as they are operating metrics that can be impacted by contract start and end dates and renewal rates. ARR and MRR are not intended to be replacements or forecasts of revenue. Datadog, Inc. Condensed Consolidated Statements of Operations (In thousands, except per share data; unaudited) Three Months Ended September 30 , Nine Months Ended September 30 , Revenue $ 885,651 $ 690,016 $ 2,473,964 $ 1,946,548 Cost of revenue (1)(2)(3) 176,457 137,756 500,063 371,353 Gross profit 709,194 552,260 1,973,901 1,575,195 Operating expenses: Research and development (1)(3) 401,982 291,802 1,130,525 836,389 Sales and marketing (1)(2)(3) 238,729 187,772 692,046 548,658 General and administrative (1)(3)(4) 74,292 52,408 205,059 145,256 Total operating expenses 715,003 531,982 2,027,630 1,530,303 Operating (loss) income (5,809 ) 20,278 (53,729 ) 44,892 Other income: Interest expense (5) (2,421 ) (1,574 ) (8,459 ) (4,425 ) Interest income and other income, net 43,897 37,432 135,739 109,647 Other income, net 41,476 35,858 127,280 105,222 Income before provision for income taxes 35,667 56,136 73,551 150,114 Provision for income taxes 1,782 4,439 12,377 11,962 Net income $ 33,885 $ 51,697 $ 61,174 $ 138,152 Net income per share - basic $ 0.10 $ 0.15 $ 0.18 $ 0.41 Net income per share - diluted $ 0.10 $ 0.14 $ 0.18 $ 0.39 Weighted average shares used in calculating net income per share: Basic 348,645 337,562 346,012 334,779 Diluted 362,001 357,635 361,905 357,331 (1) Includes stock-based compensation expense as follows: Cost of revenue $ 8,038 $ 6,249 $ 21,472 $ 18,169 Research and development 124,288 90,507 342,468 266,025 Sales and marketing 41,463 30,749 113,030 88,481 General and administrative 26,769 14,685 68,315 39,200 Total $ 200,558 $ 142,190 $ 545,285 $ 411,875 (2) Includes amortization of acquired intangibles as follows: Cost of revenue $ 1,451 $ 1,230 $ 3,863 $ 4,538 Sales and marketing Total $ 1,728 $ 1,438 $ 4,531 $ 5,156 (3) Includes employer payroll taxes on employee stock transactions as follows: Cost of revenue $ $ $ $ Research and development 8,177 6,316 29,578 23,724 Sales and marketing 1,480 1,060 4,409 3,821 General and administrative 1,061 1,621 6,010 5,199 Total $ 10,887 $ 9,115 $ 40,517 $ 33,122 (4) Includes M&A transaction costs as follows: General and administrative $ — $ — $ 1,373 $ — Total $ — $ — $ 1,373 $ — (5) Includes amortization of issuance costs as follows: Interest expense $ 1,046 $ $ 4,556 $ 2,672 Total $ 1,046 $ $ 4,556 $ 2,672 Datadog, Inc. Condensed Consolidated Balance Sheets (In thousands; unaudited) September 30 , December 31 , ASSETS
+
+CURRENT ASSETS: Cash and cash equivalents $ 540,602 $ 1,246,983 Marketable securities 3,599,737 2,942,076 Accounts receivable, net of allowance for credit losses of $18,150 and $16,302 as of September 30, 2025 and December 31, 2024 , respectively 549,648 598,919 Deferred contract costs, current 67,201 56,095 Prepaid expenses and other current assets 80,917 67,042 Total current assets 4,838,105 4,911,115 Property and equipment, net 307,609 226,970 Operating lease assets 218,682 172,512 Goodwill 530,043 360,381 Intangible assets, net 16,810 3,711 Deferred contract costs, non-current 105,943 86,573 Other assets 35,278 24,077 TOTAL ASSETS $ 6,052,470 $ 5,785,339 LIABILITIES AND STOCKHOLDERS' EQUITY
+
+CURRENT LIABILITIES: Accounts payable $ 135,243 $ 107,731 Accrued expenses and other current liabilities 175,198 127,136 Operating lease liabilities, current 35,989 31,970 Convertible senior notes, net, current — 634,023 Deferred revenue, current 974,264 961,853 Total current liabilities 1,320,694 1,862,713 Operating lease liabilities, non-current 260,926 196,905 Convertible senior notes, net, non-current 982,402 979,282 Deferred revenue, non-current 29,028 22,693 Other liabilities 20,302 9,383 Total liabilities 2,613,352 3,070,976
+
+STOCKHOLDERS' EQUITY: Common stock Additional paid-in capital 3,335,703 2,689,013 Accumulated other comprehensive income (loss) 12,190 (4,701 ) Retained earnings 91,222 30,048 Total stockholders’ equity 3,439,118 2,714,363 TOTAL LIABILITIES AND STOCKHOLDERS' EQUITY $ 6,052,470 $ 5,785,339 Datadog, Inc. Condensed Consolidated Statements of Cash Flow (In thousands; unaudited) Three Months Ended September 30 , Nine Months Ended September 30 ,
+
+CASH FLOWS FROM OPERATING ACTIVITIES: Net income $ 33,885 $ 51,697 $ 61,174 $ 138,152 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 15,048 13,892 39,125 39,227 Accretion of discounts on marketable securities (10,855 ) (12,844 ) (32,152 ) (39,539 ) Amortization of issuance costs 1,046 4,556 2,672 Amortization of deferred contract costs 17,231 13,474 48,061 37,768 Stock-based compensation, net of amounts capitalized 200,558 142,190 545,285 411,875 Non-cash lease expense 9,060 6,670 26,450 20,261 Allowance for credit losses on accounts receivable 3,967 3,800 12,382 10,374 Loss on disposal of property and equipment 1,314 2,146 Changes in operating assets and liabilities: Accounts receivable, net 50,559 42,428 38,887 11,842 Deferred contract costs (32,718 ) (19,153 ) (78,538 ) (51,323 ) Prepaid expenses and other current assets (13,116 ) (1,630 ) (12,036 ) (10,073 ) Other assets (162 ) 1,465 (3,200 ) 3,636 Accounts payable (61,341 ) (22,994 ) 24,299 8,576 Accrued expenses and other liabilities 30,010 10,147 32,408 (5,709 ) Deferred revenue 6,984 (1,382 ) 14,219 27,284 Net cash provided by operating activities 251,470 228,681 723,066 605,375
+
+CASH FLOWS FROM INVESTING ACTIVITIES: Purchases of marketable securities (795,593 ) (905,632 ) (2,517,372 ) (2,145,933 ) Maturities of marketable securities 631,163 624,402 1,884,273 1,590,387 Proceeds from sale of marketable securities (11 ) (40 ) 13,125 (32 ) Purchases of property and equipment (16,786 ) (8,385 ) (40,686 ) (26,958 ) Capitalized software development costs (20,732 ) (16,692 ) (58,684 ) (44,286 ) Cash paid for acquisition of businesses; net of cash acquired (192 ) (210 ) (117,282 ) (654 ) Net cash used in investing activities (202,151 ) (306,557 ) (836,626 ) (627,476 )
+
+CASH FLOWS FROM FINANCING ACTIVITIES: Proceeds from exercise of stock options 1,271 1,257 4,629 5,201 Proceeds for issuance of common stock under the employee stock purchase plan — — 28,578 22,507 Proceeds from issuance of 2029 Convertible Senior Notes, net of issuance costs — — (190 ) — Repayments of 2025 Convertible Senior Notes — (24 ) (635,547 ) (49 ) Net cash provided by (used in) financing activities 1,271 1,233 (602,530 ) 27,659 Effect of exchange rate changes on cash and cash equivalents 3,098 9,709 1,521 NET INCREASE (DECREASE) IN CASH AND CASH EQUIVALENTS 51,572 (73,545 ) (706,381 ) 7,079 CASH AND CASH EQUIVALENTS—Beginning of period 489,030 410,963 1,246,983 330,339 CASH AND CASH EQUIVALENTS—End of period $ 540,602 $ 337,418 $ 540,602 $ 337,418 Datadog, Inc. Reconciliation from GAAP to Non-GAAP Results (In thousands, except per share data; unaudited) Three Months Ended September 30 , Nine Months Ended September 30 , Reconciliation of gross profit and gross margin GAAP gross profit $ 709,194 $ 552,260 $ 1,973,901 $ 1,575,195 Plus: Stock-based compensation expense 8,038 6,249 21,472 18,169 Plus: Amortization of acquired intangibles 1,451 1,230 3,863 4,538 Plus: Employer payroll taxes on employee stock transactions Non-GAAP gross profit $ 718,852 $ 559,857 $ 1,999,756 $ 1,598,280 GAAP gross margin % % % % Non-GAAP gross margin % % % % Reconciliation of operating expenses GAAP research and development $ 401,982 $ 291,802 $ 1,130,525 $ 836,389 Less: Stock-based compensation expense (124,288 ) (90,507 ) (342,468 ) (266,025 ) Less: Employer payroll taxes on employee stock transactions (8,177 ) (6,316 ) (29,578 ) (23,724 ) Non-GAAP research and development $ 269,517 $ 194,979 $ 758,479 $ 546,640 GAAP sales and marketing $ 238,729 $ 187,772 $ 692,046 $ 548,658 Less: Stock-based compensation expense (41,463 ) (30,749 ) (113,030 ) (88,481 ) Less: Amortization of acquired intangibles (277 ) (208 ) (668 ) (618 ) Less: Employer payroll taxes on employee stock transactions (1,480 ) (1,060 ) (4,409 ) (3,821 ) Non-GAAP sales and marketing $ 195,509 $ 155,755 $ 573,939 $ 455,738 GAAP general and administrative $ 74,292 $ 52,408 $ 205,059 $ 145,256 Less: Stock-based compensation expense (26,769 ) (14,685 ) (68,315 ) (39,200 ) Less: Employer payroll taxes on employee stock transactions (1,061 ) (1,621 ) (6,010 ) (5,199 ) Less: M&A transaction costs (1) — — (1,373 ) — Non-GAAP general and administrative $ 46,462 $ 36,102 $ 129,361 $ 100,857 Reconciliation of operating (loss) income and operating margin GAAP operating (loss) income $ (5,809 ) $ 20,278 $ (53,729 ) $ 44,892 Plus: Stock-based compensation expense 200,558 142,190 545,285 411,875 Plus: Amortization of acquired intangibles 1,728 1,438 4,531 5,156 Plus: Employer payroll taxes on employee stock transactions 10,887 9,115 40,517 33,122 Plus: M&A transaction costs (1) — — 1,373 — Non-GAAP operating income $ 207,364 $ 173,021 $ 537,977 $ 495,045 GAAP operating margin (1 )% % (2 )% % Non-GAAP operating margin % % % % 1) The nine months ended September 30, 2025 are adjusted for M&A transaction costs, and these adjustments are applied prospectively, as these costs were not material to the consolidated results of operations in the prior periods. Datadog, Inc. Reconciliation from GAAP to Non-GAAP Results (In thousands, except per share data; unaudited) Three Months Ended September 30 , Nine Months Ended September 30 , Reconciliation of net income GAAP net income $ 33,885 $ 51,697 $ 61,174 $ 138,152 Plus: Stock-based compensation expense 200,558 142,190 545,285 411,875 Plus: Amortization of acquired intangibles 1,728 1,438 4,531 5,156 Plus: Employer payroll taxes on employee stock transactions 10,887 9,115 40,517 33,122 Plus: M&A transaction costs (1) — — 1,373 — Plus: Amortization of issuance costs 1,046 4,556 2,672 Non-GAAP net income before non-GAAP tax adjustments $ 248,104 $ 205,352 $ 657,436 $ 590,977 Income tax effects and adjustments (2) 50,694 39,617 128,283 114,655 Non-GAAP net income after non-GAAP tax adjustments $ 197,410 $ 165,735 $ 529,153 $ 476,322 Net income per share before non-GAAP tax adjustments - basic $ 0.71 $ 0.61 $ 1.90 $ 1.77 Net income per share before non-GAAP tax adjustments - diluted $ 0.69 $ 0.57 $ 1.82 $ 1.65 Net income per share after non-GAAP tax adjustments - basic $ 0.57 $ 0.49 $ 1.53 $ 1.42 Net income per share after non-GAAP tax adjustments - diluted $ 0.55 $ 0.46 $ 1.46 $ 1.33 Shares used in non-GAAP net income per share calculations: Basic 348,645 337,562 346,012 334,779 Diluted 362,001 357,635 361,905 357,331 1) The nine months ended September 30, 2025 are adjusted for M&A transaction costs, and these adjustments are applied prospectively, as these costs were not material to the consolidated results of operations in the prior periods. 2) Non-GAAP financial information for the periods shown are adjusted for an assumed provision for income taxes based on our long-term projected tax rate of 21%. Due to the differences in the tax treatment of items excluded from non-GAAP earnings, our estimated tax rate on non-GAAP income may differ from our GAAP tax rate and from our actual tax liabilities. Datadog, Inc. Reconciliation of GAAP Cash Flow from Operating Activities to Free Cash Flow (In thousands; unaudited) Three Months Ended September 30 , Nine Months Ended September 30 , Net cash provided by operating activities $ 251,470 $ 228,681 $ 723,066 $ 605,375 Less: Purchases of property and equipment (16,786 ) (8,385 ) (40,686 ) (26,958 ) Less: Capitalized software development costs (20,732 ) (16,692 ) (58,684 ) (44,286 ) Free cash flow $ 213,952 $ 203,604 $ 623,696 $ 534,131 Free cash flow margin % % % % Contact Information Yuka Broderick Datadog Investor Relations IR@datadoghq.com Dan Haggerty Datadog Public Relations Press@datadoghq.com Datadog is a registered trademark of Datadog, Inc. All product and company names herein may be trademarks of their registered owners. Source: Datadog, Inc. Get Datadog Email Updates Sign up for email alerts! Contact IR Created with Sketch. IR@datadoghq.com Free Trial Download mobile app Product Infrastructure Monitoring Network Monitoring Container Monitoring Serverless Cloud Cost Management Cloudcraft Kubernetes Autoscaling Application Performance Monitoring Software Catalog Universal Service Monitoring Data Streams Monitoring Jobs Monitoring Quality Monitoring Database Monitoring Continuous Profiler Dynamic Instrumentation Log Management Sensitive Data Scanner Audit Trail Observability Pipelines Cloud Security Cloud Security Posture Management Workload Protection Cloud Infrastructure Entitlement Management Vulnerability Management Compliance App and API Protection Software Composition Analysis Code Security Static Code Analysis (SAST) Runtime Code Analysis (IAST) IaC Security Cloud SIEM Browser Real User Monitoring Mobile Real User Monitoring Product Analytics Experiments Session Replay Synthetic Monitoring Mobile App Testing Continuous Testing Error Tracking BYOC Log Management Internal Developer Portal CI Visibility Test Optimization Feature Flags Code Coverage AI Impact Service Level Objectives Incident Response Event Management Case Management Bits AI Agents Bits Code Bits Investigation Bits Security Analyst Bits Agent Builder Bits Chat MCP Server Pup CLI Agent Directory Metrics Watchdog Agent Observability AI Integrations Workflow Automation App Builder Teams Dashboards Notebooks Mobile App Fleet Automation Governance Console Access Control OpenTelemetry Alerts Integrations IDE Plugins API Marketplace Security Labs Research Open Source Projects Storage Management GPU Monitoring DORA Metrics Secret Scanning Resources Pricing Documentation Support Services & Enablement Product Preview Program Certification Open Source Events and Webinars Security Privacy Center Knowledge Center Learning Resources About Contact Us Partners Press Leadership Careers Legal Investor Relations Analyst Reports ESG Report Vendor Help Trust Hub Blog The Monitor Engineering AI Security Labs Icon/world Created with Sketch. English English English © Datadog 2026 Terms | Privacy | Cookies Request a personalized demo with a Datadog engineer × I'd like Datadog to share the latest news about Datadog services and related offerings with me by email or telephone. You may unsubscribe at any time by following the instructions in the communications received from Datadog. Start Your Free Datadog Trial Now
+
+=== EARNINGS CALL TRANSCRIPT ===
+
+spglobal.com/marketintelligence
+
+Datadog, Inc. NasdaqGS:DDOG FQ3 2025 Earnings Call Transcripts Thursday, November 6, 2025 1:00 PM GMT
+
+Contents
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved spglobal.com/marketintelligence
+
+Table of Contents
+
+Call Participants .............................................................................................................. 3 Presentation .............................................................................................................. 4 Question and Answer .............................................................................................................. 9
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 3 spglobal.com/marketintelligence
+
+Call Participants
+
+EXECUTIVES
+
+David M. Obstler Chief Financial Officer
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yuka Broderick Investor Relations
+
+ANALYSTS
+
+Aleksandr J. Zukin Wolfe Research, LLC
+
+Andrew Michael Sherman TD Cowen, Research Division
+
+Eric Michael Heath KeyBanc Capital Markets Inc., Research Division
+
+Fatima Aslam Boolani Citigroup Inc., Research Division
+
+Gray Wilson Powell BTIG, LLC, Research Division
+
+Ittai Kidron Oppenheimer & Co. Inc., Research Division
+
+Jacob Roberge William Blair & Company L.L.C., Research Division
+
+Karl Emil Keirstead UBS Investment Bank, Research Division
+
+Kasthuri Gopalan Rangan Goldman Sachs Group, Inc., Research Division
+
+Koji Ikeda BofA Securities, Research Division
+
+Mark Ronald Murphy JPMorgan Chase & Co, Research Division
+
+Michael Joseph Cikos Needham & Company, LLC, Research Division
+
+Raimo Lenschow Barclays Bank PLC, Research Division
+
+Ryan Patrick MacWilliams Wells Fargo Securities, LLC, Research Division
+
+Sanjit Kumar Singh Morgan Stanley, Research Division
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 4 spglobal.com/marketintelligence
+
+Presentation
+
+Operator
+
+Good day and thank you for standing by. Welcome to the Third Quarter 2025 Datadog Earnings Conference Call. [Operator Instructions] Please be advised that today's conference is being recorded. I would now like to hand the conference over to your first speaker today, Yuka Broderick, Senior Vice President of Investor Relations. Please go ahead.
+
+Yuka Broderick Investor Relations
+
+Thank you, Martin. Good morning and thank you for joining us to review Datadog's third quarter 2025 financial results, which we announced in our press release issued this morning. Joining me on the call today are Olivier Pomel, Datadog's Co-Founder and CEO; and David Obstler, Datadog's CFO.
+
+During this call, we will make forward-looking statements, including statements related to our future financial performance, our outlook for the fourth quarter and the fiscal year 2025 and related notes and assumptions, our gross margins and operating margins, our product capabilities and our ability to capitalize on market opportunities. The words anticipate, believe, continue, estimate, expect, intend, will and similar expressions are intended to identify forward looking statements or similar indications of future expectations. These statements reflect our views only as of today and are subject to a variety of risks and uncertainties that could cause actual results to differ materially.
+
+For a discussion of the material risks and other important factors that could affect our actual results, please refer to our Form 10-Q for the quarter ended June 30, 2025. Additional information will be made available in our upcoming Form 10 Q for the fiscal quarter ended September 30, 2025, and other filings with the SEC. This information is also available on the Investor Relations section of our website, along with a replay of this call. We will discuss non -GAAP financial measures, which are reconciled to their most directly comparable GAAP financial measures in the tables in our earnings release, which is available at investors.datadoghq.com.
+
+With that, I'd like to turn the call over to Olivier.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Thanks, Yuka, and thank all of you for joining us this morning to go through our results for Q3. Let me begin with this quarter's business drivers. We have seen broad-based positive trends in the demand environment with an ongoing strength of cloud migration and digital transformation. Against this backdrop, we executed a very strong Q3 both in new bookings and usage growth of existing customers.
+
+As a notable inflection, we saw acceleration of year-over-year revenue growth across our non-AI customers. And the sequential usage growth for non-AI existing customers was the highest we have seen going back 2 quarters. This growth was broad-based as our customers are adopting more products and getting more value from the Datadog platform.
+
+We also experienced strong revenue growth for our AI native customers and a broadening contribution to growth among those customers. There, too, we saw an acceleration of growth in our AI cohort in Q3 when excluding our largest customer.
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 5 spglobal.com/marketintelligence
+
+Looking at new business. Contribution from new customers increased in Q3 in both the amount of new customer bookings as well as the revenue contribution from new customers. And as usual, churn has remained low with gross revenue retention stable in the mid- to high 90s, highlighting the mission-critical nature of our platform for our customers.
+
+Regarding our Q3 financial performance and key metrics. Revenue was $886 million, an increase of 28% year -over-year and above the high end of our guidance range. We ended Q3 with about 32,000 customers, up from about 29,200 a year ago. We also ended with about 4,060 customers with an ARR of $100,000 more, up from about 3,490 a year ago. These customers generated about 89% of our ARR. And we generated free cash flow of $214 million with a free cash flow margin of 24%.
+
+Turning to customer adoption. Our platform strategy continues to resonate in the market. At the end of Q3, 84% of customers were using 2 or more products, up from 83% a year ago. 54% of customers were using 4 or more products, up from 49% a year ago. 31% of our customers were using 6 or more products, up from 26% a year ago and 16% of our customers were using 8 or products from 12% a year ago.
+
+Digital experience is an example of an area with our platform where our rapid pace of innovation is turning into tangible value for our customers. Our digital experience products include RUM or Real User Monitoring, to observe and improve application beginning figure here in mobile products. Synthetic, to user flows and proactively detect user facing issues and product analytics to help users connect application behavior to business impact.
+
+Over the years, we built our product breadth and depth in this area, and that is being recognized in the marketplace. For the second year in a row, Datadog has been named the leader in the 2025 Gartner Magic Quadrant for digital experience monitoring. We are pleased that today, these digital experience products, together, exceed $300 million in ARR. And this includes, in particular, a very fast ramp for Product Analytics which has already seen adoption by more than 1,000 customers. We also want to call out our security suite of products where we are executing and accelerating growth.
+
+Security ARR growth was in the mid-50s as a percentage year-over-year in Q3, up from the mid-40s we mentioned last quarter. We're starting to see success in including Cloud SIEM in larger deals, and we'll get back to that in a bit in our customer examples. And we're seeing positive trends beyond Cloud SIEM, including fast uptake of good security and an increasing number of wins in cloud security. Overall, we saw year-over-year growth acceleration in each one of our security products.
+
+Moving on to R&D. We continue to deliver on what is a very ambitious AI road map. We are seeing high customer interest in our BitsAI agents, which we announced at our DASH conference in June. We have now onboarded thousands of customers for access, the BitsAI SRE agent. And as we prepare for general availability, we are getting very enthusiastic feedback on the time and cost savings enabled by Bits AI.
+
+As one user recently told us, “With Bits AI SRE being on call 24/7 for us, meantime resolution for our services has improved significantly. For most cases, the investigation is already taken care of well before our engineers sit down and open their laptops to assess the issue.” And this is not an isolated comment. We see the potential here for our agents who radically transform observability and operations.
+
+In LLM Observability, we recently launched LLM Experiments and Playgrounds for general availability, helping teams to rapidly iterate on LLM applications and AI agents. We also launched custom LLM -as-a-Judge evaluations for General Availability, which lets customers write evaluation prompts to access application quality and safety.
+
+As an illustration of both and adoption in the past month, the number of LLM spans customers attending Datadog has more than quadrupled. And we are seeing a lot of interest in the Datadog MCP servers. Our MCP server acts as a bridge between Datadog and AI agents, such as Codex, OpenAI, Claude Anthropic, Cursor, GitHub Copilot, Goose by
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 6 spglobal.com/marketintelligence
+
+Block, and many more.
+
+Our preview customers are using real-time production data as a context to drive troubleshooting, root cause analysis, and automation in these agents. As one user told us, “The Datadog MCP server is a great tool…It enables me to get the last five errors from my app, and follow the spans and traces all the way to the root cause…I’ve never been more hooked on Datadog.” So, we see MCP adoption as a great way to cement Datadog even further into our customers' workflows.
+
+Finally, we continue to see rising customer interest for next-gen AI observability with over 5,000 customers sending AI data to one or more of AI integrations. On the topic of integrations, we are very proud to now support over 1,000 integrations, which we believe is unparalleled in our space. By using our integration, customer correlate otherwise disparate data sources across Datadog products for deeper analysis. We can see from a customer's usage that this is a critical part of the Datadog platform. Our 32,000 customers use more than 50 integration average, while customers spending over $1 million annually with us use more than 150.
+
+And most importantly, as tech stack evolves, we’ll continue to update and expand our integrations, so our customers can use that Datadog to deploy new technologies with confidence. Last but not least I wanted to give a shout out to our AI research team for the amazing work they have published. Our TOTO open-weights time-series forecasting model has been one of the top downloads and Hugging Face over the past few months, and that is across all categories. It is very impactful as among other things, the high quality of this work allows us to attract world-class AI researchers and engineers.
+
+Now let's move on to sales and marketing. We had a number of great new logo wins in customer expansion this quarter. So, let’s go through a few of them. First, we landed a 7-figure annualized deal with a leading European telco, our largest ever land deal in Europe. This company's previous setup was expensive , inefficient, and wasn't scaling to meet their needs. By using Datadog, they expect to save over $1 million annually on tool cost alone, along with millions of dollars more in reduce operation costs, lower engineering time and avoidance of the new loss. They will adopt 11 Datadog products to start, and we consolidate more than 10 commercial and open-source tools.
+
+Next, we landed a 7-figure annualized deal with a leading financial risk and analytics company. The company's fragmented tooling has led to major incidents that sometimes took multiple days and hundreds of engineers to resolve. They plan to start with 11 Datadog products including OnCall, Cloud SIEM, and BitsAI, and will replace 14 commercial, open-source, and hyperscaler observability tools.
+
+Next, we landed a 7-figure annualized deal with a Fortune 500 technology hardware company. This is an exciting win for new go-to-market motions targeting the largest and most sophisticated companies in the world. Datadog has been chosen as their strategy observability partner, and we are displacing commercial tools across availability, cloud team and incident response. This customer is starting with 14 Datadog products.
+
+Next, we signed a 7-figure annualized expansion with a Fortune 500 financial services company. This customer has pockets of siloed teams and data, including 1 business unit which manually hosted and maintained 93 separate instances of open-source tooling. With this expansion, this company will add up 15 Datadog products, including all 3 pillars in all of their business units. They will also replace their SIEM solution with Datadog Cloud SIEM in a 7 -figure land deal for Cloud SIEM. And by bringing all their telemetry data into the Datadog platform, they expect better insights for their adoption of Bits AI agent today, and BitsAI Security Analyst in the near future.
+
+Next, we signed a 7-figure annualized expansion with a Fortune 500 heavy equipment company. With this expansion, this customer will replace its open-source logs solution with Datadog Log Management and Flex Logs. They plan to adopt LLM Observability. And their IT team is using Cloud Cost Management to improve cost visibility and governance.
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 7 spglobal.com/marketintelligence
+
+Next, we will come back a leading vertical SaaS company who is a 7-figure analyze deal. By returning to Datadog this customer benefits more alignment with open telemetry and we'll implement the incident and reliability processes that they were able to execute on previously.
+
+Next, we signed a 7-figure expansion with a major American carmaker. This customer developing Datadog products faster than previously expected and segment support higher usage. With this expansion, they will adopt Datadog Incident Management and OnCall solution company-wide for a total of 5,000 users who support operational continuity across the business.
+
+Finally, we signed a 9-figure annualized expansion with a leading AI company. This company has been a long -time Datadog customer and has expanded their usage of multiple products, securing better economics for a higher commitment with an early renewal. Speaking of AI customers, we continue to help native customers big and small to grow and scale their businesses. And we continue to see this group broad en in number and size, with more than 500 AInative companies in this group, about 100 of which are spending more than $100,000 annually with Datadog and more than 15 who are spending more than $1 million annually with us.
+
+While we know there's a lot of attention on this cohort, we primarily see it as an indication of what's to come as companies of every size and every single industry incorporate AI into their cloud applications. And that's it for another very strong quarter from our go-to-market teams, who ran our very hard at work as we have a really exciting pipeline for Q4.
+
+Before I turn it over to David for a financial review, I want to say a few words on our longer -term market. There is no change to our overall view that digital transformation and cloud migration are long -term secular growth drivers of our business. Meanwhile, we are advancing rapidly in AI, where we are incredibly excited about our opportunities. We're building a comprehensive set of AI Observability products to help our customers tackle the higher complexity of the com with the technologies. And we are building AI into Datadog, and I spoke earlier about the excitement our customers have for our Bits AI agents.
+
+The market opportunity in cloud and AI is expected to grow rapidly into the trillions of dollars and companies of every size and industry are looking to adopt AI to deliver value to their customers and drive positive business outcome. So we're moving fast to help our customers develop, deploy and grow into the cloud and into the AI world.
+
+With that, I will turn it over to our CFO. David?
+
+David M. Obstler Chief Financial Officer
+
+Thanks, Olivier. To start, our Q3 revenue was $886 million, up 28% year-over-year and up 7% quarter-over-quarter. To dive into some of the drivers of our Q3 revenue growth. First, overall, we saw sequential usage growth from existing customers in Q3 that was higher than our expectations and the strongest in 12 quarters in our non -AI native customer base.
+
+We saw year-over-year growth acceleration broadly across our business, including in new logos and existing customers, both enterprise and SMB with customers across our spending bands, big and small, and customers in a wide variety of industries.
+
+Next, we saw strong and accelerating contribution from new customers. New logo annualized bookings more than doubled year-over-year and set a new record driven by an increase in average new logo land size, particularly in enterprise. We believe we are starting to see the benefits of our growth of sales capacity. And we are seeing new logos ramping faster, contributing more to revenue growth. The portion of our year -over-year revenue growth that related to
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 8 spglobal.com/marketintelligence
+
+new customers was about 25% in Q3, up from 20% in Q2.
+
+Next, our AI native customers continue to exhibit rapid growth, while more customers in this group are growing to be sizable customers. As Olivier discussed, we extended the contract of our largest AI native customer. In addition, we now have more larger AI customers, including 15 of them spending $1 million or more annually with Datadog, and about 100 spending more than $100,000 annually. Year-over-year revenue growth from our AI native customers, excluding the largest customer, again, accelerated in Q3.
+
+In Q3, this group represented 12% of our revenue, up from 11% last quarter and about 6% in the year ago quarter. I will note that over time, we think this metric will become less relevant as AI usage in production broadens beyond this group of customers. Our year-over-year revenue growth also accelerated amongst our non-AI native customers.
+
+In Q3, our revenue growth, excluding AI native customer group, was 20% year -over-year, accelerating from 18% yearover-year in Q2, and we have seen this trend of accelerating growth continue in October. Regarding retention metrics. Our trailing 12-month net revenue retention percentage was 120% similar to last quarter and our trailing 12 -month gross revenue retention percentage remain in the mid- to high 90s.
+
+And now moving on to our financial results. Our billings were $893 million, up 30% year -over-year. Our remaining performance obligations or RPO and was $2.79 billion, up 53% year-over-year, and current RPO growth was in the low 50s percentage year-over-year. Our strong bookings contributed to this acceleration of RPO. We continue to believe that revenue is a better indication of our trends in our business and billings and RPO.
+
+And now let's review some of the key income statement results. Unless otherwise noted, all metrics are non -GAAP. We have provided a reconciliation of GAAP to non-GAAP financials in our earnings release. First, gross profit in the quarter was $719 million, and our gross margin was 81.2%. This compares to a gross margin of 80.9% last quarter and 81.1% in the year ago quarter. As previously mentioned, we continue to see the impact of our engineers’ cost-saving efforts in Q3 as they deliver on our cloud efficiency projects.
+
+Our Q3 OpEx grew 30% -- 32% excuse me, year-over-year, down from 36% last quarter. We continue to grow our investments to pursue our long-term growth opportunities, and this OpEx growth is an indication of our execution on our hiring plan. Q3 operating income was $207 million for a 23% operating margin compared to 20% last quarter and 25% in the year ago quarter.
+
+And now turning to our balance sheet and cash flow statements. We ended the quarter with $4.1 billion in cash, cash equivalents and marketable securities and cash flow from operations was $251 billion in the quarter. After taking into consideration capital expenditures and capitalized software, free cash flow was $214 million for a free cash flow margin of 24%.
+
+And now for our outlook for the fourth quarter and the fiscal year 2025. First, our guidance philosophy overall remains unchanged. As a reminder, we based our guidance on trends observed in recent months and imply conservatism on these growth trends. For the fourth quarter, we expect revenue to be in the range of $912 million to $916 million, which represents a 24% year-over-year growth. Non-GAAP operating income is expected to be in the range of $216 million to $220 million, which implies an operating margin of 24%. Non-GAAP net income per share is expected to be in the range of $0.54 to $0.56 per share based on approximately 367 million weighted average diluted shares outstanding. And for the full year -- fiscal year 2025, we expect revenues to be in the range of $3.386 billion to $3.390 billion, which represents 26% year-over-year growth.
+
+Non-GAAP operating income is expected to be in the range of $754 million to $758 million, which implies an operating margin of 22%. And non-GAAP net income per share is expected to be in the range of $2 to $2.02 per share, based on 364 million weighted average diluted shares. And finally, some additional notes on our guidance. We expect net interest
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 9 spglobal.com/marketintelligence
+
+and other income for the fiscal year 2025 to be approximately $170 million. We continue to expect cash taxes in 2025 to be about $10 million to $20 million and we continue to apply a 21% non-GAAP tax rate for 2025 and going forward. And finally, we expect capital expenditures and capitalized software together to be 4% of revenues in fiscal year 2025.
+
+To summarize, we are pleased with our execution in Q3. We are well positioned to help our existing and prospective customers with their cloud migration and digital transformation journeys, including their adoption of AI. And I want to thank Datadog's worldwide for their efforts.
+
+And with that, we'll open the call for questions. Operator, let's begin the Q&A.
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 10 spglobal.com/marketintelligence
+
+Question and Answer
+
+Operator
+
+[Operator Instructions] Our first comes from the line of Kash Rangan of Goldman Sachs.
+
+Kasthuri Gopalan Rangan Goldman Sachs Group, Inc., Research Division
+
+Appreciate it. Congratulations on the spectacular results and the showing of sequential improvement across the board. Oliver, I had a question for you. We've talked about GPU monetization versus CPU monetization. So how closer are we to the point where you can confidently expand and get your share of the customer wallet when it comes to whether it's training workload, inferencing workload on the GPU clusters, which are becoming more prevalent and increasingly a larger part of the compute build-out in the future? That's it from me.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yes. So we have products that are getting into the market now for GPU monitoring. But these don't generate any significant revenue yet. So all the revenues we've shared, like the acceleration, et cetera, that's not related to us capitalizing more on GPUs, that's a future opportunity. .
+
+Operator
+
+Our next question comes from the line of Sanjit Singh of Morgan Stanley.
+
+Sanjit Kumar Singh Morgan Stanley, Research Division
+
+Congrats on the acceleration in growth this quarter. Olivier, I wanted to talk about some of those enterprise trends you're seeing in sort of your non-AI cohort. What do you sort of put the improved performance in growth this quarter on? You mentioned that the sales productivity or the benefit from some of the sales investments starting to come online. Is there sort of an uplift in sort of the cloud migration trends as you're starting to see enterprise build more AI applications. I ju st love to get your perspective on the underlying trends in the enterprise and the mid-market business.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yes. I said there's 3 points to it. One part is the demand environment is -- is positive in general. I don't know that we see massive acceleration of cloud migration, but at least the environment is not pushing the other way. We know which happens from time to time. So that's point number one.
+
+Point number 2 is we've been growing sales capacity quite a bit, and we've created new go -to-market motions to go after the kind of customers who were not getting before like -- we've done quite a bit of investment over the past couple of years, and we see that starting to pay off. As I said also, we feel good about the Q4 in terms of pipeline on the sales side. So it's too early to tell yet. We still have to close those deals, but we feel good about the scaling of our go -tomarket.
+
+And point number 3 is we have a number of products that we've been developing over the years. Some of them are
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 11 spglobal.com/marketintelligence
+
+early, some of them a little bit further along, they are really clicking. We see -- we have a lot of success with getting large surprises to adult Flex Logs, for example, we have a lot of success, some of new products such as analytics that we mentioned on the call, we're seeing some large land deals or a lot team. So all of that is contributing to the picture you're seeing today.
+
+Sanjit Kumar Singh Morgan Stanley, Research Division
+
+And just as a follow-up on the AI observability opportunity. When you look at some of the independent software vendors that are releasing Agentic solutions, Agentic portfolios. A number of them are including observability as part of their sort of value proposition. Is there any work you think Datadog has to do to sort of infiltrate that market or make sure that customers look to Datadog as that Agentic monitoring capability as some of these independent software vendors try to bundle in observability into their solutions. I was look to your perspective on that?
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yes. I mean there's absolutely no doubt to us that the customers will even want a unified platform for capability for all of this. There's 2 parts to that. One is, historically, everything opco software we integrate with, whether that's SaaS or think that customers on themselves also has it to a management control and observability control, but you're not going to log into 17 or indicating customers we mentioned like they use 16 integrations for the smaller customers 15th one, it's not practical to actually grow and manage that separately.
+
+So we think all of that belongs in a central place, and that's the historical trend we've seen. We also think that you can't separate the AI parts from the non-AI parts of the business. So you're not going to look at your agents separately that you do at your database and your everything else in your stack. So all of that in the end will be attached to observability.
+
+Operator
+
+Our next question comes from the line of Raimo Lenschow of Barclays.
+
+Raimo Lenschow Barclays Bank PLC, Research Division
+
+Perfect. Congrats from me as well. That sounded like an amazing quarter and nice to see it coming together. The -- on the AI side, and I don't want to talk about the customer, but more the other ones, like 15 customers over 1 million. That's like a big number and 100 over 100,000. How do we have to think about the nature of those? Is this kind of -- are those kind of especially the bigger ones of those kind of model builders, but then even 15 is a big number. And over 100 sounds like this whole new application world that we've all been kind of waiting for starting to come together. Is that kind of what's going on there? Because it does sound quite exciting and much more broader than we thought.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+It's actually fairly broad. So there is model vendors, there's models -- model that can be the line that can be video, it can be sound generation to be all of the various parts of the stack you see as independent companies. It can be -- there's quite a few companies that do that work on the coding side. So coding assistance and coders and everything in that range. .
+
+Some of these are very new companies. Some of these are not very new companies, some of these started 7, 8 years ago. And we're sort of not necessarily AI native from day 1, but very quickly, that would give them the growth they see today with the people to AI. So we see a little bit of that. We have companies that are other parts of the stack in AI on
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 12 spglobal.com/marketintelligence
+
+the, say, the side, the other components of the infrastructure. And we have a lot of the companies that are more purely applications filled with AI. So we have a bit of everything in there. Like it's actually fairly representative of the space.
+
+Operator
+
+Our next question comes from the line of Mark Murphy of JPMorgan.
+
+Mark Ronald Murphy JPMorgan Chase & Co, Research Division
+
+You had mentioned the expansion of the contract with your largest AI native customer. And I believe you said better economics for a higher commitment. Can you speak to that because I would assume a higher commitment would carry a volume-based discount. I'm just trying to understand if for some reason, if that was not the case here, what did you mean by better economics and then I have a quick follow-up.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yes. Yes. I mean, look, this is -- we're not getting to the detail of any specific customer that this is the motion is always the same. Like customers grow they commit to more, they get better prices. So you see again, talking about customers in general, you see growth of usage, drops in revenue as customers renew and get higher commit and a better price and then unit growth after that for those customers. That's the motion that we've had. We have about 30,000 customers so far.
+
+Mark Ronald Murphy JPMorgan Chase & Co, Research Division
+
+Okay. And the -- what -- so the better economics part of it is just where it's going to be netting out like 12 months down the road? Is that what you mean?
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Well, the bigger economics means you coming tomorrow, you get a better price. And as we -- remember, we have a usage model. So we charge people every month on what they use at the crises we agreed. So if you get better economics, and your usage is somewhat similar month to month less. But the overall backdrop of our business is increased consumption.
+
+Mark Ronald Murphy JPMorgan Chase & Co, Research Division
+
+Okay. And then as a quick follow-up, Olivier, the acceleration that you saw in the security growth is pretty noticeable too. We recall, I think about 6 months ago, you had ramped up and engaged a lot more of channel partners, which is a key ingredient, to grow in the security business. Is there a function of that? Or is there a mindset change happening out there where customers want observability to be the central point of collection so that all the security teams and the ops teams are working with the same set of metrics and logs and tracers?
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Look, I think it's -- it's a number of things. Definitely, we've been investing in the channel, and that's certainly helpful to do the security business as a whole. The big win we mentioned on security that we mentioned a couple of Cloud SIEM.
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 13 spglobal.com/marketintelligence
+
+This tends to be more related to product maturity. The strength of our underlying platform, especially when it comes to technology that Flex Logs, for example. And the fact also that we've been learning how to properly go to market for security, and I think we've still been clicking in a way that's very exciting. .
+
+Operator
+
+Our next question comes from the line of Fatima Boolani of Citi.
+
+Fatima Aslam Boolani Citigroup Inc., Research Division
+
+Olivier, I'll start with you and I have a follow-up for Dave. On the OnCall product, Oli, how do Agentic advancements in general, detract or enhance the value proposition here? And I'm very simplistically thinking about the core nature and value proposition of the OnCall product intelligently routing requests for remediation, right? So how you just broader advancements in AI help beef up and/or detract your ability to monetize this product? And then just a follow -up for David, please.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Well, I mean, if you zoom out, we entered the field with OnCall because we wanted to own the end -to-end incident resolution. So we want it to -- before that, we were detecting the incidence and sending the alerts. And then we were pretty much where the resolution happened after that. Customers were spending that time in that up to diagnose and understand what was going on. So we wanted to own the full cycle. And we thought that with AI, in particular, we'd have the ability to do things if we own or the whole cycle, that we couldn't do otherwise.
+
+So what you see right now is, I mean, these resonate with customers, they don't think the product. We've mentioned like some exciting customers with say, one with 5,000 seats for OnCall, which is very exciting. But in the future, there's many more things we can do in working on for that product. If we -- if we both detect incident and notify, we can do some settle things such as even predicting the incident and notify early or rerouting early or paying people before the incident actually takes place on who they can potentially fix it. So these are all things we're working on. I mean, look, if you look at the various product announcements with [indiscernible] or the time series forecasting model we released when you assemble all that, you get to a very, very interesting picture of what we can do in the future. So we're excited about that our customer are excited by the vision there too, and that's why this product is successful.
+
+Fatima Aslam Boolani Citigroup Inc., Research Division
+
+Appreciate that. David, on net retention rates, why aren't we necessarily seeing more upward pressure on the metric, just given the strength of expansionary bookings that you alluded to in the quarter from the installed base. And I mean I suspect it's because it's a trailing 12-month metric. But any directional color you can just share on that. And any highlevel commentary on some of the non-AI native net retention rate trend behavior?
+
+David M. Obstler Chief Financial Officer
+
+Yes. You've noted it. It's a trailing 12 months, it's a number that's rounded, it has the dynamics that you might expect in that the growth of the non-AI natives has been, as we mentioned, a combination of landing and expanding at higher rates than we've seen in recent quarters. So if that continues as you go into a trailing 12 -month metric, you see a directional movement.
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 14 spglobal.com/marketintelligence
+
+Our next question comes from the line of Eric Heath of KeyBanc.
+
+Eric Michael Heath KeyBanc Capital Markets Inc., Research Division
+
+David, Bits AI seems like a really exciting thing out of DASH. And I know it's still in preview, but you mentioned there's a lot of interest there. So I'm just curious how you think about the Agentic opportunity with Bits AI how meaningful this can be for 2026 as a differentiator versus competition and also as a revenue contributor?
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yes. So -- I mean, look, it's super exciting. The feedback is very good on it. I mean, we've been collecting all the -- so I read one quote, we have dozens that look just like that that was sent to us by customers. And so that's very, very exciting.
+
+The -- we also started I think some customers buy -- come to it just to show value and to make sure we're on to the right product mix. And so we feel good that this is something that is high quality and we can monetize. In terms of the impact for next year, on the packaging side, I'm not completely sure yet whether the biggest impact will be seen from what we charge for itself or for the rest of the platform, that it gets what it is on the differentiation of Bits AI.
+
+I think that's more of a broader question of packaging and monetization of AI. And remember that we have a product that is usage based. So anything that drives usage of and adoption from customers is good for us and is very, very monetizable.
+
+But what we can tell you is this is differentiating. This is good. It works significantly better than anything else we've see n order in the market, and we are doubling down on it. We have many, many teams now working on deepening CSRs to making sure it goes further into the resolution doesn't just point to the issue, but it is the code have all these kind of things, working hard on that. We're also working on breadth, making sure that we train it on many more types of data, I mean, in terms of sources sometimes even systems that are also systems that are not tap so we can cut across to other systems our customers are using. So we are very, very aggressively developing Bits AI. It's resonating by well in the market.
+
+Operator
+
+Our next question comes from the line of Gray Powell of BTIG.
+
+Gray Wilson Powell BTIG, LLC, Research Division
+
+Congratulations on the great results. So maybe just like taking a step back, if we go back to the beginning of the year, Datadog was expecting 19% revenue growth. It looks like you're tracking to something over 26% growth now, and that's just the high end of your guidance. So I guess my question is, what surprised you the most this year? And then just how do you feel about the sustainability of those drivers as you look forward?
+
+Olivier Pomel Co-Founder, CEO & Director
+
+I mean, look, the -- so first, I apologize for reading on the results. We might do it again, but we'll see. The -- I think the biggest surprise for us has been that the -- so AI in general has -- AI adoption has grown faster than we thought it would
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 15 spglobal.com/marketintelligence
+
+at the beginning of the year. So we've seen that across our AI cohort. We've seen also that we got some of our new products and new -- like the changes we're making on the go-to-market side to click perhaps earlier than we would have thought otherwise. So all in all, we saw the leading part of the business with AI growth faster, not the lag, but the slower growing, more tensional property business also accelerate and that gives us where we are today.
+
+David M. Obstler Chief Financial Officer
+
+And I'd add, we have a good demand environment, and we've been investing whether it be in the products that Oli's been talking about or in the sales capacity we made clear that we were in investment and we're seeing those investments pay off. .
+
+Operator
+
+Our next question comes from the line of Koji Ikeda of Bank of America Securities.
+
+Koji Ikeda BofA Securities, Research Division
+
+Just one from me here. I wanted to ask a question on the inflection in the non -AI native growth and how to think about the areas of strength in this cohort. Is it coming from your largest enterprises? Is it coming from a certain type of customer? Is there a common theme in the workloads that you're seeing or the products that are being added on that is driving that strength? Or is it just really just broad-based? What I'm trying to get out here is I'm really trying to understand more the durability of this growth of collection.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+So it is broad-based. And I think, again, speaks to a couple of things. It speaks to the fact that, in general, the demand environment is good. Though I would say, there's been a very, very high growth of hyperscaler revenue that over the past -- next generation for the hyperscalers in general. A lot of that is GPU related, but the growth we're seeing here and the exception we're seeing here is largely not GPU-related livery, but not autonomy. So that's not exactly what you've seen with some of the other vendors there. .
+
+One reason this is broad-based is these are the same products we sell to all customers, and this is largely the same go to-market organization that we have a few segments, but -- and we've been doing well executing there. I think we've invested quite a bit in product, and we keep and we will keep doing it, and we see the results of that.
+
+David M. Obstler Chief Financial Officer
+
+Yes, I want to -- I'll add that it's across the customer base, enterprise SMB. And when we look at it, it's not just an AI SMB. If you remove these AI companies, you still see a strengthening SMB demand cycle going on. And unlike in previous periods, it also is across spending ranges. We're not seeing larger spenders or smaller spenders. We're just seeing a broad trend of improved demand across the spending trends. .
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Remember that for us, SMB is any company at less than 1,000 employees. It includes a lot of very legitimate and growing businesses. It's -- it's not [indiscernible]
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 16 spglobal.com/marketintelligence
+
+Operator
+
+Our next question comes from the line of Ittai Kidron of Oppenheimer & Co.
+
+Ittai Kidron Oppenheimer & Co. Inc., Research Division
+
+Congrats guys. Really great numbers. Oli, your answer to one of the questions and kind of going into the drivers behind the upside. You've talked about sales capacity increase. You didn't talk much about sales efficiency. Is there a way you can give us some color on where do you stand on percent of salespeople that are hitting quota, where does that ratio stand relative to historical patterns for you guys? And as you approach 26 year, do you anticipate any material changes in the comp structure just given the breadth of product and the list of opportunities, how do you get people focused?
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yes. So we feel good about the SaaS productivity in general. And the rule generally, you grow by scaling capacity and maintaining productivity, it's hard to drive both up at the same time. And remember, if you want to go to 10x, you can do that by scaling if you can't really do it by improving productivity, so you have to scale. And we've been doing that, and we've been successful at it opine.
+
+In terms of the content, look, we keep changing the way we can dense the way we manage the sales force in general to make sure we have the right focus. One of the gifts of a business like ours is that we see -- we have a very heavy land mix and model. And so we get a lot of growth from main customers. The challenge in create on the other hand, is how do we get to focus the sales force on the newer customers, the smaller ones and the new ones because it is more work to get an extra dollar for a smaller customer or formula new ones, [indiscernible] that they already have scale.
+
+And so a lot of the tweaks we met to our comp plans we like to that, to make sure we direct our attention and we reward people for what is going to generate the most long-term growth for us. And we've made a number of changes I won't go through them design changes. But we had a number of changes this year, we see a number of NPLs.
+
+Another thing I mentioned on the call was we mentioned a win for one of our new go -to-market motions and that specifically getting in place multiyear plans to go after some larger customers that are tougher to land than what we've done in the past. And sometimes, it takes more than a year to types of customers. And the problem is if you compliant only has a 1-year horizon, like it doesn't give a great incentive for the sales force to go after those customers. And so we cordoned off a few of those companies. We have special plans to go after that, and we're starting to see success with that too is a general example.
+
+Operator
+
+Our next question comes from the line of Andrew Sherman of TD Cowen. .
+
+Andrew Michael Sherman TD Cowen, Research Division
+
+Great. Congrats. I know you have a team focused on the Fortune 500, where there's still a lot of white space for you. Curious to hear how the team is ramping to productivity that help drive some of the strong new logo bookings and can this contribute even more next year?
+
+Olivier Pomel
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 17 spglobal.com/marketintelligence
+
+Co-Founder, CEO & Director
+
+Yes. I mean, look, the key is not new. I mean, we've been focusing on that for many years, and we're tracking well. One thing I was mentioning just before was one challenge even the Fortune 500 is to make sure that we focus on landing new customers and make sure that there's the right amount of sales attention and we work for the landing a customer even if it's for a small amount, and I think we've done well. I mean again, we can comment on that again after the next quarter when we have a full year of our new plants that have been validated. But so far, we feel very good about it.
+
+Operator
+
+Our next question comes from the line of Alex Zukin of Wolfe Research.
+
+Aleksandr J. Zukin Wolfe Research, LLC
+
+And congrats on dropping some truly inspiring quotes in the script. Maybe Oli, one for you and then I have a quick follow-up for David. Just the duration of this acceleration of the non-AI cohort. It seems like from all your forward-looking metrics, whether it's billings, RPO, CRPO. Those were, again, really, really strong how long do you think we should think about the duration of this trend of this non-AI acceleration?
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Well, our consumption business. So we -- the hardest thing to understand is what the future is going to look like for consumption. The way I would say it is we feel very good about it at the midterm, long term, not -- ebbs and flow than given month or quarter, that's harder to tell. And again, that's what we see through the life of the company. So we feel very confident about the motion in general for digital transformation and cloud migration is steady. And sometimes it slows down a little bit, but it reaccelerates after that. And we see that key going on for a very long time. .
+
+Aleksandr J. Zukin Wolfe Research, LLC
+
+Okay. And then maybe, David, for you, look, gross profit dollar acceleration while you're seeing your largest customer kind of get better unit economics is also inspiring to see how should we think about the progression of gross margins and gross profit dollar growth, particularly as you continue to also see the AI cohort acceleration.
+
+David M. Obstler Chief Financial Officer
+
+Yes, there's a couple of things. I think we've mentioned that we've been focused and have focused over the many years on the efficiency of our cloud platform. We have significant engineering efforts around cost of sales and delivery of value. And so we've been able to deliver on that. We also have a very broad customer base distributed in terms of volume. So as customers get larger and maybe get volume discounts, we have a number -- a lot of customers coming in, it's smaller, so that balance there.
+
+And then in terms of the sort of the future -- I'll repeat what we've always said that we've been running the company with a gross margin plus or minus 80%, we've given that range and not changed it, and we watch it. And it gives us signals in terms of efficiency, how we're operating, it gives us signals in pricing and things like that and I wouldn't change the comments we made over the many years about looking at that and then developing operations and strategies around that.
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 18 spglobal.com/marketintelligence
+
+Our next question comes from the line of Ryan MacWilliams of Wells Fargo.
+
+Ryan Patrick MacWilliams Wells Fargo Securities, LLC, Research Division
+
+Just one for me. On the large AI contract expansion that you provided commentary on, is there any way we can think about the contribution change from this customer over the next few quarters?
+
+David M. Obstler Chief Financial Officer
+
+No. I mean we don't provide that kind of information on individual customers. We're trying to give a picture of the overall business. Generally, I think as Oli mentioned, on our larger customers, we have a motion of the expansion of volume and then we talk when we work on the term and the volume-based pricing, but we don't give guidance like that on individual customers.
+
+Operator
+
+Our next question comes from the line of Mike Cikos of Needham.
+
+Michael Joseph Cikos Needham & Company, LLC, Research Division
+
+I just wanted to come back to it, Oli, for the non-AI native strength, I know we've kind of hit on this a number of times, whether it's road map sales capacity execution, but like kudos on the numbers here? I'm just trying to get a better sense of the why now. Is it just a composite of all those different pieces clicking together this quarter? Or is there anything more to impact there? And then I have a follow-up for David.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Again, I don't think there's a lot more to back there. And I know it's growing away but it's also the way we've been growing for the past 15 years or so. So that's a -- that's -- I would call it the usual.
+
+Michael Joseph Cikos Needham & Company, LLC, Research Division
+
+Awesome. Awesome here. Okay. And then for the follow-up to David. David, I don't want to take anything away from the Q3 results you guys just posted, and we obviously have the strong guide here for Q4. But I just can imagine myself a month from now starting to get inbounds from certain folks asking about the holiday season and the fact that we have the holidays landing on weekdays in Q4 here. Can you just kind of discuss how you thought about constructing guidance for this Q4 year?
+
+David M. Obstler Chief Financial Officer
+
+Yes. We have years of experience of analyzing the day-by-day patterns. In the holidays, we know that the holiday period ends up in the usage side because of vacation holidays, and we incorporate that into our guidance. We're I think, evolved a lot over the years and sort of days adjusted types of days, et cetera. And so we would be incorporating that like we've incorporated in other years, if there are differences in this calendar period, we incorporate that as always. .
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 19 spglobal.com/marketintelligence
+
+Operator
+
+Our next question comes from the line of Karl Keirstead of UBS.
+
+Karl Emil Keirstead UBS Investment Bank, Research Division
+
+Okay. Great. I'll ask one for David and one for Olivier. David, first of all, congratulations on the extension of the the lar ger contract, I think everybody on the line is applauding that. I know you're reticent to get into any details, but maybe I could try. Are you able to clarify whether that was a 1-year deal or multiyear?
+
+And then related to that, David, what is the contribution to CRPO from that deal, which I presume landed in your CRPO number. If it is a 1-year deal does the entirety of that contract contribute to the sequential CRPO performance in the quarter? So that's it for you, David.
+
+And then Olivier, maybe I'll just ask both at once. Some of the very large AI natives are beginning to diversify to utilizing Oracle's OCI and Stargate. And I'm wondering what's the opportunity for Datadog to essentially follow that behavior and begin scaling on Oracle target or because a lot of what Oracle is doing with the AI native is training clusters, perhaps that near-term opportunity is more limited.
+
+David M. Obstler Chief Financial Officer
+
+Yes. On the first point, I think we give a lot of examples and our motion, which our customers would be following, including that one would be -- we fix out annual plus commits. We're not commenting on individual contracts here, but it would follow a typical path to other types of contracts. So that's what we would do.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yes. And on the one, look, this -- we've than OCI integration, and we see more demand from customers on OCI. Some of the things we see like the targets, et cetera, like these are extremely custom build out, like I don't know -- they're not necessarily exactly cloud because they are custom built for specific customers. So the opportunity there is more remote today. But it's -- again, one completion is that it's not fantastic opportunity to productize, but if 10, 15, 20, 50 companies start using that, then that really becomes a commercial opportunity. And so we're very much plugged into all of that. And we go basically where our customers are.
+
+David M. Obstler Chief Financial Officer
+
+I think you mentioned about the RPO. I think in this case, we've mentioned this current and the total is roughly the same, and there wouldn't be anything in that contract that would have been materially around of those numbers. Those numbers, I think we mentioned are produced from the bookings growth more generally and not from that particular contract. .
+
+Operator
+
+Our next question comes from the line of Jake Roberge of William Blair.
+
+Jacob Roberge William Blair & Company L.L.C., Research Division
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 20 spglobal.com/marketintelligence
+
+Yes. Just on the recent go-to-market investments, obviously, it seems like there's been a lot of traction thus far with those. So I'm curious if there are any areas like security or the new logos or upmarket that that you could look to lean even deeper into just given the growth that you've seen here.
+
+Olivier Pomel Co-Founder, CEO & Director
+
+Yes, definitely. And there are some things we didn't do this year that we'll definitely go to the next year. So there's a number of things we are -- we're in Q4, right? So we're in the middle of planning for next year, and we basically will keep scaling what's working, stop doing some of the things that conclusive and then charge a few more things. That's the way it was. The -- interestingly enough, building a go-to-market is not that different from building software like you experiment together data you see what's working was not working and you build the systems.
+
+Jacob Roberge William Blair & Company L.L.C., Research Division
+
+That's helpful. And then just on the new Bit AI agents, can you just talk about the early feedback that you've gotten for those solutions and maybe how the engagement with those agents as compared to kind of the ramp of security Flex Logs. I know, obviously, much earlier days, but just how it compared when those were still largely in the preview phase?
+
+Olivier Pomel Co-Founder, CEO & Director
+
+I mean look, the Bits AI agent is -- it really has a real factor for customers. So what works really well is and we've seen that number of times. But the -- we set it up for them. It's running on their alert and they go through an outage and they still go to the motion, so they still go -- they still set up a bridge and they have 20 people and they spend 2 hours and in the end, they have an idea what went wrong. And then they go to that or they see, there's an investigation that had run, and 3 minutes into the outage, it got the same conclusion that was up 2 hours later, it was 20 people in the call. And that completely are opening for customers when they see it. And we have -- so that's why we get many quotes about -- so now there's more we need to do there, like new customers say, "Oh, it's great. Now make it for me, can you do this, can you do that? Can support that all the system that right now you can actually set it up for.
+
+So we have a very, very full road map of things we need to do, and we're doubling the one. We also shipped -- I mean this one is in previous, but we shipped security agent that looks at vulnerabilities looks at security signal and those 3 ads that basically look at the trends to get what might be benign or what might be a real issue. We also are getting very, very positive feedback for that. And in fact, that would help us win some large land deals for our plate products because the combination of the theme that runs extremely efficiently on top of observability data that runs very efficiently on top of Flex Logs, but also send an immense amount of time by the gating 90% of the issues out of the way with automated the investigations, that's extremely attractive to customers.
+
+All right. And I think with that, we're going to close the call. So before we go, I just want to give one quick shot out to t he team because I know, as I said earlier, we have quite a lot going on in Q4, whether it's on the planning side, the product building side or on the sales side, where I said we have a really very exciting pipeline and -- so we have a lot to do. I want to thank the team for the hard work there. I also I'm looking forward to meeting a lot of our existing and new customers at [indiscernible] event in a few weeks, and I'll see you there. Thank you all.
+
+Operator Thank you for your participating in today's conference. This does conclude the program. You may now disconnect.
+
+COPYRIGHT © 2025 S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved. 21 spglobal.com/marketintelligence
+
+Copyright © 2025 by S&P Global Market Intelligence, a division of S&P Global Inc. All rights reserved.
+
+These materials have been prepared solely for information purposes based upon information generally available to the public and from sources believed to be reliable. No content (including index data, ratings, credit-related analyses and data, research, model, software or other application or output therefrom) or any part thereof (Content) may be modified, reverse engineered, reproduced or distributed in any form by any means, or stored in a database or retrieval system, without the prior written permission of S&P Global Market Intelligence or its affiliates (collectively, S&P Global). The Content shall not be used for any unlawful or unauthorized purposes. S&P Global and any third-party providers, (collectively S&P Global Parties) do not guarantee the accuracy, completeness, timeliness or availability of the Content. S&P Global Parties are not responsible for any errors or omissions, regardless of the cause, for the results obtained from the use of the Content. THE CONTENT IS PROVIDED ON "AS IS" BASIS. S&P GLOBAL PARTIES DISCLAIM ANY AND ALL EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE, FREEDOM FROM BUGS, SOFTWARE ERRORS OR DEFECTS, THAT THE CONTENT'S FUNCTIONING WILL BE UNINTERRUPTED OR THAT THE CONTENT WILL OPERATE WITH ANY SOFTWARE OR HARDWARE CONFIGURATION. In no event shall S&P Global Parties be liable to any party for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including, without limitation, lost income or lost profits and opportunity costs or losses caused by negligence) in connection with any use of the Content even if advised of the possibility of such damages. S&P Global Market Intelligence's opinions, quotes and credit-related and other analyses are statements of opinion as of the date they are expressed and not statements of fact or recommendations to purchase, hold, or sell any securities or to make any investment decisions, and do not address the suitability of any security. S&P Global Market Intelligence may provide index data. Direct investment in an index is not possible. Exposure to an asset class represented by an index is available through investable instruments based on that index. S&P Global Market Intelligence assumes no obligation to update the Content following publication in any form or format. The Content should not be relied on and is not a substitute for the skill, judgment and experience of the user, its management, employees, advisors and/or clients when making investment and other business decisions. S&P Global Market Intelligence does not act as a fiduciary or an investment advisor except where registered as such. S&P Global keeps certain activities of its divisions separate from each other in order to preserve the independence and objectivity of their respective activities. As a result, certain divisions of S&P Global may have information that is not available to other S&P Global divisions. S&P Global has established policies and procedures to maintain the confidentiality of certain nonpublic information received in connection with each analytical process.
+
+S&P Global may receive compensation for its ratings and certain analyses, normally from issuers or underwriters of securities or from obligors. S&P Global reserves the right to disseminate its opinions and analyses. S&P Global's public ratings and analyses are made available on its Web sites, www.standardandpoors.com (free of charge), and www.ratingsdirect.com and www.globalcreditportal.com (subscription), and may be distributed through other means, including via S&P Global publications and third-party redistributors. Additional information about our ratings fees is available at www.standardandpoors.com/usratingsfees. © 2025 S&P Global Market Intelligence.

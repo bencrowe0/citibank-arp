@@ -1,0 +1,226 @@
+{
+  "document_id": "CVX_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports record production and strong cash generation, with adjusted free cash flow up more than 50% year-over-year, and management expresses confidence in continued strong cash generation even in a lower price environment. However, reported earnings declined year-over-year due to lower crude prices and Hess-related costs, and while full-year production growth guidance is at the top end of the 6-8% range, there is no formal earnings guidance raise. The positive operational momentum and confident forward language support a modestly positive score, but the lack of a formal guidance raise and the year-over-year earnings decline temper the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenues of $48,169 million for Q3 2025, compared to $48,926 million in Q3 2024.",
+    "eps": "Reported earnings of $1.82 per share (diluted) for Q3 2025, compared to $2.48 per share in Q3 2024. Adjusted earnings of $1.85 per share (diluted), compared to $2.51 per share in Q3 2024.",
+    "guidance": "Full-year average production growth expected at the top end of the 6% to 8% guidance range, excluding legacy Hess. Full-year organic capex inclusive of Hess expected to be $17.0 to $17.5 billion, in line with guidance.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Lower crude oil prices",
+      "Severance and other transaction costs related to the Hess acquisition",
+      "Higher interest expense",
+      "A fire occurred at the El Segundo refinery",
+      "Potential for lower prices to test capital discipline and cash returns in the Permian",
+      "California refining market policy changes could impact the business"
+    ],
+    "key_opportunities": [
+      "Record production of 4.1 million BOE per day, up 21% year-over-year",
+      "Hess acquisition contributing 495 MBOED and synergies being realized",
+      "Strong cash generation with adjusted free cash flow up more than 50% year-over-year",
+      "TCO performing well with potential for capacity creep",
+      "Growth in high-margin assets (Permian, Gulf of America, Guyana)",
+      "Exploration expansion into frontier areas (Namibia, Suriname, Brazil)",
+      "Petrochemicals growth projects at CPChem"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses confident language such as 'record production and strong cash generation,' 'integration of Hess is progressing well,' and 'we expect strong cash generation to continue, even in a lower price environment.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue for Q3 2025 was $48,169 million, down from $48,926 million in Q3 2024.",
+      "quote": "Sales and other operating revenues $ 48,169 $ 48,926 $ 138,645 $ 145,080",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS for Q3 2025 was $1.82, down from $2.48 in Q3 2024.",
+      "quote": "reported earnings of $3.5 billion ($1.82 per share - diluted) for third quarter 2025, compared with $4.5 billion ($2.48 per share - diluted) in third quarter 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS for Q3 2025 was $1.85, down from $2.51 in Q3 2024.",
+      "quote": "Adjusted earnings of $3.6 billion ($1.85 per share - diluted) in third quarter 2025 compared to adjusted earnings of $4.5 billion ($2.51 per share - diluted) in third quarter 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year production growth is expected at the top end of the 6-8% guidance range.",
+      "quote": "We expect full-year average production growth at the top end of our 6% to 8% guidance range, excluding legacy Hess.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year organic capex is expected to be $17.0 to $17.5 billion, in line with guidance.",
+      "quote": "Organic capex was $4.4 billion for the quarter, we expect full year organic capex inclusive of Hess to be $17.0 to $17.5 billion, in line with guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record production of 4.1 million BOE per day, up 21% year-over-year.",
+      "quote": "Record production of 4.1 million BOE per day; 21 percent higher than last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted free cash flow increased more than 50% year-over-year.",
+      "quote": "Strong cash flow from operations was sustained while the company's adjusted free cash flow increased more than 50 percent from a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Hess acquisition contributed 495 MBOED to production.",
+      "quote": "Worldwide and U.S. net oil-equivalent production set quarterly records, with the Hess acquisition contributing 495 MBOED.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in continued strong cash generation even in a lower price environment.",
+      "quote": "We expect strong cash generation to continue, even in a lower price environment, underpinned by increased capital efficiency and growth in high-margin assets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower crude oil prices were a key reason for the year-over-year earnings decline.",
+      "quote": "Reported earnings decreased compared to last year primarily due to lower crude oil prices, severance costs and other transaction costs related to the Hess acquisition, partly offset by higher margins on refined product sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A fire occurred at the El Segundo refinery, a risk to operations.",
+      "quote": "Earlier this month, a fire occurred at our El Segundo refinery. Importantly, there were no serious injuries, and we continue to meet our supply commitments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest expense was a factor in the increased net charges in All Other.",
+      "quote": "Net charges increased compared to a year ago primarily due to higher interest expense, transaction costs related to the Hess acquisition and pension curtailment costs, partly offset by a favorable fair market valuation adjustment for Hess shares.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TCO is performing well and has potential for future capacity creep.",
+      "quote": "The history on these great, big, complex facilities, a little bit like I mentioned about refineries, is we do find ways to creep capacity and debottleneck them over time. It's premature to reset any guidance on that, but the history suggests that there's an opportunity there and certainly, those are the kinds of things that our people are working on.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is expanding exploration into frontier areas.",
+      "quote": "We'll move to a more balanced approach of mature areas that are well known and also early entry into high-impact frontier areas. We've added a lot of new country entries over the last couple of years in the South Atlantic margin, the Middle East, and the West Coast of South America as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is pursuing petrochemicals growth projects.",
+      "quote": "The one piece of the Downstream we've been pretty clear that we would like to grow is petrochemicals. We've got a couple of projects underway at CPChem right now.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "In the third quarter, Chevron delivered record production and strong cash generation, supporting sustained shareholder distributions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Permian basin faces a risk from lower prices testing capital discipline.",
+      "quote": "Most third parties seem to think that level of rigs is an appropriate number to maintain current production levels, and that's, of course, dependent upon: are they still finding good productive opportunities beyond the top-tier acreage; are companies still able to deliver cash back to shareholders, which is a promise that we've seen a lot of the Permian operators now commit to that may be tested as we go through a period of lower prices, and see how they handle the trade-off between capital and cash returns to shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "California refining market policy changes could impact the business.",
+      "quote": "The policy moves by the state will have an impact on the decisions that get made by us and I suspect by others.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects strong operational momentum and confident language, but the year-over-year earnings decline and lack of a formal earnings guidance raise could justify a lower score. The positive score is driven by production growth and cash flow strength, which are forward-looking indicators."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "CVX_Bundled Earnings Report_2025-10-31",
+  "report_metadata": {
+    "issuer": "p2_chevron",
+    "company": "Chevron",
+    "ticker": "CVX",
+    "sector": "Energy/Oil & Gas",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q3/CVX_Q3_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q3/CVX_Q3_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CVX_FQ3_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T215809Z",
+    "timestamp": "2026-08-13T21:58:43Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q3/CVX_Q3_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_chevron_ext2026_08_13/extracted/CVX_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q3/CVX_Q3_2025_Press_Release.pdf",
+        "page_count": 10,
+        "extracted_characters": 30111,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q3/CVX_Q3_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 14,
+        "extracted_characters": 45401,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_chevron_ext2026_08_13/extracted/CVX_FQ3_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

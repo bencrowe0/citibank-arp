@@ -8,7 +8,7 @@
     "direction": "HOLD",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "none — HOLD band",
+    "boundary_crossed": "none \u2014 HOLD band",
     "model_stated_direction": "HOLD",
     "signal_mismatch": false
   },
@@ -110,7 +110,7 @@
     },
     {
       "claim": "The company maintains global market share leadership in toothpaste and manual toothbrushes.",
-      "quote": "The Company’s leadership in toothpaste continued with its global market share at 41.1% year to date. The Company’s leadership in manual toothbrushes continued with its global market share at 32.6% year to date.",
+      "quote": "The Company\u2019s leadership in toothpaste continued with its global market share at 41.1% year to date. The Company\u2019s leadership in manual toothbrushes continued with its global market share at 32.6% year to date.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
@@ -159,7 +159,8 @@
         "pub_date": null
       }
     ],
-    "document_id": "CL_FQ1_2026"
+    "document_id": "CL_FQ1_2026",
+    "release_timing": "pre_market"
   },
   "run_meta": {
     "run_id": "20260813T152734Z",

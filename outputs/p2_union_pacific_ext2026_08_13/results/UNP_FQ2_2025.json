@@ -1,0 +1,205 @@
+{
+  "document_id": "UNP_FQ2_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Union Pacific reported strong Q2 2025 results with record freight revenue and operating income, and management reaffirmed its 3-year EPS CAGR target of high-single to low-double digit, indicating confidence in forward growth. However, management explicitly guided for sequential volume declines in the back half due to challenging intermodal comparisons and external pressures like tariffs, which tempers the positive momentum. The score reflects genuine operational momentum and reaffirmed guidance, but not a formal raise, and acknowledges the cautious forward outlook."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Operating revenue of $6.2 billion, up 2% year-over-year; freight revenue of $5.8 billion, up 4%, a second quarter record.",
+    "eps": "Diluted EPS of $3.15; adjusted diluted EPS of $3.03, up 12% year-over-year.",
+    "guidance": "Reaffirmed 2025 outlook: EPS growth consistent with 3-year CAGR target of high-single to low-double digit; pricing dollars accretive to operating ratio; industry-leading operating ratio and ROIC; capital plan of $3.4 billion; share repurchases of $4.0 to $4.5 billion; Q3 dividend increase of 3%.",
+    "margin": "Reported operating ratio of 59.0%, improved 100 basis points; adjusted operating ratio of 58.1%, improved 230 basis points.",
+    "key_risks": [
+      "Sequential volume declines expected in the back half due to challenging international intermodal comparisons.",
+      "Tariff implications and potential changes in consumer behavior could impact volumes.",
+      "Softness in the autos market and lower accessorials expected to weigh on other revenue in Q3.",
+      "Premium segment revenue down 4% due to strong comparisons and port shifts.",
+      "External pressures including tariff activity impacting metals shipments."
+    ],
+    "key_opportunities": [
+      "Strong core pricing gains and volume growth driving freight revenue.",
+      "Coal volumes expected to significantly exceed last year's levels due to favorable natural gas prices and new LCRA shipments.",
+      "Grain volumes strong with favorable 2025 crop outlook.",
+      "Gulf Coast investments and new expansions in Freeport, Texas supporting petrochemical market wins.",
+      "New Kansas City intermodal terminal and $1.4 billion invested in intermodal expansion since 2020.",
+      "Industrial development pipeline of nearly 400 projects driving carload growth.",
+      "Operational improvements: freight car velocity up 10%, workforce productivity up 9%, train length record."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jim Vena stated, 'The foundation is built, we are growing with our customers, and we have strong momentum as we continue to maximize the value of our great franchise,' reflecting confidence in the company's trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Operating revenue grew 2% to $6.2 billion in Q2 2025.",
+      "quote": "Operating revenue of $6.2 billion grew 2% driven by higher volume and solid core pricing gains partially offset by reduced fuel surcharge, business mix, and lower other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Freight revenue reached a second quarter record of $5.8 billion, up 4%.",
+      "quote": "Freight revenue of $5.8 billion set a second quarter record and increased 4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $3.15, and adjusted diluted EPS was $3.03, up 12%.",
+      "quote": "Excluding those items, our adjusted earnings per share is $3.03, up 12% versus last year's adjusted results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported operating ratio improved 100 basis points to 59.0%.",
+      "quote": "Reported operating ratio was 59.0%, an improvement of 100 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating ratio improved 230 basis points to 58.1%.",
+      "quote": "Adjusted operating ratio* was 58.1%, an improvement of 230 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed the 3-year EPS CAGR target of high-single to low-double digit.",
+      "quote": "Specific to 2025, EPS growth will be consistent with attaining our 3-year EPS CAGR view of high single to low double-digit growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects sequential volume declines in the back half.",
+      "quote": "Because of the strong comp that we have with the international intermodal and how we see that trending, that's likely not going to happen. In fact, we're expecting some sequential declines through the back half.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Coal volumes are expected to significantly exceed last year's levels.",
+      "quote": "Starting with Bulk, we expect coal volumes to significantly exceed last year's levels, driven by current forecast for natural gas prices through the remainder of 2025 and the new volume with LCRA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company opened a new Kansas City intermodal terminal.",
+      "quote": "Just last week, we opened our new Kansas City intermodal terminal, our fourth new intermodal terminal in the past few years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Freight car velocity improved 10% to 221 miles per day.",
+      "quote": "Freight car velocity, the best measure of fluidity on the railroad, improved 10% to 221 miles per day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Workforce productivity improved 9% to an all-time quarterly record.",
+      "quote": "Workforce productivity, which includes all employees, improved 9% and marked an all-time quarterly record.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "The foundation is built, we are growing with our customers, and we have strong momentum as we continue to maximize the value of our great franchise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is in advanced discussions with Norfolk Southern regarding a potential business combination.",
+      "quote": "Union Pacific and Norfolk Southern are engaged in advanced discussions regarding a potential business combination.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter other revenue is expected to be in line with Q2 due to softness in autos and lower accessorials.",
+      "quote": "We expect third quarter other revenue to be in line with our second quarter results due to continued softness in the autos market and lower accessorials.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff implications and consumer behavior changes are external pressures.",
+      "quote": "While we remain mindful of external pressures, including potential tariff implications that could influence consumer behavior, we're focused on the shift within our control.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is borderline; the positive momentum and reaffirmed guidance are offset by explicit sequential volume decline guidance, so a human reviewer should verify the balance."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is reaffirmed, not raised; ensure the distinction is clear in the summary."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UNP_Bundled Earnings Report_2025-08-21",
+  "report_metadata": {
+    "issuer": "p2_union_pacific",
+    "company": "Union Pacific",
+    "ticker": "UNP",
+    "sector": "Industrials/Railroads",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-21",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q2/UNP_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q2/UNP_Q2_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UNP_FQ2_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221900Z",
+    "timestamp": "2026-08-13T22:19:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q2/UNP_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_union_pacific_ext2026_08_13/extracted/UNP_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q2/UNP_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 26074,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q2/UNP_Q2_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 72072,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_union_pacific_ext2026_08_13/extracted/UNP_FQ2_2025.txt"
+  }
+}

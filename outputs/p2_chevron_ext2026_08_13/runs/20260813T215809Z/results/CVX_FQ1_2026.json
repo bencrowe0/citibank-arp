@@ -1,0 +1,215 @@
+{
+  "document_id": "CVX_FQ1_2026",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "Chevron's first quarter 2026 results show strong operational momentum—U.S. production exceeded 2 million barrels per day for the third consecutive quarter, TCO returned to full service, and the company reaffirmed its 2026 guidance and 2030 targets. However, reported earnings declined year-over-year due to unfavorable timing effects, and management explicitly stated it is 'too early' to change capital allocation or guidance in response to the Middle East conflict. The forward outlook is positive but hedged, with no formal guidance raise, so the score reflects genuine momentum without a full upgrade."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenues were $47,556 million for Q1 2026, compared to $46,101 million in Q1 2025.",
+    "eps": "Reported diluted EPS was $1.11 for Q1 2026, compared to $2.00 in Q1 2025. Adjusted diluted EPS was $1.41, compared to $2.18 in Q1 2025.",
+    "guidance": "2026 guidance is unchanged: capital spending and production outlooks consistent with previous guidance; structural cost reduction target of $3-4 billion by year-end; 2030 targets include over 10% growth in adjusted free cash flow and EPS, and 3% improvement in ROCE at $70 Brent.",
+    "margin": "Not disclosed as a specific margin figure; however, the document discusses 'higher refining margins' and 'lower margins on refined product sales' in different segments.",
+    "key_risks": [
+      "Heightened geopolitical volatility and related supply disruptions, particularly in the Middle East.",
+      "Unfavorable timing effects of approximately $2.9 billion in Q1 2026, including mark-to-market derivatives and LIFO inventory accounting.",
+      "Foreign currency effects decreased earnings by $223 million.",
+      "Legal reserve of $360 million in the quarter.",
+      "Potential liability from pending or future litigation, including climate litigation.",
+      "Downtime at TCO and curtailments in the Middle East affected production.",
+      "Higher operating expenses, including transportation costs in international downstream.",
+      "Structural risks from government policies, including price caps, export bans, and windfall profit taxes."
+    ],
+    "key_opportunities": [
+      "Integration of Hess assets driving production growth.",
+      "Growth in the Gulf of America and Permian Basin.",
+      "Expansion projects at Tamar and Leviathan in Israel.",
+      "Final investment decision on Aseng gas project in Equatorial Guinea.",
+      "Oil discovery at Bandit prospect in Gulf of America.",
+      "New exploration leases in Libya, Greece, and Uruguay.",
+      "Venezuela asset swap increasing position in Orinoco Oil Belt.",
+      "Exclusivity agreement with Microsoft for power project in West Texas.",
+      "TCO debottlenecking and return to full production.",
+      "Higher refining margins and integration benefits from equity crude."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly emphasizes 'disciplined execution,' 'strong momentum,' and 'consistent with our long-standing financial priorities,' while reaffirming guidance and expressing confidence in the portfolio's resilience."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue for Q1 2026 was $47,556 million, compared to $46,101 million in Q1 2025.",
+      "quote": "Sales and other operating revenues $ 47,556 $ 46,101",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was $1.11 for Q1 2026, compared to $2.00 in Q1 2025.",
+      "quote": "Chevron Corporation (NYSE: CVX) reported earnings of $2.2 billion ($1.11 per share - diluted) for first quarter 2026, compared with $3.5 billion ($2.00 per share diluted) in first quarter 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $1.41 for Q1 2026, compared to $2.18 in Q1 2025.",
+      "quote": "Adjusted earnings of $2.8 billion ($1.41 per share - diluted) in first quarter 2026 compared to adjusted earnings of $3.8 billion ($2.18 per share - diluted) in first quarter 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance is unchanged, including capital spending and production outlooks.",
+      "quote": "Chevron’s business is strong and our 2026 guidance is unchanged. Capital spending and production outlooks are consistent with previous guidance, and we’re on track to deliver our $3 to $4 billion structural cost reduction target by yearend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2030 targets include over 10% growth in adjusted free cash flow and EPS, and 3% improvement in ROCE at $70 Brent.",
+      "quote": "This consistency underpins our 2030 targets announced in November, including over 10% growth in adjusted free cash flow and earnings per share, and 3% improvement in ROCE, all at $70 Brent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unfavorable timing effects totaled approximately $3 billion in Q1 2026.",
+      "quote": "Unfavorable timing effects totaled around $3 billion for the quarter, reflecting a steep rise in commodity prices in March. The effect was evenly split between inventory valuation and mark-to-market accounting on paper derivative positions linked to physical cargoes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign currency effects decreased earnings by $223 million.",
+      "quote": "Foreign currency effects decreased earnings by $223 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A legal reserve of $360 million was included in the quarter.",
+      "quote": "Included in the quarter was a net loss of $360 million related to a legal reserve.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. production exceeded 2 million barrels per day for the third consecutive quarter.",
+      "quote": "U.S. production exceeded 2 million oil-equivalent barrels per day for the third consecutive quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TCO returned to full service in March and is producing above 1 million barrels per day.",
+      "quote": "TCO returned to full service in March following the repairs on the electrical system in February... TCO producing above 1 million barrels of oil equivalent per day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident but cautious about changing guidance due to the Middle East conflict.",
+      "quote": "With only eight weeks into the conflict, as Mike said, it's too early to have a different view on the fundamental outlook around price. It's too early to see or have a view of whether that is structurally changing. And so when it comes to capital allocation, we're comfortable with where we are, and we're staying consistent and disciplined.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher refining margins were a positive factor in the quarter.",
+      "quote": "Excluding those unfavorable effects, earnings improved due to upstream production growth and higher refining margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International downstream earnings were lower due to lower margins on refined product sales.",
+      "quote": "International downstream earnings were lower than the year-ago period primarily due to lower margins on refined product sales, including unfavorable timing effects and higher operating expenses mainly from higher transportation costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company returned $6.0 billion to shareholders in the quarter.",
+      "quote": "The company returned $6.0 billion of cash to shareholders during the quarter, including share repurchases of $2.5 billion and dividends of $3.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, emphasizing disciplined execution and strong momentum.",
+      "quote": "This quarter, Chevron delivered solid performance driven by disciplined execution and a resilient portfolio... Chevron’s fundamentals are strong. We have a world-class portfolio and Upstream assets with peer-leading cash margins, and we’re carrying strong momentum into the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.20 is based on operational momentum without a formal guidance raise; the document explicitly holds guidance unchanged, so the score could be debated as too high or too low depending on weighting of the reaffirmed guidance versus the strong operational metrics."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The list includes both one-time items (legal reserve, timing effects) and structural risks (geopolitical, litigation); a reviewer may want to distinguish between them for weighting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "CVX_Bundled Earnings Report_2026-05-01",
+  "report_metadata": {
+    "issuer": "p2_chevron",
+    "company": "Chevron",
+    "ticker": "CVX",
+    "sector": "Energy/Oil & Gas",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2026-Q1/CVX_Q1_2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2026-Q1/CVX_Q1_2026_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CVX_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T215809Z",
+    "timestamp": "2026-08-13T21:59:43Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2026-Q1/CVX_Q1_2026_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_chevron_ext2026_08_13/extracted/CVX_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2026-Q1/CVX_Q1_2026_Press_Release.pdf",
+        "page_count": 10,
+        "extracted_characters": 28634,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2026-Q1/CVX_Q1_2026_Earnings_Call_Transcript.pdf",
+        "page_count": 15,
+        "extracted_characters": 50083,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_chevron_ext2026_08_13/extracted/CVX_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

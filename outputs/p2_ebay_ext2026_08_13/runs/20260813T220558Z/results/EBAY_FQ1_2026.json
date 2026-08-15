@@ -1,0 +1,240 @@
+{
+  "document_id": "EBAY_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong first-quarter results with revenue up 19% and GMV up 18%, and management describes the quarter as a 'strong start to the year' with 'performance ahead of expectations.' However, the forward guidance for Q2 2026 implies a significant deceleration in growth (FX-neutral revenue growth of 8%-10% versus 17% in Q1), and the document does not state that prior guidance was raised. The score reflects genuine operational momentum and confident language, but is tempered by the implied deceleration in forward guidance and the absence of an explicit guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$3.1 billion, up 19% on an as-reported basis and up 17% on an FX-Neutral basis.",
+    "eps": "GAAP EPS of $1.12 per diluted share; Non-GAAP EPS of $1.66 per diluted share.",
+    "guidance": "Q2 2026 guidance: Revenue $2.97-$3.03 billion (FX-neutral Y/Y growth 8%-10%); GMV $21.3-$21.7 billion (FX-neutral Y/Y growth 8%-10%); Diluted GAAP EPS $1.09-$1.14; Diluted Non-GAAP EPS $1.46-$1.51.",
+    "margin": "GAAP operating margin decreased to 19.8% from 23.6% year-over-year. Non-GAAP operating margin decreased to 29.4% from 29.6% year-over-year.",
+    "key_risks": [
+      "Pending Depop acquisition subject to regulatory approvals in other markets, including the United Kingdom and Australia.",
+      "Foreign currency volatility and its effects on results.",
+      "Potential impact of changes in global trade policies on revenue, profit, and cross-border trade.",
+      "Risk of systems failures and business interruptions.",
+      "Risk of fraud on platforms.",
+      "Impact of cyberattacks or data security breaches.",
+      "Extensive and increasing regulation and oversight affecting the business.",
+      "Risk of liability for actions of customers, including products sold by sellers.",
+      "Potential exposure to greater than anticipated tax liabilities."
+    ],
+    "key_opportunities": [
+      "Accelerated GMV growth and performance ahead of expectations.",
+      "Focus Categories, C2C and recommerce strategic priorities driving broad-based momentum.",
+      "Definitive agreement to acquire Depop to deepen reach with younger, fashion-forward consumers.",
+      "Expansion of eBay Live to France, Italy and Canada.",
+      "AI-powered card scanning feature expanded to top five collectible card game genres, surpassing 30 million cumulative scans.",
+      "New partnership with Meta for the Facebook affiliate program to reach new buyers through social commerce.",
+      "Expanded financial services offerings in the U.K. with Flexible Growth Financing and Pay by Bank.",
+      "Release of inaugural Climate Transition Plan to reach net-zero greenhouse gas emissions by 2045."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jamie Iannone stated, 'eBay's first quarter results marked a strong start to the year... We accelerated GMV growth and delivered performance ahead of expectations,' and CFO Peggy Alford cited 'robust GMV and revenue growth, along with healthy earnings, reflect the powerful operating leverage inherent in our business.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $3.1 billion, up 19% as-reported and 17% FX-neutral.",
+      "quote": "Revenue of $3.1 billion, up 19% on an as-reported basis and up 17% on an FX-Neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $1.12 and Non-GAAP EPS was $1.66 per diluted share.",
+      "quote": "GAAP and Non-GAAP earnings per diluted share of $1.12 and $1.66, respectively, on a continuing operations basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 guidance implies FX-neutral revenue growth of 8%-10%.",
+      "quote": "Q2 2026 Guidance Revenue $2.97 - $3.03 FX-Neutral Y/Y Growth 8% - 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin decreased to 19.8% from 23.6% year-over-year.",
+      "quote": "GAAP operating margin decreased to 19.8% for the first quarter of 2026, compared to 23.6% for the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin decreased to 29.4% from 29.6% year-over-year.",
+      "quote": "Non-GAAP operating margin decreased to 29.4% for the first quarter of 2026, compared to 29.6% for the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management described the quarter as a strong start with performance ahead of expectations.",
+      "quote": "eBay's first quarter results marked a strong start to the year... We accelerated GMV growth and delivered performance ahead of expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The pending Depop acquisition is subject to regulatory approvals in other markets.",
+      "quote": "eBay and Etsy have received regulatory clearances in the United States and Germany, and reviews are in progress in other markets, including the United Kingdom and Australia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from foreign currency volatility.",
+      "quote": "the effects of foreign currency volatility and our ability to respond to such effects",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from changes in global trade policies.",
+      "quote": "the impact of changes in global trade policies on our revenue, profit and ability to support cross-border trade",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from systems failures and business interruptions.",
+      "quote": "the risk of systems failures and business interruptions to our business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from fraud on its platforms.",
+      "quote": "risk of fraud on our platforms",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from cyberattacks or data security breaches.",
+      "quote": "the impact of any cyberattacks or data security breaches",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from increasing regulation and oversight.",
+      "quote": "the impact of extensive and increasing regulation and oversight that affect our business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from liability for customer actions.",
+      "quote": "the risk of liability for the actions of our customers, including products sold by sellers on our platforms",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from greater than anticipated tax liabilities.",
+      "quote": "the risk of exposure to greater than anticipated tax liabilities",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Focus Categories, C2C and recommerce are driving momentum.",
+      "quote": "Our Focus Categories, C2C and recommerce strategic priorities are driving broad-based momentum, and strengthening our position as the marketplace of choice for enthusiasts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Depop acquisition would deepen reach with younger consumers.",
+      "quote": "eBay announced a definitive agreement to acquire Depop, a leading consumer-to-consumer (\"C2C\") fashion marketplace, from Etsy, which would deepen eBay's reach with younger, fashion-forward consumers",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "eBay Live expanded to France, Italy and Canada.",
+      "quote": "The company expanded eBay Live, its interactive live-stream shopping experience, to France, Italy and Canada, growing seller reach and deepening buyer engagement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-powered card scanning surpassed 30 million cumulative scans.",
+      "quote": "eBay's AI-powered card scanning feature... expanded to include the company's top five collectible card game genres, and surpassed 30 million cumulative scans.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A new partnership with Meta was announced for the Facebook affiliate program.",
+      "quote": "eBay announced a new partnership with Meta for the Facebook affiliate program, allowing creators to feature eBay's inventory directly within their content, and helping sellers reach new, engaged buyers through social commerce.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Financial services offerings were expanded in the U.K.",
+      "quote": "eBay expanded its financial services offerings in the U.K. by partnering with Liberis to add Flexible Growth Financing to its Seller Capital program, and introduced Pay by Bank at checkout through a partnership with TrueLayer, enabling instant, secure payments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "eBay released its inaugural Climate Transition Plan.",
+      "quote": "eBay released its inaugural Climate Transition Plan, a company-wide roadmap to reach net-zero greenhouse gas emissions by 2045.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "eBay's first quarter results marked a strong start to the year... We accelerated GMV growth and delivered performance ahead of expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects strong Q1 results and confident language, but the Q2 guidance implies a significant deceleration in growth (8-10% FX-neutral vs 17% in Q1). The document does not explicitly state whether prior guidance was raised, so the score relies on interpreting the implied deceleration as a tempering factor. A reviewer should verify this interpretation against any prior guidance context."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "EBAY_Bundled Earnings Report_2026-04-29",
+  "report_metadata": {
+    "issuer": "p2_ebay",
+    "company": "eBay",
+    "ticker": "EBAY",
+    "sector": "Technology/E-Commerce",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2026-Q1/EBAY_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "EBAY_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T220558Z",
+    "timestamp": "2026-08-13T22:07:10Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2026-Q1/EBAY_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_ebay_ext2026_08_13/extracted/EBAY_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2026-Q1/EBAY_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 37985,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_ebay_ext2026_08_13/extracted/EBAY_FQ1_2026.txt"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "document_id": "INTC_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "Intel reported a strong quarter with revenue up 7% YoY and non-GAAP EPS up 123%, but the GAAP loss widened due to one-time charges. Forward guidance for Q2 2026 revenue ($13.8-14.8B) and non-GAAP EPS ($0.20) is modestly above Q1 actuals, indicating continued growth, but management did not explicitly raise full-year guidance. The tone is confident, citing 'unprecedented demand for silicon' and 'sixth consecutive quarter of revenue above our expectations,' but the GAAP loss and structural risks (e.g., tariffs, geopolitical tensions) temper the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$13.6 billion, up 7% year-over-year (YoY).",
+    "eps": "GAAP EPS attributable to Intel was $(0.73); non-GAAP EPS attributable to Intel was $0.29, up 123% YoY.",
+    "guidance": "Q2 2026 revenue forecast of $13.8 billion to $14.8 billion; GAAP EPS of $0.08 and non-GAAP EPS of $0.20.",
+    "margin": "GAAP gross margin 39.4%, up 2.5 ppts YoY; non-GAAP gross margin 41.0%, up 1.8 ppts. GAAP operating margin (23.1)%, down 20.7 ppts; non-GAAP operating margin 12.3%, up 6.9 ppts.",
+    "key_risks": [
+      "High level of competition and rapid technological change.",
+      "Significant, long-term, and inherently risky investments in R&D and manufacturing facilities that may not realize a favorable return.",
+      "Potential pause or discontinuation of Intel 14A if insufficient committed demand.",
+      "Macroeconomic conditions and geopolitical tensions, including trade tensions between U.S. and China, Israel/Middle East, mainland China/Taiwan, and Russia's war on Ukraine.",
+      "Elevated geopolitical tensions, volatility, and uncertainty with respect to international trade policies, including tariffs and export controls.",
+      "Complex global supply chain disruptions, delays, trade tensions, or shortages.",
+      "Product defects, errata, and other product issues.",
+      "Potential security vulnerabilities in products.",
+      "Increasing and evolving cybersecurity threats and privacy risks.",
+      "IP risks including related litigation and regulatory proceedings.",
+      "Sales-related risks, including customer concentration and use of distributors.",
+      "Debt obligations and ability to access sources of capital.",
+      "Complex and evolving laws and regulations across many jurisdictions.",
+      "Catastrophic events.",
+      "Fluctuations in currency exchange rates.",
+      "Changes in effective tax rate and applicable tax regimes."
+    ],
+    "key_opportunities": [
+      "Growing and essential role of the CPU in the AI era and unprecedented demand for silicon.",
+      "Expansion of client portfolio with new processors, including Intel 18A technology.",
+      "Multiyear collaboration with Google for Xeon processors and custom ASIC IPUs.",
+      "Intel Xeon 6 selected as host CPU for NVIDIA's DGX Rubin NVL8 systems.",
+      "Heterogeneous hardware solution with SambaNova.",
+      "Strategic partnership in Terafab project with SpaceX, xAI, and Tesla.",
+      "Expansion of assembly and test capacity in Penang, Malaysia.",
+      "Repurchase of 49% minority equity interest in Fab 34 joint investment entity, reflecting strengthened balance sheet."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Lip-Bu Tan states 'With a solid foundation in place, we are addressing this opportunity by listening to our customers and driving their success with our technical expertise and differentiated IP,' and CFO David Zinsner says 'We delivered robust Q1 results, reflecting the growing and essential role of the CPU in the AI era and unprecedented demand for silicon.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "First-quarter revenue was $13.6 billion, up 7% year-over-year.",
+      "quote": "First-quarter revenue was $13.6 billion, up 7% year-over-year (YoY).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $(0.73) and non-GAAP EPS was $0.29.",
+      "quote": "First-quarter earnings (loss) per share (EPS) attributable to Intel was $(0.73); non-GAAP EPS attributable to Intel was $0.29.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 revenue guidance is $13.8 billion to $14.8 billion.",
+      "quote": "Forecasting second-quarter 2026 revenue of $13.8 billion to $14.8 billion; expecting second-quarter EPS attributable to Intel of $0.08 and non-GAAP EPS attributable to Intel of $0.20.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP gross margin was 39.4%, up 2.5 ppts YoY; non-GAAP gross margin was 41.0%, up 1.8 ppts.",
+      "quote": "Gross margin 39.4% 36.9% up 2.5 ppts 41.0% 39.2% up 1.8 ppts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (23.1)%, down 20.7 ppts; non-GAAP operating margin was 12.3%, up 6.9 ppts.",
+      "quote": "Operating margin (loss) (23.1)% (2.4)% down 20.7 ppts 12.3% 5.4% up 6.9 ppts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the business momentum.",
+      "quote": "This deliberate reset to how we operate drove a sixth consecutive quarter of revenue above our expectations, as well as new and deepened relationships with strategic partners.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company cited unprecedented demand for silicon.",
+      "quote": "We delivered robust Q1 results, reflecting the growing and essential role of the CPU in the AI era and unprecedented demand for silicon, as well as our disciplined execution to expand available supply.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from geopolitical tensions and trade policies.",
+      "quote": "macroeconomic conditions and geopolitical tensions and conflicts, including geopolitical and trade tensions between the U.S. and China, tensions and conflict affecting Israel and the Middle East, rising tensions between mainland China and Taiwan and the impacts of Russia's war on Ukraine; recently elevated geopolitical tensions, volatility and uncertainty with respect to international trade policies, including tariffs and export controls, impacting our business, the markets in which we compete and the world economy;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from high competition and rapid technological change.",
+      "quote": "the high level of competition and rapid technological change in our industry;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from product defects and security vulnerabilities.",
+      "quote": "product defects, errata and other product issues, particularly as we develop next-generation products and implement next-generation manufacturing process technologies; potential security vulnerabilities in our products;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees opportunities in AI-driven demand for CPUs.",
+      "quote": "The next wave of AI will bring intelligence closer to the end user, moving from foundational models to inference to agentic. This shift is significantly increasing the need for Intel’s CPUs and wafer and advanced packaging offerings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expanded its client portfolio with new processors.",
+      "quote": "Intel expanded its client portfolio, launching Intel ® Xeon ® 600 processors for workstation, Intel ® Core ® Ultra 200S Plus and Intel ® Core ® Ultra 200HX Plus processors for desktop and mobile, Intel ® Core ™ Series 2 processors for health and life sciences edge computing, and Intel ® Core ™ Ultra Series 3 processors with Intel vPro ® .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel and Google announced a multiyear collaboration.",
+      "quote": "Intel and Google announced a multiyear collaboration for continued deployment of Intel ® Xeon ® processors across Google’s workload-optimized instances, including the latest Intel ® Xeon ® 6 processors powering C4 and N4 instances. The collaboration also includes co-development of custom ASIC infrastructure processing units (IPUs) designed to improve utilization, reduce complexity, and scale AI workloads more efficiently.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel Xeon 6 was selected as host CPU for NVIDIA's DGX Rubin NVL8 systems.",
+      "quote": "Intel Xeon 6 was selected as the host CPU for NVIDIA’s DGX Rubin NVL8 systems, reinforcing Intel’s continued role at the center of leading AI infrastructure deployments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel joined the Terafab project as a strategic partner.",
+      "quote": "Intel joined the Terafab project as a strategic partner alongside SpaceX, xAI, and Tesla. Intel’s ability to design, fabricate, and package ultra-high-performance chips at scale will help accelerate efforts to refactor silicon fab technology.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel expanded assembly and test capacity in Penang, Malaysia.",
+      "quote": "Intel Foundry expanded assembly and test capacity in Penang, Malaysia to support customer products amid rising global demand for packaging solutions while increasing global semiconductor supply chain resilience.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel repurchased the 49% minority equity interest in Fab 34 joint investment entity.",
+      "quote": "Intel repurchased the 49% minority equity interest in the joint investment entity related to Fab 34 in Ireland. The agreement reflects Intel’s continued business momentum underpinned by the growing and essential role CPUs play in the era of AI and a significantly strengthened balance sheet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 is based on strong results and confident tone, but guidance was not explicitly raised versus prior guidance; the Q2 guidance is only slightly above Q1 actuals. A human reviewer should verify whether the guidance change warrants a higher or lower score."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document lists many forward-looking risk factors; some are generic and may not be material to the quarter. The list is comprehensive but may overstate the risk emphasis in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "INTC_Bundled Earnings Report_2026-04-23",
+  "report_metadata": {
+    "issuer": "p2_intel",
+    "company": "Intel",
+    "ticker": "INTC",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2026-Q1/INTC_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "INTC_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221409Z",
+    "timestamp": "2026-08-13T22:15:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2026-Q1/INTC_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_intel_ext2026_08_13/extracted/INTC_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2026-Q1/INTC_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 35272,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_intel_ext2026_08_13/extracted/INTC_FQ1_2026.txt"
+  }
+}

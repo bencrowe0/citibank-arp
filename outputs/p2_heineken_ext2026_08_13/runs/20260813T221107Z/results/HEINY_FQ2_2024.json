@@ -1,0 +1,214 @@
+{
+  "document_id": "HEINY_FQ2_2024",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company delivered solid organic growth (net revenue +6.0%, operating profit +12.5%) and raised its full-year operating profit growth outlook to 4-8%, reflecting confidence in delivery. However, the guidance raise is modest and management explicitly flags ongoing volatility, currency devaluation risks in emerging markets, and a material step-up in investments that will weigh on the second half. The positive operational momentum and guidance raise are partially offset by these cautious forward-looking statements, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Revenue €17,823 million, up 2.2% total; Net revenue (beia) €14,814 million, up 6.0% organically.",
+    "eps": "Diluted EPS (beia) €2.15, up 5.9%; Reported diluted EPS -€0.17 (net loss of €95 million due to impairments).",
+    "guidance": "Full year operating profit (beia) expected to grow organically in the range of 4% to 8%. Expects effective interest rate (beia) around 3.5%, effective tax rate (beia) around 28%, and capex below 9% of net revenue (beia).",
+    "margin": "Operating profit (beia) margin increased to 14.0% (HY23: 13.4%).",
+    "key_risks": [
+      "Risk of material currency devaluation in Ethiopia and hyperinflation in Nigeria and Egypt.",
+      "Consumer confidence and economic sentiment in developed markets remain below historical average.",
+      "Volatility in key emerging markets.",
+      "Higher than historical average wage inflation.",
+      "Local input cost inflation and currency devaluations, particularly in Africa.",
+      "Intensified price competition in the economy segment in Brazil.",
+      "Poor June weather in Europe.",
+      "Continued civil instability in Ethiopia and security issues in Haiti.",
+      "Stricter enforcement of Decree 100 in Vietnam impacting the on-trade."
+    ],
+    "key_opportunities": [
+      "Premium beer volume grew 5.1%, led by Heineken® brand up 9.2%.",
+      "Heineken® 0.0 up 14%, consolidating leadership in Low & No-alcohol.",
+      "Strong growth in Americas region, with operating profit up 37.2% organically.",
+      "APAC returned to growth, led by India and Vietnam stabilizing.",
+      "On track to deliver €0.5 billion gross savings for 2024.",
+      "eB2B platforms captured €6.1 billion in gross merchandise value, up 22% organically."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO states 'We delivered a solid first half of the year' and 'We are firmly on-track to deliver €0.5 billion gross savings for 2024', while updating the full year outlook to reflect 'confidence in delivery and commitment to invest behind growth'."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was €17,823 million, up 2.2%.",
+      "quote": "Revenue 17,823 2.2 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net revenue (beia) grew 6.0% organically.",
+      "quote": "Net revenue (beia) 14,814 6.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS (beia) was €2.15, up 5.9%.",
+      "quote": "Diluted EPS (beia) (in €) 2.15 5.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was -€0.17 due to a net loss.",
+      "quote": "Diluted EPS (in €)* -0.17",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year operating profit (beia) growth outlook was updated to 4-8%.",
+      "quote": "We update our full year outlook to grow operating profit (beia) organically in the range of 4% to 8%, reflecting our confidence in delivery and commitment to invest behind growth and to future-proof our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating profit (beia) margin increased to 14.0%.",
+      "quote": "Operating profit margin (beia) increased to 14.0% mainly driven by strong profit growth in the Americas region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged risks including currency devaluation and hyperinflation in emerging markets.",
+      "quote": "In the Africa & Middle East region there is a risk of material currency devaluation in Ethiopia and hyperinflation in Nigeria and Egypt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged risks including weak consumer confidence in developed markets.",
+      "quote": "Consumer confidence and economic sentiment in developed markets remain below their historical average.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged risks including intensified competition in Brazil and poor weather in Europe.",
+      "quote": "Growth in the second quarter was lower as Easter fell in the first quarter in 2024 (versus the second quarter in 2023), competition intensified in the economy segment in Brazil and poor June weather in Europe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged risks including wage inflation and input cost inflation.",
+      "quote": "We also expect higher than historical average wage inflation. ... While we expect to benefit from lower commodity and energy prices compared to 2023, this is more than offset by local input cost inflation and currency devaluations, particularly in Africa.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged risks including civil instability in Ethiopia and security issues in Haiti.",
+      "quote": "Beer volume was down by a high-single-digit due to continued civil instability in key regions of the market. ... In Haiti, our volume declined in the thirties as challenging security conditions continue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged risks including stricter enforcement of Decree 100 in Vietnam.",
+      "quote": "The premium segment and the on-trade continue to be impacted disproportionately relative to the rest of the market, given the continued stricter enforcement of Decree 100.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium beer volume grew 5.1%, led by Heineken® brand up 9.2%.",
+      "quote": "Premium beer volume was up 5.1%, ahead of the total beer portfolio in aggregate and in more than half of our markets. The growth was again led by Heineken®... Heineken® grew volume in the first half by 9.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Heineken® 0.0 grew 14%.",
+      "quote": "Heineken® 0.0 continued to lead this growth, up by 14%, further consolidating its position as the #1 non-alcoholic beer brand globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Americas operating profit grew 37.2% organically.",
+      "quote": "Operating profit (beia) grew 37.2% organically, driven by the top-line growth and a significant improvement in variable expenses",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "APAC returned to growth, led by India and Vietnam stabilizing.",
+      "quote": "APAC returned to growth, led by India and with the Vietnamese beer market stabilizing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "On track to deliver €0.5 billion gross savings for 2024.",
+      "quote": "We are firmly on-track to deliver €0.5 billion gross savings for 2024, enabling us to invest in growing the category and in building strong brands.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "eB2B platforms captured €6.1 billion in gross merchandise value, up 22% organically.",
+      "quote": "By the end of the first half of the year we captured €6.1 billion in gross merchandise value, an organic increase of 22% versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered a solid first half of the year, organically growing net revenue (beia) 6% and operating profit (beia) 12.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of the BUY threshold (0.15). The guidance raise is modest and offset by cautious language on volatility and increased investments. A reviewer should confirm the weighting of these factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HEIA.AS_Bundled Earnings Report_2024-07-01",
+  "report_metadata": {
+    "issuer": "p2_heineken",
+    "company": "Heineken",
+    "ticker": "HEIA.AS",
+    "sector": "Consumer Defensive/Beverages",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-07-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2024-Q2/HEINY_Q2_2024_Press_Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HEINY_FQ2_2024"
+  },
+  "run_meta": {
+    "run_id": "20260813T221107Z",
+    "timestamp": "2026-08-13T22:11:38Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2024-Q2/HEINY_Q2_2024_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_heineken_ext2026_08_13/extracted/HEINY_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2024-Q2/HEINY_Q2_2024_Press_Release.pdf",
+        "page_count": 40,
+        "extracted_characters": 122656,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_heineken_ext2026_08_13/extracted/HEINY_FQ2_2024.txt"
+  }
+}

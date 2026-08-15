@@ -1,0 +1,203 @@
+{
+  "document_id": "AXP_FQ2_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The company delivered record revenue and strong EPS growth, but full-year guidance was only reaffirmed, not raised, and management explicitly noted moderation in card fee growth and uncertainty in the coming quarters. The positive operational momentum (record spending, strong credit) is offset by a flat forward outlook and cautious language, placing the score slightly above neutral but well below a meaningful positive signal."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none \u2014 HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$17.9 billion, up 9% year-over-year (record second-quarter revenue)",
+    "eps": "$4.08 GAAP, down 2% year-over-year; adjusted EPS $4.08, up 17% excluding prior-year Accertify gain",
+    "guidance": "Reaffirmed full-year 2025 revenue growth of 8-10% and EPS of $15.00-$15.50",
+    "margin": "Operating expenses as a percentage of revenue down from 25% in 2023 to 21% this quarter (four points of operating leverage since 2023)",
+    "key_risks": [
+      "Macroeconomic and geopolitical conditions, including tariff increases, global trade relations, and slowdown in economic growth",
+      "Softer airline and lodging spending",
+      "Increased competition in the premium card segment",
+      "Potential moderation in card fee growth in upcoming quarters",
+      "Uncertainty in how coming quarters will play out"
+    ],
+    "key_opportunities": [
+      "Upcoming refresh of U.S. Consumer and Business Platinum Cards this fall",
+      "Growing premium card category and total addressable market",
+      "Strong growth in Millennial (up 10%) and Gen Z (up ~40%) spending",
+      "International business growing double digits (up 12% FX-adjusted)",
+      "Partnership with Coinbase for digital currency rewards"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO stated 'we have a long runway for growth' and 'we are reaffirming our full-year guidance,' reflecting confidence in the business despite acknowledged uncertainties."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue reached a record $17.9 billion, up 9% year-over-year",
+      "quote": "AMERICAN EXPRESS DELIVERS RECORD SECOND-QUARTER REVENUE OF $17.9 BILLION, UP 9% YEAR-OVER-YEAR",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $4.08, down 2% year-over-year",
+      "quote": "Earnings per share was $4.08, down 2 percent from $4.15 a year ago",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $4.08, up 17% excluding the prior-year Accertify gain",
+      "quote": "Adjusted EPS Excluding Transaction Gain $4.08 $3.49 17%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was reaffirmed, not raised",
+      "quote": "we are reaffirming our full-year guidance for revenue growth of 8 to 10 percent and EPS of $15.00 to $15.50",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating expenses as a percentage of revenue improved to 21% from 25% in 2023",
+      "quote": "since 2023, we have driven four points of operating leverage with operating expenses as a percentage of revenue down from 25% in 2023 to 21% this quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card fee growth is expected to moderate in the balance of the year",
+      "quote": "you should expect to see that in Q3 and Q4. And given the previous conversations that we had about the timing of the platinum fee increase, it's only sometimes in the New Year in 2026 that you should see that inflection point and a bit more acceleration. But you should still expect some moderation in the back of this year in terms of that, card fee growth rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the premium card refresh and long-term growth",
+      "quote": "With our differentiated Membership model and proven product refresh strategy, combined with the expansion of the premium category, we see a long runway for growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is uncertainty in the coming quarters",
+      "quote": "While there continues to be uncertainty in how the coming quarters will play out, we have increased confidence in our path forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Airline and lodging spending was softer",
+      "quote": "spend in some of the travel categories like airlines and lodging was softer overall",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Millennial and Gen Z spending grew strongly",
+      "quote": "In The U. S. Consumer business, millennial spend was up 10% and Gen Z spend was growing around 40%, though starting from a smaller base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business grew 12% FX-adjusted",
+      "quote": "our international business continued to grow in double digits, up 12% FX adjusted in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company added 3.1 million new cards in Q2",
+      "quote": "We acquired 3,100,000 new cars in Q2 within the range of recent quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit performance remained strong with write-off rate down",
+      "quote": "The second-quarter net write-off rate was 2.0 percent, down from 2.1 percent a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces competition in the premium card segment",
+      "quote": "The competition for premium customers, while always intense, has been especially heated for over a decade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees opportunities in the premium card category",
+      "quote": "The total addressable market is growing at a healthy rate globally, driven by several factors, including our own value proposition innovations, the investments of competitors and generational shifts in the appeal of premium products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is slightly positive despite reaffirmed guidance; reviewer should confirm that the operational momentum justifies a score above 0.0 given the flat forward guidance."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "The transcript contains a typo 'EPS of $4.8' and 'earnings per share of $4.8' which conflicts with the press release's $4.08; the press release figure is used."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AXP_Bundled Earnings Report_2025-07-18",
+  "report_metadata": {
+    "issuer": "p2_american_express",
+    "company": "American Express",
+    "ticker": "AXP",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q2/AXP_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q2/EAXP_Q2_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AXP_FQ2_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T215705Z",
+    "timestamp": "2026-08-13T21:57:22Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q2/AXP_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_american_express_ext2026_08_13/extracted/AXP_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q2/AXP_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 18411,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q2/EAXP_Q2_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 70232,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_american_express_ext2026_08_13/extracted/AXP_FQ2_2025.txt"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "document_id": "RMS_FQ4_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The company reported strong results (revenue up 9% at constant FX, operating margin up to 41%), but forward guidance was only reaffirmed, not raised, with management explicitly noting an unfavorable FX effect for 2026 and an uncertain environment. The positive operational momentum (e.g., double-digit growth in several regions, continued investment) is offset by the flat guidance and cautious language, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "€16,002 million in 2025, up 9% at constant exchange rates and 5.5% at current exchange rates compared to 2024. Q4 2025 sales were €4,087 million, up 9.8% at constant exchange rates.",
+    "eps": "Basic earnings per share of €43.15 in 2025, compared to €43.93 in 2024. Diluted earnings per share of €43.07.",
+    "guidance": "The group confirms an ambitious goal for revenue growth at constant exchange rates in the medium-term. Management states it is moving into 2026 with confidence but notes an unfavorable exchange rate effect for 2026.",
+    "margin": "Recurring operating income was €6,569 million, up 7%, with recurring operating profitability improving to 41% of sales, compared to 40.5% in 2024. Gross margin was 71.1% versus 70.3% in 2024.",
+    "key_risks": [
+      "Negative currency impact of €515 million on revenue in 2025.",
+      "Unfavorable exchange rate effect expected for 2026.",
+      "Economic, geopolitical, and monetary uncertainties around the world.",
+      "Decline in Perfume and Beauty (-8%) and Watches (-2%) sectors.",
+      "A drop in aspirational customers in China.",
+      "The exceptional contribution on the profits of large companies in France impacting net profit."
+    ],
+    "key_opportunities": [
+      "Strong growth in Leather Goods and Saddlery (+13%), driven by desirability and increased production capacity.",
+      "Continued investment in production capacity with new workshops planned through 2030.",
+      "Solid growth across all geographical areas, with double-digit growth in Europe, Japan, the Americas, and the Middle East.",
+      "Strong momentum in the U.S. market with a broad customer base.",
+      "Growth in the Jewellery and Home universe sectors (+11%).",
+      "Loyal local customer base in several regions, including Japan and Europe."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses confidence in the outlook, stating 'Hermès is moving into 2026 with confidence, underpinned by its creativity and exceptional savoir-faire,' while acknowledging an uncertain environment."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue exceeded €16 billion in 2025, up 9% at constant exchange rates.",
+      "quote": "The group’s consolidated revenue amounted to €16 billion in 2025, up 9% at constant exchange rates and 5.5% at current exchange rates compared to 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 sales were €4,087 million, up 9.8% at constant exchange rates.",
+      "quote": "In the fourth quarter, sales reached €4.1 billion, increasing by 10% at constant exchange rates, as in the previous quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic earnings per share was €43.15 in 2025.",
+      "quote": "Basic earnings per share (in euros) 43.15 43.93",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recurring operating income was €6.6 billion, up 7%, with profitability improving to 41% of sales.",
+      "quote": "Recurring operating income amounted to €6.6 billion, up by 7% from €6.2 billion in 2024. Despite the negative impact of currency effects, recurring operating profitability improved and reached 41%, compared to 40.5% in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin improved to 71.1% in 2025.",
+      "quote": "Our gross margin stands at 71.1% versus 70.3% in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its medium-term goal for revenue growth at constant exchange rates.",
+      "quote": "In the medium-term, despite the economic, geopolitical and monetary uncertainties around the world, the group confirms an ambitious goal for revenue growth at constant exchange rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects an unfavorable exchange rate effect for 2026.",
+      "quote": "But 2026 exchange effect will be unfavorable for us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces negative currency impacts on revenue.",
+      "quote": "At the end of December 2025, currency fluctuations represented a significant negative impact of €515 million on revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Perfume and Beauty sector declined by 8%.",
+      "quote": "Perfume and Beauty (-8%) is to be compared against a demanding 2024 base, marked by the launch of the new women’s perfume Barénia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Watches sector declined by 2%.",
+      "quote": "After a challenging first half, the Watches métier (-2%) returned to growth in the second half.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is a drop in aspirational customers in China.",
+      "quote": "What I see from my little store is the activity, recognized activity of Hermès customers that continue to come, excellent customers with value effect by expensive products and a drop in aspirational customers, which are not our biggest customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The exceptional contribution on profits in France impacted net profit.",
+      "quote": "Tax expenditure is impacted by this exceptional contribution on profits in France. This additional tax of 41.2% reaches EUR 330 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leather Goods and Saddlery grew by 13%.",
+      "quote": "Leather Goods and Saddlery (+13%) continued to post sustained growth, in line with its annual objective, driven by the strong desirability of the collections and the increase in production capacities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is investing in new production capacity with workshops planned through 2030.",
+      "quote": "Production capacities continue to expand, with the planned workshop openings of Loupes (Gironde) in 2026, Charleville-Mézières (Ardennes) in 2027, and Colombelles (Calvados) in 2028. The house also announced at the end of January the opening of a new site in Les Andelys (Eure) by 2030.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The U.S. market has strong momentum.",
+      "quote": "The U.S. market is doing very well. There is no change in the trend as we see it. And what is very positive is that all areas in the U.S. are performing really well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "In an uncertain environment, Hermès is moving into 2026 with confidence, underpinned by its creativity and exceptional savoir-faire.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is mildly positive despite flat guidance. The positive operational momentum and confident language are balanced against the reaffirmed (not raised) guidance and explicit unfavorable FX outlook for 2026. A reviewer should confirm this balance is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "RMSP.XC_Bundled Earnings Report_2026-02-01",
+  "report_metadata": {
+    "issuer": "p2_hermes",
+    "company": "Hermes",
+    "ticker": "RMSP.XC",
+    "sector": "Consumer Cyclical/Luxury Goods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "RMS_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221206Z",
+    "timestamp": "2026-08-13T22:13:02Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_hermes_ext2026_08_13/extracted/RMS_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Press_Release.pdf",
+        "page_count": 13,
+        "extracted_characters": 25854,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 57731,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_hermes_ext2026_08_13/extracted/RMS_FQ4_2025.txt"
+  }
+}

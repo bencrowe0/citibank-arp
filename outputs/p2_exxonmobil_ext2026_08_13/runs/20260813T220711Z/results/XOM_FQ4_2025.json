@@ -1,0 +1,195 @@
+{
+  "document_id": "XOM_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong full-year 2025 results with industry-leading earnings, record production, and significant shareholder distributions, but full-year earnings declined versus 2024 ($28.8B vs $33.7B) due to weaker crude prices and chemical margins. Forward guidance is largely reaffirmed rather than raised: the company expects cash capital expenditures of $27-$29 billion in 2026 and plans to repurchase $20 billion of shares through 2026, consistent with prior plans. The positive signal comes from genuine operational momentum—record production, structural cost savings exceeding competitors, and confident management language about growth platforms through 2030—but without a formal upward revision to earnings guidance, the score reflects momentum rather than a guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full-year 2025 total revenues and other income were $332,238 million, down from $349,585 million in 2024. Fourth-quarter revenues were $82,308 million versus $83,426 million in the prior-year quarter.",
+    "eps": "Full-year 2025 earnings per common share (diluted) were $6.70, down from $7.84 in 2024. Fourth-quarter EPS was $1.53 versus $1.72 in the prior-year quarter. Earnings excluding identified items per share were $6.99 for the full year and $1.71 for the fourth quarter.",
+    "guidance": "The company expects cash capital expenditures of $27-$29 billion in 2026. ExxonMobil plans to repurchase $20 billion of shares through 2026, assuming reasonable market conditions. Structural Cost Savings are expected to reach $20 billion by 2030. Advantaged assets are expected to make up roughly 65% of total production by 2030.",
+    "margin": "Return on average capital employed (non-GAAP) was 9.3% for 2025, down from 12.7% in 2024. The average since 2019 was 10.6%.",
+    "key_risks": [
+      "Weaker crude prices and chemical margins decreased earnings in 2025.",
+      "Higher depreciation, growth-related costs, and lower interest income decreased earnings.",
+      "Chemical Products full-year earnings decreased $1.8 billion versus 2024 due to weaker industry margins and impairment-related identified items.",
+      "The document includes a lengthy cautionary statement listing numerous forward-looking risk factors, including global supply/demand imbalances, regulatory changes, geopolitical disruptions, and the ultimate impacts of public health crises."
+    ],
+    "key_opportunities": [
+      "Advantaged volume growth in the Permian and Guyana, with record production levels.",
+      "Structural cost savings of $15.1 billion cumulative since 2019, exceeding all other IOCs combined.",
+      "Start-up of 10 key projects in 2025, including Golden Pass LNG, Yellowtail, and Bacalhau.",
+      "Growth platforms in low-carbon businesses including carbon capture, lithium, and Proxxima resins.",
+      "New enterprise-wide data platform expected to drive efficiencies and AI adoption."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Darren Woods stated, 'ExxonMobil is a fundamentally stronger company than it was just a few years ago, and our 2025 results demonstrate that,' and described the company as being 'in a league of our own' with 'industry-leading earnings power.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 revenue was $332,238 million, down from $349,585 million in 2024.",
+      "quote": "Total revenues and other income 332,238 349,585",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 diluted EPS was $6.70, down from $7.84 in 2024.",
+      "quote": "Earnings per common share - assuming dilution (U.S. dollars) 1.53 1.72 6.70 7.84",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects cash capital expenditures of $27-$29 billion in 2026.",
+      "quote": "The company expects cash capital expenditures of $27-$29 billion in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to repurchase $20 billion of shares through 2026.",
+      "quote": "ExxonMobil plans to repurchase $20 billion of shares through 2026, assuming reasonable market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average capital employed was 9.3% for 2025.",
+      "quote": "Return on average capital employed – corporate total (non-GAAP) 9.3% 12.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year earnings declined versus 2024 due to weaker crude prices and chemical margins.",
+      "quote": "Weaker crude prices and chemical margins, higher depreciation, growth-related costs, and lower interest income decreased earnings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record production and structural cost savings exceeding competitors.",
+      "quote": "Highest annual Upstream production in more than 40 years and record refinery throughput supported industry-leading annual shareholder distributions of $37.2 billion. Generated $15.1 billion in cumulative Structural Cost Savings since 2019, more than all other IOCs combined.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the company's transformation and forward outlook.",
+      "quote": "ExxonMobil is a fundamentally stronger company than it was just a few years ago, and our 2025 results demonstrate that. Our transformation is delivering a more resilient, lower-cost, technology-led business with structurally stronger earnings power.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemical Products earnings decreased significantly in 2025.",
+      "quote": "Chemical Products full-year earnings were $800 million, a decrease of $1.8 billion versus 2024. Results reflected weaker industry margins, impairment-related identified items, and higher spend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects advantaged assets to make up roughly 65% of total production by 2030.",
+      "quote": "We expect them to make up roughly 65% of total production by 2030.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company delivered all 10 key projects in 2025.",
+      "quote": "Delivered 10 of 10 key projects; adding $3 billion of earnings on a constant price and margin basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is pursuing growth in low-carbon businesses.",
+      "quote": "Our carbon capture network continues to advance. We made progress on the Rose permit, brought our first third-party CCS project online, capable of storing up to 2 million tons per year, and secured our seventh CCS contract.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is implementing a new enterprise-wide data platform.",
+      "quote": "Underpinning all of this is a new enterprise-wide process and data platform that is changing how the company operates. With redesigned end-to-end processes and connected data transactions, and decision-making across every business geography, and function.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's forward guidance was reaffirmed rather than raised.",
+      "quote": "ExxonMobil plans to repurchase $20 billion of shares through 2026, assuming reasonable market conditions. The company expects cash capital expenditures of $27-$29 billion in 2026.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The document does not explicitly state whether this guidance represents a change from prior guidance; it is presented as a plan, not as a revision."
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects operational momentum and confident language, but the document does not contain an explicit forward guidance raise. The score is based on the interpretation that record production and cost savings represent a genuine trajectory change, which is a judgment call."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document provides capital expenditure and share repurchase plans but does not provide explicit revenue or earnings guidance for 2026. The guidance field is a synthesis of stated plans."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 1,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2026-01-30",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q4/XOM_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q4/XOM_Q4_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:10:03Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q4/XOM_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q4/XOM_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 54134,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q4/XOM_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 67806,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ4_2025.txt"
+  }
+}

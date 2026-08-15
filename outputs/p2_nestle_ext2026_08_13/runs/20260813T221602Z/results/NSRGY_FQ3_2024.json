@@ -1,0 +1,211 @@
+{
+  "document_id": "NSRGY_FQ3_2024",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Nestlé reduced its full-year 2024 guidance: organic sales growth was lowered to 'around 2%' from a prior expectation of at least 3%, and underlying EPS growth was cut to 'broadly flat' from 'growth in the range of 3-5%'. Management cited softening consumer demand, customer inventory reductions, and a challenging environment, with cautious language about the fourth quarter. The guidance cut and defensive tone justify a clearly negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "CHF 67.1 billion for 9M-2024, down 2.4% year-on-year (reported), with organic growth of 2.0%.",
+    "eps": "Not disclosed",
+    "guidance": "Full-year 2024 organic sales growth expected to be around 2%; underlying trading operating profit margin around 17.0%; underlying EPS growth in constant currency expected to be broadly flat.",
+    "margin": "Underlying trading operating profit margin expected to be around 17.0% for full-year 2024, down slightly year-on-year.",
+    "key_risks": [
+      "Softening consumer demand across many regions",
+      "Customer inventory reductions, particularly in the Americas, impacting RIG",
+      "Foreign exchange headwinds (Swiss franc strength) reducing sales by 4.1%",
+      "Consumer hesitancy towards global brands linked to geopolitical tensions",
+      "Temporary retailer delistings in Europe",
+      "Increased price competition and promotional intensity in categories like PetCare and frozen food",
+      "Input cost inflation in coffee and cocoa",
+      "Economic slowdown in some markets (e.g., India, Pakistan)",
+      "New sales tax in Pakistan impacting dairy",
+      "Supply constraints in water"
+    ],
+    "key_opportunities": [
+      "Positive real internal growth (RIG) of 0.5% despite headwinds",
+      "Strong growth in coffee, PetCare, and confectionery",
+      "Nestlé Health Science recovery on track with double-digit growth in Q3",
+      "E-commerce growth of 9.7%, reaching 18.5% of total sales",
+      "Organizational changes to drive performance and transformation",
+      "Focus on innovation and investment in core brands",
+      "Digital transformation and sustainability initiatives",
+      "Potential for growth in emerging markets and out-of-home channels"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly cited 'softening consumer demand' and 'challenging environment', and revised guidance downward, reflecting a cautious outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2024 organic sales growth guidance was reduced to around 2%.",
+      "quote": "Full-year 2024 outlook updated: organic sales growth expected to be around 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying EPS growth guidance was cut to broadly flat.",
+      "quote": "Underlying earnings per share growth in constant currency expected to be broadly flat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported revenue for 9M-2024 was CHF 67.1 billion, down 2.4%.",
+      "quote": "Total reported sales amounted to CHF 67.1 billion (9M-2023: CHF 68.8 billion), down 2.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic growth was 2.0% for the first nine months.",
+      "quote": "Organic growth was 2.0% for the first nine months, with positive real internal growth (RIG).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying trading operating profit margin guidance is around 17.0%.",
+      "quote": "Underlying trading operating profit margin expected to be around 17.0%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer demand has weakened and is expected to remain soft.",
+      "quote": "Consumer demand has weakened in recent months, and we expect the demand environment to remain soft.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer inventory reductions negatively impacted RIG in Q3.",
+      "quote": "Additionally in the third quarter, RIG was negatively impacted by approximately 60 basis points by actions taken to reduce customer inventory, mainly in the Americas.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange negatively impacted sales by 4.1%.",
+      "quote": "Foreign exchange reduced sales by 4.1% and net divestitures by 0.3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nestlé Health Science recovery is on track with double-digit growth in Q3.",
+      "quote": "Nestlé Health Science posted low single-digit growth. The recovery plan is on track, with double-digit growth in the third quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "E-commerce grew strongly and now represents 18.5% of sales.",
+      "quote": "E-commerce sales grew organically by 9.7%, reaching 18.5% of total Group sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious due to soft demand and guidance cut.",
+      "quote": "Given this outlook and our further actions to reduce customer inventories in the fourth quarter, we have updated our full-year guidance, with organic sales growth expected to be around 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Temporary retailer delistings in Europe impacted RIG.",
+      "quote": "RIG was 0.8%, turning slightly negative in the third quarter, reflecting softness in consumer demand and temporary retailer delistings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer hesitancy towards global brands due to geopolitical tensions is a risk.",
+      "quote": "RIG was 0.8%, reflecting ongoing consumer hesitancy toward global brands, linked to geopolitical tensions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Input cost inflation in coffee and cocoa is a concern.",
+      "quote": "if prices have normalized, there is cocoa and coffee prices now back or even reaching historical highs.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organizational changes are intended to drive performance.",
+      "quote": "Organizational and Executive Board changes announced to drive performance and transformation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was cut, but the magnitude of the cut (from prior guidance) is not explicitly quantified in the document; the score relies on the qualitative language and the explicit reduction to 'around 2%' and 'broadly flat'."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "No EPS figure was disclosed in the document; only growth guidance was provided."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "NSRGY_Bundled Earnings Report_2024-10-01",
+  "report_metadata": {
+    "issuer": "p2_nestle",
+    "company": "Nestle",
+    "ticker": "NSRGY",
+    "sector": "Consumer Defensive/Packaged Foods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-10-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2024-Q3/NSRGY_Q3_2024_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2024-Q3/NSRGY_Q3_2024_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NSRGY_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260813T221602Z",
+    "timestamp": "2026-08-13T22:16:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2024-Q3/NSRGY_Q3_2024_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_nestle_ext2026_08_13/extracted/NSRGY_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2024-Q3/NSRGY_Q3_2024_Press_Release.pdf",
+        "page_count": 8,
+        "extracted_characters": 16949,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2024-Q3/NSRGY_Q3_2024_Earnings_Call_Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 52839,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_nestle_ext2026_08_13/extracted/NSRGY_FQ3_2024.txt"
+  }
+}

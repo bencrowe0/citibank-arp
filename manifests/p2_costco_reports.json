@@ -13,7 +13,11 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/costco/CY2025-Q4/press_release.htm"
+          "source_pdf": "docs/costco/CY2025-Q4/COST_Q4_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/costco/CY2025-Q4/COST_Q4_2025_Earnings_Call_Transcript.htm"
         }
       ]
     },
@@ -29,7 +33,11 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/costco/CY2026-Q1/press_release.htm"
+          "source_pdf": "docs/costco/CY2026-Q1/COST_Q1_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/costco/CY2026-Q1/COST_Q1_2026_Earnings_Call_Transcript.htm"
         }
       ]
     },
@@ -45,7 +53,11 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/costco/CY2026-Q2/press_release.htm"
+          "source_pdf": "docs/costco/CY2026-Q2/COST_Q2_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/costco/CY2026-Q2/COST_Q2_2026_Earnings_Call_Transcript.htm"
         }
       ]
     },
@@ -57,17 +69,17 @@
       "sector": "Consumer Defensive/Discount Stores",
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ3 2026",
-      "report_date": "PENDING",
-      "release_date": "PENDING \u2014 source from EDGAR 8-K Item 2.02 for COST CIK 909832",
-      "release_date_source": "EDGAR 8-K Item 2.02, CIK 909832 \u2014 search for filing ~Jun 2026 (Costco FQ3 FY2026 covers Mar-May 2026, reported ~late May or early Jun 2026)",
+      "report_date": "2026-05-28",
+      "release_date": "2026-05-28",
+      "release_date_source": "EDGAR 8-K 2.02,9.01, CIK 909832, acc 0000909832-26-000046, accepted 2026-05-28T20:17:32Z = 16:17 EDT (after-hours)",
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/costco/CY2026-Q3/COST_Q3_2026_Press_Release.htm"
+          "source_pdf": "docs/costco/CY2026-Q3/COST_Q3_2026_Press_Release.pdf"
         },
         {
           "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/costco/CY2026-Q3/COST_Q3_2026_Transcript.htm"
+          "source_pdf": "docs/costco/CY2026-Q3/COST_Q3_2026_Earnings_Call_Transcript.pdf"
         }
       ]
     }

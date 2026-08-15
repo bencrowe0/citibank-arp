@@ -1,0 +1,209 @@
+{
+  "document_id": "AXP_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reported strong full-year results with revenue up 10% and adjusted EPS up 15%, and provided 2026 guidance of 9-10% revenue growth and EPS of $17.30-$17.90, which is consistent with its long-term aspirations and represents a continuation of momentum rather than a formal raise. Management expressed confidence in the outlook, citing strong premium product demand and stable credit, but also acknowledged competitive and macroeconomic risks. The score reflects genuine operational momentum and confident forward language, but no explicit guidance raise relative to prior stated guidance, so it stays below the +0.5 threshold."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full-year 2025 total revenues net of interest expense were $72.2 billion, up 10% year-over-year (9% FX-adjusted). Q4 revenues were $19.0 billion, up 10% (9% FX-adjusted).",
+    "eps": "Full-year 2025 diluted EPS was $15.38, up 10% from $14.01 a year ago, or 15% excluding the prior-year Accertify transaction gain. Q4 diluted EPS was $3.53, up 16% from $3.04.",
+    "guidance": "For full-year 2026, management expects revenue growth of 9% to 10% and EPS in the range of $17.30 to $17.90. They also plan to increase the quarterly dividend by approximately 16% to $0.95 per share.",
+    "margin": "Not disclosed. The document does not provide explicit gross, operating, or net margin figures, though it mentions operating expenses as a percentage of revenue down 4 points since 2022 and a VCE-to-revenue ratio of 45% for Q4, expected around 44% in 2026.",
+    "key_risks": [
+      "Macroeconomic and geopolitical conditions, including a slowdown in U.S. or global economic growth, changes to consumer and business confidence, higher unemployment, global trade relations, tariffs, international tensions, changes in interest rates, inflation, supply chain issues, market volatility, government shutdowns, and fiscal and monetary policies.",
+      "Potential credit card interest rate caps and other regulatory initiatives that could affect profitability or require changes to business practices.",
+      "Competitive pressures, including moves by competitors like Capital One's acquisition of Brex, and the need to stay ahead in a highly competitive market.",
+      "Spending volumes and the spending environment not being consistent with expectations, including spending by U.S. consumer and small & mid-sized business Card Members.",
+      "The company's ability to achieve its 2026 EPS and revenue growth guidance, which depends on revenue growth, credit performance, expense levels, and effective tax rate remaining consistent with expectations."
+    ],
+    "key_opportunities": [
+      "Strong demand for premium products, particularly the U.S. Platinum Card refresh, which has driven customer demand, engagement, and loyalty.",
+      "Growth in Millennial and Gen Z customers, who now make up the largest share of U.S. consumer spending and are the fastest-growing cohorts.",
+      "International growth, with international spend up 12% FX-adjusted in Q4.",
+      "High-yield savings account penetration remains low (less than 10% of U.S. consumer card members), offering a long runway for growth.",
+      "Technology investments, including the new third-generation data and analytics platform, which is reducing time for key processes by 90% and expected to be fully migrated by 2027.",
+      "Continued growth in net card fees, which reached a record $10 billion for the year, up 18%."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the business and outlook, with Stephen Squeri stating, '2025 was a very strong year for American Express' and 'we are operating from a position of strength,' and Christophe Le Caillec saying, 'we feel good about the year ahead.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 revenue was $72.2 billion, up 10% year-over-year.",
+      "quote": "Consolidated total revenues net of interest expense for the full year were $72.2 billion, up 10 percent year-over-year, or 9 percent on an FX-adjusted basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 diluted EPS was $15.38, up 10% from $14.01, or 15% excluding the Accertify gain.",
+      "quote": "Earnings per share was $15.38, up 10 percent from $14.01 a year ago, or 15 percent excluding the prior-year Accertify transaction gain.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue was $19.0 billion, up 10% year-over-year.",
+      "quote": "Fourth-quarter consolidated total revenues net of interest expense were $19.0 billion, up 10 percent year-over-year, or 9 percent on an FX-adjusted basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 diluted EPS was $3.53, up 16% from $3.04.",
+      "quote": "Diluted Earnings Per Common Share (EPS) $3.53 $3.04 16%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management provided 2026 guidance of revenue growth of 9-10% and EPS of $17.30-$17.90.",
+      "quote": "For the full year 2026, we expect revenue growth of 9 to 10 percent and EPS in the range of $17.30 to $17.90, and we plan to increase our quarterly common stock dividend by approximately 16 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to increase the quarterly dividend by approximately 16% to $0.95 per share.",
+      "quote": "The company plans to increase the regular quarterly dividend on its common shares outstanding by approximately 16 percent, from $0.82 to $0.95 per share, beginning with the first-quarter 2026 dividend declaration.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating expenses as a percentage of revenue are down 4 points since 2022.",
+      "quote": "We continue to drive leverage from our operating expenses with OpEx as a percentage of revenue down 4 points since 2022 even as we increased our technology spend by 11% for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The VCE-to-revenue ratio was 45% in Q4 and is expected to be around 44% in 2026.",
+      "quote": "The VCE to revenue ratio was 45% this quarter. ... In 2026, we expect the VCE to revenue ratio to be around 44%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net card fees reached a record $10 billion for the year, up 18%.",
+      "quote": "Net card fee grew at 18% and reached a record of $10 billion for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Millennial and Gen Z customers now make up the largest share of U.S. consumer spending and are the fastest-growing cohorts.",
+      "quote": "As of Q4, millennial and Gen Z customers now make up the largest share of US consumer spending, and they remain the fastest-growing cohorts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International spend was up 12% FX-adjusted in Q4.",
+      "quote": "International also delivered another very strong quarter, with spend up 12% FX adjusted.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "High-yield savings account penetration is less than 10% of U.S. consumer card members, indicating growth potential.",
+      "quote": "With less than 10% of our US consumer card members currently holding a high-yield savings account with us, we see a long runway for growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The new data and analytics platform is reducing time for key processes by 90% and is expected to be fully migrated by 2027.",
+      "quote": "The new platform, is built on the public cloud, is already reducing the time for key processes in marketing and fraud by 90% and we expect to migrate 100% of our data and analytics processes to the new platform by 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the business and outlook.",
+      "quote": "Stephen Squeri: '2025 was a very strong year for American Express' and 'we are operating from a position of strength.' Christophe Le Caillec: 'we feel good about the year ahead.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from macroeconomic and geopolitical conditions, regulatory initiatives, and competitive pressures.",
+      "quote": "Factors that could cause actual results to differ materially from these forward-looking statements, include, but are not limited to, those that are set forth under the caption 'Cautionary Note Regarding Forward-Looking Statements' ... Those factors include, but are not limited to, the following: ... macroeconomic and geopolitical conditions, including a slowdown in U.S. or global economic growth ... the effects of regulatory initiatives, including pricing regulation, such as potential credit card interest rate caps, and network regulation; ... changes in the competitive environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's 2026 guidance is consistent with its long-term aspirations, not a formal raise.",
+      "quote": "We continue to run our business with an aspiration to achieve 10% plus revenue growth and mid-teens EPS growth. As shown on slide 21, for the full year 2026 we expect revenue growth of 9% to 10% and earnings per share between $17.30 and $17.90.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 is based on momentum and confident guidance, but the guidance was not formally raised relative to prior stated aspirations; a reviewer may consider whether the score should be lower (near 0.0) given the guidance is in line with long-term targets."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "Margin figures were not explicitly disclosed; the summary relies on related expense ratios, which may not fully represent margin performance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "AXP_Bundled Earnings Report_2026-01-30",
+  "report_metadata": {
+    "issuer": "p2_american_express",
+    "company": "American Express",
+    "ticker": "AXP",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q4/AXP_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q4/AXP_Q4_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AXP_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T215705Z",
+    "timestamp": "2026-08-13T21:57:54Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q4/AXP_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_american_express_ext2026_08_13/extracted/AXP_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q4/AXP_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 15385,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2025-Q4/AXP_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 60811,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_american_express_ext2026_08_13/extracted/AXP_FQ4_2025.txt"
+  }
+}

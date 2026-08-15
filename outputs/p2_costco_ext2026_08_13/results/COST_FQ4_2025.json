@@ -1,46 +1,38 @@
 {
   "document_id": "COST_FQ4_2025",
   "sentiment": {
-    "score": 0.1,
-    "rationale": "The document reports strong fourth-quarter and fiscal year results with net sales up 8.0% and 8.1% respectively, and diluted EPS up from $5.29 to $5.87 for the quarter. However, there is no explicit forward guidance provided in the press release; the only forward-looking statements are standard risk disclosures. The results are backward-looking and the document does not indicate any change in management's own prior guidance, so the score is modestly positive but not strongly so."
+    "score": 0.25,
+    "rationale": "The document shows strong operational momentum with net sales up 8% and EPS up 11% (14% excluding a one-time tax benefit), and management expresses confidence in continued growth, including plans to open 35 new warehouses in fiscal year 2026. However, there is no formal forward guidance raise; management instead highlights ongoing macroeconomic uncertainty and tariff risks, and notes that renewal rates are expected to continue declining for a few more quarters. The score reflects genuine operational momentum and confident forward language without a formal guidance raise, tempered by explicit caution on tariffs and membership renewal trends."
   },
   "signal": {
-    "direction": "HOLD",
+    "direction": "BUY",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "none — HOLD band",
-    "model_stated_direction": "HOLD",
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
     "signal_mismatch": false
   },
   "summary": {
-    "revenue": "Net sales for the quarter increased 8.0% to $84.4 billion from $78.2 billion last year. Net sales for the fiscal year increased 8.1% to $269.9 billion from $249.6 billion last year.",
-    "eps": "Fourth quarter diluted EPS was $5.87, compared to $5.29 last year. Fiscal year diluted EPS was $18.21, compared to $16.56 last year.",
-    "guidance": "Not disclosed. The document contains only standard forward-looking statements about risks and uncertainties, with no specific revenue or earnings guidance.",
-    "margin": "Operating income for the quarter was $3,341 million versus $3,042 million last year; for the fiscal year, $10,383 million versus $9,285 million. Net income for the quarter was $2,610 million versus $2,354 million; for the fiscal year, $8,099 million versus $7,367 million.",
+    "revenue": "Net sales for the fourth quarter increased 8.0%, to $84.4 billion, from $78.2 billion last year. Net sales for the fiscal year increased 8.1%, to $269.9 billion, from $249.6 billion last year.",
+    "eps": "Net income for the fourth quarter was $2.610 billion, $5.87 per diluted share, compared to $2.354 billion, $5.29 per diluted share, last year. Net income for the fiscal year was $8.099 billion, $18.21 per diluted share, compared to $7.367 billion, $16.56 per diluted share, last year.",
+    "guidance": "We plan to open another 35 warehouses in fiscal year '26, of which five are relocations. We would expect 2026 to have capital expenditure that would grow over 2025 and probably a little bit higher than sales again for the same reasons in '26 as '25.",
+    "margin": "Our reported rate in the fourth quarter was higher year-over-year by 13 basis points coming in at 11.13% compared to 11% last year. Gross margin was up 3 basis points, excluding gas deflation. Core was higher by 30 basis points and higher by 22 basis points without gas deflation. In terms of core margins on their own sales, our core-on-core margins were higher by 29 basis points.",
     "key_risks": [
-      "Domestic and international economic conditions, including exchange rates, inflation or deflation",
-      "Effects of competition and regulation",
-      "Uncertainties in the financial markets",
-      "Consumer and small business spending patterns and debt levels",
-      "Breaches of security or privacy of member or business information",
-      "Conditions affecting the acquisition, development, ownership or use of real estate",
-      "Capital spending",
-      "Actions of vendors",
-      "Rising costs associated with employees (generally including health-care costs and wages)",
-      "Workforce interruptions",
-      "Energy and certain commodities",
-      "Geopolitical conditions (including tariffs)",
-      "The ability to maintain effective internal control over financial reporting",
-      "Regulatory and other impacts related to environmental and social matters",
-      "Public-health related factors"
+      "Domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors.",
+      "We would, therefore, expect to continue to see a small decline in our renewal rate as this change in membership mix gets fully reflected in our renewal rate calculation.",
+      "The environment with tariffs does still remain fluid. There could still be changes that we have to address as the picture unfolds.",
+      "An increase in general liability charges and reserves also negatively impacted SG&A this quarter by approximately 5 basis points."
     ],
     "key_opportunities": [
-      "E-commerce sales growth: E-commerce comparable sales increased 13.6% for the quarter and 15.6% for the fiscal year, indicating a strong growth channel.",
-      "International expansion: The company operates 914 warehouses across multiple countries, including new locations in Iceland and New Zealand, suggesting ongoing global growth."
+      "We continue to see significant opportunities for expansion both domestically and internationally across the markets where we currently operate.",
+      "We've seen the meaningful increase in upgrades from Gold Star members to Executive Membership.",
+      "We continue to grow share in big and bulky items sold online, powered by our investments in Costco Logistics.",
+      "We recently executed a series of targeted MVM amplification campaigns with Kimberly-Clark on third-party websites. This resulted in a strong return on ad spend of 14:1, drove a 22% increase in traffic to the product detail pages and a 45% increase in digital sales of the promoted items.",
+      "We believe our expertise in buying and the flexibility afforded by our limited SKU count give us greater agility to navigate the current environment and minimize the impact of tariffs."
     ],
     "management_tone": {
-      "label": "neutral",
-      "justification": "The press release presents results factually without qualitative commentary on performance or outlook, and the only forward-looking statements are standard risk disclosures."
+      "label": "confident",
+      "justification": "Management expresses confidence in continued growth and market share gains despite macroeconomic uncertainty: 'As we look ahead to fiscal year 2026, despite the current macroeconomic uncertainty, we remain confident in our ability to grow market share by continuing to deliver exciting, high-quality items at the best value for our members.'"
     }
   },
   "evidence": [
@@ -69,73 +61,101 @@
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Operating income for the quarter was $3,341 million versus $3,042 million last year.",
-      "quote": "Operating income 3,341 3,042",
+      "claim": "Management plans to open 35 new warehouses in fiscal year 2026.",
+      "quote": "We plan to open another 35 warehouses in fiscal year '26, of which five are relocations.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Operating income for the fiscal year was $10,383 million versus $9,285 million last year.",
-      "quote": "Operating income 10,383 9,285",
+      "claim": "Capital expenditure is expected to grow in 2026, likely faster than sales.",
+      "quote": "We would expect 2026 to have capital expenditure that would grow over 2025 and probably a little bit higher than sales again for the same reasons in '26 as '25.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Net income for the quarter was $2,610 million versus $2,354 million last year.",
-      "quote": "NET INCOME $ 2,610 $ 2,354",
+      "claim": "Gross margin rate improved by 13 basis points year-over-year in Q4.",
+      "quote": "Our reported rate in the fourth quarter was higher year-over-year by 13 basis points coming in at 11.13% compared to 11% last year.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Net income for the fiscal year was $8,099 million versus $7,367 million last year.",
-      "quote": "NET INCOME $ 8,099 $ 7,367",
+      "claim": "Core-on-core margins were higher by 29 basis points.",
+      "quote": "In terms of core margins on their own sales, our core-on-core margins were higher by 29 basis points.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "The document does not provide specific forward guidance.",
-      "quote": "Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future.",
+      "claim": "Renewal rates are expected to continue to decline due to a changing membership mix.",
+      "quote": "We would, therefore, expect to continue to see a small decline in our renewal rate as this change in membership mix gets fully reflected in our renewal rate calculation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff environment remains fluid and could change.",
+      "quote": "The environment with tariffs does still remain fluid. There could still be changes that we have to address as the picture unfolds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "General liability charges negatively impacted SG&A by approximately 5 basis points.",
+      "quote": "An increase in general liability charges and reserves also negatively impacted SG&A this quarter by approximately 5 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management sees significant expansion opportunities domestically and internationally.",
+      "quote": "We continue to see significant opportunities for expansion both domestically and internationally across the markets where we currently operate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Executive membership upgrades increased meaningfully after new benefits were announced.",
+      "quote": "Since announcing these new executive benefits, we've seen the meaningful increase in upgrades from Gold Star members to Executive Membership.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Costco Logistics is driving growth in big and bulky items online.",
+      "quote": "We continue to grow share in big and bulky items sold online, powered by our investments in Costco Logistics, the combination of great values and the delivery experience that includes installation and haul away of old items, is resonating extremely well with members and resulted in a 13% increase in items delivered in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Retail media campaigns are delivering strong returns.",
+      "quote": "We recently executed a series of targeted MVM amplification campaigns with Kimberly-Clark on third-party websites. This resulted in a strong return on ad spend of 14:1, drove a 22% increase in traffic to the product detail pages and a 45% increase in digital sales of the promoted items.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Costco's limited SKU count provides agility to navigate tariffs.",
+      "quote": "We believe our expertise in buying and the flexibility afforded by our limited SKU count give us greater agility to navigate the current environment and minimize the impact of tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in growing market share despite macroeconomic uncertainty.",
+      "quote": "As we look ahead to fiscal year 2026, despite the current macroeconomic uncertainty, we remain confident in our ability to grow market share by continuing to deliver exciting, high-quality items at the best value for our members.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of 0.25 reflects strong operational momentum without a formal guidance raise, tempered by caution on tariffs and renewal rates.",
+      "quote": "As we look ahead to fiscal year 2026, despite the current macroeconomic uncertainty, we remain confident in our ability to grow market share... We would, therefore, expect to continue to see a small decline in our renewal rate... The environment with tariffs does still remain fluid.",
       "confidence": "MEDIUM",
-      "flag": "UNCERTAIN: The quote indicates the presence of forward-looking statements but does not explicitly state that no specific guidance is provided; however, the document contains no specific guidance figures."
-    },
-    {
-      "claim": "E-commerce comparable sales increased 13.6% for the quarter and 15.6% for the fiscal year.",
-      "quote": "E-commerce 13.6% 13.5% 15.6% 16.1%",
-      "confidence": "HIGH",
       "flag": "SUPPORTED"
-    },
-    {
-      "claim": "The company operates 914 warehouses, including international locations.",
-      "quote": "Costco currently operates 914 warehouses, including 629 in the United States and Puerto Rico, 110 in Canada, 42 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, two in France, two in Sweden, and one each in Iceland, and New Zealand.",
-      "confidence": "HIGH",
-      "flag": "SUPPORTED"
-    },
-    {
-      "claim": "The management tone is neutral as the press release presents results without qualitative commentary.",
-      "quote": "Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 31, 2025.",
-      "confidence": "MEDIUM",
-      "flag": "UNCERTAIN: The quote shows the factual nature of the announcement but does not explicitly describe the tone; the tone is inferred from the absence of qualitative language."
     }
   ],
   "review_flags": [
     {
       "field": "sentiment.score",
-      "reason": "The score is based on the absence of forward guidance and the backward-looking nature of the results; a human reviewer should confirm that the lack of guidance is correctly interpreted as neutral rather than negative."
-    },
-    {
-      "field": "summary.guidance",
-      "reason": "The document contains standard forward-looking statements but no specific guidance; the 'Not disclosed' label is appropriate but should be verified against any implicit guidance in the press release."
-    },
-    {
-      "field": "summary.management_tone",
-      "reason": "The tone label 'neutral' is inferred from the lack of qualitative commentary; a human reviewer should confirm that the press release does not contain any tone-indicating language."
+      "reason": "The score of 0.25 is based on strong operational momentum and confident forward language, but there is no formal guidance raise. The score could be debated as slightly higher or lower depending on how much weight is given to the explicit caution on tariffs and renewal rates versus the strong results and expansion plans."
     }
   ],
   "output_meta": {
-    "evidence_count": 12,
-    "uncertain_count": 3,
-    "review_flag_count": 3,
-    "not_disclosed_count": 1
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
   },
   "model_document_id": "COST_Bundled Earnings Report_2025-09-25",
   "report_metadata": {
@@ -149,32 +169,46 @@
     "documents": [
       {
         "doc_type": "Press Release",
-        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/press_release.htm",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/COST_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/COST_Q4_2025_Earnings_Call_Transcript.htm",
         "pub_date": null
       }
     ],
-    "document_id": "COST_FQ4_2025"
+    "document_id": "COST_FQ4_2025",
+    "release_timing": "after_hours"
   },
   "run_meta": {
-    "run_id": "20260813T152734Z",
-    "timestamp": "2026-08-13T15:27:47Z",
+    "run_id": "20260813T221957Z",
+    "timestamp": "2026-08-13T22:20:12Z",
     "model": "deepseek-v4-flash",
     "prompt": "llm_analysis_prompt_template.md",
     "cached_input": false,
-    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/press_release.htm",
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/COST_Q4_2025_Press_Release.htm",
     "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ4_2025.txt"
   },
   "extraction_meta": {
     "documents": [
       {
         "doc_type": "Press Release",
-        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/press_release.htm",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/COST_Q4_2025_Press_Release.htm",
         "page_count": 1,
         "extracted_characters": 8447,
         "extractor_used": "html.parser",
         "warnings": [
           "missing_keyword:Earnings Call"
         ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2025-Q4/COST_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 69704,
+        "extractor_used": "html.parser",
+        "warnings": []
       }
     ],
     "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ4_2025.txt"

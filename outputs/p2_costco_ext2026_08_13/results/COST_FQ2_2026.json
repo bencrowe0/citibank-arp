@@ -1,137 +1,161 @@
 {
   "document_id": "COST_FQ2_2026",
   "sentiment": {
-    "score": 0.15,
-    "rationale": "The document reports strong operational results with net sales up 9.1% and EPS up from $4.02 to $4.58, but there is no explicit forward guidance provided or raised. The company highlights a positive shift from Lunar New Year timing that boosted sales, but also lists numerous risks including tariffs and geopolitical conditions. The overall tone is neutral, with no clear change in forward expectations, so the score is slightly positive due to momentum but not a formal guidance raise."
+    "score": 0.25,
+    "rationale": "The document shows strong operational momentum with net income up nearly 14% and core-on-core margins up 22 basis points, but management did not raise formal forward guidance. While the quarter was strong, management's forward language is hedged with significant risks around tariffs and Middle East instability, and the company explicitly stated there is no current plan for a special dividend despite cash buildup. The score reflects genuine operational momentum without a formal guidance raise, tempered by cautious forward language on external risks."
   },
   "signal": {
-    "direction": "HOLD",
+    "direction": "BUY",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "none — HOLD band",
-    "model_stated_direction": "HOLD",
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
     "signal_mismatch": false
   },
   "summary": {
-    "revenue": "Net sales for the quarter increased 9.1%, to $68.24 billion, from $62.53 billion last year. For the first 24 weeks, net sales increased 8.7%, to $134.22 billion, from $123.52 billion last year.",
-    "eps": "Net income for the quarter was $2,035 million, $4.58 per diluted share, compared to $1,788 million, $4.02 per diluted share, last year. For the first 24 weeks, net income was $4.04 billion, $9.08 per diluted share, compared to $3.59 billion, $8.06 per diluted share, last year.",
-    "guidance": "Not disclosed",
-    "margin": "Operating income for the quarter was $2,606 million compared to $2,316 million last year. For the first 24 weeks, operating income was $5,069 million compared to $4,512 million last year. No explicit margin percentages were provided.",
+    "revenue": "Net sales for the quarter increased 9.1%, to $68.24 billion, from $62.53 billion last year. Net sales for the first 24 weeks increased 8.7%, to $134.22 billion, from $123.52 billion last year.",
+    "eps": "Net income for the quarter was $2,035 million, $4.58 per diluted share, compared to $1,788 million, $4.02 per diluted share, last year.",
+    "guidance": "No formal revenue or earnings guidance was provided. Management stated they expect 28 net new warehouse openings in fiscal 2026 and are targeting 30-plus new openings per year in coming years. Capital expenditures are estimated at approximately $6.5 billion for the full year.",
+    "margin": "Reported gross margin up 17 basis points; adjusted for gas deflation, up 11 basis points to 11.02%; core-on-core margins higher by 22 basis points. SG&A rate higher by 13 basis points year over year (9.19% vs. 9.06%).",
     "key_risks": [
-      "Domestic and international economic conditions, including exchange rates, inflation or deflation",
-      "Effects of competition and regulation",
-      "Uncertainties in the financial markets",
-      "Consumer and small business spending patterns and debt levels",
-      "Breaches of security or privacy of member or business information",
-      "Conditions affecting the acquisition, development, ownership or use of real estate",
-      "Capital spending",
-      "Actions of vendors",
-      "Rising costs associated with employees (generally including health-care costs and wages)",
-      "Workforce interruptions",
-      "Energy and certain commodities",
-      "Geopolitical conditions (including tariffs)",
-      "The ability to maintain effective internal control over financial reporting",
-      "Regulatory and other impacts related to environmental and social matters",
-      "Public-health related factors"
+      "Tariffs remain extremely fluid, with AIPA tariffs replaced by new global tariffs for at least the next 150 days",
+      "Middle East instability could impact fuel costs and shipping schedules if sustained",
+      "Egg price deflation expected to continue as a headwind to food and sundries sales for the foreseeable future",
+      "US and Canada renewal rate down 10 basis points due to lower-renewing online sign-ups",
+      "IEPA tariff refunds unclear - process, amount, and timing not yet known"
     ],
     "key_opportunities": [
-      "Digitally-enabled sales growth: comparable sales for digitally-enabled increased 22.6% for the quarter and 21.6% for the first 24 weeks.",
-      "International expansion: Other International comparable sales increased 13.0% for the quarter and 11.0% for the first 24 weeks, with 924 warehouses now operating globally."
+      "Digital acceleration with site traffic up 32% and app traffic up 45%",
+      "Personalized product recommendation carousels drove over $470 million in ecommerce sales",
+      "Targeting 30-plus warehouse openings annually with creative high-density real estate models",
+      "Membership fee income up 13.6% with underlying 7.5% growth excluding fee impacts and FX",
+      "Retail media revenues growing double digits with over 1,000 supplier partners",
+      "Kirkland Signature penetration continuing to improve with approximately 30 new items launched in Q2"
     ],
     "management_tone": {
-      "label": "neutral",
-      "justification": "The document presents results factually without explicit forward-looking commentary or strong language, and includes a standard risk factor disclosure, indicating a neutral tone."
+      "label": "confident",
+      "justification": "Management expressed confidence in the business model and growth trajectory, stating 'We feel good that we will continue to reinvest. That is what we do, both in employees and in pricing and in the business overall and expansion' while acknowledging external risks."
     }
   },
   "evidence": [
     {
-      "claim": "Net sales for the quarter increased 9.1% to $68.24 billion.",
+      "claim": "Net sales for the quarter increased 9.1% to $68.24 billion",
       "quote": "Net sales for the quarter increased 9.1 percent, to $68.24 billion, from $62.53 billion last year.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Net sales for the first 24 weeks increased 8.7% to $134.22 billion.",
-      "quote": "Net sales for the first 24 weeks increased 8.7 percent, to $134.22 billion, from $123.52 billion last year.",
-      "confidence": "HIGH",
-      "flag": "SUPPORTED"
-    },
-    {
-      "claim": "EPS for the quarter was $4.58 diluted, up from $4.02 last year.",
+      "claim": "Net income for the quarter was $2,035 million, $4.58 per diluted share",
       "quote": "Net income for the quarter was $2,035 million, $4.58 per diluted share, compared to $1,788 million, $4.02 per diluted share, last year.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "EPS for the first 24 weeks was $9.08 diluted, up from $8.06 last year.",
-      "quote": "Net income for the first 24 weeks was $4.04 billion, $9.08 per diluted share, compared to $3.59 billion, $8.06 per diluted share, last year.",
+      "claim": "Core-on-core margins were higher by 22 basis points",
+      "quote": "In terms of core margins on their own sales, our core-on-core margins were higher by 22 basis points. The increase in core-on-core margins was broad-based, with nonfoods, food and sundries, and fresh all higher year over year.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Operating income for the quarter was $2,606 million.",
-      "quote": "Operating income 2,606 2,316 5,069 4,512",
+      "claim": "Management expects 28 net new warehouse openings in fiscal 2026",
+      "quote": "We currently expect to have 28 net new openings in fiscal year 2026 and are targeting 30-plus new openings per year in the coming years.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Operating income for the first 24 weeks was $5,069 million.",
-      "quote": "Operating income 2,606 2,316 5,069 4,512",
+      "claim": "Capital expenditures estimated at approximately $6.5 billion for the full year",
+      "quote": "We estimate CapEx for the full year will be approximately $6,500,000,000 as we continue to invest in building a larger pipeline of new warehouses, remodeling our existing warehouses to drive continued growth in high-volume buildings, expanding our depot network to support operations, and enhancing the member digital experience.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "The company lists numerous risks including economic conditions, tariffs, and geopolitical conditions.",
-      "quote": "These risks and uncertainties include, but are not limited to, domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors, and other risks identified from time to time in the Company’s public statements and reports filed with the Securities and Exchange Commission.",
+      "claim": "Tariffs remain a significant risk with new global tariffs for at least 150 days",
+      "quote": "The future impact of tariffs remains extremely fluid, as the recently eliminated AIPA tariffs have now been replaced with new global tariffs for at least the next 150 days.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Digitally-enabled comparable sales increased 22.6% for the quarter.",
-      "quote": "Digitally-Enabled 22.6% 21.7% 21.6% 21.2%",
+      "claim": "Middle East instability could impact fuel costs and shipping schedules",
+      "quote": "That said, as we look at the rest of the fiscal year, the situation in the Middle East could impact fuel costs and shipping schedules if there is instability in the region for a sustained period of time.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "Other International comparable sales increased 13.0% for the quarter.",
-      "quote": "Other International 13.0% 7.1% 11.0% 7.0%",
+      "claim": "Egg price deflation expected to continue as a headwind",
+      "quote": "While egg price deflation is expected to continue to be a headwind to sales in food and sundries for the foreseeable future, we are seeing significant unit and market share growth in eggs because of our strong value proposition.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "The company operates 924 warehouses globally.",
-      "quote": "Costco currently operates 924 warehouses, including 634 in the United States and Puerto Rico, 114 in Canada, 42 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand.",
+      "claim": "US and Canada renewal rate down 10 basis points",
+      "quote": "In terms of renewal rates, at Q2 end, our US and Canada renewal rate was 92.1%, down 10 basis points from last quarter, and the worldwide rate came in at 89.7%, unchanged from last quarter.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "The Lunar New Year shift positively impacted February sales.",
-      "quote": "Lunar and Chinese New Years occurred on February 17, 19 days later this year. The shift positively impacted February Other International and Total Company sales by approximately 4.0% and 0.5%, respectively.",
+      "claim": "Digital traffic grew significantly with site traffic up 32% and app traffic up 45%",
+      "quote": "Turning to digital, site traffic in the quarter was up 32%, and app traffic was up 45%.",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
-      "claim": "The document does not provide explicit forward guidance.",
-      "quote": "Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future.",
+      "claim": "Personalized product recommendation carousels drove over $470 million in ecommerce sales",
+      "quote": "In Q2, our personalized product recommendation carousels drove over $470,000,000 of ecommerce sales, and our newly modernized product display pages are driving incremental sales on our .com site as well as increased traffic to our same-day sites.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Membership fee income increased 13.6% with underlying 7.5% growth",
+      "quote": "We reported membership fee income of $1,355,000,000, an increase of $162,000,000, or 13.6% year over year. Adjusting for FX, the increase was 12.2%. The September 2024 US and Canada membership fee increase accounted for about one-third of our membership income growth. Excluding the membership fee increase and FX, membership income grew 7.5% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Retail media revenues growing double digits with over 1,000 supplier partners",
+      "quote": "On advertising, I think what we have shared before is that we have a meaningful amount of dollars that we generate from media revenue today, and that is growing double digits. We have over, I think, now a thousand of our suppliers that participate in engaging with us through placement or being able to provide promotional opportunities for them.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Kirkland Signature launched approximately 30 new items in Q2",
+      "quote": "In Q2, we launched approximately 30 new KS items, including crispy wings, blackened salmon, and various apparel items.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident",
+      "quote": "We feel good that we will continue to reinvest. That is what we do, both in employees and in pricing and in the business overall and expansion, as Gary mentioned.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal guidance was raised despite strong results",
+      "quote": "I would not say our financial strategy has really changed significantly as we think about cash. First, our first priority, of course, is always to invest in the business.",
       "confidence": "MEDIUM",
-      "flag": "UNCERTAIN: The quote defines forward-looking statements but does not explicitly state that no guidance is provided; the absence of guidance is inferred from the document's content."
+      "flag": "UNCERTAIN: This quote addresses cash strategy rather than explicitly stating guidance was not raised; the absence of formal guidance is inferred from the document not containing any explicit guidance raise."
+    },
+    {
+      "claim": "IEPA tariff refunds are unclear",
+      "quote": "Regarding IEPA tariff refunds, it is not yet clear what the process will be, what refunds, if any, will be received, and when this will happen.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
     }
   ],
   "review_flags": [
     {
       "field": "sentiment.score",
-      "reason": "The score is slightly positive due to operational momentum, but there is no explicit guidance raise; the score is at the boundary of the HOLD band and could be considered 0.0 if the momentum is not seen as a trajectory change."
+      "reason": "Score of 0.25 reflects operational momentum without formal guidance raise; reviewer should verify whether the absence of explicit guidance language warrants a lower score given the cautious forward language on tariffs and Middle East."
     },
     {
       "field": "summary.guidance",
-      "reason": "Guidance is marked as 'Not disclosed' because the document does not contain explicit forward guidance; however, the forward-looking statements section may be interpreted as guidance, so a reviewer should confirm."
+      "reason": "No formal revenue or earnings guidance was provided in the document; only operational targets (warehouse openings, capex) were stated. Reviewer should confirm this interpretation."
     }
   ],
   "output_meta": {
-    "evidence_count": 12,
+    "evidence_count": 17,
     "uncertain_count": 1,
     "review_flag_count": 2,
-    "not_disclosed_count": 1
+    "not_disclosed_count": 0
   },
   "model_document_id": "COST_Bundled Earnings Report_2026-03-05",
   "report_metadata": {
@@ -145,32 +169,46 @@
     "documents": [
       {
         "doc_type": "Press Release",
-        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/press_release.htm",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/COST_Q2_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/COST_Q2_2026_Earnings_Call_Transcript.htm",
         "pub_date": null
       }
     ],
-    "document_id": "COST_FQ2_2026"
+    "document_id": "COST_FQ2_2026",
+    "release_timing": "after_hours"
   },
   "run_meta": {
-    "run_id": "20260813T152734Z",
-    "timestamp": "2026-08-13T15:28:13Z",
+    "run_id": "20260813T221957Z",
+    "timestamp": "2026-08-13T22:20:41Z",
     "model": "deepseek-v4-flash",
     "prompt": "llm_analysis_prompt_template.md",
     "cached_input": true,
-    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/press_release.htm",
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/COST_Q2_2026_Press_Release.htm",
     "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ2_2026.txt"
   },
   "extraction_meta": {
     "documents": [
       {
         "doc_type": "Press Release",
-        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/press_release.htm",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/COST_Q2_2026_Press_Release.htm",
         "page_count": 1,
         "extracted_characters": 9164,
         "extractor_used": "html.parser",
         "warnings": [
           "missing_keyword:Earnings Call"
         ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q2/COST_Q2_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 73391,
+        "extractor_used": "html.parser",
+        "warnings": []
       }
     ],
     "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ2_2026.txt"

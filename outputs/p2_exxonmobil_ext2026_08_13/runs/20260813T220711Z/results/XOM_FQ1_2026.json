@@ -1,0 +1,216 @@
+{
+  "document_id": "XOM_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reported strong underlying operational momentum, with earnings excluding identified items and timing effects up to $8.8 billion from $7.6 billion year-over-year, and management expressed confidence in its strategy and ability to perform through disruption. However, the company did not formally raise its full-year guidance, and the reported GAAP earnings were down significantly due to unfavorable timing effects and Middle East disruptions, which tempers the positive signal. The score reflects genuine operational momentum and confident forward language without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenue of $83,161 million for 1Q26, compared to $81,058 million in 1Q25.",
+    "eps": "Earnings per share of $1.00 (GAAP), $1.16 excluding identified items, and $2.09 excluding identified items and estimated timing effects. The transcript notes EPS of $1.16 beat expectations of $0.984.",
+    "guidance": "The company reaffirmed its plan to repurchase $20 billion of shares in 2026 and maintained full-year cash capital expenditure guidance of $27-$29 billion. Management expressed confidence in growing earnings, cash flow, and shareholder value through 2030 and beyond, but did not provide a formal quantitative earnings guidance raise.",
+    "margin": "The document does not provide a consolidated gross or operating margin figure. Segment-level commentary indicates improved margins in Energy Products and weaker margins in Chemical Products.",
+    "key_risks": [
+      "Middle East supply disruptions impacting operations and causing identified items (losses on settled financial hedges).",
+      "Unfavorable estimated timing effects of $3.9 billion that will unwind in subsequent periods.",
+      "Operational disruptions in Kazakhstan and impacts from U.S. winter storm Fern.",
+      "Damage to two LNG trains in Qatar, with repair time estimated between 3 and 5 years.",
+      "Potential for increased prices and market volatility if the Strait of Hormuz remains closed."
+    ],
+    "key_opportunities": [
+      "Record production in Guyana and continued growth in the Permian, with full-year Permian production targeted at 1.8 million oil-equivalent barrels in 2026.",
+      "First LNG at Golden Pass Train 1, increasing U.S. LNG exports by 5%, with Train 2 expected mechanically complete by end of 2026.",
+      "Advantaged volume growth and structural cost savings, with cumulative savings of $15.6 billion since 2019.",
+      "Strong Energy Products performance with improved margins and strong trading and optimization results.",
+      "Potential opportunities in Venezuela and UAE for heavy oil production and capacity expansion."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Darren Woods stated, 'This quarter demonstrated that ExxonMobil is a fundamentally stronger company than it was just a few years ago, built to perform through disruption and across market cycles,' and expressed confidence in the company's plan to build long-term sustainable earnings and cash flow growth."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for the first quarter of 2026 was $83,161 million.",
+      "quote": "Sales and other operating revenue 83,161 81,058",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP earnings per share was $1.00, and $2.09 excluding identified items and estimated timing effects.",
+      "quote": "Earnings Per Common Share ¹ 1.00 1.53 -0.53 1.76 -0.76 ... Earnings Excluding Identified Items and Estimated Timing Effects Per Common Share (non-GAAP) ¹ 2.09 1.63 +0.46 1.73 +0.36",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share of $1.16 beat analyst expectations of $0.984.",
+      "quote": "Exxon Mobil Corporation beats earnings expectations. Reported EPS is $1.16, expectations were $0.984.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its plan to repurchase $20 billion of shares in 2026.",
+      "quote": "Industry-leading shareholder distributions of $9.2 billion included $4.3 billion of dividends and $4.9 billion of share repurchases, on pace with plans to repurchase $20 billion of shares in 2026, assuming reasonable market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company maintained its full-year cash capital expenditure guidance of $27-$29 billion.",
+      "quote": "Cash capital expenditures totaled $6.2 billion, consistent with the company's full-year guidance range of $27-$29 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in growing earnings, cash flow, and shareholder value through 2030 and beyond.",
+      "quote": "That foundation gives us a durable platform to grow earnings, cash flow, and shareholder value through 2030 and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reported strong underlying operational momentum with earnings excluding identified items and timing effects up from the prior year.",
+      "quote": "Earnings excluding identified items and estimated timing effects were $8.8 billion versus $7.6 billion in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faced unfavorable estimated timing effects of $3.9 billion.",
+      "quote": "Unfavorable estimated timing effects of $3.9 billion reflect the mismatch between the valuation of financial derivatives and the associated physical transactions, resulting in a timing difference in earnings that unwinds in subsequent periods.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faced operational disruptions in Kazakhstan and impacts from U.S. winter storm Fern.",
+      "quote": "Earnings excluding identified items and estimated timing effects of $6.3 billion increased $1.8 billion versus the prior quarter. Higher crude and gas realizations were partly offset by lower volumes from Middle East impacts, operational disruptions in Kazakhstan and from U.S. winter storm Fern, and higher depreciation expense.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reported record production in Guyana.",
+      "quote": "Net production in the first quarter reached 4.6 million oil-equivalent barrels per day, with Guyana setting a new quarterly production record of more than 900 thousand gross barrels of oil per day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved first LNG at Golden Pass Train 1, increasing U.S. LNG exports by 5%.",
+      "quote": "At the end of March, Golden Pass LNG, a joint venture between QatarEnergy and ExxonMobil, achieved first production of LNG from Train 1 at its Sabine Pass Terminal, marking a major milestone, increasing U.S. exports by 5% relative to 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is targeting full-year Permian production of 1.8 million oil-equivalent barrels in 2026.",
+      "quote": "We remain on track to grow full year Permian production to 1.8 million oil equivalent barrels in 2026, with that growth grounded in value, not volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved cumulative structural cost savings of $15.6 billion since 2019.",
+      "quote": "The company has delivered $15.6 billion in cumulative Structural Cost Savings since 2019, with an additional $0.6 billion achieved during the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reported improved margins in Energy Products.",
+      "quote": "Improved margins, including strong trading and optimization results, and structural cost savings were partly offset by higher expenses from planned turnaround activity and unfavorable foreign exchange impacts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reported weaker margins in Chemical Products.",
+      "quote": "Weaker margins driven by lower realizations and higher feed costs were partly offset by volume increases from the China Chemical Complex start-up and structural cost savings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces a risk from damage to two LNG trains in Qatar, with repair time estimated between 3 and 5 years.",
+      "quote": "And then ultimately, we'll have to work with QatarEnergy on the two trains that were damaged. That will be obviously a much longer time horizon with respect to repair. That will be about 3% of our global production and QatarEnergy came out very early on and said, the repair time will be anywhere between 3 and 5 years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees potential opportunities in Venezuela and UAE.",
+      "quote": "I feel positive about what's happening, the opportunity there, more work to do, but I think we'll be uniquely positioned and play an important role in bringing those barrels to market. ... I think we've got a very good relationship with them. We've got very good commercial arrangements with them, and we're actively working to help the UAE grow – meet its ambition of growing production and we'll be a part of that, I'm sure of it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "This quarter demonstrated that ExxonMobil is a fundamentally stronger company than it was just a few years ago, built to perform through disruption and across market cycles.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects operational momentum and confident language, but the company did not formally raise guidance. The significant GAAP earnings decline and large timing effects could warrant a lower score if the reviewer weights the formal guidance absence more heavily."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2026-05-01",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2026-Q1/XOM_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2026-Q1/XOM_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:10:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2026-Q1/XOM_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2026-Q1/XOM_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 50071,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2026-Q1/XOM_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 65307,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ1_2026.txt"
+  }
+}

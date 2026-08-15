@@ -1,0 +1,196 @@
+{
+  "document_id": "XOM_FQ3_2024",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: record liquids production, record high-value product sales, and a 4% dividend increase, with management expressing strong confidence in its transformation strategy. However, there is no formal forward guidance raise; the company reaffirms its $28 billion full-year capex guidance and $15 billion structural cost savings target through 2027, while acknowledging headwinds from weaker refining margins and lower natural gas prices. The score reflects the positive operational trajectory and confident language, but is tempered by the absence of a formal guidance raise and the explicit acknowledgment of market headwinds."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Third-quarter revenues and other income were $90,016 million, compared to $90,760 million in the same period last year. Year-to-date revenues and other income were $266,159 million, compared to $260,238 million in the prior year.",
+    "eps": "Third-quarter earnings per common share (assuming dilution) were $1.92, compared to $2.25 in the same period last year. Year-to-date EPS was $6.12, compared to $6.98 in the prior year.",
+    "guidance": "The company reaffirmed its full-year 2024 capital and exploration expenditures guidance of $28 billion. It also stated it is on track to deliver cumulative structural cost savings totaling $15 billion through the end of 2027 versus 2019. The company plans to repurchase over $19 billion of shares in 2024.",
+    "margin": "The document does not provide a consolidated gross or operating margin figure. It notes that Energy Products year-to-date earnings declined due to 'significantly weaker industry refining margins,' while Chemical Products saw 'overall margins increased from the prior year.'",
+    "key_risks": [
+      "Lower industry refining margins, which declined from historically high levels as supply from industry capacity additions outpaced record global demand.",
+      "Lower natural gas prices compared to last year's historically high levels.",
+      "Higher depreciation expense, scheduled maintenance, and development of new businesses.",
+      "A tornado-related shutdown at the Joliet refinery in Illinois, which impacted third-quarter results.",
+      "The company's low-carbon projects are contingent on government policy support, including the U.S. Inflation Reduction Act and timely permitting."
+    ],
+    "key_opportunities": [
+      "Record liquids production of 3.2 million barrels per day, the highest in over 40 years.",
+      "Record high-value product sales volumes in Product Solutions, up 10% over prior year-to-date.",
+      "Advantaged volume growth from Guyana and Permian assets, including Pioneer.",
+      "Structural cost savings of $11.3 billion since 2019, with a target of $15 billion by 2027.",
+      "Growth in low-carbon solutions, including hydrogen, carbon capture and storage, and advanced materials like Proxxima and carbon materials for EV batteries."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Darren Woods stated, 'We delivered one of our strongest third quarters in a decade,' and highlighted that 'our enterprise-wide transformation is improving the structural earnings power of the company,' reflecting a confident tone about the company's strategic direction and performance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Third-quarter revenue was $90,016 million.",
+      "quote": "Total revenues and other income 90,016 90,760 266,159 260,238",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third-quarter EPS was $1.92 per share.",
+      "quote": "Earnings per common share (U.S. dollars) 1.92 2.25 6.12 6.98",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its full-year 2024 capital expenditure guidance of $28 billion.",
+      "quote": "Capital and exploration expenditures were $7.2 billion in the third quarter, bringing year-to-date 2024 expenditures to $20 billion, in line with the company's full-year guidance of $28 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is on track to deliver $15 billion in cumulative structural cost savings through 2027.",
+      "quote": "The company is on track to deliver cumulative savings totaling $15 billion through the end of 2027 versus 2019.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to repurchase over $19 billion of shares in 2024.",
+      "quote": "The company plans to repurchase over $19 billion of shares in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Energy Products earnings were negatively impacted by weaker industry refining margins.",
+      "quote": "Energy Products year-to-date earnings were $3.6 billion compared to $8.9 billion in the same period last year due to significantly weaker industry refining margins, which declined from historically high levels as supply from industry capacity additions outpaced record global demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record liquids production of 3.2 million barrels per day.",
+      "quote": "Achieved highest liquids production in over 40 years with 3.2 million barrels per day",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record high-value product sales volumes in Product Solutions.",
+      "quote": "Delivered record high-value product sales volumes in Product Solutions, up 10% over prior year-to-date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has achieved $11.3 billion in structural cost savings since 2019.",
+      "quote": "And across the entire company, we’ve achieved $11.3 billion of structural cost savings since 2019.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is investing in low-carbon solutions including hydrogen and carbon capture.",
+      "quote": "In our low carbon solutions business, we continue to lay the groundwork for the world’s largest low carbon hydrogen production facility at our integrated site in Baytown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Joliet refinery tornado shutdown impacted third-quarter results.",
+      "quote": "Third-quarter earnings totaled $1.3 billion, an increase of $0.4 billion from the second quarter. Lower scheduled maintenance and favorable derivatives mark-to-market timing effects more than offset lower industry refining margins and impacts from a tornado-related shutdown at the Joliet refinery in Illinois, which had a safe and rapid restart ahead of expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed a confident tone about the company's performance and strategy.",
+      "quote": "“We delivered one of our strongest third quarters in a decade,” said Darren Woods, chairman and chief executive officer. “Our industry-leading results continue to demonstrate how our enterprise-wide transformation is improving the structural earnings power of the company.”",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company increased its quarterly dividend by 4%.",
+      "quote": "The Corporation declared a fourth-quarter dividend of $0.99 per share, an increase of 4%, payable on December 10, 2024, to shareholders of record of Common Stock at the close of business on November 14, 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's low-carbon projects are contingent on government policy support.",
+      "quote": "Contingent on the U.S. federal government implementing regulations that are consistent with the Inflation Reduction Act's legislative intent, the Baytown facility is expected to be the world’s largest of its kind upon startup, capable of producing up to 1 billion cubic feet of hydrogen per day and more than 1 million tons of low-carbon ammonia per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects genuine operational momentum and confident language, but there is no formal forward guidance raise. The score is based on the interpretation of 'operational momentum' as a positive signal, which may be subjective. A reviewer should confirm this interpretation aligns with the guidance framework."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "The document does not provide a consolidated margin figure. The summary relies on segment-level commentary, which may not fully represent the company's overall margin performance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2024-11-01",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-11-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q3/XOM_Q3_2024_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q3/XOM_Q3_2024_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:08:57Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q3/XOM_Q3_2024_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q3/XOM_Q3_2024_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 52929,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q3/XOM_Q3_2024_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 69336,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ3_2024.txt"
+  }
+}

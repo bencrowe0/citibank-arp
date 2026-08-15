@@ -1,0 +1,163 @@
+{
+  "document_id": "EBAY_FQ2_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported strong Q2 results with revenue up 6% and non-GAAP EPS up 16%, but the forward guidance for Q3 2025 (revenue growth of 3%-5% FX-neutral) is roughly in line with the current quarter's 4% FX-neutral growth, indicating no material upward revision. The document does not reference prior guidance for comparison, so the guidance appears held rather than raised, and the positive results are backward-looking. The score reflects genuine operational momentum (e.g., first-party advertising revenue up 19%) but is tempered by the flat forward outlook and the negative operating cash flow of $(307) million."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$2.7 billion, up 6% on an as-reported basis and up 4% on an FX-Neutral basis.",
+    "eps": "GAAP EPS of $0.79 per diluted share; Non-GAAP EPS of $1.37 per diluted share, up 16% year-over-year.",
+    "guidance": "Q3 2025 guidance: Revenue $2.69-$2.74 billion (FX-Neutral Y/Y growth 3%-5%); GMV $19.2-$19.6 billion (FX-Neutral Y/Y growth 3%-5%); Diluted GAAP EPS $0.97-$1.02; Diluted Non-GAAP EPS $1.29-$1.34.",
+    "margin": "GAAP operating margin decreased to 17.7% from 21.3% year-over-year; Non-GAAP operating margin increased to 28.4% from 27.9% year-over-year.",
+    "key_risks": [
+      "Negative operating cash flow of $(307) million and free cash flow of $(441) million in Q2 2025.",
+      "GAAP operating margin decreased to 17.7% from 21.3% in the prior year.",
+      "Forward-looking statements cite risks including geopolitical events, tariffs, foreign currency volatility, and inflationary pressure."
+    ],
+    "key_opportunities": [
+      "First-party advertising products delivered $455 million in revenue, up 19% as-reported and 17% FX-neutral.",
+      "AI shopping agent launched to a small subset of U.S. customers, with plans to ramp over time.",
+      "Generative AI video tool for U.S. sellers to expand seller reach on social platforms.",
+      "Authenticity Guarantee program surpassed one million items inspected in a quarter for the first time.",
+      "Expanded partnership with Klarna for Buy Now, Pay Later across the U.S."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Jamie Iannone stated 'eBay delivered another strong quarter, with results exceeding expectations across the board,' and CFO Peggy Alford expressed confidence in being 'well positioned to thrive in our next phase of growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $2.7 billion, up 6% as-reported and 4% FX-neutral.",
+      "quote": "Revenue of $2.7 billion, up 6% on an as-reported basis and up 4% on an FX-Neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $0.79 and Non-GAAP EPS was $1.37, up 16% year-over-year.",
+      "quote": "GAAP and Non-GAAP earnings per diluted share of $0.79 and $1.37, respectively... Earnings per diluted share $ 0.79 $ 0.45 $ 0.34 77 %... Earnings per diluted share $ 1.37 $ 1.18 $ 0.19 16 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 guidance implies FX-neutral revenue growth of 3%-5%, roughly in line with Q2's 4% FX-neutral growth.",
+      "quote": "Q3 2025 Guidance Revenue $2.69 - $2.74 FX-Neutral Y/Y Growth 3% - 5% Gross Merchandise Volume $19.2 - $19.6 FX-Neutral Y/Y Growth 3% - 5%",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The document does not explicitly compare Q3 guidance to prior guidance, so the 'in line' assessment is an inference from the Q2 FX-neutral growth rate of 4%."
+    },
+    {
+      "claim": "GAAP operating margin decreased to 17.7% from 21.3%, while Non-GAAP operating margin increased to 28.4% from 27.9%.",
+      "quote": "GAAP operating margin decreased to 17.7% for the second quarter of 2025, compared to 21.3% for the same period last year. Non-GAAP operating margin increased to 28.4% for the second quarter of 2025, compared to 27.9% for the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reported negative operating cash flow of $(307) million and free cash flow of $(441) million.",
+      "quote": "Reported $(307) million of operating cash flow and $(441) million of free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First-party advertising revenue grew 19% as-reported and 17% FX-neutral.",
+      "quote": "First-party advertising products on the eBay platform delivered $455 million of revenue in the second quarter, up 19% on an as-reported basis and up 17% on a foreign exchange (\"FX\") neutral basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed an optimistic tone about the quarter and future growth.",
+      "quote": "\"eBay delivered another strong quarter, with results exceeding expectations across the board,\" said Jamie Iannone... \"With a strong balance sheet, focused strategic priorities and a world-class team, we are well positioned to thrive in our next phase of growth.\"",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company launched an AI shopping agent and a generative AI video tool for sellers.",
+      "quote": "eBay announced an AI shopping agent that delivers real-time, hyper-personalized product recommendations... The company unveiled a generative AI video tool for U.S. sellers that transforms listing images into short form videos.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Authenticity Guarantee program surpassed one million items inspected in a quarter for the first time.",
+      "quote": "eBay's Authenticity Guarantee program surpassed one million items inspected in a quarter for the first time, driven by the launch of luxury apparel authentication in the U.K.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expanded its partnership with Klarna for Buy Now, Pay Later.",
+      "quote": "eBay deepened its partnership with Klarna, expanding Buy Now, Pay Later access across the U.S. to offer customers more choice, flexibility and control.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward-looking statements cite risks including geopolitical events, tariffs, and inflation.",
+      "quote": "the effects of geopolitical events, tariffs and global trade policy, foreign currency volatility, and inflationary pressure on our business and operations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 sits exactly at the BUY threshold boundary. The document does not reference prior guidance, so the 'held guidance' assessment is inferred from the Q3 FX-neutral growth range (3%-5%) being similar to Q2's actual 4% FX-neutral growth. A reviewer may want to verify whether the Q3 guidance represents a raise, hold, or cut relative to prior company guidance not included in this document."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance is presented as reported, but the interpretation of whether it represents a raise or hold relative to prior guidance is not verifiable from this document alone."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 1,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "EBAY_Bundled Earnings Report_2025-07-30",
+  "report_metadata": {
+    "issuer": "p2_ebay",
+    "company": "eBay",
+    "ticker": "EBAY",
+    "sector": "Technology/E-Commerce",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q2/EBAY_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "EBAY_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T220558Z",
+    "timestamp": "2026-08-13T22:06:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q2/EBAY_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_ebay_ext2026_08_13/extracted/EBAY_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q2/EBAY_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 36823,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_ebay_ext2026_08_13/extracted/EBAY_FQ2_2025.txt"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "document_id": "AXP_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered strong Q1 results with revenue up 11% and EPS up 18%, and management reaffirmed full-year guidance while increasing investments in marketing and technology. The forward guidance was not raised, but the company noted strong momentum and an acceleration in card member spending, the highest in three years, indicating genuine operational momentum. However, management also cited uncertainty in the macro and geopolitical environment and noted a slight drag from portfolio roll-offs, which tempers the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues net of interest expense were $18.9 billion, up 11% year-over-year, or 10% on an FX-adjusted basis.",
+    "eps": "Diluted EPS was $4.28, up 18% from $3.64 a year ago.",
+    "guidance": "Reaffirmed full-year 2026 guidance for 9% to 10% revenue growth and EPS of $17.30 to $17.90.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Macroeconomic and geopolitical uncertainty, including a slowdown in U.S. or global economic growth, changes to consumer and business confidence, higher unemployment, and impacts of the Middle East conflict.",
+      "Airline spending softened in the last few weeks of March and into April due to travel disruptions from the Middle East conflict.",
+      "The Amazon and Lowe's portfolio roll-off is expected to cause a slight drag on revenue, with zero impact on PTI.",
+      "Small business co-brand portfolio exits are expected to cause a low-single-digit drag on SME spend growth.",
+      "Potential impacts from tariffs, inflation, supply chain issues, energy costs, market volatility, and fiscal and monetary policies."
+    ],
+    "key_opportunities": [
+      "Card Member spending growth accelerated to 10% reported, 9% FX-adjusted, the highest quarterly growth in three years.",
+      "Over 70% of new card accounts globally are on fee-paying products, reflecting strong demand for premium offerings.",
+      "International segment billed business increased 13% FX-adjusted, with twenty consecutive quarters of double-digit billing growth.",
+      "Net Card fees grew 16% FX-adjusted, expected to exit the year in the high teens.",
+      "Net interest income grew 12% FX-adjusted, outpacing balance growth.",
+      "Launch of Amex Agentic Commerce Experiences (ACE) Developer Kit and Amex Agent Purchase Protection, positioning the company in AI-driven commerce.",
+      "Major sports partnerships with NFL, NBA, and others to enhance card member engagement.",
+      "Expansion of commercial product suite with eight new or enhanced products, the largest one-year expansion in company history."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the business, stating 'We had a very strong start to the year' and 'we are confident in our ability to deliver sustainable long-term growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue grew 11% reported, 10% FX-adjusted.",
+      "quote": "First-quarter consolidated total revenues net of interest expense were $18.9 billion, up 11 percent year-over-year, or 10 percent on an FX-adjusted basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $4.28, up 18%.",
+      "quote": "Earnings per share was $4.28, up 18 percent from $3.64 a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance reaffirmed for 9-10% revenue growth and EPS of $17.30-$17.90.",
+      "quote": "Given our strong results to date, we’re reaffirming our full-year 2026 guidance for 9 to 10 percent revenue growth and EPS of $17.30 to $17.90.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card Member spending growth accelerated to 10% reported, 9% FX-adjusted, the highest in three years.",
+      "quote": "Card Member spending grew 10% on a reported basis, and this is the highest quarterly growth in three years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management increased investments in marketing and technology.",
+      "quote": "Based on our strong results to date and our confidence going forward, we have decided to increase our investments in marketing and technology to capitalize on key growth opportunities and build on our momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macro and geopolitical environment remains uncertain.",
+      "quote": "While the macro and geopolitical environment remains uncertain, we believe we are well positioned to continue delivering strong results given our focus on premium customers, our spend- and fee-centric model, and very strong portfolio quality.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Airline spending softened in late March and April due to Middle East conflict.",
+      "quote": "These trends sustained throughout most of the quarter, but we did see airline growth soften in the last few weeks of March and into April driven by travel disruptions from the Middle East conflict.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Amazon and Lowe's portfolio roll-off will cause slight drag on revenue with zero impact on PTI.",
+      "quote": "While we had 11% growth this quarter, one thing I will point out: as the year goes on, the Amazon and the Lowe’s book will roll off. That will have a slight drag on revenue and zero impact on PTI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Small business co-brand portfolio exits will cause low-single-digit drag on SME spend growth.",
+      "quote": "Most notably, we expect a low-single-digit impact to spend growth in SME until we lap the portfolio exits, starting in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over 70% of new accounts are on fee-paying products.",
+      "quote": "And we continue to see healthy demand for our premium products with over 70% of new accounts acquired on fee-based products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International segment billed business increased 13% FX-adjusted.",
+      "quote": "International remained our fastest-growing segment with billings up double digits for the twentieth consecutive quarter on an FX-adjusted basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net Card fees grew 16% FX-adjusted.",
+      "quote": "Net Card fees continue to be our fastest-growing line, up 16% FX-adjusted, in line with Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income grew 12% FX-adjusted.",
+      "quote": "Net interest income was up 12% FX-adjusted again this quarter, growing faster than balances.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of ACE Developer Kit and Agent Purchase Protection.",
+      "quote": "Earlier this month, we introduced the Amex Agentic Commerce Experiences, or ACE, Developer Kit, which will enable the integration of American Express Company cards into AI-powered transactions with trust and control. Along with the kit, we announced Amex Agent Purchase Protection, an industry-first commitment to back our Card Members by protecting registered agent purchases.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Major sports partnerships with NFL and NBA.",
+      "quote": "In March, we announced a multiyear global partnership with the NFL, making American Express Company the league's official payments partner beginning with the 2026 season. ... We also announced new multiyear sports and entertainment agreements with MetLife Stadium, Mercedes-Benz Stadium, and teams that play there, and we renewed our sponsorship with the NBA along with several agreements with NBA teams across the country.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial product expansion with eight new or enhanced products.",
+      "quote": "The roadmap includes plans to release eight new or enhanced products, benefits, and capabilities including a corporate cash back card and expense management software, making this the most significant one-year commercial product expansion in the company's history.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We had a very strong start to the year. ... we are confident in our ability to deliver sustainable long-term growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects genuine momentum but guidance was only reaffirmed, not raised. Verify that the momentum is considered sufficient for a positive score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "AXP_Bundled Earnings Report_2026-04-23",
+  "report_metadata": {
+    "issuer": "p2_american_express",
+    "company": "American Express",
+    "ticker": "AXP",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2026-Q1/AXP_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2026-Q1/AAXP_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AXP_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T215705Z",
+    "timestamp": "2026-08-13T21:58:08Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2026-Q1/AXP_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_american_express_ext2026_08_13/extracted/AXP_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2026-Q1/AXP_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 15995,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/american_express/CY2026-Q1/AAXP_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 55869,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_american_express_ext2026_08_13/extracted/AXP_FQ1_2026.txt"
+  }
+}

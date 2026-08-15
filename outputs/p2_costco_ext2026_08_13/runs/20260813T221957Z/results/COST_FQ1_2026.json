@@ -1,0 +1,240 @@
+{
+  "document_id": "COST_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "Costco reported strong Q1 results with net sales up 8.2% and EPS up 13.6% excluding tax benefits, but forward guidance was not raised; management revised fiscal 2026 warehouse openings down to 28 due to Spain delays and noted potential continued decline in renewal rates. The quarter showed genuine operational momentum (digital comps up 20.5%, membership growth, margin expansion) but with cautious forward language on healthcare costs and renewal rates, so the score reflects momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales for the first quarter increased 8.2%, to $65.98 billion from $60.99 billion last year.",
+    "eps": "Net income for the quarter was $2,001 million, $4.50 per diluted share, compared to $1,798 million, $4.04 per diluted share, last year. Excluding discrete tax items, net income and EPS grew 13.6%.",
+    "guidance": "Fiscal 2026 planned openings revised to 28 (down due to Spain delays), targeting 30+ per year longer-term. Capital expenditure estimate for full year approximately $6.5 billion.",
+    "margin": "Gross margin rate was 11.32%, up 4 basis points year over year. Core on core margin up 30 basis points. SG&A rate was 9.6%, up 1 basis point.",
+    "key_risks": [
+      "US and Canada renewal rates declined by 10 basis points due to lower renewal among new digitally-signed members; may see slight decline in overall renewal rate over next few quarters.",
+      "Higher healthcare costs grew at faster pace than sales for the first time this quarter, creating SG&A headwinds.",
+      "Fiscal 2026 net new warehouse opening guidance revised downward to 28 due to construction delays in Spain.",
+      "Tariffs impacting nonfoods, with low single-digit inflation primarily driven by gold and imported goods.",
+      "LIFO negatively impacted gross margin rate by 3 basis points."
+    ],
+    "key_opportunities": [
+      "Digitally enabled comparable sales rose 20.5%, with site traffic up 24% and app traffic up 48%.",
+      "Membership growth: total paid members up 5.2%, executive memberships up 9.1%.",
+      "New warehouse productivity improved: fiscal 2025 openings generated $192 million annualized per warehouse vs $150 million for 2023 openings.",
+      "AI in pharmacy inventory improved in-stocks above 98% and supported mid-teen script fill growth.",
+      "Retail media emerging as growth opportunity with early success in third-party advertising on digital TV and gas pumps.",
+      "Kirkland Signature growing faster than overall sales, with 45 new items launched offering 15-20% value.",
+      "Costco Travel US achieved over $100 million in gross bookings in five days post-Thanksgiving, up 12%."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in growth initiatives, noting 'significant opportunities for future warehouse growth' and 'very positive' results from digital and technology investments, while acknowledging some headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales increased 8.2% to $65.98 billion.",
+      "quote": "Net sales for the first quarter increased 8.2 percent, to $65.98 billion from $60.99 billion last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $4.50 per diluted share, up from $4.04 last year.",
+      "quote": "Net income for the quarter was $2,001 million, $4.50 per diluted share, compared to $1,798 million, $4.04 per diluted share, last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding tax benefits, net income and EPS grew 13.6%.",
+      "quote": "Excluding these discrete tax items, net income and earnings per diluted share both grew 13.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 warehouse opening guidance revised down to 28 due to Spain delays.",
+      "quote": "While delays with a couple of our buildings in Spain resulted in us revising our planned net new openings for fiscal year 2026 down to 28, we continue to plan for 30 plus net openings per year in future years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital expenditure estimate for full year is approximately $6.5 billion.",
+      "quote": "We estimate capital expenditure for the full year will be approximately $6.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin rate was 11.32%, up 4 basis points.",
+      "quote": "Turning to gross margin, our reported rate was higher year over year by four basis points, both with and without gas deflation, coming in at 11.32% compared to 11.28% last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core on core margin up 30 basis points.",
+      "quote": "In terms of core margins on their own sales, our core on core margins were higher by 30 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SG&A rate was 9.6%, up 1 basis point.",
+      "quote": "Moving on to SG&A, our reported SG&A rate was higher or worse year over year by one basis point, coming in at 9.6% compared to last year's 9.59%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Renewal rates declined by 10 basis points due to digitally-signed members.",
+      "quote": "Both down 10 basis points from last quarter. This slight decline was due to the factors we discussed last quarter and reflects new online members growing as a percentage of our total base renewing at a slightly lower rate than warehouse sign-ups.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Healthcare costs grew faster than sales for the first time.",
+      "quote": "This was perhaps the first quarter where we've seen health care costs grow at faster pace than our sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs impacting nonfoods with low single-digit inflation.",
+      "quote": "In nonfoods, we saw low single-digit inflation for the third consecutive quarter, primarily driven by gold and imported goods. Our buyers continue to do a great job reducing the impact of tariffs for our members.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "LIFO negatively impacted gross margin by 3 basis points.",
+      "quote": "LIFO negatively impacted the gross margin rate by three basis points. We had a $1.9 million LIFO credit in Q1 this year, compared to a $19 million credit in Q1 last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digitally enabled comparable sales rose 20.5%.",
+      "quote": "Digitally enabled comparable sales were 20.5% both with and without adjusting for FX.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Site traffic up 24% and app traffic up 48%.",
+      "quote": "In digital, site traffic in the quarter was up 24%. And app traffic was up 48%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total paid members up 5.2% and executive memberships up 9.1%.",
+      "quote": "We ended the quarter with 81.4 million total paid members, up 5.2% versus last year and 105.9 million cardholders, up 5.1% year over year. ... At Q1 end, we had 39.7 million paid executive memberships, up 9.1% versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New warehouse productivity improved to $192 million annualized per warehouse.",
+      "quote": "With fiscal year 2025 openings generating an annualized $192 million per warehouse of sales in the year of opening, that is up from $150 million for new warehouses opened just two years earlier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI in pharmacy improved in-stocks above 98% and supported mid-teen script fill growth.",
+      "quote": "This change has played an important role in helping us achieve mid-teen growth in pharmacy scripts filled and has improved margins while lowering prices to our members.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Retail media is an emerging growth opportunity.",
+      "quote": "We think of retail leaders as slightly opportunity from those because it really is about tapping into that marketing spend that many of our suppliers are investing in other places to, you know, to drive their marketing awareness and drive return on ad spend. We are in the in the early innings. I was still say of retail media.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Kirkland Signature growing faster than overall sales with 45 new items.",
+      "quote": "Kirkland Signature continues to grow at a faster pace than overall sales, with KS items typically offering 15 to 20% value compared to the national brand alternative with equal or better quality. In Q1, we launched approximately 45 new KS items.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Costco Travel US achieved over $100 million in gross bookings post-Thanksgiving.",
+      "quote": "In all, we achieved over $100 million in gross bookings in the US through Costco Travel in the five days following Thanksgiving, up 12% from last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We continue to see significant opportunities for future warehouse growth, both domestically and across the international markets where we operate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects momentum without formal guidance raise; verify that the downward revision in warehouse openings and renewal rate decline are adequately weighted."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Healthcare cost headwind is noted as a first-time occurrence; confirm it is a recurring risk vs one-time."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "COST_Bundled Earnings Report_2025-12-11",
+  "report_metadata": {
+    "issuer": "p2_costco",
+    "company": "Costco",
+    "ticker": "COST",
+    "sector": "Consumer Defensive/Discount Stores",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-12-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q1/COST_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q1/COST_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COST_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221957Z",
+    "timestamp": "2026-08-13T22:20:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q1/COST_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q1/COST_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 10256,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q1/COST_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 74167,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ1_2026.txt"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "document_id": "XOM_FQ3_2023",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered strong operational performance with earnings of $9.1 billion, up from $7.9 billion in Q2, and achieved $9.0 billion in cumulative structural cost savings ahead of schedule. While full-year capex guidance was narrowed to the top end of the range, the company did not raise its overall earnings or production guidance, and management's forward language is confident but not explicitly raised. The score reflects genuine operational momentum (record refinery throughput, Guyana/Permian growth, cost savings ahead of plan) without a formal guidance raise, offset by acknowledged headwinds in chemical margins and trading timing effects."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenue of $88,570 million for Q3 2023, down from $106,512 million in Q3 2022. Total revenues and other income were $90,760 million for Q3 2023, down from $112,070 million in Q3 2022.",
+    "eps": "Earnings per common share (assuming dilution) of $2.25 for Q3 2023, up from $1.94 in Q2 2023, but down from $4.68 in Q3 2022. Earnings excluding identified items per share were $2.27 for Q3 2023.",
+    "guidance": "Full-year capital and exploration expenditures are expected to be at the top end of the guidance of $23 billion to $25 billion. The company is on track to repurchase $17.5 billion of shares in 2023. The company declared a fourth-quarter dividend of $0.95 per share, a 4% increase. No formal earnings or production guidance was raised.",
+    "margin": "Not disclosed as a specific margin metric. However, the document notes 'weaker chemical margins' and 'weaker industry refining margins' as factors affecting results.",
+    "key_risks": [
+      "Weaker chemical margins due to higher feedstock costs and lower price realizations as industry supply outpaced rising demand.",
+      "Unfavorable derivative mark-to-market impacts and trading timing effects in Energy Products, which are expected to unwind over time.",
+      "A nearly 60% decrease in natural gas realizations and a 14% decrease in crude realizations compared to Q3 2022.",
+      "Declining industry refining margins compared to the prior year.",
+      "Lower specialty products sales volumes due to weaker demand."
+    ],
+    "key_opportunities": [
+      "Record third-quarter global refinery throughput of 4.2 million barrels per day, driven by the Beaumont refinery expansion.",
+      "Growth from advantaged projects in Guyana and the Permian, with net production growing about 80,000 oil-equivalent barrels per day.",
+      "The Pioneer Natural Resources merger, expected to generate double-digit returns and increase combined Permian production to approximately 2 million oil-equivalent barrels per day by end of 2027.",
+      "The Denbury acquisition, providing one of the largest owned and operated CO2 pipeline networks in the U.S., with potential to reduce national carbon emissions by 100 million tons per year.",
+      "The Baytown chemical expansion project start-up, adding 750 Kta of performance chemicals production capacity and entry into the linear alpha olefins market.",
+      "Achieved $9.0 billion of cumulative structural cost savings versus 2019, ahead of schedule, with further savings expected."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management language is consistently confident, exemplified by Darren Woods' statement: 'We delivered another robust quarter of earnings, cash flow, and shareholder returns, reflecting our ongoing efforts to structurally improve our company and drive sustained industry-leading performance.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2023 revenue (sales and other operating revenue) was $88,570 million, down from $106,512 million in Q3 2022.",
+      "quote": "Sales and other operating revenue 88,570 106,512 253,009 305,511",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2023 EPS (assuming dilution) was $2.25, up from $1.94 in Q2 2023, but down from $4.68 in Q3 2022.",
+      "quote": "Earnings per common share (U.S. dollars) 2.25 4.68 6.98 10.17",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year capital and exploration expenditures are expected to be at the top end of the guidance of $23 billion to $25 billion.",
+      "quote": "Full-year capital and exploration expenditures are expected to be at the top end of the guidance of $23 billion to $25 billion as the company pursues value accretive opportunities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved $9.0 billion of cumulative structural cost savings versus 2019, ahead of schedule.",
+      "quote": "The company achieved $9.0 billion of cumulative structural cost savings versus 2019, ahead of schedule, with further savings expected by year-end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company delivered record third-quarter global refinery throughput of 4.2 million barrels per day.",
+      "quote": "Delivered the best-ever third-quarter global refinery throughput at 4.2 million barrels per day",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemical Products earnings decreased due to weaker industry margins from higher feedstock costs and lower price realizations.",
+      "quote": "Chemical Products third-quarter earnings were $249 million, down from $828 million in the second quarter. Industry margins compressed from higher feedstock costs and lower price realizations as industry supply outpaced rising demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Energy Products earnings were negatively impacted by unfavorable derivative mark-to-market impacts and trading timing effects.",
+      "quote": "These factors were partly offset by negative trading-related impacts from rising prices including unfavorable derivative mark-to-market impacts and other timing effects that were largely non-cash and are expected to unwind over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Upstream earnings decreased compared to Q3 2022 due to lower natural gas and crude realizations.",
+      "quote": "Compared to the same quarter last year, earnings decreased $6.3 billion. Excluding identified items, earnings declined $5.7 billion, driven by a nearly 60% decrease in natural gas realizations and a 14% decrease in crude realizations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Pioneer merger is expected to generate double-digit returns and increase combined Permian production to approximately 2 million oil-equivalent barrels per day by end of 2027.",
+      "quote": "Based on our initial assessment, we expect our combined Permian production to increase to approximately 2 million oil equivalent barrels per day by the end of 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Denbury acquisition provides one of the largest owned and operated CO2 pipeline networks in the U.S. with potential to reduce national carbon emissions by 100 million tons per year.",
+      "quote": "The planned acquisition will provide ExxonMobil with one of the largest owned and operated carbon dioxide (CO2) pipeline networks in the United States. ... We see the potential to drive strong returns with the capacity to reduce the nation's carbon emissions by 100 million tons per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Baytown chemical expansion project started up, adding 750 Kta of performance chemicals production capacity.",
+      "quote": "The Baytown chemical expansion project started up in the third quarter, adding 750 Kta of performance chemicals production capacity and marks the company's entry into the linear alpha olefins market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered another robust quarter of earnings, cash flow, and shareholder returns, reflecting our ongoing efforts to structurally improve our company and drive sustained industry-leading performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is on track to repurchase $17.5 billion of shares in 2023.",
+      "quote": "Year-to-date share repurchases were $13.1 billion, consistent with the company's plan to repurchase $17.5 billion of shares in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company declared a fourth-quarter dividend of $0.95 per share, a 4% increase.",
+      "quote": "The Corporation declared a fourth-quarter dividend of $0.95 per share, payable on Dec. 11, 2023... The company has increased its annual dividend for 41 consecutive years, including this increase of $0.04 per share, or 4 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Specialty Products sales volumes were lower due to weaker demand.",
+      "quote": "Improved finished lubes margins from lower feed costs were partially offset by lower specialty products sales volumes due to weaker demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects operational momentum without a formal earnings guidance raise. The company's forward guidance on capex was narrowed to the top end, but no explicit earnings or production guidance was raised. The score relies on the interpretation that operational momentum (record throughput, cost savings ahead of plan) constitutes a genuine trajectory change, which is a judgment call."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No specific margin percentage was disclosed. The summary notes qualitative commentary on margins (weaker chemical/refining margins) but no numeric margin figure."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2023-10-27",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-10-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q3/XOM_Q3_2023_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q3/XOM_Q3_2023_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ3_2023",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:07:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q3/XOM_Q3_2023_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q3/XOM_Q3_2023_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 50504,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q3/XOM_Q3_2023_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 63435,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ3_2023.txt"
+  }
+}

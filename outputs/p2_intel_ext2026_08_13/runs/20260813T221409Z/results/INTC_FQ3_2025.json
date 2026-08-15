@@ -1,0 +1,186 @@
+{
+  "document_id": "INTC_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "Intel delivered a strong Q3 with revenue, gross margin, and EPS above guidance, marking the fourth consecutive quarter of improved execution. However, Q4 guidance implies roughly flat revenue sequentially (excluding Altera) and a decline in gross margin to 36.5%, with management citing product mix, new product ramp costs, and Altera deconsolidation. While the company raised its balance sheet strength and expressed confidence in demand outpacing supply into 2026, the forward guidance is not raised materially and includes headwinds, so the score reflects genuine momentum but not a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 revenue was $13.7 billion, up 3% year-over-year and up 6% sequentially, above the high end of guidance.",
+    "eps": "GAAP EPS attributable to Intel was $0.90; non-GAAP EPS was $0.23, versus guidance of breakeven non-GAAP EPS.",
+    "guidance": "Q4 2025 revenue guidance of $12.8 billion to $13.8 billion; GAAP EPS of $(0.14) and non-GAAP EPS of $0.08. At midpoint, revenue roughly flat sequentially excluding Altera deconsolidation.",
+    "margin": "Q3 non-GAAP gross margin was 40%, four percentage points above guidance. Q4 non-GAAP gross margin guided to approximately 36.5%, down sequentially.",
+    "key_risks": [
+      "Supply constraints on Intel 10 and Intel 7 limited ability to meet demand in Q3 and are expected to persist into 2026.",
+      "Q4 gross margin decline due to product mix, initial ramp costs of Core Ultra 3, and Altera deconsolidation.",
+      "18A yields are not yet at levels needed to drive appropriate margins; expected to improve by end of next year.",
+      "Accounting treatment of U.S. Government transactions is complex and may be revised after SEC consultation, potentially resulting in material changes to Q3 results.",
+      "Geopolitical tensions, trade policies, and macroeconomic conditions could impact business.",
+      "High competition and rapid technological change in the industry."
+    ],
+    "key_opportunities": [
+      "AI accelerating demand for compute across x86 platforms, ASICs, accelerators, and foundry services.",
+      "NVIDIA collaboration to develop custom data center and PC products, expanding TAM.",
+      "US government funding of $8.9 billion and investments from NVIDIA ($5 billion) and SoftBank ($2 billion) strengthen balance sheet.",
+      "Intel 18A and 14A progress, with Fab 52 operational and 18A yields improving predictably.",
+      "Demand outpacing supply, expected to persist into 2026, indicating strong market conditions.",
+      "Growth in AI inference workloads and enterprise demand for server CPUs."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Lip-Bu Tan stated, 'Our Q3 results reflect improved execution and steady progress against our strategic priorities,' and CFO David Zinsner said, 'Current demand is outpacing supply, a trend we expect will persist into 2026.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 revenue was $13.7 billion, up 3% year-over-year and above guidance.",
+      "quote": "Third-quarter revenue was $13.7 billion, up 3% year-over-year (YoY).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 non-GAAP EPS was $0.23, above guidance of breakeven.",
+      "quote": "We delivered third-quarter earnings per share of 23¢ versus our guidance of breakeven EPS, driven by higher revenue, stronger gross margin, and continued cost discipline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 revenue guidance is $12.8 billion to $13.8 billion, roughly flat sequentially excluding Altera.",
+      "quote": "For Q4, we're forecasting a revenue range of $12.8 to $13.8 billion. At the midpoint and adjusting for the Altera deconsolidation, Q4's revenue is roughly flat quarter over quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 non-GAAP gross margin is guided to approximately 36.5%, down from 40% in Q3.",
+      "quote": "At the midpoint of $13.3 billion, we forecast a gross margin of approximately 36.5%, down sequentially due to product mix, the impact of the first shipments of Core Ultra 3, which has the typically higher cost you see in the early stages of a new product ramp, and the deconsolidation of Altera.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply constraints limited Q3 revenue and are expected to persist into 2026.",
+      "quote": "Capacity constraints, especially on Intel 10 and Intel 7, limited our ability to fully meet demand in Q3 for both data center and client products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "18A yields are not yet at levels needed for appropriate margins.",
+      "quote": "Yields are what I would say yields are adequate to address the supply. But they are not where we need them to be in order to drive the appropriate level of margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Accounting treatment of U.S. Government transactions may be revised.",
+      "quote": "While Intel believes it has selected the appropriate accounting approach for these transactions in the third quarter 2025 financial results reported in this release, there are other potential approaches that, if applied, would result in materially different financial results for the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI is driving demand across Intel's portfolio.",
+      "quote": "AI is accelerating demand for compute and creating attractive opportunities across our portfolio, including our core x86 platforms, new efforts in purpose-built ASICs and accelerators, and foundry services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NVIDIA collaboration expands TAM.",
+      "quote": "And maybe just one more addition. Just what makes this really special for us is it's not attacking our existing TAM. It's an incremental opportunity for us to expand the TAM.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US government funding and investments strengthen balance sheet.",
+      "quote": "We exited Q3 with $30.9 billion of cash and short-term investments. In Q3, we received $5.7 billion from the US government, $2 billion from SoftBank Group, $4.3 billion from the Altera closure, and $900 million from the Mobileye stake sale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Demand is outpacing supply and expected to persist into 2026.",
+      "quote": "Current demand is outpacing supply, a trend we expect will persist into 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our Q3 results reflect improved execution and steady progress against our strategic priorities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects momentum but Q4 guidance is flat and margins decline; verify if this warrants a higher or lower score given the mixed forward signals."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Risk list includes both operational and accounting risks; ensure all are explicitly stated in the document and not inferred."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "INTC_Bundled Earnings Report_2025-10-23",
+  "report_metadata": {
+    "issuer": "p2_intel",
+    "company": "Intel",
+    "ticker": "INTC",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q3/INTC_Q3_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q3/INTC_Q3_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "INTC_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221409Z",
+    "timestamp": "2026-08-13T22:14:37Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q3/INTC_Q3_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_intel_ext2026_08_13/extracted/INTC_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q3/INTC_Q3_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 40196,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q3/INTC_Q3_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 65159,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_intel_ext2026_08_13/extracted/INTC_FQ3_2025.txt"
+  }
+}

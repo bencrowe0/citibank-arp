@@ -1,0 +1,246 @@
+{
+  "document_id": "FCX_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reported a solid quarter with sales and costs favorable to its own October 2025 estimates, and management provided confident forward language about a phased restart at Grasberg and growth projects. However, the 2026 sales guidance of 3.4 billion pounds of copper is below the 3.6 billion pounds sold in 2025, reflecting the ongoing impact of the mud rush incident, and the company did not raise its formal forward guidance. The score reflects genuine operational momentum in the Americas and a clear plan for recovery, but is tempered by the fact that overall 2026 volumes are guided lower than 2025 actuals and the restart carries execution risk."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Fourth-quarter 2025 revenues totaled $5,633 million, compared to $5,720 million in fourth-quarter 2024. For the year 2025, revenues totaled $25,915 million, compared to $25,455 million in 2024.",
+    "eps": "Fourth-quarter 2025 net income attributable to common stock was $406 million, or $0.28 per diluted share. Adjusted net income was $688 million, or $0.47 per share. For the year 2025, net income was $2,204 million, or $1.52 per share, and adjusted net income was $2,558 million, or $1.77 per share.",
+    "guidance": "Consolidated sales for 2026 are expected to approximate 3.4 billion pounds of copper, 0.8 million ounces of gold, and 90 million pounds of molybdenum. Unit net cash costs are expected to average $1.75 per pound of copper for 2026. Operating cash flows are expected to approximate $8 billion for 2026, assuming prices of $5.00 per pound for copper, $4,000 per ounce for gold, and $20.00 per pound for molybdenum. Capital expenditures are expected to approximate $4.3 billion for 2026.",
+    "margin": "Operating income for the fourth quarter of 2025 was $1,243 million, compared to $1,243 million in the fourth quarter of 2024. For the year 2025, operating income was $6,518 million, compared to $6,864 million in 2024.",
+    "key_risks": [
+      "The September 2025 mud rush incident at PTFI's Grasberg Block Cave underground mine, which has temporarily suspended operations and is expected to restart in second-quarter 2026.",
+      "The phased restart and ramp-up of the Grasberg Block Cave underground mine carries execution risk, and approximately 60% of consolidated copper sales in 2026 are expected to occur in the second half of the year.",
+      "Higher unit net cash costs in the first half of 2026 due to the Grasberg ramp-up, with first-quarter 2026 costs expected to be $2.60 per pound.",
+      "Potential for higher variability between PTFI's production and sales until its downstream processing facilities achieve normalized operating rates.",
+      "The company is seeking recovery under its property and business interruption insurance policies, which have a $0.5 billion deductible, and the recovery is not included in 2026 modeled results.",
+      "South America unit net cash costs are expected to increase in 2026 due to higher labor and energy costs."
+    ],
+    "key_opportunities": [
+      "Leaching and technology innovation initiatives, which produced 214 million pounds of incremental copper in 2025 and are targeting 300 million pounds in 2026, with potential to reach 800 million pounds by 2030.",
+      "The potential Bagdad expansion, which could increase copper production by 200 to 250 million pounds per year, with an investment decision targeted for 2026.",
+      "The El Abra mill project in Chile, which could add over 700 million pounds of copper production per year, with an environmental impact statement planned for submission in the first half of 2026.",
+      "The Kucing Liar deposit expansion in Indonesia, which is expected to increase design capacity to 130,000 metric tons of ore per day and increase reserves by approximately 20%.",
+      "Strong long-term copper demand outlook driven by electrification, AI data centers, and power grid investments.",
+      "The company's position as a leading US copper producer, supplying 70% of the refined copper produced in the US."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed confidence in the recovery plan and future outlook, with Kathleen Quirk stating, 'Freeport is strongly positioned for the future as a leading producer of copper with large scale, geographically diverse operations and an exciting portfolio of growth projects,' and Richard Adkerson stating, 'I am personally enthusiastic and confident about Freeport-McMoRan Inc.'s ability to create significant value for our shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Fourth-quarter 2025 revenues totaled $5,633 million.",
+      "quote": "Revenues a,b $ 5,633 $ 5,720 $ 25,915 $ 25,455",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter 2025 net income attributable to common stock was $406 million, or $0.28 per diluted share.",
+      "quote": "Net income attributable to common stock in fourth-quarter 2025 totaled $406 million, $0.28 per share, and adjusted net income attributable to common stock totaled $688 million, $0.47 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consolidated sales for 2026 are expected to approximate 3.4 billion pounds of copper.",
+      "quote": "Consolidated sales are expected to approximate 3.4 billion pounds of copper, 0.8 million ounces of gold and 90 million pounds of molybdenum for the year 2026, including 640 million pounds of copper, 60 thousand ounces of gold and 22 million pounds of molybdenum in first-quarter 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unit net cash costs are expected to average $1.75 per pound of copper for 2026.",
+      "quote": "Unit net cash costs are expected to average $1.75 per pound of copper for the year 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flows are expected to approximate $8 billion for 2026.",
+      "quote": "Operating cash flows would approximate $8 billion, including $1 billion of working capital and other sources, for the year 2026, assuming prices of $5.00 per pound for copper, $4,000 per ounce for gold and $20.00 per pound for molybdenum for the year 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital expenditures are expected to approximate $4.3 billion for 2026.",
+      "quote": "Capital expenditures are expected to approximate $4.3 billion, including $3.0 billion for major mining projects, for the year 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income for the fourth quarter of 2025 was $1,243 million.",
+      "quote": "Operating income a,c $ $ 1,243 $ 6,518 $ 6,864",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The September 2025 mud rush incident at PTFI's Grasberg Block Cave underground mine is a key risk, with operations expected to restart in second-quarter 2026.",
+      "quote": "Production of 1.0 billion pounds of copper and 0.9 million ounces of gold during 2025 primarily reflects the impact of the temporary suspension of operations at the Grasberg Block Cave underground mine since September 2025, which is expected to restart in second-quarter 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately 60% of consolidated copper sales in 2026 are expected to occur in the second half of the year.",
+      "quote": "Based on current estimates, approximately 60% of consolidated copper sales and 75% of consolidated gold sales in 2026 are expected to occur in the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First-quarter 2026 unit net cash costs are expected to be $2.60 per pound.",
+      "quote": "Consolidated unit net cash costs (net of by-product credits and excluding idle facility costs and direct recovery expenses associated with the September 2025 mud rush incident at PTFI) for FCX’s copper mines are expected to average $1.75 per pound of copper for the year 2026 (including $2.60 per pound of copper in first-quarter 2026)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is seeking recovery under its property and business interruption insurance policies, which have a $0.5 billion deductible.",
+      "quote": "PTFI is seeking recovery of damages under its property and business interruption insurance policies, which cover up to $1.0 billion in losses (subject to a limit of $0.7 billion on underground incidents), after a $0.5 billion deductible.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "South America unit net cash costs are expected to increase in 2026 due to higher labor and energy costs.",
+      "quote": "When you look at the comparison to 2025, the increase relates mostly to labor and energy. Power costs, as well as labor. You've got also a weaker dollar as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leaching initiatives produced 214 million pounds of incremental copper in 2025 and are targeting 300 million pounds in 2026.",
+      "quote": "Incremental copper production from these initiatives totaled 60 million pounds in fourth-quarter 2025 and 214 million pounds for the year 2025. ... and is targeting annual production of 300 million pounds of copper in 2026 from these initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The potential Bagdad expansion could increase copper production by 200 to 250 million pounds per year.",
+      "quote": "These studies indicate the opportunity to construct new concentrating facilities to increase copper production by 200 to 250 million pounds per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The El Abra mill project in Chile could add over 700 million pounds of copper production per year.",
+      "quote": "The project could result in the addition of over 700 million pounds of copper production per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Kucing Liar deposit expansion is expected to increase design capacity to 130,000 metric tons of ore per day and increase reserves by approximately 20%.",
+      "quote": "The studies identified a low-cost expansion opportunity to increase Kucing Liar’s design capacity to 130,000 metric tons of ore per day and increase Kucing Liar’s reserves by approximately 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong long-term copper demand outlook driven by electrification, AI data centers, and power grid investments.",
+      "quote": "Copper's superior conductivity makes it the metal when it comes to electrification. Massive investment in the power grid, renewable generation, technology infrastructure, and transportation are driving increased demand for copper and forecasts call for above-trend growth and demand for the foreseeable future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company supplies 70% of the refined copper produced in the US.",
+      "quote": "Freeport-McMoRan Inc. supplies 70% of the refined copper produced in The US.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Kathleen Quirk, President and Chief Executive Officer, said, “Freeport is strongly positioned for the future as a leading producer of copper with large scale, geographically diverse operations and an exciting portfolio of growth projects to provide additional supplies of copper to a growing market.”",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter 2025 sales were favorable to October 2025 estimates.",
+      "quote": "Fourth-quarter 2025 sales of 709 million pounds were 12% higher than October 2025 estimates of 635 million pounds, primarily reflecting a higher-than-expected reduction in inventories in Indonesia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter 2025 unit net cash costs were favorable to October 2025 estimates.",
+      "quote": "Fourth-quarter 2025 consolidated unit net cash costs were lower than the October 2025 estimate of $2.47 per pound, primarily reflecting higher copper volumes and by-product credits at PTFI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 copper sales guidance of 3.4 billion pounds is below 2025 sales of 3.6 billion pounds.",
+      "quote": "Consolidated sales are expected to approximate 3.4 billion pounds of copper, 0.8 million ounces of gold and 90 million pounds of molybdenum for the year 2026 ... Consolidated sales totaled 709 million pounds of copper, 80 thousand ounces of gold and 22 million pounds of molybdenum in fourth-quarter 2025, and 3.6 billion pounds of copper, 1.1 million ounces of gold and 83 million pounds of molybdenum for the year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a balance between positive operational momentum and a lower 2026 sales guidance compared to 2025 actuals. A reviewer should verify this balance is appropriate given the significant operational disruption and recovery plan."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance is a mix of lower sales volumes but improved cost and cash flow expectations. A reviewer should confirm the interpretation of this mixed guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "FCX_Bundled Earnings Report_2026-01-22",
+  "report_metadata": {
+    "issuer": "p2_freeport_mcmoran",
+    "company": "Freeport-McMoRan",
+    "ticker": "FCX",
+    "sector": "Materials/Copper Mining",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-22",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q4/FCX_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q4/FCX_Q4_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "FCX_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221019Z",
+    "timestamp": "2026-08-13T22:10:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q4/FCX_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_freeport_mcmoran_ext2026_08_13/extracted/FCX_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q4/FCX_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 127314,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q4/FCX_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 66514,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_freeport_mcmoran_ext2026_08_13/extracted/FCX_FQ4_2025.txt"
+  }
+}

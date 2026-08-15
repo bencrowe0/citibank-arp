@@ -15,7 +15,11 @@
 # Accuracy decays from 65.3% to 53.4% (65.3% is on 95 graded events out
 # of 233 clean events; majority-direction floor 54.7% (always-DOWN)).
 # Rho decays from 0.236 (p=0.0003) to 0.058 (p=0.380).
-# Bootstrap CI on mean net crosses zero by 3 days.
+# Bootstrap CI on raw direction-signed mean net crosses zero between 3 and 5 days
+# (3d lower bound +0.029%, 5d lower bound -0.270%). The excess-over-SPY series
+# (excess_* columns in returns_matrix.csv) is a separate per-event diagnostic and
+# is not monotonic; its non-monotonicity reflects SPY's own multi-horizon pattern
+# across those entry dates, not the model signal.
 # This validates the overnight window as a measured choice rather than a
 # convenient assumption, and rules out post-earnings drift as the mechanism.
 # Rho=0.236 at p=0.0003 is the most statistically robust single result in

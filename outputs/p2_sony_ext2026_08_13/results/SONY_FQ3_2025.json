@@ -1,0 +1,249 @@
+{
+  "document_id": "SONY_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Sony raised its full-year FY25 guidance for continuing operations, increasing sales forecast by 300 billion yen and operating income by 110 billion yen from the November forecast, with management expressing confidence in business momentum. However, the guidance raise is partly attributed to foreign exchange impacts and one-time items (e.g., remeasurement gain in Music), and management acknowledges risks from rising memory prices and tariff impacts, which tempers the score. The Q&A reveals concerns about stock price sluggishness and flat user engagement, but management's forward language remains optimistic, supporting a modestly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 FY25 continuing operations sales were 3,713.7 billion yen, up 20.3 billion yen (+1%) year-on-year; on a constant currency basis, sales decreased approximately 2%.",
+    "eps": "Q3 FY25 diluted EPS was 62.82 yen, up 6.40 yen from 56.42 yen in Q3 FY24.",
+    "guidance": "FY25 forecast for continuing operations raised: sales to 12,300 billion yen (+300 billion yen from November), operating income to 1,540 billion yen (+110 billion yen), income before income taxes to 1,550 billion yen (+90 billion yen), net income to 1,130 billion yen (+80 billion yen).",
+    "margin": "Q3 FY25 operating income margin for continuing operations was 13.9%, up 2.4 points from 11.5% in Q3 FY24. FY25 forecast operating income margin is 12.5%, up 0.6 points from November forecast.",
+    "key_risks": [
+      "Rising memory procurement costs impacting hardware sales and profitability.",
+      "Estimated tariff impact on FY25 operating income of -50 billion yen.",
+      "Decrease in hardware unit sales in G&NS segment.",
+      "Decline in sales in China due to reduced government subsidies and market weakness.",
+      "Deterioration in unrealized gains on Spotify shares and foreign exchange losses.",
+      "Structural reforms in I&SS segment with additional expenses for resource and asset optimization.",
+      "Potential impact of AI on entertainment industry, though management views it positively."
+    ],
+    "key_opportunities": [
+      "Record Monthly Active Users of 132 million in December and increased gameplay hours.",
+      "Strong demand for interchangeable lens cameras, especially the \u03b17 V.",
+      "Increase in image sensor sales for mobile products due to market recovery and new product shipments.",
+      "Higher revenues from live events, merchandising, and streaming in Music segment.",
+      "Strategic partnership with TCL in Home Entertainment to drive growth.",
+      "Positive impact of AI on content creation and platform growth.",
+      "Upward revisions in G&NS, Music, and I&SS segment forecasts."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expresses confidence in business momentum and raises guidance, stating 'the momentum of our business is strong' and 'we are pleased that we have a favorable launch point into next fiscal year.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 FY25 continuing operations sales were 3,713.7 billion yen, up 1% year-on-year.",
+      "quote": "Q3 FY2025 Results for Continuing Operations *1 (Bln Yen) Q3 FY24 Q3 FY25 Change Sales 3,693.4 3,713.7 +20.3 \uff08+1%\uff09",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "On a constant currency basis, sales decreased approximately 2%.",
+      "quote": "\u2014 On a constant currency basis*, sales decreased approximately 2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY25 diluted EPS was 62.82 yen, up from 56.42 yen.",
+      "quote": "Net income attributable to Sony Group Corporation\u2019s stockholders per share of common stock (diluted) *2 56.42 yen 62.82 yen +6.40 yen",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY25 sales forecast raised to 12,300 billion yen, up 300 billion yen from November.",
+      "quote": "Sales 12,034.9 12,000 12,300 +300 \uff08+3%\uff09",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY25 operating income forecast raised to 1,540 billion yen, up 110 billion yen from November.",
+      "quote": "Operating income 1,276.6 1,430 1,540 +110 \uff08+8%\uff09",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY25 operating income margin was 13.9%, up 2.4 points year-on-year.",
+      "quote": "Operating income margin 11.5% 13.9% +2.4 pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY25 forecast operating income margin is 12.5%, up 0.6 points from November.",
+      "quote": "Operating income margin 10.6% 11.9% 12.5% +0.6 pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rising memory procurement costs are a risk to hardware sales.",
+      "quote": "Although rising costs of memory procurement will have a certain impact on sales of new PS hardware, we had originally anticipated a relatively gradual decline in hardware unit sales in the latter half of the lifecycle, so we believe that our available options are relatively broad.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff impact on FY25 operating income is estimated at -50 billion yen.",
+      "quote": "(Estimated tariff impact on operating income*2) \uff0d -50 -50 \uff0d",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "G&NS hardware unit sales decreased year-on-year.",
+      "quote": "\u00b7(\u30fc) Decrease in sales of hardware due to a decrease in unit sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales in China declined due to reduced government subsidies and market weakness.",
+      "quote": "Despite a continued decline in sales in China due to reduced government subsidies and overall market weakness during the Singles\u2019 Day shopping season, demand in the global interchangeable lens camera market in Q3 FY25 remained strong year-on-year, mainly in Asia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deterioration in unrealized gains on Spotify shares and foreign exchange losses affected financial income.",
+      "quote": "Financial income and expenses, net - 39.6 bln yen \u30fb(\uff0d) Deterioration in unrealized gains and losses mainly on Sony\u2019s shares of Spotify Technology S.A. \u30fb(\uff0d) Deterioration in foreign exchange gains and losses",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "I&SS segment will incur additional restructuring costs in Q4.",
+      "quote": "We are considering measures such as accelerated depreciation on certain business assets. The scale of the one-time expense in 4Q is expected to be approximately 20 billion yen.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Monthly Active Users reached a record 132 million in December.",
+      "quote": "User engagement trended well in Q3 FY25, with Monthly Active Users* in December reaching a record 132 million accounts and total gameplay hours increasing year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The \u03b17 V camera is selling well and expected to contribute to Q4 sales.",
+      "quote": "The \u03b17 V, released last December, has been selling well as a new product positioned in the volume zone of the full-frame mirrorless single-lens reflex camera market, and we expect it will continue to contribute to sales in Q4 FY25.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Image sensor sales increased due to market recovery and new product shipments.",
+      "quote": "Sales of image sensors for mobile products increased significantly year-on-year in Q3 FY25 due to a gradual recovery in the smartphone market, strong shipments for new products from our major customer, and higher die-sized sensors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Music segment revenues grew from live events, merchandising, and streaming.",
+      "quote": "\u30fb(+) Higher revenues from live events and merchandising in Recorded Music \u30fb(+) Higher revenues from streaming services in Recorded Music and Music Publishing",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strategic partnership with TCL aims to grow Home Entertainment business.",
+      "quote": "The background of this partnership is our belief that combining the assets Sony has cultivated over many years with TCL\u2019s strengths will enable further growth of the Home Entertainment business, including TVs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management views AI as a positive opportunity for content creation.",
+      "quote": "Over the long term, an increase in content has a positive impact on the platform. In particular, in the field of game development, we believe that the process from ideation to actual game creation may change going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management raised guidance for G&NS, Music, and I&SS segments.",
+      "quote": "FY2025 Forecast by Segment including Tariff Impact \uff08Bln Yen\uff09 FY24 FY25 FCT November February Changes from November Game & Network Services \uff08G&NS\uff09 Sales 4,670.0 4,470 4,630 +160 Operating income 414.8 500 510 +10 Music Sales 1,842.6 1,980 2,050 +70 Operating income 357.3 385 445 +60 ... Imaging \uff06 Sensing Solution \uff08I&SS\uff09 Sales 1,799.0 1,990 2,080 +90 Operating income 261.1 310 350 +40",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic, expressing confidence in business momentum.",
+      "quote": "We understand the market\u2019s concerns regarding rising memory prices. However, the momentum of our business is strong, and we plan to manage the increase in memory prices while operating our businesses with a strong focus on profitability going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 is based on guidance raise but partially attributed to FX and one-time items; reviewer should verify the organic vs. attributed split."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Risk list includes both structural (memory prices, tariffs) and one-time (restructuring) items; reviewer should confirm weighting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SONY_Bundled Earnings Report_2026-02-01",
+  "report_metadata": {
+    "issuer": "p2_sony",
+    "company": "Sony",
+    "ticker": "SONY",
+    "sector": "Technology/Consumer Electronics",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2026-02-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q3/SONY_Q3_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q3/SONY_Q3_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SONY_FQ3_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221813Z",
+    "timestamp": "2026-08-13T22:18:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q3/SONY_Q3_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_sony_ext2026_08_13/extracted/SONY_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q3/SONY_Q3_2025_Press_Release.pdf",
+        "page_count": 15,
+        "extracted_characters": 25849,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q3/SONY_Q3_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 5,
+        "extracted_characters": 11780,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_sony_ext2026_08_13/extracted/SONY_FQ3_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

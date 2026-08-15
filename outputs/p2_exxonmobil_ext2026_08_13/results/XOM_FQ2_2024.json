@@ -1,0 +1,234 @@
+{
+  "document_id": "XOM_FQ2_2024",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered strong operational momentum with record production in Guyana and the Permian, and the Pioneer acquisition is exceeding integration expectations, contributing $0.5 billion in its first two months. However, full-year capital expenditure guidance was only reaffirmed at the top end of the prior range, and management did not raise formal earnings guidance, instead noting softer market conditions in the second quarter. The score reflects genuine operational momentum and confident forward language on synergies, but is tempered by the lack of a formal guidance raise and acknowledged market softness."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenue of $89,986 million for Q2 2024, up from $80,795 million in Q2 2023. Total revenues and other income were $93,060 million for Q2 2024, up from $82,914 million in Q2 2023.",
+    "eps": "Earnings per common share (assuming dilution) of $2.14 for Q2 2024, up from $1.94 in Q2 2023. Year-to-date EPS of $4.20, down from $4.73 in the prior year period.",
+    "guidance": "Full-year capital and exploration expenditures are anticipated to be approximately $28 billion, which includes the top end of the previously announced guidance for ExxonMobil of $25 billion, and about $3 billion for 8 months of Pioneer. The company plans to repurchase over $19 billion of shares in 2024. The company is on track to deliver cumulative structural cost savings totaling $5 billion through the end of 2027 versus 2023.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Industry refining margins declined from historically high prior year levels as demand growth was more than met by capacity additions.",
+      "Natural gas prices declined from last year's historically high levels to trade within the ten-year historical range.",
+      "Golden Pass LNG project is expected to see about a six-month schedule slippage, with first LNG now expected at the back end of 2025.",
+      "Lower base volumes from divestments of non-strategic assets and government-mandated curtailments.",
+      "Higher expenses from scheduled maintenance, depreciation, and support of new businesses and 2025 project start-ups."
+    ],
+    "key_opportunities": [
+      "Pioneer merger integration and synergy benefits are exceeding expectations, with record production and a $0.5 billion contribution to earnings in the first two months post-closing.",
+      "Record production in Guyana and heritage Permian, with Upstream total net production growing 15% from the first quarter.",
+      "Progressing new businesses including carbon capture and storage (CCS) with total contracted CO2 offtake increased to 5.5 million metric tons per year.",
+      "Virtually carbon-free hydrogen project with Air Liquide, expected to be the world's largest planned project of its kind.",
+      "Proxxima and carbon materials ventures with significant potential addressable markets and high returns.",
+      "Structural cost savings of $10.7 billion cumulative versus 2019, with a target of $15 billion by 2027."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Darren Woods stated, 'We delivered our second-highest 2Q earnings of the past decade as we continue to improve the fundamental earnings power of the company,' and expressed confidence that 'we'll deliver even more synergies than we've announced.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2024 earnings were $9.2 billion, the second-highest second-quarter result in the past decade.",
+      "quote": "In the second quarter, we delivered earnings of $9.2 billion, our second best second quarter results in the last 10 years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Pioneer merger contributed $0.5 billion to earnings in its first two months post-closing.",
+      "quote": "The Pioneer merger, which closed five months faster than similar transactions and fundamentally transforms the Upstream portfolio, contributed $0.5 billion to earnings in the first two months post-closing with record production, and integration and synergy benefits are exceeding expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Upstream total net production grew 15% from the first quarter.",
+      "quote": "Also achieved record production in Guyana and heritage Permian; Upstream total net production grew 15%, or 574,000 oil-equivalent barrels per day, from the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total contracted CO2 offtake with industrial customers increased to 5.5 million metric tons per year.",
+      "quote": "Expanded the company's value proposition by progressing new businesses including furthering carbon capture and storage (CCS) leadership with a new agreement that increased total contracted CO offtake with industrial customers to 5.5 million metric tons per year , more committed volume than any other company has announced.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2024 sales and other operating revenue was $89,986 million.",
+      "quote": "Sales and other operating revenue 89,986 80,795 170,397 164,439",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2024 earnings per share (assuming dilution) was $2.14.",
+      "quote": "Earnings per common share - assuming dilution (U.S. dollars) 2.14 1.94 4.20 4.73",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year capital and exploration expenditures are anticipated to be approximately $28 billion.",
+      "quote": "The Corporation anticipates full-year capital and exploration expenditures to be approximately $28 billion, which includes the top end of the previously announced guidance for ExxonMobil of $25 billion, and about $3 billion for 8 months of Pioneer, consistent with their prior guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to repurchase over $19 billion of shares in 2024.",
+      "quote": "The company plans to repurchase over $19 billion of shares in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is on track to deliver cumulative structural cost savings totaling $5 billion through the end of 2027 versus 2023.",
+      "quote": "The company is on track to deliver cumulative savings totaling $5 billion through the end of 2027 versus 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industry refining margins declined from historically high prior year levels.",
+      "quote": "Energy Products year-to-date earnings were $2.3 billion, a decrease of $4.2 billion versus the first half of 2023 due to significantly lower industry refining margins which normalized from historically high prior year levels as demand growth was more than met by capacity additions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Natural gas prices declined from last year's historically high levels.",
+      "quote": "Earnings decreased as industry refining margins and natural gas prices declined from last year's historically high levels to trade within the ten-year historical range , while crude prices rose modestly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Golden Pass LNG project is expected to see about a six-month schedule slippage.",
+      "quote": "Right now, our estimate is we're going to see about a six month slippage. So we had anticipated kind of first LNG the middle of next year. We now are looking at probably the back end of 2025 for first LNG and that's kind of where the current schedule is.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower base volumes were due to divestments of non-strategic assets and government-mandated curtailments.",
+      "quote": "Strong advantaged volume growth from record Guyana, Pioneer, and heritage Permian assets, high-value products and the Beaumont refinery expansion more than offset lower base volumes from divestments of non-strategic assets and government-mandated curtailments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher expenses were from scheduled maintenance, depreciation, and support of new businesses.",
+      "quote": "Structural cost savings partially offset higher expenses from scheduled maintenance, depreciation and support of new businesses and 2025 project start-ups.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Pioneer merger integration and synergy benefits are exceeding expectations.",
+      "quote": "Although it's still early days, the integration is exceeding our expectations and I'm confident we'll deliver even more synergies than we've announced.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is progressing new businesses including carbon capture and storage.",
+      "quote": "Expanded the company's value proposition by progressing new businesses including furthering carbon capture and storage (CCS) leadership with a new agreement that increased total contracted CO offtake with industrial customers to 5.5 million metric tons per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The virtually carbon-free hydrogen project with Air Liquide is expected to be the world's largest planned project of its kind.",
+      "quote": "The production facility would be the world's largest planned virtually carbon-free hydrogen project and is expected to produce 1 billion cubic feet of hydrogen daily, and more than 1 million metric tons of ammonia per year while capturing approximately 98% of the associated CO emissions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Proxxima and carbon materials ventures have significant potential addressable markets and high returns.",
+      "quote": "The company sees the total potential addressable market for Proxxima TM at 5 million metric tons and $30 billion dollars by 2030 with demand growing faster than GDP and returns above 15%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural cost savings of $10.7 billion cumulative versus 2019 have been achieved.",
+      "quote": "Achieved $10.7 billion of cumulative Structural Cost Savings versus 2019, including an additional $1.0 billion of savings during the year and $0.6 billion during the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered our second-highest 2Q earnings of the past decade as we continue to improve the fundamental earnings power of the company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects strong operational momentum and confident language on synergies, but no formal earnings guidance raise was made. The score is based on the qualitative assessment of momentum versus the lack of a formal guidance change, which is a judgment call."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "The document does not explicitly provide a gross, operating, or net margin figure. The field is set to 'Not disclosed' as per instructions."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2024-08-02",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-08-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q2/XOM_Q2_2024_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q2/XOM_Q2_2024_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ2_2024",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:08:43Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q2/XOM_Q2_2024_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q2/XOM_Q2_2024_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 52455,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q2/XOM_Q2_2024_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 58886,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ2_2024.txt"
+  }
+}

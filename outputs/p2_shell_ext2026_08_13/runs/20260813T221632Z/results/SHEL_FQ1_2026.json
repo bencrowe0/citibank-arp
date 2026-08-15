@@ -1,0 +1,251 @@
+{
+  "document_id": "SHEL_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong Q1 2026 results with Adjusted Earnings of $6.9 billion, a significant increase from Q4 2025's $3.256 billion, and management expresses confidence in the integrated portfolio and strategic progress. However, forward guidance is mixed: Q2 2026 production and liquefaction volumes are expected to decline due to the Middle East conflict and maintenance, and the working capital outflow is a large negative. The acquisition of ARC Resources and increased shareholder distributions provide positive momentum, but the forward outlook is tempered by operational disruptions, so the score reflects genuine operational momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed",
+    "eps": "Not disclosed",
+    "guidance": "Q2 2026 production outlook: Integrated Gas 580-640 kboe/d, Upstream 1,620-1,820 kboe/d, Marketing volumes 2,500-2,700 kb/d, Chemicals & Products refinery utilisation 91-99%, chemicals manufacturing plant utilisation 76-84%. Cash capex outlook for 2026: $24-26 billion, includes ~$4 billion for ARC acquisition; 2027-2028 unchanged at $20-22 billion. Production CAGR to 2030 expected at 4% from 2025.",
+    "margin": "Global indicative refining margin $17/bbl (Q1 2026) vs $14/bbl (Q4 2025); global indicative chemical margin $139/t (Q1 2026) vs $140/t (Q4 2025).",
+    "key_risks": [
+      "Middle East conflict impacting production and liquefaction volumes in Q2 2026, including Qatar and higher planned maintenance.",
+      "Working capital outflow of $11.2 billion in Q1 2026 due to unprecedented commodity price volatility.",
+      "Pearl GTL Train Two damaged, estimated ~1 year to return to service, repair costs well below $0.5 billion.",
+      "Chemicals margins remain depressed, impacting Chemicals segment earnings.",
+      "Q2 2026 Marketing outlook reflects lower expected volumes and weaker margin environment."
+    ],
+    "key_opportunities": [
+      "ARC Resources acquisition adds 370 kboe/d, high-quality, low-cost assets, expected to deliver value for decades.",
+      "LNG Canada ramp-up and LNG upside from ARC acquisition.",
+      "Strong operational performance: record production in Brazil, Mars platform reached one billion barrels, Bonga turnaround ahead of plan.",
+      "Divestment of Jiffy Lubes network for $1.3 billion, monetising non-core asset.",
+      "New acreage in US, Kazakhstan, Venezuela for resource longevity."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'strong results', 'relentless focus on operational performance', and 'resilience' to convey confidence despite volatility."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2026 Adjusted Earnings were $6.9 billion, up from $3.256 billion in Q4 2025.",
+      "quote": "Q1 2026 Adjusted Earnings2 of $6.9 billion reflect strong performance across the business. ... Q4 2025 3,256",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CFFO excluding working capital was $17.2 billion for the quarter.",
+      "quote": "CFFO excluding working capital was $17.2 billion for the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Working capital outflow was $11.2 billion in Q1 2026.",
+      "quote": "Working capital outflow of $11.2 billion in Q1 2026 reflects impact of unprecedented volatility in commodity prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 production outlook for Integrated Gas is 580-640 kboe/d.",
+      "quote": "Production (kboe/d) 948 909 580 - 640",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 production outlook for Upstream is 1,620-1,820 kboe/d.",
+      "quote": "Total production (kboe/d) 1,892 1,843 1,620 - 1,820",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash capex outlook for 2026 is $24-26 billion, including ~$4 billion for ARC acquisition.",
+      "quote": "Cash capex outlook for 2026: $24 - $26 billion, includes ~$4 billion for ARC acquisition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2027-2028 cash capex outlook unchanged at $20-22 billion.",
+      "quote": "2027 - 2028 outlook unchanged at $20 - $22 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ARC Resources acquisition to add 370 kboe/d and lead to 4% production CAGR through to 2030.",
+      "quote": "ARC Resources acquisition to add 370 kboe/d, leading to a 4% production CAGR through to 2030 (from 2025).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global indicative refining margin improved to $17/bbl in Q1 2026 from $14/bbl in Q4 2025.",
+      "quote": "Global indicative refining margin ($/bbl) 14 17",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global indicative chemical margin slightly declined to $139/t in Q1 2026 from $140/t in Q4 2025.",
+      "quote": "Global indicative chemical margin ($/t) 140 139",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Middle East conflict is impacting Q2 2026 production and liquefaction volumes.",
+      "quote": "Q2 2026 production and liquefaction outlook reflects the impact of Middle East conflict including Qatar and higher planned maintenance across the portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pearl GTL Train Two was damaged and will take about a year to return to service.",
+      "quote": "At Pearl GTL, Train Two was damaged, but thankfully nobody was hurt. We currently estimate it will take around a year to return this train back into service.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemicals margins remain depressed.",
+      "quote": "Chemical margins remained depressed, but the team remains focused on making the business free cash flow positive and we are seeing some encouraging signs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 Marketing outlook reflects lower expected volumes and weaker margin environment.",
+      "quote": "Q2 2026 outlook reflects lower expected volumes and a weaker margin environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ARC Resources is a high-quality, low-cost operator in Canada's Montney basin.",
+      "quote": "ARC is a high quality, low -cost operator in Canada's Montney basin, complementing our existing positions at Groundbirch and Gold Creek.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "LNG Canada ramp-up helped offset impacts of cyclones and Qatar shutdown.",
+      "quote": "In Integrated Gas, the continued ramp-up of LNG Canada helped to offset the impact of cyclones in Australia and the shutdown of production in Qatar.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record production levels achieved in Brazil.",
+      "quote": "In Upstream, we delivered strong operational performance across the board. For example, in Brazil, we achieved record production levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mars platform reached one billion barrels of oil production.",
+      "quote": "In the United States, our Mars platform became the first asset in the Gulf of America to reach one billion barrels of oil production.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Bonga turnaround completed 10 days ahead of plan.",
+      "quote": "In Nigeria, at Bonga, we completed a turnaround 10 days ahead of plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Divestment of Jiffy Lubes network for $1.3 billion.",
+      "quote": "In Lubricants, we announced the divestment of our Jiffy Lubes network for $1.3 billion, monetising an asset that was not core to our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New acreage added in US, Kazakhstan, and Venezuela.",
+      "quote": "In Upstream and Integrated Gas, we added new acreage in the United States, Kazakhstan and Venezuela as we continue to focus on resource longevity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Q1 showed Shell's resilience and ability to deliver strong results in a volatile macro environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects positive momentum but forward guidance is mixed with Q2 volume declines; reviewer should verify if the positive momentum outweighs the operational disruptions."
+    },
+    {
+      "field": "summary.revenue",
+      "reason": "Revenue figure not disclosed in the document; only segment earnings and cash flow figures are provided."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS not disclosed; only Adjusted Earnings and income attributable to shareholders are provided."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "SHEL_Bundled Earnings Report_2026-05-01",
+  "report_metadata": {
+    "issuer": "p2_shell",
+    "company": "Shell",
+    "ticker": "SHEL",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2026-Q1/SHEL_Q1_2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2026-Q1/SHEL_Q1_2026_Prepared_Remarks.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SHEL_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221632Z",
+    "timestamp": "2026-08-13T22:17:27Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2026-Q1/SHEL_Q1_2026_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shell_ext2026_08_13/extracted/SHEL_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2026-Q1/SHEL_Q1_2026_Press_Release.pdf",
+        "page_count": 9,
+        "extracted_characters": 19099,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2026-Q1/SHEL_Q1_2026_Prepared_Remarks.pdf",
+        "page_count": 4,
+        "extracted_characters": 15018,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shell_ext2026_08_13/extracted/SHEL_FQ1_2026.txt"
+  }
+}

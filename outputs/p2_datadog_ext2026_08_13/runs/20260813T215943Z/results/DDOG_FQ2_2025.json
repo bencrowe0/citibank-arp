@@ -1,0 +1,186 @@
+{
+  "document_id": "DDOG_FQ2_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong second-quarter results with 28% year-over-year revenue growth and a significant increase in larger customers, but the forward guidance for Q3 and full-year 2025 appears to be in line with prior expectations rather than a material raise, as no comparison to prior guidance is provided. The company's confident language about innovation and market position, combined with operational momentum, supports a modestly positive score, but the lack of a clear guidance raise and the presence of forward-looking risk factors temper the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$827 million, an increase of 28% year-over-year.",
+    "eps": "GAAP net income per diluted share was $0.01; non-GAAP net income per diluted share was $0.46.",
+    "guidance": "Q3 2025 revenue between $847 million and $851 million; non-GAAP operating income between $176 million and $180 million; non-GAAP EPS between $0.44 and $0.46. Full-year 2025 revenue between $3.312 billion and $3.322 billion; non-GAAP operating income between $684 million and $694 million; non-GAAP EPS between $1.80 and $1.83.",
+    "margin": "GAAP operating margin was (4)%; non-GAAP operating margin was 20%.",
+    "key_risks": [
+      "Recent rapid growth may not be indicative of future growth.",
+      "History of operating losses.",
+      "Dependence on existing customers purchasing additional subscriptions and renewing.",
+      "Ability to attract new customers.",
+      "Risk of security breach.",
+      "Risk of interruptions or performance problems.",
+      "Ability to adapt to rapidly changing technology.",
+      "Competitive markets.",
+      "Risks associated with managing growth.",
+      "General market, political, economic, and business conditions including trade policies, tariffs, and reduced IT spending."
+    ],
+    "key_opportunities": [
+      "Growth in larger customers: about 3,850 $100k+ ARR customers, up 14% year-over-year.",
+      "Launch of over 125 new products and features at DASH 2025.",
+      "Expansion on AWS Asia-Pacific (Sydney) Region.",
+      "Named a Leader in Gartner Magic Quadrant for Observability Platforms for fifth consecutive year.",
+      "Joined S&P 500 Index.",
+      "Introduction of new AI agents and AI-related products.",
+      "Advancing toward FedRAMP High authorization."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Olivier Pomel stated, 'Datadog had a strong second quarter, with 28% year-over-year revenue growth, $200 million in operating cash flow, and $165 million in free cash flow,' and highlighted the company's 'rapid pace of innovation.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $827 million, an increase of 28% year-over-year.",
+      "quote": "Revenue was $827 million , an increase of 28% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net income per diluted share was $0.01; non-GAAP net income per diluted share was $0.46.",
+      "quote": "GAAP net income per diluted share was $0.01 ; non-GAAP net income per diluted share was $0.46 .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 revenue guidance is between $847 million and $851 million.",
+      "quote": "Third Quarter 2025 Outlook: Revenue between $847 million and $851 million .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance is between $3.312 billion and $3.322 billion.",
+      "quote": "Full Year 2025 Outlook: Revenue between $3.312 billion and $3.322 billion .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (4)%; non-GAAP operating margin was 20%.",
+      "quote": "GAAP operating loss was $(36) million; GAAP operating margin was (4)%. Non-GAAP operating income was $164 million ; non-GAAP operating margin was 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has about 3,850 customers with ARR of $100,000 or more, up 14% year-over-year.",
+      "quote": "As of June 30, 2025 , we had about 3,850 customers with ARR of $100,000 or more, an increase of 14% from about 3,390 as of June 30, 2024 .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company launched over 125 new products and features at DASH 2025.",
+      "quote": "At our DASH 2025 user conference, we showcased our rapid pace of innovation, announcing over 125 new innovations to help our customers observe, secure, and act on their complex cloud environments and AI tech stacks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expanded on AWS Asia-Pacific (Sydney) Region.",
+      "quote": "Launched its full range of products and services on the Amazon Web Services' Asia-Pacific (Sydney) Region , adding to existing locations in North America , Asia , and Europe .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Datadog was named a Leader in the Gartner Magic Quadrant for Observability Platforms for the fifth consecutive year.",
+      "quote": "Named a Leader in the Gartner Magic Quadrant for Observability Platforms, 2025 . This is the fifth consecutive year Gartner has positioned Datadog as a Leader in the Magic Quadrant.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Datadog joined the S&P 500 Index.",
+      "quote": "Joined the S&P 500 Index. The S&P 500 is widely regarded as the best single gauge of large-cap U.S. equities, tracking the stock performance of 500 leading US companies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Datadog introduced new AI agents and AI-related products.",
+      "quote": "Introduced three new AI agents, Bits AI SRE , Bits AI Dev Agent and Bits AI Security Analyst agent, which perform interactive investigations and asynchronous code fixes for operations, development and security teams.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Datadog is advancing toward FedRAMP High authorization.",
+      "quote": "Announced Datadog is advancing toward Federal Risk and Authorization Management Program (FedRAMP) High authorization, which will ultimately enable federal agencies to more effectively monitor, secure, and optimize their critical applications and infrastructure while adhering to stringent compliance frameworks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a history of operating losses and other risks.",
+      "quote": "The risks and uncertainties referred to above include, but are not limited to (1) our recent rapid growth may not be indicative of our future growth; (2) our history of operating losses; (3) our limited operating history; (4) our dependence on existing customers purchasing additional subscriptions and products from us and renewing their subscriptions; (5) our ability to attract new customers; (6) our ability to effectively develop and expand our sales and marketing capabilities; (7) risk of a security breach; (8) risk of interruptions or performance problems associated with our products and platform capabilities; (9) our ability to adapt and respond to rapidly changing technology or customer needs; (10) the competitive markets in which we participate; (11) risks associated with successfully managing our growth; and (12) general market, political, economic, and business conditions including concerns about trade policies, tariffs, reduced economic growth and associated decreases in information technology spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Olivier Pomel stated, 'Datadog had a strong second quarter, with 28% year-over-year revenue growth, $200 million in operating cash flow, and $165 million in free cash flow.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was provided but not compared to prior guidance; the score assumes no material raise, but a human reviewer should verify if the guidance represents an increase over prior expectations."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DDOG_Bundled Earnings Report_2025-08-07",
+  "report_metadata": {
+    "issuer": "p2_datadog",
+    "company": "Datadog",
+    "ticker": "DDOG",
+    "sector": "Technology/Cloud Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q2/DDOG_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DDOG_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T215943Z",
+    "timestamp": "2026-08-13T21:59:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q2/DDOG_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_datadog_ext2026_08_13/extracted/DDOG_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q2/DDOG_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 33712,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_datadog_ext2026_08_13/extracted/DDOG_FQ2_2025.txt"
+  }
+}

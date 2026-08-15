@@ -1,0 +1,250 @@
+{
+  "label": "RETROSPECTIVE VALIDATION \u2014 NOT PRE-REGISTERED (combined N=326)",
+  "n_combined_events": 326,
+  "n_phase2_events": 233,
+  "n_extension_events": 93,
+  "date_range": [
+    "2023-04-25",
+    "2026-08-01"
+  ],
+  "weights_fixed": [
+    0.55,
+    0.45,
+    0.0,
+    0.0
+  ],
+  "cost_bps": 10.0,
+  "flat_band": 0.02,
+  "in_sample_deployed": {
+    "hold_upper": 0.25,
+    "hold_lower": -0.05,
+    "n_trades": 178,
+    "n_graded": 109,
+    "n_correct": 72,
+    "accuracy": 0.6606,
+    "mean_net_pct": 1.7456,
+    "ci_low_90": 0.973,
+    "ci_high_90": 2.5431
+  },
+  "rolling_walkforward": {
+    "n_windows": 4,
+    "min_trades_floor": 5,
+    "objectives_tried": [
+      "mean_net_per_trade",
+      "directional_accuracy"
+    ],
+    "mean_net_per_trade": {
+      "degenerate_windows": 3,
+      "total_windows": 4,
+      "windows": [
+        {
+          "window_idx": 0,
+          "train_cutoff": "2025-09-30",
+          "test_start": "2025-10-01",
+          "test_end": "2025-12-18",
+          "fitted_upper": 0.35,
+          "fitted_lower": -0.5,
+          "train_n": 138,
+          "train_trades": 5,
+          "train_mean_net": 0.0848052,
+          "train_accuracy": 1.0,
+          "train_n_graded": 2,
+          "test_n": 65,
+          "test_trades": 10,
+          "test_mean_net": 0.0304391,
+          "test_accuracy": 0.6667,
+          "test_n_graded": 6,
+          "test_n_correct": 4,
+          "degenerate": false
+        },
+        {
+          "window_idx": 1,
+          "train_cutoff": "2025-12-31",
+          "test_start": "2026-01-13",
+          "test_end": "2026-03-19",
+          "fitted_upper": 0.45,
+          "fitted_lower": -0.5,
+          "train_n": 203,
+          "train_trades": 7,
+          "train_mean_net": 0.069514,
+          "train_accuracy": 0.75,
+          "train_n_graded": 4,
+          "test_n": 68,
+          "test_trades": 0,
+          "test_mean_net": 0.0,
+          "test_accuracy": null,
+          "test_n_graded": 0,
+          "test_n_correct": 0,
+          "degenerate": true
+        },
+        {
+          "window_idx": 2,
+          "train_cutoff": "2026-03-31",
+          "test_start": "2026-04-13",
+          "test_end": "2026-06-23",
+          "fitted_upper": 0.45,
+          "fitted_lower": -0.5,
+          "train_n": 271,
+          "train_trades": 7,
+          "train_mean_net": 0.069514,
+          "train_accuracy": 0.75,
+          "train_n_graded": 4,
+          "test_n": 50,
+          "test_trades": 0,
+          "test_mean_net": 0.0,
+          "test_accuracy": null,
+          "test_n_graded": 0,
+          "test_n_correct": 0,
+          "degenerate": true
+        },
+        {
+          "window_idx": 3,
+          "train_cutoff": "2026-06-30",
+          "test_start": "2026-07-01",
+          "test_end": "2026-08-01",
+          "fitted_upper": 0.45,
+          "fitted_lower": -0.5,
+          "train_n": 321,
+          "train_trades": 7,
+          "train_mean_net": 0.069514,
+          "train_accuracy": 0.75,
+          "train_n_graded": 4,
+          "test_n": 5,
+          "test_trades": 0,
+          "test_mean_net": 0.0,
+          "test_accuracy": null,
+          "test_n_graded": 0,
+          "test_n_correct": 0,
+          "degenerate": true
+        }
+      ],
+      "pooled_oos": {
+        "objective": "mean_net_per_trade",
+        "n_trades": 10,
+        "n_graded": 6,
+        "n_correct": 4,
+        "accuracy": 0.6667,
+        "mean_net_pct": 3.0439,
+        "majority_direction_floor": 0.5341,
+        "bootstrap_90ci_mean_net_pct": {
+          "point": 3.0439,
+          "ci_low": -0.5415,
+          "ci_high": 6.7926
+        }
+      }
+    },
+    "directional_accuracy": {
+      "degenerate_windows": 1,
+      "total_windows": 4,
+      "windows": [
+        {
+          "window_idx": 0,
+          "train_cutoff": "2025-09-30",
+          "test_start": "2025-10-01",
+          "test_end": "2025-12-18",
+          "fitted_upper": 0.35,
+          "fitted_lower": -0.2,
+          "train_n": 138,
+          "train_trades": 28,
+          "train_mean_net": 0.0334929,
+          "train_accuracy": 0.8,
+          "train_n_graded": 15,
+          "test_n": 65,
+          "test_trades": 14,
+          "test_mean_net": 0.0116302,
+          "test_accuracy": 0.5556,
+          "test_n_graded": 9,
+          "test_n_correct": 5,
+          "degenerate": false
+        },
+        {
+          "window_idx": 1,
+          "train_cutoff": "2025-12-31",
+          "test_start": "2026-01-13",
+          "test_end": "2026-03-19",
+          "fitted_upper": 0.35,
+          "fitted_lower": -0.25,
+          "train_n": 203,
+          "train_trades": 35,
+          "train_mean_net": 0.0297243,
+          "train_accuracy": 0.7222,
+          "train_n_graded": 18,
+          "test_n": 68,
+          "test_trades": 11,
+          "test_mean_net": 0.0200747,
+          "test_accuracy": 0.7143,
+          "test_n_graded": 7,
+          "test_n_correct": 5,
+          "degenerate": false
+        },
+        {
+          "window_idx": 2,
+          "train_cutoff": "2026-03-31",
+          "test_start": "2026-04-13",
+          "test_end": "2026-06-23",
+          "fitted_upper": 0.35,
+          "fitted_lower": -0.1,
+          "train_n": 271,
+          "train_trades": 70,
+          "train_mean_net": 0.0294749,
+          "train_accuracy": 0.725,
+          "train_n_graded": 40,
+          "test_n": 50,
+          "test_trades": 10,
+          "test_mean_net": 0.0325609,
+          "test_accuracy": 0.8571,
+          "test_n_graded": 7,
+          "test_n_correct": 6,
+          "degenerate": false
+        },
+        {
+          "window_idx": 3,
+          "train_cutoff": "2026-06-30",
+          "test_start": "2026-07-01",
+          "test_end": "2026-08-01",
+          "fitted_upper": 0.45,
+          "fitted_lower": -0.1,
+          "train_n": 321,
+          "train_trades": 63,
+          "train_mean_net": 0.0306656,
+          "train_accuracy": 0.75,
+          "train_n_graded": 36,
+          "test_n": 5,
+          "test_trades": 2,
+          "test_mean_net": -0.023938,
+          "test_accuracy": 0.5,
+          "test_n_graded": 2,
+          "test_n_correct": 1,
+          "degenerate": true
+        }
+      ],
+      "pooled_oos": {
+        "objective": "directional_accuracy",
+        "n_trades": 37,
+        "n_graded": 25,
+        "n_correct": 17,
+        "accuracy": 0.68,
+        "mean_net_pct": 1.7875,
+        "majority_direction_floor": 0.5341,
+        "bootstrap_90ci_mean_net_pct": {
+          "point": 1.7875,
+          "ci_low": 0.1201,
+          "ci_high": 3.4876
+        }
+      }
+    },
+    "degeneracy_finding": {
+      "mean_net_degenerate": 3,
+      "accuracy_degenerate": 1,
+      "total_windows": 4,
+      "both_degenerate": true
+    }
+  },
+  "phase2_sanity_check": {
+    "n_trades": 146,
+    "n_graded": 95,
+    "n_correct": 62,
+    "accuracy": 0.6526,
+    "expected": "146 trades, 95 graded, 62 correct, 0.6526"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "document_id": "ADBE_FQ3_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Adobe raised its FY25 total revenue and EPS targets for the second time, and also raised its Digital Media ARR growth target, indicating strong forward momentum. The company exceeded its AI-first ARR target of $250 million ahead of schedule and reported record revenue and RPO surpassing $20 billion, with management expressing high confidence. The guidance raise is organic, driven by AI product adoption and strong execution, not attributed to FX or one-time items."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record revenue of $5.99 billion in Q3 FY2025, representing 11% year-over-year growth (10% in constant currency).",
+    "eps": "GAAP diluted EPS of $4.18; non-GAAP diluted EPS of $5.31, representing 14% year-over-year growth.",
+    "guidance": "Q4 FY25 targets: total revenue $6.075B-$6.125B, GAAP EPS $4.27-$4.32, non-GAAP EPS $5.35-$5.40. FY25 targets raised: total revenue $23.65B-$23.70B, GAAP EPS $16.53-$16.58, non-GAAP EPS $20.80-$20.85, Digital Media ARR growth 11.3%.",
+    "margin": "Non-GAAP operating margin of ~45.5% for Q4 and ~46% for FY25 targets. Q3 GAAP operating income $2.17B, non-GAAP operating income $2.77B.",
+    "key_risks": [
+      "Failure to innovate effectively and meet customer needs",
+      "Issues relating to development and use of AI",
+      "Failure to compete effectively",
+      "Adverse macroeconomic conditions",
+      "Fluctuations in foreign currency exchange rates",
+      "Service interruptions or failures in information technology systems",
+      "Security incidents",
+      "Litigation, regulatory inquiries and intellectual property infringement claims",
+      "Changes in global laws and regulations, including information security and privacy"
+    ],
+    "key_opportunities": [
+      "AI-influenced ARR surpassed $5 billion, up from over $3.5 billion exiting FY2024",
+      "AI-first ARR already exceeded $250 million year-end target",
+      "GenStudio solution components exceed $1 billion in ARR growing over 25% year-over-year",
+      "AEP and Apps ending ARR growing greater than 40% year-over-year",
+      "LLM traffic grew 4,700% year-over-year, presenting new marketing opportunities",
+      "Strong adoption of Acrobat AI Assistant and Acrobat Studio",
+      "Firefly App MAU grew 30% quarter-over-quarter",
+      "Generative AI consumption accelerated with 29 billion generations"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly expressed confidence, e.g., 'We\u2019re pleased to once again raise our FY25 total revenue and EPS targets' and 'Adobe is the leader in the AI creative applications category.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adobe raised its FY25 total revenue and EPS targets.",
+      "quote": "Given our customer strategy, AI product innovation and strong go-to-market execution, we\u2019re pleased to once again raise our FY25 total revenue and EPS targets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 revenue was a record $5.99 billion, up 11% year-over-year.",
+      "quote": "Adobe achieved record revenue of $5.99 billion in its third quarter of fiscal year 2025, which represents 11 percent year-over-year growth, or 10 percent in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $5.31, up 14% year-over-year.",
+      "quote": "non-GAAP earnings per share was $5.31 representing 14% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-first ARR exceeded the $250 million year-end target ahead of schedule.",
+      "quote": "AI-first ARR already exceeding our $250 million year-end target",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RPO surpassed $20 billion, accelerating to 13% year-over-year growth.",
+      "quote": "Company Reports Record Revenue and RPO Surpasses $20 Billion, Accelerating to 13 Percent Year-Over-Year Growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY25 guidance raised for total revenue and EPS.",
+      "quote": "For FY \u201925, we are now targeting total Adobe revenue of $23.65 billion to $23.70 billion. ... GAAP earnings per share of $16.53 to $16.58 and non-GAAP earnings per share of $20.80 to $20.85.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY25 guidance includes revenue of $6.075B-$6.125B and non-GAAP EPS of $5.35-$5.40.",
+      "quote": "In Q4, FY \u201925, we are targeting. Total Adobe revenue of $6.075 million to $6.125 billion, ... non-GAAP earnings per share of $5.35 to $5.40.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin target is ~45.5% for Q4 and ~46% for FY25.",
+      "quote": "For Q4, we expect non-GAAP operating margin of approximately 45.5% ... Targets assume non-GAAP operating margin of ~46 percent ... for fiscal year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We\u2019re pleased to once again raise our FY25 total revenue and EPS targets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include failure to innovate, AI issues, competition, macroeconomic conditions, and regulatory changes.",
+      "quote": "Factors that might cause or contribute to such differences include, but are not limited to: failure to innovate effectively and meet customer needs; issues relating to development and use of AI; failure to compete effectively; ... adverse macroeconomic conditions; ... litigation, regulatory inquiries and intellectual property infringement claims; changes in, and compliance with, global laws and regulations...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include AI-influenced ARR surpassing $5 billion and strong growth in GenStudio and AEP.",
+      "quote": "AI-influenced ARR surpassing $5 billion ... Our Workfront, Frame, AEM Assets, Firefly Services and GenStudio for performance marketing products ... now exceed $1 billion in ARR growing over 25% year-over-year. ... AEP and Apps ending ARR growing greater than 40% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 is based on guidance raise and strong momentum; verify that the raise is not partially due to FX or one-time items, though document attributes it to organic execution."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ADBE_Bundled Earnings Report_2025-09-11",
+  "report_metadata": {
+    "issuer": "p2_adobe",
+    "company": "Adobe",
+    "ticker": "ADBE",
+    "sector": "Technology/Software",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-09-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q3/ADBE_Q3_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q3/ADBE_Q3_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ADBE_FQ3_2025",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T215542Z",
+    "timestamp": "2026-08-13T21:55:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q3/ADBE_Q3_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_adobe_ext2026_08_13/extracted/ADBE_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q3/ADBE_Q3_2025_Press_Release.pdf",
+        "page_count": 9,
+        "extracted_characters": 31397,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q3/ADBE_Q3_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 70793,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_adobe_ext2026_08_13/extracted/ADBE_FQ3_2025.txt"
+  }
+}

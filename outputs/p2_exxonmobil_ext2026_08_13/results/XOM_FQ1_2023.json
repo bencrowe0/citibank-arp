@@ -1,0 +1,211 @@
+{
+  "document_id": "XOM_FQ1_2023",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The company delivered record first-quarter earnings and demonstrated strong operational momentum, including a 300,000 boe/d production increase and the successful start-up of the Beaumont refinery expansion. However, management did not raise formal forward guidance; they reaffirmed existing targets for capital expenditures, structural cost savings, and Permian production growth. The positive operational trajectory and confident management language support a modestly positive score, but the lack of a formal guidance raise and the acknowledgment of moderating prices and margins keep the score below the +0.5 threshold."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenue was $83,644 million for Q1 2023, compared to $87,734 million in Q1 2022.",
+    "eps": "Earnings per common share (assuming dilution) was $2.79 for Q1 2023, compared to $1.28 in Q1 2022.",
+    "guidance": "Capital and exploration expenditures are on track to meet the company's full-year guidance of $23 billion to $25 billion. The company remains on track to deliver $9 billion of structural cost savings by the end of 2023. Management reaffirmed its year-end production growth target for the Permian.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Lower liquids and natural gas realizations negatively impacted results sequentially.",
+      "Unfavorable mark-to-market effects on unsettled derivatives negatively impacted results.",
+      "Higher scheduled maintenance negatively impacted results.",
+      "Additional European taxes on the energy sector negatively impacted earnings.",
+      "Softer market conditions in the chemical products business.",
+      "The company faces risks from global or regional changes in supply and demand, government policies, and political or security disturbances."
+    ],
+    "key_opportunities": [
+      "Growth of advantaged assets, including a 40% increase in production from Guyana and the Permian Basin.",
+      "The Beaumont Refinery expansion reached full capacity of 250,000 barrels per day.",
+      "Final investment decision for the Uaru offshore development in Guyana, expected to add 250,000 boe/d of gross capacity.",
+      "Growth of the Low Carbon Solutions business, including a new carbon capture, transportation, and storage agreement with Linde.",
+      "Structural cost savings of $7.2 billion achieved to date, on track for $9 billion target.",
+      "Plans to launch a new enterprisewide trading organization to leverage scale and drive efficiencies."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management's language is confident, as evidenced by statements like 'Our people's hard work to execute on our strategic priorities delivered a record first quarter following a record year' and 'our underlying performance remains rock solid and well ahead of our competition.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "The company delivered record first-quarter earnings of $11.4 billion.",
+      "quote": "ExxonMobil Announces First-Quarter 2023 Results \u2022 Delivered record first quarter earnings of $11.4 billion, demonstrating structural earnings improvements through growth of advantaged assets, mix improvements, and cost and execution efficiencies",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share was $2.79 for Q1 2023.",
+      "quote": "Earnings Per Common Share \u00b9 2.79 3.09 -0.30 1.28 +1.51",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and other operating revenue was $83,644 million for Q1 2023.",
+      "quote": "Sales and other operating revenue 83,644 87,734",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital and exploration expenditures are on track to meet the company's full-year guidance of $23 billion to $25 billion.",
+      "quote": "Capital and exploration expenditures were $6.4 billion, on track to meet the company's full year guidance of $23 billion to $25 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company remains on track to deliver $9 billion of structural cost savings by the end of 2023.",
+      "quote": "The company remains on track to deliver $9 billion of structural cost savings by the end of 2023 relative to 2019, having achieved cumulative structural cost savings of $7.2 billion to date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed its year-end production growth target for the Permian.",
+      "quote": "I would say we haven't changed our year-end targets, and so the guidance that we gave as part of the corporate plan discussion last year continues to hold.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower liquids and natural gas realizations negatively impacted results sequentially.",
+      "quote": "Lower liquids and natural gas realizations coupled with the absence of favorable mark-to-market impacts on unsettled derivatives, fewer days in the quarter, and higher scheduled maintenance negatively impacted results sequentially.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Additional European taxes on the energy sector negatively impacted earnings.",
+      "quote": "Results included unfavorable identified items of approximately $200 million associated with additional European taxes on the energy sector.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company saw a 40% increase in production from Guyana and the Permian Basin.",
+      "quote": "Compared to the first quarter of 2022, we added about 300,000 oil-equivalent barrels per day to global supply, primarily from a 40% increase in production from Guyana and the Permian Basin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Beaumont Refinery expansion reached full capacity of 250,000 barrels per day.",
+      "quote": "Started up the Beaumont Refinery expansion and reached full capacity of 250,000 barrels of production per day to help meet global demand",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company announced a final investment decision for the Uaru offshore development in Guyana.",
+      "quote": "Announced final investment decision for the Uaru offshore development and two new discoveries in Guyana",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company grew its Low Carbon Solutions business with a new carbon capture agreement.",
+      "quote": "Grew Low Carbon Solutions business with the execution of a new long-term customer contract for carbon capture, transportation, and storage",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to launch a new enterprisewide trading organization.",
+      "quote": "On June 1st, we plan to launch our new enterprisewide trading organization. Global trading will bring together expertise from across the company in crude, products, natural gas, power, and marine-freight trading.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management's tone is confident.",
+      "quote": "Our people's hard work to execute on our strategic priorities delivered a record first quarter following a record year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The chemical products business faced softer market conditions.",
+      "quote": "Compared to the same quarter last year, earnings decreased by $1.0 billion on weaker industry margins and lower sales, reflecting softer market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from global or regional changes in supply and demand.",
+      "quote": "These include global or regional changes in the supply and demand for oil, natural gas, petrochemicals, and feedstocks and other market factors, economic conditions and seasonal fluctuations that impact prices and differentials for our products",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 reflects strong operational momentum but no formal guidance raise. A reviewer should confirm this is appropriately weighted versus the +0.5 threshold for a formal guidance raise."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin commentary was found in the document; the field was set to 'Not disclosed'."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2023-04-28",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-04-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q1/XOM_Q1_2023_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q1/XOM_Q1_2023_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ1_2023",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:07:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q1/XOM_Q1_2023_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q1/XOM_Q1_2023_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 38098,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q1/XOM_Q1_2023_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 57322,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ1_2023.txt"
+  }
+}

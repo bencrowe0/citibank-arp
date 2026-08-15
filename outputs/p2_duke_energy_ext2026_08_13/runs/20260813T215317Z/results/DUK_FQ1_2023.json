@@ -1,0 +1,192 @@
+{
+  "document_id": "DUK_FQ1_2023",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The company reported adjusted EPS of $1.20, down from $1.29 in the prior year, primarily due to mild weather, higher interest expense, and lower volumes. Management reaffirmed the 2023 EPS guidance range of $5.55-$5.75 and the long-term growth rate of 5%-7%, with no change to forward expectations. The tone is confident but acknowledges headwinds, and the reaffirmation without a raise results in a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q1 2023 were $7,276 million, compared to $7,011 million in Q1 2022.",
+    "eps": "Reported EPS of $1.01 and adjusted EPS of $1.20 for Q1 2023, compared to reported EPS of $1.08 and adjusted EPS of $1.29 for Q1 2022.",
+    "guidance": "Reaffirming adjusted 2023 EPS guidance range of $5.55 to $5.75, and long-term adjusted EPS growth rate of 5% to 7% through 2027 off the 2023 midpoint of $5.65.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Mild winter weather, among the warmest on record, drove a $0.22 per share headwind compared to normal.",
+      "Higher interest expense negatively impacted results.",
+      "Lower volumes, including weakness in the textile sector and an isolated plant closure by an electronics manufacturer in the Carolinas.",
+      "Lingering supply chain impacts affecting customer usage.",
+      "The sale of the Commercial Renewables business is in late stage, with an estimated impairment loss of approximately $175 million recorded in Q1 2023."
+    ],
+    "key_opportunities": [
+      "Growth from riders and other retail margin.",
+      "Favorable rate case impacts, including the Florida multi-year rate plan and the Duke Energy Progress partial settlement in North Carolina.",
+      "Strong customer growth in the residential class, with population migration into service territories.",
+      "Economic development results attracting over 29,000 new jobs and $23 billion in capital investments in 2022.",
+      "Grid investment plan of $36 billion, over half of the five-year capital plan, supporting reliability and energy transition."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed confidence in reaffirming guidance and long-term growth, stating 'we are reaffirming our 2023 EPS guidance range of $5.55 to $5.75' and 'we're also on track to deliver our long-term growth rate of 5% to 7% through 2027.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total operating revenues for Q1 2023 were $7,276 million, compared to $7,011 million in Q1 2022.",
+      "quote": "Total operating revenues 7,276 7,011",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $1.01 and adjusted EPS was $1.20 for Q1 2023.",
+      "quote": "First-quarter 2023 reported EPS of $1.01 and adjusted EPS of $1.20.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS decreased from $1.29 in Q1 2022 to $1.20 in Q1 2023.",
+      "quote": "This is compared to reported EPS of $1.08 and adjusted EPS of $1.29 for the first quarter of 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its 2023 EPS guidance range of $5.55 to $5.75.",
+      "quote": "The company is reaffirming the adjusted 2023 EPS guidance range of $5.55 to $5.75, and long-term adjusted EPS growth rate of 5% to 7% through 2027 off the 2023 midpoint of $5.65.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mild winter weather was a significant headwind, with a $0.22 per share impact compared to normal.",
+      "quote": "Results reflect mild winter weather, among the warmest on record and $0.22 below normal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest expense negatively impacted results.",
+      "quote": "Lower first-quarter 2023 adjusted results were driven by unfavorable weather, higher interest expense, and lower volumes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower volumes were a negative factor in the quarter.",
+      "quote": "Lower first-quarter 2023 adjusted results were driven by unfavorable weather, higher interest expense, and lower volumes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Commercial Renewables sale process is in late stage, with an estimated impairment loss of approximately $175 million.",
+      "quote": "For the first quarter of 2023, Duke Energy's GAAP reported Loss from Discontinued Operations, net of tax, includes an estimated impairment loss on the sale of the Commercial Renewables business and other transaction costs of approximately $175 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growth from riders and other retail margin was a positive driver.",
+      "quote": "These items were partially offset by growth from riders and other retail margin, lower storm costs, and favorable rate case impacts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Favorable rate case impacts were a positive driver.",
+      "quote": "These items were partially offset by growth from riders and other retail margin, lower storm costs, and favorable rate case impacts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Residential customer growth was strong, with a 1.7% increase in average customers.",
+      "quote": "Residential 7,199,420 7,079,647 1.7 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Economic development results included over 29,000 new jobs and $23 billion in capital investments in 2022.",
+      "quote": "Over the year, we partnered with our states to attract over 29,000 new jobs and $23 billion in capital investments to our service territories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The grid investment plan is $36 billion, over half of the five-year capital plan.",
+      "quote": "Let me take a moment to talk about our grid investment plan, which is $36 billion accounts for over half of our five-year capital plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, as they reaffirmed guidance and expressed confidence in the long-term growth rate.",
+      "quote": "We're also on track to deliver our long-term growth rate of 5% to 7% through 2027, off the midpoint of the 2023 range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.0 despite a reaffirmed guidance and some positive drivers; the mild weather headwind and lower EPS could be interpreted as slightly negative, but the reaffirmation and confident tone keep it neutral. A reviewer may consider whether the weather impact and lower EPS warrant a slightly negative score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2023-05-09",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-05-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q1/DUK_Q1_2023_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q1/DUK_Q1_2023_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ1_2023"
+  },
+  "run_meta": {
+    "run_id": "20260813T215317Z",
+    "timestamp": "2026-08-13T21:53:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q1/DUK_Q1_2023_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q1/DUK_Q1_2023_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 60979,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q1/DUK_Q1_2023_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 34944,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ1_2023.txt"
+  }
+}

@@ -69,8 +69,8 @@
     }
   ],
   "release_timing": {
-    "value": "unknown",
-    "source": "Non-US issuer \u2014 release timing must be sourced from home-exchange regulatory filing or IR announcement; EDGAR 8-K does not apply",
+    "value": "pre_market",
+    "source": "Confirmed pre_market from exchange timestamps \u2014 see outputs/global/summary/non_us_release_timing_extension.csv (all events release 3-7h before respective session open). Confirmed 2026-08-13.",
     "retrieval_date": "2026-08-13"
   }
 }

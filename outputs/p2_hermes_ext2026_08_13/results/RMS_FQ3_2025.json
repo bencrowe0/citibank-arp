@@ -1,0 +1,189 @@
+{
+  "document_id": "RMS_FQ3_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported solid Q3 growth of +10% at constant exchange rates and reaffirmed its ambitious medium-term revenue growth target, but did not raise formal guidance. Management expressed confidence in navigating uncertainties, citing customer loyalty and employee commitment, while acknowledging a challenging environment for certain sectors like Perfume and Watches. The forward outlook is stable rather than upgraded, with cautious language about economic, geopolitical, and monetary uncertainties, leading to a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "\u20ac11.9 billion at end of September 2025, up 9% at constant exchange rates and 6% at current exchange rates; Q3 revenue \u20ac3.9 billion, up 10% at constant exchange rates and 5% at current exchange rates.",
+    "eps": "Not disclosed",
+    "guidance": "The group confirms an ambitious goal for revenue growth at constant exchange rates in the medium-term, despite economic, geopolitical, and monetary uncertainties. For 2025, the outlook remains unchanged.",
+    "margin": "Recurring operating income for H1 2025 was 41.4% of revenue (H1 2024: 40.5%).",
+    "key_risks": [
+      "Currency fluctuations had a negative impact of \u20ac254 million on revenue.",
+      "Perfume and Beauty sector declined 5% due to a high comparison base from last year's Bar\u00e9nia launch.",
+      "Watches m\u00e9tier declined 3% in a challenging environment.",
+      "Economic, geopolitical, and monetary uncertainties around the world.",
+      "Q4 will have a higher comparison basis, with approximately \u20ac200 million more revenue than Q3 last year."
+    ],
+    "key_opportunities": [
+      "Strong growth in all geographical areas, with Asia excluding Japan +4%, Japan +15%, Americas +13%, Europe excluding France +12%, France +9%, Other +15%.",
+      "Leather Goods and Saddlery +13% with strong demand for iconic products and new collections.",
+      "Expansion of production capacities with new workshops opening through 2028.",
+      "New store openings in Scottsdale, Nashville, and Mexico City.",
+      "Positive signals in Greater China: stabilizing real estate in Tier 1 cities and pickup in financial markets.",
+      "Strong Q3 in the U.S. driven by jewelry, silk, shoes, watches, and increased footfall."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'Herm\u00e8s is maintaining its course, thanks to solid growth that reflects the strength of our model' and 'continues its development with confidence' despite uncertainties."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for the first nine months of 2025 was \u20ac11.9 billion, up 9% at constant exchange rates.",
+      "quote": "The group\u2019s consolidated revenue amounted to \u20ac11.9 billion at the end of September 2025, up 9% at constant exchange rates and 6% at current exchange rates compared to the same period in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 revenue was \u20ac3.9 billion, up 10% at constant exchange rates.",
+      "quote": "In the third quarter, sales continued to grow and reached \u20ac3.9 billion, up 10% at constant exchange rates, a slight improvement compared to the second quarter, particularly in Europe, the Americas and Asia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for 2025 remains unchanged, with an ambitious medium-term revenue growth target at constant exchange rates.",
+      "quote": "For 2025, our outlook remains unchanged. The group confirms its ambitious growth target for revenue at constant exchange rate and continues to grow with confidence.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recurring operating income margin for H1 2025 was 41.4% of revenue.",
+      "quote": "Recurring operating income (2) 3,327 6,150 3,148 As a % of revenue 41.4% 40.5% 42.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency fluctuations negatively impacted revenue by \u20ac254 million.",
+      "quote": "At the end of September 2025, currency fluctuations represented a negative impact of \u20ac254 million on revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Perfume and Beauty sector declined 5% due to a high comparison base.",
+      "quote": "Perfume and Beauty (-5%) was impacted by a high comparison base, due to last year\u2019s launch of Bar\u00e9nia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Watches m\u00e9tier declined 3% in a challenging environment.",
+      "quote": "In a still challenging environment, the Watches m\u00e9tier (-3%) continued its development with the success of the new versions of the Herm\u00e8s H08 line and the reinterpretation of its iconic complication, Le temps suspendu, across the Arceau and Herm\u00e8s Cut lines.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the company's trajectory despite uncertainties.",
+      "quote": "Axel Dumas, Executive Chairman of Herm\u00e8s, said: \u201cIn the third quarter, Herm\u00e8s is maintaining its course, thanks to solid growth that reflects the strength of our model. We remain focused on navigating uncertainties, thanks to the loyalty of our customers and the commitment of our employees.\u201d",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 will face a higher comparison basis.",
+      "quote": "Well, look, as you say, Q4 will be a higher comparison basis. We are, yes, something like EUR 200 million more than in Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Positive signals in Greater China include stabilizing real estate and recovering financial markets.",
+      "quote": "There are two encouraging signs, which make us optimistic from a macroeconomic point of view. First of all, there is more stability in real estate in Tier 1 cities in China. So that's a positive signal. And secondly, we have another reason to be optimistic. It's the pickup of the financial markets in Continental China and Hong Kong, which is also, yes, a good sign.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong growth in the Americas, driven by the U.S., with new store openings.",
+      "quote": "The Americas ( +13%) confirmed their momentum, with a slight acceleration in the third quarter, driven in particular by the United States. The new store in Scottsdale, Arizona , opened in September, followed by the opening of the Nashville store in Tennessee in October.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leather Goods and Saddlery grew 13% with strong demand for iconic products and new collections.",
+      "quote": "Leather Goods and Saddlery (+ 13%) achieved a remarkable performance, in line with the trajectory for the year, supported by the strong demand on iconic products and new collections . The new equestrianinspired models, Tablier Sellier and Besace Trotting , as well as the return of the iconic Plume, are enjoying great success.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "In a more uncertain economic and geopolitical context, the group continues its development with confidence, thanks to the highly integrated artisanal model, the balanced distribution network, the creativity of collections and the loyalty of clients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is borderline; guidance was reaffirmed but not raised, and management expressed confidence despite uncertainties. Human review recommended to confirm the score aligns with the guidance-change framework."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "RMSP.XC_Bundled Earnings Report_2025-10-01",
+  "report_metadata": {
+    "issuer": "p2_hermes",
+    "company": "Hermes",
+    "ticker": "RMSP.XC",
+    "sector": "Consumer Cyclical/Luxury Goods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "RMS_FQ3_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221206Z",
+    "timestamp": "2026-08-13T22:12:47Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_hermes_ext2026_08_13/extracted/RMS_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Press_Release.pdf",
+        "page_count": 6,
+        "extracted_characters": 12235,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 1,
+        "extracted_characters": 24440,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_hermes_ext2026_08_13/extracted/RMS_FQ3_2025.txt"
+  }
+}

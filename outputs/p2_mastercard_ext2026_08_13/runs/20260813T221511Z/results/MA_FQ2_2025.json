@@ -1,0 +1,201 @@
+{
+  "document_id": "MA_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company raised its full-year net revenue growth outlook to the 'low teens' range on a currency-neutral basis, excluding acquisitions, tightening from the prior range shared at Q1 earnings, which signals a positive forward revision. However, the Q2 beat was partially attributed to FX volatility, and management flagged ongoing geopolitical and economic uncertainty, which tempers the score. The guidance raise is organic in part, but the FX attribution and cautious macro language prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 2025 net revenue of $8.1 billion, up 17% as reported and 16% on a currency-neutral basis year-over-year.",
+    "eps": "Q2 2025 diluted EPS of $4.07 (GAAP) and adjusted diluted EPS of $4.15, up 16% as reported and 14% on a currency-neutral basis year-over-year.",
+    "guidance": "Full-year 2025 net revenue growth expected at the low teens range on a currency-neutral basis, excluding acquisitions; acquisitions expected to add 1-1.5 ppt; FX expected to be a 1-2 ppt tailwind. Q3 2025 net revenue growth expected at the high end of a low double digits range on a currency-neutral basis, excluding acquisitions.",
+    "margin": "Q2 2025 operating margin was 58.7% (GAAP) and 59.9% (adjusted), up 0.8 ppt and 0.5 ppt respectively on a currency-neutral basis.",
+    "key_risks": [
+      "Ongoing geopolitical and economic uncertainty",
+      "Potential regulatory shifts in key markets",
+      "Increasing competition in the fintech space",
+      "Foreign exchange fluctuations",
+      "Lapping of portfolios won in 2024 (e.g., Citizens, Wells Fargo) impacting volume growth",
+      "Capital One debit portfolio migration expected to have a minimal net revenue impact this year, with the vast majority of impact next year",
+      "Higher effective tax rate due to Pillar 2 global minimum tax rules"
+    ],
+    "key_opportunities": [
+      "Strong consumer spending supported by low unemployment and wage growth outpacing inflation",
+      "Growth in value-added services and solutions (up 22% currency-neutral)",
+      "Cross-border volume growth of 15%",
+      "New partnerships and deal wins (e.g., American Airlines, Walmart, Uber, PayPal)",
+      "Expansion in commercial payments, including virtual cards and small business solutions",
+      "Growth in Mastercard Move disbursements (over 35% YoY transaction growth)",
+      "New product innovations like Mastercard Agent Pay and Account to Account Protect"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Michael Miebach stated, 'We delivered another strong quarter with our financial results exceeding our expectations,' and the overall language is positive and forward-looking, despite acknowledging macro uncertainty."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 net revenue was $8.1 billion, up 17% as reported and 16% on a currency-neutral basis.",
+      "quote": "Second quarter net revenue of $8.1 billion, an increase of 17%, or 16% on a currency-neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 diluted EPS was $4.07 (GAAP) and adjusted diluted EPS was $4.15.",
+      "quote": "Second quarter net income of $3.7 billion, and diluted earnings per share (EPS) of $4.07 • Second quarter adjusted net income of $3.8 billion, and adjusted diluted EPS of $4.15",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 net revenue growth guidance was raised to the low teens range on a currency-neutral basis, excluding acquisitions.",
+      "quote": "Given the strong first half results, we are tightening the full year net revenue outlook range to the high end of the range we shared with you at the time of our Q1 earnings. We now expect net revenues to grow at the low teens range on a currency neutral basis, excluding acquisitions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 operating margin was 58.7% (GAAP) and 59.9% (adjusted).",
+      "quote": "Operating margin 58.7% 58.0% 0.8 ppt 0.8 ppt ... Adjusted operating margin 59.9% 59.4% 0.5 ppt 0.5 ppt",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Q2 revenue beat was partially driven by FX volatility.",
+      "quote": "This growth was ahead of expectations, primarily driven by higher expected revenue from FX volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged ongoing geopolitical and economic uncertainty.",
+      "quote": "That said, ongoing geopolitical and economic uncertainty remains. With global policy shifts ongoing, we remain agile, monitoring developments and we stand ready to adjust as needed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces headwinds from lapping portfolios won in 2024.",
+      "quote": "So what you should expect is that the lapping impact has gotten more pronounced in Q2 and then will continue through in Q2 Q3 and Q4. So there is going to be continued lapping, not only on account of those portfolios, but other portfolios as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Capital One debit portfolio migration will have a minimal net revenue impact this year, with the vast majority of impact next year.",
+      "quote": "We expect this year the net revenue impact to be minimal to our overall company's net revenues. Vast majority of the impact we expect to feel will be next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The effective tax rate increased due to Pillar 2 rules.",
+      "quote": "Both the as-reported and as-adjusted effective tax rates were higher in 2025 primarily due to the 15% global minimum tax (“Pillar 2 Rules”) that took effect in 2025 in Singapore and various other jurisdictions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Value-added services and solutions net revenue increased 22% on a currency-neutral basis.",
+      "quote": "Value-added services and solutions net revenue increased 23%, or 22% on a currency-neutral basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cross-border volume grew 15% on a local currency basis.",
+      "quote": "Cross-border volume growth of 15% on a local currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "The headline this morning is, we delivered another strong quarter with our financial results exceeding our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mastercard Move transaction growth was over 35% year-over-year in Q2.",
+      "quote": "We continue to see strong growth in our Mastercard move capabilities with year over year transaction growth of over 35% in quarter two.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects Q3 2025 net revenue growth at the high end of a low double digits range on a currency-neutral basis, excluding acquisitions.",
+      "quote": "Year over year net revenue growth is expected to be at the high end of a low double digits range on a currency neutral basis, excluding acquisitions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is partially attributed to FX volatility, which may warrant a lower score than a purely organic raise. The score of 0.30 reflects a balance between the positive guidance revision and the FX attribution/cautious macro language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MA_Bundled Earnings Report_2025-07-31",
+  "report_metadata": {
+    "issuer": "p2_mastercard",
+    "company": "Mastercard",
+    "ticker": "MA",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q2/MA_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q2/EMA_Q2_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MA_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221511Z",
+    "timestamp": "2026-08-13T22:15:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q2/MA_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_mastercard_ext2026_08_13/extracted/MA_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q2/MA_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 37429,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q2/EMA_Q2_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 81602,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_mastercard_ext2026_08_13/extracted/MA_FQ2_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

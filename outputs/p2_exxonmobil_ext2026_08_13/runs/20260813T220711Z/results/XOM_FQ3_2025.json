@@ -1,0 +1,203 @@
+{
+  "document_id": "XOM_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reported strong third-quarter results with earnings per share of $1.88 excluding identified items, beating analyst expectations of $1.82, and management expressed high confidence in its execution and growth trajectory. However, full-year capital expenditure guidance was lowered to slightly below the $27-29 billion range, and management attributed the reduction to slower market development in low-carbon ventures, indicating a cautious approach to forward investment. The overall tone is confident, but the guidance adjustment and reliance on timing effects temper the score, resulting in a moderately positive outlook."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues and other income for Q3 2025 were $85,294 million, compared to $90,016 million in Q3 2024, a decrease of approximately 5.2%.",
+    "eps": "Earnings per common share (assuming dilution) for Q3 2025 were $1.76, compared to $1.92 in Q3 2024. Earnings excluding identified items per share were $1.88, beating analyst expectations of $1.82.",
+    "guidance": "The company expects full-year cash capital expenditures to be slightly below the lower end of the $27 billion to $29 billion guidance range, excluding acquisitions. Management also reaffirmed plans to repurchase $20 billion of shares this year and expects to achieve more than $18 billion in cumulative Structural Cost Savings by 2030.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Weaker crude prices and bottom-of-cycle chemical margins impacted year-to-date earnings.",
+      "Higher depreciation, growth costs, and lower base volumes from strategic divestments decreased earnings.",
+      "The market for low-carbon solutions is developing slower than planned, leading to pacing of capital spend.",
+      "Unfavorable foreign exchange and tax impacts affected quarterly results.",
+      "Higher expenses related to growth projects and pension-related expenses increased net charges."
+    ],
+    "key_opportunities": [
+      "Advantaged volume growth in the Permian and Guyana, with record production in both regions.",
+      "Structural cost savings, with $14.3 billion cumulative savings since 2019 and $2.2 billion achieved in 2025.",
+      "Startup of eight of ten key 2025 projects, with the remaining two on track, expected to drive over $3 billion in earnings contributions next year.",
+      "Expansion into carbon materials market with Superior Graphite acquisition and battery anode materials opportunity.",
+      "New technologies like lightweight proppant improving well recoveries by up to 20%.",
+      "Strong refining margins due to supply disruptions and record refinery throughput."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly emphasized being 'in a league of our own' and highlighted record production, project execution, and structural cost savings, reflecting strong confidence in the company's performance and outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 revenue was $85,294 million, down from $90,016 million in Q3 2024.",
+      "quote": "Total revenues and other income 85,294 90,016 249,930 266,159",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 EPS (assuming dilution) was $1.76, down from $1.92 in Q3 2024.",
+      "quote": "Earnings per common share (U.S. dollars) 1.76 1.92 5.16 6.12",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings excluding identified items per share were $1.88, beating analyst expectations of $1.82.",
+      "quote": "Exxon Mobil Corporation beats earnings expectations. Reported EPS is $1.88, expectations were $1.82.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year cash capital expenditure guidance was lowered to slightly below the $27-29 billion range.",
+      "quote": "Excluding acquisitions, the company expects full-year cash capital expenditures slightly below the lower end of the $27 billion to $29 billion guidance range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to repurchase $20 billion of shares this year.",
+      "quote": "Shareholder distributions of $27.8 billion included $12.9 billion of dividends and $14.9 billion of share repurchases, consistent with the company's plan to repurchase $20 billion of shares this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to achieve more than $18 billion in cumulative Structural Cost Savings by 2030.",
+      "quote": "The company is on track to achieve more than $18 billion in cumulative Structural Cost Savings by the end of 2030.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Weaker crude prices and bottom-of-cycle chemical margins impacted year-to-date earnings.",
+      "quote": "Weaker crude prices, bottom-of-cycle chemical margins, higher depreciation, growth costs, and lower base volumes from strategic divestments decreased earnings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The market for low-carbon solutions is developing slower than planned, leading to pacing of capital spend.",
+      "quote": "The market is not developing as fast as we had planned for, and so we are pacing the spend in that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advantaged volume growth in the Permian and Guyana, with record production in both regions.",
+      "quote": "In Guyana, we broke records with quarterly production surpassing 700,000 barrels per day... In the Permian, we also set another production record of nearly 1.7 million oil-equivalent barrels per day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural cost savings of $14.3 billion cumulative since 2019, with $2.2 billion achieved in 2025.",
+      "quote": "The company surpassed $14 billion in cumulative Structural Cost Savings since 2019, with an additional $2.2 billion achieved in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Startup of eight of ten key 2025 projects, with the remaining two on track, expected to drive over $3 billion in earnings contributions next year.",
+      "quote": "We’ve now started up eight of our 10 key 2025 projects, with the remaining two on track... They are expected to drive more than $3 billion in earnings contributions next year at constant prices and margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion into carbon materials market with Superior Graphite acquisition and battery anode materials opportunity.",
+      "quote": "The company announced the acquisition of key assets from Superior Graphite, a leader in the graphite and specialty carbon market. This acquisition advances entry into the battery anode materials market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New technologies like lightweight proppant improving well recoveries by up to 20%.",
+      "quote": "This improves access and flow, which increases well recoveries by up to 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong refining margins due to supply disruptions and record refinery throughput.",
+      "quote": "The earnings improvement was driven by stronger industry refining margins due to supply disruptions, as well as higher volumes from record refinery throughput and advantaged projects growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, emphasizing being 'in a league of our own'.",
+      "quote": "ExxonMobil had a strong third quarter, continuing to demonstrate that we are truly in a league of our own.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a positive beat and confident tone, but the guidance reduction for capex and slower low-carbon market development could warrant a lower score. Reviewer should verify the balance between positive operational momentum and the cautious forward investment stance."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is mixed: capex guidance lowered, but share repurchase and cost savings targets reaffirmed. Ensure the summary captures the nuance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2025-10-31",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q3/XOM_Q3_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q3/XOM_Q3_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:09:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q3/XOM_Q3_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q3/XOM_Q3_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 47119,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q3/XOM_Q3_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 65806,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ3_2025.txt"
+  }
+}

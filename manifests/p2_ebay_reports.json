@@ -15,11 +15,8 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/ebay/CY2025-Q1/EBAY_Q1_2025_Press_Release.htm"
-        },
-        {
-          "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/ebay/CY2025-Q1/EBAY_Q1_2025_Transcript.htm"
+          "source_pdf": "docs/ebay/CY2025-Q1/EBAY_Q1_2025_Press_Release.htm",
+          "note": "Human arm read press release only. Re-saved from EDGAR Exhibit 99.1 as HTML 2026-08-13 (original PDF was image-only, zero extractable text). Verified clean 2026-08-13."
         }
       ]
     },
@@ -37,11 +34,8 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/ebay/CY2025-Q2/EBAY_Q2_2025_Press_Release.htm"
-        },
-        {
-          "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/ebay/CY2025-Q2/EBAY_Q2_2025_Transcript.htm"
+          "source_pdf": "docs/ebay/CY2025-Q2/EBAY_Q2_2025_Press_Release.htm",
+          "note": "Human arm read press release only. Re-saved from EDGAR Exhibit 99.1 as HTML 2026-08-13 (original PDF was image-only, zero extractable text). Verified clean 2026-08-13."
         }
       ]
     },
@@ -60,10 +54,6 @@
         {
           "doc_type": "Press Release",
           "source_pdf": "docs/ebay/CY2025-Q3/EBAY_Q3_2025_Press_Release.htm"
-        },
-        {
-          "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/ebay/CY2025-Q3/EBAY_Q3_2025_Transcript.htm"
         }
       ]
     },
@@ -82,10 +72,6 @@
         {
           "doc_type": "Press Release",
           "source_pdf": "docs/ebay/CY2026-Q1/EBAY_Q1_2026_Press_Release.htm"
-        },
-        {
-          "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/ebay/CY2026-Q1/EBAY_Q1_2026_Transcript.htm"
         }
       ]
     }

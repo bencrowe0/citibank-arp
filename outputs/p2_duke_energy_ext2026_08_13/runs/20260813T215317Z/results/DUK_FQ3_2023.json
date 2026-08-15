@@ -1,0 +1,226 @@
+{
+  "document_id": "DUK_FQ3_2023",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported adjusted EPS of $1.94, up from $1.78 in the prior year, and narrowed its 2023 EPS guidance range to $5.55-$5.65 while reaffirming its long-term 5-7% growth rate. However, the guidance was not raised, and management noted headwinds from mild weather, lower volumes, and higher interest expense, with the full-year outlook trending to the lower half of the range. The constructive regulatory outcomes and completion of the transition to a fully regulated utility provide some positive momentum, but the forward guidance is essentially unchanged, resulting in a modestly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q3 2023 were $7,994 million, compared to $7,842 million in Q3 2022. For the nine months ended September 30, 2023, revenues were $21,848 million versus $21,417 million in the prior year.",
+    "eps": "Reported EPS for Q3 2023 was $1.59, compared to $1.81 in Q3 2022. Adjusted EPS was $1.94, compared to $1.78 in Q3 2022.",
+    "guidance": "The company narrowed its adjusted 2023 EPS guidance range to $5.55 to $5.65 and reaffirmed its long-term adjusted EPS growth rate of 5% to 7% through 2027 off the original 2023 midpoint of $5.65. Management expects to finish the year within the guidance range, trending to the lower half.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Higher interest expense",
+      "Lower volumes (weather-normalized and industrial weakness)",
+      "Mild weather (weather was $0.20 below normal year-to-date)",
+      "Higher storm costs",
+      "Potential for higher financing costs in 2024 due to higher-for-longer interest rates",
+      "Uncertainty in the broader economy affecting industrial customer demand"
+    ],
+    "key_opportunities": [
+      "Constructive regulatory outcomes, including North Carolina rate cases with performance-based regulation and multiyear rate plans",
+      "Growth from riders and other retail margin",
+      "Favorable rate case impacts",
+      "Lower effective tax rate due to tax efficiency efforts",
+      "Strong customer growth from population migration and economic development",
+      "Completion of transition to a fully regulated company",
+      "Capital investment opportunities from the Carolinas resource plan and other jurisdictions",
+      "Nuclear PTCs and transferability provisions of the IRA"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed confidence in the company's strategic direction and growth prospects, stating 'our long-term organic growth strategy has never been more clear' and reaffirming the 5-7% earnings growth rate."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2023 reported EPS was $1.59, compared to $1.81 in Q3 2022.",
+      "quote": "Duke Energy today announced third-quarter 2023 reported EPS of $1.59, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $1.94. This is compared to reported EPS of $1.81 and adjusted EPS of $1.78 for the third quarter of 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2023 adjusted EPS was $1.94, compared to $1.78 in Q3 2022.",
+      "quote": "Duke Energy today announced third-quarter 2023 reported EPS of $1.59, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $1.94. This is compared to reported EPS of $1.81 and adjusted EPS of $1.78 for the third quarter of 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenues for Q3 2023 were $7,994 million, compared to $7,842 million in Q3 2022.",
+      "quote": "Total operating revenues 7,994 7,842 21,848 21,417",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company narrowed its 2023 adjusted EPS guidance range to $5.55 to $5.65.",
+      "quote": "The company is narrowing the adjusted 2023 EPS guidance range to $5.55 to $5.65 and reaffirming the long-term adjusted EPS growth rate of 5% to 7% through 2027 off the original 2023 midpoint of $5.65.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to finish the year within the guidance range, trending to the lower half.",
+      "quote": "We expect to finish the year within our guidance range trending to the lower half of the range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest expense was a headwind in the quarter.",
+      "quote": "Lower quarterly results were primarily due to higher interest expense and lower volumes, partially offset by growth from riders and other retail margin and favorable rate case impacts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower volumes were a headwind in the quarter.",
+      "quote": "Lower quarterly results were primarily due to higher interest expense and lower volumes, partially offset by growth from riders and other retail margin and favorable rate case impacts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mild weather was a headwind, with weather $0.20 below normal year-to-date.",
+      "quote": "We entered the year with one of the mildest winters on record. And although weather improved in the third quarter, we remain $0.20 below normal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher storm costs were a headwind in the quarter.",
+      "quote": "These positive items were offset by lower weather-normalized volumes, higher storm costs and higher interest expense.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company completed its transition to a fully regulated utility.",
+      "quote": "The sales of the utility-scale solar and wind assets as well as the distributed generation assets closed in October 2023, completing the company's transition to a fully regulated utility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Constructive regulatory outcomes, including the North Carolina rate case, were a positive development.",
+      "quote": "In August, the North Carolina Utilities Commission approved our Duke Energy Progress rate case application and related settlements. This order is the culmination of years of work with stakeholders and represents a significant milestone, the first implementation of performance-based regulation, including multiyear rate plans authorized by HB951.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growth from riders and other retail margin was a positive driver.",
+      "quote": "Higher third-quarter 2023 adjusted results were driven by a lower effective tax rate, growth from riders and other retail margin, and favorable rate case impacts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A lower effective tax rate was a positive driver.",
+      "quote": "Higher third-quarter 2023 adjusted results were driven by a lower effective tax rate, growth from riders and other retail margin, and favorable rate case impacts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "As we execute our $65 billion five-year capital plan – one of the largest in our industry – our long-term organic growth strategy has never been more clear.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects higher financing costs in 2024 due to higher-for-longer interest rates.",
+      "quote": "We expect interest rates to be higher for longer, resulting in increased financing cost in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industrial customers are experiencing a near-term pullback due to economic uncertainty.",
+      "quote": "Many of our industrial customers are acknowledging a near-term pullback, managing inventory levels and cost in a disciplined way due to uncertainty in the broader economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong customer growth from population migration and economic development is a tailwind.",
+      "quote": "We continue to see strong customer growth from population migration and robust economic development, giving us confidence in growth over the long term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees meaningful load growth from economic development projects.",
+      "quote": "Based on recent success in economic development efforts in key sectors such as battery, EVs, semiconductors and data centers, we see meaningful load growth over the next several years as outlined on Slide 9.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nuclear PTCs and transferability provisions are expected to be credit positive.",
+      "quote": "The settlement provides for the flowback of annual PTCs to customers over a four-year amortization period. If approved by the commission, this settlement would provide savings for customers and be supportive to our credit metrics. We intend to utilize the transferability provisions of the IRA and have engaged an external advisor to run a formal auction-style process, providing access to a broad range of qualified buyers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is at the boundary of the HOLD band; the guidance was narrowed but not raised, and management's tone is confident but with noted headwinds. A reviewer may want to confirm the score aligns with the guidance-change framework."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2023-11-02",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-11-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q3/DUK_Q3_2023_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q3/DUK_Q3_2023_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ3_2023"
+  },
+  "run_meta": {
+    "run_id": "20260813T215317Z",
+    "timestamp": "2026-08-13T21:54:05Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q3/DUK_Q3_2023_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q3/DUK_Q3_2023_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 79982,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q3/DUK_Q3_2023_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 82450,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ3_2023.txt"
+  }
+}

@@ -13,7 +13,8 @@ below. This document lists every result that stands.
 **Statistic**: Spearman rho = 0.236, p = 0.0003, on all 233 clean events.
 Decays monotonically: 0.159 (1d, p=0.015), 0.112 (3d, p=0.089), 0.072
 (5d, p=0.276), 0.058 (10d, p=0.380). Bootstrap CI on mean net per trade
-crosses zero by 3 days.
+(raw direction-signed returns, no SPY component) crosses zero between 3
+and 5 days: 3d lower bound +0.029%, 5d lower bound −0.270%.
 
 **Threshold-dependent?** No. Rho uses the continuous blended score and the
 continuous return. No band, no BUY/SELL/HOLD split, no grading threshold.
@@ -23,6 +24,19 @@ convention (it uses the same returns_matrix as everything else, which was
 rebuilt on the corrected anchor) but it was recomputed on the corrected
 matrix and improved from 0.221 to 0.236. It is not sensitive to the HOLD
 threshold because it uses all 233 events, not just traded ones.
+
+**Note on excess-over-SPY**: the decay finding is on raw direction-signed
+mean net per trade. The `excess_*` columns in `returns_matrix.csv` are a
+separate per-event diagnostic (stock return minus SPY return at that
+horizon) and are not used in this computation. The excess series is not
+monotonic across horizons, which does not contradict this finding: the
+non-monotonicity reflects SPY's own multi-horizon return pattern across
+the 146 traded events' specific entry dates, not anything about the model
+signal. As an illustration: removing the 25 worksheet-contaminated events
+(disproportionately high-weight technology names — NVDA, AMD, TSLA, META,
+AMZN) changed the composition of the 146 trading dates and therefore the
+SPY benchmark at those dates, moving the 10-day excess figure from −0.076%
+to +1.466% with no change to the underlying signal or raw returns.
 
 ## 2. Selectivity accuracy (qualified — not verifiable OOS)
 
@@ -40,15 +54,36 @@ optimising compounded total return on the full dataset (in-sample,
 PSR=0.0). The 95-event denominator is itself a product of in-sample
 threshold selection.
 
-**Item E outcome**: Walk-forward threshold refitting degenerates at N=233.
-Two objectives were tried — mean net per trade and directional accuracy
-(with a 15% minimum trade fraction). Both degenerate: mean-net refitting
-produces extreme thresholds (+0.45/-0.50) selecting 5-7 training trades
-and zero OOS trades in 3 of 4 windows; accuracy refitting degenerates in
-2 of 4 windows. The threshold selection procedure behind the deployed
-65.3% cannot be executed honestly at this sample size. **Significant
-in-sample at p=0.024, and not verifiable out of sample because threshold
-refitting degenerates at this N.**
+**Item E outcome (updated 2026-08-14 with N=326 combined run)**: Walk-forward
+threshold refitting degenerates at N=233, and the two objectives degenerate
+for different reasons that do not resolve at N=326.
+
+*Mean-net maximisation* (the study's headline P&L metric): fits extreme
+thresholds (hu=0.45 / hl=−0.50) producing 5–7 training trades in 3 of 4
+windows at N=233, and still 3 of 4 at N=326 (train N=203, 271, 321). The
+fitted thresholds do not move as N increases. Trading rarely maximises the
+mean-net objective, so the grid is structurally drawn to near-zero trade
+rates regardless of sample size. **This objective will not become estimable
+by adding data.**
+
+*Directional-accuracy maximisation* (with 15% minimum trade fraction): degenerates
+in 2 of 4 windows at N=233, improving to 1 of 4 at N=326. Pooled OOS at
+N=326: 37 trades, 17/25 graded correct, accuracy 68.0%, floor 53.4%, gap
++14.6pp, mean net +1.79%, 90% CI [+0.12%, +3.49%]. The interval just clears
+zero at the lower bound. MDE ≈ 30pp (scaling from the cross-issuer MDE of
+20.8pp at n_graded=52; n_graded here is 25). The observed gap of 14.6pp is
+roughly half the MDE. **Directionally consistent but underpowered — this is
+not validation.** The result is also retrospective: all 326 events were seen
+before this analysis, so it cannot be presented as out-of-sample in the
+pre-registered sense. On the observed trajectory (degeneracy falling from 2/4
+to 1/4 adding 93 events), full non-degeneracy for the accuracy objective would
+plausibly require N ≈ 400–500. That is an extrapolation from two data points,
+not an estimate.
+
+This objective *does* respond to sample size and *is* the one to extend; the
+mean-net objective is not. **The threshold selection procedure behind the
+deployed 65.3% cannot be executed honestly at either N.** Significant
+in-sample at p=0.024, and not verifiable out of sample at current N.
 
 **Cross-issuer generalisation** (finding #3): 101 events from 29 issuers
 scored after the N=161 threshold sweep, zero issuer overlap with the 40
@@ -273,32 +308,48 @@ in-sample threshold selection.
 mean net per trade, the graded N, Item C per-arm accuracy) carries this
 qualification.
 
-**Item E outcome — two-objective degeneracy (structural, not
-objective-specific)**:
+**Item E outcome — the two objectives degenerate for different reasons
+(updated 2026-08-14 with N=326 combined run)**:
 
-Walk-forward threshold refitting degenerates at N=233. Two refit
-objectives were tried:
+Walk-forward threshold refitting degenerates at N=233, and the behaviour
+at N=326 reveals that the two objectives are not equivalent failures.
 
-1. **Mean net per trade** (the study's headline P&L metric,
-   order-independent): selects extreme thresholds (+0.45/-0.50)
-   producing 5–7 training trades and zero OOS trades in 3 of 4
-   windows.
-2. **Directional accuracy** (with a 15% minimum trade fraction
-   constraint): degenerates in 2 of 4 windows despite the trade-count
-   floor.
+1. **Mean-net maximisation**: structurally degenerate. Fits hu=0.45/hl=−0.50
+   (near-zero trade rate) in 3 of 4 windows at both N=233 and N=326. The
+   fitted thresholds do not change as training N grows from 146 to 321. This
+   is because trading rarely maximises the mean-net objective — a wide
+   hold-band that produces almost no trades tends to win in-sample. **This
+   objective will not become estimable by adding data.**
 
-Both objectives degenerate. The threshold selection procedure behind the
-deployed 65.3% cannot be executed honestly at this sample size. This
-means any threshold-dependent figure in this study — selectivity
-accuracy, mean net per trade, graded N, Item C per-arm accuracy — rests
-on a selection step that does not survive honest replication.
+2. **Directional-accuracy maximisation**: sample-limited. Degenerates in
+   2 of 4 windows at N=233, 1 of 4 at N=326. Pooled OOS at N=326 is 37 trades,
+   accuracy 68.0% (17/25 graded), floor 53.4%, mean net +1.79%, 90% CI
+   [+0.12%, +3.49%]. Directionally consistent but underpowered: the gap
+   (14.6pp) is roughly half the MDE (≈30pp). **This objective responds to
+   sample size.** On the observed trajectory, full non-degeneracy would
+   plausibly require N ≈ 400–500 (extrapolation from two data points, not
+   an estimate).
+
+Both objectives degenerate at current N. The threshold selection procedure
+behind the deployed 65.3% cannot be executed honestly at N=233 or N=326.
+Every threshold-dependent figure in this study — selectivity accuracy, mean
+net per trade, graded N, Item C per-arm accuracy — rests on a selection step
+that does not survive honest replication at this N.
+
+The N=326 OOS result (accuracy walk-forward, pooled) is also retrospective:
+all 326 events were seen before the analysis. It cannot be presented as
+out-of-sample in the pre-registered sense.
 
 The deployed thresholds' performance on 101 genuinely unseen events
 (29 issuers scored after the N=161 sweep, reconstructed cross-issuer
-generalisation subset — see finding #3) is 33/52 = 63.5% (p=0.063 vs floor). Directionally
-consistent but not significant at 0.05.
+generalisation subset — see finding #3) is 33/52 = 63.5% (p=0.063 vs floor).
+Directionally consistent but not significant at 0.05.
 
 **Rho (finding #1) does not depend on the threshold** and is the only
 headline that is clean of this qualification. That rho = 0.236 at
 p = 0.0003 is why it, not the selectivity accuracy, is the study's
 primary result.
+
+## Stated limitations
+
+**Consistency asymmetry (Set A vs Set B):** The frozen phase2 set (Set A, N=233) was scored with --ensemble runs, producing per-event consistency scores that allow output-stability cross-checks. The extension set (Set B, N=93) was not run with --ensemble; no consistency data exists for any of the 93 extension events. Any claim about output stability applies to Set A only. No comparison of ensemble consistency between sets is possible. Running the extension with --ensemble would cost approximately $0.77 (the same order as the original extension micro-layer run).

@@ -1,0 +1,253 @@
+{
+  "document_id": "HD_FQ2_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The company reported Q2 results in line with expectations and reaffirmed its fiscal 2025 guidance, indicating no change in forward expectations. While there is genuine operational momentum (strongest performance in over two years, 12 of 16 departments positive comps), management explicitly noted continued softness in larger discretionary projects and did not raise guidance. The reaffirmation of guidance with cautious language about the macro environment and larger projects keeps the score near neutral, with a slight positive tilt due to the observed momentum and confident language about market share gains."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$45.3 billion for Q2 FY2025, up 4.9% from $43.175 billion in Q2 FY2024. Comparable sales increased 1.0% overall and 1.4% in the U.S.",
+    "eps": "Diluted EPS of $4.58, down 0.4% from $4.60 in Q2 FY2024. Adjusted diluted EPS of $4.68, up 0.2% from $4.67.",
+    "guidance": "Reaffirmed fiscal 2025 guidance: total sales growth ~2.8%, comp sales growth ~1.0%, gross margin ~33.4%, operating margin ~13.0%, adjusted operating margin ~13.4%, tax rate ~24.5%, net interest expense ~$2.2B, diluted EPS decline ~3%, adjusted diluted EPS decline ~2%, capex ~2.5% of sales.",
+    "margin": "Gross margin 33.4% (slight increase vs 2024). Operating margin 14.5% (down from 15.1% in 2024). Adjusted operating margin 14.8% (down from 15.3%).",
+    "key_risks": [
+      "Continued softness in larger discretionary projects where customers typically use financing.",
+      "Foreign exchange rates negatively impacted total company comps by ~40 bps in Q2.",
+      "Tariffs and trade policy changes could cause modest price movement in some categories.",
+      "Macroeconomic uncertainty, including interest rates and housing market conditions, could affect demand.",
+      "Inventory turns declined to 4.6 times from 4.9 times last year.",
+      "Pending GMS acquisition not included in guidance and subject to risks."
+    ],
+    "key_opportunities": [
+      "Momentum in smaller home improvement projects with broad-based engagement across departments.",
+      "SRS acquisition exceeding expectations and driving market-leading growth and revenue synergies.",
+      "Pending GMS acquisition to add complementary verticals and expand distribution footprint.",
+      "Faster delivery speeds driving double-digit lift in spend from customers.",
+      "Trade credit rollout showing double-digit lift in spend from pros.",
+      "Battery-powered tools achieving company sales record.",
+      "Online sales leveraging digital platforms increased ~12%."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed confidence in navigating the environment and growing market share, stating 'we are confident that we can effectively navigate this environment' and 'we feel really good about our ability to do that.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 revenue was $45.3 billion, up 4.9% from the prior year.",
+      "quote": "The Home Depot®... today reported sales of $45.3 billion for the second quarter of fiscal 2025, an increase of $2.1 billion, or 4.9% from the second quarter of fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales increased 1.0% overall and 1.4% in the U.S.",
+      "quote": "Comparable sales for the second quarter of fiscal 2025 increased 1.0%, and comparable sales in the U.S. increased 1.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $4.58, down 0.4% from $4.60 in the prior year.",
+      "quote": "Net earnings for the second quarter of fiscal 2025 were $4.6 billion, or $4.58 per diluted share, compared with net earnings of $4.6 billion, or $4.60 per diluted share, in the same period of fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $4.68, up 0.2% from $4.67.",
+      "quote": "Adjusted(1) diluted earnings per share for the second quarter of fiscal 2025 were $4.68, compared with adjusted diluted earnings per share of $4.67 in the same period of fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 guidance was reaffirmed.",
+      "quote": "The company reaffirms its guidance for fiscal 2025, a 52-week year compared to fiscal 2024, a 53-week year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance includes total sales growth of approximately 2.8% and comp sales growth of approximately 1.0%.",
+      "quote": "Total sales growth of approximately 2.8% • Comparable sales growth of approximately 1.0% for the comparable 52-week period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin was 33.4%, a slight increase compared to 2024.",
+      "quote": "In the second quarter, our gross margin was 33.4%, a slight increase compared to 2024, which was in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 14.5%, down from 15.1% in 2024.",
+      "quote": "Our operating margin for the second quarter was 14.5% compared to 15.1% in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin was 14.8%, down from 15.3%.",
+      "quote": "Excluding the intangible asset amortization in the quarter, our adjusted operating margin for the second quarter was 14.8% compared to 15.3% in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange rates negatively impacted total company comps by approximately 40 basis points.",
+      "quote": "For the second quarter of fiscal 2025, foreign exchange rates negatively impacted total company comparable sales by approximately 40 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued softness in larger discretionary projects.",
+      "quote": "However, we continue to see softer engagement in larger discretionary projects where customers typically use financing to fund the renovation project.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs could cause modest price movement in some categories.",
+      "quote": "Now some of the important goods, obviously, tariff rates are significantly higher today than they were when we spoke in May. So as you'd expect, there'll be some modest price movement in some categories, but it won't be broad-based.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory turns declined to 4.6 times from 4.9 times last year.",
+      "quote": "At the end of the quarter, merchandise inventories were $24.8 billion, up approximately $1.8 billion compared to 2024, and inventory turns were 4.6 times, down from 4.9 times last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pending GMS acquisition not included in guidance.",
+      "quote": "As a reminder, our guidance does not include any assumptions on impacts from the pending GMS acquisition, fluctuations in foreign exchange rates, changes in the interest rate environment, or a recovery in demand for larger remodeling projects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Momentum in smaller home improvement projects.",
+      "quote": "The momentum that began in the back half of last year continued throughout the first half as we saw our customers engage more broadly in smaller home improvement projects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SRS exceeded expectations.",
+      "quote": "Over the past year, SRS has exceeded our expectations, driving market-leading growth, accelerating our organic ecosystem efforts, and driving revenue synergies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GMS acquisition will add complementary verticals.",
+      "quote": "This acquisition will add a highly complementary adjacent vertical to SRS's business, differentiated capabilities, product categories, and customer relationships.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Faster delivery speeds driving double-digit lift in spend.",
+      "quote": "We're seeing a double-digit lift in spend with customers who utilize our faster delivery options as they return more frequently to shop in stores and online.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trade credit showing double-digit lift in spend.",
+      "quote": "Today, we have several thousand pros with a trade credit account, and we've seen a double-digit lift in their spend across channels once these pros started using their trade credit.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Battery-powered tools achieved company sales record.",
+      "quote": "In fact, we achieved a company sales record for battery-powered tools during the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Online sales increased approximately 12%.",
+      "quote": "Turning to total company online comp sales, sales leveraging our digital platforms increased approximately 12% compared to the second quarter of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in navigating the environment.",
+      "quote": "Despite the uncertainty and volatility in the market, we are confident that we can effectively navigate this environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in achieving guidance.",
+      "quote": "So we feel really good about our ability to do that, particularly with the broader engagement across the portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is slightly positive despite reaffirmed guidance; verify that the momentum language justifies a non-zero score given the guidance was not raised."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Risk list includes items inferred from context (e.g., tariffs, macro uncertainty) that are explicitly mentioned but may require confirmation of materiality."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HD_Bundled Earnings Report_2025-08-19",
+  "report_metadata": {
+    "issuer": "p2_home_depot",
+    "company": "Home Depot",
+    "ticker": "HD",
+    "sector": "Consumer Cyclical/Home Improvement Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q2/HD_Q2_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q2/HD_Q2_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HD_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221302Z",
+    "timestamp": "2026-08-13T22:13:19Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q2/HD_Q2_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_home_depot_ext2026_08_13/extracted/HD_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q2/HD_Q2_2025_Press_Release.pdf",
+        "page_count": 8,
+        "extracted_characters": 17445,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q2/HD_Q2_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 62141,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_home_depot_ext2026_08_13/extracted/HD_FQ2_2025.txt"
+  }
+}

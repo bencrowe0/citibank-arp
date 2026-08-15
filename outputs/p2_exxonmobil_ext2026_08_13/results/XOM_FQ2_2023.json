@@ -1,0 +1,236 @@
+{
+  "document_id": "XOM_FQ2_2023",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported strong absolute earnings ($7.9B) and highlighted structural improvements, but the quarter's earnings declined sequentially and versus the prior year due to lower commodity prices and refining margins. Forward guidance was reaffirmed (production of 3.7 moebd, capex of $23-25B, and $9B structural cost savings by year-end) rather than raised, and management's tone was confident but hedged on the macro environment. The score reflects genuine operational momentum (record Permian/Guyana production, cost savings on track) without a formal guidance raise, placing it at the top of the neutral-to-mildly-positive band.",
+    "guidance_movement": "held"
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none \u2014 HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenue was $80,795 million for Q2 2023, down from $111,265 million in Q2 2022. Total revenues and other income were $82,914 million for Q2 2023, down from $115,681 million in Q2 2022.",
+    "eps": "Earnings per common share (assuming dilution) was $1.94 for Q2 2023, down from $4.21 in Q2 2022. Earnings excluding identified items per common share was $1.94 for Q2 2023, down from $2.83 in Q1 2023 and $4.14 in Q2 2022.",
+    "guidance": "The company reaffirmed its full-year guidance: capital and exploration expenditures are in line with the full-year guidance of $23 billion to $25 billion; production is on track with full-year guidance of 3.7 million oil-equivalent barrels per day; and the company remains on track to deliver $9 billion of structural cost savings by the end of 2023 relative to 2019.",
+    "margin": "The document discusses 'industry refining margins' declining sequentially and year-over-year, and 'lower natural gas realizations' impacting upstream earnings. It also notes 'improved margins from lower feed costs' in the Chemical Products segment and 'Stronger finished lubes and basestock margins' in Specialty Products.",
+    "key_risks": [
+      "Lower natural gas realizations and industry refining margins adversely impacted earnings.",
+      "Government-mandated curtailments and the Sakhalin-1 expropriation impacted production.",
+      "Additional European taxes on the energy sector negatively impacted earnings (identified item).",
+      "The company faces risks related to the timing and regulatory approval of permits for CCS projects, including the Denbury acquisition.",
+      "Inflationary pressure, though the company sees signs of it coming off in certain cost categories.",
+      "A short strike in Nigeria contributed to unscheduled downtime."
+    ],
+    "key_opportunities": [
+      "Record quarterly production in the Permian and Guyana, with potential for further debottlenecking in Guyana to increase capacity above 400,000 barrels a day.",
+      "The planned acquisition of Denbury to expand carbon capture and storage (CCS) capabilities, with potential to reduce Gulf Coast industrial emissions by up to 100 million metric tons per year.",
+      "Structural cost savings of $8.3 billion achieved to date, on track to reach $9 billion by year-end 2023.",
+      "The Baytown chemical expansion project achieved mechanical completion, expected to contribute by the fourth quarter.",
+      "The Payara FPSO in Guyana is expected to be brought online in the back half of the year.",
+      "New centralized organizations (Global Business Solutions, ExxonMobil Supply Chain, Global Trading) are expected to lower cost and improve performance."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management's language is confident and forward-looking, emphasizing structural improvements and a clear line of sight to future growth, e.g., 'The work we've been doing to improve our underlying profitability is reflected in our second-quarter results' and 'we are on track to structurally reduce costs by $9 billion at year end compared to 2019.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "The company reported Q2 2023 earnings of $7.9 billion, or $1.94 per share.",
+      "quote": "Exxon Mobil Corporation today announced second-quarter 2023 earnings of $7.9 billion, or $1.94 per share assuming dilution.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2023 earnings declined sequentially and year-over-year.",
+      "quote": "Earnings were $7.9 billion compared with first-quarter earnings of $11.4 billion... Earnings (U.S. GAAP) 7,880 11,430 -3,550 17,850 -9,970",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its full-year capital expenditure guidance of $23 billion to $25 billion.",
+      "quote": "Capital and exploration expenditures were $6.2 billion in the second quarter and $12.5 billion for the first half of 2023, in line with the company's full-year guidance of $23 billion to $25 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its full-year production guidance of 3.7 million oil-equivalent barrels per day.",
+      "quote": "Our year-to-date production of 3.7 million oil-equivalent barrels per day is on track with the full-year guidance we shared last year... there's nothing that we're seeing today that changes that guidance that we gave last year at 3.7 million barrels a day of production.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its target of $9 billion in structural cost savings by the end of 2023.",
+      "quote": "The company remains on track to deliver $9 billion of structural cost savings by the end of 2023 relative to 2019, having achieved cumulative structural cost savings of $8.3 billion to date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record quarterly production in the Permian and Guyana.",
+      "quote": "Achieved record quarterly production in the Permian and Guyana, demonstrating excellent operational performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company announced an agreement to acquire Denbury to expand its carbon capture and storage business.",
+      "quote": "Expanded leadership in carbon capture and storage by agreeing to acquire Denbury and reaching 5 million metric tons per year of CO offtake contracts with industrial customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower natural gas realizations and industry refining margins adversely impacted earnings.",
+      "quote": "Lower natural gas realizations and industry refining margins adversely impacted earnings. Results benefited from the absence of prior quarter unfavorable derivative mark-to-market impacts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's management tone is confident.",
+      "quote": "The work we've been doing to improve our underlying profitability is reflected in our second-quarter results, which doubled from what we earned in a comparable industry commodity price environment just five years ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees potential to increase Guyana FPSO capacity above 400,000 barrels a day.",
+      "quote": "In fact, we see the potential to increase the combined gross capacity of these two FPSOs to above 400,000 barrels a day with further debottlenecking, which is nearly a 20% increase above the investment basis and a testament to the ingenuity of our people.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to bring on two advantaged projects in the back half of the year.",
+      "quote": "In the back half of this year alone, we expect to bring on two advantaged projects: Baytown Performance Chemicals and the Payara FPSO in Guyana, further growing our capacity to generate industry-leading earnings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's Q2 2023 revenue declined year-over-year.",
+      "quote": "Sales and other operating revenue 80,795 111,265 164,439 198,999",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's Q2 2023 EPS declined year-over-year.",
+      "quote": "Earnings per common share - assuming dilution (U.S. dollars) 1.94 4.21 4.73 5.49",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's Chemical Products segment saw improved margins from lower feed costs.",
+      "quote": "Chemical Products second-quarter earnings were $828 million, up from $371 million in the first quarter, mainly on improved margins from lower feed costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's Specialty Products segment saw stronger finished lubes and basestock margins.",
+      "quote": "Stronger finished lubes and basestock margins were partially offset by lower sales volumes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from government-mandated curtailments and the Sakhalin-1 expropriation.",
+      "quote": "The increase was offset by impacts from divestments, the Sakhalin-1 expropriation, and government-mandated curtailments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks related to the timing and regulatory approval of permits for CCS projects.",
+      "quote": "The emission reduction outcome of these projects is subject to the timing and regulatory approval of necessary permits, acquisition of rights of way, changes in regulatory policy, supply chain disruptions, and other market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is starting to see deflationary pressure in certain cost categories.",
+      "quote": "If you think about some of the chemicals that we would use in unconventional, things like sand, what we would call tubular goods, which would include piping and valves and those types of things, we're starting to see some deflationary pressure now.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's Q2 2023 earnings were negatively impacted by additional European taxes on the energy sector.",
+      "quote": "Excluding the identified item associated with additional European taxes on the energy sector, earnings were $7.9 billion compared with $11.6 billion in the prior quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's Q2 2023 production was impacted by a short strike in Nigeria.",
+      "quote": "And then in terms of unscheduled downtime, we had a short strike in Nigeria that tipped up our unscheduled downtime.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary between HOLD and BUY. The company reaffirmed guidance rather than raising it, but highlighted strong operational momentum. A reviewer may want to weigh the significance of the record production and cost savings against the lack of a formal guidance raise."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance was reaffirmed, not raised. The document does not provide a formal quantitative forward revenue or earnings guidance range, only reaffirmations of production, capex, and cost savings targets."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2023-07-28",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-07-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q2/XOM_Q2_2023_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q2/XOM_Q2_2023_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ2_2023",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:07:41Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q2/XOM_Q2_2023_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q2/XOM_Q2_2023_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 47454,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q2/XOM_Q2_2023_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 190823,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ2_2023.txt"
+  }
+}

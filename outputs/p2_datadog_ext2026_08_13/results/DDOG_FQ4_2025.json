@@ -1,0 +1,217 @@
+{
+  "document_id": "DDOG_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reported strong Q4 results with revenue growth accelerating to 29% year-over-year, and management highlighted broad-based strength and record bookings. However, the forward guidance for Q1 2026 implies a deceleration to 25-26% growth, and full-year 2026 guidance of 18-20% growth is below the 28% growth achieved in 2025, indicating a conservative outlook. The company did not raise guidance above its own prior signals; instead, it provided a cautious outlook with a deceleration, which tempers the positive momentum. The score reflects genuine operational momentum (e.g., record bookings, strong customer growth) but with a forward outlook that is not raised and implies slower growth, so it is not a strong positive."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue was $953 million, up 29% year-over-year. Full-year 2025 revenue was $3.43 billion, up 28% year-over-year.",
+    "eps": "Q4 2025 GAAP net income per diluted share was $0.13; non-GAAP net income per diluted share was $0.59. Full-year 2025 GAAP net income per diluted share was $0.31; non-GAAP net income per diluted share was $2.05.",
+    "guidance": "Q1 2026 revenue expected between $951 million and $961 million (25-26% year-over-year growth). Full-year 2026 revenue expected between $4.06 billion and $4.10 billion (18-20% year-over-year growth). Non-GAAP operating income for Q1 2026 expected between $195 million and $205 million; for full-year 2026 between $840 million and $880 million. Non-GAAP net income per share for Q1 2026 expected between $0.49 and $0.51; for full-year 2026 between $2.08 and $2.16.",
+    "margin": "Q4 2025 GAAP operating margin was 1%; non-GAAP operating margin was 24%. Full-year 2025 GAAP operating margin was (1)%; non-GAAP operating margin was 22%. Q4 2025 gross margin was 81.4% (non-GAAP).",
+    "key_risks": [
+      "Risks related to rapid growth not being indicative of future growth.",
+      "History of operating losses.",
+      "Dependence on existing customers for renewals and additional purchases.",
+      "Ability to attract new customers.",
+      "Ability to develop and expand sales and marketing capabilities.",
+      "Risk of security breach.",
+      "Risk of interruptions or performance problems.",
+      "Ability to adapt to rapidly changing technology.",
+      "Competitive markets.",
+      "Risks associated with managing growth.",
+      "Risks related to data privacy and security regulations.",
+      "General market, political, economic, and business conditions, including trade policies, tariffs, and reduced IT spending."
+    ],
+    "key_opportunities": [
+      "Cloud migration and digital transformation as long-term secular growth drivers.",
+      "AI-powered innovation and next-gen AI deployment by customers.",
+      "Expansion of platform adoption with customers using more products (e.g., 84% use 2+ products, 55% use 4+).",
+      "Growth in AI-native customer cohort (about 650 customers, 14 of top 20 AI-native companies).",
+      "Large customer base with low penetration (e.g., median Fortune 500 ARR less than $0.5 million).",
+      "New product launches like Bits AI SRE Agent, LLM Observability, Storage Management, and Data Observability."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed strong confidence in execution and future opportunities, e.g., 'We are pleased with our strong execution in fiscal year 2025' and 'we are excited about our plans for 2026 to deliver more AI-powered innovation.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $953 million, up 29% year-over-year.",
+      "quote": "Revenue was $953 million, an increase of 29% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue was $3.43 billion, up 28% year-over-year.",
+      "quote": "Revenue was $3.43 billion, an increase of 28% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP net income per diluted share was $0.13; non-GAAP net income per diluted share was $0.59.",
+      "quote": "GAAP net income per diluted share was $0.13; non-GAAP net income per diluted share was $0.59.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 GAAP net income per diluted share was $0.31; non-GAAP net income per diluted share was $2.05.",
+      "quote": "GAAP net income per diluted share was $0.31; non-GAAP net income per diluted share was $2.05.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guidance is $951 million to $961 million, representing 25-26% year-over-year growth.",
+      "quote": "For the first quarter, we expect revenues to be in the range of $951 million to $961 million, which represents a 25% to 26% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 revenue guidance is $4.06 billion to $4.10 billion, representing 18-20% year-over-year growth.",
+      "quote": "For the full fiscal year 2026, we expect revenues to be in the range of $4.06 billion to $4.10 billion which represents 18% to 20% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 non-GAAP operating margin was 24%.",
+      "quote": "Non-GAAP operating income was $230 million; non-GAAP operating margin was 24%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 non-GAAP operating margin was 22%.",
+      "quote": "Non-GAAP operating income was $768 million; non-GAAP operating margin was 22%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 gross margin was 81.4% (non-GAAP).",
+      "quote": "Our Q4 gross profit was $776 million with a gross margin percentage of 81.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in execution and future opportunities.",
+      "quote": "We are pleased with our strong execution in fiscal year 2025, with 28% year-over-year revenue growth, $1,050 million in operating cash flow, and $915 million in free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about 2026 plans.",
+      "quote": "Looking forward to 2026, we are excited about our plans to deliver more AI-powered innovation and help our customers with their complex challenges in modern Observability, Security, Software Delivery, Service Management, and Product Analytics.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees cloud migration and digital transformation as long-term growth drivers.",
+      "quote": "There is no change to our overall view that digital transformation and cloud migration are long-term secular growth drivers for our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is seeing strong growth in AI-native customers.",
+      "quote": "We are seeing continued strong adoption amongst AI-native customers with growth that significantly outpaces the rest of the business. We see more AI-native customers using Datadog with about 650 customers in this group.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a large opportunity with Fortune 500 customers due to low penetration.",
+      "quote": "As of December 2025, 48% of the Fortune 500 are Datadog customers. We think many of the largest enterprises are still very early in their journey to the cloud. The median Datadog ARR for our Fortune 500 customers is still less than $0.5 million, which leaves a very large opportunity for us to grow with these customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks related to rapid growth, competition, and macroeconomic conditions.",
+      "quote": "The risks and uncertainties referred to above include, but are not limited to (1) our recent rapid growth may not be indicative of our future growth; (2) our history of operating losses; ... (10) the competitive markets in which we participate; ... (13) general market, political, economic, and business conditions including concerns about trade policies, tariffs, reduced economic growth and associated decreases in information technology spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's guidance implies a deceleration in growth for 2026.",
+      "quote": "For the full fiscal year 2026, we expect revenues to be in the range of $4.06 billion to $4.10 billion which represents 18% to 20% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 is based on strong operational momentum but a conservative guidance outlook. A reviewer should verify that the deceleration in guidance is appropriately weighted against the positive results."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The risks listed are from the forward-looking statements section and are standard boilerplate; a reviewer may want to distinguish these from more specific risks discussed in the Q&A."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DDOG_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_datadog",
+    "company": "Datadog",
+    "ticker": "DDOG",
+    "sector": "Technology/Cloud Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q4/DDOG_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q4/DDOG_Q4_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DDOG_FQ4_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T215943Z",
+    "timestamp": "2026-08-13T22:02:19Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q4/DDOG_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_datadog_ext2026_08_13/extracted/DDOG_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q4/DDOG_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 33537,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q4/DDOG_Q4_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 62405,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_datadog_ext2026_08_13/extracted/DDOG_FQ4_2025.txt"
+  }
+}

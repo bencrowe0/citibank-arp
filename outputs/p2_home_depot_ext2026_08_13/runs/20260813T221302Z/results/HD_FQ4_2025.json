@@ -1,0 +1,214 @@
+{
+  "document_id": "HD_FQ4_2025",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The company's fiscal 2026 guidance was reaffirmed, not raised, with total sales growth of 2.5% to 4.5% and comparable sales growth of flat to 2%, which management explicitly stated was unchanged from the preliminary guidance provided at the December investor conference. While the company reported positive comparable sales and market share gains, management's forward language is cautious, citing persistent pressure on housing and consumer uncertainty, and the guidance was held flat despite the positive backward-looking results. The reaffirmed guidance and cautious outlook, rather than a raise, keep the score in slightly negative territory."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Fourth quarter sales were $38.2 billion, a decrease of 3.8% from the prior year (which included a 14th week adding ~$2.5 billion). Fiscal 2025 sales were $164.7 billion, an increase of 3.2% from fiscal 2024.",
+    "eps": "Fourth quarter diluted EPS was $2.58, a decrease of 14.6% from the prior year; adjusted diluted EPS was $2.72, a decrease of 13.1%. Fiscal 2025 diluted EPS was $14.23, a decrease of 4.6%; adjusted diluted EPS was $14.69, a decrease of 3.6%.",
+    "guidance": "For fiscal 2026, the company reaffirmed guidance for total sales growth of approximately 2.5% to 4.5%, comparable sales growth of approximately flat to 2.0%, and diluted EPS growth of approximately flat to 4.0% from $14.23 in fiscal 2025.",
+    "margin": "Fourth quarter gross margin was approximately 32.6%, down ~20 basis points year-over-year. Fiscal 2025 gross margin was approximately 33.3%, down 10 basis points. Fourth quarter operating margin was 10.1% (adjusted 10.5%); fiscal 2025 operating margin was 12.7% (adjusted 13.1%).",
+    "key_risks": [
+      "Ongoing consumer uncertainty and pressure on housing, with no catalyst for an inflection in housing activity anticipated in fiscal 2026.",
+      "Housing affordability impacted by the current mortgage rate environment and significant increase in home prices since 2019.",
+      "Housing turnover at historical lows since 2023, reducing demand for projects associated with buying and selling a home.",
+      "Customer concerns over general economic uncertainty, including inflation, growing job concerns, and higher financing costs.",
+      "Potential impact of tariffs and trade policy changes, with the company still analyzing the impacts of recent announcements.",
+      "Lack of storm activity in the back half of 2025 pressured demand, particularly for SRS in the roofing industry.",
+      "SRS invested in price to maintain share gains, which will bleed over into margin expectations for the first quarter of 2026."
+    ],
+    "key_opportunities": [
+      "Growing market share by delivering the best value proposition in home improvement.",
+      "Traction with the Pro customer, with Pros utilizing the Pro ecosystem spending more.",
+      "SRS grew organic sales by a low single-digit percentage in 2025 and is expected to grow mid-single digits in 2026.",
+      "Cross-selling opportunities between Home Depot, SRS, and GMS, with examples of winning incremental homes through warm handoffs.",
+      "Continued investment in interconnected retail, digital platforms, and delivery capabilities, with online sales leveraging digital platforms up approximately 11% in the fourth quarter.",
+      "Record-setting events in the quarter, including Gift Center and Black Friday events posting record sales years.",
+      "Customer satisfaction score increased every quarter in 2025, and hourly associate tenure is the highest since 2017."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management's language is cautious, as they state 'we anticipate these pressures will persist as we have not yet seen a catalyst for an inflection in housing activity' and describe 'ongoing consumer uncertainty and pressure on housing.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Fiscal 2026 guidance was reaffirmed, not raised, from the preliminary guidance provided at the December investor conference.",
+      "quote": "As we look ahead to fiscal 2026, we anticipate these pressures will persist as we have not yet seen a catalyst for an inflection in housing activity. As a result, we affirm the preliminary fiscal 2026 guidance we provided at our investor conference.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter sales were $38.2 billion, a decrease of 3.8% from the prior year.",
+      "quote": "Sales for the fourth quarter of fiscal 2025 were $38.2 billion, a decrease of $1.5 billion, or 3.8% from the fourth quarter of fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 sales were $164.7 billion, an increase of 3.2% from fiscal 2024.",
+      "quote": "Sales for fiscal 2025 were $164.7 billion, an increase of $5.2 billion, or 3.2% from fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter diluted EPS was $2.58, a decrease of 14.6% from the prior year.",
+      "quote": "Net earnings for the fourth quarter of fiscal 2025 were $2.6 billion, or $2.58 per diluted share, compared with net earnings of $3.0 billion, or $3.02 per diluted share, in the same period of fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 diluted EPS was $14.23, a decrease of 4.6% from fiscal 2024.",
+      "quote": "Net earnings for fiscal 2025 were $14.2 billion, or $14.23 per diluted share, compared with net earnings of $14.8 billion, or $14.91 per diluted share in fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter gross margin was approximately 32.6%, down ~20 basis points year-over-year.",
+      "quote": "In the fourth quarter, our gross margin was approximately 32.6%, a decrease of approximately 20 basis points from the fourth quarter last year primarily reflecting a change in mix as a result of the GMS acquisition, which was in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 gross margin was approximately 33.3%, down 10 basis points.",
+      "quote": "For the year, our gross margin was approximately 33.3%, a decrease of 10 basis points from last year, which was in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter operating margin was 10.1% (adjusted 10.5%).",
+      "quote": "Our operating margin for the fourth quarter was 10.1% compared to 11.3% in the fourth quarter of 2024. Excluding intangible asset amortization in the quarter, our adjusted operating margin for the fourth quarter was 10.5% compared to 11.7% in the fourth quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 operating margin was 12.7% (adjusted 13.1%).",
+      "quote": "Our operating margin for the year was 12.7% compared to 13.5% in 2024. Excluding intangible asset amortization, our adjusted operating margin for the year was 13.1% compared to 13.8% in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management's tone is cautious, citing persistent pressures on housing and consumer uncertainty.",
+      "quote": "As we look ahead to fiscal 2026, we anticipate these pressures will persist as we have not yet seen a catalyst for an inflection in housing activity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is growing market share.",
+      "quote": "Throughout fiscal 2025, our teams did an incredible job engaging with our customers and growing market share, and I would like to thank them for their hard work and dedication.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SRS is expected to grow organic sales mid-single digits in fiscal 2026.",
+      "quote": "Going forward, we will continue to support SRS' momentum, and we expect their organic sales to grow mid-single digits in fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Online sales leveraging digital platforms increased approximately 11% in the fourth quarter.",
+      "quote": "Turning to total company online comp sales. Sales leveraging our digital platforms increased approximately 11% compared to the fourth quarter of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from tariffs and trade policy changes.",
+      "quote": "Obviously, the announcement on Friday and then the administration over the weekend, we're still analyzing the impacts of those decisions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SRS invested in price to maintain share gains, which will affect first quarter margins.",
+      "quote": "So they did invest in price to maintain share gains that will bleed over into our margin expectations for the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees cross-selling opportunities between Home Depot, SRS, and GMS.",
+      "quote": "We're super excited about that and starting to see some really nice wins in cross-selling, where either The Home Depot, the GMS or the SRS sales rep who have a line of business with a particular customer have done the introductions, and we're winning, frankly tens of thousands of incremental homes through a warm handoff with the other product categories that -of the team that was introduced.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer satisfaction score increased every quarter in 2025.",
+      "quote": "This year, our customer satisfaction score increased every quarter, and our tenure with hourly associates is the highest it's been since 2017.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) because guidance was reaffirmed rather than raised, and management's tone is cautious. However, the company did report positive comparable sales and market share gains, which could justify a neutral or slightly positive score. A human reviewer should verify the interpretation of the reaffirmed guidance as a neutral-to-negative signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HD_Bundled Earnings Report_2026-02-24",
+  "report_metadata": {
+    "issuer": "p2_home_depot",
+    "company": "Home Depot",
+    "ticker": "HD",
+    "sector": "Consumer Cyclical/Home Improvement Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-24",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q4/HD_Q4_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q4/HD_Q4_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HD_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221302Z",
+    "timestamp": "2026-08-13T22:13:52Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q4/HD_Q4_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_home_depot_ext2026_08_13/extracted/HD_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q4/HD_Q4_2025_Press_Release.pdf",
+        "page_count": 8,
+        "extracted_characters": 19882,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2025-Q4/HD_Q4_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 59944,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_home_depot_ext2026_08_13/extracted/HD_FQ4_2025.txt"
+  }
+}

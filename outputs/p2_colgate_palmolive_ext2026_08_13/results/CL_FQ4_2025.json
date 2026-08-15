@@ -8,7 +8,7 @@
     "direction": "HOLD",
     "hold_upper_threshold": 0.15,
     "hold_lower_threshold": -0.15,
-    "boundary_crossed": "none — HOLD band",
+    "boundary_crossed": "none \u2014 HOLD band",
     "model_stated_direction": "HOLD",
     "signal_mismatch": false
   },
@@ -232,7 +232,8 @@
         "pub_date": null
       }
     ],
-    "document_id": "CL_FQ4_2025"
+    "document_id": "CL_FQ4_2025",
+    "release_timing": "pre_market"
   },
   "run_meta": {
     "run_id": "20260813T152734Z",

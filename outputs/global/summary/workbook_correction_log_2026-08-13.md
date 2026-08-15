@@ -403,4 +403,192 @@ compounded metric — superseded 2026-08-12).
 
 ---
 
+## (j) Ticker-identity faults — extension pre-scoring audit, 2026-08-13
+
+### Category description
+
+A ticker-identity fault occurs when the human arm and the model arm resolve a
+company's price series from different underlying instruments, producing
+plausible-looking but non-comparable return figures. The fault does not raise
+an error: yfinance returns data for the wrong ticker silently, the prices are
+numerically reasonable, and any downstream comparison proceeds as if the two
+arms are on the same series. The 42–47% magnitude on the Heineken fault is the
+most striking illustration: HEINY and HEIA.AS track the same underlying
+company through the same events but differ by roughly half in absolute price
+because one is a US ADR and the other is the EUR primary listing — yet both
+would produce a valid overnight return if the earnings release moved the stock,
+and a spot check of the return sign would not reveal the error.
+
+The fault was found by cross-arm price verification: fetching yfinance data for
+the manifest ticker on the exact dates in Human_Data_Entry columns M–P and
+comparing the closing/opening prices within a 1.5% tolerance. Three instances
+have been identified across the project:
+
+### Instance 1 — MetLife (frozen N=233 set, prior session)
+
+**Fault**: a ticker capitalisation or format difference caused the model arm
+price lookup to resolve a different price series than the human arm for MetLife
+events. The exact mechanism (e.g. `metlife` vs `MetLife`, `MET` vs an ADR
+symbol) is not re-documented here; the fault was found and noted in a prior
+session. MetLife events are in the frozen N=233 set, which is tagged
+`model-arm-final-2026-08-13` and not modified.
+
+**Magnitude**: 6 unpaired events. The fault was a ticker capitalisation or
+format mismatch that prevented 6 MetLife events from pairing in the cross-arm
+comparison — not a price divergence of a given percentage. The events were
+unresolvable rather than mis-priced.
+
+**Status**: noted as a pre-existing fault class. Not corrected in this log
+(frozen set is immutable). Relevant to the write-up as the first documented
+instance of this category.
+
+### Instance 2 — Hermes (extension set, found 2026-08-13)
+
+**Fault**: the gathering checklist used ticker `RMSP.XC` (Cboe Europe, CXE,
+EUR) for Hermes event keys `RMS_FQ1_2025` through `RMS_FQ4_2025`. The manifest
+was also initially set to `RMSP.XC`. The human arm's corrected M–P prices
+(Master_Data_CORRECTED_2026-08-13.xlsx) match RMSP.XC at 0.00% on all 4
+events; they do not cleanly match RMS.PA (Euronext Paris, 0.55–3.11%
+difference across the 8 closing/opening prices, with the largest deviation
+3.11% on the Q1 opening price).
+
+**Resolution**: manifest and checklist set to `RMSP.XC` for cross-arm parity.
+This decision was made before any event was scored (2026-08-13) and is a
+pre-registered design choice, not a response to any result. The reasoning:
+(1) the M–P verification shows the human arm is definitively on RMSP.XC —
+0.00% deviation on all 8 values, vs 0.55–3.11% for RMS.PA; (2) a 3.11%
+deviation against the ±2% grading band is large enough to move an event across
+the graded/ungraded boundary — an event could appear graded in one arm and
+ungraded in the other on identical underlying news; (3) cross-arm parity was
+judged to outweigh venue quality. The decision is documented in the
+`ticker_selection_note` field of `manifests/p2_hermes_reports.json`. A known
+limitation is that both arms now use the Cboe Europe secondary venue (RMSP.XC)
+rather than the Euronext Paris primary listing (RMS.PA). The timing
+classification is unaffected (both venues open 09:00 CET).
+
+**Magnitude**: largest price deviation between RMS.PA and RMSP.XC is 3.11%
+(Q1 opening price: RMS.PA 2306 vs RMSP.XC/human-arm 2236.5). This is small
+relative to the Heineken fault but non-trivial.
+
+### Instance 3 — Heineken (extension set, found 2026-08-13)
+
+**Fault**: the manifest had `ticker: "HEINY"` (US OTC ADR, OTCQX, USD).
+The human arm's corrected M–P prices match `HEIA.AS` (Euronext Amsterdam,
+AMS, EUR) at 0.00% on all 4 events (prior close and opening price, 8 values
+total). `HEINY` prices on the same dates diverge from the human arm by
+42.0–47.2% — a factor-of-two error explained by the ADR-to-primary-listing
+gap (HEINY ≈ HEIA.AS / conversion ratio, but quoted in USD while HEIA.AS is
+EUR). The workbook's `rep_listing` column confirms `HEIA.AS` was already known
+as the re-priced listing.
+
+**Resolution**: manifest ticker corrected to `HEIA.AS` (all 4 reports);
+checklist ticker corrected to `HEIA.AS` (4 rows). Session-open in the timing
+capture sheet updated from 09:30 ET (US OTC) to 09:00 CET (Euronext
+Amsterdam). Document_ids `HEINY_FQ*` are unchanged (names, not price lookups).
+
+**Magnitude**: 42–47% divergence. Had HEINY been used at scoring time, the
+four Heineken events would have computed overnight returns from HEINY prices
+against a human arm anchored to HEIA.AS prices, making the two arms
+non-comparable on those events.
+
+### Method and applicability
+
+The cross-arm check fetches `yfinance.download(manifest_ticker, start, end,
+auto_adjust=False)` for the M–P date range and compares closing/opening prices
+within 1.5% tolerance. It is the same procedure that found 289/289 agreement
+on the frozen N=233 corrected set. For the extension: 85/93 events MATCH; 4
+Heineken events were MISMATCH (now fixed); 4 Hermes events are NO_MANIFEST_MATCH
+because the checklist event_key `RMS_FQ*` did not align with the initial manifest
+key `RMSP.XC_FQ*` (resolved by aligning both to `RMS_FQ*` with ticker `RMSP.XC`).
+Nestle, Shell, and Sony all returned MATCH on their priced events.
+
+**The three instances together constitute a category** in the methodology: silent
+ticker-identity faults that produce numerically plausible but non-comparable
+cross-arm returns. The pre-scoring check prevented all three from entering the
+scored extension dataset undetected.
+
+---
+
+---
+
+## (k) A third instance of the inoperative-check pattern — the gathering verification script
+
+**Date recorded**: 2026-08-13.
+
+### Category
+
+This entry documents the third instance of a recurring failure pattern in this project: a
+check or correction mechanism that was built, appeared to be in force, and was never
+actually executed. The first two instances are documented in (a)–(b) above:
+
+1. **PRE_MARKET_ISSUERS constant** (first instance): a set of tickers intended to apply a
+   pre-market pricing correction was defined in `phase2/export_rows.py` but no code path
+   in that file or any downstream script ever read it. The correction was asserted to be
+   applied and was not.
+
+2. **Manual re-pricing block** (second instance): re-derived dates and prices were recorded
+   in Human_Data_Entry columns AB–AK by raters. No formula in the workbook read that block.
+   Q–U and every summary tab continued to read the uncorrected M–P. The re-priced values
+   were recorded and never applied — for 133 of 420 rows, this meant the pricing window was
+   systematically wrong.
+
+3. **`experiments/verify_gathered_docs.py`** (third instance, documented here): a script
+   was written to verify that every gathered document contained the correct company name,
+   matched the correct fiscal period, and — for transcripts — included an open Q&A section.
+   The script appeared to be a working verification tool. It was never successfully executed.
+
+### Mechanism
+
+The bug was a variable scope error in `check_file()`. The variable `qa_opened` was assigned
+only inside the branch `if fname_type == "Earnings Call Transcript":`. Outside that branch,
+a dead-code block also referenced `qa_opened` — not in the Q&A check itself, but implicitly
+in the structure of the function as written. In practice: the script's outer loop called
+`check_file()` on every file in every issuer directory in alphabetical order. Every issuer
+directory contains press release files. Press releases are encountered before transcripts
+alphabetically. On the first press release in each issuer directory, `fname_type` is
+`"Press Release"`, the `if fname_type == "Earnings Call Transcript":` branch is skipped,
+and the script crashed with `UnboundLocalError: local variable 'qa_opened' referenced
+before assignment`.
+
+### Period inoperative
+
+From the initial commit of the script to this session (2026-08-13). The script was never
+repaired between writing and this session. Every call to the script — including any that
+may have been attempted against the seven-event pilot (Colgate-Palmolive, Costco) — crashed
+on the first press release encountered for the first issuer.
+
+**No document in this project was verified through this script at any point prior to this
+session.** This includes the seven-event pilot and all twenty extension companies. The first
+successful completion of a full verification run is from this session (2026-08-13).
+
+### Resolution
+
+The bug was fixed in this session. The specific fix: `check_file()` was restructured so
+that the Q&A check block — including the assignment of `qa_opened` — is entered only for
+files classified as `Earnings Call Transcript`, and the variable is not referenced outside
+that branch. A separate change downgraded the "no closing phrase in final 500 characters"
+finding from WARN/FAIL to an informational NOTE, since many legitimate transcripts end with
+language that does not match the pattern list. The company-name check was also widened from
+the first 2000 characters to the full document, since several transcript formats place
+disclaimers and boilerplate before the company name appears.
+
+The first clean run — all 20 extension companies, 0 missing documents, 0 FAIL,
+0 WARN — was completed immediately after the fix, in this session.
+
+### Methodology observation
+
+The three instances share a structure: in each case, a safeguard was created at a point in
+the project when it appeared necessary, the mechanism was believed to be running, and a
+later audit found it had never run. In two of the three instances the check was silent
+(no error, no signal that it was not executing). In the third (this one) the script
+crashed immediately on any real run, which means the silence was preserved by the crashes
+not being investigated or logged.
+
+The practical consequence for the extension corpus is that the first confirmed verification
+of document coverage is from 2026-08-13. Prior gathering decisions were made without verified
+coverage data. The verification results are documented in Amendment E of the extension
+pre-registration (see `extension_preregistration_2026-08-13.md`).
+
+---
+
 *End of log.*

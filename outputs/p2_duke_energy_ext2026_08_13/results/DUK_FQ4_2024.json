@@ -1,0 +1,213 @@
+{
+  "document_id": "DUK_FQ4_2024",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "Forward guidance was raised: the company introduced 2025 adjusted EPS guidance of $6.17-$6.42 (midpoint $6.30, ~7% growth over 2024) and extended its long-term adjusted EPS growth rate of 5%-7% through 2029, with management expressing confidence in earning in the top half of the range as load growth accelerates. The capital plan was increased 12% to $83 billion, and management language was confident and optimistic. However, the score is tempered because the 2025 midpoint represents only ~5% growth over the original 2024 guidance midpoint (not disclosed), and management cited O&M timing shifts and storm costs as headwinds, indicating the raise is not purely organic."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for 2024 were $30,357 million, up from $29,060 million in 2023. For Q4 2024, total operating revenues were $7,360 million, up from $7,212 million in Q4 2023.",
+    "eps": "2024 reported EPS of $5.71 and adjusted EPS of $5.90, compared to reported and adjusted EPS of $3.54 and $5.56, respectively, for full-year 2023. Q4 2024 reported EPS of $1.54 and adjusted EPS of $1.66, compared to $1.27 and $1.51 in Q4 2023.",
+    "guidance": "2025 adjusted EPS guidance of $6.17 to $6.42, with a midpoint of $6.30. Long-term adjusted EPS growth rate of 5% to 7% through 2029. Five-year capital plan increased to $83 billion, driving 7.7% earnings-based growth.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Higher interest expense",
+      "Depreciation on a growing asset base",
+      "Storm costs, including Hurricane Helene and Milton impacts",
+      "Higher effective tax rate",
+      "O&M increases due to catch-up on deferred grid projects and additional storm cost provisions",
+      "Potential for load growth to be lower than projected, particularly from data centers",
+      "Regulatory and legislative uncertainties, including cost recovery and rate case outcomes",
+      "Equity funding needs and potential dilution",
+      "Structural risks related to nuclear decommissioning, coal ash remediation, and other environmental liabilities"
+    ],
+    "key_opportunities": [
+      "Constructive regulatory outcomes supporting rate increases and riders",
+      "Growing energy demand from economic development, including data centers and advanced manufacturing",
+      "Five-year capital plan of $83 billion for new generation and grid investments",
+      "Load growth acceleration to 3%-4% enterprise-wide from 2027",
+      "Strong customer growth and improving industrial activity",
+      "Monetization of energy tax credits (over $500 million in 2024)",
+      "All-of-the-above generation strategy including natural gas, nuclear, renewables, and storage"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in the future, with Lynn Good stating 'Duke Energy enters 2025 in a position of strength' and Harry Sideris saying 'I look forward to the opportunities ahead with optimism around our strategy.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "2024 reported EPS was $5.71 and adjusted EPS was $5.90, within guidance range.",
+      "quote": "Duke Energy today announced 2024 full-year reported EPS of $5.71, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $5.90. This is compared to reported and adjusted EPS of $3.54 and $5.56, respectively, for the full-year 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 adjusted EPS guidance is $6.17 to $6.42, with a midpoint of $6.30.",
+      "quote": "The company is introducing 2025 adjusted EPS guidance of $6.17 to $6.42 and extending its long-term adjusted EPS growth rate of 5% to 7% through 2029 off the 2025 midpoint of $6.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Five-year capital plan increased to $83 billion, a 12% increase over prior plan.",
+      "quote": "Our five-year capital plan is now $83 billion, a 12% increase versus our prior plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to earn in the top half of the 5%-7% EPS growth range in the back end of the plan.",
+      "quote": "As we look at our plan and see the load growth accelerating in 2027 through 2029, clearly, the opportunity is there to earn the top half of the range, and you\u2019re exactly right. That\u2019s what we\u2019re alluding to.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Load growth is expected to accelerate to 3%-4% enterprise-wide from 2027.",
+      "quote": "Beginning in 2027, we see an acceleration in volumes, with annual load growth increasing to 3% to 4% at the enterprise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 total operating revenues were $30,357 million, up from $29,060 million in 2023.",
+      "quote": "Total operating revenues 30,357 29,060 28,768",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 total operating revenues were $7,360 million, up from $7,212 million in Q4 2023.",
+      "quote": "Total operating revenues 7,360 7,212",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 reported EPS was $1.54 and adjusted EPS was $1.66, compared to $1.27 and $1.51 in Q4 2023.",
+      "quote": "Duke Energy's fourth-quarter 2024 reported EPS was $1.54, compared to $1.27 for the fourth quarter of 2023. Duke Energy's fourth-quarter 2024 adjusted EPS was $1.66, compared to $1.51 for the fourth quarter of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher full-year 2024 adjusted results were driven by rate increases, riders, improved weather, and higher sales volumes, partially offset by higher interest expense, depreciation, storm costs, and a higher effective tax rate.",
+      "quote": "Higher full-year 2024 adjusted results were primarily driven by growth from rate increases and riders, improved weather and higher sales volumes. These items were partially offset by higher interest expense, depreciation on a growing asset base and storm costs, along with a higher effective tax rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic, with statements about entering 2025 in a position of strength.",
+      "quote": "\u201cDuke Energy enters 2025 in a position of strength, and I\u2019m excited about the future with Harry Sideris as its next CEO.\u201d",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "O&M increases in 2025 are partly due to catch-up on deferred grid projects and additional storm cost provisions.",
+      "quote": "We have O&M increasing. And that is due to two things. One, we had resources focused on the storm from the second half of the year. Right? So we didn\u2019t do some grid projects or some generation outages that we had planned. Those are gonna be caught up in 2025. So we have some shifts in O&M from that. And we also set aside some O&M resources for additional storm costs because we\u2019ve seen a more frequent set of storms impact our regions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equity funding increased to $6.5 billion over the next five years to support the capital plan.",
+      "quote": "To support these credit objectives and fund accretive growth, we increased equity funding to $6.5 billion over the next five years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company monetized over $500 million of energy tax credits in 2024.",
+      "quote": "In 2024, we efficiently monetized over $500 million of credits that will benefit customers over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a strong economic development pipeline, with over 7 GW in advanced stage and at least double that in broader pipeline.",
+      "quote": "Our near-term pipeline in advanced stage pipeline is over seven gigawatts. And our broader pipeline is at least double that and continues to grow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data centers are expected to be 50% of the pipeline by 2029.",
+      "quote": "If we look out to 2029, for example, 50% of the pipeline is now data centers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.35 is based on guidance raise and confident language, but the 2025 midpoint growth over 2024 actual is ~7%, while growth over original 2024 guidance midpoint (not disclosed) is ~5%. The score may be slightly high given the O&M timing headwinds and the fact that the guidance raise is partly due to recovery from storm-related deferrals."
+    },
+    {
+      "field": "summary.revenue",
+      "reason": "Revenue figures are extracted from the consolidated statements of operations; ensure they are correctly interpreted as total operating revenues."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Some risks are forward-looking statements from the press release's risk factors section; they are general and not specific to the quarter, but are included as explicitly stated risks."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2025-02-13",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q4/DUK_Q4_2024_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q4/DUK_Q4_2024_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ4_2024",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:04:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q4/DUK_Q4_2024_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q4/DUK_Q4_2024_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 85228,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q4/DUK_Q4_2024_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 51477,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ4_2024.txt"
+  }
+}

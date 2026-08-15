@@ -1,0 +1,170 @@
+{
+  "document_id": "MA_FQ1_2026",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The company delivered strong Q1 results with net revenue up 12% currency-neutral and EPS up 18%, but forward guidance for Q2 was held at the low end of low double digits, with full-year guidance unchanged on a currency-neutral basis. Management explicitly flagged the Middle East conflict as a headwind, assuming it ends in Q2, and noted portfolio shifts will persist for quarters. The positive momentum in VAS and share buybacks is offset by cautious forward language and external risks, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none \u2014 HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q1 2026 net revenue of $8.4 billion, up 16% reported and 12% currency-neutral year-over-year.",
+    "eps": "Q1 2026 diluted EPS of $4.35 GAAP and $4.60 adjusted, up 21% and 23% respectively year-over-year.",
+    "guidance": "Q2 2026 net revenue growth expected at low end of low double digits currency-neutral, with FX tailwind of 1-2 ppt; full-year 2026 net revenue growth at high end of low double digits currency-neutral, with FX tailwind of ~1.5 ppt. Operating expense growth expected low double digits for full year.",
+    "margin": "Q1 2026 operating margin 58.4% GAAP, up 1.2 ppt year-over-year; adjusted operating margin 60.8%, up 1.5 ppt.",
+    "key_risks": [
+      "Middle East conflict impacting cross-border travel, with headwinds expected largest in Q2 and progressive recovery in H2.",
+      "Portfolio shifts, especially travel-heavy portfolios, expected to persist for quarters.",
+      "Geopolitical tensions and global economic uncertainty.",
+      "Higher operating expenses due to investments and FX-related expenses.",
+      "Potential impact of conflict on energy supply and travel restrictions."
+    ],
+    "key_opportunities": [
+      "Value-added services and solutions grew 18% currency-neutral, with strong demand across security, digital, and analytics.",
+      "Agentic commerce with Mastercard Agent Pay and verifiable intent, partnerships with OpenAI, Google, Microsoft.",
+      "Stablecoin expansion through planned BVNK acquisition.",
+      "Portfolio wins with CIB, Westpac, Rogers Bank, United Airlines Canada, HSBC Hong Kong, Bank Mandiri, Bancolombia, Aeromexico.",
+      "Commercial segment expansion with U.S. Amazon small business co-brand card.",
+      "AI and security enhancements with NVIDIA and Recorded Future."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed confidence in strategy and execution, stating 'We are a strong global network, deeply leveraging proprietary data extended through innovation, scale through partnership, diversified through our products and services.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2026 net revenue was $8.4 billion, up 16% reported and 12% currency-neutral.",
+      "quote": "First quarter net revenue of $8.4 billion, an increase of 16%, or 12% on a currency-neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 diluted EPS was $4.35 GAAP and $4.60 adjusted.",
+      "quote": "First quarter adjusted net income of $4.1 billion, and adjusted diluted EPS of $4.60",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 net revenue growth expected at low end of low double digits currency-neutral.",
+      "quote": "year-over-year net revenue growth is expected to be at the low end of low double digits range on a currency-neutral basis, excluding inorganic activity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 net revenue growth expected at high end of low double digits currency-neutral.",
+      "quote": "net revenue growth remains at the high end of a low double-digit range on a currency-neutral basis, excluding inorganic activity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 operating margin was 58.4% GAAP, up 1.2 ppt year-over-year.",
+      "quote": "Operating margin 58.4% 57.2% 1.2 ppt",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Middle East conflict is a headwind to cross-border travel, with largest impact in Q2.",
+      "quote": "We assume the conflict ends in Q2 and the related headwinds will be largest in Q2 and then progressively recover as we move through the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Portfolio shifts will persist for quarters.",
+      "quote": "The impact of portfolio shows will stay with us for quarters. Again, every portfolio is a different migration schedule, but that kind of factors in there.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "VAS grew 18% currency-neutral in Q1.",
+      "quote": "Value-Added Services & Solutions net revenue increased 18%, primarily driven by growth in our underlying drivers, strong demand across security solutions, digital and authentication, business and market insights and consumer acquisition and engagement and pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are a strong global network, deeply leveraging proprietary data extended through innovation, scale through partnership, diversified through our products and services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share repurchases accelerated due to valuation and long-term conviction.",
+      "quote": "This quarter, we accelerated the pace of our share buybacks given current valuation levels and our strong conviction in our long-term growth potential.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is slightly positive but guidance was held flat on currency-neutral basis; ensure the score reflects the cautious forward language and external risks."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MA_Bundled Earnings Report_2026-04-30",
+  "report_metadata": {
+    "issuer": "p2_mastercard",
+    "company": "Mastercard",
+    "ticker": "MA",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2026-Q1/MA_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2026-Q1/MA_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MA_FQ1_2026",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221511Z",
+    "timestamp": "2026-08-13T22:16:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2026-Q1/MA_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_mastercard_ext2026_08_13/extracted/MA_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2026-Q1/MA_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 27558,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2026-Q1/MA_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 73984,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_mastercard_ext2026_08_13/extracted/MA_FQ1_2026.txt"
+  }
+}

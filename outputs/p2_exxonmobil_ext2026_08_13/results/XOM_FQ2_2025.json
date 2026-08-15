@@ -1,0 +1,206 @@
+{
+  "document_id": "XOM_FQ2_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports a solid quarter with earnings of $7.1 billion and cash flow from operations of $11.5 billion, but year-to-date earnings declined versus the prior year ($14.8 billion vs $17.5 billion). Forward guidance is largely reaffirmed: full-year cash capital expenditures remain at $27-29 billion, and the company reiterates its $20 billion share repurchase plan and $18 billion structural cost savings target by 2030. Management expresses confidence in project start-ups and long-term growth, but also flags risks such as the Guyana arbitration ruling, the Baytown hydrogen project uncertainty, and weaker refining margins. The score reflects genuine operational momentum (record Permian production, project start-ups) without a formal guidance raise, offset by cautious language on certain projects and market conditions."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenue for Q2 2025 was $79,477 million, down from $89,986 million in Q2 2024. For the six months ended June 30, 2025, revenue was $160,535 million versus $170,397 million in the prior year.",
+    "eps": "Q2 2025 EPS (diluted) was $1.64, down from $2.14 in Q2 2024. Year-to-date EPS was $3.40 versus $4.20 in the prior year. The company beat earnings expectations: 'Exxon Mobil Corporation beats earnings expectations. Reported EPS is $1.64, expectations were $1.57.'",
+    "guidance": "Full-year cash capital expenditures expected to be $27 billion to $29 billion, consistent with previous guidance. The company expects to deliver $18 billion of cumulative structural cost savings through 2030. 2025 project start-ups expected to drive more than $3 billion of earnings in 2026 at constant prices and margins. The company plans to repurchase $20 billion in shares this year.",
+    "margin": "Not disclosed explicitly; however, the document mentions 'weaker crude realizations' and 'decline in industry refining margins' affecting earnings.",
+    "key_risks": [
+      "Weaker crude prices and decline in industry refining margins",
+      "Higher depreciation costs",
+      "Lower base volumes from strategic divestments",
+      "Guyana arbitration ruling (disappointing but respected)",
+      "Baytown hydrogen project uncertainty due to shortened 45V tax credit timeline",
+      "Chemical margins challenged by oversupply",
+      "Potential delays in low-carbon projects (hydrogen, lithium, data centers)",
+      "Foreign exchange impacts",
+      "Increased pension-related expenses"
+    ],
+    "key_opportunities": [
+      "Advantaged volume growth in Permian and Guyana",
+      "Structural cost savings ($13.5 billion cumulative since 2019)",
+      "Project start-ups (Singapore Resid Upgrade, Fawley Hydrofiner, Strathcona Renewable Diesel, China Chemical Complex)",
+      "Permian production growth to 2.3 million oil-equivalent barrels per day by 2030",
+      "Guyana production capacity expansion to 1.7 million barrels per day by 2030",
+      "Low Carbon Solutions growth (CCS, hydrogen, lithium)",
+      "M&A opportunities with technology and scale advantages",
+      "AI and technology to improve efficiency and effectiveness"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses strong confidence in strategy and execution, e.g., 'The second quarter, once again, proved the value of our strategy and competitive advantages, which continue to deliver for our shareholders no matter the market conditions or geopolitical developments.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 revenue was $79,477 million, down from $89,986 million in Q2 2024.",
+      "quote": "Sales and other operating revenue 79,477 89,986 160,535 170,397",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 EPS was $1.64, down from $2.14 in Q2 2024.",
+      "quote": "Earnings per common share (U.S. dollars) 1.64 2.14 3.40 4.20",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company beat earnings expectations.",
+      "quote": "Exxon Mobil Corporation beats earnings expectations. Reported EPS is $1.64, expectations were $1.57.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year cash capital expenditures guidance is unchanged at $27-29 billion.",
+      "quote": "The company expects full-year cash capital expenditures of $27 billion to $29 billion, consistent with previous guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to repurchase $20 billion in shares this year.",
+      "quote": "consistent with the company's plan to deliver $20 billion of share repurchases this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 project start-ups expected to drive more than $3 billion of earnings in 2026.",
+      "quote": "In total, our 2025 project start-ups are expected to drive more than $3 billion of earnings in 2026 at constant prices and margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Year-to-date earnings declined versus prior year.",
+      "quote": "Year-to-date earnings were $14.8 billion versus $17.5 billion in the first half of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Weaker crude prices and refining margins were headwinds.",
+      "quote": "Advantaged volume growth in the Permian and Guyana, additional structural cost savings and favorable timing effects partially offset lower earnings due to weaker crude prices, a decline in industry refining margins, higher depreciation costs and lower base volumes from strategic divestments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guyana arbitration ruling was a disappointment but respected.",
+      "quote": "Regarding the recent arbitration decision, I admit the ruling was a surprise. We were highly confident in our position and so was CNOOC. ... While disappointed, we respect the process and the ruling.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Baytown hydrogen project faces uncertainty due to shortened 45V timeline.",
+      "quote": "We were disappointed that under the recently approved 45V tax credit, timing for startup of construction was shortened from 2033 to the beginning of 2028. ... If we can\u2019t see an eventual path to a market-driven business, we won\u2019t move forward with the project.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemical margins are challenged by oversupply.",
+      "quote": "I think clearly, really good demand for chemical products around the world, but a lot of supply chasing that demand, which has led to these very challenging margins that you see kind of everywhere and that are challenging companies in the industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Permian production is expected to grow to 2.3 million barrels per day by 2030.",
+      "quote": "our current plan is grow Permian production from about 1.6 million oil equivalent barrels to 2.3 million by 2030.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guyana production capacity is expected to reach 1.7 million barrels per day by 2030.",
+      "quote": "By 2030, we expect to have total production capacity of 1.7 million oil equivalent barrels per day from eight developments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural cost savings target of $18 billion by 2030.",
+      "quote": "The company expects to deliver $18 billion of cumulative savings through the end of 2030 versus 2019, also exceeding the total targets disclosed by other IOCs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "The second quarter, once again, proved the value of our strategy and competitive advantages, which continue to deliver for our shareholders no matter the market conditions or geopolitical developments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is based on operational momentum and confident language, but guidance was not formally raised; consider whether the score should be lower given the decline in year-to-date earnings and cautious language on hydrogen and chemical margins."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2025-08-01",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q2/XOM_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q2/XOM_Q2_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ2_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:09:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q2/XOM_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q2/XOM_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 46363,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q2/XOM_Q2_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 67321,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ2_2025.txt"
+  }
+}

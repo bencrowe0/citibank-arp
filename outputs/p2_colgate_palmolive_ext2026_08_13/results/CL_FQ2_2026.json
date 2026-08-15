@@ -119,7 +119,7 @@
     },
     {
       "claim": "North America net sales declined 3.0% in Q2.",
-      "quote": "North America (1) 17% -3.0% -3.0% -3.9% -3.9% +0.9% —%",
+      "quote": "North America (1) 17% -3.0% -3.0% -3.9% -3.9% +0.9% \u2014%",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
@@ -137,13 +137,13 @@
     },
     {
       "claim": "Global toothpaste market share is 41.3% year to date.",
-      "quote": "The Company’s leadership in toothpaste continued with its global market share at 41.3% year to date",
+      "quote": "The Company\u2019s leadership in toothpaste continued with its global market share at 41.3% year to date",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
     {
       "claim": "Global manual toothbrush market share is 32.7% year to date.",
-      "quote": "The Company’s leadership in manual toothbrushes continued with its global market share at 32.7% year to date",
+      "quote": "The Company\u2019s leadership in manual toothbrushes continued with its global market share at 32.7% year to date",
       "confidence": "HIGH",
       "flag": "SUPPORTED"
     },
@@ -198,7 +198,8 @@
         "pub_date": null
       }
     ],
-    "document_id": "CL_FQ2_2026"
+    "document_id": "CL_FQ2_2026",
+    "release_timing": "pre_market"
   },
   "run_meta": {
     "run_id": "20260813T152734Z",

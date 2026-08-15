@@ -1,0 +1,185 @@
+{
+  "document_id": "DUK_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reported strong first-quarter results with adjusted EPS of $1.93, up from $1.76, and reaffirmed its 2026 adjusted EPS guidance of $6.55 to $6.80 and long-term growth rate of 5% to 7% through 2030. While guidance was not raised, there is genuine operational momentum evidenced by a significant increase in signed Electric Service Agreements (7.6 GW total, with 2.7 GW added in the quarter) and a high-confidence pipeline of 15.4 GW, indicating a real inflection in the underlying business. Management expressed confidence in earning in the top half of the range beginning in 2028, but the lack of a formal guidance raise and the presence of some headwinds (higher O&M, depreciation) keep the score below the +0.5 threshold."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q1 2026 were $9,178 million, compared to $8,249 million in Q1 2025, an increase of approximately 11.3%.",
+    "eps": "Reported EPS of $1.97 and adjusted EPS of $1.93 for Q1 2026, compared to reported and adjusted EPS of $1.76 for Q1 2025.",
+    "guidance": "Reaffirming 2026 adjusted EPS guidance of $6.55 to $6.80 and long-term adjusted EPS growth rate of 5% to 7% through 2030 off the 2025 midpoint of $6.30, with confidence to earn in the top half of the range beginning in 2028.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Higher O&M expenses, including storm costs, and higher depreciation on a growing asset base partially offset results.",
+      "The company faces risks related to the ability to recover costs and earn adequate returns through rate cases and regulatory processes.",
+      "Potential for lower than anticipated load growth, particularly if data center usage is less than projected.",
+      "Costs and effects of legal and administrative proceedings, settlements, investigations, and claims.",
+      "The impact of severe weather events and other natural phenomena on operations and financial results."
+    ],
+    "key_opportunities": [
+      "Secured 7.6 GW of Electric Service Agreements (ESAs) with data center customers, with 2.7 GW added in Q1 2026.",
+      "Closed $5.3 billion in strategic transactions (Brookfield minority investment in Florida and sale of Piedmont Tennessee) to strengthen balance sheet and fund growth.",
+      "Announced more than $5 billion in customer benefits, including monetization of up to $3.1 billion of clean energy tax credits and $2.3 billion in savings from the Carolina utilities combination.",
+      "Approved 1.4 GW Anderson County combined cycle gas plant and implemented CWIP rider in Indiana.",
+      "Nuclear license renewal for Robinson plant, with plans to extend other reactors.",
+      "High-confidence pipeline of 15.4 GW for large load projects."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the company's growth trajectory, stating 'we are more confident than ever that we will deliver in the top half of the range beginning in 2028' and highlighting 'a compelling risk-adjusted return for shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total operating revenues for Q1 2026 were $9,178 million, compared to $8,249 million in Q1 2025.",
+      "quote": "Total operating revenues 9,178 8,249",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $1.97 and adjusted EPS was $1.93 for Q1 2026, compared to $1.76 for both in Q1 2025.",
+      "quote": "First-quarter 2026 reported EPS of $1.97, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $1.93. This is compared to reported and adjusted EPS of $1.76 for the first quarter of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its 2026 adjusted EPS guidance of $6.55 to $6.80 and long-term growth rate of 5% to 7% through 2030.",
+      "quote": "The company is reaffirming its 2026 adjusted EPS guidance of $6.55 to $6.80 and long-term adjusted EPS growth rate of 5% to 7% through 2030 off the 2025 midpoint of $6.30, with confidence to earn in the top half of the range beginning in 2028.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company secured 7.6 GW of ESAs, with 2.7 GW added in Q1 2026.",
+      "quote": "Since the fourth quarter call, we've signed an additional 2.7 gigawatts of ESAs with data center customers, bringing our total executed agreements to approximately 7.6 gigawatts, nearly 2/3 of which are already under construction.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company closed $5.3 billion in strategic transactions.",
+      "quote": "We closed on the first tranche of Brookfield's minority investment in Duke Energy Florida in early March, receiving $2.8 billion in cash proceeds for a 9.2% interest in our Florida utility. Several weeks later, we completed the sale of our Piedmont Natural Gas Tennessee business to Spire for $2.5 billion. The more than $5 billion in proceeds strengthen our credit profile and help cost effectively fund our $103 billion capital plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company announced more than $5 billion in customer benefits, including tax credit monetization and merger savings.",
+      "quote": "I'm pleased to announce 2 major accomplishments that will provide more than $5 billion of customer benefits... First, last week, we reached a multiyear agreement to monetize up to $3.1 billion of clean energy tax credits expected to be generated through 2028... Combining these utilities will enable us to meet the Carolina's growing energy needs more efficiently with estimated customer savings of $2.3 billion through 2040.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher O&M expenses, including storm costs, and higher depreciation partially offset results.",
+      "quote": "Higher first-quarter 2026 adjusted results were driven by recovery of infrastructure investments to reliably serve customers in our growing jurisdictions, along with favorable weather. These items were partially offset by higher O&M expenses, including storm costs, as well as higher depreciation on a growing asset base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a high-confidence pipeline of 15.4 GW for large load projects.",
+      "quote": "We continue to see robust interest from large load customers with our late-stage high confidence pipeline now at 15.4 gigawatts, inclusive of the ESAs we've signed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in achieving top-half growth from 2028.",
+      "quote": "We are more confident than ever that we will deliver in the top half of the range beginning in 2028 when we expect to see accelerated growth from the economic development projects we have secured under ESAs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company approved a 1.4 GW combined cycle gas plant in South Carolina.",
+      "quote": "In March, the South Carolina Commission approved our application for a 1.4 gigawatt combined cycle plant in Anderson County.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company received nuclear license renewal for Robinson plant.",
+      "quote": "In April, the NRC approved the subsequent license renewal for Robinson Nuclear Plant, marking our second nuclear plant to reach this important milestone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's management tone is confident.",
+      "quote": "We are more confident than ever that we will deliver in the top half of the range beginning in 2028... provide a compelling risk-adjusted return for shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 is based on operational momentum and confident language, but guidance was only reaffirmed, not raised. A reviewer may consider whether the lack of a formal guidance raise should cap the score lower."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin commentary was found in the document; the field is set to 'Not disclosed' but a reviewer may want to verify if any margin data is implied in the financial statements."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2026-05-05",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2026-Q1/DUK_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2026-Q1/DUK_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:05:57Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2026-Q1/DUK_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2026-Q1/DUK_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 61652,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2026-Q1/DUK_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 44644,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ1_2026.txt"
+  }
+}

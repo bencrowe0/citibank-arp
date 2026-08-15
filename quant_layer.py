@@ -415,6 +415,8 @@ def compute_quant_metrics(ticker: str, report_date: str) -> dict[str, Any]:
 
 
 def _lookup_report(issuer: str, document_id: str):
+    if issuer not in MANIFESTS:
+        return None
     reports = [r for r in load_manifest(MANIFESTS[issuer]) if r.document_id == document_id]
     return reports[0] if reports else None
 

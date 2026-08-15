@@ -121,12 +121,14 @@ def fetch_forward_return(
         prior_mask = history.index < report_ts
         if not prior_mask.any():
             return None
-        entry_idx = int(prior_mask.values.nonzero()[0][-1])
+        import numpy as np
+        entry_idx = int(np.asarray(prior_mask).nonzero()[0][-1])
     else:
         rdate_mask = history.index >= report_ts
         if not rdate_mask.any():
             return None
-        entry_idx = int(rdate_mask.values.nonzero()[0][0])
+        import numpy as np
+        entry_idx = int(np.asarray(rdate_mask).nonzero()[0][0])
 
     exit_idx = entry_idx + window_trading_days
     if exit_idx >= len(history):
@@ -171,8 +173,10 @@ def collect_outcomes_for_issuer(
             print(f"  Skipping {result_path.name}: missing ticker/report_date in report_metadata")
             continue
 
+        release_timing = metadata.get("release_timing") or "after_hours"
         outcome = fetch_forward_return(
-            document_id, ticker, report_date, window_trading_days, outcome_upper, outcome_lower, exit_on_open
+            document_id, ticker, report_date, window_trading_days, outcome_upper, outcome_lower, exit_on_open,
+            release_timing=release_timing,
         )
         if outcome is None:
             print(f"  Skipping {document_id}: no price data available for {ticker} around {report_date}")

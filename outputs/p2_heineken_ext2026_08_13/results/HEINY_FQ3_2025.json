@@ -1,0 +1,230 @@
+{
+  "document_id": "HEINY_FQ3_2025",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "The company reported a challenging quarter with organic net revenue down 0.3% and beer volume down 4.3%, and management explicitly lowered full-year guidance to 'towards the lower end of the 4% to 8%' range, a clear downward revision from prior guidance. The outlook also anticipates 'volume to decline modestly for the year 2025' and ongoing macroeconomic volatility, indicating a cautious and defensive stance. Despite some regional strengths and market share gains, the forward expectations have deteriorated, warranting a negative sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue \u20ac8,712 million for the quarter, \u20ac25,636 million year to date; net revenue (beia) organically down 0.3% for the quarter, up 1.3% year to date.",
+    "eps": "Not disclosed",
+    "guidance": "Full year organic operating profit (beia) growth anticipated to be towards the lower end of the 4% to 8% guidance; volume expected to decline modestly for the year 2025.",
+    "margin": "Net revenue (beia) per hectolitre up 3.6% (YTD: up 3.4%); price-mix on a constant geographic basis up 3.3% (YTD: up 3.6%).",
+    "key_risks": [
+      "Macroeconomic volatility and weak consumer sentiment",
+      "Currency devaluations and stronger Euro impacting translation",
+      "Volume decline in Europe and Americas",
+      "Trade uncertainties in the Americas",
+      "Challenging competitive environment in Cambodia",
+      "Impact of can deposit scheme in Austria",
+      "Slower than anticipated volume recovery in Europe after retail negotiations"
+    ],
+    "key_opportunities": [
+      "Solid beer volume growth in Southern Africa",
+      "Gains across the portfolio in Vietnam",
+      "Continued strong growth for Heineken\u00ae and Amstel in China",
+      "FIFCO transaction in Central America expected to be earnings accretive",
+      "Market share gains in a substantial majority of markets",
+      "Heineken\u00ae and premium volume growing year-to-date",
+      "Digital investments and eB2B platforms capturing \u20ac9.7 billion in gross merchandise value, up 13% organically"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management acknowledges a 'challenging quarter' and 'ongoing macroeconomic volatility,' while expressing confidence in delivering savings but lowering guidance to the lower end of the range."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for the quarter was \u20ac8,712 million and year-to-date \u20ac25,636 million.",
+      "quote": "Revenue \u20ac8,712 million for the quarter, \u20ac25,636 million year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net revenue (beia) organically declined 0.3% in the quarter and increased 1.3% year-to-date.",
+      "quote": "Net revenue (beia) organically down 0.3% for the quarter, up 1.3% year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year organic operating profit (beia) growth guidance was lowered to the lower end of the 4% to 8% range.",
+      "quote": "we anticipate our full year organic operating profit (beia) growth to be towards the lower end of our 4% to 8% guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volume is expected to decline modestly for the full year 2025.",
+      "quote": "we expect volume to decline modestly for the year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net revenue per hectolitre increased 3.6% in the quarter and 3.4% year-to-date.",
+      "quote": "net revenue (beia) per hectolitre was up 3.6% (YTD: up 3.4%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Price-mix on a constant geographic basis increased 3.3% in the quarter and 3.6% year-to-date.",
+      "quote": "Price-mix on a constant geographic basis was up 3.3% (YTD: up 3.6%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macroeconomic volatility and weak consumer sentiment are key risks.",
+      "quote": "Macroeconomic volatility persisted as anticipated and became more pronounced in the third quarter, creating a challenging environment, resulting in a mixed performance. We expect consumer confidence and demand to recover when conditions normalise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency devaluations and a stronger Euro negatively impacted results.",
+      "quote": "Currency translation reduced net revenue (beia) by \u20ac304 million (YTD: \u20ac1,222 million), mainly due to the strengthening of the Euro vis-\u00e0-vis the Mexican Peso, Ethiopian Birr, and Brazilian Real.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volume declined in Europe and the Americas.",
+      "quote": "Beer volume for the quarter decreased organically by 4.3% (YTD: down 2.3%), with growth in Africa & Middle East more than offset by lower volume in Europe and the Americas.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trade uncertainties in the Americas are a risk.",
+      "quote": "The region has been disproportionately affected by subdued consumer sentiment and macroeconomic developments, including trade uncertainties, which we consider to be cyclical in nature.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cambodia faces a fiercely competitive environment.",
+      "quote": "our Cambodia business continues to be challenged in a fiercely competitive environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Austria's beer volume declined due to a can deposit scheme.",
+      "quote": "Beer volume decreased by a mid-single-digit in Austria due to the impact of the recently introduced can deposit scheme affecting consumer demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe's volume recovery was slower than anticipated after retail negotiations.",
+      "quote": "Besides a soft consumer environment, volume recovery was slower than anticipated in key markets following the conclusion of retail negotiations. We expect normalisation in the near term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Southern Africa delivered solid beer volume growth.",
+      "quote": "Our advantaged geographical footprint helped us adapt, amongst others with solid beer volume growth in Southern Africa",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Vietnam delivered gains across the portfolio.",
+      "quote": "gains across the portfolio in Vietnam",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Heineken\u00ae and Amstel continued strong growth in China.",
+      "quote": "continued strong growth for Heineken\u00ae and Amstel in China",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The FIFCO transaction is expected to be earnings accretive.",
+      "quote": "We are also excited about the announced FIFCO transaction in Central America, which will further strengthen our growth footprint and be earnings accretive.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Market share gains were achieved in a substantial majority of markets.",
+      "quote": "our portfolio continues to evolve positively, with market share gains in a substantial majority of our markets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Heineken\u00ae and premium volume grew year-to-date.",
+      "quote": "Heineken\u00ae and premium volume growing year-to-date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital investments and eB2B platforms are growing.",
+      "quote": "Through our business-to-business digital (eB2B) platforms, we captured \u20ac9.7 billion in gross merchandise value year to date, an organic increase of 13% versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "Macroeconomic volatility persisted as anticipated and became more pronounced in the third quarter, creating a challenging environment, resulting in a mixed performance. We expect consumer confidence and demand to recover when conditions normalise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was explicitly lowered to the lower end of the range, but the score might be considered too negative if the market had already priced in this outcome. The document also contains positive elements (market share gains, regional growth) that could offset some negativity."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS was not disclosed in the document; this is a notable absence for an earnings report."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "HEIA.AS_Bundled Earnings Report_2025-10-01",
+  "report_metadata": {
+    "issuer": "p2_heineken",
+    "company": "Heineken",
+    "ticker": "HEIA.AS",
+    "sector": "Consumer Defensive/Beverages",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2025-Q3/HEINY_Q3_2025_Press_Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HEINY_FQ3_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221107Z",
+    "timestamp": "2026-08-13T22:12:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2025-Q3/HEINY_Q3_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_heineken_ext2026_08_13/extracted/HEINY_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2025-Q3/HEINY_Q3_2025_Press_Release.pdf",
+        "page_count": 10,
+        "extracted_characters": 36179,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_heineken_ext2026_08_13/extracted/HEINY_FQ3_2025.txt"
+  }
+}

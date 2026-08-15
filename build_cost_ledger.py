@@ -62,6 +62,24 @@ def build_ledger() -> list[dict]:
                     continue
                 rows.append(_row("micro", issuer, row))
 
+    # Extension scan: outputs/p2_*_ext{date}/ directories (e.g. p2_*_ext2026_08_13)
+    # Build a set of already-seen (layer, issuer, document_id) keys to avoid duplicates.
+    seen_keys: set[tuple] = {(r["layer"], r["issuer"], r["document_id"]) for r in rows}
+    for ext_dir in sorted(BASE_DIR.glob("outputs/p2_*_ext*/")):
+        ext_issuer = ext_dir.name  # e.g. p2_sony_ext2026_08_13
+        csv_path = ext_dir / "summary" / f"{ext_issuer}_first_run_summary.csv"
+        if not csv_path.exists():
+            continue
+        with open(csv_path, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                if row.get("status") != "success":
+                    continue
+                key = ("micro_ext", ext_issuer, row.get("document_id", ""))
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
+                rows.append(_row("micro_ext", ext_issuer, row))
+
     for f in sorted(glob.glob(str(BASE_DIR / "outputs" / "macro" / "results" / "*.json"))):
         d = json.load(open(f, encoding="utf-8"))
         rows.append(_row("macro", "macro", d.get("cost_log", d)))

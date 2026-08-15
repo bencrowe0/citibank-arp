@@ -1,0 +1,183 @@
+{
+  "document_id": "XOM_FQ1_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The company delivered strong results with earnings of $7.7 billion and cash flow from operations of $13.0 billion, and management expressed confidence in its strategy and ability to excel in any environment. However, forward guidance was not formally raised; management reaffirmed its plans and highlighted significant market uncertainty, including tariff impacts and downward pressure on prices and margins. The score reflects genuine operational momentum and confident language, but is tempered by the lack of a formal guidance raise and acknowledged market headwinds."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenue of $81,058 million for 1Q25, compared to $80,411 million in 1Q24.",
+    "eps": "Earnings per common share (assuming dilution) of $1.76 for 1Q25, compared to $2.06 in 1Q24.",
+    "guidance": "Management reaffirmed plans to deliver $18 billion of cumulative structural cost savings through 2030, and expects 10 advantaged projects starting up this year to generate more than $3 billion of earnings in 2026 at constant prices and margins. The company also reiterated its $20 billion annual share-repurchase program through 2026.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Significant decline in industry refining margins",
+      "Weaker crude prices",
+      "Uncertainty in tariffs weighing on economic forecasts and causing volatility",
+      "Threats of increased OPEC supply putting downward pressure on prices and margins",
+      "Higher expenses from growth initiatives and turnaround activity",
+      "Unfavorable foreign exchange effects"
+    ],
+    "key_opportunities": [
+      "Advantaged volume growth in Permian and Guyana",
+      "Structural cost savings of $12.7 billion cumulative since 2019",
+      "Startup of 10 advantaged projects expected to generate more than $3 billion of earnings in 2026",
+      "Commencement of operations at China Chemical Complex and second Advanced Recycling Unit",
+      "Growth in high-value products and low carbon solutions",
+      "Strong shareholder distributions of $9.1 billion"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Darren Woods stated, 'In this uncertain market, our shareholders can be confident in knowing that we're built for this. The work we've done to transform our company over the past eight years positions us to excel in any environment.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for 1Q25 was $81,058 million.",
+      "quote": "Sales and other operating revenue 81,058 80,411",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS for 1Q25 was $1.76 per share.",
+      "quote": "Earnings Per Common Share \u00b9 1.76 1.72 +0.04 2.06 -0.30",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed its plan to deliver $18 billion of cumulative structural cost savings through 2030.",
+      "quote": "The company expects to deliver $18 billion of cumulative savings through the end of 2030 versus 2019.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects 10 advantaged projects starting up this year to generate more than $3 billion of earnings in 2026.",
+      "quote": "This year, we're starting up 10 advantaged projects that are expected to generate more than $3 billion of earnings in 2026 at constant prices and margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reiterated its $20 billion annual share-repurchase program through 2026.",
+      "quote": "Industry-leading shareholder distributions of $9.1 billion included $4.3 billion of dividends and $4.8 billion of share repurchases, consistent with the company's annual $20 billion share-repurchase program through 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from declining refining margins and weaker crude prices.",
+      "quote": "Advantaged volume growth in the Permian and Guyana, additional structural cost savings and favorable timing effects mostly offset lower earnings due to a significant decline in industry refining margins, weaker crude prices, lower base volumes from strategic divestments and higher expenses from growth initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff uncertainty is weighing on economic forecasts and causing volatility.",
+      "quote": "It is clear that this uncertainty is weighing on economic forecast causing significant volatility in raising the prospects of slower growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increased OPEC supply is putting downward pressure on prices and margins.",
+      "quote": "Coupled with the threats of increased OPEC supply, we are seeing significant downward pressure on prices and margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has achieved $12.7 billion of cumulative structural cost savings since 2019.",
+      "quote": "Achieved $12.7 billion of cumulative Structural Cost Savings versus 2019, more than all cost savings reported by other IOCs combined.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company commenced operations at the China Chemical Complex and second Advanced Recycling Unit.",
+      "quote": "Commenced operations at the China Chemical Complex and 2nd Advanced Recycling Unit in Baytown",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company distributed $9.1 billion in shareholder distributions.",
+      "quote": "Distributed industry-leading $9.1 billion in shareholder distributions including $4.3 billion in dividends",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "In this uncertain market, our shareholders can be confident in knowing that we're built for this. The work we've done to transform our company over the past eight years positions us to excel in any environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is based on operational momentum and confident language, but no formal guidance raise; market headwinds are acknowledged. Reviewer should verify if the momentum is sufficient to justify a score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2025-05-02",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q1/XOM_Q1_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q1/XOM_Q1_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ1_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:09:22Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q1/XOM_Q1_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q1/XOM_Q1_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 43567,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2025-Q1/XOM_Q1_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 64196,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ1_2025.txt"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "document_id": "INTC_FQ4_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "Intel reported a fifth consecutive quarter of beating its own guidance, with Q4 revenue, gross margin, and EPS all above the company's prior forecast, and management expressed confidence in the long-term demand environment. However, forward guidance for Q1 2026 is below seasonal norms due to acute supply constraints, and management explicitly stated that gross margin of 34.5% is 'by no means an acceptable level,' indicating a near-term trough rather than an inflection. The score reflects genuine operational momentum and a beat, but is tempered by the company's own cautious and constrained forward outlook, which prevents a more bullish rating."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none \u2014 HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue was $13.7 billion, down 4% year-over-year. Full-year 2025 revenue was $52.9 billion, flat year-over-year.",
+    "eps": "Q4 2025 GAAP EPS was $(0.12); non-GAAP EPS was $0.15, above guidance of $0.08. Full-year GAAP EPS was $(0.06); non-GAAP EPS was $0.42.",
+    "guidance": "Q1 2026 revenue guidance is $11.7 billion to $12.7 billion (midpoint $12.2 billion), with non-GAAP EPS of $0.00 and non-GAAP gross margin of 34.5%. Management expects supply to improve starting in Q2 2026.",
+    "margin": "Q4 2025 non-GAAP gross margin was 37.9%, down 4.2 points year-over-year but ~140 basis points above guidance. Full-year non-GAAP gross margin was 36.7%, up 70 basis points. Q1 2026 non-GAAP gross margin guidance is 34.5%.",
+    "key_risks": [
+      "Internal supply constraints are most acute in Q1 2026 due to depleted buffer inventory.",
+      "Rising prices and tight availability for DRAM, NAND, and substrates could limit revenue opportunity, particularly in the client market.",
+      "Intel 18A yields, while improving, are still below management's desired level and below industry-leading standards.",
+      "Panther Lake (Intel 18A) is still dilutive to corporate average gross margin.",
+      "Gross margin guidance of 34.5% for Q1 2026 is well below targeted levels."
+    ],
+    "key_opportunities": [
+      "Strong demand for traditional servers and AI infrastructure, with DCAI revenue up 15% sequentially in Q4.",
+      "Custom ASIC business grew more than 50% year-over-year, reaching an annualized run rate above $1 billion, with a $100 billion TAM opportunity.",
+      "Intel 18A ramp to high-volume manufacturing and strong customer demand for Core Ultra Series 3 (Panther Lake).",
+      "Advanced packaging (EMIB/EMIB-T) opportunities with early customer prepayments, potentially exceeding $1 billion per opportunity.",
+      "Intel 14A development on track with active customer engagements and expected firm decisions in H2 2026 to H1 2027."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in long-term demand and progress ('We remain encouraged by the fundamental drivers of demand across our core markets') while acknowledging near-term challenges ('our internal supply constraints are most acute in Q1')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $13.7 billion, down 4% year-over-year.",
+      "quote": "Fourth-quarter revenue was $13.7 billion, down 4% year-over-year (YoY).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue was $52.9 billion, flat year-over-year.",
+      "quote": "Full-year revenue was $52.9 billion, flat YoY.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP EPS was $(0.12) and non-GAAP EPS was $0.15.",
+      "quote": "Fourth-quarter earnings (loss) per share (EPS) attributable to Intel was $(0.12); non-GAAP EPS attributable to Intel was $0.15.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 non-GAAP EPS of $0.15 beat guidance of $0.08.",
+      "quote": "We delivered fourth quarter non-GAAP earnings per share of $0.15 versus our guidance of $0.08 and driven by higher revenue, stronger gross margins and continued spending discipline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guidance is $11.7 billion to $12.7 billion.",
+      "quote": "Forecasting first-quarter 2026 revenue of $11.7 billion to $12.7 billion; expecting first-quarter EPS attributable to Intel of $(0.21) and non-GAAP EPS attributable to Intel of $0.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 non-GAAP gross margin was 37.9%, down 4.2 points year-over-year.",
+      "quote": "Non-GAAP gross margin 37.9% 42.1% down 4.2 ppts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 non-GAAP gross margin beat guidance by ~140 basis points.",
+      "quote": "Non-GAAP gross margin came in at 37.9%, approximately 140 basis points ahead of guidance on higher revenue and lower inventory reserves, partially offset by increased mix of outsourced client products and the early ramp of Intel 18A.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 non-GAAP gross margin guidance is 34.5%.",
+      "quote": "At the midpoint of $12.2 billion, we forecast a gross margin of approximately 34.5% with a tax rate of 11% and breakeven EPS, all on a non-GAAP basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Internal supply constraints are most acute in Q1 2026 due to depleted buffer inventory.",
+      "quote": "As we enter 2026, our buffer inventory is depleted and the mix shift in wafers towards servers, which began in Q3 will not come out of fab until late Q1 '26. As a result, and as we stated last quarter, our internal supply constraints are most acute in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rising prices and tight availability for DRAM, NAND, and substrates could limit revenue opportunity.",
+      "quote": "Rising component pricing is a dynamic we continue to watch closely, especially relative to the client market and could limit our revenue opportunity this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel 18A yields are still below management's desired level.",
+      "quote": "While yields are in line with our internal plans, they are still below what I want them to be. Accelerating yield improvement will be important lever in 2026 as we look to better support our customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Panther Lake is still dilutive to corporate average gross margin.",
+      "quote": "Panther Lake, while the cost structure improves from Q4 to Q1, it's still dilutive to the corporate average, and it's a bigger percentage of the mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin guidance of 34.5% is well below targeted levels.",
+      "quote": "We know that 34.5% is by no means an acceptable level of gross margins. And we're actively working it, first to get it to 40% and then once we get it there, we'll move to a new target.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DCAI revenue was up 15% sequentially in Q4.",
+      "quote": "DCAI revenue was $4.7 billion, up 15% sequentially, above expectations and the fastest sequential growth this decade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Custom ASIC business grew more than 50% year-over-year, reaching an annualized run rate above $1 billion.",
+      "quote": "Our custom ASIC business grew more than 50% in 2025, 26% sequentially and reached an annualized revenue run rate greater than $1 billion in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel 18A ramped to high-volume manufacturing.",
+      "quote": "Intel 18A ramped to high-volume manufacturing in Arizona and Oregon, reinforcing Intel\u2019s position as the only company undertaking research, design and development of leading-edge and next generation semiconductor manufacturing technologies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advanced packaging opportunities could exceed $1 billion per opportunity.",
+      "quote": "I'd say some of the early customer engagements suggest that we'll be well north of $1 billion on many of these opportunities for advanced packaging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel 14A development is on track with active customer engagements.",
+      "quote": "Intel 14A development remains on track. We have taken meaningful steps to simplify our process flow and improve our rate of performance and yield improvement. ... Engagements with potential external customers on Intel 14A are active.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in long-term demand drivers.",
+      "quote": "We remain encouraged by the fundamental drivers of demand across our core markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledged near-term supply challenges.",
+      "quote": "our internal supply constraints are most acute in Q1",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 marked the fifth consecutive quarter of revenue above guidance.",
+      "quote": "Q4 marks the fifth consecutive quarter of revenue above our guidance even as we navigate industry-wide supply constraints for our key products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year non-GAAP EPS was $0.42, up $0.55 year-over-year.",
+      "quote": "Full year non-GAAP EPS was $0.42, up $0.55 year-over-year on lower period charges and improved operating leverage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 guidance midpoint reflects the low end of typical seasonality.",
+      "quote": "The midpoint of $12.2 billion reflects a lower end of seasonal Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply is expected to improve starting in Q2 2026.",
+      "quote": "We expect our factory network to improve available supply beginning in Q2 and for each of the remaining quarters in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is a judgment call balancing a fifth consecutive beat against a below-seasonal Q1 guide and explicit margin concerns. A reviewer should verify this lands appropriately within the HOLD band."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The risk list is derived from explicit management statements but the severity weighting (e.g., supply constraints vs. margin dilution) is subjective."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "INTC_Bundled Earnings Report_2026-01-22",
+  "report_metadata": {
+    "issuer": "p2_intel",
+    "company": "Intel",
+    "ticker": "INTC",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-22",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q4/INTC_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q4/INTC_Q4_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "INTC_FQ4_2025",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T221409Z",
+    "timestamp": "2026-08-13T22:14:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q4/INTC_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_intel_ext2026_08_13/extracted/INTC_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q4/INTC_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 42625,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q4/INTC_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 65918,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_intel_ext2026_08_13/extracted/INTC_FQ4_2025.txt"
+  }
+}

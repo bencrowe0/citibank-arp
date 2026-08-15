@@ -1,0 +1,235 @@
+{
+  "document_id": "SHOP_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company delivered strong Q4 results with revenue up 31% and full-year revenue up 30%, accelerating from 26% in 2024, and provided Q1 2026 guidance for revenue growth in the low-thirties, similar to Q4, indicating sustained momentum. Management expressed high confidence in the AI-driven commerce opportunity, with the launch of UCP and agentic storefronts, and announced a $2 billion share repurchase program, reflecting confidence in long-term value. However, the guidance was not raised above prior expectations, and management noted Q1 free cash flow margin would be slightly below Q1 2025 due to tax headwinds, so the score is positive but not at the +0.5 level."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 revenue $3.01 billion, up 31% year-over-year; full-year 2025 revenue $11.6 billion, up 30% from 2024.",
+    "eps": "Not disclosed",
+    "guidance": "Q1 2026 revenue growth expected in low-thirties percentage rate year-over-year, similar to Q4 2025; gross profit dollars growth in high-twenties; operating expenses 37%-38% of revenue; free cash flow margin in low-to-mid teens, slightly below Q1 2025.",
+    "margin": "Q4 free cash flow margin 19%; full-year 2025 free cash flow margin 17%; Q4 gross profit up 25%; subscription solutions gross margin 81%; merchant solutions gross margin 36.8%.",
+    "key_risks": [
+      "Tariffs, removal of de minimis exemptions, trade wars, and geopolitical landscape forcing merchants to adapt.",
+      "Q1 2026 free cash flow margin expected slightly below Q1 2025 due to higher effective tax rate and typical low GMV quarter.",
+      "Comparability headwinds in MRR growth until Q2 2026 due to 3-month trials rollout in Q1 2025.",
+      "Forward-looking statements subject to risks including economic conditions, consumer spending, tariffs, AI adoption, third-party reliance, cyberattacks, and software defects."
+    ],
+    "key_opportunities": [
+      "AI-driven commerce: orders from AI search up 15x since January 2025; launch of Universal Commerce Protocol (UCP) with Google; agentic storefronts syndicating products to major AI platforms.",
+      "International expansion: revenue up 36% year-over-year, nearly half of merchants outside North America; Europe GMV up 45% in Q4.",
+      "B2B growth: GMV up 96% for the year and 84% in Q4.",
+      "Shop Pay adoption: processed $43 billion in Q4, over 50% of U.S. GPV.",
+      "Shop Campaigns: revenue doubled and merchant adoption tripled in 2025.",
+      "Share repurchase program of up to $2 billion reflecting confidence."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly confident language such as '2025 was Shopify at full throttle' and 'no one is better positioned to lead in this new era,' and expressed strong forward expectations for 2026."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenue was $3.01 billion, up 31% year-over-year.",
+      "quote": "Q4 revenue -- $3.01 billion, the first quarter exceeding $3 billion, surpassing the total annual 2020 revenue in a single quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue was $11.6 billion, up 30% from 2024.",
+      "quote": "Revenue -- $11.6 billion for the year, up 30% from 2024, marking an acceleration from the prior year's 26% growth rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue growth expected in low-thirties percentage rate year-over-year.",
+      "quote": "For the first quarter of 2026, we expect: Revenue to grow at a low-thirties percentage rate on a year-over-year basis, similar to Q4 2025;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 free cash flow margin expected in low-to-mid teens, slightly below Q1 2025.",
+      "quote": "For Q1, we expect a free cash flow margin in the low to mid-teens, slightly below our Q1 2025 free cash flow margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 free cash flow margin was 19%.",
+      "quote": "Q4 free cash flow was $715 million or 19% of revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 free cash flow margin was 17%.",
+      "quote": "For the year, free cash flow was $2 billion, a 26% increase achieving a free cash flow margin of 17%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross profit grew 25%.",
+      "quote": "Q4 gross profit grew 25%, coming in slightly ahead of our expectations, driven by the outperformance in revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Subscription solutions gross margin was 81%.",
+      "quote": "Gross profit for Subscription Solutions grew 18%, with Subscription Solutions gross margin coming in at 81%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Merchant solutions gross margin was 36.8%.",
+      "quote": "Merchant Solutions gross profit grew 30%, with gross margin coming in at 36.8%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risks include tariffs, trade wars, and geopolitical landscape.",
+      "quote": "In 2025, our merchants faced daunting challenges, tariffs, the removal of de minimis exemptions, trade wars and the ever-changing geopolitical landscape have forced merchants to adapt faster than they ever thought possible.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 free cash flow margin impacted by higher effective tax rate.",
+      "quote": "And this year, we expect a slightly higher effective tax rate versus what we have seen in prior years. This tax effect will have some slight intra-quarter impacts to free cash flow, but we expect these will be mitigated on an annual basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MRR growth has comparability headwinds until Q2 2026 due to 3-month trials.",
+      "quote": "As a reminder, our year-over-year growth rate in MRR will continue to have comparability headwinds until Q2 of this year as our rollout of 3-month trials, particularly in our largest markets, did not occur until Q1 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI search orders increased 15x since January 2025.",
+      "quote": "In fact, since January 2025, orders coming to Shopify stores from AI search are up 15x.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Universal Commerce Protocol (UCP) launched with Google.",
+      "quote": "You may have seen that we just announced the Universal Commerce Protocol, or UCP, that we co-developed with Google.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International revenue grew 36% year-over-year.",
+      "quote": "International revenue -- Grew 36% year over year, now representing nearly half of all merchants.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe GMV up 45% in Q4.",
+      "quote": "Our European merchants, in particular, topped off an exceptional year with Q4 GMV up 45% or 35% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "B2B GMV rose 96% for the year and 84% in Q4.",
+      "quote": "B2B GMV -- Rose 96% for the year and 84% in Q4, reflecting rapid platform expansion in the business-to-business segment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shop Pay processed $43 billion in Q4, over 50% of U.S. GPV.",
+      "quote": "Shop Pay GMV -- Processed $43 billion in Q4, representing over 50% of U.S. gross payment volume (GPV).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shop Campaigns revenue doubled and merchant adoption tripled in 2025.",
+      "quote": "In 2025, Shop campaigns revenue doubled and merchant adoption tripled, metrics we will look to build on in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share repurchase program of up to $2 billion approved.",
+      "quote": "Shopify\u2019s Board of Directors has authorized a share repurchase program of up to $2 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "\u201c2025 was Shopify at full throttle - driving compounding growth, while laying the rails for the new era of AI commerce,\u201d said Harley Finkelstein, President of Shopify.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 reflects strong results and confident guidance, but guidance was not raised above prior expectations; consider if the momentum warrants a higher score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "SHOP_Bundled Earnings Report_2026-02-11",
+  "report_metadata": {
+    "issuer": "p2_shopify",
+    "company": "Shopify",
+    "ticker": "SHOP",
+    "sector": "Technology/E-Commerce",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q4/SHOP_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q4/SHOP_Q4_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SHOP_FQ4_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221728Z",
+    "timestamp": "2026-08-13T22:17:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q4/SHOP_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shopify_ext2026_08_13/extracted/SHOP_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q4/SHOP_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 11413,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q4/SHOP_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 69086,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shopify_ext2026_08_13/extracted/SHOP_FQ4_2025.txt"
+  }
+}

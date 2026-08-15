@@ -1,0 +1,181 @@
+{
+  "document_id": "DUK_FQ2_2023",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The company reported a GAAP loss per share of $(0.32) and adjusted EPS of $0.91, missing the analyst expectation of $0.98. Management reaffirmed the 2023 adjusted EPS guidance range of $5.55 to $5.75 and the long-term growth rate of 5-7%, but the reaffirmation is hedged by significant weather headwinds and cost mitigation measures. The forward outlook is cautious, with management emphasizing agility and cost reductions rather than raising guidance, leading to a slightly negative sentiment."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none \u2014 HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q2 2023 were $6,578 million, compared to $6,564 million in Q2 2022, a slight increase. For the six months ended June 30, 2023, revenues were $13,854 million versus $13,575 million in the prior year.",
+    "eps": "Reported loss per share of $(0.32) for Q2 2023, compared to reported EPS of $1.14 in Q2 2022. Adjusted EPS was $0.91, compared to $1.09 in Q2 2022. The company missed the analyst expectation of $0.98 adjusted EPS.",
+    "guidance": "Reaffirmed adjusted 2023 EPS guidance range of $5.55 to $5.75, and long-term adjusted EPS growth rate of 5% to 7% through 2027 off the 2023 midpoint of $5.65.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Record mild weather in the first half of 2023 negatively impacted results, with a weather headwind of nearly $0.30 per share.",
+      "Higher interest expense and depreciation are pressuring earnings.",
+      "Lower volumes, particularly in residential and industrial classes, are a concern.",
+      "Deferred fuel costs are a balance sheet pressure, with recovery expected to extend into 2024.",
+      "Potential for continued macroeconomic uncertainty affecting customer demand."
+    ],
+    "key_opportunities": [
+      "Growth from riders and other retail margin, favorable rate case impacts, and lower O&M spending excluding storms.",
+      "Completion of the Commercial Renewables sale, transitioning to a fully regulated company.",
+      "Strong customer growth (1.8% residential) and economic development in service territories, including data centers and manufacturing investments.",
+      "Modern regulatory constructs in states like North Carolina (HB951) that mitigate regulatory lag.",
+      "IRA benefits and federal funding opportunities for clean energy investments."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management acknowledges challenges ('Challenging as the first half of this year has been due to record mild weather') but expresses confidence in long-term fundamentals ('The fundamentals of our business are strong and we are on track to deliver long-term EPS growth of 5-7% through 2027')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported loss per share was $(0.32) for Q2 2023.",
+      "quote": "Duke Energy today announced second-quarter 2023 reported loss per share of $(0.32), prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $0.91.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $0.91, missing the analyst expectation of $0.98.",
+      "quote": "Duke Energy Corporation misses on earnings expectations. Reported EPS is $0.91 EPS, expectations were $0.98.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed 2023 adjusted EPS guidance range of $5.55 to $5.75.",
+      "quote": "The company is reaffirming the adjusted 2023 EPS guidance range of $5.55 to $5.75, and long-term adjusted EPS growth rate of 5% to 7% through 2027 off the 2023 midpoint of $5.65.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record mild weather negatively impacted first-half results.",
+      "quote": "First-half results reflect record mild weather compared to normal and last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Weather headwind was nearly $0.30 per share through June.",
+      "quote": "Through June we\u2019re facing a weather headwind of nearly $0.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest expense and depreciation were key drivers of lower adjusted EPS.",
+      "quote": "Lower second-quarter 2023 adjusted results were driven by unfavorable weather and volumes, along with higher interest expense and depreciation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is taking cost mitigation actions to offset weather pressures.",
+      "quote": "We\u2019ve taken action to offset these pressures, including launching significant business agility in the first quarter. We\u2019re looking to tactical O&M reductions and other levers, including deferring non-critical work, reducing spend on outside services, and limiting non-essential travel and overtime.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Commercial Renewables sale is expected to close by year-end.",
+      "quote": "On track to close Commercial Renewables sale by year-end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is transitioning to a fully regulated company.",
+      "quote": "The sale completes our transition to a fully regulated company, positioned in growing and constructive jurisdictions to deliver value for our customers, communities, and shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Residential customer growth was robust at 1.8%.",
+      "quote": "In the residential class, customer growth remained robust at 1.8% but was offset by lower usage per customer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to recover $1.7 billion of deferred fuel costs in 2023.",
+      "quote": "Across our jurisdictions, we\u2019re on pace to recover 1.7 of deferred fuel costs in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, acknowledging challenges but expressing confidence in long-term growth.",
+      "quote": "\u201cChallenging as the first half of this year has been due to record mild weather, our team responded with agile cost reduction efforts... The fundamentals of our business are strong and we are on track to deliver long-term EPS growth of 5-7% through 2027.\u201d",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative due to the EPS miss and cautious guidance, but the reaffirmation of guidance and positive long-term outlook could justify a neutral score. The analyst expectation of $0.98 is from the transcript, not the press release, and may need verification."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2023-08-08",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-08-08",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q2/DUK_Q2_2023_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q2/DUK_Q2_2023_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ2_2023",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:02:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q2/DUK_Q2_2023_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q2/DUK_Q2_2023_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 76405,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q2/DUK_Q2_2023_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 91886,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ2_2023.txt"
+  }
+}

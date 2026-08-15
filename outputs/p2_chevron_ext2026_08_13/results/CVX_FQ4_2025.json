@@ -1,0 +1,231 @@
+{
+  "document_id": "CVX_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: record production, a 4% dividend increase, and a raised structural cost-reduction target ($3-4 billion by end of 2026), with management expressing confidence in continued cash flow growth. However, forward production guidance of 7-10% growth is new but not explicitly compared to prior guidance, and the quarter's earnings declined year-over-year due to lower prices, so the score reflects momentum without a formal earnings guidance raise. The TCO power outage is a disclosed operational risk, but management reaffirmed its 2026 TCO free cash flow guidance, limiting downside."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 sales and other operating revenues were $45,787 million, down from $48,334 million in Q4 2024. Full-year 2025 revenues were $184,432 million, down from $193,414 million in 2024.",
+    "eps": "Q4 2025 diluted EPS was $1.39 (reported) and $1.52 (adjusted), compared to $1.84 (reported) and $2.06 (adjusted) in Q4 2024. Full-year 2025 diluted EPS was $6.63 (reported) and $7.29 (adjusted), compared to $9.72 (reported) and $10.05 (adjusted) in 2024.",
+    "guidance": "Management expects continued volume growth in 2026, with a 7% to 10% increase in production year-over-year excluding asset sales. The company reaffirmed its 2026 guidance of $6 billion Chevron-share free cash flow from TCO at $70 Brent. It also aims to deliver $3-4 billion in structural cost reductions by the end of 2026.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Lower crude oil prices (average Brent spot price fell from $81/BBL in 2024 to $69/BBL in 2025).",
+      "Unfavorable foreign currency effects (decreased Q4 2025 earnings by $130 million).",
+      "TCO power distribution system issue causing temporary production suspension, with full capacity expected within February 2026.",
+      "Potential OPEC+ production quotas or actions that could impact production.",
+      "Geopolitical and regulatory risks in Venezuela, including a new hydrocarbon law being reviewed.",
+      "Structural cost reduction program may not achieve anticipated savings."
+    ],
+    "key_opportunities": [
+      "Record production levels in 2025 (worldwide and U.S.) with continued growth expected in 2026.",
+      "Hess acquisition integration delivering on $1 billion synergy target and contributing to production growth.",
+      "Major project start-ups (TCO Future Growth Project, Gulf of America deepwater projects, Guyana developments).",
+      "Potential to grow Venezuela production by up to 50% over the next 18-24 months.",
+      "Eastern Mediterranean projects (Leviathan expansion, Tamar optimization, Aphrodite FEED) expected to double earnings and free cash flow by 2030.",
+      "Structural cost reductions of $1.5 billion achieved in 2025, with a target of $3-4 billion by end of 2026.",
+      "New energies opportunities in power, lithium, and hydrogen.",
+      "Permian production at 1 million BOE/day with focus on free cash flow growth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses strong, assured language such as '2025 was a year of execution,' 'we're entering 2026 from a position of strength,' and 'our balance sheet is in excellent shape,' indicating confidence in the company's trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 reported earnings were $2.8 billion, or $1.39 per diluted share.",
+      "quote": "Chevron Corporation (NYSE: CVX) reported earnings of $2.8 billion ($1.39 per share - diluted) for fourth quarter 2025, compared with $3.2 billion ($1.84 per share - diluted) in fourth quarter 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 adjusted earnings were $3.0 billion, or $1.52 per diluted share.",
+      "quote": "Adjusted earnings of $3.0 billion ($1.52 per share - diluted) in fourth quarter 2025 compared to adjusted earnings of $3.6 billion ($2.06 per share - diluted) in fourth quarter 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 reported earnings were $12,299 million, down from $17,661 million in 2024.",
+      "quote": "NET INCOME (LOSS) ATTRIBUTABLE TO CHEVRON CORPORATION $ 2,770 $ 3,239 $ 12,299 $ 17,661",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 sales and other operating revenues were $45,787 million, down from $48,334 million in Q4 2024.",
+      "quote": "Sales and other operating revenues $ 45,787 $ 48,334 $ 184,432 $ 193,414",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company announced a 4% increase in the quarterly dividend to $1.78 per share.",
+      "quote": "The company\u2019s Board of Directors declared a 4 percent increase in the quarterly dividend to one dollar and seventy-eight cents ($1.78) per share, payable March 10, 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects production growth of 7% to 10% year-over-year in 2026, excluding asset sales.",
+      "quote": "In total, growth in these high-margin assets is anticipated to contribute to a 7% to 10% increase in production year over year, excluding the impact of asset sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its 2026 TCO free cash flow guidance of $6 billion at $70 Brent.",
+      "quote": "Our full-year 2026 guidance of $6 billion of Chevron-share free cash flow from TCO at $70 Brent is unchanged.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company aims to deliver $3-4 billion in structural cost reductions by the end of 2026.",
+      "quote": "We expect this momentum to continue as we aim to deliver on our expanded target of $3 to $4 billion by the end of 2026, with more than 60% of savings coming from durable efficiency gains.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower crude oil prices were a key headwind, with average Brent spot price falling from $81/BBL in 2024 to $69/BBL in 2025.",
+      "quote": "Avg. Brent Spot Price (Source: Platts) $/BBL $ 64 $ 69 $ 75 $ 69 $ 81",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unfavorable foreign currency effects decreased Q4 2025 earnings by $130 million.",
+      "quote": "Foreign currency effects decreased earnings by $130 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TCO experienced a temporary power distribution system issue, with production expected to resume to full capacity within February 2026.",
+      "quote": "Earlier this month, TCO experienced a temporary issue on the power distribution system. Production was safely put in a recycle mode while the team identified the root cause. Early production has now resumed, and we expect the majority of the plant capacity to be online within the coming week, and unconstrained production levels within February.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record production levels in 2025.",
+      "quote": "Production reached record levels globally, and in the U.S., supported by key milestones and strategic actions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Hess acquisition is delivering on its $1 billion synergy target.",
+      "quote": "After integrating Hess Corporation (Hess), the company quickly delivered on its initial $1 billion synergy target.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is potential to grow Venezuela production by up to 50% over the next 18-24 months.",
+      "quote": "We see the potential to further grow production volumes by up to 50% over the next 18 to 24 months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Eastern Mediterranean projects are expected to double earnings and free cash flow by 2030.",
+      "quote": "Combined, those projects should increase [production about 50%] and double earnings and cash flow by 2030.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "2025 was a year of execution. We set records, started-up major projects and strengthened our portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's balance sheet is strong, with a net debt coverage ratio of 1.0x.",
+      "quote": "Our balance sheet remains strong, ending the year with a net debt coverage ratio of 1.0x.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company returned $27.1 billion of cash to shareholders during 2025.",
+      "quote": "The company returned $27.1 billion of cash to shareholders during the year, including share repurchases of $12.1 billion, dividends of $12.8 billion, and $2.2 billion of Hess share purchases in early 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects operational momentum and a dividend increase, but the document does not provide a formal earnings guidance raise. The 7-10% production growth guidance is new but not explicitly compared to prior guidance. A human reviewer should verify this is appropriately weighted."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance field includes production growth and cost reduction targets, but there is no explicit revenue or earnings guidance. A human reviewer should confirm this is accurately represented."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "CVX_Bundled Earnings Report_2026-01-30",
+  "report_metadata": {
+    "issuer": "p2_chevron",
+    "company": "Chevron",
+    "ticker": "CVX",
+    "sector": "Energy/Oil & Gas",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q4/CVX_Q4_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q4/CVX_Q4_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CVX_FQ4_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T215809Z",
+    "timestamp": "2026-08-13T21:59:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q4/CVX_Q4_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_chevron_ext2026_08_13/extracted/CVX_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q4/CVX_Q4_2025_Press_Release.pdf",
+        "page_count": 11,
+        "extracted_characters": 34025,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q4/CVX_Q4_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 54614,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_chevron_ext2026_08_13/extracted/CVX_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

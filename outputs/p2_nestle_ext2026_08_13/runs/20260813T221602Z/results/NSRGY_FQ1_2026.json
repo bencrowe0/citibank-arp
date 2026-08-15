@@ -1,0 +1,209 @@
+{
+  "document_id": "NSRGY_FQ1_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Nestlé reported Q1 2026 organic growth of 3.5% with RIG of 1.2%, and management reaffirmed 2026 guidance for organic growth of around 3% to 4% with RIG accelerating versus 2025. The guidance was maintained, not raised, and management explicitly cited 'increased geopolitical uncertainty and macroeconomic risks' as reasons for holding guidance, which tempers the positive momentum. The infant formula recall had a -90 bps impact on Q1 organic growth, but product availability is back to normal and early signs of improvement are noted, indicating a manageable but ongoing risk."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "CHF 21.3 billion for Q1 2026, a decrease of 5.7% year-on-year, with organic growth of 3.5%.",
+    "eps": "Not disclosed",
+    "guidance": "2026 guidance maintained: organic growth expected around 3% up to 4%, RIG accelerating versus 2025, UTOP margin expected to improve versus 2025, free cash flow above CHF 9 billion.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Infant formula recall impact of approximately -90 bps on Q1-26 OG and RIG, with ongoing recovery expected by end of year.",
+      "Foreign exchange movements had a negative impact of 9.3% on reported sales.",
+      "Increased geopolitical uncertainty and macroeconomic risks cited in maintaining guidance.",
+      "Middle East conflict effects on commodity prices, distribution costs, and consumer confidence remain uncertain.",
+      "Frozen foods in the US remains under pressure due to category softness.",
+      "Nutrition market share declined in Zone AOA.",
+      "Europe Nutrition share trends distorted by timing of infant formula recalls across the industry."
+    ],
+    "key_opportunities": [
+      "Coffee was the primary growth driver with OG of 9.3% and RIG of 3.5%.",
+      "Emerging markets excluding China delivered OG of 6.8% and RIG of 2.9%.",
+      "E-commerce sales grew organically by 15.4% and reached 21.5% of total Group sales.",
+      "Nespresso partnering with Dua Lipa as new global brand ambassador, generating over 1.9 billion impressions in first week.",
+      "Portfolio actions progressing: engagement with potential partners for Nestlé Waters & Premium Beverages and buyers for mainstream vitamins, minerals, and supplements; agreement to sell Blue Bottle Coffee.",
+      "Food & Snacks OG of 4.2% with improving RIG, led by confectionery.",
+      "Petcare delivered OG of 2.7% with RIG of 1.7%."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Philipp Navratil stated 'Our first-quarter performance demonstrates that our RIG-led growth strategy is delivering' and 'Building on the momentum in the first quarter, we continue to execute our strategy to deliver a stronger Nestlé,' reflecting confidence in the strategy and momentum."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2026 reported sales were CHF 21.3 billion, a decrease of 5.7% year-on-year.",
+      "quote": "In the first quarter, total reported sales were CHF 21.3 billion, a decrease of 5.7% year on year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic growth was 3.5% with RIG of 1.2% and pricing of 2.3%.",
+      "quote": "OG was 3.5%, which included an impact of approximately -90 bps from the infant formula recall. This compares with 4.0% in Q4. RIG was 1.2%. Pricing was 2.3%, moderating versus 2025, as we begin to annualize last year’s targeted pricing actions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance was maintained, not raised.",
+      "quote": "After a good Q1, but reflecting increased geopolitical uncertainty and macroeconomic risks, we are maintaining our 2026 guidance. OG expected to be in the range of around 3% up to 4%, with RIG accelerating versus 2025, driven by our focused growth plans. UTOP margin expected to improve versus 2025, strengthening in the second half of the year. Free cash flow expected to be above CHF 9 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Infant formula recall had a -90 bps impact on Q1 organic growth.",
+      "quote": "In Q1-26, the overall impact on OG was approximately -90 bps. Of this, approximately half was due to the direct effect of sales returns, temporary stock shortages and subsequent replenishment. The remainder was driven by the impact on consumer demand. We are already seeing early signs of improvement and expect to fully recover by the end of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange had a negative impact of 9.3% on reported sales.",
+      "quote": "Foreign exchange movements had a negative impact of 9.3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Coffee was the primary growth driver with OG of 9.3%.",
+      "quote": "By product category, Coffee was the primary growth driver. OG was 9.3%, with RIG of 3.5% and pricing of 5.7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Emerging markets excluding China delivered OG of 6.8% and RIG of 2.9%.",
+      "quote": "By geography, growth was broad based. In developed markets, OG was 2.8%, with RIG of 1.2% and pricing of 1.6%. In emerging markets, OG was 4.6%, with RIG of 1.2% and pricing of 3.4%; for emerging markets excluding China, OG was 6.8%, split between RIG of 2.9% and pricing of 3.9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "E-commerce sales grew organically by 15.4% and reached 21.5% of total Group sales.",
+      "quote": "By channel, OG in retail sales was 3.5% and in out-of-home channels was 3.9%. Within retail, e-commerce sales grew organically by 15.4% and reached 21.5% of total Group sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nespresso partnering with Dua Lipa generated over 1.9 billion impressions in its first week.",
+      "quote": "Recently, Nespresso announced Dua Lipa as our new global brand ambassador. This partnership marks an exciting new chapter for the brand, grounded in culture, creativity and coffee exploration. The announcement generated over 1.9 billion impressions in its first week, generating increased channel traffic and welcoming new consumers to the brand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Portfolio actions include engagement with potential partners for Nestlé Waters & Premium Beverages and agreement to sell Blue Bottle Coffee.",
+      "quote": "Portfolio actions progressing: commenced engagement process with potential partners for Nestlé Waters & Premium Beverages as well as with buyers for mainstream vitamins, minerals and supplements; agreement reached to sell Blue Bottle Coffee.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Food & Snacks OG was 4.2% with RIG of 2.1%.",
+      "quote": "Food & Snacks OG was 4.2%, with RIG of 2.1%, supported by improving performance in confectionery.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Petcare OG was 2.7% with RIG of 1.7%.",
+      "quote": "Petcare delivered 2.7% OG, with RIG of 1.7%, driven by continued strong performance in wet cat, despite reversal of customer buy-in from the fourth quarter of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "Our first-quarter performance demonstrates that our RIG-led growth strategy is delivering. Results were strong across most Zones and categories, particularly in Coffee and Food & Snacks. Growth in emerging markets stood out.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Frozen foods in the US remains under pressure.",
+      "quote": "Frozen foods in the US remains under pressure, reflecting current category softness.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nutrition market share declined in Zone AOA.",
+      "quote": "Market share gains continued in Food & Snacks and Petcare, with improving trends within Coffee; Nutrition market share declined.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe Nutrition share trends were distorted by infant formula recalls.",
+      "quote": "In Nutrition, share trends were distorted by the timing of infant formula recalls across the industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is borderline; guidance was maintained, not raised, but there is genuine operational momentum. Reviewer should confirm the weighting of the maintained guidance versus the positive Q1 results."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "NSRGY_Bundled Earnings Report_2026-02-01",
+  "report_metadata": {
+    "issuer": "p2_nestle",
+    "company": "Nestle",
+    "ticker": "NSRGY",
+    "sector": "Consumer Defensive/Packaged Foods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-02-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2026-Q1/NSRGY_Q1_2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2026-Q1/NSRGY_Q1_2026_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NSRGY_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221602Z",
+    "timestamp": "2026-08-13T22:16:32Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2026-Q1/NSRGY_Q1_2026_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_nestle_ext2026_08_13/extracted/NSRGY_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2026-Q1/NSRGY_Q1_2026_Press_Release.pdf",
+        "page_count": 7,
+        "extracted_characters": 17616,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/nestle/CY2026-Q1/NSRGY_Q1_2026_Earnings_Call_Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 51481,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_nestle_ext2026_08_13/extracted/NSRGY_FQ1_2026.txt"
+  }
+}

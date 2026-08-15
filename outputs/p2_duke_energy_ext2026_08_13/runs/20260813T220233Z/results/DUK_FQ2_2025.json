@@ -1,0 +1,192 @@
+{
+  "document_id": "DUK_FQ2_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reported a strong quarter with adjusted EPS of $1.25, up from $1.18 in the prior year, and reaffirmed its 2025 guidance range of $6.17 to $6.42 and long-term growth of 5% to 7%. Management expressed confidence in delivering at the top half of the range in the back end of the plan, supported by strategic transactions that strengthen the balance sheet and fund growth. However, guidance was not raised, and management noted cautious customer behavior due to tariff and tax policy uncertainties, which tempers the positive signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q2 2025 were $7,508 million, up from $7,172 million in Q2 2024. For the six months ended June 30, 2025, revenues were $15,757 million, up from $14,843 million in the prior year.",
+    "eps": "Reported and adjusted EPS for Q2 2025 were $1.25, compared to reported EPS of $1.13 and adjusted EPS of $1.18 in Q2 2024. For the six months, reported and adjusted EPS were $3.00, compared to reported EPS of $2.57 and adjusted EPS of $2.62 in the prior year.",
+    "guidance": "The company reaffirmed its 2025 adjusted EPS guidance range of $6.17 to $6.42 and long-term adjusted EPS growth rate of 5% to 7% through 2029 off the 2025 midpoint of $6.30. Management expressed confidence in earning at the top half of the range in the back end of the plan.",
+    "margin": "Operating income for Q2 2025 was $1,830 million, up from $1,707 million in Q2 2024. For the six months, operating income was $4,173 million, up from $3,670 million in the prior year. The effective tax rate for Q2 2025 was 10.6% (reported and adjusted), down from 13.1% (reported) and 13.4% (adjusted) in Q2 2024.",
+    "key_risks": [
+      "Higher O&M expenses and interest expense partially offset earnings growth.",
+      "Cautious customer stance due to tariff and tax policy uncertainties, potentially affecting load growth.",
+      "Regulatory and legislative risks, including cost recovery and rate case outcomes.",
+      "Construction and development risks for capital projects, including nuclear and generation investments.",
+      "Potential impacts from economic downturns, weather, and other external events."
+    ],
+    "key_opportunities": [
+      "Large-scale economic development projects, including AWS $10 billion data center investment in North Carolina.",
+      "Strategic transactions: Brookfield Infrastructure's $6 billion minority investment in Duke Energy Florida and sale of Tennessee LDC business for $2.5 billion, strengthening credit profile and funding growth.",
+      "Supportive legislation in North Carolina, South Carolina, and Ohio enabling efficient cost recovery and reducing regulatory lag.",
+      "Increasing Florida capital plan by $4 billion funded by sale proceeds.",
+      "Advancing generation investments, including over 8 gigawatts of dispatchable power through 2031."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the company's trajectory, stating 'We are very confident in our ability to meet the evolving needs of our customers while delivering long-term value to our shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 reported and adjusted EPS were $1.25, up from $1.13 reported and $1.18 adjusted in Q2 2024.",
+      "quote": "Duke Energy today announced second-quarter 2025 reported EPS, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $1.25. This is compared to reported EPS of $1.13 and adjusted EPS of $1.18 for the second quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenues for Q2 2025 were $7,508 million, up from $7,172 million in Q2 2024.",
+      "quote": "Total operating revenues 7,508 7,172 15,757 14,843",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its 2025 adjusted EPS guidance range of $6.17 to $6.42 and long-term growth of 5% to 7% through 2029.",
+      "quote": "The company is reaffirming its 2025 adjusted EPS guidance range of $6.17 to $6.42 and long-term adjusted EPS growth rate of 5% to 7% through 2029 off the 2025 midpoint of $6.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in earning at the top half of the range in the back end of the plan.",
+      "quote": "Proceeds from the accretive transactions solidify our credit profile and provide further confidence in our potential to earn at the top half of the range as load growth accelerates in the back end of the plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income for Q2 2025 was $1,830 million, up from $1,707 million in Q2 2024.",
+      "quote": "Operating Income 1,830 1,707 4,173 3,670",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The effective tax rate for Q2 2025 was 10.6% (reported and adjusted), down from 13.1% (reported) and 13.4% (adjusted) in Q2 2024.",
+      "quote": "Duke Energy's consolidated reported effective tax rate for the second quarter of 2025 was 10.6% compared to 13.1% in the second quarter of 2024. ... Duke Energy's consolidated adjusted effective tax rate was 10.6% for the second quarter of 2025 compared to 13.4% in the second quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher O&M expenses and interest expense partially offset earnings growth.",
+      "quote": "Higher second-quarter 2025 adjusted results were driven by the implementation of new rates and riders, partially offset by higher O&M expenses and interest expense.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cautious customer stance due to tariff and tax policy uncertainties, potentially affecting load growth.",
+      "quote": "But what we’re seeing with some of our larger customers is a very cautious stance, right? The swirl of uncertainties that arrange from tariffs as tax policy has been being worked real time in the quarter and the like. Those customers are not overproducing, if you will. They’re just being very cautious when they have firm orders, they’re running to those firm orders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Large-scale economic development projects, including AWS $10 billion data center investment in North Carolina.",
+      "quote": "To highlight a recent project win, Amazon Web Services announced in June that it plans to invest more than $10 billion to build a new data center campus in North Carolina.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strategic transactions: Brookfield Infrastructure's $6 billion minority investment in Duke Energy Florida and sale of Tennessee LDC business for $2.5 billion, strengthening credit profile and funding growth.",
+      "quote": "Starting with Brookfield Infrastructure’s $6 billion minority investment in our Florida business. This transaction enables a material strengthening of our credit profile as we enter this period of significant growth as well as the ability to grow our Florida utility at its full potential. ... we announced the sale of our Tennessee LDC business to Spire last week. The premium valuation of $2.5 billion or 1.8x rate base reflects the high end of LDC asset sale precedents.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supportive legislation in North Carolina, South Carolina, and Ohio enabling efficient cost recovery and reducing regulatory lag.",
+      "quote": "In North Carolina, the Power Bill Reduction Act became law last week. As we ramp up generation investments to meet accelerating load growth, this legislation allows for annual recovery of financing costs for new baseload generation, supporting our credit profile and minimizing cost to customers. In South Carolina, the Energy Security Act was signed into law in May. ... And finally, the Ohio legislation approved House Bill 15 in May as well. As outlined, the law replaces the electric security plan with a multiyear forward-looking rate-making process, reducing regulatory lag.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increasing Florida capital plan by $4 billion funded by sale proceeds.",
+      "quote": "We are also increasing our Florida capital plan by $4 billion, funded by a portion of the sale proceeds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advancing generation investments, including over 8 gigawatts of dispatchable power through 2031.",
+      "quote": "And we’re on track to add over 8 gigawatts of dispatchable power across our system through 2031.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are very confident in our ability to meet the evolving needs of our customers while delivering long-term value to our shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects positive momentum and strategic transactions, but guidance was only reaffirmed, not raised. The score is above the BUY threshold but may be considered high given the lack of a formal guidance raise; reviewer should confirm the balance between operational momentum and unchanged guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2025-08-05",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q2/DUK_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q2/DUK_Q2_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:05:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q2/DUK_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q2/DUK_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 73902,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q2/DUK_Q2_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 43031,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ2_2025.txt"
+  }
+}

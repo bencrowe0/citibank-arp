@@ -1,0 +1,208 @@
+{
+  "document_id": "ADBE_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Adobe delivered record Q4 and FY2025 results with strong growth across segments, and management raised its FY2026 guidance to target over 10% ARR growth, which is the highest beginning-of-year net new ARR guide in company history. The guidance raise is organic, driven by AI adoption and customer growth, not primarily attributed to FX or one-time items. Management expressed high confidence in continued double-digit growth and profitability, supporting a positive forward outlook."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record Q4 revenue of $6.19 billion, up 10% YoY as reported and in constant currency; FY2025 revenue of $23.77 billion, up 11% YoY as reported and in constant currency.",
+    "eps": "Q4 GAAP diluted EPS of $4.45, non-GAAP diluted EPS of $5.50; FY2025 GAAP diluted EPS of $16.70, non-GAAP diluted EPS of $20.94.",
+    "guidance": "FY2026 targets: total revenue $25.90-$26.10 billion, total Adobe ending ARR growth of 10.2% YoY, GAAP EPS $17.90-$18.10, non-GAAP EPS $23.30-$23.50. Q1 FY2026 targets: revenue $6.25-$6.30 billion, GAAP EPS $4.55-$4.60, non-GAAP EPS $5.85-$5.90.",
+    "margin": "FY2026 non-GAAP operating margin target of approximately 45%; Q1 FY2026 non-GAAP operating margin target of approximately 47%. Q4 GAAP operating income was $2.26 billion, non-GAAP operating income was $2.82 billion.",
+    "key_risks": [
+      "Failure to innovate effectively and meet customer needs",
+      "Issues relating to development and use of AI",
+      "Failure to compete effectively",
+      "Damage to reputation or brands",
+      "Failure to realize anticipated benefits of investments or acquisitions",
+      "Service interruptions or failures in information technology systems",
+      "Security incidents",
+      "Failure to effectively manage third-party business relationships",
+      "Adverse macroeconomic conditions",
+      "Complex sales cycles",
+      "Failure to recruit and retain key personnel",
+      "Litigation, regulatory inquiries and intellectual property infringement claims",
+      "Changes in global laws and regulations, including information security and privacy",
+      "Failure to protect intellectual property",
+      "Changes in tax regulations",
+      "Complex government procurement processes",
+      "Risks related to fluctuations in or timing of revenue recognition from subscription offerings",
+      "Fluctuations in foreign currency exchange rates",
+      "Impairment charges",
+      "Existing and future debt obligations",
+      "Catastrophic events",
+      "Fluctuations in stock price"
+    ],
+    "key_opportunities": [
+      "Rapid adoption of AI-driven tools and generative AI models",
+      "Expansion of customer base across Business Professionals & Consumers and Creative & Marketing Professionals",
+      "Firefly Foundry and custom AI models for enterprises",
+      "Partnerships with AWS, Azure, Google Gemini, Microsoft Copilot, OpenAI, and others",
+      "Acquisition of Semrush to enhance brand visibility and expand audience reach",
+      "Growth in freemium MAU and conversion to paid plans",
+      "Expansion of agentic web and conversational interfaces",
+      "Growth in Digital Experience and AEP apps",
+      "Record share repurchases and capital allocation discipline"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in future growth, stating 'we are confident in our ability to deliver industry-leading innovations, double-digit ARR growth and world class profitability.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adobe achieved record Q4 revenue of $6.19 billion, up 10% year-over-year.",
+      "quote": "Adobe achieved record revenue of $6.19 billion in its fourth quarter of FY2025, which represents 10% year-over-year growth as reported and in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adobe achieved record FY2025 revenue of $23.77 billion, up 11% year-over-year.",
+      "quote": "Adobe achieved revenue of $23.77 billion in FY2025, which represents 11% year-over-year growth as reported and in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP diluted EPS was $4.45 and non-GAAP diluted EPS was $5.50.",
+      "quote": "Diluted earnings per share was $4.45 on a GAAP basis and $5.50 on a non-GAAP basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 GAAP diluted EPS was $16.70 and non-GAAP diluted EPS was $20.94.",
+      "quote": "Diluted earnings per share was $16.70 on a GAAP basis and $20.94 on a non-GAAP basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 guidance targets total revenue of $25.90-$26.10 billion and total Adobe ending ARR growth of 10.2%.",
+      "quote": "For FY 2026, we're targeting total Adobe revenue of $25.9 to $26.1 billion. ... Total Adobe ending ARR book of business growth of 10.2% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 non-GAAP operating margin target is approximately 45%.",
+      "quote": "Our FY 2026 targets anticipate non-GAAP operating margin of approximately 45%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 FY2026 revenue guidance is $6.25-$6.30 billion and non-GAAP EPS is $5.85-$5.90.",
+      "quote": "For Q1 FY 2026, we're targeting total Adobe revenue of $6.25 to $6.3 billion ... non-GAAP EPS of $5.85 to $5.9.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management raised FY2026 guidance to the highest beginning-of-year net new ARR target in company history.",
+      "quote": "This total Adobe ARR book of business growth of 10.2% translates to approximately $2.6 billion of growth, which would be our highest beginning of year guide for total net new ARR.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in delivering double-digit ARR growth and world-class profitability.",
+      "quote": "Looking ahead to FY 2026, we're confident in our ability to deliver industry-leading innovation, double-digit ARR growth, and world-class profitability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is organic, driven by AI adoption and customer growth, not primarily attributed to FX or one-time items.",
+      "quote": "This target is based on the strength exiting FY 2025, and continued momentum across all three audiences: business professionals and consumers, creators and creative professionals, and marketing professionals.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include failure to innovate, AI-related issues, competition, and macroeconomic conditions.",
+      "quote": "Factors that might cause or contribute to such differences include, but are not limited to: failure to innovate effectively and meet customer needs; issues relating to development and use of AI; failure to compete effectively; ... adverse macroeconomic conditions; ...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include AI adoption, Firefly Foundry, partnerships, and the Semrush acquisition.",
+      "quote": "By advancing our innovative generative and agentic platforms and expanding our customer base, we are excited to target double-digit ARR growth in FY2026. ... We continue to leverage inorganic strategies to deliver more value to customers and are pleased with our recently announced intent to acquire SEMRush to help brands enhance their visibility and expand audience reach.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Looking ahead to FY 2026, we're confident in our ability to deliver industry-leading innovation, double-digit ARR growth, and world-class profitability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 is based on guidance raise and confident language, but the guidance raise is modest (10.2% ARR growth vs 11.5% prior year) and includes a $460 million FX-related ARR revaluation. Reviewer should verify the organic nature of the growth and whether the guidance raise is material enough to warrant a score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ADBE_Bundled Earnings Report_2025-12-10",
+  "report_metadata": {
+    "issuer": "p2_adobe",
+    "company": "Adobe",
+    "ticker": "ADBE",
+    "sector": "Technology/Software",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-12-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q4/ADBE_Q4_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q4/ADBE_Q4_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ADBE_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T215542Z",
+    "timestamp": "2026-08-13T21:56:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q4/ADBE_Q4_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_adobe_ext2026_08_13/extracted/ADBE_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q4/ADBE_Q4_2025_Press_Release.pdf",
+        "page_count": 9,
+        "extracted_characters": 34102,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2025-Q4/ADBE_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 63721,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_adobe_ext2026_08_13/extracted/ADBE_FQ4_2025.txt"
+  }
+}

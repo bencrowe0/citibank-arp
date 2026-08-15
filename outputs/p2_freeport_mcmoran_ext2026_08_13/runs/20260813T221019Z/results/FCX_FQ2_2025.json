@@ -1,0 +1,186 @@
+{
+  "document_id": "FCX_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company reported strong Q2 results with sales volumes above guidance and unit net cash costs significantly below guidance, but the forward outlook is mixed. Management reduced 2025 copper sales guidance by ~1% and gold sales guidance by ~17% due to a Grasberg ore grade model revision, which is a negative forward signal. However, this was offset by a major positive development: the US copper price premium tripled to ~$1.25/lb following the tariff announcement, which management estimates could add ~$1.7 billion in annual financial benefit, and management raised its operating cash flow outlook to $7.9 billion including this premium. The net effect is a modestly positive score reflecting the significant organic upside from the US premium, tempered by the downward revision to 2025 volume guidance."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenues totaled $7,582 million in Q2 2025, up from $6,624 million in Q2 2024.",
+    "eps": "Net income attributable to common stock was $772 million, $0.53 per share, and adjusted net income was $790 million, $0.54 per share.",
+    "guidance": "2025 copper sales guidance reduced ~1% to 3.95 billion pounds; gold sales guidance reduced ~17% to 1.3 million ounces. Operating cash flow guidance raised to ~$7.9 billion including a $1.25/lb US copper premium, up from ~$7.0 billion excluding it. 2026-2027 guidance unchanged.",
+    "margin": "Operating income was $2,432 million in Q2 2025, up from $2,049 million in Q2 2024. Unit net cash costs were $1.13/lb, significantly below the $1.50/lb April guidance.",
+    "key_risks": [
+      "US tariffs could increase costs of goods purchased in the US by approximately 5%.",
+      "The 50% US import tariff on copper is pending official guidance, creating uncertainty.",
+      "2025 gold sales guidance reduced by ~17% due to Grasberg Block Cave ore grade model revision.",
+      "The COMEX-LME price differential is market-driven and subject to change.",
+      "PTFI's new smelter ramp-up carries execution risk."
+    ],
+    "key_opportunities": [
+      "US copper price premium of ~$1.25/lb implies ~$1.7 billion annual financial benefit.",
+      "New Indonesia smelter started up ahead of schedule, positioning FCX as a fully integrated producer.",
+      "Leaching initiatives targeting 300 million pounds run rate by end of 2025, with potential for 800 million pounds per annum.",
+      "Organic growth pipeline includes Bagdad, El Abra, and Safford/Lone Star expansions totaling 2.5 billion pounds of potential incremental copper capacity.",
+      "Strong balance sheet with net debt of $1.5 billion, well below the $3-4 billion target."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed strong confidence in the future, stating 'We are well positioned for the future... with a strong balance sheet and financial position' and highlighted the 'significant milestone' of the smelter start-up and the 'substantial leverage to US premium dynamics.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 revenue was $7,582 million, up from $6,624 million in Q2 2024.",
+      "quote": "Revenues a,b $ 7,582 $ 6,624 $ 13,310 $ 12,945",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 EPS was $0.53 per share, and adjusted EPS was $0.54 per share.",
+      "quote": "Net income attributable to common stock in second-quarter 2025 totaled $772 million, $0.53 per share, and adjusted net income attributable to common stock totaled $790 million, $0.54 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 copper sales guidance was reduced by ~1% and gold sales guidance by ~17%.",
+      "quote": "2025 guidance for copper is around 1% below the prior forecast. Gold sales are down around 17%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flow guidance was raised to ~$7.9 billion including the US copper premium.",
+      "quote": "Including a $1.25 per pound premium on FCX’s U.S. copper sales for the second half of 2025, operating cash flows for the year 2025 would approximate $7.9 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 operating income was $2,432 million, up from $2,049 million in Q2 2024.",
+      "quote": "Operating income a,c $ 2,432 $ 2,049 $ 3,735 $ 3,683",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 unit net cash costs were $1.13/lb, significantly below the $1.50/lb April guidance.",
+      "quote": "Second-quarter 2025 consolidated average unit net cash costs (net of by-product credits) for FCX’s copper mines of $1.13 per pound of copper were lower than the April 2025 guidance of $1.50 per pound.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US tariffs could increase costs by approximately 5%.",
+      "quote": "FCX estimates that the tariffs in effect and announced to date could have the potential to increase the costs of goods it purchases in the U.S. by approximately 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The US copper price premium implies a ~$1.7 billion annual financial benefit.",
+      "quote": "As of yesterday's close, the US premium approximates $1.25 per pound or about 28% above the LME price. This implies an approximate $1.7 billion annual financial benefit on Freeport's US sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The new Indonesia smelter started up ahead of schedule.",
+      "quote": "We achieved a major milestone in the quarter with the start-up of our new copper smelter in Indonesia... We started up about a month ahead of schedule.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leaching initiatives are targeting 300 million pounds run rate by end of 2025.",
+      "quote": "We continue to target a 40% increase in our run rate to achieve 300 million pounds by the end of the year on our path to 800 million pounds per annum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The organic growth pipeline totals 2.5 billion pounds of potential incremental copper capacity.",
+      "quote": "These initial initiatives totaled 2.5 billion pounds of copper, which can be developed from Freeport's known resources in jurisdictions where we have an established history and experience.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net debt was $1.5 billion, well below the $3-4 billion target.",
+      "quote": "At June 30, 2025, FCX’s net debt totaled $1.5 billion, which excludes $3.2 billion of debt for PTFI’s new downstream processing facilities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about the future.",
+      "quote": "We are well positioned for the future, both domestically, as America’s copper champion, and internationally, with large-scale production of copper, gold and molybdenum, a highly qualified and experienced team, a portfolio of attractive organic growth opportunities and a strong balance sheet and financial position.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of +0.30 reflects a balance between a significant negative (gold guidance cut) and a significant positive (US premium). The net effect is subjective and should be reviewed."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "FCX_Bundled Earnings Report_2025-07-23",
+  "report_metadata": {
+    "issuer": "p2_freeport_mcmoran",
+    "company": "Freeport-McMoRan",
+    "ticker": "FCX",
+    "sector": "Materials/Copper Mining",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q2/FCX_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q2/FCX_Q2_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "FCX_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221019Z",
+    "timestamp": "2026-08-13T22:10:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q2/FCX_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_freeport_mcmoran_ext2026_08_13/extracted/FCX_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q2/FCX_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 119126,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2025-Q2/FCX_Q2_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 78661,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_freeport_mcmoran_ext2026_08_13/extracted/FCX_FQ2_2025.txt"
+  }
+}

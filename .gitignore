@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 .claude/
 .agents/
+.DS_Store
 
 # untracked working folders (teammate syncs, archived forks, local scratch)
 OneDrive_2026-07-18/

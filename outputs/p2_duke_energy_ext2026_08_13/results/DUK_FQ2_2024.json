@@ -1,0 +1,200 @@
+{
+  "document_id": "DUK_FQ2_2024",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The company reported a strong second quarter with adjusted EPS of $1.18, up from $0.91 in the prior year, and reaffirmed its 2024 adjusted EPS guidance range of $5.85 to $6.10 and long-term growth rate of 5% to 7% through 2028. While guidance was not raised, management expressed high confidence in the outlook, citing a robust $73 billion capital plan, constructive regulatory outcomes, and accelerating load growth from economic development projects, with management noting they are 'trending to the high end' of the 1.5%-2% load growth forecast. This genuine operational momentum and confident forward language, despite the lack of a formal guidance raise, supports a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q2 2024 were $7,172 million, compared to $6,578 million in Q2 2023. For the six months ended June 30, 2024, revenues were $14,843 million versus $13,854 million in the prior year.",
+    "eps": "Q2 2024 reported EPS was $1.13 and adjusted EPS was $1.18, compared to reported loss per share of $(0.32) and adjusted EPS of $0.91 in Q2 2023. The increase was driven by growth from rate increases and riders, higher sales volumes, and improved weather.",
+    "guidance": "The company is reaffirming its 2024 adjusted EPS guidance range of $5.85 to $6.10, and long-term adjusted EPS growth rate of 5% to 7% through 2028 off the 2024 midpoint of $5.98.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Higher interest expense and depreciation on a growing asset base partially offset growth in the quarter.",
+      "The impact of Hurricane Debby, which caused outages for about 330,000 customers in Florida and is expected to impact the Carolinas.",
+      "A slower rebound in industrial sales, with customers taking a cautionary stance due to fears of recession and tight labor markets.",
+      "Potential impact of an economic downturn on customer demand.",
+      "Delay in formal guidance from the Treasury on nuclear PTCs, though management does not expect it to impact 2024 credit."
+    ],
+    "key_opportunities": [
+      "Growth from rate increases and riders, higher sales volumes, and improved weather.",
+      "A $73 billion capital plan focused on grid and generation investments.",
+      "Constructive regulatory outcomes, including a settlement in Florida and a final order in the DEC South Carolina rate case.",
+      "Robust customer growth, with 80,000 retail customers added in the first half of the year.",
+      "Unprecedented growth in power demand from advanced manufacturing projects and data centers, with MOUs signed with Google, Microsoft, Nucor, and Amazon.",
+      "Nuclear PTCs, with plants earning about $250 million through June, and plans to test the market on monetizing them in Q3."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the outlook, stating 'We have clear growth visibility driven by our $73 billion capital plan' and 'the fundamentals of our business are stronger than ever.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2024 reported EPS was $1.13 and adjusted EPS was $1.18.",
+      "quote": "Duke Energy today announced second-quarter 2024 reported EPS of $1.13, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $1.18.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2023 reported loss per share was $(0.32) and adjusted EPS was $0.91.",
+      "quote": "This is compared to reported loss per share of $(0.32) and adjusted EPS of $0.91 for the second quarter of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenues for Q2 2024 were $7,172 million, compared to $6,578 million in Q2 2023.",
+      "quote": "Total operating revenues 7,172 6,578 14,843 13,854",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its 2024 adjusted EPS guidance range of $5.85 to $6.10.",
+      "quote": "The company is reaffirming its 2024 adjusted EPS guidance range of $5.85 to $6.10, and long-term adjusted EPS growth rate of 5% to 7% through 2028 off the 2024 midpoint of $5.98.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its long-term adjusted EPS growth rate of 5% to 7% through 2028.",
+      "quote": "The company is reaffirming its 2024 adjusted EPS guidance range of $5.85 to $6.10, and long-term adjusted EPS growth rate of 5% to 7% through 2028 off the 2024 midpoint of $5.98.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher quarterly results were driven by growth from rate increases and riders, higher sales volumes, and improved weather.",
+      "quote": "Higher second-quarter 2024 adjusted results were driven by growth from rate increases and riders, higher sales volumes and improved weather.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a $73 billion capital plan.",
+      "quote": "We have clear growth visibility driven by our $73 billion capital plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is trending to the high end of its 1.5%-2% load growth forecast.",
+      "quote": "I would say that with the economic development pipeline we're looking at today, we're trending to the high end of that 1.5%-2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company signed MOUs with Google, Microsoft, Nucor, and Amazon.",
+      "quote": "To that end, we recently executed MOUs with Google, Microsoft, Nucor, and Amazon to explore tailored solutions to meet large-scale energy needs and develop rate structures to lower the long-term costs of investing in clean energy technologies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hurricane Debby caused outages for about 330,000 customers in Florida.",
+      "quote": "The storm made landfall in Florida yesterday morning and caused outages for about 330,000 customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industrial sales have not rebounded as fast as anticipated.",
+      "quote": "The industrial sector has not rebounded as fast as we anticipated. We continue to be in dialogue with our industrial customers, and, you know, they're just taking a cautionary stance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nuclear plants earned about $250 million of nuclear PTCs through June.",
+      "quote": "And these plants have earned about $250 million of nuclear PTCs through June.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We operate in constructive, growing jurisdictions, and the fundamentals of our business are stronger than ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company added about 80,000 retail customers in the first half of the year.",
+      "quote": "About 80,000 retail customers added to our system in the first half of the year, which is putting residential kind of right in line with our 1.5%-2% growth for 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest expense and depreciation partially offset growth.",
+      "quote": "These items were partially offset by higher interest expense and depreciation on a growing asset base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was reaffirmed, not raised. The positive score relies on management's confident forward language and operational momentum (load growth trending to high end) rather than a formal guidance increase. A reviewer may want to confirm this warrants a score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2024-08-06",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-08-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q2/DUK_Q2_2024_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q2/DUK_Q2_2024_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ2_2024",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:03:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q2/DUK_Q2_2024_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q2/DUK_Q2_2024_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 73841,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q2/DUK_Q2_2024_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 41936,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ2_2024.txt"
+  }
+}

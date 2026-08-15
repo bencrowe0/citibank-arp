@@ -1,0 +1,232 @@
+{
+  "document_id": "CVX_FQ2_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "Forward guidance was raised: management increased 2026 additional free cash flow guidance to $12.5 billion and now expects production growth closer to the top end of the 6-8% range, with Hess synergies accelerated six months faster. This is a genuine upward revision to the company's own prior outlook, supported by strong operational momentum (record production, Permian milestone, TCO ramp). However, the score is tempered by lower reported earnings versus prior year and some cautious language around exploration results and Venezuela, but the overall forward trajectory is clearly positive."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and other operating revenues of $44,375 million for Q2 2025, down from $49,574 million in Q2 2024.",
+    "eps": "Reported EPS (diluted) of $1.45 for Q2 2025, down from $2.43 in Q2 2024. Adjusted EPS of $1.77, down from $2.55.",
+    "guidance": "Increased 2026 additional free cash flow guidance to $12.5 billion. Expects production growth closer to top end of 6-8% guidance range (excluding Hess). Expects $1.5-2 billion annual run-rate cost savings by year-end. Hess synergies of $1 billion run-rate by end of 2025, six months faster than original guidance. Expects Hess transaction to be cash flow accretive per share in Q4.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Lower crude oil prices impacting earnings",
+      "Foreign currency effects decreased earnings by $348 million",
+      "Unfavorable fair value adjustment for Hess shares",
+      "Higher depreciation, depletion and amortization",
+      "Exploration results over last few years not satisfactory (CEO admission)",
+      "Venezuela operations subject to U.S. sanctions policy and compliance",
+      "Potential liability from pending or future litigation (cautionary statement)",
+      "Risks related to integration of Hess and achieving synergies"
+    ],
+    "key_opportunities": [
+      "Record production: 1 million BOE/day in Permian, record U.S. and worldwide production",
+      "Hess acquisition adds Guyana, Bakken, Gulf of America assets",
+      "TCO FGP producing at full rates, 18% above nameplate",
+      "Gulf of America projects (Anchor, Whale, Ballymore) ramping up",
+      "Structural cost reductions of $2-3 billion by end of 2026",
+      "LNG offtake capacity increased to 7 million tonnes per year",
+      "New exploration wells in Suriname, Namibia, Egypt planned",
+      "Eastern Med gas projects (Tamar, Leviathan) expected online late 2025/early 2026"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Mike Wirth states 'Second quarter results reflect continued strong execution, record production, and exceptional cash generation' and 'This deal was good when we announced it and has only gotten better.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue for Q2 2025 was $44,375 million, down from $49,574 million in Q2 2024.",
+      "quote": "Sales and other operating revenues $ 44,375 $ 49,574 $ 90,476 $ 96,154",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was $1.45 for Q2 2025, down from $2.43 in Q2 2024.",
+      "quote": "Net Income (Loss) Attributable to Chevron Corporation - Diluted $ 1.45 $ 2.43 $ 3.45 $ 5.40",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $1.77 for Q2 2025, down from $2.55 in Q2 2024.",
+      "quote": "Adjusted Earnings Per Share - Diluted (1) $/Share $ 1.77 $ 2.18 $ 2.55 $ 5.48",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 additional free cash flow guidance was increased to $12.5 billion.",
+      "quote": "All of this leads us to increase our 2026 additional free cash flow guidance to $12.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Production growth is expected to be closer to the top end of the 6-8% guidance range.",
+      "quote": "Due to strong performance in our base business and solid execution in our growth assets in the first half of the year, we now expect production growth to be closer to the top end of our 6% to 8% guidance range, excluding Hess.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hess synergies are expected to be realized six months faster than originally guided.",
+      "quote": "We now expect to realize the full $1 billion in annual run-rate synergies by the end of this year, six months faster than our original guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hess transaction is expected to be cash flow accretive per share in Q4.",
+      "quote": "We anticipate the transaction to be cash flow accretive per share in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Permian production reached 1 million BOE per day.",
+      "quote": "Permian Basin production increased to 1 million barrels of oil equivalent per day, and U.S. and worldwide production hit new company records.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TCO FGP is producing at full rates and above nameplate.",
+      "quote": "At TCO, FGP is producing at full rates; ... the performance being above nameplate, that's obviously the first- and second-generation projects, which are, as you described, 18% above nameplate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower crude oil prices negatively impacted earnings.",
+      "quote": "Reported earnings decreased compared to last year primarily due to lower crude oil prices, lower income from upstream and downstream equity affiliates and an unfavorable fair value adjustment for Hess shares.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign currency effects decreased earnings by $348 million.",
+      "quote": "Foreign currency effects decreased earnings by $348 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CEO expressed confidence in the quarter and the Hess deal.",
+      "quote": "Second quarter results reflect continued strong execution, record production, and exceptional cash generation... This deal was good when we announced it and has only gotten better.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Exploration results over the last few years were not satisfactory.",
+      "quote": "I'm not happy with the results out of exploration over the last few years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Venezuela operations are subject to U.S. sanctions policy.",
+      "quote": "Since our license changed in May, we've been engaged with the U.S. government, working closely with the administration to ensure our compliance with our country's policies towards Venezuela.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural cost reductions of $2-3 billion are targeted by end of 2026.",
+      "quote": "This improved operational efficiency and execution supports our target of $2 to $3 billion in structural cost reductions by the end of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "LNG offtake capacity increased to 7 million tonnes per year.",
+      "quote": "Entered long-term contracts to purchase liquefied natural gas (LNG), bringing Chevron’s total U.S. Gulf Coast LNG offtake capacity to 7 million tonnes per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New exploration wells are planned in Suriname, Namibia, and Egypt.",
+      "quote": "As you look towards the end of this year, you'll see us put down wells in Suriname, Namibia and Egypt in those frontier-type of offerings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Eastern Med gas projects are expected online late 2025 or early 2026.",
+      "quote": "We do expect those to come online late this year or early next year, and you'll recall that those two projects essentially increase our production capacity by about 25% over the next couple of years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.35 reflects a guidance raise, but the magnitude of the raise (2026 FCF guidance) is a multi-year target, not a near-term EPS guidance change. Consider whether the score should be higher given the strong operational momentum and accelerated synergies, or lower given the year-over-year earnings decline."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin commentary was found in the document; only segment-level earnings and realizations were provided. This field is marked 'Not disclosed' but a reviewer may want to confirm no margin data was overlooked."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "CVX_Bundled Earnings Report_2025-08-01",
+  "report_metadata": {
+    "issuer": "p2_chevron",
+    "company": "Chevron",
+    "ticker": "CVX",
+    "sector": "Energy/Oil & Gas",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q2/CVX_Q2_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q2/CVX_Q2_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CVX_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T215809Z",
+    "timestamp": "2026-08-13T21:58:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q2/CVX_Q2_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_chevron_ext2026_08_13/extracted/CVX_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q2/CVX_Q2_2025_Press_Release.pdf",
+        "page_count": 11,
+        "extracted_characters": 30167,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/chevron/CY2025-Q2/CVX_Q2_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 15,
+        "extracted_characters": 44997,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_chevron_ext2026_08_13/extracted/CVX_FQ2_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

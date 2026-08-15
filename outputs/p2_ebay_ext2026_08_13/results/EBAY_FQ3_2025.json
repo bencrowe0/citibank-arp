@@ -1,0 +1,156 @@
+{
+  "document_id": "EBAY_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reported strong Q3 results with revenue up 9% as-reported and GMV up 10%, and management expressed confidence in continued momentum. However, forward guidance for Q4 and full-year 2025 was essentially in line with prior trends, with FX-neutral growth rates of 8-10% for Q4 revenue and 6% for full-year revenue, not a material raise. The score reflects genuine operational momentum (e.g., advertising revenue up 25% as-reported) but not a formal guidance raise, so it lands in the +0.15 to +0.3 range."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$2.8 billion, up 9% as-reported and 8% FX-neutral",
+    "eps": "GAAP EPS from continuing operations $1.28; Non-GAAP EPS $1.36",
+    "guidance": "Q4 2025 revenue $2.83-$2.89 billion, FX-neutral growth 8-10%; full-year revenue $10.97-$11.03 billion, FX-neutral growth 6%; Q4 non-GAAP EPS $1.31-$1.36; full-year non-GAAP EPS $5.42-$5.47",
+    "margin": "GAAP operating margin 20.4%, down from 23.1% prior year; Non-GAAP operating margin 27.1%, down from 27.2% prior year",
+    "key_risks": [
+      "GAAP operating margin decreased to 20.4% from 23.1%",
+      "GAAP effective tax rate was negative (4.1)% due to tax benefits, which may not be sustainable",
+      "Foreign currency volatility and geopolitical uncertainties",
+      "Integration risks from acquisitions like Tise",
+      "Competition and ability to attract/retain buyers and sellers"
+    ],
+    "key_opportunities": [
+      "AI-driven innovations and 30 years of data insights",
+      "Expansion of Authenticity Guarantee and live commerce",
+      "Partnerships like Marks & Spencer resale service",
+      "Growth in advertising revenue (up 25% as-reported)",
+      "Acquisition of Tise to strengthen C2C and Gen Z/Millennial engagement"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Jamie Iannone stated 'Q3 was another strong quarter for eBay, reflecting continued momentum across our marketplace and disciplined execution of our strategy,' and CFO Peggy Alford said 'Our robust Q3 performance reflects strong operational discipline as we continue on the path of sustainable growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $2.8 billion, up 9% as-reported and 8% FX-neutral.",
+      "quote": "Revenue of $2.8 billion, up 9% on an as-reported basis and up 8% on an FX-Neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS from continuing operations was $1.28 and Non-GAAP EPS was $1.36.",
+      "quote": "GAAP and Non-GAAP earnings per diluted share of $1.28 and $1.36, respectively, on a continuing operations basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue guidance is $2.83-$2.89 billion with FX-neutral growth of 8-10%.",
+      "quote": "Q4 2025 Guidance ... Revenue $2.83 - $2.89 ... FX-Neutral Y/Y Growth 8% - 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance is $10.97-$11.03 billion with FX-neutral growth of 6%.",
+      "quote": "Full Year 2025 Guidance ... Revenue $10.97 - $11.03 ... FX-Neutral Y/Y Growth 6% - 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin decreased to 20.4% from 23.1% in the prior year.",
+      "quote": "GAAP operating margin decreased to 20.4% for the third quarter of 2025, compared to 23.1% for the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin decreased slightly to 27.1% from 27.2%.",
+      "quote": "Non-GAAP operating margin decreased to 27.1% for the third quarter of 2025, compared to 27.2% for the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue grew 25% as-reported and 23% FX-neutral.",
+      "quote": "First-party advertising products on the eBay platform delivered $496 million of revenue in the third quarter of 2025, up 25% on an as-reported basis and up 23% on an FX-Neutral basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in continued momentum and sustainable growth.",
+      "quote": "Q3 was another strong quarter for eBay, reflecting continued momentum across our marketplace and disciplined execution of our strategy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from foreign currency volatility and geopolitical uncertainties.",
+      "quote": "the impact of inflationary pressure, changes in tariffs and global tariff policies and regulations, the overall uncertainty surrounding international trade relations, fluctuations in foreign currency exchange rates, elevated interest rates, geopolitical events such as the ongoing war in Ukraine and uncertainty in the Middle East and terrorist activities",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The acquisition of Tise is expected to strengthen C2C expertise and Gen Z/Millennial connection.",
+      "quote": "In October, eBay closed its acquisition of Tise, a consumer-to-consumer (C2C) social marketplace that strengthens eBay's C2C expertise, and its connection with Gen Z and Millennial shoppers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was not explicitly compared to prior guidance; score based on momentum and stable guidance, but a human should verify if guidance was raised or held relative to prior expectations."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "EBAY_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_ebay",
+    "company": "eBay",
+    "ticker": "EBAY",
+    "sector": "Technology/E-Commerce",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q3/EBAY_Q3_2025_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "EBAY_FQ3_2025",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T220558Z",
+    "timestamp": "2026-08-13T22:06:56Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q3/EBAY_Q3_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_ebay_ext2026_08_13/extracted/EBAY_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q3/EBAY_Q3_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 39207,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_ebay_ext2026_08_13/extracted/EBAY_FQ3_2025.txt"
+  }
+}

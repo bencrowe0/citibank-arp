@@ -1,0 +1,170 @@
+{
+  "document_id": "DUK_FQ4_2023",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company reported full-year 2023 adjusted EPS of $5.56, within its guidance range, and introduced 2024 adjusted EPS guidance of $5.85-$6.10, representing growth from the 2023 midpoint. Management reaffirmed the long-term 5%-7% EPS growth rate through 2028 and increased the five-year capital plan to $73 billion, signaling confidence in future growth. However, the 2024 guidance midpoint of $5.98 is only about 7% above 2023 actuals, and management noted headwinds such as higher interest expense and a higher effective tax rate, so the score is moderately positive but not strongly so."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for 2023 were $29,060 million, compared to $28,768 million in 2022, an increase of approximately 1%. For Q4 2023, total operating revenues were $7,212 million, compared to $7,351 million in Q4 2022.",
+    "eps": "Full-year 2023 reported EPS was $3.54, and adjusted EPS was $5.56, compared to reported EPS of $3.17 and adjusted EPS of $5.27 in 2022. Q4 2023 reported EPS was $1.27, and adjusted EPS was $1.51, compared to reported loss per share of $0.86 and adjusted EPS of $1.11 in Q4 2022.",
+    "guidance": "The company introduced 2024 adjusted EPS guidance of $5.85 to $6.10, with a midpoint of $5.98, and reaffirmed its long-term adjusted EPS growth rate of 5% to 7% through 2028. Management does not forecast reported GAAP EPS.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Higher interest expense and depreciation on a growing asset base partially offset earnings growth.",
+      "Unfavorable weather and lower electric volumes negatively impacted results.",
+      "Higher effective tax rate expected in 2024 (12%-14% vs. 10% in 2023).",
+      "Regulatory and litigation matters, including coal ash remediation and rate case outcomes, could affect cost recovery.",
+      "Potential repeal or changes to nuclear PTCs could impact credit metrics, though management believes it can adjust.",
+      "Economic development projects may not materialize as expected; only mature projects are included in the plan."
+    ],
+    "key_opportunities": [
+      "Constructive rate case outcomes and multiyear rate plans in North Carolina provide regulatory clarity.",
+      "Increased five-year capital plan of $73 billion supports growth in grid and generation investments.",
+      "Strong customer growth: added 195,000 new customers in 2023, the largest increase in company history.",
+      "Nuclear PTCs expected to provide several hundred million dollars per year beginning in 2024, supporting credit metrics.",
+      "Economic development opportunities in semiconductors, EVs, batteries, pharmaceuticals, and data centers.",
+      "Residential decoupling in North Carolina reduces volume volatility and aligns growth with customer migration."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the growth outlook, stating 'We enter 2024 with a clear vision, significant momentum and an increased $73 billion, five-year capital plan' and 'our growth potential is the highest it’s been in decades.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2023 adjusted EPS was $5.56, within guidance range.",
+      "quote": "Duke Energy today announced 2023 full-year reported EPS of $3.54, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $5.56. This is compared to reported and adjusted EPS of $3.17 and $5.27, respectively, for the full-year 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 adjusted EPS guidance is $5.85 to $6.10, with a midpoint of $5.98.",
+      "quote": "The company is introducing 2024 adjusted EPS guidance of $5.85 to $6.10, and reaffirming its long-term adjusted EPS growth rate of 5% to 7% through 2028 off the 2024 midpoint of $5.98.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Five-year capital plan increased to $73 billion.",
+      "quote": "We are now projecting $73 billion in CapEx over the next five years, an $8 billion increase versus our previous plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue for 2023 was $29,060 million, up from $28,768 million in 2022.",
+      "quote": "Total operating revenues 29,060 28,768 24,621",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 reported EPS was $1.27, adjusted EPS was $1.51.",
+      "quote": "Duke Energy's fourth-quarter 2023 reported EPS was $1.27, compared to reported loss per share of $0.86 for the fourth quarter of 2022. Duke Energy's fourth-quarter 2023 adjusted EPS was $1.51, compared to $1.11 for the fourth quarter of 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident about the future.",
+      "quote": "We enter 2024 with a clear vision, significant momentum and an increased $73 billion, five-year capital plan that will support our energy transition and the unprecedented growth of our jurisdictions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest expense and depreciation are headwinds.",
+      "quote": "These items were partially offset by higher interest expense and depreciation on a growing asset base along with unfavorable weather and electric volumes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 effective tax rate expected to be 12%-14%.",
+      "quote": "We ended 2023 with an ETR of 10%. Although, we continue to pursue a robust set of tax optimization strategies, we expect our 2024 ETR will increase to between 12% and 14%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer growth was the largest in company history.",
+      "quote": "In fact over the course of 2023 we added 195,000 new customers, the largest customer increase in company history and a continuation of the trend we’ve seen over the past few years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nuclear PTCs are expected to provide several hundred million dollars per year.",
+      "quote": "As an operator of 11 low-cost nuclear units in the Carolinas, we expect to qualify for several hundred million dollars per year of nuclear PTCs beginning in ’24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 is based on guidance raise and capital plan increase, but the 2024 guidance midpoint is only ~7% above 2023 actuals, which is within the long-term growth range. Consider whether the score should be higher given the capital plan increase or lower given the modest guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2024-02-08",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2024-02-08",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q4/DUK_Q4_2023_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q4/DUK_Q4_2023_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ4_2023"
+  },
+  "run_meta": {
+    "run_id": "20260813T215317Z",
+    "timestamp": "2026-08-13T21:54:19Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q4/DUK_Q4_2023_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q4/DUK_Q4_2023_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 83413,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2023-Q4/DUK_Q4_2023_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 50210,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ4_2023.txt"
+  }
+}

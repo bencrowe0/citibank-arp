@@ -1,0 +1,179 @@
+{
+  "document_id": "MA_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered strong Q3 results with net revenue up 15% currency-neutral and VAS up 22%, but forward guidance for Q4 and full-year 2025 was reaffirmed rather than raised, with management noting a higher tax rate and the expected adverse impact from the Capital One debit migration continuing into 2026-2027. The positive momentum in VAS and cross-border volumes, along with confident language about innovation and market position, supports a modestly positive score, but the lack of a formal guidance raise and the disclosed structural headwind from Capital One prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 net revenue of $8.6 billion, up 17% reported and 15% currency-neutral year-over-year.",
+    "eps": "Q3 2025 diluted EPS of $4.34 GAAP and $4.38 adjusted, up 23% and 13% respectively year-over-year.",
+    "guidance": "Q4 2025 net revenue growth expected at high end of low double digits on currency-neutral basis excluding acquisitions; full-year 2025 net revenue growth expected in low teens on currency-neutral basis excluding acquisitions. Q4 non-GAAP tax rate around 21%, full-year between 20.5% and 21%.",
+    "margin": "Q3 2025 operating margin 58.8% GAAP, up 4.5 ppt year-over-year; adjusted operating margin 59.8%, up 0.5 ppt.",
+    "key_risks": [
+      "Capital One debit migration expected to cause adverse net revenue impact in 2026 and 2027 as contractual obligations phase out.",
+      "Higher effective tax rate due to Pillar 2 rules and geographic mix change.",
+      "Ongoing geopolitical and economic uncertainty.",
+      "Potential regulatory, legislative, and litigation activity related to interchange rates and surcharging."
+    ],
+    "key_opportunities": [
+      "Value-added services and solutions net revenue up 22% currency-neutral, driven by security, digital, and authentication solutions.",
+      "Cross-border volume up 15% local currency, reflecting travel and non-travel strength.",
+      "Agentic commerce initiatives with Agent Pay and partnerships with OpenAI, Google, Cloudflare, and Walmart.",
+      "Expansion into underpenetrated verticals like rent payments and healthcare.",
+      "Mastercard Commerce Media network connecting 500 million consumers and 25,000 merchants."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Michael Miebach stated, 'We delivered another strong quarter, with net revenue growth of 17% year-over-year... driven by healthy consumer and business spending and continued robust performance of our differentiated services,' and expressed optimism about future opportunities."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 net revenue was $8.6 billion, up 17% reported and 15% currency-neutral.",
+      "quote": "Third quarter net revenue of $8.6 billion, an increase of 17%, or 15% on a currency-neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 diluted EPS was $4.34 GAAP and $4.38 adjusted.",
+      "quote": "Third quarter net income of $3.9 billion, and diluted earnings per share (EPS) of $4.34 • Third quarter adjusted net income of $4.0 billion, and adjusted diluted EPS of $4.38",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 net revenue growth expected at high end of low double digits on currency-neutral basis excluding acquisitions.",
+      "quote": "We expect year-over-year net revenue growth to be at the high end of a low double digits range on a currency-neutral basis, excluding acquisitions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 net revenue growth expected in low teens on currency-neutral basis excluding acquisitions.",
+      "quote": "We continue to expect net revenues to grow at the low teens range on a currency-neutral basis, excluding acquisitions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 operating margin was 58.8% GAAP, up 4.5 ppt year-over-year.",
+      "quote": "Operating margin 58.8% 54.3% 4.5 ppt",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital One debit migration will cause adverse net revenue impact in 2026 and 2027.",
+      "quote": "Cards start to migrate away from us and are migrating away from us. That being said, there are some contractual obligations, some of this financial impact in 2026. Net-net there'll still be an adverse impact from a net revenue standpoint... you will see in 2027 an adverse impact as well. Just because the contractual obligation is no longer benefiting us in 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher effective tax rate due to Pillar 2 rules and geographic mix change.",
+      "quote": "Both the as-reported and as-adjusted effective tax rates were higher in 2025 primarily due to the 15% global minimum tax (Pillar 2 Rules) that took effect in 2025 in Singapore and various other jurisdictions as well as a change in our geographic mix of earnings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Value-added services and solutions net revenue up 22% currency-neutral.",
+      "quote": "Value-added services and solutions net revenue increased 25%, or 22% on a currency-neutral basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cross-border volume up 15% local currency.",
+      "quote": "Cross-border volume growth of 15% on a local currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentic commerce initiatives with Agent Pay and partnerships.",
+      "quote": "Through Mastercard Agent Pay, we're enabling agents to facilitate transactions over Mastercard's payment network in a secure and scalable way... U.S. Bank and Citibank cardholders can now use AgentPay. The rest of our U.S. issuers will be enabled in November, with a global rollout to follow early next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mastercard Commerce Media network connecting 500 million consumers and 25,000 merchants.",
+      "quote": "Building off our existing loyalty programs and technology, we're able to connect the 500 million enrolled and permissioned consumers and 25,000 merchant advisors advertisers on day one.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered another strong quarter, with net revenue growth of 17% year-over-year, or 15% on a currency-neutral basis, driven by healthy consumer and business spending and continued robust performance of our differentiated services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects positive momentum but guidance was reaffirmed not raised; verify that the lack of a formal guidance raise and the Capital One headwind are appropriately weighted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MA_Bundled Earnings Report_2025-10-30",
+  "report_metadata": {
+    "issuer": "p2_mastercard",
+    "company": "Mastercard",
+    "ticker": "MA",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q3/MA_Q3_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q3/MA_Q3_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MA_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221511Z",
+    "timestamp": "2026-08-13T22:15:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q3/MA_Q3_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_mastercard_ext2026_08_13/extracted/MA_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q3/MA_Q3_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 39349,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q3/MA_Q3_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 76394,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_mastercard_ext2026_08_13/extracted/MA_FQ3_2025.txt"
+  }
+}

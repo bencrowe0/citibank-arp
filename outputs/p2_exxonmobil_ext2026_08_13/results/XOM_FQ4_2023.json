@@ -1,0 +1,222 @@
+{
+  "document_id": "XOM_FQ4_2023",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong full-year 2023 results with earnings of $36.0 billion, cash flow from operations of $55.4 billion, and a 15% return on capital employed, but forward guidance for 2024 is largely reaffirmed with capital expenditures of $23-25 billion and structural cost savings target of $15 billion through 2027, without a formal earnings guidance raise. Management expresses confidence in continued execution and growth, particularly in Permian and Guyana, but also notes headwinds such as lower industry refining margins and a gradual chemical market recovery, indicating genuine operational momentum without a formal guidance raise. The sentiment score reflects this positive trajectory and confident language, but is tempered by the lack of a formal guidance increase and acknowledged market challenges."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Fourth-quarter revenues and other income were $84,344 million, down from $95,429 million in the same quarter last year. Full-year revenues were $344,582 million, down from $413,680 million in 2022.",
+    "eps": "Fourth-quarter earnings per share (diluted) were $1.91, down from $3.09 in the prior-year quarter. Full-year EPS was $8.89, down from $13.26 in 2022.",
+    "guidance": "For 2024, the company expects to invest $23 billion to $25 billion in capital expenditures. The company plans to deliver cumulative structural cost savings totaling $15 billion through the end of 2027. The company expects to grow Permian volumes to about 650 kbd in 2024 and to about 1 million barrels per day by 2027.",
+    "margin": "The company reported a return on capital employed of 15% for 2023. No specific gross or operating margin figures were disclosed.",
+    "key_risks": [
+      "Regulatory obstacles in California prevented production and distribution assets from coming back online, leading to a $2.0 billion impairment.",
+      "Lower industry refining margins impacted Energy Products earnings.",
+      "Chemical Products faced bottom-of-cycle market conditions and weaker margins.",
+      "Natural gas prices were lower, impacting Upstream earnings.",
+      "The company faces potential risks from global supply/demand changes, government policies, and other factors as detailed in the cautionary statement."
+    ],
+    "key_opportunities": [
+      "Growth in Permian and Guyana production, with combined production up 18% versus 2022.",
+      "The Pioneer Natural Resources merger is expected to close in Q2 2024 and generate double-digit returns.",
+      "The Denbury acquisition expands carbon capture and storage capabilities.",
+      "New Mobil Lithium business with potential to supply one million EVs per year by 2030.",
+      "Structural cost savings program targeting $15 billion by 2027.",
+      "Strong trading and marketing margins contributed to Energy Products results."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes 2023 as 'an outstanding year' and states 'we are ahead of plan' in delivering on strategic objectives, reflecting confidence in execution and future performance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2023 earnings were $36.0 billion.",
+      "quote": "For the full year 2023, the company reported earnings of $36.0 billion, or $8.89 per share assuming dilution.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter earnings per share were $1.91.",
+      "quote": "Exxon Mobil Corporation today announced fourth-quarter 2023 earnings of $7.6 billion, or $1.91 per share assuming dilution.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year revenues were $344,582 million, down from $413,680 million in 2022.",
+      "quote": "Total revenues and other income 344,582 413,680",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter revenues were $84,344 million, down from $95,429 million in the prior-year quarter.",
+      "quote": "Total revenues and other income 84,344 95,429",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects 2024 capital expenditures of $23 billion to $25 billion.",
+      "quote": "For 2024, we expect to invest $23 billion to $25 billion to grow our portfolio of advantaged, low-cost of supply assets...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to achieve $15 billion in structural cost savings through 2027.",
+      "quote": "Our plan also continues to structurally reduce costs to achieve $15 billion in structural cost savings through 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Permian production is expected to grow to about 650 kbd in 2024 and to about 1 million barrels per day by 2027.",
+      "quote": "We expect to grow our volumes in 2024 to about 650 Kbd. And then we\u2019re going to continue that growth through to the targets that we\u2019ve laid out in 2027 of about a million barrels a day \u2013 close to a million barrels a day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on capital employed was 15% for 2023.",
+      "quote": "Delivered full-year 2023 earnings of $36.0 billion and return on capital employed of 15%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Regulatory obstacles in California led to a $2.0 billion impairment.",
+      "quote": "Fourth-quarter results included unfavorable identified items of $2.3 billion including a $2.0 billion impairment as a result of regulatory obstacles in California that have prevented production and distribution assets from coming back online.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower industry refining margins impacted Energy Products earnings.",
+      "quote": "Compared to the fourth quarter last year, earnings decreased $863 million on weaker industry refining margins and higher project-related expenses...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemical Products faced bottom-of-cycle market conditions.",
+      "quote": "Lower earnings reflect the overall weaker margin environment from bottom-of-cycle market conditions, higher planned maintenance, and unfavorable sales mix effects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower natural gas prices impacted Upstream earnings.",
+      "quote": "Earnings excluding identified items were $6.3 billion, a decrease of $2.5 billion, primarily due to lower natural gas prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Permian and Guyana production grew 18% versus 2022.",
+      "quote": "Permian and Guyana combined production grew 18% versus 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Pioneer merger is expected to close in Q2 2024 and generate double-digit returns.",
+      "quote": "The combination is expected to generate double-digit returns by recovering more resources, more efficiently, while accelerating emissions reductions. The transaction is expected to close in the second quarter of 2024, pending regulatory and Pioneer shareholder approval.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Denbury acquisition expands carbon capture and storage capabilities.",
+      "quote": "In November, ExxonMobil completed the acquisition of Denbury, Inc. for $4.8 billion of ExxonMobil stock... The company now has the largest owned and operated carbon dioxide (CO2) pipeline network in the United States at 1,300 miles...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The new Mobil Lithium business has potential to supply one million EVs per year by 2030.",
+      "quote": "By 2030, ExxonMobil aims to produce enough Mobil TM Lithium with the potential to supply approximately one million EVs per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident about the company's performance and future.",
+      "quote": "Results are clear. By any measure, 2023 was an outstanding year. We delivered $36 billion of earnings, strong cash flows, and a 15% return on capital employed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management states the company is ahead of plan.",
+      "quote": "So I would absolutely say we are ahead of our plan in terms of what it is that we\u2019re achieving.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is based on qualitative assessment of forward guidance and momentum; no explicit formal guidance raise was made, so the score may be debated."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is qualitative and includes capital expenditure and cost savings targets, but no explicit earnings or revenue guidance was provided."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2024-02-02",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2024-02-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q4/XOM_Q4_2023_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q4/XOM_Q4_2023_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ4_2023",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:08:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q4/XOM_Q4_2023_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q4/XOM_Q4_2023_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 57234,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2023-Q4/XOM_Q4_2023_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 127613,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ4_2023.txt"
+  }
+}

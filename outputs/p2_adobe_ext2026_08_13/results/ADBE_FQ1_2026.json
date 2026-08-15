@@ -1,0 +1,209 @@
+{
+  "document_id": "ADBE_FQ1_2026",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "Adobe delivered record Q1 results with revenue up 12% and non-GAAP EPS up 19%, but forward guidance was reaffirmed, not raised, with management explicitly citing a steeper-than-expected decline in the traditional stock business and a deliberate freemium strategy that dampens near-term ARR. The reaffirmed FY26 ARR growth target of 10.2% and the explicit headwinds from the stock business decline and freemium phase-shift offset the strong operational momentum, resulting in a mildly positive score reflecting genuine momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none \u2014 HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$6.40 billion, up 12% year-over-year as reported, or 11% in constant currency.",
+    "eps": "GAAP diluted EPS of $4.60, up 11% year-over-year; non-GAAP diluted EPS of $6.06, up 19% year-over-year.",
+    "guidance": "Q2 FY2026 revenue targeted at $6.43 billion to $6.48 billion; GAAP EPS of $4.35 to $4.40; non-GAAP EPS of $5.80 to $5.85. FY2026 targets reaffirmed, including total Adobe ARR growth of 10.2%.",
+    "margin": "GAAP operating margin of 37.8% and non-GAAP operating margin of 47.4% for Q1. Q2 non-GAAP operating margin targeted at approximately 44.5%.",
+    "key_risks": [
+      "Traditional stand-alone stock business experienced a steeper-than-expected decline, shifting more quickly than planned.",
+      "Freemium model for creative and AI-first applications dampens ARR in the short term, causing a phase-shifted revenue impact.",
+      "Pending acquisition of Semrush is subject to regulatory approvals and other customary closing conditions.",
+      "Forward-looking statements cite risks including failure to innovate, competition, AI development issues, macroeconomic conditions, and security incidents."
+    ],
+    "key_opportunities": [
+      "AI-first ARR more than tripled year-over-year.",
+      "Monthly active users across Creative Cloud, Acrobat, Express, and Firefly exceeded 850 million, up 17% year-over-year.",
+      "Firefly subscription and credit pack ending ARR grew 75% quarter-over-quarter.",
+      "AEP and apps and GenStudio ending ARR each grew over 30% year-over-year.",
+      "Acrobat AI Assistant ARR grew approximately 3x year-over-year.",
+      "New partnerships and integrations with platforms like ChatGPT, Copilot, Claude, and Gemini, and with Airtel India."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described a 'strong start to the year' and expressed confidence in the strategy, with Shantanu Narayen stating 'we feel really good about that' regarding the company's focus and execution."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adobe achieved record Q1 revenue of $6.40 billion, up 12% year-over-year.",
+      "quote": "Adobe achieved record revenue of $6.40 billion in its first quarter of FY2026, which represents 12% year-over-year growth, or 11% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS was $4.60, up 11% year-over-year, and non-GAAP diluted EPS was $6.06, up 19% year-over-year.",
+      "quote": "Diluted earnings per share was $4.60 on a GAAP basis and $6.06 on a non-GAAP basis. ... GAAP EPS was $4.60 and non-GAAP EPS was $6.06, increasing 11% and 19% year-over-year, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY2026 revenue is targeted at $6.43 billion to $6.48 billion.",
+      "quote": "For Q2 fiscal 2026, we're targeting total Adobe revenue of $6.43 billion to $6.48 billion, Business Professionals & Consumers subscription revenue of $1.80 billion to $1.82 billion, Creative & Marketing Professionals subscription revenue of $4.41 billion to $4.44 billion, GAAP EPS of $4.35 to $4.40 and non-GAAP EPS of $5.80 to $5.85.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 targets were reaffirmed, including total Adobe ARR growth of 10.2%.",
+      "quote": "We continue to expect total Adobe ARR growth of 10.2% for FY '26. ... In addition, we are reaffirming our FY '26 targets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 GAAP operating margin was 37.8% and non-GAAP operating margin was 47.4%.",
+      "quote": "GAAP operating margin was 37.8%, and non-GAAP operating margin was 47.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The traditional stock business experienced a steeper-than-expected decline.",
+      "quote": "While Q1 had many highlights, our traditional stock business saw a steeper decline than we expected. This shift is playing out more quickly than we had planned for.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The freemium model dampens ARR in the short term.",
+      "quote": "Importantly, we saw tremendous MAU growth in our new initiatives that dampens ARR in the short term but sets us up to deliver in the quarters ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-first ARR more than tripled year-over-year.",
+      "quote": "Our new AI-first offerings ending ARR more than tripled year-over-year, reflecting progress against this opportunity with individuals and enterprises alike.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Monthly active users exceeded 850 million, up 17% year-over-year.",
+      "quote": "In Q1, we surpassed 850 million monthly active users of Acrobat, Creative Cloud, Express and Firefly, achieving 17% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Firefly subscription and credit pack ending ARR grew 75% quarter-over-quarter.",
+      "quote": "As a result, Firefly subscription and credit pack ending ARR grew 75% quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AEP and apps and GenStudio ending ARR each grew over 30% year-over-year.",
+      "quote": "In Q1, globally, we achieved over 30% year-over-year growth in AEP and apps as well as Adobe GenStudio ending ARR.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Acrobat AI Assistant ARR grew approximately 3x year-over-year.",
+      "quote": "Acrobat AI Assistant ARR grew approximately 3x year-over-year and strong upgrades to Acrobat Studio as part of enterprise license renewals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Q1 represented a strong start to the year, both for our existing platforms where we've been innovative with AI as well as the new strategic initiatives that will drive future growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The stock business decline is approximately a $450 million annual business.",
+      "quote": "I think as it relates to your question around stock or order of magnitude, it's about a $450 million book of business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The stock business decline reduced ARR growth by approximately 0.3 percentage points.",
+      "quote": "if you take out the stock business like-for-like, instead of the 10.9% growth, it would have been approximately 11.2% growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Semrush acquisition is pending and not included in guidance.",
+      "quote": "These targets factor in expectation for current macroeconomic conditions and do not include contributions from our pending acquisition of Semrush Holdings, Inc., subject to regulatory approvals and other customary closing conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.10 reflects a balance between strong operational momentum and reaffirmed (not raised) guidance with explicit headwinds. A reviewer may consider whether the reaffirmed guidance and explicit stock business decline warrant a lower score, or whether the strong AI momentum warrants a higher score."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The stock business decline is described as 'steeper than expected' and 'playing out more quickly than we had planned for,' which is a notable negative. The freemium ARR dampening is also a risk, though management frames it as strategic."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ADBE_Bundled Earnings Report_2026-03-12",
+  "report_metadata": {
+    "issuer": "p2_adobe",
+    "company": "Adobe",
+    "ticker": "ADBE",
+    "sector": "Technology/Software",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-03-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2026-Q1/ADBE_Q1_2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2026-Q1/ADBE_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ADBE_FQ1_2026",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T215542Z",
+    "timestamp": "2026-08-13T21:56:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2026-Q1/ADBE_Q1_2026_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_adobe_ext2026_08_13/extracted/ADBE_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2026-Q1/ADBE_Q1_2026_Press_Release.pdf",
+        "page_count": 8,
+        "extracted_characters": 30858,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/adobe/CY2026-Q1/ADBE_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 65803,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_adobe_ext2026_08_13/extracted/ADBE_FQ1_2026.txt"
+  }
+}

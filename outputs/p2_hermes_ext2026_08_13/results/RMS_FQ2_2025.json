@@ -1,0 +1,244 @@
+{
+  "document_id": "RMS_FQ2_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported solid growth (revenue +8% at constant FX, recurring operating income +6%) and reaffirmed its medium-term goal for revenue growth at constant exchange rates, but did not raise guidance. Management expressed confidence in the long-term strategy while acknowledging economic, geopolitical, and monetary uncertainties. The forward outlook is unchanged, so the score is modestly positive, reflecting operational momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "\u20ac8,034 million in H1 2025, up 8.1% at constant exchange rates and 7.1% at current exchange rates vs. H1 2024. Q2 2025 revenue \u20ac3,905 million, up 9.0% at constant exchange rates.",
+    "eps": "Basic earnings per share \u20ac21.43 for H1 2025, down from \u20ac22.61 in H1 2024. Diluted EPS \u20ac21.39 vs \u20ac22.58.",
+    "guidance": "Medium-term: 'the group confirms an ambitious goal for revenue growth at constant exchange rates.' For 2025, 'the group pursues the year with confidence' and expects operational investments to exceed \u20ac1 billion for the full year.",
+    "margin": "Recurring operating margin 41.4% of sales in H1 2025, down from 42.0% in H1 2024. Net margin (group share) 28.0% of revenue, down from 31.6% due to exceptional tax contribution; restated net margin 31.2%.",
+    "key_risks": [
+      "Negative currency impact of \u20ac77 million on revenue in H1 2025.",
+      "Economic, geopolitical, and monetary uncertainties worldwide.",
+      "Decline in aspirational clients due to global concerns about geopolitical and economic developments.",
+      "China remains in a 'wait-and-see attitude' with no significant uptick expected.",
+      "Potential impact of US customs duties; management waiting for clarification on rates.",
+      "Speculation in secondhand market leading to 'false customers' buying to resell.",
+      "Cost increases in raw materials, especially gold and precious metals, expected to impact H2 2025 gross margin.",
+      "One-off tax on large French companies estimated at \u20ac350 million for the year."
+    ],
+    "key_opportunities": [
+      "Strong growth in all geographical areas, with Japan +16%, Americas +12%, Europe excl. France +13%.",
+      "Leather Goods and Saddlery +12% driven by increased production capacity and sustained demand.",
+      "Continued investment in production capacity with new workshops opening through 2028.",
+      "Loyal customer base and strong brand desirability.",
+      "Growth in high-value divisions like Jewellery and Ready-to-wear.",
+      "Expansion of exclusive distribution network with new store openings in US, Korea, China, and Europe."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Axel Dumas stated: 'We will continue to invest and recruit to ensure the group\u2019s sustained success' and 'the group continues its development with confidence' despite uncertainties."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue in H1 2025 was \u20ac8,034 million, up 8.1% at constant exchange rates and 7.1% at current exchange rates.",
+      "quote": "The group\u2019s consolidated revenue in the first half of 2025 amounted to \u20ac8 billion, up 8% at constant exchange rates and 7% at current exchange rates compared to the same period in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 revenue was \u20ac3,905 million, up 9.0% at constant exchange rates.",
+      "quote": "In the second quarter, sales reached \u20ac3.9 billion, increasing by 9% at constant exchange rates, an improvement compared to the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS for H1 2025 was \u20ac21.43, down from \u20ac22.61 in H1 2024.",
+      "quote": "Basic earnings per share (in euros) 21.43 22.61",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recurring operating income was \u20ac3.3 billion, up 6% from \u20ac3.1 billion in H1 2024.",
+      "quote": "Recurring operating income reached \u20ac3.3 billion (41.4% of sales), up 6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recurring operating margin was 41.4% of sales, down from 42.0% in H1 2024.",
+      "quote": "Recurring operating profitability reached 41.4% compared to 42.0% at the end of June 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net profit group share was \u20ac2.2 billion, down from \u20ac2.4 billion due to exceptional tax contribution.",
+      "quote": "Consolidated net profit group share amounted to \u20ac2.2 billion compared to \u20ac2.4 billion in the first half of 2024, due to the exceptional contribution on the profits of large companies in France.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding the exceptional tax contribution, net profit group share was \u20ac2.5 billion, up 6%.",
+      "quote": "Excluding this exceptional contribution, net profit group share amounted to \u20ac2.5 billion, up by 6% compared to the first half of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medium-term guidance confirms ambitious goal for revenue growth at constant exchange rates.",
+      "quote": "In the medium-term, despite the economic, geopolitical and monetary uncertainties around the world, the group confirms an ambitious goal for revenue growth at constant exchange rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the outlook for 2025.",
+      "quote": "For 2025, the group pursues the year with confidence in an economic and geopolitical context, which remains complex.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency fluctuations had a negative impact of \u20ac77 million on revenue.",
+      "quote": "At the end of June 2025, currency fluctuations represented a negative impact of \u20ac77 million on revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China remains in a wait-and-see attitude with no significant uptick expected.",
+      "quote": "I personally can't see a significant uptick in China. I think they are still in the kind of wait-and-see attitude.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Aspirational clients are less numerous due to global concerns.",
+      "quote": "These people are slightly less numerous at the moment because across the whole world, there is quite a lot of concern about geopolitical developments, economic developments. So there is a global trend to save money rather than to spend it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US customs duties may lead to price adjustments, but no changes planned currently.",
+      "quote": "Concerning customs duties, we've always said that the custom duty will be offset by price increase. So we are waiting for some precisions of the negotiations. ... For the moment, we don't plan any changes after having increased the price in May, the plus 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Speculation in secondhand market is a concern due to false customers.",
+      "quote": "The negative side, and I must say this in the field of speculation, sometimes we have false customers who come to our stores to buy them, to resell them, and they prevent us from serving our real customers, and that is a real cause for concern for us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Raw material cost increases will impact H2 2025 gross margin.",
+      "quote": "First semester, we benefit from raw materials that have been bought the previous year. And this year, gold and precious metals that I mentioned with an average weighted cost, which will increase mechanically in the second part of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operational investments will exceed \u20ac1 billion for the full year.",
+      "quote": "Operational investments will speed up in the second half of the year and will be in excess of EUR 1 billion for the whole year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leather Goods and Saddlery grew 12% in H1 2025.",
+      "quote": "The Leather Goods and Saddlery m\u00e9tier (+12%) posted solid growth, in line with the trajectory for the year, thanks to the increase in production capacities and sustained demand across all geographical areas.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Japan grew 16% in H1 2025.",
+      "quote": "Japan (+16%) pursued its remarkable growth, driven by the loyalty of local clients and its qualitative distribution network.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Americas grew 12% in H1 2025.",
+      "quote": "The Americas (+12%) confirmed solid momentum in a more volatile context, driven by double-digit growth in the United States.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe excluding France grew 13% in H1 2025.",
+      "quote": "Europe excluding France (+13%) achieved solid growth supported by the loyalty of the local clients and dynamic tourist flows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We will continue to invest and recruit to ensure the group\u2019s sustained success.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is borderline; guidance was reaffirmed but not raised, and management expressed confidence despite uncertainties. Reviewer should verify if the modest positive is justified given the lack of formal guidance raise."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is qualitative ('ambitious goal') and not quantified; reviewer should confirm this is correctly interpreted as reaffirmation rather than a raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "RMSP.XC_Bundled Earnings Report_2025-07-01",
+  "report_metadata": {
+    "issuer": "p2_hermes",
+    "company": "Hermes",
+    "ticker": "RMSP.XC",
+    "sector": "Consumer Cyclical/Luxury Goods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "RMS_FQ2_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221206Z",
+    "timestamp": "2026-08-13T22:12:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_hermes_ext2026_08_13/extracted/RMS_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Press_Release.pdf",
+        "page_count": 12,
+        "extracted_characters": 23266,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 39918,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_hermes_ext2026_08_13/extracted/RMS_FQ2_2025.txt"
+  }
+}

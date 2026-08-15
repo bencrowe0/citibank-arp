@@ -1,0 +1,205 @@
+{
+  "document_id": "INTC_FQ2_2025",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "Although Q2 revenue beat the high end of guidance and management expressed confidence in execution, forward guidance for Q3 was set below seasonal norms, with revenue expected to decline sequentially and non-GAAP EPS guided to breakeven. Management also disclosed significant structural headwinds including continued gross margin pressure from Lunar Lake ramp, early Panther Lake costs, tariffs, and foundry capacity constraints, alongside a major strategic pullback in capital expenditures and manufacturing footprint. The overall tone is cautiously optimistic but the forward outlook is hedged and defensive, warranting a negative sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 2025 revenue was $12.9 billion, flat year-over-year (YoY). Revenue came in above the high end of guidance, driven by strength in client and datacenter segments.",
+    "eps": "GAAP EPS attributable to Intel was $(0.67); non-GAAP EPS was $(0.10). Excluding impairment and period costs, non-GAAP EPS would have been $0.10.",
+    "guidance": "Q3 2025 revenue guidance of $12.6 billion to $13.6 billion (down 2% to up 6% sequentially), with non-GAAP gross margin of approximately 36% and breakeven non-GAAP EPS. Management noted planning for a below-seasonal second half of 2025.",
+    "margin": "Q2 GAAP gross margin was 27.5%, down 7.9 ppts YoY; non-GAAP gross margin was 29.7%, down 9 ppts YoY. Excluding impairment and period costs, non-GAAP gross margin would have been 37.5%. Operating margin (GAAP) was (24.7)%, down 9.4 ppts YoY.",
+    "key_risks": [
+      "Continued gross margin headwinds in Q3 from Lunar Lake ramp, early Panther Lake wafer costs, and increased tariff impact.",
+      "Intel 7 capacity constraints expected to persist through the second half of 2025, limiting foundry revenue.",
+      "Foundry revenue expected to decline sequentially due to capacity constraints and reduced external advanced packaging revenue.",
+      "Structural competitive challenges in server market, including share loss and ASP declines.",
+      "High capital expenditures and negative adjusted free cash flow; last full fiscal year of positive adjusted free cash flow was 2021.",
+      "Uncertainty from tariff-driven customer purchasing behavior and potential demand pull-forward.",
+      "Execution risks in 18A and 14A process ramps, with 14A requiring external customer commitments before CapEx deployment."
+    ],
+    "key_opportunities": [
+      "Strong demand in client and datacenter segments, with CCG revenue up 3% sequentially and DCAI up 4% YoY.",
+      "Intel 18A on track for Panther Lake launch by year-end, supporting at least three product generations.",
+      "AI strategy focused on inference and agentic AI, with plans to expand software talent and full-stack solutions.",
+      "Xeon 6 ramp and selection as host CPU for NVIDIA DGX B300, demonstrating strength in AI host nodes.",
+      "Cost reduction and efficiency initiatives, including headcount reduction and management layer cuts, targeting $17B OpEx in 2025 and $16B in 2026.",
+      "Monetization of non-core assets, including Mobileye stake sale and Altera transaction, to strengthen balance sheet."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in execution and strategic direction ('solid Q2', 'good execution by the team') but also acknowledged significant challenges and a cautious forward outlook ('we feel it prudent to continue to plan for a below-seasonal second half of 2025')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 revenue was $12.9 billion, flat year-over-year.",
+      "quote": "Second-quarter revenue was $12.9 billion, flat year-over-year (YoY).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 GAAP EPS was $(0.67) and non-GAAP EPS was $(0.10).",
+      "quote": "Second-quarter earnings (loss) per share (EPS) attributable to Intel was $(0.67); non-GAAP EPS attributable to Intel was $(0.10).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 revenue guidance is $12.6 billion to $13.6 billion, with non-GAAP EPS of $0.00.",
+      "quote": "Forecasting third-quarter 2025 revenue of $12.6 billion to $13.6 billion; expecting third-quarter EPS attributable to Intel of $(0.24) and non-GAAP EPS attributable to Intel of $0.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 GAAP gross margin was 27.5%, down 7.9 ppts YoY; non-GAAP gross margin was 29.7%, down 9 ppts YoY.",
+      "quote": "Gross margin 27.5% 35.4% down 7.9 ppts 29.7% 38.7% down 9 ppts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding impairment and period costs, non-GAAP gross margin would have been 37.5% and non-GAAP EPS would have been $0.10.",
+      "quote": "Excluding these charges, our second quarter non-GAAP gross margin would have been 37.5% and non-GAAP EPS would have been ten cents, both results ahead of our Q2 guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management plans for a below-seasonal second half of 2025.",
+      "quote": "As such, while we believe that the underlying fundamentals of our core markets support growth, we feel it prudent to continue to plan for a below-seasonal second half of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 gross margin will be pressured by Lunar Lake ramp, early Panther Lake costs, and tariffs.",
+      "quote": "At the midpoint of $13.1 billion, we expect a gross margin of approximately 36% on an increased mix of outsourced products, yearly ramp of Panther Lake, and increased costs associated with tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel 7 capacity constraints will persist through the second half of 2025.",
+      "quote": "We expect Intel foundry revenue down slightly quarter over quarter due to capacity constraints in Intel 7, which we expect to persist through the second half of the year, and reduced expectations for external advanced packaging revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foundry revenue is expected to decline sequentially in Q3.",
+      "quote": "We expect Intel foundry revenue down slightly quarter over quarter due to capacity constraints in Intel 7, which we expect to persist through the second half of the year, and reduced expectations for external advanced packaging revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel's last full fiscal year of positive adjusted free cash flow was 2021.",
+      "quote": "Despite meaningful capital spending offsets, our last full fiscal year of positive adjusted free cash flow was 2021. This is completely unacceptable.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel is reducing its manufacturing footprint by stopping Germany and Poland projects, consolidating Costa Rica, and slowing Ohio construction.",
+      "quote": "As part of this new financial discipline, we have decided not to continue with our manufacturing projects in Germany and Poland. We also plan to consolidate our assembly and test operations in Costa Rica into larger existing sites in Vietnam and Malaysia. And we will further slow the pace of construction in Ohio to ensure our spending is aligned with market demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel 18A is on track for Panther Lake launch by year-end.",
+      "quote": "Our foundry and products teams remain focused on enabling Panther Lake to launch this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intel is focusing AI efforts on inference and agentic AI.",
+      "quote": "In addition, we see the AI market continuing to evolve, and we are concentrating our effort on areas we believe we can disrupt and differentiate, like inference and agentic AI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Xeon 6 was selected as host CPU for NVIDIA DGX B300.",
+      "quote": "One of these Xeon 6 SKUs was selected as the host node for NVIDIA DGX D300 AI-accelerated systems",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with confidence in execution but caution on the outlook.",
+      "quote": "We had a solid Q2 with revenue above the high end of our guidance. This reflects strong demand across our business and good execution by the team. ... we feel it prudent to continue to plan for a below-seasonal second half of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative due to cautious guidance and structural headwinds, but the document also contains positive elements (revenue beat, confident language). A reviewer may want to weigh the positive execution against the negative forward outlook."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Some risks are explicitly stated, but others (e.g., competitive share loss) are inferred from management commentary. Ensure all risks are directly supported by the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "INTC_Bundled Earnings Report_2025-07-24",
+  "report_metadata": {
+    "issuer": "p2_intel",
+    "company": "Intel",
+    "ticker": "INTC",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-24",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q2/INTC_Q2_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q2/INTC_Q2_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "INTC_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221409Z",
+    "timestamp": "2026-08-13T22:14:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q2/INTC_Q2_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_intel_ext2026_08_13/extracted/INTC_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q2/INTC_Q2_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 38265,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/intel/CY2025-Q2/INTC_Q2_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 65938,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_intel_ext2026_08_13/extracted/INTC_FQ2_2025.txt"
+  }
+}

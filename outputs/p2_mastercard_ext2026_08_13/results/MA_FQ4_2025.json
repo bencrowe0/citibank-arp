@@ -1,0 +1,236 @@
+{
+  "document_id": "MA_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered strong Q4 2025 results with net revenue up 15% currency-neutral and provided 2026 guidance for net revenue growth at the high end of a low double-digit range, which represents a positive forward outlook. However, the guidance is not a formal raise above prior stated guidance, and management explicitly notes that first-half 2026 growth will be lower than the second half due to tougher comps from FX volatility, and the company is taking a restructuring charge, which tempers the score. The overall tone is confident, with management citing healthy consumer spending and strong momentum, but the forward guidance is more of a reaffirmation of a strong trajectory rather than a material upgrade."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 net revenue of $8.8 billion, up 18% (15% currency-neutral) year-over-year. Full year 2025 net revenue of $32.8 billion, up 16% (15% currency-neutral).",
+    "eps": "Q4 2025 diluted EPS of $4.52 (GAAP) and adjusted diluted EPS of $4.76, up 25% (20% currency-neutral) year-over-year. Full year 2025 diluted EPS of $16.52 (GAAP) and adjusted diluted EPS of $17.01, up 17% (15% currency-neutral).",
+    "guidance": "For full year 2026, net revenue expected to grow at the high end of a low double-digit range on a currency-neutral basis, excluding inorganic activity, with a 1-1.5 ppt FX tailwind. Operating expense growth expected at the low end of a low double-digit range. Non-GAAP tax rate expected 20-21%. For Q1 2026, net revenue growth expected at the low end of low double digits (currency-neutral, ex-inorganic) with a 3.5-4% FX tailwind; operating expense growth in the high end of high single digits with a 2.5% FX headwind; non-GAAP tax rate approximately 19-20%. A one-time restructuring charge of approximately $200 million is expected in Q1 2026.",
+    "margin": "Q4 2025 operating margin was 55.8% (GAAP) and 57.7% (adjusted), up 3.2 ppt and 1.4 ppt respectively year-over-year. Full year 2025 operating margin was 57.6% (GAAP) and 59.2% (adjusted), up 2.3 ppt and 0.8 ppt respectively.",
+    "key_risks": [
+      "Geopolitical and macroeconomic uncertainty persists.",
+      "Regulatory risks, including the Credit Card Competition Act (CCCA) and potential credit card rate caps.",
+      "FX volatility is hard to predict and can impact revenue, with Q4 2025 seeing FX volatility well below historical norms.",
+      "Competitive environment in the payments industry is intense.",
+      "Restructuring charge of ~$200 million in Q1 2026 impacting ~4% of employees.",
+      "Higher effective tax rate due to Singapore operations and Pillar 2 Rules."
+    ],
+    "key_opportunities": [
+      "Value-added services and solutions net revenue grew 22% (currency-neutral) in Q4, driven by digital, authentication, security, and insights.",
+      "Cross-border volume growth of 14% in Q4, driven by travel and non-travel spending.",
+      "Mastercard Move disbursement and remittance capability now connects to over 17 billion endpoints, with transaction growth exceeding 35%.",
+      "Tokenization: nearly 40% of all transactions tokenized, driving higher approval rates and services growth.",
+      "Agentic commerce and stablecoins are emerging opportunities where Mastercard is positioning itself.",
+      "Commercial credit and debit volumes grew 11% in 2025, representing 13% of total GDV.",
+      "New strategic wins including Apple Card, Capital One renewal, and various co-brand partnerships."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management's language is consistently positive and forward-looking, with CEO Michael Miebach stating '2025 was another very strong year' and 'we remain optimistic and confident in our execution and the fundamentals of our business.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 net revenue was $8.8 billion, up 18% (15% currency-neutral) year-over-year.",
+      "quote": "Fourth quarter net revenue of $8.8 billion, an increase of 18%, or 15% on a currency-neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 diluted EPS was $4.52 (GAAP) and adjusted diluted EPS was $4.76.",
+      "quote": "Fourth quarter adjusted net income of $4.3 billion, and adjusted diluted EPS of $4.76",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 net revenue was $32.8 billion, up 16% (15% currency-neutral).",
+      "quote": "Net revenue $32.8 $28.2 16% 15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 diluted EPS was $16.52 (GAAP) and adjusted diluted EPS was $17.01.",
+      "quote": "Diluted EPS $16.52 $13.89 19% 18%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance: net revenue growth at high end of low double digits, currency-neutral, ex-inorganic.",
+      "quote": "we expect net revenues to grow at the high end of a low double digits range on a currency neutral basis, excluding inorganic activity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 operating margin was 55.8% (GAAP) and 57.7% (adjusted).",
+      "quote": "Operating margin 55.8% 52.6% 3.2 ppt 2.9 ppt",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 operating margin was 57.6% (GAAP) and 59.2% (adjusted).",
+      "quote": "Operating margin 57.6% 55.3% 2.3 ppt 2.3 ppt",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident about the future.",
+      "quote": "we remain optimistic and confident in our execution and the fundamentals of our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Value-added services and solutions net revenue grew 22% currency-neutral in Q4.",
+      "quote": "Value-added services and solutions net revenue increased 26%, or 22% on a currency-neutral basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cross-border volume grew 14% in Q4 on a local currency basis.",
+      "quote": "Cross-border volume growth of 14% on a local currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mastercard Move transaction growth exceeded 35% in Q4 and full year 2025.",
+      "quote": "In quarter four 2025 and full year 2025, saw transaction growth exceeding 35% versus a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nearly 40% of all transactions are tokenized.",
+      "quote": "as of quarter four, we have tokenized nearly 40% of all transactions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A restructuring charge of approximately $200 million is expected in Q1 2026.",
+      "quote": "we expect to record a one-time restructuring charge in Q1 of approximately $200 million will be recorded as a special item and is excluded from our non-GAAP metrics.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The effective tax rate was higher in 2025 due to Singapore operations and Pillar 2 Rules.",
+      "quote": "Both the as-reported and as-adjusted effective tax rates were higher in 2025 primarily due to the net tax effect of our Singapore operations, which includes the 15% global minimum tax (Pillar 2 Rules) that took effect in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces regulatory risks including the Credit Card Competition Act.",
+      "quote": "The Credit Card Competition Act isn't really about It's about lowering cost without considering all the points I just said.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX volatility is a risk and was below historical norms in Q4.",
+      "quote": "Towards the end of Q4 and month to date January, we saw FX volatility well below historical norms.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The payments industry is highly competitive.",
+      "quote": "The payments industry continues to evolve. Stablecoins and the Gentecommerce bring new choices to pay and get paid.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial credit and debit volumes grew 11% in 2025.",
+      "quote": "In 2025, our commercial credit and debit volumes represented 13% of our total GDV, and grew at 11% year over year on a local currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company secured new government grants that benefit operating expenses and other income.",
+      "quote": "in late December, the company secured various new multiyear government grants related to investments in select geographies. These grants benefit both operating expenses and other income and expense.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects first half 2026 growth to be lower than second half due to tougher comps.",
+      "quote": "we expect currency neutral growth in the first half of the year to be lower than in the second half. This is driven by tougher comps in the first half, primarily due to elevated revenue growth from FX volatility in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 is based on strong results and positive guidance, but the guidance is not a formal raise above prior guidance, and the company is taking a restructuring charge. A reviewer should verify the interpretation of the guidance as a positive signal versus a mere reaffirmation."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The risk list includes regulatory and competitive risks, but the document also mentions a restructuring charge and FX volatility. A reviewer should confirm these are the most material risks and that no other significant risks were omitted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MA_Bundled Earnings Report_2026-01-29",
+  "report_metadata": {
+    "issuer": "p2_mastercard",
+    "company": "Mastercard",
+    "ticker": "MA",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q4/MA_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q4/MA_Q4_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MA_FQ4_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221511Z",
+    "timestamp": "2026-08-13T22:15:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q4/MA_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_mastercard_ext2026_08_13/extracted/MA_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q4/MA_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 39562,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/mastercard/CY2025-Q4/MA_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 75109,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_mastercard_ext2026_08_13/extracted/MA_FQ4_2025.txt"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "document_id": "SHOP_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong Q3 results (32% GMV and revenue growth, 18% FCF margin) that beat management's own expectations, with North America outperforming. However, Q4 guidance projects a deceleration to mid-to-high-twenties revenue growth, explicitly citing tougher comparables and lapping the PayPal partnership, which tempers the forward signal. The score reflects genuine operational momentum and a slight FCF margin improvement, but not a formal guidance raise, placing it in the +0.15 to +0.3 band."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$2,844 million for Q3 2025, up 32% year-over-year (31% constant currency).",
+    "eps": "Not disclosed",
+    "guidance": "Q4 2025 revenue growth expected in the mid-to-high-twenties percentage rate year-over-year; gross profit dollars to grow at a low-to-mid-twenties rate; operating expense as a percentage of revenue to be 30% to 31%; stock-based compensation to be $130 million; free cash flow margin to be slightly above Q3 2025.",
+    "margin": "Gross profit margin was 48.9% in Q3 2025, down from 51.7% in Q3 2024. Operating income was $343 million, or 12% of revenue. Free cash flow margin was 18%.",
+    "key_risks": [
+      "Q4 revenue growth will face tougher comparables from Q4 2024, the highest-growth quarter of that year.",
+      "Q4 revenue growth will be impacted by lapping the expanded PayPal partnership.",
+      "Transaction and loan losses represented 5% of revenue, an uptick above the historical trend line, driven by higher losses in the Payments business and increased capital losses.",
+      "MRR growth faces year-over-year comparability headwinds until Q2 of next year due to the rollout of 3-month trials.",
+      "Gross margin declined year-over-year due to mix shift toward Merchant Solutions and higher hosting and AI costs."
+    ],
+    "key_opportunities": [
+      "International GMV grew 41% in Q3, with Europe a standout, and revenue from the region now accounts for 21% of overall revenue.",
+      "B2B GMV grew 98% year-over-year, with strong growth in Canada (155%) and the home and garden vertical (150%).",
+      "Shopify Payments penetration reached 65% of GMV, with Shop Pay processing $29 billion, up 67%.",
+      "AI-driven traffic to Shopify stores is up 7x and orders attributed to AI searches up 11x since January.",
+      "Sidekick adoption: over 750,000 shops used it for the first time in Q3, with nearly 100 million cumulative conversations.",
+      "Enterprise merchant wins, including Est\u00e9e Lauder, e.l.f. Cosmetics, and FanDuel, support the enterprise migration trend."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly emphasizes consistent execution and growth, with Harley Finkelstein stating, 'We build. We ship. We grow. That's the model - and it's running at full speed.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 revenue was $2,844 million, up 32% year-over-year.",
+      "quote": "Revenue 2,844 2,162 ... YoY revenue growth rate % %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 GMV was $92,013 million, up 32% year-over-year.",
+      "quote": "GMV 92,013 69,715",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 free cash flow margin was 18%.",
+      "quote": "Free cash flow margin 18% 19%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 results beat management's expectations, driven by North America outperformance.",
+      "quote": "This strength was driven largely by North America, which outperformed our expectations, driven by an acceleration in growth rate fueled by stronger contributions from both Standard and Plus merchants.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 revenue growth is expected to decelerate to mid-to-high-twenties.",
+      "quote": "We expect Q4 revenue growth to be in the mid to high 20s year-over-year. A few items for appropriate context. We were up against a high benchmark from Q4 last year, which was the highest-growth quarter in 2024. Also, as a reminder, we will lap the expanded partnership with PayPal, which benefited last year's Q4 revenue growth rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 free cash flow margin is expected to be slightly above Q3.",
+      "quote": "We expect Q4 free cash flow margin to be slightly above Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross profit margin declined to 48.9% from 51.7%.",
+      "quote": "This brings our overall Q3 gross margin to 48.9%, compared to 51.7% in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income was $343 million, or 12% of revenue.",
+      "quote": "Operating income for the quarter was $343 million or 12% of revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Transaction and loan losses rose to 5% of revenue.",
+      "quote": "In Q3, transaction and loan losses represented 5% of our revenue, an uptick above our historical trend line. This increase stems mostly from higher losses in our Payments business, resulting primarily from some testing and experimentation with merchant onboarding.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International GMV grew 41% in Q3.",
+      "quote": "International GMV grew 41% in Q3, on top of 42% in Q2 and 31% in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "B2B GMV grew 98% year-over-year.",
+      "quote": "Following 2 years of consistent growth over 100%, we nearly doubled B2B GMV again in Q3, up 98% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shopify Payments penetration reached 65% of GMV.",
+      "quote": "Payments continues to lead the way for driving growth, hitting 65% penetration of GMV in Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shop Pay processed $29 billion, up 67%.",
+      "quote": "Shop Pay has seen significant growth as well, up 67% year-over-year to $29 billion this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-driven traffic is up 7x and AI-attributed orders up 11x since January.",
+      "quote": "since January, we've seen AI-driven traffic to Shopify stores up like 7x. And we've actually seen orders attributed to AI searches up like 11x since that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sidekick had over 750,000 new shops and nearly 100 million cumulative conversations.",
+      "quote": "In Q3 alone, over 750,000 shops used Sidekick for the first time. And to date, Sidekick has had almost 100 million conversations with merchants, with 8 million in October alone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We build. We ship. We grow. That's the model - and it's running at full speed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects strong Q3 results and a slight FCF margin improvement, but Q4 guidance explicitly decelerates. A reviewer should confirm the weighting of the deceleration versus the momentum."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS was not explicitly disclosed in the document; the field is marked 'Not disclosed' as per instructions."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "SHOP_Bundled Earnings Report_2025-11-04",
+  "report_metadata": {
+    "issuer": "p2_shopify",
+    "company": "Shopify",
+    "ticker": "SHOP",
+    "sector": "Technology/E-Commerce",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q3/SHOP_Q3_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q3/SHOP_Q3_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SHOP_FQ3_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221728Z",
+    "timestamp": "2026-08-13T22:17:41Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q3/SHOP_Q3_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shopify_ext2026_08_13/extracted/SHOP_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q3/SHOP_Q3_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 16367,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2025-Q3/SHOP_Q3_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 74004,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shopify_ext2026_08_13/extracted/SHOP_FQ3_2025.txt"
+  }
+}

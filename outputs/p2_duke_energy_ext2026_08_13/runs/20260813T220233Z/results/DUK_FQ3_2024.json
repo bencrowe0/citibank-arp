@@ -1,0 +1,204 @@
+{
+  "document_id": "DUK_FQ3_2024",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The company reported adjusted EPS of $1.62, down from $1.94 in the prior year, and reaffirmed its 2024 adjusted EPS guidance range of $5.85 to $6.10, but explicitly stated it is 'trending to the lower half of the range' due to storm impacts. While long-term growth guidance of 5% to 7% through 2028 was reaffirmed, the near-term guidance was effectively lowered (from midpoint to lower half), and management's language was cautious, citing storm costs, lost revenues, and a higher effective tax rate. This represents a negative forward signal relative to prior expectations, though not a formal guidance cut."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q3 2024 were $8,154 million, up from $7,994 million in Q3 2023. For the nine months ended September 30, 2024, revenues were $22,997 million, up from $21,848 million in the prior year.",
+    "eps": "Reported EPS of $1.60 and adjusted EPS of $1.62 for Q3 2024, compared to reported EPS of $1.59 and adjusted EPS of $1.94 for Q3 2023. The decrease in adjusted EPS was driven by a higher effective tax rate, storm costs, interest expense, and depreciation, partially offset by growth from rate increases and riders.",
+    "guidance": "Reaffirmed 2024 adjusted EPS guidance range of $5.85 to $6.10, trending to the lower half of the range. Reaffirmed long-term adjusted EPS growth rate of 5% to 7% through 2028 off the 2024 midpoint of $5.98.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Storm restoration costs estimated at $2.4 billion to $2.9 billion for hurricanes Helene, Debby, and Milton, impacting third and fourth quarter 2024 results.",
+      "Higher effective tax rate in Q3 2024 (11.6% adjusted) compared to Q3 2023 (3.9%), due to tax efficiency efforts in the prior year and decreased amortization of excess deferred taxes.",
+      "Lost revenues from storm-related outages and evacuations.",
+      "Slower rebound in certain industrial sectors, with recovery timing shifted into 2025.",
+      "Temporary credit impact in 2024 due to storm costs, with FFO to debt expected at high 13% in 2024, targeting 14% in 2025.",
+      "Potential for additional equity issuance to fund incremental capital, with management signaling a range of 30% to 50% equity for new capital."
+    ],
+    "key_opportunities": [
+      "Robust economic development and population migration supporting long-term growth, with 2 gigawatts of data center letter agreements signed in the past month.",
+      "Constructive regulatory outcomes, including IRP approvals in the Carolinas and multi-year rate plans in Florida and North Carolina.",
+      "Grid-hardening investments that avoided nearly 550,000 customer outages and saved 7 million hours of outage time across the three storms.",
+      "Tax credit monetization, with $200 million completed and additional transactions expected in Q4, contributing 40-60 basis points to FFO to debt.",
+      "Load growth trending toward the top end of the 1.5% to 2% CAGR through 2028, with acceleration expected in 2027 and 2028.",
+      "Potential for new nuclear (SMRs) with early development activities approved in Carolinas IRPs."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in long-term growth and regulatory outcomes ('we have strong momentum driven by our track record of constructive regulatory outcomes'), but also acknowledged near-term challenges and cautious guidance ('we are reaffirming our 2024 guidance range, trending to the lower half')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2024 reported EPS was $1.60 and adjusted EPS was $1.62, compared to $1.59 and $1.94 in Q3 2023.",
+      "quote": "Duke Energy today announced third-quarter 2024 reported EPS of $1.60, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $1.62. This is compared to reported EPS of $1.59 and adjusted EPS of $1.94 for the third quarter of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 adjusted EPS guidance was reaffirmed at $5.85 to $6.10, but trending to the lower half of the range.",
+      "quote": "The company is reaffirming its 2024 adjusted EPS guidance range of $5.85 to $6.10 and trending to the lower half of the range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term adjusted EPS growth rate of 5% to 7% through 2028 was reaffirmed.",
+      "quote": "The company is reaffirming its long-term adjusted EPS growth rate of 5% to 7% through 2028 off the 2024 midpoint of $5.98.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenues for Q3 2024 were $8,154 million, up from $7,994 million in Q3 2023.",
+      "quote": "Total operating revenues 8,154 7,994 22,997 21,848",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Storm restoration costs are estimated at $2.4 billion to $2.9 billion for the three hurricanes.",
+      "quote": "Total storm restoration costs, including capital expenditures, for hurricanes Helene, Debby and Milton are estimated to be in the range of $2.4 billion to $2.9 billion and are expected to primarily impact Duke Energy Carolinas, Duke Energy Progress and Duke Energy Florida.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher effective tax rate negatively impacted Q3 2024 results.",
+      "quote": "Lower third-quarter 2024 adjusted results were driven by a higher effective tax rate, storm costs, interest expense and depreciation on a growing asset base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in long-term growth and regulatory outcomes.",
+      "quote": "As we look ahead to 2025 and beyond, we have strong momentum driven by our track record of constructive regulatory outcomes, including our recent IRP approvals in the Carolinas, as well as our robust growth in our attractive jurisdictions. These tailwinds give us confidence in our long-term outlook and we are reaffirming our 5% to 7% EPS growth rate through 2028, up the midpoint of our 2024 range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledged near-term challenges and cautious guidance.",
+      "quote": "Based on what we know today, we are trending to the lower half of the range, primarily due to storm impacts, including restoration costs and lost revenues from record customer outages.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Economic development and data center growth are key opportunities.",
+      "quote": "We continue to see robust economic development activity and in the past month have signed letter agreements for 2 gigawatts of data centers. These agreements are emblematic of conversations we are having with large customers all around our service territories and represent continued advancement of projects in our pipeline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Grid-hardening investments helped avoid outages during storms.",
+      "quote": "These investments helped avoid nearly 550,000 customer outages in saving 7 million hours of total outage time across all three storms.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tax credit monetization is a credit-positive initiative.",
+      "quote": "And in October, we efficiently monetized nearly $200 million of energy tax credits that will benefit customers over time. We expect additional transactions in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Load growth is expected to accelerate in 2027 and 2028.",
+      "quote": "And over the long term, we see load growth at the top end of our 1.5% to 2% CAGR through 2028, with annual load growth accelerating in 2027 and 2028 as large economic development projects come online.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Slower rebound in certain industrial sectors is a risk.",
+      "quote": "In the near term, we continue to see a slower rebound in certain industrial sectors. We are in frequent dialogue with our largest customers and they continue to signal expectations for a recovery, but the timing has shifted into 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Temporary credit impact in 2024 due to storm costs.",
+      "quote": "We expect a temporary credit impact in 2024 and are targeting 14% FFO to debt in 2025, 100 basis points above our Moody’s downgrade threshold.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for additional equity issuance to fund incremental capital.",
+      "quote": "We also expect capital to increase in the near term as a result of a higher pace of customer additions and refresh cost estimates for generation investments that ramp up in the remainder of the decade. We are well positioned for the opportunities presented by this unprecedented demand growth and we will take a balanced approach to funding the incremental capital, supporting our growth rate and balance sheet strength.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is slightly negative (-0.10) but could be argued as neutral (0.0) given guidance was reaffirmed (not cut) and long-term growth reaffirmed. The 'trending to lower half' language is a negative signal but not a formal cut. Reviewer should weigh the impact of storm costs as one-time vs. recurring."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin commentary was found in the document; 'Not disclosed' is used. Reviewer may want to verify if any margin data is embedded in the financial statements."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2024-11-07",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-11-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q3/DUK_Q3_2024_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q3/DUK_Q3_2024_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:04:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q3/DUK_Q3_2024_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q3/DUK_Q3_2024_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 82205,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q3/DUK_Q3_2024_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 55678,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ3_2024.txt"
+  }
+}

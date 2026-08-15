@@ -1,0 +1,209 @@
+{
+  "document_id": "SHEL_FQ4_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: full-year free cash flow of $26 billion, $5.1 billion in structural cost reductions achieved three years early, and a 4% dividend increase with a $3.5 billion buyback. However, Q4 Adjusted Earnings fell to $3.3 billion from $5.4 billion in Q3, and the company's forward guidance (cash capex of $20-22 billion) was reaffirmed rather than raised, with management noting 'lower earnings in a softer macro.' The score reflects the positive trajectory and confident language, but is tempered by the reaffirmed guidance and acknowledged macro headwinds."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed",
+    "eps": "Not disclosed",
+    "guidance": "Cash capex outlook for 2026: $20 - 22 billion. Q1 2026 outlook for Integrated Gas production: 920 - 980 kboe/d; LNG liquefaction volumes: 7.4 - 8.0 MT. Upstream production outlook: 1,700 - 1,900 kboe/d. Marketing sales volumes outlook: 2,550 - 2,750 kb/d. Refinery utilisation outlook: 90 - 98%. Chemicals manufacturing plant utilisation outlook: 79 - 87%. Corporate Adjusted Earnings outlook: $(0.6) - $(0.4) billion.",
+    "margin": "Indicative refining margin for Q4 2025 was $13.8/bbl (up from $11.6/bbl in Q3 2025). Indicative chemical margin for Q4 2025 was $140/t (down from $160/t in Q3 2025).",
+    "key_risks": [
+      "Lower oil prices: Brent averaged over $10/bbl lower in 2025 than 2024.",
+      "Continued weak Chemicals margins and lower operational performance in Chemicals.",
+      "Softer macro environment impacting Q4 earnings.",
+      "Year-end movements and payments (e.g., emissions certificates, biofuel programmes) impacting cash flow.",
+      "Non-cash tax adjustments in joint ventures impacting Marketing and Chemicals & Products results."
+    ],
+    "key_opportunities": [
+      "Structural cost reductions of $5.1 billion achieved since 2022, with target of $5-7 billion by 2028.",
+      "LNG sales growth of 11% in 2025, supported by LNG Canada start-up and Pavilion Energy acquisition.",
+      "New oil and gas projects expected to add more than 1 million boe/d by 2030, with over a quarter already started up.",
+      "Mobility and Lubricants achieved best-ever results in 2025, with ROACE of over 15% and 21% respectively.",
+      "Portfolio high-grading through divestments (Nigeria Onshore, Canadian Oil Sands, Singapore Chemicals) and acquisitions (Pavilion, Deepwater equity increases)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Wael Sawan states '2025 was a year of accelerated momentum, with strong operational and financial performance across Shell' and 'we are on track to achieve our financial targets, showing that we deliver on what we say we will do.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year free cash flow was $26 billion.",
+      "quote": "We generated free cash flow of $26 billion, made significant progress in focusing our portfolio and reached $5 billion of cost savings since 2022, with more to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted Earnings were $3.3 billion, down from $5.4 billion in Q3 2025.",
+      "quote": "Q4 2025 Adjusted Earnings1 of $3.3 billion and CFFO of $9.4 billion, supported by strong operational performance in Upstream and Integrated Gas in a lower price environment, offset by year-end movements1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted Earnings were $3.3 billion, down from $5.4 billion in Q3 2025.",
+      "quote": "Q3 2025 5,432 14,773 12,207 4,907",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural cost reductions of $5.1 billion were achieved since 2022, exceeding the target three years early.",
+      "quote": "Structural cost reductions of $5.1 billion achieved since 2022; delivered $2.0 billion in 20252. ... By the end of 2025, we had already achieved 5.1 billion dollars of reductions, with more to come. ... Achieving this target 3 years early demonstrates the drive of our organisation to deliver.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The dividend was increased by 4% and a $3.5 billion share buyback was announced.",
+      "quote": "today we announce a 4% increase in our dividend and $3.5 billion share buyback, making this the 17th consecutive quarter of at least $3 billion of buybacks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash capex guidance for 2026 is $20-22 billion, reaffirmed from 2025 levels.",
+      "quote": "Disciplined capital allocation with 2025 cash capex of $20.9 billion; cash capex outlook for 2026: $20 - 22 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brent prices averaged over $10/bbl lower in 2025 than 2024.",
+      "quote": "From a macro perspective, Brent prices on average were over 10 dollars a barrel lower than the year before.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemicals continued to face challenges due to low margins and lower operational performance.",
+      "quote": "And in Chemicals, we continued to face challenges due to both low chemical margins and lower operational performance. Fixing and repositioning this business is a key priority in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "LNG sales grew by 11% in 2025.",
+      "quote": "At our CMD25 we also set an aim of growing our LNG sales through to 2030 by 4 to 5% per annum — and last year, those sales grew by 11%, supported by the highest number of cargoes delivered in a single year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mobility and Lubricants achieved their best-ever results in 2025.",
+      "quote": "And by focusing on performance, discipline and simplification, both Mobility and Lubricants achieved their best-ever results in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The indicative refining margin improved to $13.8/bbl in Q4 2025 from $11.6/bbl in Q3 2025.",
+      "quote": "Indicative refining margin (Updated $/bbl) 11.6 13.8 —",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The indicative chemical margin declined to $140/t in Q4 2025 from $160/t in Q3 2025.",
+      "quote": "Indicative chemical margin (Updated $/t) 160 140 —",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the company's trajectory.",
+      "quote": "We have entered 2026 as a more resilient organisation. We have raised the bar on operational performance. We are showing more discipline and making great progress to deliver more value with less emissions. And there's so much more to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 results were impacted by non-cash tax adjustments in joint ventures.",
+      "quote": "Marketing results were seasonally lower and further impacted by non-cash tax adjustments in joint ventures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company delivered shareholder distributions of ~52% of CFFO in 2025.",
+      "quote": "Resilient CFFO of $42.9 billion for the full year of 2025. Shareholder distributions of ~52% of CFFO.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.20 reflects genuine momentum (cost cuts, dividend increase, LNG growth) but guidance was reaffirmed, not raised, and Q4 earnings declined sequentially. Reviewer should verify the balance between positive trajectory and flat guidance."
+    },
+    {
+      "field": "summary.revenue",
+      "reason": "Revenue figure not disclosed in the document; only Adjusted Earnings and cash flow figures are provided."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS figure not disclosed in the document; only Adjusted Earnings and cash flow figures are provided."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "SHEL_Bundled Earnings Report_2026-02-01",
+  "report_metadata": {
+    "issuer": "p2_shell",
+    "company": "Shell",
+    "ticker": "SHEL",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q4/SHEL_Q4_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q4/SHEL_Q4_2025_Prepared_Remarks.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SHEL_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221632Z",
+    "timestamp": "2026-08-13T22:17:12Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q4/SHEL_Q4_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shell_ext2026_08_13/extracted/SHEL_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q4/SHEL_Q4_2025_Press_Release.pdf",
+        "page_count": 9,
+        "extracted_characters": 20110,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q4/SHEL_Q4_2025_Prepared_Remarks.pdf",
+        "page_count": 6,
+        "extracted_characters": 18976,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shell_ext2026_08_13/extracted/SHEL_FQ4_2025.txt"
+  }
+}

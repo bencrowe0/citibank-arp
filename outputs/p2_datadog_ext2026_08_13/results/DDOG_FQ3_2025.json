@@ -1,0 +1,186 @@
+{
+  "document_id": "DDOG_FQ3_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The company reported strong Q3 results with revenue of $886 million, up 28% year-over-year, and raised its full-year 2025 revenue guidance to $3.386-$3.390 billion, up from the prior expectation of 19% growth mentioned in the call. Management expressed confidence in the demand environment and noted acceleration in non-AI customer growth, with new logo bookings more than doubling year-over-year. The guidance raise and positive forward commentary support a bullish sentiment, though the score is tempered by the fact that the guidance raise is modest and the company continues to face competitive and macroeconomic risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$886 million, up 28% year-over-year",
+    "eps": "GAAP net income per diluted share was $0.10; non-GAAP net income per diluted share was $0.55",
+    "guidance": "Q4 2025 revenue between $912 million and $916 million; full-year 2025 revenue between $3.386 billion and $3.390 billion",
+    "margin": "GAAP operating margin was (1)%; non-GAAP operating margin was 23%; gross margin was 81.2% (non-GAAP)",
+    "key_risks": [
+      "Rapid growth may not be indicative of future growth",
+      "History of operating losses",
+      "Dependence on existing customers for renewals and additional purchases",
+      "Ability to attract new customers",
+      "Security breach risk",
+      "Interruptions or performance problems with products",
+      "Rapidly changing technology or customer needs",
+      "Competitive markets",
+      "General market, political, economic, and business conditions including trade policies, tariffs, reduced economic growth, and decreased IT spending"
+    ],
+    "key_opportunities": [
+      "Cloud migration and digital transformation as long-term secular growth drivers",
+      "AI adoption and AI observability products",
+      "Expansion of larger customers (e.g., $100k+ ARR customers grew 16% year-over-year)",
+      "Security product growth (Security ARR growth in mid-50s year-over-year)",
+      "New go-to-market motions and sales capacity investments paying off",
+      "Product innovation (e.g., Bits AI, MCP server, TOTO model)"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described the quarter as 'very strong' and expressed confidence in the demand environment and future opportunities, stating 'we feel very good about it at the midterm, long term' and 'we are very, very aggressively developing Bits AI.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $886 million, up 28% year-over-year.",
+      "quote": "Revenue was $886 million, an increase of 28% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net income per diluted share was $0.10; non-GAAP net income per diluted share was $0.55.",
+      "quote": "GAAP net income per diluted share was $0.10 ; non-GAAP net income per diluted share was $0.55 .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance was raised to $3.386-$3.390 billion.",
+      "quote": "Full Year 2025 Outlook: Revenue between $3.386 billion and $3.390 billion .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue guidance is between $912 million and $916 million.",
+      "quote": "Fourth Quarter 2025 Outlook: Revenue between $912 million and $916 million .",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin was 23% in Q3.",
+      "quote": "Non-GAAP operating income was $207 million ; non-GAAP operating margin was 23%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin was 81.2% (non-GAAP) in Q3.",
+      "quote": "gross profit in the quarter was $719 million, and our gross margin was 81.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its full-year revenue guidance from earlier expectations of 19% growth.",
+      "quote": "if we go back to the beginning of the year, Datadog was expecting 19% revenue growth. It looks like you're tracking to something over 26% growth now, and that's just the high end of your guidance.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote is from an analyst, not management, but it references the prior guidance and current tracking, supporting the claim of a raise."
+    },
+    {
+      "claim": "Management expressed confidence in the demand environment and future growth.",
+      "quote": "We have seen broad-based positive trends in the demand environment with an ongoing strength of cloud migration and digital transformation. Against this backdrop, we executed a very strong Q3 both in new bookings and usage growth of existing customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New logo bookings more than doubled year-over-year.",
+      "quote": "New logo annualized bookings more than doubled year-over-year and set a new record driven by an increase in average new logo land size, particularly in enterprise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Security ARR growth accelerated to mid-50s year-over-year.",
+      "quote": "Security ARR growth was in the mid-50s as a percentage year-over-year in Q3, up from the mid-40s we mentioned last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks including competition and macroeconomic conditions.",
+      "quote": "The risks and uncertainties referred to above include, but are not limited to ... (10) the competitive markets in which we participate; ... (12) general market, political, economic, and business conditions including concerns about trade policies, tariffs, reduced economic growth and associated decreases in information technology spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel very good about it at the midterm, long term, not -- ebbs and flow than given month or quarter, that's harder to tell. And again, that's what we see through the life of the company. So we feel very confident about the motion in general for digital transformation and cloud migration is steady.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 is based on a guidance raise and strong results, but the guidance raise is modest and the company faces structural risks; a reviewer may want to verify the magnitude of the guidance raise relative to prior guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 1,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DDOG_Bundled Earnings Report_2025-11-06",
+  "report_metadata": {
+    "issuer": "p2_datadog",
+    "company": "Datadog",
+    "ticker": "DDOG",
+    "sector": "Technology/Cloud Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q3/DDOG_Q3_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q3/DDOG_Q3_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DDOG_FQ3_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T215943Z",
+    "timestamp": "2026-08-13T22:00:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q3/DDOG_Q3_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_datadog_ext2026_08_13/extracted/DDOG_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q3/DDOG_Q3_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 32700,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2025-Q3/DDOG_Q3_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 62781,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_datadog_ext2026_08_13/extracted/DDOG_FQ3_2025.txt"
+  }
+}

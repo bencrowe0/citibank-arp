@@ -36,6 +36,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 from dataclasses import dataclass
 from pathlib import Path
 from statistics import mean, pstdev
@@ -59,6 +60,7 @@ class Prediction:
     decision: str        # BUY / HOLD / SELL
     prior_close: float | None = None
     next_day_open: float | None = None
+    release_timing: str | None = None  # pre_market / after_hours; looked up from manifest
 
 
 @dataclass(frozen=True)
@@ -87,8 +89,9 @@ def overnight_gap(pred: Prediction) -> float | None:
     (human sheet rows carry them); otherwise fetches (cached) from yfinance."""
     prior, nxt = pred.prior_close, pred.next_day_open
     if prior is None or nxt is None:
+        timing = pred.release_timing or "after_hours"
         try:
-            prior, nxt = fetch_prices(pred.ticker, pred.report_date)
+            prior, nxt = fetch_prices(pred.ticker, pred.report_date, timing)
         except Exception:
             return None
     if not prior:
@@ -192,14 +195,40 @@ def simulate(preds, cost_bps: float = 10.0, short_borrow_bps: float = 0.0) -> di
 # --------------------------------------------------------------------------- #
 # Adapters
 # --------------------------------------------------------------------------- #
+def _build_timing_lookup() -> dict[str, str]:
+    """Build (ticker, report_date) -> release_timing from all manifests on disk.
+    Extension issuers (e.g. p2_adobe_ext2026_08_13) share their manifest with the
+    base slug (p2_adobe_reports.json) so the lookup covers both frozen and extension.
+    """
+    lookup: dict[str, str] = {}
+    manifests_dir = BASE_DIR / "manifests"
+    for mpath in manifests_dir.glob("*.json"):
+        try:
+            data = json.loads(mpath.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        timing = (data.get("release_timing") or {}).get("value")
+        if not timing:
+            continue
+        for report in data.get("reports", []):
+            ticker = report.get("ticker")
+            rdate = report.get("report_date") or report.get("release_date")
+            if ticker and rdate:
+                lookup[(ticker, rdate)] = timing
+    return lookup
+
+
 def llm_predictions(calibration_csv: Path = CALIBRATION_CSV):
     """Deployed LLM decisions (blend_predicted_signal_default) from the calibration CSV."""
+    timing_lookup = _build_timing_lookup()
     with open(calibration_csv, encoding="utf-8") as fh:
         for r in csv.DictReader(fh):
+            timing = timing_lookup.get((r["ticker"], r["report_date"]))
             yield Prediction(
                 rater="LLM (DeepSeek)", kind="LM",
                 ticker=r["ticker"], report_date=r["report_date"],
                 decision=r["blend_predicted_signal_default"],
+                release_timing=timing,
             )
 
 
@@ -295,7 +324,7 @@ def by_rater(preds):
 def constant_predictions(template, decision: str, rater: str):
     for p in template:
         yield Prediction(rater, "Baseline", p.ticker, p.report_date, decision,
-                         p.prior_close, p.next_day_open)
+                         p.prior_close, p.next_day_open, p.release_timing)
 
 
 # --------------------------------------------------------------------------- #

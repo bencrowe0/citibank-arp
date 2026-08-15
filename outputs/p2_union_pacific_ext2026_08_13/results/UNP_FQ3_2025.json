@@ -1,0 +1,213 @@
+{
+  "document_id": "UNP_FQ3_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "While the company reported strong third-quarter results with adjusted EPS up 12% and a record operating ratio, the forward guidance is cautious and points to a slowdown. Management explicitly stated that fourth-quarter volumes are currently running down 6%, creating a 'headwind to earnings and margin expansion compared to last year's record fourth quarter.' This negative forward outlook, combined with the pause in share repurchases and the acknowledgment of 'tougher comparisons' ahead, outweighs the backward-looking beat, leading to a negative sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Operating revenue of $6.2 billion, up 3% year-over-year. Freight revenue was $5.9 billion, up 3%.",
+    "eps": "Reported diluted EPS of $3.01. Adjusted diluted EPS of $3.08, up 12% year-over-year.",
+    "guidance": "Management reaffirmed its 3-year EPS CAGR target of high-single to low-double-digit growth. However, it noted that fourth-quarter volumes are currently running down 6%, creating a headwind to earnings and margin expansion compared to last year's record fourth quarter.",
+    "margin": "Reported operating ratio of 59.2%, an improvement of 110 basis points. Adjusted operating ratio of 58.5%, an improvement of 180 basis points.",
+    "key_risks": [
+      "Fourth-quarter volumes are currently running down 6%.",
+      "International intermodal volumes are facing tough comparisons against last year's strong growth.",
+      "Productivity is challenged when volumes are coming down.",
+      "Coal contracts face tougher comparisons in the fourth quarter and first part of next year.",
+      "Share repurchases are paused due to the pending Norfolk Southern merger.",
+      "Merger-related costs will continue to impact earnings.",
+      "The truck competitive market remains very challenging, providing no support for intermodal pricing."
+    ],
+    "key_opportunities": [
+      "Strong core pricing gains and a more favorable business mix drove a 350 basis point improvement in freight revenue.",
+      "Record operational performance, including workforce productivity, fuel consumption, terminal dwell, and train length, provides a strong foundation.",
+      "Domestic intermodal segment delivered record-breaking volumes.",
+      "New business wins in petrochemicals and other industrial markets.",
+      "The pending merger with Norfolk Southern is described as a 'historic opportunity' to create America's first transcontinental railroad."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management is confident about the strong third-quarter results and long-term strategy, but cautious about the fourth-quarter outlook, explicitly stating that volumes are down 6% and will create a 'headwind to earnings and margin expansion.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported diluted EPS was $3.01.",
+      "quote": "Union Pacific Corporation (NYSE: UNP) today reported 2025 third quarter net income of $1.8 billion, or $3.01 per diluted share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $3.08, up 12% year-over-year.",
+      "quote": "Adjusted 2025 third quarter net income* of $1.8 billion, or $3.08 per diluted share* compares to 2024 third quarter net income of $1.7 billion, or $2.75 per diluted share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating revenue increased 3% to $6.2 billion.",
+      "quote": "Operating revenue of $6.2 billion grew 3% driven by solid core pricing gains, partially offset by lower fuel surcharge.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported operating ratio was 59.2%, an improvement of 110 basis points.",
+      "quote": "Reported operating ratio was 59.2%, an improvement of 110 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating ratio was 58.5%, an improvement of 180 basis points.",
+      "quote": "Adjusted operating ratio* was 58.5%, an improvement of 180 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed its 3-year EPS CAGR target of high-single to low-double-digit growth.",
+      "quote": "Despite the somewhat challenging close to the year, we still expect to achieve our 3-year EPS CAGR view of high single to low double-digit growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter volumes are currently running down 6%.",
+      "quote": "For the fourth quarter, volumes are currently running down 6% as international intermodal volumes reflect the tough comparison against last year's strong growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The decline in volumes creates a headwind to earnings and margin expansion.",
+      "quote": "This level of decline plus merger cost and pause share repurchases obviously creates a headwind to earnings and margin expansion compared to last year's record fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share repurchases are paused due to the pending merger.",
+      "quote": "As we discussed when we announced our merger with the Norfolk Southern, we have paused our share repurchase program.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity is challenged when volumes are coming down.",
+      "quote": "productivity, as you know, also is challenged when you have volumes coming down.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Coal contracts face tougher comparisons in the fourth quarter and first part of next year.",
+      "quote": "you're going to start to see some tougher comparisons for us on the coal side of the world as well, when you think about some of the flexibility we have in those contracts with natural gas.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The truck competitive market remains very challenging.",
+      "quote": "We're not getting any support from the intermodal side of the world. That truck competitive market is still very, very challenging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong core pricing and favorable mix drove a 350 basis point improvement in freight revenue.",
+      "quote": "Strong core pricing, combined with a more favorable business mix to drive a 350 basis point improvement in freight revenue versus 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company set best-ever quarterly records in several operational metrics.",
+      "quote": "In addition, we set best-ever quarterly records in workforce productivity, fuel consumption, terminal dwell and train line.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic intermodal segment delivered record-breaking volumes.",
+      "quote": "However, our domestic segment delivered record-breaking volumes this quarter, driven by exceptional service and business lines.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The merger with Norfolk Southern is described as a historic opportunity.",
+      "quote": "We have a historic opportunity with the Norfolk Southern to create America's first transcontinental railroad.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, confident on results but cautious on the outlook.",
+      "quote": "Despite the somewhat challenging close to the year, we still expect to achieve our 3-year EPS CAGR view of high single to low double-digit growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative due to cautious forward guidance despite strong backward-looking results. A human reviewer should verify the weighting of the forward-looking headwinds versus the strong quarterly performance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UNP_Bundled Earnings Report_2025-11-05",
+  "report_metadata": {
+    "issuer": "p2_union_pacific",
+    "company": "Union Pacific",
+    "ticker": "UNP",
+    "sector": "Industrials/Railroads",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q3/UNP_Q3_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q3/UNP_Q3_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UNP_FQ3_2025",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221900Z",
+    "timestamp": "2026-08-13T22:19:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q3/UNP_Q3_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_union_pacific_ext2026_08_13/extracted/UNP_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q3/UNP_Q3_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 35389,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2025-Q3/UNP_Q3_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 85045,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_union_pacific_ext2026_08_13/extracted/UNP_FQ3_2025.txt"
+  }
+}

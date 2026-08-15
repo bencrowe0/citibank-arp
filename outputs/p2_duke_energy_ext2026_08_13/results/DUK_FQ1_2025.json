@@ -1,0 +1,192 @@
+{
+  "document_id": "DUK_FQ1_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The company reported a strong quarter with adjusted EPS of $1.76, up 22% year-over-year, and reaffirmed its 2025 guidance range of $6.17 to $6.42 and long-term growth of 5% to 7%. While guidance was not raised, management expressed high confidence in the outlook, citing robust load growth, a growing pipeline of data center projects, and constructive regulatory outcomes. The positive momentum is organic, driven by higher volumes and new rates, but the lack of a formal guidance raise and the presence of tariff-related risks keep the score below the +0.5 threshold."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q1 2025 were $8,249 million, compared to $7,671 million in Q1 2024, an increase of approximately 7.5%.",
+    "eps": "Reported and adjusted EPS of $1.76 for Q1 2025, compared to $1.44 in Q1 2024, an increase of $0.32 per share (22%).",
+    "guidance": "Reaffirming 2025 adjusted EPS guidance range of $6.17 to $6.42 and long-term adjusted EPS growth rate of 5% to 7% through 2029 off the 2025 midpoint of $6.30.",
+    "margin": "Operating income for Q1 2025 was $2,343 million, compared to $1,963 million in Q1 2024. Operating margin (operating income / total revenues) improved from 25.6% to 28.4%.",
+    "key_risks": [
+      "Higher interest expense and O&M expenses partially offset results.",
+      "Tariffs impact on capital plan estimated at 1% to 3% of 5-year capital plan.",
+      "Potential changes in tax credits (IRA) and regulatory outcomes.",
+      "Economic and policy uncertainty affecting industrial customer activity.",
+      "Forward-looking risks include regulatory, environmental, and operational factors."
+    ],
+    "key_opportunities": [
+      "Load growth projected at levels not seen in CEO's 30-year career, driving record infrastructure build.",
+      "Signed letter agreements for nearly 1 gigawatt of data center projects in April.",
+      "Nuclear license extension for Oconee station, extending operations into the 2050s.",
+      "Strategic partnership with GE Vernova to secure up to 19 natural gas turbines.",
+      "Storm securitization in the Carolinas and recovery of hurricane costs in Florida.",
+      "Potential merger of DEC and DEP utilities to create customer savings and operational efficiencies."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the outlook, with the CEO stating 'The fundamentals of the company are stronger than ever' and the CFO noting 'we remain confident in delivering our 2025 earnings guidance range.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total operating revenues for Q1 2025 were $8,249 million, up from $7,671 million in Q1 2024.",
+      "quote": "Total operating revenues 8,249 7,671",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported and adjusted EPS for Q1 2025 was $1.76, compared to $1.44 in Q1 2024.",
+      "quote": "First-quarter 2025 reported and adjusted EPS of $1.76. This is compared to reported and adjusted EPS of $1.44 for the first quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its 2025 adjusted EPS guidance range of $6.17 to $6.42 and long-term growth of 5% to 7% through 2029.",
+      "quote": "The company is reaffirming its 2025 adjusted EPS guidance range of $6.17 to $6.42 and long-term adjusted EPS growth rate of 5% to 7% through 2029 off the 2025 midpoint of $6.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income for Q1 2025 was $2,343 million, compared to $1,963 million in Q1 2024.",
+      "quote": "Operating Income 2,343 1,963",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest expense and O&M expenses partially offset results.",
+      "quote": "Higher first-quarter 2025 adjusted results were driven by higher retail sales volumes and implementation of new rates and riders as well as improved weather, partially offset by higher interest expense and O&M expenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs are estimated to impact the 5-year capital plan by 1% to 3%.",
+      "quote": "We currently estimate the impact of tariffs to be about 1% to 3% of our 5-year capital plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Load growth is projected at levels not seen in the CEO's career, driving record infrastructure build.",
+      "quote": "We are projecting load growth at levels I\u2019ve never seen in my 30-year career, which will drive more than a decade of record infrastructure build.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "In April, the company signed letter agreements for nearly 1 gigawatt of data center projects.",
+      "quote": "In April, we signed new letter agreements for nearly 1 gigawatt of data center projects, and advanced manufacturing projects continue to ramp.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Oconee nuclear station received a 20-year license extension.",
+      "quote": "In March, we received approval from the Nuclear Regulatory Commission to extend the operating license for our Oconee nuclear station for an additional 20 years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company formed a strategic partnership with GE Vernova to secure up to 19 natural gas turbines.",
+      "quote": "We recently announced a strategic partnership with GE Vernova to secure up to 19 natural gas turbines.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Storm securitization bonds are expected to be issued in the Carolinas by the end of the year.",
+      "quote": "We also continue to advance Storm Securitization in North and South Carolina, and we\u2019re on track to issue securitization bonds in both states by the end of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The proposed merger of DEC and DEP utilities would create significant customer savings.",
+      "quote": "The proposed merger would create significant customer savings, simplify operations and regulatory processes, and add operational flexibility to our system.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, with strong language about the company's fundamentals.",
+      "quote": "The fundamentals of the company are stronger than ever and provide visibility of growth for years to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.20 reflects genuine momentum but no formal guidance raise; reviewer may consider whether the strong load growth and data center pipeline warrant a higher score despite reaffirmed guidance."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "Operating margin calculated from operating income and total revenues; not explicitly stated as a margin figure in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2025-05-06",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q1/DUK_Q1_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q1/DUK_Q1_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ1_2025",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:04:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q1/DUK_Q1_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q1/DUK_Q1_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 56762,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q1/DUK_Q1_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 36932,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ1_2025.txt"
+  }
+}

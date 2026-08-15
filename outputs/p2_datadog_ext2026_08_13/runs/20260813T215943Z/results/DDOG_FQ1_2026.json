@@ -1,0 +1,183 @@
+{
+  "document_id": "DDOG_FQ1_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The company reported a strong quarter with revenue growth of 32% year-over-year, accelerating from 29% last quarter, and provided guidance for Q2 and full year 2026 that implies continued strong growth (Q2 revenue growth of 29-31% YoY, full year 25-27% YoY). Management expressed high confidence, citing record ARR additions, record new logo bookings, and broad-based strength. Although the guidance was not explicitly raised relative to prior guidance (no prior guidance is provided in the document), the strong momentum and confident language support a positive score. The score is below +0.7 because the guidance was not explicitly raised versus a prior stated figure, and there are some risks mentioned (e.g., macro uncertainties, competition)."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$1,006 million for Q1 2026, up 32% year-over-year.",
+    "eps": "GAAP net income per diluted share was $0.15; non-GAAP net income per diluted share was $0.60.",
+    "guidance": "Q2 2026 revenue between $1.07 billion and $1.08 billion (29-31% YoY growth); non-GAAP operating income between $225 million and $235 million; non-GAAP EPS between $0.57 and $0.59. Full year 2026 revenue between $4.30 billion and $4.34 billion (25-27% YoY growth); non-GAAP operating income between $940 million and $980 million; non-GAAP EPS between $2.36 and $2.44.",
+    "margin": "Non-GAAP gross margin was 80.2% in Q1 2026; non-GAAP operating margin was 22% in Q1 2026; free cash flow margin was 29%.",
+    "key_risks": [
+      "Risks related to rapid growth not being indicative of future growth.",
+      "History of operating losses and limited operating history.",
+      "Dependence on existing customers purchasing additional subscriptions and renewing.",
+      "Ability to attract new customers and expand sales/marketing capabilities.",
+      "Risk of security breach or performance problems.",
+      "Competitive markets and rapidly changing technology.",
+      "Macroeconomic conditions, including trade policies, tariffs, and reduced IT spending."
+    ],
+    "key_opportunities": [
+      "AI adoption as a secular growth driver, with AI-native customer growth outpacing the rest of the business.",
+      "Cloud migration and digital transformation as long-term secular growth drivers.",
+      "Expansion of platform adoption (56% of customers use 4+ products, up from 51% a year ago).",
+      "New product launches (GPU Monitoring, MCP Server, Bits AI Security Agent, Experiments) driving growth.",
+      "FedRAMP High certification enabling federal government business.",
+      "Strategic partnerships (e.g., Sakana AI) and international expansion (e.g., U.K. datacenter)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used language like 'very strong start to 2026,' 'executed very well,' and 'we feel very confident about Q2,' reflecting a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for Q1 2026 was $1,006 million, up 32% year-over-year.",
+      "quote": "Revenue was $1,006 million, an increase of 32% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net income per diluted share was $0.15; non-GAAP net income per diluted share was $0.60.",
+      "quote": "GAAP net income per diluted share was $0.15; non-GAAP net income per diluted share was $0.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 revenue guidance is between $1.07 billion and $1.08 billion, representing 29-31% year-over-year growth.",
+      "quote": "For the second quarter, we expect revenues to be in the range of $1.07 billion to $1.08 billion, which represents a 29% to 31% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2026 revenue guidance is between $4.30 billion and $4.34 billion, representing 25-27% year-over-year growth.",
+      "quote": "For fiscal 2026, we expect revenues to be in the range of $4.3 billion to $4.34 billion, which represents 25% to 27% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP gross margin was 80.2% in Q1 2026.",
+      "quote": "First, Q1 gross profit was $807 million, with a gross margin of 80.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin was 22% in Q1 2026.",
+      "quote": "Q1 operating income was $223 million or a 22% operating margin compared to 24% last quarter, and 22% in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow margin was 29% in Q1 2026.",
+      "quote": "free cash flow was $289 million and free cash flow margin was 29%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the business momentum and forward outlook.",
+      "quote": "We are very pleased with our execution in Q1. We are well positioned to help our existing and prospective customers with their cloud migration, digital transformation, and AI adoption journeys.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI adoption is a key growth driver, with AI-native customer growth outpacing the rest of the business.",
+      "quote": "Meanwhile, our AI native customer growth continues to significantly outpace the rest of the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Platform adoption is increasing, with 56% of customers using 4 or more products.",
+      "quote": "56% of our customers now use four or more products, up from 51% a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FedRAMP High certification was achieved, enabling federal government business.",
+      "quote": "Achieved FedRAMP High certification for Datadog for Government, one of the federal government’s most stringent cloud security and compliance standards—reinforcing Datadog’s commitment to serving highly sensitive federal environments and enabling U.S. government agencies and contractors to adopt modern observability for secure workloads.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risks include macroeconomic conditions and competition.",
+      "quote": "risks associated with changing laws, regulations, and contractual obligations related to data privacy and security and (13) general market, political, economic, and business conditions including concerns about trade policies, tariffs, reduced economic growth and associated decreases in information technology spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was not explicitly raised relative to a prior stated guidance figure; the score relies on the strong momentum and confident language. A reviewer may want to verify if the guidance represents a raise versus prior company guidance not included in this document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DDOG_Bundled Earnings Report_2026-05-07",
+  "report_metadata": {
+    "issuer": "p2_datadog",
+    "company": "Datadog",
+    "ticker": "DDOG",
+    "sector": "Technology/Cloud Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2026-Q1/DDOG_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2026-Q1/DDOG_Q1_2026_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DDOG_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T215943Z",
+    "timestamp": "2026-08-13T22:02:32Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2026-Q1/DDOG_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_datadog_ext2026_08_13/extracted/DDOG_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2026-Q1/DDOG_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 31548,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/datadog/CY2026-Q1/DDOG_Q1_2026_Earnings_Call_Transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 49684,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_datadog_ext2026_08_13/extracted/DDOG_FQ1_2026.txt"
+  }
+}

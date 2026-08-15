@@ -1,0 +1,238 @@
+{
+  "document_id": "HD_FQ1_2026",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The company reported first-quarter results in line with expectations and reaffirmed its full-year fiscal 2026 guidance without any change. Management noted 'greater consumer uncertainty and housing affordability pressure' and that the underlying demand was 'relatively similar' to fiscal 2025, indicating a flat forward outlook. The reaffirmed guidance and cautious language around the external environment keep the sentiment score at neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$41.8 billion for Q1 FY2026, up 4.8% from $39.9 billion in Q1 FY2025. Comparable sales increased 0.6% (U.S. +0.4%).",
+    "eps": "Diluted EPS of $3.30, down 4.3% from $3.45 in Q1 FY2025. Adjusted diluted EPS of $3.43, down 3.7% from $3.56.",
+    "guidance": "Reaffirmed fiscal 2026 guidance: total sales growth ~2.5%-4.5%, comp sales flat to 2.0%, diluted EPS growth flat to 4.0% from $14.23, adjusted diluted EPS growth flat to 4.0% from $14.69, gross margin ~33.1%, operating margin ~12.4%-12.6%, adjusted operating margin ~12.8%-13.0%.",
+    "margin": "Q1 gross margin 33.0%, down ~75 bps YoY. Operating margin 11.9% (down from 12.9%). Adjusted operating margin 12.3% (down from 13.2%).",
+    "key_risks": [
+      "Greater consumer uncertainty and housing affordability pressure",
+      "Larger discretionary projects remain under pressure",
+      "Potential cost pressures from fuel prices and other commodity input costs",
+      "New tariffs introduced, with environment changing almost daily",
+      "Roofing market weakness (28% drop in shipments in Q4 last year) and SRS roofing comps negative",
+      "Higher interest rates and low housing turnover",
+      "Foreign exchange rate impacts (positive 55 bps in Q1, but could reverse)"
+    ],
+    "key_opportunities": [
+      "Pro market opportunity of $700 billion and total addressable market increased to $1.2 trillion with HVAC",
+      "SRS and GMS acquisitions driving growth and cross-selling opportunities",
+      "Mingledorff's acquisition expands HVAC distribution",
+      "Strong online sales growth (over 10% YoY, fourth consecutive quarter of double-digit growth)",
+      "Spring season and outdoor project engagement",
+      "Trade credit and digital tools driving Pro loyalty",
+      "Merchandising Execution Team rollout improving customer service and engagement"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in execution and market share gains ('we feel great about our store readiness, product assortment, and value proposition') but also acknowledged headwinds and uncertainty ('greater consumer uncertainty and housing affordability pressure', 'the environment is changing almost every day')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for Q1 FY2026 was $41.8 billion, up 4.8% from the prior year.",
+      "quote": "The Home Depot®... today reported sales of $41.8 billion for the first quarter of fiscal 2026, an increase of $1.9 billion, or 4.8% from the first quarter of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales increased 0.6% in Q1, with U.S. comps up 0.4%.",
+      "quote": "Comparable sales for the first quarter of fiscal 2026 increased 0.6%, and comparable sales in the U.S. increased 0.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $3.30, down 4.3% from $3.45 in the prior year.",
+      "quote": "Net earnings for the first quarter of fiscal 2026 were $3.3 billion, or $3.30 per diluted share, compared with net earnings of $3.4 billion, or $3.45 per diluted share, in the same period of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $3.43, down 3.7% from $3.56.",
+      "quote": "Adjusted(1) diluted earnings per share for the first quarter of fiscal 2026 were $3.43, compared with adjusted diluted earnings per share of $3.56 in the same period of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 guidance was reaffirmed, including total sales growth of 2.5% to 4.5% and comp sales flat to 2.0%.",
+      "quote": "The company reaffirms its fiscal 2026 guidance: • Total sales growth of approximately 2.5% to 4.5% • Comparable sales growth of approximately flat to 2.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin in Q1 was 33.0%, down 75 basis points year-over-year.",
+      "quote": "In the first quarter, our gross margin was 33 percent, a decrease of approximately 75 basis points from the first quarter of last year, which was in line with our expectations and reflects a change in mix as a result of the GMS acquisition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 11.9% in Q1, down from 12.9%.",
+      "quote": "Our operating margin for the first quarter was 11.9 percent, compared to 12.9 percent in the first quarter of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin was 12.3% in Q1, down from 13.2%.",
+      "quote": "Excluding the intangible asset amortization in the quarter, our adjusted operating margin for the first quarter was 12.3 percent, compared to 13.2 percent in the first quarter of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited greater consumer uncertainty and housing affordability pressure as headwinds.",
+      "quote": "The underlying demand in our business was relatively similar to what we saw throughout fiscal 2025, despite greater consumer uncertainty and housing affordability pressure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Larger discretionary projects remain under pressure.",
+      "quote": "We were pleased with the performance we saw in portable power and patio, however larger discretionary projects remain under pressure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential cost pressures from fuel and commodity input costs, and new tariffs, were noted.",
+      "quote": "Obviously, as we stand today, we could say we could see potential cost pressures building in the form of fuel prices and other commodity input costs. New tariffs have been introduced. But the environment is changing almost every day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Roofing market weakness and SRS roofing comps negative were noted.",
+      "quote": "Comps were slightly negative for SRS in total, driven by low-single-digit negative comps in roofing. ... the roofing market saw a 28% drop in shipments in Q4 of last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest rates and low housing turnover are headwinds.",
+      "quote": "And then you add to that, as you said with the higher rates, housing turnovers remain low. Industry is not expecting a lot of growth in housing turnover this year, and new construction starts and sales are also trending down.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pro market opportunity is $700 billion and total addressable market increased to $1.2 trillion with HVAC.",
+      "quote": "HVAC distribution represents an addressable market of approximately $100 billion and increases our total addressable market to $1.2 trillion. ... As a reminder, Pro represents a $700 billion market opportunity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SRS and GMS acquisitions are driving growth and cross-selling opportunities.",
+      "quote": "We would say this year, we're looking at something like $400 million of cross-sell run rate, so that will come over the course of the year. ... And we would look to double that next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mingledorff's acquisition expands HVAC distribution.",
+      "quote": "Last week we completed the acquisition of Mingledorff’s, a leading wholesale distributor of heating, ventilation and air conditioning equipment, serving residential and commercial customers through 42 locations in five states across the southeastern United States.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Online sales grew over 10% year-over-year, the fourth consecutive quarter of double-digit growth.",
+      "quote": "Turning to total company online comp sales, sales leveraging our digital platforms increased over 10 percent compared to the first quarter of last year. This is the fourth quarter in a row with double digit year over year growth driven by our ongoing investments across our interconnected platforms.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Spring season and outdoor project engagement were strong.",
+      "quote": "In the U.S., our Northern and Western divisions had positive comps, as customers engaged in outdoor projects when weather was favorable. ... We saw great engagement across all of our spring categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trade credit and digital tools are driving Pro loyalty.",
+      "quote": "We're very pleased with the trajectory of Pro Trade Credit so far. After gaining some pretty strong traction in 2025, we saw continued momentum this past quarter. ... Pros absolutely love the fact that it's 30-day payment terms now upon shipment rather than on point-of-sale, which gives them a distinct competitive advantage around working capital.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Merchandising Execution Team rollout is improving customer service and engagement.",
+      "quote": "And absolutely, when we separate tasking from selling, we're seeing productivity on the tasking side, which is excellent for us, but we're also seeing higher levels of engagement. ... in the first 1,000 stores that we roll this out in and we're continually learning, of course, we are seeing higher likelihood to shop again scores and greater engagement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with confidence in execution but acknowledgment of headwinds.",
+      "quote": "We feel great about our store readiness, product assortment, and value proposition. ... despite greater consumer uncertainty and housing affordability pressure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is 0.0 despite reaffirmed guidance and in-line results; verify that the neutral score is appropriate given the cautious language and lack of guidance change."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HD_Bundled Earnings Report_2026-05-19",
+  "report_metadata": {
+    "issuer": "p2_home_depot",
+    "company": "Home Depot",
+    "ticker": "HD",
+    "sector": "Consumer Cyclical/Home Improvement Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2026-Q1/HD_Q1_2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2026-Q1/HD_Q1_2026_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HD_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221302Z",
+    "timestamp": "2026-08-13T22:14:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2026-Q1/HD_Q1_2026_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_home_depot_ext2026_08_13/extracted/HD_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2026-Q1/HD_Q1_2026_Press_Release.pdf",
+        "page_count": 8,
+        "extracted_characters": 16505,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/home_depot/CY2026-Q1/HD_Q1_2026_Earnings_Call_Transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 54651,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_home_depot_ext2026_08_13/extracted/HD_FQ1_2026.txt"
+  }
+}

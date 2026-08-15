@@ -1,0 +1,197 @@
+{
+  "document_id": "DUK_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company reported strong Q3 results with adjusted EPS of $1.81, up over 11% year-over-year, and narrowed its 2025 adjusted EPS guidance range to $6.25-$6.35, reaffirming long-term growth of 5%-7% through 2029. Management expressed high confidence in achieving the top half of the growth range beginning in 2028, citing a robust economic development pipeline and an increased capital plan of $95-$105 billion. While guidance was not raised, the narrowing of the range and the confident forward language about durable growth and top-half performance indicate genuine operational momentum and a positive trajectory."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q3 2025 were $8,542 million, up from $8,154 million in Q3 2024. For the nine months ended September 30, 2025, revenues were $24,299 million, up from $22,997 million in the prior year.",
+    "eps": "Q3 2025 reported and adjusted EPS of $1.81, compared to reported EPS of $1.60 and adjusted EPS of $1.62 in Q3 2024, representing over 11% growth in adjusted EPS.",
+    "guidance": "Narrowed 2025 adjusted EPS guidance range to $6.25 to $6.35, reaffirmed long-term adjusted EPS growth rate of 5% to 7% through 2029 off the 2025 midpoint of $6.30, and expects to earn in the top half of the range beginning in 2028. Expects new 2026-2030 capital plan between $95 and $105 billion.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Higher interest expense",
+      "Milder weather",
+      "Higher depreciation and property taxes on a growing asset base",
+      "Higher O&M expense and depreciation in Gas Utilities and Infrastructure",
+      "Potential inability to recover costs or earn adequate returns through regulatory processes",
+      "Risks related to construction and development of capital projects, including cost overruns and regulatory approvals",
+      "Potential decline in customer usage due to economic downturns, inflation, tariffs, or lower than anticipated load growth from data centers",
+      "Risks related to nuclear decommissioning costs and nuclear operations",
+      "Cybersecurity threats, data security breaches, and operational events",
+      "Changes in commodity prices, interest rates, and credit ratings"
+    ],
+    "key_opportunities": [
+      "Implementation of new rates and riders",
+      "Higher retail sales volumes",
+      "Economic development pipeline with signed electric service agreements, including 3 gigawatts with data centers in 2025",
+      "Over $11 billion of capital commitments from other commercial and industrial customers in 2025",
+      "Increasing capital plan to $95-$105 billion for 2026-2030",
+      "Generation build adding more than 13 gigawatts of capacity in the next 5 years",
+      "Constructive regulatory outcomes and settlements",
+      "Storm cost securitization saving customers up to 18% on bills",
+      "Energy tax credits resulting in hundreds of millions of dollars in annual savings",
+      "Combination of Duke Energy Carolinas and Duke Energy Progress utilities saving customers more than $1 billion through 2038"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in future performance, stating 'we are highly confident in achieving our narrowed EPS guidance range' and 'I am confident we are going to earn in the top half of our 5% to 7% range beginning in 2028.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 reported and adjusted EPS was $1.81, up over 11% from adjusted EPS of $1.62 in Q3 2024.",
+      "quote": "Third-quarter 2025 reported and adjusted EPS of $1.81, representing over 11% growth versus third-quarter 2024... This is compared to reported EPS of $1.60 and adjusted EPS of $1.62 for the third quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company narrowed its 2025 adjusted EPS guidance range to $6.25 to $6.35.",
+      "quote": "The company is narrowing its 2025 adjusted EPS guidance range to $6.25 to $6.35 and reaffirming its long-term adjusted EPS growth rate of 5% to 7% through 2029 off the 2025 midpoint of $6.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed long-term adjusted EPS growth rate of 5% to 7% through 2029.",
+      "quote": "The company is narrowing its 2025 adjusted EPS guidance range to $6.25 to $6.35 and reaffirming its long-term adjusted EPS growth rate of 5% to 7% through 2029 off the 2025 midpoint of $6.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to earn in the top half of the growth range beginning in 2028.",
+      "quote": "With our economic development pipeline continuing to progress and concrete investment plans in place, we are reaffirming our long-term EPS growth rate and have confidence we will earn in the top half of the range beginning in 2028.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects its new 2026-2030 capital plan to be between $95 and $105 billion.",
+      "quote": "Furthermore, as load growth materializes across our jurisdictions, we are expecting our new five-year capital plan to be between $95 and $105 billion when we refresh the plan in February, increasing the largest capital plan in the industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenues for Q3 2025 were $8,542 million, up from $8,154 million in Q3 2024.",
+      "quote": "Total operating revenues 8,542 8,154 24,299 22,997",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher Q3 results were driven by new rates and higher retail sales volumes, partially offset by higher interest expense, milder weather, and higher depreciation and property taxes.",
+      "quote": "Higher third-quarter 2025 adjusted results were driven by the implementation of new rates and riders, along with higher retail sales volumes. These items were partially offset by higher interest expense, milder weather and higher depreciation and property taxes on a growing asset base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company signed approximately 3 gigawatts of electric service agreements with data centers in 2025.",
+      "quote": "These efforts are yielding tangible results with approximately 3 gigawatts of signed electric service agreements with data centers this year alone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Economic development activities yielded over $11 billion of capital commitments from other commercial and industrial customers in 2025.",
+      "quote": "Our economic development activities have yielded over $11 billion of capital commitments from other commercial and industrial customers in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in achieving the narrowed EPS guidance range.",
+      "quote": "With these fourth quarter considerations and year-to-date performance in mind, we are highly confident in achieving our narrowed EPS guidance range of $6.25 to $6.35.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to achieve 14% or higher FFO to debt by year-end.",
+      "quote": "As a result, bills are expected to decrease by approximately $40 a month beginning in March. Across all 3 jurisdictions, the timely recovery process helps maintain credit quality and reinforces our expectation of achieving 14% or higher FFO to debt by year-end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is targeting 15% FFO to debt over the long term.",
+      "quote": "As discussed on the second quarter call, we are targeting 15% FFO to debt over the long term, which provides 200 basis points of cushion above our Moody\u2019s downgrade threshold and 300 basis points above our S&P downgrade threshold.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I am confident we are going to earn in the top half of our 5% to 7% range beginning in 2028. But more importantly, our plan is durable well into the future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 reflects narrowing guidance and confident language, but guidance was not formally raised; the score relies on interpretation of 'narrowing' as a positive signal. A reviewer may consider whether the reaffirmation of long-term growth and top-half confidence justifies a score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2025-11-07",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q3/DUK_Q3_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q3/DUK_Q3_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ3_2025",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:05:28Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q3/DUK_Q3_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q3/DUK_Q3_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 77956,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q3/DUK_Q3_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 42466,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ3_2025.txt"
+  }
+}

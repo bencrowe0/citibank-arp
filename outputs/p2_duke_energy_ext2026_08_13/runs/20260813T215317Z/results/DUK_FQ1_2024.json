@@ -1,0 +1,182 @@
+{
+  "document_id": "DUK_FQ1_2024",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Duke Energy reported a strong first quarter with adjusted EPS of $1.44, up from $1.20 in the prior year, driven by improved weather, rate case impacts, and volume growth. However, management reaffirmed its 2024 adjusted EPS guidance range of $5.85 to $6.10 and long-term growth of 5% to 7%, with no formal raise. The forward outlook is confident, with increased economic development load projections, but the guidance remains unchanged, so the score is modestly positive but not higher."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for Q1 2024 were $7,671 million, compared to $7,276 million in Q1 2023.",
+    "eps": "Reported and adjusted EPS of $1.44 for Q1 2024, compared to reported EPS of $1.01 and adjusted EPS of $1.20 for Q1 2023.",
+    "guidance": "Reaffirming 2024 adjusted EPS guidance range of $5.85 to $6.10, and long-term adjusted EPS growth rate of 5% to 7% through 2028 off the 2024 midpoint of $5.98.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Higher interest expense partially offset results.",
+      "Higher depreciation on a growing asset base.",
+      "EPA rules on baseload generation sources may affect plans; litigation expected.",
+      "Industrial volumes declined 3.4% in Q1, with some plants retooling.",
+      "Supply chain constraints for transformers and generation components.",
+      "Regulatory and legal proceedings, including rate cases and CPCN approvals."
+    ],
+    "key_opportunities": [
+      "Improved weather and favorable rate case impacts.",
+      "Growth from riders and other retail margin.",
+      "Strong customer growth in Carolinas and Florida (2.4% each).",
+      "Economic development pipeline increased to 18,000 GWh of additional load by 2028.",
+      "Fleet transition with solar, natural gas, and nuclear investments.",
+      "Five-year $73 billion capital plan and 10-year $170-180 billion plan."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed confidence in the outlook, stating 'We have a clear path forward that will deliver sustainable value and 5% to 7% earnings growth over the next five years.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "First-quarter 2024 reported and adjusted EPS was $1.44.",
+      "quote": "Duke Energy today announced first-quarter 2024 reported EPS, prepared in accordance with Generally Accepted Accounting Principles (GAAP), and adjusted EPS of $1.44.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First-quarter 2024 adjusted EPS increased from $1.20 in the prior year.",
+      "quote": "This is compared to reported EPS of $1.01 and adjusted EPS of $1.20 for the first quarter of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenues for Q1 2024 were $7,671 million.",
+      "quote": "Total operating revenues 7,671 7,276",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its 2024 adjusted EPS guidance range of $5.85 to $6.10.",
+      "quote": "The company is reaffirming its 2024 adjusted EPS guidance range of $5.85 to $6.10, and long-term adjusted EPS growth rate of 5% to 7% through 2028 off the 2024 midpoint of $5.98.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest expense partially offset results.",
+      "quote": "These items were partially offset by higher interest expense.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher depreciation on a growing asset base was a headwind.",
+      "quote": "Higher quarterly results were primarily due to improved weather, volume growth, favorable rate case impacts along with growth from riders and other retail margin, partially offset by higher depreciation on a growing asset base along with higher interest expense.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPA rules on baseload generation sources may affect plans and litigation is expected.",
+      "quote": "As you know, EPA recently released rules that placed limits on certain baseload generation sources. While the state of this rule will soon be in the hands of the courts, we will continue to advocate for solutions to reliably and affordably serve the growing energy needs of our customers and communities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industrial volumes declined 3.4% in Q1.",
+      "quote": "Industrial 11,449 11,846 (3.4 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain constraints for transformers and generation components exist.",
+      "quote": "We also had transformers last year that was a really hot spot. It's still a tight market, but we now are going through these with the size and scale of Duke Energy and really partnering with OEMs on how we're going to work with them multiple years in a row.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer growth in Carolinas and Florida was 2.4%.",
+      "quote": "Customer growth remains robust in our jurisdictions, led by the Carolinas and Florida, which both grew 2.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Economic development pipeline increased to 18,000 GWh of additional load by 2028.",
+      "quote": "We are gearing up to serve up to 18,000 gigawatt hours of additional load from these projects in 2028. This is up 2,000 gigawatt hours from the projection we just shared in February, demonstrating the strength of our economic development pipeline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We have a clear path forward that will deliver sustainable value and 5% to 7% earnings growth over the next five years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is at the boundary of HOLD/BUY; guidance was reaffirmed, not raised, but strong operational momentum and increased load projections could justify a slightly higher score. Reviewer should confirm the threshold interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2024-05-07",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2024",
+    "report_date": "2024-05-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q1/DUK_Q1_2024_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q1/DUK_Q1_2024_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ1_2024"
+  },
+  "run_meta": {
+    "run_id": "20260813T215317Z",
+    "timestamp": "2026-08-13T21:54:32Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q1/DUK_Q1_2024_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ1_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q1/DUK_Q1_2024_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 57841,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2024-Q1/DUK_Q1_2024_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 69817,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ1_2024.txt"
+  }
+}

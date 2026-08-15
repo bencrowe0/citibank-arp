@@ -1,0 +1,9 @@
+objective,window_idx,train_cutoff,test_start,test_end,fitted_upper,fitted_lower,train_n,train_trades,train_mean_net,train_accuracy,train_n_graded,test_n,test_trades,test_mean_net,test_accuracy,test_n_graded,test_n_correct,degenerate
+mean_net_per_trade,0,2025-09-30,2025-10-01,2025-12-18,0.35,-0.5,138,5,0.0848052,1.0,2,65,10,0.0304391,0.6667,6,4,False
+mean_net_per_trade,1,2025-12-31,2026-01-13,2026-03-19,0.45,-0.5,203,7,0.069514,0.75,4,68,0,0.0,,0,0,True
+mean_net_per_trade,2,2026-03-31,2026-04-13,2026-06-23,0.45,-0.5,271,7,0.069514,0.75,4,50,0,0.0,,0,0,True
+mean_net_per_trade,3,2026-06-30,2026-07-01,2026-08-01,0.45,-0.5,321,7,0.069514,0.75,4,5,0,0.0,,0,0,True
+directional_accuracy,0,2025-09-30,2025-10-01,2025-12-18,0.35,-0.2,138,28,0.0334929,0.8,15,65,14,0.0116302,0.5556,9,5,False
+directional_accuracy,1,2025-12-31,2026-01-13,2026-03-19,0.35,-0.25,203,35,0.0297243,0.7222,18,68,11,0.0200747,0.7143,7,5,False
+directional_accuracy,2,2026-03-31,2026-04-13,2026-06-23,0.35,-0.1,271,70,0.0294749,0.725,40,50,10,0.0325609,0.8571,7,6,False
+directional_accuracy,3,2026-06-30,2026-07-01,2026-08-01,0.45,-0.1,321,63,0.0306656,0.75,36,5,2,-0.023938,0.5,2,1,True

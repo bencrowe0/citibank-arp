@@ -175,6 +175,9 @@ def main() -> None:
         if token_cost is None:
             notes += " | Token Cost unavailable: predates cost_log tracking, not backfillable"
 
+        if doc_id not in company_map:
+            import sys
+            print(f"WARNING: no company name found for ticker {ticker!r}; using ticker as fallback. Add to company map or manifest.", file=sys.stderr)
         out_rows.append({
             "Company": company_map.get(doc_id, ticker),
             "Ticker": ticker,

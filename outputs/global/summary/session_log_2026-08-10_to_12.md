@@ -188,10 +188,14 @@ overnight to 10d"
 **Purpose**: Measure whether the blended score's predictive content is
 concentrated at the overnight horizon or persists across days.
 
-**Finding**: Monotonic decay from overnight to 10 days. Spearman rho
-decays from 0.236 (p=0.0003, overnight) to 0.058 (p=0.380, 10d).
-Bootstrap CI on mean net per trade crosses zero by 3 days. This validates
-the overnight window as the correct primary horizon.
+**Finding**: Monotonic decay on raw direction-signed mean net per trade,
+from overnight to 10 days. Spearman rho decays from 0.236 (p=0.0003,
+overnight) to 0.058 (p=0.380, 10d). Bootstrap CI crosses zero between 3
+and 5 days (3d lower bound +0.029%, 5d lower bound −0.270%). This
+validates the overnight window as the correct primary horizon. Note: the
+excess-over-SPY series in returns_matrix.csv is a separate per-event
+diagnostic and is not monotonic; its non-monotonicity reflects SPY's own
+multi-horizon pattern across those entry dates, not the model signal.
 
 **Output files**: `ext2_holding_curve.csv` (N=233 clean events, 5
 horizons).
@@ -586,8 +590,9 @@ walk-forward outcome). Nine findings survive.
 Spearman rho = 0.236, p = 0.0003, on all 233 clean events (N=233,
 continuous blended score vs continuous overnight return). Decays
 monotonically: 0.159 (1d, p=0.015), 0.112 (3d, p=0.089), 0.072 (5d,
-p=0.276), 0.058 (10d, p=0.380). Bootstrap CI on mean net per trade
-crosses zero by 3 days.
+p=0.276), 0.058 (10d, p=0.380). Bootstrap CI on raw direction-signed
+mean net per trade crosses zero between 3 and 5 days (3d lower +0.029%,
+5d lower −0.270%).
 
 Not threshold-dependent. Uses the continuous score and return, no band or
 BUY/SELL/HOLD split. Corrections did not touch it because it was
@@ -603,11 +608,21 @@ band), vs 54.7% majority-direction floor, margin +10.5pp, p=0.024. MDE =
 HOLD=wrong, 12.2pp below the 54.4% floor.
 
 Threshold-dependent. The HOLD thresholds determine the 95-event
-denominator. Item E outcome: walk-forward refitting degenerates under both
-objectives. Significant in-sample at p=0.024, not verifiable out of
-sample.
+denominator. Item E outcome (updated 2026-08-14): walk-forward threshold
+refitting degenerates, but the two objectives fail for different reasons.
+Mean-net maximisation is structurally degenerate — fits hu=0.45/hl=−0.50
+at N=203, 271, 321 alike and will not become estimable by adding data.
+Directional-accuracy maximisation is sample-limited — degeneracy falls
+from 2/4 to 1/4 windows adding N=233→326, with pooled OOS 68.0% (17/25
+graded), floor 53.4%, gap +14.6pp, mean net +1.79%, 90% CI [+0.12%,
++3.49%]. Underpowered (MDE ≈30pp vs observed gap 14.6pp); directionally
+consistent but not validation. Plausibly estimable at N≈400–500
+(extrapolation from two data points). All 326 events seen before the
+analysis — retrospective, not pre-registered OOS. Significant in-sample
+at p=0.024, not verifiable out of sample at current N.
 
-Source: `surviving_findings.md`, `item_e_walkforward.json`.
+Source: `surviving_findings.md`, `item_e_walkforward.json`,
+`item_e_combined_walkforward.json`.
 
 ### Finding 3: Cross-issuer generalisation (reconstructed)
 

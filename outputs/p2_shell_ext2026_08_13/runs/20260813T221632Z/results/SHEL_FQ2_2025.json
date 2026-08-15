@@ -1,0 +1,239 @@
+{
+  "document_id": "SHEL_FQ2_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports robust cash flows and operational performance but acknowledges a 'less favourable macro environment' and lower Adjusted Earnings sequentially. Forward guidance is largely reaffirmed (cash capex outlook unchanged, buyback program continued) without a formal raise, and management expresses confidence in strategy execution. The tone is confident but the forward outlook is stable rather than upgraded, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed",
+    "eps": "Not disclosed",
+    "guidance": "2025 cash capex outlook unchanged at $20 - 22 billion. LNG sales cumulative annual growth rate ambition of 4 - 5% to 2030. Structural cost reduction target of $5 - 7 billion by end of 2028. Q3 2025 production outlooks: Integrated Gas 910 - 970 kboe/d, Upstream 1,700 - 1,900 kboe/d, Marketing sales volumes 2,600 - 3,100 kb/d, Refinery utilisation 88 - 96%, Chemicals manufacturing plant utilisation 78 - 86%.",
+    "margin": "Indicative refining margin Q2 2025: 8.9 $/bbl (excluding Singapore E&C Park), 7.5 $/bbl if included. Indicative chemical margin Q2 2025: 166 $/t (excluding Singapore E&C Park), 143 $/t if included.",
+    "key_risks": [
+      "Less favourable macro environment with geopolitical and economic uncertainty",
+      "Lower trading and optimisation results in Integrated Gas and Chemicals & Products",
+      "Chemicals impacted by unplanned downtime and continued weak margin environment",
+      "Disconnect between market volatility and supply-demand fundamentals in oil markets",
+      "Forward-looking statements subject to risks including price fluctuations, changes in demand, currency fluctuations, and regulatory developments"
+    ],
+    "key_opportunities": [
+      "First cargo shipped from LNG Canada, strengthening leading LNG position",
+      "Start-up of Mero-4 in Brazil and increased interests in Gato do Mato (Brazil) and Bonga (Nigeria) enhancing deep-water portfolio",
+      "Structural cost reductions of $3.9 billion since 2022, with majority from non-portfolio actions",
+      "Marketing recorded best Q2 results in nearly a decade",
+      "Continued high-grading of Downstream and R&ES portfolio"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO states 'We're confident that our strategy is the right one' and highlights 'momentum building across our organisation to drive performance, discipline and simplification'."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Shell generated robust cash flows in a less favourable macro environment.",
+      "quote": "Shell generated robust cash flows reflecting strong operational performance in a less favourable macro environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted Earnings for Q2 2025 were $4.3 billion.",
+      "quote": "Adjusted Earnings of $4.3 billion despite lower trading contribution in a weaker margin environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash flow from operations was $11.9 billion.",
+      "quote": "Robust CFFO of $11.9 billion, supported by strong operational performance, enables commencement of another $3.5 billion share buyback programme for the next three months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 cash capex outlook unchanged at $20-22 billion.",
+      "quote": "2025 cash capex outlook unchanged at $20 - 22 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural cost reductions since 2022 are $3.9 billion against target of $5-7 billion by 2028.",
+      "quote": "Our continued focus on performance, discipline and simplification helped deliver $3.9 billion of structural cost reductions since 2022, with the majority delivered through non-portfolio actions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First cargo shipped from LNG Canada.",
+      "quote": "First cargo shipped from LNG Canada, strengthening our leading LNG position and supporting our ambition to achieve LNG sales cumulative annual growth rate of 4 - 5% to 2030.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Marketing recorded its best Q2 results in nearly a decade.",
+      "quote": "Marketing on the other hand... recorded its best Q2 results in nearly a decade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemicals & Products faced a challenging quarter with weak margins and unplanned downtime.",
+      "quote": "Chemicals & Products faced another challenging quarter, impacted by continued weak margins and unplanned downtime in Chemicals, and a lower contribution from trading and optimisation which saw oil markets experience a disconnect between market volatility and supply-demand fundamentals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Indicative refining margin for Q2 2025 was 8.9 $/bbl excluding Singapore E&C Park.",
+      "quote": "Indicative refining margin (Updated $/bbl) 6.2 8.9 — Indicative chemical margin (Updated $/t) 126 166 — Q2 2025 indicative margins reflect the divestment of Singapore Energy and Chemicals (E&C) Park.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Indicative chemical margin for Q2 2025 was 166 $/t excluding Singapore E&C Park.",
+      "quote": "Indicative chemical margin (Updated $/t) 126 166 — Q2 2025 indicative margins reflect the divestment of Singapore Energy and Chemicals (E&C) Park.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in strategy.",
+      "quote": "We're confident that our strategy is the right one, and every day I see the momentum building across our organisation to drive performance, discipline and simplification in order to deliver more value with less emissions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 production outlook for Integrated Gas is 910-970 kboe/d.",
+      "quote": "Production (kboe/d) 927 913 910 - 970",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 production outlook for Upstream is 1,700-1,900 kboe/d.",
+      "quote": "Total production (kboe/d) 1,855 1,732 1,700 - 1,900",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 Marketing sales volumes outlook is 2,600-3,100 kb/d.",
+      "quote": "Marketing sales volumes (kb/d) 2,674 2,813 2,600 - 3,100",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 refinery utilisation outlook is 88-96%.",
+      "quote": "Refinery utilisation (%) 85 94 88 - 96",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 chemicals manufacturing plant utilisation outlook is 78-86%.",
+      "quote": "Chemicals manufacturing plant utilisation (%) 81 72 78 - 86",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total shareholder distributions paid over last 4 quarters were 46% of CFFO.",
+      "quote": "Total shareholder distributions paid over the last 4 quarters were 46% of CFFO.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gearing was 19%.",
+      "quote": "Strong balance sheet, with gearing of 19%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net debt excluding leases is $14.3 billion.",
+      "quote": "Net debt excluding leases is $14.3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted Earnings for Q2 2025 were lower than Q1 2025.",
+      "quote": "Adjusted Earnings for the quarter were some 4.3 billion dollars. ... In Q2 we delivered a robust set of results in what was a more challenging macro environment than Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is slightly positive but could be argued as neutral given stable guidance; reviewer may want to confirm the interpretation of 'robust' vs 'challenging' language."
+    },
+    {
+      "field": "summary.revenue",
+      "reason": "Revenue figure not disclosed in the document; only segment earnings and cash flows are provided."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS not disclosed; only income attributable to shareholders is mentioned."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "SHEL_Bundled Earnings Report_2025-08-01",
+  "report_metadata": {
+    "issuer": "p2_shell",
+    "company": "Shell",
+    "ticker": "SHEL",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q2/SHEL_Q2_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q2/SHEL_Q2_2025_Prepared_Remarks.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SHEL_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221632Z",
+    "timestamp": "2026-08-13T22:16:47Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q2/SHEL_Q2_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shell_ext2026_08_13/extracted/SHEL_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q2/SHEL_Q2_2025_Press_Release.pdf",
+        "page_count": 9,
+        "extracted_characters": 18495,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shell/CY2025-Q2/SHEL_Q2_2025_Prepared_Remarks.pdf",
+        "page_count": 4,
+        "extracted_characters": 14196,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shell_ext2026_08_13/extracted/SHEL_FQ2_2025.txt"
+  }
+}

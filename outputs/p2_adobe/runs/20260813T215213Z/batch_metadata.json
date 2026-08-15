@@ -1,0 +1,23 @@
+{
+  "run_id": "20260813T215213Z",
+  "issuer": "p2_adobe",
+  "manifest": "/Users/nigelsim/Desktop/arp-master-4/manifests/p2_adobe_reports.json",
+  "dry_run": true,
+  "skip_extract": false,
+  "consistency_runs": 0,
+  "model": "deepseek-chat",
+  "prompt": "llm_analysis_prompt_template.md",
+  "ensemble": 1,
+  "variant": "",
+  "hold_upper": 0.15,
+  "hold_lower": -0.15,
+  "reports_queued": [
+    "ADBE_FQ3_2025",
+    "ADBE_FQ4_2025",
+    "ADBE_FQ1_2026",
+    "ADBE_FQ2_2026"
+  ],
+  "failures": 0,
+  "first_run_summary_path": "",
+  "consistency_summary_path": ""
+}

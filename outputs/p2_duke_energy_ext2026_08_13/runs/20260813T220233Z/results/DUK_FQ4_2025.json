@@ -1,0 +1,222 @@
+{
+  "document_id": "DUK_FQ4_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Guidance was meaningfully raised: the company extended its 5%-7% long-term EPS growth rate through 2030 (previously through 2029) and increased its five-year capital plan by 18% to $103 billion, driving 9.6% earnings base growth. Management expressed high confidence in earning the top half of the range beginning in 2028, underpinned by signed ESAs with minimum billing requirements. The improvement is organic, driven by load growth and regulatory execution, not one-time items."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenues for 2025 were $32,237 million, up from $30,357 million in 2024 (a 6.2% increase).",
+    "eps": "2025 reported and adjusted EPS of $6.31, compared to reported EPS of $5.71 and adjusted EPS of $5.90 for 2024. Q4 2025 reported and adjusted EPS of $1.50, compared to $1.54 reported and $1.66 adjusted in Q4 2024.",
+    "guidance": "2026 adjusted EPS guidance of $6.55 to $6.80. Long-term adjusted EPS growth rate of 5% to 7% extended through 2030 off the 2025 guidance midpoint of $6.30. Management confident to earn in the top half of the range beginning in 2028.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Higher O&M, interest expense, property taxes and depreciation on a growing asset base partially offset results.",
+      "Affordability concerns for customers and potential regulatory challenges in rate cases.",
+      "Data center load growth may be less than projected, and customers could cancel ESAs despite minimum billing provisions.",
+      "Costs and liabilities related to coal ash remediation, nuclear decommissioning, and severe weather events.",
+      "Financing risks, including equity issuance and credit rating changes.",
+      "Regulatory and legislative initiatives, including climate change and environmental requirements."
+    ],
+    "key_opportunities": [
+      "$103 billion five-year capital plan driving 9.6% earnings base growth through 2030.",
+      "Signed electric service agreements for 4.5 GW of data center load, with a pipeline of ~9 GW.",
+      "Adding approximately 14 GW of incremental capacity over the next five years, including gas, solar, and battery storage.",
+      "Constructive regulatory outcomes, including multiyear rate plans and storm cost recovery mechanisms.",
+      "Potential new nuclear development with early site permit submitted for SMR.",
+      "Strategic transactions (Tennessee sale, Brookfield investment in Florida) to strengthen balance sheet."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly expressed high confidence, e.g., 'I am more confident than ever in our ability to deliver in the top half of the range beginning in 2028' and 'We enter 2026 with incredible momentum.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "2025 reported and adjusted EPS was $6.31, above the guidance midpoint.",
+      "quote": "2025 reported and adjusted EPS of $6.31, closing the year above the guidance midpoint",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 adjusted EPS guidance is $6.55 to $6.80.",
+      "quote": "The company is introducing 2026 adjusted EPS guidance of $6.55 to $6.80",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term EPS growth rate extended through 2030.",
+      "quote": "extending its long-term adjusted EPS growth rate of 5% to 7% through 2030 off the 2025 guidance range midpoint of $6.30",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital plan increased to $103 billion, driving 9.6% earnings base growth.",
+      "quote": "$103 billion five-year capital plan drives 9.6% earnings base growth through 2030",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management confident to earn top half of EPS range beginning in 2028.",
+      "quote": "I am more confident than ever in our ability to deliver in the top half of the range beginning in 2028 as load growth accelerates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenues for 2025 were $32,237 million, up from $30,357 million in 2024.",
+      "quote": "Total operating revenues 32,237 30,357 29,060",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 reported EPS was $1.50, compared to $1.54 in Q4 2024.",
+      "quote": "Duke Energy's fourth-quarter 2025 reported EPS was $1.50, compared to $1.54 for the fourth quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 adjusted EPS was $1.50, compared to $1.66 in Q4 2024.",
+      "quote": "Duke Energy's fourth-quarter 2025 adjusted EPS was $1.50, compared to $1.66 for the fourth quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher full-year results driven by infrastructure investment recovery and growth, partially offset by higher costs.",
+      "quote": "Higher full-year 2025 adjusted results were primarily driven by recovery of growing infrastructure investments to serve customers and growth in our service territories. These items were partially offset by higher O&M, interest expense, property taxes and depreciation on a growing asset base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Signed ESAs for 4.5 GW of data center load, with pipeline of ~9 GW.",
+      "quote": "we signed an additional one and a half gigawatts of electric service agreements with data center customers, including Microsoft and Compass, and now have approximately four and a half gigawatts of data center load secured under ESAs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital plan increased 18% versus prior plan.",
+      "quote": "our $103 billion capital plan is the largest among regulated utilities and represents an increase of 18% versus our prior plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FFO to debt was 14.8% in 2025, forecast ~14% in 2026.",
+      "quote": "we reported 14.8% FFO to debt in 2025. ... We are forecasting 2026 FFO to debt of approximately 14%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We enter 2026 with incredible momentum. The fundamentals of our business have never been stronger",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risks include higher O&M, interest expense, and depreciation.",
+      "quote": "Lower adjusted results for the quarter compared to last year were primarily driven by higher O&M, interest expense, depreciation on a growing asset base, contributions to the Duke Energy Foundation, along with a higher effective tax rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Affordability is a key focus and potential risk.",
+      "quote": "The cost of energy has always been and will remain a key focus for our company. We continue to find new ways to deliver affordable energy for our customers, keeping our rates below the national average and rate changes below inflation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data center load growth may be less than projected.",
+      "quote": "reductions in customer usage patterns, or lower than anticipated load growth, particularly if usage of electricity by data centers is less than currently projected",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Opportunity from new nuclear development.",
+      "quote": "we continue to evaluate the potential for new nuclear, maintaining optionality for future development. In December, we submitted an early site permit for a potential SMR at our Belize Creek site in North Carolina.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Opportunity from strategic transactions to strengthen balance sheet.",
+      "quote": "Brookfield’s minority interest investment in Duke Energy Florida and the sale of our Piedmont, Tennessee business to Spire will further strengthen our credit profile and satisfy our 2026 equity needs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 reflects a meaningful guidance extension and capital plan increase, but the Q4 adjusted EPS declined year-over-year; reviewer should confirm the forward-looking signals outweigh the quarterly decline."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin commentary was provided; only operating income and expense line items were disclosed."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DUK_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_duke_energy",
+    "company": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Utilities/Regulated Electric",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q4/DUK_Q4_2025_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q4/DUK_Q4_2025_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DUK_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T220233Z",
+    "timestamp": "2026-08-13T22:05:43Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q4/DUK_Q4_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q4/DUK_Q4_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 82274,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/duke_energy/CY2025-Q4/DUK_Q4_2025_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 54330,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_duke_energy_ext2026_08_13/extracted/DUK_FQ4_2025.txt"
+  }
+}

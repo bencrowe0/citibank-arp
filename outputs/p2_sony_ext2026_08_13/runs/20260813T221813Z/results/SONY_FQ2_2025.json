@@ -1,0 +1,210 @@
+{
+  "document_id": "SONY_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Sony raised its full-year FY25 operating income forecast by 100 billion yen (from 1,330 to 1,430 billion yen) and net income forecast by 80 billion yen, with management attributing the increase to higher sales in G&NS and Music segments and a decrease in estimated tariff impact. However, the guidance raise is partially offset by a 20 billion yen downward revision in ET&S due to tariffs and a 30 billion yen negative tariff impact on G&NS, and the company acknowledges ongoing uncertainty from U.S. tariff policy. The overall forward signal is positive but tempered by these risks, so the score is moderately bullish."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 FY25 continuing operations sales were 3,107.9 billion yen, up 5% year-on-year (increase of 136.7 billion yen).",
+    "eps": "Q2 FY25 diluted EPS was 51.71 yen, up from 48.04 yen in Q2 FY24 (increase of 3.67 yen).",
+    "guidance": "FY25 continuing operations forecast: sales 12,000 billion yen (up 300 billion yen from August forecast), operating income 1,430 billion yen (up 100 billion yen), income before income taxes 1,460 billion yen (up 110 billion yen), net income attributable to stockholders 1,050 billion yen (up 80 billion yen).",
+    "margin": "Q2 FY25 operating income margin for continuing operations was 13.8%, up 0.7 points year-on-year. FY25 forecast operating income margin is 11.9%.",
+    "key_risks": [
+      "Estimated tariff impact on FY25 operating income of -20 to -50 billion yen, with actual impact potentially varying significantly.",
+      "Impairment losses on Bungie's Destiny 2 assets (31.5 billion yen) and correction of capitalized development costs (18.3 billion yen) in G&NS.",
+      "ET&S segment downward revision of 20 billion yen due to tariff impact.",
+      "Potential additional impairment risk on Bungie's remaining fixed assets if Marathon or Destiny 2 underperform.",
+      "Uncertainty in supply chain due to tariffs and production location changes affecting I&SS.",
+      "Rising memory prices could impact hardware profitability in the future.",
+      "Slower demand in China and U.S. imaging markets due to reduced subsidies and tariffs."
+    ],
+    "key_opportunities": [
+      "Increase in network services revenue and software sales in G&NS, with expectation of continued growth in 2H FY25.",
+      "Music segment growth driven by Demon Slayer: Kimetsu no Yaiba Infinity Castle and streaming revenue growth.",
+      "I&SS segment sales increase due to higher unit prices and shipment volume for mobile image sensors.",
+      "PS5 install base expansion targeting over 90 million units by start of next fiscal year.",
+      "Upcoming release of Marvel's Wolverine and potential Marathon live-service revenue in next fiscal year."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management raised full-year guidance and expressed confidence in continued growth, e.g., 'Software and network services sales are steadily growing, and we expect this trend to continue in 2H FY25.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 FY25 continuing operations sales were 3,107.9 billion yen, up 5% year-on-year.",
+      "quote": "Q2 FY2025 Results for Continuing Operations *1 ChangeQ2 FY25Q2 FY24(Bln Yen) +136.7 （+5%）3,107.92,971.2Sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY25 diluted EPS was 51.71 yen, up from 48.04 yen.",
+      "quote": "+3.67 yen51.71 yen48.04 yenNet income attributable to Sony Group Corporation’s stockholders per share of common stock (diluted)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY25 operating income forecast was raised by 100 billion yen to 1,430 billion yen.",
+      "quote": "FY25 FCT*1 FY24 (Bln Yen) Change from AugustNovemberAugust +100 （+8%）1,4301,3301,276.6Operating income",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY25 net income forecast was raised by 80 billion yen to 1,050 billion yen.",
+      "quote": "+80 （+8%）1,0509701,067.4Net income attributable to Sony Group Corporation's stockholders",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY25 operating income margin was 13.8%, up 0.7 points year-on-year.",
+      "quote": "+0.7 pts13.8%13.1%Operating income margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Estimated tariff impact on FY25 operating income is -20 to -50 billion yen.",
+      "quote": "The estimated impact of the additional U.S. tariffs on operating income for continuing operations is expected to decrease 20 billion yen from the previous forecast to 50 billion yen, and the projected impact has been reflected in the forecast for each business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "G&NS segment recorded impairment losses on Bungie's Destiny 2 assets of 31.5 billion yen.",
+      "quote": "·(ー) Recording of impairment losses against a portion of Bungie, Inc.’s intangible and other assets in connection withDestiny 2(31.5 bln yen)*",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ET&S segment forecast was revised down by 20 billion yen due to tariffs.",
+      "quote": "OI: 20 bln yen (11%) downward revision (Estimated tariff impact: -20 bln yen) ·(ー) Impact of tariffs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential additional impairment risk on Bungie's remaining fixed assets if Marathon or Destiny 2 underperform.",
+      "quote": "The remaining balance of fixed assets is still notable, and if the upcoming release of Marathon or the performance of Destiny 2 underperforms our current projections, theoretically, additional impairment risk remains.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "I&SS segment sales increased due to higher unit prices and shipment volume for mobile image sensors.",
+      "quote": "Sales of image sensors for mobile products increased significantly during Q2 FY25 year-on-year due to higher unit prices resulting from larger sensors being used in new products by our major customer and higher shipment volume than our previous forecast.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PS5 install base targeting over 90 million units by start of next fiscal year.",
+      "quote": "We intend to drive further expansion of the install base of PS5 during the year-end selling season, targeting over 90 million units by the start of the next fiscal year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Upcoming release of Marvel's Wolverine and potential Marathon live-service revenue in next fiscal year.",
+      "quote": "As for upside factors in the next fiscal year, alongside the scheduled release of a tentpole title, Marvel’s Wolverine, by Insomniac Games as a first-party title, if Marathon launches during this fiscal year, its live-service model will enable revenue generation in the next fiscal year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in continued growth in network services and software sales.",
+      "quote": "Software and network services sales are steadily growing, and we expect this trend to continue in 2H FY25.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rising memory prices could impact hardware profitability in the future.",
+      "quote": "Since rising component prices may impact hardware profitability, we are monitoring market trends carefully.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Slower demand in China and U.S. imaging markets due to reduced subsidies and tariffs.",
+      "quote": "In the imaging market, demand has slowed in two regions: China, where government subsidies that lasted through Q1 FY25 significantly declined, and the U.S., primarily due to the impact of additional tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise is partially offset by tariff risks and non-recurring items; score of 0.30 is a judgment call within the 0.15-0.5 range."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance figures are for continuing operations only; consolidated including discontinued operation may differ."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SONY_Bundled Earnings Report_2025-11-01",
+  "report_metadata": {
+    "issuer": "p2_sony",
+    "company": "Sony",
+    "ticker": "SONY",
+    "sector": "Technology/Consumer Electronics",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-11-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q2/SONY_Q2_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q2/SONY_Q2_2025_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SONY_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260813T221813Z",
+    "timestamp": "2026-08-13T22:18:27Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q2/SONY_Q2_2025_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_sony_ext2026_08_13/extracted/SONY_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q2/SONY_Q2_2025_Press_Release.pdf",
+        "page_count": 15,
+        "extracted_characters": 26431,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/sony/CY2025-Q2/SONY_Q2_2025_Earnings_Call_Transcript.pdf",
+        "page_count": 5,
+        "extracted_characters": 10394,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_sony_ext2026_08_13/extracted/SONY_FQ2_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

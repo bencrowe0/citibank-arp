@@ -1,0 +1,203 @@
+{
+  "document_id": "HEINY_FQ3_2024",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The company reported a solid quarter with organic net revenue growth of 3.3% and beer volume growth of 0.7%, but full-year guidance was only reaffirmed, not raised. Management language is confident but hedged, noting 'some markets navigating challenging consumer and industry trends' and a 'subdued consumer environment' in Europe. The forward outlook is unchanged, so the score is neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none \u2014 HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue \u20ac9,072 million for the quarter, \u20ac26,895 million year to date. Net revenue (beia) organic growth 3.3% for the quarter, 5.1% year to date.",
+    "eps": "Not disclosed",
+    "guidance": "2024 full year expectations of 4% to 8% operating profit (beia) organic growth confirmed and reiterated.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Currency translation reduced net revenue (beia) by \u20ac471 million in the quarter, mainly from devaluation of Nigerian Naira, Mexican Peso, Brazilian Real, and Ethiopian Birr.",
+      "Subdued consumer environment in Europe, with on-premise channel declines.",
+      "Softer industry trends in Mexico and USA.",
+      "Strong beer market decline in Cambodia.",
+      "Persisting security issues in Haiti leading to volume decline.",
+      "Inflation-led pricing to compensate for currency devaluations in Africa & Middle East.",
+      "Calculated negative translational impact for full year of approximately \u20ac1,570 million in net revenue (beia)."
+    ],
+    "key_opportunities": [
+      "Premium beer volume organic growth 4.5% for the quarter, led by Heineken\u00ae up 8.7%.",
+      "Non-alcoholic beer & cider grew 11.0%.",
+      "Heineken\u00ae Silver grew in the high-twenties, with strong growth in China and Vietnam.",
+      "eB2B platforms captured \u20ac9.3 billion in gross merchandise value year to date, up 26% organically.",
+      "Growth in Europe and Africa & Middle East more than compensating for declines in Americas and Asia Pacific.",
+      "Nigeria: organic net revenue (beia) grew in the seventies, with beer volume up high-twenties.",
+      "South Africa: beer volume grew low-twenties, with multi-category growth.",
+      "India: premium volume grew in the thirties, led by Heineken\u00ae Silver and Kingfisher Ultra."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO stated 'We delivered a solid quarter of balanced growth' and 'We confirm and reiterate our full year outlook... reflecting our confidence in delivery and commitment to invest behind growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for the quarter was \u20ac9,072 million and year-to-date \u20ac26,895 million.",
+      "quote": "Revenue \u20ac9,072 million for the quarter, \u20ac26,895 million year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net revenue (beia) organic growth was 3.3% for the quarter and 5.1% year to date.",
+      "quote": "Net revenue (beia) organic growth 3.3% for the quarter, 5.1% year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance for operating profit (beia) organic growth of 4% to 8% was confirmed and reiterated.",
+      "quote": "2024 full year expectations of 4% to 8% operating profit (beia) organic growth confirmed and reiterated",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency translation reduced net revenue (beia) by \u20ac471 million in the quarter.",
+      "quote": "Currency translation reduced net revenue (beia) by \u20ac471 million (YTD: \u20ac1,097 million), mainly from the devaluation of the Nigerian Naira, Mexican Peso, Brazilian Real, and Ethiopian Birr.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe is experiencing a subdued consumer environment.",
+      "quote": "In a subdued consumer environment, we are restoring our competitiveness by increasing investment behind our brands and balancing moderate pricing with consumer affordability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mexico and USA are experiencing softer industry trends.",
+      "quote": "Growth in Brazil partly offset declines in Mexico and the USA, markets which are experiencing softer industry trends.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cambodia experienced a strong beer market decline.",
+      "quote": "Despite encouraging progress in our largest markets, the quarter was impacted by a strong beer market decline in Cambodia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Haiti volume declined due to persisting security issues.",
+      "quote": "In Haiti volume declined in the mid-teens due to persisting security issues.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium beer volume grew 4.5% in the quarter.",
+      "quote": "Premium beer volume organic growth 4.5% for the quarter, 4.9% year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Heineken\u00ae volume grew 8.7% in the quarter.",
+      "quote": "Heineken\u00ae volume growth 8.7% for the quarter, 9.0% year to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-alcoholic beer & cider grew 11.0%.",
+      "quote": "Non-alcoholic beer & cider grew 11.0% as we further reinforced global leadership in the segment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "eB2B platforms captured \u20ac9.3 billion in gross merchandise value year to date, up 26% organically.",
+      "quote": "In our business-to-business digital (eB2B) platforms, we captured \u20ac9.3 billion in gross merchandise value year to date, an organic increase of 26% versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nigeria saw strong growth with organic net revenue (beia) growing in the seventies.",
+      "quote": "In Nigeria, organic net revenue (beia) grew in the seventies, delivering consolidated volume growth in the high-teens with pricing to mitigate significant inflation and the devaluation of the Nigerian Naira.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "South Africa beer volume grew low-twenties.",
+      "quote": "Beer volume grew in the low-twenties, led by Heineken\u00ae, Windhoek, and Amstel and we built momentum behind our multi-category business model delivering growth in all categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "India premium volume grew in the thirties.",
+      "quote": "Premium volume grew in the thirties, led by Heineken\u00ae Silver, Kingfisher Ultra, and Kingfisher Ultra Max.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered a solid quarter of balanced growth... We confirm and reiterate our full year outlook to grow operating profit (beia) organically in the range of 4% to 8%, reflecting our confidence in delivery and commitment to invest behind growth and to future-proof our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Calculated negative translational impact for full year is approximately \u20ac1,570 million in net revenue (beia).",
+      "quote": "Based on the impact to date, and applying spot rates of 21 October 2024 to the 2023 financial results as a baseline for the remainder of the year, the calculated negative translational impact for the full year would be approximately \u20ac1,570 million in net revenue (beia), \u20ac220 million at consolidated operating profit (beia), and \u20ac50 million at net profit (beia).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was reaffirmed, not raised, and there are mixed regional trends; score of 0.0 reflects neutral forward expectations, but reviewer may consider whether the reaffirmation plus strong premium growth warrants a slightly positive score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "HEIA.AS_Bundled Earnings Report_2024-10-01",
+  "report_metadata": {
+    "issuer": "p2_heineken",
+    "company": "Heineken",
+    "ticker": "HEIA.AS",
+    "sector": "Consumer Defensive/Beverages",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-10-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2024-Q3/HEINY_Q3_2024_Press_Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HEINY_FQ3_2024",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T221107Z",
+    "timestamp": "2026-08-13T22:11:52Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2024-Q3/HEINY_Q3_2024_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_heineken_ext2026_08_13/extracted/HEINY_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/heineken/CY2024-Q3/HEINY_Q3_2024_Press_Release.pdf",
+        "page_count": 9,
+        "extracted_characters": 31053,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_heineken_ext2026_08_13/extracted/HEINY_FQ3_2024.txt"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "document_id": "COST_FQ3_2026",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "Costco reported strong Q3 results with net sales up 11.6% and EPS up 15%, but the company did not raise formal guidance; management reaffirmed its outlook with confident language about market share gains and growth opportunities. The quarter benefited from gas price inflation and FX, which contributed to the top-line beat, but core-on-core margins were down 9 basis points due to deliberate price investments. The forward tone is optimistic but hedged with macro uncertainties, so the score reflects genuine momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales for Q3 2026 were $69.15 billion, up 11.6% from $61.96 billion in Q3 2025. Total revenue including membership fees was $70.53 billion.",
+    "eps": "Diluted EPS for Q3 2026 was $4.93, up 15% from $4.28 in Q3 2025.",
+    "guidance": "No formal guidance provided. Management expects 26 net new warehouse openings in fiscal 2026 (down from 28 previously) and CapEx of approximately $6.5 billion for the full year. They anticipate continued market share growth and see AI search as a significant opportunity.",
+    "margin": "Gross margin rate was 11.04% in Q3 2026, down 21 basis points year-over-year. Excluding gas inflation, gross margin was up 1 basis point. Core-on-core margins were down 9 basis points. SG&A rate improved 20 basis points to 8.96%.",
+    "key_risks": [
+      "Ongoing macro uncertainty including tariffs and geopolitical conflicts (Middle East events impacting gas prices).",
+      "Higher gas prices and potential inflationary impacts on non-food categories (e.g., resin costs).",
+      "Downward pressure on renewal rates from digital member mix, though offset in Q3.",
+      "Litigation regarding tariff refund return process.",
+      "Potential future inflation in non-food categories due to higher resin costs.",
+      "Healthcare cost increases impacting SG&A.",
+      "Lower warehouse openings in fiscal 2026 (26 vs 28 previously)."
+    ],
+    "key_opportunities": [
+      "Record gas volumes and increased member loyalty from gas engagement.",
+      "Executive membership growth (up 9.6% to 41.2 million) and strong adoption in China.",
+      "Digital and e-commerce growth (digitally-enabled comps up 21.5%, site/app traffic up 37%).",
+      "AI search traffic growing triple-digit with highest conversion rate.",
+      "Retail media expansion with Google Commerce Media and YouTube.",
+      "Same-day delivery expansion in Spain and France with high satisfaction.",
+      "New Kirkland Signature product launches driving value and sales.",
+      "International expansion opportunities in Canada, Asia, and Europe."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in the business momentum, citing record gas volumes, strong membership growth, and AI opportunities, while acknowledging macro uncertainties and investing in value for members."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales for Q3 2026 increased 11.6% to $69.15 billion.",
+      "quote": "Net sales for the quarter increased 11.6 percent, to $69.15 billion, from $61.96 billion last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS for Q3 2026 was $4.93, up 15% from $4.28.",
+      "quote": "Net income for the quarter was $2.19 billion, $4.93 per diluted share, compared to $1.90 billion, $4.28 per diluted share, last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin rate was 11.04%, down 21 basis points year-over-year.",
+      "quote": "Turning to gross margin, our reported rate was lower year-over-year by 21 basis points, coming in at 11.04% compared to 11.25% last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core-on-core margins were down 9 basis points.",
+      "quote": "In terms of core margins on their own sales, our core-on-core margins were lower by nine basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SG&A rate improved 20 basis points to 8.96%.",
+      "quote": "Our reported SG&A rate was lower or better year-over-year by 20 basis points, coming in at 8.96% compared to last year's 9.16%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects 26 net new warehouse openings in fiscal 2026, down from 28 previously.",
+      "quote": "We currently expect to have 26 net new openings in fiscal year 2026, down two buildings from the prior call, with those two buildings now set to open in fiscal year 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CapEx for the full year is estimated at approximately $6.5 billion.",
+      "quote": "We estimate CapEx for the full year will be approximately $6.5 billion as we continue to invest in building a larger pipeline of new warehouses...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gas price inflation positively impacted sales by approximately 2.2%.",
+      "quote": "In terms of Q3 comp sales metrics, FX positively impacted sales by approximately 1%, while gas price inflation positively impacted sales by approximately 2.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Executive membership grew 9.6% to 41.2 million.",
+      "quote": "At Q3 end, we had 41.2 million paid executive memberships, up 9.6% versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digitally-enabled comparable sales were up 21.5%.",
+      "quote": "Digitally enabled comparable sales were up 21.5% and 20.8% adjusting for FX.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI search traffic grew triple-digit and had the highest conversion rate.",
+      "quote": "While the volume of traffic generated from AI search is still low, we saw triple-digit growth in Q3, and this activity had the highest conversion rate of all traffic coming to our site.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Retail media launched a collaboration with Google Commerce Media and YouTube.",
+      "quote": "Q3 marked the launch of a new collaboration with Google Commerce Media and YouTube.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day delivery services rolled out in Spain and France.",
+      "quote": "We also recently rolled out same-day delivery services in Spain and France.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about the business despite macro uncertainties.",
+      "quote": "Against the backdrop of ongoing macro uncertainty, our focus is providing quality goods and services at the lowest possible price continues to resonate strongly with our members.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff refund claims have been submitted and refunds are expected on a rolling basis.",
+      "quote": "On the topic of tariffs, we've started submitting our refund claims for the IEEPA tariffs. We are doing this through the process set up by the U.S. Customs and Border Protection. These submissions will go in over what may be the next few months. Based on what other claimants have experienced, we should start receiving refunds on approved claims on a rolling basis over the following two to three months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Healthcare costs were a headwind to SG&A.",
+      "quote": "The operations component of SG&A was lower or better by 12 basis points, but worse or higher by 3 basis points, excluding the impact of gas inflation, as underlying improvements in productivity were offset by higher healthcare costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Renewal rate for U.S. and Canada was 92.2%, up 10 basis points from last quarter.",
+      "quote": "In terms of renewal rates at Q3 end, our U.S. and Canada renewal rate was 92.2%, up 10 basis points from last quarter, and the worldwide rate came in at 89.7%, unchanged from last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Membership fee income increased 10.7% to $1.373 billion.",
+      "quote": "We reported membership fee income of $1.373 billion, an increase of $133 million or 10.7% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total paid members were 82.9 million, up 4.1%.",
+      "quote": "We ended the quarter with 82.9 million total paid members, up 4.1% versus last year, and 148.5 million cardholders up 4% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gas volumes set record highs.",
+      "quote": "All three four-week fiscal periods of the quarter set successive all-time company volume sales records, with the final five weeks of the quarter becoming our top five volume weeks ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.20 is based on momentum without formal guidance raise; verify that the absence of guidance raise and the down-revision of warehouse openings are appropriately weighted."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "No formal guidance provided; the summary includes operational expectations (warehouse openings, CapEx) which are not formal guidance but are forward-looking."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "COST_Bundled Earnings Report_2026-05-28",
+  "report_metadata": {
+    "issuer": "p2_costco",
+    "company": "Costco",
+    "ticker": "COST",
+    "sector": "Consumer Defensive/Discount Stores",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-05-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q3/COST_Q3_2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q3/COST_Q3_2026_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COST_FQ3_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221957Z",
+    "timestamp": "2026-08-13T22:20:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q3/COST_Q3_2026_Press_Release.pdf",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ3_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q3/COST_Q3_2026_Press_Release.pdf",
+        "page_count": 4,
+        "extracted_characters": 8325,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/costco/CY2026-Q3/COST_Q3_2026_Earnings_Call_Transcript.pdf",
+        "page_count": 3,
+        "extracted_characters": 63342,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_costco_ext2026_08_13/extracted/COST_FQ3_2026.txt"
+  }
+}

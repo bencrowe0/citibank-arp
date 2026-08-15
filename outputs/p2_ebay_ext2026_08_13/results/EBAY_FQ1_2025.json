@@ -1,0 +1,176 @@
+{
+  "document_id": "EBAY_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported a modest beat on EPS and revenue growth, but forward guidance for Q2 2025 was essentially in line with prior trends, with FX-neutral growth of 1-2% for both revenue and GMV. Management expressed confidence in the business momentum, but the guidance was not raised materially, and the company noted a dynamic demand environment. The score reflects genuine operational momentum (fourth consecutive quarter of positive GMV growth) but no formal guidance raise, so it sits at the lower end of the positive range."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$2.6 billion, up 1% on an as-reported basis and up 2% on an FX-Neutral basis",
+    "eps": "GAAP EPS of $1.06, Non-GAAP EPS of $1.38, up 25% and 10% respectively year-over-year",
+    "guidance": "Q2 2025: Revenue $2.59-$2.66 billion, FX-Neutral Y/Y growth 1%-2%; GMV $18.6-$19.1 billion, FX-Neutral Y/Y growth 1%-2%; Diluted GAAP EPS $0.87-$0.94; Diluted Non-GAAP EPS $1.24-$1.31",
+    "margin": "GAAP operating margin decreased to 23.8% from 24.7%; Non-GAAP operating margin decreased to 29.8% from 30.3%",
+    "key_risks": [
+      "Geopolitical events, tariffs and global trade policy",
+      "Foreign currency volatility",
+      "Inflationary pressure",
+      "Elevated interest rates",
+      "Ongoing wars in Ukraine and in the Middle East",
+      "Potential changes in tariffs or sanctions and escalating trade wars",
+      "Reliance on third-party providers",
+      "Security breaches, cyberattacks or system failures",
+      "Current and potential litigation and regulatory and government inquiries"
+    ],
+    "key_opportunities": [
+      "AI-powered listing flow rolled out to C2C customers in U.S., U.K., Germany",
+      "Expanded Authenticity Guarantee to watches and jewelry in Japan",
+      "Streamlined PSA grading process for trading cards",
+      "Launched 'Evolving Shop' for Pok\u00e9mon Day",
+      "Acquired Caramel for end-to-end online automotive transactions",
+      "Introduced buyer protection fee with enhanced customer safeguards in U.K.",
+      "Collaboration with OpenAI on AI agent Operator",
+      "Partnership with Meta to integrate eBay listings on Facebook Marketplace",
+      "Advertising revenue growth: first-party advertising up 13% as-reported, 14% FX-Neutral"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jamie Iannone stated, 'eBay's first quarter results were ahead of expectations, as we delivered our fourth consecutive quarter of positive GMV growth,' and CFO Steve Priest said, 'We exceeded our quarterly financial metrics and continue to invest for the long-term health of our marketplace.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $2.6 billion, up 1% as-reported and 2% FX-Neutral.",
+      "quote": "Revenue of $2.6 billion, up 1% on an as-reported basis and up 2% on an FX-Neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $1.06, up 25% year-over-year.",
+      "quote": "GAAP and Non-GAAP earnings per diluted share of $1.06 and $1.38, respectively",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $1.38, up 10% year-over-year.",
+      "quote": "Non-GAAP \u2013 Continuing Operations Earnings per diluted share $1.38 $1.25 $0.13 10 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 guidance implies FX-neutral growth of 1-2% for revenue and GMV.",
+      "quote": "Q2 2025 Guidance Revenue $2.59 - $2.66 FX-Neutral Y/Y Growth (1)% - 2% Gross Merchandise Volume $18.6 - $19.1 FX-Neutral Y/Y Growth (1)% - 2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin decreased to 23.8% from 24.7%.",
+      "quote": "GAAP operating margin decreased to 23.8% for the first quarter of 2025, compared to 24.7% for the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin decreased to 29.8% from 30.3%.",
+      "quote": "Non-GAAP operating margin decreased to 29.8% for the first quarter of 2025, compared to 30.3% for the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company returned $759 million to stockholders in Q1.",
+      "quote": "Returned $759 million to stockholders in Q1, including $625 million of share repurchases and $134 million paid in cash dividends",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company generated $787 million of operating cash flow and $644 million of free cash flow.",
+      "quote": "Generated $787 million of operating cash flow and $644 million of free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the business momentum.",
+      "quote": "eBay's first quarter results were ahead of expectations, as we delivered our fourth consecutive quarter of positive GMV growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from geopolitical events, tariffs, and foreign currency volatility.",
+      "quote": "the effects of geopolitical events, tariffs and global trade policy, foreign currency volatility, and inflationary pressure on our business and operations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is investing in AI and partnerships to drive growth.",
+      "quote": "eBay announced a collaboration with OpenAI on its AI agent, Operator, which acts as a virtual assistant, autonomously performing tasks, including online shopping, connecting users to eBay's unique inventory and expanding seller reach.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue grew 13% as-reported and 14% FX-Neutral.",
+      "quote": "First-party advertising products on the eBay platform delivered $418 million of revenue in the first quarter, up 13% on an as-reported basis and up 14% on an FX-Neutral basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is at the boundary of the BUY threshold; guidance was not raised, only reaffirmed with modest growth, so the positive score relies on operational momentum rather than a formal guidance raise. Human review recommended to confirm the interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "EBAY_Bundled Earnings Report_2025-04-30",
+  "report_metadata": {
+    "issuer": "p2_ebay",
+    "company": "eBay",
+    "ticker": "EBAY",
+    "sector": "Technology/E-Commerce",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q1/EBAY_Q1_2025_Press_Release.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "EBAY_FQ1_2025",
+    "release_timing": "after_hours"
+  },
+  "run_meta": {
+    "run_id": "20260813T220558Z",
+    "timestamp": "2026-08-13T22:06:32Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q1/EBAY_Q1_2025_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_ebay_ext2026_08_13/extracted/EBAY_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/ebay/CY2025-Q1/EBAY_Q1_2025_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 34847,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_ebay_ext2026_08_13/extracted/EBAY_FQ1_2025.txt"
+  }
+}

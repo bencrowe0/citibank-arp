@@ -1,0 +1,234 @@
+{
+  "document_id": "SHOP_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered strong Q1 results (34% revenue growth, $101B GMV) and provided Q2 guidance for high-20s revenue growth and mid-teens free cash flow margins, which represents a continuation of strong momentum rather than a formal raise above prior guidance. The document shows genuine operational inflection with broad-based growth across geographies, merchant sizes, and channels, plus accelerating AI adoption metrics (Sidekick weekly active shops up 385%, AI-driven orders up nearly 13x), supporting a positive but not strongly positive score. Forward guidance was held at a high level (high-20s revenue growth, mid-teens FCF margin) with confident management language, but no explicit raise above prior guidance was stated, and the company noted FX tailwinds of ~2 points in Q1 that will diminish to ~0.5 point in Q2, which tempers the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$3.2 billion for Q1 2026, up 34% year-over-year (32% on a constant currency basis).",
+    "eps": "Not disclosed",
+    "guidance": "Q2 2026: revenue growth expected in the high-twenties percentage rate year-over-year; gross profit dollars to grow at a mid-twenties percentage rate; operating expenses as a percentage of revenue to be 35% to 36%; stock-based compensation to be $145 million; free cash flow margin to be in the mid-teens.",
+    "margin": "Q1 2026 free cash flow margin was 15% of revenue. Gross profit grew 32% year-over-year. Operating expenses were 37% of revenue, a 4-point improvement from Q1 last year. Subscription Solutions gross margin was 80%, in line with Q1 2025. Merchant Solutions gross margin was 39%, essentially flat year-over-year.",
+    "key_risks": [
+      "Transaction and loan losses came in at 3.7% of revenue, up from 3.2% in Q1 2025, with credit losses primarily responsible for the increase.",
+      "Increased LLM costs driven by growing merchant usage of AI products, most notably Sidekick, partially offset economies of scale and efficiencies in support.",
+      "Q2 revenue guidance assumes approximately 0.5 point of FX tailwinds versus the more than 2 points of FX tailwinds seen in Q1.",
+      "Forward-looking statements note risks including changes in economic conditions and consumer spending, tariffs, adoption of emerging technologies like AI, reliance on third-party providers, cyberattacks, and software defects."
+    ],
+    "key_opportunities": [
+      "International GMV growth of 45% with cross-border GMV representing 16% of total; European GMV up 48% (35% constant currency).",
+      "B2B GMV grew 80% in Q1 with broad growth across new and established merchants.",
+      "Offline GMV rose 33%, with merchants operating more than 20 stores growing 50% year-over-year.",
+      "AI-driven traffic to Shopify stores grew 8x year-over-year, and orders from AI-powered searches increased nearly 13x.",
+      "Shopify Payments processed $67 billion of GMV, up 41%, reaching 67% penetration.",
+      "Shop Pay GMV processed $35 billion, up 59%, with international Shop Pay GMV growing over 70%.",
+      "Enterprise growth: merchants doing over $100 million in annual GMV have nearly doubled in two years.",
+      "Universal Commerce Protocol (UCP) co-developed with Google, with Amazon, Meta, Microsoft, Salesforce, and Stripe joining the council."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly confident language throughout, with Harley Finkelstein stating 'This is Shopify at its best' and describing the company as being in 'a category of one' with a 'compounding advantage.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2026 revenue was $3.2 billion, up 34% year-over-year.",
+      "quote": "Our revenue was $3.2 billion for the quarter, that is up 34%. And our free cash flow was $476 million, delivering a 15% free cash flow margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 GMV was $101 billion, up 35% year-over-year.",
+      "quote": "Q1 GMV was $101 billion, that is up 35%. I'll say that again, Q1 GMV was $101 billion. That is the second consecutive quarter our merchants have done over $100 billion in sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 guidance expects revenue growth in the high-twenties percentage rate year-over-year.",
+      "quote": "We expect Q2 revenue growth in the high 20s year-over-year. The expected sources of growth are consistent with the drivers that we saw in Q1 with the one key difference being that our Q2 revenue guidance assumes approximately 0.5 point of FX tailwinds versus the more than 2 points of FX tailwinds that we saw in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 guidance expects free cash flow margins in the mid-teens.",
+      "quote": "Turning to free cash flow. For Q2, we expect free cash flow margins in the mid-teens.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 free cash flow margin was 15% of revenue.",
+      "quote": "Q1 free cash flow was $476 million or 15% of revenue, in line with our outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross profit grew 32% year-over-year in Q1 2026.",
+      "quote": "Q1 gross profit grew 32%, coming in slightly ahead of our expectations, driven by the outperformance in revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating expenses were 37% of revenue, a 4-point improvement from Q1 last year.",
+      "quote": "Operating expenses were $1.2 billion for the first quarter or 37% of revenue, a 4-point improvement from Q1 last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Transaction and loan losses increased to 3.7% of revenue from 3.2% in Q1 2025.",
+      "quote": "Transaction and loan losses came in at 3.7% of revenue, up from 3.2% in Q1 2025. As a reminder, the dollar amounts here tend to scale with volumes in our payments, capital and credit products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International GMV grew 45% in Q1 2026.",
+      "quote": "Q1 delivered international GMV growth of 45% with cross-border GMV representing 16% of total.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "B2B GMV grew 80% in Q1 2026.",
+      "quote": "B2B GMV grew 80% in Q1 with broad growth across both new and established merchants.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Offline GMV rose 33% in Q1 2026.",
+      "quote": "Offline GMV was up 33% and accelerating from Q4. The fastest-growing slice within off-line remain merchants operating more than 20 stores, which this quarter had location growth of 50% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-driven traffic to Shopify stores grew 8x year-over-year, and orders from AI-powered searches increased nearly 13x.",
+      "quote": "And in the first quarter, AI-driven traffic to Shopify stores has grown 8x year-over-year, while orders from AI-powered searches have increased nearly 13x.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shopify Payments processed $67 billion of GMV, up 41%, reaching 67% penetration.",
+      "quote": "In Q1, Shopify Payments processed $67 billion of GMV, up 41% from last year, reaching 67% penetration.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shop Pay GMV processed $35 billion, up 59% year-over-year.",
+      "quote": "In Q1, Shop Pay processed $35 billion of GMV, up 59% year-over-year. Outside the U.S., Shop Pay GMV in Q1 grew over 70% as we continue to expand into more markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Merchants doing over $100 million in annual GMV have nearly doubled in two years.",
+      "quote": "In just the last 2 years, the total number of large merchants doing $100 million or more in GMV on Shopify has nearly doubled.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Universal Commerce Protocol (UCP) co-developed with Google, with Amazon, Meta, Microsoft, Salesforce, and Stripe joining the council.",
+      "quote": "And last month, Amazon, Meta, Microsoft, Salesforce and Stripe all join the counsel, committing their expertise in Internet scale transaction processing to build one universal protocol for commerce.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "This is Shopify at its best. It's important to remind everyone that the numbers that we're putting up this quarter, they are not an accident. They are the result of a very, very clear strategy that is being executed exceptionally well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increased LLM costs are a headwind to gross profit.",
+      "quote": "Economies of scale and efficiencies and support were partially offset by increased LLM cost, driven by growing merchant usage of our AI products, most notably Sikik. We expect this dynamic to continue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 revenue guidance assumes approximately 0.5 point of FX tailwinds versus the more than 2 points of FX tailwinds seen in Q1.",
+      "quote": "The expected sources of growth are consistent with the drivers that we saw in Q1 with the one key difference being that our Q2 revenue guidance assumes approximately 0.5 point of FX tailwinds versus the more than 2 points of FX tailwinds that we saw in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward-looking statements note risks including changes in economic conditions and consumer spending, tariffs, adoption of emerging technologies like AI, reliance on third-party providers, cyberattacks, and software defects.",
+      "quote": "These risks include, but are not limited to, the Company’s ability to maintain expected growth and manage expenses, the impact of changes in economic conditions and consumer spending in key markets such as the United States, Europe, and globally, the impact of measures that affect international trade, including tariffs, the adoption and impact of emerging technologies such as AI, our reliance on third-party providers to deliver services, a cyberattack or security breach, and serious errors or defects in software or hardware.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects strong operational momentum and confident guidance, but the document does not explicitly state whether Q2 guidance was raised versus prior guidance. The score relies on the interpretation that the high-20s growth guidance represents continued strong momentum rather than a formal raise. A reviewer should verify whether the prior guidance was lower."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS was not explicitly disclosed in the document. The press release mentions GAAP and non-GAAP diluted net income (loss) per share are available in the Financial Supplemental, but the figure itself is not stated in the provided text."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "SHOP_Bundled Earnings Report_2026-05-05",
+  "report_metadata": {
+    "issuer": "p2_shopify",
+    "company": "Shopify",
+    "ticker": "SHOP",
+    "sector": "Technology/E-Commerce",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2026-Q1/SHOP_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2026-Q1/SHOP_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SHOP_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221728Z",
+    "timestamp": "2026-08-13T22:18:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2026-Q1/SHOP_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shopify_ext2026_08_13/extracted/SHOP_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2026-Q1/SHOP_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 16409,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/shopify/CY2026-Q1/SHOP_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 74914,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_shopify_ext2026_08_13/extracted/SHOP_FQ1_2026.txt"
+  }
+}

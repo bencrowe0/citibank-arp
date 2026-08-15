@@ -21,10 +21,14 @@ of 95 graded events, from 233 clean events; majority-direction floor 54.7% (alwa
 | 5d | +0.85% | [-0.27, +1.95] | 52.1% | 0.072 | 0.276 |
 | 10d | +0.69% | [-0.63, +2.03] | 53.4% | 0.058 | 0.380 |
 
-Every metric (mean net, accuracy, rho) decays monotonically. The bootstrap CI
-on mean net crosses zero by 3 days; rho drops from 0.236 to 0.058. This
+Every metric (raw direction-signed mean net, accuracy, rho) decays monotonically.
+The bootstrap CI on raw mean net crosses zero between 3 and 5 days (3d lower
+bound +0.029%, 5d lower bound −0.270%); rho drops from 0.236 to 0.058. This
 validates the overnight window as a measured choice rather than a convenient
-assumption, and rules out post-earnings drift as the mechanism.
+assumption, and rules out post-earnings drift as the mechanism. Note: the
+excess-over-SPY series in returns_matrix.csv is not monotonic and is a separate
+per-event diagnostic; its non-monotonicity reflects SPY's own multi-horizon
+return pattern across those entry dates, not the model signal.
 
 **Qualifiers that must always travel with the 65.3% accuracy figure**: 95 graded
 events out of 233 total (41%); 146 traded of 233 (63%); 87 events were HOLD

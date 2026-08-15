@@ -1,0 +1,229 @@
+{
+  "document_id": "UNP_FQ1_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Union Pacific delivered record first-quarter results with EPS up 6% and adjusted EPS up 9%, but management reaffirmed rather than raised its 2026 guidance for mid-single-digit EPS growth. The company acknowledged fuel price headwinds and international intermodal weakness, while expressing confidence in its long-term targets. The forward outlook is unchanged, with genuine operational momentum offset by cautious language on fuel and volume, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Operating revenue of $6.2 billion, up 3% year-over-year; freight revenue of $5.9 billion, up 4%.",
+    "eps": "Diluted EPS of $2.87, up 6% from $2.70; adjusted diluted EPS of $2.93, up 9%.",
+    "guidance": "Reaffirmed 2026 outlook for mid-single-digit EPS growth, including merger costs; long-term target of high single-digit to low double-digit EPS CAGR through 2027.",
+    "margin": "Reported operating ratio of 60.5%, improved 20 basis points; adjusted operating ratio of 59.9%, improved 80 basis points.",
+    "key_risks": [
+      "Fuel price headwinds, with April fuel prices over $4 per gallon pressuring second-quarter margins.",
+      "International intermodal volumes declined 28% due to lower West Coast imports and customer shifts.",
+      "Softening vehicle sales pressuring automotive volumes.",
+      "Merger-related costs and regulatory process uncertainties.",
+      "Economic uncertainty and tariffs affecting customers."
+    ],
+    "key_opportunities": [
+      "Domestic intermodal delivered third consecutive record quarter.",
+      "Bulk segment revenue up 10% on record grain volume and strong coal demand.",
+      "Industrial segment revenue up 5% with strong demand from LNG terminals and data centers.",
+      "Latent capacity to add 10% more business without huge incremental capital costs.",
+      "20 new construction projects closed in the quarter with strong pipeline.",
+      "AI and technology initiatives driving efficiency and service improvements."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in results and outlook, stating 'we are 100% on track' and 'we are more convicted now than we ever have been' regarding the merger, while reaffirming guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Operating revenue increased 3% to $6.2 billion.",
+      "quote": "Operating revenue of $6.2 billion grew 3% driven by core pricing gains, fuel surcharge revenue, and business mix partially offset by 1% fewer carloads and lower other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Freight revenue increased 4% to $5.9 billion.",
+      "quote": "Freight revenue increased 4% and freight revenue excluding fuel surcharge grew 3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $2.87, up 6% from $2.70.",
+      "quote": "Adjusted 2026 first quarter net income* of $1.7 billion, or $2.93 per diluted share* compares to 2025 first quarter net income of $1.6 billion, or $2.70 per diluted share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $2.93, up 9%.",
+      "quote": "Excluding merger costs, adjusted net income was up 7%, EPS of $2.93 increased 9%, and our operating ratio improved 80 basis points to 59.9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported operating ratio improved 20 basis points to 60.5%.",
+      "quote": "Reported operating ratio was 60.5%, an improvement of 20 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating ratio improved 80 basis points to 59.9%.",
+      "quote": "Adjusted operating ratio* was 59.9%, an improvement of 80 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance reaffirmed for mid-single-digit EPS growth.",
+      "quote": "Looking ahead, we are affirming our 2026 outlook for mid-single-digit EPS growth. This includes our expectations for reported earnings and operating ratio improvement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term target of high single-digit to low double-digit EPS CAGR through 2027.",
+      "quote": "Beyond 2026, we remain committed to attaining our three-year CAGR target of high single-digit to low double-digit EPS growth through 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fuel price headwinds are a risk, with April fuel prices over $4 per gallon.",
+      "quote": "CFO Jennifer L. Hamann stated, 'fuel will definitely be a headwind, particularly here in the second quarter with—again, as I mentioned in the prepared remarks—we are paying a little north of $4 a gallon right now here in April. That will certainly pressure margins in the second quarter.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International intermodal volumes declined 28%.",
+      "quote": "As expected, lower West Coast imports and customer shifts had a drag on international intermodal volumes, which declined 28% versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Softening vehicle sales pressured automotive volumes.",
+      "quote": "Softening vehicle sales pressured automotive volumes, though having won incremental volume with BMW offset some of the market softness.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Merger-related costs and regulatory process are risks.",
+      "quote": "Results include merger costs of $36 million, or $0.06 per diluted share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Economic uncertainty and tariffs are risks.",
+      "quote": "Even with economic uncertainty, everything going on in the world, and tariffs that we and our customers have to go through, we delivered again a quarter that moves us ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic intermodal delivered third consecutive record quarter.",
+      "quote": "But on a positive note, domestic intermodal delivered a third consecutive record quarter driven by outstanding service and continued commercial momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Bulk segment revenue up 10% on record grain volume.",
+      "quote": "Starting with our Bulk segment, revenue for the quarter was up 10% compared to last year, driven by a 12% increase in volume. Strength in coal was driven by sustained utility demand and favorable natural gas pricing, supported by strong service execution as well as new business with LCRA which started in April. In grain, the first quarter delivered record volume, driven by strong export demand including a rebound in shipments to China and continued expansion into Mexico.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industrial segment revenue up 5% with strong demand from LNG terminals and data centers.",
+      "quote": "Turning to Industrial, revenue was up 5% for the quarter on a 4% increase in volume, delivering a record first quarter and outperforming the market. Strong core pricing drove a best-ever quarterly average revenue per car. We continue to see strength in demand for construction projects driven by new LNG terminals and data centers, coupled with our intense focus on business development.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latent capacity to add 10% more business without huge incremental capital costs.",
+      "quote": "I am very comfortable that we have capacity to add a lot of business without huge incremental capital and operating costs, because when you run up against capacity, costs go up due to congestion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "20 new construction projects closed in the quarter.",
+      "quote": "We feel good about the numbers we closed for the quarter—we closed about 20 new construction projects in the first quarter—and we feel good about where we are headed in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI and technology initiatives driving efficiency and service improvements.",
+      "quote": "Our conversations about AI or equivalent tools focus first on not doing it just to do it. We focus on the actual problem and the associated value—whether removing car touches, dropping dollars to the bottom line, or improving service.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are 100% on track with filing the revised application on April 30. We are confident the additional information we are providing meets the STB’s expectations and we look forward to moving toward approval—the real exciting part of operating America’s first transcontinental railroad.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is at the boundary of the BUY threshold; guidance was reaffirmed, not raised, and fuel headwinds were acknowledged. Reviewer should confirm the score reflects the mixed forward outlook."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UNP_Bundled Earnings Report_2026-05-06",
+  "report_metadata": {
+    "issuer": "p2_union_pacific",
+    "company": "Union Pacific",
+    "ticker": "UNP",
+    "sector": "Industrials/Railroads",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2026-Q1/UNP_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2026-Q1/UNP_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UNP_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221900Z",
+    "timestamp": "2026-08-13T22:19:56Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2026-Q1/UNP_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_union_pacific_ext2026_08_13/extracted/UNP_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2026-Q1/UNP_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 22062,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/union_pacific/CY2026-Q1/UNP_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 59774,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_union_pacific_ext2026_08_13/extracted/UNP_FQ1_2026.txt"
+  }
+}

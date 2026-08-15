@@ -1,0 +1,241 @@
+{
+  "document_id": "XOM_FQ1_2024",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports a strong quarter with earnings of $8.2 billion and cash flow of $14.7 billion, but earnings declined year-over-year due to lower refining margins and natural gas prices. Forward guidance was not formally raised; management reaffirmed its capex guidance of $23-$25 billion and reiterated its plan to deliver $15 billion in structural cost savings by 2027, while expressing confidence in growing earnings potential by $12 billion from 2023 to 2027. The score reflects genuine operational momentum (record refining throughput, Guyana growth, cost savings progress) and confident forward language, but is tempered by the lack of a formal guidance raise and acknowledged headwinds from lower commodity prices."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues and other income were $83,083 million for Q1 2024, compared to $86,564 million in Q1 2023.",
+    "eps": "Earnings per common share (assuming dilution) were $2.06 for Q1 2024, compared to $2.79 in Q1 2023.",
+    "guidance": "Capital and exploration expenditures were $5.8 billion, consistent with the company's full-year guidance of $23 billion to $25 billion. The company plans to deliver cumulative structural cost savings totaling $15 billion through the end of 2027. The annual pace of share repurchases will increase to $20 billion per year after the Pioneer transaction closes. Management expects to grow earnings potential by an additional $12 billion from 2023 to 2027 at constant prices and margins.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Industry refining margins and natural gas prices came down from last year's highs to trade within the ten-year historical range.",
+      "Timing effects from unsettled derivative mark-to-market impacts and other primarily non-cash impacts from tax and inventory adjustments as well as divestments contributed to lower earnings.",
+      "Lower base volumes from divestments, unfavorable entitlements and government-mandated curtailments.",
+      "Higher expenses from scheduled maintenance.",
+      "Chemical Products are experiencing continued bottom-of-cycle conditions.",
+      "The Pioneer merger is pending regulatory approval, and the company is working with the FTC on a thorough review.",
+      "The company filed for arbitration regarding the Chevron/Hess transaction to confirm its rights and establish the value of the Guyana asset.",
+      "The company is continuing a lawsuit against two special interest activists.",
+      "Europe is a tougher investment proposition due to additional taxes, expanded disclosure requirements, and regulation around reducing carbon footprint that is not technology agnostic.",
+      "Security challenges in Mozambique have made monetizing the onshore part of the project challenging."
+    ],
+    "key_opportunities": [
+      "Continued growth in advantaged assets, such as Guyana, where production continues at higher-than-expected levels.",
+      "Record first-quarter refining throughput driven by strong turnaround performance.",
+      "Growth in performance chemical sales volumes.",
+      "Structural cost savings reached $10.1 billion versus 2019, with a plan to reach $15 billion by 2027.",
+      "Final investment decision on the Whiptail development in Guyana, expected to add approximately 250,000 oil-equivalent barrels per day of gross capacity.",
+      "The Pioneer merger is expected to close in Q2 2024, positioning the company to drive earnings, cash flow, and shareholder distributions higher.",
+      "Investing in technology for new high-value, high-growth markets including advanced recycling, Proxxima, carbon materials, and direct air capture.",
+      "The company expects to grow earnings potential by an additional $12 billion from 2023 to 2027."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Darren Woods stated, 'Our strategy and focus on execution excellence is creating significant value for society and our shareholders,' and expressed confidence in delivering on plans, saying 'I've got a lot of confidence going forward that will deliver that -- continues to deliver that portfolio.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2024 earnings were $8.2 billion.",
+      "quote": "ExxonMobil Announces First-Quarter 2024 Results \u2022 Generated strong first-quarter earnings of $8.2 billion and $14.7 billion of cash flow from operating activities",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2024 earnings per share were $2.06.",
+      "quote": "Earnings Per Common Share \u00b3 2.06 1.91 +0.15 2.79 -0.73",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenues and other income were $83,083 million for Q1 2024.",
+      "quote": "Total revenues and other income 83,083 86,564",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital and exploration expenditures were consistent with full-year guidance of $23 billion to $25 billion.",
+      "quote": "Capital and exploration expenditures were $5.8 billion, consistent with the company's full-year guidance of $23 billion to $25 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to deliver cumulative structural cost savings totaling $15 billion through the end of 2027.",
+      "quote": "The company plans to deliver cumulative savings totaling $15 billion through the end of 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The annual pace of share repurchases will increase to $20 billion per year after the Pioneer transaction closes.",
+      "quote": "The annual pace of share repurchases will increase to $20 billion per year after the transaction closes, assuming reasonable market conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to grow earnings potential by an additional $12 billion from 2023 to 2027.",
+      "quote": "By executing with excellence on our strategy, we expect to grow our earnings potential by an additional $12 billion from 2023 to 2027 at constant prices and margins, a growth rate of more than 10% per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings decreased due to lower industry refining margins and natural gas prices.",
+      "quote": "Earnings decreased as industry refining margins and natural gas prices came down from last year's highs to trade within the ten-year historical range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record first-quarter refining throughput.",
+      "quote": "In Product Solutions, our strong turnaround performance on cost and schedule helped drive record first-quarter refining throughput.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guyana production continues at higher-than-expected levels.",
+      "quote": "We delivered a strong quarter with continued growth in advantaged assets, such as Guyana, where production continues at higher-than-expected levels, contributing to historic economic growth for the Guyanese people.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reached a final investment decision on the Whiptail development in Guyana.",
+      "quote": "The company announced a final investment decision for the Whiptail development in Guyana. This is the sixth offshore project and is expected to add approximately 250,000 oil-equivalent barrels per day of gross capacity with start-up targeted by year-end 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Pioneer merger is pending regulatory approval and is anticipated to close in Q2 2024.",
+      "quote": "The transaction close is anticipated in the second quarter of 2024, pending regulatory approval.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemical Products are experiencing bottom-of-cycle conditions.",
+      "quote": "Despite continued bottom-of-cycle conditions, results improved with higher margins due to lower North American feed costs and higher margins from performance chemicals more than offsetting the decline in industry margins for polyethylene and polypropylene.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company filed for arbitration regarding the Chevron/Hess transaction.",
+      "quote": "First, we filed for arbitration to confirm our rights and establish the value that the Chevron/Hess transaction places on the Guyana asset.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is continuing a lawsuit against two special interest activists.",
+      "quote": "Second, we're continuing our lawsuit against two special interest activists masquerading as investors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe is a tougher investment proposition due to additional taxes and regulation.",
+      "quote": "If you go back and look at the end of 2022, the additional taxes that were levied onto the energy sector. If you look at expanded disclosure requirements that Europe is looking for, or if you look at regulation around reducing carbon footprint and not necessarily implementing regulation that's technology agnostic and focused on just reducing carbon intensity, that all makes Europe a much tougher investment proposition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Security challenges in Mozambique have made monetizing the onshore part of the project challenging.",
+      "quote": "And just as a follow-up to that, there's obviously been ongoing security challenges in Mozambique. What is your view at this point on whether you'd be interested in doing a second floating facility? Because obviously monetizing the onshore part has become very challenging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is investing in technology for new high-value, high-growth markets.",
+      "quote": "We are investing in technology to transform the molecules derived from oil and natural gas into products that extend our reach into new, high-value, high-growth markets to capture even greater value from our core competitive advantages.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our strategy and focus on execution excellence is creating significant value for society and our shareholders ,\u201d said Darren Woods, chairman and chief executive officer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is based on genuine operational momentum but no formal guidance raise.",
+      "quote": "We delivered a strong quarter with continued growth in advantaged assets, such as Guyana, where production continues at higher-than-expected levels, contributing to historic economic growth for the Guyanese people. In Product Solutions, our strong turnaround performance on cost and schedule helped drive record first-quarter refining throughput.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on operational momentum and confident language, but there was no formal guidance raise. The score is slightly above the 0.15 BUY threshold, so a reviewer may want to confirm this is appropriate given the lack of a formal guidance change."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No explicit margin commentary was found in the document, so this field is marked as 'Not disclosed'."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2024-04-26",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2024",
+    "report_date": "2024-04-26",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q1/XOM_Q1_2024_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q1/XOM_Q1_2024_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ1_2024",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:08:27Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q1/XOM_Q1_2024_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ1_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q1/XOM_Q1_2024_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 43617,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q1/XOM_Q1_2024_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 60625,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ1_2024.txt"
+  }
+}

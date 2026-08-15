@@ -15,11 +15,11 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/chevron/CY2025-Q2/CVX_Q2_2025_Press_Release.htm"
+          "source_pdf": "docs/chevron/CY2025-Q2/CVX_Q2_2025_Press_Release.pdf"
         },
         {
           "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/chevron/CY2025-Q2/CVX_Q2_2025_Transcript.htm"
+          "source_pdf": "docs/chevron/CY2025-Q2/CVX_Q2_2025_Earnings_Call_Transcript.pdf"
         }
       ]
     },
@@ -37,11 +37,11 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/chevron/CY2025-Q3/CVX_Q3_2025_Press_Release.htm"
+          "source_pdf": "docs/chevron/CY2025-Q3/CVX_Q3_2025_Press_Release.pdf"
         },
         {
           "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/chevron/CY2025-Q3/CVX_Q3_2025_Transcript.htm"
+          "source_pdf": "docs/chevron/CY2025-Q3/CVX_Q3_2025_Earnings_Call_Transcript.pdf"
         }
       ]
     },
@@ -59,11 +59,11 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/chevron/CY2025-Q4/CVX_Q4_2025_Press_Release.htm"
+          "source_pdf": "docs/chevron/CY2025-Q4/CVX_Q4_2025_Press_Release.pdf"
         },
         {
           "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/chevron/CY2025-Q4/CVX_Q4_2025_Transcript.htm"
+          "source_pdf": "docs/chevron/CY2025-Q4/CVX_Q4_2025_Earnings_Call_Transcript.pdf"
         }
       ]
     },
@@ -81,11 +81,11 @@
       "documents": [
         {
           "doc_type": "Press Release",
-          "source_pdf": "docs/chevron/CY2026-Q1/CVX_Q1_2026_Press_Release.htm"
+          "source_pdf": "docs/chevron/CY2026-Q1/CVX_Q1_2026_Press_Release.pdf"
         },
         {
           "doc_type": "Earnings Call Transcript",
-          "source_pdf": "docs/chevron/CY2026-Q1/CVX_Q1_2026_Transcript.htm"
+          "source_pdf": "docs/chevron/CY2026-Q1/CVX_Q1_2026_Earnings_Call_Transcript.pdf"
         }
       ]
     }

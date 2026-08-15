@@ -1,0 +1,201 @@
+{
+  "document_id": "XOM_FQ4_2024",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong 2024 results with record production and high-value product sales, and management expresses confidence in future growth, including $20 billion more earnings and $30 billion more cash flow by 2030. However, full-year earnings declined from 2023, and forward guidance is reaffirmed rather than raised, with some cautious language about market conditions. The positive operational momentum and confident forward outlook support a modestly positive score, but the lack of a formal guidance raise and mixed year-over-year results keep it below +0.5."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full-year 2024 revenues and other income were $349,585 million, compared to $344,582 million in 2023, an increase of about 1.5%.",
+    "eps": "Full-year 2024 earnings per share (assuming dilution) were $7.84, compared to $8.89 in 2023, a decrease of $1.05. Fourth-quarter 2024 EPS was $1.72, compared to $1.91 in Q4 2023.",
+    "guidance": "Management reaffirmed plans to extend the annual $20 billion share-repurchase program through 2026. They also reiterated long-term targets of $20 billion more in earnings and $30 billion more in cash flow by 2030, and $18 billion cumulative structural cost savings by 2030. For 2025, cash capex is guided between $27 billion and $29 billion, and between $28 billion and $33 billion for 2026-2030.",
+    "margin": "Return on capital employed (ROCE) for 2024 was 12.7%, down from 15.0% in 2023. The five-year average ROCE was 10.8%.",
+    "key_risks": [
+      "Declining industry refining margins and lower natural gas prices compared to historically high levels in 2023.",
+      "Higher expenses from depreciation, scheduled maintenance, new product development, and 2025 project start-ups.",
+      "Uncertainty around tariffs and trade policy, with management noting 'a lot of noise and speculation in this space.'",
+      "Potential changes in government policy, including the Baytown low-carbon hydrogen project's dependence on IRA incentives.",
+      "Legal and regulatory challenges, including the lawsuit against the California Attorney General and activist groups regarding advanced recycling.",
+      "Chemical market remains at bottom-of-cycle conditions with oversupply."
+    ],
+    "key_opportunities": [
+      "Record production in Permian and Guyana, with Permian production expected to grow from 1.5 million barrels per day to 2.3 million by 2030.",
+      "Record sales volumes of high-value products, with 80% growth in high-value product sales by 2030.",
+      "Structural cost savings of $12.1 billion since 2019, with plans to reach $18 billion by 2030.",
+      "New projects starting up in 2025 expected to deliver over $3 billion in earnings potential in 2026.",
+      "Growth in low-carbon solutions, including carbon capture, hydrogen, lithium, and data center power, with $2 billion earnings growth expected by 2030.",
+      "New technology-driven businesses like Proxxima and carbon materials with a $100 billion total addressable market by 2030."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses strong language like 'unmatched value,' 'industry-leading,' and 'we're confident we'll deliver on the plans we laid out,' indicating a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2024 revenues were $349,585 million, up from $344,582 million in 2023.",
+      "quote": "Total revenues and other income 83,426 84,344 349,585 344,582",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 EPS was $7.84, down from $8.89 in 2023.",
+      "quote": "Earnings per common share - assuming dilution (U.S. dollars) 1.72 1.91 7.84 8.89",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed the $20 billion annual share-repurchase program through 2026.",
+      "quote": "As previously communicated, ExxonMobil plans to extend its annual $20 billion share-repurchase program through 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management targets $20 billion more earnings and $30 billion more cash flow by 2030.",
+      "quote": "We're confident we'll deliver 2030 by 2030, $20 billion more in earnings and $30 billion more in cash flow, all of which enables us to keep our commitment to sustainable, competitive, and growing shareholder returns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 ROCE was 12.7%, down from 15.0% in 2023.",
+      "quote": "Return on average capital employed \u2013 corporate total (non-GAAP) 12.7% 15.0% 24.9% 10.9% (9.3)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in future growth and delivery of plans.",
+      "quote": "We're confident we'll deliver on the plans we laid out to generate significantly more earnings and cash \u2013 not only to 2030, but well beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company achieved record production in Permian and Guyana.",
+      "quote": "Achieved record production in Permian and Guyana, and record sales volumes of high-value products",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural cost savings totaled $12.1 billion since 2019.",
+      "quote": "Achieved $12.1 billion cumulative structural cost savings since 2019; more than offsetting inflation and growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 project startups are expected to deliver over $3 billion in earnings potential in 2026.",
+      "quote": "Overall, the major projects we start up in 2025 will deliver more than $3 billion in earnings potential in 2026 at both constant and current prices and margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chemical market remains at bottom-of-cycle conditions.",
+      "quote": "Despite continued bottom-of-cycle market conditions, overall margins improved as the company benefited from lower ethane feed costs at its advantaged North America assets and improved high-value product sales and realizations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is cautious about tariffs and trade policy uncertainty.",
+      "quote": "Obviously, there's a lot of noise and speculation in this space, and I would put it in the same category as we think about prices and where prices are going.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Baytown low-carbon hydrogen project depends on IRA incentives.",
+      "quote": "The case in point is our Baytown low-carbon hydrogen project, which requires incentives under Section 45B of the Inflation Reduction Act to be economically viable.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is pursuing legal action against the California Attorney General and activist groups.",
+      "quote": "Earlier this month, we sued the California Attorney General and activist groups for defamation and interference in our advanced recycling business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Low-carbon solutions business is expected to contribute $2 billion in earnings growth by 2030.",
+      "quote": "And what we said back at the corporate plan is, when we look at our low-carbon solutions business in its entirety, right, so obviously the CCS opportunities you just talked about, but hydrogen, lithium, everything all together, we would see $2 billion in earnings growth kind of between now and 2030.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Permian production is expected to grow to 2.3 million barrels per day by 2030.",
+      "quote": "production growing from 1.5 million oil-equivalent barrels per day at the end of 2024 to 2.3 million barrels per day by 2030, a more than 50% increase.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is based on qualitative assessment of forward guidance and operational momentum; a human reviewer may want to verify the balance between positive operational momentum and the lack of a formal guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "XOM_Bundled Earnings Report_2025-01-31",
+  "report_metadata": {
+    "issuer": "p2_exxonmobil",
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "sector": "Energy/Oil & Gas Integrated",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-01-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q4/XOM_Q4_2024_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q4/XOM_Q4_2024_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "XOM_FQ4_2024",
+    "release_timing": "pre_market"
+  },
+  "run_meta": {
+    "run_id": "20260813T220711Z",
+    "timestamp": "2026-08-13T22:09:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q4/XOM_Q4_2024_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q4/XOM_Q4_2024_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 51523,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/exxonmobil/CY2024-Q4/XOM_Q4_2024_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 67161,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_exxonmobil_ext2026_08_13/extracted/XOM_FQ4_2024.txt"
+  }
+}

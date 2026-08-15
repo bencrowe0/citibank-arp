@@ -1,0 +1,185 @@
+{
+  "document_id": "FCX_FQ1_2026",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was materially reduced. Management lowered the 2026 sales outlook for copper and gold due to a delayed ramp-up at Grasberg, and raised the full-year unit net cash cost estimate from $1.75 to $1.95 per pound. While the quarter's results beat the company's own January estimates, the significant downward revision to the production ramp-up schedule and increased cost guidance constitute a clear negative shift in forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenues totaled $6,234 million in first-quarter 2026, up from $5,728 million in first-quarter 2025.",
+    "eps": "Net income attributable to common stock was $881 million, $0.61 per share, and adjusted net income was $830 million, $0.57 per share.",
+    "guidance": "Consolidated sales for 2026 are expected to approximate 3.1 billion pounds of copper, 650 thousand ounces of gold, and 90 million pounds of molybdenum. This is lower than the January 2026 estimate of 3.4 billion pounds of copper and 0.8 million ounces of gold. Unit net cash costs are expected to average $1.95 per pound of copper for the year, up from the prior estimate of $1.75 per pound. Operating cash flows are expected to approximate $8.7 billion for the year 2026.",
+    "margin": "Operating income was $2,137 million in first-quarter 2026, up from $1,303 million in first-quarter 2025.",
+    "key_risks": [
+      "Delays in obtaining materials or construction delays in installing new chute equipment at Grasberg could extend ramp-up timelines.",
+      "Elevated diesel prices are causing an estimated $500 million increase in annual costs, with uncertainty regarding duration and regional impact.",
+      "Net unit cash costs outlook increased from $1.75 to $1.95 per pound due to higher consumable prices and lower Grasberg output, indicating margin pressure.",
+      "The proportion of wet draw points in Grasberg production blocks 2 and 3 increased from 30% in September 2025 to 45% currently, directly causing production derating.",
+      "Costs for certain petroleum-based energy products, sulfur, and sulfuric acid have risen significantly following the onset of military conflict in the Middle East."
+    ],
+    "key_opportunities": [
+      "Commenced phased ramp-up of the Grasberg Block Cave underground mine in March 2026.",
+      "Entered into a Memorandum of Understanding with the Indonesia government for a life of resource extension of operating rights for PT Freeport Indonesia.",
+      "Submitted environmental impact statement for potential major expansion at El Abra in Chile.",
+      "Advanced innovative leaching technologies and potential major brownfield expansions in Arizona.",
+      "Copper prices have averaged over $5.80 per pound year to date and reached an all-time high exceeding $6 per pound in the first quarter.",
+      "Strong demand from U.S. data centers and significant power grid investment in China."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the long-term outlook and growth opportunities ('I have complete confidence in our teams addressing current challenges'), but also acknowledges significant near-term headwinds and reduced guidance ('Current sales estimates for the year 2026 are lower than January 2026 estimates...')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "First-quarter 2026 revenues were $6,234 million, up from $5,728 million in the prior year.",
+      "quote": "Revenues a,b $ 6,234 $ 5,728",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First-quarter 2026 net income attributable to common stock was $881 million, or $0.61 per share.",
+      "quote": "Net income attributable to common stock in first-quarter 2026 totaled $881 million, $0.61 per share, and adjusted net income attributable to common stock totaled $830 million, $0.57 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 copper sales guidance was reduced from the January 2026 estimate.",
+      "quote": "Current sales estimates for the year 2026 are lower than January 2026 estimates of 3.4 billion pounds of copper and 0.8 million ounces of gold, primarily reflecting a projected delay in achieving full ramp-up of the Grasberg Block Cave underground mine pending modifications to ore loading infrastructure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 unit net cash cost guidance was increased from the prior estimate.",
+      "quote": "With these updates and the revised production profile, our current outlook for net unit cash costs is expected to average $1.95 per pound of copper for the year, compared with the prior estimate of $1.75 per pound.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First-quarter 2026 operating income was $2,137 million, up from $1,303 million in the prior year.",
+      "quote": "Operating income a,c $ 2,137 $ 1,303",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Grasberg ramp-up is delayed due to material handling bottlenecks.",
+      "quote": "During initial ramp-up activities in Production Blocks 2 and 3, PTFI encountered changes in operating conditions at the Grasberg Block Cave underground mine following the period of inactivity between September 2025 and April 2026, resulting in a significant increase in the ratio of wet drawpoints compared to the number of drawpoints containing dry material.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The proportion of wet draw points increased from 30% to 45%.",
+      "quote": "As shown, in September 2025, 30% of the total 635 active draw points were wet compared with 45% currently, a 50% increase in the wet draw points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rising diesel prices are a significant cost headwind.",
+      "quote": "The sharp rise in diesel prices in March equates to an approximate $500 million cost increase on an annualized basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has growth opportunities in leaching and expansion projects.",
+      "quote": "We are advancing our future growth plans and submitted an environmental impact statement in March for a major expansion project in Chile. We are progressing several initiatives to scale our innovative leach project and completing our work to be in a position to potentially greenlight our brownfield expansion project at our Bagdad mine in Arizona later this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the long-term outlook.",
+      "quote": "I have complete confidence in our teams addressing current challenges. I am personally proud of Freeport-McMoRan Inc.’s global team and how our company is so well positioned for the future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledges reduced guidance and near-term challenges.",
+      "quote": "Current sales estimates for the year 2026 are lower than January 2026 estimates of 3.4 billion pounds of copper and 0.8 million ounces of gold, primarily reflecting a projected delay in achieving full ramp-up of the Grasberg Block Cave underground mine pending modifications to ore loading infrastructure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a strong copper market outlook.",
+      "quote": "Copper prices have averaged over $5.80 per pound year to date and reached an all-time high exceeding $6 per pound in the first quarter. Demand signals remain strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is heavily influenced by the reduction in forward guidance. A human reviewer should verify the magnitude of the guidance cut against the company's own prior estimates to confirm the -0.50 score is appropriate."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance field includes both the reduced sales volume and increased cost estimates. A reviewer should confirm these are the most material forward-looking changes."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "FCX_Bundled Earnings Report_2026-04-23",
+  "report_metadata": {
+    "issuer": "p2_freeport_mcmoran",
+    "company": "Freeport-McMoRan",
+    "ticker": "FCX",
+    "sector": "Materials/Copper Mining",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2026-Q1/FCX_Q1_2026_Press_Release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2026-Q1/FFCX_Q1_2026_Earnings_Call_Transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "FCX_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260813T221019Z",
+    "timestamp": "2026-08-13T22:11:07Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2026-Q1/FCX_Q1_2026_Press_Release.htm",
+    "extracted_text_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_freeport_mcmoran_ext2026_08_13/extracted/FCX_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2026-Q1/FCX_Q1_2026_Press_Release.htm",
+        "page_count": 1,
+        "extracted_characters": 93749,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "/Users/nigelsim/Desktop/arp-master-4/docs/freeport_mcmoran/CY2026-Q1/FFCX_Q1_2026_Earnings_Call_Transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 73364,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "/Users/nigelsim/Desktop/arp-master-4/outputs/p2_freeport_mcmoran_ext2026_08_13/extracted/FCX_FQ1_2026.txt"
+  }
+}
