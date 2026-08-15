@@ -34,6 +34,12 @@ OLS: latency = 14.08 s + 0.0767 s per 1000 tokens
 
 The intercept (~14 s) dominates: most latency is baseline overhead (network round-trip, queue, tokenisation), not proportional to document length. A press-release-only bundle (~13k tokens) is typically 1–2 s faster than a full bundle (~30k tokens) — a real but small difference.
 
+**Baseline-overhead interpretation.** Because the intercept (~14 s) is so large relative to the slope (0.077 s per 1000 tokens), two practical implications follow:
+
+1. **The speed advantage does not scale with document length.** A 30k-token full bundle is only ~1–2 s slower than a 13k-token press release. This means the ~112× speed multiple relative to human reading time holds for long filings as well as short releases — it does not erode as documents get longer.
+
+2. **The 2–3 s ablation arm difference is mostly a token-count effect.** The observed latency gap between full_bundle (~15–16 s median) and press_release or qa_only arms (~13 s median) is consistent with the OLS prediction for the token difference between those bundles. It does not reflect anything specific to the content of the sections — a shorter bundle is faster because it is shorter, not because the model processes certain section types differently.
+
 ---
 
 ## 3. Section Ablation Arm Latency

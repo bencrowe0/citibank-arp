@@ -591,4 +591,51 @@ pre-registration (see `extension_preregistration_2026-08-13.md`).
 
 ---
 
+## (l) Speed multiples computed on a placeholder with no committed source (2026-08-15)
+
+**Category:** Figure with no computation behind it, published and quoted.
+
+### Mechanism
+
+The Efficiency sheet published two speed multiples comparing model wall-clock time to human
+reading time:
+
+- **212×** = 29.8 min (human full arm mean) / 8 s
+- **118×** = 27.9 min (human pooled mean) / 14.31 s
+
+The 8-second value has no source in any committed file. It does not appear in
+`api_cost_ledger.csv`, any per-issuer result JSON (`run_meta` has no latency field), any
+`batch_metadata.json`, or any summary CSV. It was used in the Efficiency sheet as a manual
+entry with no documented origin.
+
+The 14.31-second value cited alongside the 118× figure is a single anecdotal measurement
+(the nearest JSONL value is `PEP_FQ1_2023` at 14.37 s), not a distributional figure.
+Neither denominator represents the distribution of actual model latency.
+
+### Period inoperative
+
+Both multiples were present in the Efficiency sheet from the point it was built; their
+precise introduction date is not recoverable from git history (the sheet is not committed).
+No prior session flagged either figure as unverified.
+
+### Resolution
+
+Real per-call latency was recovered from `outputs/p2_*/logs/first_run_costs.jsonl` across
+91 issuers (624 success calls). The committed source is
+`outputs/global/summary/model_latency_2026-08-15.csv`.
+
+**Corrected figures (IQR-based, vs human full arm mean 29.8 min = 1788 s):**
+
+| Metric | Value |
+| --- | --- |
+| IQR of model latency | 12.95 s (Q1) – 17.31 s (Q3) |
+| Honest speed range (per document) | **103× – 138×** |
+| At model mean (15.92 s) | ~112× |
+| Per correct call | ~65× (human 145.3 min; model 2.2 min) |
+
+The 212× and 118× figures are superseded by these. The Efficiency sheet will be updated by
+the user directly; this log records the source error.
+
+---
+
 *End of log.*
