@@ -11,10 +11,18 @@ Model arm: reads from:
 
 Metrics computed:
   - coverage_accuracy = n_correct / n_graded  (|ret| > 2%; HOLD = wrong)
-  - selectivity_accuracy = n_correct / n_calls (BUY+SELL decisions only)
+  - selectivity_accuracy = n_correct / n_called_and_graded
+      where n_called_and_graded = BUY+SELL decisions where |ret| > 0.02
+      n_correct = BUY with UP outcome OR SELL with DOWN outcome among called+graded
   - coverage_floor = max(n_graded_UP, n_graded_DOWN) / n_graded
-  - selectivity_floor = max(called_UP, called_DOWN) / n_calls
-  - mean_net_per_trade = mean net P&L for BUY+SELL decisions
+  - selectivity_floor = max(n_called_graded_UP, n_called_graded_DOWN) / n_called_and_graded
+      floor and accuracy share the same denominator (n_called_and_graded)
+  - mean_net_per_trade = mean net P&L for all BUY+SELL decisions (n_calls_all)
+
+NOTE: The human n_calls column stores n_called_and_graded (the selectivity denominator).
+n_calls_all (raw BUY+SELL count) is reported in the notes column for reference.
+The model arm n_calls = all BUY+SELL trades (including flat outcomes), which differs
+from the human denominator — cross-arm selectivity comparisons must note this.
 
 Read-only: reads only committed input files.
 Writes: outputs/global/summary/information_set_comparison_{DATE}.csv and .md
@@ -131,22 +139,37 @@ def human_metrics(events: list, info_set: str) -> dict:
     coverage_floor = max(n_graded_up, n_graded_down) / n_graded if n_graded > 0 else None
     suppressed_cov = n_graded < 10
 
-    # Calls: BUY or SELL
+    # Calls: all BUY or SELL decisions (used for mean_net only)
     calls = [e for e in group if e["decision"] in ("BUY", "SELL")]
-    n_calls = len(calls)
+    n_calls_all = len(calls)
 
-    # Selectivity accuracy (suppressed if n_calls < 10)
-    selectivity_acc = n_correct / n_calls if n_calls >= 10 else None
-    suppressed_sel = n_calls < 10
+    # Called AND graded: BUY/SELL decisions where |ret| > GRADING_BAND
+    # This is the denominator for selectivity_accuracy and selectivity_floor.
+    calls_graded = [
+        e for e in calls
+        if e["ret"] is not None and abs(e["ret"]) > GRADING_BAND
+    ]
+    n_called_graded = len(calls_graded)
 
-    # Selectivity floor: majority-class of calls (by actual direction)
-    called_up = sum(1 for e in calls if (e["direction"] == "UP") or
-                    (e["direction"] is None and e["ret"] is not None and e["ret"] > 0))
-    called_down = sum(1 for e in calls if (e["direction"] == "DOWN") or
-                      (e["direction"] is None and e["ret"] is not None and e["ret"] < 0))
-    sel_floor = max(called_up, called_down) / n_calls if n_calls > 0 else None
+    # Selectivity accuracy: correct / called_and_graded (suppressed if n_called_graded < 10)
+    selectivity_acc = n_correct / n_called_graded if n_called_graded >= 10 else None
+    suppressed_sel = n_called_graded < 10
 
-    # Mean net per trade (suppressed if n_trades < 10)
+    # Selectivity floor: majority direction among called+graded events only.
+    # Same denominator as selectivity_accuracy.
+    n_cg_up = sum(
+        1 for e in calls_graded
+        if e["direction"] == "UP" or
+           (e["direction"] is None and e["ret"] is not None and e["ret"] > GRADING_BAND)
+    )
+    n_cg_down = sum(
+        1 for e in calls_graded
+        if e["direction"] == "DOWN" or
+           (e["direction"] is None and e["ret"] is not None and e["ret"] < -GRADING_BAND)
+    )
+    sel_floor = max(n_cg_up, n_cg_down) / n_called_graded if n_called_graded > 0 else None
+
+    # Mean net per trade: uses all BUY+SELL decisions (n_calls_all), suppressed if < 10
     nets = [e["net"] for e in calls if e["net"] is not None]
     n_trades = len(nets)
     mean_net = statistics.mean(nets) if len(nets) >= 10 else None
@@ -176,26 +199,29 @@ def human_metrics(events: list, info_set: str) -> dict:
         "n_correct_coverage": n_correct,
         "coverage_accuracy": round(coverage_acc, 3) if coverage_acc is not None else "",
         "coverage_floor": round(coverage_floor, 3) if coverage_floor is not None else "",
-        "n_calls": n_calls,
+        # n_calls = n_called_and_graded (BUY+SELL where |ret|>2%), the selectivity denominator.
+        # n_calls_all (all BUY+SELL regardless of outcome) reported in notes.
+        "n_calls": n_called_graded,
         "n_correct_selectivity": n_correct,
         "selectivity_accuracy": round(selectivity_acc, 3) if selectivity_acc is not None else "",
         "selectivity_floor": round(sel_floor, 3) if sel_floor is not None else "",
         "n_trades": n_trades,
         "mean_net_per_trade": round(mean_net, 6) if mean_net is not None else "",
         "suppressed": ",".join(suppressed_parts) if suppressed_parts else "none",
-        "notes": _human_notes(info_set),
+        "notes": _human_notes(info_set, n_calls_all),
     }
 
 
-def _human_notes(info_set: str) -> str:
+def _human_notes(info_set: str, n_calls_all: int = 0) -> str:
+    # n_calls_all = raw BUY+SELL count (before grading filter); included for reference.
     notes = {
-        "full": "Re-priced returns used where available (295/420 rows)",
-        "transcript only": "No direct model equivalent; model never ran a transcript-only arm",
-        "financials": "No direct model equivalent; model cannot mechanically isolate financial tables",
-        "guidance": "No direct model equivalent; model cannot isolate a guidance-only section",
-        "qanda": "Comparable to model qa_only arm; different events",
-        "presentation only": "No direct model equivalent; n_graded=14 (borderline); interpret with caution",
-        "press release document only": "Comparable to model press_release arm; different events; n_calls=11 (borderline)",
+        "full": f"Re-priced returns used where available (295/420 rows); n_calls_all={n_calls_all}",
+        "transcript only": f"No direct model equivalent; model never ran a transcript-only arm; n_calls_all={n_calls_all}",
+        "financials": f"No direct model equivalent; model cannot mechanically isolate financial tables; n_calls_all={n_calls_all}",
+        "guidance": f"No direct model equivalent; model cannot isolate a guidance-only section; n_calls_all={n_calls_all}",
+        "qanda": f"Comparable to model qa_only arm; different events; n_calls_all={n_calls_all}",
+        "presentation only": f"No direct model equivalent; n_graded=14 (borderline); interpret with caution; n_calls_all={n_calls_all}",
+        "press release document only": f"Comparable to model press_release arm; different events; n_called_graded=9 selectivity suppressed (n<10); n_calls_all={n_calls_all}",
     }
     return notes.get(info_set, "")
 
@@ -328,18 +354,31 @@ HEADER_COMMENTS = f"""# Information set comparison: human arm by information set
 #     and n_correct = rows where decision is BUY and outcome is UP, or decision is SELL and outcome is DOWN
 #     (outcome direction derived from re-priced return where available, else original return)
 #     Outcome UP = ret > 0.02, Outcome DOWN = ret < -0.02
-#   selectivity_accuracy = n_correct / n_calls
-#     where n_calls = rows where decision is BUY or SELL (regardless of outcome)
-#     n_correct = same as coverage_accuracy numerator
 #   coverage_floor = max(n_graded_UP, n_graded_DOWN) / n_graded  (majority-class baseline)
-#   selectivity_floor = max(called_UP, called_DOWN) / n_calls  (majority-class baseline for calls)
-#   mean_net_per_trade = mean of re-priced Net P&L (or original) for rows where decision is BUY or SELL
-#     Net P&L: BUY -> ret - 0.001, SELL -> -ret - 0.001, HOLD -> 0 (10bps round-trip cost)
+#     coverage_floor and coverage_accuracy share denominator n_graded.
+#
+#   Human selectivity_accuracy = n_correct / n_called_and_graded
+#     where n_called_and_graded = BUY+SELL decisions where |ret| > 0.02 (called events with graded outcomes)
+#     n_correct = BUY with UP outcome OR SELL with DOWN outcome, among called+graded events only
+#   Human selectivity_floor = max(n_called_graded_UP, n_called_graded_DOWN) / n_called_and_graded
+#     floor and accuracy share the same denominator (n_called_and_graded).
+#     n_called_graded_UP/DOWN = directional counts among called+graded events only.
+#
+#   NOTE: n_calls (human) = n_called_and_graded, the selectivity denominator.
+#   The raw BUY+SELL count (regardless of outcome) is stored in the notes column as n_calls_all.
+#
 #   Model selectivity_accuracy = correct / trades from the section ablation files
-#     where trades = BUY+SELL calls (including flat outcomes), correct = graded correct (matched direction AND |ret|>2%)
+#     where trades = all BUY+SELL calls (including flat/ungraded outcomes)
+#     correct = graded correct (matched direction AND |ret|>2%)
+#   Model n_calls = trades (all BUY+SELL, NOT filtered to |ret|>2%).
+#   CROSS-ARM DENOMINATOR MISMATCH: human n_calls = called+graded; model n_calls = all trades.
+#   Cross-arm selectivity comparisons examine the pattern only; denominators differ.
+#
+#   mean_net_per_trade = mean of re-priced Net P&L (or original) for all BUY+SELL decisions
+#     Net P&L: BUY -> ret - 0.001, SELL -> -ret - 0.001, HOLD -> 0 (10bps round-trip cost)
 #
 # Grading band: +-2% raw overnight return (pre-registered)
-# Suppression threshold: coverage suppressed if n_graded < 10; selectivity suppressed if n_calls < 10
+# Suppression threshold: coverage suppressed if n_graded < 10; selectivity suppressed if n_called_and_graded < 10
 #
 # IMPORTANT: Section-level reads (transcript only, qanda, financials, guidance, presentation only,
 #   press release document only) are a DIFFERENT experiment from full-document reads.
@@ -362,18 +401,19 @@ HEADER_COMMENTS = f"""# Information set comparison: human arm by information set
 #   buy_share: fraction of decisions that are BUY
 #   hold_share: fraction of decisions that are HOLD
 #   sell_share: fraction of decisions that are SELL
-#   n_graded: rows with |ret| > 2% (human) or n_events (model)
+#   n_graded: rows with |ret| > 2% (human) or n_events (model); coverage denominator
 #   n_correct_coverage: correct directional predictions among graded events
 #   coverage_accuracy: n_correct_coverage / n_graded (suppressed if n_graded < 10)
-#   coverage_floor: majority-class baseline for coverage denominator
-#   n_calls: BUY+SELL decisions (human) or trades (model)
-#   n_correct_selectivity: correct directional predictions among called/traded events (graded outcomes only)
+#   coverage_floor: max(n_graded_UP, n_graded_DOWN) / n_graded; same denominator as coverage_accuracy
+#   n_calls: BUY+SELL decisions where |ret|>2% (human, = n_called_and_graded, selectivity denominator)
+#            OR all BUY+SELL trades (model). See cross-arm denominator mismatch note above.
+#   n_correct_selectivity: correct directional predictions among called+graded events
 #   selectivity_accuracy: n_correct_selectivity / n_calls (suppressed if n_calls < 10)
-#   selectivity_floor: majority-class baseline for selectivity denominator
-#   n_trades: BUY+SELL calls with non-None net P&L
+#   selectivity_floor: max(called_graded_UP, called_graded_DOWN) / n_calls; same denominator as selectivity_accuracy
+#   n_trades: BUY+SELL calls with non-None net P&L (= n_calls_all for human, used for mean_net only)
 #   mean_net_per_trade: mean net P&L per trade (suppressed if n_trades < 10)
 #   suppressed: which metrics are suppressed due to small n
-#   notes: any additional notes
+#   notes: additional notes; human rows include n_calls_all (raw BUY+SELL count before grading filter)
 """
 
 FIELDNAMES = [
@@ -475,6 +515,12 @@ def write_md(human_rows: dict, model_rows: list, out_path: Path) -> None:
 
     lines.append("### Observations")
     lines.append("")
+    lines.append("- **Selectivity denominator**: n_calls here is n_called_and_graded (BUY+SELL decisions "
+                 "where |ret|>2%), NOT the raw BUY+SELL count. Raw counts are in the notes column "
+                 "(n_calls_all). This ensures selectivity_floor and selectivity_accuracy share the same "
+                 "denominator. The model arm uses all trades (including flat outcomes) as denominator — "
+                 "cross-arm selectivity comparisons are pattern-only; denominators differ.")
+    lines.append("")
     lines.append("- **Transcript anomaly**: transcript-only mean reading time 33.5 min vs full 29.8 min. "
                  "Transcript-only sessions read one section that is longer and denser than an average section "
                  "of the full bundle. The full-bundle time includes all sections in one sitting; some "
@@ -487,8 +533,9 @@ def write_md(human_rows: dict, model_rows: list, out_path: Path) -> None:
     lines.append("- **Presentation only coverage 64.3%** (n_graded=14, borderline): above the 57.1% floor. "
                  "n_graded=14 is marginal. Interpret with caution.")
     lines.append("")
-    lines.append("- **Press release doc only selectivity 63.6%** (n_calls=11, borderline): "
-                 "11 BUY+SELL calls; small n.")
+    lines.append("- **Press release doc only selectivity suppressed** (n_called_graded=9, below threshold of 10). "
+                 "n_calls_all=11 but only 9 of those calls have a graded outcome (|ret|>2%). "
+                 "Coverage accuracy 46.7% (n_graded=15) is reportable.")
     lines.append("")
     lines.append("---")
     lines.append("")
@@ -569,6 +616,21 @@ def write_md(human_rows: dict, model_rows: list, out_path: Path) -> None:
                  f"{mfull_a.get('selectivity_accuracy', '?')} | {mfull_b.get('selectivity_accuracy', '?')} |")
     lines.append("")
     lines.append("Human and model comparisons are across **different events** — pattern comparison only.")
+    lines.append("")
+    lines.append("**Denominator note**: human selectivity uses n_called_and_graded (BUY+SELL where |ret|>2%); "
+                 "model selectivity uses all trades (BUY+SELL including flat outcomes). "
+                 "Human n_calls_all (raw BUY+SELL count) is in the notes column of the CSV. "
+                 "This mismatch means the human selectivity figures are not directly comparable to model figures "
+                 "in magnitude — the cross-arm comparison is of pattern (flat vs differentiated) only.")
+    lines.append("")
+    lines.append("**Impact on Item C comparison (section ablation)**: "
+                 "Human full selectivity on the corrected denominator is "
+                 f"{hfull.get('selectivity_accuracy', '?')} (n_called_graded={hfull.get('n_calls', '?')}), "
+                 f"vs model full_bundle Set A {mfull_a.get('selectivity_accuracy', '?')} "
+                 f"and Set B {mfull_b.get('selectivity_accuracy', '?')}. "
+                 "The human figure exceeds the model on the corrected denominator, reversing the direction "
+                 "of the comparison from the prior (all-calls) denominator. "
+                 "The denominator definitions differ, so this is not a clean head-to-head.")
 
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
