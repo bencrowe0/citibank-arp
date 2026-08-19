@@ -56,7 +56,7 @@ KAPPA_MATRIX_GATE = {("BUY", "BUY"): 32, ("BUY", "HOLD"): 43, ("BUY", "SELL"): 2
                      ("HOLD", "BUY"): 6, ("HOLD", "HOLD"): 14, ("HOLD", "SELL"): 20,
                      ("SELL", "BUY"): 4, ("SELL", "HOLD"): 12, ("SELL", "SELL"): 19}
 FRONTIER_GATE = {"eval_n": 186, "graded_n": 119, "correct_flat_excluded": 51,
-                 "correct_flat_as_wrong": 82}
+                 "correct_flat_as_wrong": 82, "ci_low": 0.353, "ci_high": 0.504}
 
 
 def _num(x):
@@ -148,11 +148,21 @@ def build_frontier(events):
         c_excl = sum(1 for e in graded if call(e) == truth(e))
         c_wrong = sum(1 for e in eval_split if call(e) == truth(e, three_way=True))
         traded = sum(1 for e in eval_split if call(e) in ("BUY", "SELL"))
+        # The committed row's CI [0.353, 0.504] reproduces from this, so the new
+        # row gets a recomputed CI rather than the old one carried forward beside
+        # a changed point estimate.
+        hits = np.array([1.0 if call(e) == truth(e) else 0.0 for e in graded])
+        rng = np.random.RandomState(RNG_SEED)
+        boot = np.array([hits[rng.randint(0, len(hits), len(hits))].mean()
+                         for _ in range(N_BOOT)])
+        alpha = 1 - CI
         out[tag] = {"eval_n": len(eval_split), "graded_n": len(graded),
                     "correct_flat_excluded": c_excl, "correct_flat_as_wrong": c_wrong,
                     "traded": traded,
                     "acc_flat_excluded": c_excl / len(graded),
                     "acc_flat_as_wrong": c_wrong / len(eval_split),
+                    "ci_low": float(np.percentile(boot, 100 * alpha / 2)),
+                    "ci_high": float(np.percentile(boot, 100 * (1 - alpha / 2))),
                     "weights": w, "hu": hu, "hl": hl}
     return out
 
@@ -194,7 +204,7 @@ def main() -> int:
     print(f"  [{'OK' if not bad else 'FAIL'}] kappa.confusion_matrix: "
           f"{'all 9 cells reproduce' if not bad else 'differs at ' + ', '.join(bad)}")
     fails += bad
-    fails += gate("frontier", f["superseded"], FRONTIER_GATE)
+    fails += gate("frontier", f["superseded"], FRONTIER_GATE, tol=5e-4)
 
     if fails:
         raise SystemExit(f"\n{len(fails)} gate check(s) failed. Nothing written.")
@@ -206,8 +216,9 @@ def main() -> int:
     print(f"  kappa    {d['kappa']:.4f}  90% CI [{kl:.3f}, {kh:.3f}]  "
           f"agreement {d['obs']:.4f}/{d['exp']:.4f}")
     print(f"  frontier flat-excluded {fd['correct_flat_excluded']}/{fd['graded_n']} = "
-          f"{fd['acc_flat_excluded']*100:.1f}%   flat-as-wrong "
-          f"{fd['correct_flat_as_wrong']}/{fd['eval_n']} = {fd['acc_flat_as_wrong']*100:.1f}%")
+          f"{fd['acc_flat_excluded']*100:.1f}% 90% CI [{fd['ci_low']:.3f}, {fd['ci_high']:.3f}]"
+          f"   flat-as-wrong {fd['correct_flat_as_wrong']}/{fd['eval_n']} = "
+          f"{fd['acc_flat_as_wrong']*100:.1f}%")
 
     write_kappa(d, kl, kh)
     write_frontier(fd)
@@ -263,6 +274,7 @@ def write_frontier(fd):
             r["accuracy_flat_excluded"] = f"{fd['acc_flat_excluded']:.4f}"
             r["accuracy_flat_as_wrong"] = f"{fd['acc_flat_as_wrong']:.4f}"
             r["traded_n"] = fd["traded"]
+            r["bootstrap_ci_flat_excluded"] = f"[{fd['ci_low']:.3f}, {fd['ci_high']:.3f}]"
             r["note"] = (f"Structured output with evidence quotes; API cost per document. "
                          f"FLAT-excluded: {fd['correct_flat_excluded']}/{fd['graded_n']}.")
     with FRONTIER_CSV.open("w", newline="") as fh:
