@@ -21,14 +21,14 @@ from typing import NamedTuple
 
 from report_pipeline import BASE_DIR, OUTPUTS_DIR, load_manifest
 
-DEFAULT_WEIGHTS = (0.55, 0.45, 0.0, 0.0)  # (micro, macro, news, quant)
+DEFAULT_WEIGHTS = (0.80, 0.20, 0.0, 0.0)  # (micro, macro, news, quant)
 
 # Canonical sentiment-score thresholds (asymmetric) - the values eval/calibrate.py,
 # backtest.py, and the deployed default actually use everywhere. Defined here
 # (not in eval/calibrate.py) because eval/calibrate.py already imports from this
 # module - defining them there and importing back would be circular.
-DEFAULT_HOLD_UPPER = 0.25
-DEFAULT_HOLD_LOWER = -0.05
+DEFAULT_HOLD_UPPER = 0.20
+DEFAULT_HOLD_LOWER = -0.10
 
 MANIFESTS = {
     "boeing": BASE_DIR / "manifests" / "boeing_reports.json",
@@ -161,10 +161,10 @@ if __name__ == "__main__":
     import sys
 
     # Hand-computed sanity check: micro=0.4, macro=0.2, news=-0.2, quant=0.5,
-    # weights=0.55/0.45/0.0/0.0 (current DEFAULT_WEIGHTS, promoted 2026-08-05 - see CLAUDE.md)
-    # expected = 0.4*0.55 + 0.2*0.45 + (-0.2)*0.0 + 0.5*0.0 = 0.22 + 0.09 = 0.31
+    # weights=0.80/0.20/0.0/0.0 (current DEFAULT_WEIGHTS, promoted 2026-08-19 - see CLAUDE.md)
+    # expected = 0.4*0.80 + 0.2*0.20 + (-0.2)*0.0 + 0.5*0.0 = 0.32 + 0.04 = 0.36
     check = blend_scores(0.4, 0.2, -0.2, 0.5, DEFAULT_WEIGHTS)
-    assert abs(check - 0.31) < 1e-9, f"Sanity check failed: got {check}, expected 0.31"
+    assert abs(check - 0.36) < 1e-9, f"Sanity check failed: got {check}, expected 0.36"
     print(f"Sanity check passed: blend_scores(0.4, 0.2, -0.2, 0.5) = {check}")
 
     # bare `python blend.py` (no args) blends every phase2 issuer - phase2 is the

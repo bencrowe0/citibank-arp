@@ -598,17 +598,97 @@ def compute_all(paired):
 
 
 # ---------------------------------------------------------------------------
+# Verification expectations, keyed on the DEPLOYED constants
+# ---------------------------------------------------------------------------
+# Every figure below moves when blend.py's constants move, so a single hardcoded
+# table stops asserting anything the moment they are promoted - it just fails 24
+# times and prints "Continuing anyway". Keying the table on the deployed regime
+# keeps the guard biting at whichever regime is deployed, and keeps the
+# superseded regime's figures in the file as the record of what it published.
+#
+# An unrecognised regime is a hard error, not an empty pass: a future constants
+# change has to record what it expects before this script will run at all.
+VERIFY_EXPECTATIONS = {
+    # committed 2026-08-05, superseded 2026-08-19. These are the figures the
+    # individual report and Master_Data_Phase_3.xlsx published.
+    ((0.55, 0.45, 0.0, 0.0), 0.25, -0.05): {
+        "N paired": 171,
+        "Direction-only N": 76,
+        "Human sign correct": 44, "Human sign accuracy %": "57.9",
+        "LLM sign correct": 46, "LLM sign accuracy %": "60.5",
+        "Always-BUY correct": 33, "Always-BUY %": "43.4",
+        "Always-DOWN correct (incl zero)": 43, "Always-DOWN %": "56.6",
+        "Human BUY calls": 96, "Human HOLD calls": 40, "Human SELL calls": 35,
+        "LLM BUY calls": 42, "LLM HOLD calls": 69, "LLM SELL calls": 60,
+        "Human traded": 131, "Human graded": 79, "Human correct (pooled)": 45,
+        "LLM traded": 102, "LLM graded": 58, "LLM correct (pooled)": 40,
+        "Paired graded N": 48,
+        "Human BUY accuracy numerator": 27, "Human BUY accuracy denominator": 53,
+        "Human SELL accuracy numerator": 17, "Human SELL accuracy denominator": 23,
+        "LLM BUY accuracy numerator": 20, "LLM BUY accuracy denominator": 36,
+        "LLM SELL accuracy numerator": 26, "LLM SELL accuracy denominator": 40,
+        "fact_based N": 34, "price_based N": 64,
+    },
+    # promoted 2026-08-19. Recorded only after the block above reproduced 33/33
+    # on the same code path - the gate this project runs on every figure.
+    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10): {
+        "N paired": 171,
+        "Direction-only N": 86,
+        "Human sign correct": 50, "Human sign accuracy %": "58.1",
+        "LLM sign correct": 51, "LLM sign accuracy %": "59.3",
+        "Always-BUY correct": 40, "Always-BUY %": "46.5",
+        "Always-DOWN correct (incl zero)": 46, "Always-DOWN %": "53.5",
+        "Human BUY calls": 96, "Human HOLD calls": 40, "Human SELL calls": 35,
+        "LLM BUY calls": 73, "LLM HOLD calls": 53, "LLM SELL calls": 45,
+        "Human traded": 131, "Human graded": 79, "Human correct (pooled)": 45,
+        "LLM traded": 118, "LLM graded": 70, "LLM correct (pooled)": 44,
+        "Paired graded N": 55,
+        "Human BUY accuracy numerator": 34, "Human BUY accuracy denominator": 64,
+        "Human SELL accuracy numerator": 16, "Human SELL accuracy denominator": 22,
+        "LLM BUY accuracy numerator": 33, "LLM BUY accuracy denominator": 60,
+        "LLM SELL accuracy numerator": 18, "LLM SELL accuracy denominator": 26,
+        "fact_based N": 34, "price_based N": 64,
+    },
+}
+
+
+def deployed_expectations():
+    """The expectation block for whatever blend.py currently deploys."""
+    # ROOT, not the cwd: this script is run both as a module and by path, and
+    # its inputs are already resolved from __file__ for the same reason.
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    from blend import DEFAULT_HOLD_LOWER, DEFAULT_HOLD_UPPER, DEFAULT_WEIGHTS
+    key = (tuple(round(w, 6) for w in DEFAULT_WEIGHTS),
+           round(DEFAULT_HOLD_UPPER, 6), round(DEFAULT_HOLD_LOWER, 6))
+    if key not in VERIFY_EXPECTATIONS:
+        raise SystemExit(
+            f"No verification expectations recorded for the deployed constants {key}.\n"
+            "Add a block to VERIFY_EXPECTATIONS - gated against the superseded regime "
+            "first - before running this script at new constants."
+        )
+    return VERIFY_EXPECTATIONS[key]
+
+
+# ---------------------------------------------------------------------------
 # Verification
 # ---------------------------------------------------------------------------
 
 def verify(paired):
-    """Print verification of key figures against human_vs_llm_corrected.md."""
+    """Print verification of key figures against human_vs_llm_corrected.md.
+
+    Expectations come from VERIFY_EXPECTATIONS, keyed on the deployed constants,
+    so the assertions follow a promotion instead of being silently invalidated
+    by one.
+    """
     N = len(paired)
+    expectations = deployed_expectations()
     print(f"\n=== VERIFICATION ===")
 
     checks = []
 
-    def check(label, expected, actual):
+    def check(label, _legacy, actual):
+        expected = expectations[label]
         ok = expected == actual
         status = "OK" if ok else "MISMATCH"
         checks.append((label, expected, actual, ok))

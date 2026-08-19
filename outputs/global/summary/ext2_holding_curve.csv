@@ -1,33 +1,17 @@
 # Extension 2: holding-period curve
 # run_id: 20260812_183842
-# model: DeepSeek (blend weights (0.55, 0.45, 0.0, 0.0))
-# thresholds: hold_upper=0.25, hold_lower=-0.05
+# model: DeepSeek (blend weights (0.8, 0.2, 0.0, 0.0))
+# thresholds: hold_upper=0.2, hold_lower=-0.1
 # cost_bps: 10.0, short_borrow_bps: 0.0
 # clean_n: 233 (excluded: {'worksheet': 25, 'misattributed': 1, 'timing': 9})
-# generated: 2026-08-12 18:41:20
+# generated: 2026-08-19 19:30:23
 # NOTE: overnight band (+/-2%) is PRE-REGISTERED and fixed.
 #       All longer-horizon bands are RECALIBRATED and secondary.
 #       Returns are NOT compounded across horizons; each is an
 #       alternative version of the same trade.
-#
-# CO-HEADLINE FINDING: decay curve + rho=0.236 are one unified result.
-# Mean net per trade decays from +1.86% (overnight) to +0.66% (10d).
-# Accuracy decays from 65.3% to 53.4% (65.3% is on 95 graded events out
-# of 233 clean events; majority-direction floor 54.7% (always-DOWN)).
-# Rho decays from 0.236 (p=0.0003) to 0.058 (p=0.380).
-# Bootstrap CI on raw direction-signed mean net crosses zero between 3 and 5 days
-# (3d lower bound +0.029%, 5d lower bound -0.270%). The excess-over-SPY series
-# (excess_* columns in returns_matrix.csv) is a separate per-event diagnostic and
-# is not monotonic; its non-monotonicity reflects SPY's own multi-horizon pattern
-# across those entry dates, not the model signal.
-# This validates the overnight window as a measured choice rather than a
-# convenient assumption, and rules out post-earnings drift as the mechanism.
-# Rho=0.236 at p=0.0003 is the most statistically robust single result in
-# the study: uses the full N=233 with no band filter, no trade/HOLD split,
-# and no grading threshold. It survived the anchor correction (was 0.221).
 horizon,mean_net_per_trade,accuracy,graded_n,traded_n,rank_correlation,rho_pvalue,bootstrap_ci_low,bootstrap_ci_high,hold_band,band_status
-overnight,0.018616931506849312,0.6526315789473685,95,146,0.23600083738353303,0.0002785250451562481,0.009831992808219177,0.027557801369863015,0.02,pre-registered
-1d,0.012505335616438356,0.6020408163265306,98,146,0.15866528860296336,0.015339117927185278,0.0032567989726027375,0.022097503767123283,0.022462,recalibrated
-3d,0.010264321917808218,0.5625,96,146,0.1115025886636653,0.08947776508231202,0.0002934780821917794,0.02050794931506849,0.023096,recalibrated
-5d,0.008458328767123286,0.5212765957446809,94,146,0.07165816947388295,0.27600713412648264,-0.002701320205479452,0.01950699417808219,0.026177,recalibrated
-10d,0.00685977397260274,0.5339805825242718,103,146,0.0577874074265365,0.37990216325825665,-0.006347328424657536,0.02026334006849315,0.035159,recalibrated
+overnight,0.017976153846153843,0.6272727272727273,110,169,0.2589286343557402,6.346602373746911e-05,0.010044342307692309,0.02626807100591716,0.02,pre-registered
+1d,0.011611958579881655,0.591304347826087,115,169,0.190967711326132,0.0034302308534947326,0.00291478402366864,0.020628686390532544,0.022462,recalibrated
+3d,0.008113970414201182,0.5258620689655172,116,169,0.13186201160087233,0.04435189980872066,-0.0010146674556213019,0.01762293816568047,0.023096,recalibrated
+5d,0.009084201183431954,0.5092592592592593,108,169,0.09436915470181335,0.15101883941504327,-0.0008379100591715995,0.01937209674556211,0.026177,recalibrated
+10d,0.014262000000000002,0.5701754385964912,114,169,0.09593595388133004,0.1443196277130739,0.00246984526627219,0.026493500295857987,0.035159,recalibrated
