@@ -34,6 +34,7 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 
 from report_pipeline import (
     ReportSpec,
@@ -171,8 +172,8 @@ def load_exclusions() -> set[str]:
         for r in reader:
             if r["has_human_score"].strip() == "True":
                 excluded.add(r["document_id"].strip())
-    # Misattributed document
-    excluded.add("SPOT_FQ1_2026")
+    # Bad-document exclusions - see eval/excluded_events.py for the reasons
+    excluded |= EXCLUDED_EVENTS
     # Truncated transcripts
     excluded |= {"LLY_FQ1_2026", "LLY_FQ3_2025", "LLY_FQ4_2025"}
     # Timing exclusions (unknown/null release_timing)

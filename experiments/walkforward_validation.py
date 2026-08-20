@@ -76,6 +76,7 @@ from scipy.stats import binomtest
 
 # -- project imports ----------------------------------------------------------
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 from blend import (
     DEFAULT_HOLD_LOWER,
     DEFAULT_HOLD_UPPER,
@@ -161,7 +162,7 @@ def _load_clean_events() -> list[dict]:
         for r in csv.DictReader(f):
             if r.get("has_human_score", "").strip() == "True":
                 worksheet_excluded.add(r["document_id"])
-    spot_excluded = {"SPOT_FQ1_2026"}
+    spot_excluded = set(EXCLUDED_EVENTS)
 
     # Merge and filter
     events = []

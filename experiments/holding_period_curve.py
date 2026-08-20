@@ -33,6 +33,7 @@ from scipy import stats as sp_stats
 
 # -- project imports ----------------------------------------------------------
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 from blend import DEFAULT_HOLD_LOWER, DEFAULT_HOLD_UPPER, DEFAULT_WEIGHTS, blend_scores
 from bootstrap_stats import bootstrap_trade_stats
 
@@ -137,7 +138,7 @@ def main(
     run_id = returns_rows[0].get("run_id", "unknown") if returns_rows else "unknown"
 
     # -- build event records, applying exclusions ----------------------------
-    EXCLUDED_DOCS = {"SPOT_FQ1_2026"}
+    EXCLUDED_DOCS = set(EXCLUDED_EVENTS)
     events = []
     excluded_counts = {"worksheet": 0, "misattributed": 0, "timing": 0}
 

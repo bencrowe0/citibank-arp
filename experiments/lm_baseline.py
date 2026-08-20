@@ -34,7 +34,14 @@ from pathlib import Path
 import numpy as np
 import pysentiment2 as ps
 
+# ROOT on the path before the repo imports below: run as a script, sys.path[0]
+# is experiments/, so `import backtest` raised ModuleNotFoundError.
+import sys
+from pathlib import Path as _Path
+sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+
 from backtest import OUTPUTS_DIR
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 
 # ── paths ──
 PHASE2_CALIBRATION_CSV = OUTPUTS_DIR / "global" / "summary" / "global_outcome_calibration_phase2.csv"
@@ -56,7 +63,8 @@ WORKSHEET_EXCLUDED = frozenset({
     "NVDA_FQ1_2025", "NVDA_FQ2_2025", "NVDA_FQ3_2025", "NVDA_FQ4_2025",
     "TSLA_FQ1_2026", "TSLA_FQ3_2025", "TSLA_FQ4_2025",
 })
-SPOT_EXCLUDED = frozenset({"SPOT_FQ1_2026"})
+# Bad-document exclusions - see eval/excluded_events.py for the reasons.
+SPOT_EXCLUDED = EXCLUDED_EVENTS
 
 _LM = ps.LM()
 
@@ -135,8 +143,10 @@ def load_events() -> list[dict]:
                 "outcome_label": outcome,
                 "blend_predicted_signal_default": r["blend_predicted_signal_default"],
             })
+    # "SPOT" was accurate while that set held one event. It now holds the
+    # bad-document exclusions, of which SPOT_FQ1_2026 is one.
     print(f"Exclusions applied: {len(WORKSHEET_EXCLUDED)} worksheet + "
-          f"{len(SPOT_EXCLUDED)} SPOT + {len(timing_excl)} timing = "
+          f"{len(SPOT_EXCLUDED)} bad-document + {len(timing_excl)} timing = "
           f"{len(all_excluded)} total")
     return events
 

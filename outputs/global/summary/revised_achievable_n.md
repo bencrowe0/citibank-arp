@@ -1,7 +1,7 @@
 # Revised Achievable N
 
-Run ID: `20260811T211909Z`
-Generated: 2026-08-11T21:19:11.593617+00:00
+Run ID: `20260820T150023Z`
+Generated: 2026-08-20T15:00:25.294536+00:00
 
 ## Source
 
@@ -40,11 +40,11 @@ Events failed to `manual` by proportional check (prepared < 10% of transcript): 
 |----------|-------|--------|
 | Human-score worksheet | 25 | AMD_FQ1_2026, AMD_FQ2_2025, AMD_FQ4_2025, AMZN_FQ1_2026, AMZN_FQ3_2025... |
 | Truncated LLY transcripts | 3 | LLY_FQ1_2026, LLY_FQ3_2025, LLY_FQ4_2025 |
-| Misattributed SPOT | 1 | SPOT_FQ1_2026 |
+| Misattributed SPOT | 2 | DIS_FQ1_2025, SPOT_FQ1_2026 |
 
 Overlap (already in human-score list): LLY_FQ1_2026, LLY_FQ3_2025, LLY_FQ4_2025
 
-Total unique exclusions: **26**
+Total unique exclusions: **27**
 
 ## 1. Four-arm intersection N
 
@@ -58,7 +58,7 @@ Events where press_release=available AND prepared_remarks=available AND qa=avail
 Events where press_release=available. Materially larger because it does not require a splittable transcript.
 
 - **Before exclusions: 211**
-- **After exclusions: 210**
+- **After exclusions: 209**
 
 ## 3. No-transcript events: company and region breakdown
 

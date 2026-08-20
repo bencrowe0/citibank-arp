@@ -6,21 +6,21 @@
   "no_external_desk_cost_in_repo": "No externally-cited realistic desk cost exists in this repository. Dr Rock or any comparable external estimate is not committed here. The only reference points are: deployed assumption 10bps round-trip (Model_Arm_Gap_Spec.md line 18). Any claim that the breakeven exceeds realistic trading costs is UNCITED in this repo and must either be dropped or attributed to an external source supplied by the user.",
   "n268_corrected_anchor": {
     "n_predictions": 268,
-    "n_trades_at_10bps": 171,
-    "mean_net_at_10bps_pct": 1.9581,
-    "compounded_return_at_10bps_pct": 1840.23,
-    "breakeven_compounded_total_return_bps": 184.56,
-    "breakeven_mean_net_per_trade_bps": 205.81,
+    "n_trades_at_10bps": 196,
+    "mean_net_at_10bps_pct": 1.8477,
+    "compounded_return_at_10bps_pct": 2379.47,
+    "breakeven_compounded_total_return_bps": 174.84,
+    "breakeven_mean_net_per_trade_bps": 194.76,
     "anchor": "corrected release_date (returns_matrix.csv entry_date, 2026-08-12)"
   },
   "n233_corrected_anchor": {
-    "n_predictions": 233,
-    "n_excluded": 35,
-    "n_trades_at_10bps": 146,
-    "mean_net_at_10bps_pct": 1.8436,
-    "compounded_return_at_10bps_pct": 972.54,
-    "breakeven_compounded_total_return_bps": 173.51,
-    "breakeven_mean_net_per_trade_bps": 194.35,
+    "n_predictions": 232,
+    "n_excluded": 36,
+    "n_trades_at_10bps": 168,
+    "mean_net_at_10bps_pct": 1.7963,
+    "compounded_return_at_10bps_pct": 1349.97,
+    "breakeven_compounded_total_return_bps": 170.15,
+    "breakeven_mean_net_per_trade_bps": 189.62,
     "anchor": "corrected release_date (returns_matrix.csv entry_date, 2026-08-12)"
   },
   "original_ext9_superseded": {

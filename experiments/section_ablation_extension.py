@@ -50,7 +50,9 @@ from bootstrap_stats import bootstrap_paired_difference
 
 SUMMARY_DIR = PROJECT_ROOT / "outputs" / "global" / "summary"
 EXT_CALIBRATION_CSV = SUMMARY_DIR / "global_outcome_calibration_extension_2026_08_13.csv"
-EXT_BACKTEST_CSV = SUMMARY_DIR / "backtest_equity_extension_2026_08_13.csv"
+# One source of truth for which extension-gap vintage is current; four files
+# used to carry their own copy of this name. See eval/extension_gaps.py.
+from eval.extension_gaps import CURRENT_GAP_FILE as EXT_BACKTEST_CSV  # noqa: E402
 
 OUT_RESULTS = SUMMARY_DIR / "section_ablation_extension_results.csv"
 OUT_SUMMARY = SUMMARY_DIR / "section_ablation_extension_summary.csv"
@@ -167,15 +169,33 @@ def _get_arm_texts(full_text: str) -> dict[str, str | None]:
 
 # ── data loading ─────────────────────────────────────────────────────────────
 
-def _load_overnight_returns() -> dict[tuple[str, str], float]:
-    gaps: dict[tuple[str, str], float] = {}
+def _load_overnight_returns() -> dict[str, float]:
+    """Overnight gaps from the extension backtest CSV, keyed on document_id.
+
+    NOT on (ticker, report_date). The calibration roster is a frozen 2026-08-13
+    artefact whose report_date column still carries the first-of-month
+    placeholders, so a date-keyed join silently drops every event whose anchor has
+    since been corrected - four Hermes events on 2026-08-24.
+    """
+    gaps: dict[str, float] = {}
     with open(EXT_BACKTEST_CSV) as f:
-        for r in csv.DictReader(f):
+        reader = csv.DictReader(f)
+        if "document_id" not in (reader.fieldnames or []):
+            raise SystemExit(
+                f"{EXT_BACKTEST_CSV.name} has no document_id column. Vintages before\n"
+                f"2026-08-24 were keyed on (ticker, report_date). Regenerate with\n"
+                f"`python -m eval.extension_gaps` and repoint CURRENT_GAP_FILE.")
+        for r in reader:
             if r["rater"] == "LLM (DeepSeek)":
                 try:
-                    gaps[(r["ticker"], r["report_date"])] = float(r["gap"])
+                    gaps[r["document_id"]] = float(r["gap"])
                 except (ValueError, KeyError):
                     pass
+    if not gaps:
+        raise SystemExit(
+            f"{EXT_BACKTEST_CSV.name} yielded no gaps. The loop above swallows\n"
+            f"ValueError and KeyError, so a changed column set or a comment line\n"
+            f"before the header reads as zero events rather than as an error.")
     return gaps
 
 
@@ -183,7 +203,7 @@ def _load_events(overnight_gaps) -> list[dict]:
     events = []
     with open(EXT_CALIBRATION_CSV) as f:
         for r in csv.DictReader(f):
-            key = (r["ticker"], r["report_date"])
+            key = r["document_id"]
             if key not in overnight_gaps:
                 continue
             events.append({

@@ -1,8 +1,8 @@
 """
 experiments/walkforward_combined.py
-Item E: Walk-forward validation on the combined Set C (N=326).
+Item E: Walk-forward validation on the combined Set C.
 
-Combines the frozen N=233 phase2 clean events with the N=93 extension
+Combines the frozen phase2 clean events with the N=93 extension
 events (all 93 are clean — no worksheet contamination, SPOT exclusion,
 or timing exclusions apply to the extension corpus).
 
@@ -17,8 +17,10 @@ Extension overnight returns sourced from backtest_equity_extension_2026_08_13.cs
 
 RETROSPECTIVE VALIDATION — NOT PRE-REGISTERED.
 The deployed thresholds (hold_upper=+0.25, hold_lower=-0.05) were selected
-on the full frozen N=233 dataset. The combined N=326 is also retrospective —
-all 326 events have been seen.
+on the full frozen phase2 dataset. The combined set is also retrospective —
+every event in it has been seen. The counts are printed, not written here: the
+clean universe was 233 and the combined set 326 until DIS_FQ1_2025 was excluded
+on 2026-08-24, and a count in a docstring cannot be re-derived.
 
 Outputs:
   outputs/global/summary/item_e_combined_walkforward.json
@@ -45,7 +47,10 @@ SUMMARY_DIR = Path(__file__).resolve().parent.parent / "outputs" / "global" / "s
 PHASE2_CALIBRATION_CSV = SUMMARY_DIR / "global_outcome_calibration_phase2.csv"
 EXT_CALIBRATION_CSV = SUMMARY_DIR / "global_outcome_calibration_extension_2026_08_13.csv"
 RETURNS_CSV = SUMMARY_DIR / "returns_matrix.csv"
-EXT_BACKTEST_CSV = SUMMARY_DIR / "backtest_equity_extension_2026_08_13.csv"
+# One source of truth for which extension-gap vintage is current; four files
+# used to carry their own copy of this name. See eval/extension_gaps.py.
+from eval.extension_gaps import CURRENT_GAP_FILE as EXT_BACKTEST_CSV  # noqa: E402
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 LEAK_FLAGS_CSV = SUMMARY_DIR / "worksheet_leak_flags.csv"
 
 OUT_JSON = SUMMARY_DIR / "item_e_combined_walkforward.json"
@@ -68,7 +73,7 @@ def _num(x):
 
 
 def _load_phase2_events() -> list[dict]:
-    """Load the N=233 frozen clean events from phase2."""
+    """Load the frozen clean events from phase2 (233 before the 2026-08-24 exclusion)."""
     cal = {}
     with open(PHASE2_CALIBRATION_CSV) as f:
         for r in csv.DictReader(f):
@@ -86,7 +91,7 @@ def _load_phase2_events() -> list[dict]:
             if r.get("has_human_score", "").strip() == "True":
                 worksheet_excluded.add(r["document_id"])
 
-    spot_excluded = {"SPOT_FQ1_2026"}
+    spot_excluded = set(EXCLUDED_EVENTS)
     events = []
     for did, c in cal.items():
         if did in worksheet_excluded or did in spot_excluded:
@@ -112,25 +117,45 @@ def _load_phase2_events() -> list[dict]:
 
 
 def _load_extension_events() -> list[dict]:
-    """Load all 93 extension events. No exclusions applied (all are clean)."""
+    """Load all 93 extension events. No exclusions applied (all are clean).
+
+    The gap join is on document_id, not (ticker, report_date): this roster is the
+    frozen 2026-08-13 artefact and its report_date column still carries the
+    first-of-month placeholders, so a date-keyed join drops every re-anchored
+    event through the `continue` below. The count is asserted at the end, because
+    "all 93" is a claim this function should not be able to break quietly.
+    """
     # Get overnight returns from backtest CSV (LLM rows)
-    gaps: dict[tuple[str, str], float] = {}
+    gaps: dict[str, float] = {}
     with open(EXT_BACKTEST_CSV) as f:
-        for r in csv.DictReader(f):
+        reader = csv.DictReader(f)
+        if "document_id" not in (reader.fieldnames or []):
+            raise SystemExit(
+                f"{EXT_BACKTEST_CSV.name} has no document_id column. Vintages before\n"
+                f"2026-08-24 were keyed on (ticker, report_date). Regenerate with\n"
+                f"`python -m eval.extension_gaps` and repoint CURRENT_GAP_FILE.")
+        for r in reader:
             if r["rater"] == "LLM (DeepSeek)":
                 try:
-                    gaps[(r["ticker"], r["report_date"])] = float(r["gap"])
+                    gaps[r["document_id"]] = float(r["gap"])
                 except (ValueError, KeyError):
                     pass
+    if not gaps:
+        raise SystemExit(
+            f"{EXT_BACKTEST_CSV.name} yielded no gaps. The loop above swallows\n"
+            f"ValueError and KeyError, so a changed column set or a comment line\n"
+            f"before the header reads as zero events rather than as an error.")
 
-    events = []
+    events, missing_gap, missing_micro = [], [], []
     with open(EXT_CALIBRATION_CSV) as f:
         for r in csv.DictReader(f):
-            key = (r["ticker"], r["report_date"])
+            key = r["document_id"]
             if key not in gaps:
+                missing_gap.append(key)
                 continue
             micro = _num(r.get("micro_score"))
             if micro is None:
+                missing_micro.append(key)
                 continue
             events.append({
                 "document_id": r["document_id"],
@@ -143,6 +168,13 @@ def _load_extension_events() -> list[dict]:
                 "ret_overnight": gaps[key],
                 "set": "extension",
             })
+    if missing_gap or missing_micro:
+        raise SystemExit(
+            f"extension roster and gap file disagree on the event set: "
+            f"{len(missing_gap)} event(s) have no gap {missing_gap[:6]}, "
+            f"{len(missing_micro)} have no micro_score {missing_micro[:6]}. "
+            f"Both files must cover the same 93 events; regenerate the gap file "
+            f"with `python -m eval.extension_gaps` and repoint CURRENT_GAP_FILE.")
     return events
 
 
@@ -242,6 +274,39 @@ def _in_sample_stats(events: list[dict]) -> dict:
     }
 
 
+# The frozen-set figures this run should reproduce, keyed on the constants blend.py
+# deploys. The literal that used to sit here said "146 trades, 95 graded, 62 correct,
+# 0.6526" unconditionally, so after the 2026-08-19 promotion the JSON published
+# n_trades 169 next to expected 146 and nothing said which was wrong. An unrecognised
+# regime records itself rather than passing silently.
+# The key carries the bad-document exclusions as well as the constants. Without
+# them, excluding an event silently invalidates every expectation here: the numbers
+# move for a legitimate reason and the check reports `agrees: false` as though the
+# constants had drifted. A regime is the constants AND the universe they run on.
+PHASE2_EXPECTATION = {
+    ((0.55, 0.45, 0.0, 0.0), 0.25, -0.05, ("SPOT_FQ1_2026",)): (146, 95, 62, 0.6526),
+    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10, ("SPOT_FQ1_2026",)): (169, 110, 69, 0.6273),
+    # DIS_FQ1_2025 excluded 2026-08-24 for look-ahead; it was a graded, correct trade,
+    # so all three counts fall by one.
+    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10,
+     ("DIS_FQ1_2025", "SPOT_FQ1_2026")): (168, 109, 68, 0.6239),
+}
+
+
+def _phase2_expectation(actual: dict) -> dict:
+    from blend import DEFAULT_HOLD_LOWER, DEFAULT_HOLD_UPPER, DEFAULT_WEIGHTS
+    key = (tuple(DEFAULT_WEIGHTS), DEFAULT_HOLD_UPPER, DEFAULT_HOLD_LOWER,
+           tuple(sorted(EXCLUDED_EVENTS)))
+    exp = PHASE2_EXPECTATION.get(key)
+    if exp is None:
+        return {"expected": f"no expectation recorded for {key} - record one",
+                "agrees": None}
+    got = (actual["n_trades"], actual["n_graded"], actual["n_correct"], actual["accuracy"])
+    return {"expected": f"{exp[0]} trades, {exp[1]} graded, {exp[2]} correct, {exp[3]}",
+            "expected_at": str(key),
+            "agrees": got == exp}
+
+
 def main() -> None:
     print("Loading phase2 frozen events...")
     phase2 = _load_phase2_events()
@@ -257,8 +322,8 @@ def main() -> None:
     print(f"  Combined: {n_combined} events")
     print()
 
-    # In-sample stats on combined N=326
-    print("In-sample statistics (deployed thresholds, combined N=326):")
+    # In-sample stats on the combined set
+    print(f"In-sample statistics (deployed thresholds, combined N={len(combined)}):")
     is_stats = _in_sample_stats(combined)
     print(f"  Trades: {is_stats['n_trades']}, Graded: {is_stats['n_graded']}, "
           f"Correct: {is_stats['n_correct']}, Accuracy: {is_stats['accuracy']:.4f}")
@@ -268,10 +333,12 @@ def main() -> None:
 
     # Verify phase2 subset matches known figures
     is_p2 = _in_sample_stats(phase2)
-    print(f"Sanity check — phase2 subset (should match item_e_walkforward.json: "
-          f"146 trades, 95 graded, 62 correct, 65.26%):")
+    exp2 = _phase2_expectation(is_p2)
+    print(f"Sanity check — phase2 subset (expected at {exp2.get('expected_at', 'this regime')}: "
+          f"{exp2['expected']}):")
     print(f"  Trades={is_p2['n_trades']}, Graded={is_p2['n_graded']}, "
-          f"Correct={is_p2['n_correct']}, Acc={is_p2['accuracy']:.4f}")
+          f"Correct={is_p2['n_correct']}, Acc={is_p2['accuracy']:.4f}"
+          f"   -> {'agrees' if exp2['agrees'] else 'DOES NOT AGREE'}")
     print()
 
     # Rolling walk-forward (same window cutoffs as item_e_walkforward.json)
@@ -392,7 +459,7 @@ def main() -> None:
 
     # Compile output
     out = {
-        "label": "RETROSPECTIVE VALIDATION — NOT PRE-REGISTERED (combined N=326)",
+        "label": f"RETROSPECTIVE VALIDATION — NOT PRE-REGISTERED (combined N={len(combined)})",
         "n_combined_events": n_combined,
         "n_phase2_events": len(phase2),
         "n_extension_events": len(extension),
@@ -417,13 +484,9 @@ def main() -> None:
                 ),
             },
         },
-        "phase2_sanity_check": {
-            "n_trades": is_p2["n_trades"],
-            "n_graded": is_p2["n_graded"],
-            "n_correct": is_p2["n_correct"],
-            "accuracy": is_p2["accuracy"],
-            "expected": "146 trades, 95 graded, 62 correct, 0.6526",
-        },
+        "phase2_sanity_check": dict(
+            {k: is_p2[k] for k in ("n_trades", "n_graded", "n_correct", "accuracy")},
+            **_phase2_expectation(is_p2)),
     }
 
     OUT_JSON.write_text(json.dumps(out, indent=2), encoding="utf-8")

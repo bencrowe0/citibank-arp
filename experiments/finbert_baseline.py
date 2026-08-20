@@ -12,7 +12,9 @@ experiments/lm_baseline.py - events are byte-identical by construction
 (same load_events() + split_dev_eval() from that module).
 
 Grading: overnight returns from returns_matrix.csv, pre-registered +-2% band.
-Exclusion set: 25 worksheet + 1 SPOT + 9 timing = 35 events.
+Exclusion set: 25 worksheet + the bad-document set + 9 timing. It was 35 events
+until DIS_FQ1_2025 was excluded on 2026-08-24; the count is derived from
+load_events(), not written here, so it follows the next exclusion too.
 
 Run: python -m experiments.finbert_baseline
 """
@@ -27,6 +29,12 @@ from pathlib import Path
 import numpy as np
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+# ROOT on the path before the repo imports below: run as a script, sys.path[0]
+# is experiments/, so `import backtest` raised ModuleNotFoundError.
+import sys
+from pathlib import Path as _Path
+sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
 
 from backtest import OUTPUTS_DIR
 
@@ -232,7 +240,9 @@ def main() -> int:
         "dev_n": len(dev), "eval_n": len(eval_set),
         "dev_fraction": DEV_FRACTION,
         "overnight_band": OVERNIGHT_BAND,
-        "excluded_n": 35,
+        # derived, like lm_baseline does it: a literal here would have kept
+        # publishing 35 after the universe changed
+        "excluded_n": 268 - len(events),
         "dev_date_range": [dev[0]["report_date"], dev[-1]["report_date"]],
         "eval_date_range": [eval_set[0]["report_date"], eval_set[-1]["report_date"]],
         "fitted_upper": upper, "fitted_lower": lower,

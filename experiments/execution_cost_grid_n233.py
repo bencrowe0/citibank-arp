@@ -33,8 +33,15 @@ from __future__ import annotations
 import csv, json
 from pathlib import Path
 
+# ROOT on the path before the repo imports below: run as a script, sys.path[0]
+# is experiments/, so `import backtest` raised ModuleNotFoundError.
+import sys
+from pathlib import Path as _Path
+sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+
 import backtest
 from backtest import Prediction
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 
 ROOT    = Path(__file__).resolve().parent.parent
 SUMMARY = ROOT / "outputs" / "global" / "summary"
@@ -53,7 +60,7 @@ def load_exclusion_set() -> set[str]:
         for r in csv.DictReader(f):
             if r["has_worksheet"] == "True" and r["has_human_score"] == "True":
                 ws_excluded.add(r["document_id"])
-    spot = {"SPOT_FQ1_2026"}
+    spot = set(EXCLUDED_EVENTS)
     timing = set()
     with open(RET_CSV) as f:
         for r in csv.DictReader(f):

@@ -24,6 +24,8 @@ from scipy import stats
 # Paths
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 HUMAN_CSV = ROOT / "data" / "human" / "human_decisions_export_2026-08-12.csv"
 CALIBRATION_CSV = ROOT / "outputs" / "global" / "summary" / "global_outcome_calibration_phase2.csv"
 RETURNS_CSV = ROOT / "outputs" / "global" / "summary" / "returns_matrix.csv"
@@ -143,7 +145,7 @@ def load_data():
     ret_map = {r["document_id"]: r for r in ret_rows}
     timing_excluded = set(r["document_id"] for r in ret_rows if r["timing_excluded"] == "YES")
 
-    spot_excluded = {"SPOT_FQ1_2026"}
+    spot_excluded = set(EXCLUDED_EVENTS)
 
     all_excluded = ws_excluded | spot_excluded | timing_excluded
 
@@ -598,17 +600,128 @@ def compute_all(paired):
 
 
 # ---------------------------------------------------------------------------
+# Verification expectations, keyed on the DEPLOYED constants
+# ---------------------------------------------------------------------------
+# Every figure below moves when blend.py's constants move, so a single hardcoded
+# table stops asserting anything the moment they are promoted - it just fails 24
+# times and prints "Continuing anyway". Keying the table on the deployed regime
+# keeps the guard biting at whichever regime is deployed, and keeps the
+# superseded regime's figures in the file as the record of what it published.
+#
+# An unrecognised regime is a hard error, not an empty pass: a future constants
+# change has to record what it expects before this script will run at all.
+#
+# The key carries the bad-document exclusions as well as the constants, for the
+# same reason it carries the constants: excluding an event moves every figure here
+# for a legitimate reason, and without the exclusions in the key the table reports
+# 23 mismatches as though the constants had drifted. A regime is the constants AND
+# the universe they run on.
+VERIFY_EXPECTATIONS = {
+    # committed 2026-08-05, superseded 2026-08-19. These are the figures the
+    # individual report and Master_Data_Phase_3.xlsx published.
+    ((0.55, 0.45, 0.0, 0.0), 0.25, -0.05, ("SPOT_FQ1_2026",)): {
+        "N paired": 171,
+        "Direction-only N": 76,
+        "Human sign correct": 44, "Human sign accuracy %": "57.9",
+        "LLM sign correct": 46, "LLM sign accuracy %": "60.5",
+        "Always-BUY correct": 33, "Always-BUY %": "43.4",
+        "Always-DOWN correct (incl zero)": 43, "Always-DOWN %": "56.6",
+        "Human BUY calls": 96, "Human HOLD calls": 40, "Human SELL calls": 35,
+        "LLM BUY calls": 42, "LLM HOLD calls": 69, "LLM SELL calls": 60,
+        "Human traded": 131, "Human graded": 79, "Human correct (pooled)": 45,
+        "LLM traded": 102, "LLM graded": 58, "LLM correct (pooled)": 40,
+        "Paired graded N": 48,
+        "Human BUY accuracy numerator": 27, "Human BUY accuracy denominator": 53,
+        "Human SELL accuracy numerator": 17, "Human SELL accuracy denominator": 23,
+        "LLM BUY accuracy numerator": 20, "LLM BUY accuracy denominator": 36,
+        "LLM SELL accuracy numerator": 26, "LLM SELL accuracy denominator": 40,
+        "fact_based N": 34, "price_based N": 64,
+    },
+    # promoted 2026-08-19. Recorded only after the block above reproduced 33/33
+    # on the same code path - the gate this project runs on every figure.
+    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10, ("SPOT_FQ1_2026",)): {
+        "N paired": 171,
+        "Direction-only N": 86,
+        "Human sign correct": 50, "Human sign accuracy %": "58.1",
+        "LLM sign correct": 51, "LLM sign accuracy %": "59.3",
+        "Always-BUY correct": 40, "Always-BUY %": "46.5",
+        "Always-DOWN correct (incl zero)": 46, "Always-DOWN %": "53.5",
+        "Human BUY calls": 96, "Human HOLD calls": 40, "Human SELL calls": 35,
+        "LLM BUY calls": 73, "LLM HOLD calls": 53, "LLM SELL calls": 45,
+        "Human traded": 131, "Human graded": 79, "Human correct (pooled)": 45,
+        "LLM traded": 118, "LLM graded": 70, "LLM correct (pooled)": 44,
+        "Paired graded N": 55,
+        "Human BUY accuracy numerator": 34, "Human BUY accuracy denominator": 64,
+        "Human SELL accuracy numerator": 16, "Human SELL accuracy denominator": 22,
+        "LLM BUY accuracy numerator": 33, "LLM BUY accuracy denominator": 60,
+        "LLM SELL accuracy numerator": 18, "LLM SELL accuracy denominator": 26,
+        "fact_based N": 34, "price_based N": 64,
+    },
+    # DIS_FQ1_2025 excluded 2026-08-24 for look-ahead. It is a paired event and a
+    # BUY on an UP outcome, so every BUY-side and every pooled figure falls by
+    # exactly one, and every HOLD, SELL and always-DOWN figure is untouched. That
+    # pattern is the check on this block: recorded after confirming the 33 actuals
+    # against the block above, which differs from it only in those places.
+    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10,
+     ("DIS_FQ1_2025", "SPOT_FQ1_2026")): {
+        "N paired": 170,
+        "Direction-only N": 85,
+        "Human sign correct": 49, "Human sign accuracy %": "57.6",
+        "LLM sign correct": 50, "LLM sign accuracy %": "58.8",
+        "Always-BUY correct": 39, "Always-BUY %": "45.9",
+        "Always-DOWN correct (incl zero)": 46, "Always-DOWN %": "54.1",
+        "Human BUY calls": 95, "Human HOLD calls": 40, "Human SELL calls": 35,
+        "LLM BUY calls": 72, "LLM HOLD calls": 53, "LLM SELL calls": 45,
+        "Human traded": 130, "Human graded": 78, "Human correct (pooled)": 44,
+        "LLM traded": 117, "LLM graded": 69, "LLM correct (pooled)": 43,
+        "Paired graded N": 54,
+        "Human BUY accuracy numerator": 33, "Human BUY accuracy denominator": 63,
+        "Human SELL accuracy numerator": 16, "Human SELL accuracy denominator": 22,
+        "LLM BUY accuracy numerator": 32, "LLM BUY accuracy denominator": 59,
+        "LLM SELL accuracy numerator": 18, "LLM SELL accuracy denominator": 26,
+        "fact_based N": 33, "price_based N": 64,
+    },
+}
+
+
+def deployed_expectations():
+    """The expectation block for whatever blend.py currently deploys."""
+    # ROOT, not the cwd: this script is run both as a module and by path, and
+    # its inputs are already resolved from __file__ for the same reason.
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    from blend import DEFAULT_HOLD_LOWER, DEFAULT_HOLD_UPPER, DEFAULT_WEIGHTS
+    key = (tuple(round(w, 6) for w in DEFAULT_WEIGHTS),
+           round(DEFAULT_HOLD_UPPER, 6), round(DEFAULT_HOLD_LOWER, 6),
+           tuple(sorted(EXCLUDED_EVENTS)))
+    if key not in VERIFY_EXPECTATIONS:
+        raise SystemExit(
+            f"No verification expectations recorded for the deployed constants {key}.\n"
+            "Add a block to VERIFY_EXPECTATIONS - gated against the superseded regime "
+            "first - before running this script at new constants."
+        )
+    return VERIFY_EXPECTATIONS[key]
+
+
+# ---------------------------------------------------------------------------
 # Verification
 # ---------------------------------------------------------------------------
 
 def verify(paired):
-    """Print verification of key figures against human_vs_llm_corrected.md."""
+    """Print verification of key figures against human_vs_llm_corrected.md.
+
+    Expectations come from VERIFY_EXPECTATIONS, keyed on the deployed constants,
+    so the assertions follow a promotion instead of being silently invalidated
+    by one.
+    """
     N = len(paired)
+    expectations = deployed_expectations()
     print(f"\n=== VERIFICATION ===")
 
     checks = []
 
-    def check(label, expected, actual):
+    def check(label, _legacy, actual):
+        expected = expectations[label]
         ok = expected == actual
         status = "OK" if ok else "MISMATCH"
         checks.append((label, expected, actual, ok))
@@ -672,6 +785,10 @@ def verify(paired):
     llm_graded = [e for e in llm_traded if abs(e["ret_overnight"]) > 0.02]
     llm_correct_pooled = [e for e in llm_graded if is_correct(e["llm_decision"], e["ret_overnight"])]
     check("LLM traded", 102, len(llm_traded))
+    # 57 / 39 came in with master's Lowe's fix, which moved these two at the
+    # SUPERSEDED constants. On this branch the positional is inert - check() reads
+    # VERIFY_EXPECTATIONS instead - and the superseded block above deliberately
+    # keeps 58 / 40, which is what the report and the workbook published.
     check("LLM graded", 57, len(llm_graded))
     check("LLM correct (pooled)", 39, len(llm_correct_pooled))
 

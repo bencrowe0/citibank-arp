@@ -22,6 +22,8 @@ from openpyxl.styles import Font, PatternFill, Alignment
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from eval.excluded_events import EXCLUDED_EVENTS, EXCLUSION_REASONS  # noqa: E402
 SUMMARY = ROOT / "outputs" / "global" / "summary"
 WB_DIR  = ROOT / "data" / "workbook"
 SOURCE_WB = WB_DIR / "Master_Data_NEW_REPAIRED_2026-08-09.xlsx"
@@ -93,7 +95,7 @@ def load_exclusion_set():
         for r in csv.DictReader(f):
             if r["has_worksheet"] == "True" and r["has_human_score"] == "True":
                 ws.add(r["document_id"])
-    spot = {"SPOT_FQ1_2026"}
+    spot = set(EXCLUDED_EVENTS)
     rm_rows = load_csv_data(RET_MATRIX)
     timing = {r["document_id"] for r in rm_rows if r["timing_excluded"] == "YES"}
     return ws | spot | timing
@@ -395,8 +397,8 @@ def build_llm_csv(wb, rm, cal, costs, excluded, ablation):
                         ws_excl.add(r["document_id"])
             if did in ws_excl:
                 excl_reason = "worksheet contamination"
-            elif did == "SPOT_FQ1_2026":
-                excl_reason = "SPOT misattribution"
+            elif did in EXCLUSION_REASONS:
+                excl_reason = EXCLUSION_REASONS[did]
             elif rm_row.get("timing_excluded") == "YES":
                 excl_reason = "timing unresolved (non-US issuer)"
 
@@ -509,12 +511,14 @@ def build_metrics_csv():
     add("excluded_worksheet", 25, "events", n=268,
         event_set="N=268", source="worksheet_leak_flags.csv",
         notes="LLM input included human rater worksheet")
-    add("excluded_spot", 1, "events",
-        source="effective_sample_funnel.md", notes="SPOT_FQ1_2026 misattribution")
+    add("excluded_bad_document", len(EXCLUDED_EVENTS), "events",
+        source="eval/excluded_events.py",
+        notes="; ".join(sorted(EXCLUDED_EVENTS)))
     add("excluded_timing", 9, "events",
         source="effective_sample_funnel.md", notes="9 non-US issuers, timing unresolved")
-    add("clean_universe", 233, "events",
-        event_set="N=233 clean universe", source="effective_sample_funnel.md")
+    # 233 until DIS_FQ1_2025 was excluded on 2026-08-24 for look-ahead.
+    add("clean_universe", 268 - 25 - len(EXCLUDED_EVENTS) - 9, "events",
+        event_set="N=232 clean universe", source="eval/excluded_events.py")
     add("traded_events", 146, "events",
         denom="Model called BUY or SELL",
         event_set="N=233 clean universe", threshold_dep="TRUE", source="ext2_holding_curve.csv")
