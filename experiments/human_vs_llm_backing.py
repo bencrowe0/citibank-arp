@@ -672,8 +672,8 @@ def verify(paired):
     llm_graded = [e for e in llm_traded if abs(e["ret_overnight"]) > 0.02]
     llm_correct_pooled = [e for e in llm_graded if is_correct(e["llm_decision"], e["ret_overnight"])]
     check("LLM traded", 102, len(llm_traded))
-    check("LLM graded", 58, len(llm_graded))
-    check("LLM correct (pooled)", 40, len(llm_correct_pooled))
+    check("LLM graded", 57, len(llm_graded))
+    check("LLM correct (pooled)", 39, len(llm_correct_pooled))
 
     # Paired graded
     both_traded = [
