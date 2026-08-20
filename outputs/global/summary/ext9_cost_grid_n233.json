@@ -7,20 +7,20 @@
   "n268_corrected_anchor": {
     "n_predictions": 268,
     "n_trades_at_10bps": 171,
-    "mean_net_at_10bps_pct": 1.9735,
-    "compounded_return_at_10bps_pct": 1891.77,
-    "breakeven_compounded_total_return_bps": 186.12,
-    "breakeven_mean_net_per_trade_bps": 207.34,
+    "mean_net_at_10bps_pct": 1.9581,
+    "compounded_return_at_10bps_pct": 1840.23,
+    "breakeven_compounded_total_return_bps": 184.56,
+    "breakeven_mean_net_per_trade_bps": 205.81,
     "anchor": "corrected release_date (returns_matrix.csv entry_date, 2026-08-12)"
   },
   "n233_corrected_anchor": {
     "n_predictions": 233,
     "n_excluded": 35,
     "n_trades_at_10bps": 146,
-    "mean_net_at_10bps_pct": 1.8617,
-    "compounded_return_at_10bps_pct": 1001.03,
-    "breakeven_compounded_total_return_bps": 175.33,
-    "breakeven_mean_net_per_trade_bps": 196.17,
+    "mean_net_at_10bps_pct": 1.8436,
+    "compounded_return_at_10bps_pct": 972.54,
+    "breakeven_compounded_total_return_bps": 173.51,
+    "breakeven_mean_net_per_trade_bps": 194.35,
     "anchor": "corrected release_date (returns_matrix.csv entry_date, 2026-08-12)"
   },
   "original_ext9_superseded": {
