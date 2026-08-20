@@ -35,6 +35,7 @@ import numpy as np
 import pysentiment2 as ps
 
 from backtest import OUTPUTS_DIR
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 
 # ── paths ──
 PHASE2_CALIBRATION_CSV = OUTPUTS_DIR / "global" / "summary" / "global_outcome_calibration_phase2.csv"
@@ -56,7 +57,8 @@ WORKSHEET_EXCLUDED = frozenset({
     "NVDA_FQ1_2025", "NVDA_FQ2_2025", "NVDA_FQ3_2025", "NVDA_FQ4_2025",
     "TSLA_FQ1_2026", "TSLA_FQ3_2025", "TSLA_FQ4_2025",
 })
-SPOT_EXCLUDED = frozenset({"SPOT_FQ1_2026"})
+# Bad-document exclusions - see eval/excluded_events.py for the reasons.
+SPOT_EXCLUDED = EXCLUDED_EVENTS
 
 _LM = ps.LM()
 

@@ -35,6 +35,7 @@ from pathlib import Path
 
 import backtest
 from backtest import Prediction
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 
 ROOT    = Path(__file__).resolve().parent.parent
 SUMMARY = ROOT / "outputs" / "global" / "summary"
@@ -53,7 +54,7 @@ def load_exclusion_set() -> set[str]:
         for r in csv.DictReader(f):
             if r["has_worksheet"] == "True" and r["has_human_score"] == "True":
                 ws_excluded.add(r["document_id"])
-    spot = {"SPOT_FQ1_2026"}
+    spot = set(EXCLUDED_EVENTS)
     timing = set()
     with open(RET_CSV) as f:
         for r in csv.DictReader(f):

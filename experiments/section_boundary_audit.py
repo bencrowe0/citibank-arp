@@ -63,12 +63,15 @@ in markup), and SPOT_FQ1_2026 (misattributed document).  225 events have a marke
 import csv
 import os
 import re
+import sys
 from datetime import datetime, timezone
 
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, PROJECT_ROOT)
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 CALIBRATION_CSV = os.path.join(
     PROJECT_ROOT, "outputs", "global", "summary",
     "global_outcome_calibration_phase2.csv",
@@ -426,7 +429,7 @@ def main():
     # Exclusion sets
     excluded_human = human_score_events  # 25 events
     excluded_lly = {"LLY_FQ1_2026", "LLY_FQ3_2025", "LLY_FQ4_2025"}
-    excluded_spot = {"SPOT_FQ1_2026"}
+    excluded_spot = set(EXCLUDED_EVENTS)
     all_exclusions = excluded_human | excluded_lly | excluded_spot
 
     def is_excluded(doc_id):

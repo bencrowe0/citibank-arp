@@ -23,6 +23,8 @@ import scipy
 import scipy.stats as scipy_stats
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE_DIR))
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 DATE = "2026-08-15"
 SCIPY_VERSION = scipy.__version__
 SUPPRESSION_N = 10
@@ -30,8 +32,9 @@ GRADING_BAND = 0.02
 LLM_W_MICRO = 0.55
 LLM_W_MACRO = 0.45
 
-# 25 worksheet-contaminated events + 1 SPOT misattribution = 26 excluded
-WORKSHEET_EXCLUDED = {
+# 25 worksheet-contaminated events, plus the bad-document set from
+# eval/excluded_events.py (SPOT_FQ1_2026 misattributed, DIS_FQ1_2025 look-ahead).
+WORKSHEET_EXCLUDED = EXCLUDED_EVENTS | {
     "AMD_FQ1_2026", "AMD_FQ2_2025", "AMD_FQ4_2025",
     "AMZN_FQ1_2026", "AMZN_FQ3_2025", "AMZN_FQ4_2025",
     "COIN_FQ1_2026", "COIN_FQ3_2025", "COIN_FQ4_2025",
@@ -40,7 +43,6 @@ WORKSHEET_EXCLUDED = {
     "NFLX_FQ3_2025", "NFLX_FQ4_2024", "NFLX_FQ4_2025",
     "NVDA_FQ1_2025", "NVDA_FQ2_2025", "NVDA_FQ3_2025", "NVDA_FQ4_2025",
     "TSLA_FQ1_2026", "TSLA_FQ3_2025", "TSLA_FQ4_2025",
-    "SPOT_FQ1_2026",
 }
 
 # Sector taxonomy for Set A — sourced from phase2/build_manifests.py SECTORS dict

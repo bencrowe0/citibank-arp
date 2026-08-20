@@ -24,6 +24,8 @@ from scipy import stats
 # Paths
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402
 HUMAN_CSV = ROOT / "data" / "human" / "human_decisions_export_2026-08-12.csv"
 CALIBRATION_CSV = ROOT / "outputs" / "global" / "summary" / "global_outcome_calibration_phase2.csv"
 RETURNS_CSV = ROOT / "outputs" / "global" / "summary" / "returns_matrix.csv"
@@ -143,7 +145,7 @@ def load_data():
     ret_map = {r["document_id"]: r for r in ret_rows}
     timing_excluded = set(r["document_id"] for r in ret_rows if r["timing_excluded"] == "YES")
 
-    spot_excluded = {"SPOT_FQ1_2026"}
+    spot_excluded = set(EXCLUDED_EVENTS)
 
     all_excluded = ws_excluded | spot_excluded | timing_excluded
 
