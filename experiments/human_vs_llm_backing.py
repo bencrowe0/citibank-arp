@@ -752,8 +752,12 @@ def verify(paired):
     llm_graded = [e for e in llm_traded if abs(e["ret_overnight"]) > 0.02]
     llm_correct_pooled = [e for e in llm_graded if is_correct(e["llm_decision"], e["ret_overnight"])]
     check("LLM traded", 102, len(llm_traded))
-    check("LLM graded", 58, len(llm_graded))
-    check("LLM correct (pooled)", 40, len(llm_correct_pooled))
+    # 57 / 39 came in with master's Lowe's fix, which moved these two at the
+    # SUPERSEDED constants. On this branch the positional is inert - check() reads
+    # VERIFY_EXPECTATIONS instead - and the superseded block above deliberately
+    # keeps 58 / 40, which is what the report and the workbook published.
+    check("LLM graded", 57, len(llm_graded))
+    check("LLM correct (pooled)", 39, len(llm_correct_pooled))
 
     # Paired graded
     both_traded = [

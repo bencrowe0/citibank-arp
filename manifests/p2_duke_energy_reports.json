@@ -289,8 +289,8 @@
     }
   ],
   "release_timing": {
-    "value": "after_hours",
-    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
-    "retrieval_date": "2026-08-13"
+    "value": "pre_market",
+    "source": "Press release text: all 13 releases in docs/duke_energy/*/ state the analyst call \"is scheduled at 10 a.m. ET today\", i.e. the results are out before that morning's session. Corrected 2026-08-21 from \"after_hours\", which had been read off the 8-K Item 2.02 acceptance timestamp (12 of 13 accepted 21:52-23:00 ET, one at 10:58 ET). That timestamp is a filing time, not an announcement time: Duke files the 8-K the same evening. Duke is the only issuer in the manifest set whose acceptance times span both patterns - every other pre_market issuer files 10:00-13:50 ET and every other after_hours issuer 20:00-21:20 ET.",
+    "retrieval_date": "2026-08-21"
   }
 }
