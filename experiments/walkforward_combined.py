@@ -249,6 +249,30 @@ def _in_sample_stats(events: list[dict]) -> dict:
     }
 
 
+# The frozen-set figures this run should reproduce, keyed on the constants blend.py
+# deploys. The literal that used to sit here said "146 trades, 95 graded, 62 correct,
+# 0.6526" unconditionally, so after the 2026-08-19 promotion the JSON published
+# n_trades 169 next to expected 146 and nothing said which was wrong. An unrecognised
+# regime records itself rather than passing silently.
+PHASE2_EXPECTATION = {
+    ((0.55, 0.45, 0.0, 0.0), 0.25, -0.05): (146, 95, 62, 0.6526),
+    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10): (169, 110, 69, 0.6273),
+}
+
+
+def _phase2_expectation(actual: dict) -> dict:
+    from blend import DEFAULT_HOLD_LOWER, DEFAULT_HOLD_UPPER, DEFAULT_WEIGHTS
+    key = (tuple(DEFAULT_WEIGHTS), DEFAULT_HOLD_UPPER, DEFAULT_HOLD_LOWER)
+    exp = PHASE2_EXPECTATION.get(key)
+    if exp is None:
+        return {"expected": f"no expectation recorded for {key} - record one",
+                "agrees": None}
+    got = (actual["n_trades"], actual["n_graded"], actual["n_correct"], actual["accuracy"])
+    return {"expected": f"{exp[0]} trades, {exp[1]} graded, {exp[2]} correct, {exp[3]}",
+            "expected_at": str(key),
+            "agrees": got == exp}
+
+
 def main() -> None:
     print("Loading phase2 frozen events...")
     phase2 = _load_phase2_events()
@@ -424,13 +448,9 @@ def main() -> None:
                 ),
             },
         },
-        "phase2_sanity_check": {
-            "n_trades": is_p2["n_trades"],
-            "n_graded": is_p2["n_graded"],
-            "n_correct": is_p2["n_correct"],
-            "accuracy": is_p2["accuracy"],
-            "expected": "146 trades, 95 graded, 62 correct, 0.6526",
-        },
+        "phase2_sanity_check": dict(
+            {k: is_p2[k] for k in ("n_trades", "n_graded", "n_correct", "accuracy")},
+            **_phase2_expectation(is_p2)),
     }
 
     OUT_JSON.write_text(json.dumps(out, indent=2), encoding="utf-8")

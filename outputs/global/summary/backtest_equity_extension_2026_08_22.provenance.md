@@ -2,7 +2,7 @@
 
 Written by `eval/extension_gaps.py` on 2026-08-20.
 
-- blend weights `(0.55, 0.45, 0.0, 0.0)`, band `(+0.25, -0.05)` - read from `blend.py`, never hard-coded here
+- blend weights `(0.8, 0.2, 0.0, 0.0)`, band `(+0.2, -0.1)` - read from `blend.py`, never hard-coded here
 - entry anchor: `report_date`; entry session chosen by the manifest's `release_timing`; gap = entry close -> next session open
 - cost 10.0 bps round trip, short borrow 0.0 bps
 - 93 events x 3 arms
