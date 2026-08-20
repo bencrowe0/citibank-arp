@@ -31,7 +31,9 @@ OUTPUTS_DIR = BASE_DIR / "outputs"
 SUMMARY_DIR = OUTPUTS_DIR / "global" / "summary"
 
 EXT_CALIBRATION_CSV = SUMMARY_DIR / "global_outcome_calibration_extension_2026_08_13.csv"
-EXT_BACKTEST_CSV = SUMMARY_DIR / "backtest_equity_extension_2026_08_13.csv"
+# One source of truth for which extension-gap vintage is current; four files
+# used to carry their own copy of this name. See eval/extension_gaps.py.
+from eval.extension_gaps import CURRENT_GAP_FILE as EXT_BACKTEST_CSV  # noqa: E402
 DEV_THRESHOLDS_JSON = SUMMARY_DIR / "lm_baseline_dev_thresholds.json"
 
 OUT_CSV = SUMMARY_DIR / "lm_baseline_extension_results.csv"
@@ -84,6 +86,11 @@ def _load_extension_overnight_returns() -> dict[tuple[str, str], float]:
                 gaps[(r["ticker"], r["report_date"])] = float(r["gap"])
             except (ValueError, KeyError):
                 pass
+    if not gaps:
+        raise SystemExit(
+            f"{EXT_BACKTEST_CSV.name} yielded no gaps. The loop above swallows\n"
+            f"ValueError and KeyError, so a changed column set or a comment line\n"
+            f"before the header reads as zero events rather than as an error.")
     return gaps
 
 
