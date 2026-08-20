@@ -14,13 +14,13 @@
     "anchor": "corrected release_date (returns_matrix.csv entry_date, 2026-08-12)"
   },
   "n233_corrected_anchor": {
-    "n_predictions": 233,
-    "n_excluded": 35,
-    "n_trades_at_10bps": 169,
-    "mean_net_at_10bps_pct": 1.7976,
-    "compounded_return_at_10bps_pct": 1379.23,
-    "breakeven_compounded_total_return_bps": 170.4,
-    "breakeven_mean_net_per_trade_bps": 189.76,
+    "n_predictions": 232,
+    "n_excluded": 36,
+    "n_trades_at_10bps": 168,
+    "mean_net_at_10bps_pct": 1.7963,
+    "compounded_return_at_10bps_pct": 1349.97,
+    "breakeven_compounded_total_return_bps": 170.15,
+    "breakeven_mean_net_per_trade_bps": 189.62,
     "anchor": "corrected release_date (returns_matrix.csv entry_date, 2026-08-12)"
   },
   "original_ext9_superseded": {

@@ -610,10 +610,16 @@ def compute_all(paired):
 #
 # An unrecognised regime is a hard error, not an empty pass: a future constants
 # change has to record what it expects before this script will run at all.
+#
+# The key carries the bad-document exclusions as well as the constants, for the
+# same reason it carries the constants: excluding an event moves every figure here
+# for a legitimate reason, and without the exclusions in the key the table reports
+# 23 mismatches as though the constants had drifted. A regime is the constants AND
+# the universe they run on.
 VERIFY_EXPECTATIONS = {
     # committed 2026-08-05, superseded 2026-08-19. These are the figures the
     # individual report and Master_Data_Phase_3.xlsx published.
-    ((0.55, 0.45, 0.0, 0.0), 0.25, -0.05): {
+    ((0.55, 0.45, 0.0, 0.0), 0.25, -0.05, ("SPOT_FQ1_2026",)): {
         "N paired": 171,
         "Direction-only N": 76,
         "Human sign correct": 44, "Human sign accuracy %": "57.9",
@@ -633,7 +639,7 @@ VERIFY_EXPECTATIONS = {
     },
     # promoted 2026-08-19. Recorded only after the block above reproduced 33/33
     # on the same code path - the gate this project runs on every figure.
-    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10): {
+    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10, ("SPOT_FQ1_2026",)): {
         "N paired": 171,
         "Direction-only N": 86,
         "Human sign correct": 50, "Human sign accuracy %": "58.1",
@@ -651,6 +657,30 @@ VERIFY_EXPECTATIONS = {
         "LLM SELL accuracy numerator": 18, "LLM SELL accuracy denominator": 26,
         "fact_based N": 34, "price_based N": 64,
     },
+    # DIS_FQ1_2025 excluded 2026-08-24 for look-ahead. It is a paired event and a
+    # BUY on an UP outcome, so every BUY-side and every pooled figure falls by
+    # exactly one, and every HOLD, SELL and always-DOWN figure is untouched. That
+    # pattern is the check on this block: recorded after confirming the 33 actuals
+    # against the block above, which differs from it only in those places.
+    ((0.80, 0.20, 0.0, 0.0), 0.20, -0.10,
+     ("DIS_FQ1_2025", "SPOT_FQ1_2026")): {
+        "N paired": 170,
+        "Direction-only N": 85,
+        "Human sign correct": 49, "Human sign accuracy %": "57.6",
+        "LLM sign correct": 50, "LLM sign accuracy %": "58.8",
+        "Always-BUY correct": 39, "Always-BUY %": "45.9",
+        "Always-DOWN correct (incl zero)": 46, "Always-DOWN %": "54.1",
+        "Human BUY calls": 95, "Human HOLD calls": 40, "Human SELL calls": 35,
+        "LLM BUY calls": 72, "LLM HOLD calls": 53, "LLM SELL calls": 45,
+        "Human traded": 130, "Human graded": 78, "Human correct (pooled)": 44,
+        "LLM traded": 117, "LLM graded": 69, "LLM correct (pooled)": 43,
+        "Paired graded N": 54,
+        "Human BUY accuracy numerator": 33, "Human BUY accuracy denominator": 63,
+        "Human SELL accuracy numerator": 16, "Human SELL accuracy denominator": 22,
+        "LLM BUY accuracy numerator": 32, "LLM BUY accuracy denominator": 59,
+        "LLM SELL accuracy numerator": 18, "LLM SELL accuracy denominator": 26,
+        "fact_based N": 33, "price_based N": 64,
+    },
 }
 
 
@@ -662,7 +692,8 @@ def deployed_expectations():
         sys.path.insert(0, str(ROOT))
     from blend import DEFAULT_HOLD_LOWER, DEFAULT_HOLD_UPPER, DEFAULT_WEIGHTS
     key = (tuple(round(w, 6) for w in DEFAULT_WEIGHTS),
-           round(DEFAULT_HOLD_UPPER, 6), round(DEFAULT_HOLD_LOWER, 6))
+           round(DEFAULT_HOLD_UPPER, 6), round(DEFAULT_HOLD_LOWER, 6),
+           tuple(sorted(EXCLUDED_EVENTS)))
     if key not in VERIFY_EXPECTATIONS:
         raise SystemExit(
             f"No verification expectations recorded for the deployed constants {key}.\n"

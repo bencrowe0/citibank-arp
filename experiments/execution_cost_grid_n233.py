@@ -33,6 +33,12 @@ from __future__ import annotations
 import csv, json
 from pathlib import Path
 
+# ROOT on the path before the repo imports below: run as a script, sys.path[0]
+# is experiments/, so `import backtest` raised ModuleNotFoundError.
+import sys
+from pathlib import Path as _Path
+sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+
 import backtest
 from backtest import Prediction
 from eval.excluded_events import EXCLUDED_EVENTS  # noqa: E402

@@ -18,7 +18,7 @@ Canonical taxonomy: SECTORS dict in `phase2/build_manifests.py`. Four CVS events
 
 | Sector | Set A (n) | Set B (n) |
 | --- | --- | --- |
-| Communication Services | 19 | — |
+| Communication Services | 18 | — |
 | Consumer | 82 | 26 |
 | Energy | — | 21 |
 | Financials | 49 | 8 |
@@ -27,7 +27,7 @@ Canonical taxonomy: SECTORS dict in `phase2/build_manifests.py`. Four CVS events
 | Materials | 3 | 3 |
 | Technology | 36 | 18 |
 | Utilities | — | 13 |
-| **Total** | **233** | **93** |
+| **Total** | **232** | **93** |
 
 ---
 
@@ -39,8 +39,8 @@ Suppressed where n < 10.
 
 | Sector | n | rho | p |
 | --- | --- | --- | --- |
-| Communication Services | 19 | 0.2848 | 0.2372 |
-| Consumer | 82 | 0.2553 | 0.0206 |
+| Communication Services | 18 | 0.2927 | 0.2385 |
+| Consumer | 82 | 0.2493 | 0.0239 |
 | Financials | 49 | 0.1326 | 0.3636 |
 | Healthcare | 18 | 0.4223 | 0.0808 |
 | Industrials | 26 | 0.0130 | 0.9497 |
@@ -51,13 +51,13 @@ Suppressed where n < 10.
 
 | Sector | n | LLM rho | LLM p | FinBERT rho | FinBERT p |
 | --- | --- | --- | --- | --- | --- |
-| Consumer | 26 | 0.1187 | 0.5635 | -0.1111 | 0.5889 |
+| Consumer | 26 | 0.2313 | 0.2556 | -0.1829 | 0.3711 |
 | Energy | 21 | 0.2374 | 0.3002 | -0.1104 | 0.6338 |
 | Financials | 8 | suppressed (n<10) | — | suppressed (n<10) | — |
 | Industrials | 4 | suppressed (n<10) | — | suppressed (n<10) | — |
 | Materials | 3 | suppressed (n<10) | — | suppressed (n<10) | — |
 | Technology | 18 | 0.4486 | 0.0619 | -0.0506 | 0.8421 |
-| Utilities | 13 | -0.1240 | 0.6866 | -0.5604 | 0.0463 |
+| Utilities | 13 | -0.0689 | 0.8231 | 0.0879 | 0.7752 |
 
 **Three findings worth keeping (all purely descriptive — per-sector n too small for inference):**
 
@@ -75,8 +75,8 @@ Suppressed where n < 10.
 
 | Sector | n | mean_score | mean_ret |
 | --- | --- | --- | --- |
-| Communication Services | 19 | 0.1091 | 0.0035 |
-| Consumer | 82 | -0.0222 | -0.0113 |
+| Communication Services | 18 | 0.1013 | 0.0025 |
+| Consumer | 82 | -0.0222 | -0.0110 |
 | Financials | 49 | 0.1332 | 0.0001 |
 | Healthcare | 18 | 0.0422 | -0.0041 |
 | Industrials | 26 | 0.1425 | 0.0134 |
@@ -89,13 +89,13 @@ Suppressed where n < 10.
 
 | Sector | n | score_std | hold_rate |
 | --- | --- | --- | --- |
-| Communication Services | 19 | 0.1768 | 0.4211 |
-| Consumer | 82 | 0.2661 | 0.3659 |
-| Financials | 49 | 0.1845 | 0.4286 |
-| Healthcare | 18 | 0.2374 | 0.3889 |
-| Industrials | 26 | 0.2349 | 0.3462 |
-| Materials | 3 | 0.1266 | 0.3333 |
-| Technology | 36 | 0.1533 | 0.3056 |
+| Communication Services | 18 | 0.1784 | 0.3333 |
+| Consumer | 82 | 0.2661 | 0.2561 |
+| Financials | 49 | 0.1845 | 0.3673 |
+| Healthcare | 18 | 0.2374 | 0.2778 |
+| Industrials | 26 | 0.2349 | 0.1923 |
+| Materials | 3 | 0.1266 | 0.6667 |
+| Technology | 36 | 0.1533 | 0.1944 |
 
 ## 6. BUY/SELL Asymmetry
 
@@ -105,13 +105,13 @@ Suppressed where n_calls < 10.
 
 | Sector | n | buy_n | buy_acc | buy_base | sell_n | sell_acc | sell_base |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 19 | 5 | suppressed | 0.421 | 6 | suppressed | 0.526 |
-| Consumer | 82 | 13 | 0.385 | 0.195 | 39 | 0.462 | 0.378 |
-| Financials | 49 | 15 | 0.200 | 0.245 | 13 | 0.385 | 0.204 |
-| Healthcare | 18 | 4 | suppressed | 0.333 | 7 | suppressed | 0.333 |
-| Industrials | 26 | 11 | 0.545 | 0.423 | 6 | suppressed | 0.231 |
-| Materials | 3 | 0 | suppressed | 0.000 | 2 | suppressed | 0.000 |
-| Technology | 36 | 24 | 0.500 | 0.389 | 1 | suppressed | 0.472 |
+| Communication Services | 18 | 9 | suppressed | 0.389 | 3 | suppressed | 0.556 |
+| Consumer | 82 | 26 | 0.231 | 0.195 | 35 | 0.429 | 0.366 |
+| Financials | 49 | 27 | 0.222 | 0.245 | 4 | suppressed | 0.204 |
+| Healthcare | 18 | 7 | suppressed | 0.333 | 6 | suppressed | 0.333 |
+| Industrials | 26 | 17 | 0.471 | 0.423 | 4 | suppressed | 0.231 |
+| Materials | 3 | 0 | suppressed | 0.000 | 1 | suppressed | 0.000 |
+| Technology | 36 | 29 | 0.448 | 0.389 | 0 | suppressed | 0.472 |
 
 ---
 

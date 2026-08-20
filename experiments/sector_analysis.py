@@ -753,7 +753,10 @@ def main():
     cnt_b = Counter(e["sector"] for e in events_b_llm)
     print(f"Set A sector counts: {dict(sorted(cnt_a.items()))}", file=sys.stderr)
     print(f"Set B sector counts: {dict(sorted(cnt_b.items()))}", file=sys.stderr)
-    print(f"Total Set A: {sum(cnt_a.values())} (expected 233)", file=sys.stderr)
+    # 233 before DIS_FQ1_2025 was excluded on 2026-08-24; derived, not typed,
+    # so the next exclusion does not leave this line asserting a stale number.
+    expected_a = 268 - 25 - len(EXCLUDED_EVENTS) - 9
+    print(f"Total Set A: {sum(cnt_a.values())} (expected {expected_a})", file=sys.stderr)
     print(f"Total Set B: {sum(cnt_b.values())} (expected 93)", file=sys.stderr)
 
 

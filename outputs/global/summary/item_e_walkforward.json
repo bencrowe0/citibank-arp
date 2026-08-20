@@ -1,6 +1,6 @@
 {
   "label": "RETROSPECTIVE VALIDATION \u2014 NOT PRE-REGISTERED",
-  "n_clean_events": 233,
+  "n_clean_events": 232,
   "date_range": "2023-04-25 to 2026-07-14",
   "weights_fixed": [
     0.8,
@@ -41,11 +41,11 @@
   "in_sample_deployed": {
     "hold_upper": 0.2,
     "hold_lower": -0.1,
-    "n_trades": 169,
-    "n_graded": 110,
-    "n_correct": 69,
-    "accuracy": 0.6273,
-    "mean_net_pct": 1.7976
+    "n_trades": 168,
+    "n_graded": 109,
+    "n_correct": 68,
+    "accuracy": 0.6239,
+    "mean_net_pct": 1.7963
   },
   "rolling_walkforward": {
     "n_windows": 4,
@@ -64,7 +64,7 @@
           "test_end": "2025-12-18",
           "fitted_upper": 0.5,
           "fitted_lower": -0.5,
-          "train_n": 100,
+          "train_n": 99,
           "train_trades": 3,
           "train_mean_net": 0.14874866666666667,
           "train_accuracy": 1.0,
@@ -83,7 +83,7 @@
           "test_end": "2026-03-19",
           "fitted_upper": 0.5,
           "fitted_lower": -0.5,
-          "train_n": 147,
+          "train_n": 146,
           "train_trades": 6,
           "train_mean_net": 0.08131916666666666,
           "train_accuracy": 0.8,
@@ -102,7 +102,7 @@
           "test_end": "2026-06-23",
           "fitted_upper": 0.5,
           "fitted_lower": -0.5,
-          "train_n": 197,
+          "train_n": 196,
           "train_trades": 8,
           "train_mean_net": 0.0557675,
           "train_accuracy": 0.7142857142857143,
@@ -121,7 +121,7 @@
           "test_end": "2026-07-14",
           "fitted_upper": 0.5,
           "fitted_lower": -0.5,
-          "train_n": 230,
+          "train_n": 229,
           "train_trades": 8,
           "train_mean_net": 0.0557675,
           "train_accuracy": 0.7142857142857143,
@@ -161,7 +161,7 @@
           "test_end": "2025-12-18",
           "fitted_upper": 0.45,
           "fitted_lower": -0.2,
-          "train_n": 100,
+          "train_n": 99,
           "train_trades": 31,
           "train_mean_net": 0.03540109677419355,
           "train_accuracy": 0.8235294117647058,
@@ -180,7 +180,7 @@
           "test_end": "2026-03-19",
           "fitted_upper": 0.5,
           "fitted_lower": -0.1,
-          "train_n": 147,
+          "train_n": 146,
           "train_trades": 40,
           "train_mean_net": 0.03309735,
           "train_accuracy": 0.7407407407407407,
@@ -199,7 +199,7 @@
           "test_end": "2026-06-23",
           "fitted_upper": 0.5,
           "fitted_lower": -0.1,
-          "train_n": 197,
+          "train_n": 196,
           "train_trades": 52,
           "train_mean_net": 0.03530828846153846,
           "train_accuracy": 0.7714285714285715,
@@ -218,7 +218,7 @@
           "test_end": "2026-07-14",
           "fitted_upper": 0.5,
           "fitted_lower": -0.1,
-          "train_n": 230,
+          "train_n": 229,
           "train_trades": 57,
           "train_mean_net": 0.03500059649122807,
           "train_accuracy": 0.7631578947368421,
@@ -260,20 +260,20 @@
     "later_subset_n_graded": 68,
     "later_subset_n_correct": 42,
     "later_subset_accuracy": 0.6176,
-    "full_sample_accuracy": 0.6273
+    "full_sample_accuracy": 0.6239
   },
   "genuinely_unseen": {
     "note": "Cross-issuer generalisation test: 31 issuers scored after the N=161 threshold sweep, zero issuer overlap with the 40 in-sweep issuers. Both subsets span overlapping date ranges (interleaved, not sequential) \u2014 this tests issuer transfer, not temporal generalisation. RECONSTRUCTED: sweep membership inferred from issuer ordering and count match (n_documents=161), not from a recorded event list. 453 single-swap alternatives also produce 161.",
     "n_issuers_in_sweep": 40,
     "n_issuers_post_sweep": 29,
-    "n_events_in_sweep": 132,
+    "n_events_in_sweep": 131,
     "n_events_post_sweep": 101,
     "in_sweep": {
-      "n_trades": 88,
-      "n_graded": 51,
-      "n_correct": 30,
-      "accuracy": 0.5882,
-      "mean_net_pct": 0.6062
+      "n_trades": 87,
+      "n_graded": 50,
+      "n_correct": 29,
+      "accuracy": 0.58,
+      "mean_net_pct": 0.59
     },
     "post_sweep": {
       "n_trades": 81,
@@ -290,7 +290,7 @@
   "two_window_headline": {
     "mean_net_objective": {
       "freeze_date": "2026-08-10",
-      "train_n": 233,
+      "train_n": 232,
       "test_n": 0,
       "status": "DORMANT \u2014 no test events after freeze date",
       "fitted_upper": 0.5,
@@ -301,7 +301,7 @@
     },
     "accuracy_objective": {
       "freeze_date": "2026-08-10",
-      "train_n": 233,
+      "train_n": 232,
       "test_n": 0,
       "status": "DORMANT \u2014 no test events after freeze date",
       "fitted_upper": 0.5,
