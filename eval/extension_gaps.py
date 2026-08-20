@@ -17,17 +17,21 @@ TWO THINGS THAT ARE NOT LIKE THE FROZEN SET, both measured before this was writt
 
 1. THE ANCHOR IS `report_date`, NOT `release_date`.
    `return_matrix.py` line 315 uses `release_date or report_date`. The extension
-   cannot: 17 of the 93 events carry `release_date: "PENDING - source from
-   home-exchange announcement"` and 7 more carry null. Rebuilding on the
+   cannot: 13 of the 93 events carry `release_date: "PENDING - source from
+   home-exchange announcement"` and 7 more carry null. It was 17 until the four
+   Hermes events were resolved to their own datelines on 2026-08-24. Rebuilding on the
    `report_date` anchor reproduces the committed 2026_08_13 file on 89 of 93 rows
    and agrees with the live workbook's `LLM_Data_Entry!P` on 90 of 93. Rebuilding
    on the resolved release dates agrees with the workbook on 75. The extension is
    internally consistent on `report_date`; moving it is a separate decision.
    `--anchor release_date` runs that variant and is not the default.
 
-2. ALL 17 NON-US EVENTS CARRY A FIRST-OF-MONTH PLACEHOLDER `report_date`.
-   Heineken 2024-03-01, Hermes 2025-02-01, Nestle 2024-10-01, Shell 2025-08-01,
-   Sony 2025-11-01 and so on. Their real release dates were established on
+2. 13 OF THE 17 NON-US EVENTS STILL CARRY A FIRST-OF-MONTH PLACEHOLDER `report_date`.
+   Heineken 2024-03-01, Nestle 2024-10-01, Shell 2025-08-01, Sony 2025-11-01 and
+   so on. The four Hermes events were corrected on 2026-08-24 to the dateline
+   printed on each cited press release; `GATE_REPORT_DATES` pins their old values
+   so the gate still rebuilds the 2026-08-13 vintage. Their real release dates
+   were established on
    2026-08-13 and live in `non_us_release_timing_extension.csv`, which nothing
    reads. Both arms were built on the placeholder, which is why the extension
    agrees with itself. `--anchor release_date` reads that file.
@@ -81,12 +85,26 @@ GATE_WEIGHTS = (0.55, 0.45, 0.0, 0.0)
 GATE_BAND = (0.25, -0.05)
 GATE_MIN_GAP_MATCHES = 89   # measured; the residue is named in the output
 
+# The four Hermes events carried a first-of-month placeholder `report_date` on
+# 2026-08-13 and were corrected to each document's own dateline on 2026-08-24.
+# The gate rebuilds a 2026-08-13 artefact, so it has to keep using the values that
+# artefact was built from - the same reason GATE_DUKE_TIMING pins Duke's superseded
+# `release_timing`. Pinning them keeps the guard testing the code path rather than
+# the data. Without it the reference lookup, which is keyed on
+# (ticker, report_date), misses on all four and the gate aborts.
+GATE_REPORT_DATES = {
+    "RMS_FQ1_2025": "2025-02-01",
+    "RMS_FQ2_2025": "2025-07-01",
+    "RMS_FQ3_2025": "2025-10-01",
+    "RMS_FQ4_2025": "2026-02-01",
+}
+
 # THE ONE PLACE THAT SAYS WHICH VINTAGE IS CURRENT.
 # Four experiments read this file - lm_baseline_extension, finbert_extension,
 # section_ablation_extension, walkforward_combined - and until now each carried its
 # own copy of the filename, so a new vintage meant four edits or none. They import
 # this. Point it at a new file in the same commit that writes one.
-CURRENT_GAP_FILE = SUMMARY / "backtest_equity_extension_2026_08_22.csv"
+CURRENT_GAP_FILE = SUMMARY / "backtest_equity_extension_2026_08_24.csv"
 LLM_RATER = "LLM (DeepSeek)"
 
 
@@ -165,12 +183,20 @@ def anchor_for(rep: dict, non_us: dict, mode: str) -> str:
     return rd if ISO.match(rd) else rep["report_date"]
 
 
-def build(roster, reports, hist, non_us, mode, weights, band, duke_timing=None):
-    """One row per event: decision at `weights`/`band`, gap on `mode`'s anchor."""
+def build(roster, reports, hist, non_us, mode, weights, band, duke_timing=None,
+          report_dates=None):
+    """One row per event: decision at `weights`/`band`, gap on `mode`'s anchor.
+
+    `report_dates` pins `report_date` for named events, so the gate can rebuild a
+    past vintage after the manifest has moved on. It replaces the entry rather
+    than editing it, leaving `reports` as loaded.
+    """
     rows, exceptions = [], []
     for r in roster:
         doc = r["document_id"]
         rep = reports[doc]
+        if report_dates and doc in report_dates:
+            rep = dict(rep, report_date=report_dates[doc])
         timing = rep["release_timing"]
         if duke_timing and rep["issuer"] == "p2_duke_energy":
             timing = duke_timing
@@ -228,7 +254,8 @@ def gate(roster, reports, hist, non_us) -> None:
     ref = {(r["ticker"], r["report_date"]): r for r in
            csv.DictReader(REFERENCE.open()) if r["rater"] == "LLM (DeepSeek)"}
     rows, _ = build(roster, reports, hist, non_us, "report_date",
-                    GATE_WEIGHTS, GATE_BAND, duke_timing=GATE_DUKE_TIMING)
+                    GATE_WEIGHTS, GATE_BAND, duke_timing=GATE_DUKE_TIMING,
+                    report_dates=GATE_REPORT_DATES)
     dec_ok = gaps_ok = 0
     dec_bad, gap_bad = [], []
     for r in rows:
@@ -297,11 +324,17 @@ def main() -> int:
     # provenance goes in a sidecar instead.
     with out_csv.open("w", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["rater", "report_date", "ticker", "decision", "gap", "net", "equity"])
+        # document_id is appended, not inserted, so any positional reader of the
+        # first seven columns keeps working. The four consumers join on it: the
+        # calibration roster is a frozen 2026-08-13 artefact whose report_date
+        # column still holds the first-of-month placeholders, so a date-keyed join
+        # drops every event whose anchor has since been corrected.
+        w.writerow(["rater", "report_date", "ticker", "decision", "gap", "net",
+                    "equity", "document_id"])
         for name, fn in arms:
             for r in with_equity(rows, fn):
                 w.writerow([name, r["report_date"], r["ticker"], r["decision"],
-                            r["gap"], r["net"], r["equity"]])
+                            r["gap"], r["net"], r["equity"], r["document_id"]])
     prov = out_csv.with_suffix(".provenance.md")
     prov.write_text(
         f"# {out_csv.name}\n\n"
@@ -312,6 +345,8 @@ def main() -> int:
         f"`release_timing`; gap = entry close -> next session open\n"
         f"- cost {COST_BPS} bps round trip, short borrow {SHORT_BORROW_BPS} bps\n"
         f"- {len(rows)} events x {len(arms)} arms\n"
+        f"- keyed on `document_id` (added 2026-08-24); consumers must join on it,\n"
+        f"  not on `(ticker, report_date)`, which moves when an anchor is corrected\n"
         f"- {len(exceptions)} exception(s), listed in `{exc_csv.name}`\n\n"
         f"Supersedes `backtest_equity_extension_2026_08_13.csv`, which stays as the\n"
         f"record and which this script reproduces at that date's constants before it\n"

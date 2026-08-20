@@ -114,14 +114,27 @@ def _load_phase2_events() -> list[dict]:
 
 
 def _load_extension_events() -> list[dict]:
-    """Load all 93 extension events. No exclusions applied (all are clean)."""
+    """Load all 93 extension events. No exclusions applied (all are clean).
+
+    The gap join is on document_id, not (ticker, report_date): this roster is the
+    frozen 2026-08-13 artefact and its report_date column still carries the
+    first-of-month placeholders, so a date-keyed join drops every re-anchored
+    event through the `continue` below. The count is asserted at the end, because
+    "all 93" is a claim this function should not be able to break quietly.
+    """
     # Get overnight returns from backtest CSV (LLM rows)
-    gaps: dict[tuple[str, str], float] = {}
+    gaps: dict[str, float] = {}
     with open(EXT_BACKTEST_CSV) as f:
-        for r in csv.DictReader(f):
+        reader = csv.DictReader(f)
+        if "document_id" not in (reader.fieldnames or []):
+            raise SystemExit(
+                f"{EXT_BACKTEST_CSV.name} has no document_id column. Vintages before\n"
+                f"2026-08-24 were keyed on (ticker, report_date). Regenerate with\n"
+                f"`python -m eval.extension_gaps` and repoint CURRENT_GAP_FILE.")
+        for r in reader:
             if r["rater"] == "LLM (DeepSeek)":
                 try:
-                    gaps[(r["ticker"], r["report_date"])] = float(r["gap"])
+                    gaps[r["document_id"]] = float(r["gap"])
                 except (ValueError, KeyError):
                     pass
     if not gaps:
@@ -130,14 +143,16 @@ def _load_extension_events() -> list[dict]:
             f"ValueError and KeyError, so a changed column set or a comment line\n"
             f"before the header reads as zero events rather than as an error.")
 
-    events = []
+    events, missing_gap, missing_micro = [], [], []
     with open(EXT_CALIBRATION_CSV) as f:
         for r in csv.DictReader(f):
-            key = (r["ticker"], r["report_date"])
+            key = r["document_id"]
             if key not in gaps:
+                missing_gap.append(key)
                 continue
             micro = _num(r.get("micro_score"))
             if micro is None:
+                missing_micro.append(key)
                 continue
             events.append({
                 "document_id": r["document_id"],
@@ -150,6 +165,13 @@ def _load_extension_events() -> list[dict]:
                 "ret_overnight": gaps[key],
                 "set": "extension",
             })
+    if missing_gap or missing_micro:
+        raise SystemExit(
+            f"extension roster and gap file disagree on the event set: "
+            f"{len(missing_gap)} event(s) have no gap {missing_gap[:6]}, "
+            f"{len(missing_micro)} have no micro_score {missing_micro[:6]}. "
+            f"Both files must cover the same 93 events; regenerate the gap file "
+            f"with `python -m eval.extension_gaps` and repoint CURRENT_GAP_FILE.")
     return events
 
 

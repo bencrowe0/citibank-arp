@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import csv
 import json
+import sys
 from pathlib import Path
 
 import pysentiment2 as ps
@@ -33,6 +34,11 @@ SUMMARY_DIR = OUTPUTS_DIR / "global" / "summary"
 EXT_CALIBRATION_CSV = SUMMARY_DIR / "global_outcome_calibration_extension_2026_08_13.csv"
 # One source of truth for which extension-gap vintage is current; four files
 # used to carry their own copy of this name. See eval/extension_gaps.py.
+# BASE_DIR has to be on the path for that import to resolve when this file is run
+# as a script rather than as a module - walkforward_combined and
+# section_ablation_extension already do this; these two did not, so they could
+# only be started with PYTHONPATH set.
+sys.path.insert(0, str(BASE_DIR))
 from eval.extension_gaps import CURRENT_GAP_FILE as EXT_BACKTEST_CSV  # noqa: E402
 DEV_THRESHOLDS_JSON = SUMMARY_DIR / "lm_baseline_dev_thresholds.json"
 
@@ -69,21 +75,28 @@ def _predict(score: float, upper: float, lower: float) -> str:
     return "HOLD"
 
 
-def _load_extension_overnight_returns() -> dict[tuple[str, str], float]:
-    """Load raw overnight gaps from extension backtest CSV.
+def _load_extension_overnight_returns() -> dict[str, float]:
+    """Load raw overnight gaps from the extension backtest CSV, keyed on document_id.
 
-    The backtest CSV has one row per (rater, event). We extract the LLM-rater
-    rows — the `gap` column is the raw overnight return, identical for every
-    rater since it is a property of the event, not the position.
-    Returns {(ticker, report_date): gap}.
+    NOT on (ticker, report_date). The calibration roster is a frozen 2026-08-13
+    artefact whose report_date column still carries the first-of-month
+    placeholders, so a date-keyed join silently drops every event whose anchor has
+    since been corrected - four Hermes events on 2026-08-24. document_id survives
+    re-anchoring.
     """
-    gaps: dict[tuple[str, str], float] = {}
+    gaps: dict[str, float] = {}
     with open(EXT_BACKTEST_CSV, encoding="utf-8") as fh:
-        for r in csv.DictReader(fh):
+        reader = csv.DictReader(fh)
+        if "document_id" not in (reader.fieldnames or []):
+            raise SystemExit(
+                f"{EXT_BACKTEST_CSV.name} has no document_id column. Vintages before\n"
+                f"2026-08-24 were keyed on (ticker, report_date). Regenerate with\n"
+                f"`python -m eval.extension_gaps` and repoint CURRENT_GAP_FILE.")
+        for r in reader:
             if r["rater"] != LLM_RATER_NAME:
                 continue
             try:
-                gaps[(r["ticker"], r["report_date"])] = float(r["gap"])
+                gaps[r["document_id"]] = float(r["gap"])
             except (ValueError, KeyError):
                 pass
     if not gaps:
@@ -127,11 +140,10 @@ def main() -> None:
         issuer = ev["issuer"]
 
         # Overnight return
-        key = (ticker, report_date)
-        if key not in overnight_gaps:
+        if doc_id not in overnight_gaps:
             skipped_no_ret += 1
             continue
-        gap = overnight_gaps[key]
+        gap = overnight_gaps[doc_id]
         outcome = _overnight_outcome(gap)
 
         # Extracted text (from extension variant output dir)

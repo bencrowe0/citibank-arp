@@ -11,9 +11,9 @@
       "sector": "Consumer Cyclical/Luxury Goods",
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ1 2025",
-      "report_date": "2025-02-01",
-      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
-      "release_date_source": "Non-US: Hermes full-year 2024 results, source from Euronext Paris / Hermes IR (~Feb 2025). URL: https://finance.hermes.com/en/Regulated-information/Press-releases",
+      "report_date": "2025-04-17",
+      "release_date": "2025-04-17",
+      "release_date_source": "Non-US, no EDGAR filing. Taken from the cited document's own dateline: \"Paris, 17 April 2025\", on \"Quarterly information report as at the end of March 2025\" (docs/hermes/CY2025-Q1/RMSP.XC_Q1_2025_Press_Release.pdf). Corrected 2026-08-24 from the first-of-month placeholder 2025-02-01. NOTE: non_us_release_timing_extension.csv (2026-08-13) records this event as 2025-02-14 \"FY2024 full-year results\". That is a different release, and no February 2025 Hermes document exists in the corpus; the document actually scored and read by both arms is the 17 April Q1 revenue report, which is also the date Human_Data_Entry!L233 carries. The capture-sheet row is superseded for this event.",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -33,9 +33,9 @@
       "sector": "Consumer Cyclical/Luxury Goods",
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ2 2025",
-      "report_date": "2025-07-01",
-      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
-      "release_date_source": "Non-US: Hermes H1 2025 results, source from Euronext Paris / Hermes IR (~Jul 2025)",
+      "report_date": "2025-07-30",
+      "release_date": "2025-07-30",
+      "release_date_source": "Non-US, no EDGAR filing. Cited document's own dateline: \"Paris, 30 July 2025\", on \"Half-year information report as at the end of June 2025\" (docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Press_Release.pdf). Corrected 2026-08-24 from the first-of-month placeholder 2025-07-01. Agrees with non_us_release_timing_extension.csv.",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -55,9 +55,9 @@
       "sector": "Consumer Cyclical/Luxury Goods",
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ3 2025",
-      "report_date": "2025-10-01",
-      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
-      "release_date_source": "Non-US: Hermes Q3 2025 revenue update or nine-month sales, source from Euronext Paris (~Oct 2025). Hermes publishes quarterly revenue figures",
+      "report_date": "2025-10-22",
+      "release_date": "2025-10-22",
+      "release_date_source": "Non-US, no EDGAR filing. Cited document's own dateline: \"Paris, 22 October 2025\", on \"Quarterly information report as at the end of September 2025\" (docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Press_Release.pdf). Corrected 2026-08-24 from the first-of-month placeholder 2025-10-01. Agrees with non_us_release_timing_extension.csv.",
       "documents": [
         {
           "doc_type": "Press Release",
@@ -77,9 +77,9 @@
       "sector": "Consumer Cyclical/Luxury Goods",
       "report_type": "Bundled Earnings Report",
       "fiscal_period": "FQ4 2025",
-      "report_date": "2026-02-01",
-      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
-      "release_date_source": "Non-US: Hermes full-year 2025 results or Q4 revenue, source from Euronext Paris / Hermes IR (~Feb 2026)",
+      "report_date": "2026-02-12",
+      "release_date": "2026-02-12",
+      "release_date_source": "Non-US, no EDGAR filing. Cited document's own dateline: \"Paris, 12 February 2026\", on the FY2025 full-year results release (docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Press_Release.pdf). Corrected 2026-08-24 from the first-of-month placeholder 2026-02-01. Agrees with non_us_release_timing_extension.csv.",
       "documents": [
         {
           "doc_type": "Press Release",
