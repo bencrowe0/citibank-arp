@@ -81,6 +81,14 @@ GATE_WEIGHTS = (0.55, 0.45, 0.0, 0.0)
 GATE_BAND = (0.25, -0.05)
 GATE_MIN_GAP_MATCHES = 89   # measured; the residue is named in the output
 
+# THE ONE PLACE THAT SAYS WHICH VINTAGE IS CURRENT.
+# Four experiments read this file - lm_baseline_extension, finbert_extension,
+# section_ablation_extension, walkforward_combined - and until now each carried its
+# own copy of the filename, so a new vintage meant four edits or none. They import
+# this. Point it at a new file in the same commit that writes one.
+CURRENT_GAP_FILE = SUMMARY / "backtest_equity_extension_2026_08_22.csv"
+LLM_RATER = "LLM (DeepSeek)"
+
 
 # ── inputs ───────────────────────────────────────────────────────────────────
 def load_roster() -> list[dict]:
@@ -195,6 +203,9 @@ def build(roster, reports, hist, non_us, mode, weights, band, duke_timing=None):
                          ticker=rep["ticker"], decision=decision, gap=round(gap, 4),
                          entry_date=entry_date, exit_date=exit_date, anchor=anchor,
                          release_timing=timing))
+    # chronological, like the 2026_08_13 vintage: `equity` is a running product and
+    # is only readable as a curve if the rows are in time order.
+    rows.sort(key=lambda r: (r["report_date"], r["ticker"]))
     return rows, exceptions
 
 
@@ -280,31 +291,38 @@ def main() -> int:
     arms = [("LLM (DeepSeek)", lambda r: r["decision"]),
             ("baseline: always-long", lambda r: "BUY"),
             ("baseline: always-flat", lambda r: "HOLD")]
-    header = [
-        "# Extension overnight gaps, one row per event per arm.",
-        f"# written by eval/extension_gaps.py on {date.today()}",
-        f"# blend weights {DEFAULT_WEIGHTS}, band (+{DEFAULT_HOLD_UPPER}, {DEFAULT_HOLD_LOWER})"
-        f" - read from blend.py, not hard-coded",
-        f"# entry anchor: {args.anchor}; entry session per the manifest's release_timing;"
-        f" gap = entry close -> next session open",
-        f"# cost {COST_BPS} bps round trip, short borrow {SHORT_BORROW_BPS} bps",
-        "# supersedes backtest_equity_extension_2026_08_13.csv, which is left as the record",
-        "# and which this script reproduces at that date's constants before writing.",
-    ]
+    # No comment header. The four consumers hand this file straight to
+    # csv.DictReader, so a leading "#" line would become the column row and every
+    # gap would be dropped by their `except (ValueError, KeyError): pass`. The
+    # provenance goes in a sidecar instead.
     with out_csv.open("w", newline="") as fh:
-        for line in header:
-            fh.write(line + "\n")
         w = csv.writer(fh)
         w.writerow(["rater", "report_date", "ticker", "decision", "gap", "net", "equity"])
         for name, fn in arms:
             for r in with_equity(rows, fn):
                 w.writerow([name, r["report_date"], r["ticker"], r["decision"],
                             r["gap"], r["net"], r["equity"]])
+    prov = out_csv.with_suffix(".provenance.md")
+    prov.write_text(
+        f"# {out_csv.name}\n\n"
+        f"Written by `eval/extension_gaps.py` on {date.today()}.\n\n"
+        f"- blend weights `{DEFAULT_WEIGHTS}`, band `(+{DEFAULT_HOLD_UPPER}, "
+        f"{DEFAULT_HOLD_LOWER})` - read from `blend.py`, never hard-coded here\n"
+        f"- entry anchor: `{args.anchor}`; entry session chosen by the manifest's "
+        f"`release_timing`; gap = entry close -> next session open\n"
+        f"- cost {COST_BPS} bps round trip, short borrow {SHORT_BORROW_BPS} bps\n"
+        f"- {len(rows)} events x {len(arms)} arms\n"
+        f"- {len(exceptions)} exception(s), listed in `{exc_csv.name}`\n\n"
+        f"Supersedes `backtest_equity_extension_2026_08_13.csv`, which stays as the\n"
+        f"record and which this script reproduces at that date's constants before it\n"
+        f"is allowed to write. The CSV carries no comment header on purpose: its four\n"
+        f"consumers pass the handle straight to `csv.DictReader`.\n")
     with exc_csv.open("w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=["document_id", "ticker", "anchor", "reason"])
         w.writeheader()
         w.writerows(exceptions)
     print(f"wrote {out_csv.name}  ({len(rows)} events x {len(arms)} arms)")
+    print(f"wrote {prov.name}")
     print(f"wrote {exc_csv.name}  ({len(exceptions)} exception(s))")
     for e in exceptions:
         print(f"    {e['document_id']:16s} {e['reason']}")

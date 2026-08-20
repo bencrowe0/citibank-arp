@@ -45,7 +45,9 @@ SUMMARY_DIR = Path(__file__).resolve().parent.parent / "outputs" / "global" / "s
 PHASE2_CALIBRATION_CSV = SUMMARY_DIR / "global_outcome_calibration_phase2.csv"
 EXT_CALIBRATION_CSV = SUMMARY_DIR / "global_outcome_calibration_extension_2026_08_13.csv"
 RETURNS_CSV = SUMMARY_DIR / "returns_matrix.csv"
-EXT_BACKTEST_CSV = SUMMARY_DIR / "backtest_equity_extension_2026_08_13.csv"
+# One source of truth for which extension-gap vintage is current; four files
+# used to carry their own copy of this name. See eval/extension_gaps.py.
+from eval.extension_gaps import CURRENT_GAP_FILE as EXT_BACKTEST_CSV  # noqa: E402
 LEAK_FLAGS_CSV = SUMMARY_DIR / "worksheet_leak_flags.csv"
 
 OUT_JSON = SUMMARY_DIR / "item_e_combined_walkforward.json"
@@ -122,6 +124,11 @@ def _load_extension_events() -> list[dict]:
                     gaps[(r["ticker"], r["report_date"])] = float(r["gap"])
                 except (ValueError, KeyError):
                     pass
+    if not gaps:
+        raise SystemExit(
+            f"{EXT_BACKTEST_CSV.name} yielded no gaps. The loop above swallows\n"
+            f"ValueError and KeyError, so a changed column set or a comment line\n"
+            f"before the header reads as zero events rather than as an error.")
 
     events = []
     with open(EXT_CALIBRATION_CSV) as f:
