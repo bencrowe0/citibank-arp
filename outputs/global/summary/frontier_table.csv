@@ -4,12 +4,14 @@
 # Majority-direction (FLAT-excluded) = always-DOWN (predict SELL on every event) = 65/119. This is the eval-split floor, NOT the full-sample floor (59/109 on N=232 at the deployed constants).
 #
 # Deployed-model row regenerated 2026-08-21 by experiments/kappa_and_frontier.py at blend.py's current constants,
-# gated first at the superseded 0.55/0.45 +0.25/-0.05 (51/119 and 82/186 reproduce exactly). The three baselines do not read blend.py and are unchanged.
+# gated first at the superseded 0.55/0.45 +0.25/-0.05 (51/119 and 82/186 reproduce exactly).
+# Baseline rows rebuilt from the committed per-event eval CSVs (finbert_eval_results.csv, lm_baseline_eval_results.csv), which carry the
+# post-Lowe's-dateline threshold fit; the pre-re-fit rows (FinBERT 41/119, traded 147; LM 18/119, traded 59) reproduce from the pre-7012bd9 vintages.
 # The three figures 42.2% / eval-split FLAT-excluded / eval-split FLAT-as-wrong differ in event set and convention, NOT in substance.
 # DO NOT cite them together without saying which is which.
 #
 method,accuracy_flat_excluded,accuracy_flat_as_wrong,graded_n_flat_excluded,graded_n_flat_as_wrong,traded_n,total_n,cost_per_document,bootstrap_ci_flat_excluded,note
 Majority-class HOLD,0.5462,0.3602,119,186,0,186,0,"[0.471, 0.622]",Always predicts HOLD; 0 trades. FLAT-excluded: always-DOWN = 65/119.
-Loughran-McDonald (LM),0.1513,0.3495,119,186,59,186,0,"[0.101, 0.210]","pysentiment2 word-count score, no API cost. FLAT-excluded: 18/119."
-FinBERT (ProsusAI/finbert),0.3445,0.3226,119,186,147,186,0 (local GPU/CPU),"[0.277, 0.420]","512-token chunks, token-weighted avg; local compute only. FLAT-excluded: 41/119."
+Loughran-McDonald (LM),0.0336,0.3763,119,186,6,186,0,"[0.008, 0.059]","pysentiment2 word-count score, no API cost. FLAT-excluded: 4/119."
+FinBERT (ProsusAI/finbert),0.1765,0.3280,119,186,75,186,0 (local GPU/CPU),"[0.118, 0.235]","512-token chunks, token-weighted avg; local compute only. FLAT-excluded: 21/119."
 "Deployed model (DeepSeek, 0.8/0.2 micro/macro)",0.4874,0.4194,119,186,139,186,~$0.02-0.05 (DeepSeek API),"[0.412, 0.563]",Structured output with evidence quotes; API cost per document. FLAT-excluded: 58/119.
