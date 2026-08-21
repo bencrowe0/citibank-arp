@@ -50,13 +50,37 @@ EVAL_SPLIT_FRACTION = 0.20  # earliest 20% by release date is the dev split
 
 # What the committed artefacts assert. The gate is against these, not against
 # anything this script computes twice.
-KAPPA_GATE = {"n_paired_events": 171, "observed_agreement": 0.3801,
-              "expected_agreement": 0.3041, "cohens_kappa": 0.1092}
-KAPPA_MATRIX_GATE = {("BUY", "BUY"): 32, ("BUY", "HOLD"): 43, ("BUY", "SELL"): 21,
+#
+# 2026-08-21: reference moved from the 171-pair N=233 universe to the 170-pair
+# N=232 universe (DIS_FQ1_2025 excluded for look-ahead, ruling of 2026-08-24 in
+# eval/excluded_events.py). At the superseded constants DIS's pair was
+# human BUY / LLM HOLD - a disagreement - so agreements stay 65 and only the
+# BUY/HOLD cell and the denominators move. The old 171-pair reference remains
+# recorded here: n=171, obs=0.3801, exp=0.3041, kappa=0.1092, BUY/HOLD=43.
+KAPPA_GATE = {"n_paired_events": 170, "observed_agreement": 0.3824,
+              "expected_agreement": 0.3048, "cohens_kappa": 0.1115}
+KAPPA_MATRIX_GATE = {("BUY", "BUY"): 32, ("BUY", "HOLD"): 42, ("BUY", "SELL"): 21,
                      ("HOLD", "BUY"): 6, ("HOLD", "HOLD"): 14, ("HOLD", "SELL"): 20,
                      ("SELL", "BUY"): 4, ("SELL", "HOLD"): 12, ("SELL", "SELL"): 19}
 FRONTIER_GATE = {"eval_n": 186, "graded_n": 119, "correct_flat_excluded": 51,
                  "correct_flat_as_wrong": 82, "ci_low": 0.353, "ci_high": 0.504}
+
+# 2026-08-21: the three baseline rows are no longer carried through unchanged.
+# They went stale when the Lowe's dateline correction re-fitted the baseline
+# dev thresholds (7012bd9 regenerated the eval CSVs; frontier_table kept the
+# pre-re-fit rows: FinBERT 41/119, 60/186, traded 147, CI [0.277, 0.420];
+# LM 18/119, 65/186, traded 59 - all of which reproduce exactly from the
+# pre-7012bd9 CSV vintages, validating this method). The rows now rebuild from
+# the committed per-event eval CSVs in the tree. This gate pins what those
+# INPUT artifacts assert - stable across runs of this script, so it is not a
+# read-what-you-write gate.
+BASELINE_INPUT_GATE = {
+    "Majority-class HOLD": {"flat_excluded": 65, "flat_as_wrong": 67, "traded": 0},
+    "Loughran-McDonald (LM)": {"flat_excluded": 4, "flat_as_wrong": 70, "traded": 6},
+    "FinBERT (ProsusAI/finbert)": {"flat_excluded": 21, "flat_as_wrong": 61, "traded": 75},
+}
+FINBERT_EVAL_CSV = SUMMARY / "finbert_eval_results.csv"
+LM_EVAL_CSV = SUMMARY / "lm_baseline_eval_results.csv"
 
 
 def _num(x):
@@ -205,6 +229,8 @@ def main() -> int:
           f"{'all 9 cells reproduce' if not bad else 'differs at ' + ', '.join(bad)}")
     fails += bad
     fails += gate("frontier", f["superseded"], FRONTIER_GATE, tol=5e-4)
+    baselines, bfails = build_baselines()
+    fails += bfails
 
     if fails:
         raise SystemExit(f"\n{len(fails)} gate check(s) failed. Nothing written.")
@@ -221,7 +247,7 @@ def main() -> int:
           f"{fd['acc_flat_as_wrong']*100:.1f}%")
 
     write_kappa(d, kl, kh)
-    write_frontier(fd)
+    write_frontier(fd, baselines)
     return 0
 
 
@@ -231,7 +257,8 @@ def write_kappa(d, ci_low, ci_high):
     with KAPPA_CSV.open("w", newline="") as fh:
         fh.write("# Cohen's kappa: human vs LLM directional calls\n")
         fh.write("# Subset: section=All, first_rater_for_event=YES, in_llm_universe=YES,\n")
-        fh.write("#   document_id in N=233 clean universe (25 worksheet + 1 SPOT + 9 timing excluded)\n")
+        fh.write("#   document_id in N=232 clean universe (25 worksheet + 1 SPOT + "
+                 "1 DIS look-ahead + 9 timing excluded)\n")
         fh.write("# LLM decision: blend.derive_signal over blend.blend_scores\n")
         fh.write(f"#   (deployed weights {'/'.join(str(x) for x in d['weights'])}, "
                  f"thresholds {d['hu']:+g}/{d['hl']:+g})\n")
@@ -261,8 +288,62 @@ def write_kappa(d, ci_low, ci_high):
     print(f"  Wrote {KAPPA_CSV}")
 
 
-def write_frontier(fd):
-    """Rewrite only the deployed-model row; the three baselines are untouched."""
+def _bootstrap_prop_ci(hits):
+    hits = np.asarray(hits, dtype=float)
+    rng = np.random.RandomState(RNG_SEED)
+    boot = np.array([hits[rng.randint(0, len(hits), len(hits))].mean()
+                     for _ in range(N_BOOT)])
+    alpha = 1 - CI
+    return (float(np.percentile(boot, 100 * alpha / 2)),
+            float(np.percentile(boot, 100 * (1 - alpha / 2))))
+
+
+def build_baselines():
+    """Baseline rows recomputed from the committed per-event eval CSVs, in CSV
+    row order (date order). Gated against BASELINE_INPUT_GATE."""
+    def load(path, sig_col):
+        with path.open(newline="") as fh:
+            return [r for r in csv.DictReader(
+                l for l in fh if not l.startswith("#")) if r.get("document_id")]
+
+    fe = load(FINBERT_EVAL_CSV, "finbert_predicted_signal")
+    le = load(LM_EVAL_CSV, "lm_predicted_signal")
+    out = {}
+    for method, rows, sig_col in (
+            ("Majority-class HOLD", fe, None),
+            ("Loughran-McDonald (LM)", le, "lm_predicted_signal"),
+            ("FinBERT (ProsusAI/finbert)", fe, "finbert_predicted_signal")):
+        graded = [r for r in rows if r["outcome_label"] != "HOLD"]
+        if sig_col is None:
+            # always-HOLD baseline; FLAT-excluded convention = always-DOWN
+            hits = [1.0 if r["outcome_label"] == "SELL" else 0.0 for r in graded]
+            excl = int(sum(hits))
+            wrong = sum(1 for r in rows if r["outcome_label"] == "HOLD")
+            traded = 0
+        else:
+            hits = [1.0 if r[sig_col] == r["outcome_label"] else 0.0 for r in graded]
+            excl = int(sum(hits))
+            wrong = sum(1 for r in rows if r[sig_col] == r["outcome_label"])
+            traded = sum(1 for r in rows if r[sig_col] in ("BUY", "SELL"))
+        lo, hi = _bootstrap_prop_ci(hits)
+        out[method] = {"flat_excluded": excl, "flat_as_wrong": wrong,
+                       "traded": traded, "graded_n": len(graded), "eval_n": len(rows),
+                       "ci_low": lo, "ci_high": hi}
+    fails = []
+    for method, want in BASELINE_INPUT_GATE.items():
+        got = out[method]
+        for key, v in want.items():
+            ok = got[key] == v
+            print(f"  [{'OK' if ok else 'FAIL'}] baseline {method}.{key}: "
+                  f"gate={v}, recomputed={got[key]}")
+            if not ok:
+                fails.append(f"baseline.{method}.{key}")
+    return out, fails
+
+
+def write_frontier(fd, baselines):
+    """Rewrite the deployed-model row and the three baseline rows; both derive
+    from committed inputs (the calibration chain and the eval CSVs)."""
     lines = FRONTIER_CSV.read_text().splitlines()
     body = [l for l in lines if not l.startswith("#")]
     rows = list(csv.DictReader([l for l in body if l.strip()]))
@@ -277,9 +358,19 @@ def write_frontier(fd):
             r["bootstrap_ci_flat_excluded"] = f"[{fd['ci_low']:.3f}, {fd['ci_high']:.3f}]"
             r["note"] = (f"Structured output with evidence quotes; API cost per document. "
                          f"FLAT-excluded: {fd['correct_flat_excluded']}/{fd['graded_n']}.")
+        elif r["method"] in baselines:
+            b = baselines[r["method"]]
+            r["accuracy_flat_excluded"] = f"{b['flat_excluded'] / b['graded_n']:.4f}"
+            r["accuracy_flat_as_wrong"] = f"{b['flat_as_wrong'] / b['eval_n']:.4f}"
+            r["traded_n"] = b["traded"]
+            r["bootstrap_ci_flat_excluded"] = f"[{b['ci_low']:.3f}, {b['ci_high']:.3f}]"
+            note = r["note"].split("FLAT-excluded:")[0].rstrip()
+            r["note"] = (f"{note} FLAT-excluded: "
+                         f"{'always-DOWN = ' if r['method'].startswith('Majority') else ''}"
+                         f"{b['flat_excluded']}/{b['graded_n']}.")
     with FRONTIER_CSV.open("w", newline="") as fh:
-        fh.write(f"# Event set: eval split (latest 80% by report_date) of N=233 clean events "
-                 f"(35 excluded). Total eval: {fd['eval_n']} events; {fd['graded_n']} graded "
+        fh.write(f"# Event set: eval split (latest 80% by report_date) of N=232 clean events "
+                 f"(36 excluded). Total eval: {fd['eval_n']} events; {fd['graded_n']} graded "
                  f"(|ret_overnight|>2%).\n")
         fh.write("# Grading: overnight returns from returns_matrix.csv (release_date anchor, "
                  "2026-08-12 correction), pre-registered +-2% band.\n")
@@ -288,11 +379,15 @@ def write_frontier(fd):
                  "moved event = wrong).\n")
         fh.write("# Majority-direction (FLAT-excluded) = always-DOWN (predict SELL on every event) "
                  f"= 65/{fd['graded_n']}. This is the eval-split floor, NOT the full-sample floor "
-                 "(52/95 on N=233).\n#\n")
+                 "(59/109 on N=232 at the deployed constants).\n#\n")
         fh.write(f"# Deployed-model row regenerated {date.today().isoformat()} by "
                  "experiments/kappa_and_frontier.py at blend.py's current constants,\n")
         fh.write("# gated first at the superseded 0.55/0.45 +0.25/-0.05 (51/119 and 82/186 "
-                 "reproduce exactly). The three baselines do not read blend.py and are unchanged.\n")
+                 "reproduce exactly).\n")
+        fh.write("# Baseline rows rebuilt from the committed per-event eval CSVs "
+                 "(finbert_eval_results.csv, lm_baseline_eval_results.csv), which carry the\n")
+        fh.write("# post-Lowe's-dateline threshold fit; the pre-re-fit rows (FinBERT 41/119, "
+                 "traded 147; LM 18/119, traded 59) reproduce from the pre-7012bd9 vintages.\n")
         fh.write("# The three figures 42.2% / eval-split FLAT-excluded / eval-split FLAT-as-wrong "
                  "differ in event set and convention, NOT in substance.\n")
         fh.write("# DO NOT cite them together without saying which is which.\n#\n")

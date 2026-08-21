@@ -32,8 +32,11 @@ from scipy.stats import norm, spearmanr
 from backtest import OUTPUTS_DIR
 from blend import DEFAULT_WEIGHTS, blend_scores, derive_signal
 from bootstrap_stats import bootstrap_unpaired_difference
+from eval.excluded_events import EXCLUDED_EVENTS
 
 PHASE2_CALIBRATION_CSV = OUTPUTS_DIR / "global" / "summary" / "global_outcome_calibration_phase2.csv"
+LEAK_FLAGS_CSV = OUTPUTS_DIR / "global" / "summary" / "worksheet_leak_flags.csv"
+RETURNS_MATRIX_CSV = OUTPUTS_DIR / "global" / "summary" / "returns_matrix.csv"
 CONFUSION_CSV = OUTPUTS_DIR / "global" / "summary" / "asymmetry_direction_confusion.csv"
 MAGNITUDE_CSV = OUTPUTS_DIR / "global" / "summary" / "asymmetry_magnitude_bins.csv"
 SCORE_MAGNITUDE_CSV = OUTPUTS_DIR / "global" / "summary" / "asymmetry_score_magnitude_bins.csv"
@@ -50,10 +53,30 @@ def _num(x):
     return float(x)
 
 
+def clean_universe_exclusions() -> set[str]:
+    """The same three exclusion sources every other consumer applies:
+    eval/excluded_events.py (bad documents), worksheet leakage, and the
+    timing-excluded flag in returns_matrix.csv. This script read the full
+    N=268 calibration file without any of them until 2026-08-21 (ledger L13)."""
+    excluded = set(EXCLUDED_EVENTS)
+    with open(LEAK_FLAGS_CSV, encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if r["has_human_score"] == "True":
+                excluded.add(r["document_id"])
+    with open(RETURNS_MATRIX_CSV, encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if r["timing_excluded"] == "YES":
+                excluded.add(r["document_id"])
+    return excluded
+
+
 def load_rows(path: Path = PHASE2_CALIBRATION_CSV) -> list[dict]:
+    excluded = clean_universe_exclusions()
     rows = []
     with open(path, encoding="utf-8") as fh:
         for r in csv.DictReader(fh):
+            if r["document_id"] in excluded:
+                continue
             micro = _num(r["micro_score"])
             macro = _num(r["macro_score"])
             news = _num(r["news_score"])
