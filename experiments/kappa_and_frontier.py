@@ -50,9 +50,16 @@ EVAL_SPLIT_FRACTION = 0.20  # earliest 20% by release date is the dev split
 
 # What the committed artefacts assert. The gate is against these, not against
 # anything this script computes twice.
-KAPPA_GATE = {"n_paired_events": 171, "observed_agreement": 0.3801,
-              "expected_agreement": 0.3041, "cohens_kappa": 0.1092}
-KAPPA_MATRIX_GATE = {("BUY", "BUY"): 32, ("BUY", "HOLD"): 43, ("BUY", "SELL"): 21,
+#
+# 2026-08-21: reference moved from the 171-pair N=233 universe to the 170-pair
+# N=232 universe (DIS_FQ1_2025 excluded for look-ahead, ruling of 2026-08-24 in
+# eval/excluded_events.py). At the superseded constants DIS's pair was
+# human BUY / LLM HOLD - a disagreement - so agreements stay 65 and only the
+# BUY/HOLD cell and the denominators move. The old 171-pair reference remains
+# recorded here: n=171, obs=0.3801, exp=0.3041, kappa=0.1092, BUY/HOLD=43.
+KAPPA_GATE = {"n_paired_events": 170, "observed_agreement": 0.3824,
+              "expected_agreement": 0.3048, "cohens_kappa": 0.1115}
+KAPPA_MATRIX_GATE = {("BUY", "BUY"): 32, ("BUY", "HOLD"): 42, ("BUY", "SELL"): 21,
                      ("HOLD", "BUY"): 6, ("HOLD", "HOLD"): 14, ("HOLD", "SELL"): 20,
                      ("SELL", "BUY"): 4, ("SELL", "HOLD"): 12, ("SELL", "SELL"): 19}
 FRONTIER_GATE = {"eval_n": 186, "graded_n": 119, "correct_flat_excluded": 51,
@@ -231,7 +238,8 @@ def write_kappa(d, ci_low, ci_high):
     with KAPPA_CSV.open("w", newline="") as fh:
         fh.write("# Cohen's kappa: human vs LLM directional calls\n")
         fh.write("# Subset: section=All, first_rater_for_event=YES, in_llm_universe=YES,\n")
-        fh.write("#   document_id in N=233 clean universe (25 worksheet + 1 SPOT + 9 timing excluded)\n")
+        fh.write("#   document_id in N=232 clean universe (25 worksheet + 1 SPOT + "
+                 "1 DIS look-ahead + 9 timing excluded)\n")
         fh.write("# LLM decision: blend.derive_signal over blend.blend_scores\n")
         fh.write(f"#   (deployed weights {'/'.join(str(x) for x in d['weights'])}, "
                  f"thresholds {d['hu']:+g}/{d['hl']:+g})\n")
@@ -278,8 +286,8 @@ def write_frontier(fd):
             r["note"] = (f"Structured output with evidence quotes; API cost per document. "
                          f"FLAT-excluded: {fd['correct_flat_excluded']}/{fd['graded_n']}.")
     with FRONTIER_CSV.open("w", newline="") as fh:
-        fh.write(f"# Event set: eval split (latest 80% by report_date) of N=233 clean events "
-                 f"(35 excluded). Total eval: {fd['eval_n']} events; {fd['graded_n']} graded "
+        fh.write(f"# Event set: eval split (latest 80% by report_date) of N=232 clean events "
+                 f"(36 excluded). Total eval: {fd['eval_n']} events; {fd['graded_n']} graded "
                  f"(|ret_overnight|>2%).\n")
         fh.write("# Grading: overnight returns from returns_matrix.csv (release_date anchor, "
                  "2026-08-12 correction), pre-registered +-2% band.\n")
@@ -288,7 +296,7 @@ def write_frontier(fd):
                  "moved event = wrong).\n")
         fh.write("# Majority-direction (FLAT-excluded) = always-DOWN (predict SELL on every event) "
                  f"= 65/{fd['graded_n']}. This is the eval-split floor, NOT the full-sample floor "
-                 "(52/95 on N=233).\n#\n")
+                 "(59/109 on N=232 at the deployed constants).\n#\n")
         fh.write(f"# Deployed-model row regenerated {date.today().isoformat()} by "
                  "experiments/kappa_and_frontier.py at blend.py's current constants,\n")
         fh.write("# gated first at the superseded 0.55/0.45 +0.25/-0.05 (51/119 and 82/186 "
