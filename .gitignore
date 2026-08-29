@@ -17,3 +17,13 @@ data/quantitative/sheet_export_cache/
 Human vs LLM results.xlsx
 Human vs LLM results.ods
 Human vs LLM results(Data Entry).csv
+
+# final report and its sources - never committed to this repo
+report/
+report context/
+
+# local scratch and workbooks
+scratch_recompute/
+Master_Data_NEW.ods
+*.bak
+.pytest_cache/
