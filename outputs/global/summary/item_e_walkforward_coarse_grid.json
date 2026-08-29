@@ -1,0 +1,169 @@
+{
+  "label": "Item E follow-up \u2014 coarser/simpler threshold search spaces, same rolling-window engine and N=233 event set as walkforward_validation.py. RETROSPECTIVE, NOT PRE-REGISTERED.",
+  "n_clean_events": 233,
+  "original_fine_grid": {
+    "grid_note": "original fine grid, 0.05 step, ~90 combos",
+    "n_windows": 4,
+    "mean_net_degenerate": 3,
+    "accuracy_degenerate": 2,
+    "both_degenerate": true
+  },
+  "variants": {
+    "coarse_asymmetric": {
+      "grid_note": "30 valid (hu,hl) combos vs original ~90 (0.05 step)",
+      "mean_net_objective": {
+        "n_windows": 4,
+        "degenerate_windows": 3,
+        "fitted_thresholds_by_window": [
+          {
+            "window_idx": 0,
+            "fitted_upper": 0.35,
+            "fitted_lower": -0.5,
+            "test_trades": 8
+          },
+          {
+            "window_idx": 1,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.5,
+            "test_trades": 0
+          },
+          {
+            "window_idx": 2,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.5,
+            "test_trades": 0
+          },
+          {
+            "window_idx": 3,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.5,
+            "test_trades": 0
+          }
+        ],
+        "pooled_oos": {
+          "n_trades": 8,
+          "n_graded": 4,
+          "n_correct": 2,
+          "accuracy": 0.5,
+          "mean_net_pct": 1.5424
+        }
+      },
+      "accuracy_objective": {
+        "n_windows": 4,
+        "degenerate_windows": 2,
+        "fitted_thresholds_by_window": [
+          {
+            "window_idx": 0,
+            "fitted_upper": 0.35,
+            "fitted_lower": -0.2,
+            "test_trades": 12
+          },
+          {
+            "window_idx": 1,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.2,
+            "test_trades": 3
+          },
+          {
+            "window_idx": 2,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.0,
+            "test_trades": 16
+          },
+          {
+            "window_idx": 3,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.0,
+            "test_trades": 2
+          }
+        ],
+        "pooled_oos": {
+          "n_trades": 33,
+          "n_graded": 18,
+          "n_correct": 11,
+          "accuracy": 0.6111,
+          "mean_net_pct": 0.4076
+        }
+      },
+      "both_degenerate": true
+    },
+    "symmetric_band": {
+      "grid_note": "10 valid t values vs original ~90 (hu,hl) combos",
+      "mean_net_objective": {
+        "n_windows": 4,
+        "degenerate_windows": 4,
+        "fitted_thresholds_by_window": [
+          {
+            "window_idx": 0,
+            "fitted_upper": 0.5,
+            "fitted_lower": -0.5,
+            "test_trades": 2
+          },
+          {
+            "window_idx": 1,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.45,
+            "test_trades": 0
+          },
+          {
+            "window_idx": 2,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.45,
+            "test_trades": 0
+          },
+          {
+            "window_idx": 3,
+            "fitted_upper": 0.45,
+            "fitted_lower": -0.45,
+            "test_trades": 0
+          }
+        ],
+        "pooled_oos": {
+          "n_trades": 2,
+          "n_graded": 2,
+          "n_correct": 1,
+          "accuracy": 0.5,
+          "mean_net_pct": 3.1286
+        }
+      },
+      "accuracy_objective": {
+        "n_windows": 4,
+        "degenerate_windows": 2,
+        "fitted_thresholds_by_window": [
+          {
+            "window_idx": 0,
+            "fitted_upper": 0.35,
+            "fitted_lower": -0.35,
+            "test_trades": 8
+          },
+          {
+            "window_idx": 1,
+            "fitted_upper": 0.35,
+            "fitted_lower": -0.35,
+            "test_trades": 8
+          },
+          {
+            "window_idx": 2,
+            "fitted_upper": 0.35,
+            "fitted_lower": -0.35,
+            "test_trades": 1
+          },
+          {
+            "window_idx": 3,
+            "fitted_upper": 0.35,
+            "fitted_lower": -0.35,
+            "test_trades": 0
+          }
+        ],
+        "pooled_oos": {
+          "n_trades": 17,
+          "n_graded": 12,
+          "n_correct": 8,
+          "accuracy": 0.6667,
+          "mean_net_pct": 2.644
+        }
+      },
+      "both_degenerate": true
+    }
+  }
+}

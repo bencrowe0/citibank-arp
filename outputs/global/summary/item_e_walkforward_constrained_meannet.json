@@ -1,0 +1,49 @@
+{
+  "label": "Constrained mean-net objective (15% min-trade floor) diagnostic, N=233, DIAGNOSTIC ONLY",
+  "results": {
+    "calendar_quarter_constrained": {
+      "n_windows": 4,
+      "degenerate_windows": 2,
+      "pooled_oos": {
+        "n_trades": 19,
+        "n_graded": 12,
+        "n_correct": 7,
+        "accuracy": 0.5833,
+        "mean_net_pct": 0.9423
+      }
+    },
+    "equal_count_4w_constrained": {
+      "n_windows": 4,
+      "degenerate_windows": 2,
+      "test_window_sizes": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "pooled_oos": {
+        "n_trades": 18,
+        "n_graded": 13,
+        "n_correct": 8,
+        "accuracy": 0.6154,
+        "mean_net_pct": 0.5632
+      }
+    },
+    "equal_count_3w_constrained": {
+      "n_windows": 3,
+      "degenerate_windows": 2,
+      "test_window_sizes": [
+        46,
+        46,
+        48
+      ],
+      "pooled_oos": {
+        "n_trades": 21,
+        "n_graded": 14,
+        "n_correct": 9,
+        "accuracy": 0.6429,
+        "mean_net_pct": 1.6933
+      }
+    }
+  }
+}
