@@ -60,7 +60,7 @@ from bootstrap_stats import DEFAULT_CI, RNG_SEED, bootstrap_paired_difference
 from experiments.walkforward_validation import _evaluate_thresholds, _load_clean_events
 from phase2.ods_utils import load_ods_root, load_table_rows
 
-WORKBOOK = BASE_DIR / "report context" / "our work" / "Master_Data_Phase_3.ods"
+WORKBOOK = BASE_DIR / "data" / "workbook" / "Master_Data_Phase_3.ods"
 OUT_DIR = BASE_DIR / "outputs" / "appendix"
 OUT_CSV = OUT_DIR / "appendix_g_h2_statistics.csv"
 OUT_JSON = OUT_DIR / "appendix_g_h2_statistics.json"
