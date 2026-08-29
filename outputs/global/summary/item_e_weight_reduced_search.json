@@ -1,0 +1,105 @@
+{
+  "label": "Reduced-dimension weight/threshold search, N=233 clean universe. RETROSPECTIVE - NOT PRE-REGISTERED. Addresses CLAUDE.md's own flagged gap: does a smaller, honestly-disclosed search surface a weighting that clears PSR/permutation, unlike the original 113,344-combo N=161 search that produced the deployed default (PSR=0.0, permutation p=0.150 at selection time).",
+  "n_clean_events": 233,
+  "cost_bps": 10.0,
+  "short_borrow_bps": 0.0,
+  "min_trade_floor": 34,
+  "min_trade_fraction": 0.15,
+  "weight_grid": {
+    "step": 0.05,
+    "n_points": 21,
+    "note": "micro+macro=1, news=0, quant=0 - fixed, not searched (see module docstring)"
+  },
+  "deployed_default_reference": {
+    "weights": [
+      0.55,
+      0.45,
+      0.0,
+      0.0
+    ],
+    "hold_upper": 0.25,
+    "hold_lower": -0.05,
+    "total_return_pct": 1001.03,
+    "n_trades": 146,
+    "mean_net_per_trade_pct": 1.8617,
+    "note": "Evaluated on the same N=233 docs for comparability. Its own PSR=0.0/p=0.150 figure comes from the original N=161/113,344-combo search and is NOT recomputed here."
+  },
+  "variant_A_coarse_asymmetric": {
+    "label": "A_coarse_asymmetric",
+    "n_combos_total": 525,
+    "n_combos_eligible": 405,
+    "min_trade_floor": 34,
+    "global_best": {
+      "total_return_pct": 1379.23,
+      "avg_net_per_trade_pct": 1.7976,
+      "sharpe_per_trade": 3.676,
+      "n_trades": 169,
+      "weights": {
+        "micro": 0.8,
+        "macro": 0.2,
+        "news": 0.0,
+        "quant": 0.0
+      },
+      "hold_upper": 0.2,
+      "hold_lower": -0.1,
+      "n_tied_eligible": 1,
+      "deflated_sharpe": {
+        "sr0_expected_max_under_null": 3.1418,
+        "skew": 1.1803,
+        "kurtosis": 6.3715,
+        "psr": 0.9641,
+        "n_trials_corrected_for": 525
+      },
+      "bootstrap_90ci_mean_net_pct": {
+        "ci_low": 1.0234,
+        "ci_high": 2.5967
+      }
+    },
+    "permutation_p_vs_gap_shuffles": 0.0002,
+    "loocv": {
+      "total_return_pct": 654.49,
+      "avg_net_per_trade_pct": 1.4005,
+      "hit_rate": 0.5833,
+      "n_trades": 168
+    }
+  },
+  "variant_B_symmetric": {
+    "label": "B_symmetric",
+    "n_combos_total": 210,
+    "n_combos_eligible": 151,
+    "min_trade_floor": 34,
+    "global_best": {
+      "total_return_pct": 1182.82,
+      "avg_net_per_trade_pct": 1.4229,
+      "sharpe_per_trade": 3.395,
+      "n_trades": 205,
+      "weights": {
+        "micro": 0.6,
+        "macro": 0.4,
+        "news": 0.0,
+        "quant": 0.0
+      },
+      "hold_upper": 0.05,
+      "hold_lower": -0.05,
+      "n_tied_eligible": 1,
+      "deflated_sharpe": {
+        "sr0_expected_max_under_null": 2.8612,
+        "skew": 1.2638,
+        "kurtosis": 7.0207,
+        "psr": 0.979,
+        "n_trials_corrected_for": 210
+      },
+      "bootstrap_90ci_mean_net_pct": {
+        "ci_low": 0.7454,
+        "ci_high": 2.125
+      }
+    },
+    "permutation_p_vs_gap_shuffles": 0.0004,
+    "loocv": {
+      "total_return_pct": 496.0,
+      "avg_net_per_trade_pct": 1.0808,
+      "hit_rate": 0.5693,
+      "n_trades": 202
+    }
+  }
+}

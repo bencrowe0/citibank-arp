@@ -1,0 +1,273 @@
+{
+  "label": "Full 4-layer (micro/macro/news/quant) reduced-dimension weight/threshold search, N=233 clean universe. RETROSPECTIVE - NOT PRE-REGISTERED. 6 cells swept (3 weight-grid steps x 2 threshold-grid variants), none cherry-picked.",
+  "n_clean_events": 233,
+  "cost_bps": 10.0,
+  "short_borrow_bps": 0.0,
+  "min_trade_floor": 34,
+  "min_trade_fraction": 0.15,
+  "weight_steps": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "threshold_variants": [
+    "coarse_asymmetric (5x5=25 pairs)",
+    "symmetric (10 values, hold_upper=-hold_lower)"
+  ],
+  "deployed_default_reference": {
+    "weights": [
+      0.55,
+      0.45,
+      0.0,
+      0.0
+    ],
+    "hold_upper": 0.25,
+    "hold_lower": -0.05,
+    "total_return_pct": 1001.03,
+    "n_trades": 146,
+    "mean_net_per_trade_pct": 1.8617,
+    "note": "Its own PSR=0.0/p=0.150 figure comes from the original N=161/113,344-combo search and is NOT recomputed here."
+  },
+  "cells": [
+    {
+      "label": "step0.05_coarse_asymmetric",
+      "n_combos_total": 44275,
+      "n_combos_eligible": 26794,
+      "min_trade_floor": 34,
+      "status": "OK",
+      "global_best": {
+        "total_return_pct": 1479.14,
+        "avg_net_per_trade_pct": 1.8918,
+        "sharpe_per_trade": 3.769,
+        "n_trades": 164,
+        "weights": {
+          "micro": 0.7,
+          "macro": 0.25,
+          "news": 0.0,
+          "quant": 0.05
+        },
+        "hold_upper": 0.2,
+        "hold_lower": -0.1,
+        "n_tied_eligible": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 9.2564,
+          "skew": 1.1421,
+          "kurtosis": 6.2065,
+          "psr": 0.0,
+          "n_trials_corrected_for": 44275
+        },
+        "bootstrap_90ci_mean_net_pct": {
+          "ci_low": 1.074,
+          "ci_high": 2.7353
+        }
+      },
+      "permutation_p_vs_gap_shuffles": 0.0002,
+      "loocv": {
+        "total_return_pct": 486.36,
+        "avg_net_per_trade_pct": 1.2441,
+        "hit_rate": 0.5765,
+        "n_trades": 170
+      }
+    },
+    {
+      "label": "step0.05_symmetric",
+      "n_combos_total": 17710,
+      "n_combos_eligible": 9595,
+      "min_trade_floor": 34,
+      "status": "OK",
+      "global_best": {
+        "total_return_pct": 1369.07,
+        "avg_net_per_trade_pct": 1.5347,
+        "sharpe_per_trade": 3.453,
+        "n_trades": 201,
+        "weights": {
+          "micro": 0.8,
+          "macro": 0.15,
+          "news": 0.0,
+          "quant": 0.05
+        },
+        "hold_upper": 0.1,
+        "hold_lower": -0.1,
+        "n_tied_eligible": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 11.2464,
+          "skew": 1.0747,
+          "kurtosis": 6.2689,
+          "psr": 0.0,
+          "n_trials_corrected_for": 17710
+        },
+        "bootstrap_90ci_mean_net_pct": {
+          "ci_low": 0.8198,
+          "ci_high": 2.2709
+        }
+      },
+      "permutation_p_vs_gap_shuffles": 0.0014,
+      "loocv": {
+        "total_return_pct": 909.71,
+        "avg_net_per_trade_pct": 1.3505,
+        "hit_rate": 0.607,
+        "n_trades": 201
+      }
+    },
+    {
+      "label": "step0.10_coarse_asymmetric",
+      "n_combos_total": 7150,
+      "n_combos_eligible": 4432,
+      "min_trade_floor": 34,
+      "status": "OK",
+      "global_best": {
+        "total_return_pct": 1379.23,
+        "avg_net_per_trade_pct": 1.7976,
+        "sharpe_per_trade": 3.676,
+        "n_trades": 169,
+        "weights": {
+          "micro": 0.8,
+          "macro": 0.2,
+          "news": 0.0,
+          "quant": 0.0
+        },
+        "hold_upper": 0.2,
+        "hold_lower": -0.1,
+        "n_tied_eligible": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 8.3293,
+          "skew": 1.1803,
+          "kurtosis": 6.3715,
+          "psr": 0.0,
+          "n_trials_corrected_for": 7150
+        },
+        "bootstrap_90ci_mean_net_pct": {
+          "ci_low": 1.0234,
+          "ci_high": 2.5967
+        }
+      },
+      "permutation_p_vs_gap_shuffles": 0.0002,
+      "loocv": {
+        "total_return_pct": 459.09,
+        "avg_net_per_trade_pct": 1.2019,
+        "hit_rate": 0.5789,
+        "n_trades": 171
+      }
+    },
+    {
+      "label": "step0.10_symmetric",
+      "n_combos_total": 2860,
+      "n_combos_eligible": 1594,
+      "min_trade_floor": 34,
+      "status": "OK",
+      "global_best": {
+        "total_return_pct": 1182.82,
+        "avg_net_per_trade_pct": 1.4229,
+        "sharpe_per_trade": 3.395,
+        "n_trades": 205,
+        "weights": {
+          "micro": 0.6,
+          "macro": 0.4,
+          "news": 0.0,
+          "quant": 0.0
+        },
+        "hold_upper": 0.05,
+        "hold_lower": -0.05,
+        "n_tied_eligible": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 9.5902,
+          "skew": 1.2638,
+          "kurtosis": 7.0207,
+          "psr": 0.0,
+          "n_trials_corrected_for": 2860
+        },
+        "bootstrap_90ci_mean_net_pct": {
+          "ci_low": 0.7454,
+          "ci_high": 2.125
+        }
+      },
+      "permutation_p_vs_gap_shuffles": 0.0016,
+      "loocv": {
+        "total_return_pct": 344.34,
+        "avg_net_per_trade_pct": 0.923,
+        "hit_rate": 0.5594,
+        "n_trades": 202
+      }
+    },
+    {
+      "label": "step0.20_coarse_asymmetric",
+      "n_combos_total": 1400,
+      "n_combos_eligible": 915,
+      "min_trade_floor": 34,
+      "status": "OK",
+      "global_best": {
+        "total_return_pct": 1379.23,
+        "avg_net_per_trade_pct": 1.7976,
+        "sharpe_per_trade": 3.676,
+        "n_trades": 169,
+        "weights": {
+          "micro": 0.8,
+          "macro": 0.2,
+          "news": 0.0,
+          "quant": 0.0
+        },
+        "hold_upper": 0.2,
+        "hold_lower": -0.1,
+        "n_tied_eligible": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 6.0482,
+          "skew": 1.1803,
+          "kurtosis": 6.3715,
+          "psr": 0.0,
+          "n_trials_corrected_for": 1400
+        },
+        "bootstrap_90ci_mean_net_pct": {
+          "ci_low": 1.0234,
+          "ci_high": 2.5967
+        }
+      },
+      "permutation_p_vs_gap_shuffles": 0.0002,
+      "loocv": {
+        "total_return_pct": 1116.15,
+        "avg_net_per_trade_pct": 1.6795,
+        "hit_rate": 0.6071,
+        "n_trades": 168
+      }
+    },
+    {
+      "label": "step0.20_symmetric",
+      "n_combos_total": 560,
+      "n_combos_eligible": 328,
+      "min_trade_floor": 34,
+      "status": "OK",
+      "global_best": {
+        "total_return_pct": 1182.82,
+        "avg_net_per_trade_pct": 1.4229,
+        "sharpe_per_trade": 3.395,
+        "n_trades": 205,
+        "weights": {
+          "micro": 0.6,
+          "macro": 0.4,
+          "news": 0.0,
+          "quant": 0.0
+        },
+        "hold_upper": 0.05,
+        "hold_lower": -0.05,
+        "n_tied_eligible": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 7.4849,
+          "skew": 1.2638,
+          "kurtosis": 7.0207,
+          "psr": 0.0,
+          "n_trials_corrected_for": 560
+        },
+        "bootstrap_90ci_mean_net_pct": {
+          "ci_low": 0.7454,
+          "ci_high": 2.125
+        }
+      },
+      "permutation_p_vs_gap_shuffles": 0.0014,
+      "loocv": {
+        "total_return_pct": 819.94,
+        "avg_net_per_trade_pct": 1.2513,
+        "hit_rate": 0.5865,
+        "n_trades": 208
+      }
+    }
+  ]
+}
