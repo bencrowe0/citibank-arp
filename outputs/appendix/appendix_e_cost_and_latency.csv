@@ -1,5 +1,5 @@
 # Appendix E: cost, latency, and breakeven-cost evidence (backs Section 4.2).
-# Breakeven figures: ext9_cost_grid_n233.json, N=233 CORRECTED release_date anchor.
+# Breakeven figures: ext9_cost_grid.json, N=233 CORRECTED release_date anchor.
 # That file also holds a block computed on the superseded report_date anchor, which its
 # own notes warn must not be tabulated alongside these; that block is not exported here.
 # API cost is recomputed from api_cost_ledger.csv's micro-layer rows (macro is excluded
@@ -10,14 +10,14 @@
 # (N=326, Section='All' readings in Master_Data_Phase_3.ods) this gives the 102x-136x range cited in Section 4.2.
 # Cost and latency are both weight-independent.
 metric,value,source
-n_predictions,232,ext9_cost_grid_n233.json
-n_excluded,36,ext9_cost_grid_n233.json
-n_trades_at_10bps,168,ext9_cost_grid_n233.json
-mean_net_at_10bps_pct,1.7963,ext9_cost_grid_n233.json
-compounded_return_at_10bps_pct,1349.97,ext9_cost_grid_n233.json
-breakeven_compounded_total_return_bps,170.15,ext9_cost_grid_n233.json
-breakeven_mean_net_per_trade_bps,189.62,ext9_cost_grid_n233.json
-anchor,"corrected release_date (returns_matrix.csv entry_date, 2026-08-12)",ext9_cost_grid_n233.json
+n_predictions,232,ext9_cost_grid.json
+n_excluded,36,ext9_cost_grid.json
+n_trades_at_10bps,168,ext9_cost_grid.json
+mean_net_at_10bps_pct,1.7963,ext9_cost_grid.json
+compounded_return_at_10bps_pct,1349.97,ext9_cost_grid.json
+breakeven_compounded_total_return_bps,170.15,ext9_cost_grid.json
+breakeven_mean_net_per_trade_bps,189.62,ext9_cost_grid.json
+anchor,"corrected release_date (returns_matrix.csv entry_date, 2026-08-12)",ext9_cost_grid.json
 api_cost_per_prediction_usd_mean,0.0094,api_cost_ledger.csv (layer=micro rows)
 api_cost_ledger_micro_rows,262,api_cost_ledger.csv
 api_cost_total_micro_usd,2.4629,api_cost_ledger.csv

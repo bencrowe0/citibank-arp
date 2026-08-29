@@ -499,19 +499,20 @@ def main() -> int:
         ("paired model accuracy", ps["model_accuracy"], 0.623, 0.002),
         ("paired human accuracy", ps["human_accuracy"], 0.564, 0.002),
         ("paired gap (pp)", ps["gap_pp"], 5.9, 0.1),
-        ("paired z-test p", ps["p_value"], 0.464, 0.02),
+        ("paired z-test p", ps["p_value"], 0.467, 0.002),
         ("paired MDE (pp)", ps["mde_pp"], 26.6, 0.05),
         ("Cohen's kappa", ps["cohens_kappa"], 0.139, 0.005),
-        ("model hold rate", ps["model_hold_rate"], 0.310, 0.005),
-        ("human hold rate", ps["human_hold_rate"], 0.234, 0.005),
+        ("model hold rate", ps["model_hold_rate"], 0.312, 0.001),
+        ("human hold rate", ps["human_hold_rate"], 0.235, 0.001),
         ("both-traded n", bt["n_events"], 85, 0),
         ("both-traded agreeing", bt["n_agreeing_on_direction"], 69, 0),
         ("both-traded diff (pp)", bt["mean_difference_pp"], -0.03, 0.05),
-        # Report states MDE +/-1.27pp and HANDOFF +/-1.29pp; this script's own
-        # derivation gives 1.32pp. The three differ only by SE/estimator
-        # convention, all round to "about 1.3pp", and none changes the verdict
-        # (a null). The script's value is the one with a committed derivation.
-        ("both-traded MDE (pp)", bt["mde_pp"], 1.32, 0.02),
+        # Section 4.2 no longer quotes this MDE: the passage was rewritten to
+        # report the 16-event disagreement subset instead, because the 85-event
+        # MDE is narrow only because 56 of the paired differences are
+        # identically zero. Kept as a regression check on this script's own
+        # derivation, not as a report figure.
+        ("both-traded MDE (pp), not quoted in report", bt["mde_pp"], 1.34, 0.005),
         # Section 3.4's "roughly 1.8pp" is the three-way accuracy gap.
         ("three-way accuracy gap (pp)",
          results["accuracy_conventions"]["three_way_accuracy_gap_pp"], 1.75, 0.05),
@@ -520,9 +521,9 @@ def main() -> int:
         ("three-way accuracy, human",
          results["accuracy_conventions"]["three_way_accuracy_human"], 0.382, 0.002),
         ("coverage accuracy, model",
-         results["accuracy_conventions"]["coverage_accuracy_model"], 0.444, 0.002),
+         results["accuracy_conventions"]["coverage_accuracy_model"], 0.443, 0.001),
         ("coverage accuracy, human",
-         results["accuracy_conventions"]["coverage_accuracy_human"], 0.455, 0.002),
+         results["accuracy_conventions"]["coverage_accuracy_human"], 0.454, 0.001),
     ]
     print("Verification against the figures published in the report:")
     failures = 0

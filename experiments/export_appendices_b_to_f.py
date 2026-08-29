@@ -267,18 +267,20 @@ def export_e() -> None:
     _human_mins = _human_secs / 60
     _human_n = len(_full)
 
-    grid = _load_json("ext9_cost_grid_n233.json")
-    n233 = grid["n233_corrected_anchor"]
+    grid = _load_json("ext9_cost_grid.json")
+    # "n233_corrected_anchor" is a legacy key name: the block it holds was
+    # regenerated on the N=232 universe (n_predictions 232, n_excluded 36).
+    corrected = grid["n233_corrected_anchor"]
 
     rows = []
-    for k, v in n233.items():
+    for k, v in corrected.items():
         if isinstance(v, (int, float, str)):
-            rows.append({"metric": k, "value": v, "source": "ext9_cost_grid_n233.json"})
+            rows.append({"metric": k, "value": v, "source": "ext9_cost_grid.json"})
         elif isinstance(v, dict):
             for kk, vv in v.items():
                 if isinstance(vv, (int, float, str)):
                     rows.append({"metric": f"{k}.{kk}", "value": vv,
-                                 "source": "ext9_cost_grid_n233.json"})
+                                 "source": "ext9_cost_grid.json"})
 
     # API cost per prediction, recomputed from the ledger's micro-layer rows.
     with open(SUMMARY / "api_cost_ledger.csv", encoding="utf-8") as f:
@@ -298,7 +300,7 @@ def export_e() -> None:
         OUT_DIR / "appendix_e_cost_and_latency.csv",
         [
             "Appendix E: cost, latency, and breakeven-cost evidence (backs Section 4.2).",
-            "Breakeven figures: ext9_cost_grid_n233.json, N=233 CORRECTED release_date anchor.",
+            "Breakeven figures: ext9_cost_grid.json, N=233 CORRECTED release_date anchor.",
             "That file also holds a block computed on the superseded report_date anchor, which its",
             "own notes warn must not be tabulated alongside these; that block is not exported here.",
             "API cost is recomputed from api_cost_ledger.csv's micro-layer rows (macro is excluded",
