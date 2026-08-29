@@ -6,8 +6,8 @@
 # because one FOMC score is reused across many company-quarters and is not attributable
 # to a single prediction).
 # Measured latency (source: model_latency_2026-08-15.md, 624 API calls): mean 15.92s,
-# IQR 12.95s-17.31s. Paired against the human full-arm mean of 29.8 min/document
-# (N=190) this gives the 103x-138x range cited in Section 4.2.
+# IQR 12.95s-17.31s. Paired against the human full-arm mean of 29.31 min/document
+# (N=326, Section='All' readings in Master_Data_Phase_3.ods) this gives the 102x-136x range cited in Section 4.2.
 # Cost and latency are both weight-independent.
 metric,value,source
 n_predictions,232,ext9_cost_grid_n233.json

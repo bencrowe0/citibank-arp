@@ -257,6 +257,16 @@ def export_d() -> None:
 # Appendix E: cost, latency, breakeven
 # --------------------------------------------------------------------------
 def export_e() -> None:
+    # Human reading time from the workbook of record, not a second workbook.
+    from statistics import mean as _mean
+
+    from experiments.human_arm_significance import load_human_rows
+    _full = [float(r["Time (sec)"]) for r in load_human_rows()
+             if r.get("Section", "").strip() == "All" and r.get("Time (sec)", "").strip()]
+    _human_secs = _mean(_full)
+    _human_mins = _human_secs / 60
+    _human_n = len(_full)
+
     grid = _load_json("ext9_cost_grid_n233.json")
     n233 = grid["n233_corrected_anchor"]
 
@@ -295,8 +305,9 @@ def export_e() -> None:
             "because one FOMC score is reused across many company-quarters and is not attributable",
             "to a single prediction).",
             "Measured latency (source: model_latency_2026-08-15.md, 624 API calls): mean 15.92s,",
-            "IQR 12.95s-17.31s. Paired against the human full-arm mean of 29.8 min/document",
-            "(N=190) this gives the 103x-138x range cited in Section 4.2.",
+            f"IQR 12.95s-17.31s. Paired against the human full-arm mean of {_human_mins:.2f} min/document",
+            f"(N={_human_n}, Section='All' readings in Master_Data_Phase_3.ods) this gives the "
+            f"{_human_secs/17.31:.0f}x-{_human_secs/12.95:.0f}x range cited in Section 4.2.",
             "Cost and latency are both weight-independent.",
         ],
         ["metric", "value", "source"],
