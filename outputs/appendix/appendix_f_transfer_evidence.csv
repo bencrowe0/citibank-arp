@@ -1,0 +1,31 @@
+# Appendix F: cross-issuer transfer evidence (backs Section 4.3).
+# Source: item_e_walkforward.json, genuinely_unseen block, deployed weights.
+# 'post_sweep' are issuers scored AFTER the original threshold sweep, with zero issuer
+# overlap with the in-sweep set.
+# IMPORTANT CAVEAT, carried verbatim from the source file: sweep membership is
+# RECONSTRUCTED, inferred from issuer ordering and a document-count match, not from a
+# recorded event list; 453 single-swap alternatives also produce the same count. The two
+# subsets also span overlapping, interleaved date ranges, so this tests ISSUER transfer,
+# not temporal generalisation.
+# The 93-event extension's pre-registered accuracy prior is documented separately in
+# extension_preregistration_2026-08-13.md, dated before any extension document was
+# gathered; that document is the evidence for Section 4.3's 'predicted-then-contradicted'
+# argument.
+group,metric,value
+in_sweep,n_issuers,40
+in_sweep,n_events,131
+in_sweep,n_trades,87
+in_sweep,n_graded,50
+in_sweep,selectivity_accuracy,0.58
+in_sweep,mean_net_per_trade_pct,0.59
+post_sweep,n_issuers,29
+post_sweep,n_events,101
+post_sweep,n_trades,81
+post_sweep,n_graded,59
+post_sweep,n_correct,39
+post_sweep,selectivity_accuracy,0.661
+post_sweep,mean_net_per_trade_pct,3.092
+post_sweep,majority_direction_floor,0.5254
+post_sweep,margin_vs_floor_pp,13.6
+post_sweep,binomial_p,0.0244
+post_sweep,mde_pp,19.5

@@ -1,0 +1,122 @@
+{
+  "label": "H2 statistical chain: human arm vs model, N=233 clean universe.",
+  "deployed_weights_micro_macro_news_quant": [
+    0.8,
+    0.2,
+    0.0,
+    0.0
+  ],
+  "hold_upper": 0.2,
+  "hold_lower": -0.1,
+  "flat_band": 0.02,
+  "seed": 20260709,
+  "model_in_sample": {
+    "n_clean_events": 232,
+    "n_trades": 168,
+    "n_graded": 109,
+    "n_correct": 68,
+    "accuracy": 0.6238532110091743,
+    "mean_net_per_trade_pct": 1.7963017857142858
+  },
+  "workbook_rows_total": 420,
+  "human_returns": {
+    "n_frozen_traded_rows": 223,
+    "n_repriced": 205,
+    "n_fallback_to_original": 18,
+    "mean_net_repriced_only_pct": -0.06494048780487806,
+    "mean_net_with_fallback_pct": -0.08916053811659193,
+    "mean_net_rater_weighted_pct": 0.028655574205399836,
+    "per_rater_mean_pct": {
+      "Abdul": 1.8972,
+      "Anna": -0.7047,
+      "David": -4.4082,
+      "Dragos": 0.7085,
+      "Meriem": 2.7139,
+      "Nigel": -0.0347
+    },
+    "per_rater_n": {
+      "Abdul": 44,
+      "Anna": 35,
+      "David": 38,
+      "Dragos": 32,
+      "Meriem": 25,
+      "Nigel": 49
+    }
+  },
+  "h2_return_gap": {
+    "n205_repriced_only": {
+      "n_model": 168,
+      "n_human": 205,
+      "model_mean_pct": 1.7963017857142858,
+      "human_mean_pct": -0.06494048780487806,
+      "mean_difference_pp": 1.8612422735191636,
+      "ci_low_pp": 0.6720538369057949,
+      "ci_high_pp": 3.0389900753748615,
+      "n_clusters_model": 56,
+      "n_clusters_human": 61,
+      "permutation_p": 0.012899355032248387,
+      "n_permutations": 20000
+    },
+    "n223_with_fallback": {
+      "n_model": 168,
+      "n_human": 223,
+      "model_mean_pct": 1.7963017857142858,
+      "human_mean_pct": -0.08916053811659193,
+      "mean_difference_pp": 1.8854623238308774,
+      "ci_low_pp": 0.7313951538059456,
+      "ci_high_pp": 3.0663581368608654,
+      "n_clusters_model": 56,
+      "n_clusters_human": 63,
+      "permutation_p": 0.0095995200239988,
+      "n_permutations": 20000
+    }
+  },
+  "paired_subset": {
+    "n_paired_events": 170,
+    "model_correct": 43,
+    "model_graded": 69,
+    "model_accuracy": 0.6231884057971014,
+    "human_correct": 44,
+    "human_graded": 78,
+    "human_accuracy": 0.5641025641025641,
+    "gap_pp": 5.908584169453734,
+    "z": 0.7274090318305563,
+    "p_value": 0.46697542330419384,
+    "mde_pp": 26.638238823746384,
+    "cohens_kappa": 0.13912333242581,
+    "kappa_ci_low": 0.050691244239631325,
+    "kappa_ci_high": 0.22619979656724493,
+    "model_hold_rate": 0.31176470588235294,
+    "human_hold_rate": 0.23529411764705882,
+    "hold_rate_gap_pp": 7.647058823529412
+  },
+  "accuracy_conventions": {
+    "n_paired_events": 170,
+    "n_graded_total": 97,
+    "n_ungraded_inside_band": 73,
+    "model_correct_on_graded": 43,
+    "human_correct_on_graded": 44,
+    "model_holds_on_ungraded": 25,
+    "human_holds_on_ungraded": 21,
+    "coverage_accuracy_model": 0.44329896907216493,
+    "coverage_accuracy_human": 0.4536082474226804,
+    "coverage_accuracy_gap_pp": -1.0309278350515483,
+    "three_way_accuracy_model": 0.4,
+    "three_way_accuracy_human": 0.38235294117647056,
+    "three_way_accuracy_gap_pp": 1.764705882352946,
+    "decomposition_hold_mechanism_pp": 2.3529411764705883,
+    "decomposition_graded_judgement_pp": -0.5882352941176471
+  },
+  "both_traded_subset": {
+    "n_events": 85,
+    "n_agreeing_on_direction": 69,
+    "model_mean_pct": 1.1906317647058824,
+    "human_mean_pct": 1.2198717647058823,
+    "mean_difference_pp": -0.029240000000000075,
+    "ci_low_pp": -0.6949053529411765,
+    "ci_high_pp": 0.6201841176470586,
+    "clustered_ci_low_pp": -1.1962175991133723,
+    "clustered_ci_high_pp": 1.1516089522137072,
+    "mde_pp": 1.3393205455334767
+  }
+}

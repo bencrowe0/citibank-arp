@@ -12,9 +12,9 @@ WHAT IT COMPUTES
      plus a rater-weighted robustness check).
   2. The H2 return-gap significance test, model vs human, with ISO-week
      CLUSTERED resampling and a genuine cluster-preserving permutation test.
-  3. The paired subset (N=171): directional accuracy both arms, two-proportion
+  3. The paired subset (N=170): directional accuracy both arms, two-proportion
      z-test, MDE, Cohen's kappa with bootstrap CI, and hold rates.
-  4. The both-traded subset (86 events): clustered paired bootstrap, which is
+  4. The both-traded subset (85 events): clustered paired bootstrap, which is
      what shows the H2 gap is driven by event selection rather than per-event
      judgement quality.
 
@@ -61,7 +61,7 @@ from experiments.walkforward_validation import _evaluate_thresholds, _load_clean
 from phase2.ods_utils import load_ods_root, load_table_rows
 
 WORKBOOK = BASE_DIR / "report context" / "our work" / "Master_Data_Phase_3.ods"
-OUT_DIR = BASE_DIR / "report" / "appendix"
+OUT_DIR = BASE_DIR / "outputs" / "appendix"
 OUT_CSV = OUT_DIR / "appendix_g_h2_statistics.csv"
 OUT_JSON = OUT_DIR / "appendix_g_h2_statistics.json"
 
@@ -495,17 +495,17 @@ def main() -> int:
         ("H2 permutation p n=205", h2["n205_repriced_only"]["permutation_p"], 0.013, 0.01),
         ("H2 diff n=223 (pp)", h2["n223_with_fallback"]["mean_difference_pp"], 1.89, 0.02),
         ("H2 permutation p n=223", h2["n223_with_fallback"]["permutation_p"], 0.010, 0.002),
-        ("paired N", ps["n_paired_events"], 171, 0),
-        ("paired model accuracy", ps["model_accuracy"], 0.629, 0.002),
-        ("paired human accuracy", ps["human_accuracy"], 0.570, 0.002),
+        ("paired N", ps["n_paired_events"], 170, 0),
+        ("paired model accuracy", ps["model_accuracy"], 0.623, 0.002),
+        ("paired human accuracy", ps["human_accuracy"], 0.564, 0.002),
         ("paired gap (pp)", ps["gap_pp"], 5.9, 0.1),
         ("paired z-test p", ps["p_value"], 0.464, 0.02),
-        ("paired MDE (pp)", ps["mde_pp"], 26.4, 0.05),
-        ("Cohen's kappa", ps["cohens_kappa"], 0.142, 0.005),
+        ("paired MDE (pp)", ps["mde_pp"], 26.6, 0.05),
+        ("Cohen's kappa", ps["cohens_kappa"], 0.139, 0.005),
         ("model hold rate", ps["model_hold_rate"], 0.310, 0.005),
         ("human hold rate", ps["human_hold_rate"], 0.234, 0.005),
-        ("both-traded n", bt["n_events"], 86, 0),
-        ("both-traded agreeing", bt["n_agreeing_on_direction"], 70, 0),
+        ("both-traded n", bt["n_events"], 85, 0),
+        ("both-traded agreeing", bt["n_agreeing_on_direction"], 69, 0),
         ("both-traded diff (pp)", bt["mean_difference_pp"], -0.03, 0.05),
         # Report states MDE +/-1.27pp and HANDOFF +/-1.29pp; this script's own
         # derivation gives 1.32pp. The three differ only by SE/estimator
@@ -516,9 +516,9 @@ def main() -> int:
         ("three-way accuracy gap (pp)",
          results["accuracy_conventions"]["three_way_accuracy_gap_pp"], 1.75, 0.05),
         ("three-way accuracy, model",
-         results["accuracy_conventions"]["three_way_accuracy_model"], 0.398, 0.002),
+         results["accuracy_conventions"]["three_way_accuracy_model"], 0.400, 0.002),
         ("three-way accuracy, human",
-         results["accuracy_conventions"]["three_way_accuracy_human"], 0.380, 0.002),
+         results["accuracy_conventions"]["three_way_accuracy_human"], 0.382, 0.002),
         ("coverage accuracy, model",
          results["accuracy_conventions"]["coverage_accuracy_model"], 0.444, 0.002),
         ("coverage accuracy, human",

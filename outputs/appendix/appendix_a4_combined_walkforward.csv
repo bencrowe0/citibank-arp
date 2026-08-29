@@ -1,0 +1,15 @@
+# Appendix A4: combined rolling walk-forward, N=325
+# Source: outputs/global/summary/item_e_combined_walkforward.json
+# n_combined_events: 325 (232 clean + 93 extension)
+# Retrospective: all 325 events were already seen before this analysis was run.
+objective,window_idx,test_trades,test_n_graded,test_n_correct,test_accuracy,test_mean_net
+mean_net_per_trade,0,3,2,1,0.5,0.0138897
+mean_net_per_trade,1,2,2,1,0.5,-0.0208875
+mean_net_per_trade,2,0,0,0,,0.0
+mean_net_per_trade,3,0,0,0,,0.0
+mean_net_per_trade,POOLED,5,4,2,0.5,-0.0021
+directional_accuracy,0,25,16,10,0.625,0.0137127
+directional_accuracy,1,13,8,7,0.875,0.0389875
+directional_accuracy,2,7,4,3,0.75,0.037429
+directional_accuracy,3,2,2,1,0.5,-0.023938
+directional_accuracy,POOLED,47,30,21,0.7,2.2634

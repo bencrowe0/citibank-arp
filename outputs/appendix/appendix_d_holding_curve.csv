@@ -1,0 +1,14 @@
+# Appendix D: H1 evidence, rank correlation and return across holding horizons
+# (backs Sections 3.4 and 4.1).
+# Source: ext2_holding_curve.csv, produced by experiments/holding_period_curve.py
+# at the deployed weights (micro 0.80 / macro 0.20, thresholds +0.20 / -0.10).
+# The overnight +/-2% band is PRE-REGISTERED; all longer-horizon bands are
+# RECALIBRATED and secondary. Returns are alternative versions of the same trade,
+# never compounded across horizons.
+# Per-trade statistics at the overnight horizon (computed live from the clean set): n_trades=168, mean_net=1.7963%, sd=6.3756%, t_statistic=3.6519, info_ratio=0.2817.
+horizon,spearman_rho,rho_p_value,mean_net_per_trade_pct,bootstrap_90ci_low_pct,bootstrap_90ci_high_pct,selectivity_accuracy,n_graded,n_traded,hold_band,band_status
+overnight,0.2565,7.77e-05,1.7963,1.0009,2.6281,0.6239,109,168,0.02,pre-registered
+1d,0.1952,0.002831,1.1832,0.3271,2.0805,0.6018,113,168,0.022497,recalibrated
+3d,0.1353,0.03951,0.8296,-0.072,1.7674,0.5263,114,168,0.025207,recalibrated
+5d,0.0972,0.1401,0.9369,-0.0341,1.9485,0.5189,106,168,0.027189,recalibrated
+10d,0.0951,0.1488,1.4455,0.2807,2.6466,0.5702,114,168,0.035159,recalibrated

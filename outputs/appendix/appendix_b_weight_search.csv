@@ -1,0 +1,23 @@
+# Appendix B: weight/threshold selection-validity search (backs Sections 3.1 and 3.5).
+# Sources: item_e_weight_reduced_search.json, item_e_weight_search_full4.json.
+# N=233 clean events; cost_bps=10.0; minimum-trade floor=34 (15% of N).
+# RETROSPECTIVE, NOT PRE-REGISTERED.
+# 'dsr' is the Deflated Sharpe Ratio (Bailey and Lopez de Prado, 2014): the Sharpe corrected
+# for how many combinations were searched, via sr0 (expected max Sharpe under a zero-skill
+# null given that trial count). The deployed combination is the restricted search's
+# coarse-asymmetric winner: micro 0.80 / macro 0.20, thresholds +0.20 / -0.10, DSR 0.964.
+# The full four-layer search converges on the SAME weights and thresholds at two of its
+# three grid steps when news and quant are free to earn weight and decline it; all six of
+# its cells score DSR 0.0 because opening two noisier layers inflates sr0 to 6.0-11.2,
+# raising the bar the winner must clear even though the winner itself does not move.
+# Each source file also contains a comparison block for a superseded weighting; that block
+# is deliberately not exported here.
+search,cell,n_combos_total,n_combos_eligible,min_trade_floor,best_micro,best_macro,best_news,best_quant,best_hold_upper,best_hold_lower,n_trades,mean_net_per_trade_pct,sharpe_per_trade,dsr,dsr_sr0_expected_max_under_null,dsr_n_trials_corrected_for,permutation_p,loocv_mean_net_per_trade_pct,loocv_n_trades
+restricted_micro_macro,A_coarse_asymmetric,525,405,34,0.8,0.2,0.0,0.0,0.2,-0.1,169,1.7976,3.676,0.9641,3.1418,525,0.0002,1.4005,168
+restricted_micro_macro,B_symmetric,210,151,34,0.6,0.4,0.0,0.0,0.05,-0.05,205,1.4229,3.395,0.979,2.8612,210,0.0004,1.0808,202
+full_four_layer,step0.05_coarse_asymmetric,44275,26794,34,0.7,0.25,0.0,0.05,0.2,-0.1,164,1.8918,3.769,0.0,9.2564,44275,0.0002,1.2441,170
+full_four_layer,step0.05_symmetric,17710,9595,34,0.8,0.15,0.0,0.05,0.1,-0.1,201,1.5347,3.453,0.0,11.2464,17710,0.0014,1.3505,201
+full_four_layer,step0.10_coarse_asymmetric,7150,4432,34,0.8,0.2,0.0,0.0,0.2,-0.1,169,1.7976,3.676,0.0,8.3293,7150,0.0002,1.2019,171
+full_four_layer,step0.10_symmetric,2860,1594,34,0.6,0.4,0.0,0.0,0.05,-0.05,205,1.4229,3.395,0.0,9.5902,2860,0.0016,0.923,202
+full_four_layer,step0.20_coarse_asymmetric,1400,915,34,0.8,0.2,0.0,0.0,0.2,-0.1,169,1.7976,3.676,0.0,6.0482,1400,0.0002,1.6795,168
+full_four_layer,step0.20_symmetric,560,328,34,0.6,0.4,0.0,0.0,0.05,-0.05,205,1.4229,3.395,0.0,7.4849,560,0.0014,1.2513,208

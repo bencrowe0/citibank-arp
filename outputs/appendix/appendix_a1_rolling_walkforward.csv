@@ -1,0 +1,16 @@
+# Appendix A1: N=233 rolling walk-forward, per-window detail, both objectives
+# Source: outputs/global/summary/item_e_walkforward.json
+# n_clean_events: 232, date_range: 2023-04-25 to 2026-07-14
+# weights_fixed: [0.8, 0.2, 0.0, 0.0], cost_bps: 10.0
+# window_idx=POOLED rows are the pooled out-of-sample result across all windows.
+objective,window_idx,train_cutoff,test_start,test_end,fitted_upper,fitted_lower,train_n,train_trades,train_accuracy,test_trades,test_n_graded,test_n_correct,test_accuracy,test_mean_net
+mean_net_per_trade,0,2025-09-30,2025-10-09,2025-12-18,0.5,-0.5,99,3,1.0,3,2,1,0.5,0.013889666666666663
+mean_net_per_trade,1,2025-12-31,2026-01-13,2026-03-19,0.5,-0.5,146,6,0.8,2,2,1,0.5,-0.020887500000000003
+mean_net_per_trade,2,2026-03-31,2026-04-13,2026-06-23,0.5,-0.5,196,8,0.7142857142857143,0,0,0,,0.0
+mean_net_per_trade,3,2026-06-30,2026-07-01,2026-07-14,0.5,-0.5,229,8,0.7142857142857143,0,0,0,,0.0
+mean_net_per_trade,POOLED,,,,,,,,,5,4,2,0.5,-0.0021
+directional_accuracy,0,2025-09-30,2025-10-09,2025-12-18,0.45,-0.2,99,31,0.8235294117647058,19,13,7,0.5384615384615384,0.004995631578947367
+directional_accuracy,1,2025-12-31,2026-01-13,2026-03-19,0.5,-0.1,146,40,0.7407407407407407,12,8,7,0.875,0.04267808333333333
+directional_accuracy,2,2026-03-31,2026-04-13,2026-06-23,0.5,-0.1,196,52,0.7714285714285715,5,3,2,0.6666666666666666,0.0318006
+directional_accuracy,3,2026-06-30,2026-07-01,2026-07-14,0.5,-0.1,229,57,0.7631578947368421,2,2,1,0.5,-0.023937999999999997
+directional_accuracy,POOLED,,,,,,,,,38,26,17,0.6538,1.89

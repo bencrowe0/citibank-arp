@@ -1,0 +1,11 @@
+# Appendix A2: grid-resolution robustness check (coarser threshold grids), N=233
+# Source: outputs/global/summary/item_e_walkforward_coarse_grid.json
+# Tests whether the main walk-forward's degeneracy is an artefact of the fine
+# (0.05-step) threshold grid. It is not: coarser grids reproduce the same failure.
+variant,grid_note,objective,degenerate_windows,total_windows,pooled_n_trades,pooled_n_graded,pooled_accuracy,pooled_mean_net_pct
+original_fine_grid,"original fine grid, 0.05 step, ~90 combos",mean_net_per_trade,3,4,,,,
+original_fine_grid,"original fine grid, 0.05 step, ~90 combos",directional_accuracy,2,4,,,,
+coarse_asymmetric,"30 valid (hu,hl) combos vs original ~90 (0.05 step)",mean_net_per_trade,3,4,8,4,0.5,1.5424
+coarse_asymmetric,"30 valid (hu,hl) combos vs original ~90 (0.05 step)",directional_accuracy,2,4,33,18,0.6111,0.4076
+symmetric_band,"10 valid t values vs original ~90 (hu,hl) combos",mean_net_per_trade,4,4,2,2,0.5,3.1286
+symmetric_band,"10 valid t values vs original ~90 (hu,hl) combos",directional_accuracy,2,4,17,12,0.6667,2.644

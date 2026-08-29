@@ -20,8 +20,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CSV_PATH = BASE_DIR / "report" / "appendix" / "appendix_a3_best_effort_grid.csv"
-OUT_PNG = BASE_DIR / "report" / "appendix" / "figure_walkforward_grid.png"
+CSV_PATH = BASE_DIR / "outputs" / "appendix" / "appendix_a3_best_effort_grid.csv"
+OUT_PNG = BASE_DIR / "outputs" / "appendix" / "figure_walkforward_grid.png"
 
 WINDOW_SCHEMES = ["calendar_quarter", "equal_count_2w", "equal_count_3w", "equal_count_4w", "equal_count_5w"]
 WINDOW_LABELS = ["Calendar\nquarter", "Equal count\n(2 windows)", "Equal count\n(3 windows)", "Equal count\n(4 windows)", "Equal count\n(5 windows)"]

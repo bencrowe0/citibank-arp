@@ -1,0 +1,25 @@
+# Appendix A3: 20-cell best-effort swept grid, N=233
+# Source: outputs/global/summary/item_e_walkforward_best_effort.json
+# Item E best-effort walk-forward -- full swept grid, N=233, NO NEW DATA. RETROSPECTIVE, NOT PRE-REGISTERED. Additional robustness layer on top of item_e_walkforward.json (unchanged, still canonical).
+# 5 window schemes x {mean-net at 10/15/20% min-trade floor, accuracy at fixed 15%}
+label,n_windows,degenerate_windows,n_trades,n_graded,n_correct,accuracy,mean_net_pct,bootstrap_ci_low,bootstrap_ci_high,majority_direction_floor,majority_direction_label,margin_vs_floor_pp,binomial_p,mde_pp
+calendar_quarter / mean_net(floor=10%),4,3,15,13,7,0.5385,1.0871,-2.4711,4.9325,0.5385,always-DOWN,0.0,0.6115,41.5
+calendar_quarter / mean_net(floor=15%),4,2,20,14,8,0.5714,2.0252,-1.0968,5.3978,0.5714,always-DOWN,0.0,0.6105,39.7
+calendar_quarter / mean_net(floor=20%),4,2,20,14,8,0.5714,2.0252,-1.0968,5.3978,0.5714,always-DOWN,0.0,0.6105,39.7
+"calendar_quarter / accuracy(floor=15%, fixed)",4,1,38,26,17,0.6538,1.89,-0.1717,3.9914,0.6538,always-DOWN,0.0,0.5894,28.0
+equal_count_2w / mean_net(floor=10%),2,0,24,18,12,0.6667,3.993,0.6704,7.5189,0.6111,always-DOWN,5.6,0.4117,34.5
+equal_count_2w / mean_net(floor=15%),2,0,24,18,12,0.6667,3.993,0.6704,7.5189,0.6111,always-DOWN,5.6,0.4117,34.5
+equal_count_2w / mean_net(floor=20%),2,0,24,18,12,0.6667,3.993,0.6704,7.5189,0.6111,always-DOWN,5.6,0.4117,34.5
+"equal_count_2w / accuracy(floor=15%, fixed)",2,0,35,25,15,0.6,2.2569,-0.2484,4.8535,0.52,always-DOWN,8.0,0.2751,30.0
+equal_count_3w / mean_net(floor=10%),3,1,21,15,9,0.6,3.4556,-0.22,7.3983,0.5333,always-DOWN,6.7,0.4006,38.7
+equal_count_3w / mean_net(floor=15%),3,1,21,15,9,0.6,3.4556,-0.22,7.3983,0.5333,always-DOWN,6.7,0.4006,38.7
+equal_count_3w / mean_net(floor=20%),3,1,21,15,9,0.6,3.4556,-0.22,7.3983,0.5333,always-DOWN,6.7,0.4006,38.7
+"equal_count_3w / accuracy(floor=15%, fixed)",3,0,33,21,14,0.6667,3.0478,0.6255,5.7122,0.5714,always-DOWN,9.5,0.2567,32.4
+equal_count_4w / mean_net(floor=10%),4,1,22,16,10,0.625,3.4948,0.0281,7.2383,0.5625,always-DOWN,6.2,0.405,37.3
+equal_count_4w / mean_net(floor=15%),4,1,22,16,10,0.625,3.4948,0.0281,7.2383,0.5625,always-DOWN,6.2,0.405,37.3
+equal_count_4w / mean_net(floor=20%),4,1,22,16,10,0.625,3.4948,0.0281,7.2383,0.5625,always-DOWN,6.2,0.405,37.3
+"equal_count_4w / accuracy(floor=15%, fixed)",4,0,30,19,12,0.6316,3.0701,0.4277,6.0324,0.5789,always-DOWN,5.3,0.4132,34.0
+equal_count_5w / mean_net(floor=10%),5,3,21,16,10,0.625,3.6191,-0.0618,7.5252,0.5625,always-DOWN,6.2,0.405,37.3
+equal_count_5w / mean_net(floor=15%),5,3,22,16,10,0.625,3.4948,0.0281,7.2383,0.5625,always-DOWN,6.2,0.405,37.3
+equal_count_5w / mean_net(floor=20%),5,3,22,16,10,0.625,3.4948,0.0281,7.2383,0.5625,always-DOWN,6.2,0.405,37.3
+"equal_count_5w / accuracy(floor=15%, fixed)",5,1,33,23,16,0.6957,3.5505,1.062,6.227,0.6522,always-DOWN,4.3,0.4222,29.8

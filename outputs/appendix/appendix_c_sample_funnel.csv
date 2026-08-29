@@ -1,0 +1,17 @@
+# Appendix C: sample construction and exclusions (backs Section 3.2).
+# Exclusion steps 1-4 sourced from effective_sample_funnel.md and recounted against
+# worksheet_leak_flags.csv. These steps are weight-independent.
+# Steps 5-7 are weight-DEPENDENT and are taken from item_e_walkforward.json's
+# in_sample_deployed block at the deployed weights (micro 0.80 / macro 0.20,
+# thresholds +0.20 / -0.10). They are NOT copied from effective_sample_funnel.md,
+# whose own trading rows predate the deployed weighting and would understate the
+# traded and graded counts.
+# Deployed: 168 traded, 109 graded, 68 correct, accuracy 0.6239, mean net 1.7963%.
+step,n_remaining,n_lost,reason,weight_dependent
+1. Total company-quarters scored,268,,,no
+2. After worksheet-contamination exclusion,243,25,LLM input included a human rater worksheet (recounted from worksheet_leak_flags.csv),no
+3. After misattributed-document exclusion,242,1,SPOT_FQ1_2026 misattribution,no
+4. After timing exclusion (clean universe),233,9,"9 non-US issuers, overnight timing unresolved",no
+5. Model called BUY or SELL (traded),168,65,"Model called HOLD: no trade, no directional test",YES
+6. Overnight |return| > 2% band (graded),109,59,Return inside the pre-registered +/-2% band: traded but ungraded,YES
+7. Of which directionally correct,68,41,Selectivity accuracy 0.6239,YES

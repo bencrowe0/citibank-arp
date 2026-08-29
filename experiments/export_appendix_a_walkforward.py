@@ -26,7 +26,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SUMMARY_DIR = BASE_DIR / "outputs" / "global" / "summary"
-OUT_DIR = BASE_DIR / "report" / "appendix"
+OUT_DIR = BASE_DIR / "outputs" / "appendix"
 
 
 def _load(name):

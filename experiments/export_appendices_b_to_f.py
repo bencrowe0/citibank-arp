@@ -37,7 +37,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SUMMARY = BASE_DIR / "outputs" / "global" / "summary"
-OUT_DIR = BASE_DIR / "report" / "appendix"
+OUT_DIR = BASE_DIR / "outputs" / "appendix"
 
 
 def _load_json(name: str) -> dict:
@@ -207,8 +207,27 @@ def export_d() -> None:
             "band_status": r["band_status"],
         })
 
-    with open(SUMMARY / "per_trade_stats.csv", encoding="utf-8") as f:
-        stats = {r["metric"]: r["value"] for r in csv.DictReader(f)}
+    # Computed live rather than read from per_trade_stats.csv, which is stale
+    # (146 trades at the superseded weighting) and schema-drifted.
+    from statistics import mean, pstdev
+
+    from blend import DEFAULT_HOLD_LOWER, DEFAULT_HOLD_UPPER
+    from experiments.walkforward_validation import (
+        _evaluate_thresholds, _load_clean_events)
+
+    _events = _load_clean_events()
+    _sig = {s["document_id"]: s for s in _evaluate_thresholds(
+        _events, DEFAULT_HOLD_UPPER, DEFAULT_HOLD_LOWER)["signals"]}
+    _nets = [(_sig[e["document_id"]]["position"] * e["ret_overnight"] - 0.001) * 100
+             for e in _events if _sig[e["document_id"]]["position"] != 0]
+    _m, _sd = mean(_nets), pstdev(_nets)
+    stats = {
+        "n_trades": len(_nets),
+        "mean_net_per_trade_pct": round(_m, 4),
+        "sd_pct": round(_sd, 4),
+        "t_statistic": round(_m / _sd * len(_nets) ** 0.5, 4),
+        "info_ratio_per_trade": round(_m / _sd, 4),
+    }
 
     _write(
         OUT_DIR / "appendix_d_holding_curve.csv",
@@ -220,7 +239,7 @@ def export_d() -> None:
             "The overnight +/-2% band is PRE-REGISTERED; all longer-horizon bands are",
             "RECALIBRATED and secondary. Returns are alternative versions of the same trade,",
             "never compounded across horizons.",
-            "Per-trade statistics at the overnight horizon (source: per_trade_stats.csv): "
+            "Per-trade statistics at the overnight horizon (computed live from the clean set): "
             f"n_trades={stats.get('n_trades')}, "
             f"mean_net={stats.get('mean_net_per_trade_pct')}%, "
             f"sd={stats.get('sd_pct')}%, "
